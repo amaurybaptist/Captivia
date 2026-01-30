@@ -1,0 +1,163 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// User model for authentication
+model User {
+  id        String   @id @default(cuid())
+  username  String   @unique
+  email     String?  @unique
+  password  String
+  role      String   @default("user") // user, expert, admin
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  // Relations
+  savedSpecies   UserSpecies[]
+  userHistory    UserHistory[]
+  expertReviews  ExpertReview[]
+}
+
+// Species main model
+model Species {
+  id              String   @id @default(cuid())
+  commonName      String
+  scientificName  String
+  category        String   // reptiles, amphibians, invertebrates, mammals, etc.
+  origin          String
+  status          String   // CITES, UICN, etc.
+  difficulty      Int      // 1-5 (1=easy, 5=hard)
+  description     String
+  behavior        String?
+  lifespan        String?
+  reproduction    String?
+  compatibility   String?
+  gbifKey        Int?     // usageKey from GBIF
+  gbifNubKey     Int?     // NUB key
+  taxonId        String?  // taxonID (e.g., gbif:147345877)
+  iucnCategory   String?  // IUCN category
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  // Relations
+  details         SpeciesDetails?
+  maintenance     Maintenance?
+  media           Media[]
+  legal           Legal[]
+  savedBy         UserSpecies[]
+  expertReviews   ExpertReview[]
+  
+  @@index([gbifKey])
+  @@index([taxonId])
+}
+
+// Detailed species information
+model SpeciesDetails {
+  id              String   @id @default(cuid())
+  speciesId       String   @unique
+  description     String
+  behavior        String?
+  lifespan        String?
+  reproduction    String?
+  compatibility   String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  species         Species  @relation(fields: [speciesId], references: [id], onDelete: Cascade)
+}
+
+// Maintenance requirements
+model Maintenance {
+  id              String   @id @default(cuid())
+  speciesId       String   @unique
+  enclosureType   String   // terrarium, vivarium, paludarium, enclosure
+  dimensions      String?  // minimum dimensions
+  temperatureDay  String?
+  temperatureNight String?
+  humidity        String?
+  lighting        String?  // UVB, photoperiod
+  substrate       String?
+  decorations     String?
+  commonMistakes  String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  species         Species  @relation(fields: [speciesId], references: [id], onDelete: Cascade)
+}
+
+// Media (photos, diagrams, etc.)
+model Media {
+  id              String   @id @default(cuid())
+  speciesId       String
+  type            String   // photo, diagram, sketch, schematic
+  url             String
+  caption         String?
+  order           Int      @default(0)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  species         Species  @relation(fields: [speciesId], references: [id], onDelete: Cascade)
+}
+
+// Legal regulations per country
+model Legal {
+  id              String   @id @default(cuid())
+  speciesId       String
+  country         String
+  regulationText  String
+  requirements    String?  // permits, licenses
+  prohibited      Boolean  @default(false)
+  dateUpdated     DateTime @default(now())
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  species         Species  @relation(fields: [speciesId], references: [id], onDelete: Cascade)
+}
+
+// User saved species
+model UserSpecies {
+  id        String   @id @default(cuid())
+  userId    String
+  speciesId String
+  savedAt   DateTime @default(now())
+  
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  species   Species  @relation(fields: [speciesId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, speciesId])
+}
+
+// User activity history
+model UserHistory {
+  id        String   @id @default(cuid())
+  userId    String
+  action    String   // view, search, save, edit
+  entityType String  // species, legal, maintenance
+  entityId  String
+  timestamp DateTime @default(now())
+  
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// Expert reviews and validations
+model ExpertReview {
+  id        String   @id @default(cuid())
+  speciesId String
+  userId    String
+  review    String
+  rating    Int      // 1-5 stars
+  isApproved Boolean @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  species   Species  @relation(fields: [speciesId], references: [id], onDelete: Cascade)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
