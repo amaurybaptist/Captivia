@@ -1,22 +1,18 @@
 {
-  "dependencies": {
-    "@nestjs/axios": "^4.0.1",
-    "@nestjs/cache-manager": "^3.1.0",
-    "@nestjs/config": "^4.0.2",
-    "@nestjs/jwt": "^11.0.2",
-    "@nestjs/passport": "^11.0.5",
-    "@nestjs/swagger": "^11.2.5",
-    "@nestjs/throttler": "^6.5.0",
-    "@prisma/client": "^7.3.0",
-    "axios": "^1.13.4",
-    "bcrypt": "^6.0.0",
-    "cache-manager": "^7.2.8",
-    "cache-manager-redis-store": "^3.0.1",
-    "class-transformer": "^0.5.1",
-    "class-validator": "^0.14.3",
-    "passport": "^0.7.0",
-    "passport-jwt": "^4.0.1",
-    "prisma": "^7.3.0",
-    "redis": "^5.10.0"
+  "name": "captivia",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run start:dev",
+    "dev:frontend": "cd frontend && cross-env NEXT_PUBLIC_API_URL=http://localhost:3001 npm run dev",
+    "start": "npm run dev",
+    "lint": "cd backend && npm run lint && cd ../frontend && npm run lint",
+    "format": "cd backend && npm run format && cd ../frontend && npm run format",
+    "vercel:open": "node scripts/vercel-open.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "cross-env": "^7.0.3"
   }
 }

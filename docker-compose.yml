@@ -1,0 +1,27 @@
+# PostgreSQL pour Captivia (backend)
+# Lancer avec : docker-compose up -d (ou docker compose up -d avec Docker Desktop récent)
+# Puis créer la DB si besoin : docker-compose exec postgres psql -U user -d captivia -c "SELECT 1"
+# Vérifier le statut : docker-compose ps
+# Arrêter : docker-compose down
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: captivia-postgres
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: captivia
+    ports:
+      - "5432:5432"
+    volumes:
+      - captivia_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U user -d captivia"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  captivia_pgdata:

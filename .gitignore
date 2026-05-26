@@ -1,5 +1,42 @@
 node_modules
-# Keep environment variables out of version control
-.env
+dist/
+build/
+.next/
 
+# Environment
+.env
+.env.local
+!.env.example
+
+# Generated
 /generated/prisma
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+.cursor/
+*.swp
+*.swo
+
+# Logs
+*.log
+debug-agent.log
+
+# Test coverage
+coverage/
+
+# Backup files
+*.bak
+
+# Test artifacts
+screenshots/
+frontend/playwright-report/
+frontend/test-results/
+
+# Misc artifacts
+frontend/frontend@0.1.0
+frontend/next

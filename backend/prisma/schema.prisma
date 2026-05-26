@@ -1,5 +1,5 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
+// This is your Prisma schema file
+// Learn more: https://pris.ly/d/prisma-schema
 
 generator client {
   provider = "prisma-client-js"
@@ -10,154 +10,313 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-// User model for authentication
+// ============================================
+// Phase 0 - User & Auth
+// ============================================
+
 model User {
-  id        String   @id @default(cuid())
-  username  String   @unique
-  email     String?  @unique
-  password  String
-  role      String   @default("user") // user, expert, admin
+  id           String   @id @default(uuid())
+  email        String   @unique
+  passwordHash String
+  locale       String   @default("fr")
+  isPremium    Boolean  @default(false)
+  points       Int      @default(0)   // Points pour le système de grade
+  grade        String   @default("bronze") // bronze | silver | gold | platinum | diamond
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  // Relations
+  animals                 Animal[]
+  pushSubscriptions       PushSubscription[]
+  notificationPreferences NotificationPreference[]
+  notificationEvents      NotificationEvent[]
+  passwordResetTokens     PasswordResetToken[]
+
+  @@index([email])
+}
+
+model PasswordResetToken {
+  id        String   @id @default(uuid())
+  userId    String
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([token])
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+// ============================================
+// Phase 2 - Animals & Routines
+// ============================================
+
+model Animal {
+  id         String    @id @default(uuid())
+  userId     String
+  speciesId  Int // GBIF key
+  name       String
+  birthDate  DateTime?
+  sex        String?
+  photos     String[] // URLs
+  notes      String?
+  publicSlug String?   @unique // slug pour page publique / QR (Premium)
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+
+  // Relations
+  user           User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
+  routines       Routine[]
+  history        ActionLog[]
+  healthRecords  AnimalHealthRecord[]
+
+  @@index([userId])
+  @@index([speciesId])
+  @@index([publicSlug])
+}
+
+// Carnet de santé : vaccin, opération, nourriture spécifique, antécédant médical, intervention chirurgicale
+model AnimalHealthRecord {
+  id        String   @id @default(uuid())
+  animalId  String
+  type      String   // vaccine | surgery | specific_food | medical_history
+  title     String   // ex. "Vaccin rage", "Stérilisation"
+  date      DateTime // date de l'événement
+  notes     String?  // description libre
+  details   Json?    // infos complémentaires (vétérinaire, prochain rappel, etc.)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  
-  // Relations
-  savedSpecies   UserSpecies[]
-  userHistory    UserHistory[]
-  expertReviews  ExpertReview[]
+
+  animal Animal @relation(fields: [animalId], references: [id], onDelete: Cascade)
+
+  @@index([animalId])
+  @@index([animalId, type])
 }
 
-// Species main model
-model Species {
-  id              String   @id @default(cuid())
-  commonName      String
-  scientificName  String
-  category        String   // reptiles, amphibians, invertebrates, mammals, etc.
-  origin          String
-  status          String   // CITES, UICN, etc.
-  difficulty      Int      // 1-5 (1=easy, 5=hard)
-  description     String
-  behavior        String?
-  lifespan        String?
-  reproduction    String?
-  compatibility   String?
-  gbifKey        Int?     // usageKey from GBIF
-  gbifNubKey     Int?     // NUB key
-  taxonId        String?  // taxonID (e.g., gbif:147345877)
-  iucnCategory   String?  // IUCN category
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
-  
-  // Relations
-  details         SpeciesDetails?
-  maintenance     Maintenance?
-  media           Media[]
-  legal           Legal[]
-  savedBy         UserSpecies[]
-  expertReviews   ExpertReview[]
-  
-  @@index([gbifKey])
-  @@index([taxonId])
-}
-
-// Detailed species information
-model SpeciesDetails {
-  id              String   @id @default(cuid())
-  speciesId       String   @unique
-  description     String
-  behavior        String?
-  lifespan        String?
-  reproduction    String?
-  compatibility   String?
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
-  
-  species         Species  @relation(fields: [speciesId], references: [id], onDelete: Cascade)
-}
-
-// Maintenance requirements
-model Maintenance {
-  id              String   @id @default(cuid())
-  speciesId       String   @unique
-  enclosureType   String   // terrarium, vivarium, paludarium, enclosure
-  dimensions      String?  // minimum dimensions
-  temperatureDay  String?
-  temperatureNight String?
-  humidity        String?
-  lighting        String?  // UVB, photoperiod
-  substrate       String?
-  decorations     String?
-  commonMistakes  String?
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
-  
-  species         Species  @relation(fields: [speciesId], references: [id], onDelete: Cascade)
-}
-
-// Media (photos, diagrams, etc.)
-model Media {
-  id              String   @id @default(cuid())
-  speciesId       String
-  type            String   // photo, diagram, sketch, schematic
-  url             String
-  caption         String?
-  order           Int      @default(0)
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
-  
-  species         Species  @relation(fields: [speciesId], references: [id], onDelete: Cascade)
-}
-
-// Legal regulations per country
-model Legal {
-  id              String   @id @default(cuid())
-  speciesId       String
-  country         String
-  regulationText  String
-  requirements    String?  // permits, licenses
-  prohibited      Boolean  @default(false)
-  dateUpdated     DateTime @default(now())
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
-  
-  species         Species  @relation(fields: [speciesId], references: [id], onDelete: Cascade)
-}
-
-// User saved species
-model UserSpecies {
-  id        String   @id @default(cuid())
-  userId    String
-  speciesId String
-  savedAt   DateTime @default(now())
-  
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  species   Species  @relation(fields: [speciesId], references: [id], onDelete: Cascade)
-  
-  @@unique([userId, speciesId])
-}
-
-// User activity history
-model UserHistory {
-  id        String   @id @default(cuid())
-  userId    String
-  action    String   // view, search, save, edit
-  entityType String  // species, legal, maintenance
-  entityId  String
-  timestamp DateTime @default(now())
-  
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-}
-
-// Expert reviews and validations
-model ExpertReview {
-  id        String   @id @default(cuid())
-  speciesId String
-  userId    String
-  review    String
-  rating    Int      // 1-5 stars
-  isApproved Boolean @default(false)
+model Routine {
+  id        String   @id @default(uuid())
+  animalId  String
+  name      String?  // Optional custom name for the routine
+  type      String // nourrissage, entretien, uvb, controle
+  frequency String // daily, weekly, custom
+  schedule  Json // horaires, saison, paramètres personnalisés
+  active    Boolean  @default(true)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  
-  species   Species  @relation(fields: [speciesId], references: [id], onDelete: Cascade)
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // Relations
+  animal Animal @relation(fields: [animalId], references: [id], onDelete: Cascade)
+
+  @@index([animalId])
+  @@index([active])
+}
+
+model ActionLog {
+  id       String   @id @default(uuid())
+  animalId String
+  type     String
+  note     String?
+  doneAt   DateTime @default(now())
+
+  // Relations
+  animal Animal @relation(fields: [animalId], references: [id], onDelete: Cascade)
+
+  @@index([animalId])
+  @@index([doneAt])
+}
+
+// ============================================
+// Phase 3 - Notifications
+// ============================================
+
+model PushSubscription {
+  id        String   @id @default(uuid())
+  userId    String
+  endpoint  String   @unique
+  keys      Json // { p256dh, auth }
+  createdAt DateTime @default(now())
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model NotificationPreference {
+  id               String   @id @default(uuid())
+  userId           String   @unique
+  types            Json // { "Nourrissage": true, "Rappel véto": true }
+  typeSchedules    Json?    // { "Nourrissage": { time: "08:00", recurrence: "daily" }, ... }
+  schedule         Json // { start: "08:00", end: "22:00" } (fenêtre globale)
+  snooze           Int      @default(15) // minutes
+  deliveryChannel  String   @default("push") // "push" | "email" | "both" — téléphone (push) et/ou email
+  createdAt        DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// Événements de rappel : un par notification envoyée / à faire, pour Fait / Pas fait et points
+model NotificationEvent {
+  id             String   @id @default(uuid())
+  userId         String
+  type           String   // ex: "Nourrissage", "Bain"
+  label          String?  // libellé affiché
+  scheduledAt    DateTime
+  status         String   @default("pending") // pending | done | skipped
+  pointsAwarded  Int      @default(0) // 100 si done
+  routineId      String?  // optionnel : lien vers une routine (animal)
+  animalId       String?  // optionnel : animal concerné
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([scheduledAt])
+  @@index([userId, scheduledAt])
+  @@index([routineId])
+}
+
+// ============================================
+// Phase 1 - Editorial Content (optional tables)
+// ============================================
+
+// ============================================
+// Phase 1b - Species Data (Editorial Content)
+// ============================================
+
+model SpeciesProfile {
+  id                  String    @id @default(uuid())
+  speciesId           Int       @unique // GBIF key
+  commonNameFr        String    // Nom commun français (ex: "Chat", "Python royal")
+  scientificName      String    // Nom scientifique (ex: "Felis catus")
+  category            String    // Catégorie principale (mammifère, reptile, amphibien, oiseau, poisson, insecte, arachnide)
+  subcategory         String?   // Sous-catégorie (ex: "Carnivore, Félidé", "Serpent constricteur")
+  domesticationType   String    // Type de domestication (domestique, semi-domestique, NAC)
+  description         String?   // Description courte (max 500 chars)
+  createdAt           DateTime  @default(now())
+  updatedAt           DateTime  @updatedAt
+
+  @@index([speciesId])
+  @@index([category])
+  @@index([domesticationType])
+}
+
+model SpeciesFeeding {
+  id                 String   @id @default(uuid())
+  speciesId          Int      // GBIF key
+  locale             String   @default("fr")
+  dietType           String   // herbivore, carnivore, omnivore, insectivore, etc.
+  recommendedFoods   Json     // Array of { name, frequency, notes } ex: [{ name: "Laitue", frequency: "quotidien", notes: "Aliment principal" }]
+  foodsToAvoid       Json     // Array of { name, reason } ex: [{ name: "Avocat", reason: "Toxique pour cette espèce" }]
+  mealFrequency      String   // "daily", "every_2_days", "weekly", "variable", etc.
+  specificNeeds      String?  // Besoins spécifiques en protéines, vitamines, calcium, etc. (max 500 chars)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  @@unique([speciesId, locale])
+  @@index([speciesId])
+  @@index([dietType])
+}
+
+model SpeciesHabitat {
+  id                   String   @id @default(uuid())
+  speciesId            Int      // GBIF key
+  locale               String   @default("fr")
+  habitatType          String   // "cage", "terrarium", "aquarium", "enclos", "libre", etc.
+  tempMin              Float    // Température minimale (Celsius)
+  tempMax              Float    // Température maximale (Celsius)
+  humidityMin          Float?   // Humidité minimale (%)
+  humidityMax          Float?   // Humidité maximale (%)
+  minSpaceSize         String   // Taille minimale d'espace recommandée (ex: "60x40x40cm" ou "2m²")
+  lightNeeds           String   // Besoins en lumière (naturelle, UV, cycle jour/nuit, etc.)
+  activityEnrichment   String   // Niveau d'activité et enrichissement nécessaire (max 500 chars)
+  hygieneNotes         String?  // Notes sur l'entretien et l'hygiène (max 500 chars)
+  costEstimate         String   // "faible", "moyen", "élevé"
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+
+  @@unique([speciesId, locale])
+  @@index([speciesId])
+  @@index([habitatType])
+}
+
+model SpeciesBehavior {
+  id                           String   @id @default(uuid())
+  speciesId                    Int      // GBIF key
+  locale                       String   @default("fr")
+  generalBehavior              String   // Description générale du comportement (max 500 chars)
+  sociability                  String   // "solitaire", "grégaire", "semi-grégaire"
+  difficultyLevel              String   // "débutant", "intermédiaire", "expert"
+  compatibilityWithChildren    String?  // Description de la compatibilité avec enfants (max 500 chars)
+  compatibilityWithOtherAnimals String? // Description de la compatibilité avec autres animaux (max 500 chars)
+  createdAt                    DateTime @default(now())
+  updatedAt                    DateTime @updatedAt
+
+  @@unique([speciesId, locale])
+  @@index([speciesId])
+  @@index([difficultyLevel])
+}
+
+model SpeciesHealthContent {
+  id          String   @id @default(uuid())
+  speciesId   Int // GBIF key
+  locale      String   @default("fr")
+  diseases    Json // Array of { name, symptoms, prevention, whenToConsult }
+  sources     Json // Array of { type: 'pubmed'|'lafebervet'|'ivis', url, title }
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([speciesId, locale])
+  @@index([speciesId])
+}
+
+model SpeciesLegislation {
+  id          String   @id @default(uuid())
+  speciesId   Int // GBIF key
+  country     String // ISO code (FR, US, GB, etc.)
+  status      String // allowed, prohibited, permit_required
+  details     Json // { citesAppendix, euAnnex, permits, restrictions }
+  sources     String[] // URLs to official sources
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([speciesId, country])
+  @@index([speciesId])
+  @@index([country])
+}
+
+model RecommendedEquipment {
+  id          String   @id @default(uuid())
+  speciesId   Int? // GBIF key (null = general category)
+  category    String // chauffage, uvb, substrat, alimentation, cage, etc.
+  label       String // "Gamelle inox 2L", "Lampe UVB 10.0"
+  size        String? // small, medium, large (for animals)
+  searchTerms String[] // Keywords for Amazon/product search
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([speciesId])
+  @@index([category])
+}
+
+// Magasins / liens d'affiliation par catégorie d'espèce (NAC, chien, reptile, etc.)
+model AffiliateStore {
+  id          String   @id @default(uuid())
+  name        String   // Nom du magasin ou de l'offre
+  url         String   // Lien affiliation (croquettes, matériel, etc.)
+  description String?  // Courte description (ex: "Croquettes et matériel pour chien")
+  categories  String[] // Catégories d'espèces: mammifère, reptile, oiseau, poisson, amphibien, insecte, arachnide
+  types       String[] // Types d'offre: alimentation, materiel, general
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([categories])
 }

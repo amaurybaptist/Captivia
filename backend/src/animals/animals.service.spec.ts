@@ -1,0 +1,346 @@
+import { Test, TestingModule } from '@nestjs/testing';
+import { ForbiddenException, NotFoundException } from '@nestjs/common';
+import { AnimalsService } from './animals.service';
+import { PrismaService } from '../prisma/prisma.service';
+import { CreateAnimalDto, UpdateAnimalDto } from './dto/animal.dto';
+
+describe('AnimalsService', () => {
+  let service: AnimalsService;
+  let prismaService: PrismaService;
+
+  const mockUserId = 'user-id-123';
+  const mockAnimalId = 'animal-id-456';
+
+  const mockUser = {
+    id: mockUserId,
+    email: 'test@captivia.com',
+    passwordHash: 'hashed',
+    locale: 'fr',
+    isPremium: false,
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    _count: { animals: 0 },
+  };
+
+  const mockAnimal = {
+    id: mockAnimalId,
+    userId: mockUserId,
+    speciesId: 123,
+    name: 'Rex',
+    birthDate: new Date('2020-01-01'),
+    sex: 'male',
+    photos: ['photo1.jpg'],
+    notes: 'Test notes',
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  };
+
+  const mockPrismaService = {
+    user: {
+      findUnique: jest.fn(),
+    },
+    animal: {
+      create: jest.fn(),
+      findMany: jest.fn(),
+      findUnique: jest.fn(),
+      update: jest.fn(),
+      delete: jest.fn(),
+      count: jest.fn(),
+    },
+  };
+
+  beforeEach(async () => {
+    const module: TestingModule = await Test.createTestingModule({
+      providers: [
+        AnimalsService,
+        {
+          provide: PrismaService,
+          useValue: mockPrismaService,
+        },
+      ],
+    }).compile();
+
+    service = module.get<AnimalsService>(AnimalsService);
+    prismaService = module.get<PrismaService>(PrismaService);
+
+    jest.clearAllMocks();
+  });
+
+  it('should be defined', () => {
+    expect(service).toBeDefined();
+  });
+
+  describe('create', () => {
+    const createDto: CreateAnimalDto = {
+      speciesId: 123,
+      name: 'Rex',
+      birthDate: '2020-01-01',
+      sex: 'male',
+      photos: ['photo1.jpg'],
+      notes: 'Test notes',
+    };
+
+    it('should create first animal for free user', async () => {
+      mockPrismaService.user.findUnique.mockResolvedValue({
+        ...mockUser,
+        _count: { animals: 0 },
+      });
+      mockPrismaService.animal.create.mockResolvedValue(mockAnimal);
+
+      const result = await service.create(mockUserId, createDto);
+
+      expect(result).toEqual(mockAnimal);
+      expect(mockPrismaService.animal.create).toHaveBeenCalledWith({
+        data: expect.objectContaining({
+          userId: mockUserId,
+          speciesId: createDto.speciesId,
+          name: createDto.name,
+        }),
+      });
+    });
+
+    it('should throw ForbiddenException when free user tries to create second animal', async () => {
+      mockPrismaService.user.findUnique.mockResolvedValue({
+        ...mockUser,
+        isPremium: false,
+        _count: { animals: 1 },
+      });
+
+      await expect(service.create(mockUserId, createDto)).rejects.toThrow(
+        ForbiddenException,
+      );
+      await expect(service.create(mockUserId, createDto)).rejects.toThrow(
+        'Free users can only have 1 animal',
+      );
+    });
+
+    it('should allow premium user to create unlimited animals', async () => {
+      mockPrismaService.user.findUnique.mockResolvedValue({
+        ...mockUser,
+        isPremium: true,
+        _count: { animals: 5 },
+      });
+      mockPrismaService.animal.create.mockResolvedValue(mockAnimal);
+
+      const result = await service.create(mockUserId, createDto);
+
+      expect(result).toEqual(mockAnimal);
+      expect(mockPrismaService.animal.create).toHaveBeenCalled();
+    });
+
+    it('should throw NotFoundException if user not found', async () => {
+      mockPrismaService.user.findUnique.mockResolvedValue(null);
+
+      await expect(service.create(mockUserId, createDto)).rejects.toThrow(
+        NotFoundException,
+      );
+    });
+
+    it('should handle null values correctly', async () => {
+      const minimalDto: CreateAnimalDto = {
+        speciesId: 123,
+        name: 'Rex',
+      };
+
+      mockPrismaService.user.findUnique.mockResolvedValue({
+        ...mockUser,
+        _count: { animals: 0 },
+      });
+      mockPrismaService.animal.create.mockResolvedValue(mockAnimal);
+
+      await service.create(mockUserId, minimalDto);
+
+      expect(mockPrismaService.animal.create).toHaveBeenCalledWith({
+        data: expect.objectContaining({
+          birthDate: null,
+          sex: null,
+          photos: [],
+          notes: null,
+        }),
+      });
+    });
+  });
+
+  describe('findAll', () => {
+    it('should return all animals for a user', async () => {
+      const animals = [mockAnimal, { ...mockAnimal, id: 'animal-2' }];
+      mockPrismaService.animal.findMany.mockResolvedValue(animals);
+
+      const result = await service.findAll(mockUserId);
+
+      expect(result).toEqual(animals);
+      expect(mockPrismaService.animal.findMany).toHaveBeenCalledWith({
+        where: { userId: mockUserId },
+        include: expect.objectContaining({
+          routines: expect.any(Object),
+          _count: expect.any(Object),
+        }),
+        orderBy: { createdAt: 'desc' },
+      });
+    });
+
+    it('should return empty array if user has no animals', async () => {
+      mockPrismaService.animal.findMany.mockResolvedValue([]);
+
+      const result = await service.findAll(mockUserId);
+
+      expect(result).toEqual([]);
+    });
+  });
+
+  describe('findOne', () => {
+    it('should return animal with routines and history', async () => {
+      const animalWithRelations = {
+        ...mockAnimal,
+        routines: [],
+        history: [],
+      };
+      mockPrismaService.animal.findUnique.mockResolvedValue(
+        animalWithRelations,
+      );
+
+      const result = await service.findOne(mockAnimalId, mockUserId);
+
+      expect(result).toEqual(animalWithRelations);
+      expect(mockPrismaService.animal.findUnique).toHaveBeenCalledWith({
+        where: { id: mockAnimalId },
+        include: expect.objectContaining({
+          routines: expect.any(Object),
+          history: expect.any(Object),
+        }),
+      });
+    });
+
+    it('should throw NotFoundException if animal not found', async () => {
+      mockPrismaService.animal.findUnique.mockResolvedValue(null);
+
+      await expect(
+        service.findOne('invalid-id', mockUserId),
+      ).rejects.toThrow(NotFoundException);
+    });
+
+    it('should throw ForbiddenException if user does not own animal', async () => {
+      const otherUserAnimal = {
+        ...mockAnimal,
+        userId: 'other-user-id',
+      };
+      mockPrismaService.animal.findUnique.mockResolvedValue(otherUserAnimal);
+
+      await expect(service.findOne(mockAnimalId, mockUserId)).rejects.toThrow(
+        ForbiddenException,
+      );
+      await expect(service.findOne(mockAnimalId, mockUserId)).rejects.toThrow(
+        'You do not own this animal',
+      );
+    });
+  });
+
+  describe('update', () => {
+    const updateDto: UpdateAnimalDto = {
+      name: 'Rex Updated',
+      notes: 'Updated notes',
+    };
+
+    it('should update animal successfully', async () => {
+      mockPrismaService.animal.findUnique.mockResolvedValue(mockAnimal);
+      mockPrismaService.animal.update.mockResolvedValue({
+        ...mockAnimal,
+        ...updateDto,
+      });
+
+      const result = await service.update(mockAnimalId, mockUserId, updateDto);
+
+      expect(result.name).toEqual(updateDto.name);
+      expect(mockPrismaService.animal.update).toHaveBeenCalledWith({
+        where: { id: mockAnimalId },
+        data: expect.objectContaining(updateDto),
+      });
+    });
+
+    it('should check ownership before updating', async () => {
+      const otherUserAnimal = {
+        ...mockAnimal,
+        userId: 'other-user-id',
+      };
+      mockPrismaService.animal.findUnique.mockResolvedValue(otherUserAnimal);
+
+      await expect(
+        service.update(mockAnimalId, mockUserId, updateDto),
+      ).rejects.toThrow(ForbiddenException);
+    });
+
+    it('should handle partial updates', async () => {
+      const partialUpdate: UpdateAnimalDto = {
+        name: 'New Name',
+      };
+
+      mockPrismaService.animal.findUnique.mockResolvedValue(mockAnimal);
+      mockPrismaService.animal.update.mockResolvedValue({
+        ...mockAnimal,
+        name: 'New Name',
+      });
+
+      await service.update(mockAnimalId, mockUserId, partialUpdate);
+
+      expect(mockPrismaService.animal.update).toHaveBeenCalledWith({
+        where: { id: mockAnimalId },
+        data: { name: 'New Name' },
+      });
+    });
+  });
+
+  describe('remove', () => {
+    it('should delete animal successfully', async () => {
+      mockPrismaService.animal.findUnique.mockResolvedValue(mockAnimal);
+      mockPrismaService.animal.delete.mockResolvedValue(mockAnimal);
+
+      const result = await service.remove(mockAnimalId, mockUserId);
+
+      expect(result).toEqual(mockAnimal);
+      expect(mockPrismaService.animal.delete).toHaveBeenCalledWith({
+        where: { id: mockAnimalId },
+      });
+    });
+
+    it('should check ownership before deleting', async () => {
+      const otherUserAnimal = {
+        ...mockAnimal,
+        userId: 'other-user-id',
+      };
+      mockPrismaService.animal.findUnique.mockResolvedValue(otherUserAnimal);
+
+      await expect(service.remove(mockAnimalId, mockUserId)).rejects.toThrow(
+        ForbiddenException,
+      );
+    });
+
+    it('should throw NotFoundException if animal does not exist', async () => {
+      mockPrismaService.animal.findUnique.mockResolvedValue(null);
+
+      await expect(service.remove('invalid-id', mockUserId)).rejects.toThrow(
+        NotFoundException,
+      );
+    });
+  });
+
+  describe('getAnimalCount', () => {
+    it('should return the count of animals for a user', async () => {
+      mockPrismaService.animal.count.mockResolvedValue(3);
+
+      const result = await service.getAnimalCount(mockUserId);
+
+      expect(result).toEqual(3);
+      expect(mockPrismaService.animal.count).toHaveBeenCalledWith({
+        where: { userId: mockUserId },
+      });
+    });
+
+    it('should return 0 if user has no animals', async () => {
+      mockPrismaService.animal.count.mockResolvedValue(0);
+
+      const result = await service.getAnimalCount(mockUserId);
+
+      expect(result).toEqual(0);
+    });
+  });
+});

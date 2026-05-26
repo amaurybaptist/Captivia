@@ -1,0 +1,114 @@
+import {
+  Controller,
+  Get,
+  Post,
+  Patch,
+  Delete,
+  Body,
+  Param,
+  Query,
+  UseGuards,
+  Request,
+} from '@nestjs/common';
+import {
+  ApiTags,
+  ApiOperation,
+  ApiResponse,
+  ApiParam,
+  ApiBearerAuth,
+} from '@nestjs/swagger';
+import { AnimalsService } from './animals.service';
+import { CreateAnimalDto, UpdateAnimalDto } from './dto/animal.dto';
+import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
+
+@ApiTags('animals')
+@Controller('users/me/animals')
+@UseGuards(JwtAuthGuard)
+@ApiBearerAuth()
+export class AnimalsController {
+  constructor(private readonly animalsService: AnimalsService) {}
+
+  @Post()
+  @ApiOperation({
+    summary: 'Create a new animal',
+    description: 'Add a new animal to your account (limit: 1 free, unlimited with premium)',
+  })
+  @ApiResponse({ status: 201, description: 'Animal created' })
+  @ApiResponse({ status: 401, description: 'Unauthorized' })
+  @ApiResponse({ status: 403, description: 'Animal limit reached (premium required)' })
+  async create(@Request() req, @Body() createAnimalDto: CreateAnimalDto) {
+    return this.animalsService.create(req.user.id, createAnimalDto);
+  }
+
+  @Get()
+  @ApiOperation({
+    summary: 'Get all your animals',
+    description: 'Retrieve all animals associated with your account',
+  })
+  @ApiResponse({ status: 200, description: 'Animals list' })
+  @ApiResponse({ status: 401, description: 'Unauthorized' })
+  async findAll(@Request() req) {
+    return this.animalsService.findAll(req.user.id);
+  }
+
+  @Get(':id/public-link')
+  @ApiOperation({
+    summary: 'Get or create public link for animal (QR code). Premium only.',
+  })
+  @ApiParam({ name: 'id', description: 'Animal ID' })
+  @ApiResponse({ status: 200, description: 'Public link slug and URL' })
+  @ApiResponse({ status: 403, description: 'Premium required' })
+  async getPublicLink(
+    @Request() req: { user: { id: string } },
+    @Param('id') id: string,
+    @Query('baseUrl') baseUrl?: string,
+  ) {
+    return this.animalsService.getOrCreatePublicLink(id, req.user.id, baseUrl);
+  }
+
+  @Get(':id')
+  @ApiOperation({
+    summary: 'Get an animal by ID',
+    description: 'Retrieve detailed information about a specific animal',
+  })
+  @ApiParam({ name: 'id', description: 'Animal ID' })
+  @ApiResponse({ status: 200, description: 'Animal details' })
+  @ApiResponse({ status: 401, description: 'Unauthorized' })
+  @ApiResponse({ status: 403, description: 'Not your animal' })
+  @ApiResponse({ status: 404, description: 'Animal not found' })
+  async findOne(@Request() req, @Param('id') id: string) {
+    return this.animalsService.findOne(id, req.user.id);
+  }
+
+  @Patch(':id')
+  @ApiOperation({
+    summary: 'Update an animal',
+    description: 'Update information about a specific animal',
+  })
+  @ApiParam({ name: 'id', description: 'Animal ID' })
+  @ApiResponse({ status: 200, description: 'Animal updated' })
+  @ApiResponse({ status: 401, description: 'Unauthorized' })
+  @ApiResponse({ status: 403, description: 'Not your animal' })
+  @ApiResponse({ status: 404, description: 'Animal not found' })
+  async update(
+    @Request() req,
+    @Param('id') id: string,
+    @Body() updateAnimalDto: UpdateAnimalDto,
+  ) {
+    return this.animalsService.update(id, req.user.id, updateAnimalDto);
+  }
+
+  @Delete(':id')
+  @ApiOperation({
+    summary: 'Delete an animal',
+    description: 'Permanently delete an animal and all associated data',
+  })
+  @ApiParam({ name: 'id', description: 'Animal ID' })
+  @ApiResponse({ status: 200, description: 'Animal deleted' })
+  @ApiResponse({ status: 401, description: 'Unauthorized' })
+  @ApiResponse({ status: 403, description: 'Not your animal' })
+  @ApiResponse({ status: 404, description: 'Animal not found' })
+  async remove(@Request() req, @Param('id') id: string) {
+    return this.animalsService.remove(id, req.user.id);
+  }
+}

@@ -1,18 +1,388 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { SpeciesService } from './species.service';
+import { SpeciesProfileService } from './species-profile.service';
+import { NotFoundException } from '@nestjs/common';
+import { CacheService } from '../cache/cache.service';
+import { GbifService } from '../external/gbif.service';
+import { SpeciesTransformerService } from '../transformers/species-transformer.service';
+import { SpeciesFilterService } from '../filters/species-filter.service';
+import { mockCacheService, mockGbifService, mockTransformerService, mockFilterService, mockSpeciesProfileService } from '../../test/test-mocks';
 
 describe('SpeciesService', () => {
   let service: SpeciesService;
 
   beforeEach(async () => {
+    jest.clearAllMocks();
+    mockTransformerService.transformSearchResults.mockImplementation((results: any[]) => ({
+      results: results ?? [],
+      total: results?.length ?? 0,
+      source: 'gbif',
+      cachedAt: new Date(),
+    }));
+    mockTransformerService.transformSpecies.mockImplementation((item: any) => ({ ...item }));
+    mockTransformerService.transformVernacularNames.mockImplementation((arr: any[]) => ({
+      results: (arr ?? []).filter((v: any) => v.language === 'french').map((v: any) => v.name),
+      source: 'gbif',
+      cachedAt: new Date(),
+    }));
+    mockTransformerService.transformMedia.mockImplementation((arr: any[]) => arr ?? []);
+    mockFilterService.applyFilters.mockImplementation((results: any[], _filters: any) => ({
+      results: results ?? [],
+      total: results?.length ?? 0,
+      filtersApplied: [] as string[],
+    }));
+    mockSpeciesProfileService.searchFromProfile.mockResolvedValue({ results: [], total: 0 });
+    mockSpeciesProfileService.getBySpeciesId.mockResolvedValue(null);
     const module: TestingModule = await Test.createTestingModule({
-      providers: [SpeciesService],
+      providers: [
+        SpeciesService,
+        { provide: CacheService, useValue: mockCacheService },
+        { provide: GbifService, useValue: mockGbifService },
+        { provide: SpeciesTransformerService, useValue: mockTransformerService },
+        { provide: SpeciesFilterService, useValue: mockFilterService },
+        { provide: SpeciesProfileService, useValue: mockSpeciesProfileService },
+      ],
     }).compile();
-
     service = module.get<SpeciesService>(SpeciesService);
   });
 
   it('should be defined', () => {
     expect(service).toBeDefined();
+  });
+
+  describe('searchSpecies', () => {
+    it('should search for species with valid query', async () => {
+      const mockResults = [
+        {
+          key: 1,
+          canonicalName: 'Boa Constrictor',
+          scientificName: 'Boa constrictor',
+          rank: 'SPECIES',
+          iucnRedListCategory: 'LC',
+        },
+      ];
+
+      mockCacheService.get.mockReturnValue(null);
+      mockGbifService.searchSpecies.mockResolvedValue({
+        results: mockResults,
+        total: 1,
+      });
+
+      const result = await service.searchSpecies('boa', 20, 0);
+
+      expect(result).toEqual({
+        results: mockResults,
+        total: 1,
+        source: 'gbif',
+      });
+      expect(mockGbifService.searchSpecies).toHaveBeenCalledWith('boa', 20, 0);
+      expect(mockCacheService.set).toHaveBeenCalled();
+    });
+
+    it('should return cached results when available', async () => {
+      const mockResults = [
+        {
+          key: 1,
+          canonicalName: 'Boa Constrictor',
+          scientificName: 'Boa constrictor',
+          rank: 'SPECIES',
+          iucnRedListCategory: 'LC',
+        },
+      ];
+
+      mockCacheService.get.mockReturnValue({
+        results: mockResults,
+        total: 1,
+      });
+
+      const result = await service.searchSpecies('boa', 20, 0);
+
+      expect(result).toEqual({
+        results: mockResults,
+        total: 1,
+        source: 'cache',
+      });
+      expect(mockGbifService.searchSpecies).not.toHaveBeenCalled();
+      expect(mockCacheService.get).toHaveBeenCalled();
+    });
+
+    it('should handle empty search results', async () => {
+      mockCacheService.get.mockReturnValue(null);
+      mockGbifService.searchSpecies.mockResolvedValue({
+        results: [],
+        total: 0,
+      });
+
+      const result = await service.searchSpecies('nonexistent', 20, 0);
+
+      expect(result).toEqual({
+        results: [],
+        total: 0,
+        source: 'gbif',
+      });
+    });
+  });
+
+  describe('getSpecies', () => {
+    it('should get species details by ID from GBIF', async () => {
+      const mockSpecies = {
+        key: 1,
+        canonicalName: 'Boa Constrictor',
+        scientificName: 'Boa constrictor',
+        rank: 'SPECIES',
+      };
+
+      mockCacheService.get.mockReturnValue(null);
+      mockGbifService.getSpecies.mockResolvedValue(mockSpecies);
+
+      const result = await service.getSpecies('1');
+
+      expect(result).toEqual({
+        data: mockSpecies,
+        source: 'gbif',
+      });
+      expect(mockGbifService.getSpecies).toHaveBeenCalledWith('1');
+      expect(mockCacheService.set).toHaveBeenCalled();
+    });
+
+    it('should return cached species when available', async () => {
+      const mockSpecies = {
+        key: 1,
+        canonicalName: 'Boa Constrictor',
+        scientificName: 'Boa constrictor',
+        rank: 'SPECIES',
+      };
+
+      mockCacheService.get.mockReturnValue(mockSpecies);
+
+      const result = await service.getSpecies('1');
+
+      expect(result).toEqual({
+        data: mockSpecies,
+        source: 'cache',
+      });
+      expect(mockGbifService.getSpecies).not.toHaveBeenCalled();
+      expect(mockCacheService.get).toHaveBeenCalled();
+    });
+
+    it('should throw NotFoundException when species not found', async () => {
+      mockCacheService.get.mockReturnValue(null);
+      mockGbifService.getSpecies.mockRejectedValue(
+        new NotFoundException('Species not found'),
+      );
+
+      await expect(service.getSpecies('nonexistent')).rejects.toThrow(
+        'Species not found',
+      );
+    });
+  });
+
+  describe('getVernacularNames', () => {
+    it('should get vernacular names from GBIF', async () => {
+      const gbifNames = [
+        { language: 'french', name: 'Boa constrictor' },
+        { language: 'english', name: 'Boa Constrictor' },
+      ];
+
+      mockCacheService.get.mockReturnValue(null);
+      mockGbifService.getVernacularNames.mockResolvedValue(gbifNames);
+
+      const result = await service.getVernacularNames('1');
+
+      expect(result).toEqual({
+        results: ['Boa constrictor'],
+        source: 'gbif',
+      });
+      expect(mockGbifService.getVernacularNames).toHaveBeenCalledWith('1');
+      expect(mockCacheService.set).toHaveBeenCalled();
+    });
+
+    it('should return cached vernacular names when available', async () => {
+      const cachedResult = { results: ['Boa constrictor'], source: 'cache', cachedAt: new Date() };
+
+      mockCacheService.get.mockReturnValue(cachedResult);
+
+      const result = await service.getVernacularNames('1');
+
+      expect(result).toEqual({
+        results: ['Boa constrictor'],
+        source: 'cache',
+      });
+      expect(mockGbifService.getVernacularNames).not.toHaveBeenCalled();
+    });
+  });
+
+  describe('getIucn', () => {
+    it('should get IUCN status for species', async () => {
+      const mockIucn = {
+        iucnRedListCategory: 'LC',
+      };
+
+      mockGbifService.getIucn.mockResolvedValue(mockIucn);
+
+      const result = await service.getIucn('1');
+
+      expect(result).toEqual(mockIucn);
+      expect(mockGbifService.getIucn).toHaveBeenCalledWith('1');
+    });
+  });
+
+  describe('getDistributions', () => {
+    it('should get distribution data for species', async () => {
+      const mockDistributions = [
+        {
+          country: 'France',
+          countryCode: 'FR',
+        },
+      ];
+
+      mockCacheService.get.mockReturnValue(null);
+      mockGbifService.getDistributions.mockResolvedValue(mockDistributions);
+
+      const result = await service.getDistributions('1');
+
+      expect(result).toEqual(mockDistributions);
+      expect(mockGbifService.getDistributions).toHaveBeenCalledWith('1');
+      expect(mockCacheService.set).toHaveBeenCalled();
+    });
+
+    it('should return cached distributions when available', async () => {
+      const mockDistributions = [
+        {
+          country: 'France',
+          countryCode: 'FR',
+        },
+      ];
+
+      mockCacheService.get.mockReturnValue(mockDistributions);
+
+      const result = await service.getDistributions('1');
+
+      expect(result).toEqual(mockDistributions);
+      expect(mockGbifService.getDistributions).not.toHaveBeenCalled();
+    });
+  });
+
+  describe('getMedia', () => {
+    it('should get media for species from GBIF', async () => {
+      const mockMedia = [
+        {
+          type: 'photo',
+          identifier: 'https://example.com/photo.jpg',
+          title: 'Boa Constrictor',
+        },
+      ];
+
+      mockCacheService.get.mockReturnValue(null);
+      mockGbifService.getMedia.mockResolvedValue(mockMedia);
+
+      const result = await service.getMedia('1');
+
+      expect(result).toEqual({
+        results: mockMedia,
+        source: 'gbif',
+      });
+      expect(mockGbifService.getMedia).toHaveBeenCalledWith('1');
+      expect(mockCacheService.set).toHaveBeenCalled();
+    });
+
+    it('should return cached media when available', async () => {
+      const mockMedia = [
+        {
+          type: 'photo',
+          identifier: 'https://example.com/photo.jpg',
+          title: 'Boa Constrictor',
+        },
+      ];
+      const cachedResult = { results: mockMedia };
+
+      mockCacheService.get.mockReturnValue(cachedResult);
+
+      const result = await service.getMedia('1');
+
+      expect(result).toEqual({
+        results: mockMedia,
+        source: 'cache',
+      });
+      expect(mockGbifService.getMedia).not.toHaveBeenCalled();
+    });
+  });
+
+  describe('getMetrics', () => {
+    it('should get metrics for species', async () => {
+      const mockMetrics = {
+        occurrences: 1000,
+        observations: 500,
+        lastUpdated: new Date('2026-01-31'),
+      };
+
+      mockCacheService.get.mockReturnValue(null);
+      mockGbifService.getMetrics.mockResolvedValue(mockMetrics);
+
+      const result = await service.getMetrics('1');
+
+      expect(result).toEqual(mockMetrics);
+      expect(mockGbifService.getMetrics).toHaveBeenCalledWith('1');
+      expect(mockCacheService.set).toHaveBeenCalled();
+    });
+
+    it('should return cached metrics when available', async () => {
+      const mockMetrics = {
+        occurrences: 1000,
+        observations: 500,
+        lastUpdated: new Date('2026-01-31'),
+      };
+
+      mockCacheService.get.mockReturnValue(mockMetrics);
+
+      const result = await service.getMetrics('1');
+
+      expect(result).toEqual(mockMetrics);
+      expect(mockGbifService.getMetrics).not.toHaveBeenCalled();
+    });
+  });
+
+  describe('countOccurrences', () => {
+    it('should count occurrences for species', async () => {
+      const mockCount = {
+        count: 1000,
+        limit: 20,
+        offset: 0,
+      };
+
+      mockCacheService.get.mockReturnValue(null);
+      mockGbifService.countOccurrences.mockResolvedValue(mockCount);
+
+      const result = await service.countOccurrences('1');
+
+      expect(result).toEqual(mockCount);
+      expect(mockGbifService.countOccurrences).toHaveBeenCalledWith('1');
+      expect(mockCacheService.set).toHaveBeenCalled();
+    });
+
+    it('should return cached count when available', async () => {
+      const mockCount = {
+        count: 1000,
+        limit: 20,
+        offset: 0,
+      };
+
+      mockCacheService.get.mockReturnValue(mockCount);
+
+      const result = await service.countOccurrences('1');
+
+      expect(result).toEqual(mockCount);
+      expect(mockGbifService.countOccurrences).not.toHaveBeenCalled();
+    });
+  });
+
+  describe('clearCacheForSpecies', () => {
+    it('should clear cache for all keys related to species', () => {
+      mockCacheService.clearKey.mockImplementation(jest.fn());
+
+      service.clearCacheForSpecies('1');
+
+      expect(mockCacheService.clearKey).toHaveBeenCalledTimes(6);
+    });
   });
 });

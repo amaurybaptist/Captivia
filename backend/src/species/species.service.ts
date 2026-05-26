@@ -1,4 +1,429 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException, Logger } from '@nestjs/common';
+import { CacheService } from '../cache/cache.service';
+import { GbifService } from '../external/gbif.service';
+import { SpeciesTransformerService } from '../transformers/species-transformer.service';
+import { SpeciesFilterService } from '../filters/species-filter.service';
+import { SpeciesProfileService } from './species-profile.service';
+import { SpeciesFilter } from '../filters/species-filter.interface';
+import { Media } from '../transformers/data-transformer.interface';
+import axios from 'axios';
+
+interface SearchResult {
+  results: unknown[];
+  total: number;
+}
+
+interface VernacularResult {
+  results: unknown[];
+}
+
+interface MediaResult {
+  results: Media[];
+}
 
 @Injectable()
-export class SpeciesService {}
+export class SpeciesService {
+  private readonly logger = new Logger(SpeciesService.name);
+
+  constructor(
+    private cacheService: CacheService,
+    private gbifService: GbifService,
+    private transformerService: SpeciesTransformerService,
+    private filterService: SpeciesFilterService,
+    private speciesProfileService: SpeciesProfileService,
+  ) {}
+
+  async searchSpecies(query: string, limit: number = 20, offset: number = 0, filters?: SpeciesFilter): Promise<any> {
+    this.logger.log(`Searching for species: ${query}, filters=${JSON.stringify(filters)}`);
+
+    const profileFilters: any = {};
+    if (filters?.class) {
+      profileFilters.category = this.mapGbifClassToCategory(filters.class);
+    }
+    if ((filters as any)?.domesticationType) {
+      profileFilters.domesticationType = (filters as any).domesticationType;
+    }
+
+    let result = await this.speciesProfileService.searchFromProfile(
+      query,
+      limit,
+      offset,
+      profileFilters,
+    );
+
+    // Fallback to GBIF when no profile results (recherche vide ou base profils limitée)
+    if ((result.results?.length ?? 0) === 0) {
+      const searchQuery = (query?.trim() || 'animal').slice(0, 100);
+      this.logger.log(`Profile empty, falling back to GBIF with query="${searchQuery}"`);
+      try {
+        const gbifResponse = await this.gbifService.searchSpecies(
+          searchQuery,
+          Math.min(limit * 3, 60),
+          offset,
+        );
+        let gbifResults = gbifResponse.results || [];
+        if (filters?.class) {
+          gbifResults = gbifResults.filter(
+            (item: any) =>
+              item.class && String(item.class).toLowerCase() === filters.class!.toLowerCase(),
+          );
+          if (gbifResults.length === 0) {
+            gbifResults = (gbifResponse.results || []).slice(0, limit);
+          }
+        }
+        const sliced = gbifResults.slice(0, limit);
+        result = this.transformerService.transformSearchResults(sliced);
+        result.total = gbifResults.length;
+        result.source = 'gbif';
+      } catch (err) {
+        this.logger.warn(`GBIF fallback failed: ${err}`);
+      }
+    }
+
+    return result;
+  }
+
+  private getCategorySearchQuery(gbifClass: string): string {
+    const queryByClass: Record<string, string> = {
+      Aves: 'bird',
+      Mammalia: 'mammal',
+      Reptilia: 'reptile',
+      Amphibia: 'amphibian',
+      Actinopterygii: 'fish',
+      Insecta: 'insect',
+      Arachnida: 'spider',
+    };
+    return queryByClass[gbifClass] || gbifClass.toLowerCase();
+  }
+
+  async getSpecies(id: string): Promise<any> {
+    this.logger.log(`Getting species details: ${id}`);
+
+    // Try to get from cache first
+    const cacheKey = `species:${id}`;
+    const cachedSpecies = this.cacheService.get(cacheKey);
+
+    if (cachedSpecies) {
+      this.logger.log(`Cache hit for species: ${id}`);
+      return cachedSpecies;
+    }
+
+    // Parse species ID as number
+    const speciesId = parseInt(id, 10);
+    if (isNaN(speciesId)) {
+      throw new NotFoundException('Species not found');
+    }
+
+    // Get from profile database (not GBIF)
+    const profileDetail = await this.speciesProfileService.getBySpeciesId(speciesId, 'fr');
+
+    if (!profileDetail.profile) {
+      throw new NotFoundException('Species not found');
+    }
+
+    // Fetch classification from GBIF (speciesId is the GBIF key) to complete kingdom, phylum, class, order, family, genus
+    let kingdom = '';
+    let phylum = '';
+    let taxClass = '';
+    let order = '';
+    let family = '';
+    let genus = '';
+    let rank: string = 'SPECIES';
+    let iucnStatus: string | undefined;
+    try {
+      const gbifSpecies = await this.gbifService.getSpecies(id);
+      if (gbifSpecies) {
+        kingdom = gbifSpecies.kingdom ?? '';
+        phylum = gbifSpecies.phylum ?? '';
+        taxClass = gbifSpecies.class ?? '';
+        order = gbifSpecies.order ?? '';
+        family = gbifSpecies.family ?? '';
+        genus = gbifSpecies.genus ?? '';
+        if (gbifSpecies.rank) rank = gbifSpecies.rank;
+        if (gbifSpecies.iucnRedListCategory) iucnStatus = gbifSpecies.iucnRedListCategory;
+      }
+    } catch (err) {
+      this.logger.warn(`GBIF taxonomy for species ${id} failed, using empty classification: ${(err as Error).message}`);
+    }
+
+    // Build response with profile data, editorial data and classification from GBIF
+    const response = {
+      key: profileDetail.profile.speciesId,
+      name: profileDetail.profile.commonNameFr || profileDetail.profile.scientificName,
+      canonicalName: profileDetail.profile.commonNameFr || profileDetail.profile.scientificName,
+      scientificName: profileDetail.profile.scientificName,
+      rank,
+      kingdom,
+      phylum,
+      class: taxClass,
+      order,
+      family,
+      genus,
+      status: 'UNKNOWN',
+      vernacularNames: [profileDetail.profile.commonNameFr],
+      iucnStatus,
+      distributions: [],
+      media: [],
+      metrics: {},
+      occurrenceCount: 0,
+      source: 'profile',
+      // Add editorial data
+      profile: profileDetail.profile,
+      feeding: profileDetail.feeding,
+      habitat: profileDetail.habitat,
+      behavior: profileDetail.behavior,
+    };
+
+    // Cache the results with species-specific TTL (24h)
+    this.cacheService.set(cacheKey, response, 86400);
+
+    return response;
+  }
+
+  private mapGbifClassToCategory(gbifClass: string): string {
+    const classMapping: Record<string, string> = {
+      Mammalia: 'mammifère',
+      Aves: 'oiseau',
+      Reptilia: 'reptile',
+      Amphibia: 'amphibien',
+      Actinopterygii: 'poisson',
+      Insecta: 'insecte',
+      Arachnida: 'arachnide',
+    };
+    return classMapping[gbifClass] || gbifClass.toLowerCase();
+  }
+
+  async getVernacularNames(id: string) {
+    this.logger.log(`Getting vernacular names for species: ${id}`);
+
+    // Try to get from cache first
+    const cacheKey = `vernacular:${id}`;
+    const cachedNames = this.cacheService.get(cacheKey);
+
+    if (cachedNames) {
+      this.logger.log(`Cache hit for vernacular names: ${id}`);
+      return {
+        results: (cachedNames as VernacularResult).results,
+        source: 'cache',
+      };
+    }
+
+    // If not in cache, fetch from GBIF
+    try {
+      const gbifNames = await this.gbifService.getVernacularNames(id);
+
+      // Transform the vernacular names using the transformer service
+      const transformedNames = this.transformerService.transformVernacularNames(gbifNames);
+
+      // Cache the results with vernacular-specific TTL (12h)
+      this.cacheService.set(cacheKey, transformedNames, 43200);
+
+      return {
+        results: transformedNames.results,
+        source: 'gbif',
+      };
+    } catch (error) {
+      // Re-throw NotFoundException, otherwise re-throw the error
+      if (error instanceof NotFoundException) {
+        throw error;
+      }
+      // Check if it's an axios error with 404 status
+      if (axios.isAxiosError(error) && error.response?.status === 404) {
+        throw new NotFoundException('Species not found');
+      }
+      throw error;
+    }
+  }
+
+  async getIucn(id: string) {
+    this.logger.log(`Getting IUCN status for species: ${id}`);
+    try {
+      return await this.gbifService.getIucn(id);
+    } catch (error) {
+      // Re-throw NotFoundException, otherwise re-throw the error
+      if (error instanceof NotFoundException) {
+        throw error;
+      }
+      // Check if it's an axios error with 404 status
+      if (axios.isAxiosError(error) && error.response?.status === 404) {
+        throw new NotFoundException('IUCN status not available for this species');
+      }
+      throw error;
+    }
+  }
+
+  async getDistributions(id: string) {
+    this.logger.log(`Getting distributions for species: ${id}`);
+
+    // Try to get from cache first
+    const cacheKey = `distributions:${id}`;
+    const cachedDistributions = this.cacheService.get(cacheKey);
+
+    if (cachedDistributions) {
+      this.logger.log(`Cache hit for distributions: ${id}`);
+      return cachedDistributions;
+    }
+
+    // If not in cache, fetch from GBIF
+    try {
+      const gbifDistributions = await this.gbifService.getDistributions(id);
+
+      // Cache the results with distributions-specific TTL (24h)
+      this.cacheService.set(cacheKey, gbifDistributions, 86400);
+
+      return gbifDistributions;
+    } catch (error) {
+      // Re-throw NotFoundException, otherwise re-throw the error
+      if (error instanceof NotFoundException) {
+        throw error;
+      }
+      // Check if it's an axios error with 404 status
+      if (axios.isAxiosError(error) && error.response?.status === 404) {
+        throw new NotFoundException('Species not found');
+      }
+      throw error;
+    }
+  }
+
+  async getMedia(id: string) {
+    this.logger.log(`Getting media for species: ${id}`);
+
+    // Try to get from cache first
+    const cacheKey = `media:${id}`;
+    const cachedMedia = this.cacheService.get(cacheKey);
+
+    if (cachedMedia) {
+      this.logger.log(`Cache hit for media: ${id}`);
+      const results = Array.isArray(cachedMedia)
+        ? cachedMedia
+        : (cachedMedia as MediaResult).results;
+      return {
+        results: results ?? [],
+        source: 'cache',
+      };
+    }
+
+    // If not in cache, fetch from GBIF
+    try {
+      const gbifMedia = await this.gbifService.getMedia(id);
+
+      // Transform the media using the transformer service
+      const transformedMedia = this.transformerService.transformMedia(gbifMedia);
+
+      // Cache the results with media-specific TTL (1h)
+      this.cacheService.set(cacheKey, { results: transformedMedia }, 3600);
+
+      return {
+        results: transformedMedia,
+        source: 'gbif',
+      };
+    } catch (error) {
+      // Re-throw NotFoundException, otherwise re-throw the error
+      if (error instanceof NotFoundException) {
+        throw error;
+      }
+      // Check if it's an axios error with 404 status
+      if (axios.isAxiosError(error) && error.response?.status === 404) {
+        throw new NotFoundException('Species not found');
+      }
+      throw error;
+    }
+  }
+
+  async getMetrics(id: string) {
+    this.logger.log(`Getting metrics for species: ${id}`);
+
+    // Try to get from cache first
+    const cacheKey = `metrics:${id}`;
+    const cachedMetrics = this.cacheService.get(cacheKey);
+
+    if (cachedMetrics) {
+      this.logger.log(`Cache hit for metrics: ${id}`);
+      return cachedMetrics;
+    }
+
+    // If not in cache, fetch from GBIF
+    try {
+      const gbifMetrics = await this.gbifService.getMetrics(id);
+
+      // Cache the results with metrics-specific TTL (7d)
+      this.cacheService.set(cacheKey, gbifMetrics, 604800);
+
+      return gbifMetrics;
+    } catch (error) {
+      // Re-throw NotFoundException, otherwise re-throw the error
+      if (error instanceof NotFoundException) {
+        throw error;
+      }
+      // Check if it's an axios error with 404 status
+      if (axios.isAxiosError(error) && error.response?.status === 404) {
+        throw new NotFoundException('Species not found');
+      }
+      throw error;
+    }
+  }
+
+  async countOccurrences(id: string) {
+    this.logger.log(`Counting occurrences for species: ${id}`);
+
+    // Try to get from cache first
+    const cacheKey = `occurrences:${id}`;
+    const cachedCount = this.cacheService.get(cacheKey);
+
+    if (cachedCount) {
+      this.logger.log(`Cache hit for occurrences: ${id}`);
+      return cachedCount;
+    }
+
+    // If not in cache, fetch from GBIF
+    try {
+      const gbifCount = await this.gbifService.countOccurrences(id);
+
+      // Cache the results with occurrences-specific TTL (7d)
+      this.cacheService.set(cacheKey, gbifCount, 604800);
+
+      return gbifCount;
+    } catch (error) {
+      // Re-throw NotFoundException, otherwise re-throw the error
+      if (error instanceof NotFoundException) {
+        throw error;
+      }
+      // Check if it's an axios error with 404 status
+      if (axios.isAxiosError(error) && error.response?.status === 404) {
+        throw new NotFoundException('Species not found');
+      }
+      throw error;
+    }
+  }
+
+  clearCacheForSpecies(id: string): void {
+    const keys = [
+      `species:${id}`,
+      `media:${id}`,
+      `vernacular:${id}`,
+      `distributions:${id}`,
+      `metrics:${id}`,
+      `occurrences:${id}`,
+    ];
+
+    keys.forEach((key) => this.cacheService.clearKey(key));
+    this.logger.log(`Cache cleared for species: ${id}`);
+  }
+
+  /**
+   * Apply advanced filters to species search results
+   * @param query Search query string
+   * @param limit Maximum number of results
+   * @param offset Offset for pagination
+   * @param filters Filter criteria object
+   * @returns Filtered and transformed search results
+   */
+  async searchSpeciesWithFilters(
+    query: string,
+    limit: number = 20,
+    offset: number = 0,
+    filters?: SpeciesFilter,
+  ) {
+    return this.searchSpecies(query, limit, offset, filters);
+  }
+}
