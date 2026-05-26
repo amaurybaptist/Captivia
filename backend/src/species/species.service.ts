@@ -114,14 +114,10 @@ export class SpeciesService {
       throw new NotFoundException('Species not found');
     }
 
-    // Get from profile database (not GBIF)
+    // Get from profile database
     const profileDetail = await this.speciesProfileService.getBySpeciesId(speciesId, 'fr');
 
-    if (!profileDetail.profile) {
-      throw new NotFoundException('Species not found');
-    }
-
-    // Fetch classification from GBIF (speciesId is the GBIF key) to complete kingdom, phylum, class, order, family, genus
+    // Fetch classification from GBIF (speciesId is the GBIF key)
     let kingdom = '';
     let phylum = '';
     let taxClass = '';
@@ -130,8 +126,9 @@ export class SpeciesService {
     let genus = '';
     let rank: string = 'SPECIES';
     let iucnStatus: string | undefined;
+    let gbifSpecies: any = null;
     try {
-      const gbifSpecies = await this.gbifService.getSpecies(id);
+      gbifSpecies = await this.gbifService.getSpecies(id);
       if (gbifSpecies) {
         kingdom = gbifSpecies.kingdom ?? '';
         phylum = gbifSpecies.phylum ?? '';
@@ -143,36 +140,72 @@ export class SpeciesService {
         if (gbifSpecies.iucnRedListCategory) iucnStatus = gbifSpecies.iucnRedListCategory;
       }
     } catch (err) {
-      this.logger.warn(`GBIF taxonomy for species ${id} failed, using empty classification: ${(err as Error).message}`);
+      this.logger.warn(`GBIF taxonomy for species ${id} failed: ${(err as Error).message}`);
     }
 
-    // Build response with profile data, editorial data and classification from GBIF
-    const response = {
-      key: profileDetail.profile.speciesId,
-      name: profileDetail.profile.commonNameFr || profileDetail.profile.scientificName,
-      canonicalName: profileDetail.profile.commonNameFr || profileDetail.profile.scientificName,
-      scientificName: profileDetail.profile.scientificName,
-      rank,
-      kingdom,
-      phylum,
-      class: taxClass,
-      order,
-      family,
-      genus,
-      status: 'UNKNOWN',
-      vernacularNames: [profileDetail.profile.commonNameFr],
-      iucnStatus,
-      distributions: [],
-      media: [],
-      metrics: {},
-      occurrenceCount: 0,
-      source: 'profile',
-      // Add editorial data
-      profile: profileDetail.profile,
-      feeding: profileDetail.feeding,
-      habitat: profileDetail.habitat,
-      behavior: profileDetail.behavior,
-    };
+    // If no local profile AND no GBIF data, species truly does not exist
+    if (!profileDetail.profile && !gbifSpecies) {
+      throw new NotFoundException('Species not found');
+    }
+
+    let response: any;
+
+    if (profileDetail.profile) {
+      // Build response with local profile data + GBIF classification
+      response = {
+        key: profileDetail.profile.speciesId,
+        name: profileDetail.profile.commonNameFr || profileDetail.profile.scientificName,
+        canonicalName: profileDetail.profile.commonNameFr || profileDetail.profile.scientificName,
+        scientificName: profileDetail.profile.scientificName,
+        rank,
+        kingdom,
+        phylum,
+        class: taxClass,
+        order,
+        family,
+        genus,
+        status: 'UNKNOWN',
+        vernacularNames: [profileDetail.profile.commonNameFr],
+        iucnStatus,
+        distributions: [],
+        media: [],
+        metrics: {},
+        occurrenceCount: 0,
+        source: 'profile',
+        profile: profileDetail.profile,
+        feeding: profileDetail.feeding,
+        habitat: profileDetail.habitat,
+        behavior: profileDetail.behavior,
+      };
+    } else {
+      // Fallback: build response from GBIF data only (no local editorial content)
+      const vernacularName = gbifSpecies.vernacularName || gbifSpecies.canonicalName || gbifSpecies.scientificName;
+      response = {
+        key: gbifSpecies.key ?? speciesId,
+        name: vernacularName,
+        canonicalName: gbifSpecies.canonicalName || gbifSpecies.scientificName,
+        scientificName: gbifSpecies.scientificName || '',
+        rank,
+        kingdom,
+        phylum,
+        class: taxClass,
+        order,
+        family,
+        genus,
+        status: gbifSpecies.taxonomicStatus || 'UNKNOWN',
+        vernacularNames: vernacularName ? [vernacularName] : [],
+        iucnStatus,
+        distributions: [],
+        media: [],
+        metrics: {},
+        occurrenceCount: 0,
+        source: 'gbif',
+        profile: null,
+        feeding: null,
+        habitat: null,
+        behavior: null,
+      };
+    }
 
     // Cache the results with species-specific TTL (24h)
     this.cacheService.set(cacheKey, response, 86400);
