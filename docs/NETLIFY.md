@@ -9,7 +9,7 @@ La configuration versionnée dans `netlify.toml` définit :
 - Publish directory : `.next`, relatif à la base, donc `frontend/.next` dans le dépôt.
 - Node.js : version 22.
 
-Les valeurs du fichier remplacent les réglages correspondants dans l’interface Netlify. Netlify installe ainsi les dépendances du frontend et détecte Next.js dans son véritable dossier. L’adaptateur OpenNext est géré automatiquement par Netlify, conformément à sa documentation ; aucune version ancienne de plugin n’est imposée.
+Les valeurs du fichier remplacent les réglages correspondants dans l’interface Netlify. Netlify installe ainsi les dépendances du frontend et détecte Next.js dans son véritable dossier. L’adaptateur officiel `@netlify/plugin-nextjs` est déclaré explicitement et installé dans le frontend. Sur ce site, l’activation automatique ne générait aucune fonction ni règle de routage : une compilation réussie aboutissait donc à des erreurs 404. Le plugin prépare les fonctions, le routage SSR, les assets et les en-têtes nécessaires à Next.js. Sa version est verrouillée dans le lockfile du frontend ; la mettre à jour régulièrement.
 
 Le site doit rester connecté au dépôt `amaurybaptist/Captivia`, branche de production `main`, avec les builds automatiques activés. Une fusion doit alors déclencher un nouveau déploiement. Si le dernier build correspond encore à un ancien commit, lancer « Retry deploy » sur le dernier commit depuis l’onglet Deploys.
 
