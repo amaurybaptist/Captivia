@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   # `npm audit` BLOQUANT sur les dépendances de production (vulnérabilités high et critical).
-  # Les devDependencies sont exclues : elles ne sont pas livrées dans les images.
+  # Inclut les outils de développement, comme la correction de sécurité de main.
   audit:
     # Rien sur une PR en brouillon (économie de minutes) : l'audit tourne au passage à « prête ».
     if: github.event_name != 'pull_request' || github.event.pull_request.draft != true
@@ -31,4 +31,4 @@ jobs:
           node-version: 22
       - name: Audit ${{ matrix.project }}
         working-directory: ${{ matrix.project }}
-        run: npm audit --omit=dev --audit-level=high
+        run: npm audit --audit-level=high

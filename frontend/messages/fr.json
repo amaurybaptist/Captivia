@@ -489,7 +489,11 @@
     "retry": "Réessayer",
     "unexpectedError": "Erreur inattendue",
     "sessionExpired": "Votre session a expiré. Reconnectez-vous pour continuer.",
-    "agenda": "Agenda des soins"
+    "agenda": "Agenda des soins",
+    "habitatGuide": "Guide 3D",
+    "designHabitat": "Concevoir son habitat",
+    "careAgenda": "Agenda",
+    "animalGame": "Jeu"
   },
   "disclaimers": {
     "affiliate": "Lien affilié",
@@ -962,7 +966,23 @@
     "dateRequired": "Choisissez une date pour chaque rappel « Une seule fois » : la modification n'a pas été enregistrée.",
     "labelTooLong": "Le nom d'un rappel tient en 60 caractères au plus.",
     "snoozeInvalid": "Indiquez un délai entre 5 et 120 minutes.",
-    "saveInvalid": "Certains réglages ne sont pas valides. Vérifiez les heures et les dates de vos rappels."
+    "saveInvalid": "Certains réglages ne sont pas valides. Vérifiez les heures et les dates de vos rappels.",
+    "pushEnabled": "Notifications actives sur ce navigateur.",
+    "enablePush": "Activer les notifications",
+    "disablePush": "Désactiver sur ce navigateur",
+    "sendTest": "Envoyer un test",
+    "testSent": "Notification envoyée.",
+    "testPartial": "Certaines notifications n’ont pas pu être envoyées.",
+    "noRecipient": "Aucun destinataire actif. Activez les notifications sur un appareil.",
+    "testFailed": "La notification de test n’a pas pu être envoyée.",
+    "timeZone": "Fuseau horaire",
+    "deliveryWindow": "Heures autorisées pour les envois",
+    "windowStart": "Début des envois",
+    "windowEnd": "Fin des envois",
+    "channelsUnavailable": "Certains modes de réception sont temporairement indisponibles. Vos rappels restent visibles dans l’application.",
+    "snoozeAction": "Reporter",
+    "snoozeDone": "Rappel reporté.",
+    "reminderError": "Impossible de mettre à jour le rappel."
   },
   "premiumLock": {
     "goPremium": "Voir l'abonnement Premium",
@@ -1328,7 +1348,8 @@
     "endsOn": "Accès Premium jusqu'au {date}",
     "billingIssue": "Problème de paiement : mettez à jour votre moyen de paiement dans le store.",
     "expired": "Votre abonnement a expiré.",
-    "manage": "Gérer mon abonnement"
+    "manage": "Gérer mon abonnement",
+    "benefitHabitat": "Concepteur d’habitat 2D et 3D : aménagements personnalisés, projets sauvegardés et exports"
   },
   "transparency": {
     "affiliateIndependence": "Les recommandations de matériel et d'alimentation dépendent des besoins de l'espèce, pas du montant des commissions.",

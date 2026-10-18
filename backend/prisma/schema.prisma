@@ -86,6 +86,8 @@ model User {
 
   /// Purge des invités inactifs (GuestPurgeService).
   @@index([isGuest, lastActiveAt])
+  habitatProjects         HabitatProject[]
+  quizRuns                QuizRun[]
 }
 
 // ============================================
@@ -262,6 +264,7 @@ model Animal {
   @@index([fatherId])
   @@index([motherId])
   @@index([groupName])
+  habitatProjects HabitatProject[]
 }
 
 // Carnet de santé : vaccin, opération, nourriture spécifique, antécédant médical, intervention chirurgicale
@@ -498,6 +501,7 @@ model NotificationPreference {
 
   // Relations
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  timeZone         String   @default("Europe/Brussels")
 }
 
 // Événements de rappel : un par notification envoyée / à faire, pour Fait / Pas fait et points
@@ -539,6 +543,10 @@ model NotificationEvent {
   @@index([vaccinationId])
   @@index([userId, status, scheduledAt])
   @@unique([userId, sourceKey, scheduledAt])
+  occurrenceKey  String?  @unique
+  snoozedUntil   DateTime? @db.Timestamptz(3)
+  deliveryVersion Int     @default(0)
+  deliveries   NotificationDelivery[]
 }
 
 // ============================================
@@ -1052,4 +1060,69 @@ model CommunityUploadAttempt {
 
   @@index([userId, createdAt])
   @@index([createdAt])
+}
+
+model QuizRun {
+  id          String           @id @default(uuid())
+  userId      String
+  category    String
+  difficulty  String
+  questionIds String[]
+  score       Int              @default(0)
+  createdAt   DateTime         @default(now()) @db.Timestamptz(3)
+  expiresAt   DateTime         @db.Timestamptz(3)
+  completedAt DateTime?        @db.Timestamptz(3)
+  user        User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  answers     QuizRunAnswer[]
+
+  @@index([userId, category, difficulty, score, completedAt])
+  @@index([expiresAt])
+}
+
+model QuizRunAnswer {
+  id         String   @id @default(uuid())
+  runId      String
+  questionId String
+  position   Int
+  selected   Int
+  correct    Boolean
+  createdAt  DateTime @default(now()) @db.Timestamptz(3)
+  run        QuizRun  @relation(fields: [runId], references: [id], onDelete: Cascade)
+
+  @@unique([runId, questionId])
+  @@unique([runId, position])
+  @@index([runId, position])
+}
+
+model NotificationDelivery {
+  id            String   @id @default(uuid())
+  eventId       String
+  channel       String
+  version       Int      @default(0)
+  attempts      Int      @default(0)
+  leaseUntil    DateTime? @db.Timestamptz(3)
+  nextAttemptAt DateTime @default(now()) @db.Timestamptz(3)
+  sentAt        DateTime? @db.Timestamptz(3)
+  event         NotificationEvent @relation(fields: [eventId], references: [id], onDelete: Cascade)
+
+  @@unique([eventId, channel, version])
+  @@index([nextAttemptAt])
+  @@index([leaseUntil])
+}
+
+model HabitatProject {
+  id        String   @id @default(uuid())
+  userId    String
+  animalId  String?
+  name      String
+  snapshot  Json
+  revision  Int      @default(1)
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @db.Timestamptz(3)
+
+  user   User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  animal Animal? @relation(fields: [animalId], references: [id], onDelete: SetNull)
+
+  @@index([userId, updatedAt])
+  @@index([animalId])
 }

@@ -1,6 +1,7 @@
 import { Transform, plainToInstance } from 'class-transformer';
 import {
   IsIn,
+  IsString,
   IsInt,
   IsObject,
   IsOptional,
@@ -173,6 +174,10 @@ function IsTypeSchedules(options?: ValidationOptions) {
 }
 
 export class UpdateNotificationPreferencesDto {
+  @ValidateIf((_o, value: unknown) => value !== undefined)
+  @IsString()
+  timeZone?: string;
+
   @IsOptional()
   @IsIn(['push', 'email', 'both'])
   deliveryChannel?: 'push' | 'email' | 'both';

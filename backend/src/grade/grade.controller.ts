@@ -1,3 +1,4 @@
+import { SnoozeEventDto } from './snooze-event.dto';
 import {
   Body,
   Controller,
@@ -60,6 +61,17 @@ export class GradeController {
       throw new NotFoundException('Notification event not found');
     }
     return result;
+  }
+
+  @Patch('notification-events/:id/snooze')
+  async snoozeEvent(
+    @Request() req: { user: { id: string } },
+    @Param('id') id: string,
+    @Body() body: SnoozeEventDto,
+  ) {
+    const event = await this.gradeService.snoozeEvent(req.user.id, id, body.minutes);
+    if (!event) throw new NotFoundException('Notification event not found');
+    return event;
   }
 
   @Delete('notification-events/:id')

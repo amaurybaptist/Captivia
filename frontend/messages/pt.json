@@ -489,7 +489,11 @@
     "retry": "Tentar novamente",
     "unexpectedError": "Erro inesperado",
     "sessionExpired": "Sessão expirada. Inicie sessão novamente.",
-    "agenda": "Agenda de cuidados"
+    "agenda": "Agenda de cuidados",
+    "habitatGuide": "Guia 3D",
+    "designHabitat": "Criar o seu habitat",
+    "careAgenda": "Agenda",
+    "animalGame": "Jogo"
   },
   "disclaimers": {
     "affiliate": "Link de afiliado",
@@ -955,7 +959,23 @@
     "dateRequired": "Escolha uma data para cada lembrete pontual: a alteração não foi guardada.",
     "labelTooLong": "O nome de um lembrete pode ter, no máximo, 60 caracteres.",
     "snoozeInvalid": "Indique um tempo entre 5 e 120 minutos.",
-    "saveInvalid": "Algumas definições não são válidas. Verifique as horas e as datas dos seus lembretes."
+    "saveInvalid": "Algumas definições não são válidas. Verifique as horas e as datas dos seus lembretes.",
+    "pushEnabled": "Notificações ativas neste navegador.",
+    "enablePush": "Ativar notificações",
+    "disablePush": "Desativar neste navegador",
+    "sendTest": "Enviar um teste",
+    "testSent": "Notificação enviada.",
+    "testPartial": "Algumas notificações não puderam ser enviadas.",
+    "noRecipient": "Nenhum destinatário ativo. Ative as notificações num dispositivo.",
+    "testFailed": "Não foi possível enviar a notificação de teste.",
+    "timeZone": "Fuso horário",
+    "deliveryWindow": "Horário permitido para envios",
+    "windowStart": "Início dos envios",
+    "windowEnd": "Fim dos envios",
+    "channelsUnavailable": "Alguns modos de receção estão temporariamente indisponíveis. Os lembretes continuam visíveis na aplicação.",
+    "snoozeAction": "Adiar",
+    "snoozeDone": "Lembrete adiado.",
+    "reminderError": "Não foi possível atualizar o lembrete."
   },
   "premiumLock": {
     "goPremium": "Ver a subscrição Premium",
@@ -1321,7 +1341,8 @@
     "endsOn": "Acesso Premium até {date}",
     "billingIssue": "Problema de pagamento: atualize o seu método de pagamento na loja.",
     "expired": "A sua subscrição expirou.",
-    "manage": "Gerir a minha subscrição"
+    "manage": "Gerir a minha subscrição",
+    "benefitHabitat": "Conceção de habitats 2D e 3D: disposições personalizadas, projetos guardados e exportações"
   },
   "legal": {
     "englishFallback": "A versão em inglês prevalece enquanto aguardamos a tradução.",

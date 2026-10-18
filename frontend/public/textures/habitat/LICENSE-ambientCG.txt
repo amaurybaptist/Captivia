@@ -1,0 +1,5 @@
+ambientCG assets: Creative Commons CC0 1.0 Universal.
+Official license: https://docs.ambientcg.com/license/
+License deed: https://creativecommons.org/publicdomain/zero/1.0/
+Commercial use, modification and redistribution are allowed; attribution is not required.
+Downloaded on 2026-10-17. Asset URLs, archive and transformed-file SHA256 checksums: provenance.json.

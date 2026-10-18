@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "208a7dca817da6505c0117c85ffb87fb4acd510a63a3dd39e86c8fb01766b854",
+  "locale": "en",
+  "questions": [
+    {
+      "id": "reptiles-001",
+      "animal": "Reptiles",
+      "prompt": "What characteristic distinguishes reptiles from mammals regarding their skin?",
+      "options": [
+        "It is covered with keratinized feathers",
+        "It is covered with hair and sebaceous glands",
+        "It is bare and permeable",
+        "It is covered with scales or horny plates"
+      ],
+      "explanation": "The skin of reptiles is generally covered with scales or plates rich in keratin, which limit water loss.",
+      "didYouKnow": "Most reptiles have a three-chambered heart; crocodilians are an exception with a four-chambered heart.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-002",
+      "animal": "Reptiles",
+      "prompt": "How do most reptiles regulate their body temperature?",
+      "options": [
+        "Using external heat sources",
+        "By maintaining an almost constant temperature thanks to metabolism",
+        "By producing constant heat through shivering",
+        "By cooling the body through profuse sweating"
+      ],
+      "explanation": "Most are ectothermic: their temperature depends largely on the environment and behaviors such as exposure to the sun or seeking shade.",
+      "didYouKnow": "Fertilization in reptiles takes place inside the body of the female.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-003",
+      "animal": "Reptiles",
+      "prompt": "What type of egg helped reptiles reproduce away from water?",
+      "options": [
+        "An egg whose embryo depends directly on a complex placenta",
+        "An egg without amnion whose embryo develops in open water",
+        "A hard-shelled egg that prevents any gas exchange",
+        "An amniotic egg protected by membranes"
+      ],
+      "explanation": "The membranes of the amniotic egg protect the embryo and create an internal liquid environment, allowing development on land.",
+      "didYouKnow": "Most reptiles have a three-chambered heart; crocodilians are an exception.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-004",
+      "animal": "Reptiles",
+      "prompt": "Why do reptiles molt?",
+      "options": [
+        "To renew the claws with each growth cycle",
+        "To eliminate a layer of skin that has become too thick",
+        "To replace skeletal bones that have become too small",
+        "To renew an outer layer that does not grow with them"
+      ],
+      "explanation": "The stratum corneum of the skin wears away and does not stretch like the underlying tissues; moulting allows its renewal.",
+      "didYouKnow": "Reptiles grow in periods and can therefore molt several times during their life.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-005",
+      "animal": "Reptiles",
+      "prompt": "What role does the forked tongue primarily play in many snakes?",
+      "options": [
+        "Detect sound vibrations from the ground",
+        "Transport odorous particles to the vomeronasal organ",
+        "Taste foods already in your mouth",
+        "Directly measure air humidity"
+      ],
+      "explanation": "The tongue collects molecules from the air and deposits them in the vomeronasal organ, which participates in the analysis of odors.",
+      "didYouKnow": "In snakes, the vomeronasal organ is located in the palate.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-006",
+      "animal": "Snakes",
+      "prompt": "How do snakes open their mouths to swallow large prey?",
+      "options": [
+        "The bones on both sides of the jaw and several bones of the skull are connected by movable joints",
+        "The lower jaw dislocates then returns to its place after a meal",
+        "The two halves of the lower jaw merge and move apart as a whole",
+        "The skull separates from the spine to allow prey to pass"
+      ],
+      "explanation": "The two sides of the lower jaw are not fused at the front; flexible ligaments and movable joints allow the mouth to expand around the prey.",
+      "didYouKnow": "Snakes do not have external auditory pinnae.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-007",
+      "animal": "Snakes",
+      "prompt": "What is the purpose of the zigzag pattern visible on the backs of many European vipers?",
+      "options": [
+        "To visually break up their silhouette and camouflage them",
+        "To attract prey with a bright contrast",
+        "Note the presence of a venom that is still dangerous for humans",
+        "To announce a moulting period to the other vipers"
+      ],
+      "explanation": "The contrasting pattern can help the viper blend in with vegetation or fallen leaves; its appearance varies depending on the species.",
+      "didYouKnow": "The Peliad viper is present even in the northern regions of Europe.",
+      "imageCaption": "Peliad Viper"
+    },
+    {
+      "id": "reptiles-008",
+      "animal": "Chameleons",
+      "prompt": "What is the purpose of color change in chameleons?",
+      "options": [
+        "To adapt the color of the scales to each type of light",
+        "Only to blend into the background to escape predators",
+        "To express social interactions unrelated to temperature",
+        "To communicate and adjust their response to the environment, particularly heat"
+      ],
+      "explanation": "Color changes may be involved in social interactions and thermoregulation; they are not just for camouflage.",
+      "didYouKnow": "Chameleons have feet whose opposite toes form a grip around the branches.",
+      "imageCaption": "Panther chameleon"
+    },
+    {
+      "id": "reptiles-009",
+      "animal": "Geckos",
+      "prompt": "How do some geckos climb smooth surfaces?",
+      "options": [
+        "Thanks to suction cups which create a vacuum under each toe",
+        "With millions of microscopic structures under their fingers",
+        "Thanks to a sticky secretion deposited on the surface",
+        "Thanks to claws that cling to the pores of the support"
+      ],
+      "explanation": "The lamellae of the fingers carry microscopic bristles which establish proximity interactions with the surface.",
+      "didYouKnow": "Some geckos may produce screams or clicking sounds during social interactions.",
+      "imageCaption": "Gecko tokay, representative of geckos"
+    },
+    {
+      "id": "reptiles-010",
+      "animal": "Geckos",
+      "prompt": "What is special about the eyes of many nocturnal geckos?",
+      "options": [
+        "A pupil that contracts into vertical slits in the light",
+        "A fixed iris that blocks light without changing shape",
+        "A round pupil that stays the same size all day",
+        "A horizontal pupil that widens in bright sunlight"
+      ],
+      "explanation": "In many nocturnal geckos, the pupil becomes a narrow slit in bright light; many species do not have movable eyelids.",
+      "didYouKnow": "Eyelidless geckos clean their eyes with their tongues.",
+      "imageCaption": "Gecko tokay, representative of geckos"
+    },
+    {
+      "id": "reptiles-011",
+      "animal": "Lizards",
+      "prompt": "What defensive mechanism is called caudal autotomy in some lizards?",
+      "options": [
+        "The involuntary loss of a leg after an injury",
+        "Molting the tail with the outer skin",
+        "The voluntary loss of part of the tail",
+        "Breaking of the tail during breeding"
+      ],
+      "explanation": "Some lizards can detach part of their tail when a predator grabs them; residual movement can distract his attention.",
+      "didYouKnow": "Some lizards store part of their energy reserves in their tail.",
+      "imageCaption": "Stump lizard, example of a lizard"
+    },
+    {
+      "id": "reptiles-012",
+      "animal": "Lizards",
+      "prompt": "What role do lizards often play in ecosystems?",
+      "options": [
+        "They consume the same plants as herbivores and are never hunted",
+        "They always disperse seeds without consuming animals",
+        "They exclusively occupy the top of the food chains",
+        "They consume invertebrates and serve as prey themselves"
+      ],
+      "explanation": "Many lizards eat insects or other small animals and are in turn consumed by birds, snakes and mammals.",
+      "didYouKnow": "Some species of lizards also consume fruits or nectar.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-013",
+      "animal": "Turtles",
+      "prompt": "What is a turtle shell?",
+      "options": [
+        "To a horny shell placed on its back unrelated to the skeleton",
+        "A bone structure integrated into the skeleton",
+        "With an external envelope formed of detachable plates",
+        "To a layer of thickened skin covering the muscles"
+      ],
+      "explanation": "A turtle’s shell is integrated with its skeleton and includes bony elements; the animal cannot leave it.",
+      "didYouKnow": "The visible plates on many turtle shells are horny scutes.",
+      "imageCaption": "Hermann's tortoise, example of a tortoise"
+    },
+    {
+      "id": "reptiles-014",
+      "animal": "Turtles",
+      "prompt": "What is the ventral part of a turtle’s shell called?",
+      "options": [
+        "The carapace",
+        "The plastron",
+        "The bridge",
+        "A scute"
+      ],
+      "explanation": "The carapace includes a dorsal part, the back, and a ventral part called the plastron.",
+      "didYouKnow": "In box turtles, a hinge in the plastron allows the shell to be closed.",
+      "imageCaption": "Hermann's tortoise, example of a tortoise"
+    },
+    {
+      "id": "reptiles-015",
+      "animal": "Sea turtles",
+      "prompt": "What phenomenon helps sea turtles return to their birth region to lay eggs?",
+      "options": [
+        "Exclusive monitoring of fresh water currents to the beach",
+        "The use of environmental cues, including the Earth's magnetic field",
+        "Memorizing the journey made with their mother",
+        "Orientation only thanks to the smell of their birth site"
+      ],
+      "explanation": "Sea turtles use several navigation cues; research shows that they perceive information related to the earth's magnetic field.",
+      "didYouKnow": "After hatching, young sea turtles return to the ocean without direct parental care.",
+      "imageCaption": "Green turtle (example of sea turtle)"
+    },
+    {
+      "id": "reptiles-016",
+      "animal": "Sea turtles",
+      "prompt": "Why can coastal artificial light endanger young sea turtles?",
+      "options": [
+        "It reduces the salinity of water near lit beaches",
+        "It prevents the eggs from receiving enough daytime heat",
+        "It can disorient them when they reach the sea after hatching.",
+        "It makes the sand too compact for hatching"
+      ],
+      "explanation": "Newborns orient themselves towards the naturally bright horizon; artificial lights can attract them inland.",
+      "didYouKnow": "Adult sea turtles return to beaches to dig their nests.",
+      "imageCaption": "Green turtle (example of sea turtle)"
+    },
+    {
+      "id": "reptiles-017",
+      "animal": "Crocodilians",
+      "prompt": "Where are crocodilians' eyes and nostrils located when they are floating almost completely submerged?",
+      "options": [
+        "Under the lower jaw",
+        "On the sides of the stomach",
+        "On the upper part of the head",
+        "At the end of the tail"
+      ],
+      "explanation": "The placement of the eyes and nostrils on the top of the skull allows us to see and breathe with little exposure to the body.",
+      "didYouKnow": "Valves can close the nostrils and ears of crocodilians underwater.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-018",
+      "animal": "Crocodilians",
+      "prompt": "What is the point of vocal communication in crocodilians?",
+      "options": [
+        "She intervenes in particular between parents and young people",
+        "It helps crocodilians locate prey by echolocation",
+        "It is only used by males to attract mates.",
+        "It replaces visual calls between individuals"
+      ],
+      "explanation": "Crocodilians produce various sounds; the young can vocalize in the egg and call their mother around hatching.",
+      "didYouKnow": "Crocodilians are ectothermic and often sunbathe to warm their bodies.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-019",
+      "animal": "Alligators",
+      "prompt": "Alligators are in which major zoological group?",
+      "options": [
+        "Crocodilians",
+        "The turtles",
+        "The squamates",
+        "Rhynchocephali"
+      ],
+      "explanation": "Alligators, caimans, crocodiles and gharials are crocodilians, a group of archosaur reptiles.",
+      "didYouKnow": "Birds are the closest living relatives of crocodilians among today's major groups.",
+      "imageCaption": "American alligator"
+    },
+    {
+      "id": "reptiles-020",
+      "animal": "Gharials",
+      "prompt": "What shape of snout characterizes the Ganges gharial?",
+      "options": [
+        "A short and very robust muzzle",
+        "A very long and narrow muzzle",
+        "A flattened, shovel-shaped muzzle",
+        "A broad, rounded muzzle"
+      ],
+      "explanation": "The gharial has an elongated, narrow snout adapted to catching fish in rivers.",
+      "didYouKnow": "The adult male has a growth at the end of the snout called a ghara.",
+      "imageCaption": "Gharial of the Ganges"
+    },
+    {
+      "id": "reptiles-021",
+      "animal": "Land turtles",
+      "prompt": "What adaptation helps the Galapagos tortoise reach higher vegetation?",
+      "options": [
+        "Elongated hind legs suitable for jumping",
+        "A flattened tail that propels them through the water",
+        "A neck and a shell whose shape varies depending on the habitat",
+        "A narrow beak that filters aquatic plants"
+      ],
+      "explanation": "In some giant tortoises, a saddle-shaped shell and long neck facilitate access to taller plants.",
+      "didYouKnow": "Galapagos giant tortoises can disperse seeds after eating fruit.",
+      "imageCaption": "Galapagos giant tortoise"
+    },
+    {
+      "id": "reptiles-022",
+      "animal": "Alligator turtle",
+      "prompt": "How does the alligator snapping turtle (Macrochelys temminckii) attract certain aquatic prey?",
+      "options": [
+        "It filters small prey with gill lamellae",
+        "She waves her tail to imitate a wounded fish",
+        "She wiggles a worm-like appendage in the back of her mouth",
+        "It projects its tongue out of the water to grab fish"
+      ],
+      "explanation": "The alligator snapping turtle can remain motionless with its mouth open and wiggle a worm-like lingual appendage to attract prey.",
+      "didYouKnow": "The alligator snapping turtle is endemic to the river basins of the southeastern United States.",
+      "imageCaption": "Alligator snapping turtle (Macrochelys temminckii)"
+    },
+    {
+      "id": "reptiles-023",
+      "animal": "Sea turtles",
+      "prompt": "What food makes up an important part of a leatherback turtle's diet?",
+      "options": [
+        "Jellyfish and other gelatinous organisms",
+        "Algae and seagrass",
+        "Bottom crustaceans and molluscs",
+        "Sponges and hard corals"
+      ],
+      "explanation": "The leatherback turtle primarily consumes jellyfish and other gelatinous prey; plastic bags can be confused with them.",
+      "didYouKnow": "The leatherback turtle is the only sea turtle without a rigid bony shell covered with large scales.",
+      "imageCaption": "Leatherback turtle (Dermochelys coriacea)"
+    },
+    {
+      "id": "reptiles-024",
+      "animal": "Sea turtles",
+      "prompt": "What is the purpose of the salt glands near the eyes in sea turtles?",
+      "options": [
+        "To produce mucus that protects the eye from sand",
+        "To remove nitrogenous waste from the blood",
+        "To eliminate excess absorbed salts",
+        "To keep your eyes moist under water"
+      ],
+      "explanation": "These glands excrete a concentrated salt solution, which helps sea turtles maintain water balance in a salty environment.",
+      "didYouKnow": "Sea turtles must come to the surface to breathe with their lungs.",
+      "imageCaption": "Green turtle (example of sea turtle)"
+    },
+    {
+      "id": "reptiles-025",
+      "animal": "Monitor lizards",
+      "prompt": "What sense helps the Komodo dragon spot odors from a distance?",
+      "options": [
+        "The perception of vibrations by the bones of its legs",
+        "Detection of odors by antennae on the snout",
+        "Detection of molecules by its tongue and vomeronasal organ",
+        "Infrared vision provided only by his eyes"
+      ],
+      "explanation": "Like other lizards, the Komodo dragon collects odor particles with its tongue and analyzes them via the vomeronasal organ.",
+      "didYouKnow": "The Komodo dragon is the largest known living lizard.",
+      "imageCaption": "Komodo dragon"
+    },
+    {
+      "id": "reptiles-026",
+      "animal": "Marine iguanas",
+      "prompt": "What food resource does the Galapagos marine iguana exploit?",
+      "options": [
+        "Sponges collected from reefs",
+        "Fish he catches on the surface",
+        "Seagrass that he uproots on the beach",
+        "Algae that he grazes in the sea"
+      ],
+      "explanation": "The marine iguana feeds on algae, which it grazes while diving in the coastal waters of the Galapagos.",
+      "didYouKnow": "The marine iguana often warms itself in the sun after its dives in cold water.",
+      "imageCaption": "Galapagos marine iguana"
+    },
+    {
+      "id": "reptiles-027",
+      "animal": "Green basilisks",
+      "prompt": "Why is the green basilisk called the Jesus Christ lizard?",
+      "options": [
+        "It moves on water using webbed feet.",
+        "He only walks on the bottom of streams",
+        "It can run briefly on the surface of the water",
+        "He dives in apnea for several minutes without swimming"
+      ],
+      "explanation": "Its long hind legs and toe fringes allow it to run on the water for a short time before swimming.",
+      "didYouKnow": "Green basil lives in areas of Central America, often near waterways.",
+      "imageCaption": "Green basil"
+    },
+    {
+      "id": "reptiles-028",
+      "animal": "Anole",
+      "prompt": "What is the purpose of the colorful dewlap that male anoles display?",
+      "options": [
+        "Intimidation by expansion of the rib cage",
+        "Visual communication, particularly territorial",
+        "Thermoregulation by heat exchange with air",
+        "Tactile detection of prey in the ground"
+      ],
+      "explanation": "The dewlap, an extension of skin under the throat, is displayed during displays or interactions with other individuals.",
+      "didYouKnow": "Some anoles can detach their tails when a predator grabs them.",
+      "imageCaption": "Green anole"
+    },
+    {
+      "id": "reptiles-029",
+      "animal": "Frilled lizard",
+      "prompt": "How can the frilled lizard quickly escape across open ground?",
+      "options": [
+        "Running briefly on its hind legs",
+        "By hovering thanks to a membrane supported by its ribs",
+        "When swimming using a flattened tail",
+        "By digging with its front legs without leaving the ground"
+      ],
+      "explanation": "The frilled lizard can run on its hind legs when fleeing across open ground.",
+      "didYouKnow": "The frilled lizard lives in northern Australia and southern New Guinea.",
+      "imageCaption": "Frilled Lizard"
+    },
+    {
+      "id": "reptiles-030",
+      "animal": "Horned Lizards",
+      "prompt": "What defense is known in some species of horned lizards?",
+      "options": [
+        "Biting predators with venomous fangs",
+        "Spraying blood from vessels near the eyes",
+        "Extend sharp ribs around the head",
+        "Eject irritating mucus through glands in the skin"
+      ],
+      "explanation": "Some species may expel blood from the eye region, a defensive behavior directed against certain predators.",
+      "didYouKnow": "Horned lizards often feed on ants.",
+      "imageCaption": "Texas Horned Lizard"
+    },
+    {
+      "id": "reptiles-031",
+      "animal": "Skinks",
+      "prompt": "What is a common adaptation of burrowing skinks?",
+      "options": [
+        "A flattened head and webbed feet",
+        "A short body and a long dorsal fin",
+        "An elongated body and sometimes reduced limbs",
+        "A compact body and enlarged limbs for digging"
+      ],
+      "explanation": "Skinks that live underground often have elongated bodies and reduced limbs, making it easier to move through the soil.",
+      "didYouKnow": "Some skink species have transparent lower eyelids.",
+      "imageCaption": "Sand skink, a burrowing skink"
+    },
+    {
+      "id": "reptiles-032",
+      "animal": "Legless Lizards",
+      "prompt": "What clue often distinguishes a legless lizard from a snake?",
+      "options": [
+        "The presence of large ventral scales",
+        "The presence of mobile eyelids or ear openings",
+        "The elongated shape of the body",
+        "The forked tongue"
+      ],
+      "explanation": "Some legless lizards retain movable eyelids and external ear openings, while snakes do not.",
+      "didYouKnow": "The slowworm can lose its tail when attacked.",
+      "imageCaption": "Brittle Orvet, a legless lizard"
+    },
+    {
+      "id": "reptiles-033",
+      "animal": "Slow worms",
+      "prompt": "What is the common diet of the slowworm?",
+      "options": [
+        "Fish and shellfish",
+        "Flying insects and spiders",
+        "Bird eggs and small mammals",
+        "Slugs and worms"
+      ],
+      "explanation": "The slowworm, which is a legless lizard, mainly consumes small invertebrates such as slugs and worms.",
+      "didYouKnow": "The slowworm has smooth, shiny scales.",
+      "imageCaption": "Fragile Orvet"
+    },
+    {
+      "id": "reptiles-034",
+      "animal": "Reptiles",
+      "prompt": "What is the form of reproduction where eggs develop outside the maternal body after laying called?",
+      "options": [
+        "Viviparity",
+        "Oviparity",
+        "Parthenogenesis",
+        "Embryonic diapause"
+      ],
+      "explanation": "Oviparity is the mode of reproduction in which the female lays eggs before embryonic development is completed.",
+      "didYouKnow": "Reptile skin includes an outer layer rich in keratin.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-035",
+      "animal": "Snakes",
+      "prompt": "How do snakes detect ground vibrations?",
+      "options": [
+        "They perceive vibrations only with the tongue",
+        "They detect sounds using visible external eardrums",
+        "They sense vibrations with sensory hairs on the skin",
+        "Vibrations are transmitted through the body and jaw bones to the inner ear"
+      ],
+      "explanation": "Snakes do not have external ears, but vibrations from the substrate can reach their inner ear via the skull and jaw.",
+      "didYouKnow": "Snakes do not have external auditory pinnae.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-036",
+      "animal": "Pit vipers",
+      "prompt": "What are the heat-sensitive dimples of many vipers used for?",
+      "options": [
+        "To capture high frequency sounds underwater",
+        "To measure ground vibrations transmitted to the jaw",
+        "To identify odorous molecules carried by the air",
+        "To detect infrared radiation emitted by hot objects"
+      ],
+      "explanation": "Dimple organs detect small differences in thermal radiation and can help locate hot prey.",
+      "didYouKnow": "Vipers belong to the group of snakes called viperids.",
+      "imageCaption": "Western Rattlesnake, a dimpled viper"
+    },
+    {
+      "id": "reptiles-037",
+      "animal": "Boas",
+      "prompt": "How does a boa typically kill prey it has seized?",
+      "options": [
+        "By tightening its coils around the prey, quickly disrupting blood circulation",
+        "By slowly suffocating the prey solely by blocking its airways",
+        "By injecting venom through specialized fangs",
+        "By holding the prey underwater until it drowns"
+      ],
+      "explanation": "Constriction exerts pressure that strongly impedes the prey’s venous return and blood circulation; immobilization is rapid.",
+      "didYouKnow": "Boas have a very mobile jaw that allows them to swallow prey whole.",
+      "imageCaption": "Boa constrictor"
+    },
+    {
+      "id": "reptiles-038",
+      "animal": "Pythons",
+      "prompt": "What reproductive characteristic is common in pythons?",
+      "options": [
+        "Laying eggs",
+        "Reproduction without fertilization by a male",
+        "Guarding cocoons placed underground",
+        "The birth of live young after internal development"
+      ],
+      "explanation": "Pythons are oviparous snakes; several species guard or incubate their eggs, some being able to warm them by muscular contractions.",
+      "didYouKnow": "Pythons have heat-sensitive dimples around their lips.",
+      "imageCaption": "Burmese python"
+    },
+    {
+      "id": "reptiles-039",
+      "animal": "Cobras",
+      "prompt": "Why does the cobra extend its hood?",
+      "options": [
+        "To appear larger when threatening or displaying",
+        "To intimidate prey before catching it",
+        "To better capture odors carried by the air",
+        "To increase the surface area of skin exposed to the sun"
+      ],
+      "explanation": "The hood is formed by the extension of the neck ribs and contributes to a warning or intimidating posture.",
+      "didYouKnow": "Cobras have fixed fangs in the front of their mouths.",
+      "imageCaption": "Indian cobra"
+    },
+    {
+      "id": "reptiles-040",
+      "animal": "Sea snakes",
+      "prompt": "How do sea snakes breathe?",
+      "options": [
+        "With a permanent air pocket under the scales",
+        "With lungs, coming to the surface",
+        "By skin diffusion without taking in air",
+        "With gills that extract dissolved oxygen"
+      ],
+      "explanation": "Even adapted to marine life, sea snakes breathe air with lungs and must come to the surface.",
+      "didYouKnow": "The flattened tail of sea snakes serves as a paddle.",
+      "imageCaption": "Striped knitting, a sea serpent"
+    },
+    {
+      "id": "reptiles-041",
+      "animal": "Sea snakes",
+      "prompt": "What tail shape helps many sea snakes swim?",
+      "options": [
+        "A tail flattened laterally like a paddle",
+        "A long, cylindrical tail that serves as a rudder",
+        "A vertically flattened tail like a fin",
+        "A very short tail which reduces drag"
+      ],
+      "explanation": "The tail compressed at the sides helps with propulsion in the water, while the undulating body guides swimming.",
+      "didYouKnow": "Sea snakes breathe with lungs and must come to the surface.",
+      "imageCaption": "Striped knitting, a sea serpent"
+    },
+    {
+      "id": "reptiles-042",
+      "animal": "Snakes",
+      "prompt": "What is the purpose of the thanatosis behavior observed in certain snakes?",
+      "options": [
+        "To fake death to discourage a predator",
+        "To make yourself harder to spot by changing color",
+        "To attract prey by imitating its movements",
+        "To cool down when the air is too hot"
+      ],
+      "explanation": "Thanatosis consists of remaining immobile and feigning death; it can reduce the interest of certain predators.",
+      "didYouKnow": "The grass snake often wears a clear collar behind its head.",
+      "imageCaption": "Grass snake"
+    },
+    {
+      "id": "reptiles-043",
+      "animal": "Grass snakes",
+      "prompt": "What type of prey do grass snakes often consume?",
+      "options": [
+        "Fish and their eggs",
+        "Aquatic insects and larvae",
+        "Small mammals living in burrows",
+        "Amphibians, especially frogs"
+      ],
+      "explanation": "The grass snake frequents wetlands and feeds in particular on amphibians and sometimes fish.",
+      "didYouKnow": "It is generally harmless to humans.",
+      "imageCaption": "Grass snake"
+    },
+    {
+      "id": "reptiles-044",
+      "animal": "Vipers",
+      "prompt": "What do vipers' fangs do?",
+      "options": [
+        "They inject digestive saliva without venom",
+        "They inject venom into prey or a bitten animal",
+        "They are used to hold prey without hurting them",
+        "They conduct odors to the vomeronasal organ"
+      ],
+      "explanation": "Vipers have specialized fangs connected to venom glands; they can fold them towards the palate when at rest.",
+      "didYouKnow": "Many vipers give birth to live young rather than laying eggs.",
+      "imageCaption": "Peliad Viper"
+    },
+    {
+      "id": "reptiles-045",
+      "animal": "Poisonous snakes",
+      "prompt": "What ecological role does venom often play in snakes that possess it?",
+      "options": [
+        "Make eggs more resistant to drying out",
+        "Immobilize or digest prey more easily",
+        "Allow you to breathe underwater",
+        "Directly regulate body temperature"
+      ],
+      "explanation": "Venom can help immobilize prey and contains molecules that initiate its digestion; it is also used for defense.",
+      "didYouKnow": "Snakes collect odorous molecules with their forked tongues.",
+      "imageCaption": "Peliad viper, a venomous snake"
+    },
+    {
+      "id": "reptiles-046",
+      "animal": "Snakes",
+      "prompt": "Why do some snakes swallow their prey head first?",
+      "options": [
+        "Prey tissues are softer around the head",
+        "Snakes may open their mouths wider in this direction",
+        "The limbs and scales of the prey fold more easily in this direction",
+        "The bones of the prey dissolve more quickly when it is oriented like this"
+      ],
+      "explanation": "Swallowing prey head first reduces the snagging of its limbs, feathers or scales as it progresses through the throat.",
+      "didYouKnow": "In many snakes, the forked tongue collects odor molecules.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-047",
+      "animal": "Reptiles",
+      "prompt": "Which organ allows reptiles to carry out aerial respiration?",
+      "options": [
+        "The external air sacs",
+        "The tracheas",
+        "The lungs",
+        "The gills"
+      ],
+      "explanation": "Reptiles breathe air with lungs; aquatic species generally must return to the surface for air.",
+      "didYouKnow": "In reptiles, the cloaca is a common opening to the digestive, urinary, and reproductive systems.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-048",
+      "animal": "Reptiles",
+      "prompt": "What nitrogen waste do terrestrial reptiles often excrete in pasty or crystalline form?",
+      "options": [
+        "Dissolved carbon dioxide",
+        "Ammonia in abundant solution",
+        "Very diluted urea",
+        "Uric acid"
+      ],
+      "explanation": "Many reptiles excrete nitrogen in the form of uric acid, which helps limit water loss compared to very dilute urine.",
+      "didYouKnow": "Reptiles have a common opening called a cloaca.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-049",
+      "animal": "Reptiles",
+      "prompt": "How do reptiles often use sunlight to thermoregulate?",
+      "options": [
+        "They alternate exposure to the sun and withdrawal into the shade",
+        "They produce heat through continuous shivering",
+        "They sweat to dissipate heat",
+        "They maintain a constant temperature thanks to their metabolism"
+      ],
+      "explanation": "Reptiles can adjust their body temperature by choosing warmer or cooler microhabitats.",
+      "didYouKnow": "Crocodilians are the only living reptiles with a four-chambered heart.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-050",
+      "animal": "Reptiles",
+      "prompt": "What effect can incubation temperature have on certain turtles?",
+      "options": [
+        "It can influence the sex of newborns",
+        "It directly determines the color of the adult shell",
+        "It determines the future lifespan of the embryo",
+        "It always regulates the adult size of each little one"
+      ],
+      "explanation": "In several species of turtles and other reptiles, the temperature during a sensitive period of incubation influences the sex of the young.",
+      "didYouKnow": "Sea turtles can travel long distances between feeding and nesting areas.",
+      "imageCaption": "Painted turtle, example of a thermodependent sex turtle"
+    },
+    {
+      "id": "reptiles-051",
+      "animal": "Turtles",
+      "prompt": "How do some freshwater turtles spend the winter under the ice?",
+      "options": [
+        "They breathe with gills that remain functional into adulthood",
+        "They continually swim under the ice to produce heat",
+        "They migrate by rivers to tropical areas",
+        "They stay at the bottom and greatly slow down their metabolism"
+      ],
+      "explanation": "Some aquatic turtles enter brumation and can exchange part of the gases through highly vascularized surfaces, particularly in the cloaca.",
+      "didYouKnow": "Some freshwater turtles can greatly reduce their activity during the winter.",
+      "imageCaption": "Florida slider turtle, freshwater turtle"
+    },
+    {
+      "id": "reptiles-052",
+      "animal": "Turtles",
+      "prompt": "What is the purpose of the retractable neck in many turtles?",
+      "options": [
+        "To protect the head by bringing it under the shell",
+        "To push the body into the mud",
+        "To filter sediment with the muzzle",
+        "To stretch your neck to reach distant plants"
+      ],
+      "explanation": "Neck retraction allows many turtles to shelter their heads; the way the neck folds differs between lineages.",
+      "didYouKnow": "Some box turtles close their plastron with a hinge.",
+      "imageCaption": "Hermann's tortoise, example of a tortoise"
+    },
+    {
+      "id": "reptiles-053",
+      "animal": "Side-necked turtles",
+      "prompt": "How does a side-necked turtle retract its head?",
+      "options": [
+        "It folds its neck into a vertical S and slides it between the shoulders",
+        "It folds its neck backward under the edge of the shell",
+        "It pulls its head down without moving its neck",
+        "It folds its neck horizontally to the side beneath the edge of the shell"
+      ],
+      "explanation": "Pleurodires fold their neck laterally under the edge of the carapace, unlike turtles which fold it vertically.",
+      "didYouKnow": "Side-necked turtles are mainly represented in the tropical regions of the Southern Hemisphere.",
+      "imageCaption": "Long-necked turtle (side-necked turtle)"
+    },
+    {
+      "id": "reptiles-054",
+      "animal": "Sea turtles",
+      "prompt": "What structure replaces legs in sea turtles for swimming?",
+      "options": [
+        "Curved claws to cling to the bottom",
+        "Limbs transformed into fins",
+        "Elongated fingers connected by a partial webbing",
+        "Rear legs longer than the front"
+      ],
+      "explanation": "The front limbs of sea turtles are transformed into powerful flippers, while the hind limbs help with guidance.",
+      "didYouKnow": "Sea turtles lay their eggs on beaches above the tide line.",
+      "imageCaption": "Green turtle, example of sea turtle"
+    },
+    {
+      "id": "reptiles-055",
+      "animal": "Sea turtles",
+      "prompt": "What behavior do sea turtle hatchlings exhibit after reaching the ocean?",
+      "options": [
+        "They actively swim out to sea",
+        "They remain grouped near the nest until adulthood",
+        "They let themselves drift without swimming to the shore",
+        "They dive into the underwater sand for shelter"
+      ],
+      "explanation": "After reaching the sea, hatchlings actively swim out to sea, a period often described as frenzied swimming.",
+      "didYouKnow": "Newborn sea turtles orient themselves using light cues from the horizon.",
+      "imageCaption": "Green turtle, example of sea turtle"
+    },
+    {
+      "id": "reptiles-056",
+      "animal": "Hawksbill turtles",
+      "prompt": "What do hawksbill sea turtles often feed on on reefs?",
+      "options": [
+        "Marine sponges",
+        "Jellyfish and other gelatinous animals",
+        "Seagrass",
+        "Floating algae"
+      ],
+      "explanation": "The hawksbill turtle frequently consumes sponges, making it an important coral reef food specialist.",
+      "didYouKnow": "The hawksbill turtle is recognizable by its overlapping shell scutes.",
+      "imageCaption": "Hawksbill turtle"
+    },
+    {
+      "id": "reptiles-057",
+      "animal": "Green turtles",
+      "prompt": "What dietary change often occurs in green sea turtles as they grow?",
+      "options": [
+        "The young eat jellyfish, then the adults eat shellfish.",
+        "The diet remains exclusively carnivorous at all ages",
+        "The young are more omnivorous and the adults become mainly herbivorous",
+        "The young are herbivores then the adults become piscivores"
+      ],
+      "explanation": "Juveniles may consume a variety of animal and plant prey, while adults feed largely on seagrass and algae.",
+      "didYouKnow": "The adult green turtle often grazes on seagrass beds.",
+      "imageCaption": "green turtle"
+    },
+    {
+      "id": "reptiles-058",
+      "animal": "Leatherback turtles",
+      "prompt": "What distinguishes the leatherback turtle's shell from that of many other turtles?",
+      "options": [
+        "It is supple and covered with leathery skin.",
+        "It is made only of cartilage without bone elements",
+        "It is made up of movable plates which open for swimming",
+        "It is covered with large horny scutes like those of green turtles."
+      ],
+      "explanation": "The leatherback turtle has a shell without the large horny scales typical of many turtles, with leathery skin over a bony structure.",
+      "didYouKnow": "The leatherback turtle is the only living species in its family, Dermochelyidae.",
+      "imageCaption": "Leatherback turtle"
+    },
+    {
+      "id": "reptiles-059",
+      "animal": "Land turtles",
+      "prompt": "Why do tortoises often have strong legs?",
+      "options": [
+        "They end with suction cups for climbing trees",
+        "They carry the weight of the body and allow walking on the ground",
+        "They are flattened into fins to dig in the sand",
+        "They spread laterally for fast swimming"
+      ],
+      "explanation": "Tortoises move on their thick, sturdy limbs, adapted to support their bodies and terrestrial locomotion.",
+      "didYouKnow": "Tortoises have no teeth and use a horny beak to cut food.",
+      "imageCaption": "Hermann's tortoise, example of a tortoise"
+    },
+    {
+      "id": "reptiles-060",
+      "animal": "Turtles",
+      "prompt": "What are the horny scales visible on the shells of many turtles?",
+      "options": [
+        "Scutes covering the bony elements",
+        "Separate bony plates that replace the vertebrae",
+        "Patches of pigmented skin without a stratum corneum",
+        "Soft detachable scales under the shell"
+      ],
+      "explanation": "Scutes are keratin plates that cover the bony shell in many species, but their presence varies between groups.",
+      "didYouKnow": "The carapace scales, or scutes, are horny plates that cover the bone.",
+      "imageCaption": "Hermann's tortoise, example of a tortoise"
+    },
+    {
+      "id": "reptiles-061",
+      "animal": "Crocodiles",
+      "prompt": "How can you often tell the difference between a crocodile and an alligator when the mouth is closed?",
+      "options": [
+        "Alligators close their mouths by keeping their jaws apart",
+        "In alligators, the lower teeth always protrude from the snout",
+        "Crocodiles have teeth only on the upper jaw",
+        "In many crocodiles, a large lower tooth remains visible"
+      ],
+      "explanation": "In many crocodiles, the fourth tooth in the lower jaw is visible when the mouth is closed; in alligators, it is generally hidden.",
+      "didYouKnow": "Crocodilians have a bony secondary palate.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-062",
+      "animal": "Crocodilians",
+      "prompt": "What does the valve at the bottom of a crocodilians' mouth do?",
+      "options": [
+        "To keep the tongue fixed at the back of the mouth",
+        "To prevent prey from escaping the mouth on land",
+        "To isolate the respiratory tract from water during immersion",
+        "To close the esophageal passage during air breathing"
+      ],
+      "explanation": "The secondary palate and palatal valve allow the crocodilian to keep the airways isolated when holding prey in water.",
+      "didYouKnow": "Crocodilians can close their nostrils when submerged.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-063",
+      "animal": "Crocodilians",
+      "prompt": "Which sensory organ is found in small receptors on the surface of crocodilians' snouts?",
+      "options": [
+        "Organs that perceive the earth's magnetic field",
+        "Glands that measure blood salinity",
+        "Receptors sensitive to pressure and water movements",
+        "Receptors that only detect dissolved odors"
+      ],
+      "explanation": "The integumentary sensory organs of crocodilians perceive changes in pressure and movements in the water.",
+      "didYouKnow": "Crocodilians have a four-chambered heart.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-064",
+      "animal": "Alligators",
+      "prompt": "In what type of habitat are the American alligators mostly found?",
+      "options": [
+        "The mountainous rivers of Central Asia",
+        "Freshwater wetlands of the southeastern United States",
+        "The great cold lakes of northern Canada",
+        "Salty coastal estuaries of the Pacific Islands"
+      ],
+      "explanation": "The American alligator inhabits marshes, rivers and other wetlands, primarily in the southeastern United States.",
+      "didYouKnow": "The American alligator builds a nest of vegetation to lay its eggs.",
+      "imageCaption": "American alligator"
+    },
+    {
+      "id": "reptiles-065",
+      "animal": "Crocodilians",
+      "prompt": "What parental behavior is observed in many crocodilians?",
+      "options": [
+        "Adults carry eggs under belly scales",
+        "The female can carry newborns in her mouth to the water",
+        "Both parents chew food for the little ones",
+        "The male feeds the young with a secretion produced by the skin"
+      ],
+      "explanation": "In many crocodilians, the female protects the nest and can delicately transport the newborns to the water in her mouth.",
+      "didYouKnow": "The females of several crocodilians carry their newborns to the water.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-066",
+      "animal": "Crocodilians",
+      "prompt": "What do crocodilians do with their nictitating membrane when submerged?",
+      "options": [
+        "They protect their eyes with this extra eyelid",
+        "They close their nostrils with it",
+        "They deploy it to catch fish",
+        "They inflate it to produce sounds"
+      ],
+      "explanation": "The nictitating membrane can cover the eye and protect it underwater. It is distinguished from the two outer eyelids.",
+      "didYouKnow": "The nictitating membrane is a translucent eyelid that protects the eye.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-067",
+      "animal": "Crocodilians",
+      "prompt": "What is the name of the movement by which a crocodilian drags prey by turning on itself?",
+      "options": [
+        "Undulating swimming",
+        "The twisting dive",
+        "Lateral walking",
+        "The roll of death"
+      ],
+      "explanation": "The death roll is a rapid rotation used to unbalance or dismember seized prey.",
+      "didYouKnow": "The heart of crocodilians has four chambers.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-068",
+      "animal": "Crocodilians",
+      "prompt": "What difference helps distinguish crocodilians from lizards?",
+      "options": [
+        "Crocodilians have two separate hearts in their thorax.",
+        "Crocodilians have four-chambered hearts",
+        "All reptiles have a four-chambered heart",
+        "Lizards have four-chambered hearts and crocodilians have three-chambered hearts."
+      ],
+      "explanation": "Crocodilians have a four-chambered heart, a characteristic shared with birds and mammals.",
+      "didYouKnow": "Crocodilians guard their eggs and can carry hatchlings in their mouths.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-069",
+      "animal": "Crocodilians",
+      "prompt": "What ecological role can crocodilians fulfill in wetlands?",
+      "options": [
+        "Decomposers that digest dead leaves",
+        "Pollinators that fertilize aquatic plants",
+        "Herbivores that maintain grasslands through grazing",
+        "Predators that influence prey populations and the ecosystem"
+      ],
+      "explanation": "As top predators, they can modify the abundance and behavior of their prey and contribute to the structure of the ecosystem.",
+      "didYouKnow": "Crocodilians can detect slight movements of water using receptors in their skin.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-070",
+      "animal": "Caimans",
+      "prompt": "What group do caimans belong to?",
+      "options": [
+        "To the gavialids, with the gharials",
+        "To the family Alligatoridae, alongside alligators",
+        "With squamates, with monitor lizards",
+        "To Crocodylidae, with real crocodiles"
+      ],
+      "explanation": "Caimans are crocodilians of the Alligatoridae family, native to Central and South America.",
+      "didYouKnow": "Several species of caiman live in the Amazon and Orinoco basins.",
+      "imageCaption": "Spectacled caiman"
+    },
+    {
+      "id": "reptiles-071",
+      "animal": "Gharials",
+      "prompt": "Why do gharials particularly depend on waterways?",
+      "options": [
+        "Its powerful legs allow it to pursue terrestrial prey",
+        "Its body and muzzle are adapted to aquatic hunting for fish",
+        "Its nostrils are adapted to deep sea diving",
+        "Its short snout is used to crush aquatic plants."
+      ],
+      "explanation": "The gharial is a very aquatic crocodilian, specialized in capturing fish in large rivers.",
+      "didYouKnow": "The male of the Ganges gharial has a swelling called ghara at the end of the snout.",
+      "imageCaption": "Gharial of the Ganges"
+    },
+    {
+      "id": "reptiles-072",
+      "animal": "Crocodilians",
+      "prompt": "What do young crocodilians mainly eat when they hatch?",
+      "options": [
+        "Algae that they graze on the water’s edge",
+        "Small invertebrates and accessible animals",
+        "Prey as large as adults",
+        "Milk provided by their mother after hatching"
+      ],
+      "explanation": "Young crocodilians capture small prey, such as insects and other small animals, before they can tackle larger prey.",
+      "didYouKnow": "Crocodilians have a bony secondary palate.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-073",
+      "animal": "Crocodilians",
+      "prompt": "What structure helps crocodilians swim efficiently?",
+      "options": [
+        "Front legs transformed into fins",
+        "Lateral movements of the neck that pull the body",
+        "A muscular tail that provides much of the propulsion",
+        "Webbed feet that produce all the thrust alone"
+      ],
+      "explanation": "The powerful, laterally compressed tail propels the crocodilian through the water; members contribute to direction and stability.",
+      "didYouKnow": "Crocodilians have powerful tails that aid in aquatic propulsion.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-074",
+      "animal": "Crocodilians",
+      "prompt": "How do crocodilians hear underwater?",
+      "options": [
+        "Their teeth act as external auditory antennas",
+        "They only hear sounds transmitted through the air",
+        "Protected hearing structures can transmit sound vibrations",
+        "Their nostrils pick up sound waves instead of ears"
+      ],
+      "explanation": "The auditory openings can be closed by folds, and the vibrations reach the hearing aid through the tissues and the skull.",
+      "didYouKnow": "Crocodilians can close their ears when diving.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-075",
+      "animal": "Sphenodon",
+      "prompt": "Which living group does the sphenodon, also called tuatara, belong to?",
+      "options": [
+        "In the Testudines, like the turtles",
+        "Rhynchocephali, distinct from lizards",
+        "To Squamates, like snakes and lizards",
+        "To Crocodilians, like gharials"
+      ],
+      "explanation": "The tuatara is the only current representative of the Rhynchocephali, a lineage distinct from the squamates which includes lizards and snakes.",
+      "didYouKnow": "The tuatara can live in cooler temperatures than many reptiles.",
+      "imageCaption": "Tuatara (sphenodon)"
+    },
+    {
+      "id": "reptiles-076",
+      "animal": "Sphenodon",
+      "prompt": "What particular structure is sometimes called the third eye in the young tuatara?",
+      "options": [
+        "The parietal eye, a sensory organ located on the top of the head",
+        "An extra pair of moving eyes behind the ears",
+        "An olfactory organ exposed at the top of the skull",
+        "A transparent third eyelid that closes both eyes"
+      ],
+      "explanation": "The tuatara has a median parietal eye, particularly visible in juveniles; it is covered during development.",
+      "didYouKnow": "The tuatara can live a very long time and reaches maturity late.",
+      "imageCaption": "Tuatara (sphenodon)"
+    },
+    {
+      "id": "reptiles-077",
+      "animal": "Sphenodon",
+      "prompt": "What type of climate is the tuatara particularly suited to?",
+      "options": [
+        "A cool temperate climate, with activity possible at low temperatures",
+        "A humid tropical climate where temperatures are constantly high",
+        "An arid desert where temperatures often exceed those of tropical reptiles",
+        "A polar climate where adults remain active under the ice"
+      ],
+      "explanation": "The tuatara can remain active in cooler temperatures than most reptiles, consistent with New Zealand's temperate climate.",
+      "didYouKnow": "The tuatara is endemic to New Zealand.",
+      "imageCaption": "Tuatara (sphenodon)"
+    },
+    {
+      "id": "reptiles-078",
+      "animal": "Sphenodon",
+      "prompt": "What is the rate of development of tuatara eggs?",
+      "options": [
+        "Incubation is exceptionally long in this reptile",
+        "Embryonic development only resumes after several years",
+        "The eggs are incubated by the female inside her body",
+        "Eggs hatch a few days after laying"
+      ],
+      "explanation": "Tuatara eggs have a very long incubation period, lasting many months depending on conditions.",
+      "didYouKnow": "Tuataras often dig burrows which may also be used by seabirds.",
+      "imageCaption": "Tuatara (sphenodon)"
+    },
+    {
+      "id": "reptiles-079",
+      "animal": "Sphenodon",
+      "prompt": "What type of teeth does the tuatara have?",
+      "options": [
+        "Hollow teeth connected to venom glands",
+        "Two rows of upper teeth that overlap a lower row",
+        "A single row of upper teeth that fit between two lower rows",
+        "A horny beak with no teeth on the jaws"
+      ],
+      "explanation": "The upper teeth of the tuatara have two functional rows against which a row of lower teeth is placed.",
+      "didYouKnow": "The tuatara is the only living representative of the order Rhynchocephali.",
+      "imageCaption": "Tuatara (sphenodon)"
+    },
+    {
+      "id": "reptiles-080",
+      "animal": "Sphenodon",
+      "prompt": "Which birds does the tuatara sometimes share its burrow with on some islands?",
+      "options": [
+        "Nesting petrels",
+        "Albatrosses that build nests in burrows",
+        "Penguins breeding on islands",
+        "Kiwis that live in trees"
+      ],
+      "explanation": "On some New Zealand islands, tuataras can live in burrows near petrel colonies.",
+      "didYouKnow": "The tuatara sometimes shares its island burrows with petrels.",
+      "imageCaption": "Tuatara (sphenodon)"
+    },
+    {
+      "id": "reptiles-081",
+      "animal": "Chameleons",
+      "prompt": "How do chameleons often catch insects?",
+      "options": [
+        "With a quickly projected tongue and finished with an adhesive surface",
+        "With sticky fingers that catch insects from a distance",
+        "By projecting a viscous saliva onto the prey",
+        "With jaws with long teeth that grab insects"
+      ],
+      "explanation": "The chameleon's tongue can be projected quickly; its adhesive end grabs prey before being brought back into the mouth.",
+      "didYouKnow": "Chameleons can orient their two eyes independently of each other.",
+      "imageCaption": "Panther chameleon"
+    },
+    {
+      "id": "reptiles-082",
+      "animal": "Chameleons",
+      "prompt": "Why are chameleons' eyes remarkable?",
+      "options": [
+        "They can orient each eye independently",
+        "They are fixed and the entire head rotates to scan the landscape",
+        "They are placed frontally for permanent binocular vision",
+        "They always look in the same direction and never converge"
+      ],
+      "explanation": "Chameleons' eyes can move independently, giving them a wide field of vision; they then coordinate their gaze to aim.",
+      "didYouKnow": "Some chameleon species wear a helmet or skin ridges on their heads.",
+      "imageCaption": "Panther chameleon"
+    },
+    {
+      "id": "reptiles-083",
+      "animal": "Chameleons",
+      "prompt": "What foot adaptation helps chameleons cling to branches?",
+      "options": [
+        "Claws that retract under the skin",
+        "Adhesive pads similar to those of geckos",
+        "Fingers grouped into opposing pincers",
+        "Long fingers united in a broad webbing"
+      ],
+      "explanation": "The fingers are grouped in opposing bundles which form a strong grip around the branches.",
+      "didYouKnow": "Chameleons often capture insects with a rapidly projecting tongue.",
+      "imageCaption": "Panther chameleon"
+    },
+    {
+      "id": "reptiles-084",
+      "animal": "Chameleons",
+      "prompt": "How do chameleons use their prehensile tails?",
+      "options": [
+        "The tail propels the chameleon while swimming",
+        "The tail carries the eggs during laying",
+        "The tail helps balance the chameleon while it runs on the ground",
+        "The tail helps the chameleon grip branches"
+      ],
+      "explanation": "The prehensile tail can wrap around a branch and provide support during arboreal movements.",
+      "didYouKnow": "Chameleons can move their eyes independently of each other.",
+      "imageCaption": "Panther chameleon"
+    },
+    {
+      "id": "reptiles-085",
+      "animal": "Chameleons",
+      "prompt": "Where is the greatest diversity of chameleons found?",
+      "options": [
+        "In Madagascar",
+        "In Central Asia",
+        "In the Caribbean Islands",
+        "In Southern Africa only"
+      ],
+      "explanation": "Madagascar is home to a very large diversity of chameleons, including many endemic species.",
+      "didYouKnow": "The chameleon's tongue can be projected quickly to grasp prey.",
+      "imageCaption": "Panther chameleon"
+    },
+    {
+      "id": "reptiles-086",
+      "animal": "Geckos",
+      "prompt": "What sound do some geckos make?",
+      "options": [
+        "Screaming or clicking used in communication",
+        "Vocalizations only possible underwater",
+        "Sounds produced only by the rubbing of their paws",
+        "Sound calls used to echolocate prey"
+      ],
+      "explanation": "Several geckos are capable of vocalizing, with cries, clicks or snaps linked in particular to social interactions.",
+      "didYouKnow": "Tokay geckos are known for their loud vocalizations.",
+      "imageCaption": "Tokay Gecko"
+    },
+    {
+      "id": "reptiles-087",
+      "animal": "Geckos",
+      "prompt": "What do the tokay gecko's eyes do when it cleans its cornea?",
+      "options": [
+        "It removes its eyes to clean them in water",
+        "It licks them with its tongue",
+        "It blinks with movable eyelids",
+        "It rubs its eyes against branches"
+      ],
+      "explanation": "Geckos without mobile eyelids clean the surface of the eye with their tongue.",
+      "didYouKnow": "The tokay gecko is native to Southeast Asia.",
+      "imageCaption": "Tokay Gecko"
+    },
+    {
+      "id": "reptiles-088",
+      "animal": "Crested Gecko",
+      "prompt": "What happens to a crested gecko’s tail after autotomy?",
+      "options": [
+        "It does not regrow",
+        "It is completely rebuilt with each molt",
+        "It always divides into two new tails",
+        "It is replaced by a rigid bony appendage"
+      ],
+      "explanation": "Unlike many lizards, the crested gecko does not regenerate its tail after losing it. An individual without a tail can nevertheless continue its life.",
+      "didYouKnow": "The crested gecko is native to New Caledonia.",
+      "imageCaption": "Crested Gecko"
+    },
+    {
+      "id": "reptiles-089",
+      "animal": "Geckos",
+      "prompt": "Why do many nocturnal geckos have big eyes?",
+      "options": [
+        "They make it easier to see under murky water",
+        "They detect infrared rays emitted by prey",
+        "They widen the visual field in the midday sun",
+        "They collect more light in the darkness"
+      ],
+      "explanation": "Large eyes can help capture the low light available at night, although visual abilities vary between species.",
+      "didYouKnow": "Some geckos can detach their tails when a predator grabs them.",
+      "imageCaption": "Gecko tokay, representative of geckos"
+    },
+    {
+      "id": "reptiles-090",
+      "animal": "Geckos",
+      "prompt": "What is the common name crested gecko?",
+      "options": [
+        "A burrowing gecko whose back bears a continuous bony crest",
+        "An aquatic gecko with a dorsal fin",
+        "A desert gecko with a ruff around its neck",
+        "An arboreal gecko with reliefs above the eyes and along the back"
+      ],
+      "explanation": "The crested gecko is an arboreal lizard from New Caledonia recognizable by the skin ridges that border its eyes and back.",
+      "didYouKnow": "The crested gecko has small bumps above its eyes and along its back.",
+      "imageCaption": "Crested Gecko"
+    },
+    {
+      "id": "reptiles-091",
+      "animal": "Uromastyx",
+      "prompt": "What do many uromastyx primarily feed on?",
+      "options": [
+        "Plants, such as leaves, flowers and seeds",
+        "Fish and shellfish caught in ponds",
+        "Of mammals that they kill by constriction",
+        "Nectar sucked from the bottom of the flowers"
+      ],
+      "explanation": "Uromastyx are primarily herbivores and consume various plant parts.",
+      "didYouKnow": "Uromastyxes live in arid regions of Africa and Asia.",
+      "imageCaption": "Desert Uromastyx"
+    },
+    {
+      "id": "reptiles-092",
+      "animal": "Leopard Gecko",
+      "prompt": "What is the purpose of the leopard gecko's thick tail?",
+      "options": [
+        "To store energy reserves in the form of fat",
+        "To inject venom into its prey",
+        "To swim undulating in the waterways",
+        "To produce warning sounds by rubbing it on the ground"
+      ],
+      "explanation": "The leopard gecko stores part of its energy reserves in its tail.",
+      "didYouKnow": "The leopard gecko has movable eyelids, unlike many geckos.",
+      "imageCaption": "Leopard Gecko"
+    },
+    {
+      "id": "reptiles-093",
+      "animal": "Lizards",
+      "prompt": "What phenomenon is parthenogenesis observed in some species of lizards?",
+      "options": [
+        "Reproduction where the embryos develop without fertilization by a male",
+        "Live birth after incubation in the maternal body",
+        "Internal fertilization followed by egg laying",
+        "The division of an individual into two adult animals"
+      ],
+      "explanation": "Parthenogenesis allows a female to produce offspring without fertilization; it exists in certain lineages of lizards.",
+      "didYouKnow": "Some lizards may detach their tails to distract a predator.",
+      "imageCaption": "Desert whiptail lizard, parthenogenetic species"
+    },
+    {
+      "id": "reptiles-094",
+      "animal": "Lizards",
+      "prompt": "What role might the tail play in an arboreal lizard?",
+      "options": [
+        "Dig the ground, stirring up the sand",
+        "Maintain balance when moving",
+        "Grasp prey between prehensile scales",
+        "Regulate temperature by dissipating heat"
+      ],
+      "explanation": "In lizards that move through branches, the tail may help with balance and control of movement.",
+      "didYouKnow": "Some arboreal lizards have enlarged toes that improve grip.",
+      "imageCaption": "Green anole, arboreal lizard"
+    },
+    {
+      "id": "reptiles-095",
+      "animal": "Lizards",
+      "prompt": "What is the purpose of the cloaca in reptiles?",
+      "options": [
+        "To expel air from the lungs during a dive",
+        "To permanently separate the urinary tract from the digestive tract",
+        "To receive odors transferred by the tongue",
+        "To evacuate waste and participate in reproduction"
+      ],
+      "explanation": "The cloaca is a common opening to the digestive, urinary, and reproductive systems in reptiles.",
+      "didYouKnow": "In females, the cloaca participates in the passage of eggs during laying.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-096",
+      "animal": "Lizards",
+      "prompt": "What difference in limbs distinguishes lizards from many snakes?",
+      "options": [
+        "All lizards have four well-developed limbs",
+        "Lizards have fins instead of limbs",
+        "Snakes have functional hind limbs",
+        "Many lizards have four limbs, but some have reduced or lost them"
+      ],
+      "explanation": "Most lizards have four limbs, but lineages have evolved toward reduced or absent limbs.",
+      "didYouKnow": "Some legless lizards retain movable eyelids and ear openings.",
+      "imageCaption": "Stump lizard, example of a lizard"
+    },
+    {
+      "id": "reptiles-097",
+      "animal": "Lizards",
+      "prompt": "Why do some desert lizards have pale colors?",
+      "options": [
+        "Light color is always a signal of toxicity",
+        "Dark coloring prevents overheating in the sun",
+        "Pale color guarantees camouflage on any type of sand",
+        "Light coloring can reflect more solar radiation"
+      ],
+      "explanation": "Lighter coloration may reduce heat absorption in certain environments, although camouflage and other functions vary by context.",
+      "didYouKnow": "Pale lizards can blend in with the sandy substrates of their habitat.",
+      "imageCaption": "Desert Uromastyx, lizard of arid environments"
+    },
+    {
+      "id": "reptiles-098",
+      "animal": "Lizards",
+      "prompt": "How do burrowing lizards often avoid drying out?",
+      "options": [
+        "They spend time in burrows or under damp ground",
+        "They only activate at midday when humidity is minimal",
+        "They replace their scales with permeable skin",
+        "They produce very dilute urine which cools the body"
+      ],
+      "explanation": "The ground and burrows provide a more stable and humid microclimate than the surface, limiting water loss.",
+      "didYouKnow": "Burrowing lizards often have elongated bodies adapted to moving through the soil.",
+      "imageCaption": "Sand skink, burrowing lizard"
+    },
+    {
+      "id": "reptiles-099",
+      "animal": "Lizards",
+      "prompt": "What major group do iguanas and anoles belong to?",
+      "options": [
+        "To the Iguanians",
+        "At the Testudines",
+        "To the Crocodilians",
+        "To the Rhynchocephals"
+      ],
+      "explanation": "Iguanas and anoles are part of the Iguanians, a large group of lizards; in modern classifications, they are placed in different families.",
+      "didYouKnow": "Anoles communicate in particular by means of a colored dewlap.",
+      "imageCaption": "Green anole, representing iguanas and anoles"
+    },
+    {
+      "id": "reptiles-100",
+      "animal": "Lizards",
+      "prompt": "Why might island lizards be particularly vulnerable to introduced species?",
+      "options": [
+        "Island reptiles are unable to recognize prey",
+        "Islands prevent reptiles from breeding in captivity",
+        "Island species cannot hide in vegetation",
+        "Their populations sometimes evolved without certain terrestrial predators"
+      ],
+      "explanation": "The introduction of predators such as rats or cats can strongly affect island populations that have not co-evolved with them.",
+      "didYouKnow": "Island lizards can be endemic and occupy a small geographic area.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-101",
+      "animal": "Snakes",
+      "prompt": "What movement allows the snake to advance on uneven ground by supporting itself on uneven surfaces?",
+      "options": [
+        "Lateral undulation",
+        "Accordion locomotion",
+        "Rectilinearity",
+        "Loop locomotion"
+      ],
+      "explanation": "In accordion locomotion, the snake fixes one part of its body, then folds and extends the rest to progress in a narrow space or on an irregular support.",
+      "didYouKnow": "Snakes can also move forward by lateral undulation on open ground.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-102",
+      "animal": "Snakes",
+      "prompt": "How does a snake move undulating down an open corridor?",
+      "options": [
+        "It contracts the stomach muscles to move forward in a straight line",
+        "It moves its skin independently of its skeleton",
+        "It pushes sideways against the ground with the curves of its body",
+        "It is supported by vestigial limbs"
+      ],
+      "explanation": "During lateral undulation, the curves of the body take support on the irregularities and produce a forward thrust.",
+      "didYouKnow": "Snakes can use several modes of locomotion depending on the terrain.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-103",
+      "animal": "Tree snakes",
+      "prompt": "How do some tree snakes stabilize their progress on a branch?",
+      "options": [
+        "They press their stomach against the branch and progress in undulations without wrapping themselves around it.",
+        "They wrap their prehensile tail around the support and move the rest of the body",
+        "They form loops around the branch to support their weight and move forward",
+        "They lift their body by leaning on lateral folds of skin"
+      ],
+      "explanation": "Tree snakes may wrap part of their body around branches to anchor themselves while they move the rest.",
+      "didYouKnow": "Some tree snakes have a prehensile tail that helps them anchor themselves.",
+      "imageCaption": "Green tree python"
+    },
+    {
+      "id": "reptiles-104",
+      "animal": "Snakes",
+      "prompt": "What is the purpose of the transparent patch that covers the eye of many snakes?",
+      "options": [
+        "It constitutes a movable eyelid which closes the eye",
+        "It filters odorous particles towards the palate",
+        "It amplifies the sound vibrations received by the skull",
+        "It protects the eye and is part of the scale called the eyeglass."
+      ],
+      "explanation": "The spectacle is a transparent scale that covers the eye; it is renewed during moulting.",
+      "didYouKnow": "Boas and pythons generally immobilize their prey by constriction.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-105",
+      "animal": "Snakes",
+      "prompt": "How are snakes' teeth renewed?",
+      "options": [
+        "They are only replaced once during the transition to adulthood",
+        "They are continually replaced throughout life, regardless of skin shedding",
+        "Only the venomous fangs are replaced, the other teeth remain for life",
+        "Lost teeth do not grow back in adult snakes"
+      ],
+      "explanation": "Snakes replace their teeth continuously throughout life; this renewal is not triggered by skin shedding.",
+      "didYouKnow": "Snakes swallow their prey whole with their expandable mouth and throat.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-106",
+      "animal": "Snakes",
+      "prompt": "What lung feature is common in snakes?",
+      "options": [
+        "The right lung is usually expanded, while the left is reduced or absent",
+        "Both lungs are connected to functional gills",
+        "The left lung is still the only functional lung",
+        "Adult snakes breathe only through their skin"
+      ],
+      "explanation": "In many snakes, the right lung is most developed and the left is reduced or absent, consistent with their elongated body.",
+      "didYouKnow": "Snakes do not have external auditory pinnae.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-107",
+      "animal": "Rattlesnakes",
+      "prompt": "What element produces the characteristic sound of a rattlesnake’s bell?",
+      "options": [
+        "Vibrant scales on the sides",
+        "Keratin segments nested at the end of the tail",
+        "Small moving bones in the throat",
+        "Air bubbles expelled from the nostrils"
+      ],
+      "explanation": "The rattlesnake vibrates its tail; the hollow segments of keratin at its tip collide and produce the warning noise.",
+      "didYouKnow": "Rattlesnakes add new segments to their bell as they molt.",
+      "imageCaption": "Western Rattlesnake"
+    },
+    {
+      "id": "reptiles-108",
+      "animal": "Snakes",
+      "prompt": "What is the purpose of a complete shed in a snake?",
+      "options": [
+        "Replacing skeletal cartilage",
+        "Eliminate the previous molt through digestion",
+        "Renew teeth and deep layer of skin",
+        "To renew the outer skin layer and the transparent scale covering the eye"
+      ],
+      "explanation": "A complete shed renews the outer skin layer, including the transparent scale covering the eye.",
+      "didYouKnow": "Snakes detect odorous molecules with their forked tongues.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-109",
+      "animal": "Snakes",
+      "prompt": "Which group do boas and pythons belong to in the classification of snakes?",
+      "options": [
+        "To lizards and amphisbenes within the Squamates",
+        "To turtles and crocodilians",
+        "To serpents with front fangs, like vipers",
+        "To distinct lineages of front fanged snakes"
+      ],
+      "explanation": "Boas and pythons belong to lineages of constrictor snakes, distinct from vipers and many elapids.",
+      "didYouKnow": "Boas and pythons are non-venomous snakes that kill their prey by constriction.",
+      "imageCaption": "Boa constrictor, representative of boas"
+    },
+    {
+      "id": "reptiles-110",
+      "animal": "Snakes",
+      "prompt": "What part of the skeleton allows snakes to make undulating movements?",
+      "options": [
+        "A large number of articulated vertebrae and ribs",
+        "Bony fins repeated along the body",
+        "Cartilaginous discs without vertebral bones",
+        "A small number of fused vertebrae and immobile ribs"
+      ],
+      "explanation": "Snakes have numerous vertebrae with associated movable ribs, allowing great flexibility of the trunk.",
+      "didYouKnow": "Snakes do not have external auditory pinnae.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-111",
+      "animal": "Snakes",
+      "prompt": "Why might a snake’s heart move slightly within its body?",
+      "options": [
+        "It is not fixed as in mammals and adapts to the lengthening of the body",
+        "It is free in the cavity and moves with each breath",
+        "It moves towards the skull during each molt",
+        "It is located near the cloaca to facilitate egg-laying"
+      ],
+      "explanation": "The heart of snakes is mobile within the body cavity, which is helpful for a very elongated body and the ingestion of large prey.",
+      "didYouKnow": "In many snakes, the left lung is reduced or absent.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-112",
+      "animal": "Snakes",
+      "prompt": "Why can a snake’s digestive system adapt after a large meal?",
+      "options": [
+        "Digestion is shifted from the intestines to the lungs",
+        "All digestive organs cease their activity for several days",
+        "The intestine is replaced by a temporary stomach",
+        "Some organs significantly increase their activity and size temporarily"
+      ],
+      "explanation": "After a large meal, snakes' digestive metabolism increases and certain organs experience increased activity before returning to their resting state.",
+      "didYouKnow": "Snakes do not have movable eyelids; a transparent scale protects each eye.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-113",
+      "animal": "Spitting Cobras",
+      "prompt": "What target do spitting cobras aim for when they project their venom in defense?",
+      "options": [
+        "The eyes of the attacker",
+        "The legs to immobilize them from a distance",
+        "Ears to disrupt hearing",
+        "The ground to create an odorous barrier"
+      ],
+      "explanation": "The venom projection is mainly aimed at the eyes and constitutes a defense. It is distinguished from the bite used in particular to control prey.",
+      "didYouKnow": "The venom from spitting cobras can cause severe pain if it reaches the eyes.",
+      "imageCaption": "Indochina spitting cobra"
+    },
+    {
+      "id": "reptiles-114",
+      "animal": "Snakes",
+      "prompt": "What is the role of venom glands in venomous snakes?",
+      "options": [
+        "Produce saliva that lubricates the prey",
+        "Make the hooks that grow into the jaw",
+        "Produce and store a secretion used during the bite",
+        "Filter venom from the blood after each bite"
+      ],
+      "explanation": "The venom glands produce a secretion which is conducted to the fangs or specialized teeth through ducts.",
+      "didYouKnow": "Snakes sometimes use their venom for defensive purposes.",
+      "imageCaption": "Indian cobra, venomous snake"
+    },
+    {
+      "id": "reptiles-115",
+      "animal": "Snakes",
+      "prompt": "Which snakes often have fixed fangs in the front of their mouths?",
+      "options": [
+        "The vipers, which bend their fangs towards the palace",
+        "Boas, whose hooks fold over the jaw",
+        "Many elapids such as cobras",
+        "Pythons, whose fangs inject venom"
+      ],
+      "explanation": "Many elapids, notably cobras, have fixed front fangs; other venomous snakes have different configurations.",
+      "didYouKnow": "Mambas and coral snakes are also elapids.",
+      "imageCaption": "Indian cobra, an elapid with fixed anterior hooks"
+    },
+    {
+      "id": "reptiles-116",
+      "animal": "Banded sea kraits",
+      "prompt": "Where do female banded sea kraits lay their eggs?",
+      "options": [
+        "On dry land, in sheltered sites",
+        "Underwater, in reef cavities",
+        "In the open sea, in floating nests of algae",
+        "In burrows dug at the bottom of rivers"
+      ],
+      "explanation": "The striped knit hunts at sea but returns to land to lay its eggs.",
+      "didYouKnow": "Sea kraits live in marine environments and can swim efficiently thanks to their flattened tails.",
+      "imageCaption": "Striped knit (marine krait)"
+    },
+    {
+      "id": "reptiles-117",
+      "animal": "Snakes",
+      "prompt": "What behavior can help a snake save energy after a meal?",
+      "options": [
+        "Increase their activity to accelerate intestinal transit",
+        "Heating without interruption in the sun, even in the event of overheating",
+        "Molt in order to accelerate the decomposition of the prey",
+        "Stay relatively still during digestion"
+      ],
+      "explanation": "After ingesting prey, many snakes reduce their movements and devote their energy to digestion.",
+      "didYouKnow": "Snakes do not have external auditory pinnae.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-118",
+      "animal": "Egg-eating snakes",
+      "prompt": "How do African snakes of the genus Dasypeltis open and swallow eggs?",
+      "options": [
+        "Reliefs of their vertebrae press on the egg in the esophagus",
+        "They crush it with molars",
+        "They dissolve it with very acidic saliva in the mouth",
+        "They pierce its shell with a poisonous hook"
+      ],
+      "explanation": "Bony projections from the vertebrae help break up the shell in the esophagus. The contents are swallowed and the compressed shell may be regurgitated.",
+      "didYouKnow": "Snakes of the genus Dasypeltis specialize in eating bird eggs.",
+      "imageCaption": "Egg-eating snake (Dasypeltis scabra)"
+    },
+    {
+      "id": "reptiles-119",
+      "animal": "Snakes",
+      "prompt": "How do snakes in temperate regions often get through winter?",
+      "options": [
+        "They enter into brumation in a shelter and slow down their activity",
+        "They develop in eggs until spring",
+        "They remain active all year round by regulating their temperature by shivering",
+        "They systematically migrate to tropical regions"
+      ],
+      "explanation": "Brumation is a period of reduced activity in reptiles, often spent in a protected refuge when temperatures are low.",
+      "didYouKnow": "Some snakes congregate in common winter shelters.",
+      "imageCaption": "Peliad viper, snake of temperate regions"
+    },
+    {
+      "id": "reptiles-120",
+      "animal": "Snakes",
+      "prompt": "Why might a snake coil into a spiral when resting?",
+      "options": [
+        "The posture straightens the snake to better spot prey",
+        "Coiling reduces the pressure of food in the stomach",
+        "Compact posture can help conserve heat and protect the body",
+        "The posture allows the tail to be detached in case of danger"
+      ],
+      "explanation": "A curled posture reduces the exposed surface area and protects part of the body; its interest depends on the circumstances.",
+      "didYouKnow": "Snakes collect odorous molecules with their forked tongues.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-121",
+      "animal": "Pythons",
+      "prompt": "How can some female pythons warm their clutches?",
+      "options": [
+        "By repeated muscular contractions",
+        "By producing hot venom",
+        "By fanning the eggs with fins",
+        "By transforming their skin into furry insulating fabric"
+      ],
+      "explanation": "In some species, muscle contractions produce heat during brooding. This remains a particular phenomenon in essentially ectothermic animals.",
+      "didYouKnow": "Female pythons may wrap their bodies around eggs during incubation.",
+      "imageCaption": "Burmese python"
+    },
+    {
+      "id": "reptiles-122",
+      "animal": "Reptiles",
+      "prompt": "What is the difference between ectothermia and inability to regulate temperature?",
+      "options": [
+        "It means that the animal cannot change its temperature through any behavior.",
+        "It means that the heat comes mainly from external sources, but the animal can adjust its temperature by its behavior",
+        "It means that the body temperature always remains equal to that of the air",
+        "It means that the animal produces enough metabolic heat to maintain a constant temperature"
+      ],
+      "explanation": "An ectothermic reptile can partly control its temperature through its behavior, even if it depends on external sources of heat.",
+      "didYouKnow": "Ectothermic reptiles can nevertheless adjust their temperature through their behavior.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-123",
+      "animal": "Reptiles",
+      "prompt": "What membrane surrounds the cavity containing the embryo in the amniotic egg?",
+      "options": [
+        "The yolk sac",
+        "The amnion",
+        "The Allantoid",
+        "The chorion"
+      ],
+      "explanation": "The amnion is a membrane that surrounds the embryo in a liquid environment, a fundamental characteristic of amniote reproduction.",
+      "didYouKnow": "Fertilization in reptiles takes place inside the body of the female.",
+      "imageCaption": "Bearded dragon, example of a reptile"
+    },
+    {
+      "id": "reptiles-124",
+      "animal": "Reptiles",
+      "prompt": "What is the purpose of the yolk sac of the reptilian embryo?",
+      "options": [
+        "To protect the embryo from mechanical shock",
+        "To provide nutrient reserves for development",
+        "To allow gas exchange with the outside air",
+        "To eliminate nitrogenous waste from the embryo"
+      ],
+      "explanation": "The yolk sac contains or is associated with the yolk, a nutrient reserve used by the embryo during its development.",
+      "didYouKnow": "Reptile eggshells allow gas exchange with the environment.",
+      "imageCaption": "Bearded dragon, example of a reptile"
+    },
+    {
+      "id": "reptiles-125",
+      "animal": "Reptiles",
+      "prompt": "What type of fertilization do reptiles use?",
+      "options": [
+        "Fertilization of eggs after laying",
+        "Parthenogenesis in all species",
+        "Internal fertilization",
+        "External fertilization in water"
+      ],
+      "explanation": "Reptiles have internal fertilization; mating allows gametes to meet before egg laying or embryo development.",
+      "didYouKnow": "Internal fertilization is common to modern reptiles.",
+      "imageCaption": "Bearded dragon, example of a reptile"
+    },
+    {
+      "id": "reptiles-126",
+      "animal": "Reptile eggs",
+      "prompt": "What is the role of the allantois in a reptile’s amniotic egg?",
+      "options": [
+        "To surround the embryo with a protective liquid",
+        "To provide the embryo with its main nutrient reserves",
+        "To form the outer calcareous shell",
+        "To store embryonic waste and participate in gas exchanges"
+      ],
+      "explanation": "The Allantoid stores embryonic waste and participates in gas exchange across the egg membranes.",
+      "didYouKnow": "Reptile skin is rich in keratin and limits water loss.",
+      "imageCaption": "Bearded dragon, example of a reptile"
+    },
+    {
+      "id": "reptiles-127",
+      "animal": "Soft-shelled turtles",
+      "prompt": "What structure of the nose allows a soft-shelled turtle to breathe while remaining largely buried?",
+      "options": [
+        "An elongated snout in a small tube",
+        "A curved hook beak",
+        "An inflatable pocket under the throat",
+        "A bony crest above the eyes"
+      ],
+      "explanation": "The tubular snout can reach the surface while the turtle remains hidden at the bottom. She continues to breathe air with her lungs.",
+      "didYouKnow": "Soft-shelled turtles have a flattened, flexible shell.",
+      "imageCaption": "Soft-shelled turtle"
+    },
+    {
+      "id": "reptiles-128",
+      "animal": "Reptiles",
+      "prompt": "What effect can humidity have on the development of a reptile egg?",
+      "options": [
+        "It alone determines the sex of all reptiles",
+        "It controls the nutrient supply contained in the yolk",
+        "It prevents the embryo from exchanging gases with the environment",
+        "It influences water exchange and can affect the survival of the embryo"
+      ],
+      "explanation": "Eggs exchange water with their environment; Inadequate humidity can compromise the embryo.",
+      "didYouKnow": "Fertilization in reptiles is internal.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-129",
+      "animal": "Reptiles",
+      "prompt": "Why do some female reptiles keep their eggs after laying eggs?",
+      "options": [
+        "Guarding can reduce the risk of predation or desiccation",
+        "Guarding allows eggs to leave the nest to feed",
+        "The presence of the parent ensures an identical temperature for all the eggs",
+        "The guard brings food to the embryos through the shell"
+      ],
+      "explanation": "Nest guarding, observed in particular in several crocodilians and pythons, can protect eggs against predators and certain unfavorable conditions.",
+      "didYouKnow": "The skin of reptiles is covered with scales or horny plates.",
+      "imageCaption": "Peliad viper, example of a reptile retaining its embryos"
+    },
+    {
+      "id": "reptiles-130",
+      "animal": "Reptiles",
+      "prompt": "What term refers to reproduction where young are born alive after developing in the maternal reproductive tract?",
+      "options": [
+        "Oviparity",
+        "Parthenogenesis",
+        "Embryonic diapause",
+        "Viviparity"
+      ],
+      "explanation": "Viviparity refers to the development of embryos in the maternal body until birth; forms of embryonic nutrition vary among reptiles.",
+      "didYouKnow": "Reptiles are ectothermic and can use the sun to keep warm.",
+      "imageCaption": "Peliad viper, snake giving birth to live young"
+    },
+    {
+      "id": "reptiles-131",
+      "animal": "Saltwater crocodile",
+      "prompt": "Which crocodilian is particularly known for traveling great distances at sea?",
+      "options": [
+        "The saltwater crocodile, Crocodylus porosus",
+        "The Chinese alligator",
+        "Cuvier's dwarf caiman",
+        "The Ganges gharial"
+      ],
+      "explanation": "The saltwater crocodile tolerates salt water and can make long coastal or marine journeys, sometimes taking advantage of currents.",
+      "didYouKnow": "The saltwater crocodile is the largest living crocodilian species.",
+      "imageCaption": "Marine crocodile"
+    },
+    {
+      "id": "reptiles-132",
+      "animal": "Reptiles",
+      "prompt": "What is a potential effect of global warming on populations of temperature-dependent turtles?",
+      "options": [
+        "It can unbalance the proportion of sexes in certain nests",
+        "It makes the young unable to leave the nest",
+        "It prevents any internal fertilization in adults",
+        "It gradually transforms adult females into males"
+      ],
+      "explanation": "Higher incubation temperatures can alter the sex ratio in temperature-dependent species, with possible consequences for reproduction.",
+      "didYouKnow": "Reptile skin includes an outer layer rich in keratin.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-133",
+      "animal": "Reptiles",
+      "prompt": "What is the purpose of diapause in some reptile embryos?",
+      "options": [
+        "To accelerate development until hatching",
+        "To prevent the embryo from consuming its yolk",
+        "To temporarily suspend development before it resumes",
+        "To increase the female's body temperature"
+      ],
+      "explanation": "Diapause is a temporary arrest or slowing of embryonic development, which can synchronize birth with favorable conditions.",
+      "didYouKnow": "The cloaca is a common opening to the digestive, urinary, and reproductive systems of reptiles.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-134",
+      "animal": "American crocodile",
+      "prompt": "Which American crocodilian also frequents brackish waters and coastal areas?",
+      "options": [
+        "The American crocodile",
+        "The American alligator",
+        "The spectacled caiman",
+        "Cuvier's dwarf caiman"
+      ],
+      "explanation": "The American crocodile uses coastal, estuarine and brackish habitats throughout part of its range.",
+      "didYouKnow": "The American crocodile can tolerate brackish water and frequents coastal areas.",
+      "imageCaption": "American crocodile"
+    },
+    {
+      "id": "reptiles-135",
+      "animal": "Reptiles",
+      "prompt": "Why are the hatchlings of many reptiles able to fend for themselves quickly?",
+      "options": [
+        "They are born as larvae which metamorphose in water",
+        "They are fed with milk after hatching",
+        "They must stay in the nest until they can fly",
+        "They hatch in an already functional miniature form"
+      ],
+      "explanation": "Most reptiles hatch as small, adult-like individuals, without obligatory larval metamorphosis.",
+      "didYouKnow": "In many reptiles, newborns do not receive prolonged parental care.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-136",
+      "animal": "Reptiles",
+      "prompt": "What is brumation in reptiles?",
+      "options": [
+        "A period of seasonal slowdown in activity",
+        "A phase of migration towards spawning areas",
+        "An arrest of embryonic development before laying",
+        "An accelerated moult that renews all the scales"
+      ],
+      "explanation": "Brumation is a period of reduced activity in reptiles, often linked to cold and accompanied by a drop in metabolism.",
+      "didYouKnow": "Reptile scales protect their skin from abrasion.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-137",
+      "animal": "Reptiles",
+      "prompt": "Why do reptiles often need to remain active in moderate temperatures?",
+      "options": [
+        "Their digestion and movements depend on their body temperature",
+        "Their muscles are inactive up to a specific single temperature",
+        "Their heart always stops beating when it's cool",
+        "Their lungs only work during the hot season"
+      ],
+      "explanation": "Reptile physiological processes, including muscle activity and digestion, vary with body temperature.",
+      "didYouKnow": "The scaly skin of reptiles limits water loss.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-138",
+      "animal": "Reptiles",
+      "prompt": "What strategy helps a desert reptile avoid dehydration during the day?",
+      "options": [
+        "Stay in a warm shelter during cool hours then expose yourself to the sun in the middle of the day",
+        "Expose yourself to the sun at midday to accelerate water loss through evaporation",
+        "Increase respiratory evaporation to cool the blood",
+        "Take refuge in a burrow during hot times and be active during cooler times"
+      ],
+      "explanation": "The use of cool shelter and twilight or nocturnal activity helps many desert reptiles limit water loss and overheating.",
+      "didYouKnow": "Many desert reptiles are most active at dawn, dusk or at night.",
+      "imageCaption": "Desert Uromastyx"
+    },
+    {
+      "id": "reptiles-139",
+      "animal": "Reptiles",
+      "prompt": "What benefit does keratinized skin provide to many terrestrial reptiles?",
+      "options": [
+        "It increases air exchange through the skin",
+        "It prevents any loss of water through breathing",
+        "It allows direct absorption of water by the scales",
+        "It limits water loss through the surface of the body"
+      ],
+      "explanation": "The keratin-rich outer layer provides a barrier that reduces dehydration in the air.",
+      "didYouKnow": "Keratinized skin helps protect terrestrial reptiles from abrasion.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-140",
+      "animal": "Reptiles",
+      "prompt": "What is the point of large ventral scales in snakes?",
+      "options": [
+        "They absorb heat from the ground more quickly than the back",
+        "They support themselves on the ground during locomotion",
+        "They protect the belly from predator bites",
+        "They are used to collect odorous molecules"
+      ],
+      "explanation": "The large ventral scales grip the irregularities of the substrate and contribute to the progression of the snake.",
+      "didYouKnow": "Snakes do not have external auditory pinnae.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-141",
+      "animal": "Reptiles",
+      "prompt": "Why do reptiles often lay their eggs in a sheltered site?",
+      "options": [
+        "To ensure eggs remain submerged during incubation",
+        "To protect the embryos from any gas exchange",
+        "To limit exposure to predators and environmental variations",
+        "To allow the female to incubate the eggs under her body"
+      ],
+      "explanation": "Choosing a protected nest can reduce predation and help maintain suitable humidity and temperature conditions.",
+      "didYouKnow": "Some reptiles choose nesting sites where the soil facilitates egg incubation.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-142",
+      "animal": "Gharial of the Ganges",
+      "prompt": "What does the ghara of the adult male gharial mean?",
+      "options": [
+        "A fin at the end of the tail",
+        "A rounded growth at the end of the snout",
+        "A bony plaque on the throat",
+        "An expandable pocket under the stomach"
+      ],
+      "explanation": "The ghara is a rounded growth worn at the end of the snout of adult male gharials.",
+      "didYouKnow": "The gharial of the male gharial is a growth located at the end of its snout.",
+      "imageCaption": "Gharial of the Ganges"
+    },
+    {
+      "id": "reptiles-143",
+      "animal": "Reptiles",
+      "prompt": "What mechanism allows the lungs of many reptiles to renew air?",
+      "options": [
+        "Beating of the limbs that draws air into the lungs",
+        "Pressure variations produced by the tongue",
+        "Contractions of the skin that compress the lungs",
+        "Movements of the rib cage and respiratory muscles"
+      ],
+      "explanation": "Reptiles generally ventilate their lungs through movements of the ribs and associated muscles, with variations between groups.",
+      "didYouKnow": "Squamates periodically renew the outer layer of their skin.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-144",
+      "animal": "Reptiles",
+      "prompt": "Why don't turtles breathe by inflating their ribs like a lizard?",
+      "options": [
+        "They do not have a diaphragm like mammals",
+        "They have internal gills that close the lungs",
+        "Their shell prevents any movement of the respiratory muscles",
+        "Their ribs are integrated into the shell and do not deviate freely"
+      ],
+      "explanation": "Turtles' ribs are fused to the shell, so they use specialized muscles to ventilate their lungs.",
+      "didYouKnow": "Current turtles have no teeth and have a horny beak.",
+      "imageCaption": "Hermann's tortoise"
+    },
+    {
+      "id": "reptiles-145",
+      "animal": "Reptiles",
+      "prompt": "What effect does diving have on the movement of some aquatic turtles?",
+      "options": [
+        "Blood stops circulating during diving",
+        "The lungs fill with water to exchange gases",
+        "The heart rate may slow down to conserve oxygen",
+        "The heart speeds up to consume stored oxygen more quickly"
+      ],
+      "explanation": "Like other diving vertebrates, aquatic turtles can slow their heart rate and redistribute oxygen during a dive.",
+      "didYouKnow": "The shell of turtles includes bony elements integrated into the skeleton.",
+      "imageCaption": "Florida slider turtle, aquatic turtle"
+    },
+    {
+      "id": "reptiles-146",
+      "animal": "Reptiles",
+      "prompt": "What role do nostrils play in floating crocodilians?",
+      "options": [
+        "They filter the salt from the absorbed water",
+        "They keep your eyes open during a dive",
+        "They detect the movements of prey in the water",
+        "They allow crocodilians to breathe while remaining almost entirely submerged"
+      ],
+      "explanation": "The nostrils at the top of the snout remain above the water when the crocodilian floats, allowing it to breathe discreetly.",
+      "didYouKnow": "Nostrils placed on the top of the snout allow crocodilians to breathe while floating low.",
+      "imageCaption": "Nile crocodile"
+    },
+    {
+      "id": "reptiles-147",
+      "animal": "Crocodilians",
+      "prompt": "What are crocodilian osteoderms?",
+      "options": [
+        "Bones embedded in the skin, under the scales",
+        "Keratin plates detachable with each molt",
+        "Replacement teeth housed in the palate",
+        "Sense organs located around the nostrils"
+      ],
+      "explanation": "Osteoderms are bony elements integrated into the dermis and present under the scales of many crocodilians.",
+      "didYouKnow": "Crocodilians have four-chambered hearts, like birds.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-148",
+      "animal": "Draco flying lizard",
+      "prompt": "What structure allows the flying lizard Draco to glide between trees?",
+      "options": [
+        "A flattened tail that acts like a wing",
+        "A membrane supported by very long fingers",
+        "A membrane of skin supported by elongated ribs",
+        "Feathers located on the sides"
+      ],
+      "explanation": "The genus Draco deploys a patagium, a membrane of skin supported by elongated ribs, to glide from one tree to another.",
+      "didYouKnow": "Lizards of the genus Draco live in the tropical forests of South and Southeast Asia.",
+      "imageCaption": "Draco flying lizard"
+    },
+    {
+      "id": "reptiles-149",
+      "animal": "Reptiles",
+      "prompt": "What role might warning coloration play in some reptiles?",
+      "options": [
+        "Attract prey by imitating their food",
+        "Indicate body temperature to conspecifics",
+        "Camouflage the animal in dark environments",
+        "Report defense or toxicity to predators"
+      ],
+      "explanation": "Bright or contrasting colors can serve as a warning signal, although their function depends on the species and context.",
+      "didYouKnow": "Bright warning colors are seen in some species of reptiles.",
+      "imageCaption": "Gila Monster, example of warning coloring"
+    },
+    {
+      "id": "reptiles-150",
+      "animal": "Reptiles",
+      "prompt": "Why are reptile camouflage patterns often irregular?",
+      "options": [
+        "They make the animal invisible in all habitats",
+        "They can break the body contour in a complex environment",
+        "They reflect light to warn predators",
+        "They produce patterns that attract partners from a distance"
+      ],
+      "explanation": "Irregular patterns can disrupt the perception of an animal's outline and make it more difficult to spot in its habitat.",
+      "didYouKnow": "Terrestrial reptiles have scaly skin rich in keratin.",
+      "imageCaption": "Texas Horned Lizard"
+    },
+    {
+      "id": "reptiles-151",
+      "animal": "Reptiles",
+      "prompt": "What is a major threat to reptiles that live in wetlands?",
+      "options": [
+        "Drainage and destruction of their habitat",
+        "Increasing plant cover around ponds",
+        "The formation of new meanders in watercourses",
+        "The seasonal drop in pond levels"
+      ],
+      "explanation": "Drainage, pollution and fragmentation of wetlands remove feeding, nesting and shelter sites for many reptiles.",
+      "didYouKnow": "The disappearance of wetlands particularly affects crocodilians and freshwater turtles.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-152",
+      "animal": "Reptiles",
+      "prompt": "How does habitat fragmentation affect reptile populations?",
+      "options": [
+        "It creates nesting sites without fragmenting territories",
+        "It brings populations together and always increases genetic exchanges",
+        "It only affects species that live in trees",
+        "It isolates populations and reduces movement between habitats"
+      ],
+      "explanation": "Roads and developed areas can separate populations, limit access to breeding sites and reduce genetic exchange.",
+      "didYouKnow": "Island lizards may be endemic to a restricted geographic range.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-153",
+      "animal": "Sea turtles",
+      "prompt": "Why does incidental catch in fishing gear threaten sea turtles?",
+      "options": [
+        "They prevent turtles from returning to their birth beach",
+        "They can remove salt from sea water",
+        "They can lead to injury or drowning",
+        "They degrade the egg shell before laying"
+      ],
+      "explanation": "Turtles accidentally caught in nets or hooks can be injured or drown if they cannot come up to breathe.",
+      "didYouKnow": "The leatherback turtle feeds mainly on jellyfish and other gelatinous organisms.",
+      "imageCaption": "Green turtle, example of sea turtle"
+    },
+    {
+      "id": "reptiles-154",
+      "animal": "Sea turtles",
+      "prompt": "What risk does plastic waste pose to sea turtles?",
+      "options": [
+        "They provide nesting materials for adult turtles",
+        "They reduce the risk of injuries caused by nets",
+        "They can be ingested or cause entanglement",
+        "They increase the amount of jellyfish available to turtles"
+      ],
+      "explanation": "Turtles may swallow trash that they mistake for prey or become entangled in discarded lines and nets.",
+      "didYouKnow": "Sea turtles eliminate excess salt through specialized glands near their eyes.",
+      "imageCaption": "Green turtle, example of sea turtle"
+    },
+    {
+      "id": "reptiles-155",
+      "animal": "Land turtles",
+      "prompt": "Why can the illegal trade in turtles rapidly reduce some populations?",
+      "options": [
+        "Adult turtles can only breed once",
+        "Turtles only lay one egg at the end of their life",
+        "Turtle populations cannot be tracked by researchers",
+        "Turtles often grow slowly and mature late"
+      ],
+      "explanation": "Slow growth, late maturity, and sometimes poor juvenile survival make many turtles vulnerable to overharvesting.",
+      "didYouKnow": "The shell of turtles is integrated into their skeleton.",
+      "imageCaption": "Hermann's tortoise, example of a land turtle"
+    },
+    {
+      "id": "reptiles-156",
+      "animal": "Reptiles",
+      "prompt": "What effect can a road have on snakes and lizards?",
+      "options": [
+        "It can suppress prey only during the night",
+        "It only disturbs arboreal reptiles",
+        "It can cause direct mortality and fragment their habitat",
+        "It can make snake skin more permeable"
+      ],
+      "explanation": "Reptiles crossing a road risk being struck, and infrastructure can separate habitats and limit movement.",
+      "didYouKnow": "Snakes detect odorous molecules with their forked tongues.",
+      "imageCaption": "Bearded dragon, an example of a reptile"
+    },
+    {
+      "id": "reptiles-157",
+      "animal": "Reptiles",
+      "prompt": "Why might invasive alien species threaten island reptiles?",
+      "options": [
+        "They always improve the genetic diversity of local populations",
+        "They cannot eat reptile eggs",
+        "They can become new predators or competitors",
+        "They are unable to survive on the islands"
+      ],
+      "explanation": "Introduced mammals may predate eggs and young reptiles or compete with local species for resources.",
+      "didYouKnow": "Reptiles have scaly skin rich in keratin.",
+      "imageCaption": "Galápagos marine iguana, island reptile"
+    },
+    {
+      "id": "reptiles-158",
+      "animal": "Crocodilians",
+      "prompt": "What historical pressure has sharply reduced some crocodilian populations?",
+      "options": [
+        "Hunting for their pelts and loss of habitat",
+        "Predation by adult birds",
+        "Natural competition between individuals of the same species",
+        "Seasonal decline in prey in rivers"
+      ],
+      "explanation": "Commercial hunting and wetland transformation have caused sharp declines in several species of crocodilians.",
+      "didYouKnow": "Crocodilians build vegetation nests or dig nests depending on the species.",
+      "imageCaption": "Nile crocodile"
+    },
+    {
+      "id": "reptiles-159",
+      "animal": "Thorny devil (Moloch)",
+      "prompt": "How can the thorny devil channel water collected on its skin toward its mouth?",
+      "options": [
+        "Fine grooves between its scales guide the water",
+        "By glands that pump water from its legs",
+        "Through a pocket located in its tail",
+        "By hollow hairs which suck water up to the muzzle"
+      ],
+      "explanation": "Furrows between the Moloch's scales can transport water from its skin to its mouth by capillary action.",
+      "didYouKnow": "The horned devil can camouflage itself by remaining motionless in its arid habitat.",
+      "imageCaption": "Horned devil (Moloch horridus)"
+    },
+    {
+      "id": "reptiles-160",
+      "animal": "Reptiles",
+      "prompt": "Why is preserving nesting sites essential for turtles?",
+      "options": [
+        "The eggs can only hatch if the mother stays on the beach",
+        "Eggs depend on local soil conditions, humidity and temperature",
+        "Laying sites determine adult diet",
+        "Adults can only lay eggs near a forest"
+      ],
+      "explanation": "The success of incubation depends on the characteristics of the site, while the destruction of beaches or banks can remove access to nests.",
+      "didYouKnow": "Sea turtles breathe with lungs and must come to the surface.",
+      "imageCaption": "Green turtle, sea turtle"
+    },
+    {
+      "id": "reptiles-161",
+      "animal": "Frilled lizard",
+      "prompt": "What does the frilled lizard do when it spreads its large fold of skin?",
+      "options": [
+        "He opens a collar around the head to appear more imposing",
+        "It deploys a membrane between its legs to glide",
+        "It inflates a pocket under the throat to store air",
+        "He straightens a row of thorns on his tail"
+      ],
+      "explanation": "The frilled lizard opens the wrinkled skin around its neck when displaying or threatening, which visually enlarges its silhouette.",
+      "didYouKnow": "The frilled lizard is native to northern Australia and southern New Guinea.",
+      "imageCaption": "Frilled Lizard"
+    },
+    {
+      "id": "reptiles-162",
+      "animal": "Reptiles",
+      "prompt": "Why can collecting wild reptiles for pets be problematic?",
+      "options": [
+        "It only concerns species bred in captivity",
+        "It can deplete natural populations and disrupt their structure",
+        "It always improves the genetic diversity of wild populations",
+        "It makes the collected individuals more adapted to natural environments"
+      ],
+      "explanation": "Unsustainable harvests can remove too many individuals, particularly breeding adults or species with restricted ranges.",
+      "didYouKnow": "Reptiles reproduce by internal fertilization.",
+      "imageCaption": "Hermann's tortoise, example of a reptile collected for trade"
+    },
+    {
+      "id": "reptiles-163",
+      "animal": "Blue-tongued skink",
+      "prompt": "What visual signal can the blue-tongued skink show to a predator?",
+      "options": [
+        "A bright blue tongue",
+        "A red collar deployed around the neck",
+        "A pair of large eyespots on the wings",
+        "A yellow dewlap under the throat"
+      ],
+      "explanation": "The blue-tongued skink may open its mouth and expose its live tongue in a defensive posture.",
+      "didYouKnow": "The blue-tongued skink is omnivorous and consumes plants and small animals.",
+      "imageCaption": "Blue-tongued skink"
+    },
+    {
+      "id": "reptiles-164",
+      "animal": "Reptiles",
+      "prompt": "How do turtles sometimes help with seed dispersal?",
+      "options": [
+        "They can eat fruits and then deposit the seeds in their droppings.",
+        "They carry the seeds attached to their shell without swallowing them",
+        "They bury all the seeds in their nests",
+        "They pollinate the fruits before consuming them"
+      ],
+      "explanation": "Turtles that eat fruit may swallow seeds and carry them before excreting them elsewhere.",
+      "didYouKnow": "The shell of turtles includes bony elements welded to the skeleton.",
+      "imageCaption": "Galapagos giant tortoise, example of a seed dispersing tortoise"
+    },
+    {
+      "id": "reptiles-165",
+      "animal": "Reptiles",
+      "prompt": "What ecological service do some snakes provide in agricultural landscapes?",
+      "options": [
+        "They can limit rodent populations",
+        "They directly fertilize the soil by digesting the roots",
+        "They pollinate cereal crops",
+        "They eliminate all species of pests without side effects"
+      ],
+      "explanation": "Snakes that eat rodents can help regulate their populations, although their impact depends on the species and environment.",
+      "didYouKnow": "Snakes do not have movable eyelids; a transparent scale protects their eyes.",
+      "imageCaption": "Corn snake, example of a snake"
+    },
+    {
+      "id": "reptiles-166",
+      "animal": "Sand Skink (Scincus)",
+      "prompt": "How do sand skinks move through loose sand?",
+      "options": [
+        "It burrows under the sand and moves forward, undulating its body, as if it were swimming in the substrate.",
+        "It burrows by pushing the sand backwards with its limbs",
+        "It progresses under the sand, undulating its body, as if it were swimming in the substrate.",
+        "It digs a gallery by alternating movements of its front legs"
+      ],
+      "explanation": "The sand skink can burrow and progress under loose sand using undulatory body movements.",
+      "didYouKnow": "The sand skink lives in arid regions of North Africa and the Middle East.",
+      "imageCaption": "Sand Skink"
+    },
+    {
+      "id": "reptiles-167",
+      "animal": "Pig-nosed turtle",
+      "prompt": "Which freshwater turtle has a fleshy, pig-like snout?",
+      "options": [
+        "Carettochelys insculpta",
+        "Hermann's tortoise",
+        "The leatherback turtle",
+        "The hawksbill turtle"
+      ],
+      "explanation": "The pig-nosed turtle lives in fresh waters of northern Australia and southern New Guinea. Its nostrils are located at the tip of its distinctive snout.",
+      "didYouKnow": "The pig-nosed turtle has paddle-shaped forelimbs.",
+      "imageCaption": "Pig-nosed turtle"
+    },
+    {
+      "id": "reptiles-168",
+      "animal": "Reptiles",
+      "prompt": "What evolutionary relationship exists between crocodilians and birds?",
+      "options": [
+        "Birds descend from current crocodilians",
+        "They both belong to archosaurs",
+        "Birds and crocodilians have no common ancestor",
+        "Crocodilians belong to squamates like snakes"
+      ],
+      "explanation": "Crocodilians and birds are the two major current lineages of archosaurs and share an ancient common ancestor.",
+      "didYouKnow": "Crocodilians build nests and sometimes protect the young around them when they hatch.",
+      "imageCaption": "Nile crocodile, representative of crocodilians"
+    },
+    {
+      "id": "reptiles-169",
+      "animal": "Gila monster",
+      "prompt": "Where does the Gila Monster store some of its energy reserves?",
+      "options": [
+        "In a pocket under the throat",
+        "In the forelimbs",
+        "Under the scales of his back",
+        "In its thick tail"
+      ],
+      "explanation": "The Gila monster stores fat in its tail, which helps it endure periods when food is scarce.",
+      "didYouKnow": "The Gila monster is one of the few venomous lizards.",
+      "imageCaption": "Gila Monster"
+    },
+    {
+      "id": "reptiles-170",
+      "animal": "Reptiles",
+      "prompt": "Which current group includes snakes and lizards?",
+      "options": [
+        "The Testudines",
+        "The Rhynchocephali",
+        "The Crocodilians",
+        "The Squamates"
+      ],
+      "explanation": "Squamates include snakes, lizards and amphisbens.",
+      "didYouKnow": "Snakes collect odorous molecules with their forked tongues.",
+      "imageCaption": "Green anole, a squamate"
+    },
+    {
+      "id": "reptiles-171",
+      "animal": "black caiman",
+      "prompt": "In which large region is the black caiman found naturally?",
+      "options": [
+        "The Amazon Basin",
+        "The Nile Basin",
+        "Florida swamps only",
+        "The rivers of northern Australia"
+      ],
+      "explanation": "The black caiman, Melanosuchus niger, is a large crocodilian from South America associated in particular with Amazonian aquatic environments.",
+      "didYouKnow": "The black caiman is the largest living caiman.",
+      "imageCaption": "black caiman"
+    },
+    {
+      "id": "reptiles-172",
+      "animal": "Reptiles",
+      "prompt": "Which group of reptiles include turtles?",
+      "options": [
+        "The Rhynchocephali",
+        "The Crocodilians",
+        "The Testudines",
+        "The Squamates"
+      ],
+      "explanation": "The Testudines are the order that brings together terrestrial, freshwater and marine turtles.",
+      "didYouKnow": "Existing turtles include marine, freshwater, and terrestrial species.",
+      "imageCaption": "Hermann's tortoise, example of a tortoise"
+    },
+    {
+      "id": "reptiles-173",
+      "animal": "Reptiles",
+      "prompt": "What dental trait is commonly missing from modern-day turtles?",
+      "options": [
+        "Choanae that connect the nostrils to the mouth",
+        "A mobile language",
+        "Bony jaws",
+        "Teeth; they have a keratinized beak"
+      ],
+      "explanation": "Current turtles do not have teeth; their jaws are covered with a horny beak that cuts or grinds food.",
+      "didYouKnow": "Sea turtles use flippers to swim in the sea.",
+      "imageCaption": "Hermann's tortoise"
+    },
+    {
+      "id": "reptiles-174",
+      "animal": "Turtles",
+      "prompt": "What does the term “carapace” refer to in a turtle?",
+      "options": [
+        "The ventral part of the shell",
+        "The lateral edge of the scutes",
+        "The dorsal part of the shell",
+        "The bony base of the beak"
+      ],
+      "explanation": "The carapace is the dorsal part of a turtle’s shell; the plastron forms its ventral side.",
+      "didYouKnow": "In turtles, the plastron forms the ventral side of the shell.",
+      "imageCaption": "Hermann's tortoise"
+    },
+    {
+      "id": "reptiles-175",
+      "animal": "Turtles",
+      "prompt": "How do sea turtles primarily propel themselves?",
+      "options": [
+        "By alternating movements of their hind legs",
+        "By a lateral movement of their tail",
+        "By beating of their front fins",
+        "By undulating their entire body like a snake"
+      ],
+      "explanation": "The front flippers provide most of the propulsion; the hindquarters help to direct and stabilize the animal.",
+      "didYouKnow": "Sea turtles eliminate excess salt through specialized glands near their eyes.",
+      "imageCaption": "green turtle"
+    },
+    {
+      "id": "reptiles-176",
+      "animal": "Sea turtles",
+      "prompt": "What action is essential for a female sea turtle after spawning?",
+      "options": [
+        "Move eggs to a warmer area with each tide",
+        "Cover the eggs then stay on the nest until they hatch",
+        "Carry the eggs under its shell until they hatch",
+        "Return to the sea leaving the eggs to incubate in the sand"
+      ],
+      "explanation": "After laying eggs, the female often covers the nest and leaves; embryos develop without direct care until hatching.",
+      "didYouKnow": "Sea turtles use magnetic and visual cues to orient themselves.",
+      "imageCaption": "Green turtle, example of sea turtle"
+    },
+    {
+      "id": "reptiles-177",
+      "animal": "Sea turtles",
+      "prompt": "What do hatchlings do when they emerge from a nest on the beach?",
+      "options": [
+        "They follow the adults to a feeding area",
+        "They generally head towards the sea",
+        "They burrow into the beach until the following season",
+        "They wait for the female to carry them in her mouth"
+      ],
+      "explanation": "Hatchlings often emerge together and head toward the ocean using light and visual cues from the horizon.",
+      "didYouKnow": "Sea turtles have glands near their eyes that remove excess salt.",
+      "imageCaption": "Green turtle, example of sea turtle"
+    },
+    {
+      "id": "reptiles-178",
+      "animal": "Sea turtles",
+      "prompt": "What habitat do adult green sea turtles often use for feeding?",
+      "options": [
+        "Terrestrial beach grasses",
+        "Reef sponges and soft corals",
+        "Seagrass meadows and areas rich in algae",
+        "Deep sea jellyfish"
+      ],
+      "explanation": "Many adult green turtles graze on seagrass or algae in shallow coastal waters.",
+      "didYouKnow": "The green sea turtle is the largest of the hard-shelled sea turtles.",
+      "imageCaption": "green turtle"
+    },
+    {
+      "id": "reptiles-179",
+      "animal": "Turtles",
+      "prompt": "What trait often distinguishes an aquatic turtle from a land turtle?",
+      "options": [
+        "Functional gills in adults",
+        "Webbed feet or fins suitable for swimming",
+        "A flatter shell in all aquatic species",
+        "A breastplate always reduced to a single plate"
+      ],
+      "explanation": "Aquatic turtles often have webbed feet or flippers, while land turtles have sturdy limbs for walking.",
+      "didYouKnow": "Current turtles have no teeth and have a keratinized beak.",
+      "imageCaption": "Florida slider turtle, example of aquatic turtle"
+    },
+    {
+      "id": "reptiles-180",
+      "animal": "Turtles",
+      "prompt": "What information can the shape of a turtle shell provide?",
+      "options": [
+        "It can be linked to the habitat and lifestyle of the species",
+        "It makes it possible to determine the temperature of the original nest",
+        "It reveals sex without variation between species",
+        "It always indicates the exact age in years"
+      ],
+      "explanation": "Carapace shape may reflect ecological adaptations, for example hydrodynamic shape in aquatic species.",
+      "didYouKnow": "Current turtles have no teeth and have a keratinized beak.",
+      "imageCaption": "Hermann's tortoise, example of a tortoise"
+    },
+    {
+      "id": "reptiles-181",
+      "animal": "Gopher tortoise",
+      "prompt": "What shelter does the gopher tortoise dig in sandy soils?",
+      "options": [
+        "A deep burrow that can also serve as shelter for other animals",
+        "An underwater cavity in the mud",
+        "A nest hanging in the branches",
+        "A gallery intended solely for storing sheets"
+      ],
+      "explanation": "The gopher tortoise digs large burrows in the ground; these refuges also serve other species.",
+      "didYouKnow": "The gopher tortoise feeds on plants, including leaves, flowers, and fruits.",
+      "imageCaption": "gopher tortoise"
+    },
+    {
+      "id": "reptiles-182",
+      "animal": "Reptiles",
+      "prompt": "Why can environmental DNA help detect aquatic reptiles?",
+      "options": [
+        "Reptiles produce a detectable light signal in water",
+        "Traces of DNA left in water can reveal their presence",
+        "Dissolved DNA makes it possible to calculate the average age of individuals",
+        "The method makes it possible to observe the movements of each individual"
+      ],
+      "explanation": "Animals leave cells and DNA fragments in their environment; their detection can indicate the presence of a species in a body of water.",
+      "didYouKnow": "Aquatic turtles must come to the surface to breathe air.",
+      "imageCaption": "Florida slider turtle, aquatic reptile"
+    },
+    {
+      "id": "reptiles-183",
+      "animal": "Flying Gecko",
+      "prompt": "What adaptation allows some flying geckos to glide from one trunk to another?",
+      "options": [
+        "Lateral skin folds and membranes between the limbs increase the bearing surface",
+        "Elongated ribs deploy a patagium on each side of the trunk",
+        "A membrane stretched between the hind limbs and the tail serves as a parachute",
+        "Rigid scales spread along the back and form wings"
+      ],
+      "explanation": "Some flying geckos deploy folds of skin on the sides and between the limbs to slow and control their fall.",
+      "didYouKnow": "The Kuhl's flying gecko is native to Southeast Asia.",
+      "imageCaption": "Kuhl's flying gecko"
+    },
+    {
+      "id": "reptiles-184",
+      "animal": "Reptiles",
+      "prompt": "How dangerous can fire be in reptile habitats?",
+      "options": [
+        "It only affects eggs and never adults",
+        "It can directly kill individuals with low mobility and destroy shelters.",
+        "It always improves the germination of plants that reptiles feed on",
+        "It makes predators disappear rather than habitats"
+      ],
+      "explanation": "Intense or too frequent fires can destroy vegetation cover, shelters and nesting sites, and kill animals unable to escape.",
+      "didYouKnow": "Reptiles have scaly skin which limits water loss.",
+      "imageCaption": "Hermann's tortoise, example of a terrestrial reptile"
+    },
+    {
+      "id": "reptiles-185",
+      "animal": "Leatherback turtle",
+      "prompt": "What adaptation helps the leatherback turtle limit heat loss through its flippers?",
+      "options": [
+        "Counter-current heat exchange between blood vessels",
+        "Insulating feathers under the scales",
+        "A permanent closure of all circulation in the fins",
+        "Glands that secrete hot water"
+      ],
+      "explanation": "Vessels carrying blood in opposite directions help transfer heat before it is lost to water. Its large size also contributes to its heat retention.",
+      "didYouKnow": "The leatherback turtle feeds mainly on jellyfish and other gelatinous organisms.",
+      "imageCaption": "Leatherback turtle"
+    },
+    {
+      "id": "reptiles-186",
+      "animal": "Reptiles",
+      "prompt": "What measure reduces the impact of abandoned nets on aquatic reptiles?",
+      "options": [
+        "Light up equipment only at tide times",
+        "Increase the mesh size of nets in spawning areas",
+        "Move the nets to the feeding beds",
+        "Remove ghost gear and limit their loss at sea"
+      ],
+      "explanation": "Lost or abandoned fishing gear can continue to catch animals; their recovery and better management reduce this risk.",
+      "didYouKnow": "Aquatic reptiles like turtles must come to the surface to breathe.",
+      "imageCaption": "Green turtle, example of aquatic reptile threatened by abandoned nets"
+    },
+    {
+      "id": "reptiles-187",
+      "animal": "Reptiles",
+      "prompt": "Why can an endangered reptile species benefit from conservation breeding?",
+      "options": [
+        "It allows individuals to be released without assessing their adaptation",
+        "It guarantees the maintenance of genetic diversity without management",
+        "It can support the population, provided it is linked to a scientific conservation plan",
+        "It sustainably replaces the protection of natural habitats"
+      ],
+      "explanation": "Conservation breeding can contribute to conservation objectives, but must be well managed and accompanied by habitat protection and genetic monitoring.",
+      "didYouKnow": "Reptiles are ectothermic and largely depend on the temperature of the environment.",
+      "imageCaption": "Tuatara, protected species subject to conservation programs"
+    },
+    {
+      "id": "reptiles-188",
+      "animal": "desert tortoise",
+      "prompt": "Where can the desert tortoise store a water supply?",
+      "options": [
+        "In its bladder",
+        "In bags under the shell",
+        "In the cavities of its leg bones",
+        "In a pocket of skin behind the head"
+      ],
+      "explanation": "The desert tortoise can store water in its bladder and reabsorb it when conditions are dry.",
+      "didYouKnow": "The desert tortoise is native to southwestern North America.",
+      "imageCaption": "desert tortoise"
+    },
+    {
+      "id": "reptiles-189",
+      "animal": "Sidewinder rattlesnake",
+      "prompt": "What mode of movement helps the sidewinder progress on sand?",
+      "options": [
+        "Accordion locomotion",
+        "Lateral undulation while leaning on rocks",
+        "Lateral locomotion by lifting successive loops of the body",
+        "Progression by fin beats"
+      ],
+      "explanation": "The sidewinder moves forward by lateral locomotion: several loops of the body touch the sand while the rest move forward.",
+      "didYouKnow": "Horned rattlesnakes have heat-sensitive dimples between the eye and nostril.",
+      "imageCaption": "Horned rattlesnake (sidewinder)"
+    },
+    {
+      "id": "reptiles-190",
+      "animal": "Chuckwalla",
+      "prompt": "How can the chuckwalla protect itself in a rock crevice?",
+      "options": [
+        "It flattens and changes color to blend into the stone",
+        "It inflates its body to wedge itself into the crevice",
+        "He sprays blood from his eyes",
+        "He unfurls a collar around his neck"
+      ],
+      "explanation": "The chuckwalla can take refuge in a crack and inflate its body to make it more difficult to extract.",
+      "didYouKnow": "The chuckwalla feeds mainly on leaves, flowers and other plants.",
+      "imageCaption": "Chuckwalla"
+    },
+    {
+      "id": "reptiles-191",
+      "animal": "mata mata turtle",
+      "prompt": "How does the mata mata turtle often catch a fish?",
+      "options": [
+        "It quickly opens the mouth and increases the volume of the oral cavity, sucking in the fish along with the water",
+        "It projects a sticky tongue which adheres to the fish then brings it back into its mouth",
+        "It uses the tip of its tongue to attract the fish, then grabs it with its jaws.",
+        "It pushes the fish towards the throat with a current created by the movements of the fins"
+      ],
+      "explanation": "The mata mata can suddenly open its large mouth and suck in nearby aquatic prey.",
+      "didYouKnow": "The mata mata turtle is native to the Amazon and Orinoco basins.",
+      "imageCaption": "mata mata turtle"
+    },
+    {
+      "id": "reptiles-192",
+      "animal": "painted turtle",
+      "prompt": "How does the shell help the painted turtle cope with lactic acid buildup during a low-oxygen winter?",
+      "options": [
+        "Its minerals help buffer acidity",
+        "It filters the blood like an extra kidney",
+        "It transforms lactic acid into oxygen",
+        "It expels all the lactic acid through its scutes."
+      ],
+      "explanation": "The shell and bones participate in buffering acids and can store part of the lactate. This adaptation accompanies a considerable slowdown in metabolism.",
+      "didYouKnow": "The painted turtle often has red or yellow markings on its head and limbs.",
+      "imageCaption": "painted turtle"
+    },
+    {
+      "id": "reptiles-193",
+      "animal": "Box turtle",
+      "prompt": "What part of the shell can the box turtle close with a hinge?",
+      "options": [
+        "The plastron",
+        "The carapace",
+        "The bridge between shell sections",
+        "A horny scute"
+      ],
+      "explanation": "In box turtles, a hinge in the plastron allows its parts to be raised to protect the body.",
+      "didYouKnow": "Box turtles are North American land turtles.",
+      "imageCaption": "Carolina box turtle"
+    },
+    {
+      "id": "reptiles-194",
+      "animal": "Pancake tortoise",
+      "prompt": "What feature helps the pancake tortoise hide in rock crevices?",
+      "options": [
+        "A flattened, flexible shell can deform slightly to fit through narrow cracks",
+        "A tall domed shell wedges against the rock",
+        "A hinged plastron opens so it can squeeze through a crack",
+        "A rigid, streamlined shell helps it swim through submerged cracks"
+      ],
+      "explanation": "Its flattened shell is more flexible than that of many turtles, allowing it to slip into rock crevices.",
+      "didYouKnow": "The pancake tortoise is native to East Africa.",
+      "imageCaption": "Pancake turtle"
+    },
+    {
+      "id": "reptiles-195",
+      "animal": "Texas Horned Lizard",
+      "prompt": "What prey constitutes an important part of the Texas horned lizard's diet?",
+      "options": [
+        "Harvester ants",
+        "Jellyfish",
+        "River fish",
+        "Crocodilian eggs"
+      ],
+      "explanation": "The Texas horned lizard frequently consumes harvester ants, which it catches from the ground.",
+      "didYouKnow": "The Texas horned lizard can spray blood from vessels near its eyes.",
+      "imageCaption": "Texas Horned Lizard"
+    },
+    {
+      "id": "reptiles-196",
+      "animal": "Flying snake",
+      "prompt": "How can the flying snake of the genus Chrysopelea soar between trees?",
+      "options": [
+        "It flattens its body and makes it undulate during its aerial trajectory",
+        "It beats its wings hidden under its scales",
+        "It deploys a patagium supported by elongated ribs",
+        "It propels itself by vibrating its tail like a propeller."
+      ],
+      "explanation": "Flying snakes of the genus Chrysopelea flatten their bodies and undulate in the air, allowing them to glide between trees.",
+      "didYouKnow": "Snakes of the genus Chrysopelea are native to South and Southeast Asia.",
+      "imageCaption": "Flying Serpent of Heaven"
+    },
+    {
+      "id": "reptiles-197",
+      "animal": "Fiji Banded Iguana",
+      "prompt": "Where does the Fiji Banded Iguana live naturally?",
+      "options": [
+        "In the Fiji Islands",
+        "In the Galapagos Islands",
+        "In the forests of Madagascar",
+        "In the wetlands of the Yangtze River basin"
+      ],
+      "explanation": "The Fiji banded iguana is a species native to the Fijian archipelago.",
+      "didYouKnow": "The Fiji Banded Iguana is highly threatened by habitat loss.",
+      "imageCaption": "Fiji Banded Iguana"
+    },
+    {
+      "id": "reptiles-198",
+      "animal": "American alligator",
+      "prompt": "What does the term “alligator hole” mean in the Everglades?",
+      "options": [
+        "A depression dug and maintained by an alligator which can retain water in the dry season",
+        "A burrow dug by a turtle to lay its eggs",
+        "A natural cavity used only by saltwater crocodiles",
+        "A hanging nest built with branches and leaves"
+      ],
+      "explanation": "Alligators can dig depressions in wet areas; these sometimes retain water when the level drops.",
+      "didYouKnow": "American alligators build nests of vegetation to lay their eggs.",
+      "imageCaption": "American alligator"
+    },
+    {
+      "id": "reptiles-199",
+      "animal": "California King Snake",
+      "prompt": "What do California king snakes often feed on besides small mammals?",
+      "options": [
+        "Other snakes",
+        "Large leaves and ripe fruits",
+        "Flower nectar",
+        "Jellyfish and small crustaceans"
+      ],
+      "explanation": "The California kingsnake is an opportunistic predator that may consume other snakes.",
+      "didYouKnow": "The California kingsnake tolerates the venom of certain pit vipers, notably rattlesnakes.",
+      "imageCaption": "California King Snake"
+    },
+    {
+      "id": "reptiles-200",
+      "animal": "Chinese alligator",
+      "prompt": "In which large river basin does the Chinese alligator naturally live?",
+      "options": [
+        "In the wetlands of the Amazon basin",
+        "In the Ganges and Brahmaputra basin",
+        "In the estuaries of northern Australia",
+        "In the lower Yangtze River basin"
+      ],
+      "explanation": "The Chinese alligator is native to eastern China, particularly the wetlands of the lower Yangtze River basin.",
+      "didYouKnow": "The Chinese alligator is smaller than the American alligator.",
+      "imageCaption": "Chinese alligator"
+    }
+  ]
+}

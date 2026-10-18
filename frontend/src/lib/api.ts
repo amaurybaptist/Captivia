@@ -6,6 +6,8 @@ import { notifyCareScheduled } from './care-events';
 const NETWORK_ERROR_MESSAGES = ['Failed to fetch', 'Load failed', 'NetworkError when attempting to fetch resource'];
 
 /** Message renvoyé quand le backend n’est pas joignable (à utiliser pour afficher une bannière au lieu de faire planter l’app). */
+export function getApiBase(): string { return API_URL; }
+
 export const BACKEND_UNAVAILABLE_MESSAGE =
   'Le service est momentanément indisponible. Veuillez réessayer dans quelques instants.';
 

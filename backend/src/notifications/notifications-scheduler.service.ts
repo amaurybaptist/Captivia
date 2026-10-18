@@ -1,3 +1,6 @@
+import { insideDeliveryWindow, isTypeEnabled } from './notification-schedule';
+import { Optional } from '@nestjs/common';
+import { NotificationDeliveryService } from './notification-delivery.service';
 import { Inject, Injectable, Logger } from '@nestjs/common';
 import { Cron } from '@nestjs/schedule';
 import { Prisma } from '@prisma/client';
@@ -44,6 +47,8 @@ const DUE_REMINDER_SELECT = {
   sourceKey: true,
   userId: true,
   animalId: true,
+  deliveryVersion: true,
+  snoozedUntil: true,
   animal: { select: { name: true } },
   // État ACTUEL de la source : le rappel est-il aussi programmé en local par l'app (W6-07) ?
   routine: {
@@ -73,7 +78,7 @@ const DUE_REMINDER_SELECT = {
       locale: true,
       timezone: true,
       notificationPreferences: {
-        select: { deliveryChannel: true },
+        select: { deliveryChannel: true, types: true, schedule: true },
         take: 1,
       },
     },
@@ -132,16 +137,18 @@ export class NotificationsSchedulerService {
     private readonly gradeService: GradeService,
     private readonly mailService: MailService,
     @Inject(PUSH_SENDER) private readonly pushSender: PushSender,
+    @Optional() private readonly deliveries?: NotificationDeliveryService,
   ) {}
 
   get enabled(): boolean {
     return (
       process.env.NODE_ENV !== 'test' &&
-      process.env.REMINDERS_ENABLED !== 'false'
+      process.env.REMINDERS_ENABLED !== 'false' &&
+      process.env.NOTIFICATIONS_SCHEDULER_ENABLED !== 'false'
     );
   }
 
-  @Cron('*/5 * * * *', { name: 'reminders' })
+  @Cron('* * * * *', { name: 'reminders' })
   async handleCron(): Promise<void> {
     if (!this.enabled) return;
     try {
@@ -280,19 +287,24 @@ export class NotificationsSchedulerService {
       where: {
         status: 'pending',
         notifiedAt: null,
-        scheduledAt: {
-          gt: new Date(now.getTime() - REMINDER_WINDOW_MS),
-          lte: now,
-        },
+        OR: [
+          { snoozedUntil: null, scheduledAt: { gt: new Date(now.getTime() - REMINDER_WINDOW_MS), lte: now } },
+          { snoozedUntil: { gt: new Date(now.getTime() - 60 * 60_000), lte: now } },
+          { deliveries: { some: { sentAt: null, attempts: { lt: 5 }, nextAttemptAt: { lte: now } } }, scheduledAt: { gt: new Date(now.getTime() - 60 * 60_000), lte: now } },
+        ],
       },
       orderBy: { scheduledAt: 'asc' },
       take: MAX_DISPATCH_PER_RUN,
       select: DUE_REMINDER_SELECT,
     });
-    const due = candidates.filter((ev) =>
+    const scheduled = candidates.filter((ev) =>
       isStillScheduled(ev, ev.user.timezone),
     );
-    const stale = candidates.filter((ev) => !due.includes(ev));
+    const stale = candidates.filter((ev) => !scheduled.includes(ev));
+    const due = scheduled.filter((event) => {
+      const preferences = event.user.notificationPreferences[0];
+      return isTypeEnabled(preferences?.types, event.type) && insideDeliveryWindow(preferences?.schedule, now, event.user.timezone);
+    });
     if (stale.length > 0) {
       await tx.notificationEvent.deleteMany({
         where: {
@@ -338,7 +350,7 @@ export class NotificationsSchedulerService {
     for (let i = 0; i < claimed.length; i += DISPATCH_CONCURRENCY) {
       const batch = claimed.slice(i, i + DISPATCH_CONCURRENCY);
       const outcomes = await Promise.allSettled(
-        batch.map((ev) => this.deliverOne(ev, appUrl, nativeDeadline)),
+        batch.map((ev) => this.deliverOne(ev, appUrl, nativeDeadline, now)),
       );
       for (const [k, outcome] of outcomes.entries()) {
         const delivered =
@@ -347,7 +359,7 @@ export class NotificationsSchedulerService {
             : { emailed: false, pushed: false };
         if (delivered.emailed) result.emailed++;
         if (delivered.pushed) result.pushed++;
-        if (delivered.emailed || delivered.pushed) continue;
+        if (!('retry' in delivered && delivered.retry) && (delivered.emailed || delivered.pushed)) continue;
 
         // Aucun canal n'a abouti : on libère la réservation (si elle est toujours la nôtre)
         // pour retenter au prochain tick, tant que l'événement reste dans la fenêtre de 10 min.
@@ -372,7 +384,8 @@ export class NotificationsSchedulerService {
     ev: DueReminder,
     appUrl: string | null,
     nativeDeadline: number,
-  ): Promise<{ emailed: boolean; pushed: boolean }> {
+    now: Date,
+  ): Promise<{ emailed: boolean; pushed: boolean; retry?: boolean }> {
     const recipient = ev.user.email;
     const channel = effectiveChannel(
       ev.user.notificationPreferences[0]?.deliveryChannel,
@@ -383,9 +396,10 @@ export class NotificationsSchedulerService {
     const label = reminderTypeLabel(ev.label || ev.type, ev.user.locale);
     let emailed = false;
     let pushed = false;
+    let retry = false;
 
     if (recipient && (channel === 'email' || channel === 'both')) {
-      emailed = await this.mailService
+      const send = () => this.mailService
         .sendCareReminder(recipient, ev.user.locale, {
           label,
           animalName: ev.animal?.name,
@@ -393,14 +407,18 @@ export class NotificationsSchedulerService {
           timezone: ev.user.timezone,
           appUrl,
         })
-        .then((res) => res.sent)
-        .catch(() => false);
+        .then((res) => {
+          if (!res.sent || res.simulated) throw new Error('Reminder email not accepted');
+        });
+      emailed = await (this.deliveries
+        ? this.deliveries.send(ev.id, ev.deliveryVersion, 'email', send, now)
+        : send().then(() => true)).catch(() => false);
+      retry = !emailed;
     }
 
     if (channel === 'push' || channel === 'both') {
       const localReminder = localReminderFor(ev, ev.user.timezone);
-      pushed = await this.pushSender
-        .sendToUser(ev.userId, {
+      const payload = {
           title: label,
           body: ev.animal?.name ?? label,
           data: {
@@ -414,9 +432,16 @@ export class NotificationsSchedulerService {
           // instant, en local (W6-07) ; jamais pour un RDV (J-N, 08:00) ni un vaccin.
           ...(localReminder ? { localReminder } : {}),
           nativeDeadline,
-        })
-        .catch(() => false);
+          delivery: { eventId: ev.id, version: ev.deliveryVersion, now },
+        };
+      if (this.pushSender.deliver) {
+        const result = await this.pushSender.deliver(ev.userId, payload).catch(() => ({ sent: 0, failed: 1, covered: 0 }));
+        pushed = result.sent + (result.covered ?? 0) > 0;
+        retry = retry || result.failed > 0;
+      } else {
+        pushed = await this.pushSender.sendToUser(ev.userId, payload).catch(() => false);
+      }
     }
-    return { emailed, pushed };
+    return { emailed, pushed, retry };
   }
 }

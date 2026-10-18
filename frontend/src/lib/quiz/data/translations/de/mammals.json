@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "5fcebf8349c12ad53db8bf82985f3d92ffd5cb3db039edea0cc80e450a3f8ad3",
+  "locale": "de",
+  "questions": [
+    {
+      "id": "mammals-001",
+      "animal": "Hund",
+      "prompt": "Welcher Sinn hilft einem Hund besonders dabei, einer Duftspur zu folgen?",
+      "options": [
+        "Der Geruchssinn",
+        "Farbsehen",
+        "Der Geschmack von Salz",
+        "Echoortung"
+      ],
+      "explanation": "Hunde haben einen sehr ausgeprägten Geruchssinn und können viele Gerüche unterscheiden.",
+      "didYouKnow": "Der Hund hat außerdem ein drittes Augenlid, das das Auge schützt und befeuchtet.",
+      "imageCaption": "Haushund"
+    },
+    {
+      "id": "mammals-002",
+      "animal": "Hauskatze",
+      "prompt": "Wofür werden Katzenvibrissen hauptsächlich verwendet?",
+      "options": [
+        "Zur Erkennung von Hindernissen und Luftbewegungen in der Nähe",
+        "Zur Regulierung Ihrer Temperatur",
+        "Um das Essen zu probieren",
+        "Töne erzeugen"
+      ],
+      "explanation": "Vibrissen sind Sinneshaare, die mit Nervenrezeptoren verbunden sind.",
+      "didYouKnow": "Katzen kommunizieren auch durch Körperhaltung, Gerüche und Lautäußerungen.",
+      "imageCaption": "Hauskatze"
+    },
+    {
+      "id": "mammals-003",
+      "animal": "Pferd",
+      "prompt": "Wie nennt man den schnellen Dreitaktgang des Pferdes?",
+      "options": [
+        "Der Galopp",
+        "Der Trab",
+        "Der Schritt",
+        "Der Spaziergang"
+      ],
+      "explanation": "Der Galopp ist eine schnelle Gangart, bei der die Stützen in einem charakteristischen Rhythmus aufeinander folgen.",
+      "didYouKnow": "Dank eines Mechanismus, der seine Gliedmaßen stabilisiert, kann das Pferd im Stehen schlafen.",
+      "imageCaption": "Hauspferd"
+    },
+    {
+      "id": "mammals-004",
+      "animal": "Kuh",
+      "prompt": "Wie viele Fächer hat ein Rindermagen?",
+      "options": [
+        "Vier",
+        "A",
+        "Zwei",
+        "Sechs"
+      ],
+      "explanation": "Das Verdauungssystem von Rindern umfasst Pansen, Retikulum, Omasum und Labmagen.",
+      "didYouKnow": "Rinder kauen wieder, indem sie einen Teil ihrer Nahrung wieder erbrechen, um sie erneut zu kauen.",
+      "imageCaption": "Hausrinder"
+    },
+    {
+      "id": "mammals-005",
+      "animal": "Schafe",
+      "prompt": "Welche Rolle spielt Wolle bei Schafen?",
+      "options": [
+        "Es isoliert den Körper",
+        "Es wird zum Fliegen verwendet",
+        "Sie produziert Milch",
+        "Es ersetzt die Hufe"
+      ],
+      "explanation": "Wolle bildet eine Isolierschicht, die dazu beiträgt, den Wärmeaustausch zu begrenzen.",
+      "didYouKnow": "Schafe verfügen aufgrund der seitlichen Position ihrer Augen über eine ausgezeichnete periphere Sicht.",
+      "imageCaption": "Hausschafe"
+    },
+    {
+      "id": "mammals-006",
+      "animal": "Ziege",
+      "prompt": "Welche Anpassung hilft der Bergziege, sich über Steine zu bewegen?",
+      "options": [
+        "Anhaftende und gespaltene Hufe",
+        "Schwimmhäute an den Füßen",
+        "Ein Greifschwanz",
+        "Einziehbare Krallen"
+      ],
+      "explanation": "Die gespaltenen, flexiblen Hufe der Ziegen greifen auf unebenen Felsoberflächen.",
+      "didYouKnow": "Ziegen leben oft in sozialen Gruppen, sogenannten Herden.",
+      "imageCaption": "Hausziege"
+    },
+    {
+      "id": "mammals-007",
+      "animal": "Schwein",
+      "prompt": "Welches Verhalten zeigt ein Schwein häufig bei der Nahrungssuche?",
+      "options": [
+        "Mit der Schnauze den Boden absuchen",
+        "Mit seinen Hörnern graben",
+        "Mit den Zähnen Wasser filtern",
+        "Jagd im Flug"
+      ],
+      "explanation": "Die robuste Schnauze des Schweins ermöglicht es ihm, den Boden zu bewegen und Futter zu finden.",
+      "didYouKnow": "Schweine sind soziale Tiere, die in der Lage sind, Aufgaben zu lernen.",
+      "imageCaption": "Hausschwein"
+    },
+    {
+      "id": "mammals-008",
+      "animal": "Kaninchen",
+      "prompt": "Wozu dienen die langen Ohren des Kaninchens?",
+      "options": [
+        "Verfolgen Sie Geräusche und helfen Sie, Wärme abzuleiten",
+        "Unter Wasser atmen",
+        "Höhlen graben",
+        "Zum Aufbewahren von Lebensmitteln"
+      ],
+      "explanation": "Bewegliche Ohren nehmen Geräusche auf und tragen zur Thermoregulation bei.",
+      "didYouKnow": "Kaninchenzähne wachsen kontinuierlich und werden beim Kauen abgenutzt.",
+      "imageCaption": "Europäisches Kaninchen"
+    },
+    {
+      "id": "mammals-009",
+      "animal": "Maus",
+      "prompt": "Warum müssen sich die Schneidezähne von Mäusen regelmäßig abnutzen?",
+      "options": [
+        "Sie wachsen kontinuierlich",
+        "Sie werden jede Woche ausgetauscht",
+        "Sie werden zum Filtern von Wasser verwendet",
+        "Sie sind hohl"
+      ],
+      "explanation": "Die Schneidezähne von Nagetieren wachsen ein Leben lang und nutzen sich beim Nagen ab.",
+      "didYouKnow": "Die Schnurrhaare helfen der Maus, sich im Dunkeln fortzubewegen.",
+      "imageCaption": "Hausmaus"
+    },
+    {
+      "id": "mammals-010",
+      "animal": "Braune Ratte",
+      "prompt": "Wie kommunizieren Ratten oft in für Menschen unhörbaren Frequenzen?",
+      "options": [
+        "Per Ultraschall",
+        "Nur per Infraschall",
+        "Durch Lichtblitze",
+        "Durch Vibrationen des Schwanzes"
+      ],
+      "explanation": "Ratten geben Ultraschalllaute von sich, insbesondere bei sozialen Interaktionen.",
+      "didYouKnow": "Ratten können komplexe Routen lernen und sich Orte merken.",
+      "imageCaption": "Braune Ratte"
+    },
+    {
+      "id": "mammals-011",
+      "animal": "Hamster",
+      "prompt": "Wohin trägt ein Hamster oft Futter?",
+      "options": [
+        "In seinen Beuteln",
+        "In seinen Ohren",
+        "Unter seinen Krallen",
+        "In seinem Schwanz"
+      ],
+      "explanation": "Die Backentaschen sind erweiterbare Taschen, die es dem Hamster ermöglichen, Futter zu transportieren.",
+      "didYouKnow": "Hamster sind in der Dämmerung oder nachts am aktivsten.",
+      "imageCaption": "Syrischer Hamster"
+    },
+    {
+      "id": "mammals-012",
+      "animal": "Rotes Eichhörnchen",
+      "prompt": "Warum vergräbt Eichhörnchen manchmal Samen?",
+      "options": [
+        "Nahrungsreserven aufbauen",
+        "Sofort Bäume wachsen lassen",
+        "Um Ihr Revier mit Urin zu markieren",
+        "Um Raubtiere anzulocken"
+      ],
+      "explanation": "Das Eichhörnchen versteckt Samen, die es später finden kann, auch wenn es einige vergisst.",
+      "didYouKnow": "Das Eichhörnchen nutzt seinen buschigen Schwanz auch, um in Bäumen das Gleichgewicht zu halten.",
+      "imageCaption": "Rotes Eichhörnchen"
+    },
+    {
+      "id": "mammals-013",
+      "animal": "Biber",
+      "prompt": "Welche Struktur bauen Biber manchmal, um einen Bach zu verlangsamen?",
+      "options": [
+        "Ein Damm aus Ästen und Schlamm",
+        "Ein Blätternest in den Bäumen",
+        "Ein Eistunnel",
+        "Nur ein Sanddeich"
+      ],
+      "explanation": "Biber nutzen Äste, Schlamm und andere Materialien zum Bau von Dämmen.",
+      "didYouKnow": "Seine kräftigen Schneidezähne wachsen ständig und nagen am Holz.",
+      "imageCaption": "Europäischer Biber"
+    },
+    {
+      "id": "mammals-014",
+      "animal": "Seeotter",
+      "prompt": "Wie knacken Seeotter manchmal Muscheln?",
+      "options": [
+        "Mit einem Werkzeug, wie einem Stein",
+        "Mit seinen Hörnern",
+        "Indem man sie der Sonne aussetzt",
+        "Indem er sie mit seinen Heckflossen schlägt"
+      ],
+      "explanation": "Der Seeotter kann einen Stein als Amboss verwenden, um bestimmte Muscheln zu öffnen.",
+      "didYouKnow": "Sein dichter Mantel schließt Luft ein und trägt zur Isolierung bei.",
+      "imageCaption": "Seeotter"
+    },
+    {
+      "id": "mammals-015",
+      "animal": "Europäischer Dachs",
+      "prompt": "Welchen Unterschlupf nutzt der Europäische Dachs häufig?",
+      "options": [
+        "Ein unterirdischer Dachsbau",
+        "Ein schwimmendes Nest",
+        "Ein Hohlraum in den Wolken",
+        "Ein Termitenhügel"
+      ],
+      "explanation": "Der Dachs lebt oft in einem Netzwerk unterirdischer Galerien und Kammern.",
+      "didYouKnow": "Besonders dämmerungs- und nachtaktiv ist er.",
+      "imageCaption": "Europäischer Dachs"
+    },
+    {
+      "id": "mammals-016",
+      "animal": "Europäischer Igel",
+      "prompt": "Welchen Mechanismus nutzt der Igel bei Gefahr?",
+      "options": [
+        "Er rollt sich zu einer Kugel zusammen",
+        "Es projiziert seine Federn",
+        "Es ändert die Farbe",
+        "Er fliegt weg"
+      ],
+      "explanation": "Indem der Igel seine Muskeln anspannt, legt er seine Stacheln frei und schützt seine empfindlichen Körperteile.",
+      "didYouKnow": "Der Europäische Igel ist hauptsächlich nachtaktiv.",
+      "imageCaption": "Europäischer Igel"
+    },
+    {
+      "id": "mammals-017",
+      "animal": "Maulwurf",
+      "prompt": "Welchen Körperteil nutzt der Maulwurf effektiv zum Graben?",
+      "options": [
+        "Seine großen und kräftigen Vorderbeine",
+        "Seine Schwimmohren",
+        "Nur sein schaufelförmiger Schwanz",
+        "Seine Backenzähne"
+      ],
+      "explanation": "Die Vorderbeine des Maulwurfs sind an die Bewegung der Erde angepasst.",
+      "didYouKnow": "Der Maulwurf ortet seine Beute im Boden mithilfe des Tast- und Geruchssinns.",
+      "imageCaption": "Europäischer Maulwurf"
+    },
+    {
+      "id": "mammals-018",
+      "animal": "Zwergfledermaus",
+      "prompt": "Wie erkennen viele Fledermäuse Hindernisse im Dunkeln?",
+      "options": [
+        "Durch Echoortung",
+        "Per Infrarot",
+        "Nur mit dem Magnetfeld",
+        "Mit ultravioletter Sicht"
+      ],
+      "explanation": "Sie senden Geräusche aus und interpretieren deren Echos, um Objekte zu lokalisieren.",
+      "didYouKnow": "Fledermäuse sind die einzigen Säugetiere, die zu dauerhaft aktivem Flug fähig sind.",
+      "imageCaption": "Zwergfledermaus"
+    },
+    {
+      "id": "mammals-019",
+      "animal": "Fruchtfledermaus",
+      "prompt": "Wovon ernährt sich ein großer Fruchtflughund hauptsächlich?",
+      "options": [
+        "Obst und Nektar",
+        "Nur Fisch",
+        "Grasblätter",
+        "Ausschließlich kleine Säugetiere"
+      ],
+      "explanation": "Fruchtflughunde fressen Früchte und können Samen tragen.",
+      "didYouKnow": "Flughunde liegen oft kopfüber und hängend an ihren Füßen.",
+      "imageCaption": "Ägyptischer Flughund"
+    },
+    {
+      "id": "mammals-020",
+      "animal": "Schnabeltier",
+      "prompt": "Welches besondere Merkmal zeichnet das Schnabeltier unter den Säugetieren aus?",
+      "options": [
+        "Er legt Eier",
+        "Er hat Federn",
+        "Er hat sechs Beine",
+        "Es atmet durch Kiemen"
+      ],
+      "explanation": "Das Schnabeltier ist ein Monotrem: Die Weibchen legen Eier.",
+      "didYouKnow": "Das Männchen hat einen giftigen Stachel an den Hinterbeinen.",
+      "imageCaption": "Schnabeltier"
+    },
+    {
+      "id": "mammals-021",
+      "animal": "Echidna",
+      "prompt": "Wie ernährt das Ameisenigelweibchen seine Jungen nach dem Schlüpfen?",
+      "options": [
+        "Sie sondert Milch ab, die die Kleine ableckt",
+        "Sie erbricht Insekten",
+        "Sie bringt ihm Pollen",
+        "Sie stillt ihn mit äußeren Brüsten"
+      ],
+      "explanation": "Monotreme produzieren Milch, haben aber keine Brustwarzen; Milch wird auf die Haut abgesondert.",
+      "didYouKnow": "Der Ameisenigel ernährt sich hauptsächlich von Ameisen und Termiten.",
+      "imageCaption": "Kurzschnabeligel"
+    },
+    {
+      "id": "mammals-022",
+      "animal": "Rotes Känguru",
+      "prompt": "Wo vollendet das junge Känguru einen wesentlichen Teil seiner Entwicklung?",
+      "options": [
+        "Im Beutel der Mutter",
+        "In einem Nest auf dem Boden",
+        "In einer Hülle",
+        "In einer vom Vater gegrabenen Galerie"
+      ],
+      "explanation": "Das junge Beuteltier wird sehr unterentwickelt geboren und wächst im Beutel weiter.",
+      "didYouKnow": "Kängurus bewegen sich effizient durch Hüpfen.",
+      "imageCaption": "Rotes Känguru"
+    },
+    {
+      "id": "mammals-023",
+      "animal": "Koala",
+      "prompt": "Was ist die Hauptnahrung des Koalas?",
+      "options": [
+        "Eukalyptusblätter",
+        "Meeresfrüchte",
+        "Kaktuswurzeln",
+        "Pinienkerne"
+      ],
+      "explanation": "Der Koala ist auf den Verzehr von Eukalyptusblättern spezialisiert.",
+      "didYouKnow": "Der Koala hat kräftige Krallen, die ihm beim Klettern auf Bäume helfen.",
+      "imageCaption": "Koala"
+    },
+    {
+      "id": "mammals-024",
+      "animal": "Wombats",
+      "prompt": "Welche Form hat der Wombat-Kot?",
+      "options": [
+        "Würfel",
+        "Perfekte Kugeln",
+        "Flache Bänder",
+        "Hohlspiralen"
+      ],
+      "explanation": "Der kubische Kot des Wombat hängt mit der Form und Elastizität seines Darms zusammen.",
+      "didYouKnow": "Der Wombat kann über kurze Distanzen schnell laufen.",
+      "imageCaption": "Gemeiner Wombat"
+    },
+    {
+      "id": "mammals-025",
+      "animal": "Tasmanischer Teufel",
+      "prompt": "Welche Nahrung frisst der Tasmanische Teufel häufig?",
+      "options": [
+        "Kadaver und kleine Beute",
+        "Nur Nektar",
+        "Holz",
+        "Gefilterte Algen"
+      ],
+      "explanation": "Der Tasmanische Teufel ist ein opportunistischer Fleischfresser, der auch Aas frisst.",
+      "didYouKnow": "Für seine Größe hat es einen kräftigen Kiefer.",
+      "imageCaption": "Tasmanischer Teufel"
+    },
+    {
+      "id": "mammals-026",
+      "animal": "Virginia-Opossum",
+      "prompt": "Was kann das Virginia-Opossum tun, wenn es große Angst hat?",
+      "options": [
+        "Übernehmen Sie reflexartige Immobilität",
+        "Dornen werfen",
+        "Produziert Gift in seinem Schwanz",
+        "Verwandle deine Haut in Rinde"
+      ],
+      "explanation": "Diese unfreiwillige Unbeweglichkeit kann mit einer Körperhaltung einhergehen, die den Eindruck erweckt, das Tier sei tot.",
+      "didYouKnow": "Das Opossum ist ein Beuteltier aus Nordamerika.",
+      "imageCaption": "Virginia-Opossum"
+    },
+    {
+      "id": "mammals-027",
+      "animal": "Löwe",
+      "prompt": "Welche Rolle spielen Löwinnen oft bei der kollektiven Jagd?",
+      "options": [
+        "Sie koordinieren die Annäherung und den Fang der Beute",
+        "Sie bauen Dämme",
+        "Sie graben tiefe Höhlen",
+        "Sie locken Fische durch Echoortung an"
+      ],
+      "explanation": "Löwinnen jagen oft in Gruppen, was beim Fang großer Beute hilfreich sein kann.",
+      "didYouKnow": "Eine Gruppe von Löwen wird als Rudel bezeichnet.",
+      "imageCaption": "Löwe"
+    },
+    {
+      "id": "mammals-028",
+      "animal": "Tiger",
+      "prompt": "Welchen Zweck erfüllen Tigerstreifen in seinem Lebensraum?",
+      "options": [
+        "Um Ihre Silhouette optisch aufzulockern",
+        "Mit Licht Beute anlocken",
+        "Zur Regulierung des Blutflusses",
+        "Zur Angabe eines genauen Alters"
+      ],
+      "explanation": "Die Streifen tragen zur Tarnung in Gräsern und Schatten bei.",
+      "didYouKnow": "Das Streifenmuster ist bei jedem Tiger einzigartig.",
+      "imageCaption": "Tiger"
+    },
+    {
+      "id": "mammals-029",
+      "animal": "Leopard",
+      "prompt": "Wo platziert der Leopard manchmal seine Beute?",
+      "options": [
+        "In einem Baum",
+        "Am Grund eines Sees",
+        "In einem Termitenhügel",
+        "Auf einem Gletscher"
+      ],
+      "explanation": "Der Leopard kann Beute in einen Baum hieven, um sie vor anderen Raubtieren zu schützen.",
+      "didYouKnow": "Seine Rosetten helfen ihm, sich in verschiedenen Umgebungen zu tarnen.",
+      "imageCaption": "Leopard"
+    },
+    {
+      "id": "mammals-030",
+      "animal": "Gepard",
+      "prompt": "Welche Anpassung hilft dem Geparden, schnell zu beschleunigen?",
+      "options": [
+        "Eine sehr flexible Wirbelsäule",
+        "Membranartige Flügel",
+        "Schwimmhäute an den Füßen",
+        "Eine leichte Hülle"
+      ],
+      "explanation": "Seine flexible Wirbelsäule trägt zur Amplitude seiner Schritte beim Laufen bei.",
+      "didYouKnow": "Die Krallen des Geparden sind teilweise nicht einziehbar und verbessern seinen Halt.",
+      "imageCaption": "Gepard"
+    },
+    {
+      "id": "mammals-031",
+      "animal": "Grauer Wolf",
+      "prompt": "Wie plant ein Wolfsrudel oft seine Bewegungen?",
+      "options": [
+        "Durch soziale Interaktionen und Signale",
+        "Von einem Anführer, der im täglichen Kampf ausgewählt wird",
+        "Durch geschriebene Geruchskarten",
+        "Durch Schreie nur unter Wasser"
+      ],
+      "explanation": "Wölfe koordinieren ihre Aktivitäten mit Körperhaltung, Gerüchen und Lautäußerungen.",
+      "didYouKnow": "Das Heulen hilft Wölfen, über große Entfernungen zu kommunizieren.",
+      "imageCaption": "Grauer Wolf"
+    },
+    {
+      "id": "mammals-032",
+      "animal": "Rotfuchs",
+      "prompt": "Wie kann der Rotfuchs ein kleines Nagetier unter dem Schnee erkennen?",
+      "options": [
+        "Indem man auf seine Bewegungen hört und darauf springt",
+        "Indem wir immer einen kreisförmigen Tunnel graben",
+        "Mit Infrarotsicht",
+        "Indem man nur seinen Fußabdruck im Wind riecht"
+      ],
+      "explanation": "Der Fuchs kombiniert sein scharfes Gehör und seine Fähigkeit, Geräusche zu lokalisieren, um versteckte Beute aufzuspüren.",
+      "didYouKnow": "Der Rotfuchs kann seinen buschigen Schwanz beim Ruhen auch als Decke nutzen.",
+      "imageCaption": "Rotfuchs"
+    },
+    {
+      "id": "mammals-033",
+      "animal": "Eisbär",
+      "prompt": "Welche Eigenschaft trägt dazu bei, dass das Fell eines Eisbären seinen Körper isoliert?",
+      "options": [
+        "Es speichert eine isolierende Luftschicht",
+        "Es besteht aus Hohlfedern",
+        "Dank eines Pigments erzeugt es seine Wärme",
+        "Sie ist mit blauem Öl bedeckt"
+      ],
+      "explanation": "Das dichte Fell schließt Luft ein und begrenzt den Wärmeverlust.",
+      "didYouKnow": "Die Haut des Eisbären ist schwarz.",
+      "imageCaption": "Eisbär"
+    },
+    {
+      "id": "mammals-034",
+      "animal": "Braunbär",
+      "prompt": "Wie übersteht der Braunbär den Winter in bestimmten kalten Regionen?",
+      "options": [
+        "Indem Sie Ihre Aktivität verlangsamen und von Reserven leben",
+        "Immer auf dem Weg in die Tropen",
+        "Atmen unter dem Eis",
+        "Indem man sich ausschließlich von Schnee ernährt"
+      ],
+      "explanation": "In kalten Regionen überwintert der Braunbär in einer Höhle und nutzt seine Fettreserven.",
+      "didYouKnow": "Der Braunbär kann je nach Jahreszeit und verfügbaren Ressourcen Tag und Nacht aktiv sein.",
+      "imageCaption": "Braunbär"
+    },
+    {
+      "id": "mammals-035",
+      "animal": "Großer Panda",
+      "prompt": "Welches Element macht den Großteil der Nahrung des Großen Pandas aus?",
+      "options": [
+        "Bambus",
+        "Der Fisch",
+        "Termiten",
+        "Eukalyptusblätter"
+      ],
+      "explanation": "Der Große Panda ernährt sich hauptsächlich von Bambus, obwohl er zur Ordnung der Fleischfresser gehört.",
+      "didYouKnow": "Der „Daumen“ des Pandas ist ein modifizierter Handgelenksknochen, der beim Greifen von Stielen hilft.",
+      "imageCaption": "Großer Panda"
+    },
+    {
+      "id": "mammals-036",
+      "animal": "Roter Panda",
+      "prompt": "Was ist die Hauptnahrung des Roten Pandas?",
+      "options": [
+        "Bambus",
+        "Große Pflanzenfresser",
+        "Meereskrebse",
+        "Nur Kaktussamen"
+      ],
+      "explanation": "Der Rote Panda ernährt sich hauptsächlich von Bambus, je nach Anlass auch von Früchten, Eiern und Kleintieren.",
+      "didYouKnow": "Der Rote Panda ist nicht eng mit dem Großen Panda verwandt.",
+      "imageCaption": "Roter Panda"
+    },
+    {
+      "id": "mammals-037",
+      "animal": "Afrikanischer Elefant",
+      "prompt": "Was ist der Hauptzweck des Elefantenrüssels?",
+      "options": [
+        "Wasser greifen, riechen und saugen",
+        "Stundenlang unter Wasser atmen",
+        "Graben ohne Stoßzähne",
+        "Pollen filtern"
+      ],
+      "explanation": "Der Rüssel verbindet Nase und Oberlippe und wird für viele Aufgaben verwendet.",
+      "didYouKnow": "Elefanten können innerhalb ihrer Gruppe dauerhafte soziale Bindungen aufrechterhalten.",
+      "imageCaption": "Afrikanischer Savannenelefant"
+    },
+    {
+      "id": "mammals-038",
+      "animal": "Asiatischer Elefant",
+      "prompt": "Welches Merkmal unterscheidet den Asiatischen Elefanten häufig vom Afrikanischen Elefanten?",
+      "options": [
+        "Ihre Ohren sind im Allgemeinen kleiner",
+        "Er hat keinen Kofferraum",
+        "Er lebt nur in der Wüste",
+        "Seine Stoßzähne wachsen bei Weibchen aller Populationen"
+      ],
+      "explanation": "Asiatische Elefanten haben im Allgemeinen kleinere Ohren als ihre afrikanischen Verwandten.",
+      "didYouKnow": "Asiatische Elefanten leben in verschiedenen Arten von Wäldern und Grasland.",
+      "imageCaption": "Asiatischer Elefant"
+    },
+    {
+      "id": "mammals-039",
+      "animal": "Breitmaulnashorn",
+      "prompt": "Was frisst das Breitmaulnashorn hauptsächlich?",
+      "options": [
+        "Gras",
+        "Bambus",
+        "Fisch",
+        "Nektar"
+      ],
+      "explanation": "Das Breitmaulnashorn ist ein großer Grasfresser, der sich hauptsächlich von Gräsern ernährt.",
+      "didYouKnow": "Seine breite, quadratische Lippe eignet sich zum Greifen von Gras in Bodennähe.",
+      "imageCaption": "Breitmaulnashorn"
+    },
+    {
+      "id": "mammals-040",
+      "animal": "Nilpferd",
+      "prompt": "Wo verbringt das Nilpferd den größten Teil des Tages?",
+      "options": [
+        "Im Wasser oder Schlamm",
+        "In den Bäumen",
+        "Unter dem Wüstensand",
+        "In Berghöhlen"
+      ],
+      "explanation": "Das Nilpferd bleibt tagsüber oft unter Wasser oder mit Schlamm bedeckt, um sich vor der Sonne zu schützen.",
+      "didYouKnow": "Das Nilpferd kann beim Untertauchen seine Nasenlöcher und Ohren schließen.",
+      "imageCaption": "Gewöhnliches Nilpferd"
+    },
+    {
+      "id": "mammals-041",
+      "animal": "Giraffe",
+      "prompt": "Welcher Mechanismus hilft der Giraffe, die Blutdruckschwankungen in ihrem Kopf abzufedern, wenn sie ihren Hals hebt oder senkt?",
+      "options": [
+        "Ein Netzwerk aus kleinen Gefäßen und Ventilen reguliert Druckschwankungen.",
+        "Ein zweites Herz an der Schädelbasis erhöht die Durchblutung.",
+        "Nebenhöhlen in den Nackenknochen speichern Blut, wenn der Kopf gesenkt wird.",
+        "Eine konstant langsame Herzfrequenz verhindert Druckschwankungen."
+      ],
+      "explanation": "Die Giraffe verfügt über ein Karotisnetzwerk und Ventile, die Druckschwankungen begrenzen, wenn sich die Kopfhöhe ändert.",
+      "didYouKnow": "Seine Greifzunge hilft ihm, Blätter zwischen den Dornen zu greifen.",
+      "imageCaption": "Giraffe"
+    },
+    {
+      "id": "mammals-042",
+      "animal": "Steppenzebra",
+      "prompt": "Wozu könnten die Streifen des Zebras besonders beitragen?",
+      "options": [
+        "Um Angriffe durch Stechfliegen zu reduzieren",
+        "Um das Tier für Löwen unsichtbar zu machen",
+        "Zur Abkühlung des Blutes durch Verdunstung",
+        "Wasserreserven schaffen"
+      ],
+      "explanation": "Studien deuten darauf hin, dass Streifen die Annäherung und Landung einiger beißender Insekten behindern können.",
+      "didYouKnow": "Das Steppenzebra gehört zur Gattung Equus, zu der auch Pferde und Esel gehören.",
+      "imageCaption": "Steppenzebra"
+    },
+    {
+      "id": "mammals-043",
+      "animal": "Kamel",
+      "prompt": "Wie nutzt das Kamel das Fett aus seinem Höcker?",
+      "options": [
+        "Als Energiereserve",
+        "Als Flüssigwasserreservoir",
+        "Als Atmungsorgan",
+        "Nur als Schutz vor Sand"
+      ],
+      "explanation": "Die Beule enthält Fett, das der Körper zur Energiegewinnung nutzen kann.",
+      "didYouKnow": "Kamele haben ovale rote Blutkörperchen, ein nützliches Merkmal bei Schwankungen der Flüssigkeitszufuhr.",
+      "imageCaption": "Dromedar"
+    },
+    {
+      "id": "mammals-044",
+      "animal": "Dromedar",
+      "prompt": "Wie viele Höcker hat das Dromedar normalerweise?",
+      "options": [
+        "Einer",
+        "Zwei",
+        "Drei",
+        "Keine"
+      ],
+      "explanation": "Das Dromedar unterscheidet sich vom Trampeltier durch seinen einzigartigen Höcker.",
+      "didYouKnow": "Nach einer Zeit ohne Trinken kann das Kamel schnell große Mengen Wasser aufnehmen.",
+      "imageCaption": "Dromedar"
+    },
+    {
+      "id": "mammals-045",
+      "animal": "Trampeltier",
+      "prompt": "Wie viele Höcker hat das Trampeltier?",
+      "options": [
+        "Zwei",
+        "A",
+        "Drei",
+        "Keine"
+      ],
+      "explanation": "Das Trampeltier hat zwei Höcker mit Fettreserven.",
+      "didYouKnow": "Sein dickes Fell hilft ihm, die kalten Winter im Landesinneren Asiens zu überstehen.",
+      "imageCaption": "Trampeltier"
+    },
+    {
+      "id": "mammals-046",
+      "animal": "Amerikanischer Bison",
+      "prompt": "Zu welcher Jahreszeit haben amerikanische Bisons ihr dickstes Fell?",
+      "options": [
+        "Im Winter",
+        "Mitten im Sommer",
+        "Nur während der Migration",
+        "Nach der Frühjahrsmauser"
+      ],
+      "explanation": "Der Bison entwickelt ein dickes Winterfell, das ihn vor der Kälte schützt.",
+      "didYouKnow": "Manchmal kratzt es mit seinen Hörnern und Hufen über den Boden.",
+      "imageCaption": "Amerikanischer Bison"
+    },
+    {
+      "id": "mammals-047",
+      "animal": "Saiga-Antilope",
+      "prompt": "Welchen besonderen Zweck hat die vergrößerte Nase der Saiga in der Steppe?",
+      "options": [
+        "Es filtert Staub und bereitet die eingeatmete Luft auf.",
+        "Es erhöht insbesondere die Wahrnehmung von Bassklängen in großen Räumen.",
+        "Es dient dazu, Wasser in Pflanzen zurückzuhalten, bevor es den Magen erreicht.",
+        "Es ermöglicht Ihnen, den Boden zu graben, um tiefe Wurzeln zu erreichen."
+      ],
+      "explanation": "Die vergrößerte Nase der Saiga hilft dabei, Staub zu filtern und die Luft je nach Bedingungen zu erwärmen oder zu kühlen.",
+      "didYouKnow": "Die Saiga unternimmt saisonale Wanderungen in den Steppen.",
+      "imageCaption": "Saiga"
+    },
+    {
+      "id": "mammals-048",
+      "animal": "Mufflon",
+      "prompt": "Wofür werden die Hörner männlicher Mufflons in bestimmten Konfrontationen verwendet?",
+      "options": [
+        "Sich gegenseitig stoßen und mit anderen Männchen konkurrieren",
+        "Höhlen graben",
+        "Um das Wasser zu filtern",
+        "Zur Regulierung der Temperatur durch Verdunstung"
+      ],
+      "explanation": "Bei geselligen Wettkämpfen können Männchen mit den Hörnern kollidieren.",
+      "didYouKnow": "Mufflons verfügen dank der seitlichen Position ihrer Augen über eine ausgezeichnete periphere Sicht.",
+      "imageCaption": "Mufflon"
+    },
+    {
+      "id": "mammals-049",
+      "animal": "Rothirsch",
+      "prompt": "Was passiert jedes Jahr mit Rothirschgeweihen?",
+      "options": [
+        "Sie fallen und wachsen dann wieder nach",
+        "Sie bleiben ein Leben lang unverändert",
+        "Sie bestehen aus Keratin und wachsen nie nach",
+        "Im Winter werden sie zu Federn"
+      ],
+      "explanation": "Hirschgeweihe werden regelmäßig abgeworfen und wachsen im Jahreszyklus nach.",
+      "didYouKnow": "Während sie wachsen, werden die Geweihe mit einer Haut namens Samt bedeckt.",
+      "imageCaption": "Rothirsch"
+    },
+    {
+      "id": "mammals-050",
+      "animal": "Elch",
+      "prompt": "Wie gelangen Elche oft an Wasserpflanzen?",
+      "options": [
+        "Es grast im flachen Wasser",
+        "Es taucht mit Kiemen",
+        "Er packt sie mit seinem Geweih wie eine Zange",
+        "Er gräbt sie beim Fliegen aus"
+      ],
+      "explanation": "Elche ernähren sich möglicherweise von Wasserpflanzen, wenn sie seichtes Wasser betreten.",
+      "didYouKnow": "Der Elch ist das größte lebende Reh.",
+      "imageCaption": "Elch"
+    },
+    {
+      "id": "mammals-051",
+      "animal": "Rentier",
+      "prompt": "Welche Modifikation des Rentierhufes verbessert seinen Halt auf hartem Winterboden?",
+      "options": [
+        "Die Polster werden zurückgezogen und die harte Kante des Hufes hat mehr Bodenkontakt.",
+        "Die Polster dehnen sich aus und bilden eine große, flexible Oberfläche.",
+        "Die beiden Huffinger sind zu einer einzigen Platte verschweißt.",
+        "Eine Membran zwischen den Fingern erhöht den Grip auf Eis."
+      ],
+      "explanation": "Im Winter ziehen sich die Ballen zurück, sodass die harte Hufkante auf hartem Schnee oder Eis besseren Halt bietet.",
+      "didYouKnow": "Rentiere können während saisonaler Wanderungen weite Strecken zurücklegen.",
+      "imageCaption": "Rentier"
+    },
+    {
+      "id": "mammals-052",
+      "animal": "Wildschwein",
+      "prompt": "Wie finden Wildschweine häufig Wurzeln im Boden?",
+      "options": [
+        "Mit seiner Schnauze graben",
+        "Indem er nur mit seinen Stoßzähnen gräbt",
+        "Mit den Vorderhufen auf den Boden schlagen",
+        "Benutzt seine Eckzähne wie eine Schaufel"
+      ],
+      "explanation": "Mit seiner kräftigen Schnauze wälzt das Wildschwein die Erde um und sucht nach Nahrung.",
+      "didYouKnow": "Eber haben oft helle Bänder, die mit zunehmendem Wachstum verblassen.",
+      "imageCaption": "Wildschwein"
+    },
+    {
+      "id": "mammals-053",
+      "animal": "Großer Tümmler",
+      "prompt": "Wie finden Delfine häufig ihre Beute unter Wasser?",
+      "options": [
+        "Durch Echoortung",
+        "Nur durch den Geruch in der Luft",
+        "Durch Ultraschall wird es nur von Pflanzen reflektiert",
+        "Durch Vibrationen, die von den hinteren Flossen übertragen werden"
+      ],
+      "explanation": "Der Delfin macht Klickgeräusche und analysiert die Echos, um Objekte und Beute zu lokalisieren.",
+      "didYouKnow": "Durch ihr Blasloch atmen Delfine Luft an der Oberfläche ein.",
+      "imageCaption": "Großer Tümmler"
+    },
+    {
+      "id": "mammals-054",
+      "animal": "Orca",
+      "prompt": "Warum ernähren sich Orca-Populationen möglicherweise unterschiedlich?",
+      "options": [
+        "Sie entwickeln Jagdtraditionen und spezialisieren sich auf verschiedene Beutetiere.",
+        "Alle Populationen fressen unabhängig von der Region die gleiche Mischung aus Fischen und Säugetieren.",
+        "Die Ernährung richtet sich ausschließlich nach der Körpergröße jedes Einzelnen.",
+        "Orcas ändern ihre Ernährung nach dem Zufallsprinzip, unabhängig von ihrer Gruppe oder ihrem Lebensraum."
+      ],
+      "explanation": "Orca-Gruppen können unterschiedliche Jagdtechniken und Ernährungspräferenzen sozial weitergeben.",
+      "didYouKnow": "Orca-Gruppen haben unterschiedliche Lautäußerungen und soziale Gewohnheiten.",
+      "imageCaption": "Orca"
+    },
+    {
+      "id": "mammals-055",
+      "animal": "Blauwal",
+      "prompt": "Wie fangen Blauwale Krill?",
+      "options": [
+        "Durch die Filterung des Wassers mithilfe seiner Bartenplatten",
+        "Durch das Einsaugen durch die Kiemen",
+        "Den Krill einen nach dem anderen mit den Zähnen beißen",
+        "Indem man es mit seinen Flossen fängt"
+      ],
+      "explanation": "Der Bartenfisch fängt kleine Beute, wenn der Wal Wasser aus seinem Maul ausstößt.",
+      "didYouKnow": "Der Blauwal ist das größte bekannte Tier, das jemals auf der Erde gelebt hat.",
+      "imageCaption": "Blauwal"
+    },
+    {
+      "id": "mammals-056",
+      "animal": "Buckelwal",
+      "prompt": "Was macht der Buckelwal während der Verschlingungsfütterung?",
+      "options": [
+        "Er öffnet das Maul weit, verschlingt Wasser und hält die Beute mit seinen Barten zurück.",
+        "Es filtert das Wasser, indem es mit halb geöffnetem Mund schwimmt, ohne es zu schlucken.",
+        "Es saugt Sedimente vom Boden auf und gibt sie dann durch die Entlüftungsöffnungen ab.",
+        "Mit seinen Brustflossen fängt er jeden Fisch einzeln."
+      ],
+      "explanation": "Die ausziehbaren Bauchfurchen ermöglichen es dem Wal, eine große Wassermenge zu verschlingen und sie dann durch die Bartenplatten auszustoßen.",
+      "didYouKnow": "Buckelwale sind vor allem bei brütenden Männchen für ihre komplexen Gesänge bekannt.",
+      "imageCaption": "Buckelwal"
+    },
+    {
+      "id": "mammals-057",
+      "animal": "Pottwal",
+      "prompt": "Welche Beutegruppe ist ein häufiges Ziel der Tieftauchgänge des Pottwals?",
+      "options": [
+        "Kopffüßer, insbesondere Tintenfische.",
+        "Kleine Oberflächenfische wie Sardinen.",
+        "An flachen Riffen befestigte Krebstiere.",
+        "Robben ruhen auf dem Eis."
+      ],
+      "explanation": "Der Pottwal taucht tief, um Tintenfische und andere Kopffüßer zu jagen.",
+      "didYouKnow": "Es erzeugt kräftige Klickgeräusche, die zur Echoortung beitragen.",
+      "imageCaption": "Pottwal"
+    },
+    {
+      "id": "mammals-058",
+      "animal": "Narwal",
+      "prompt": "Von welchem Zahn stammt hauptsächlich der Stoßzahn des Narwals?",
+      "options": [
+        "Von einem oberen Eckzahn, bei männlichen Tieren meist der linke.",
+        "Von einem unteren Schneidezahn, der nach vorn wächst.",
+        "Von einem knöchernen, mit Keratin bedeckten Auswuchs auf der Stirn.",
+        "Von einem verkalkten Barten, der sich vom Kiefer löst."
+      ],
+      "explanation": "Der Stoßzahn ist ein verlängerter oberer Eckzahn, der die Lippe durchstößt; er entwickelt sich meist bei männlichen Tieren.",
+      "didYouKnow": "Narwale leben in arktischen Gewässern und reisen oft in Gruppen.",
+      "imageCaption": "Narwal"
+    },
+    {
+      "id": "mammals-059",
+      "animal": "Beluga",
+      "prompt": "Welche Rolle spielt die weiche Melone des Beluga bei der Echoortung?",
+      "options": [
+        "Es hilft, die abgegebenen Geräusche zu fokussieren und zu lenken.",
+        "Es verstärkt nur die von den Ohren empfangenen Geräusche.",
+        "Es wandelt Klickgeräusche in Vibrationen um, die von den Flossen übertragen werden.",
+        "Es speichert Klänge in Form von Resonanzen, um sie später wiederzugeben."
+      ],
+      "explanation": "Die Melone ist eine Fettstruktur, die dabei hilft, Geräusche zur Echoortung zu leiten.",
+      "didYouKnow": "Der Beluga kann eine Vielzahl von Geräuschen erzeugen, daher der Spitzname „Seekanarienvogel“.",
+      "imageCaption": "Beluga"
+    },
+    {
+      "id": "mammals-060",
+      "animal": "Seehund",
+      "prompt": "Wie bewegen sich Seehunde an Land?",
+      "options": [
+        "Mit seinem Körper wellenartig und schiebend",
+        "Auf vier Beinen unter seinem Bauch laufen",
+        "Auf nur einer Flosse springen",
+        "Durch Krabbeln dank Greifbeinen"
+      ],
+      "explanation": "Echte Robben können ihre Hinterflossen zum Laufen nicht unter den Körper drehen.",
+      "didYouKnow": "Im Wasser sorgen ihre hinteren Flossen für einen Großteil des Vortriebs.",
+      "imageCaption": "Seehund"
+    },
+    {
+      "id": "mammals-061",
+      "animal": "Kalifornischer Seelöwe",
+      "prompt": "Mit welchem Gelenk kann sich ein Seelöwe an Land besser fortbewegen als ein echter Seehund?",
+      "options": [
+        "Es kann seine Hinterflossen unter seinem Körper drehen.",
+        "Es nutzt seine vorderen Flossen als Beine und hält die hinteren Flossen fest.",
+        "Es faltet seine Hinterflossen entlang des Rückens und kriecht auf dem Bauch.",
+        "Zum Laufen dreht es seine Vorderflossen unter seinem Körper."
+      ],
+      "explanation": "Seelöwen können ihre Hinterflossen unter den Körper drehen und sich darauf stützen, um an Land voranzukommen.",
+      "didYouKnow": "Kalifornische Seelöwen sind in der Lage, komplexe Verhaltensweisen zu erlernen.",
+      "imageCaption": "Kalifornischer Seelöwe"
+    },
+    {
+      "id": "mammals-062",
+      "animal": "Walross",
+      "prompt": "Wozu dienen die langen Stoßzähne des Walrosses?",
+      "options": [
+        "Um beim Aufstehen auf dem Eis und bei Interaktionen zu helfen",
+        "Die Schalen knacken wie ein Nussknacker",
+        "Den Schnee graben, um zu atmen",
+        "Zum Filtern von Fisch"
+      ],
+      "explanation": "Mit seinen Stoßzähnen kann sich das Walross aufs Eis ziehen und in soziale Konfrontationen verwickeln.",
+      "didYouKnow": "Walrosse bilden oft große Ansammlungen auf dem Eis oder an Küsten.",
+      "imageCaption": "Walross"
+    },
+    {
+      "id": "mammals-063",
+      "animal": "Seekuh",
+      "prompt": "Was frisst die Seekuh hauptsächlich?",
+      "options": [
+        "Wasserpflanzen",
+        "Fisch",
+        "Robben",
+        "Korallen"
+      ],
+      "explanation": "Die Seekuh ist ein Pflanzenfresser, der Wasserpflanzen frisst.",
+      "didYouKnow": "Es kommt an die Oberfläche, um Luft zu atmen.",
+      "imageCaption": "Karibische Seekuh"
+    },
+    {
+      "id": "mammals-064",
+      "animal": "Dugong",
+      "prompt": "In welchem Lebensraum ernährt sich der Dugong häufig?",
+      "options": [
+        "Unterwasserwiesen",
+        "Nadelwälder",
+        "Felsige Wüsten",
+        "Tiefe Eisschollen"
+      ],
+      "explanation": "Der Dugong weidet auf Seegraswiesen in flachen Küstengewässern.",
+      "didYouKnow": "Es gehört wie die Seekühe zur Ordnung der Sirenen.",
+      "imageCaption": "Dugong"
+    },
+    {
+      "id": "mammals-065",
+      "animal": "Großer Ameisenbär",
+      "prompt": "Wie fängt der Große Ameisenbär Ameisen und Termiten?",
+      "options": [
+        "Mit seiner langen, klebrigen Zunge",
+        "Mit seinen scharfen Zähnen",
+        "Indem er sie durch seine Ohren filtert",
+        "Mit einer Bauchtasche"
+      ],
+      "explanation": "Seine lange, klebrige Zunge ermöglicht es ihm, Insekten schnell aus Nestern zu schnappen.",
+      "didYouKnow": "Der Große Ameisenbär hat keine Zähne.",
+      "imageCaption": "Großer Ameisenbär"
+    },
+    {
+      "id": "mammals-066",
+      "animal": "Schuppentier",
+      "prompt": "Woraus bestehen Schuppentiere?",
+      "options": [
+        "Keratin",
+        "Kalzium wie Knochen",
+        "Chitin",
+        "Knorpel"
+      ],
+      "explanation": "Schuppen von Schuppentieren bestehen wie menschliche Nägel aus Keratin.",
+      "didYouKnow": "Das Schuppentier ist das einzige lebende Säugetier, dessen Körper größtenteils mit Keratinschuppen bedeckt ist.",
+      "imageCaption": "Temmincks Schuppentier"
+    },
+    {
+      "id": "mammals-067",
+      "animal": "Gürteltier mit neun Bändern",
+      "prompt": "Wie kann das Gürteltier mit neun Bändern manchmal einen Fluss überqueren?",
+      "options": [
+        "Es kann schwimmen, indem es seinen Verdauungstrakt mit Luft aufbläst, oder mit angehaltenem Atem auf dem Boden laufen.",
+        "Es schwimmt nur, indem es seinen Panzer wie ein Paddel schlägt.",
+        "Mit seinem Schwanz klammert er sich an Wasserpflanzen fest und lässt sich von der Strömung ziehen.",
+        "Es speichert Wasser in seiner Schale und stößt es aus, um sich fortzubewegen."
+      ],
+      "explanation": "Das Gürteltier kann Luft schlucken, um zu schweben, oder in engeren Gewässern mit angehaltenem Atem unter Wasser laufen.",
+      "didYouKnow": "Das Gürteltier mit neun Bändern kann Wasser schwimmend oder auf dem Grund laufend überqueren.",
+      "imageCaption": "Gürteltier mit neun Bändern"
+    },
+    {
+      "id": "mammals-068",
+      "animal": "Dreifingerfaultier",
+      "prompt": "Wie bewegt sich das Faultier normalerweise durch das Blätterdach?",
+      "options": [
+        "Indem er sich mit seinen langen Krallen an den Ästen festklammert",
+        "Von Baum zu Baum springen",
+        "Durch das Graben von Galerien",
+        "Zwischen den Bäumen schwimmen"
+      ],
+      "explanation": "Seine langen, gebogenen Krallen ermöglichen es ihm, sich an Ästen festzuhalten.",
+      "didYouKnow": "Dreifingerfaultiere haben mehrere zusätzliche Halswirbel, die ihnen eine große Kopfbeweglichkeit verleihen.",
+      "imageCaption": "Braunkehlfaultier"
+    },
+    {
+      "id": "mammals-069",
+      "animal": "Gorilla",
+      "prompt": "Was frisst der Westliche Flachlandgorilla hauptsächlich?",
+      "options": [
+        "Pflanzen, einschließlich Blätter und Früchte",
+        "Meeresfisch",
+        "Ausschließlich Insekten",
+        "Nur Bambus"
+      ],
+      "explanation": "Gorillas sind hauptsächlich Pflanzenfresser und fressen je nach Lebensraum Blätter, Stängel und Früchte.",
+      "didYouKnow": "Gorillas bauen oft jeden Abend ein Ruhenest mit Pflanzen.",
+      "imageCaption": "Westlicher Flachlandgorilla"
+    },
+    {
+      "id": "mammals-070",
+      "animal": "Schimpanse",
+      "prompt": "Welches Werkzeug benutzt ein Schimpanse oft, um Termiten aus einem Tunnel zu holen?",
+      "options": [
+        "Ein belaubter Zweig, den es wie eine Sonde in das Nest einführt.",
+        "Ein Stein, den er ins Nest rollt, um die Termiten herauszuholen.",
+        "Ein zu einem Trichter gefaltetes Blatt, um Termiten aus dem Wasser zu filtern.",
+        "Ein dorniger Stängel, den es von den Ästen auf das Nest wirft."
+      ],
+      "explanation": "Schimpansen können einen Zweig präparieren, indem sie die Blätter entfernen und ihn dann durch eine Termitengalerie führen.",
+      "didYouKnow": "Schimpansen leben in Gemeinschaften, in denen sich Individuen trennen und dann wieder vereinen können.",
+      "imageCaption": "Gemeiner Schimpanse"
+    },
+    {
+      "id": "mammals-071",
+      "animal": "Bonobo",
+      "prompt": "Welche soziale Eigenschaft spielt in Bonobo-Gemeinschaften oft eine wichtige Rolle?",
+      "options": [
+        "Allianzen und enge Bindungen zwischen erwachsenen Weibchen.",
+        "Verwandte Männchen bilden immer den dominanten Kern und schließen Weibchen aus.",
+        "Jeder Erwachsene lebt alleine und schließt sich der Gruppe nur zur Fortpflanzung an.",
+        "Eine einzelne Frau kontrolliert dauerhaft alle Ressourcen der Gruppe."
+      ],
+      "explanation": "Frauen, die einer neuen Gemeinschaft beigetreten sind, können wichtige soziale Bindungen knüpfen und so zum Gruppenzusammenhalt beitragen.",
+      "didYouKnow": "Bonobos leben natürlicherweise in den Wäldern der Demokratischen Republik Kongo.",
+      "imageCaption": "Bonobo"
+    },
+    {
+      "id": "mammals-072",
+      "animal": "Borneo-Orang-Utan",
+      "prompt": "Wie bewegt sich der Orang-Utan besonders im Wald?",
+      "options": [
+        "Klettern und Schaukeln in den Bäumen",
+        "Beim Laufen über weite Strecken am Boden",
+        "Durch das Graben von Tunneln",
+        "Zwischen den Zweigen schwebend"
+      ],
+      "explanation": "Seine langen Arme und Greifhände helfen ihm, sich durch das Blätterdach zu bewegen.",
+      "didYouKnow": "Der Orang-Utan baut oft ein neues Nest in Bäumen, um darin zu schlafen.",
+      "imageCaption": "Borneo-Orang-Utan"
+    },
+    {
+      "id": "mammals-073",
+      "animal": "Weißhandgibbon",
+      "prompt": "Welche Fortbewegung zeichnet Gibbons aus?",
+      "options": [
+        "Brachiation, Schwingen mit den Armen",
+        "Flossengetriebenes Springen",
+        "Nur auf den Knöcheln gehen",
+        "Das Gleiten"
+      ],
+      "explanation": "Gibbons schwingen sich mit ihren langen Armen von Ast zu Ast.",
+      "didYouKnow": "Ihre Lieder dienen der Kommunikation und der Signalisierung der Besetzung eines Territoriums.",
+      "imageCaption": "Weißhandgibbon"
+    },
+    {
+      "id": "mammals-074",
+      "animal": "Japanischer Makaken",
+      "prompt": "Wie überlebt der Japanische Makaken die kalten Winter in bestimmten Gebieten?",
+      "options": [
+        "Manchmal nutzt er heiße Quellen",
+        "Es überwintert sechs Monate lang unter dem Schnee",
+        "Es wächst sofort weißes Fell",
+        "Es wandert immer in die Tropen"
+      ],
+      "explanation": "In manchen Populationen baden japanische Makaken in heißen Quellen, um sich warm zu halten.",
+      "didYouKnow": "Japanische Makaken fressen eine Vielzahl von Nahrungsmitteln, darunter Früchte, Samen und Kleintiere.",
+      "imageCaption": "Japanischer Makaken"
+    },
+    {
+      "id": "mammals-075",
+      "animal": "Hamadryas Pavian",
+      "prompt": "Welche abwechslungsreiche Ernährung kann der Pavian zu sich nehmen?",
+      "options": [
+        "Früchte, Samen und Kleintiere",
+        "Ausschließlich Bambus",
+        "Krill und Algen",
+        "Nur Holz"
+      ],
+      "explanation": "Der Pavian ist ein Allesfresser und frisst die in seiner Umgebung verfügbare Nahrung.",
+      "didYouKnow": "Hamadrya-Paviane leben in Gesellschaften, die auf mehreren Ebenen strukturiert sind.",
+      "imageCaption": "Hamadryas Pavian"
+    },
+    {
+      "id": "mammals-076",
+      "animal": "Kattas",
+      "prompt": "Welches Verhalten hilft Kattas, sich morgens aufzuwärmen?",
+      "options": [
+        "Sie setzen sich der Sonne aus",
+        "Sie graben einen eisigen Bau",
+        "Sie tauchen ins Wasser ein",
+        "Sie blähen ihre Wangen auf"
+      ],
+      "explanation": "Kattas können der Sonne zugewandt sitzen, um ihren Körper zu wärmen.",
+      "didYouKnow": "Kattas leben natürlicherweise auf Madagaskar.",
+      "imageCaption": "Kattas"
+    },
+    {
+      "id": "mammals-077",
+      "animal": "Philippinischer Koboldmaki",
+      "prompt": "Welche Anpassung hilft dem Koboldmaki, nachts zu sehen?",
+      "options": [
+        "Seine sehr großen Augen",
+        "Eine reflektierende Membran am Schwanz",
+        "Empfindliche Antennen",
+        "Infrarotsicht"
+      ],
+      "explanation": "Die großen Augen des Koboldmakis fangen während seiner nächtlichen Aktivität viel Licht ein.",
+      "didYouKnow": "Der Koboldmaki kann seinen Kopf sehr weit drehen, um seine Umgebung zu beobachten.",
+      "imageCaption": "Philippinischer Koboldmaki"
+    },
+    {
+      "id": "mammals-078",
+      "animal": "Alpenmurmeltier",
+      "prompt": "Was macht das Alpenmurmeltier im Winter?",
+      "options": [
+        "Sie überwintert in einem Bau",
+        "Sie wandert nach Afrika aus",
+        "Sie jagt unter dem Eis",
+        "Sie lebt in den Bäumen"
+      ],
+      "explanation": "Die kalten Monate verbringt das Murmeltier im Winterschlaf in einem Bau mit eingeschränkter körperlicher Aktivität.",
+      "didYouKnow": "Murmeltiere geben Alarmpfeifen ab, wenn sie eine Gefahr erkennen.",
+      "imageCaption": "Alpenmurmeltier"
+    },
+    {
+      "id": "mammals-079",
+      "animal": "Chinchilla",
+      "prompt": "Warum ist das Fell der Chinchilla besonders dicht?",
+      "options": [
+        "Es hilft, es in einer kühlen und trockenen Umgebung zu isolieren",
+        "Es wird zum Schwimmen im Meer verwendet",
+        "Es wehrt Raubtiere mit Elektrizität ab",
+        "Es wird zum Fliegen verwendet"
+      ],
+      "explanation": "In jedem Follikel wachsen sehr viele Haare, die ein dichtes Fell bilden.",
+      "didYouKnow": "Chinchillas haben große Ohren, die zur Wärmeableitung beitragen.",
+      "imageCaption": "Langschwanz-Chinchilla"
+    },
+    {
+      "id": "mammals-080",
+      "animal": "Wasserschwein",
+      "prompt": "Was ist das größte lebende Nagetier?",
+      "options": [
+        "Das Wasserschwein",
+        "Der Biber",
+        "Das Stachelschwein",
+        "Die Mara"
+      ],
+      "explanation": "Das Wasserschwein ist heute das größte Nagetier.",
+      "didYouKnow": "Seine teilweise mit Schwimmhäuten versehenen Füße helfen ihm beim Schwimmen.",
+      "imageCaption": "Wasserschwein"
+    },
+    {
+      "id": "mammals-081",
+      "animal": "Amerikanisches Stachelschwein",
+      "prompt": "Was sind Stachelschweinfedern?",
+      "options": [
+        "Modifizierte Haare mit Widerhaken",
+        "Am Skelett befestigte Knochenstacheln",
+        "Lockere Zähne",
+        "Flache Keratinschuppen"
+      ],
+      "explanation": "Federkiele sind modifizierte Haare, die abbrechen und sich an einem Raubtier festklammern können.",
+      "didYouKnow": "Das Stachelschwein ist ein Nagetier, das oft auf Bäume klettert.",
+      "imageCaption": "Nordamerikanisches Stachelschwein"
+    },
+    {
+      "id": "mammals-082",
+      "animal": "Amerikanischer Pika",
+      "prompt": "Wo lagert der Amerikanische Pika oft die für den Winter geernteten Pflanzen?",
+      "options": [
+        "Im Heuhaufen",
+        "In einer Bauchtasche",
+        "In einem hängenden Nest",
+        "In Muscheln"
+      ],
+      "explanation": "Der Pika trocknet und stapelt Pflanzen, um Nahrungsreserven aufzubauen.",
+      "didYouKnow": "Der amerikanische Pika kommuniziert durch Schreie, insbesondere um Gefahren zu signalisieren.",
+      "imageCaption": "Amerikanischer Pika"
+    },
+    {
+      "id": "mammals-083",
+      "animal": "Grauwal",
+      "prompt": "Wie fangen Grauwale häufig Beute, die in Sedimenten lebt?",
+      "options": [
+        "Es saugt das Sediment auf und filtert mit seinen Barten die Kleintiere heraus.",
+        "Mit seinen Barten fegt er über die Wasseroberfläche, um den Krill herauszufiltern.",
+        "Sie jagt Fische im offenen Wasser und packt sie dann mit den Zähnen.",
+        "Es gräbt mit seinen Flossen den Boden auf und schluckt das Sediment, ohne es zu filtern."
+      ],
+      "explanation": "Grauwale können sich am Boden ernähren, indem sie Sedimente aufsaugen und Beute in ihren Bartenplatten festhalten.",
+      "didYouKnow": "Der Grauwal führt saisonale lange Wanderungen durch.",
+      "imageCaption": "Grauwal"
+    },
+    {
+      "id": "mammals-084",
+      "animal": "Grönlandwal",
+      "prompt": "Wie profitiert der Grönlandwal von seinen Bartenplatten?",
+      "options": [
+        "Sie filtern kleine Beutetiere aus dem Wasser",
+        "Sie brechen das Eis",
+        "Sie erzeugen Klicks",
+        "Sie speichern Sauerstoff"
+      ],
+      "explanation": "Grönlandwale filtern Zooplankton und andere kleine Beutetiere mithilfe langer Bartenplatten.",
+      "didYouKnow": "Grönlandwale gehören zu den langlebigsten Säugetieren.",
+      "imageCaption": "Grönlandwal"
+    },
+    {
+      "id": "mammals-085",
+      "animal": "Finnwal",
+      "prompt": "Welcher Ernährungsmechanismus ist charakteristisch für Wale, einschließlich des Finnwals?",
+      "options": [
+        "Das Verschlingen von Wasser und Beute, gefolgt von der Filterung durch die Bartenplatten.",
+        "Mit Barten den Meeresboden abkratzen, um Krebstiere aufzusaugen.",
+        "Mit der klebrigen Zunge eine Beute nach der anderen fangen.",
+        "Kontinuierliche Filterung des Wassers durch den Mund ohne Verschlingungsphase."
+      ],
+      "explanation": "Während der Beute entfalten sich die Bauchfurchen, dann tritt das Wasser durch die Bartenplatten aus, die die Beute halten.",
+      "didYouKnow": "Der Finnwal ist einer der größten Wale.",
+      "imageCaption": "Finnwal"
+    },
+    {
+      "id": "mammals-086",
+      "animal": "Amazonas-Rosadelfin",
+      "prompt": "In welchem ​​Lebensraumnetz findet der Amazonas-Rosadelfin Nahrung und Unterschlupf?",
+      "options": [
+        "Amazonasflüsse und ihre saisonal überschwemmten Wälder.",
+        "Salzige Flussmündungen und Küstenriffe des Atlantiks.",
+        "Nur kalte Gebirgsflüsse des Orinoco-Beckens.",
+        "Die tiefen, isolierten Seen der Anden."
+      ],
+      "explanation": "Der Boto kommt häufig in Flüssen des Amazonas vor und kann in überflutete Waldgebiete vordringen.",
+      "didYouKnow": "Sein Hals ist beweglicher als der vieler Meeresdelfine.",
+      "imageCaption": "Amazonas-Rosadelfin"
+    },
+    {
+      "id": "mammals-087",
+      "animal": "Schweinswal",
+      "prompt": "Welches Merkmal hilft, einen Schweinswal von einem Delfin zu unterscheiden?",
+      "options": [
+        "Seine Schnauze ist im Allgemeinen weniger lang",
+        "Es hat Kiemen",
+        "Es lebt nur in Süßwasser",
+        "Es hat sichtbare Hinterbeine"
+      ],
+      "explanation": "Der Schweinswal hat einen runderen Kopf und eine weniger hervorstehende Schnauze als viele Delfine.",
+      "didYouKnow": "Der Schweinswal lebt in den Küsten- und gemäßigten Gewässern des Nordatlantiks und der angrenzenden Meere.",
+      "imageCaption": "Schweinswal"
+    },
+    {
+      "id": "mammals-088",
+      "animal": "Südlicher Seeelefant",
+      "prompt": "Was ist der Hauptzweck des Rüssels des männlichen See-Elefanten während der Brutzeit?",
+      "options": [
+        "Um seine Lautäußerungen zu verstärken.",
+        "Um das Wasser zu filtern, um den Krill einzufangen.",
+        "Zum Speichern von Luft zur Verlängerung von Tauchgängen.",
+        "Um Weibchen durch den Geruch zu Futterplätzen zu führen."
+      ],
+      "explanation": "Der Rumpf des Männchens verstärkt die Geräusche, die bei Interaktionen und Konfrontationen verwendet werden.",
+      "didYouKnow": "Die Art kann in große Tiefen tauchen, um nach Beute zu suchen.",
+      "imageCaption": "Südlicher Seeelefant"
+    },
+    {
+      "id": "mammals-089",
+      "animal": "Seeleopard",
+      "prompt": "Welche Art von Beute jagt der Seeleopard?",
+      "options": [
+        "Krill, Fische und manchmal Pinguine",
+        "Nur Wasserpflanzen",
+        "Nur Landschnecken",
+        "Tote Bäume"
+      ],
+      "explanation": "Der Seeleopard ist ein Raubtier, das Fische, Krill und andere Tiere frisst.",
+      "didYouKnow": "Der Seeleopard kommt hauptsächlich in der Antarktis vor.",
+      "imageCaption": "Seeleopard"
+    },
+    {
+      "id": "mammals-090",
+      "animal": "Pelzrobbe",
+      "prompt": "Welche Rolle spielt das Pelzrobbenfell?",
+      "options": [
+        "Es schließt isolierende Luft nah an der Haut ein",
+        "Es wird zum Atmen unter Wasser verwendet",
+        "Es ersetzt die Flossen",
+        "Sie lagert Eier"
+      ],
+      "explanation": "Die dichte Unterwolle hält eine Luftschicht zurück, die zur Wärmedämmung beiträgt.",
+      "didYouKnow": "Pelzrobben verbringen einen Teil ihres Lebens auf See und brüten an Land.",
+      "imageCaption": "Nördlicher Seebär"
+    },
+    {
+      "id": "mammals-091",
+      "animal": "Kaiserpinguin",
+      "prompt": "Warum gruppieren sich Kaiserpinguine in einem engen Kreis?",
+      "options": [
+        "Um den Wärmeverlust zu reduzieren",
+        "Fische an Land fangen",
+        "Eier unter Wasser ausbrüten",
+        "Um Häutungen zu vermeiden"
+      ],
+      "explanation": "Durch das Umarmen können Pinguine weniger Wind und Kälte ausgesetzt sein.",
+      "didYouKnow": "Kaiserpinguine bewegen sich manchmal in Gruppen zwischen ihren Rastplätzen und Futterplätzen.",
+      "imageCaption": "Kaiserpinguin"
+    },
+    {
+      "id": "mammals-092",
+      "animal": "Tüpfelhyäne",
+      "prompt": "Welche Rolle spielen Tüpfelhyänen im Ökosystem?",
+      "options": [
+        "Sie jagen und verzehren auch Kadaver",
+        "Sie fressen nur Pflanzen",
+        "Sie bestäuben die meisten Bäume",
+        "Sie filtern Plankton"
+      ],
+      "explanation": "Tüpfelhyänen jagen aktiv und ernähren sich auch von Aas.",
+      "didYouKnow": "Bei Tüpfelhyänen dominieren in der sozialen Hierarchie im Allgemeinen die Weibchen die Männchen.",
+      "imageCaption": "Tüpfelhyäne"
+    },
+    {
+      "id": "mammals-093",
+      "animal": "Erdmännchen",
+      "prompt": "Was können die unterschiedlichen Alarmrufe von Erdmännchen bedeuten?",
+      "options": [
+        "Die Art der erkannten Gefahr, zum Beispiel ein Raubtier aus der Luft oder an Land.",
+        "Die genaue Richtung des Baus, in dem die Gruppe Zuflucht suchen muss.",
+        "Der Rang jedes Einzelnen in der Gruppenhierarchie.",
+        "Die Menge an Nahrung, die unter den Blättern verfügbar ist."
+      ],
+      "explanation": "Erdmännchen geben je nach erkannter Gefahr unterschiedliche Alarmrufe ab.",
+      "didYouKnow": "Erdmännchen leben in Gruppen und können dabei helfen, die Jungen in der Gruppe zu ernähren.",
+      "imageCaption": "Erdmännchen"
+    },
+    {
+      "id": "mammals-094",
+      "animal": "Fennek",
+      "prompt": "Wozu dienen die großen Ohren des Fennekfuchses?",
+      "options": [
+        "Um Wärme abzuleiten und Geräusche einzufangen",
+        "Um Wasser zu speichern",
+        "Um sich durch den Sand zu bewegen",
+        "Um Ihre Augen vor Dornen zu schützen"
+      ],
+      "explanation": "Große Ohren tragen zum Wärmeverlust bei und sorgen für ein scharfes Gehör.",
+      "didYouKnow": "Der Fennek-Fuchs gräbt Höhlen, in denen er in den heißesten Stunden ruht.",
+      "imageCaption": "Fennek"
+    },
+    {
+      "id": "mammals-095",
+      "animal": "Zwergmungo",
+      "prompt": "Wie finden manche Zwergmangusten Insekten im Boden?",
+      "options": [
+        "Unter den Blättern und in den Ritzen graben",
+        "Durch Filtern des Wassers mit Barten",
+        "Mit Holz graben",
+        "Über die Bäume springen"
+      ],
+      "explanation": "Mungos suchen in ihrer Umgebung nach Wirbellosen und anderen kleinen Beutetieren.",
+      "didYouKnow": "Sie leben oft in sozialen Gruppen.",
+      "imageCaption": "Zwergmungo"
+    },
+    {
+      "id": "mammals-096",
+      "animal": "Afrikanische Zibetkatze",
+      "prompt": "Welcher Sinn ist für die Zibetkatze bei der nächtlichen Nahrungssuche besonders nützlich?",
+      "options": [
+        "Der Geruchssinn",
+        "Farbsehen",
+        "Nur Ultraschallwahrnehmung",
+        "Die Berührung seines Geweihs"
+      ],
+      "explanation": "Der Geruch hilft der nachtaktiven Zibetkatze, Futter und Gerüche anderer Tiere zu erkennen.",
+      "didYouKnow": "Die afrikanische Zibetkatze markiert ihr Revier manchmal mit duftenden Sekreten.",
+      "imageCaption": "Afrikanische Zibetkatze"
+    },
+    {
+      "id": "mammals-097",
+      "animal": "Ginsterkatze",
+      "prompt": "Was hilft ihr langer Schwanz beim Klettern?",
+      "options": [
+        "Um das Gleichgewicht zu halten",
+        "Unter Wasser atmen",
+        "Um die Samen zu brechen",
+        "Zum Tragen Ihrer Kleinen in einer Tasche"
+      ],
+      "explanation": "Der lange Schwanz der Ginsterkatze dient als Ausgleich bei Baumbewegungen.",
+      "didYouKnow": "Die Ginsterkatze ist ein kleiner, agiler nachtaktiver Fleischfresser.",
+      "imageCaption": "Ginsterkatze"
+    },
+    {
+      "id": "mammals-098",
+      "animal": "Puma",
+      "prompt": "Wie tötet der Berglöwe normalerweise mittelgroße Beutetiere?",
+      "options": [
+        "Er packte sie mit seinen Pfoten und biss ihr in den Hals",
+        "Indem er ihn mit seinem Schwanz würgt",
+        "Indem man ihn mit Dornen bewirft",
+        "Durch die Lähmung mit Ultraschall"
+      ],
+      "explanation": "Der Puma ist eine Raubkatze, die ihre Beute mit ihren kräftigen Gliedmaßen und Zähnen fängt.",
+      "didYouKnow": "Der Puma hat verschiedene regionale Namen, darunter Puma und Berglöwe.",
+      "imageCaption": "Puma"
+    },
+    {
+      "id": "mammals-099",
+      "animal": "Jaguar",
+      "prompt": "Welche Anpassung hilft dem Jaguar, in tropischen Regenwäldern zu leben?",
+      "options": [
+        "Es schwimmt gut und jagt manchmal in der Nähe von Wasser",
+        "Er kann sein Fell nicht nass machen",
+        "Es ernährt sich ausschließlich von Samen",
+        "Er atmet unter Wasser"
+      ],
+      "explanation": "Der Jaguar fühlt sich im Wasser wohl und kann Wasser- oder Flussbeute jagen.",
+      "didYouKnow": "Im Gegensatz zum Leoparden hat der Jaguar oft Flecken in der Mitte seiner Rosetten.",
+      "imageCaption": "Jaguar"
+    },
+    {
+      "id": "mammals-100",
+      "animal": "Borealer Luchs",
+      "prompt": "Welche Anpassung hilft dem Nordluchs, sich auf Schnee fortzubewegen?",
+      "options": [
+        "Seine großen Beine verteilen sein Gewicht",
+        "Zum Paddeln sind seine Füße mit Schwimmhäuten ausgestattet",
+        "Seine gespaltenen Hufe halten das Eis fest",
+        "Sein Greifschwanz zieht ihn vorwärts"
+      ],
+      "explanation": "Die breiten Beine des Nordluchses verteilen sein Gewicht auf dem Schnee.",
+      "didYouKnow": "Ein weiteres charakteristisches Merkmal sind die schwarzen Bürsten an den Ohrenspitzen des Nordluchses.",
+      "imageCaption": "Borealer Luchs"
+    },
+    {
+      "id": "mammals-101",
+      "animal": "Karakal",
+      "prompt": "Welche Strategie nutzt der Karakal, um fliegende Vögel zu fangen?",
+      "options": [
+        "Es macht einen schnellen vertikalen Sprung und fängt sie mit seinen Pfoten.",
+        "Es schwebt lange über ihnen, bevor es sie mit seinen Flügeln trifft.",
+        "Er lockt sie zu Boden, indem er ihre Rufe nachahmt.",
+        "Es klettert auf Bäume und schnappt sich diese während der Nachtruhe."
+      ],
+      "explanation": "Der Karakal kann hoch vom Boden springen, um Vögel zu fangen, manchmal mehrere in einem einzigen Sprung.",
+      "didYouKnow": "Besonders auffällig sind die schwarzen Bürsten an seinen Ohren.",
+      "imageCaption": "Karakal"
+    },
+    {
+      "id": "mammals-102",
+      "animal": "Fischerkatze",
+      "prompt": "Welche Eigenschaft der Beine der Fischkatze hilft ihr, sich im flachen Wasser fortzubewegen?",
+      "options": [
+        "Ein partielles Gurtband zwischen den Fingern erleichtert das Schwimmen.",
+        "Vollständig einziehbare Krallen dienen unter Wasser als Haken.",
+        "Seine Hinterbeine sind in Flossen verwandelt, ähnlich denen von Robben.",
+        "Steife Haare an der Unterseite seiner Füße verhindern, dass er auf Steinen ausrutscht."
+      ],
+      "explanation": "Die Fischkatze verfügt über ein Teilnetz, das ihr die Fortbewegung in Gewässern erleichtert.",
+      "didYouKnow": "Die Fischkatze ernährt sich insbesondere von Fischen und anderen Wassertieren.",
+      "imageCaption": "Fischerkatze"
+    },
+    {
+      "id": "mammals-103",
+      "animal": "Mähnenwolf",
+      "prompt": "Welche südamerikanische Frucht ist ein wichtiger Bestandteil der Ernährung des Mähnenwolfs?",
+      "options": [
+        "Die Frucht der Lobeira.",
+        "Die Frucht des Affenbrotbaums, die besonders in den afrikanischen Savannen vorkommt.",
+        "Die Frucht des Pandanus, typisch für die Wälder Südostasiens.",
+        "Die Frucht des Nopal, die hauptsächlich in den Wüsten Nordamerikas verzehrt wird."
+      ],
+      "explanation": "Lobeira, auch Wolfsfrucht genannt, ist eines der pflanzlichen Nahrungsmittel, die der Mähnenwolf verzehrt.",
+      "didYouKnow": "Seine langen Beine helfen ihm, sich durch hohes Gras zu bewegen.",
+      "imageCaption": "Mähnenwolf"
+    },
+    {
+      "id": "mammals-104",
+      "animal": "Marderhund",
+      "prompt": "Zu welcher Familie gehört der Marderhund?",
+      "options": [
+        "Zur Familie der Hunde (Canidae)",
+        "Zu den Katzen",
+        "Zu den Ursiden",
+        "Zu Beuteltieren"
+      ],
+      "explanation": "Trotz seines Namens und seines Aussehens gehört der Marderhund zur Familie der Canidae.",
+      "didYouKnow": "Sie ist in Ostasien beheimatet und wurde in Teilen Europas eingeführt.",
+      "imageCaption": "Marderhund"
+    },
+    {
+      "id": "mammals-105",
+      "animal": "Roter Panda",
+      "prompt": "Zu welcher zoologischen Familie gehört der Rote Panda?",
+      "options": [
+        "Zur Familie der Ailuridae (Ailuridae).",
+        "Zur Familie Ursidae, mit Bären.",
+        "Zur Familie Procyonidae, mit Waschbären.",
+        "Zur Familie der Mustelidae mit Ottern und Wieseln."
+      ],
+      "explanation": "Der Rote Panda ist die einzige lebende Art seiner Familie, der Ailuridae.",
+      "didYouKnow": "Wie der Große Panda verfügt er über einen modifizierten Handgelenksknochen, der beim Greifen von Bambus hilft.",
+      "imageCaption": "Roter Panda"
+    },
+    {
+      "id": "mammals-106",
+      "animal": "Okapi",
+      "prompt": "Wer ist der nächste lebende Verwandte des Okapis?",
+      "options": [
+        "Die Giraffe; beide Arten gehören zur Familie der Giraffidae.",
+        "Das Zebra aus der Familie der Equiden.",
+        "Das Nashorn aus der Familie der Rhinocerotidae.",
+        "Kudu, aus der Familie der Bovidae."
+      ],
+      "explanation": "Das Okapi und die Giraffe sind die beiden lebenden Arten der Familie der Giraffidae.",
+      "didYouKnow": "Die Streifen auf den Beinen des Okapis helfen den Jungen wahrscheinlich dabei, ihrer Mutter im Wald zu folgen.",
+      "imageCaption": "Okapi"
+    },
+    {
+      "id": "mammals-107",
+      "animal": "Malaysischer Tapir",
+      "prompt": "Welchen Zweck hat die kurze Greifschnauze des Tapirs?",
+      "options": [
+        "Blätter und Früchte greifen",
+        "Um tiefe Höhlen zu graben",
+        "Wasser in die Lunge pumpen",
+        "Um Raubtiere zu treffen"
+      ],
+      "explanation": "Mit seiner flexiblen Schnauze greift der Tapir nach Pflanzen.",
+      "didYouKnow": "Das Schwarz-Weiß-Muster des Erwachsenen hilft ihm, sich im Schatten des Waldes zu tarnen.",
+      "imageCaption": "Malaysischer Tapir"
+    },
+    {
+      "id": "mammals-108",
+      "animal": "Seidenameisenbär",
+      "prompt": "Wo verbringt der Seidenameisenbär oft seine Zeit?",
+      "options": [
+        "In den Bäumen",
+        "Am Grund des Ozeans",
+        "In den verschneiten Ebenen",
+        "In Biberhöhlen"
+      ],
+      "explanation": "Dieser kleine Baumameisenbär bewegt sich durch die Bäume und sucht nach Insekten.",
+      "didYouKnow": "Der Seidenameisenbär ernährt sich hauptsächlich von baumbewohnenden Ameisen.",
+      "imageCaption": "Seidenameisenbär"
+    },
+    {
+      "id": "mammals-109",
+      "animal": "Halsbandpekari",
+      "prompt": "Was ist ein Merkmal des Halsbandpekari?",
+      "options": [
+        "Es lebt oft in Gruppen",
+        "Er legt Eier",
+        "Es handelt sich um ein baumbewohnendes Beuteltier",
+        "Es filtert Plankton"
+      ],
+      "explanation": "Der Pekari ist ein geselliges Säugetier, das oft in Gruppen reist.",
+      "didYouKnow": "Das Halsbandpekari hat Eckzähne, die sich berühren können, wenn das Maul geschlossen ist.",
+      "imageCaption": "Halsbandpekari"
+    },
+    {
+      "id": "mammals-110",
+      "animal": "Weißlippenpekari",
+      "prompt": "Welchen Zweck kann es haben, Weißlippenpekaris in großen Gruppen zu bewegen?",
+      "options": [
+        "Um es einem Raubtier zu erschweren, sich Einzelpersonen zu nähern und sie zu schützen.",
+        "Reduzierung des Ernährungsbedarfs durch gemeinsame Nutzung einer einzigen Nahrungsquelle.",
+        "Die Jungen von der Gruppe isolieren, damit sie sich alleine ernähren können.",
+        "Zur Aufrechterhaltung einer konstanten Körpertemperatur in tropischen Wäldern."
+      ],
+      "explanation": "Große Gruppen können einige Raubtiere abschrecken und für eine kollektive Verteidigung sorgen.",
+      "didYouKnow": "Weißlippenpekaris ernähren sich von Früchten, Samen und anderem Pflanzenmaterial.",
+      "imageCaption": "Weißlippenpekari"
+    },
+    {
+      "id": "mammals-111",
+      "animal": "Alpaka",
+      "prompt": "Warum züchten Menschen oft Alpakas?",
+      "options": [
+        "Für ihre weiche Faser",
+        "Für ihr Gift",
+        "Für ihre Eier",
+        "Für ihre Waage"
+      ],
+      "explanation": "Alpaka wird vor allem wegen seiner Fasern gezüchtet, die beim Scheren gewonnen werden.",
+      "didYouKnow": "Es ist in den Anden beheimatet und frisst Pflanzen.",
+      "imageCaption": "Alpaka"
+    },
+    {
+      "id": "mammals-112",
+      "animal": "Lama",
+      "prompt": "Welches Verhalten kann das Lama annehmen, wenn es sich bedroht oder genervt fühlt?",
+      "options": [
+        "Spucke",
+        "Wirft seine Hörner",
+        "Ausbreitende Flügel",
+        "Geben Sie einen Tintenstrahl ab"
+      ],
+      "explanation": "In bestimmten Abwehrsituationen kann das Lama Speichel oder erbrochenen Inhalt ausspucken.",
+      "didYouKnow": "Lamas werden in den Andenregionen als Lasttiere eingesetzt.",
+      "imageCaption": "Lama"
+    },
+    {
+      "id": "mammals-113",
+      "animal": "Guanako",
+      "prompt": "Von welcher heimischen Art ist der Guanako der wilde Vorfahre?",
+      "options": [
+        "Das Lama",
+        "Das Alpaka",
+        "Die Ziege",
+        "Der Yak"
+      ],
+      "explanation": "Das wilde Guanako gilt als Vorfahr des heimischen Lamas.",
+      "didYouKnow": "Es lebt in den offenen und trockenen Umgebungen Südamerikas.",
+      "imageCaption": "Guanako"
+    },
+    {
+      "id": "mammals-114",
+      "animal": "Vicuna",
+      "prompt": "Welches Produkt kann aus dem Vicuña durch Fangen, Scheren und anschließendes Freilassen geerntet werden?",
+      "options": [
+        "Es ist eine sehr feine Faser.",
+        "Ihre Milch, täglich gesammelt, ohne die Kleine zu trennen.",
+        "Sein Unterhautfett dient als natürlicher Isolator.",
+        "Sein Geweih, das nach dem Abschneiden wieder nachwächst."
+      ],
+      "explanation": "Das Vicuña wird während beaufsichtigter Übungen gefangen und geschoren und dann freigelassen; Seine Ballaststoffe sind sehr begehrt.",
+      "didYouKnow": "Es lebt in der Höhe der Anden.",
+      "imageCaption": "Vicuna"
+    },
+    {
+      "id": "mammals-115",
+      "animal": "Afrikanischer Büffel",
+      "prompt": "Wie kann sich der afrikanische Büffel gegen ein Raubtier verteidigen?",
+      "options": [
+        "Indem man sich zusammenschließt und seine Hörner benutzt",
+        "Versteckt sich in den Bäumen",
+        "Durch hervorstehende Federkiele",
+        "Durch das Atmen unter Wasser"
+      ],
+      "explanation": "Büffel können geschlossene Gruppen bilden und sich gemeinsam bestimmten Raubtieren stellen.",
+      "didYouKnow": "Der afrikanische Büffel ernährt sich hauptsächlich von Gräsern.",
+      "imageCaption": "Afrikanischer Büffel"
+    },
+    {
+      "id": "mammals-116",
+      "animal": "Moschusochse",
+      "prompt": "Welche Eigenschaft hilft Moschusochsen, die arktische Kälte zu überleben?",
+      "options": [
+        "Eine isolierende Grundierung namens Qiviut",
+        "Eine Schicht Federn",
+        "Thermische Kiemen",
+        "Ein Wasserhaufen"
+      ],
+      "explanation": "Das Qiviut, eine sehr feine Unterwolle, sorgt für eine wirksame Isolierung gegen Kälte.",
+      "didYouKnow": "Moschusochsen leben in Herden in arktischen Regionen.",
+      "imageCaption": "Moschusochse"
+    },
+    {
+      "id": "mammals-117",
+      "animal": "Yak",
+      "prompt": "Welche physiologische Herausforderung kann der Yak aufgrund seiner Anpassungen in großer Höhe meistern?",
+      "options": [
+        "Der niedrige Sauerstoffpartialdruck verdünnter Luft.",
+        "Hohe Salzkonzentration im Weidewasser.",
+        "Hoher Sauerstoffdruck in heißen Tälern.",
+        "Der Kohlendioxidabbau in gefrorenen Böden."
+      ],
+      "explanation": "Der Yak weist Atem- und Kreislaufanpassungen auf, die die Sauerstoffversorgung in sauerstoffarmer Luft unterstützen.",
+      "didYouKnow": "Sein langes Fell schützt ihn vor Kälte und Wind.",
+      "imageCaption": "Inländischer Yak"
+    },
+    {
+      "id": "mammals-118",
+      "animal": "Gaur",
+      "prompt": "Was ist der Gaur?",
+      "options": [
+        "Ein großes Wildrind aus Asien",
+        "Eine große afrikanische Katze",
+        "Ein Beuteltier aus Australien",
+        "Ein Süßwasserwal"
+      ],
+      "explanation": "Der Gaur ist ein Wildrind, das in den Wäldern Süd- und Südostasiens lebt.",
+      "didYouKnow": "Der Gaur hat im Allgemeinen ein dunkelbraunes Fell mit oft helleren Gliedmaßen.",
+      "imageCaption": "Gaur"
+    },
+    {
+      "id": "mammals-119",
+      "animal": "Banteng",
+      "prompt": "Zu welcher Familie gehört der Banteng?",
+      "options": [
+        "Zu den Rindern",
+        "Zum Hirsch",
+        "Zu Kameliden",
+        "Zu den Schweinen"
+      ],
+      "explanation": "Der Banteng ist ein Wildrind, das mit anderen Arten der Gattung Bos verwandt ist.",
+      "didYouKnow": "Es lebt in den Wäldern und Graslandschaften Südostasiens.",
+      "imageCaption": "Banteng"
+    },
+    {
+      "id": "mammals-120",
+      "animal": "Addax",
+      "prompt": "Wie begrenzt die Addax ihren Wasserbedarf in einer Wüstenumgebung?",
+      "options": [
+        "Es reduziert seinen Wasserverlust und erhält außerdem Feuchtigkeit von den verzehrten Pflanzen.",
+        "Jeden Tag trinkt er Wasser, das in Taschen unter seiner Haut gespeichert ist.",
+        "Es nimmt nachts über die Hufe Feuchtigkeit aus dem Sand auf.",
+        "Tagsüber schwitzt er stark, um seinen Körper abzukühlen."
+      ],
+      "explanation": "Der Addax kann seinen Wasserverlust begrenzen und einen Teil seines Bedarfs aus den Pflanzen decken, die er frisst.",
+      "didYouKnow": "Seine großen Hufe helfen ihm, auf Sand zu laufen.",
+      "imageCaption": "Addax"
+    },
+    {
+      "id": "mammals-121",
+      "animal": "Oryx mit Krummsäbelhörnern",
+      "prompt": "Wie kann die Oryxantilope mit Krummsäbeln den Wasserverlust bei extremer Hitze begrenzen?",
+      "options": [
+        "Er toleriert einen Anstieg seiner Körpertemperatur, bevor er schwitzt.",
+        "Er schwitzt stärker, sobald die Außentemperatur steigt.",
+        "Es gibt überschüssige Wärme ab, indem es ständig im Schatten hechelt.",
+        "Es lässt Wasser von seinem Magen zu seinen Hörnern zirkulieren, um es abzukühlen."
+      ],
+      "explanation": "Diese Toleranz verzögert das Schwitzen und hilft, Wasser zu sparen.",
+      "didYouKnow": "Oryxantilopen mit Krummsäbelhörnern haben sowohl bei Männchen als auch bei Weibchen lange Hörner.",
+      "imageCaption": "Oryx mit Krummsäbelhörnern"
+    },
+    {
+      "id": "mammals-122",
+      "animal": "Bongo",
+      "prompt": "Welche Tarnung hilft dem Bongo im Wald?",
+      "options": [
+        "Seine vertikalen Streifen",
+        "Helle Flecken, die ihre Farbe ändern",
+        "Eine transparente Hülle",
+        "Völlig weißes Fell"
+      ],
+      "explanation": "Die Streifen des Bongos helfen dabei, seine Silhouette im Schatten des Waldes hervorzuheben.",
+      "didYouKnow": "Der Bongo ist eine große Waldantilope.",
+      "imageCaption": "Bongo"
+    },
+    {
+      "id": "mammals-123",
+      "animal": "Großer Kudu",
+      "prompt": "Wofür werden die Spiralhörner männlicher Kudus verwendet?",
+      "options": [
+        "Auseinandersetzungen und Einschüchterungen zwischen Männchen",
+        "Auf Bäume klettern",
+        "Zum Filtern von Samen",
+        "Brunnen graben"
+      ],
+      "explanation": "Männchen nutzen ihre großen Spiralhörner bei Wettbewerben und Vorführungen.",
+      "didYouKnow": "Der Große Kudu ist eine Antilope, die in den Savannen und Waldgebieten Afrikas lebt.",
+      "imageCaption": "Großer Kudu"
+    },
+    {
+      "id": "mammals-124",
+      "animal": "Springbock",
+      "prompt": "Welches spektakuläre Verhalten kann der Springbock zeigen?",
+      "options": [
+        "Steife Sprünge nennt man Pronking",
+        "Rollen im Wasser",
+        "Gleitt",
+        "Erweiterte Tauchgänge"
+      ],
+      "explanation": "Der Springbock macht manchmal steife Sprünge, ein Verhalten, das Pronking genannt wird.",
+      "didYouKnow": "Es kann in trockenen Regionen leben, indem es wasserreiche Pflanzen frisst.",
+      "imageCaption": "Springbock"
+    },
+    {
+      "id": "mammals-125",
+      "animal": "Impala",
+      "prompt": "Welche Körperanpassung ermöglicht es dem Impala, hohe Sprünge auszuführen?",
+      "options": [
+        "Lange, kräftige Beine",
+        "Membranen zwischen den Fingern",
+        "Ein Greifschwanz",
+        "Die Schultern sind wie Flügel gegliedert"
+      ],
+      "explanation": "Die langen Beine des Impalas ermöglichen kraftvolle Beschleunigungen und Sprünge.",
+      "didYouKnow": "Auf der Flucht vor einem Raubtier können Impalas über Hindernisse springen.",
+      "imageCaption": "Impala"
+    },
+    {
+      "id": "mammals-126",
+      "animal": "Thomsons Gazelle",
+      "prompt": "Wie reagiert die Thomson-Gazelle häufig auf die Anwesenheit eines Raubtiers?",
+      "options": [
+        "Sie beschleunigt und springt, um zu entkommen",
+        "Sie wälzt sich im Schlamm, um sich zu verstecken",
+        "Sie klettert auf Bäume",
+        "Sie bleibt unter Wasser bewegungslos"
+      ],
+      "explanation": "Um zu entkommen, ist die Gazelle auf ihre Geschwindigkeit und Richtungsänderungen angewiesen.",
+      "didYouKnow": "Die Thomson-Gazelle frisst Gräser und andere Pflanzen.",
+      "imageCaption": "Thomsons Gazelle"
+    },
+    {
+      "id": "mammals-127",
+      "animal": "Saola",
+      "prompt": "In welchem grenzüberschreitenden Gebirge lebt die in den 1990er Jahren von der Wissenschaft beschriebene Saola?",
+      "options": [
+        "Das Annamite-Gebirge zwischen Laos und Vietnam.",
+        "Das Himalaya-Gebirge zwischen Nepal und Bhutan.",
+        "Die Kardamomberge, zwischen Thailand und Kambodscha.",
+        "Das Atlas-Gebirge zwischen Marokko und Algerien."
+      ],
+      "explanation": "Die Saola lebt in den Wäldern der Annamiten, einer Bergregion, die Laos und Vietnam teilen.",
+      "didYouKnow": "Die Saola hat zwei parallele Hörner, die sowohl bei Männchen als auch bei Weibchen vorhanden sind.",
+      "imageCaption": "Saola"
+    },
+    {
+      "id": "mammals-128",
+      "animal": "Großer Panda",
+      "prompt": "Welche Rolle spielt das Bambusreservat beim Schutz des Großen Pandas?",
+      "options": [
+        "Es schützt seinen Lebensraum und seine Nahrungsressourcen",
+        "Es ersetzt die elterliche Fürsorge",
+        "Sie bringt Pandas bei, Winterschlaf zu halten",
+        "Es verwandelt Zoos in Wälder"
+      ],
+      "explanation": "In Schutzgebieten bleiben Bambuswälder erhalten, die der Panda zum Fressen benötigt.",
+      "didYouKnow": "Der Große Panda verbringt einen Großteil des Tages mit Fressen und Ausruhen.",
+      "imageCaption": "Großer Panda"
+    },
+    {
+      "id": "mammals-129",
+      "animal": "Vaquita",
+      "prompt": "In welchem Teil des Golfs von Kalifornien überlebt der Vaquita?",
+      "options": [
+        "In seinem nördlichen Teil.",
+        "Im südlichen Teil, nahe der Mündung des Golfs.",
+        "Im Golf von Mexiko, vor der Küste von Texas.",
+        "Im Golf von Alaska, vor den Aleuten."
+      ],
+      "explanation": "Der Vaquita ist im nördlichen Golf von Kalifornien, Mexiko, endemisch.",
+      "didYouKnow": "Kiemennetze stellen die größte Bedrohung für diese Art dar.",
+      "imageCaption": "Vaquita"
+    },
+    {
+      "id": "mammals-130",
+      "animal": "Nordatlantischer Glattwal",
+      "prompt": "Von welchen direkten Bedrohungen ist der Nordatlantische Glattwal besonders betroffen?",
+      "options": [
+        "Kollisionen mit Schiffen und Verfangen in Fanggeräten.",
+        "Jagd auf Elfenbein und Vergiftung durch Landköder.",
+        "Treibnetze werden nur in Flüssen verwendet.",
+        "Der Verlust der Mangrovenwälder, in denen es sein Nest baut."
+      ],
+      "explanation": "Zu den größten Gefahren zählen Kollisionen mit Schiffen und Fanggeräten, die sich um den Körper wickeln.",
+      "didYouKnow": "Der Nordatlantische Glattwal ernährt sich, indem er kleine Krebstiere mit seinen Bartenplatten herausfiltert.",
+      "imageCaption": "Nordatlantischer Glattwal"
+    },
+    {
+      "id": "mammals-131",
+      "animal": "Sunda Schuppentier",
+      "prompt": "Welcher menschliche Druck ist für Schuppentiere besonders gravierend?",
+      "options": [
+        "Wilderei wegen ihrer Schuppen und ihres Fleisches.",
+        "Unbeabsichtigte Fänge in pelagischen Schleppnetzen.",
+        "Sie sammeln ihre Pelze, um daraus Kleidung herzustellen.",
+        "Sportliche Jagd auf ihr Geweih."
+      ],
+      "explanation": "Schuppentiere und Schuppentiere sind ein großes Ziel des illegalen Handels mit ihren Schuppen und ihrem Fleisch.",
+      "didYouKnow": "Das Schuppentier ist hauptsächlich nachts aktiv.",
+      "imageCaption": "Sunda Schuppentier"
+    },
+    {
+      "id": "mammals-132",
+      "animal": "Java-Nashorn",
+      "prompt": "Welche Belastungen haben stark zum Rückgang des Java-Nashorns beigetragen?",
+      "options": [
+        "Lebensraumverlust und Wilderei.",
+        "Futterwettbewerb mit See-Elefanten.",
+        "Das Verschwinden der borealen Wälder und das Schmelzen des Meereises.",
+        "Fänge für den Pelzhandel."
+      ],
+      "explanation": "Die geringe Anzahl und der schrumpfende Lebensraum der Java-Nashörner machen sie anfällig für Wilderei und Störungen.",
+      "didYouKnow": "Das Horn des Java-Nashorns besteht wie Haare und Nägel aus Keratin.",
+      "imageCaption": "Java-Nashorn"
+    },
+    {
+      "id": "mammals-133",
+      "animal": "Saiga",
+      "prompt": "Welcher Faktor löste die massive Saiga-Sterblichkeitsepisode im Jahr 2015 aus?",
+      "options": [
+        "Eine bakterielle Infektion, die durch bestimmte Umweltbedingungen begünstigt wird.",
+        "Ein Vulkanausbruch, der die Steppen mit Asche bedeckte.",
+        "Eine Dürre, die alle von den Herden gefressenen Pflanzen vernichtete.",
+        "Eine Viruserkrankung, die nur von Wölfen übertragen wird."
+      ],
+      "explanation": "Im Jahr 2015 verursachte die Infektion mit Pasteurella multocida eine Massensterblichkeit; Die Wetterbedingungen trugen zu der Episode bei.",
+      "didYouKnow": "Saigas gebären oft im Frühjahr, manchmal mit Zwillingen.",
+      "imageCaption": "Saiga-Antilope"
+    },
+    {
+      "id": "mammals-134",
+      "animal": "Afrikanischer Elefant",
+      "prompt": "Warum stellt die Wilderei von Elfenbein eine Gefahr für Elefanten dar?",
+      "options": [
+        "Bei den Stoßzähnen handelt es sich um lebende Schneidezähne, die von Menschenhändlern gesucht werden",
+        "Die Stoßzähne sind Hörner, die jedes Jahr abfallen",
+        "Elfenbein ist ihr Hauptnahrungsmittel",
+        "Ihre Stoßzähne dienen zum Atmen"
+      ],
+      "explanation": "Die Stoßzähne sind nachwachsende Zähne und der Elfenbeinhandel fördert die Wilderei.",
+      "didYouKnow": "Elefanten tauschen im Laufe ihres Lebens mehrmals ihre Backenzähne aus.",
+      "imageCaption": "Afrikanischer Savannenelefant"
+    },
+    {
+      "id": "mammals-135",
+      "animal": "Grauer Wolf",
+      "prompt": "Welche ökologische Rolle können große Raubtiere wie Wölfe spielen?",
+      "options": [
+        "Beeinflussen Sie Beutepopulationen und deren Verhalten",
+        "Produzieren Sie Meeresplankton",
+        "Wiesenblumen bestäuben",
+        "Erstelle die Jahreszeiten"
+      ],
+      "explanation": "Raubtiere können die Häufigkeit und das Verhalten von Beutetieren verändern, was Auswirkungen auf Ökosysteme hat.",
+      "didYouKnow": "Wölfe leben oft in Familienverbänden, deren Mitglieder bei der Aufzucht der Jungen zusammenarbeiten.",
+      "imageCaption": "Grauer Wolf"
+    },
+    {
+      "id": "mammals-136",
+      "animal": "Insektenfressende Fledermaus",
+      "prompt": "Welchen ökologischen Dienst erbringen viele insektenfressende Fledermäuse?",
+      "options": [
+        "Sie fressen viele Insekten",
+        "Mit ihren Bartenplatten düngen sie die Ozeane",
+        "Sie fällen Bäume, um Dämme zu bauen",
+        "Sie bestäuben alle Pflanzen"
+      ],
+      "explanation": "Insektenfressende Fledermäuse fressen große Mengen Insekten und helfen, diese zu regulieren.",
+      "didYouKnow": "Insektenfressende Fledermäuse nutzen häufig die Echoortung, um ihre Beute im Flug zu erkennen.",
+      "imageCaption": "Zwergfledermaus"
+    },
+    {
+      "id": "mammals-137",
+      "animal": "Nektarfressende Fledermaus",
+      "prompt": "Welchen Beitrag leisten nektarfressende Fledermäuse für Ökosysteme?",
+      "options": [
+        "Durch die Bestäubung von Blumen",
+        "Durch das Streuen von Granaten",
+        "Durch die Düngung des Bodens mit Hörnern",
+        "Durch das Filtern von Plankton"
+      ],
+      "explanation": "Wenn sie Blumen besuchen, um Nektar zu trinken, transportieren sie Pollen zwischen den Pflanzen.",
+      "didYouKnow": "Nektarfressende Fledermäuse ruhen oft kopfüber in geschützten Quartieren.",
+      "imageCaption": "Langnasige Fledermaus"
+    },
+    {
+      "id": "mammals-138",
+      "animal": "Fruchtfledermaus",
+      "prompt": "Welche Rolle spielen Flughunde oft?",
+      "options": [
+        "Sie verbreiten Samen",
+        "Sie bauen Dämme",
+        "Sie jagen Wale",
+        "Sie zerschlagen Steine"
+      ],
+      "explanation": "Durch den Verzehr von Früchten und ihre Bewegung verbreiten sie die Samen an neue Standorte.",
+      "didYouKnow": "Viele Flughunde sind bei der Nahrungssuche stark auf ihr Sehen und ihren Geruchssinn angewiesen.",
+      "imageCaption": "Ägyptischer Flughund"
+    },
+    {
+      "id": "mammals-139",
+      "animal": "Afrikanischer Elefant",
+      "prompt": "Wie können Elefanten zur Samenverbreitung beitragen?",
+      "options": [
+        "Indem sie Samen durch ihren Verdauungstrakt transportieren",
+        "Indem man sie nur mit dem Rüssel wirft",
+        "Indem wir sie in ihrer Verteidigung weitertragen",
+        "Indem man sie an die Ohren klebt"
+      ],
+      "explanation": "Verschluckte Samen können weit entfernt von der Mutterpflanze im Kot abgelagert werden.",
+      "didYouKnow": "Elefantenbewegungen können Durchgänge in der Vegetation öffnen.",
+      "imageCaption": "Afrikanischer Savannenelefant"
+    },
+    {
+      "id": "mammals-140",
+      "animal": "Delphin",
+      "prompt": "Wie atmen Delfine?",
+      "options": [
+        "Mit Lungen durch eine Öffnung an der Oberfläche",
+        "Mit Kiemen unter Wasser",
+        "Durch ihre Haut wie Amphibien",
+        "An ihren Flossen"
+      ],
+      "explanation": "Delfine kommen an die Oberfläche, um durch ihr Blasloch Luft zu atmen.",
+      "didYouKnow": "Delfine nutzen auch Pfiffe und Gesten, um miteinander zu kommunizieren.",
+      "imageCaption": "Großer Tümmler"
+    },
+    {
+      "id": "mammals-141",
+      "animal": "Wal",
+      "prompt": "Warum kommen Wale regelmäßig an die Oberfläche?",
+      "options": [
+        "Luft mit der Lunge atmen",
+        "Um ihre Kiemen zu ersetzen",
+        "Eier legen",
+        "Um ihr Blut in der Sonne zu erwärmen"
+      ],
+      "explanation": "Wale sind luftatmende Säugetiere, die an die Oberfläche kommen müssen.",
+      "didYouKnow": "Bartenwale haben Bartenplatten, die kleine Beutetiere im Wasser halten.",
+      "imageCaption": "Blauwal"
+    },
+    {
+      "id": "mammals-142",
+      "animal": "Säugetier",
+      "prompt": "Welches Merkmal zeichnet Säugetiere aus?",
+      "options": [
+        "Weibchen produzieren Milch, um ihre Jungen zu ernähren",
+        "Sie alle legen Eier",
+        "Alle haben als Erwachsene sichtbare Haare",
+        "Alle leben auf dem Trockenen"
+      ],
+      "explanation": "Die Milchproduktion der Milchdrüsen ist ein Schlüsselmerkmal von Säugetieren.",
+      "didYouKnow": "Einige Säugetiere, wie zum Beispiel Wale, haben fast ihr gesamtes sichtbares Fell verloren.",
+      "imageCaption": "Mensch, Beispiel zur Veranschaulichung der Frage nach Säugetieren."
+    },
+    {
+      "id": "mammals-143",
+      "animal": "Säugetier",
+      "prompt": "Welcher Hauttyp bedeckt irgendwann in ihrem Leben den Körper der meisten Säugetiere?",
+      "options": [
+        "Haare",
+        "Federn",
+        "Mineralschuppen",
+        "Eine Muschel"
+      ],
+      "explanation": "Haare sind ein charakteristisches Merkmal von Säugetieren, obwohl sie bei Erwachsenen reduziert sein oder fehlen können.",
+      "didYouKnow": "Säugetierhaare können mit sensorischen Rezeptoren wie Vibrissen verbunden sein.",
+      "imageCaption": "Haushund, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-144",
+      "animal": "Wombats",
+      "prompt": "Welcher Körperteil des Wombats kann den Eingang zu seinem Bau schützen?",
+      "options": [
+        "Seine dicken und verstärkten Hinterhand",
+        "Seine verlängerte und flexible Schnauze",
+        "Seine großen und beweglichen Ohren",
+        "Sein langer und greifbarer Schwanz"
+      ],
+      "explanation": "Die dicke Haut und der Knorpel an der Hinterhand schützen den Wombat, wenn er einen engen Durchgang blockiert.",
+      "didYouKnow": "Am aktivsten ist der Wombat in der Dämmerung und in der Nacht.",
+      "imageCaption": "Gemeiner Wombat"
+    },
+    {
+      "id": "mammals-145",
+      "animal": "Beuteltier",
+      "prompt": "Wie bringen viele Beuteltiere ihre Jungen zur Welt?",
+      "options": [
+        "Nach einer kurzen Schwangerschaft mit einem sehr schlecht entwickelten Baby",
+        "Nach zwei Schwangerschaftsjahren mit einem völlig unabhängigen Kleinen",
+        "Durch das Legen hartschaliger Eier",
+        "Indem wir nur im Wasser gebären"
+      ],
+      "explanation": "Bei vielen Beuteltieren kommen die Jungen sehr unreif zur Welt und entwickeln sich weiter, während sie an einer Zitze saugen, oft in einem Beutel.",
+      "didYouKnow": "Zu den Beuteltieren zählen ganz unterschiedliche Tiere, etwa Kängurus, Koalas, Wombats und Opossums.",
+      "imageCaption": "Rotes Känguru"
+    },
+    {
+      "id": "mammals-146",
+      "animal": "Nacktmulle",
+      "prompt": "Welche soziale Organisation macht den Nacktmull eusozial?",
+      "options": [
+        "Eine Kolonie, in der hauptsächlich ein Weibchen brütet und die anderen Individuen an den Aufgaben teilnehmen.",
+        "Monogame Paare, die die Kolonie verlassen, um jeden Wurf einzeln aufzuziehen.",
+        "Eine temporäre Hierarchie, die sich nach jeder saisonalen Migration ändert.",
+        "Eine Gruppe von Jägern, die von einem Männchen dominiert wird, das alle Erwachsenen alleine ernährt."
+      ],
+      "explanation": "In den Kolonien ist die Fortpflanzung auf ein Weibchen konzentriert, während andere Individuen zur Erhaltung und Verteidigung beitragen.",
+      "didYouKnow": "Der Nacktmull hat große Schneidezähne, mit denen er graben kann, ohne sein Maul mit Schmutz zu füllen.",
+      "imageCaption": "Nacktmulle"
+    },
+    {
+      "id": "mammals-147",
+      "animal": "Fleischfressend",
+      "prompt": "Zu welcher taxonomischen Ordnung gehört der Große Panda, obwohl seine Nahrung hauptsächlich aus Bambus besteht?",
+      "options": [
+        "Zum Orden der Carnivora.",
+        "Zur Ordnung der Nagetiere wie Biber und Eichhörnchen.",
+        "Zur Ordnung der Primaten, wie Affen und Lemuren.",
+        "Zur Ordnung Artiodactyls, wie Hirsche und Rinder."
+      ],
+      "explanation": "Der Große Panda gehört zur Ordnung der Fleischfresser, obwohl seine Ernährung hauptsächlich aus Bambus besteht.",
+      "didYouKnow": "Der Große Panda ist eine Bärenart, die in den Bergwäldern Chinas heimisch ist.",
+      "imageCaption": "Großer Panda, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-148",
+      "animal": "Wal",
+      "prompt": "Zu welcher Gruppe gehören Wale, Delfine und Schweinswale?",
+      "options": [
+        "Wale",
+        "Flossenfüßer",
+        "Die Sirenen",
+        "Huftiere"
+      ],
+      "explanation": "Wale, Delfine und Schweinswale gehören zur Ordnung der Wale.",
+      "didYouKnow": "Wale stammen von Vorfahren von Landsäugetieren ab.",
+      "imageCaption": "Großer Tümmler, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-149",
+      "animal": "Flossenfüßer",
+      "prompt": "Welche Tiergruppe bildet die Gruppe der Flossenfüßer?",
+      "options": [
+        "Robben, Seelöwen und Walrosse.",
+        "Wale, Delfine und Schweinswale.",
+        "Otter, Dachse und Stinktiere.",
+        "Seekühe, Seekühe und See-Elefanten."
+      ],
+      "explanation": "Zu den Flossenfüßern zählen echte Robben, Seelöwen und Walrosse.",
+      "didYouKnow": "Bei Flossenfüßern tragen die vorderen und hinteren Flossen je nach Gruppe unterschiedlich zum Vortrieb bei.",
+      "imageCaption": "Walross, ein Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-150",
+      "animal": "Sirenisch",
+      "prompt": "Welche Familien aktueller Tiere gehören zur Ordnung der Sirenen?",
+      "options": [
+        "Seekühe und Dugongs.",
+        "Robben und Seelöwen.",
+        "Wale und Delfine.",
+        "Otter und Biber."
+      ],
+      "explanation": "Zu den erhaltenen Sirenen gehören Seekühe und Dugongs.",
+      "didYouKnow": "Diese Wassersäugetiere sind Pflanzenfresser.",
+      "imageCaption": "Karibische Seekuh, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-151",
+      "animal": "Primaten",
+      "prompt": "Welches Merkmal ist bei Primaten gemeinsam?",
+      "options": [
+        "Hände, die mit beweglichen Fingern greifen können",
+        "Filtern von Barten",
+        "Gespaltene Hufe",
+        "Ein ventraler Beutel bei allen Arten"
+      ],
+      "explanation": "Viele Primaten haben Greifhände, die zum Manipulieren oder Klettern geeignet sind.",
+      "didYouKnow": "Zu den Primaten zählen Lemuren, Affen und Menschenaffen.",
+      "imageCaption": "Gemeiner Schimpanse, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-152",
+      "animal": "Huftier",
+      "prompt": "Was sind Hufhufe?",
+      "options": [
+        "Modifizierte Nägel, die die Fingerspitzen bedecken",
+        "Zu verschobenen Zähnen an den Füßen",
+        "Zu Keratinschuppen auf der Rückseite",
+        "Mit hohlen Beinknochen"
+      ],
+      "explanation": "Ein Huf ist eine keratinisierte Struktur, die das Ende eines Fingers oder mehrerer Finger bedeckt.",
+      "didYouKnow": "Zu den Huftieren zählen Säugetiere mit sehr unterschiedlichen Lebensstilen.",
+      "imageCaption": "Hauspferd, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-153",
+      "animal": "Meeressäugetier",
+      "prompt": "Warum müssen Meeressäuger Körperwärme speichern?",
+      "options": [
+        "Wasser leitet Wärme effizienter als Luft",
+        "Wasser enthält keinen Sauerstoff",
+        "Ihr Blut zirkuliert nur im Schwanz",
+        "Ihre Haut ist stets fettfrei"
+      ],
+      "explanation": "Wärme geht im Wasser schnell verloren; Fett und andere Anpassungen helfen bei der Isolierung.",
+      "didYouKnow": "Zu den Meeressäugetieren zählen Wale, Flossenfüßer und Sirenen.",
+      "imageCaption": "Buckelwal, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-154",
+      "animal": "Delphin",
+      "prompt": "Wie werden Delfinbabys von ihren Müttern gefüttert?",
+      "options": [
+        "Sie säugen die Milch",
+        "Sie filtern Plankton mit Kiemen",
+        "Sie fressen Blätter, die von Erwachsenen gekaut werden",
+        "Sie nehmen Nährstoffe über die Haut auf"
+      ],
+      "explanation": "Weibchen stillen ihre Jungen mit energiereicher Milch.",
+      "didYouKnow": "Mütter können ihre Babys begleiten, wenn sie zum Atmen an die Oberfläche schwimmen.",
+      "imageCaption": "Großer Tümmler"
+    },
+    {
+      "id": "mammals-155",
+      "animal": "Delphin",
+      "prompt": "Wie hilft der unihemisphärische Schlaf manchen Delfinen beim Atmen im Ruhezustand?",
+      "options": [
+        "Eine Gehirnhälfte bleibt ausreichend aktiv, während die andere ruht.",
+        "Die beiden Hemisphären schlafen gleichzeitig ein, da ein Reflex die Öffnung öffnet.",
+        "Mit jedem Atemzug wechselt das Gehirn vollständig zwischen Schlaf und Wachheit.",
+        "Der Delfin schläft unter Wasser tief und erwacht erst wieder, wenn er aufwacht."
+      ],
+      "explanation": "Diese Form des Schlafes ermöglicht es dem Delfin, teilweise wachsam zu bleiben und nach Luft zu schnappen.",
+      "didYouKnow": "Experimente haben gezeigt, dass Große Tümmler mithilfe eines Spiegels Markierungen auf ihrem Körper untersuchen können.",
+      "imageCaption": "Großer Tümmler"
+    },
+    {
+      "id": "mammals-156",
+      "animal": "Säugetier",
+      "prompt": "Wie halten Säugetiere normalerweise eine stabile Körpertemperatur aufrecht?",
+      "options": [
+        "Durch ihre Stoffwechsel- und Wärmeregulierungsmechanismen",
+        "Indem es nur Wärme vom Boden aufnimmt",
+        "Je nach Temperatur ändert sich die Farbe",
+        "Indem sie ihre Blutzirkulation stoppen"
+      ],
+      "explanation": "Säugetiere sind Endothermen und nutzen physiologische und Verhaltensmechanismen, um ihre Temperatur zu regulieren.",
+      "didYouKnow": "Säugetiere haben im Allgemeinen ein Herz mit vier Kammern.",
+      "imageCaption": "Eisbär, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-157",
+      "animal": "Schnabeltier",
+      "prompt": "Was passiert mit den Schwimmhäuten an den Vorderbeinen des Schnabeltiers, wenn es läuft?",
+      "options": [
+        "Die Schwimmhäute klappen beim Gehen nach hinten, sodass die Krallen frei liegen.",
+        "Es lässt sich nach vorne klappen und verdeckt die Krallen.",
+        "Es spannt sich stärker an, um das Gewicht auf dem Boden zu verteilen.",
+        "Es umschließt die Hinterbeine, um das Gehen zu stabilisieren."
+      ],
+      "explanation": "Das Gurtband ist zum Schwimmen nützlich; Auf dem Boden lässt es sich zusammenklappen, sodass die Krallen zum Graben verfügbar bleiben.",
+      "didYouKnow": "Das männliche Schnabeltier hat an jedem Hinterbein einen giftigen Stachel.",
+      "imageCaption": "Schnabeltier"
+    },
+    {
+      "id": "mammals-158",
+      "animal": "Säugetier",
+      "prompt": "Welchen Zweck hat das Zwerchfell bei vielen Säugetieren?",
+      "options": [
+        "An der Belüftung der Lunge teilnehmen",
+        "Zur Zelluloseverdauung im Pansen",
+        "Zur Erzeugung von Ultraschalltönen",
+        "Um die Milch zirkulieren zu lassen"
+      ],
+      "explanation": "Das Zwerchfell ist ein Muskel, der an den Atembewegungen beteiligt ist.",
+      "didYouKnow": "Die Lunge der meisten Säugetiere besteht aus kleinen Gasaustauscheinheiten, den sogenannten Alveolen.",
+      "imageCaption": "Haushund, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-159",
+      "animal": "Säugetier",
+      "prompt": "Wie trägt der Geruch bei vielen Säugetieren zur Kommunikation bei?",
+      "options": [
+        "Gerüche können Anwesenheit, Territorium oder Fortpflanzungszustand signalisieren",
+        "Gerüche ersetzen immer das Sehen",
+        "Gerüche dienen lediglich der Abkühlung des Körpers",
+        "Gerüche werden von Knochen erzeugt"
+      ],
+      "explanation": "Geruchsstoffe können Informationen zwischen Menschen übertragen.",
+      "didYouKnow": "Bei Säugetieren sind die drei Gehörknöchelchen des Mittelohrs Hammer, Amboss und Steigbügel.",
+      "imageCaption": "Grauer Wolf, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-160",
+      "animal": "Säugetier",
+      "prompt": "Was bedeutet der Begriff „Winterschlaf“?",
+      "options": [
+        "Ein längerer Zustand reduzierter Aktivität und Stoffwechsel",
+        "Eine jährliche Wanderung in Richtung der Pole",
+        "Ein paar Stunden normaler Schlaf",
+        "Ein Zeitraum, in dem das Tier nicht mehr atmet"
+      ],
+      "explanation": "Der Winterschlaf führt zu einem starken Abfall des Energieverbrauchs und der Körpertemperatur.",
+      "didYouKnow": "Säugetiere leben in den unterschiedlichsten Umgebungen, von Wüsten bis hin zu Polarmeeren.",
+      "imageCaption": "Alpenmurmeltier, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-161",
+      "animal": "Säugetier",
+      "prompt": "Warum wandern manche Säugetiere saisonal?",
+      "options": [
+        "Um Nahrungsressourcen oder günstige Bedingungen zu verfolgen",
+        "Um ein Wachstum zu vermeiden",
+        "Um ihr Skelett zu ersetzen",
+        "Um die Fortpflanzung zu verhindern"
+      ],
+      "explanation": "Migration kann es ermöglichen, Nahrung, Brutstätten oder klimatische Bedingungen zu verfolgen.",
+      "didYouKnow": "Säugetiere bewohnen terrestrische, aquatische und im Falle von Fledermäusen auch Luftlebensräume.",
+      "imageCaption": "Karibu, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-162",
+      "animal": "Säugetier",
+      "prompt": "Wie kann ein nachtaktives Säugetier ein sehr leises Geräusch wahrnehmen?",
+      "options": [
+        "Dank des empfindlichen Gehörs und der beweglichen Ohren einiger Arten",
+        "Nur mit seinen Vibrissen",
+        "Durch die Messung des Sternenlichts",
+        "Bei den Barten"
+      ],
+      "explanation": "Ein feines Gehör ermöglicht es bestimmten Säugetieren, Beute oder Gefahren im Dunkeln zu lokalisieren.",
+      "didYouKnow": "Bei Säugetieren besteht der Unterkiefer auf jeder Seite aus einem einzigen Knochen.",
+      "imageCaption": "Zwergfledermaus, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-163",
+      "animal": "Säugetier",
+      "prompt": "Was ist ein Beispiel für elterliche Fürsorge bei vielen Säugetieren?",
+      "options": [
+        "Stillen und schützen Sie Ihre Kleinen",
+        "Lassen Sie die Kleinen immer bei der Geburt im Stich",
+        "Mit Federn ein Nest bauen",
+        "Bruteier fürs Leben"
+      ],
+      "explanation": "Die elterliche Fürsorge bei Säugetieren umfasst häufig Pflege, Schutz und Lernen.",
+      "didYouKnow": "Das Gebiss vieler Säugetiere umfasst Schneidezähne, Eckzähne, Prämolaren und Molaren.",
+      "imageCaption": "Afrikanischer Elefant, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-164",
+      "animal": "Säugetier",
+      "prompt": "Was ist eine mögliche Auswirkung der Lebensraumfragmentierung?",
+      "options": [
+        "Es isoliert Populationen und schränkt ihre Bewegungen ein",
+        "Es erhöht immer die genetische Vielfalt",
+        "Es macht Straßen für Tiere unsichtbar",
+        "Es eliminiert invasive Arten"
+      ],
+      "explanation": "Die Fragmentierung trennt Lebensräume und kann den Austausch zwischen Populationen verringern.",
+      "didYouKnow": "Säugetiere bewohnen Umgebungen, die von Wüsten über tropische Wälder bis hin zu Ozeanen reichen.",
+      "imageCaption": "Großer Panda, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-165",
+      "animal": "Säugetier",
+      "prompt": "Welche Mittel tragen zum Schutz einer wandernden Art bei, die mehrere Länder durchquert?",
+      "options": [
+        "Zusammenarbeit zwischen Ländern zu Lebensräumen und Bedrohungen",
+        "Ein durchgehender Zaun an allen Grenzen",
+        "Die Entfernung seiner Ruhestätten",
+        "Das Verbot wissenschaftlicher Beobachtungen"
+      ],
+      "explanation": "Wandernde Arten sind häufig auf Lebensräume und Schutzmaßnahmen angewiesen, die über mehrere Länder verteilt sind.",
+      "didYouKnow": "Einige Säugetierwanderungen folgen saisonalen Routen zwischen Brut- und Nahrungsgebieten.",
+      "imageCaption": "Buckelwal, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-166",
+      "animal": "Säugetier",
+      "prompt": "Warum tragen Trackingdaten zum Schutz gefährdeter Säugetiere bei?",
+      "options": [
+        "Sie zeigen Bevölkerungstrends und wichtige Gebiete",
+        "Sie ersetzen den Lebensraumschutz vollständig",
+        "Sie dienen der Domestizierung aller Arten",
+        "Sie vermeiden jede Krankheit"
+      ],
+      "explanation": "Die Überwachung liefert Informationen über die Größe der Populationen, ihre Verteilung und die Entwicklung von Bedrohungen.",
+      "didYouKnow": "Genetische Analysen können helfen, Zusammenhänge zwischen Säugetierpopulationen abzuschätzen.",
+      "imageCaption": "Großer Panda, Beispiel zur Veranschaulichung der Frage zu Säugetieren."
+    },
+    {
+      "id": "mammals-167",
+      "animal": "Elch",
+      "prompt": "Welche Eigenschaft hilft Elchen, im Tiefschnee zu laufen?",
+      "options": [
+        "Ihre langen Beine",
+        "Seine Schwimmfüße",
+        "Sein Greifschwanz",
+        "Seine häutigen Flügel"
+      ],
+      "explanation": "Seine langen Beine helfen ihm, Schnee und dichte Vegetation zu überqueren.",
+      "didYouKnow": "Der Elch ist das größte lebende Reh.",
+      "imageCaption": "Elch"
+    },
+    {
+      "id": "mammals-168",
+      "animal": "Borealer Luchs",
+      "prompt": "Welches charakteristische Merkmal endet am Ende des kurzen Schwanzes des Nordluchses?",
+      "options": [
+        "Eine schwarze Schwanzspitze",
+        "Ein weißes, fächerförmiges Büschel",
+        "Ein Ring aus roten Haaren",
+        "Ein langes, völlig weißes Ende"
+      ],
+      "explanation": "Der kurze Schwanz des Nordluchses endet in einer schwarzen Spitze.",
+      "didYouKnow": "Im Winter wird das Fell des Nordluchses im Allgemeinen dicker und heller.",
+      "imageCaption": "Borealer Luchs"
+    },
+    {
+      "id": "mammals-169",
+      "animal": "Rentier",
+      "prompt": "Bei welchen Hirschen haben Weibchen oft ein Geweih?",
+      "options": [
+        "Das Rentier",
+        "Der Rothirsch",
+        "Der Hirsch",
+        "Der Elch"
+      ],
+      "explanation": "Bei Rentieren haben die Weibchen im Gegensatz zu den meisten anderen Hirschen im Allgemeinen ein Geweih.",
+      "didYouKnow": "Rentiere haben einen ausgeprägten Geruchssinn, der ihnen hilft, Nahrung unter dem Schnee zu finden.",
+      "imageCaption": "Rentier"
+    },
+    {
+      "id": "mammals-170",
+      "animal": "Schnabeltier",
+      "prompt": "Welches Signal erkennt das Schnabeltier mit den Elektrorezeptoren in seinem Schnabel?",
+      "options": [
+        "Die schwachen elektrischen Felder, die von Beutetieren erzeugt werden.",
+        "Durch Ströme erzeugte Schwankungen im Erdmagnetfeld.",
+        "Durch Gezeiten verursachte Änderungen des Wasserdrucks.",
+        "Von Wasserpflanzen freigesetzte gelöste chemische Verbindungen."
+      ],
+      "explanation": "Elektrorezeptoren im Schnabel helfen dem Schnabeltier, elektrische Signale von Beutetieren unter Wasser zu erkennen.",
+      "didYouKnow": "Das männliche Schnabeltier hat einen giftigen Stachel an den Hinterbeinen.",
+      "imageCaption": "Schnabeltier"
+    },
+    {
+      "id": "mammals-171",
+      "animal": "Echidna",
+      "prompt": "Nach welcher Nahrung sucht der Ameisenigel am meisten?",
+      "options": [
+        "Ameisen und Termiten",
+        "Bambus und Blätter",
+        "Fisch und Schalentiere",
+        "Samen und Nüsse"
+      ],
+      "explanation": "Der Ameisenigel ernährt sich hauptsächlich von Ameisen und Termiten, die er mit der Zunge aufnimmt.",
+      "didYouKnow": "Der Ameisenigel legt ein Ei, das in einer provisorischen Tasche des Weibchens ausgebrütet wird.",
+      "imageCaption": "Kurzschnabeligel"
+    },
+    {
+      "id": "mammals-172",
+      "animal": "Wombats",
+      "prompt": "Wozu dienen die starken Krallen des Wombats?",
+      "options": [
+        "Um seinen Bau zu graben",
+        "Auf Bäume klettern",
+        "Fische fangen",
+        "Hohe Blätter zerreißen"
+      ],
+      "explanation": "Seine starken Krallen und kräftigen Gliedmaßen bewegen die Erde zum Graben.",
+      "didYouKnow": "Der Wombat ist ein in Australien beheimatetes Beuteltier.",
+      "imageCaption": "Gemeiner Wombat"
+    },
+    {
+      "id": "mammals-173",
+      "animal": "Großer Tümmler",
+      "prompt": "Wo atmet der Delphin, wenn er an die Oberfläche kommt?",
+      "options": [
+        "Durch sein Blasloch",
+        "An seinen Kiemen",
+        "An seinen Flossen",
+        "Durch seine Hautporen"
+      ],
+      "explanation": "Das Blasloch ist mit den Lungen verbunden und öffnet sich kurz an der Oberfläche.",
+      "didYouKnow": "Delfine kommunizieren untereinander durch Pfeifen und andere Geräusche.",
+      "imageCaption": "Großer Tümmler"
+    },
+    {
+      "id": "mammals-174",
+      "animal": "Blauwal",
+      "prompt": "Welche Struktur kommt zum Einsatz, wenn der Blauwal mit seiner Beute Wasser verschlingt?",
+      "options": [
+        "Die dehnbaren ventralen Furchen der Kehle.",
+        "Die Wammen verlängern sich und bilden eine Tasche unter dem Kiefer.",
+        "Die Brustflossen, die sich trennen, um das Maul zu erweitern.",
+        "Die Falten befinden sich auf der Oberseite des Schwanzes."
+      ],
+      "explanation": "Die Bauchfurchen dehnen sich beim Eintauchen aus, dann wird das Wasser durch die Bartenplatten ausgestoßen.",
+      "didYouKnow": "Blauwale senden niederfrequente Rufe aus, die im Ozean große Distanzen zurücklegen können.",
+      "imageCaption": "Blauwal"
+    },
+    {
+      "id": "mammals-175",
+      "animal": "Walross",
+      "prompt": "Welche Hauptrolle spielen Walross-Vibrissen?",
+      "options": [
+        "Zum Aufspüren von Weichtieren auf dem Meeresboden",
+        "Messung der Lufttemperatur",
+        "Plankton filtern",
+        "Greifen Sie das Eis wie Krallen"
+      ],
+      "explanation": "Seine taktilen Vibrissen helfen ihm, Beute in Sedimenten zu erkennen.",
+      "didYouKnow": "Das Walross hat eine dicke Speckschicht unter der Haut, die es vor kaltem Wasser schützt.",
+      "imageCaption": "Walross"
+    },
+    {
+      "id": "mammals-176",
+      "animal": "Koala",
+      "prompt": "Welches Merkmal der Koala-Fußabdrücke überraschte die Forscher besonders?",
+      "options": [
+        "Ihre Hautfalten bilden Muster, die menschlichen Fingerabdrücken ähneln.",
+        "Sie bestehen aus kleinen, separaten Polstern ohne Grate.",
+        "Sie sind identisch mit denen anderer Baumbeuteltiere.",
+        "Sie haben spiralförmig angeordnete Hornschuppen."
+      ],
+      "explanation": "Koala-Abdrücke haben Hautrillen, die mit bloßem Auge menschlichen Abdrücken sehr ähnlich sehen.",
+      "didYouKnow": "Der junge Koala geht von der Muttermilch in eine Substanz namens Brei über, die ihm hilft, Blätter zu verdauen.",
+      "imageCaption": "Koala"
+    },
+    {
+      "id": "mammals-177",
+      "animal": "Rotes Känguru",
+      "prompt": "Wie kann ein weibliches Rotes Riesenkänguru die Entwicklung eines Embryos vorübergehend unterbrechen?",
+      "options": [
+        "Durch Diapause im Blastozystenstadium.",
+        "Indem das Wachstum eines bereits geborenen und gestillten Kindes gestoppt wird.",
+        "Indem der Embryo bis zur nächsten Saison in einer äußeren Hülle aufbewahrt wird.",
+        "Durch Unterbrechen der Schwangerschaft, wenn die Temperatur sinkt, ohne danach erneut zu beginnen."
+      ],
+      "explanation": "Nach der Geburt eines Jungen kann die Entwicklung eines weiteren Embryos im Blastozystenstadium unterbrochen werden.",
+      "didYouKnow": "Ein weibliches Känguru kann Jungtiere unterschiedlichen Alters mit Milch geeigneter Zusammensetzung stillen.",
+      "imageCaption": "Rotes Känguru"
+    },
+    {
+      "id": "mammals-178",
+      "animal": "Gorilla",
+      "prompt": "Was bedeutet der Begriff „Silberrücken“?",
+      "options": [
+        "Ein erwachsener Mann mit silbergrauem Haar auf dem Rücken",
+        "Ein junger Gorilla, der mit hellem Fell geboren wurde",
+        "Eine ältere Frau mit silbernem Fell",
+        "Ein Gorilla einer besonderen Art"
+      ],
+      "explanation": "Die Hinterhaare erwachsener Männchen verfärben sich im Erwachsenenalter silbergrau.",
+      "didYouKnow": "Gorillas fressen hauptsächlich Pflanzen, darunter Blätter, Stängel und Früchte.",
+      "imageCaption": "Westlicher Flachlandgorilla"
+    },
+    {
+      "id": "mammals-179",
+      "animal": "Schimpanse",
+      "prompt": "Wie öffnen Schimpansen bestimmte Nüsse mit Werkzeugen?",
+      "options": [
+        "Sie legen die Nuss auf einen Amboss und schlagen mit einem Hammer darauf",
+        "Sie stechen mit einem Zweig in die Schale und saugen dann den Inhalt heraus",
+        "Sie weichen die Nuss in Wasser ein, um ihre Schale aufzulösen",
+        "Sie reiben es zwischen zwei Blättern, bis es sich öffnet"
+      ],
+      "explanation": "In manchen Gemeinschaften verwenden Schimpansen einen Stein oder ein Stück Holz als Hammer und eine harte Unterlage als Amboss.",
+      "didYouKnow": "Schimpansen leben in Gemeinschaften, die sich in Größe und Zusammensetzung ändern.",
+      "imageCaption": "Gemeiner Schimpanse"
+    },
+    {
+      "id": "mammals-180",
+      "animal": "Wasserschwein",
+      "prompt": "Warum nimmt das Wasserschwein bestimmte weiche Fäkalien wieder auf?",
+      "options": [
+        "Zur Gewinnung von Nährstoffen, die durch Gärung im Hinterdarm entstehen.",
+        "Um Bakterien wieder in seinen Magen einzuführen, wie bei einem Wiederkäuer.",
+        "Zur Beseitigung von Salzansammlungen nach dem Schwimmen im Süßwasser.",
+        "Zum Schärfen Ihrer Schneidezähne durch Reiben an den Fasern."
+      ],
+      "explanation": "Diese Zäkotrophie ermöglicht die Rückgewinnung eines Teils der Nährstoffe, die bei der Fermentation der Pflanzen entstehen.",
+      "didYouKnow": "Das Wasserschwein ist ein ausgezeichneter Schwimmer und kann mehrere Minuten unter Wasser bleiben.",
+      "imageCaption": "Wasserschwein"
+    },
+    {
+      "id": "mammals-181",
+      "animal": "Dreifingerfaultier",
+      "prompt": "Welches Stuhlgangverhalten zeichnet das Dreifingerfaultier häufig aus?",
+      "options": [
+        "In regelmäßigen Abständen geht er zum Stuhlgang auf den Boden",
+        "Beim Gleiten lässt es seinen Kot vom Blätterdach fallen",
+        "Er gräbt eine permanente Latrine in einen Kofferraum",
+        "Er macht seinen Stuhlgang nur in einem Bach"
+      ],
+      "explanation": "Das Dreifingerfaultier lässt sich regelmäßig zu Boden fallen, um seinen Stuhlgang zu verrichten; Die Häufigkeit variiert je nach Person und Zustand.",
+      "didYouKnow": "Im Fell des Dreifingerfaultiers können Algen und kleine Wirbellose leben.",
+      "imageCaption": "Braunkehlfaultier"
+    },
+    {
+      "id": "mammals-182",
+      "animal": "Schuppentier",
+      "prompt": "Wie fängt das Schuppentier Ameisen und Termiten trotz fehlender Zähne?",
+      "options": [
+        "Mit seiner langen, klebrigen Zunge",
+        "Durch das Ansaugen von Insekten durch seine Schuppen",
+        "Durch das Herausfiltern von Insekten mit Barten",
+        "Zerreibt sie mit geilen Platten im Mund"
+      ],
+      "explanation": "Das Schuppentier ragt mit seiner langen, mit klebrigem Speichel bedeckten Zunge in Insektennester.",
+      "didYouKnow": "Einige Schuppentierarten klettern auf Bäume und halten sich mit ihrem Schwanz an Ästen fest.",
+      "imageCaption": "Temmincks Schuppentier"
+    },
+    {
+      "id": "mammals-183",
+      "animal": "Seeotter",
+      "prompt": "Warum schwimmt der Junge des Seeotters leicht an die Oberfläche?",
+      "options": [
+        "Sein sehr dichtes Fell speichert viel Luft",
+        "Seine Knochen sind hohl wie die eines Vogels",
+        "Eine mit Luft aufgeblasene Hauttasche umgibt seinen Bauch",
+        "Seine Flossen enthalten Gaskammern"
+      ],
+      "explanation": "Das sehr dichte Fell des Babys speichert Luft und sorgt für einen hohen Auftrieb, bevor es das Tauchen lernt.",
+      "didYouKnow": "Der Seeotter kann einen Stein als Amboss verwenden, um bestimmte Muscheln zu öffnen.",
+      "imageCaption": "Seeotter"
+    },
+    {
+      "id": "mammals-184",
+      "animal": "Ägyptischer Flughund",
+      "prompt": "Wie kann der Ägyptische Flughund seinen Weg in eine fast dunkle Höhle finden?",
+      "options": [
+        "Sie macht Klickgeräusche mit der Zunge und analysiert die Echos.",
+        "Sie sendet Ultraschall von ihren Flügeln aus und folgt deren Schwingungen.",
+        "Sie nimmt die Infrarotwärme der Höhlenwände wahr.",
+        "Es nutzt ausschließlich die Magnetfelder des Gesteins."
+      ],
+      "explanation": "Rousettus aegyptiacus erzeugt Zungenschnalzen und nutzt deren Echos, um sich im Dunkeln zu bewegen.",
+      "didYouKnow": "Der Nilflughund versammelt sich oft in großen Kolonien in Höhlen.",
+      "imageCaption": "Ägyptischer Flughund"
+    },
+    {
+      "id": "mammals-185",
+      "animal": "Biber",
+      "prompt": "Wie verhindern Biber beim Tauchen oft, dass Wasser in ihre Nasenlöcher eindringt?",
+      "options": [
+        "Es verschließt die Nasenklappen",
+        "Er verstopft seine Nasenlöcher mit Schlamm",
+        "Er atmet ständig durch die Nase aus",
+        "Es bedeckt seine Schnauze mit einer Fellmembran"
+      ],
+      "explanation": "Ventile können die Nasenlöcher des Bibers beim Tauchen verschließen und den Wassereintritt begrenzen.",
+      "didYouKnow": "Die Schneidezähne des Bibers sind aufgrund der eisenhaltigen Pigmente im Zahnschmelz orange.",
+      "imageCaption": "Europäischer Biber"
+    },
+    {
+      "id": "mammals-186",
+      "animal": "Europäischer Igel",
+      "prompt": "Welche Nahrung ist ein wichtiger Bestandteil der Ernährung des Europäischen Igels?",
+      "options": [
+        "Wirbellose Tiere wie Käfer und Regenwürmer",
+        "Nadelbaumsamen und geschälte Nüsse",
+        "In Flüssen gefangene Fische",
+        "Blätter und Triebe grasten an Bäumen"
+      ],
+      "explanation": "Der Europäische Igel ist im weitesten Sinne ein Insektenfresser und frisst viele Wirbellose, insbesondere Käfer und Regenwürmer.",
+      "didYouKnow": "Der Europäische Igel rollt sich bei Bedrohung oft zu einer Kugel zusammen.",
+      "imageCaption": "Europäischer Igel"
+    },
+    {
+      "id": "mammals-187",
+      "animal": "Rotes Eichhörnchen",
+      "prompt": "Wie kann der buschige Schwanz dem Eichhörnchen beim Springen helfen?",
+      "options": [
+        "Es hilft ihm, seinen Körper zu lenken und seinen Sturz zu verlangsamen",
+        "Dadurch kann es sich wie eine Hand an Ästen festklammern",
+        "Es produziert eine klebrige Substanz, die seine Beine befestigt",
+        "Es dient als Ruder zum Schwimmen unter Wasser."
+      ],
+      "explanation": "Der Schwanz trägt zur Balance und Flugbahnanpassung bei; Es kann auch helfen, einen Sturz zu verlangsamen.",
+      "didYouKnow": "Der Schwanz des Eichhörnchens hilft auch dabei, ihm beim Ruhen Schutz zu bieten und Wärme zu speichern.",
+      "imageCaption": "Rotes Eichhörnchen"
+    },
+    {
+      "id": "mammals-188",
+      "animal": "Elefant",
+      "prompt": "Wie tragen die großen Ohren des Elefanten zu seiner Thermoregulation bei?",
+      "options": [
+        "Ihr Netzwerk aus Blutgefäßen trägt zur Wärmeableitung bei",
+        "Sie speichern Wasser und geben es dann durch Verdunstung wieder ab",
+        "Sie bilden im Sommer eine isolierende Fettschicht",
+        "Sie leiten die Luft direkt in die Lunge"
+      ],
+      "explanation": "Das in der Nähe der Ohrenoberfläche zirkulierende Blut kann Wärme verlieren und durch das Flattern der Ohren wird der Austausch mit der Luft gefördert.",
+      "didYouKnow": "Elefanten können mit tiefen Tönen kommunizieren, die weite Strecken zurücklegen.",
+      "imageCaption": "Afrikanischer Savannenelefant"
+    },
+    {
+      "id": "mammals-189",
+      "animal": "Steppenzebra",
+      "prompt": "Wofür können Forscher die Streifenmuster eines Zebras nutzen?",
+      "options": [
+        "Einzelpersonen anhand ihres besonderen Musters unterscheiden",
+        "Um sein genaues Alter mit Sicherheit zu bestimmen",
+        "Wissen Sie, aus welcher Richtung der Wind weht",
+        "Zur Messung Ihrer Körpertemperatur"
+      ],
+      "explanation": "Die Anordnung der Streifen variiert von Individuum zu Individuum und kann zur Erkennung von Zebras in Feldstudien verwendet werden.",
+      "didYouKnow": "Steppenzebras leben oft in sozialen Gruppen bestehend aus einem Männchen und mehreren Weibchen.",
+      "imageCaption": "Steppenzebra"
+    },
+    {
+      "id": "mammals-190",
+      "animal": "Beluga",
+      "prompt": "Welche Besonderheit der Halswirbel des Belugas ermöglicht es, dass sein Hals beweglich bleibt?",
+      "options": [
+        "Sie sind nicht miteinander verschmolzen.",
+        "Sie sind zu einem einzigen Knochen verschmolzen, der im Schädel rotiert.",
+        "Sie werden durch weichen Knorpel ohne knöcherne Wirbel ersetzt.",
+        "Sie sind direkt mit den Kieferknochen verbunden."
+      ],
+      "explanation": "Im Gegensatz zu vielen Walen bleiben die Halswirbel des Belugas relativ beweglich.",
+      "didYouKnow": "Während der saisonalen Häutung verliert der Beluga einen Teil seiner oberflächlichen Hautschicht.",
+      "imageCaption": "Beluga"
+    },
+    {
+      "id": "mammals-191",
+      "animal": "Japanischer Makaken",
+      "prompt": "Wie wird der Dominanzrang bei japanischen Makaken oft weitergegeben?",
+      "options": [
+        "Junge Weibchen erben im Allgemeinen einen Rang, der dem ihrer Mutter nahe kommt.",
+        "Junge Männer erben immer den Rang ihres Vaters.",
+        "Der Rang hängt ausschließlich vom Alter ab, ohne Bezug zur Familie.",
+        "Jedes Individuum erhält nach einer jährlichen Migration einen neuen Rang."
+      ],
+      "explanation": "Dominanzbeziehungen sind häufig in mütterlichen Linien organisiert, und junge Frauen erben den Rang ihrer Mutter.",
+      "didYouKnow": "Japanische Makaken nutzen verschiedene Rufe, um innerhalb der Gruppe zu kommunizieren.",
+      "imageCaption": "Japanischer Makaken"
+    },
+    {
+      "id": "mammals-192",
+      "animal": "Amerikanischer Pika",
+      "prompt": "Was macht der amerikanische Pika im Winter?",
+      "options": [
+        "Er bleibt aktiv und verzehrt die von ihm eingelagerten Pflanzen",
+        "Es wandert jeden Herbst in tropische Wälder",
+        "Bis zum Frühjahr überwintert es in einem tiefen Bau",
+        "Er ernährt sich ausschließlich von Wurzeln, die er unter dem Schnee ausgräbt."
+      ],
+      "explanation": "Der Amerikanische Pika hält keinen Winterschlaf; Es überlebt den Winter, indem es unter dem Schnee aktiv bleibt und im Sommer geerntete Pflanzenvorräte verzehrt.",
+      "didYouKnow": "Der Amerikanische Pika gehört wie Hasen und Kaninchen zur Ordnung der Hasentiere.",
+      "imageCaption": "Amerikanischer Pika"
+    },
+    {
+      "id": "mammals-193",
+      "animal": "Gepard",
+      "prompt": "Welchen Zweck hat der lange Schwanz des Geparden während einer Verfolgungsjagd?",
+      "options": [
+        "Zur Stabilisierung Ihres Körpers bei Kurvenfahrten",
+        "Beute ergreifen",
+        "Um Energie zu speichern",
+        "Bitte geben Sie Ihr genaues Alter an"
+      ],
+      "explanation": "Der Schwanz wirkt wie ein Pendel und hilft dabei, schnell die Richtung zu ändern.",
+      "didYouKnow": "Dunkle Markierungen verlaufen von den Augen des Geparden zu den Seiten der Schnauze.",
+      "imageCaption": "Gepard"
+    },
+    {
+      "id": "mammals-194",
+      "animal": "Elefantenrobbe",
+      "prompt": "Welche physiologischen Reserven unterstützen die langen Tauchgänge des Seeelefanten?",
+      "options": [
+        "Im Blut und in den Muskeln gespeicherter Sauerstoff.",
+        "Luft wird in Taschen unter den Flossen zurückgehalten.",
+        "Sauerstoff wird beim Tauchen direkt über die Haut aufgenommen.",
+        "Luft wird vor dem Eintauchen im Kofferraum gespeichert."
+      ],
+      "explanation": "Der See-Elefant verfügt über große Sauerstoffreserven im Blut und in den Muskeln, insbesondere dank Myoglobin.",
+      "didYouKnow": "Der männliche Seeelefant hat einen Rüssel, der seine Lautäußerungen verstärkt.",
+      "imageCaption": "Südlicher Seeelefant"
+    },
+    {
+      "id": "mammals-195",
+      "animal": "Zwergfledermaus",
+      "prompt": "Welcher Mechanismus ermöglicht es der Zwergfledermaus, ihren Energieverbrauch in kalten Jahreszeiten zu reduzieren?",
+      "options": [
+        "Episoden von Erstarrung, oft in einer Winterunterkunft.",
+        "Ein kontinuierlicher Anstieg der Körpertemperatur, der die Verdauung beschleunigt.",
+        "Eine tägliche Wanderung in wärmere Regionen.",
+        "Eine lange Aktivität ohne Nahrung, ohne Stoffwechselreduzierung."
+      ],
+      "explanation": "Torpor reduziert vorübergehend den Stoffwechsel, wenn Kälte und Insektenmangel die Ressourcen einschränken.",
+      "didYouKnow": "Die Zwergfledermaus nutzt Echoortungsrufe, um Beute im Dunkeln aufzuspüren.",
+      "imageCaption": "Zwergfledermaus"
+    },
+    {
+      "id": "mammals-196",
+      "animal": "Amazonas-Rosadelfin",
+      "prompt": "Welches Skelettmerkmal hilft dem rosa Delfin, seinen Kopf zu drehen?",
+      "options": [
+        "Seine Halswirbel bleiben relativ beweglich",
+        "Sein Schädel dreht sich um ein zusätzliches Gelenk",
+        "Seine vorderen Flossen sind direkt mit dem Becken verbunden",
+        "Seine Rippen sind in zwei bewegliche Reihen unterteilt"
+      ],
+      "explanation": "Die Halswirbel des Rosadelfins sind weniger verwachsen als bei vielen Meeresdelfinen, was ihm eine bessere Kopfbeweglichkeit verleiht.",
+      "didYouKnow": "Der Amazonas-Rosadelfin nutzt die Echoortung, um seine Beute in oft trüben Gewässern zu lokalisieren.",
+      "imageCaption": "Amazonas-Rosadelfin"
+    },
+    {
+      "id": "mammals-197",
+      "animal": "Trampeltier",
+      "prompt": "Welche Struktur schützt die Augen des Trampelkamels vor Sand?",
+      "options": [
+        "Ein durchscheinendes drittes Augenlid",
+        "Eine Hautmembran, die seine Ohren bedeckt",
+        "Wimpern, die sich wie starre Fensterläden schließen",
+        "Eine geile Schuppe wird auf die Pupille gelegt"
+      ],
+      "explanation": "Wie andere Kameliden verfügt das Kamel über eine durchscheinende Nickhaut, die das Auge schützt und befeuchtet und gleichzeitig Licht durchlässt.",
+      "didYouKnow": "Das Trampeltier hat zwei Höcker, in denen es Fett speichert.",
+      "imageCaption": "Trampeltier"
+    },
+    {
+      "id": "mammals-198",
+      "animal": "Großer Panda",
+      "prompt": "Welches Merkmal des Verdauungssystems des Großen Pandas ist angesichts seiner Ernährung überraschend?",
+      "options": [
+        "Es verfügt über einen fleischfressenden Verdauungstrakt, der nicht sehr auf die Verdauung von Zellulose spezialisiert ist.",
+        "Es hat mehrere Mägen, die mit denen von Wiederkäuern vergleichbar sind",
+        "Es verdaut Bambus durch Gärung in einer Tasche in seinem Magen",
+        "In seinen Speicheldrüsen wandelt es Zellulose in Zucker um"
+      ],
+      "explanation": "Obwohl die Ernährung des Großen Pandas hauptsächlich aus Bambus besteht, verfügt er über ein relativ einfaches fleischfressendes Verdauungssystem und bezieht nur einen begrenzten Teil seiner Nährstoffe aus Zellulose.",
+      "didYouKnow": "Bei der Geburt ist das Junge des Großen Pandas winzig, blind und fast haarlos.",
+      "imageCaption": "Großer Panda"
+    },
+    {
+      "id": "mammals-199",
+      "animal": "Vaquita",
+      "prompt": "Welches Größenmerkmal unterscheidet den Vaquita von den heute lebenden Walen?",
+      "options": [
+        "Mit einer Größe von etwa 1,5 Metern als Erwachsener ist er der kleinste lebende Wal.",
+        "Er ist der größte lebende Delfin und erreicht oft eine Länge von mehr als 8 Metern",
+        "Er ist der einzige Wal, dessen Neugeborenes weniger als 20 Zentimeter misst",
+        "Er ist der einzige Schweinswal, der größer als ein Schwertwal ist"
+      ],
+      "explanation": "Der Vaquita ist der kleinste lebende Wal; Erwachsene messen im Allgemeinen etwa 1,5 Meter.",
+      "didYouKnow": "Der Vaquita ist ein Schweinswal und kein Delphin im eigentlichen Sinne.",
+      "imageCaption": "Vaquita"
+    },
+    {
+      "id": "mammals-200",
+      "animal": "Walross",
+      "prompt": "Wie gewinnen Walrosse oft Fleisch aus den Muscheln, die sie fressen?",
+      "options": [
+        "Es saugt Weichgewebe aus der Schale",
+        "Mit seinen Stoßzähnen zertrümmert es die Muscheln systematisch",
+        "Er öffnet die Muscheln, indem er sie gegen das Eis schlägt",
+        "Es filtert Muscheln durch Barten"
+      ],
+      "explanation": "Das Walross kann mit seinem Maul einen starken Sog erzeugen, um Fleisch aus Muscheln und anderen Muscheln zu extrahieren.",
+      "didYouKnow": "Das Walross kann sich in großen Gruppen auf dem Eis oder an Land ausruhen.",
+      "imageCaption": "Walross"
+    }
+  ]
+}

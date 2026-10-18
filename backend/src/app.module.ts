@@ -1,3 +1,6 @@
+import { CareAgendaModule } from './care-agenda/care-agenda.module';
+import { HabitatsModule } from './habitats/habitats.module';
+import { QuizModule } from './quiz/quiz.module';
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { RedisModule } from '@nestjs-modules/ioredis';
@@ -79,6 +82,9 @@ const redisEnabled = process.env.REDIS_ENABLED === 'true';
     EquipmentModule,
     AffiliateModule,
     AnimalsModule,
+    CareAgendaModule,
+    HabitatsModule,
+    QuizModule,
     EntitlementModule,
     SubscriptionModule,
     SpeciesRoutinesModule,

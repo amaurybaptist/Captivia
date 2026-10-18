@@ -1,4 +1,5 @@
 'use client';
+import { matchProfile } from '@/lib/habitat/planner';
 
 import { guidePath } from '@/lib/guides';
 
@@ -652,6 +653,11 @@ export default function AnimalDetailPage({
             description={[sameName(common, latin) ? undefined : common, getSexName(animal.sex)].filter(Boolean).join(' · ')}
             actions={
               <div className="hidden flex-wrap gap-2 lg:flex">
+                {species && matchProfile(species.canonicalName || species.scientificName) ? (
+                  <Link href={`/guide?animal=${encodeURIComponent(animal.id)}`} className={buttonClasses({ variant: 'secondary' })}>
+                    {t('common.designHabitat')}
+                  </Link>
+                ) : null}
                 <Link href={animalCarnetPath(animal.id)} className={buttonClasses({ variant: 'secondary' })}>
                   <FileText size={18} strokeWidth={1.75} aria-hidden="true" />
                   {t('carnetPrint.title')}

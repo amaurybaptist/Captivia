@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "fish-001",
+    "animal": "Requin-baleine",
+    "difficulty": "easy",
+    "prompt": "De quoi se nourrit principalement le requin-baleine ?",
+    "options": [
+      "Plancton filtré dans l’eau",
+      "Algues broutées sur les récifs",
+      "Mollusques extraits du sable",
+      "Grands mammifères marins"
+    ],
+    "answer": 0,
+    "explanation": "Il filtre le plancton et de petits organismes en faisant passer de l’eau dans sa bouche et sur ses branchies.",
+    "didYouKnow": "Sa peau porte de petits denticules dermiques qui réduisent la traînée."
+  },
+  {
+    "id": "fish-002",
+    "animal": "Requin pèlerin",
+    "difficulty": "easy",
+    "prompt": "Quelle ressource le requin pèlerin filtre-t-il en nageant bouche ouverte ?",
+    "options": [
+      "Zooplancton",
+      "Herbiers marins",
+      "Poissons adultes",
+      "Sédiments riches en vers"
+    ],
+    "answer": 0,
+    "explanation": "Ses branchiospines retiennent de minuscules organismes planctoniques tandis que l’eau ressort par les fentes branchiales.",
+    "didYouKnow": "Il peut atteindre une très grande taille, juste après le requin-baleine."
+  },
+  {
+    "id": "fish-003",
+    "animal": "Requin nourrice",
+    "difficulty": "hard",
+    "prompt": "Quel mécanisme permet au requin nourrice de ventiler ses branchies sans nager vers l’avant ?",
+    "options": [
+      "Il pompe l’eau par la bouche puis la fait passer sur les branchies",
+      "Il doit nager vers l’avant pour forcer l’eau à travers les branchies",
+      "Il aspire l’eau par les spiracles et la rejette par la bouche",
+      "Il ventile ses branchies en ouvrant et fermant ses opercules comme un téléostéen"
+    ],
+    "answer": 0,
+    "explanation": "La ventilation buccale fait entrer l’eau par la bouche et la fait circuler sur les branchies, même lorsque le requin reste posé.",
+    "didYouKnow": "Le requin nourrice chasse surtout la nuit des poissons et invertébrés vivant près du fond."
+  },
+  {
+    "id": "fish-004",
+    "animal": "Requin-marteau",
+    "difficulty": "hard",
+    "prompt": "Quels récepteurs de la tête du requin-marteau détectent les faibles champs électriques des proies ?",
+    "options": [
+      "Les ampoules de Lorenzini",
+      "Les neuromastes de la ligne latérale",
+      "Les cellules olfactives des narines",
+      "Les cellules photoréceptrices de la rétine"
+    ],
+    "answer": 0,
+    "explanation": "Les ampoules de Lorenzini sont des électrorécepteurs; leur répartition sur la tête élargie aide le requin à localiser des proies enfouies.",
+    "didYouKnow": "La tête élargie lui donne aussi un large champ de vision vers le bas."
+  },
+  {
+    "id": "fish-005",
+    "animal": "Requin-renard",
+    "difficulty": "medium",
+    "prompt": "Comment le requin-renard utilise-t-il souvent sa longue queue pour chasser ?",
+    "options": [
+      "Il fouette l’eau pour désorienter des poissons en banc",
+      "Il creuse des terriers dans le sable",
+      "Il filtre le plancton en surface",
+      "Il transporte ses œufs jusqu’aux récifs"
+    ],
+    "answer": 0,
+    "explanation": "Le lobe supérieur allongé de sa queue frappe l’eau et peut étourdir des poissons-appâts.",
+    "didYouKnow": "Les embryons de plusieurs espèces se nourrissent d’ovules non fécondés dans l’utérus."
+  },
+  {
+    "id": "fish-006",
+    "animal": "Requin-bouledogue",
+    "difficulty": "hard",
+    "prompt": "Quel ajustement physiologique permet au requin-bouledogue de passer de l’eau salée à l’eau douce ?",
+    "options": [
+      "Il ajuste l’équilibre hydrique et ionique selon la salinité",
+      "Il garde la même concentration d’urée et boit davantage en eau douce",
+      "Il rejette tous ses ions par les reins sans modifier la ventilation branchiale",
+      "Il réduit l’entrée d’eau en fermant les spiracles"
+    ],
+    "answer": 0,
+    "explanation": "Le requin-bouledogue ajuste l’équilibre hydrique et ionique de son organisme lorsque la salinité change.",
+    "didYouKnow": "Comme les autres requins, il remplace continuellement ses dents au cours de sa vie."
+  },
+  {
+    "id": "fish-007",
+    "animal": "Raie manta",
+    "difficulty": "medium",
+    "prompt": "Comment la raie manta collecte-t-elle le plancton ?",
+    "options": [
+      "Ses lobes céphaliques dirigent l’eau vers sa bouche",
+      "Elle le broute avec des dents en forme de bec",
+      "Elle le capture avec un aiguillon caudal",
+      "Elle le ramasse dans des terriers"
+    ],
+    "answer": 0,
+    "explanation": "Les lobes céphaliques canalisent l’eau chargée de plancton vers la bouche et les structures filtrantes.",
+    "didYouKnow": "Les raies manta ne possèdent pas d’aiguillon caudal."
+  },
+  {
+    "id": "fish-008",
+    "animal": "Raie électrique",
+    "difficulty": "hard",
+    "prompt": "Quelles cellules spécialisées produisent la décharge électrique d’une raie torpille ?",
+    "options": [
+      "Des électrocytes organisés dans ses organes électriques",
+      "Des neurones moteurs des nageoires pectorales",
+      "Des cellules sensorielles de la ligne latérale",
+      "Des cellules musculaires isolées activées au hasard"
+    ],
+    "answer": 0,
+    "explanation": "Les électrocytes sont des cellules dérivées de cellules musculaires; leur activation coordonnée produit une décharge.",
+    "didYouKnow": "La raie torpille vit souvent posée ou enfouie sur le fond marin."
+  },
+  {
+    "id": "fish-009",
+    "animal": "Raie pastenague",
+    "difficulty": "easy",
+    "prompt": "À quoi sert principalement l’aiguillon de la pastenague ?",
+    "options": [
+      "À se défendre contre une menace",
+      "À filtrer le plancton",
+      "À attirer un partenaire avec de la lumière",
+      "À creuser un terrier profond"
+    ],
+    "answer": 0,
+    "explanation": "L’aiguillon caudal est une défense, souvent utilisée si la raie est piétinée ou coincée.",
+    "didYouKnow": "La raie cherche généralement à fuir lorsqu’elle en a la possibilité."
+  },
+  {
+    "id": "fish-010",
+    "animal": "Poisson-scie",
+    "difficulty": "easy",
+    "prompt": "À quel groupe appartient le poisson-scie malgré son rostre denté ?",
+    "options": [
+      "Aux raies cartilagineuses",
+      "Aux poissons osseux de récif",
+      "Aux mammifères marins",
+      "Aux esturgeons d’eau douce"
+    ],
+    "answer": 0,
+    "explanation": "Le poisson-scie est une raie : ses fentes branchiales se trouvent sous son corps aplati.",
+    "didYouKnow": "Les poissons-scies sont des raies dont les fentes branchiales se trouvent sur la face ventrale."
+  },
+  {
+    "id": "fish-011",
+    "animal": "Chimère",
+    "difficulty": "easy",
+    "prompt": "De quel matériau est principalement fait le squelette d’une chimère ?",
+    "options": [
+      "De cartilage",
+      "De bois calcifié",
+      "De chitine",
+      "De plaques entièrement osseuses"
+    ],
+    "answer": 0,
+    "explanation": "Les chimères font partie des poissons cartilagineux, comme les requins et les raies.",
+    "didYouKnow": "Beaucoup vivent en profondeur et pondent des capsules d’œufs."
+  },
+  {
+    "id": "fish-012",
+    "animal": "Esturgeon",
+    "difficulty": "easy",
+    "prompt": "Quelle particularité du squelette des esturgeons est remarquable ?",
+    "options": [
+      "Il reste largement cartilagineux",
+      "Il est constitué de chitine",
+      "Il comprend des côtes externes visibles",
+      "Il est formé de tissu végétal minéralisé"
+    ],
+    "answer": 0,
+    "explanation": "Malgré leur appartenance aux poissons osseux, leur squelette est largement cartilagineux et leur corde dorsale persiste.",
+    "didYouKnow": "Les œufs d’esturgeon sont traditionnellement utilisés pour le caviar."
+  },
+  {
+    "id": "fish-013",
+    "animal": "Anguille européenne",
+    "difficulty": "medium",
+    "prompt": "Où les anguilles européennes adultes migrent-elles pour frayer ?",
+    "options": [
+      "Vers la mer des Sargasses",
+      "Vers la mer Baltique",
+      "Vers le lac Baïkal",
+      "Vers la mer Rouge"
+    ],
+    "answer": 0,
+    "explanation": "Après avoir grandi en eaux continentales, les adultes argentés traversent l’Atlantique pour rejoindre leur zone de reproduction.",
+    "didYouKnow": "Les jeunes anguilles deviennent des civelles transparentes à leur arrivée près des côtes."
+  },
+  {
+    "id": "fish-014",
+    "animal": "Anguille électrique",
+    "difficulty": "hard",
+    "prompt": "Comment l’anguille électrique repère-t-elle un obstacle grâce à l’électrolocalisation active ?",
+    "options": [
+      "Elle émet un faible champ électrique et détecte ses perturbations",
+      "Elle émet des ultrasons et analyse leur écho",
+      "Elle détecte uniquement les champs électriques produits par les proies",
+      "Elle mesure les vibrations de l’eau avec ses narines"
+    ],
+    "answer": 0,
+    "explanation": "Les objets proches perturbent le champ électrique émis par l’anguille; des récepteurs spécialisés détectent ces déformations.",
+    "didYouKnow": "Elle doit remonter à la surface pour respirer de l’air atmosphérique."
+  },
+  {
+    "id": "fish-015",
+    "animal": "Murène",
+    "difficulty": "easy",
+    "prompt": "Comment la murène tire-t-elle une proie vers sa gorge ?",
+    "options": [
+      "Avec une seconde paire de mâchoires pharyngiennes",
+      "Avec une ventouse située sur la queue",
+      "En projetant un jet d’eau",
+      "Avec des barbillons qui s’enroulent autour de la proie"
+    ],
+    "answer": 0,
+    "explanation": "Ses mâchoires pharyngiennes avancent dans la gorge, saisissent la proie et la tirent vers l’œsophage.",
+    "didYouKnow": "Ses narines lui servent surtout à détecter les odeurs, pas à respirer."
+  },
+  {
+    "id": "fish-016",
+    "animal": "Poisson-clown",
+    "difficulty": "easy",
+    "prompt": "Quel parent porte les œufs fécondés chez les poissons-clowns ?",
+    "options": [
+      "Aucun : les œufs sont déposés sur un substrat",
+      "Le mâle dans une poche ventrale",
+      "La femelle dans sa bouche",
+      "Les deux parents dans une poche partagée"
+    ],
+    "answer": 0,
+    "explanation": "Les poissons-clowns pondent sur un substrat près de leur anémone et les parents gardent la ponte.",
+    "didYouKnow": "Dans un groupe, le plus grand individu est généralement la femelle reproductrice."
+  },
+  {
+    "id": "fish-017",
+    "animal": "Hippocampe",
+    "difficulty": "easy",
+    "prompt": "Quel parent porte les embryons dans une poche chez les hippocampes ?",
+    "options": [
+      "Le mâle",
+      "La femelle",
+      "Les deux parents à tour de rôle",
+      "Aucun : les œufs dérivent librement"
+    ],
+    "answer": 0,
+    "explanation": "La femelle transfère ses œufs dans la poche incubatrice du mâle, où ils se développent.",
+    "didYouKnow": "Les hippocampes nagent en position verticale et avancent grâce à leur nageoire dorsale."
+  },
+  {
+    "id": "fish-018",
+    "animal": "Poisson-lion",
+    "difficulty": "easy",
+    "prompt": "À quoi servent les épines dorsales du poisson-lion ?",
+    "options": [
+      "À dissuader les prédateurs grâce à leur venin",
+      "À produire de la lumière pour attirer les proies",
+      "À filtrer le plancton",
+      "À creuser dans les récifs"
+    ],
+    "answer": 0,
+    "explanation": "Les épines venimeuses constituent une défense ; le poisson capture ses proies avec sa bouche.",
+    "didYouKnow": "Les épines dorsales du poisson-lion sont reliées à des glandes à venin."
+  },
+  {
+    "id": "fish-019",
+    "animal": "Poisson-globe",
+    "difficulty": "easy",
+    "prompt": "Comment le poisson-globe augmente-t-il rapidement son volume lorsqu’il est menacé ?",
+    "options": [
+      "Il avale de l’eau",
+      "Il gonfle ses nageoires d’air",
+      "Il libère des bulles depuis ses branchies",
+      "Il déploie des plaques osseuses sous la peau"
+    ],
+    "answer": 0,
+    "explanation": "Il avale de l’eau et distend son corps, ce qui le rend plus difficile à avaler.",
+    "didYouKnow": "La tétrodotoxine, présente chez certaines espèces, peut être dangereuse pour les prédateurs."
+  },
+  {
+    "id": "fish-020",
+    "animal": "Poisson-archer",
+    "difficulty": "easy",
+    "prompt": "Comment le poisson-archer fait-il tomber un insecte situé au-dessus de l’eau ?",
+    "options": [
+      "Il projette un jet d’eau précis",
+      "Il saute et le frappe avec sa queue",
+      "Il l’attire avec une lumière",
+      "Il lance une bulle qui l’emprisonne"
+    ],
+    "answer": 0,
+    "explanation": "Il comprime l’eau dans sa bouche et dirige un jet vers la proie aérienne.",
+    "didYouKnow": "Il vit dans les eaux saumâtres et douces de mangroves et d’estuaires en Asie."
+  },
+  {
+    "id": "fish-021",
+    "animal": "Poisson volant",
+    "difficulty": "medium",
+    "prompt": "Quelles nageoires permettent au poisson volant de planer au-dessus des vagues ?",
+    "options": [
+      "Ses nageoires pectorales élargies",
+      "Ses nageoires dorsales transformées en ailes",
+      "Ses nageoires pelviennes filamenteuses",
+      "Ses branchies déployées"
+    ],
+    "answer": 0,
+    "explanation": "Après une accélération sous l’eau, ses grandes nageoires pectorales lui servent de surfaces portantes.",
+    "didYouKnow": "Il plane brièvement et ne bat pas des ailes comme un oiseau."
+  },
+  {
+    "id": "fish-022",
+    "animal": "Thon rouge",
+    "difficulty": "hard",
+    "prompt": "Quel agencement vasculaire aide le thon rouge à conserver la chaleur produite par ses muscles ?",
+    "options": [
+      "Des réseaux vasculaires à contre-courant récupèrent la chaleur du sang",
+      "Une couche de graisse bloque entièrement les pertes de chaleur",
+      "Le sang circule dans le même sens dans des vaisseaux adjacents",
+      "La vessie natatoire transmet la chaleur aux muscles"
+    ],
+    "answer": 0,
+    "explanation": "Les échangeurs à contre-courant transfèrent une partie de la chaleur du sang veineux vers le sang artériel et limitent sa perte par les branchies.",
+    "didYouKnow": "Le thon rouge effectue de longues migrations océaniques entre zones de nourrissage et de reproduction."
+  },
+  {
+    "id": "fish-023",
+    "animal": "Brochet",
+    "difficulty": "medium",
+    "prompt": "Quelle stratégie de chasse le brochet emploie-t-il fréquemment ?",
+    "options": [
+      "L’embuscade dans la végétation aquatique",
+      "La filtration du plancton en pleine eau",
+      "Le creusement d’un nid dans la vase",
+      "La poursuite de bancs en haute mer"
+    ],
+    "answer": 0,
+    "explanation": "Son corps allongé et son camouflage lui permettent de surgir rapidement depuis une cachette.",
+    "didYouKnow": "Ses dents inclinées vers l’arrière retiennent les proies capturées."
+  },
+  {
+    "id": "fish-024",
+    "animal": "Saumon",
+    "difficulty": "medium",
+    "prompt": "Quel sens aide le saumon à retrouver son cours d’eau natal ?",
+    "options": [
+      "L’olfaction",
+      "La détection des infrasons aériens",
+      "La vision des étoiles uniquement",
+      "Le goût du sel dans ses écailles"
+    ],
+    "answer": 0,
+    "explanation": "Il mémorise des indices chimiques de son cours d’eau natal et les reconnaît au retour.",
+    "didYouKnow": "Les jeunes saumons passent souvent une partie de leur croissance en rivière avant de migrer."
+  },
+  {
+    "id": "fish-025",
+    "animal": "Crapet arlequin",
+    "difficulty": "easy",
+    "prompt": "Quel parent garde souvent le nid et ventile les œufs chez le crapet arlequin ?",
+    "options": [
+      "Le mâle",
+      "La femelle",
+      "Les deux parents uniquement la nuit",
+      "Aucun parent"
+    ],
+    "answer": 0,
+    "explanation": "Le mâle défend le nid et agite ses nageoires pour faire circuler l’eau au-dessus des œufs.",
+    "didYouKnow": "Le nid est généralement une dépression circulaire dans un fond peu profond."
+  },
+  {
+    "id": "fish-026",
+    "animal": "Poisson-chat",
+    "difficulty": "medium",
+    "prompt": "Quels types d’informations les barbillons d’un poisson-chat peuvent-ils détecter en explorant le fond ?",
+    "options": [
+      "Des contacts et des substances chimiques dissoutes",
+      "Les champs magnétiques et les ultrasons",
+      "La température et la lumière ultraviolette uniquement",
+      "Les variations de salinité à grande distance"
+    ],
+    "answer": 0,
+    "explanation": "Les barbillons portent des récepteurs tactiles et gustatifs, utiles pour repérer la nourriture dans une eau trouble.",
+    "didYouKnow": "De nombreuses espèces de poissons-chats n’ont pas les écailles typiques d’autres poissons osseux."
+  },
+  {
+    "id": "fish-027",
+    "animal": "Corydoras",
+    "difficulty": "hard",
+    "prompt": "Comment certains Corydoras complètent-ils les échanges gazeux lorsque l’eau est pauvre en oxygène ?",
+    "options": [
+      "Ils avalent de l’air et absorbent une partie de l’oxygène dans l’intestin",
+      "Ils avalent de l’air et l’oxygène diffuse surtout dans la vessie natatoire",
+      "Ils ventilent les branchies plus rapidement en nageant près de la surface",
+      "Ils absorbent l’oxygène atmosphérique principalement à travers la peau"
+    ],
+    "answer": 0,
+    "explanation": "Certains Corydoras remontent avaler de l’air; une partie de l’oxygène traverse la paroi intestinale, en complément des branchies.",
+    "didYouKnow": "Leurs plaques osseuses protègent le corps sous la peau."
+  },
+  {
+    "id": "fish-028",
+    "animal": "Poisson-perroquet",
+    "difficulty": "medium",
+    "prompt": "Quel est le rôle du bec du poisson-perroquet ?",
+    "options": [
+      "Racler les algues sur les roches et les coraux",
+      "Filtrer le plancton avec des fanons",
+      "Injecter du venin dans les coraux",
+      "Creuser des tunnels dans les roches"
+    ],
+    "answer": 0,
+    "explanation": "Ses dents fusionnées forment un bec adapté au broutage du substrat.",
+    "didYouKnow": "Le matériau corallien broyé contribue au sable de certaines plages."
+  },
+  {
+    "id": "fish-029",
+    "animal": "Gobie et crevette pistolet",
+    "difficulty": "medium",
+    "prompt": "Comment le gobie aide-t-il la crevette presque aveugle ?",
+    "options": [
+      "Il monte la garde et signale le danger par un mouvement de queue",
+      "La crevette repère les prédateurs et le gobie creuse",
+      "Le gobie nourrit la crevette avec des algues",
+      "Ils échangent des signaux lumineux"
+    ],
+    "answer": 0,
+    "explanation": "La crevette entretient le terrier tandis que le gobie surveille l’entrée.",
+    "didYouKnow": "Le contact entre les deux animaux maintient leur coordination."
+  },
+  {
+    "id": "fish-030",
+    "animal": "Poisson-lune",
+    "difficulty": "easy",
+    "prompt": "Pourquoi le poisson-lune se réchauffe-t-il parfois près de la surface après une plongée ?",
+    "options": [
+      "La chaleur solaire réchauffe son corps avant une nouvelle plongée",
+      "La lumière lunaire réchauffe ses branchies",
+      "Il absorbe la chaleur du sable en s’enfouissant",
+      "La fermentation de son alimentation produit de la chaleur"
+    ],
+    "answer": 0,
+    "explanation": "La surface chaude aide à compenser le refroidissement des plongées profondes.",
+    "didYouKnow": "Le poisson-lune est le poisson osseux le plus lourd connu."
+  },
+  {
+    "id": "fish-031",
+    "animal": "Saumon rouge",
+    "difficulty": "medium",
+    "prompt": "Quel changement de couleur accompagne souvent le frai du saumon rouge ?",
+    "options": [
+      "Le corps devient rouge et la tête verdâtre",
+      "Le corps devient argenté et la tête bleue",
+      "Les nageoires deviennent noires sans changement du corps",
+      "Le dos devient blanc et le ventre jaune"
+    ],
+    "answer": 0,
+    "explanation": "Les changements liés à la reproduction rendent la livrée nuptiale très visible.",
+    "didYouKnow": "Les jeunes saumons rouges peuvent grandir dans un lac avant de rejoindre la mer."
+  },
+  {
+    "id": "fish-032",
+    "animal": "Poisson des cavernes",
+    "difficulty": "easy",
+    "prompt": "Quel sens aide les poissons cavernicoles à détecter les mouvements dans l’obscurité ?",
+    "options": [
+      "La ligne latérale",
+      "La vision ultraviolette",
+      "L’ouïe aérienne",
+      "La détection infrarouge"
+    ],
+    "answer": 0,
+    "explanation": "Ses récepteurs détectent les mouvements et vibrations de l’eau autour du poisson.",
+    "didYouKnow": "Les populations de surface de cette espèce ont des yeux fonctionnels et une pigmentation plus marquée."
+  },
+  {
+    "id": "fish-033",
+    "animal": "Poisson-clown",
+    "difficulty": "medium",
+    "prompt": "Quel changement social peut survenir après la disparition de la femelle dominante ?",
+    "options": [
+      "Le mâle reproducteur peut devenir femelle",
+      "La femelle devient mâle puis le groupe se disperse",
+      "Tous les membres deviennent femelles",
+      "Le groupe ne peut pas remplacer la femelle"
+    ],
+    "answer": 0,
+    "explanation": "Chez le poisson-clown, le sexe change selon la hiérarchie du groupe.",
+    "didYouKnow": "Le plus grand individu du groupe est généralement la femelle."
+  },
+  {
+    "id": "fish-034",
+    "animal": "Poisson-perroquet",
+    "difficulty": "medium",
+    "prompt": "Comment le broutage des poissons-perroquets peut-il aider les coraux ?",
+    "options": [
+      "Il enlève les algues qui concurrencent les jeunes coraux",
+      "Il fertilise les algues avec du venin",
+      "Il détruit les récifs pour libérer le sable",
+      "Il repousse les coraux en les recouvrant de mucus"
+    ],
+    "answer": 0,
+    "explanation": "Le pâturage libère des surfaces où les larves coralliennes peuvent s’installer.",
+    "didYouKnow": "Leur bec peut aussi broyer du carbonate de calcium."
+  },
+  {
+    "id": "fish-035",
+    "animal": "Tilapia",
+    "difficulty": "medium",
+    "prompt": "Quel parent incube les œufs dans sa bouche chez de nombreux tilapias ?",
+    "options": [
+      "Un parent, souvent la femelle selon l’espèce",
+      "Le mâle, qui garde les œufs sur une feuille",
+      "Le mâle, qui porte les œufs dans une poche",
+      "Aucun parent, les œufs sont toujours flottants"
+    ],
+    "answer": 0,
+    "explanation": "L’incubation buccale protège les œufs des prédateurs et des perturbations.",
+    "didYouKnow": "Chez les tilapias, les deux parents peuvent participer aux soins selon l’espèce."
+  },
+  {
+    "id": "fish-036",
+    "animal": "Carpe commune",
+    "difficulty": "medium",
+    "prompt": "Comment la carpe trouve-t-elle souvent sa nourriture dans la vase ?",
+    "options": [
+      "Elle fouille le fond à l’aide de ses barbillons sensoriels",
+      "Il filtre l’eau avec ses barbillons",
+      "Il capture des insectes au-dessus de l’eau",
+      "Il chasse à l’aide d’un leurre lumineux"
+    ],
+    "answer": 0,
+    "explanation": "Les barbillons l’aident à repérer nourriture et invertébrés dans les sédiments.",
+    "didYouKnow": "La carpe commune peut remuer le fond en fouillant, ce qui remet des particules en suspension."
+  },
+  {
+    "id": "fish-037",
+    "animal": "Poisson-zèbre",
+    "difficulty": "medium",
+    "prompt": "Pourquoi le poisson-zèbre est-il utilisé pour étudier le développement des vertébrés ?",
+    "options": [
+      "Ses embryons transparents se développent à l’extérieur du corps",
+      "Il produit une coque calcaire autour de son corps",
+      "Il change de sexe pour adopter l’anémone",
+      "Il se couvre d’écailles venimeuses"
+    ],
+    "answer": 0,
+    "explanation": "La transparence permet d’observer le développement des organes en direct.",
+    "didYouKnow": "C’est une espèce d’eau douce originaire d’Asie du Sud."
+  },
+  {
+    "id": "fish-038",
+    "animal": "Poisson combattant",
+    "difficulty": "medium",
+    "prompt": "Comment le mâle du poisson combattant construit-il un nid ?",
+    "options": [
+      "Il assemble des bulles à la surface",
+      "Ils rendent les algues plus compétitives",
+      "Ils empêchent les larves de corail de s’installer",
+      "Ils produisent des toxines contre les coraux"
+    ],
+    "answer": 0,
+    "explanation": "Le mâle crée un nid de bulles et garde les œufs puis les alevins.",
+    "didYouKnow": "Le combattant siamois peut respirer l’air grâce à un organe labyrinthique accessoire."
+  },
+  {
+    "id": "fish-039",
+    "animal": "Gourami",
+    "difficulty": "medium",
+    "prompt": "Quel organe permet au gourami de prendre de l’oxygène dans l’air ?",
+    "options": [
+      "L’organe labyrinthique",
+      "Le père les porte dans une poche ventrale chez toutes les espèces",
+      "Les deux parents les incubent dans leurs branchies",
+      "Aucun parent : les œufs restent sans protection"
+    ],
+    "answer": 0,
+    "explanation": "Cet organe respiratoire accessoire complète l’utilisation des branchies.",
+    "didYouKnow": "L’organe labyrinthique permet aux gouramis d’utiliser l’oxygène de l’air."
+  },
+  {
+    "id": "fish-040",
+    "animal": "Dipneuste africain",
+    "difficulty": "hard",
+    "prompt": "Pendant l’estivation, comment le dipneuste africain limite-t-il la perte d’eau lorsque son habitat s’assèche ?",
+    "options": [
+      "Il s’enfouit, forme un cocon muqueux et réduit son métabolisme",
+      "Il s’enfouit sans cocon et maintient son métabolisme habituel",
+      "Il reste en surface et ralentit sa respiration branchiale",
+      "Il sécrète un cocon mais demeure actif dans l’eau résiduelle"
+    ],
+    "answer": 0,
+    "explanation": "Le dipneuste s’enfouit dans la vase et forme un cocon muqueux; son activité métabolique diminue jusqu’au retour de conditions favorables.",
+    "didYouKnow": "Les dipneustes appartiennent aux poissons à nageoires charnues, comme les cœlacanthes."
+  },
+  {
+    "id": "fish-041",
+    "animal": "Cœlacanthe",
+    "difficulty": "medium",
+    "prompt": "Pourquoi le cœlacanthe est-il décrit comme un poisson à nageoires charnues ?",
+    "options": [
+      "Ses nageoires paires sont soutenues par des lobes musculaires",
+      "Il construit une coquille minérale",
+      "Il se suspend à une branche hors de l’eau",
+      "Il migre dans un terrier marin"
+    ],
+    "answer": 0,
+    "explanation": "Ses nageoires contiennent des structures osseuses et musculaires internes.",
+    "didYouKnow": "Le cœlacanthe est un sarcoptérygien, proche parent éloigné des tétrapodes."
+  },
+  {
+    "id": "fish-042",
+    "animal": "Esturgeon",
+    "difficulty": "easy",
+    "prompt": "Pourquoi les barrages menacent-ils les esturgeons migrateurs ?",
+    "options": [
+      "Ils peuvent bloquer l’accès aux frayères en amont",
+      "Ses nageoires sont soutenues par des plumes",
+      "Ses nageoires sont de simples membranes sans squelette interne",
+      "Il appartient aux reptiles aquatiques"
+    ],
+    "answer": 0,
+    "explanation": "De nombreuses espèces remontent les fleuves pour se reproduire.",
+    "didYouKnow": "Les esturgeons comptent parmi les poissons d’eau douce les plus grands."
+  },
+  {
+    "id": "fish-043",
+    "animal": "Poisson-spatule",
+    "difficulty": "medium",
+    "prompt": "Comment le poisson-spatule américain obtient-il une partie de sa nourriture ?",
+    "options": [
+      "Il filtre le zooplancton en nageant bouche ouverte",
+      "Ils bloquent les courants océaniques",
+      "Ils augmentent l’accès aux frayères",
+      "Ils transforment l’esturgeon en poisson sédentaire"
+    ],
+    "answer": 0,
+    "explanation": "Ses branchiospines retiennent de petits organismes planctoniques.",
+    "didYouKnow": "Le poisson-spatule américain est originaire du bassin du Mississippi."
+  },
+  {
+    "id": "fish-044",
+    "animal": "Poisson-clown",
+    "difficulty": "hard",
+    "prompt": "Comment le poisson-clown évite-t-il généralement de déclencher les cellules urticantes de son anémone hôte ?",
+    "options": [
+      "Il s’acclimate à la composition du mucus de l’anémone",
+      "Il sécrète un mucus totalement imperméable qui empêche tout contact",
+      "Il déclenche à distance les nématocystes avant de se réfugier dans l’anémone",
+      "Il possède une peau épaisse qui résiste à toutes les piqûres"
+    ],
+    "answer": 0,
+    "explanation": "L’acclimatation de son mucus de surface limite la reconnaissance du poisson comme proie par certaines anémones.",
+    "didYouKnow": "Les poissons-clowns vivent en groupes hiérarchisés où la femelle reproductrice est généralement la plus grande."
+  },
+  {
+    "id": "fish-045",
+    "animal": "Requin bleu",
+    "difficulty": "easy",
+    "prompt": "Quel camouflage aide le requin bleu dans l’océan ?",
+    "options": [
+      "Un dos bleu et un ventre clair",
+      "Le mucus lui permet de manger l’anémone",
+      "Il est naturellement insensible à toute toxine",
+      "L’anémone ne possède jamais de cellules urticantes"
+    ],
+    "answer": 0,
+    "explanation": "Le dos se fond dans l’eau sombre vu d’en haut et le ventre dans la surface lumineuse vu d’en bas.",
+    "didYouKnow": "C’est une espèce pélagique qui parcourt de longues distances."
+  },
+  {
+    "id": "fish-046",
+    "animal": "Requin citron",
+    "difficulty": "medium",
+    "prompt": "Pourquoi les mangroves sont-elles importantes pour les jeunes requins citron ?",
+    "options": [
+      "Elles leur offrent des nurseries abritées",
+      "Des nageoires transparentes comme du verre",
+      "Une carapace osseuse intégrale",
+      "Des branchies externes fluorescentes"
+    ],
+    "answer": 0,
+    "explanation": "Les racines fournissent aux juvéniles des cachettes et des ressources alimentaires.",
+    "didYouKnow": "Les requins citron adultes peuvent revenir dans la région où ils sont nés."
+  },
+  {
+    "id": "fish-047",
+    "animal": "Poisson-lune argenté",
+    "difficulty": "medium",
+    "prompt": "À quoi sert le reflet argenté chez de nombreux poissons pélagiques ?",
+    "options": [
+      "À réduire leur contraste dans l’eau",
+      "Un ventre bleu et un dos blanc",
+      "Des rayures noires qui reflètent la lumière",
+      "Une peau transparente sans pigments"
+    ],
+    "answer": 0,
+    "explanation": "La surface réfléchissante les aide à se fondre dans la lumière ambiante.",
+    "didYouKnow": "De nombreux poissons vivant en banc présentent des flancs argentés."
+  },
+  {
+    "id": "fish-048",
+    "animal": "Poisson à quatre yeux",
+    "difficulty": "easy",
+    "prompt": "Comment le poisson à quatre yeux surveille-t-il l’air et l’eau simultanément ?",
+    "options": [
+      "Chaque œil est divisé en deux zones optiques",
+      "Chaque œil voit seulement sous l’eau",
+      "Il possède deux paires d’yeux indépendantes",
+      "La vision aérienne est assurée par ses nageoires"
+    ],
+    "answer": 0,
+    "explanation": "Les zones supérieure et inférieure de chaque œil sont adaptées à la vision dans l’air et sous l’eau.",
+    "didYouKnow": "Le poisson à quatre yeux fréquente les eaux saumâtres des mangroves et estuaires."
+  },
+  {
+    "id": "fish-049",
+    "animal": "Poisson-clown",
+    "difficulty": "medium",
+    "prompt": "Quel bénéfice l’anémone reçoit-elle parfois de son poisson-clown ?",
+    "options": [
+      "Le poisson chasse certains intrus et apporte des nutriments",
+      "Il nettoie l’anémone de son squelette",
+      "Il lui fournit un aiguillon défensif",
+      "Il lui donne de la lumière par bioluminescence"
+    ],
+    "answer": 0,
+    "explanation": "Le poisson défend l’anémone et ses mouvements peuvent améliorer la circulation d’eau.",
+    "didYouKnow": "Les poissons-clowns sont hermaphrodites protandres : le mâle dominant peut devenir femelle."
+  },
+  {
+    "id": "fish-050",
+    "animal": "Poisson-fantôme",
+    "difficulty": "easy",
+    "prompt": "Comment le poisson-fantôme échappe-t-il à la détection ?",
+    "options": [
+      "Il imite les algues flottantes parmi lesquelles il vit",
+      "Sa queue plane au-dessus de l’eau",
+      "Il se camoufle par un mucus transparent",
+      "Il vit toujours dans les eaux douces"
+    ],
+    "answer": 0,
+    "explanation": "Sa silhouette et sa coloration ressemblent aux végétaux à la dérive.",
+    "didYouKnow": "Sa bouche tubulaire aspire de petits crustacés et d’autres proies minuscules."
+  },
+  {
+    "id": "fish-051",
+    "animal": "Poisson-lune austral",
+    "difficulty": "medium",
+    "prompt": "Comment le poisson-lune peut-il faire retirer des parasites de sa peau ?",
+    "options": [
+      "Il se place près de la surface où des oiseaux marins le nettoient",
+      "Il produit un jet d’eau",
+      "Il filtre le plancton avec des fanons",
+      "Il stocke de l’air dans une poche"
+    ],
+    "answer": 0,
+    "explanation": "Des oiseaux marins picorent parfois des parasites externes sur son corps.",
+    "didYouKnow": "Le poisson-lune peut plonger profondément pour se nourrir avant de revenir se réchauffer."
+  },
+  {
+    "id": "fish-052",
+    "animal": "Poisson hachette",
+    "difficulty": "easy",
+    "prompt": "Pourquoi le ventre du poisson hachette est-il argenté ?",
+    "options": [
+      "Il reflète la faible lumière et camoufle sa silhouette vue d’en bas",
+      "Il absorbe l’oxygène par sa peau",
+      "Il aspire le plancton avec des fanons",
+      "Il possède une poche d’air pour flotter"
+    ],
+    "answer": 0,
+    "explanation": "Le reflet réduit le contraste avec la lumière venant de la surface.",
+    "didYouKnow": "Ses yeux dirigés vers le haut détectent les proies au-dessus."
+  },
+  {
+    "id": "fish-053",
+    "animal": "Baudroie abyssale",
+    "difficulty": "hard",
+    "prompt": "Chez certaines baudroies abyssales, que devient le mâle après s’être fixé à une femelle ?",
+    "options": [
+      "Il peut fusionner durablement avec la femelle et partager sa circulation",
+      "Il reste un mâle libre qui garde seul les œufs",
+      "Il s’attache temporairement puis se détache après la ponte",
+      "Il devient femelle avant de s’accoupler avec une seconde femelle"
+    ],
+    "answer": 0,
+    "explanation": "Chez plusieurs baudroies abyssales, le mâle nain s’attache à la femelle et peut fusionner avec elle, assurant l’accès aux partenaires dans un milieu vaste.",
+    "didYouKnow": "Chez plusieurs espèces, la femelle porte un appendice lumineux près de la bouche."
+  },
+  {
+    "id": "fish-054",
+    "animal": "Poisson des glaces antarctique",
+    "difficulty": "hard",
+    "prompt": "Comment les protéines antigel des poissons des glaces limitent-elles les dommages dus au froid ?",
+    "options": [
+      "Elles se fixent aux cristaux et freinent leur croissance",
+      "Elles abaissent le point de congélation en augmentant fortement la salinité du sang",
+      "Elles favorisent la formation de cristaux loin des tissus sensibles",
+      "Elles isolent thermiquement les organes sans agir sur la glace"
+    ],
+    "answer": 0,
+    "explanation": "Ces protéines se lient aux surfaces de petits cristaux et empêchent leur croissance dans les fluides corporels.",
+    "didYouKnow": "Certaines espèces antarctiques ont aussi peu ou pas d’hémoglobine dans leur sang."
+  },
+  {
+    "id": "fish-055",
+    "animal": "Tétra cavernicole",
+    "difficulty": "medium",
+    "prompt": "Quel changement de rythme quotidien a été observé chez des tétras cavernicoles ?",
+    "options": [
+      "Ils dorment moins que les formes vivant en surface",
+      "Ils ne deviennent actifs que durant les nuits de pleine lune",
+      "Ils hibernent chaque hiver dans les grottes",
+      "Ils migrent chaque jour vers la surface"
+    ],
+    "answer": 0,
+    "explanation": "Certaines populations cavernicoles d’Astyanax mexicanus présentent une durée de sommeil réduite par rapport aux populations de surface.",
+    "didYouKnow": "Les formes de grotte et de surface peuvent encore se reproduire entre elles."
+  },
+  {
+    "id": "fish-056",
+    "animal": "Poisson-chat électrique",
+    "difficulty": "medium",
+    "prompt": "À quoi sert la décharge du poisson-chat électrique africain ?",
+    "options": [
+      "À étourdir des proies ou à décourager une menace",
+      "En libérant un venin par les dents",
+      "En produisant un jet d’eau",
+      "En immobilisant sa proie dans du mucus"
+    ],
+    "answer": 0,
+    "explanation": "Un organe électrique spécialisé produit une forte décharge défensive ou de chasse.",
+    "didYouKnow": "Ses barbillons sensoriels explorent le fond et l’aident à localiser la nourriture."
+  },
+  {
+    "id": "fish-057",
+    "animal": "Poisson-éléphant",
+    "difficulty": "hard",
+    "prompt": "Quel principe permet au poisson-éléphant d’utiliser l’électrolocalisation dans une eau trouble ?",
+    "options": [
+      "Il émet un faible champ électrique et détecte ses déformations par des récepteurs cutanés",
+      "Il émet des ultrasons et suit leur écho dans la vase",
+      "Il détecte uniquement le champ électrique des proies",
+      "Il utilise la ligne latérale pour mesurer la lumière réfléchie"
+    ],
+    "answer": 0,
+    "explanation": "Le poisson-éléphant émet de faibles signaux électriques; les objets modifient le champ reçu par ses électrorécepteurs cutanés.",
+    "didYouKnow": "Son museau flexible aide le poisson-éléphant à fouiller le fond."
+  },
+  {
+    "id": "fish-058",
+    "animal": "Poisson-couteau fantôme noir",
+    "difficulty": "hard",
+    "prompt": "Comment le poisson-couteau fantôme noir détecte-t-il un objet grâce à son faible champ électrique ?",
+    "options": [
+      "Des électrorécepteurs cutanés détectent les déformations du champ qu’il émet",
+      "Des cellules olfactives détectent l’électricité dissoute dans l’eau",
+      "Des photorécepteurs mesurent l’ombre projetée par l’objet",
+      "Des otolithes transforment le champ électrique en son"
+    ],
+    "answer": 0,
+    "explanation": "Le poisson émet un champ électrique faible et détecte, grâce à des électrorécepteurs, la façon dont les objets le perturbent.",
+    "didYouKnow": "Sa longue nageoire anale ondulante lui permet de nager vers l’avant comme vers l’arrière."
+  },
+  {
+    "id": "fish-059",
+    "animal": "Poisson-loup",
+    "difficulty": "medium",
+    "prompt": "Comment le poisson-loup mange-t-il des coquillages et des oursins ?",
+    "options": [
+      "Il les broie avec des mâchoires et des dents robustes",
+      "En avalant les coquilles entières",
+      "En filtrant du plancton",
+      "Avec un aiguillon venimeux"
+    ],
+    "answer": 0,
+    "explanation": "Sa dentition est adaptée aux proies benthiques à enveloppe dure.",
+    "didYouKnow": "Plusieurs poissons-loups vivent dans les eaux froides de l’Atlantique Nord."
+  },
+  {
+    "id": "fish-060",
+    "animal": "Poisson à tête de serpent",
+    "difficulty": "hard",
+    "prompt": "Quel organe accessoire permet à certaines têtes de serpent de compléter la respiration branchiale avec de l’air ?",
+    "options": [
+      "Des structures suprabranchiales vascularisées",
+      "Une vessie natatoire reliée aux poumons",
+      "Des spiracles derrière les yeux",
+      "Des sacs aériens reliés aux nageoires pectorales"
+    ],
+    "answer": 0,
+    "explanation": "Chez plusieurs Channa, des structures suprabranchiales vascularisées permettent d’utiliser l’oxygène de l’air atmosphérique.",
+    "didYouKnow": "Certaines espèces de têtes de serpent introduites hors de leur aire d’origine peuvent devenir envahissantes."
+  },
+  {
+    "id": "fish-061",
+    "animal": "Poisson-épine",
+    "difficulty": "easy",
+    "prompt": "Que se passe-t-il lorsque le poisson porc-épic se gonfle ?",
+    "options": [
+      "Ses épines se dressent et le rendent plus difficile à avaler",
+      "Il déploie une voile dorsale pour planer",
+      "Il libère des épines détachables",
+      "Il s’enfouit sans avaler d’eau"
+    ],
+    "answer": 0,
+    "explanation": "L’eau avalée augmente son volume et tend ses épines défensives.",
+    "didYouKnow": "Ses épines ne sont pas reliées à un appareil venimeux."
+  },
+  {
+    "id": "fish-062",
+    "animal": "Poisson-coffre",
+    "difficulty": "medium",
+    "prompt": "Quelle structure protège le corps du poisson-coffre ?",
+    "options": [
+      "Une carapace de plaques osseuses soudées",
+      "Un sac de mucus séché",
+      "Des écailles mobiles renforcées",
+      "Une peau couverte de poils"
+    ],
+    "answer": 0,
+    "explanation": "Les plaques protègent le tronc, tandis que les nageoires restent mobiles.",
+    "didYouKnow": "Certaines espèces de poissons-coffres sécrètent des toxines lorsqu’elles sont stressées."
+  },
+  {
+    "id": "fish-063",
+    "animal": "Poisson à quatre yeux",
+    "difficulty": "easy",
+    "prompt": "Comment le poisson à quatre yeux donne-t-il naissance à ses jeunes ?",
+    "options": [
+      "Il met au monde des jeunes vivants après un développement interne",
+      "Il pond des œufs flottants en grands bancs",
+      "Le mâle porte les embryons dans une poche",
+      "Les œufs éclosent dans un nid de bulles"
+    ],
+    "answer": 0,
+    "explanation": "Les Anableps sont vivipares : la fécondation est interne et les femelles donnent naissance à des jeunes déjà développés.",
+    "didYouKnow": "Chaque femelle possède un tractus reproducteur adapté à un côté du corps du mâle, ce qui rend l’accouplement directionnel."
+  },
+  {
+    "id": "fish-064",
+    "animal": "Poisson-pipe",
+    "difficulty": "easy",
+    "prompt": "Quelle posture aide le poisson-pipe à se dissimuler dans les herbiers ?",
+    "options": [
+      "Il se tient presque vertical, tête vers le haut",
+      "Il s’enfouit dans le sable",
+      "Il se gonfle pour imiter une bulle",
+      "Il nage en banc au large"
+    ],
+    "answer": 0,
+    "explanation": "Son corps fin ressemble aux tiges parmi lesquelles il se déplace.",
+    "didYouKnow": "Les poissons-pipes sont proches parents des hippocampes."
+  },
+  {
+    "id": "fish-065",
+    "animal": "Poisson-fantôme",
+    "difficulty": "medium",
+    "prompt": "Chez le poisson-fantôme, quel parent transporte les œufs pendant leur développement ?",
+    "options": [
+      "La femelle, entre ses nageoires pelviennes élargies",
+      "Le mâle, dans une poche ventrale comme chez l’hippocampe",
+      "Les deux parents, dans leurs branchies",
+      "Aucun : les œufs sont toujours dispersés en pleine eau"
+    ],
+    "answer": 0,
+    "explanation": "Chez Solenostomus paradoxus, la femelle porte les œufs entre ses nageoires pelviennes modifiées.",
+    "didYouKnow": "Le camouflage du poisson-fantôme lui permet de se mêler aux algues flottantes."
+  },
+  {
+    "id": "fish-066",
+    "animal": "Poisson-lime",
+    "difficulty": "easy",
+    "prompt": "Comment le poisson-lime s’ancre-t-il dans une crevasse pour échapper à un prédateur ?",
+    "options": [
+      "Il verrouille sa première épine dorsale",
+      "Il gonfle son ventre pour flotter",
+      "Il s’électrifie pour se fixer au rocher",
+      "Il colle sa bouche au substrat"
+    ],
+    "answer": 0,
+    "explanation": "Une seconde épine bloque la première en position dressée.",
+    "didYouKnow": "La première épine dorsale du poisson-lime peut être verrouillée par une seconde épine."
+  },
+  {
+    "id": "fish-067",
+    "animal": "Poisson-chauve-souris",
+    "difficulty": "medium",
+    "prompt": "Comment le poisson-chauve-souris se déplace-t-il sur le fond ?",
+    "options": [
+      "Il prend appui sur ses nageoires comme sur des pattes",
+      "Il ondule ses nageoires pectorales",
+      "Il plane hors de l’eau",
+      "Il se propulse par une queue fourchue"
+    ],
+    "answer": 0,
+    "explanation": "Ses nageoires pectorales et pelviennes servent à ramper sur le substrat.",
+    "didYouKnow": "Les juvéniles de certaines espèces ressemblent à des feuilles mortes flottantes."
+  },
+  {
+    "id": "fish-068",
+    "animal": "Poisson-crapaud",
+    "difficulty": "hard",
+    "prompt": "Quelle structure sert de résonateur aux appels graves du poisson-crapaud mâle ?",
+    "options": [
+      "La vessie natatoire mise en vibration par des muscles spécialisés",
+      "Les dents pharyngiennes frottées les unes contre les autres",
+      "Les opercules frappés contre les branchies",
+      "Les nageoires pectorales frottées sur le substrat"
+    ],
+    "answer": 0,
+    "explanation": "Des muscles spécialisés font vibrer la vessie natatoire, qui amplifie les sons produits pendant les vocalisations.",
+    "didYouKnow": "Les poissons-crapauds fréquentent souvent les eaux côtières peu profondes."
+  },
+  {
+    "id": "fish-069",
+    "animal": "Poisson-pilote",
+    "difficulty": "medium",
+    "prompt": "Quel avantage le poisson-pilote tire-t-il parfois de sa proximité avec un requin ?",
+    "options": [
+      "Il profite de restes de nourriture et d’une protection relative",
+      "Il est porté dans la poche du requin",
+      "Il filtre le plancton grâce à l’hôte",
+      "Il ne peut vivre qu’en eau douce"
+    ],
+    "answer": 0,
+    "explanation": "Il peut se nourrir de restes ou de parasites tout en nageant près d’un grand hôte.",
+    "didYouKnow": "Le poisson-pilote peut aussi se déplacer et se nourrir sans requin."
+  },
+  {
+    "id": "fish-070",
+    "animal": "Poisson-écureuil",
+    "difficulty": "medium",
+    "prompt": "Pourquoi les grands yeux du poisson-écureuil sont-ils utiles ?",
+    "options": [
+      "Ils captent davantage de lumière lors de ses sorties nocturnes",
+      "Elles aspirent l’air en surface",
+      "Elles détectent les champs électriques",
+      "Elles filtrent les particules alimentaires"
+    ],
+    "answer": 0,
+    "explanation": "Cette adaptation l’aide à repérer des proies lorsque la lumière est faible.",
+    "didYouKnow": "Il se cache souvent dans les crevasses durant la journée."
+  },
+  {
+    "id": "fish-071",
+    "animal": "Poisson-soldat",
+    "difficulty": "medium",
+    "prompt": "Quand le poisson-soldat cherche-t-il souvent sa nourriture ?",
+    "options": [
+      "La nuit",
+      "Il se nourrit uniquement de jour",
+      "Il migre vers les mangroves",
+      "Il stocke des œufs dans sa bouche"
+    ],
+    "answer": 0,
+    "explanation": "Il sort après le coucher du soleil pour chasser de petits crustacés et du zooplancton.",
+    "didYouKnow": "Le poisson-soldat peut produire des sons en faisant vibrer sa vessie natatoire."
+  },
+  {
+    "id": "fish-072",
+    "animal": "Poisson à tête de mouton",
+    "difficulty": "easy",
+    "prompt": "Quel changement reproductif peut survenir chez le labre à tête de mouton ?",
+    "options": [
+      "Une femelle peut devenir mâle",
+      "Le mâle devient femelle à chaque saison",
+      "Les sexes restent toujours séparés",
+      "L’espèce ne change jamais de sexe"
+    ],
+    "answer": 0,
+    "explanation": "Chez cette espèce, certains individus changent de sexe au cours de leur vie.",
+    "didYouKnow": "Les grands mâles défendent souvent des territoires de reproduction."
+  },
+  {
+    "id": "fish-073",
+    "animal": "Napoléon",
+    "difficulty": "medium",
+    "prompt": "De quoi se nourrit principalement le napoléon adulte ?",
+    "options": [
+      "De mollusques et de crustacés à carapace",
+      "De plancton filtré en pleine eau",
+      "D’algues uniquement",
+      "De grands mammifères marins"
+    ],
+    "answer": 0,
+    "explanation": "Le napoléon consomme notamment des mollusques et crustacés; les étoiles couronne d’épines peuvent faire partie de ses proies, mais ne sont pas sa nourriture principale.",
+    "didYouKnow": "Le napoléon est le plus grand labre vivant et sa croissance est lente."
+  },
+  {
+    "id": "fish-074",
+    "animal": "Poisson mandarin",
+    "difficulty": "medium",
+    "prompt": "Quelle défense chimique le poisson mandarin utilise-t-il ?",
+    "options": [
+      "Un mucus cutané qui décourage certains prédateurs",
+      "Il possède un squelette cartilagineux",
+      "Il est venimeux au toucher",
+      "Il vit exclusivement en eau douce"
+    ],
+    "answer": 0,
+    "explanation": "Des substances présentes dans son mucus rendent le poisson peu appétissant.",
+    "didYouKnow": "Le poisson mandarin arbore des couleurs vives produites par des cellules pigmentaires."
+  },
+  {
+    "id": "fish-075",
+    "animal": "Poisson-papillon",
+    "difficulty": "easy",
+    "prompt": "Quel type de nourriture le poisson-papillon picore-t-il souvent dans les crevasses ?",
+    "options": [
+      "Des polypes coralliens et de petits invertébrés",
+      "Des algues broutées sur le récif",
+      "Des œufs pondus sur des plantes",
+      "Des poissons attirés par un jet d’eau"
+    ],
+    "answer": 0,
+    "explanation": "Son museau fin lui permet d’atteindre des proies cachées dans le récif.",
+    "didYouKnow": "Une ocelle près de la queue peut détourner l’attention de son œil réel."
+  },
+  {
+    "id": "fish-076",
+    "animal": "Poisson-papillon à quatre yeux",
+    "difficulty": "easy",
+    "prompt": "À quoi sert la tache en forme d’œil près de la queue chez certains poissons-papillons ?",
+    "options": [
+      "Elle peut détourner l’attaque d’un prédateur de la tête",
+      "Elle indique la profondeur de l’eau",
+      "Elle sert à filtrer les proies",
+      "Elle produit une décharge électrique"
+    ],
+    "answer": 0,
+    "explanation": "Une ocelle brouille l’orientation du poisson et peut attirer l’attaque vers l’arrière.",
+    "didYouKnow": "Une barre sombre traverse souvent l’œil véritable."
+  },
+  {
+    "id": "fish-077",
+    "animal": "Raie léopard",
+    "difficulty": "medium",
+    "prompt": "Quel motif aide à reconnaître la raie léopard ?",
+    "options": [
+      "Des taches sombres sur un dos clair",
+      "Des bandes verticales claires sur un dos sombre",
+      "Une carapace de plaques osseuses",
+      "Une nageoire caudale en forme de faucille"
+    ],
+    "answer": 0,
+    "explanation": "Ses taches lui donnent son nom commun et aident à briser son contour sur le fond.",
+    "didYouKnow": "La raie léopard fréquente les fonds sableux et les baies côtières."
+  },
+  {
+    "id": "fish-078",
+    "animal": "Requin zèbre",
+    "difficulty": "easy",
+    "prompt": "Comment change la livrée du requin zèbre entre le jeune et l’adulte ?",
+    "options": [
+      "Le jeune rayé devient tacheté en grandissant",
+      "Le jeune tacheté devient rayé",
+      "La robe reste identique à tout âge",
+      "Le jeune est argenté puis devient bleu uni"
+    ],
+    "answer": 0,
+    "explanation": "Les juvéniles rayés acquièrent une robe tachetée à l’âge adulte.",
+    "didYouKnow": "Les jeunes portent des bandes contrastées, tandis que les adultes ont des taches."
+  },
+  {
+    "id": "fish-079",
+    "animal": "Requin épaulette",
+    "difficulty": "hard",
+    "prompt": "Comment le requin épaulette peut-il tolérer l’hypoxie dans un récif isolé à marée basse ?",
+    "options": [
+      "Il réduit son activité métabolique et sa consommation d’oxygène",
+      "Il accélère sa nage pour augmenter le débit d’eau sur les branchies",
+      "Il respire de l’air grâce à un organe suprabranchial",
+      "Il ferme ses branchies et remplace durablement les échanges par la peau"
+    ],
+    "answer": 0,
+    "explanation": "Le requin épaulette tolère des épisodes d’hypoxie en diminuant son activité métabolique et en maintenant ses fonctions vitales.",
+    "didYouKnow": "Ses nageoires pectorales et pelviennes lui permettent aussi de progresser sur le récif à marée basse."
+  },
+  {
+    "id": "fish-080",
+    "animal": "Poisson-scie à petites dents",
+    "difficulty": "easy",
+    "prompt": "Pourquoi le rostre du poisson-scie peut-il le rendre vulnérable aux filets ?",
+    "options": [
+      "Ses dents latérales peuvent s’y emmêler",
+      "Son rostre filtre le plancton dans l’eau",
+      "Ses nageoires forment un filet de capture",
+      "Il s’enfouit et abandonne son rostre"
+    ],
+    "answer": 0,
+    "explanation": "L’appendice denté s’accroche facilement aux engins de pêche et peut blesser l’animal.",
+    "didYouKnow": "Le poisson-scie est une raie et possède des fentes branchiales sous le corps."
+  },
+  {
+    "id": "fish-081",
+    "animal": "Requin du Groenland",
+    "difficulty": "hard",
+    "prompt": "Sur quelle partie du requin du Groenland les chercheurs ont-ils mesuré le radiocarbone pour estimer son âge ?",
+    "options": [
+      "Le noyau du cristallin de l’œil",
+      "Les anneaux de croissance des écailles",
+      "Les stries de croissance des nageoires",
+      "Les bandes de croissance des vertèbres"
+    ],
+    "answer": 0,
+    "explanation": "Le radiocarbone du noyau du cristallin a servi à estimer l’âge de requins du Groenland, une espèce à croissance lente.",
+    "didYouKnow": "Le requin du Groenland est l’un des plus grands requins vivant dans les eaux froides de l’Atlantique Nord."
+  },
+  {
+    "id": "fish-082",
+    "animal": "Requin bleu",
+    "difficulty": "medium",
+    "prompt": "Quel trait aide le requin bleu à se fondre dans l’océan ?",
+    "options": [
+      "Son dos bleu et son ventre clair",
+      "Un dos blanc et un ventre bleu",
+      "Des rayures rouges sur tout le corps",
+      "Une peau transparente sans pigments"
+    ],
+    "answer": 0,
+    "explanation": "Le dos sombre se confond avec l’eau profonde vu d’en haut, et le ventre clair avec la surface vu d’en bas.",
+    "didYouKnow": "Le requin bleu parcourt de longues distances en haute mer."
+  },
+  {
+    "id": "fish-083",
+    "animal": "Poisson des glaces",
+    "difficulty": "hard",
+    "prompt": "Comment l’absence d’hémoglobine est-elle compensée chez plusieurs poissons des glaces antarctiques ?",
+    "options": [
+      "L’oxygène reste dissous dans le plasma froid, avec une circulation à débit élevé",
+      "Une hémoglobine transparente remplace l’hémoglobine ordinaire",
+      "Les branchies transforment le dioxyde de carbone en oxygène",
+      "Le poisson utilise des poumons pendant ses plongées"
+    ],
+    "answer": 0,
+    "explanation": "Le froid augmente la solubilité de l’oxygène dans le plasma; le grand volume sanguin et le débit cardiaque élevé soutiennent son transport.",
+    "didYouKnow": "Les protéines antigel présentes chez plusieurs espèces ralentissent la croissance de cristaux dans leurs fluides."
+  },
+  {
+    "id": "fish-084",
+    "animal": "Poisson à vessie natatoire",
+    "difficulty": "easy",
+    "prompt": "Quel est le rôle principal de la vessie natatoire chez beaucoup de poissons osseux ?",
+    "options": [
+      "Ajuster la flottabilité",
+      "Produire une décharge pour étourdir une proie",
+      "Remplacer les branchies lors d’une plongée",
+      "Détecter les odeurs transportées par l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Le gaz contenu dans la vessie aide le poisson à se maintenir à une profondeur donnée avec peu d’effort.",
+    "didYouKnow": "Les requins compensent leur flottabilité avec un grand foie riche en huile."
+  },
+  {
+    "id": "fish-085",
+    "animal": "Poisson à ligne latérale",
+    "difficulty": "easy",
+    "prompt": "Que détecte la ligne latérale d’un poisson ?",
+    "options": [
+      "Les mouvements et vibrations de l’eau",
+      "Les variations de salinité",
+      "Les sons émis par les bateaux",
+      "La lumière ultraviolette uniquement"
+    ],
+    "answer": 0,
+    "explanation": "Ses récepteurs sensoriels perçoivent les variations de pression autour du corps.",
+    "didYouKnow": "Les récepteurs de cette ligne sensorielle sont disposés le long des flancs et de la tête."
+  },
+  {
+    "id": "fish-086",
+    "animal": "Poisson marin",
+    "difficulty": "medium",
+    "prompt": "Que prélèvent les branchies d’un poisson dans l’eau ?",
+    "options": [
+      "L’oxygène dissous",
+      "La température de l’eau",
+      "Les courants de marée",
+      "La quantité de sel dissous"
+    ],
+    "answer": 0,
+    "explanation": "Les branchies transfèrent au sang l’oxygène gazeux dissous dans l’eau.",
+    "didYouKnow": "Les branchies participent aussi à l’élimination du dioxyde de carbone."
+  },
+  {
+    "id": "fish-087",
+    "animal": "Poisson osseux",
+    "difficulty": "medium",
+    "prompt": "Quelle structure recouvre généralement les branchies des poissons osseux ?",
+    "options": [
+      "L’opercule",
+      "La bouche",
+      "La nageoire caudale",
+      "La vessie natatoire"
+    ],
+    "answer": 0,
+    "explanation": "Cette pièce osseuse protège les branchies et participe à la ventilation.",
+    "didYouKnow": "L’opercule protège les branchies et contribue à faire circuler l’eau chez les poissons osseux."
+  },
+  {
+    "id": "fish-088",
+    "animal": "Poisson cartilagineux",
+    "difficulty": "easy",
+    "prompt": "De quoi le squelette des requins et des raies est-il principalement constitué ?",
+    "options": [
+      "De cartilage",
+      "De chitine",
+      "De calcium pur sans cartilage",
+      "De tissus musculaires uniquement"
+    ],
+    "answer": 0,
+    "explanation": "Ces poissons ont un squelette principalement cartilagineux, même si certaines zones sont minéralisées.",
+    "didYouKnow": "Les denticules dermiques donnent souvent à la peau des requins une texture rugueuse."
+  },
+  {
+    "id": "fish-089",
+    "animal": "Poisson à nageoires rayonnées",
+    "difficulty": "easy",
+    "prompt": "Quel groupe comprend la majorité des espèces de poissons actuelles ?",
+    "options": [
+      "Les poissons à nageoires rayonnées",
+      "Les poissons à nageoires lobées",
+      "Les mammifères marins",
+      "Les invertébrés à nageoires"
+    ],
+    "answer": 0,
+    "explanation": "Les Actinopterygii forment le groupe de poissons le plus diversifié.",
+    "didYouKnow": "Les nageoires des actinoptérygiens sont soutenues par des rayons fins."
+  },
+  {
+    "id": "fish-090",
+    "animal": "Poisson à nageoires charnues",
+    "difficulty": "medium",
+    "prompt": "Quel groupe comprend les cœlacanthes et les dipneustes ?",
+    "options": [
+      "Les poissons à nageoires charnues",
+      "Les poissons à nageoires fines",
+      "Les raies à squelette cartilagineux",
+      "Les amphibiens adultes"
+    ],
+    "answer": 0,
+    "explanation": "Les Sarcopterygii possèdent des nageoires paires soutenues par des lobes musculaires.",
+    "didYouKnow": "Les tétrapodes descendent d’ancêtres appartenant à la lignée des poissons à nageoires charnues."
+  },
+  {
+    "id": "fish-091",
+    "animal": "Poisson d’eau douce",
+    "difficulty": "hard",
+    "prompt": "Pourquoi un poisson d’eau douce doit-il excréter une urine abondante et diluée ?",
+    "options": [
+      "L’eau entre par osmose tandis que les ions tendent à diffuser vers l’extérieur",
+      "Le sel entre par osmose et l’eau quitte continuellement le corps",
+      "Les branchies éliminent l’eau tout en retenant l’urée",
+      "Le poisson boit l’eau de mer et doit évacuer l’excès de sodium"
+    ],
+    "answer": 0,
+    "explanation": "L’eau douce est moins concentrée que les fluides corporels: l’eau entre par osmose, alors que le poisson récupère des ions et excrète l’excès d’eau.",
+    "didYouKnow": "Chez de nombreux poissons osseux d’eau douce, la vessie natatoire aide aussi à contrôler la flottabilité."
+  },
+  {
+    "id": "fish-092",
+    "animal": "Poisson marin",
+    "difficulty": "hard",
+    "prompt": "Comment beaucoup de poissons osseux marins compensent-ils la perte d’eau vers un milieu salé ?",
+    "options": [
+      "Ils boivent de l’eau de mer et éliminent les ions excédentaires par les branchies",
+      "Ils absorbent l’eau par la peau et retiennent tous les sels",
+      "Ils boivent peu et excrètent une urine très diluée",
+      "Ils éliminent les sels uniquement par les nageoires"
+    ],
+    "answer": 0,
+    "explanation": "Boire de l’eau de mer compense les pertes; des cellules branchiales excrètent surtout les ions excédentaires.",
+    "didYouKnow": "Les requins marins compensent le sel par une stratégie osmotique différente de celle des poissons osseux."
+  },
+  {
+    "id": "fish-093",
+    "animal": "Poisson côtier",
+    "difficulty": "easy",
+    "prompt": "Que fournit un herbier marin à de nombreuses espèces de poissons ?",
+    "options": [
+      "Un abri, des proies et des zones de croissance",
+      "Un abri uniquement pour les poissons adultes",
+      "Un site de ponte réservé aux requins",
+      "Une zone dépourvue de proies"
+    ],
+    "answer": 0,
+    "explanation": "Les feuilles ralentissent l’eau et hébergent de petits invertébrés qui nourrissent les poissons.",
+    "didYouKnow": "Les herbiers marins stockent aussi du carbone dans leurs sédiments."
+  },
+  {
+    "id": "fish-094",
+    "animal": "Poisson migrateur",
+    "difficulty": "medium",
+    "prompt": "Quel obstacle humain peut interrompre la migration de poissons en rivière ?",
+    "options": [
+      "Un barrage sans passage efficace",
+      "Une passe à poissons",
+      "Un récif artificiel",
+      "Une zone de frai en mer"
+    ],
+    "answer": 0,
+    "explanation": "Les barrages bloquent parfois l’accès aux frayères ou aux habitats d’alimentation.",
+    "didYouKnow": "Des passes à poissons peuvent rétablir une partie de la continuité des rivières."
+  },
+  {
+    "id": "fish-095",
+    "animal": "Poisson anadrome",
+    "difficulty": "medium",
+    "prompt": "Que signifie qu’un poisson est anadrome ?",
+    "options": [
+      "Il grandit surtout en mer et se reproduit en eau douce",
+      "Il grandit en rivière et fraye en mer",
+      "Il ne quitte jamais l’eau douce",
+      "Il vit en mer et fraye sur des plages"
+    ],
+    "answer": 0,
+    "explanation": "Les saumons sont des exemples d’espèces qui migrent de la mer vers les rivières pour frayer.",
+    "didYouKnow": "Le saumon est un exemple bien connu de poisson anadrome."
+  },
+  {
+    "id": "fish-096",
+    "animal": "Poisson catadrome",
+    "difficulty": "medium",
+    "prompt": "Quel est le sens de migration reproductrice d’une anguille catadrome ?",
+    "options": [
+      "Elle grandit en eau douce puis migre vers la mer pour se reproduire",
+      "Elle grandit en mer puis remonte les rivières pour frayer",
+      "Elle reste toute sa vie dans un estuaire",
+      "Elle naît en mer et se reproduit en lac"
+    ],
+    "answer": 0,
+    "explanation": "Les anguilles d’eau douce rejoignent l’océan pour frayer après leur croissance continentale.",
+    "didYouKnow": "Les anguilles européennes grandissent en eau douce puis se reproduisent en mer."
+  },
+  {
+    "id": "fish-097",
+    "animal": "Poisson démersal",
+    "difficulty": "easy",
+    "prompt": "Où vit principalement un poisson démersal ?",
+    "options": [
+      "Près du fond marin",
+      "Dans la canopée des arbres",
+      "En pleine eau près de la surface uniquement",
+      "Dans des terriers creusés sur la berge"
+    ],
+    "answer": 0,
+    "explanation": "Les espèces démersales vivent au-dessus ou au contact du fond tout en pouvant nager librement.",
+    "didYouKnow": "Les poissons démersaux peuvent vivre sur des fonds rocheux, sableux ou vaseux."
+  },
+  {
+    "id": "fish-098",
+    "animal": "Poisson filtreur",
+    "difficulty": "hard",
+    "prompt": "Quelles structures branchiales retiennent les particules alimentaires chez de nombreux poissons filtreurs ?",
+    "options": [
+      "Les branchiospines des arcs branchiaux",
+      "Les électrorécepteurs des nageoires pectorales",
+      "Les dents pharyngiennes de la gorge",
+      "Les barbillons tactiles autour de la bouche"
+    ],
+    "answer": 0,
+    "explanation": "Les branchiospines forment une surface filtrante qui retient de petites proies tandis que l’eau circule à travers les branchies.",
+    "didYouKnow": "Le requin-baleine et le requin pèlerin sont de grands poissons filtreurs."
+  },
+  {
+    "id": "fish-099",
+    "animal": "Poisson plat",
+    "difficulty": "hard",
+    "prompt": "Pendant la métamorphose d’un turbot, quel processus place les deux yeux sur la face supérieure ?",
+    "options": [
+      "Un œil migre à travers la tête au cours de la métamorphose",
+      "Les deux yeux migrent ensemble vers la face dorsale",
+      "Un œil est perdu puis régénéré sur l’autre face",
+      "Le crâne pivote sans déplacement des yeux"
+    ],
+    "answer": 0,
+    "explanation": "Chez les poissons plats, la métamorphose entraîne une migration de l’œil et une réorganisation asymétrique de la tête.",
+    "didYouKnow": "Le côté du turbot tourné vers le fond est souvent plus pâle que sa face supérieure."
+  },
+  {
+    "id": "fish-100",
+    "animal": "Sole commune",
+    "difficulty": "easy",
+    "prompt": "Comment la sole repère-t-elle des proies enfouies dans le sédiment ?",
+    "options": [
+      "Elle utilise ses sens chimiques et ses narines proches du fond",
+      "Elle repère les proies avec l’ouïe aérienne",
+      "Elle aspire le plancton en surface",
+      "Elle détecte des champs électriques par des ampoules"
+    ],
+    "answer": 0,
+    "explanation": "La sole recherche des vers et petits invertébrés sur ou dans le substrat.",
+    "didYouKnow": "La sole repose sur un flanc, les deux yeux tournés vers le haut."
+  },
+  {
+    "id": "fish-101",
+    "animal": "Poisson-licorne",
+    "difficulty": "easy",
+    "prompt": "À quoi correspond la protubérance frontale du poisson-licorne ?",
+    "options": [
+      "À une extension osseuse du crâne",
+      "Une nageoire dorsale transformée en leurre",
+      "Une plaque cornée sur la queue",
+      "Un organe lumineux sous le menton"
+    ],
+    "answer": 0,
+    "explanation": "La « corne » est une protubérance osseuse, dont la taille varie avec l’espèce et l’âge.",
+    "didYouKnow": "Les poissons-licornes appartiennent à la famille des poissons-chirurgiens."
+  },
+  {
+    "id": "fish-102",
+    "animal": "Exocet",
+    "difficulty": "easy",
+    "prompt": "Quelle nageoire est particulièrement développée chez beaucoup de poissons volants ?",
+    "options": [
+      "La nageoire pectorale",
+      "La caudale",
+      "La dorsale",
+      "Les barbillons"
+    ],
+    "answer": 0,
+    "explanation": "Les pectorales élargies forment des surfaces portantes durant le plané.",
+    "didYouKnow": "Les exocets peuvent planer au-dessus de l’eau sans battre des ailes."
+  },
+  {
+    "id": "fish-103",
+    "animal": "Poisson-rasoir",
+    "difficulty": "easy",
+    "prompt": "Comment le poisson-rasoir se camoufle-t-il dans un herbier ?",
+    "options": [
+      "Il nage souvent verticalement, tête vers le bas",
+      "Il nage horizontalement en imitant un poisson plat",
+      "Il s’enfouit dans le sable",
+      "Il forme un disque adhésif"
+    ],
+    "answer": 0,
+    "explanation": "Sa silhouette fine ressemble aux feuilles d’herbes marines parmi lesquelles il se tient.",
+    "didYouKnow": "Le poisson-rasoir vit souvent en groupe et consomme de petits organismes planctoniques."
+  },
+  {
+    "id": "fish-104",
+    "animal": "Poisson-perroquet à bosse",
+    "difficulty": "easy",
+    "prompt": "Quelle matière le poisson-perroquet à bosse produit-il en broutant le récif ?",
+    "options": [
+      "Du sable corallien fin",
+      "Du plancton filtré",
+      "Des coquilles entières",
+      "Du mucus protecteur"
+    ],
+    "answer": 0,
+    "explanation": "Il ingère et broie du matériau calcaire, qu’il rejette sous forme de sédiments.",
+    "didYouKnow": "Le poisson-perroquet à bosse est l’un des plus grands poissons-perroquets."
+  },
+  {
+    "id": "fish-105",
+    "animal": "Poisson-ange empereur",
+    "difficulty": "easy",
+    "prompt": "Comment la robe du poisson-ange empereur évolue-t-elle avec l’âge ?",
+    "options": [
+      "Le motif juvénile en cercles devient rayé chez l’adulte",
+      "Le motif adulte en cercles devient rayé chez le jeune",
+      "Les deux stades ont la même robe",
+      "Le jeune est tacheté puis l’adulte devient entièrement noir"
+    ],
+    "answer": 0,
+    "explanation": "La livrée juvénile est très différente de celle de l’adulte.",
+    "didYouKnow": "Les deux livrées ont autrefois été prises pour deux espèces différentes."
+  },
+  {
+    "id": "fish-106",
+    "animal": "Poisson-chirurgien bleu",
+    "difficulty": "easy",
+    "prompt": "À quoi sert l’épine près de la queue du poisson-chirurgien ?",
+    "options": [
+      "À se défendre",
+      "À attirer les femelles avec des phéromones",
+      "À filtrer le plancton",
+      "À s’accrocher aux algues"
+    ],
+    "answer": 0,
+    "explanation": "Cette épine tranchante peut être dressée contre un adversaire.",
+    "didYouKnow": "Les poissons-chirurgiens se nourrissent souvent d’algues sur les récifs."
+  },
+  {
+    "id": "fish-107",
+    "animal": "Poisson-demoiselle",
+    "difficulty": "easy",
+    "prompt": "Comment certaines demoiselles entretiennent-elles leur nourriture ?",
+    "options": [
+      "Elles cultivent et défendent des parcelles d’algues",
+      "Elles défendent un terrier de crevettes",
+      "Elles filtrent des larves dans l’eau",
+      "Elles gardent les œufs dans leur bouche"
+    ],
+    "answer": 0,
+    "explanation": "Elles chassent les herbivores concurrents de leurs jardins d’algues.",
+    "didYouKnow": "Les jardins d’algues des demoiselles peuvent modifier la communauté du récif."
+  },
+  {
+    "id": "fish-108",
+    "animal": "Poisson nettoyeur",
+    "difficulty": "hard",
+    "prompt": "Quel contraste décrit correctement le régime d’un labre nettoyeur dans une station de nettoyage ?",
+    "options": [
+      "Il prélève surtout des ectoparasites et parfois du mucus, pas des tissus nécrosés",
+      "Il consomme principalement des écailles mortes et des tissus nécrosés",
+      "Il broute les algues des branchies et mange rarement des parasites",
+      "Il se nourrit surtout des œufs pondus sur la peau du poisson client"
+    ],
+    "answer": 0,
+    "explanation": "Les labres nettoyeurs prélèvent surtout des parasites externes et consomment aussi du mucus cutané; ce n’est pas un régime de tissus morts.",
+    "didYouKnow": "Les poissons clients fréquentent des stations de nettoyage régulières sur le récif."
+  },
+  {
+    "id": "fish-109",
+    "animal": "Poisson des glaces antarctique",
+    "difficulty": "hard",
+    "prompt": "Comment certaines espèces de poissons des glaces transportent-elles l’oxygène malgré l’absence d’hémoglobine ?",
+    "options": [
+      "L’oxygène reste dissous dans le plasma froid et circule à débit élevé",
+      "Les globules rouges contiennent une hémoglobine transparente",
+      "Les branchies transforment l’azote dissous en oxygène",
+      "La vessie natatoire libère l’oxygène directement dans les muscles"
+    ],
+    "answer": 0,
+    "explanation": "Sans hémoglobine, l’oxygène est transporté dissous dans le plasma; l’eau froide et des adaptations circulatoires compensent partiellement cette limite.",
+    "didYouKnow": "Le cœur et les vaisseaux des poissons des glaces peuvent être plus volumineux que chez des poissons apparentés."
+  },
+  {
+    "id": "fish-110",
+    "animal": "Poisson-chat marcheur",
+    "difficulty": "hard",
+    "prompt": "Comment les organes suprabranchiaux de Clarias permettent-ils la respiration aérienne ?",
+    "options": [
+      "Des surfaces suprabranchiales vascularisées mettent l’air inspiré en contact avec le sang",
+      "Des chambres suprabranchiales stockent l’air sans échange avec le sang",
+      "Une vessie natatoire fermée diffuse l’air vers les branchies",
+      "Des spiracles aspirent l’air vers les arcs branchiaux"
+    ],
+    "answer": 0,
+    "explanation": "Les organes suprabranchiaux sont des structures respiratoires accessoires vascularisées où l’oxygène de l’air peut diffuser vers le sang.",
+    "didYouKnow": "Il peut se déplacer brièvement sur un sol humide entre des eaux voisines."
+  },
+  {
+    "id": "fish-111",
+    "animal": "Poisson-serpent",
+    "difficulty": "easy",
+    "prompt": "Comment les adultes de la tête de serpent rayée protègent-ils leur progéniture ?",
+    "options": [
+      "Ils gardent les œufs et les alevins dans une zone défendue",
+      "Le mâle incube les œufs dans une poche",
+      "Ils attachent la ponte à leurs nageoires",
+      "Ils abandonnent les œufs dans un nid de bulles"
+    ],
+    "answer": 0,
+    "explanation": "Chez Channa striata, les adultes défendent la ponte et les jeunes alevins contre les prédateurs.",
+    "didYouKnow": "Les têtes de serpent rayées chassent souvent dans des eaux douces peu profondes."
+  },
+  {
+    "id": "fish-112",
+    "animal": "Poisson-chat du Mékong",
+    "difficulty": "easy",
+    "prompt": "Quelle menace affecte le poisson-chat géant du Mékong ?",
+    "options": [
+      "La pêche et les barrages qui perturbent ses migrations",
+      "La pollution lumineuse et le tourisme",
+      "La perte de ses écailles",
+      "L’acidification de l’air"
+    ],
+    "answer": 0,
+    "explanation": "Cette espèce migratrice est touchée à la fois par les prélèvements et la fragmentation du fleuve.",
+    "didYouKnow": "C’est l’un des plus grands poissons d’eau douce connus."
+  },
+  {
+    "id": "fish-113",
+    "animal": "Poisson-chat à tête plate",
+    "difficulty": "easy",
+    "prompt": "Dans quelle zone le poisson-chat à tête plate chasse-t-il principalement ?",
+    "options": [
+      "Près du fond",
+      "Dans la canopée des arbres",
+      "En pleine eau en surface",
+      "Sur des feuilles flottantes"
+    ],
+    "answer": 0,
+    "explanation": "C’est un prédateur benthique qui recherche des poissons et invertébrés sur le substrat.",
+    "didYouKnow": "Sa tête large et aplatie lui donne son nom commun."
+  },
+  {
+    "id": "fish-114",
+    "animal": "Poisson combattant",
+    "difficulty": "medium",
+    "prompt": "Que fait le mâle combattant lorsqu’un œuf tombe du nid de bulles ?",
+    "options": [
+      "Il le récupère dans sa bouche et le replace dans le nid",
+      "Il l’enterre dans le sable du fond",
+      "Il le transporte sur ses nageoires pectorales",
+      "Il abandonne le nid pour construire une nouvelle poche"
+    ],
+    "answer": 0,
+    "explanation": "Le mâle Betta splendens récupère souvent les œufs tombés et les remet dans le nid de bulles.",
+    "didYouKnow": "Le combattant possède un organe labyrinthique qui lui permet de respirer l’air en surface."
+  },
+  {
+    "id": "fish-115",
+    "animal": "Poisson-globe",
+    "difficulty": "easy",
+    "prompt": "Pourquoi certaines espèces de poissons-globes sont-elles dangereuses à consommer ?",
+    "options": [
+      "Certains tissus peuvent contenir de la tétrodotoxine",
+      "Un venin injecté par ses épines",
+      "Un mucus lumineux",
+      "Une décharge électrique"
+    ],
+    "answer": 0,
+    "explanation": "Cette neurotoxine peut provoquer une paralysie grave et sa présence dépend de l’espèce et du tissu.",
+    "didYouKnow": "Chez plusieurs espèces, la toxine est associée à des bactéries ou à l’alimentation."
+  },
+  {
+    "id": "fish-116",
+    "animal": "Poisson-papillon",
+    "difficulty": "easy",
+    "prompt": "Pourquoi une tache en forme d’œil près de la queue peut-elle être utile ?",
+    "options": [
+      "Elle peut détourner une attaque de la tête",
+      "Elle sert à la respiration",
+      "Elle attire un partenaire par bioluminescence",
+      "Elle sert à porter les œufs"
+    ],
+    "answer": 0,
+    "explanation": "Cette ocelle rend moins évidente l’orientation du poisson pour un prédateur.",
+    "didYouKnow": "Une bande sombre près de l’œil véritable peut aussi le masquer."
+  },
+  {
+    "id": "fish-117",
+    "animal": "Requin-lutin",
+    "difficulty": "hard",
+    "prompt": "Comment le requin-lutin saisit-il une proie située à portée de sa bouche ?",
+    "options": [
+      "Il projette rapidement ses mâchoires vers l’avant",
+      "Il détache ses dents pour les lancer sur la proie",
+      "Il ouvre ses spiracles et aspire la proie depuis le fond",
+      "Il produit une décharge électrique avec ses ampoules de Lorenzini"
+    ],
+    "answer": 0,
+    "explanation": "Ses mâchoires protrusibles s’avancent rapidement pour saisir les proies, une adaptation notable chez ce requin des profondeurs.",
+    "didYouKnow": "Sa peau rose est due à des vaisseaux visibles sous une peau peu pigmentée."
+  },
+  {
+    "id": "fish-118",
+    "animal": "Requin grande-gueule",
+    "difficulty": "easy",
+    "prompt": "Comment le requin grande-gueule se nourrit-il ?",
+    "options": [
+      "Il filtre le plancton et les petits organismes",
+      "Il chasse des proies avec ses grandes dents",
+      "Il broute des algues au fond",
+      "Il porte ses œufs sur son dos"
+    ],
+    "answer": 0,
+    "explanation": "Il fait passer l’eau sur ses structures filtrantes et retient de minuscules proies.",
+    "didYouKnow": "Cette espèce n’a été décrite qu’au XXe siècle."
+  },
+  {
+    "id": "fish-119",
+    "animal": "Requin épaulette",
+    "difficulty": "medium",
+    "prompt": "Comment la femelle requin épaulette protège-t-elle ses embryons ?",
+    "options": [
+      "Elle dépose des capsules d’œufs dans des crevasses du récif",
+      "Elle porte les œufs dans une poche ventrale",
+      "Elle incube les embryons dans sa bouche",
+      "Elle les fixe à ses nageoires pectorales"
+    ],
+    "answer": 0,
+    "explanation": "Le requin épaulette est ovipare; ses capsules d’œufs sont déposées dans des refuges du récif.",
+    "didYouKnow": "Le requin épaulette peut progresser sur le récif en s’appuyant sur ses nageoires."
+  },
+  {
+    "id": "fish-120",
+    "animal": "Poisson-vipère",
+    "difficulty": "easy",
+    "prompt": "À quoi servent les longues dents du poisson-vipère ?",
+    "options": [
+      "À retenir les proies capturées",
+      "À attirer des proies avec un leurre",
+      "À se défendre avec une décharge",
+      "À creuser des terriers"
+    ],
+    "answer": 0,
+    "explanation": "Ses dents recourbées empêchent les poissons saisis de ressortir de sa bouche.",
+    "didYouKnow": "Le poisson-vipère vit dans des eaux profondes où la lumière est rare."
+  },
+  {
+    "id": "fish-121",
+    "animal": "Poisson-lanterne",
+    "difficulty": "medium",
+    "prompt": "Pourquoi de nombreux poissons-lanternes remontent-ils vers la surface la nuit ?",
+    "options": [
+      "Ils suivent la migration verticale du zooplancton",
+      "Ils suivent des sardines vers le fond",
+      "Ils évitent les prédateurs en migrant vers la surface",
+      "Ils pondent leurs œufs dans le plancton"
+    ],
+    "answer": 0,
+    "explanation": "Le zooplancton remonte la nuit pour se nourrir, et les poissons le suivent.",
+    "didYouKnow": "Les migrations verticales quotidiennes déplacent une immense biomasse océanique."
+  },
+  {
+    "id": "fish-122",
+    "animal": "Poisson des mangroves",
+    "difficulty": "hard",
+    "prompt": "Comment le périophtalme maintient-il ses branchies fonctionnelles lorsqu’il reste hors de l’eau ?",
+    "options": [
+      "Il garde de l’eau dans ses chambres branchiales et maintient les surfaces respiratoires humides",
+      "Il ferme les branchies et respire uniquement par des écailles sèches",
+      "Il remplace l’eau branchiale par de l’air dans une vessie pulmonaire",
+      "Il conserve les branchies sèches et absorbe l’oxygène de la vase"
+    ],
+    "answer": 0,
+    "explanation": "Le périophtalme retient de l’eau dans ses chambres branchiales et garde humides ses surfaces respiratoires.",
+    "didYouKnow": "Ses yeux saillants peuvent bouger indépendamment et surveiller l’air et l’eau."
+  },
+  {
+    "id": "fish-123",
+    "animal": "Poisson-chat électrique",
+    "difficulty": "hard",
+    "prompt": "Comment les organes électriques du poisson-chat électrique produisent-ils une décharge ?",
+    "options": [
+      "L’activation coordonnée d’électrocytes produit une différence de potentiel",
+      "La friction des écailles accumule une charge statique",
+      "Des bactéries lumineuses libèrent un courant dans l’eau",
+      "La vessie natatoire amplifie les signaux de la ligne latérale"
+    ],
+    "answer": 0,
+    "explanation": "Les électrocytes sont activés de façon coordonnée; leur empilement permet de produire une décharge électrique.",
+    "didYouKnow": "Ses barbillons sensoriels l’aident à localiser la nourriture dans les eaux troubles."
+  },
+  {
+    "id": "fish-124",
+    "animal": "Crapet arlequin",
+    "difficulty": "easy",
+    "prompt": "Quel signe distinctif se trouve sur l’opercule du crapet arlequin ?",
+    "options": [
+      "Une tache sombre en forme de rabat derrière l’œil",
+      "Une longue barbe sous le menton",
+      "Une bande rouge continue sur la queue",
+      "Une rangée de dents visibles sur l’extérieur de la bouche"
+    ],
+    "answer": 0,
+    "explanation": "Le crapet arlequin porte une tache sombre caractéristique sur le bord postérieur de son opercule.",
+    "didYouKnow": "Les mâles reproducteurs peuvent afficher des couleurs plus intenses."
+  },
+  {
+    "id": "fish-125",
+    "animal": "Poisson-archer",
+    "difficulty": "easy",
+    "prompt": "Quel phénomène optique le poisson-archer doit-il compenser pour viser une proie aérienne ?",
+    "options": [
+      "La réfraction de la lumière à la surface",
+      "La diffraction sonore",
+      "La réflexion sur les écailles",
+      "La dispersion du sel"
+    ],
+    "answer": 0,
+    "explanation": "Le changement de direction de la lumière à l’interface eau-air déplace l’image apparente de la cible.",
+    "didYouKnow": "Le poisson-archer peut ajuster son tir avec l’expérience et viser des cibles mobiles."
+  },
+  {
+    "id": "fish-126",
+    "animal": "Poisson-archer",
+    "difficulty": "easy",
+    "prompt": "Comment le poisson-archer apprend-il à améliorer sa précision ?",
+    "options": [
+      "En ajustant son tir après avoir observé les résultats",
+      "En répétant le tir au même angle sans regarder",
+      "En nageant jusqu’à la cible",
+      "En frappant l’insecte avec sa queue"
+    ],
+    "answer": 0,
+    "explanation": "Il peut corriger son angle en fonction de la position apparente et réelle de la cible.",
+    "didYouKnow": "Le poisson-archer utilise sa bouche comme un tube pour diriger le jet."
+  },
+  {
+    "id": "fish-127",
+    "animal": "Poisson-lune",
+    "difficulty": "easy",
+    "prompt": "Pourquoi le poisson-lune plonge-t-il parfois en profondeur puis revient-il près de la surface ?",
+    "options": [
+      "Pour se nourrir en profondeur puis se réchauffer en surface",
+      "Pour pondre dans un récif peu profond",
+      "Pour respirer l’air atmosphérique",
+      "Pour se cacher dans les mangroves"
+    ],
+    "answer": 0,
+    "explanation": "Il peut se nourrir de proies profondes et absorber ensuite de la chaleur solaire.",
+    "didYouKnow": "Le poisson-lune est le poisson osseux le plus lourd connu."
+  },
+  {
+    "id": "fish-128",
+    "animal": "Poisson-coffre",
+    "difficulty": "medium",
+    "prompt": "Pourquoi le poisson-coffre peut-il manœuvrer sans plier fortement son tronc ?",
+    "options": [
+      "Ses nageoires assurent l’essentiel de la propulsion autour d’une carapace rigide",
+      "Il propulse son corps en ondulant une queue très flexible",
+      "Il utilise des jets d’eau expulsés par ses branchies",
+      "Il rampe avec des nageoires transformées en pattes articulées"
+    ],
+    "answer": 0,
+    "explanation": "La carapace rigide limite la flexion du corps; les nageoires pectorales, dorsale et anale assurent la propulsion et les manœuvres.",
+    "didYouKnow": "Des plaques osseuses soudées protègent le tronc du poisson-coffre."
+  },
+  {
+    "id": "fish-129",
+    "animal": "Requin nourrice fauve",
+    "difficulty": "easy",
+    "prompt": "Comment le requin nourrice fauve respire-t-il lorsqu’il repose dans une cavité ?",
+    "options": [
+      "Il pompe activement l’eau sur ses branchies",
+      "Il avance continuellement à grande vitesse",
+      "Il respire par des poumons",
+      "Il absorbe l’oxygène par la peau"
+    ],
+    "answer": 0,
+    "explanation": "La ventilation buccale lui permet de rester immobile sans dépendre uniquement de la nage vers l’avant.",
+    "didYouKnow": "Le requin nourrice fauve chasse surtout la nuit près du fond."
+  },
+  {
+    "id": "fish-130",
+    "animal": "Requin mako",
+    "difficulty": "easy",
+    "prompt": "Quelle adaptation rend le requin mako particulièrement rapide ?",
+    "options": [
+      "Un corps fuselé associé à une puissante musculature",
+      "Des nageoires pectorales élargies",
+      "Une vessie natatoire géante",
+      "Des barbillons sensoriels"
+    ],
+    "answer": 0,
+    "explanation": "Sa forme hydrodynamique et sa queue puissante favorisent les accélérations rapides.",
+    "didYouKnow": "Le requin mako peut bondir hors de l’eau lorsqu’il poursuit une proie."
+  },
+  {
+    "id": "fish-131",
+    "animal": "Requin scie",
+    "difficulty": "medium",
+    "prompt": "Quel caractère du rostre permet de distinguer un requin-scie d’un poisson-scie ?",
+    "options": [
+      "Les barbillons sensoriels du requin-scie",
+      "Les électrorécepteurs du poisson-scie",
+      "Les fentes branchiales dorsales du requin-scie",
+      "Les nageoires pectorales soudées du poisson-scie"
+    ],
+    "answer": 0,
+    "explanation": "Les requins-scies portent des barbillons sous leur rostre, contrairement aux poissons-scies.",
+    "didYouKnow": "Le requin-scie est un poisson cartilagineux doté d’un rostre denté."
+  },
+  {
+    "id": "fish-132",
+    "animal": "Poisson-perroquet",
+    "difficulty": "medium",
+    "prompt": "Quel avantage le cocon muqueux nocturne apporte-t-il à certains poissons-perroquets ?",
+    "options": [
+      "Il peut atténuer les signaux olfactifs et gêner certains parasites",
+      "Il réduit surtout la perte d’eau lorsque le poisson est hors du récif",
+      "Il protège les nageoires du frottement contre le corail",
+      "Il enveloppe les œufs pendant leur incubation"
+    ],
+    "answer": 0,
+    "explanation": "Le mucus forme une enveloppe autour du poisson au repos; il pourrait réduire les signaux olfactifs et gêner certains parasites.",
+    "didYouKnow": "Le poisson-perroquet à bosse peut broyer le carbonate corallien en sable."
+  },
+  {
+    "id": "fish-133",
+    "animal": "Poisson-lune",
+    "difficulty": "easy",
+    "prompt": "À quoi ressemble souvent le jeune poisson-lune avant de prendre sa forme adulte ?",
+    "options": [
+      "À un petit poisson globuleux doté de nombreuses épines",
+      "À une anguille longue et dépourvue de nageoires",
+      "À une raie aplatie munie d’un aiguillon",
+      "À un poisson fuselé avec un long rostre"
+    ],
+    "answer": 0,
+    "explanation": "Les juvéniles des poissons-lunes sont petits et épineux; leur silhouette change fortement avec la croissance.",
+    "didYouKnow": "Le poisson-lune adulte possède une queue réduite appelée clavus."
+  },
+  {
+    "id": "fish-134",
+    "animal": "Poisson-perroquet",
+    "difficulty": "easy",
+    "prompt": "Quel rôle les poissons-perroquets jouent-ils dans les récifs coralliens ?",
+    "options": [
+      "Ils broutent les algues qui pourraient concurrencer les coraux",
+      "Ils filtrent le zooplancton",
+      "Ils mangent exclusivement des méduses",
+      "Ils chassent de grands mammifères"
+    ],
+    "answer": 0,
+    "explanation": "Le pâturage limite la couverture algale et libère de l’espace pour les coraux.",
+    "didYouKnow": "Le bec du poisson-perroquet broie du matériau corallien en sable."
+  },
+  {
+    "id": "fish-135",
+    "animal": "Poisson-papillon",
+    "difficulty": "medium",
+    "prompt": "Pourquoi la présence de certains poissons-papillons peut-elle renseigner sur l’état d’un récif ?",
+    "options": [
+      "Plusieurs espèces dépendent des coraux vivants comme ressource alimentaire",
+      "Toutes les espèces ne vivent que dans des eaux sans coraux",
+      "Leur couleur change directement avec l’acidité de l’eau",
+      "Ils produisent des substances qui mesurent la croissance des coraux"
+    ],
+    "answer": 0,
+    "explanation": "L’abondance de certaines espèces suit celle de leurs coraux-proies, ce qui peut fournir un indice écologique, sans remplacer une mesure directe.",
+    "didYouKnow": "Le museau fin des poissons-papillons leur permet de picorer dans des crevasses."
+  },
+  {
+    "id": "fish-136",
+    "animal": "Requin blanc",
+    "difficulty": "easy",
+    "prompt": "Comment le grand requin blanc peut-il maintenir ses muscles relativement chauds ?",
+    "options": [
+      "Par un échange de chaleur à contre-courant",
+      "Avec une couche de graisse externe uniquement",
+      "En gardant de l’air dans ses poumons",
+      "Grâce à une vessie natatoire chauffée"
+    ],
+    "answer": 0,
+    "explanation": "Des réseaux de vaisseaux récupèrent une partie de la chaleur produite par les muscles.",
+    "didYouKnow": "Le grand requin blanc récupère une partie de la chaleur musculaire grâce à des réseaux vasculaires."
+  },
+  {
+    "id": "fish-137",
+    "animal": "Requin-baleine",
+    "difficulty": "medium",
+    "prompt": "Comment les requins-baleines mettent-ils au monde leurs petits ?",
+    "options": [
+      "Les embryons se développent dans la mère et les jeunes naissent vivants",
+      "Les parents déposent des capsules d’œufs sur le récif",
+      "Le mâle incube les œufs dans sa bouche",
+      "Les larves éclosent directement du plancton"
+    ],
+    "answer": 0,
+    "explanation": "Le requin-baleine est vivipare aplacentaire : les embryons se développent dans la mère avant la naissance de jeunes vivants.",
+    "didYouKnow": "Le requin-baleine est le plus grand poisson vivant connu."
+  },
+  {
+    "id": "fish-138",
+    "animal": "Requin-renard",
+    "difficulty": "hard",
+    "prompt": "Quel phénomène reproductif appelé oophagie a été observé chez les requins-renards ?",
+    "options": [
+      "Des embryons consomment des ovules non fécondés dans l’utérus",
+      "Des embryons consomment uniquement le vitellus de leur propre œuf",
+      "Les femelles pondent des capsules que les embryons quittent avant l’éclosion",
+      "Les embryons reçoivent leurs nutriments par un placenta maternel"
+    ],
+    "answer": 0,
+    "explanation": "Chez les requins-renards, des embryons peuvent consommer des ovules non fécondés durant leur développement intra-utérin.",
+    "didYouKnow": "Le long lobe supérieur de la queue du requin-renard peut frapper et étourdir des poissons en banc."
+  },
+  {
+    "id": "fish-139",
+    "animal": "Raie torpille",
+    "difficulty": "medium",
+    "prompt": "Comment les raies torpilles donnent-elles naissance à leurs petits ?",
+    "options": [
+      "Les embryons se développent dans la mère, qui met bas des jeunes vivants",
+      "Elles déposent des capsules d’œufs sur des algues",
+      "Le mâle incube les œufs dans sa bouche",
+      "Les œufs dérivent librement en surface jusqu’à l’éclosion"
+    ],
+    "answer": 0,
+    "explanation": "Les torpilles sont vivipares aplacentaires : les embryons se développent dans l’utérus et les femelles mettent bas des jeunes vivants.",
+    "didYouKnow": "Les nouveau-nés de raie torpille peuvent produire de faibles décharges électriques."
+  },
+  {
+    "id": "fish-140",
+    "animal": "Raie pastenague",
+    "difficulty": "medium",
+    "prompt": "Par quelle ouverture une raie enfouie fait-elle entrer l’eau avant qu’elle passe sur les branchies ?",
+    "options": [
+      "Les spiracles situés sur la face dorsale, derrière les yeux",
+      "Les fentes branchiales ventrales, qui aspirent le sable",
+      "Les narines placées à l’extrémité du museau",
+      "Les pores électriques répartis sur les nageoires"
+    ],
+    "answer": 0,
+    "explanation": "Les spiracles permettent à l’eau d’entrer par le dessus lorsque la bouche est proche du sable; elle traverse ensuite les branchies.",
+    "didYouKnow": "L’eau ressort ensuite par les fentes branchiales situées sous le corps."
+  },
+  {
+    "id": "fish-141",
+    "animal": "Poisson-scie",
+    "difficulty": "easy",
+    "prompt": "Comment le rostre du poisson-scie détecte-t-il des proies cachées ?",
+    "options": [
+      "Il porte des récepteurs sensibles aux champs électriques",
+      "Ils les repèrent par leur couleur",
+      "Ils les attirent par des bulles",
+      "Ils les détectent uniquement par l’ouïe"
+    ],
+    "answer": 0,
+    "explanation": "Ces électrorécepteurs repèrent les signaux de proies enfouies dans le substrat.",
+    "didYouKnow": "Le poisson-scie est une raie, pas un requin."
+  },
+  {
+    "id": "fish-142",
+    "animal": "Murène",
+    "difficulty": "easy",
+    "prompt": "Pourquoi la murène ouvre-t-elle souvent la bouche lorsqu’elle reste immobile ?",
+    "options": [
+      "Pour faire circuler l’eau sur ses branchies",
+      "Pour filtrer le plancton",
+      "Pour porter des œufs",
+      "Pour se propulser par ondulation"
+    ],
+    "answer": 0,
+    "explanation": "L’ouverture et la fermeture de la bouche participent à sa ventilation.",
+    "didYouKnow": "Les mâchoires pharyngiennes de la murène saisissent les proies et les tirent vers la gorge."
+  },
+  {
+    "id": "fish-143",
+    "animal": "Hippocampe",
+    "difficulty": "easy",
+    "prompt": "À quoi sert la queue préhensile de l’hippocampe ?",
+    "options": [
+      "À s’accrocher aux herbes et aux coraux",
+      "Le plus petit individu est toujours femelle",
+      "Le sexe dépend de la température de l’eau",
+      "Tous les individus sont femelles"
+    ],
+    "answer": 0,
+    "explanation": "La queue enroulée stabilise l’animal dans le courant et le maintient près de son habitat.",
+    "didYouKnow": "L’hippocampe nage en position verticale."
+  },
+  {
+    "id": "fish-144",
+    "animal": "Poisson-clown",
+    "difficulty": "easy",
+    "prompt": "Dans quelle région le poisson-clown ocellé vit-il naturellement ?",
+    "options": [
+      "Dans l’Indo-Pacifique occidental",
+      "Dans la mer des Caraïbes uniquement",
+      "Dans l’Atlantique nord tempéré",
+      "Dans les lacs d’Afrique de l’Est"
+    ],
+    "answer": 0,
+    "explanation": "Amphiprion ocellaris est originaire des eaux tropicales de l’Indo-Pacifique occidental.",
+    "didYouKnow": "Le poisson-clown ocellé vit avec certaines anémones qui lui procurent un refuge."
+  },
+  {
+    "id": "fish-145",
+    "animal": "Anguille européenne",
+    "difficulty": "medium",
+    "prompt": "Comment les jeunes anguilles gagnent-elles les rivières après leur dérive océanique ?",
+    "options": [
+      "Elles se transforment en civelles puis remontent les eaux côtières",
+      "À frapper des bancs de poissons",
+      "À se fixer sur les rochers",
+      "À creuser des terriers"
+    ],
+    "answer": 0,
+    "explanation": "Les leptocéphales dérivent depuis l’océan et deviennent des civelles transparentes près des côtes.",
+    "didYouKnow": "Les anguilles européennes adultes effectuent une migration jusqu’à la mer des Sargasses pour frayer."
+  },
+  {
+    "id": "fish-146",
+    "animal": "Poisson-spatule",
+    "difficulty": "easy",
+    "prompt": "À quoi sert le long museau du poisson-spatule américain ?",
+    "options": [
+      "À détecter des proies grâce à ses récepteurs sensoriels",
+      "Ils frayent dans les lacs",
+      "Ils se reproduisent en mer",
+      "Ils pondent dans les mangroves"
+    ],
+    "answer": 0,
+    "explanation": "Le museau aplati est riche en récepteurs qui détectent des organismes dans l’eau trouble.",
+    "didYouKnow": "Ses branchiospines filtrent du zooplancton dans l’eau."
+  },
+  {
+    "id": "fish-147",
+    "animal": "Esturgeon",
+    "difficulty": "medium",
+    "prompt": "Pourquoi la protection des frayères est-elle essentielle pour les esturgeons migrateurs ?",
+    "options": [
+      "Les adultes remontent les fleuves pour pondre dans des habitats adaptés",
+      "Ils prennent l’air en surface",
+      "Ils deviennent d’eau salée sans transformation",
+      "Ils cessent de respirer en rivière"
+    ],
+    "answer": 0,
+    "explanation": "La fragmentation des rivières peut empêcher l’accès aux zones de reproduction.",
+    "didYouKnow": "Plusieurs espèces d’esturgeons sont menacées par la pêche et la perte d’habitat."
+  },
+  {
+    "id": "fish-148",
+    "animal": "Saumon",
+    "difficulty": "hard",
+    "prompt": "Quels changements de la smoltification préparent un jeune saumon à passer de l’eau douce à la mer ?",
+    "options": [
+      "Des ajustements des transporteurs ioniques branchiaux accompagnent le comportement migratoire",
+      "Les poumons se développent et remplacent les branchies",
+      "Les écailles deviennent des plaques osseuses imperméables",
+      "La reproduction passe de la mer aux rivières"
+    ],
+    "answer": 0,
+    "explanation": "La smoltification modifie notamment la capacité des branchies à réguler les ions et accompagne le comportement migratoire vers la mer.",
+    "didYouKnow": "Les jeunes saumons descendent souvent les rivières au printemps."
+  },
+  {
+    "id": "fish-149",
+    "animal": "Truite arc-en-ciel",
+    "difficulty": "medium",
+    "prompt": "Quel nom porte la forme migratrice marine de la truite arc-en-ciel ?",
+    "options": [
+      "La steelhead",
+      "Du poisson rouge",
+      "Du carassin argenté",
+      "Du koi sauvage de mer"
+    ],
+    "answer": 0,
+    "explanation": "Elle grandit en mer puis retourne en eau douce pour frayer.",
+    "didYouKnow": "D’autres truites arc-en-ciel restent en rivière toute leur vie."
+  },
+  {
+    "id": "fish-150",
+    "animal": "Carpe koï",
+    "difficulty": "medium",
+    "prompt": "De quelle espèce domestique la carpe koï est-elle une variété ?",
+    "options": [
+      "De la carpe commune",
+      "Des œufs pondus sur des algues",
+      "Un nid de bulles construit par le mâle",
+      "Une ponte gardée par les deux parents"
+    ],
+    "answer": 0,
+    "explanation": "Les koïs sont des formes sélectionnées de carpe commune, élevées pour leurs motifs colorés.",
+    "didYouKnow": "Les carpes peuvent apprendre à reconnaître des personnes et des routines alimentaires."
+  },
+  {
+    "id": "fish-151",
+    "animal": "Poisson cardinal de Banggaï",
+    "difficulty": "medium",
+    "prompt": "Dans quel type d’abri le poisson cardinal de Banggaï se tient-il souvent ?",
+    "options": [
+      "Parmi les épines d’oursins diadèmes ou près d’anémones",
+      "Dans les nids creusés par les requins",
+      "Au large sans abri",
+      "Dans des coquilles vides uniquement"
+    ],
+    "answer": 0,
+    "explanation": "Ces structures offrent des refuges aux individus et à leurs jeunes.",
+    "didYouKnow": "Le cardinal de Banggaï est endémique d’une région restreinte d’Indonésie et menacé par la collecte."
+  },
+  {
+    "id": "fish-152",
+    "animal": "Poisson-globe nain",
+    "difficulty": "hard",
+    "prompt": "Pourquoi les plaques dentaires fusionnées des tétrodons restent-elles fonctionnelles malgré leur croissance ?",
+    "options": [
+      "Le bord des plaques s’use contre des aliments durs",
+      "Les plaques tombent et sont remplacées après chaque repas",
+      "Leur croissance s’arrête une fois la mâchoire adulte",
+      "Une couche de cartilage se détache pour raccourcir les plaques"
+    ],
+    "answer": 0,
+    "explanation": "Les plaques dentaires poussent continuellement et leur bord s’use pendant l’alimentation, ce qui maintient leur capacité à broyer.",
+    "didYouKnow": "Les tétrodons appartiennent au groupe des poissons-globes."
+  },
+  {
+    "id": "fish-153",
+    "animal": "Perche européenne",
+    "difficulty": "easy",
+    "prompt": "Quel motif sombre est typique de la perche européenne ?",
+    "options": [
+      "Des bandes verticales sur les flancs",
+      "Des taches en rangées horizontales",
+      "Un corps uni sans motifs",
+      "Un motif en spirales claires"
+    ],
+    "answer": 0,
+    "explanation": "Ces bandes contrastent avec les nageoires souvent rougeâtres.",
+    "didYouKnow": "La perche européenne consomme des invertébrés puis davantage de petits poissons en grandissant."
+  },
+  {
+    "id": "fish-154",
+    "animal": "Sandre",
+    "difficulty": "medium",
+    "prompt": "Quel avantage donnent au sandre ses yeux adaptés à la faible lumière ?",
+    "options": [
+      "Ils facilitent la chasse au crépuscule et en eau trouble",
+      "Ils sont adaptés à la vision en plein soleil",
+      "Ils servent uniquement à trouver des partenaires",
+      "Ils permettent de repérer les odeurs"
+    ],
+    "answer": 0,
+    "explanation": "Sa vision fonctionne bien lorsque la lumière est limitée.",
+    "didYouKnow": "Le sandre est un prédateur d’eau douce de la famille des perches."
+  },
+  {
+    "id": "fish-155",
+    "animal": "Omble chevalier",
+    "difficulty": "medium",
+    "prompt": "Dans quels milieux l’omble chevalier est-il particulièrement adapté ?",
+    "options": [
+      "Aux eaux froides arctiques et aux lacs alpins",
+      "Aux lagunes tropicales chaudes",
+      "Aux rivières désertiques très chaudes",
+      "Aux récifs peu profonds"
+    ],
+    "answer": 0,
+    "explanation": "Il habite les régions nordiques et certains lacs de montagne froids.",
+    "didYouKnow": "Des populations lacustres isolées d’ombles peuvent présenter des formes différentes."
+  },
+  {
+    "id": "fish-156",
+    "animal": "Ombre commun",
+    "difficulty": "easy",
+    "prompt": "Quelle nageoire est particulièrement haute chez l’ombre commun ?",
+    "options": [
+      "La nageoire dorsale",
+      "La nageoire caudale",
+      "Les nageoires pelviennes",
+      "Les branchies externes"
+    ],
+    "answer": 0,
+    "explanation": "La dorsale haute est un trait distinctif, particulièrement visible chez les mâles.",
+    "didYouKnow": "L’ombre commun fréquente souvent les rivières fraîches à courant modéré."
+  },
+  {
+    "id": "fish-157",
+    "animal": "Maskinongé",
+    "difficulty": "medium",
+    "prompt": "Quel caractère anatomique est souvent utilisé pour distinguer le maskinongé du grand brochet ?",
+    "options": [
+      "Le nombre de pores sensoriels sous la mâchoire",
+      "La présence d’une nageoire adipeuse",
+      "Le nombre de barbillons autour de la bouche",
+      "La position de la ligne latérale sur le dos"
+    ],
+    "answer": 0,
+    "explanation": "Le décompte des pores mandibulaires est un critère d’identification utile, avec d’autres caractères morphologiques.",
+    "didYouKnow": "Le maskinongé peut dépasser en taille le brochet commun."
+  },
+  {
+    "id": "fish-158",
+    "animal": "Achigan à grande bouche",
+    "difficulty": "hard",
+    "prompt": "Lors d’une capture par succion, qu’est-ce qui entraîne la proie dans la bouche de l’achigan ?",
+    "options": [
+      "L’expansion rapide de la cavité buccale crée un flux d’eau entrant",
+      "La fermeture des opercules expulse l’eau en direction de la proie",
+      "La vessie natatoire attire la proie vers la gorge",
+      "Les dents saisissent la proie avant l’ouverture de la bouche"
+    ],
+    "answer": 0,
+    "explanation": "L’abaissement du plancher buccal et l’expansion rapide de la bouche créent une pression plus faible qui entraîne l’eau et la proie.",
+    "didYouKnow": "Le mâle garde souvent le nid et les premiers alevins."
+  },
+  {
+    "id": "fish-159",
+    "animal": "Achigan à petite bouche",
+    "difficulty": "easy",
+    "prompt": "Quel habitat l’achigan à petite bouche fréquente-t-il souvent ?",
+    "options": [
+      "Les eaux rocheuses, fraîches et bien oxygénées",
+      "Les marais saumâtres chauds",
+      "Les récifs coralliens",
+      "Les eaux stagnantes tropicales"
+    ],
+    "answer": 0,
+    "explanation": "Il est souvent associé aux rivières et lacs aux fonds rocheux.",
+    "didYouKnow": "Le mâle de l’achigan à petite bouche protège les œufs et les alevins dans le nid."
+  },
+  {
+    "id": "fish-160",
+    "animal": "Poisson-chat européen",
+    "difficulty": "hard",
+    "prompt": "Où les récepteurs gustatifs du silure européen sont-ils particulièrement abondants ?",
+    "options": [
+      "Sur les barbillons et largement répartis sur la peau",
+      "Uniquement sur la langue, derrière les dents",
+      "Dans les nageoires dorsales, sans récepteurs sur la tête",
+      "Sur les branchiospines, à l’intérieur des branchies"
+    ],
+    "answer": 0,
+    "explanation": "Chez le silure, des bourgeons gustatifs se trouvent sur les barbillons et sur de vastes régions de la peau.",
+    "didYouKnow": "Le silure européen est surtout actif au crépuscule et la nuit."
+  },
+  {
+    "id": "fish-161",
+    "animal": "Poisson-ange français",
+    "difficulty": "medium",
+    "prompt": "Quel rôle les juvéniles de poisson-ange français peuvent-ils parfois jouer ?",
+    "options": [
+      "Ils nettoient les parasites de poissons plus grands",
+      "Ils gardent les œufs dans la bouche",
+      "Ils construisent un cocon de bulles",
+      "Ils incubent les œufs dans une poche"
+    ],
+    "answer": 0,
+    "explanation": "De jeunes individus exploitent ce comportement pour se nourrir de parasites.",
+    "didYouKnow": "Les adultes vivent souvent en couples territoriaux sur les récifs."
+  },
+  {
+    "id": "fish-162",
+    "animal": "Poisson-crocodile",
+    "difficulty": "easy",
+    "prompt": "Où le poisson-crocodile attend-il souvent ses proies ?",
+    "options": [
+      "En embuscade sur un fond sableux ou vaseux",
+      "En se suspendant tête en bas",
+      "En creusant un terrier avec ses dents",
+      "En imitant une feuille flottante"
+    ],
+    "answer": 0,
+    "explanation": "Son camouflage lui permet de rester presque invisible jusqu’au passage d’une proie.",
+    "didYouKnow": "Ses yeux saillants peuvent rester dirigés vers le haut lorsque le poisson est enfoui."
+  },
+  {
+    "id": "fish-163",
+    "animal": "Poisson-faucon",
+    "difficulty": "medium",
+    "prompt": "Comment le poisson-faucon se maintient-il sur un perchoir corallien ?",
+    "options": [
+      "Il s’appuie sur ses nageoires pectorales robustes",
+      "Il s’enfouit complètement",
+      "Il se fixe avec une ventouse buccale",
+      "Il plane au-dessus du récif"
+    ],
+    "answer": 0,
+    "explanation": "Ces nageoires l’aident à se stabiliser sur une branche de corail pendant qu’il guette.",
+    "didYouKnow": "Le poisson-faucon bondit de son perchoir pour capturer de petits animaux."
+  },
+  {
+    "id": "fish-164",
+    "animal": "Poisson à bouche supérieure",
+    "difficulty": "medium",
+    "prompt": "Quel type de nourriture un poisson à bouche orientée vers le haut peut-il saisir facilement ?",
+    "options": [
+      "Des insectes à la surface de l’eau",
+      "Des proies vivant dans le sable",
+      "Du plancton au large",
+      "Des algues fixées sur les coraux"
+    ],
+    "answer": 0,
+    "explanation": "L’orientation de sa bouche est adaptée aux proies qui flottent ou tombent à la surface.",
+    "didYouKnow": "La position de la bouche donne souvent un indice sur le mode d’alimentation."
+  },
+  {
+    "id": "fish-165",
+    "animal": "Poisson à bouche inférieure",
+    "difficulty": "medium",
+    "prompt": "À quel mode d’alimentation une bouche placée sous la tête est-elle souvent adaptée ?",
+    "options": [
+      "À la recherche de nourriture sur le fond",
+      "La bouche placée à l’avant",
+      "La bouche située sur le dos",
+      "La bouche rétractée derrière les yeux"
+    ],
+    "answer": 0,
+    "explanation": "Cette position facilite le broutage ou la fouille du substrat.",
+    "didYouKnow": "Les poissons-chats et les esturgeons ont souvent une bouche inférieure."
+  },
+  {
+    "id": "fish-166",
+    "animal": "Poisson à bouche terminale",
+    "difficulty": "medium",
+    "prompt": "Où se situe la bouche terminale d’un poisson ?",
+    "options": [
+      "À l’extrémité avant de la tête",
+      "À filtrer les méduses",
+      "À broyer les coquillages",
+      "À aspirer de grands poissons"
+    ],
+    "answer": 0,
+    "explanation": "Elle permet de saisir les proies situées directement devant le poisson.",
+    "didYouKnow": "La bouche terminale est fréquente chez les nageurs qui chassent en pleine eau."
+  },
+  {
+    "id": "fish-167",
+    "animal": "Poisson-papillon cuivré",
+    "difficulty": "easy",
+    "prompt": "Pourquoi le poisson-papillon a-t-il un museau fin ?",
+    "options": [
+      "Pour picorer des proies cachées dans les fissures du récif",
+      "Il chasse seulement à midi",
+      "Il vit exclusivement dans les rivières",
+      "Il passe la nuit dans les mangroves"
+    ],
+    "answer": 0,
+    "explanation": "Sa bouche étroite atteint de petits organismes entre les structures coralliennes.",
+    "didYouKnow": "De nombreux poissons-papillons vivent en couples territoriaux."
+  },
+  {
+    "id": "fish-168",
+    "animal": "Poisson-écureuil",
+    "difficulty": "medium",
+    "prompt": "Où le poisson-écureuil se réfugie-t-il durant la journée ?",
+    "options": [
+      "Dans les crevasses du récif",
+      "Son dos sombre se fond avec les profondeurs",
+      "Il produit une lumière ventrale",
+      "Il s’enfouit dans les herbiers"
+    ],
+    "answer": 0,
+    "explanation": "Il reste souvent caché pendant le jour et sort chercher de la nourriture la nuit.",
+    "didYouKnow": "Le poisson-écureuil possède de grands yeux adaptés à la faible luminosité."
+  },
+  {
+    "id": "fish-169",
+    "animal": "Poisson-hachette",
+    "difficulty": "easy",
+    "prompt": "Comment le poisson hachette échappe-t-il à une détection par-dessous ?",
+    "options": [
+      "Son ventre argenté réfléchit la lumière de surface",
+      "Ils se cachent dans les mangroves",
+      "Ils possèdent des branchies externes",
+      "Ils vivent en bancs en pleine mer"
+    ],
+    "answer": 0,
+    "explanation": "La réflexion réduit son contraste pour un prédateur situé sous lui.",
+    "didYouKnow": "Ses yeux dirigés vers le haut repèrent des silhouettes au-dessus de lui."
+  },
+  {
+    "id": "fish-170",
+    "animal": "Poisson-soleil d’eau douce",
+    "difficulty": "easy",
+    "prompt": "Où le poisson-soleil mâle construit-il généralement son nid ?",
+    "options": [
+      "Dans une dépression peu profonde du substrat",
+      "Dans une cavité de corail",
+      "Dans des coquilles flottantes",
+      "Dans une poche ventrale"
+    ],
+    "answer": 0,
+    "explanation": "Le mâle nettoie une zone et la garde pendant le développement des œufs.",
+    "didYouKnow": "Plusieurs poissons-soleils défendent leur ponte."
+  },
+  {
+    "id": "fish-171",
+    "animal": "Poisson-perroquet bleu",
+    "difficulty": "medium",
+    "prompt": "Dans quelle grande région trouve-t-on naturellement le poisson-perroquet bleu ?",
+    "options": [
+      "Dans les eaux tropicales de l’Atlantique occidental et des Caraïbes",
+      "Dans les lacs d’eau douce d’Asie centrale",
+      "Dans les eaux polaires de l’Antarctique",
+      "Dans la mer Baltique et la mer du Nord"
+    ],
+    "answer": 0,
+    "explanation": "Scarus coeruleus est présent dans les récifs tropicaux de l’Atlantique occidental, notamment dans les Caraïbes.",
+    "didYouKnow": "Les jeunes poissons-perroquets bleus peuvent avoir une livrée différente de celle des adultes."
+  },
+  {
+    "id": "fish-172",
+    "animal": "Poisson chirurgien à voile",
+    "difficulty": "medium",
+    "prompt": "Que peut signaler le déploiement de la grande nageoire dorsale du chirurgien à voile ?",
+    "options": [
+      "Une parade ou une menace lors d’une interaction sociale",
+      "La direction d’un banc de plancton",
+      "La présence d’un nid dans le sable",
+      "L’imminence d’une ponte en eau libre"
+    ],
+    "answer": 0,
+    "explanation": "La nageoire déployée accentue la silhouette du poisson et intervient dans les affichages sociaux ou territoriaux.",
+    "didYouKnow": "Les poissons-chirurgiens broutent souvent des algues sur les récifs."
+  },
+  {
+    "id": "fish-173",
+    "animal": "Poisson des récifs",
+    "difficulty": "medium",
+    "prompt": "Pourquoi les poissons de récif exploitent-ils des microhabitats différents ?",
+    "options": [
+      "Cela réduit la compétition pour les mêmes ressources",
+      "Ils occupent tous le même niveau du récif",
+      "Ils interdisent toute prédation",
+      "Ils mangent exclusivement du corail"
+    ],
+    "answer": 0,
+    "explanation": "Les crevasses, surfaces coralliennes et herbiers offrent des niches distinctes.",
+    "didYouKnow": "La complexité structurelle des récifs contribue à leur forte diversité."
+  },
+  {
+    "id": "fish-174",
+    "animal": "Poisson-chat à queue rouge",
+    "difficulty": "easy",
+    "prompt": "Quel détail de coloration permet de reconnaître le poisson-chat à queue rouge ?",
+    "options": [
+      "Une nageoire caudale rouge-orangé",
+      "Une tache bleue sur le dessus du crâne",
+      "Des bandes noires verticales sur les flancs",
+      "Des nageoires pectorales transparentes"
+    ],
+    "answer": 0,
+    "explanation": "La nageoire caudale rouge-orangé est un signe visuel marquant de Phractocephalus hemioliopterus.",
+    "didYouKnow": "Phractocephalus hemioliopterus est originaire des bassins de l’Amazone et de l’Orénoque."
+  },
+  {
+    "id": "fish-175",
+    "animal": "Piranha à ventre rouge",
+    "difficulty": "medium",
+    "prompt": "Quelle affirmation décrit le mieux le régime des piranhas à ventre rouge ?",
+    "options": [
+      "Il varie selon l’espèce, l’âge et les ressources disponibles",
+      "Ils chassent exclusivement de grands mammifères",
+      "Ils mangent uniquement des algues",
+      "Ils filtrent du plancton toute l’année"
+    ],
+    "answer": 0,
+    "explanation": "Les piranhas consomment des poissons et d’autres matières animales; ils ne sont pas tous des chasseurs de grands animaux.",
+    "didYouKnow": "Les piranhas à ventre rouge vivent souvent en groupes, ce qui peut améliorer leur vigilance face aux prédateurs."
+  },
+  {
+    "id": "fish-176",
+    "animal": "Poisson-globe",
+    "difficulty": "medium",
+    "prompt": "Quelle structure aide le poisson-globe à broyer mollusques et crustacés ?",
+    "options": [
+      "Ses dents fusionnées forment un bec",
+      "Des branchiospines filtrantes",
+      "Une langue collante qui déchire les coquilles",
+      "Un rostre denté"
+    ],
+    "answer": 0,
+    "explanation": "Le bec robuste écrase les aliments durs et s’use pendant le nourrissage.",
+    "didYouKnow": "Les dents fusionnées des tétrodons poussent continuellement."
+  },
+  {
+    "id": "fish-177",
+    "animal": "Poisson cardinal",
+    "difficulty": "medium",
+    "prompt": "Comment le mâle du cardinal de Banggaï protège-t-il sa ponte ?",
+    "options": [
+      "Il garde les œufs dans sa bouche",
+      "La femelle garde les œufs dans une poche",
+      "Les deux parents les portent dans une nageoire",
+      "Ils construisent un nid flottant"
+    ],
+    "answer": 0,
+    "explanation": "Cette incubation buccale met les œufs à l’abri jusqu’à l’éclosion.",
+    "didYouKnow": "Le cardinal de Banggaï vit naturellement dans une aire restreinte d’Indonésie."
+  },
+  {
+    "id": "fish-178",
+    "animal": "Poisson-archer",
+    "difficulty": "hard",
+    "prompt": "Comment le poisson-archer produit-il un jet capable de frapper une proie hors de l’eau ?",
+    "options": [
+      "Il façonne un canal avec sa bouche et pousse l’eau avec sa langue",
+      "Il ferme ses opercules pour envoyer un jet par les ouïes",
+      "Il expulse l’eau de sa vessie natatoire à travers les narines",
+      "Il fait vibrer sa nageoire caudale pour projeter des gouttelettes"
+    ],
+    "answer": 0,
+    "explanation": "La bouche forme un canal de tir et la langue contribue à accélérer le jet dirigé vers la proie.",
+    "didYouKnow": "Le poisson-archer peut corriger son tir avec l’expérience et viser des proies mobiles."
+  },
+  {
+    "id": "fish-179",
+    "animal": "Poisson-clown",
+    "difficulty": "medium",
+    "prompt": "Pourquoi le poisson-clown entretient-il une relation avec une anémone ?",
+    "options": [
+      "L’anémone lui procure un refuge contre de nombreux prédateurs",
+      "Elle lui fournit une source de nourriture",
+      "Elle lui permet de respirer l’air",
+      "Elle pond ses œufs dans son estomac"
+    ],
+    "answer": 0,
+    "explanation": "Le poisson toléré par l’anémone peut se cacher parmi ses tentacules urticants.",
+    "didYouKnow": "Les poissons-clowns peuvent défendre leur anémone contre des poissons qui la mangent."
+  },
+  {
+    "id": "fish-180",
+    "animal": "Poisson-lion",
+    "difficulty": "medium",
+    "prompt": "Quelle origine explique la présence du poisson-lion dans l’Atlantique ouest ?",
+    "options": [
+      "Des introductions humaines hors de son aire indo-pacifique",
+      "Une migration naturelle depuis la Méditerranée",
+      "Le transport par des courants polaires",
+      "Une expansion due à un changement de couleur"
+    ],
+    "answer": 0,
+    "explanation": "Des individus échappés ou relâchés ont contribué à établir des populations invasives.",
+    "didYouKnow": "Le poisson-lion peut réduire l’abondance de petits poissons récifaux natifs."
+  },
+  {
+    "id": "fish-181",
+    "animal": "Hippocampe",
+    "difficulty": "easy",
+    "prompt": "Comment l’hippocampe se déplace-t-il dans l’eau ?",
+    "options": [
+      "Il nage en position verticale en battant rapidement sa petite nageoire dorsale",
+      "Il nage horizontalement en ondulant sa queue",
+      "Il avance par battements de queue rapides",
+      "Il marche avec ses nageoires pelviennes"
+    ],
+    "answer": 0,
+    "explanation": "La nageoire dorsale fournit l’essentiel de sa propulsion, avec l’aide des pectorales pour diriger.",
+    "didYouKnow": "La queue préhensile de l’hippocampe sert à s’agripper, pas à le propulser."
+  },
+  {
+    "id": "fish-182",
+    "animal": "Poisson-lune",
+    "difficulty": "medium",
+    "prompt": "Quelle structure remplace la nageoire caudale classique du poisson-lune ?",
+    "options": [
+      "Le clavus, une marge arrondie à l’arrière du corps",
+      "Une nageoire caudale fourchue",
+      "Une grande nageoire en forme d’éventail",
+      "Une queue préhensile"
+    ],
+    "answer": 0,
+    "explanation": "Le clavus résulte du raccourcissement de la partie postérieure du corps.",
+    "didYouKnow": "Le poisson-lune se propulse surtout avec ses nageoires dorsale et anale."
+  },
+  {
+    "id": "fish-183",
+    "animal": "Carpe commune",
+    "difficulty": "hard",
+    "prompt": "Où se trouvent les dents pharyngiennes de la carpe et contre quelle structure broient-elles les aliments ?",
+    "options": [
+      "Dans la gorge, où elles pressent les aliments contre un coussinet dur",
+      "Sur les mâchoires, où elles percent les proies avant ingestion",
+      "Sur les branchiospines, où elles filtrent les graines",
+      "Dans l’œsophage, contre la paroi de la vessie natatoire"
+    ],
+    "answer": 0,
+    "explanation": "Les carpes n’ont pas de dents visibles sur les mâchoires; des dents pharyngiennes broient la nourriture contre un coussinet spécialisé.",
+    "didYouKnow": "La carpe commune porte de petits barbillons autour de la bouche."
+  },
+  {
+    "id": "fish-184",
+    "animal": "Poisson-pipe",
+    "difficulty": "easy",
+    "prompt": "Quel membre porte les œufs chez plusieurs poissons-pipes ?",
+    "options": [
+      "Le mâle, sur une zone incubatrice ou dans une poche",
+      "La femelle, dans une poche ventrale",
+      "Les deux parents, dans la bouche",
+      "La femelle, sur ses nageoires"
+    ],
+    "answer": 0,
+    "explanation": "La femelle y dépose les œufs, que le mâle protège pendant leur développement.",
+    "didYouKnow": "Les poissons-pipes sont apparentés aux hippocampes."
+  },
+  {
+    "id": "fish-185",
+    "animal": "Poisson-perroquet",
+    "difficulty": "hard",
+    "prompt": "Quel terme décrit le changement de sexe observé chez plusieurs poissons-perroquets ?",
+    "options": [
+      "La protogynie, où certaines femelles deviennent mâles",
+      "La protandrie, où les mâles deviennent femelles",
+      "La gonochorie, où chaque individu change plusieurs fois de sexe",
+      "La parthénogenèse, où les femelles produisent des clones"
+    ],
+    "answer": 0,
+    "explanation": "Plusieurs poissons-perroquets sont protogynes : certains individus commencent leur vie comme femelles puis deviennent mâles.",
+    "didYouKnow": "Le bec des poissons-perroquets leur permet de brouter le substrat des récifs."
+  },
+  {
+    "id": "fish-186",
+    "animal": "Anguille européenne",
+    "difficulty": "easy",
+    "prompt": "Quelle apparence ont les leptocéphales, les larves des anguilles ?",
+    "options": [
+      "Ils sont transparents et aplatis comme une feuille",
+      "Ils sont opaques et sphériques",
+      "Ils ressemblent à de minuscules anguilles brunes",
+      "Ils ont une coquille calcifiée"
+    ],
+    "answer": 0,
+    "explanation": "Cette forme larvaire dérive dans l’océan avant de se transformer en civelle près des côtes.",
+    "didYouKnow": "Les leptocéphales sont très différents de l’anguille adulte."
+  },
+  {
+    "id": "fish-187",
+    "animal": "Saumon",
+    "difficulty": "medium",
+    "prompt": "Comment nomme-t-on une stratégie où un saumon du Pacifique ne se reproduit qu’une fois avant de mourir ?",
+    "options": [
+      "La semelparité",
+      "L’itéroparité",
+      "La protogynie",
+      "La viviparité"
+    ],
+    "answer": 0,
+    "explanation": "Plusieurs saumons du Pacifique sont semelpares; la reproduction mobilise fortement leurs réserves et est suivie de leur mort.",
+    "didYouKnow": "Le saumon atlantique peut survivre et frayer plusieurs fois."
+  },
+  {
+    "id": "fish-188",
+    "animal": "Saumon",
+    "difficulty": "medium",
+    "prompt": "Que signifie la montaison du saumon ?",
+    "options": [
+      "Le déplacement des adultes vers l’amont pour rejoindre leurs frayères",
+      "La migration vers l’aval des adultes",
+      "Le déplacement des jeunes vers un estuaire",
+      "La nage des poissons vers le fond marin"
+    ],
+    "answer": 0,
+    "explanation": "Les adultes remontent les rivières depuis la mer afin d’y pondre.",
+    "didYouKnow": "La dévalaison désigne le trajet vers l’aval des jeunes saumons."
+  },
+  {
+    "id": "fish-189",
+    "animal": "Poisson-lanterne",
+    "difficulty": "easy",
+    "prompt": "Quelle zone océanique les poissons-lanternes fréquentent-ils souvent ?",
+    "options": [
+      "La zone mésopélagique, où la lumière est très faible",
+      "La zone littorale éclairée par le soleil",
+      "Les récifs peu profonds",
+      "Les eaux côtières tempérées"
+    ],
+    "answer": 0,
+    "explanation": "Cette zone intermédiaire abrite d’importantes populations qui migrent verticalement chaque jour.",
+    "didYouKnow": "Les poissons-lanternes constituent une proie importante pour de nombreux prédateurs marins."
+  },
+  {
+    "id": "fish-190",
+    "animal": "Poisson des glaces antarctique",
+    "difficulty": "medium",
+    "prompt": "Pourquoi l’eau antarctique peut-elle contenir beaucoup d’oxygène dissous ?",
+    "options": [
+      "La solubilité des gaz augmente lorsque l’eau est froide",
+      "La salinité de l’eau",
+      "La lumière solaire directe",
+      "Le nombre de poissons présents"
+    ],
+    "answer": 0,
+    "explanation": "L’eau froide peut maintenir davantage d’oxygène en solution que l’eau chaude.",
+    "didYouKnow": "Certaines espèces antarctiques possèdent des protéines antigel dans leurs fluides corporels."
+  },
+  {
+    "id": "fish-191",
+    "animal": "Poisson plat",
+    "difficulty": "medium",
+    "prompt": "Comment un poisson plat peut-il se dissimuler sur un fond sableux ?",
+    "options": [
+      "Il s’enfouit partiellement en projetant le sable avec ses nageoires",
+      "Il gonfle son corps pour ressembler à un rocher",
+      "Il fixe son ventre au substrat avec une ventouse",
+      "Il produit un nuage de mucus opaque"
+    ],
+    "answer": 0,
+    "explanation": "De nombreux poissons plats agitent leurs nageoires pour recouvrir leur corps de sable tout en gardant les yeux exposés.",
+    "didYouKnow": "La pigmentation de la face supérieure de nombreux poissons plats peut s’ajuster au substrat."
+  },
+  {
+    "id": "fish-192",
+    "animal": "Poisson-nettoyeur",
+    "difficulty": "medium",
+    "prompt": "Quelle posture un poisson client adopte-t-il souvent à une station de nettoyage ?",
+    "options": [
+      "Il reste immobile et expose des parties de son corps",
+      "Le client ouvre la bouche et nage rapidement",
+      "Le client se couche sur le flanc et s’enfouit",
+      "Le client change de couleur en rouge"
+    ],
+    "answer": 0,
+    "explanation": "Cette pose permet au nettoyeur d’accéder à la peau, aux nageoires ou aux branchies.",
+    "didYouKnow": "Les stations de nettoyage sont fréquentées par des clients de différentes espèces."
+  },
+  {
+    "id": "fish-193",
+    "animal": "Poisson-chat",
+    "difficulty": "medium",
+    "prompt": "Quelle caractéristique de la peau est commune à de nombreux poissons-chats ?",
+    "options": [
+      "Elle est nue, sans écailles typiques",
+      "Elle porte toujours des écailles placoïdes",
+      "Elle est couverte de plaques de corail",
+      "Elle est remplacée par une carapace rigide"
+    ],
+    "answer": 0,
+    "explanation": "Chez de nombreux Siluriformes, la peau ne porte pas les écailles typiques de beaucoup d’autres poissons osseux, même si des exceptions existent.",
+    "didYouKnow": "Certaines familles de poissons-chats ont des plaques osseuses protectrices."
+  },
+  {
+    "id": "fish-194",
+    "animal": "Poisson-papillon",
+    "difficulty": "medium",
+    "prompt": "À quoi peut servir une bande sombre qui traverse l’œil d’un poisson-papillon ?",
+    "options": [
+      "À masquer la position de l’œil",
+      "À attirer une femelle par des flashs lumineux",
+      "À protéger les branchies des sédiments",
+      "À recevoir les sons sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Le motif réduit la visibilité de l’œil et peut gêner un prédateur qui vise la tête.",
+    "didYouKnow": "Une ocelle près de la queue peut brouiller l’orientation d’un prédateur."
+  },
+  {
+    "id": "fish-195",
+    "animal": "Poisson des mangroves",
+    "difficulty": "medium",
+    "prompt": "Comment les racines de mangrove modifient-elles l’eau près des côtes ?",
+    "options": [
+      "Elles ralentissent le courant et piègent des sédiments",
+      "À absorber les nutriments",
+      "À stocker des œufs",
+      "À se fixer aux rochers"
+    ],
+    "answer": 0,
+    "explanation": "Le réseau racinaire réduit l’énergie des vagues et retient des particules.",
+    "didYouKnow": "Les mangroves constituent des nurseries pour de nombreuses espèces côtières."
+  },
+  {
+    "id": "fish-196",
+    "animal": "Poisson de rivière",
+    "difficulty": "hard",
+    "prompt": "Pourquoi les interstices d’un lit de gravier bien oxygéné favorisent-ils le développement des œufs de saumon ?",
+    "options": [
+      "L’eau circule entre les galets et apporte de l’oxygène aux œufs enfouis",
+      "Le gravier produit de l’oxygène par photosynthèse sous le fond",
+      "Les galets bloquent la circulation de l’eau et retiennent la chaleur",
+      "Les œufs absorbent l’oxygène directement à travers les pierres"
+    ],
+    "answer": 0,
+    "explanation": "La porosité du gravier permet une circulation d’eau qui renouvelle l’oxygène autour des œufs; les sédiments fins peuvent colmater ces espaces.",
+    "didYouKnow": "Les poissons de rivière peuvent voir leurs migrations reproductrices interrompues par des barrages."
+  },
+  {
+    "id": "fish-197",
+    "animal": "Requin",
+    "difficulty": "medium",
+    "prompt": "Quel est le rôle du foie riche en huile chez de nombreux requins ?",
+    "options": [
+      "Il contribue à leur flottabilité et stocke de l’énergie",
+      "Il filtre le plancton",
+      "Il produit du venin",
+      "Il contrôle la salinité de l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Les huiles sont moins denses que l’eau et aident à compenser le poids du corps.",
+    "didYouKnow": "Les requins n’ont pas de vessie natatoire."
+  },
+  {
+    "id": "fish-198",
+    "animal": "Poisson marin",
+    "difficulty": "hard",
+    "prompt": "Comment le contre-courant entre l’eau et le sang améliore-t-il l’extraction d’oxygène dans les branchies ?",
+    "options": [
+      "Il maintient un gradient de concentration sur toute la longueur des lamelles",
+      "Il fait circuler le sang dans le même sens que l’eau pour égaliser les concentrations",
+      "Il concentre tout l’oxygène à l’entrée des branchies puis ferme les lamelles",
+      "Il convertit le dioxyde de carbone en oxygène grâce aux globules rouges"
+    ],
+    "answer": 0,
+    "explanation": "Avec des flux opposés, l’eau conserve une concentration d’oxygène supérieure à celle du sang adjacent le long des lamelles.",
+    "didYouKnow": "Les opercules des poissons osseux protègent les branchies et aident à faire circuler l’eau."
+  },
+  {
+    "id": "fish-199",
+    "animal": "Poisson à vessie natatoire",
+    "difficulty": "hard",
+    "prompt": "Quel conduit caractérise un poisson physostome et relie sa vessie natatoire au tube digestif ?",
+    "options": [
+      "Le conduit pneumatique",
+      "Le canal endolymphatique",
+      "Le canal de Wolff",
+      "Le canal operculaire"
+    ],
+    "answer": 0,
+    "explanation": "Chez les physostomes, le conduit pneumatique relie la vessie natatoire à l’œsophage et permet des échanges de gaz avec le tube digestif.",
+    "didYouKnow": "Chez les physostomes, le conduit pneumatique relie la vessie natatoire à l’œsophage."
+  },
+  {
+    "id": "fish-200",
+    "animal": "Poisson à vessie natatoire",
+    "difficulty": "hard",
+    "prompt": "Comment un poisson physocliste augmente-t-il la quantité de gaz dans sa vessie natatoire en profondeur ?",
+    "options": [
+      "Une glande gazeuse transfère des gaz du sang vers la vessie",
+      "Un conduit pneumatique laisse entrer l’air avalé depuis l’œsophage",
+      "Une zone de résorption ajoute du gaz depuis l’intestin",
+      "Les reins filtrent l’oxygène dissous et l’envoient dans la vessie"
+    ],
+    "answer": 0,
+    "explanation": "La glande gazeuse acidifie le sang localement et favorise le transfert de gaz vers la vessie, ce qui aide à maintenir la flottabilité.",
+    "didYouKnow": "Chez certaines espèces, la vessie natatoire contribue aussi à l’audition."
+  }
+]

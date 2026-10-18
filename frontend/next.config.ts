@@ -53,6 +53,7 @@ const webConfig: NextConfig = {
   turbopack: { root: PROJECT_ROOT },
   outputFileTracingRoot: PROJECT_ROOT,
   reactCompiler: true,
+  transpilePackages: ['three', '@react-three/fiber', '@react-three/drei'],
   // Aucun composant next/image n'est utilisé : on évite l'optimiseur (sharp, remotePatterns).
   images: { unoptimized: true },
   /**
@@ -71,6 +72,8 @@ const webConfig: NextConfig = {
   },
   async headers() {
     return [
+      { source: '/models/habitat/:path*', headers: [{ key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=604800' }] },
+      { source: '/textures/habitat/:path*', headers: [{ key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=604800' }] },
       {
         source: '/(.*)',
         headers: SECURITY_HEADERS,
@@ -99,6 +102,7 @@ const mobileConfig: NextConfig = {
   outputFileTracingRoot: PROJECT_ROOT,
   trailingSlash: true,
   reactCompiler: true,
+  transpilePackages: ['three', '@react-three/fiber', '@react-three/drei'],
   images: { unoptimized: true },
   // Inliné dans le bundle : i18n/routing.ts passe en `localePrefix: 'always'`, src/lib/platform.ts
   // expose IS_MOBILE_BUILD.

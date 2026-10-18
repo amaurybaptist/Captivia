@@ -88,6 +88,8 @@ export function AppHeader() {
       label: t('nav.species'),
       isActive: (p) => startsWithSegment(p, '/especes') || startsWithSegment(p, '/species'),
     },
+    { href: '/jeu', label: t('common.animalGame'), isActive: (p) => startsWithSegment(p, '/jeu') },
+    { href: '/guide', label: t('common.habitatGuide'), isActive: (p) => startsWithSegment(p, '/guide') },
     { href: '/magasin', label: t('common.shop'), isActive: (p) => startsWithSegment(p, '/magasin') },
     ...(user
       ? [

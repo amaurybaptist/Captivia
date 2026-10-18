@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "photo-001",
+    "scientificName": "Ornithorhynchus anatinus",
+    "animal": "Ornithorynque",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "aquatic",
+    "recognition": "Bec large et plat, corps couvert de fourrure et queue aplatie.",
+    "didYouKnow": "Les jeunes ornithorynques possèdent des dents qu’ils perdent en grandissant; les adultes broient la nourriture avec des plaques cornées.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ornithorhynchus_anatinus",
+    "distractors": [
+      "photo-185",
+      "photo-108",
+      "photo-142"
+    ]
+  },
+  {
+    "id": "photo-002",
+    "scientificName": "Tachyglossus aculeatus",
+    "animal": "Échidné à nez court",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "spiny",
+    "recognition": "Un museau étroit dépasse d’un dos couvert de piquants.",
+    "didYouKnow": "Sa température corporelle est généralement plus basse que celle de nombreux mammifères placentaires.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tachyglossus_aculeatus",
+    "distractors": [
+      "photo-107",
+      "photo-171",
+      "photo-053"
+    ]
+  },
+  {
+    "id": "photo-003",
+    "scientificName": "Vombatus ursinus",
+    "animal": "Wombat commun",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "stocky",
+    "recognition": "Corps trapu, petites oreilles arrondies et pattes robustes.",
+    "didYouKnow": "Ses incisives continuent de pousser, ce qui compense leur usure lorsqu’il coupe des végétaux coriaces.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Vombatus_ursinus",
+    "distractors": [
+      "photo-162",
+      "photo-194",
+      "photo-071"
+    ]
+  },
+  {
+    "id": "photo-004",
+    "scientificName": "Sarcophilus harrisii",
+    "animal": "Diable de Tasmanie",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "carnivore",
+    "recognition": "Pelage noir, tête large et souvent une marque blanche sur la poitrine.",
+    "didYouKnow": "Un diable peut stocker des réserves de graisse dans sa queue; une queue épaisse peut donc témoigner de son état corporel.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sarcophilus_harrisii",
+    "distractors": [
+      "photo-067",
+      "photo-094",
+      "photo-071"
+    ]
+  },
+  {
+    "id": "photo-005",
+    "scientificName": "Didelphis virginiana",
+    "animal": "Opossum de Virginie",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "climber",
+    "recognition": "Museau clair et pointu, oreilles presque nues et longue queue écailleuse.",
+    "didYouKnow": "Le premier doigt de ses pattes arrière est opposable et dépourvu de griffe, ce qui facilite la préhension.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Didelphis_virginiana",
+    "distractors": [
+      "photo-004",
+      "photo-003",
+      "photo-014"
+    ]
+  },
+  {
+    "id": "photo-006",
+    "scientificName": "Saiga tatarica",
+    "animal": "Saïga",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "antelope",
+    "recognition": "Son nez gonflé forme une courte trompe très reconnaissable.",
+    "didYouKnow": "Son pelage devient plus dense et plus pâle en hiver, puis plus court et plus fauve en été.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Saiga_tatarica",
+    "distractors": [
+      "photo-167",
+      "photo-184",
+      "photo-128"
+    ]
+  },
+  {
+    "id": "photo-007",
+    "scientificName": "Monodon monoceros",
+    "animal": "Narval",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "aquatic",
+    "recognition": "Petit cétacé tacheté dont certains individus portent une longue défense torsadée.",
+    "didYouKnow": "La défense se développe en spirale vers la gauche; de rares individus possèdent deux défenses.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Monodon_monoceros",
+    "distractors": [
+      "photo-064",
+      "photo-086",
+      "photo-109"
+    ]
+  },
+  {
+    "id": "photo-008",
+    "scientificName": "Dugong dugon",
+    "animal": "Dugong",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "aquatic",
+    "recognition": "Museau tourné vers le bas et nageoire caudale échancrée.",
+    "didYouKnow": "Les dugongs peuvent communiquer par des sons courts, notamment entre une mère et son petit.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dugong_dugon",
+    "distractors": [
+      "photo-041",
+      "photo-040",
+      "photo-020"
+    ]
+  },
+  {
+    "id": "photo-009",
+    "scientificName": "Smutsia temminckii",
+    "animal": "Pangolin de Temminck",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "spiny",
+    "recognition": "Grandes écailles chevauchantes et longue queue épaisse.",
+    "didYouKnow": "Son estomac contient des structures cornées qui participent au broyage d’aliments qu’il avale sans les mâcher.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Smutsia_temminckii",
+    "distractors": [
+      "photo-066",
+      "photo-136",
+      "photo-157"
+    ]
+  },
+  {
+    "id": "photo-010",
+    "scientificName": "Dasypus novemcinctus",
+    "animal": "Tatou à neuf bandes",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "spiny",
+    "recognition": "Carapace articulée en bandes et museau allongé.",
+    "didYouKnow": "Les portées de cette espèce sont habituellement composées de quatre petits génétiquement identiques, issus du même embryon.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dasypus_novemcinctus",
+    "distractors": [
+      "photo-108",
+      "photo-138",
+      "photo-060"
+    ]
+  },
+  {
+    "id": "photo-011",
+    "scientificName": "Myrmecophaga tridactyla",
+    "animal": "Fourmilier géant",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "elongated",
+    "recognition": "Très long museau, bande sombre sur le flanc et queue touffue.",
+    "didYouKnow": "Sa température corporelle est relativement basse pour un mammifère de cette taille, ce qui réduit ses besoins énergétiques.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Myrmecophaga_tridactyla",
+    "distractors": [
+      "photo-077",
+      "photo-153",
+      "photo-087"
+    ]
+  },
+  {
+    "id": "photo-012",
+    "scientificName": "Hylobates lar",
+    "animal": "Gibbon à mains blanches",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "primate",
+    "recognition": "Bras très longs et bordure claire autour du visage.",
+    "didYouKnow": "Mâles et femelles peuvent avoir un pelage clair ou sombre : la couleur ne permet donc pas à elle seule de déterminer le sexe.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hylobates_lar",
+    "distractors": [
+      "photo-040",
+      "photo-013",
+      "photo-017"
+    ]
+  },
+  {
+    "id": "photo-013",
+    "scientificName": "Carlito syrichta",
+    "animal": "Tarsier des Philippines",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "primate",
+    "recognition": "Très grands yeux dirigés vers l’avant et longues extrémités fines.",
+    "didYouKnow": "Il communique aussi par ultrasons, à des fréquences que l’oreille humaine ne peut pas percevoir.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Carlito_syrichta",
+    "distractors": [
+      "photo-122",
+      "photo-049",
+      "photo-129"
+    ]
+  },
+  {
+    "id": "photo-014",
+    "scientificName": "Bradypus variegatus",
+    "animal": "Paresseux à gorge brune",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "climber",
+    "recognition": "Face arrondie avec masque sombre et longs membres terminés par des griffes.",
+    "didYouKnow": "Sa température corporelle peut varier au cours de la journée, contrairement à celle de nombreux autres mammifères.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bradypus_variegatus",
+    "distractors": [
+      "photo-144",
+      "photo-140",
+      "photo-095"
+    ]
+  },
+  {
+    "id": "photo-015",
+    "scientificName": "Hydrochoerus hydrochaeris",
+    "animal": "Capybara",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "stocky",
+    "recognition": "Grand rongeur au museau massif, avec des yeux placés haut sur la tête.",
+    "didYouKnow": "Ses incisives poussent continuellement, comme celles des autres rongeurs, et s’usent en broutant.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hydrochoerus_hydrochaeris",
+    "distractors": [
+      "photo-160",
+      "photo-111",
+      "photo-133"
+    ]
+  },
+  {
+    "id": "photo-016",
+    "scientificName": "Chinchilla lanigera",
+    "animal": "Chinchilla à longue queue",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "rodent",
+    "recognition": "Grandes oreilles rondes, fourrure très dense et queue touffue.",
+    "didYouKnow": "Une femelle possède deux cornes utérines et peut donner naissance à des petits déjà couverts de poils.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chinchilla_lanigera",
+    "distractors": [
+      "photo-115",
+      "photo-073",
+      "photo-153"
+    ]
+  },
+  {
+    "id": "photo-017",
+    "scientificName": "Erethizon dorsatum",
+    "animal": "Porc-épic d’Amérique",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "spiny",
+    "recognition": "Silhouette lourde avec des piquants mêlés au pelage.",
+    "didYouKnow": "Ses dents sont orangées à cause de pigments contenant du fer dans l’émail.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Erethizon_dorsatum",
+    "distractors": [
+      "photo-015",
+      "photo-044",
+      "photo-041"
+    ]
+  },
+  {
+    "id": "photo-018",
+    "scientificName": "Ochotona princeps",
+    "animal": "Pika américain",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "rodent",
+    "recognition": "Petit lagomorphe aux oreilles arrondies, sans longue queue visible.",
+    "didYouKnow": "Il récolte des végétaux et les fait sécher en petits tas pour constituer des réserves consommées pendant la mauvaise saison.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ochotona_princeps",
+    "distractors": [
+      "photo-032",
+      "photo-037",
+      "photo-013"
+    ]
+  },
+  {
+    "id": "photo-019",
+    "scientificName": "Leptonycteris yerbabuenae",
+    "animal": "Petit leptonyctère",
+    "category": "mammals",
+    "difficulty": "hard",
+    "group": "climber",
+    "recognition": "Chauve-souris au museau allongé et à petite feuille nasale.",
+    "didYouKnow": "Sa langue peut s’allonger pour atteindre le nectar au fond des fleurs et son passage contribue à leur pollinisation.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Leptonycteris_yerbabuenae",
+    "distractors": [
+      "photo-014",
+      "photo-033",
+      "photo-005"
+    ]
+  },
+  {
+    "id": "photo-020",
+    "scientificName": "Hydrurga leptonyx",
+    "animal": "Phoque léopard",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "aquatic",
+    "recognition": "Tête allongée, bouche large et gorge souvent tachetée.",
+    "didYouKnow": "Ses molaires présentent plusieurs pointes qui peuvent retenir de petites proies lorsque l’eau est expulsée de la bouche.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hydrurga_leptonyx",
+    "distractors": [
+      "photo-007",
+      "photo-015",
+      "photo-016"
+    ]
+  },
+  {
+    "id": "photo-021",
+    "scientificName": "Mirounga leonina",
+    "animal": "Éléphant de mer du Sud",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "aquatic",
+    "recognition": "Très grand phoque; le mâle adulte porte un nez renflé.",
+    "didYouKnow": "Le renouvellement de sa peau s’accompagne d’une chute étendue des anciens poils et de l’épiderme.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Mirounga_leonina",
+    "distractors": [
+      "photo-159",
+      "photo-059",
+      "photo-161"
+    ]
+  },
+  {
+    "id": "photo-022",
+    "scientificName": "Callorhinus ursinus",
+    "animal": "Otarie à fourrure du Nord",
+    "category": "mammals",
+    "difficulty": "hard",
+    "group": "aquatic",
+    "recognition": "Petite tête, oreilles externes et épaisse fourrure sombre.",
+    "didYouKnow": "Durant leurs excursions alimentaires, les femelles peuvent parcourir de grandes distances avant de revenir allaiter leur petit.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Callorhinus_ursinus",
+    "distractors": [
+      "photo-007",
+      "photo-008",
+      "photo-020"
+    ]
+  },
+  {
+    "id": "photo-023",
+    "scientificName": "Vulpes zerda",
+    "animal": "Fennec",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "carnivore",
+    "recognition": "Petit renard clair aux oreilles démesurées.",
+    "didYouKnow": "La plante de ses pieds est couverte de poils qui améliorent son appui sur le sable et l’isolent du sol chaud.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Vulpes_zerda",
+    "distractors": [
+      "photo-077",
+      "photo-071",
+      "photo-153"
+    ]
+  },
+  {
+    "id": "photo-024",
+    "scientificName": "Helogale parvula",
+    "animal": "Mangouste naine",
+    "category": "mammals",
+    "difficulty": "hard",
+    "group": "carnivore",
+    "recognition": "Petite mangouste à tête courte et fourrure brune mouchetée.",
+    "didYouKnow": "Les membres d’un groupe peuvent toiletter leurs congénères, un comportement qui entretient les liens sociaux.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Helogale_parvula",
+    "distractors": [
+      "photo-023",
+      "photo-025",
+      "photo-029"
+    ]
+  },
+  {
+    "id": "photo-025",
+    "scientificName": "Genetta genetta",
+    "animal": "Genette commune",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "carnivore",
+    "recognition": "Corps élancé tacheté et très longue queue annelée.",
+    "didYouKnow": "Ses latrines collectives peuvent être installées sur des rochers ou d’autres points en hauteur.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Genetta_genetta",
+    "distractors": [
+      "photo-041",
+      "photo-001",
+      "photo-031"
+    ]
+  },
+  {
+    "id": "photo-026",
+    "scientificName": "Civettictis civetta",
+    "animal": "Civette africaine",
+    "category": "mammals",
+    "difficulty": "hard",
+    "group": "carnivore",
+    "recognition": "Masque noir autour des yeux et grosses taches sur un corps robuste.",
+    "didYouKnow": "Elle disperse les graines de certains fruits qu’elle consomme, contribuant ainsi au renouvellement de la végétation.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Civettictis_civetta",
+    "distractors": [
+      "photo-004",
+      "photo-030",
+      "photo-029"
+    ]
+  },
+  {
+    "id": "photo-027",
+    "scientificName": "Caracal caracal",
+    "animal": "Caracal",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "cat",
+    "recognition": "Pelage uni fauve et longues touffes noires au bout des oreilles.",
+    "didYouKnow": "Il possède des coussinets et une pilosité plantaire qui favorisent une approche silencieuse de ses proies.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Caracal_caracal",
+    "distractors": [
+      "photo-089",
+      "photo-090",
+      "photo-157"
+    ]
+  },
+  {
+    "id": "photo-028",
+    "scientificName": "Prionailurus viverrinus",
+    "animal": "Chat pêcheur",
+    "category": "mammals",
+    "difficulty": "hard",
+    "group": "cat",
+    "recognition": "Chat trapu, petites oreilles et robe grisâtre marquée de taches et de lignes.",
+    "didYouKnow": "Le dessous dense de son pelage contribue à limiter le contact direct de l’eau avec la peau.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Prionailurus_viverrinus",
+    "distractors": [
+      "photo-027",
+      "photo-038",
+      "photo-006"
+    ]
+  },
+  {
+    "id": "photo-029",
+    "scientificName": "Chrysocyon brachyurus",
+    "animal": "Loup à crinière",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "carnivore",
+    "recognition": "Très longues pattes noires et pelage roux avec une crinière sombre.",
+    "didYouKnow": "Ses jeunes naissent avec un pelage bien plus sombre que celui des adultes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chrysocyon_brachyurus",
+    "distractors": [
+      "photo-189",
+      "photo-130",
+      "photo-192"
+    ]
+  },
+  {
+    "id": "photo-030",
+    "scientificName": "Nyctereutes procyonoides",
+    "animal": "Chien viverrin",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "carnivore",
+    "recognition": "Canidé court sur pattes avec un masque facial foncé.",
+    "didYouKnow": "Les couples peuvent participer ensemble à l’élevage des jeunes, le mâle gardant notamment la portée.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nyctereutes_procyonoides",
+    "distractors": [
+      "photo-001",
+      "photo-022",
+      "photo-028"
+    ]
+  },
+  {
+    "id": "photo-031",
+    "scientificName": "Okapia johnstoni",
+    "animal": "Okapi",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "ungulate",
+    "recognition": "Corps brun foncé, tête rappelant une girafe et rayures blanches sur les membres.",
+    "didYouKnow": "Les petits peuvent rester longtemps cachés dans un site de repos pendant que leur mère s’alimente ailleurs.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Okapia_johnstoni",
+    "distractors": [
+      "photo-184",
+      "photo-150",
+      "photo-194"
+    ]
+  },
+  {
+    "id": "photo-032",
+    "scientificName": "Tapirus indicus",
+    "animal": "Tapir de Malaisie",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "ungulate",
+    "recognition": "Courte trompe et large selle blanche contrastant avec l’avant et l’arrière noirs.",
+    "didYouKnow": "Ses petits portent des rayures et des taches claires qui disparaissent progressivement en grandissant.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tapirus_indicus",
+    "distractors": [
+      "photo-182",
+      "photo-141",
+      "photo-068"
+    ]
+  },
+  {
+    "id": "photo-033",
+    "scientificName": "Cyclopes didactylus",
+    "animal": "Fourmilier soyeux",
+    "category": "mammals",
+    "difficulty": "hard",
+    "group": "climber",
+    "recognition": "Minuscule fourmilier arboricole au pelage doré et au museau court.",
+    "didYouKnow": "Il se repose souvent roulé en boule, avec le museau et les membres protégés sous la queue.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cyclopes_didactylus",
+    "distractors": [
+      "photo-005",
+      "photo-019",
+      "photo-014"
+    ]
+  },
+  {
+    "id": "photo-034",
+    "scientificName": "Dicotyles tajacu",
+    "animal": "Pécari à collier",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "ungulate",
+    "recognition": "Corps sombre, museau de suiforme et bande claire autour des épaules.",
+    "didYouKnow": "Il possède une glande dorsale dont les sécrétions odorantes participent à la reconnaissance entre membres du groupe.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dicotyles_tajacu",
+    "distractors": [
+      "photo-043",
+      "photo-009",
+      "photo-026"
+    ]
+  },
+  {
+    "id": "photo-035",
+    "scientificName": "Lama guanicoe",
+    "animal": "Guanaco",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "ungulate",
+    "recognition": "Camélidé au dos fauve, au ventre clair et à la face grise.",
+    "didYouKnow": "Il peut vivre à des altitudes élevées et ses cellules sanguines, comme celles des autres camélidés, sont ovales.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lama_guanicoe",
+    "distractors": [
+      "photo-020",
+      "photo-033",
+      "photo-029"
+    ]
+  },
+  {
+    "id": "photo-036",
+    "scientificName": "Vicugna vicugna",
+    "animal": "Vigogne",
+    "category": "mammals",
+    "difficulty": "hard",
+    "group": "ungulate",
+    "recognition": "Petit camélidé gracile avec une poitrine claire et une toison fauve fine.",
+    "didYouKnow": "Ses incisives inférieures présentent une croissance prolongée adaptée au broutage des végétaux abrasifs.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Vicugna_vicugna",
+    "distractors": [
+      "photo-034",
+      "photo-037",
+      "photo-039"
+    ]
+  },
+  {
+    "id": "photo-037",
+    "scientificName": "Ovibos moschatus",
+    "animal": "Bœuf musqué",
+    "category": "mammals",
+    "difficulty": "easy",
+    "group": "ungulate",
+    "recognition": "Longue toison descendant sur les flancs et cornes incurvées vers le bas puis le haut.",
+    "didYouKnow": "Son sous-poil, appelé qiviut, tombe naturellement lors de la mue printanière.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ovibos_moschatus",
+    "distractors": [
+      "photo-147",
+      "photo-188",
+      "photo-140"
+    ]
+  },
+  {
+    "id": "photo-038",
+    "scientificName": "Bos gaurus",
+    "animal": "Gaur",
+    "category": "mammals",
+    "difficulty": "hard",
+    "group": "ungulate",
+    "recognition": "Grand bovin sauvage sombre, forte bosse sur les épaules et bas des pattes clair.",
+    "didYouKnow": "Les femelles peuvent vivre en groupes tandis que certains grands mâles adultes passent davantage de temps seuls.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bos_gaurus",
+    "distractors": [
+      "photo-037",
+      "photo-031",
+      "photo-032"
+    ]
+  },
+  {
+    "id": "photo-039",
+    "scientificName": "Bos javanicus",
+    "animal": "Banteng",
+    "category": "mammals",
+    "difficulty": "hard",
+    "group": "ungulate",
+    "recognition": "Bovin sauvage avec des bas de pattes blancs et une zone claire sur la croupe.",
+    "didYouKnow": "Les femelles sont généralement brun roux, alors que beaucoup de mâles adultes deviennent très sombres.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bos_javanicus",
+    "distractors": [
+      "photo-037",
+      "photo-031",
+      "photo-038"
+    ]
+  },
+  {
+    "id": "photo-040",
+    "scientificName": "Addax nasomaculatus",
+    "animal": "Addax",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "antelope",
+    "recognition": "Antilope claire aux longues cornes torsadées et au masque facial contrasté.",
+    "didYouKnow": "Son pelage s’éclaircit pendant la saison chaude et devient plus sombre et plus fourni durant la saison froide.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Addax_nasomaculatus",
+    "distractors": [
+      "photo-035",
+      "photo-019",
+      "photo-027"
+    ]
+  },
+  {
+    "id": "photo-041",
+    "scientificName": "Oryx dammah",
+    "animal": "Oryx algazelle",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "antelope",
+    "recognition": "Corps très clair, cou roux et longues cornes recourbées vers l’arrière.",
+    "didYouKnow": "Des programmes de réintroduction ont permis de rétablir des populations au Tchad, où l’espèce avait disparu à l’état sauvage.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Oryx_dammah",
+    "distractors": [
+      "photo-038",
+      "photo-025",
+      "photo-010"
+    ]
+  },
+  {
+    "id": "photo-042",
+    "scientificName": "Tragelaphus eurycerus",
+    "animal": "Bongo",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "antelope",
+    "recognition": "Grande antilope rousse parcourue de fines bandes blanches verticales.",
+    "didYouKnow": "Mâles et femelles possèdent des cornes spiralées; celles des mâles sont généralement plus massives.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tragelaphus_eurycerus",
+    "distractors": [
+      "photo-020",
+      "photo-009",
+      "photo-034"
+    ]
+  },
+  {
+    "id": "photo-043",
+    "scientificName": "Tragelaphus strepsiceros",
+    "animal": "Grand koudou",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "antelope",
+    "recognition": "Robe grise ou brune rayée de blanc et très grandes oreilles.",
+    "didYouKnow": "Les mâles peuvent émettre un aboiement sonore lorsqu’ils sont alarmés.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tragelaphus_strepsiceros",
+    "distractors": [
+      "photo-045",
+      "photo-028",
+      "photo-015"
+    ]
+  },
+  {
+    "id": "photo-044",
+    "scientificName": "Pseudoryx nghetinhensis",
+    "animal": "Saola",
+    "category": "mammals",
+    "difficulty": "hard",
+    "group": "antelope",
+    "recognition": "Bovidé brun avec des marques faciales claires et deux longues cornes presque parallèles.",
+    "didYouKnow": "Il a été décrit scientifiquement dans les années 1990 à partir de découvertes réalisées dans la chaîne annamitique.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pseudoryx_nghetinhensis",
+    "distractors": [
+      "photo-041",
+      "photo-040",
+      "photo-042"
+    ]
+  },
+  {
+    "id": "photo-045",
+    "scientificName": "Heterocephalus glaber",
+    "animal": "Rat-taupe nu",
+    "category": "mammals",
+    "difficulty": "medium",
+    "group": "rodent",
+    "recognition": "Peau presque nue, petits yeux et incisives dépassant des lèvres.",
+    "didYouKnow": "Les ouvriers peuvent se déplacer vers l’avant comme vers l’arrière dans les galeries étroites de leur colonie.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Heterocephalus_glaber",
+    "distractors": [
+      "photo-007",
+      "photo-034",
+      "photo-033"
+    ]
+  },
+  {
+    "id": "photo-046",
+    "scientificName": "Buceros rhinoceros",
+    "animal": "Calao rhinocéros",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "largebeak",
+    "recognition": "Grand bec jaune-orange surmonté d’un casque recourbé.",
+    "didYouKnow": "Le mâle et la femelle peuvent être distingués notamment par la couleur de l’iris chez les adultes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Buceros_rhinoceros",
+    "distractors": [
+      "photo-173",
+      "photo-188",
+      "photo-122"
+    ]
+  },
+  {
+    "id": "photo-047",
+    "scientificName": "Menura novaehollandiae",
+    "animal": "Ménure superbe",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "groundbird",
+    "recognition": "Oiseau terrestre brun; le mâle possède une longue queue aux plumes en forme de lyre.",
+    "didYouKnow": "En remuant la litière pour chercher sa nourriture, il déplace de grandes quantités de matière végétale et de terre.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Menura_novaehollandiae",
+    "distractors": [
+      "photo-070",
+      "photo-073",
+      "photo-058"
+    ]
+  },
+  {
+    "id": "photo-048",
+    "scientificName": "Casuarius casuarius",
+    "animal": "Casoar à casque",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "groundbird",
+    "recognition": "Grand oiseau noir à cou bleu, caroncules rouges et casque sur la tête.",
+    "didYouKnow": "Ses œufs sont verdâtres, une couleur peu habituelle chez les grands oiseaux terrestres.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Casuarius_casuarius",
+    "distractors": [
+      "photo-146",
+      "photo-163",
+      "photo-109"
+    ]
+  },
+  {
+    "id": "photo-049",
+    "scientificName": "Opisthocomus hoazin",
+    "animal": "Hoazin huppé",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "groundbird",
+    "recognition": "Tête à peau bleue et huppe hérissée au-dessus d’un corps brun.",
+    "didYouKnow": "Son appareil digestif volumineux réduit l’espace disponible pour certains muscles de vol, ce qui contribue à ses capacités aériennes limitées.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Opisthocomus_hoazin",
+    "distractors": [
+      "photo-053",
+      "photo-070",
+      "photo-057"
+    ]
+  },
+  {
+    "id": "photo-050",
+    "scientificName": "Eclectus roratus",
+    "animal": "Perroquet éclectus",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "parrot",
+    "recognition": "Le mâle est vert avec un bec orangé; la femelle est surtout rouge et bleu-violet.",
+    "didYouKnow": "Sa langue charnue l’aide à manipuler les aliments, notamment les fruits qu’il consomme dans les arbres.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Eclectus_roratus",
+    "distractors": [
+      "photo-110",
+      "photo-123",
+      "photo-099"
+    ]
+  },
+  {
+    "id": "photo-051",
+    "scientificName": "Balaeniceps rex",
+    "animal": "Bec-en-sabot du Nil",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "wader",
+    "recognition": "Grand échassier gris avec un bec massif en forme de sabot.",
+    "didYouKnow": "Il peut produire un claquement de bec audible lors de certaines interactions au nid.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Balaeniceps_rex",
+    "distractors": [
+      "photo-006",
+      "photo-176",
+      "photo-125"
+    ]
+  },
+  {
+    "id": "photo-052",
+    "scientificName": "Eudocimus ruber",
+    "animal": "Ibis rouge",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "wader",
+    "recognition": "Plumage rouge vif et long bec fin courbé vers le bas.",
+    "didYouKnow": "Ses jeunes ont d’abord un plumage gris-brun; la coloration rouge se développe avec l’âge et l’alimentation.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Eudocimus_ruber",
+    "distractors": [
+      "photo-100",
+      "photo-162",
+      "photo-141"
+    ]
+  },
+  {
+    "id": "photo-053",
+    "scientificName": "Platalea leucorodia",
+    "animal": "Spatule blanche",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "wader",
+    "recognition": "Plumage blanc et bec noir élargi à son extrémité.",
+    "didYouKnow": "Les jeunes portent souvent des extrémités noires aux grandes plumes des ailes, moins visibles chez les adultes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Platalea_leucorodia",
+    "distractors": [
+      "photo-009",
+      "photo-149",
+      "photo-142"
+    ]
+  },
+  {
+    "id": "photo-054",
+    "scientificName": "Hydrophasianus chirurgus",
+    "animal": "Jacana à longue queue",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "wader",
+    "recognition": "Très longs doigts et, en plumage nuptial, une queue étirée.",
+    "didYouKnow": "Ses très longs doigts répartissent son poids sur la végétation flottante, lui permettant d’explorer des surfaces instables.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hydrophasianus_chirurgus",
+    "distractors": [
+      "photo-086",
+      "photo-080",
+      "photo-069"
+    ]
+  },
+  {
+    "id": "photo-055",
+    "scientificName": "Cinclus cinclus",
+    "animal": "Cincle plongeur",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "smallbird",
+    "recognition": "Petit oiseau brun sombre avec un large plastron blanc.",
+    "didYouKnow": "Une membrane protège ses yeux lorsqu’il explore l’eau pour chercher de la nourriture.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cinclus_cinclus",
+    "distractors": [
+      "photo-088",
+      "photo-076",
+      "photo-058"
+    ]
+  },
+  {
+    "id": "photo-056",
+    "scientificName": "Loxia curvirostra",
+    "animal": "Bec-croisé des sapins",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "smallbird",
+    "recognition": "Les deux extrémités du bec se croisent au lieu de se rejoindre normalement.",
+    "didYouKnow": "Des individus possèdent le bec croisé vers la gauche, d’autres vers la droite.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Loxia_curvirostra",
+    "distractors": [
+      "photo-089",
+      "photo-055",
+      "photo-073"
+    ]
+  },
+  {
+    "id": "photo-057",
+    "scientificName": "Nestor notabilis",
+    "animal": "Kéa",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "parrot",
+    "recognition": "Perroquet montagnard vert olive au bec étroit et recourbé.",
+    "didYouKnow": "Les jeunes ont des zones jaunâtres autour du bec qui s’atténuent en vieillissant.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nestor_notabilis",
+    "distractors": [
+      "photo-062",
+      "photo-086",
+      "photo-051"
+    ]
+  },
+  {
+    "id": "photo-058",
+    "scientificName": "Ploceus cucullatus",
+    "animal": "Tisserin gendarme",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "smallbird",
+    "recognition": "Petit oiseau jaune; le mâle nuptial possède une tête noire.",
+    "didYouKnow": "Les femelles peuvent examiner plusieurs nids avant d’accepter un partenaire et son ouvrage.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ploceus_cucullatus",
+    "distractors": [
+      "photo-061",
+      "photo-068",
+      "photo-063"
+    ]
+  },
+  {
+    "id": "photo-059",
+    "scientificName": "Philetairus socius",
+    "animal": "Républicain social",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "smallbird",
+    "recognition": "Petit passereau brun à dos écailleux et bavette noire.",
+    "didYouKnow": "Les chambres intérieures d’un grand nid collectif amortissent davantage les variations de température que les chambres périphériques.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Philetairus_socius",
+    "distractors": [
+      "photo-058",
+      "photo-064",
+      "photo-060"
+    ]
+  },
+  {
+    "id": "photo-060",
+    "scientificName": "Lophorina superba",
+    "animal": "Paradisier superbe",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "smallbird",
+    "recognition": "Le mâle est surtout noir avec des zones irisées bleu-vert.",
+    "didYouKnow": "La teinte irisée dépend de l’angle sous lequel la lumière frappe les structures des plumes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lophorina_superba",
+    "distractors": [
+      "photo-076",
+      "photo-059",
+      "photo-078"
+    ]
+  },
+  {
+    "id": "photo-061",
+    "scientificName": "Melanerpes formicivorus",
+    "animal": "Pic glandivore",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "woodpecker",
+    "recognition": "Face contrastée, calotte rouge et iris clair.",
+    "didYouKnow": "Il creuse dans des troncs des trous de stockage dont les dimensions retiennent les glands; un gland qui sèche peut être transféré dans un trou plus ajusté.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Melanerpes_formicivorus",
+    "distractors": [
+      "photo-050",
+      "photo-090",
+      "photo-049"
+    ]
+  },
+  {
+    "id": "photo-062",
+    "scientificName": "Apteryx mantelli",
+    "animal": "Kiwi brun du Nord",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "groundbird",
+    "recognition": "Oiseau sans queue visible, plumage brun filamenteux et très long bec fin.",
+    "didYouKnow": "Les narines du kiwi sont situées près de l’extrémité du bec, une position inhabituelle chez les oiseaux.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Apteryx_mantelli",
+    "distractors": [
+      "photo-021",
+      "photo-180",
+      "photo-200"
+    ]
+  },
+  {
+    "id": "photo-063",
+    "scientificName": "Goura victoria",
+    "animal": "Goura de Victoria",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "groundbird",
+    "recognition": "Grand pigeon bleu-gris coiffé d’une huppe en éventail délicatement frangée.",
+    "didYouKnow": "Les parents nourrissent les jeunes avec une sécrétion nutritive du jabot, comme d’autres pigeons.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Goura_victoria",
+    "distractors": [
+      "photo-175",
+      "photo-155",
+      "photo-031"
+    ]
+  },
+  {
+    "id": "photo-064",
+    "scientificName": "Musophaga violacea",
+    "animal": "Touraco violet",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "smallbird",
+    "recognition": "Plumage violet sombre, front jaune et calotte rouge.",
+    "didYouKnow": "Il peut avaler des fruits puis rejeter ou disperser leurs graines, favorisant leur dissémination.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Musophaga_violacea",
+    "distractors": [
+      "photo-090",
+      "photo-088",
+      "photo-059"
+    ]
+  },
+  {
+    "id": "photo-065",
+    "scientificName": "Gymnogyps californianus",
+    "animal": "Condor de Californie",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "raptor",
+    "recognition": "Immense vautour sombre avec de larges plages blanches sous les ailes.",
+    "didYouKnow": "Un couple ne produit généralement qu’un œuf à la fois et investit longtemps dans les soins au jeune.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gymnogyps_californianus",
+    "distractors": [
+      "photo-069",
+      "photo-047",
+      "photo-085"
+    ]
+  },
+  {
+    "id": "photo-066",
+    "scientificName": "Alectura lathami",
+    "animal": "Talégalle de Latham",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "groundbird",
+    "recognition": "Oiseau noir à tête rouge nue et caroncule jaune.",
+    "didYouKnow": "Le mâle ajuste la couche de matériau de son monticule d’incubation pour en modifier la température.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Alectura_lathami",
+    "distractors": [
+      "photo-049",
+      "photo-082",
+      "photo-075"
+    ]
+  },
+  {
+    "id": "photo-067",
+    "scientificName": "Grus virgo",
+    "animal": "Grue demoiselle",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "wader",
+    "recognition": "Grue grise avec une gorge noire et de longues plumes blanches derrière les yeux.",
+    "didYouKnow": "Ses migrations peuvent l’amener à franchir de très hauts reliefs en profitant de conditions atmosphériques favorables.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Grus_virgo",
+    "distractors": [
+      "photo-048",
+      "photo-078",
+      "photo-055"
+    ]
+  },
+  {
+    "id": "photo-068",
+    "scientificName": "Harpia harpyja",
+    "animal": "Harpie féroce",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "raptor",
+    "recognition": "Aigle massif à huppe grise et très fortes pattes.",
+    "didYouKnow": "La femelle est nettement plus lourde que le mâle, ce qui contribue à des différences dans les proies qu’ils peuvent transporter.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Harpia_harpyja",
+    "distractors": [
+      "photo-049",
+      "photo-063",
+      "photo-046"
+    ]
+  },
+  {
+    "id": "photo-069",
+    "scientificName": "Eumomota superciliosa",
+    "animal": "Motmot à sourcils bleus",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "smallbird",
+    "recognition": "Sourcils bleu turquoise et longue queue terminée par deux palettes.",
+    "didYouKnow": "La forme en raquette de la queue apparaît lorsque certaines barbes fragiles des plumes se détachent.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Eumomota_superciliosa",
+    "distractors": [
+      "photo-076",
+      "photo-056",
+      "photo-077"
+    ]
+  },
+  {
+    "id": "photo-070",
+    "scientificName": "Strigops habroptilus",
+    "animal": "Kakapo",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "parrot",
+    "recognition": "Gros perroquet vert moucheté à face arrondie rappelant celle d’une chouette.",
+    "didYouKnow": "Son activité est surtout nocturne et il peut dégager une odeur musquée ou fruitée caractéristique.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Strigops_habroptilus",
+    "distractors": [
+      "photo-106",
+      "photo-137",
+      "photo-162"
+    ]
+  },
+  {
+    "id": "photo-071",
+    "scientificName": "Probosciger aterrimus",
+    "animal": "Cacatoès noir des palmiers",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "parrot",
+    "recognition": "Grand cacatoès sombre à forte huppe et joue rouge nue.",
+    "didYouKnow": "Certains mâles utilisent un bâton pour frapper un support creux, produisant un rythme lors de leurs parades.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Probosciger_aterrimus",
+    "distractors": [
+      "photo-081",
+      "photo-077",
+      "photo-049"
+    ]
+  },
+  {
+    "id": "photo-072",
+    "scientificName": "Rhinoplax vigil",
+    "animal": "Calao à casque rond",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "largebeak",
+    "recognition": "Cou nu et casque épais à l’avant du bec.",
+    "didYouKnow": "Son cri comprend une série de notes qui s’accélère et se termine par un son rappelant un rire.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rhinoplax_vigil",
+    "distractors": [
+      "photo-046",
+      "photo-082",
+      "photo-087"
+    ]
+  },
+  {
+    "id": "photo-073",
+    "scientificName": "Sagittarius serpentarius",
+    "animal": "Messager sagittaire",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "raptor",
+    "recognition": "Rapace aux très longues pattes et aux plumes noires dressées derrière la tête.",
+    "didYouKnow": "Ses plumes allongées à l’arrière de la tête lui ont valu des noms évoquant les anciennes plumes d’écriture des secrétaires.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sagittarius_serpentarius",
+    "distractors": [
+      "photo-153",
+      "photo-011",
+      "photo-105"
+    ]
+  },
+  {
+    "id": "photo-074",
+    "scientificName": "Trogon elegans",
+    "animal": "Trogon élégant",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "smallbird",
+    "recognition": "Bec court et large, dos vert et ventre rouge chez le mâle.",
+    "didYouKnow": "Ses pieds présentent une disposition rare des doigts : les premier et deuxième doigts sont tournés vers l’arrière.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Trogon_elegans",
+    "distractors": [
+      "photo-060",
+      "photo-055",
+      "photo-076"
+    ]
+  },
+  {
+    "id": "photo-075",
+    "scientificName": "Eudromia elegans",
+    "animal": "Tinamou élégant",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "groundbird",
+    "recognition": "Oiseau terrestre moucheté avec une fine huppe dressée.",
+    "didYouKnow": "Plusieurs femelles peuvent pondre dans un même nid dont un mâle assure l’incubation.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Eudromia_elegans",
+    "distractors": [
+      "photo-049",
+      "photo-062",
+      "photo-063"
+    ]
+  },
+  {
+    "id": "photo-076",
+    "scientificName": "Merops apiaster",
+    "animal": "Guêpier d’Europe",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "smallbird",
+    "recognition": "Mélange vif de jaune, de bleu et de brun roux, avec un bec légèrement courbé.",
+    "didYouKnow": "Il creuse un tunnel de nidification dans une paroi de terre meuble, souvent au sein d’une colonie.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Merops_apiaster",
+    "distractors": [
+      "photo-108",
+      "photo-152",
+      "photo-037"
+    ]
+  },
+  {
+    "id": "photo-077",
+    "scientificName": "Coracias garrulus",
+    "animal": "Rollier d’Europe",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "smallbird",
+    "recognition": "Plumage bleu turquoise contrastant avec un dos brun.",
+    "didYouKnow": "Il utilise volontiers des cavités déjà disponibles pour nicher, plutôt que de les creuser lui-même.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Coracias_garrulus",
+    "distractors": [
+      "photo-054",
+      "photo-082",
+      "photo-089"
+    ]
+  },
+  {
+    "id": "photo-078",
+    "scientificName": "Upupa epops",
+    "animal": "Huppe fasciée",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "smallbird",
+    "recognition": "Huppe orangée à pointes noires et ailes rayées de blanc et de noir.",
+    "didYouKnow": "Les jeunes peuvent se défendre au nid en projetant des excréments vers un intrus.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Upupa_epops",
+    "distractors": [
+      "photo-040",
+      "photo-091",
+      "photo-101"
+    ]
+  },
+  {
+    "id": "photo-079",
+    "scientificName": "Fratercula arctica",
+    "animal": "Macareux moine",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "seabird",
+    "recognition": "Corps noir et blanc, face claire et gros bec coloré en saison de reproduction.",
+    "didYouKnow": "La couleur et la forme apparente du bec changent hors de la saison nuptiale après la perte de certaines structures externes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Fratercula_arctica",
+    "distractors": [
+      "photo-005",
+      "photo-181",
+      "photo-043"
+    ]
+  },
+  {
+    "id": "photo-080",
+    "scientificName": "Gulosus aristotelis",
+    "animal": "Cormoran huppé",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "seabird",
+    "recognition": "Oiseau marin sombre et élancé avec un bec fin, parfois une petite huppe.",
+    "didYouKnow": "Ses poussins naissent presque nus et dépendent longtemps de la chaleur et des apports alimentaires des parents.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gulosus_aristotelis",
+    "distractors": [
+      "photo-081",
+      "photo-089",
+      "photo-079"
+    ]
+  },
+  {
+    "id": "photo-081",
+    "scientificName": "Alca torda",
+    "animal": "Pingouin torda",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "seabird",
+    "recognition": "Oiseau marin noir et blanc au bec épais et comprimé, barré de blanc chez l’adulte.",
+    "didYouKnow": "La femelle pond généralement un seul œuf par saison, directement sur une corniche ou dans une anfractuosité rocheuse.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Alca_torda",
+    "distractors": [
+      "photo-080",
+      "photo-079",
+      "photo-089"
+    ]
+  },
+  {
+    "id": "photo-082",
+    "scientificName": "Caprimulgus europaeus",
+    "animal": "Engoulevent d’Europe",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "groundbird",
+    "recognition": "Plumage brun-gris finement marbré et très grande ouverture buccale.",
+    "didYouKnow": "Les mâles peuvent produire des claquements d’ailes lors de certaines parades.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Caprimulgus_europaeus",
+    "distractors": [
+      "photo-063",
+      "photo-049",
+      "photo-047"
+    ]
+  },
+  {
+    "id": "photo-083",
+    "scientificName": "Phalaropus lobatus",
+    "animal": "Phalarope à bec étroit",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "wader",
+    "recognition": "Petit limicole nageur au bec fin; en plumage nuptial, le cou porte du roux.",
+    "didYouKnow": "Il peut tourner sur lui-même à la surface de l’eau pour créer un courant qui rapproche de petites proies de son bec.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Phalaropus_lobatus",
+    "distractors": [
+      "photo-053",
+      "photo-067",
+      "photo-051"
+    ]
+  },
+  {
+    "id": "photo-084",
+    "scientificName": "Limosa lapponica",
+    "animal": "Barge rousse",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "wader",
+    "recognition": "Long bec légèrement relevé et longues pattes de limicole.",
+    "didYouKnow": "Son organisme peut modifier la taille de certains organes avant une longue migration, notamment ses réserves et son appareil digestif.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Limosa_lapponica",
+    "distractors": [
+      "photo-067",
+      "photo-083",
+      "photo-053"
+    ]
+  },
+  {
+    "id": "photo-085",
+    "scientificName": "Neophema chrysogaster",
+    "animal": "Perruche à ventre orange",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "parrot",
+    "recognition": "Petite perruche verte avec une tache orange sur le ventre.",
+    "didYouKnow": "Elle se reproduit en Tasmanie et traverse le détroit de Bass pour rejoindre ses zones d’hivernage australiennes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Neophema_chrysogaster",
+    "distractors": [
+      "photo-071",
+      "photo-050",
+      "photo-070"
+    ]
+  },
+  {
+    "id": "photo-086",
+    "scientificName": "Eolophus roseicapilla",
+    "animal": "Cacatoès rosalbin",
+    "category": "birds",
+    "difficulty": "easy",
+    "group": "parrot",
+    "recognition": "Poitrine rose, dos gris et courte huppe claire.",
+    "didYouKnow": "Il peut se suspendre la tête en bas et effectuer des jeux aériens ou des glissades sur des supports.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Eolophus_roseicapilla",
+    "distractors": [
+      "photo-149",
+      "photo-023",
+      "photo-001"
+    ]
+  },
+  {
+    "id": "photo-087",
+    "scientificName": "Cyanopsitta spixii",
+    "animal": "Ara de Spix",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "parrot",
+    "recognition": "Petit ara bleu avec une tête d’un bleu-gris plus pâle.",
+    "didYouKnow": "Les programmes de conservation ont conservé des individus en captivité après sa disparition de son aire sauvage connue.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cyanopsitta_spixii",
+    "distractors": [
+      "photo-050",
+      "photo-085",
+      "photo-086"
+    ]
+  },
+  {
+    "id": "photo-088",
+    "scientificName": "Podiceps cristatus",
+    "animal": "Grèbe huppé",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "waterbird",
+    "recognition": "Long cou, bec fin et collerette colorée en plumage nuptial.",
+    "didYouKnow": "Les jeunes peuvent être transportés sur le dos d’un parent, entre les plumes des ailes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Podiceps_cristatus",
+    "distractors": [
+      "photo-067",
+      "photo-081",
+      "photo-049"
+    ]
+  },
+  {
+    "id": "photo-089",
+    "scientificName": "Fregata magnificens",
+    "animal": "Frégate superbe",
+    "category": "birds",
+    "difficulty": "medium",
+    "group": "seabird",
+    "recognition": "Oiseau marin sombre aux longues ailes anguleuses et à la queue profondément fourchue.",
+    "didYouKnow": "La croissance et la dépendance des jeunes peuvent être très longues pour un oiseau marin de sa taille.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Fregata_magnificens",
+    "distractors": [
+      "photo-080",
+      "photo-061",
+      "photo-060"
+    ]
+  },
+  {
+    "id": "photo-090",
+    "scientificName": "Cathartes aura",
+    "animal": "Urubu à tête rouge",
+    "category": "birds",
+    "difficulty": "hard",
+    "group": "raptor",
+    "recognition": "Grand vautour sombre à tête rouge nue chez l’adulte.",
+    "didYouKnow": "Il laisse refroidir ses pattes en les souillant de déjections liquides, un mécanisme appelé urohidrose.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cathartes_aura",
+    "distractors": [
+      "photo-068",
+      "photo-073",
+      "photo-065"
+    ]
+  },
+  {
+    "id": "photo-091",
+    "scientificName": "Gavialis gangeticus",
+    "animal": "Gavial du Gange",
+    "category": "reptiles",
+    "difficulty": "easy",
+    "group": "crocodilian",
+    "recognition": "Museau extrêmement long et étroit, garni de nombreuses dents fines.",
+    "didYouKnow": "Les femelles déposent leurs œufs dans le sable des berges et surveillent la zone de nidification.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gavialis_gangeticus",
+    "distractors": [
+      "photo-032",
+      "photo-007",
+      "photo-170"
+    ]
+  },
+  {
+    "id": "photo-092",
+    "scientificName": "Chelus fimbriata",
+    "animal": "Tortue mata mata",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "turtle",
+    "recognition": "Tête large et aplatie bordée de franges, long cou et carapace rugueuse.",
+    "didYouKnow": "Elle passe beaucoup de temps immobile sur le fond et remonte son nez tubulaire vers la surface pour respirer.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chelus_fimbriata",
+    "distractors": [
+      "photo-095",
+      "photo-119",
+      "photo-116"
+    ]
+  },
+  {
+    "id": "photo-093",
+    "scientificName": "Carettochelys insculpta",
+    "animal": "Tortue à nez de cochon",
+    "category": "reptiles",
+    "difficulty": "easy",
+    "group": "turtle",
+    "recognition": "Nez charnu retroussé et membres transformés en palettes.",
+    "didYouKnow": "Bien qu’elle vive en eau douce, ses femelles pondent leurs œufs dans des berges sableuses hors de l’eau.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Carettochelys_insculpta",
+    "distractors": [
+      "photo-049",
+      "photo-066",
+      "photo-047"
+    ]
+  },
+  {
+    "id": "photo-094",
+    "scientificName": "Malacochersus tornieri",
+    "animal": "Tortue crêpe",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "turtle",
+    "recognition": "Carapace très aplatie qui permet de se glisser dans les anfractuosités.",
+    "didYouKnow": "Elle peut se déplacer avec une agilité inhabituelle pour une tortue terrestre et escalader des surfaces rocheuses.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Malacochersus_tornieri",
+    "distractors": [
+      "photo-110",
+      "photo-096",
+      "photo-107"
+    ]
+  },
+  {
+    "id": "photo-095",
+    "scientificName": "Sphenodon punctatus",
+    "animal": "Sphénodon ponctué",
+    "category": "reptiles",
+    "difficulty": "hard",
+    "group": "lizard",
+    "recognition": "Corps de reptile brun-gris avec une crête de petites épines sur le dos.",
+    "didYouKnow": "Les dents de la mâchoire inférieure se ferment entre deux rangées supérieures, une disposition très particulière.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sphenodon_punctatus",
+    "distractors": [
+      "photo-124",
+      "photo-119",
+      "photo-097"
+    ]
+  },
+  {
+    "id": "photo-096",
+    "scientificName": "Moloch horridus",
+    "animal": "Moloch hérissé",
+    "category": "reptiles",
+    "difficulty": "easy",
+    "group": "lizard",
+    "recognition": "Petit lézard trapu entièrement couvert d’épines.",
+    "didYouKnow": "Une fausse tête épineuse située derrière son cou peut être présentée à un prédateur lorsqu’il baisse la vraie tête.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Moloch_horridus",
+    "distractors": [
+      "photo-027",
+      "photo-141",
+      "photo-180"
+    ]
+  },
+  {
+    "id": "photo-097",
+    "scientificName": "Chlamydosaurus kingii",
+    "animal": "Lézard à collerette",
+    "category": "reptiles",
+    "difficulty": "easy",
+    "group": "lizard",
+    "recognition": "Une large membrane peut se déployer autour du cou.",
+    "didYouKnow": "Il passe une grande partie de son temps dans les arbres, même si ses courses défensives au sol sont célèbres.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chlamydosaurus_kingii",
+    "distractors": [
+      "photo-183",
+      "photo-150",
+      "photo-137"
+    ]
+  },
+  {
+    "id": "photo-098",
+    "scientificName": "Tiliqua scincoides",
+    "animal": "Scinque à langue bleue",
+    "category": "reptiles",
+    "difficulty": "easy",
+    "group": "lizard",
+    "recognition": "Lézard massif à petites pattes et large langue bleue.",
+    "didYouKnow": "Ses petits naissent vivants, plutôt que d’éclore à l’extérieur d’un œuf pondu.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tiliqua_scincoides",
+    "distractors": [
+      "photo-008",
+      "photo-058",
+      "photo-063"
+    ]
+  },
+  {
+    "id": "photo-099",
+    "scientificName": "Lampropeltis californiae",
+    "animal": "Serpent-roi de Californie",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "snake",
+    "recognition": "Corps lisse portant souvent des bandes noires et claires très contrastées.",
+    "didYouKnow": "Il peut consommer d’autres serpents et présente une résistance à certains venins de ses proies, sans être invulnérable à tous les venins.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lampropeltis_californiae",
+    "distractors": [
+      "photo-107",
+      "photo-119",
+      "photo-109"
+    ]
+  },
+  {
+    "id": "photo-100",
+    "scientificName": "Ptychozoon kuhli",
+    "animal": "Gecko volant de Kuhl",
+    "category": "reptiles",
+    "difficulty": "hard",
+    "group": "gecko",
+    "recognition": "Contours du corps frangés et larges expansions autour des membres et de la queue.",
+    "didYouKnow": "Sa coloration marbrée et ses contours irréguliers atténuent sa silhouette contre l’écorce.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ptychozoon_kuhli",
+    "distractors": [
+      "photo-121",
+      "photo-122",
+      "photo-102"
+    ]
+  },
+  {
+    "id": "photo-101",
+    "scientificName": "Crotalus cerastes",
+    "animal": "Crotale cornu",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "snake",
+    "recognition": "Petites écailles dressées au-dessus des yeux et corps de vipéridé trapu.",
+    "didYouKnow": "Son déplacement latéral réduit le contact prolongé de certaines parties du corps avec le sable chaud.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Crotalus_cerastes",
+    "distractors": [
+      "photo-105",
+      "photo-125",
+      "photo-107"
+    ]
+  },
+  {
+    "id": "photo-102",
+    "scientificName": "Sauromalus ater",
+    "animal": "Chuckwalla commun",
+    "category": "reptiles",
+    "difficulty": "hard",
+    "group": "lizard",
+    "recognition": "Lézard robuste à ventre large et à peau plissée.",
+    "didYouKnow": "Il peut gonfler son corps lorsqu’il se trouve dans une fissure rocheuse, ce qui rend son extraction difficile.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sauromalus_ater",
+    "distractors": [
+      "photo-124",
+      "photo-113",
+      "photo-106"
+    ]
+  },
+  {
+    "id": "photo-103",
+    "scientificName": "Brachylophus fasciatus",
+    "animal": "Iguane à bandes des Fidji",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "lizard",
+    "recognition": "Corps vert vif; le mâle porte de larges bandes claires.",
+    "didYouKnow": "La femelle creuse un nid au sol pour y enfouir ses œufs, dont l’incubation est relativement longue.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Brachylophus_fasciatus",
+    "distractors": [
+      "photo-113",
+      "photo-116",
+      "photo-119"
+    ]
+  },
+  {
+    "id": "photo-104",
+    "scientificName": "Phrynosoma cornutum",
+    "animal": "Lézard cornu du Texas",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "lizard",
+    "recognition": "Corps aplati et trapu avec une couronne d’épines sur la tête.",
+    "didYouKnow": "Lorsqu’il se sent menacé, il peut aplatir son corps et orienter ses épines vers l’attaquant.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Phrynosoma_cornutum",
+    "distractors": [
+      "photo-106",
+      "photo-108",
+      "photo-113"
+    ]
+  },
+  {
+    "id": "photo-105",
+    "scientificName": "Heloderma suspectum",
+    "animal": "Monstre de Gila",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "lizard",
+    "recognition": "Peau bosselée formant un motif noir et rose-orangé.",
+    "didYouKnow": "Une grande partie de ses réserves énergétiques est stockée sous forme de graisse dans sa queue.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Heloderma_suspectum",
+    "distractors": [
+      "photo-123",
+      "photo-102",
+      "photo-098"
+    ]
+  },
+  {
+    "id": "photo-106",
+    "scientificName": "Amblyrhynchus cristatus",
+    "animal": "Iguane marin",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "lizard",
+    "recognition": "Iguane sombre à museau court, forte crête et longue queue comprimée.",
+    "didYouKnow": "Ses griffes puissantes lui permettent de s’ancrer sur des rochers exposés à la houle.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Amblyrhynchus_cristatus",
+    "distractors": [
+      "photo-099",
+      "photo-094",
+      "photo-096"
+    ]
+  },
+  {
+    "id": "photo-107",
+    "scientificName": "Gopherus polyphemus",
+    "animal": "Tortue gaufrée",
+    "category": "reptiles",
+    "difficulty": "hard",
+    "group": "turtle",
+    "recognition": "Tortue terrestre au dôme modéré avec de larges membres antérieurs fouisseurs.",
+    "didYouKnow": "Ses terriers servent aussi de refuges à de nombreuses autres espèces animales.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gopherus_polyphemus",
+    "distractors": [
+      "photo-094",
+      "photo-115",
+      "photo-116"
+    ]
+  },
+  {
+    "id": "photo-108",
+    "scientificName": "Chelodina longicollis",
+    "animal": "Tortue à long cou",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "turtle",
+    "recognition": "Cou très allongé que la tortue replie sur le côté.",
+    "didYouKnow": "Elle peut parcourir des distances sur terre entre différents points d’eau lorsque les conditions changent.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chelodina_longicollis",
+    "distractors": [
+      "photo-092",
+      "photo-105",
+      "photo-117"
+    ]
+  },
+  {
+    "id": "photo-109",
+    "scientificName": "Dasypeltis scabra",
+    "animal": "Serpent mangeur d’œufs",
+    "category": "reptiles",
+    "difficulty": "hard",
+    "group": "snake",
+    "recognition": "Serpent fin à écailles carénées et à motif brun variable.",
+    "didYouKnow": "Il peut frotter certaines écailles les unes contre les autres pour produire un bruit défensif.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dasypeltis_scabra",
+    "distractors": [
+      "photo-112",
+      "photo-101",
+      "photo-110"
+    ]
+  },
+  {
+    "id": "photo-110",
+    "scientificName": "Chrysopelea paradisi",
+    "animal": "Serpent volant du paradis",
+    "category": "reptiles",
+    "difficulty": "hard",
+    "group": "snake",
+    "recognition": "Serpent arboricole élancé souvent marqué de vert, de noir et de rouge.",
+    "didYouKnow": "Il chasse surtout de petits vertébrés arboricoles, notamment des lézards.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chrysopelea_paradisi",
+    "distractors": [
+      "photo-099",
+      "photo-111",
+      "photo-112"
+    ]
+  },
+  {
+    "id": "photo-111",
+    "scientificName": "Laticauda colubrina",
+    "animal": "Tricot rayé",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "snake",
+    "recognition": "Anneaux sombres sur un corps clair et queue aplatie en palette.",
+    "didYouKnow": "Les mâles sont généralement plus petits que les femelles, ce qui s’accompagne de différences dans les proies exploitées.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Laticauda_colubrina",
+    "distractors": [
+      "photo-106",
+      "photo-114",
+      "photo-095"
+    ]
+  },
+  {
+    "id": "photo-112",
+    "scientificName": "Morelia viridis",
+    "animal": "Python vert",
+    "category": "reptiles",
+    "difficulty": "easy",
+    "group": "snake",
+    "recognition": "Python vert souvent installé en boucles sur une branche.",
+    "didYouKnow": "Ses jeunes peuvent être jaunes ou rougeâtres avant d’acquérir la coloration verte des adultes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Morelia_viridis",
+    "distractors": [
+      "photo-146",
+      "photo-163",
+      "photo-016"
+    ]
+  },
+  {
+    "id": "photo-113",
+    "scientificName": "Scincus scincus",
+    "animal": "Scinque des sables",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "lizard",
+    "recognition": "Corps lisse et fuselé, petites pattes et museau en coin.",
+    "didYouKnow": "Ses paupières protègent les yeux des grains de sable pendant ses déplacements sous la surface.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Scincus_scincus",
+    "distractors": [
+      "photo-120",
+      "photo-101",
+      "photo-110"
+    ]
+  },
+  {
+    "id": "photo-114",
+    "scientificName": "Apalone spinifera",
+    "animal": "Trionyx épineux",
+    "category": "reptiles",
+    "difficulty": "hard",
+    "group": "turtle",
+    "recognition": "Carapace plate et souple avec un nez allongé.",
+    "didYouKnow": "Les mâles adultes sont généralement bien plus petits que les femelles.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Apalone_spinifera",
+    "distractors": [
+      "photo-108",
+      "photo-092",
+      "photo-093"
+    ]
+  },
+  {
+    "id": "photo-115",
+    "scientificName": "Dermochelys coriacea",
+    "animal": "Tortue luth",
+    "category": "reptiles",
+    "difficulty": "easy",
+    "group": "turtle",
+    "recognition": "Carapace sombre sans grandes écailles, parcourue de longues carènes.",
+    "didYouKnow": "Des structures dirigées vers l’arrière tapissent son œsophage et facilitent la rétention de proies glissantes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dermochelys_coriacea",
+    "distractors": [
+      "photo-084",
+      "photo-189",
+      "photo-069"
+    ]
+  },
+  {
+    "id": "photo-116",
+    "scientificName": "Macrochelys temminckii",
+    "animal": "Tortue alligator",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "turtle",
+    "recognition": "Tête massive, bec crochu et trois rangées de fortes bosses sur la carapace.",
+    "didYouKnow": "Elle respire de l’air et doit régulièrement rejoindre la surface, malgré sa vie très aquatique.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Macrochelys_temminckii",
+    "distractors": [
+      "photo-120",
+      "photo-093",
+      "photo-091"
+    ]
+  },
+  {
+    "id": "photo-117",
+    "scientificName": "Basiliscus plumifrons",
+    "animal": "Basilic vert",
+    "category": "reptiles",
+    "difficulty": "easy",
+    "group": "lizard",
+    "recognition": "Lézard vert à grande crête sur la tête et le dos, surtout chez le mâle.",
+    "didYouKnow": "Il est un bon nageur et peut se réfugier dans l’eau lorsqu’il est menacé.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Basiliscus_plumifrons",
+    "distractors": [
+      "photo-166",
+      "photo-192",
+      "photo-003"
+    ]
+  },
+  {
+    "id": "photo-118",
+    "scientificName": "Melanosuchus niger",
+    "animal": "Caïman noir",
+    "category": "reptiles",
+    "difficulty": "hard",
+    "group": "crocodilian",
+    "recognition": "Grand crocodilien sombre au museau plus large que celui du gavial.",
+    "didYouKnow": "Les femelles construisent un nid à partir de végétaux et peuvent défendre les jeunes après leur éclosion.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Melanosuchus_niger",
+    "distractors": [
+      "photo-125",
+      "photo-091",
+      "photo-105"
+    ]
+  },
+  {
+    "id": "photo-119",
+    "scientificName": "Anolis carolinensis",
+    "animal": "Anolis vert",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "lizard",
+    "recognition": "Petit lézard gracile, souvent vert, avec un fanon rosé sous la gorge.",
+    "didYouKnow": "Il peut passer du vert au brun selon plusieurs facteurs, notamment la température et son état physiologique.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Anolis_carolinensis",
+    "distractors": [
+      "photo-112",
+      "photo-115",
+      "photo-099"
+    ]
+  },
+  {
+    "id": "photo-120",
+    "scientificName": "Anguis fragilis",
+    "animal": "Orvet fragile",
+    "category": "reptiles",
+    "difficulty": "medium",
+    "group": "lizard",
+    "recognition": "Corps allongé sans pattes et tête peu distincte du tronc.",
+    "didYouKnow": "Contrairement aux serpents, il possède des paupières mobiles qu’il peut fermer.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Anguis_fragilis",
+    "distractors": [
+      "photo-110",
+      "photo-103",
+      "photo-123"
+    ]
+  },
+  {
+    "id": "photo-121",
+    "scientificName": "Gekko gecko",
+    "animal": "Gecko tokay",
+    "category": "reptiles",
+    "difficulty": "easy",
+    "group": "gecko",
+    "recognition": "Grand gecko gris-bleu couvert de taches orangées.",
+    "didYouKnow": "La femelle colle ses œufs sur un support; la coquille durcit ensuite et les maintient fixés pendant l’incubation.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gekko_gecko",
+    "distractors": [
+      "photo-136",
+      "photo-068",
+      "photo-082"
+    ]
+  },
+  {
+    "id": "photo-122",
+    "scientificName": "Correlophus ciliatus",
+    "animal": "Gecko à crête",
+    "category": "reptiles",
+    "difficulty": "easy",
+    "group": "gecko",
+    "recognition": "Franges ressemblant à des cils au-dessus des yeux et petites crêtes le long de la tête.",
+    "didYouKnow": "L’espèce a été retrouvée en Nouvelle-Calédonie dans les années 1990 après avoir été longtemps considérée comme disparue.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Correlophus_ciliatus",
+    "distractors": [
+      "photo-150",
+      "photo-180",
+      "photo-020"
+    ]
+  },
+  {
+    "id": "photo-123",
+    "scientificName": "Uromastyx aegyptia",
+    "animal": "Fouette-queue d’Égypte",
+    "category": "reptiles",
+    "difficulty": "hard",
+    "group": "lizard",
+    "recognition": "Lézard massif dont la queue porte des anneaux de fortes épines.",
+    "didYouKnow": "Les adultes consomment surtout des végétaux et tirent une partie importante de leur eau de leur nourriture.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Uromastyx_aegyptia",
+    "distractors": [
+      "photo-103",
+      "photo-102",
+      "photo-097"
+    ]
+  },
+  {
+    "id": "photo-124",
+    "scientificName": "Aspidoscelis uniparens",
+    "animal": "Lézard fouette-queue du désert",
+    "category": "reptiles",
+    "difficulty": "hard",
+    "group": "lizard",
+    "recognition": "Petit lézard élancé à longue queue et à lignes claires longitudinales.",
+    "didYouKnow": "Cette espèce est issue d’une histoire évolutive impliquant l’hybridation de lignées ancestrales.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Aspidoscelis_uniparens",
+    "distractors": [
+      "photo-102",
+      "photo-098",
+      "photo-097"
+    ]
+  },
+  {
+    "id": "photo-125",
+    "scientificName": "Alligator sinensis",
+    "animal": "Alligator de Chine",
+    "category": "reptiles",
+    "difficulty": "hard",
+    "group": "crocodilian",
+    "recognition": "Petit alligator à museau court et à plaques osseuses marquées.",
+    "didYouKnow": "Il passe la saison froide à l’abri dans un terrier et réduit alors fortement son activité.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Alligator_sinensis",
+    "distractors": [
+      "photo-118",
+      "photo-091",
+      "photo-092"
+    ]
+  },
+  {
+    "id": "photo-126",
+    "scientificName": "Hydrolagus colliei",
+    "animal": "Chimère du Pacifique",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "oddFish",
+    "recognition": "Grande tête, gros yeux et corps se prolongeant en une queue très fine.",
+    "didYouKnow": "Ses dents sont regroupées en plaques qui peuvent écraser les enveloppes dures de certaines proies.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hydrolagus_colliei",
+    "distractors": [
+      "photo-136",
+      "photo-133",
+      "photo-151"
+    ]
+  },
+  {
+    "id": "photo-127",
+    "scientificName": "Electrophorus electricus",
+    "animal": "Anguille électrique",
+    "category": "fish",
+    "difficulty": "easy",
+    "group": "elongatedFish",
+    "recognition": "Long corps sans nageoire dorsale visible et nageoire anale très étendue.",
+    "didYouKnow": "Ses organes électriques sont constitués de cellules spécialisées dont les décharges peuvent se combiner.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Electrophorus_electricus",
+    "distractors": [
+      "photo-079",
+      "photo-096",
+      "photo-064"
+    ]
+  },
+  {
+    "id": "photo-128",
+    "scientificName": "Arothron hispidus",
+    "animal": "Poisson-ballon à taches blanches",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "roundFish",
+    "recognition": "Corps arrondi ponctué de petites taches claires et museau court.",
+    "didYouKnow": "Ses dents soudées forment des plaques capables de broyer des proies à enveloppe dure.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Arothron_hispidus",
+    "distractors": [
+      "photo-127",
+      "photo-160",
+      "photo-126"
+    ]
+  },
+  {
+    "id": "photo-129",
+    "scientificName": "Toxotes jaculatrix",
+    "animal": "Poisson-archer à bandes",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "reefFish",
+    "recognition": "Corps argenté comprimé avec de larges marques sombres sur le haut des flancs.",
+    "didYouKnow": "Il compense les effets de la réfraction lorsqu’il vise une proie située au-dessus de la surface de l’eau.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Toxotes_jaculatrix",
+    "distractors": [
+      "photo-131",
+      "photo-161",
+      "photo-130"
+    ]
+  },
+  {
+    "id": "photo-130",
+    "scientificName": "Acipenser sturio",
+    "animal": "Esturgeon européen",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "elongatedFish",
+    "recognition": "Museau pointu, barbillons sous la tête et rangées de plaques osseuses.",
+    "didYouKnow": "Son squelette reste en grande partie cartilagineux, bien qu’il appartienne à une lignée de poissons osseux.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Acipenser_sturio",
+    "distractors": [
+      "photo-134",
+      "photo-137",
+      "photo-149"
+    ]
+  },
+  {
+    "id": "photo-131",
+    "scientificName": "Astyanax mexicanus",
+    "animal": "Tétra cavernicole",
+    "category": "fish",
+    "difficulty": "easy",
+    "group": "oddFish",
+    "recognition": "Dans sa forme cavernicole, le corps est pâle et les yeux très réduits ou absents.",
+    "didYouKnow": "Sa ligne latérale détecte des mouvements de l’eau et peut l’aider à repérer des obstacles et de petites proies dans l’obscurité.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Astyanax_mexicanus",
+    "distractors": [
+      "photo-101",
+      "photo-062",
+      "photo-015"
+    ]
+  },
+  {
+    "id": "photo-132",
+    "scientificName": "Latimeria chalumnae",
+    "animal": "Cœlacanthe africain",
+    "category": "fish",
+    "difficulty": "hard",
+    "group": "oddFish",
+    "recognition": "Écailles robustes et nageoires paires portées par des lobes charnus.",
+    "didYouKnow": "Il possède un organe rostral sensoriel qui participe à la détection de signaux électriques.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Latimeria_chalumnae",
+    "distractors": [
+      "photo-131",
+      "photo-133",
+      "photo-126"
+    ]
+  },
+  {
+    "id": "photo-133",
+    "scientificName": "Anableps anableps",
+    "animal": "Poisson à quatre yeux",
+    "category": "fish",
+    "difficulty": "hard",
+    "group": "oddFish",
+    "recognition": "Yeux proéminents placés très haut sur la tête.",
+    "didYouKnow": "La femelle donne naissance à des jeunes déjà formés plutôt que de libérer une ponte d’œufs dans l’eau.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Anableps_anableps",
+    "distractors": [
+      "photo-131",
+      "photo-132",
+      "photo-126"
+    ]
+  },
+  {
+    "id": "photo-134",
+    "scientificName": "Torpedo marmorata",
+    "animal": "Torpille marbrée",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "bottomFish",
+    "recognition": "Disque arrondi brun marbré et queue courte et épaisse.",
+    "didYouKnow": "Ses deux organes électriques dérivent de tissus musculaires spécialisés et se situent de part et d’autre de la tête.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Torpedo_marmorata",
+    "distractors": [
+      "photo-163",
+      "photo-142",
+      "photo-133"
+    ]
+  },
+  {
+    "id": "photo-135",
+    "scientificName": "Chaetodon capistratus",
+    "animal": "Poisson-papillon à quatre yeux",
+    "category": "fish",
+    "difficulty": "hard",
+    "group": "reefFish",
+    "recognition": "Corps clair strié et grande tache noire cerclée de blanc près de l’arrière.",
+    "didYouKnow": "Un couple peut rester associé durablement et défendre une zone d’alimentation sur le récif.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chaetodon_capistratus",
+    "distractors": [
+      "photo-149",
+      "photo-165",
+      "photo-150"
+    ]
+  },
+  {
+    "id": "photo-136",
+    "scientificName": "Chaetodon auriga",
+    "animal": "Poisson-papillon cocher",
+    "category": "fish",
+    "difficulty": "hard",
+    "group": "reefFish",
+    "recognition": "Corps blanc rayé en diagonale, arrière jaune et bande noire sur l’œil.",
+    "didYouKnow": "Sa petite bouche lui permet de prélever des aliments dans des anfractuosités peu accessibles du récif.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chaetodon_auriga",
+    "distractors": [
+      "photo-152",
+      "photo-145",
+      "photo-149"
+    ]
+  },
+  {
+    "id": "photo-137",
+    "scientificName": "Apteronotus albifrons",
+    "animal": "Poisson-couteau fantôme noir",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "elongatedFish",
+    "recognition": "Corps noir en lame, marque claire sur la queue et longue nageoire anale ondulante.",
+    "didYouKnow": "Il émet de faibles signaux électriques qui l’aident à explorer son environnement dans l’obscurité.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Apteronotus_albifrons",
+    "distractors": [
+      "photo-152",
+      "photo-153",
+      "photo-132"
+    ]
+  },
+  {
+    "id": "photo-138",
+    "scientificName": "Anarhichas lupus",
+    "animal": "Loup de l’Atlantique",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "elongatedFish",
+    "recognition": "Grosse tête avec des dents puissantes et un long corps à nageoire dorsale continue.",
+    "didYouKnow": "Ses dents broyeuses sont renouvelées, ce qui compense l’usure provoquée par les coquilles de ses proies.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Anarhichas_lupus",
+    "distractors": [
+      "photo-131",
+      "photo-165",
+      "photo-140"
+    ]
+  },
+  {
+    "id": "photo-139",
+    "scientificName": "Diodon holocanthus",
+    "animal": "Poisson-porc-épic à longues épines",
+    "category": "fish",
+    "difficulty": "easy",
+    "group": "roundFish",
+    "recognition": "Gros yeux et longues épines pouvant se dresser autour du corps.",
+    "didYouKnow": "La nuit, il peut rechercher des mollusques et des crustacés qu’il écrase avec ses mâchoires robustes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Diodon_holocanthus",
+    "distractors": [
+      "photo-073",
+      "photo-021",
+      "photo-103"
+    ]
+  },
+  {
+    "id": "photo-140",
+    "scientificName": "Ostracion cubicus",
+    "animal": "Poisson-coffre jaune",
+    "category": "fish",
+    "difficulty": "easy",
+    "group": "roundFish",
+    "recognition": "Corps anguleux enfermé dans une cuirasse; les jeunes sont jaunes à points noirs.",
+    "didYouKnow": "Sa nage repose surtout sur de petites nageoires qui lui permettent de manœuvrer avec précision à faible vitesse.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ostracion_cubicus",
+    "distractors": [
+      "photo-106",
+      "photo-109",
+      "photo-029"
+    ]
+  },
+  {
+    "id": "photo-141",
+    "scientificName": "Ogcocephalus darwini",
+    "animal": "Poisson chauve-souris des Galápagos",
+    "category": "fish",
+    "difficulty": "hard",
+    "group": "bottomFish",
+    "recognition": "Corps très aplati, nageoires ressemblant à des appuis et lèvres rouges.",
+    "didYouKnow": "Il possède un leurre rétractile sur la tête qui participe à l’attraction de petites proies.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ogcocephalus_darwini",
+    "distractors": [
+      "photo-156",
+      "photo-134",
+      "photo-151"
+    ]
+  },
+  {
+    "id": "photo-142",
+    "scientificName": "Gnathonemus petersii",
+    "animal": "Poisson-éléphant de Peters",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "oddFish",
+    "recognition": "Une extension souple de la lèvre inférieure forme une petite trompe.",
+    "didYouKnow": "Il possède un cerveau relativement volumineux pour un poisson de sa taille.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gnathonemus_petersii",
+    "distractors": [
+      "photo-162",
+      "photo-132",
+      "photo-140"
+    ]
+  },
+  {
+    "id": "photo-143",
+    "scientificName": "Opsanus tau",
+    "animal": "Poisson-crapaud huître",
+    "category": "fish",
+    "difficulty": "hard",
+    "group": "bottomFish",
+    "recognition": "Tête large et aplatie, grosse bouche et corps brun marbré.",
+    "didYouKnow": "Le mâle produit des sons avec sa vessie natatoire pendant la période de reproduction.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Opsanus_tau",
+    "distractors": [
+      "photo-151",
+      "photo-162",
+      "photo-141"
+    ]
+  },
+  {
+    "id": "photo-144",
+    "scientificName": "Myripristis murdjan",
+    "animal": "Poisson-soldat à œillères",
+    "category": "fish",
+    "difficulty": "hard",
+    "group": "reefFish",
+    "recognition": "Poisson rouge à très grands yeux et à corps assez haut.",
+    "didYouKnow": "Il se réfugie souvent à l’ombre le jour et devient plus actif pour se nourrir la nuit.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Myripristis_murdjan",
+    "distractors": [
+      "photo-145",
+      "photo-147",
+      "photo-153"
+    ]
+  },
+  {
+    "id": "photo-145",
+    "scientificName": "Cheilinus undulatus",
+    "animal": "Napoléon",
+    "category": "fish",
+    "difficulty": "easy",
+    "group": "reefFish",
+    "recognition": "Grand labre aux lèvres épaisses et au front renflé chez les grands individus.",
+    "didYouKnow": "Il peut dormir dans un abri récifal et revenir régulièrement vers des zones de repos familières.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cheilinus_undulatus",
+    "distractors": [
+      "photo-179",
+      "photo-090",
+      "photo-106"
+    ]
+  },
+  {
+    "id": "photo-146",
+    "scientificName": "Hemiscyllium ocellatum",
+    "animal": "Requin épaulette",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "shark",
+    "recognition": "Petit requin brun avec une grande tache sombre entourée de clair derrière chaque nageoire pectorale.",
+    "didYouKnow": "Il peut supporter temporairement de très faibles concentrations d’oxygène en modifiant son activité et son fonctionnement physiologique.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hemiscyllium_ocellatum",
+    "distractors": [
+      "photo-126",
+      "photo-147",
+      "photo-163"
+    ]
+  },
+  {
+    "id": "photo-147",
+    "scientificName": "Naso unicornis",
+    "animal": "Poisson-licorne à nez court",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "reefFish",
+    "recognition": "Une protubérance peut apparaître sur le front des individus adultes.",
+    "didYouKnow": "Comme d’autres poissons-chirurgiens, il porte des structures tranchantes près de la base de la queue.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Naso_unicornis",
+    "distractors": [
+      "photo-141",
+      "photo-162",
+      "photo-145"
+    ]
+  },
+  {
+    "id": "photo-148",
+    "scientificName": "Centriscus scutatus",
+    "animal": "Poisson-rasoir strié",
+    "category": "fish",
+    "difficulty": "hard",
+    "group": "elongatedFish",
+    "recognition": "Corps très comprimé et long, habituellement tenu la tête vers le bas.",
+    "didYouKnow": "Il peut se tenir près des piquants de grands oursins, qui lui offrent un refuge contre certains prédateurs.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Centriscus_scutatus",
+    "distractors": [
+      "photo-157",
+      "photo-158",
+      "photo-130"
+    ]
+  },
+  {
+    "id": "photo-149",
+    "scientificName": "Bolbometopon muricatum",
+    "animal": "Poisson-perroquet à bosse",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "reefFish",
+    "recognition": "Front très haut et dents soudées formant un bec massif.",
+    "didYouKnow": "Ses morsures contribuent à la production de sable en broyant des matériaux calcaires du récif.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bolbometopon_muricatum",
+    "distractors": [
+      "photo-135",
+      "photo-151",
+      "photo-131"
+    ]
+  },
+  {
+    "id": "photo-150",
+    "scientificName": "Pomacanthus imperator",
+    "animal": "Poisson-ange empereur",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "reefFish",
+    "recognition": "Les adultes portent de fines bandes jaunes et bleues et un masque sombre.",
+    "didYouKnow": "Les jeunes présentent un motif de cercles et de courbes très différent des bandes des adultes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pomacanthus_imperator",
+    "distractors": [
+      "photo-137",
+      "photo-146",
+      "photo-152"
+    ]
+  },
+  {
+    "id": "photo-151",
+    "scientificName": "Clarias batrachus",
+    "animal": "Poisson-chat marcheur",
+    "category": "fish",
+    "difficulty": "hard",
+    "group": "bottomFish",
+    "recognition": "Long corps sombre, larges barbillons et nageoires dorsale et anale étirées.",
+    "didYouKnow": "Un organe respiratoire accessoire lui permet d’exploiter l’oxygène de l’air dans des conditions aquatiques défavorables.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Clarias_batrachus",
+    "distractors": [
+      "photo-143",
+      "photo-155",
+      "photo-141"
+    ]
+  },
+  {
+    "id": "photo-152",
+    "scientificName": "Pomacanthus paru",
+    "animal": "Poisson-ange français",
+    "category": "fish",
+    "difficulty": "hard",
+    "group": "reefFish",
+    "recognition": "Corps sombre semé d’écailles bordées de jaune et contour clair autour de l’œil.",
+    "didYouKnow": "Les jeunes peuvent nettoyer d’autres poissons en prélevant de petits organismes présents sur leur peau.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pomacanthus_paru",
+    "distractors": [
+      "photo-160",
+      "photo-163",
+      "photo-147"
+    ]
+  },
+  {
+    "id": "photo-153",
+    "scientificName": "Chelmon rostratus",
+    "animal": "Poisson-papillon à long nez",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "reefFish",
+    "recognition": "Long museau fin et bandes verticales orangées sur un corps clair.",
+    "didYouKnow": "Sa silhouette mince lui permet de manœuvrer entre des formations du récif où il recherche de petits invertébrés.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chelmon_rostratus",
+    "distractors": [
+      "photo-148",
+      "photo-131",
+      "photo-136"
+    ]
+  },
+  {
+    "id": "photo-154",
+    "scientificName": "Sargocentron rubrum",
+    "animal": "Poisson-écureuil rouge",
+    "category": "fish",
+    "difficulty": "hard",
+    "group": "reefFish",
+    "recognition": "Corps rouge portant des lignes claires longitudinales et grands yeux.",
+    "didYouKnow": "Il peut émettre des sons impliquant les structures associées à sa vessie natatoire.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sargocentron_rubrum",
+    "distractors": [
+      "photo-150",
+      "photo-159",
+      "photo-163"
+    ]
+  },
+  {
+    "id": "photo-155",
+    "scientificName": "Periophthalmus argentilineatus",
+    "animal": "Périophthalme argenté",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "bottomFish",
+    "recognition": "Yeux placés au sommet de la tête et nageoires pectorales servant d’appuis.",
+    "didYouKnow": "Il peut maintenir ses yeux humides en les rétractant dans des cavités sous les orbites.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Periophthalmus_argentilineatus",
+    "distractors": [
+      "photo-160",
+      "photo-126",
+      "photo-142"
+    ]
+  },
+  {
+    "id": "photo-156",
+    "scientificName": "Cymbacephalus beauforti",
+    "animal": "Poisson-crocodile de Beaufort",
+    "category": "fish",
+    "difficulty": "hard",
+    "group": "bottomFish",
+    "recognition": "Tête très aplatie, yeux frangés et robe marbrée.",
+    "didYouKnow": "Il chasse à l’affût en comptant sur l’immobilité et son camouflage plutôt que sur de longues poursuites.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cymbacephalus_beauforti",
+    "distractors": [
+      "photo-155",
+      "photo-151",
+      "photo-141"
+    ]
+  },
+  {
+    "id": "photo-157",
+    "scientificName": "Solenostomus paradoxus",
+    "animal": "Poisson-fantôme arlequin",
+    "category": "fish",
+    "difficulty": "hard",
+    "group": "elongatedFish",
+    "recognition": "Corps étoilé de prolongements fins et long museau tubulaire.",
+    "didYouKnow": "La femelle peut porter les œufs dans une poche formée par ses nageoires pelviennes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Solenostomus_paradoxus",
+    "distractors": [
+      "photo-158",
+      "photo-137",
+      "photo-138"
+    ]
+  },
+  {
+    "id": "photo-158",
+    "scientificName": "Protopterus annectens",
+    "animal": "Dipneuste africain",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "elongatedFish",
+    "recognition": "Corps allongé et nageoires paires réduites à des filaments.",
+    "didYouKnow": "Lors de l’assèchement, il peut former un cocon de mucus dans le sol et ralentir fortement son métabolisme.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Protopterus_annectens",
+    "distractors": [
+      "photo-159",
+      "photo-156",
+      "photo-137"
+    ]
+  },
+  {
+    "id": "photo-159",
+    "scientificName": "Scarus coeruleus",
+    "animal": "Poisson-perroquet bleu",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "reefFish",
+    "recognition": "Grand poisson au corps bleu et aux dents réunies en bec.",
+    "didYouKnow": "Il possède un appareil broyeur dans le pharynx qui continue de fragmenter les matériaux ingérés après la morsure.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Scarus_coeruleus",
+    "distractors": [
+      "photo-153",
+      "photo-151",
+      "photo-165"
+    ]
+  },
+  {
+    "id": "photo-160",
+    "scientificName": "Synchiropus splendidus",
+    "animal": "Poisson-mandarin",
+    "category": "fish",
+    "difficulty": "easy",
+    "group": "reefFish",
+    "recognition": "Corps orné de lignes sinueuses bleues, orange et vertes.",
+    "didYouKnow": "Sa peau produit un mucus qui participe à sa protection et il ne possède pas les écailles typiques de beaucoup de poissons.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Synchiropus_splendidus",
+    "distractors": [
+      "photo-169",
+      "photo-176",
+      "photo-105"
+    ]
+  },
+  {
+    "id": "photo-161",
+    "scientificName": "Stegostoma tigrinum",
+    "animal": "Requin-zèbre",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "shark",
+    "recognition": "Très longue queue; les adultes sont tachetés, contrairement aux jeunes rayés.",
+    "didYouKnow": "Les adultes passent souvent la journée posés sur le fond et deviennent plus actifs la nuit.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Stegostoma_tigrinum",
+    "distractors": [
+      "photo-129",
+      "photo-164",
+      "photo-153"
+    ]
+  },
+  {
+    "id": "photo-162",
+    "scientificName": "Aetobatus narinari",
+    "animal": "Raie aigle tachetée",
+    "category": "fish",
+    "difficulty": "medium",
+    "group": "bottomFish",
+    "recognition": "Large disque aux ailes triangulaires, dos tacheté et longue queue fine.",
+    "didYouKnow": "Ses dents forment des plaques aptes à broyer les coquilles de mollusques et d’autres proies du fond.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Aetobatus_narinari",
+    "distractors": [
+      "photo-127",
+      "photo-164",
+      "photo-143"
+    ]
+  },
+  {
+    "id": "photo-163",
+    "scientificName": "Pterapogon kauderni",
+    "animal": "Apogon de Banggaï",
+    "category": "fish",
+    "difficulty": "easy",
+    "group": "reefFish",
+    "recognition": "Grandes nageoires, bandes noires verticales et ponctuations blanches.",
+    "didYouKnow": "Le mâle garde les œufs puis les jeunes dans sa bouche pendant une partie de leur développement.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pterapogon_kauderni",
+    "distractors": [
+      "photo-070",
+      "photo-022",
+      "photo-093"
+    ]
+  },
+  {
+    "id": "photo-164",
+    "scientificName": "Rhincodon typus",
+    "animal": "Requin-baleine",
+    "category": "fish",
+    "difficulty": "easy",
+    "group": "shark",
+    "recognition": "Très grand requin à tête aplatie et à dos quadrillé de lignes et de points clairs.",
+    "didYouKnow": "Chaque individu présente un motif de taches suffisamment particulier pour contribuer à son identification photographique.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rhincodon_typus",
+    "distractors": [
+      "photo-073",
+      "photo-007",
+      "photo-080"
+    ]
+  },
+  {
+    "id": "photo-165",
+    "scientificName": "Pterois volitans",
+    "animal": "Rascasse volante",
+    "category": "fish",
+    "difficulty": "easy",
+    "group": "reefFish",
+    "recognition": "Longues épines et larges nageoires rayées déployées comme un éventail.",
+    "didYouKnow": "Elle peut utiliser ses nageoires pectorales pour rabattre de petites proies avant de les aspirer.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pterois_volitans",
+    "distractors": [
+      "photo-094",
+      "photo-027",
+      "photo-176"
+    ]
+  },
+  {
+    "id": "photo-166",
+    "scientificName": "Buprestis octoguttata",
+    "animal": "Bupreste à huit points",
+    "category": "insects",
+    "difficulty": "medium",
+    "group": "beetle",
+    "recognition": "Petit coléoptère à reflets métalliques bleus et à taches jaunes.",
+    "didYouKnow": "Ses reflets métalliques proviennent en grande partie de la manière dont les structures de sa cuticule interagissent avec la lumière.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Buprestis_octoguttata",
+    "distractors": [
+      "photo-169",
+      "photo-200",
+      "photo-173"
+    ]
+  },
+  {
+    "id": "photo-167",
+    "scientificName": "Curculio glandium",
+    "animal": "Balanin du gland",
+    "category": "insects",
+    "difficulty": "hard",
+    "group": "beetle",
+    "recognition": "Coléoptère brun possédant un rostre très long et fin.",
+    "didYouKnow": "La femelle perce un gland pour y déposer un œuf; la larve poursuit ensuite son développement à l’intérieur.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Curculio_glandium",
+    "distractors": [
+      "photo-169",
+      "photo-177",
+      "photo-200"
+    ]
+  },
+  {
+    "id": "photo-168",
+    "scientificName": "Rosalia alpina",
+    "animal": "Rosalie des Alpes",
+    "category": "insects",
+    "difficulty": "medium",
+    "group": "beetle",
+    "recognition": "Longicorne gris-bleu à taches noires et antennes très allongées.",
+    "didYouKnow": "Son développement larvaire dans le bois peut durer plusieurs années avant l’émergence de l’adulte.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rosalia_alpina",
+    "distractors": [
+      "photo-173",
+      "photo-172",
+      "photo-167"
+    ]
+  },
+  {
+    "id": "photo-169",
+    "scientificName": "Dytiscus marginalis",
+    "animal": "Dytique bordé",
+    "category": "insects",
+    "difficulty": "medium",
+    "group": "beetle",
+    "recognition": "Grand coléoptère ovale sombre entouré d’une bordure claire.",
+    "didYouKnow": "Ses pattes arrière aplaties et frangées de soies fonctionnent comme des rames.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dytiscus_marginalis",
+    "distractors": [
+      "photo-166",
+      "photo-174",
+      "photo-176"
+    ]
+  },
+  {
+    "id": "photo-170",
+    "scientificName": "Phyllium philippinicum",
+    "animal": "Phyllie des Philippines",
+    "category": "insects",
+    "difficulty": "easy",
+    "group": "insectOdd",
+    "recognition": "Corps très aplati dont les expansions rappellent une feuille.",
+    "didYouKnow": "Les jeunes fraîchement éclos peuvent présenter une coloration très différente du vert des individus plus âgés.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Phyllium_philippinicum",
+    "distractors": [
+      "photo-111",
+      "photo-016",
+      "photo-102"
+    ]
+  },
+  {
+    "id": "photo-171",
+    "scientificName": "Nepa cinerea",
+    "animal": "Nèpe cendrée",
+    "category": "insects",
+    "difficulty": "hard",
+    "group": "insectOdd",
+    "recognition": "Corps brun aplati, pattes antérieures ravisseuses et long tube à l’arrière.",
+    "didYouKnow": "Le tube visible à l’extrémité de l’abdomen sert à respirer au contact de l’air, et non à piquer.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nepa_cinerea",
+    "distractors": [
+      "photo-170",
+      "photo-176",
+      "photo-172"
+    ]
+  },
+  {
+    "id": "photo-172",
+    "scientificName": "Gryllotalpa gryllotalpa",
+    "animal": "Courtilière commune",
+    "category": "insects",
+    "difficulty": "medium",
+    "group": "insectOdd",
+    "recognition": "Corps brun velouté et pattes avant élargies comme des pelles.",
+    "didYouKnow": "Le mâle utilise une galerie souterraine comme amplificateur pour son chant.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gryllotalpa_gryllotalpa",
+    "distractors": [
+      "photo-169",
+      "photo-175",
+      "photo-179"
+    ]
+  },
+  {
+    "id": "photo-173",
+    "scientificName": "Euglossa dilemma",
+    "animal": "Abeille orchidée",
+    "category": "insects",
+    "difficulty": "hard",
+    "group": "wingedInsect",
+    "recognition": "Corps compact avec une coloration métallique vive.",
+    "didYouKnow": "Les molécules odorantes récoltées par les mâles forment un mélange qui intervient dans leurs signaux de reproduction.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Euglossa_dilemma",
+    "distractors": [
+      "photo-178",
+      "photo-179",
+      "photo-166"
+    ]
+  },
+  {
+    "id": "photo-174",
+    "scientificName": "Oecophylla smaragdina",
+    "animal": "Fourmi tisserande asiatique",
+    "category": "insects",
+    "difficulty": "medium",
+    "group": "insectOdd",
+    "recognition": "Fourmi élancée aux longues pattes; sa coloration peut varier selon la population.",
+    "didYouKnow": "Les ouvrières peuvent se relier par le corps pour tirer ensemble les bords de feuilles éloignées.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Oecophylla_smaragdina",
+    "distractors": [
+      "photo-176",
+      "photo-166",
+      "photo-168"
+    ]
+  },
+  {
+    "id": "photo-175",
+    "scientificName": "Brachinus crepitans",
+    "animal": "Brachine pétardier",
+    "category": "insects",
+    "difficulty": "hard",
+    "group": "beetle",
+    "recognition": "Petit coléoptère aux élytres sombres et à la tête et au thorax orangés.",
+    "didYouKnow": "Les substances de sa défense chimique sont stockées puis mélangées dans un appareil spécialisé avant l’expulsion.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Brachinus_crepitans",
+    "distractors": [
+      "photo-166",
+      "photo-169",
+      "photo-168"
+    ]
+  },
+  {
+    "id": "photo-176",
+    "scientificName": "Gromphadorhina portentosa",
+    "animal": "Blatte souffleuse de Madagascar",
+    "category": "insects",
+    "difficulty": "medium",
+    "group": "insectOdd",
+    "recognition": "Grande blatte sombre sans ailes fonctionnelles et au thorax bombé.",
+    "didYouKnow": "La femelle conserve les œufs dans son corps jusqu’à leur éclosion, puis met au monde de jeunes blattes vivantes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gromphadorhina_portentosa",
+    "distractors": [
+      "photo-168",
+      "photo-166",
+      "photo-177"
+    ]
+  },
+  {
+    "id": "photo-177",
+    "scientificName": "Gyrinus natator",
+    "animal": "Gyrin nageur",
+    "category": "insects",
+    "difficulty": "hard",
+    "group": "beetle",
+    "recognition": "Petit coléoptère ovale brillant qui tourne rapidement à la surface de l’eau.",
+    "didYouKnow": "Ses antennes courtes détectent notamment des perturbations de la surface produites autour de lui.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Gyrinus_natator",
+    "distractors": [
+      "photo-175",
+      "photo-200",
+      "photo-166"
+    ]
+  },
+  {
+    "id": "photo-178",
+    "scientificName": "Ephemera danica",
+    "animal": "Éphémère danoise",
+    "category": "insects",
+    "difficulty": "medium",
+    "group": "wingedInsect",
+    "recognition": "Ailes dressées au repos et longs filaments à l’extrémité de l’abdomen.",
+    "didYouKnow": "Ses larves peuvent creuser dans les sédiments et participent ainsi au remaniement du fond des cours d’eau.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ephemera_danica",
+    "distractors": [
+      "photo-174",
+      "photo-171",
+      "photo-175"
+    ]
+  },
+  {
+    "id": "photo-179",
+    "scientificName": "Vanessa atalanta",
+    "animal": "Vulcain",
+    "category": "insects",
+    "difficulty": "easy",
+    "group": "wingedInsect",
+    "recognition": "Ailes sombres barrées de rouge-orangé et ponctuées de blanc aux extrémités.",
+    "didYouKnow": "Il peut se nourrir de fruits très mûrs et de sève, en plus du nectar de fleurs.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Vanessa_atalanta",
+    "distractors": [
+      "photo-058",
+      "photo-161",
+      "photo-081"
+    ]
+  },
+  {
+    "id": "photo-180",
+    "scientificName": "Odontodactylus scyllarus",
+    "animal": "Crevette-mante paon",
+    "category": "unusual",
+    "difficulty": "medium",
+    "group": "crustacean",
+    "recognition": "Crustacé très coloré aux yeux pédonculés et aux appendices antérieurs massifs.",
+    "didYouKnow": "Son coup peut créer une bulle de cavitation; l’effondrement de cette bulle ajoute une perturbation à celle du choc initial.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Odontodactylus_scyllarus",
+    "distractors": [
+      "photo-199",
+      "photo-190",
+      "photo-182"
+    ]
+  },
+  {
+    "id": "photo-181",
+    "scientificName": "Nautilus pompilius",
+    "animal": "Nautile flammé",
+    "category": "unusual",
+    "difficulty": "easy",
+    "group": "mollusc",
+    "recognition": "Coquille spiralée claire à bandes brunes et nombreux tentacules sans ventouses.",
+    "didYouKnow": "Il expulse de l’eau par un siphon orientable, ce qui lui permet de se propulser et de diriger ses déplacements.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nautilus_pompilius",
+    "distractors": [
+      "photo-135",
+      "photo-118",
+      "photo-068"
+    ]
+  },
+  {
+    "id": "photo-182",
+    "scientificName": "Chromodoris annae",
+    "animal": "Doris d’Anna",
+    "category": "unusual",
+    "difficulty": "medium",
+    "group": "mollusc",
+    "recognition": "Limace marine bleue à lignes noires et bordure jaune-orangé.",
+    "didYouKnow": "Il se nourrit d’éponges marines dont il prélève les tissus grâce à son appareil buccal.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chromodoris_annae",
+    "distractors": [
+      "photo-189",
+      "photo-197",
+      "photo-181"
+    ]
+  },
+  {
+    "id": "photo-183",
+    "scientificName": "Zebrida adamsii",
+    "animal": "Crabe zèbre",
+    "category": "unusual",
+    "difficulty": "hard",
+    "group": "crustacean",
+    "recognition": "Petit crabe clair parcouru de bandes sombres très contrastées.",
+    "didYouKnow": "Ses pattes présentent des adaptations qui l’aident à s’accrocher entre les piquants des oursins.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Zebrida_adamsii",
+    "distractors": [
+      "photo-184",
+      "photo-180",
+      "photo-196"
+    ]
+  },
+  {
+    "id": "photo-184",
+    "scientificName": "Lybia tessellata",
+    "animal": "Crabe boxeur",
+    "category": "unusual",
+    "difficulty": "hard",
+    "group": "crustacean",
+    "recognition": "Petit crabe aux motifs géométriques portant parfois une anémone dans chaque pince.",
+    "didYouKnow": "Ses pinces très spécialisées deviennent moins adaptées à certaines manipulations alimentaires classiques d’autres crabes.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lybia_tessellata",
+    "distractors": [
+      "photo-180",
+      "photo-183",
+      "photo-197"
+    ]
+  },
+  {
+    "id": "photo-185",
+    "scientificName": "Alcyonium digitatum",
+    "animal": "Alcyon digité",
+    "category": "unusual",
+    "difficulty": "hard",
+    "group": "marineOdd",
+    "recognition": "Colonie charnue orange ou claire divisée en lobes rappelant des doigts.",
+    "didYouKnow": "Chaque petit polype de la colonie porte huit tentacules plumeux qui capturent des particules alimentaires.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Alcyonium_digitatum",
+    "distractors": [
+      "photo-186",
+      "photo-189",
+      "photo-195"
+    ]
+  },
+  {
+    "id": "photo-186",
+    "scientificName": "Antedon mediterranea",
+    "animal": "Comatule de Méditerranée",
+    "category": "unusual",
+    "difficulty": "hard",
+    "group": "marineOdd",
+    "recognition": "Nombreux bras plumeux rayonnant autour d’un petit disque central.",
+    "didYouKnow": "Elle peut se déplacer en rampant avec ses appendices et parfois nager grâce aux mouvements de ses bras.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Antedon_mediterranea",
+    "distractors": [
+      "photo-189",
+      "photo-195",
+      "photo-188"
+    ]
+  },
+  {
+    "id": "photo-187",
+    "scientificName": "Elysia chlorotica",
+    "animal": "Élysie émeraude",
+    "category": "unusual",
+    "difficulty": "hard",
+    "group": "mollusc",
+    "recognition": "Limace verte dont les expansions latérales donnent une forme de feuille.",
+    "didYouKnow": "Les jeunes doivent consommer une algue particulière pour acquérir les chloroplastes responsables d’une partie de leur couleur verte.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Elysia_chlorotica",
+    "distractors": [
+      "photo-182",
+      "photo-181",
+      "photo-188"
+    ]
+  },
+  {
+    "id": "photo-188",
+    "scientificName": "Spirobranchus giganteus",
+    "animal": "Spirobranche sapin de Noël",
+    "category": "unusual",
+    "difficulty": "medium",
+    "group": "marineOdd",
+    "recognition": "Deux couronnes spiralées colorées dépassent d’un tube fixé au substrat.",
+    "didYouKnow": "Il peut rétracter très vite ses couronnes dans son tube lorsqu’une ombre ou une perturbation annonce un danger.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Spirobranchus_giganteus",
+    "distractors": [
+      "photo-187",
+      "photo-189",
+      "photo-195"
+    ]
+  },
+  {
+    "id": "photo-189",
+    "scientificName": "Hermodice carunculata",
+    "animal": "Ver de feu barbu",
+    "category": "unusual",
+    "difficulty": "medium",
+    "group": "marineOdd",
+    "recognition": "Ver segmenté portant des touffes blanches sur les côtés.",
+    "didYouKnow": "Ses soies peuvent se détacher dans la peau d’un animal qui le touche et provoquer une irritation importante.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hermodice_carunculata",
+    "distractors": [
+      "photo-186",
+      "photo-194",
+      "photo-190"
+    ]
+  },
+  {
+    "id": "photo-190",
+    "scientificName": "Proteus anguinus",
+    "animal": "Protée anguillard",
+    "category": "unusual",
+    "difficulty": "medium",
+    "group": "amphibian",
+    "recognition": "Salamandre pâle allongée avec de petites pattes et des branchies externes.",
+    "didYouKnow": "Son cycle de vie est lent et des individus peuvent vivre plusieurs décennies dans des conditions favorables.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Proteus_anguinus",
+    "distractors": [
+      "photo-198",
+      "photo-188",
+      "photo-185"
+    ]
+  },
+  {
+    "id": "photo-191",
+    "scientificName": "Pipa pipa",
+    "animal": "Pipa du Suriname",
+    "category": "unusual",
+    "difficulty": "medium",
+    "group": "amphibian",
+    "recognition": "Crapaud très aplati à tête triangulaire et à peau brunâtre rugueuse.",
+    "didYouKnow": "Les doigts de ses pattes avant portent de petites ramifications sensorielles utiles pour explorer le fond.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Pipa_pipa",
+    "distractors": [
+      "photo-198",
+      "photo-182",
+      "photo-193"
+    ]
+  },
+  {
+    "id": "photo-192",
+    "scientificName": "Hyalinobatrachium fleischmanni",
+    "animal": "Grenouille de verre de Fleischmann",
+    "category": "unusual",
+    "difficulty": "medium",
+    "group": "amphibian",
+    "recognition": "Petite grenouille verte aux doigts munis de disques et à la face ventrale translucide.",
+    "didYouKnow": "Ses doigts terminés par des disques l’aident à se maintenir sur les feuilles dans la végétation humide.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hyalinobatrachium_fleischmanni",
+    "distractors": [
+      "photo-184",
+      "photo-190",
+      "photo-189"
+    ]
+  },
+  {
+    "id": "photo-193",
+    "scientificName": "Boulengerula taitana",
+    "animal": "Cécilie des monts Taita",
+    "category": "unusual",
+    "difficulty": "hard",
+    "group": "amphibian",
+    "recognition": "Amphibien sans pattes, au corps annelé rappelant un ver.",
+    "didYouKnow": "Elle vit principalement enfouie dans le sol, où elle recherche de petits invertébrés.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Boulengerula_taitana",
+    "distractors": [
+      "photo-190",
+      "photo-198",
+      "photo-191"
+    ]
+  },
+  {
+    "id": "photo-194",
+    "scientificName": "Euperipatoides rowelli",
+    "animal": "Onychophore de Rowell",
+    "category": "unusual",
+    "difficulty": "hard",
+    "group": "landOdd",
+    "recognition": "Corps velouté allongé avec de nombreuses paires de petites pattes charnues.",
+    "didYouKnow": "Chez cette espèce australienne, les jeunes naissent vivants, alors que d’autres onychophores pondent des œufs.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Euperipatoides_rowelli",
+    "distractors": [
+      "photo-184",
+      "photo-193",
+      "photo-192"
+    ]
+  },
+  {
+    "id": "photo-195",
+    "scientificName": "Limulus polyphemus",
+    "animal": "Limule d’Amérique",
+    "category": "unusual",
+    "difficulty": "easy",
+    "group": "marineOdd",
+    "recognition": "Carapace bombée en fer à cheval et longue pointe caudale.",
+    "didYouKnow": "La queue sert notamment de levier pour se remettre à l’endroit lorsqu’il est retourné.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Limulus_polyphemus",
+    "distractors": [
+      "photo-045",
+      "photo-036",
+      "photo-052"
+    ]
+  },
+  {
+    "id": "photo-196",
+    "scientificName": "Argiope bruennichi",
+    "animal": "Argiope frelon",
+    "category": "unusual",
+    "difficulty": "easy",
+    "group": "arachnid",
+    "recognition": "Abdomen de la femelle rayé de jaune, de noir et de blanc.",
+    "didYouKnow": "La femelle enveloppe ses œufs dans un cocon de soie qui peut passer la mauvaise saison dans la végétation.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Argiope_bruennichi",
+    "distractors": [
+      "photo-074",
+      "photo-015",
+      "photo-031"
+    ]
+  },
+  {
+    "id": "photo-197",
+    "scientificName": "Argyroneta aquatica",
+    "animal": "Argyronète aquatique",
+    "category": "unusual",
+    "difficulty": "hard",
+    "group": "arachnid",
+    "recognition": "Araignée brune dont le corps peut paraître argenté sous l’eau.",
+    "didYouKnow": "Ses poils retiennent une couche d’air autour de l’abdomen lorsqu’elle plonge.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Argyroneta_aquatica",
+    "distractors": [
+      "photo-196",
+      "photo-185",
+      "photo-183"
+    ]
+  },
+  {
+    "id": "photo-198",
+    "scientificName": "Rhacophorus nigropalmatus",
+    "animal": "Grenouille volante de Wallace",
+    "category": "unusual",
+    "difficulty": "medium",
+    "group": "amphibian",
+    "recognition": "Grenouille verte aux très longs doigts largement palmés.",
+    "didYouKnow": "Ses pontes se développent dans des nids de mousse associés à la végétation au-dessus de l’eau.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rhacophorus_nigropalmatus",
+    "distractors": [
+      "photo-191",
+      "photo-190",
+      "photo-197"
+    ]
+  },
+  {
+    "id": "photo-199",
+    "scientificName": "Andrias japonicus",
+    "animal": "Salamandre géante du Japon",
+    "category": "unusual",
+    "difficulty": "medium",
+    "group": "amphibian",
+    "recognition": "Très grand amphibien à tête aplatie et à peau sombre fortement plissée.",
+    "didYouKnow": "Un mâle peut garder une cavité de ponte et ventiler les œufs grâce aux mouvements de sa queue.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Andrias_japonicus",
+    "distractors": [
+      "photo-194",
+      "photo-183",
+      "photo-197"
+    ]
+  },
+  {
+    "id": "photo-200",
+    "scientificName": "Lucanus cervus",
+    "animal": "Lucane cerf-volant",
+    "category": "insects",
+    "difficulty": "easy",
+    "group": "beetle",
+    "recognition": "Le mâle possède de grandes mandibules ramifiées rappelant des bois.",
+    "didYouKnow": "Les femelles possèdent des mandibules plus courtes que celles des grands mâles, mais capables de pincer efficacement.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lucanus_cervus",
+    "distractors": [
+      "photo-161",
+      "photo-139",
+      "photo-133"
+    ]
+  }
+]

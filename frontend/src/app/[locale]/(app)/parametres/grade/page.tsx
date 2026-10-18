@@ -1,4 +1,5 @@
 'use client';
+import { snoozeReminder } from '@/lib/push-notifications';
 
 import { useCallback, useState, useEffect } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
@@ -47,6 +48,7 @@ type NotificationEvent = {
   type: string;
   label: string | null;
   scheduledAt: string;
+  snoozedUntil?: string | null;
   status: string;
   pointsAwarded: number;
   routineId?: string;
@@ -124,6 +126,17 @@ export default function GradePage() {
       void loadData();
     }
   }, [user, token, loadData]);
+
+  const handleSnooze = async (id: string) => {
+    if (!token) return;
+    setActionId(id);
+    try {
+      const event = await snoozeReminder(token, id);
+      setEvents((previous) => previous.map((value) => value.id === id ? { ...value, snoozedUntil: event.snoozedUntil } : value));
+    } catch (error) {
+      setGradeError(t(errorKey(error, { fallback: 'grade.updateError' })));
+    } finally { setActionId(null); }
+  };
 
   const handleMark = async (eventId: string, status: 'done' | 'skipped') => {
     if (!token) return;
@@ -288,7 +301,7 @@ export default function GradePage() {
               statusLabels={statusLabels}
               items={events.map((ev) => ({
                 id: ev.id,
-                date: ev.scheduledAt,
+                date: ev.snoozedUntil ?? ev.scheduledAt,
                 title: eventTitle(ev),
                 status: STATUS_OF[ev.status] ?? 'planned',
                 kind:
@@ -306,6 +319,9 @@ export default function GradePage() {
                         </Button>
                         <Button size="sm" variant="quiet" disabled={actionId === ev.id} onClick={() => handleMark(ev.id, 'skipped')}>
                           {t('grade.markSkipped')}
+                        </Button>
+                        <Button size="sm" variant="quiet" disabled={actionId === ev.id} onClick={() => void handleSnooze(ev.id)}>
+                          {t('grade.snoozeAction')}
                         </Button>
                       </>
                     ) : null}

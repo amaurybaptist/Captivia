@@ -29,6 +29,9 @@ import { UpdateNotificationPreferencesDto } from './dto/notification-preferences
 export class NotificationsController {
   constructor(private readonly notificationsService: NotificationsService) {}
 
+  @Get('notification-capabilities')
+  getCapabilities() { return this.notificationsService.getCapabilities(); }
+
   @Post('push-subscriptions')
   @ApiOperation({
     summary: 'Subscribe to push notifications',

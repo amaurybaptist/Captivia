@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "72298cf964a9f29277068df74da238d23e560d0a70bb654fccbc95400a9546f6",
+  "locale": "it",
+  "questions": [
+    {
+      "id": "fish-001",
+      "animal": "Squalo balena",
+      "prompt": "Di cosa si nutrono principalmente gli squali balena?",
+      "options": [
+        "Plancton filtrato in acqua",
+        "Alghe pascolate sulle barriere coralline",
+        "Molluschi estratti dalla sabbia",
+        "Grandi mammiferi marini"
+      ],
+      "explanation": "Filtra il plancton e i piccoli organismi facendo passare l'acqua attraverso la bocca e sulle branchie.",
+      "didYouKnow": "La sua pelle porta piccoli dentelli dermici che riducono la resistenza.",
+      "imageCaption": "Squalo balena"
+    },
+    {
+      "id": "fish-002",
+      "animal": "Squalo elefante",
+      "prompt": "Quale risorsa filtra lo squalo elefante nuotando con la bocca aperta?",
+      "options": [
+        "Zooplancton",
+        "Fanerogame marine",
+        "Pesci adulti",
+        "Sedimenti ricchi di vermi"
+      ],
+      "explanation": "I suoi rastrelli branchiali contengono minuscoli organismi planctonici mentre l'acqua fuoriesce attraverso le fessure branchiali.",
+      "didYouKnow": "Può raggiungere dimensioni molto grandi, seconde solo allo squalo balena.",
+      "imageCaption": "Squalo elefante"
+    },
+    {
+      "id": "fish-003",
+      "animal": "Squalo nutrice",
+      "prompt": "Quale meccanismo consente allo squalo nutrice di ventilare le branchie senza nuotare in avanti?",
+      "options": [
+        "Pompa l'acqua attraverso la bocca e poi la fa passare sopra le branchie",
+        "Deve nuotare in avanti per forzare l'acqua attraverso le branchie",
+        "Aspira l'acqua attraverso gli spiracoli e la espelle attraverso la bocca",
+        "Ventila le branchie aprendo e chiudendo le coperture come un teleosteo"
+      ],
+      "explanation": "La ventilazione orale fa entrare l'acqua attraverso la bocca e la fa circolare attraverso le branchie, anche quando lo squalo rimane seduto.",
+      "didYouKnow": "Lo squalo nutrice caccia principalmente pesci e invertebrati che vivono di notte vicino al fondale.",
+      "imageCaption": "Squalo nutrice"
+    },
+    {
+      "id": "fish-004",
+      "animal": "Squalo martello",
+      "prompt": "Quali recettori sulla testa dello squalo martello rilevano i deboli campi elettrici delle prede?",
+      "options": [
+        "Le lampadine di Lorenzini",
+        "Neuromasti della linea laterale",
+        "Cellule olfattive nelle narici",
+        "Cellule fotorecettrici della retina"
+      ],
+      "explanation": "Le ampolle di Lorenzini sono elettrorecettori; la loro distribuzione sulla testa allargata aiuta lo squalo a localizzare le prede sepolte.",
+      "didYouKnow": "La testa allargata gli conferisce anche un ampio campo visivo verso il basso.",
+      "imageCaption": "Squalo martello"
+    },
+    {
+      "id": "fish-005",
+      "animal": "squalo volpe",
+      "prompt": "In che modo lo squalo volpe usa spesso la sua lunga coda per cacciare?",
+      "options": [
+        "Sferza l'acqua per disorientare i pesci in branco",
+        "Scava tane nella sabbia",
+        "Filtra il plancton superficiale",
+        "Trasporta le sue uova sulle barriere coralline"
+      ],
+      "explanation": "Il lobo superiore allungato della coda colpisce l'acqua e può stordire i pesci esca.",
+      "didYouKnow": "Gli embrioni di diverse specie si nutrono di uova non fecondate nell'utero.",
+      "imageCaption": "squalo volpe"
+    },
+    {
+      "id": "fish-006",
+      "animal": "Squalo toro",
+      "prompt": "Quale aggiustamento fisiologico consente allo squalo toro di spostarsi dall'acqua salata a quella dolce?",
+      "options": [
+        "Regola l'equilibrio idrico e ionico in base alla salinità",
+        "Mantiene la stessa concentrazione di urea e beve più acqua dolce",
+        "Rifiuta tutti i suoi ioni attraverso i reni senza modificare la ventilazione branchiale",
+        "Riduce l'ingresso dell'acqua chiudendo gli spiracoli"
+      ],
+      "explanation": "Lo squalo toro regola l'equilibrio idrico e ionico del suo corpo quando la salinità cambia.",
+      "didYouKnow": "Come gli altri squali, sostituisce continuamente i denti per tutta la vita.",
+      "imageCaption": "Squalo toro"
+    },
+    {
+      "id": "fish-007",
+      "animal": "Manta",
+      "prompt": "Come fa la manta a raccogliere il plancton?",
+      "options": [
+        "I suoi lobi cefalici dirigono l'acqua verso la bocca",
+        "Lo sfiora con denti a forma di becco.",
+        "Lo cattura con un pungiglione della coda",
+        "Lo raccoglie nelle tane"
+      ],
+      "explanation": "I lobi cefalici incanalano l'acqua carica di plancton verso la bocca e le strutture filtranti.",
+      "didYouKnow": "Le mante non hanno una spina caudale.",
+      "imageCaption": "Manta"
+    },
+    {
+      "id": "fish-008",
+      "animal": "Raggio elettrico",
+      "prompt": "Quali cellule specializzate producono la scarica elettrica di un siluro?",
+      "options": [
+        "Elettrociti organizzati nei suoi organi elettrici",
+        "Neuroni motori delle pinne pettorali",
+        "Cellule sensoriali della linea laterale",
+        "Cellule muscolari isolate attivate casualmente"
+      ],
+      "explanation": "Gli elettrociti sono cellule derivate dalle cellule muscolari; la loro attivazione coordinata produce una scarica.",
+      "didYouKnow": "La torpediniera vive spesso riposata o sepolta sul fondo del mare.",
+      "imageCaption": "Raggio elettrico"
+    },
+    {
+      "id": "fish-009",
+      "animal": "Razza",
+      "prompt": "Qual è lo scopo principale della puntura di razza?",
+      "options": [
+        "Per difendersi da una minaccia",
+        "Per filtrare il plancton",
+        "Attrarre un partner con la luce",
+        "Per scavare una tana profonda"
+      ],
+      "explanation": "Il pungiglione della coda è una difesa, spesso utilizzata se la razza viene calpestata o intrappolata.",
+      "didYouKnow": "La razza generalmente cerca di scappare quando ne ha l'opportunità.",
+      "imageCaption": "Razza"
+    },
+    {
+      "id": "fish-010",
+      "animal": "Pesce sega",
+      "prompt": "A quale gruppo appartiene il pesce sega nonostante il suo rostro dentato?",
+      "options": [
+        "Con raggi cartilaginei",
+        "Pesci ossei della barriera corallina",
+        "Ai mammiferi marini",
+        "Con storione d'acqua dolce"
+      ],
+      "explanation": "Il pesce sega è una razza: le sue fessure branchiali si trovano sotto il corpo appiattito.",
+      "didYouKnow": "I pesci sega sono razze le cui fessure branchiali si trovano sul lato ventrale.",
+      "imageCaption": "Pesce sega"
+    },
+    {
+      "id": "fish-011",
+      "animal": "Chimera",
+      "prompt": "Di quale materiale è costituito principalmente lo scheletro di una chimera?",
+      "options": [
+        "Cartilagine",
+        "Legno calcinato",
+        "Chitina",
+        "Placche completamente ossee"
+      ],
+      "explanation": "Le chimere sono pesci cartilaginei, come gli squali e le razze.",
+      "didYouKnow": "Molti vivono in profondità e depongono capsule di uova.",
+      "imageCaption": "Chimera"
+    },
+    {
+      "id": "fish-012",
+      "animal": "Storione",
+      "prompt": "Quale caratteristica dello scheletro dello storione è notevole?",
+      "options": [
+        "Rimane in gran parte cartilagineo",
+        "È fatto di chitina",
+        "Include nervature esterne visibili",
+        "È costituito da tessuto vegetale mineralizzato"
+      ],
+      "explanation": "Nonostante appartengano ai pesci ossei, il loro scheletro è in gran parte cartilagineo e il cordone dorsale persiste.",
+      "didYouKnow": "Le uova di storione sono tradizionalmente utilizzate per il caviale.",
+      "imageCaption": "Storione"
+    },
+    {
+      "id": "fish-013",
+      "animal": "Anguilla europea",
+      "prompt": "Dove migrano le anguille europee adulte per deporre le uova?",
+      "options": [
+        "Verso il Mar dei Sargassi",
+        "Verso il Mar Baltico",
+        "Verso il Lago Baikal",
+        "Verso il Mar Rosso"
+      ],
+      "explanation": "Dopo essere cresciuti nelle acque continentali, gli adulti argentati attraversano l'Atlantico per raggiungere la zona riproduttiva.",
+      "didYouKnow": "Le giovani anguille diventano cieche trasparenti quando arrivano vicino alla costa.",
+      "imageCaption": "Anguilla europea"
+    },
+    {
+      "id": "fish-014",
+      "animal": "Anguilla elettrica",
+      "prompt": "Come fa l'anguilla elettrica a individuare un ostacolo utilizzando l'elettrolocalizzazione attiva?",
+      "options": [
+        "Emette un debole campo elettrico e ne rileva i disturbi",
+        "Emette ultrasuoni e ne analizza l'eco",
+        "Rileva solo i campi elettrici prodotti dalla preda",
+        "Misura le vibrazioni dell'acqua con le narici"
+      ],
+      "explanation": "Gli oggetti vicini interrompono il campo elettrico emesso dall'anguilla; recettori specializzati rilevano queste deformazioni.",
+      "didYouKnow": "Deve salire in superficie per respirare l'aria atmosferica.",
+      "imageCaption": "Anguilla elettrica"
+    },
+    {
+      "id": "fish-015",
+      "animal": "murena",
+      "prompt": "Come fa la murena a trascinare la preda verso la gola?",
+      "options": [
+        "Con un secondo paio di mascelle faringee",
+        "Con una ventosa situata sulla coda",
+        "Proiettando un getto d'acqua",
+        "Con barbigli che avvolgono la preda"
+      ],
+      "explanation": "Le sue mascelle faringee avanzano nella gola, afferrano la preda e la trascinano verso l'esofago.",
+      "didYouKnow": "Le sue narici vengono utilizzate principalmente per rilevare gli odori, non per respirare.",
+      "imageCaption": "murena"
+    },
+    {
+      "id": "fish-016",
+      "animal": "Pesce pagliaccio",
+      "prompt": "Quale genitore porta le uova fecondate nei pesci pagliaccio?",
+      "options": [
+        "Nessuna: le uova vengono deposte su un substrato",
+        "Il maschio in una sacca ventrale",
+        "La femmina nella sua bocca",
+        "Entrambi i genitori in una tasca condivisa"
+      ],
+      "explanation": "I pesci pagliaccio depongono le uova su un substrato vicino al loro anemone e i genitori sorvegliano le uova.",
+      "didYouKnow": "In un gruppo, l'individuo più grande è solitamente la femmina riproduttiva.",
+      "imageCaption": "Pesce pagliaccio"
+    },
+    {
+      "id": "fish-017",
+      "animal": "Cavalluccio marino",
+      "prompt": "Quale genitore porta gli embrioni in una sacca nei cavallucci marini?",
+      "options": [
+        "Il maschio",
+        "La femmina",
+        "Entrambi i genitori si alternano",
+        "Nessuno: le uova vanno alla deriva liberamente"
+      ],
+      "explanation": "La femmina trasferisce le uova nella sacca di covata del maschio, dove si sviluppano.",
+      "didYouKnow": "I cavallucci marini nuotano in posizione verticale e avanzano utilizzando la pinna dorsale.",
+      "imageCaption": "Cavalluccio marino"
+    },
+    {
+      "id": "fish-018",
+      "animal": "Pesce leone",
+      "prompt": "A cosa servono le spine dorsali del pesce leone?",
+      "options": [
+        "Per scoraggiare i predatori con il loro veleno",
+        "Produrre luce per attirare le prede",
+        "Per filtrare il plancton",
+        "Scavare nelle barriere coralline"
+      ],
+      "explanation": "Le spine velenose costituiscono una difesa; il pesce cattura la preda con la bocca.",
+      "didYouKnow": "Le spine dorsali del pesce leone sono collegate alle ghiandole velenifere.",
+      "imageCaption": "Pesce leone"
+    },
+    {
+      "id": "fish-019",
+      "animal": "Pesce palla",
+      "prompt": "Come fanno i pesci palla ad aumentare rapidamente le loro dimensioni quando sono minacciati?",
+      "options": [
+        "Ingoia l'acqua",
+        "Gonfia le pinne con l'aria",
+        "Rilascia bolle dalle branchie",
+        "Distribuisce placche ossee sotto la pelle"
+      ],
+      "explanation": "Ingoia l'acqua e distende il suo corpo, rendendo più difficile la deglutizione.",
+      "didYouKnow": "La tetrodotossina, presente in alcune specie, può essere pericolosa per i predatori.",
+      "imageCaption": "Pesce palla"
+    },
+    {
+      "id": "fish-020",
+      "animal": "Pesce arciere",
+      "prompt": "Come fa il pesce arciere ad abbattere un insetto sopra l'acqua?",
+      "options": [
+        "Proietta un getto d'acqua preciso",
+        "Salta e lo colpisce con la coda",
+        "Lo attira con una luce",
+        "Lancia una bolla che lo imprigiona"
+      ],
+      "explanation": "Comprime l'acqua nella bocca e dirige un getto verso la preda aerea.",
+      "didYouKnow": "Vive nelle acque dolci e salmastre delle mangrovie e degli estuari dell'Asia.",
+      "imageCaption": "Pesce arciere"
+    },
+    {
+      "id": "fish-021",
+      "animal": "Pesci volanti",
+      "prompt": "Quali pinne permettono ai pesci volanti di planare sopra le onde?",
+      "options": [
+        "Le sue pinne pettorali allargate",
+        "Le sue pinne dorsali si trasformarono in ali",
+        "Le sue pinne pelviche filamentose",
+        "Le sue branchie sono tese"
+      ],
+      "explanation": "Dopo aver accelerato sott'acqua, le sue grandi pinne pettorali fungono da superfici di supporto.",
+      "didYouKnow": "Vola brevemente e non sbatte le ali come un uccello.",
+      "imageCaption": "Pesci volanti"
+    },
+    {
+      "id": "fish-022",
+      "animal": "Tonno rosso",
+      "prompt": "Quale disposizione vascolare aiuta il tonno rosso a trattenere il calore prodotto dai suoi muscoli?",
+      "options": [
+        "Le reti vascolari controcorrente recuperano il calore dal sangue",
+        "Uno strato di grasso blocca completamente la perdita di calore",
+        "Il sangue scorre nella stessa direzione nei vasi adiacenti",
+        "La vescica natatoria trasmette calore ai muscoli"
+      ],
+      "explanation": "Gli scambiatori controcorrente trasferiscono parte del calore dal sangue venoso al sangue arterioso e ne limitano la perdita attraverso le branchie.",
+      "didYouKnow": "Il tonno rosso effettua lunghe migrazioni oceaniche tra le aree di alimentazione e quelle di riproduzione.",
+      "imageCaption": "Tonno rosso"
+    },
+    {
+      "id": "fish-023",
+      "animal": "Luccio",
+      "prompt": "Quale strategia di caccia adottano spesso i lucci?",
+      "options": [
+        "L'agguato nella vegetazione acquatica",
+        "Filtrazione del plancton in acque libere",
+        "Scavando un nido nel fango",
+        "Inseguendo banchi in alto mare"
+      ],
+      "explanation": "Il suo corpo allungato e la mimetizzazione gli permettono di emergere rapidamente da un nascondiglio.",
+      "didYouKnow": "I suoi denti ad angolo all'indietro trattengono la preda catturata.",
+      "imageCaption": "Luccio"
+    },
+    {
+      "id": "fish-024",
+      "animal": "Salmone",
+      "prompt": "Quale senso aiuta i salmoni a ritrovare la strada per tornare al loro corso d'acqua?",
+      "options": [
+        "Olfatto",
+        "Rilevazione di infrasuoni aerei",
+        "Solo visione stellare",
+        "Il sapore del sale nelle sue scaglie"
+      ],
+      "explanation": "Memorizza gli indizi chimici del suo corso d'acqua nativo e li riconosce al suo ritorno.",
+      "didYouKnow": "I giovani salmoni spesso trascorrono parte della loro crescita nei fiumi prima di migrare.",
+      "imageCaption": "Salmone"
+    },
+    {
+      "id": "fish-025",
+      "animal": "Pesce sole blu (Lepomis macrochirus)",
+      "prompt": "Quale genitore spesso custodisce il nido e ventila le uova nel pesce sole blu?",
+      "options": [
+        "Il maschio",
+        "La femmina",
+        "Entrambi i genitori solo di notte",
+        "Nessun genitore"
+      ],
+      "explanation": "Il maschio difende il nido e agita le pinne per far circolare l'acqua sopra le uova.",
+      "didYouKnow": "Il nido è solitamente una depressione circolare su un fondale poco profondo.",
+      "imageCaption": "Pesce sole blu (Lepomis macrochirus)"
+    },
+    {
+      "id": "fish-026",
+      "animal": "Pesce gatto",
+      "prompt": "Che tipo di informazioni possono rilevare i barbigli di un pesce gatto durante l'esplorazione del fondale?",
+      "options": [
+        "Contatti e sostanze chimiche disciolte",
+        "Campi magnetici e ultrasuoni",
+        "Solo temperatura e luce ultravioletta",
+        "Variazioni di salinità su lunghe distanze"
+      ],
+      "explanation": "I barbigli trasportano recettori tattili e gustativi, utili per localizzare il cibo nell'acqua torbida.",
+      "didYouKnow": "Molte specie di pesci gatto non hanno le squame tipiche degli altri pesci ossei.",
+      "imageCaption": "Pesce gatto"
+    },
+    {
+      "id": "fish-027",
+      "animal": "Corydoras",
+      "prompt": "In che modo alcuni Corydora completano lo scambio di gas quando l'acqua è povera di ossigeno?",
+      "options": [
+        "Ingoiano l'aria e assorbono parte dell'ossigeno nell'intestino",
+        "Ingoiano aria e l'ossigeno si diffonde principalmente nella vescica natatoria",
+        "Sfiatano le branchie più rapidamente quando nuotano vicino alla superficie",
+        "Assorbono l'ossigeno atmosferico principalmente attraverso la pelle"
+      ],
+      "explanation": "Alcuni Corydora si avvicinano per ingoiare aria; parte dell'ossigeno passa attraverso la parete intestinale, oltre alle branchie.",
+      "didYouKnow": "Le loro placche ossee proteggono il corpo sotto la pelle.",
+      "imageCaption": "Corydoras"
+    },
+    {
+      "id": "fish-028",
+      "animal": "Pesce pappagallo",
+      "prompt": "Qual è il ruolo del becco del pesce pappagallo?",
+      "options": [
+        "Raschia le alghe dalle rocce e dai coralli",
+        "Filtrare il plancton con i fanoni",
+        "Iniettare il veleno nei coralli",
+        "Scavare gallerie nelle rocce"
+      ],
+      "explanation": "I suoi denti fusi formano un becco adatto a pascolare sul substrato.",
+      "didYouKnow": "Il materiale corallino frantumato contribuisce alla formazione della sabbia su alcune spiagge.",
+      "imageCaption": "Pesce pappagallo"
+    },
+    {
+      "id": "fish-029",
+      "animal": "Ghiozzo e gamberetti pistola",
+      "prompt": "Come fa il ghiozzo ad aiutare i gamberetti quasi ciechi?",
+      "options": [
+        "Fa la guardia e segnala il pericolo con un movimento della coda.",
+        "I gamberetti avvistano i predatori e il ghiozzo scava le tane",
+        "Il ghiozzo nutre i gamberetti con le alghe",
+        "Si scambiano segnali luminosi"
+      ],
+      "explanation": "Il gambero mantiene la tana mentre il ghiozzo sorveglia l'ingresso.",
+      "didYouKnow": "Il contatto tra i due animali mantiene la loro coordinazione.",
+      "imageCaption": "Ghiozzo e gamberetti pistola"
+    },
+    {
+      "id": "fish-030",
+      "animal": "Pesce luna (Mola)",
+      "prompt": "Perché i pesci luna a volte si riscaldano vicino alla superficie dopo un'immersione?",
+      "options": [
+        "Il calore solare riscalda il tuo corpo prima di una nuova immersione",
+        "La luce della luna gli scalda le branchie",
+        "Assorbe il calore dalla sabbia seppellendosi",
+        "La fermentazione del suo cibo produce calore"
+      ],
+      "explanation": "La superficie calda aiuta a compensare il raffreddamento derivante dalle immersioni profonde.",
+      "didYouKnow": "Il pesce luna è il pesce osseo più pesante conosciuto.",
+      "imageCaption": "Pesce luna (Mola)"
+    },
+    {
+      "id": "fish-031",
+      "animal": "Salmone rosso",
+      "prompt": "Quale cambiamento di colore accompagna spesso la deposizione delle uova del salmone rosso?",
+      "options": [
+        "Il corpo diventa rosso e la testa verdastra",
+        "Il corpo diventa argentato e la testa blu",
+        "Le pinne diventano nere senza cambiamenti del corpo",
+        "Il dorso diventa bianco e il ventre giallo"
+      ],
+      "explanation": "I cambiamenti riproduttivi rendono la livrea riproduttiva molto visibile.",
+      "didYouKnow": "Il giovane salmone rosso può crescere in un lago prima di raggiungere il mare.",
+      "imageCaption": "Salmone rosso"
+    },
+    {
+      "id": "fish-032",
+      "animal": "Pesce di grotta",
+      "prompt": "Che senso aiuta i pesci delle caverne a rilevare i movimenti nell'oscurità?",
+      "options": [
+        "La linea laterale",
+        "Visione ultravioletta",
+        "Audizione aerea",
+        "Rilevazione a infrarossi"
+      ],
+      "explanation": "I suoi recettori rilevano i movimenti e le vibrazioni dell'acqua attorno al pesce.",
+      "didYouKnow": "Le popolazioni superficiali di questa specie hanno occhi funzionali e una pigmentazione più pronunciata.",
+      "imageCaption": "Pesce di grotta"
+    },
+    {
+      "id": "fish-033",
+      "animal": "Pesce pagliaccio",
+      "prompt": "Quale cambiamento sociale può verificarsi dopo la scomparsa della femmina dominante del pesce pagliaccio?",
+      "options": [
+        "Il maschio riproduttore può diventare femmina",
+        "La femmina diventa maschio poi il gruppo si disperde",
+        "Tutti i membri diventano donne",
+        "Il gruppo non può sostituire la femmina"
+      ],
+      "explanation": "Nei pesci pagliaccio il sesso cambia a seconda della gerarchia del gruppo.",
+      "didYouKnow": "L'individuo più grande del gruppo è generalmente la femmina.",
+      "imageCaption": "Pesce pagliaccio"
+    },
+    {
+      "id": "fish-034",
+      "animal": "Pesce pappagallo",
+      "prompt": "In che modo il pascolo dei pesci pappagallo può aiutare i coralli?",
+      "options": [
+        "Rimuove le alghe che competono con i coralli giovani",
+        "Fertilizza le alghe con il veleno",
+        "Distrugge le barriere coralline per rilasciare la sabbia",
+        "Respinge i coralli ricoprendoli di muco"
+      ],
+      "explanation": "Il pascolo libera aree in cui possono stabilirsi le larve dei coralli.",
+      "didYouKnow": "I loro becchi possono anche macinare il carbonato di calcio.",
+      "imageCaption": "Pesce pappagallo"
+    },
+    {
+      "id": "fish-035",
+      "animal": "Tilapia",
+      "prompt": "Quale genitore incuba le uova in bocca in molte tilapia?",
+      "options": [
+        "Un genitore, spesso la femmina a seconda della specie",
+        "Il maschio, che tiene le uova su una foglia",
+        "Il maschio, che porta le uova in una sacca",
+        "Nessun genitore, le uova galleggiano ancora"
+      ],
+      "explanation": "L'incubazione tramite bocca protegge le uova dai predatori e dai disturbi.",
+      "didYouKnow": "Nella tilapia, entrambi i genitori possono partecipare alle cure a seconda della specie.",
+      "imageCaption": "Tilapia"
+    },
+    {
+      "id": "fish-036",
+      "animal": "Carpa comune",
+      "prompt": "Come fanno spesso le carpe a trovare il cibo nel fango?",
+      "options": [
+        "Fruga il fondale servendosi dei suoi barbigli sensoriali",
+        "Filtra l'acqua con i suoi barbigli",
+        "Cattura gli insetti sopra l'acqua",
+        "Caccia usando un'esca luminosa"
+      ],
+      "explanation": "I barbigli lo aiutano a localizzare cibo e invertebrati nel sedimento.",
+      "didYouKnow": "La carpa comune può sollevare il fondo mentre scava, risospendendo le particelle.",
+      "imageCaption": "Carpa comune"
+    },
+    {
+      "id": "fish-037",
+      "animal": "Pesce zebra",
+      "prompt": "Perché i pesci zebra vengono utilizzati per studiare lo sviluppo dei vertebrati?",
+      "options": [
+        "I suoi embrioni trasparenti si sviluppano all'esterno del corpo",
+        "Produce un guscio calcareo attorno al suo corpo",
+        "Cambia sesso per adottare l'anemone",
+        "È ricoperto di scaglie velenose"
+      ],
+      "explanation": "La trasparenza permette di osservare dal vivo lo sviluppo degli organi.",
+      "didYouKnow": "È una specie d'acqua dolce originaria dell'Asia meridionale.",
+      "imageCaption": "Pesce zebra"
+    },
+    {
+      "id": "fish-038",
+      "animal": "Pesce combattente siamese",
+      "prompt": "Come costruisce il nido il maschio del pesce combattente siamese?",
+      "options": [
+        "Riunisce bolle sulla superficie",
+        "Favorisce la crescita delle alghe nel nido",
+        "Impedisce alle larve di corallo di insediarsi",
+        "Produce tossine contro i coralli"
+      ],
+      "explanation": "Il maschio crea un nido di bolle e custodisce le uova e poi gli avannotti.",
+      "didYouKnow": "Il combattente siamese può respirare aria grazie ad un organo labirintico accessorio.",
+      "imageCaption": "Pesce combattente siamese"
+    },
+    {
+      "id": "fish-039",
+      "animal": "Gourami",
+      "prompt": "Quale organo permette al gurami di assorbire l'ossigeno dall'aria?",
+      "options": [
+        "L'organo labirintico",
+        "Il padre li porta in una sacca ventrale in tutte le specie",
+        "Entrambi i genitori li incubano nelle branchie",
+        "Nessun genitore: le uova rimangono non protette"
+      ],
+      "explanation": "Questo organo respiratorio accessorio integra l'uso delle branchie.",
+      "didYouKnow": "L'organo labirintico consente ai gourami di utilizzare l'ossigeno dell'aria.",
+      "imageCaption": "Gourami"
+    },
+    {
+      "id": "fish-040",
+      "animal": "Dipnoo africano",
+      "prompt": "Durante l'estivazione, come fa il dipnoo africano a limitare la perdita d'acqua quando il suo habitat si prosciuga?",
+      "options": [
+        "Scava, forma un bozzolo mucoso e riduce il suo metabolismo",
+        "Scava senza bozzolo e mantiene il suo normale metabolismo",
+        "Rimane in superficie e rallenta la respirazione branchiale",
+        "Secerne un bozzolo ma rimane attivo nell'acqua residua"
+      ],
+      "explanation": "Il dipnoo si rintana nel fango e forma un bozzolo mucoso; la sua attività metabolica diminuisce fino al ritorno delle condizioni favorevoli.",
+      "didYouKnow": "I dipnoi appartengono ai pesci con pinne carnose, come i celacanti.",
+      "imageCaption": "Dipnoo africano"
+    },
+    {
+      "id": "fish-041",
+      "animal": "Celacanto",
+      "prompt": "Perché il celacanto viene descritto come un pesce con le pinne carnose?",
+      "options": [
+        "Le sue pinne pari sono sostenute da lobi muscolari",
+        "Costruisce un guscio minerale",
+        "È appeso a un ramo fuori dall'acqua",
+        "Migra in una tana marina"
+      ],
+      "explanation": "Le sue pinne contengono strutture ossee e muscolari interne.",
+      "didYouKnow": "Il celacanto è un sarcopterigi, parente stretto dei tetrapodi.",
+      "imageCaption": "Celacanto"
+    },
+    {
+      "id": "fish-042",
+      "animal": "Storione",
+      "prompt": "Perché le dighe minacciano lo storione migratore?",
+      "options": [
+        "Possono bloccare l'accesso alle zone di riproduzione a monte",
+        "Le sue pinne sono sostenute da piume",
+        "Le sue pinne sono semplici membrane prive di scheletro interno.",
+        "Appartiene ai rettili acquatici"
+      ],
+      "explanation": "Molte specie risalgono i fiumi per riprodursi.",
+      "didYouKnow": "Gli storioni sono tra i più grandi pesci d'acqua dolce.",
+      "imageCaption": "Storione"
+    },
+    {
+      "id": "fish-043",
+      "animal": "Pesce spatola americano",
+      "prompt": "Come si procura il cibo il pesce spatola americano?",
+      "options": [
+        "Filtra lo zooplancton nuotando con la bocca aperta",
+        "Bloccano le correnti oceaniche",
+        "Aumentano l'accesso alle zone di deposizione delle uova",
+        "Trasformano lo storione in un pesce sedentario"
+      ],
+      "explanation": "I suoi rastrelli branchiali trattengono piccoli organismi planctonici.",
+      "didYouKnow": "Il pesce spatola americano è originario del bacino del fiume Mississippi.",
+      "imageCaption": "Pesce spatola americano"
+    },
+    {
+      "id": "fish-044",
+      "animal": "Pesce pagliaccio",
+      "prompt": "In che modo il pesce pagliaccio generalmente evita di innescare le cellule urticanti dell'anemone che lo ospita?",
+      "options": [
+        "Si acclimata alla composizione del muco dell'anemone",
+        "Secerne un muco completamente impermeabile che impedisce qualsiasi contatto",
+        "Attiva le nematocisti a distanza prima di rifugiarsi nell'anemone",
+        "Ha una pelle spessa che resiste a tutti i morsi"
+      ],
+      "explanation": "L'acclimatazione del suo muco superficiale limita il riconoscimento del pesce come preda da parte di alcuni anemoni.",
+      "didYouKnow": "I pesci pagliaccio vivono in gruppi gerarchici dove la femmina riproduttrice è generalmente la più grande.",
+      "imageCaption": "Pesce pagliaccio"
+    },
+    {
+      "id": "fish-045",
+      "animal": "Squalo blu",
+      "prompt": "Quale mimetizzazione aiuta la verdesca nell'oceano?",
+      "options": [
+        "Il dorso blu e il ventre leggero",
+        "Il muco gli permette di mangiare l'anemone",
+        "È naturalmente insensibile a qualsiasi tossina",
+        "L'anemone non ha mai cellule urticanti"
+      ],
+      "explanation": "La schiena si fonde con l'acqua scura vista dall'alto e il ventre con la superficie luminosa vista dal basso.",
+      "didYouKnow": "È una specie pelagica che percorre lunghe distanze.",
+      "imageCaption": "Squalo blu"
+    },
+    {
+      "id": "fish-046",
+      "animal": "Squalo limone",
+      "prompt": "Perché le mangrovie sono importanti per i giovani squali limone?",
+      "options": [
+        "Offrono loro asili nido protetti",
+        "Alette trasparenti come il vetro",
+        "Un guscio osseo completo",
+        "Branchie esterne fluorescenti"
+      ],
+      "explanation": "Le radici forniscono ai giovani nascondigli e risorse alimentari.",
+      "didYouKnow": "Gli squali limone adulti possono tornare nell'area in cui sono nati.",
+      "imageCaption": "Squalo limone"
+    },
+    {
+      "id": "fish-047",
+      "animal": "Pesce pelagico argentato",
+      "prompt": "Qual è lo scopo della lucentezza argentata di molti pesci pelagici?",
+      "options": [
+        "Per ridurre il loro contrasto nell'acqua",
+        "Una pancia blu e una schiena bianca",
+        "Strisce nere che riflettono la luce",
+        "Pelle trasparente senza pigmenti"
+      ],
+      "explanation": "La superficie riflettente li aiuta a mimetizzarsi con la luce ambientale.",
+      "didYouKnow": "Molti pesci di branco hanno i lati argentati.",
+      "imageCaption": "Pesce pelagico argentato"
+    },
+    {
+      "id": "fish-048",
+      "animal": "Pesce a quattro occhi",
+      "prompt": "Come fa il pesce con quattro occhi a monitorare contemporaneamente l'aria e l'acqua?",
+      "options": [
+        "Ogni occhio è diviso in due zone ottiche",
+        "Ogni occhio vede solo sott'acqua",
+        "Ha due paia di occhi indipendenti.",
+        "La visione aerea è garantita dalle sue pinne"
+      ],
+      "explanation": "Le aree superiore e inferiore di ciascun occhio sono adattate per la visione nell'aria e sott'acqua.",
+      "didYouKnow": "Il pesce quattrocchi frequenta le acque salmastre delle mangrovie e degli estuari.",
+      "imageCaption": "Pesce a quattro occhi"
+    },
+    {
+      "id": "fish-049",
+      "animal": "Pesce pagliaccio",
+      "prompt": "Che beneficio riceve talvolta l'anemone dal suo pesce pagliaccio?",
+      "options": [
+        "Il pesce scaccia alcuni intrusi e fornisce nutrienti",
+        "Pulisce l'anemone dal suo scheletro",
+        "Gli fornisce uno stimolo difensivo",
+        "Gli dà luce mediante bioluminescenza"
+      ],
+      "explanation": "Il pesce difende l'anemone e i suoi movimenti possono migliorare la circolazione dell'acqua.",
+      "didYouKnow": "I pesci pagliaccio sono ermafroditi proterandri: il maschio dominante può diventare femmina.",
+      "imageCaption": "Pesce pagliaccio"
+    },
+    {
+      "id": "fish-050",
+      "animal": "Pesce fantasma",
+      "prompt": "Come fa il pesce fantasma a sfuggire al rilevamento?",
+      "options": [
+        "Imita le alghe galleggianti tra le quali vive",
+        "La sua coda si libra sopra l'acqua",
+        "Si mimetizza con muco trasparente",
+        "Vive ancora in acqua dolce"
+      ],
+      "explanation": "La sua sagoma e la sua colorazione ricordano le piante alla deriva.",
+      "didYouKnow": "La sua bocca tubolare succhia piccoli crostacei e altre minuscole prede.",
+      "imageCaption": "Pesce fantasma"
+    },
+    {
+      "id": "fish-051",
+      "animal": "Pesce luna del sud",
+      "prompt": "Come possono i pesci luna rimuovere i parassiti dalla loro pelle?",
+      "options": [
+        "Si trova vicino alla superficie dove gli uccelli marini lo puliscono",
+        "Produce un getto d'acqua",
+        "Filtra il plancton con i fanoni",
+        "Conserva l'aria in una tasca"
+      ],
+      "explanation": "Gli uccelli marini a volte beccano parassiti esterni sul suo corpo.",
+      "didYouKnow": "I pesci luna possono immergersi in profondità per nutrirsi prima di tornare a riscaldarsi.",
+      "imageCaption": "Pesce luna del sud"
+    },
+    {
+      "id": "fish-052",
+      "animal": "Pesce accetta",
+      "prompt": "Perché la pancia del pesce accetta è argentata?",
+      "options": [
+        "Riflette la luce debole e mimetizza la sua sagoma vista dal basso",
+        "Assorbe l'ossigeno attraverso la pelle",
+        "Risucchia il plancton con i fanoni",
+        "Ha una sacca d'aria per galleggiare"
+      ],
+      "explanation": "La riflessione riduce il contrasto con la luce proveniente dalla superficie.",
+      "didYouKnow": "I suoi occhi rivolti verso l'alto rilevano la preda in alto.",
+      "imageCaption": "Pesce accetta d'argento"
+    },
+    {
+      "id": "fish-053",
+      "animal": "Rana pescatrice abissale",
+      "prompt": "In alcune rane pescatrici abissali, cosa succede al maschio dopo essersi attaccato alla femmina?",
+      "options": [
+        "Può fondersi permanentemente con la femmina e condividerne la circolazione",
+        "Rimane un maschio libero che custodisce da solo le uova.",
+        "Si attacca temporaneamente e poi si stacca dopo la deposizione delle uova",
+        "Diventa femmina prima di accoppiarsi con una seconda femmina"
+      ],
+      "explanation": "In diverse rane pescatrici abissali, il maschio nano si attacca alla femmina e può fondersi con lei, garantendo l'accesso ai partner in un vasto ambiente.",
+      "didYouKnow": "In diverse specie la femmina possiede un'appendice luminosa vicino alla bocca.",
+      "imageCaption": "Rana pescatrice abissale (esempio: melanocete di Johnson)"
+    },
+    {
+      "id": "fish-054",
+      "animal": "Pesce ghiacciato antartico",
+      "prompt": "In che modo le proteine antigelo presenti nel pesce ghiaccio limitano i danni da freddo?",
+      "options": [
+        "Si attaccano ai cristalli e ne rallentano la crescita",
+        "Abbassano il punto di congelamento aumentando notevolmente la salinità del sangue",
+        "Promuovono la formazione di cristalli lontano dai tessuti sensibili",
+        "Isolano termicamente gli organi senza agire sul ghiaccio"
+      ],
+      "explanation": "Queste proteine si legano alle superfici di piccoli cristalli e ne impediscono la crescita nei fluidi corporei.",
+      "didYouKnow": "Alcune specie antartiche hanno anche poca o nessuna emoglobina nel sangue.",
+      "imageCaption": "Pesce ghiacciato antartico"
+    },
+    {
+      "id": "fish-055",
+      "animal": "Tetra cavernicolo",
+      "prompt": "Quale cambiamento del ritmo giornaliero è stato osservato nei tetra cavernicoli?",
+      "options": [
+        "Dormono meno delle forme che vivono in superficie",
+        "Diventano attivi solo durante le notti di luna piena",
+        "Vanno in letargo ogni inverno nelle caverne",
+        "Migrano in superficie ogni giorno"
+      ],
+      "explanation": "Alcune popolazioni rupestri di Astyanax mexicanus mostrano una durata del sonno ridotta rispetto alle popolazioni di superficie.",
+      "didYouKnow": "Le forme delle caverne e delle superfici possono ancora riprodursi tra loro.",
+      "imageCaption": "Tetra cavernicolo"
+    },
+    {
+      "id": "fish-056",
+      "animal": "Pesce gatto elettrico",
+      "prompt": "Cosa fa lo scarico del pesce gatto elettrico africano?",
+      "options": [
+        "Per stordire la preda o scoraggiare una minaccia",
+        "Rilasciando il veleno attraverso i denti",
+        "Producendo un getto d'acqua",
+        "Immobilizzando la preda nel muco"
+      ],
+      "explanation": "Un organo elettrico specializzato produce una forte scarica difensiva o di caccia.",
+      "didYouKnow": "I suoi barbigli sensoriali esplorano il fondo e lo aiutano a localizzare il cibo.",
+      "imageCaption": "Pesce gatto elettrico"
+    },
+    {
+      "id": "fish-057",
+      "animal": "Pesce nasoelefante",
+      "prompt": "Quale principio consente ai pesci elefante di utilizzare l'elettrolocalizzazione in acque torbide?",
+      "options": [
+        "Emette un debole campo elettrico e rileva le sue deformazioni tramite i recettori cutanei",
+        "Emette ultrasuoni e ne segue l'eco nel fango",
+        "Rileva solo il campo elettrico della preda",
+        "Utilizza la linea laterale per misurare la luce riflessa"
+      ],
+      "explanation": "Il pesce elefante emette deboli segnali elettrici; gli oggetti modificano il campo ricevuto dai suoi elettrorecettori cutanei.",
+      "didYouKnow": "Il suo muso flessibile aiuta il pesce elefante a cercare il fondo.",
+      "imageCaption": "Pesce nasoelefante"
+    },
+    {
+      "id": "fish-058",
+      "animal": "Pesce coltello fantasma nero",
+      "prompt": "Come fa il pesce coltello fantasma nero a rilevare un oggetto con il suo campo elettrico debole?",
+      "options": [
+        "Gli elettrorecettori della pelle rilevano le deformazioni del campo che emette",
+        "Le cellule olfattive rilevano l'elettricità disciolta nell'acqua",
+        "I fotorecettori misurano l'ombra proiettata dall'oggetto",
+        "Gli otoliti trasformano il campo elettrico in suono"
+      ],
+      "explanation": "Il pesce emette un debole campo elettrico e rileva, utilizzando gli elettrorecettori, come gli oggetti lo disturbano.",
+      "didYouKnow": "La sua lunga pinna anale ondulata gli permette di nuotare avanti e indietro.",
+      "imageCaption": "Pesce coltello fantasma nero"
+    },
+    {
+      "id": "fish-059",
+      "animal": "Pesce lupo",
+      "prompt": "Come fanno i pesci lupo a mangiare crostacei e ricci di mare?",
+      "options": [
+        "Li schiaccia con mascelle e denti forti",
+        "Ingoiando i gusci interi",
+        "Filtrando il plancton",
+        "Con una puntura velenosa"
+      ],
+      "explanation": "I suoi denti sono adattati alle prede bentoniche dal guscio duro.",
+      "didYouKnow": "Numerosi pesci lupo vivono nelle fredde acque del Nord Atlantico.",
+      "imageCaption": "Pesce lupo"
+    },
+    {
+      "id": "fish-060",
+      "animal": "Pesce testa di serpente",
+      "prompt": "Quale organo accessorio consente ad alcune teste di serpente di integrare la respirazione branchiale con l'aria?",
+      "options": [
+        "Strutture soprabranchiali vascolarizzate",
+        "Una vescica natatoria collegata ai polmoni",
+        "Spiracoli dietro gli occhi",
+        "Sacche d'aria collegate alle pinne pettorali"
+      ],
+      "explanation": "In molti Channa, le strutture soprabranchiali vascolarizzate consentono l'utilizzo dell'ossigeno dall'aria atmosferica.",
+      "didYouKnow": "Alcune specie di teste di serpente introdotte al di fuori del loro areale nativo possono diventare invasive.",
+      "imageCaption": "Testa di serpente a strisce"
+    },
+    {
+      "id": "fish-061",
+      "animal": "Pesce porcospino",
+      "prompt": "Che cosa succede quando un pesce porcospino si gonfia?",
+      "options": [
+        "Le sue spine si alzano e rendono più difficile la deglutizione",
+        "Dispiega una vela dorsale per planare",
+        "Rilascia spine staccabili",
+        "Scava senza ingoiare acqua"
+      ],
+      "explanation": "L'acqua inghiottita aumenta il suo volume e irrigidisce le sue spine difensive.",
+      "didYouKnow": "Le sue spine non sono collegate ad un apparato velenoso.",
+      "imageCaption": "Pesce porcospino"
+    },
+    {
+      "id": "fish-062",
+      "animal": "Pesce scatola",
+      "prompt": "Quale struttura protegge il corpo del pesce scatola?",
+      "options": [
+        "Un guscio di placche ossee saldate",
+        "Un sacchetto di muco essiccato",
+        "Bilance mobili rinforzate",
+        "Pelle ricoperta di peli"
+      ],
+      "explanation": "Le piastre proteggono il tronco, mentre le alette restano mobili.",
+      "didYouKnow": "Alcune specie di pesci scatola secernono tossine quando sono stressate.",
+      "imageCaption": "Pesce scatola giallo"
+    },
+    {
+      "id": "fish-063",
+      "animal": "Pesce a quattro occhi",
+      "prompt": "Come fa il pesce con quattro occhi a dare alla luce i suoi piccoli?",
+      "options": [
+        "Dà alla luce piccoli vivi dopo lo sviluppo interno",
+        "Depone uova galleggianti in grandi banchi",
+        "Il maschio porta gli embrioni in una sacca",
+        "Le uova si schiudono in un nido di bolle"
+      ],
+      "explanation": "Gli Anableps sono vivipari: la fecondazione è interna e le femmine danno alla luce piccoli già sviluppati.",
+      "didYouKnow": "Ogni femmina ha un tratto riproduttivo adatto a un lato del corpo del maschio, rendendo l'accoppiamento direzionale.",
+      "imageCaption": "Pesce a quattro occhi"
+    },
+    {
+      "id": "fish-064",
+      "animal": "Pesce ago",
+      "prompt": "Quale postura aiuta il pesce ago a nascondersi nelle alghe?",
+      "options": [
+        "Sta quasi verticale, con la testa rivolta verso l'alto",
+        "Si seppellisce nella sabbia",
+        "Si gonfia per imitare una bolla",
+        "Nuota in un banco al largo"
+      ],
+      "explanation": "Il suo corpo snello ricorda gli steli tra i quali si muove.",
+      "didYouKnow": "I pesci ago sono parenti stretti dei cavallucci marini.",
+      "imageCaption": "Pesce ago"
+    },
+    {
+      "id": "fish-065",
+      "animal": "Pesce fantasma",
+      "prompt": "Nei pesci fantasma, quale genitore trasporta le uova durante lo sviluppo?",
+      "options": [
+        "La femmina, tra le sue pinne pelviche allargate",
+        "Il maschio, in una tasca ventrale come nel cavalluccio marino",
+        "Entrambi i genitori, nelle branchie",
+        "Nessuna: le uova sono sempre sparse in acque libere"
+      ],
+      "explanation": "Nel Solenostomus paradoxus, la femmina trasporta le uova tra le pinne pelviche modificate.",
+      "didYouKnow": "Il camuffamento del pesce fantasma gli consente di mimetizzarsi con le alghe galleggianti.",
+      "imageCaption": "Pesce fantasma"
+    },
+    {
+      "id": "fish-066",
+      "animal": "Filefish",
+      "prompt": "Come fa il pesce lima ad ancorarsi in una fessura per sfuggire a un predatore?",
+      "options": [
+        "Blocca la sua prima spina dorsale",
+        "Gonfia la pancia per galleggiare",
+        "È elettrizzato per attaccarsi alla roccia",
+        "Attacca la bocca al substrato"
+      ],
+      "explanation": "Una seconda spina blocca la prima in posizione eretta.",
+      "didYouKnow": "La prima spina dorsale del pesce lima può essere bloccata da una seconda spina dorsale.",
+      "imageCaption": "Filefish"
+    },
+    {
+      "id": "fish-067",
+      "animal": "Pesce pipistrello",
+      "prompt": "Come si muovono i pesci pipistrello sul fondo?",
+      "options": [
+        "Si sostiene sulle pinne come le zampe.",
+        "Ondula le sue pinne pettorali",
+        "Si libra fuori dall'acqua",
+        "Si muove grazie ad una coda biforcuta"
+      ],
+      "explanation": "Le sue pinne pettorali e pelviche vengono utilizzate per strisciare sul substrato.",
+      "didYouKnow": "I giovani di alcune specie assomigliano a foglie morte galleggianti.",
+      "imageCaption": "Pesce pipistrello"
+    },
+    {
+      "id": "fish-068",
+      "animal": "Pesce rospo",
+      "prompt": "Quale struttura funge da risonatore per i richiami gravi del pesce rospo maschio?",
+      "options": [
+        "La vescica natatoria vibrava grazie a muscoli specializzati",
+        "I denti faringei si sfregavano l'uno contro l'altro",
+        "Le coperture urtavano contro le branchie",
+        "Pinne pettorali sfregate sul substrato"
+      ],
+      "explanation": "Muscoli specializzati fanno vibrare la vescica natatoria, che amplifica i suoni prodotti durante le vocalizzazioni.",
+      "didYouKnow": "I pesci rospo frequentano spesso le acque costiere poco profonde.",
+      "imageCaption": "Pesce rospo"
+    },
+    {
+      "id": "fish-069",
+      "animal": "Pesce pilota",
+      "prompt": "Che vantaggio ottiene talvolta il pesce pilota dalla vicinanza ad uno squalo?",
+      "options": [
+        "Beneficia degli scarti alimentari e della relativa protezione",
+        "Viene trasportato nella borsa dello squalo",
+        "Filtra il plancton grazie all'ospite",
+        "Può vivere solo in acqua dolce"
+      ],
+      "explanation": "Può nutrirsi di scarti o parassiti mentre nuota vicino a un grande ospite.",
+      "didYouKnow": "Il pesce pilota può muoversi e nutrirsi anche senza squalo.",
+      "imageCaption": "Pesce pilota"
+    },
+    {
+      "id": "fish-070",
+      "animal": "Pesce scoiattolo",
+      "prompt": "Perché i grandi occhi del pesce scoiattolo sono utili?",
+      "options": [
+        "Catturano più luce durante le uscite notturne",
+        "Aspirano l'aria dalla superficie",
+        "Rilevano i campi elettrici",
+        "Filtrano le particelle di cibo"
+      ],
+      "explanation": "Questo adattamento lo aiuta a individuare le prede quando la luce è scarsa.",
+      "didYouKnow": "Durante il giorno si nasconde spesso negli anfratti.",
+      "imageCaption": "Pesce scoiattolo"
+    },
+    {
+      "id": "fish-071",
+      "animal": "Pesce soldato",
+      "prompt": "Quando i pesci soldato vanno spesso in cerca di cibo?",
+      "options": [
+        "Di notte",
+        "Si nutre solo di giorno",
+        "Migra verso le mangrovie",
+        "Conserva le uova in bocca"
+      ],
+      "explanation": "Esce dopo il tramonto per cacciare piccoli crostacei e zooplancton.",
+      "didYouKnow": "I pesci soldato possono produrre suoni facendo vibrare la vescica natatoria.",
+      "imageCaption": "Pesce soldato"
+    },
+    {
+      "id": "fish-072",
+      "animal": "Pesce labro testa di pecora",
+      "prompt": "Quale cambiamento riproduttivo può verificarsi nel labro testa di pecora?",
+      "options": [
+        "Una femmina può diventare maschio",
+        "Il maschio diventa femmina a ogni stagione",
+        "I sessi restano sempre separati",
+        "La specie non cambia mai sesso"
+      ],
+      "explanation": "In questa specie alcuni individui cambiano sesso nel corso della loro vita.",
+      "didYouKnow": "I maschi grandi del labro testa di pecora difendono spesso territori riproduttivi.",
+      "imageCaption": "Labro testa di pecora"
+    },
+    {
+      "id": "fish-073",
+      "animal": "Pesce napoleone",
+      "prompt": "Di cosa si nutre principalmente il pesce napoleone adulto?",
+      "options": [
+        "Di molluschi e crostacei con carapace",
+        "Di plancton filtrato in acque aperte",
+        "Solo di alghe",
+        "Di grandi mammiferi marini"
+      ],
+      "explanation": "Il pesce napoleone consuma molluschi e crostacei; le stelle corona di spine possono essere prede occasionali, ma non costituiscono il suo alimento principale.",
+      "didYouKnow": "Il pesce napoleone è il labride vivente più grande e cresce lentamente.",
+      "imageCaption": "Pesce napoleone"
+    },
+    {
+      "id": "fish-074",
+      "animal": "Pesce mandarino",
+      "prompt": "Quale difesa chimica utilizza il pesce mandarino?",
+      "options": [
+        "Muco della pelle che scoraggia alcuni predatori",
+        "Ha uno scheletro cartilagineo",
+        "È velenoso al tatto",
+        "Vive esclusivamente in acqua dolce"
+      ],
+      "explanation": "Le sostanze presenti nel suo muco rendono il pesce poco appetitoso.",
+      "didYouKnow": "I pesci mandarino mostrano colori brillanti prodotti dalle cellule del pigmento.",
+      "imageCaption": "Pesce mandarino"
+    },
+    {
+      "id": "fish-075",
+      "animal": "Pesce farfalla",
+      "prompt": "Che tipo di cibo beccano spesso i pesci farfalla dalle fessure?",
+      "options": [
+        "Polipi dei coralli e piccoli invertebrati",
+        "Alghe pascolate sulla barriera corallina",
+        "Uova deposte sulle piante",
+        "Pesce attratto da un getto d'acqua"
+      ],
+      "explanation": "Il suo muso sottile gli permette di raggiungere le prede nascoste nella barriera corallina.",
+      "didYouKnow": "Una macchia oculare vicino alla coda può distrarre l'attenzione dal suo occhio reale.",
+      "imageCaption": "Pesce farfalla"
+    },
+    {
+      "id": "fish-076",
+      "animal": "Pesce farfalla a quattro occhi",
+      "prompt": "Qual è lo scopo della macchia a forma di occhio vicino alla coda in alcuni pesci farfalla?",
+      "options": [
+        "Può deviare l'attacco di un predatore dalla sua testa",
+        "Indica la profondità dell'acqua",
+        "Viene utilizzato per filtrare le prede",
+        "Produce una scarica elettrica"
+      ],
+      "explanation": "Un ocello confonde l'orientamento del pesce e può attirare l'attacco all'indietro.",
+      "didYouKnow": "Una barra scura spesso attraversa l'occhio vero.",
+      "imageCaption": "Pesce farfalla a quattro occhi"
+    },
+    {
+      "id": "fish-077",
+      "animal": "raggio leopardo",
+      "prompt": "Quale schema ti aiuta a riconoscere la razza leopardo?",
+      "options": [
+        "Macchie scure su un dorso chiaro",
+        "Strisce verticali chiare su dorso scuro",
+        "Un guscio di placche ossee",
+        "Una pinna caudale a forma di falce"
+      ],
+      "explanation": "Le sue macchie gli danno il nome comune e contribuiscono a spezzarne il contorno sullo sfondo.",
+      "didYouKnow": "L'aquila di mare frequenta i fondali sabbiosi e le baie costiere.",
+      "imageCaption": "raggio leopardo"
+    },
+    {
+      "id": "fish-078",
+      "animal": "Squalo zebra",
+      "prompt": "Come cambia la livrea dello squalo zebra tra il giovane e l'adulto?",
+      "options": [
+        "Il giovane striato diventa maculato man mano che cresce",
+        "Il giovane maculato diventa striato",
+        "L'abito rimane lo stesso a qualsiasi età",
+        "Il giovane è d'argento poi diventa blu solido"
+      ],
+      "explanation": "I giovani striati acquisiscono un mantello maculato da adulti.",
+      "didYouKnow": "I giovani hanno bande contrastanti, mentre gli adulti hanno macchie.",
+      "imageCaption": "Squalo zebra"
+    },
+    {
+      "id": "fish-079",
+      "animal": "Squalo spallina",
+      "prompt": "Come può lo squalo spallina tollerare l'ipossia in un reef isolato durante la bassa marea?",
+      "options": [
+        "Riduce la sua attività metabolica e il consumo di ossigeno",
+        "Accelera il nuoto per aumentare il flusso dell'acqua sulle branchie",
+        "Respira aria grazie ad un organo soprabranchiale",
+        "Chiude le branchie e sostituisce permanentemente gli scambi con la pelle"
+      ],
+      "explanation": "Lo squalo dalle spalline tollera episodi di ipossia riducendo la sua attività metabolica e mantenendo le sue funzioni vitali.",
+      "didYouKnow": "Le sue pinne pettorali e pelviche gli permettono anche di avanzare sul reef durante la bassa marea.",
+      "imageCaption": "Squalo spallina"
+    },
+    {
+      "id": "fish-080",
+      "animal": "Pesce sega dai denti piccoli",
+      "prompt": "Perché il naso del pesce sega potrebbe renderlo vulnerabile alle reti?",
+      "options": [
+        "I suoi denti laterali possono impigliarsi",
+        "Il suo rostro filtra il plancton nell'acqua",
+        "Le sue pinne formano una rete da cattura",
+        "Si scava e abbandona il rostro"
+      ],
+      "explanation": "L'appendice dentata si impiglia facilmente negli attrezzi da pesca e può ferire l'animale.",
+      "didYouKnow": "Il pesce sega è una razza e ha fessure branchiali nella parte inferiore del corpo.",
+      "imageCaption": "Pesce sega dai denti piccoli"
+    },
+    {
+      "id": "fish-081",
+      "animal": "Squalo della Groenlandia",
+      "prompt": "Su quale parte dello squalo della Groenlandia i ricercatori hanno misurato il radiocarbonio per stimarne l’età?",
+      "options": [
+        "Il nucleo del cristallino dell'occhio",
+        "Anelli di crescita in scala",
+        "Strisce di crescita delle pinne",
+        "Fasce di crescita delle vertebre"
+      ],
+      "explanation": "Il radiocarbonio del nucleo della lente è stato utilizzato per stimare l'età degli squali della Groenlandia, una specie a crescita lenta.",
+      "didYouKnow": "Lo squalo della Groenlandia è uno dei più grandi squali che vivono nelle fredde acque del Nord Atlantico.",
+      "imageCaption": "Squalo della Groenlandia"
+    },
+    {
+      "id": "fish-082",
+      "animal": "Squalo blu",
+      "prompt": "Quale caratteristica aiuta la verdesca a mimetizzarsi nell'oceano?",
+      "options": [
+        "Il suo dorso blu e il ventre chiaro",
+        "Un dorso bianco e una pancia blu",
+        "Strisce rosse su tutto il corpo",
+        "Pelle trasparente senza pigmenti"
+      ],
+      "explanation": "Il dorso scuro si fonde con l'acqua profonda vista dall'alto, e il ventre chiaro con la superficie vista dal basso.",
+      "didYouKnow": "La verdesca percorre lunghe distanze in alto mare.",
+      "imageCaption": "Squalo blu"
+    },
+    {
+      "id": "fish-083",
+      "animal": "Pesce ghiacciato",
+      "prompt": "Come viene compensata l'assenza di emoglobina in molti pesci ghiacciati dell'Antartide?",
+      "options": [
+        "L'ossigeno rimane disciolto nel plasma freddo, con circolazione ad alta portata",
+        "L'emoglobina trasparente sostituisce l'emoglobina ordinaria",
+        "Le branchie convertono l'anidride carbonica in ossigeno",
+        "I pesci usano i polmoni durante le immersioni"
+      ],
+      "explanation": "Il freddo aumenta la solubilità dell'ossigeno nel plasma; l'ampio volume di sangue e l'elevata gittata cardiaca ne supportano il trasporto.",
+      "didYouKnow": "Le proteine ​​antigelo presenti in molte specie rallentano la crescita dei cristalli nei loro fluidi.",
+      "imageCaption": "Pesce ghiacciato"
+    },
+    {
+      "id": "fish-084",
+      "animal": "Pesce con vescica natatoria",
+      "prompt": "Qual è il ruolo principale della vescica natatoria in molti pesci ossei?",
+      "options": [
+        "Regolare la galleggiabilità",
+        "Produci uno shock per stordire la preda",
+        "Sostituzione delle branchie durante un'immersione",
+        "Rileva gli odori trasportati dall'acqua"
+      ],
+      "explanation": "Il gas nella vescica aiuta il pesce a restare ad una determinata profondità con poco sforzo.",
+      "didYouKnow": "Gli squali compensano la loro galleggiabilità con un fegato grande e ricco di petrolio.",
+      "imageCaption": "Pesce con vescica natatoria (esempio: pesce rosso)"
+    },
+    {
+      "id": "fish-085",
+      "animal": "Pesce con linea laterale",
+      "prompt": "Cosa rileva la linea laterale di un pesce?",
+      "options": [
+        "I movimenti e le vibrazioni dell'acqua",
+        "Variazioni di salinità",
+        "I suoni prodotti dalle barche",
+        "Solo luce ultravioletta"
+      ],
+      "explanation": "I suoi recettori sensoriali percepiscono le variazioni di pressione attorno al corpo.",
+      "didYouKnow": "I recettori di questa linea sensoriale sono disposti lungo i fianchi e la testa.",
+      "imageCaption": "Pesce con linea laterale (esempio: pesce zebra)"
+    },
+    {
+      "id": "fish-086",
+      "animal": "Pesci marini",
+      "prompt": "Cosa prendono le branchie di un pesce dall’acqua?",
+      "options": [
+        "Ossigeno disciolto",
+        "Temperatura dell'acqua",
+        "Correnti di marea",
+        "La quantità di sale disciolto"
+      ],
+      "explanation": "Le branchie trasferiscono l'ossigeno gassoso disciolto nell'acqua al sangue.",
+      "didYouKnow": "Le branchie aiutano anche ad eliminare l'anidride carbonica.",
+      "imageCaption": "Pesci marini (esempio: pesce pagliaccio ocellato)"
+    },
+    {
+      "id": "fish-087",
+      "animal": "Pesci ossei",
+      "prompt": "Quale struttura ricopre tipicamente le branchie dei pesci ossei?",
+      "options": [
+        "La copertina",
+        "La bocca",
+        "La pinna caudale",
+        "La vescica natatoria"
+      ],
+      "explanation": "Questa parte ossea protegge le branchie e partecipa alla ventilazione.",
+      "didYouKnow": "L'opercolo protegge le branchie e aiuta a far circolare l'acqua nei pesci ossei.",
+      "imageCaption": "Pesci ossei (esempio: carpa comune)"
+    },
+    {
+      "id": "fish-088",
+      "animal": "Pesci cartilaginei",
+      "prompt": "Di cosa sono fatti principalmente gli scheletri di squali e razze?",
+      "options": [
+        "Cartilagine",
+        "Chitina",
+        "Calcio puro senza cartilagine",
+        "Solo dal tessuto muscolare"
+      ],
+      "explanation": "Questi pesci hanno uno scheletro prevalentemente cartilagineo, anche se alcune zone sono mineralizzate.",
+      "didYouKnow": "I dentelli dermici spesso conferiscono alla pelle dello squalo una consistenza ruvida.",
+      "imageCaption": "Pesci cartilaginei (esempio: grande squalo bianco)"
+    },
+    {
+      "id": "fish-089",
+      "animal": "Pesce con pinne raggiate",
+      "prompt": "Quale gruppo comprende la maggior parte delle specie ittiche attuali?",
+      "options": [
+        "Pesce con le pinne raggiate",
+        "Pesce con pinne lobate",
+        "Mammiferi marini",
+        "Invertebrati con pinne"
+      ],
+      "explanation": "Gli Actinopterigi sono il gruppo più diversificato di pesci.",
+      "didYouKnow": "Le pinne degli attinopterigi sono sostenute da raggi sottili.",
+      "imageCaption": "Pesce con pinne raggiate (esempio: pesce zebra)"
+    },
+    {
+      "id": "fish-090",
+      "animal": "Pesce a pinne lobate",
+      "prompt": "Quale gruppo comprende i celacanti e i dipnoi?",
+      "options": [
+        "Pesci a pinne lobate",
+        "Pesci con pinne raggiate",
+        "Razze con scheletri cartilaginei",
+        "Anfibi adulti"
+      ],
+      "explanation": "I sarcopterigi hanno pinne pari sostenute da lobi muscolari.",
+      "didYouKnow": "I tetrapodi discendono da antenati appartenenti alla stirpe dei pesci con le pinne carnose.",
+      "imageCaption": "Pesce a pinne lobate (esempio: celacanto)"
+    },
+    {
+      "id": "fish-091",
+      "animal": "Pesci d'acqua dolce",
+      "prompt": "Perché un pesce d'acqua dolce deve espellere urina abbondante e diluita?",
+      "options": [
+        "L'acqua entra per osmosi mentre gli ioni tendono a diffondersi verso l'esterno",
+        "Il sale entra per osmosi e l'acqua esce continuamente dal corpo",
+        "Le branchie rimuovono l'acqua trattenendo l'urea",
+        "Il pesce beve acqua di mare e deve espellere il sodio in eccesso"
+      ],
+      "explanation": "L'acqua dolce è meno concentrata dei fluidi corporei: l'acqua entra per osmosi, mentre i pesci raccolgono gli ioni ed espellono l'acqua in eccesso.",
+      "didYouKnow": "In molti pesci ossei d'acqua dolce, la vescica natatoria aiuta anche a controllare la galleggiabilità.",
+      "imageCaption": "Pesci d'acqua dolce (esempio: carpa comune)"
+    },
+    {
+      "id": "fish-092",
+      "animal": "Pesci marini",
+      "prompt": "In che modo molti pesci marini ossei compensano la perdita di acqua in un ambiente salato?",
+      "options": [
+        "Bevono acqua di mare ed eliminano gli ioni in eccesso attraverso le branchie",
+        "Assorbono l'acqua attraverso la pelle e trattengono tutti i sali",
+        "Bevono poco ed espellono urina molto diluita",
+        "Eliminano i sali solo attraverso le alette"
+      ],
+      "explanation": "Bere acqua di mare compensa le perdite; Le cellule branchiali espellono principalmente gli ioni in eccesso.",
+      "didYouKnow": "Gli squali marini compensano il sale con una strategia osmotica diversa rispetto ai pesci ossei.",
+      "imageCaption": "Pesci marini (esempio: pesce pagliaccio ocellato)"
+    },
+    {
+      "id": "fish-093",
+      "animal": "Pesci costieri",
+      "prompt": "Cosa offre una fanerogame marina a molte specie di pesci?",
+      "options": [
+        "Riparo, preda e aree di crescita",
+        "Un rifugio solo per pesci adulti",
+        "Un sito di deposizione delle uova riservato agli squali",
+        "Una zona priva di prede"
+      ],
+      "explanation": "Le foglie rallentano l'acqua e ospitano piccoli invertebrati che nutrono i pesci.",
+      "didYouKnow": "Le praterie di fanerogame marine immagazzinano anche carbonio nei loro sedimenti.",
+      "imageCaption": "Pesci costieri (esempio: ghiozzo nero)"
+    },
+    {
+      "id": "fish-094",
+      "animal": "Pesci migratori",
+      "prompt": "Quale ostacolo umano può interrompere la migrazione dei pesci nei fiumi?",
+      "options": [
+        "Una diga senza un passaggio efficace",
+        "Un passaggio di pesci",
+        "Una barriera corallina artificiale",
+        "Una zona di deposizione delle uova in mare"
+      ],
+      "explanation": "Le dighe a volte bloccano l’accesso alle zone di deposizione delle uova o agli habitat di alimentazione.",
+      "didYouKnow": "I passaggi per i pesci possono ripristinare parte della continuità dei fiumi.",
+      "imageCaption": "Pesci migratori (esempio: salmone atlantico)"
+    },
+    {
+      "id": "fish-095",
+      "animal": "Pesce anadromo",
+      "prompt": "Cosa significa quando un pesce è anadromo?",
+      "options": [
+        "Cresce prevalentemente in mare e si riproduce in acque dolci.",
+        "Cresce nei fiumi e depone le uova nel mare",
+        "Non lascia mai l'acqua dolce",
+        "Vive in mare e depone le uova sulle spiagge"
+      ],
+      "explanation": "I salmoni sono esempi di specie che migrano dal mare ai fiumi per deporre le uova.",
+      "didYouKnow": "Il salmone è un noto esempio di pesce anadromo.",
+      "imageCaption": "Pesci anadromi (esempio: salmone atlantico)"
+    },
+    {
+      "id": "fish-096",
+      "animal": "Pesce catadromo",
+      "prompt": "Qual è la direzione della migrazione riproduttiva di un'anguilla catadroma?",
+      "options": [
+        "Cresce in acqua dolce e poi migra verso il mare per riprodursi",
+        "Cresce nel mare e poi risale i fiumi per deporre le uova",
+        "Resta tutta la vita in un estuario",
+        "Nasce in mare e si riproduce nei laghi."
+      ],
+      "explanation": "Le anguille d'acqua dolce ritornano nell'oceano per deporre le uova dopo la loro crescita continentale.",
+      "didYouKnow": "Le anguille europee crescono in acqua dolce e poi si riproducono in mare.",
+      "imageCaption": "Pesci catadromi (esempio: anguilla europea)"
+    },
+    {
+      "id": "fish-097",
+      "animal": "Pesce demersale",
+      "prompt": "Dove vive principalmente un pesce demersale?",
+      "options": [
+        "Vicino al fondale marino",
+        "Nella chioma dell'albero",
+        "In acque libere solo vicino alla superficie",
+        "Nelle tane scavate sulla riva"
+      ],
+      "explanation": "Le specie demersali vivono sopra o a contatto con il fondo pur potendo nuotare liberamente.",
+      "didYouKnow": "I pesci demersali possono vivere su fondali rocciosi, sabbiosi o fangosi.",
+      "imageCaption": "Pesci demersali (esempio: sogliola)"
+    },
+    {
+      "id": "fish-098",
+      "animal": "Pesce filtratore",
+      "prompt": "Quali strutture branchiali trattengono le particelle di cibo in molti pesci che si nutrono con filtri?",
+      "options": [
+        "I rastrelli branchiali degli archi branchiali",
+        "Elettrorecettori delle pinne pettorali",
+        "I denti faringei della gola",
+        "Barbigli tattili intorno alla bocca"
+      ],
+      "explanation": "I rastrelli branchiali formano una superficie filtrante che trattiene le piccole prede mentre l'acqua circola attraverso le branchie.",
+      "didYouKnow": "Lo squalo balena e lo squalo elefante sono grandi pesci che si nutrono di filtri.",
+      "imageCaption": "Pesce filtratore (esempio: squalo balena)"
+    },
+    {
+      "id": "fish-099",
+      "animal": "Pesce piatto",
+      "prompt": "Durante la metamorfosi di un rombo, quale processo pone i due occhi sulla parte superiore?",
+      "options": [
+        "Un occhio migra attraverso la testa durante la metamorfosi",
+        "Entrambi gli occhi migrano insieme verso il lato dorsale",
+        "Un occhio viene perso e poi rigenerato dall'altra parte",
+        "Il cranio ruota senza muovere gli occhi"
+      ],
+      "explanation": "Nei pesci piatti, la metamorfosi porta alla migrazione dell'occhio e ad una riorganizzazione asimmetrica della testa.",
+      "didYouKnow": "La parte del rombo rivolta verso il basso è spesso più chiara della parte superiore.",
+      "imageCaption": "Pesce piatto (esempio: passera di mare)"
+    },
+    {
+      "id": "fish-100",
+      "animal": "Sogliola comune",
+      "prompt": "Come localizza la sogliola comune le prede sepolte nel sedimento?",
+      "options": [
+        "Usa i suoi sensi chimici e le sue narici vicino al fondo",
+        "Localizza le prede grazie all'udito aereo",
+        "Risucchia il plancton in superficie",
+        "Rileva i campi elettrici delle lampadine"
+      ],
+      "explanation": "L'unico cerca vermi e piccoli invertebrati sul o nel substrato.",
+      "didYouKnow": "La suola poggia su un lato, con entrambi gli occhi rivolti verso l'alto.",
+      "imageCaption": "Sogliola comune"
+    },
+    {
+      "id": "fish-101",
+      "animal": "Pesce unicorno",
+      "prompt": "Qual è la protuberanza frontale del pesce unicorno?",
+      "options": [
+        "Ad un'estensione ossea del cranio",
+        "Una pinna dorsale trasformata in un'esca",
+        "Una macchia cornea sulla coda",
+        "Un organo luminoso sotto il mento"
+      ],
+      "explanation": "Il “corno” è una protuberanza ossea, la cui dimensione varia con la specie e l'età.",
+      "didYouKnow": "I pesci unicorno appartengono alla famiglia dei pesci chirurgo.",
+      "imageCaption": "Pesce unicorno"
+    },
+    {
+      "id": "fish-102",
+      "animal": "Exocet",
+      "prompt": "Quale pinna è particolarmente sviluppata in molti pesci volanti?",
+      "options": [
+        "La pinna pettorale",
+        "La caudale",
+        "La spina dorsale",
+        "I barbigli"
+      ],
+      "explanation": "I pettorali allargati formano superfici di appoggio durante lo scivolamento.",
+      "didYouKnow": "Gli exocet possono librarsi sopra l'acqua senza sbattere le ali.",
+      "imageCaption": "Exocet"
+    },
+    {
+      "id": "fish-103",
+      "animal": "Pesce rasoio",
+      "prompt": "Come si mimetizzano i pesci rasoio tra le alghe?",
+      "options": [
+        "Spesso nuota verticalmente, a testa in giù",
+        "Nuota orizzontalmente imitando un pesce piatto",
+        "Si seppellisce nella sabbia",
+        "Forma un disco adesivo"
+      ],
+      "explanation": "La sua sagoma sottile ricorda le foglie dell'erba marina tra le quali si trova.",
+      "didYouKnow": "I pesci rasoio vivono spesso in gruppi e consumano piccoli organismi planctonici.",
+      "imageCaption": "Pesce rasoio"
+    },
+    {
+      "id": "fish-104",
+      "animal": "Pesce pappagallo megattera",
+      "prompt": "Che materiale producono i pesci pappagallo megattera mentre pascolano sulla barriera corallina?",
+      "options": [
+        "Sabbia corallina fine",
+        "Plancton filtrato",
+        "Conchiglie intere",
+        "Muco protettivo"
+      ],
+      "explanation": "Ingerisce e frantuma materiale calcareo, che rigetta sotto forma di sedimento.",
+      "didYouKnow": "Il pesce pappagallo megattera è uno dei pesci pappagallo più grandi.",
+      "imageCaption": "Pesce pappagallo megattera"
+    },
+    {
+      "id": "fish-105",
+      "animal": "Pesce angelo imperatore",
+      "prompt": "Come cambia il mantello del pesce angelo imperatore con l'età?",
+      "options": [
+        "Il motivo circolare giovanile diventa striato nell'adulto",
+        "Il disegno dei cerchi negli adulti diventa striato nei giovani",
+        "Entrambi gli stadi hanno lo stesso vestito",
+        "I giovani vengono chiazzati poi l'adulto diventa interamente nero"
+      ],
+      "explanation": "La livrea giovanile è molto diversa da quella dell'adulto.",
+      "didYouKnow": "Le due livree un tempo venivano prese per due specie diverse.",
+      "imageCaption": "Pesce angelo imperatore"
+    },
+    {
+      "id": "fish-106",
+      "animal": "Pesce chirurgo blu",
+      "prompt": "Qual è lo scopo della spina vicino alla coda del pesce chirurgo?",
+      "options": [
+        "Per difendersi",
+        "Attirare le femmine con i feromoni",
+        "Per filtrare il plancton",
+        "Aggrapparsi alle alghe"
+      ],
+      "explanation": "Questa spina affilata può essere sollevata contro un avversario.",
+      "didYouKnow": "I pesci chirurgo spesso si nutrono di alghe sulle barriere coralline.",
+      "imageCaption": "Pesce chirurgo blu"
+    },
+    {
+      "id": "fish-107",
+      "animal": "Castagnole",
+      "prompt": "Come conservano il cibo alcune donne?",
+      "options": [
+        "Coltivano e difendono appezzamenti di alghe",
+        "Difendono una tana di gamberetti",
+        "Filtrano le larve nell'acqua",
+        "Tengono le uova in bocca"
+      ],
+      "explanation": "Inseguono gli erbivori in competizione dai loro giardini di alghe.",
+      "didYouKnow": "I giardini di alghe damigelle possono cambiare la comunità della barriera corallina.",
+      "imageCaption": "Castagnole"
+    },
+    {
+      "id": "fish-108",
+      "animal": "Labro pulitore",
+      "prompt": "Quale contrasto descrive correttamente la dieta di un labride pulitore in una stazione di pulizia?",
+      "options": [
+        "Campiona principalmente ectoparassiti e talvolta muco, non tessuto necrotico",
+        "Consuma principalmente scaglie morte e tessuti necrotici",
+        "Si nutre di alghe branchiali e raramente mangia parassiti",
+        "Si nutre principalmente delle uova deposte sulla pelle dei pesci clienti"
+      ],
+      "explanation": "I labridi più puliti prendono principalmente parassiti esterni e consumano anche il muco della pelle; Questa non è una dieta basata sui tessuti morti.",
+      "didYouKnow": "I pesci clienti frequentano regolarmente le stazioni di pulizia sulla barriera corallina.",
+      "imageCaption": "Labro pulitore"
+    },
+    {
+      "id": "fish-109",
+      "animal": "Pesce ghiacciato antartico",
+      "prompt": "In che modo alcune specie di pesci del ghiaccio trasportano l'ossigeno nonostante l'assenza di emoglobina?",
+      "options": [
+        "L'ossigeno rimane disciolto nel plasma freddo e circola ad alte portate",
+        "I globuli rossi contengono emoglobina trasparente",
+        "Le branchie convertono l'azoto disciolto in ossigeno",
+        "La vescica natatoria rilascia ossigeno direttamente nei muscoli"
+      ],
+      "explanation": "Senza emoglobina, l'ossigeno viene trasportato disciolto nel plasma; l'acqua fredda e gli adattamenti circolatori compensano parzialmente questa limitazione.",
+      "didYouKnow": "I cuori e i vasi dei pesci del ghiaccio possono essere più grandi di quelli dei pesci affini.",
+      "imageCaption": "Pesce ghiacciato antartico"
+    },
+    {
+      "id": "fish-110",
+      "animal": "Pesce gatto camminatore",
+      "prompt": "In che modo gli organi soprabranchiali di Clarias consentono la respirazione dell'aria?",
+      "options": [
+        "Le superfici soprabranchiali vascolarizzate portano l'aria inspirata a contatto con il sangue",
+        "Le camere soprabranchiali immagazzinano l'aria senza scambio con il sangue",
+        "Una vescica natatoria chiusa diffonde l'aria verso le branchie",
+        "Gli spiracoli convogliano l'aria verso gli archi branchiali"
+      ],
+      "explanation": "Gli organi soprabranchiali sono strutture respiratorie accessorie vascolarizzate dove l'ossigeno presente nell'aria può diffondersi nel sangue.",
+      "didYouKnow": "Può spostarsi brevemente su terreno umido tra acque vicine.",
+      "imageCaption": "Pesce gatto camminatore"
+    },
+    {
+      "id": "fish-111",
+      "animal": "Pesce testa di serpente striato",
+      "prompt": "Come proteggono la prole gli adulti del pesce testa di serpente striato?",
+      "options": [
+        "Tengono le uova e gli avannotti in un'area difesa",
+        "Il maschio incuba le uova in una sacca",
+        "Attaccano le uova alle loro pinne",
+        "Abbandonano le uova in un nido di bolle"
+      ],
+      "explanation": "In Channa striata, gli adulti difendono le uova e gli avannotti dai predatori.",
+      "didYouKnow": "Le teste di serpente striate cacciano spesso in acque dolci poco profonde.",
+      "imageCaption": "Pesce testa di serpente striato"
+    },
+    {
+      "id": "fish-112",
+      "animal": "Pesce gatto del Mekong",
+      "prompt": "Quale minaccia colpisce il pesce gatto gigante del Mekong?",
+      "options": [
+        "La pesca e le dighe che ne interrompono le migrazioni",
+        "Inquinamento luminoso e turismo",
+        "Perdere le sue squame",
+        "Acidificazione dell'aria"
+      ],
+      "explanation": "Questa specie migratrice è colpita sia dalla raccolta che dalla frammentazione del fiume.",
+      "didYouKnow": "È uno dei pesci d'acqua dolce più grandi conosciuti.",
+      "imageCaption": "Pesce gatto del Mekong"
+    },
+    {
+      "id": "fish-113",
+      "animal": "Pesce gatto a testa piatta",
+      "prompt": "In quale zona cacciano principalmente i pesci gatto a testa piatta?",
+      "options": [
+        "Vicino al fondo",
+        "Nella chioma dell'albero",
+        "In acque libere in superficie",
+        "Su foglie galleggianti"
+      ],
+      "explanation": "È un predatore bentonico che ricerca pesci e invertebrati sul substrato.",
+      "didYouKnow": "La sua testa ampia e appiattita gli dà il nome comune.",
+      "imageCaption": "Pesce gatto a testa piatta"
+    },
+    {
+      "id": "fish-114",
+      "animal": "Pesce combattente siamese",
+      "prompt": "Cosa fa il maschio combattente quando un uovo cade dal nido di bolle?",
+      "options": [
+        "Lo prende in bocca e lo rimette nel nido.",
+        "Lo seppellisce nella sabbia sul fondo",
+        "Lo trasporta sulle pinne pettorali",
+        "Abbandona il nido per costruire una nuova tasca"
+      ],
+      "explanation": "Il maschio di Betta splendens raccoglie spesso le uova cadute e le restituisce al nido di bolle.",
+      "didYouKnow": "Il combattente ha un organo labirintico che gli permette di respirare l'aria in superficie.",
+      "imageCaption": "Pesce combattente siamese"
+    },
+    {
+      "id": "fish-115",
+      "animal": "Pesce palla",
+      "prompt": "Perché alcune specie di pesci palla sono pericolose da mangiare?",
+      "options": [
+        "Alcuni tessuti possono contenere tetrodotossina",
+        "Un veleno iniettato dalle sue spine",
+        "Un muco luminoso",
+        "Una scossa elettrica"
+      ],
+      "explanation": "Questa neurotossina può causare grave paralisi e la sua presenza dipende dalla specie e dal tessuto.",
+      "didYouKnow": "In diverse specie, la tossina è associata a batteri o cibo.",
+      "imageCaption": "Pesce palla"
+    },
+    {
+      "id": "fish-116",
+      "animal": "Pesce farfalla",
+      "prompt": "Perché potrebbe essere utile una macchia a forma di occhio vicino alla coda?",
+      "options": [
+        "Può deviare un attacco dalla sua testa",
+        "È usato per respirare",
+        "Attrae un partner grazie alla bioluminescenza",
+        "È usato per trasportare le uova"
+      ],
+      "explanation": "Questo ocello rende l'orientamento del pesce meno evidente per un predatore.",
+      "didYouKnow": "Anche una fascia scura vicino all’occhio vero può oscurarlo.",
+      "imageCaption": "Pesce farfalla"
+    },
+    {
+      "id": "fish-117",
+      "animal": "Squalo Goblin",
+      "prompt": "Come fa lo squalo goblin a catturare la preda nel raggio della sua bocca?",
+      "options": [
+        "Proietta rapidamente le mascelle in avanti",
+        "Stacca i denti per lanciarli contro la preda",
+        "Apre gli spiracoli e risucchia la preda dal basso",
+        "Produce una scarica elettrica con la sua ampolla di Lorenzini"
+      ],
+      "explanation": "Le sue mascelle sporgenti si muovono rapidamente in avanti per afferrare la preda, un notevole adattamento in questo squalo delle profondità marine.",
+      "didYouKnow": "La sua pelle rosa è dovuta ai vasi visibili sotto la pelle scarsamente pigmentata.",
+      "imageCaption": "Squalo Goblin"
+    },
+    {
+      "id": "fish-118",
+      "animal": "Squalo megamouth",
+      "prompt": "Come si nutre lo squalo megamouth?",
+      "options": [
+        "Filtra plancton e piccoli organismi",
+        "Caccia le prede con i suoi grandi denti",
+        "Bruca alghe sul fondale",
+        "Trasporta le uova sul dorso"
+      ],
+      "explanation": "Fa passare l'acqua attraverso le sue strutture filtranti e trattiene piccole prede.",
+      "didYouKnow": "Questa specie è stata descritta solo nel XX secolo.",
+      "imageCaption": "Squalo megamouth"
+    },
+    {
+      "id": "fish-119",
+      "animal": "Squalo spallina",
+      "prompt": "In che modo le femmine degli squali spallina proteggono i loro embrioni?",
+      "options": [
+        "Deposita capsule di uova nelle fessure della barriera corallina",
+        "Porta le uova in un marsupio",
+        "Incuba gli embrioni in bocca",
+        "Li attacca alle pinne pettorali"
+      ],
+      "explanation": "Lo squalo spallina è oviparo; le sue capsule di uova vengono depositate in rifugi sulla barriera corallina.",
+      "didYouKnow": "Lo squalo spallina può avanzare sulla barriera corallina appoggiandosi alle pinne.",
+      "imageCaption": "Squalo spallina"
+    },
+    {
+      "id": "fish-120",
+      "animal": "Pesce vipera",
+      "prompt": "A cosa servono i denti lunghi del pesce vipera?",
+      "options": [
+        "Per trattenere la preda catturata",
+        "Per attirare la preda con un'esca",
+        "Per difendersi con una scarica",
+        "Scavare tane"
+      ],
+      "explanation": "I suoi denti ricurvi impediscono al pesce catturato di uscire dalla bocca.",
+      "didYouKnow": "Il pesce vipera vive in acque profonde dove la luce è rara.",
+      "imageCaption": "Pesce vipera"
+    },
+    {
+      "id": "fish-121",
+      "animal": "Pesce lanterna",
+      "prompt": "Perché molti pesci lanterna nuotano in superficie di notte?",
+      "options": [
+        "Seguono la migrazione verticale dello zooplancton",
+        "Seguono le sardine fino in fondo",
+        "Evitano i predatori migrando in superficie",
+        "Depongono le uova nel plancton"
+      ],
+      "explanation": "Lo zooplancton risale di notte per nutrirsi e i pesci lo seguono.",
+      "didYouKnow": "Le migrazioni verticali quotidiane spostano un’immensa biomassa oceanica.",
+      "imageCaption": "Pesce lanterna artico"
+    },
+    {
+      "id": "fish-122",
+      "animal": "Pesce saltafango",
+      "prompt": "Come fa il Periophthalmus a mantenere funzionali le branchie quando si trova fuori dall’acqua?",
+      "options": [
+        "Mantiene l'acqua nelle sue camere branchiali e mantiene umide le superfici respiratorie",
+        "Chiude le branchie e respira solo attraverso le squame secche",
+        "Sostituisce l'acqua branchiale con l'aria nella vescica polmonare",
+        "Mantiene le branchie asciutte e assorbe l'ossigeno dal fango"
+      ],
+      "explanation": "Il perioftalmo trattiene l'acqua nelle camere branchiali e mantiene umide le superfici respiratorie.",
+      "didYouKnow": "I suoi occhi sporgenti possono muoversi indipendentemente e monitorare l'aria e l'acqua.",
+      "imageCaption": "Pesce saltafango (esempio: Periophthalmus argentilineatus)"
+    },
+    {
+      "id": "fish-123",
+      "animal": "Pesce gatto elettrico",
+      "prompt": "Come fanno gli organi elettrici del pesce gatto elettrico a produrre una scarica?",
+      "options": [
+        "L'attivazione coordinata degli elettrociti produce una differenza di potenziale",
+        "L'attrito delle squame crea una carica statica",
+        "I batteri luminosi rilasciano corrente nell'acqua",
+        "La vescica natatoria amplifica i segnali della linea laterale"
+      ],
+      "explanation": "Gli elettrociti vengono attivati in modo coordinato; il loro impilamento permette di produrre una scarica elettrica.",
+      "didYouKnow": "I suoi barbigli sensoriali lo aiutano a localizzare il cibo nelle acque torbide.",
+      "imageCaption": "Pesce gatto elettrico"
+    },
+    {
+      "id": "fish-124",
+      "animal": "Bluegill",
+      "prompt": "Quale segno distintivo si trova sull’opercolo del persico sole?",
+      "options": [
+        "Una macchia scura a forma di lembo dietro l'occhio",
+        "Una lunga barba sotto il mento",
+        "Una striscia rossa continua sulla coda",
+        "Una fila di denti visibile all'esterno della bocca"
+      ],
+      "explanation": "Il persico sole presenta una caratteristica macchia scura sul bordo posteriore della copertura.",
+      "didYouKnow": "I maschi riproduttori possono mostrare colori più intensi.",
+      "imageCaption": "Bluegill"
+    },
+    {
+      "id": "fish-125",
+      "animal": "Pesce arciere",
+      "prompt": "Quale fenomeno ottico deve compensare il pesce arciere quando mira a prede aeree?",
+      "options": [
+        "Rifrazione della luce sulla superficie",
+        "Diffrazione del suono",
+        "Pensando alla bilancia",
+        "La dispersione del sale"
+      ],
+      "explanation": "Il cambiamento nella direzione della luce nell'interfaccia acqua-aria sposta l'immagine apparente del bersaglio.",
+      "didYouKnow": "Il pesce arciere può aggiustare il tiro con l'esperienza e mirare a bersagli in movimento.",
+      "imageCaption": "Pesce arciere"
+    },
+    {
+      "id": "fish-126",
+      "animal": "Pesce arciere",
+      "prompt": "Come impara il pesce arciere a migliorare la sua precisione?",
+      "options": [
+        "Regolando il tiro dopo aver osservato i risultati",
+        "Ripetendo lo scatto dalla stessa angolazione senza guardare",
+        "Nuotando verso il bersaglio",
+        "Colpendo l'insetto con la coda"
+      ],
+      "explanation": "Può correggere il suo angolo in base alla posizione apparente e reale del bersaglio.",
+      "didYouKnow": "Il pesce arciere usa la bocca come un tubo per dirigere il getto.",
+      "imageCaption": "Pesce arciere"
+    },
+    {
+      "id": "fish-127",
+      "animal": "Pesce luna",
+      "prompt": "Perché a volte i pesci luna si tuffano in profondità e poi ritornano vicino alla superficie?",
+      "options": [
+        "Per nutrirsi in profondità e poi riscaldarsi in superficie",
+        "Per deporre le uova in una barriera corallina poco profonda",
+        "Per respirare l'aria atmosferica",
+        "Nascondersi tra le mangrovie"
+      ],
+      "explanation": "Può nutrirsi di prede profonde e quindi assorbire il calore solare.",
+      "didYouKnow": "Il pesce luna è il pesce osseo più pesante conosciuto.",
+      "imageCaption": "Pesce luna"
+    },
+    {
+      "id": "fish-128",
+      "animal": "Pesce scatola",
+      "prompt": "Perché il pesce scatola può manovrare senza piegare significativamente il tronco?",
+      "options": [
+        "Le sue pinne forniscono la maggior parte della propulsione attorno a un guscio rigido.",
+        "Muove il suo corpo agitando una coda molto flessibile.",
+        "Utilizza getti d'acqua espulsi dalle branchie",
+        "Striscia con pinne trasformate in zampe articolate"
+      ],
+      "explanation": "Il guscio rigido limita la flessione del corpo; le pinne pettorali, dorsale e anale forniscono propulsione e manovra.",
+      "didYouKnow": "Placche ossee saldate proteggono il tronco del pesce scatola.",
+      "imageCaption": "Pesce scatola giallo"
+    },
+    {
+      "id": "fish-129",
+      "animal": "Squalo nutrice fulvo",
+      "prompt": "Come respira lo squalo nutrice fulvo quando riposa in una cavità?",
+      "options": [
+        "Pompa attivamente l'acqua sulle branchie",
+        "Si muove continuamente ad alta velocità",
+        "Respira attraverso i polmoni",
+        "Assorbe l'ossigeno attraverso la pelle"
+      ],
+      "explanation": "La ventilazione della bocca gli consente di rimanere fermo senza fare affidamento esclusivamente sul nuoto in avanti.",
+      "didYouKnow": "Lo squalo nutrice fulvo caccia principalmente di notte vicino al fondo.",
+      "imageCaption": "Squalo nutrice fulvo"
+    },
+    {
+      "id": "fish-130",
+      "animal": "Squalo Mako",
+      "prompt": "Quale adattamento rende lo squalo mako particolarmente veloce?",
+      "options": [
+        "Un corpo snello combinato con una muscolatura potente",
+        "Pinne pettorali allargate",
+        "Una vescica natatoria gigante",
+        "Spine sensoriali"
+      ],
+      "explanation": "La sua forma idrodinamica e la coda potente favoriscono una rapida accelerazione.",
+      "didYouKnow": "Lo squalo mako può saltare fuori dall'acqua mentre insegue la preda.",
+      "imageCaption": "Squalo Mako"
+    },
+    {
+      "id": "fish-131",
+      "animal": "Squalo sega",
+      "prompt": "Quale carattere del rostro ti permette di distinguere uno squalo sega da un pesce sega?",
+      "options": [
+        "I barbigli sensoriali dello squalo sega",
+        "Elettrorecettori del pesce sega",
+        "Le fessure branchiali dorsali dello squalo sega",
+        "Le pinne pettorali fuse del pesce sega"
+      ],
+      "explanation": "Gli squali sega hanno dei barbigli sotto il rostro, a differenza dei pesci sega.",
+      "didYouKnow": "Lo squalo sega è un pesce cartilagineo con rostro dentato.",
+      "imageCaption": "Squalo sega"
+    },
+    {
+      "id": "fish-132",
+      "animal": "Pesce pappagallo",
+      "prompt": "Che beneficio apporta il bozzolo mucoso notturno ad alcuni pesci pappagallo?",
+      "options": [
+        "Può attenuare i segnali olfattivi e infastidire alcuni parassiti",
+        "Riduce soprattutto la perdita d'acqua quando i pesci sono fuori dal reef",
+        "Protegge le pinne dallo sfregamento contro il corallo",
+        "Avvolge le uova durante la loro incubazione"
+      ],
+      "explanation": "Il muco forma un involucro attorno al pesce a riposo; potrebbe ridurre i segnali olfattivi e infastidire alcuni parassiti.",
+      "didYouKnow": "Il pesce pappagallo megattera può macinare il carbonato di corallo nella sabbia.",
+      "imageCaption": "Pesce pappagallo"
+    },
+    {
+      "id": "fish-133",
+      "animal": "Pesce luna",
+      "prompt": "Che aspetto hanno spesso i giovani pesci luna prima di trasformarsi nella forma adulta?",
+      "options": [
+        "Ad un piccolo pesce globoso con molte spine",
+        "Ad un'anguilla lunga e senza pinne",
+        "A una razza appiattita con un pungiglione",
+        "Ad un pesce affusolato con un lungo rostro"
+      ],
+      "explanation": "I pesci luna giovani sono piccoli e spinosi; la loro sagoma cambia notevolmente con la crescita.",
+      "didYouKnow": "Il pesce luna adulto ha una coda ridotta chiamata clavus.",
+      "imageCaption": "Pesce luna"
+    },
+    {
+      "id": "fish-134",
+      "animal": "Pesce pappagallo",
+      "prompt": "Che ruolo svolgono i pesci pappagallo nelle barriere coralline?",
+      "options": [
+        "Pascolano alghe che potrebbero competere con i coralli",
+        "Filtrano lo zooplancton",
+        "Mangiano esclusivamente meduse",
+        "Cacciano grandi mammiferi"
+      ],
+      "explanation": "Il pascolo limita la copertura algale e libera spazio per i coralli.",
+      "didYouKnow": "Il becco del pesce pappagallo macina il materiale corallino trasformandolo in sabbia.",
+      "imageCaption": "Pesce pappagallo"
+    },
+    {
+      "id": "fish-135",
+      "animal": "Pesce farfalla",
+      "prompt": "Perché la presenza di alcuni pesci farfalla può fornire informazioni sullo stato di un reef?",
+      "options": [
+        "Diverse specie dipendono dai coralli viventi come risorsa alimentare",
+        "Tutte le specie vivono solo in acque prive di coralli",
+        "Il loro colore cambia direttamente con l'acidità dell'acqua",
+        "Producono sostanze che misurano la crescita dei coralli"
+      ],
+      "explanation": "L'abbondanza di alcune specie segue quella dei coralli preda, il che può fornire un indice ecologico, senza sostituire una misurazione diretta.",
+      "didYouKnow": "Il muso sottile dei pesci farfalla consente loro di beccare nelle fessure.",
+      "imageCaption": "Pesce farfalla"
+    },
+    {
+      "id": "fish-136",
+      "animal": "squalo bianco",
+      "prompt": "Come può il grande squalo bianco mantenere i suoi muscoli relativamente caldi?",
+      "options": [
+        "Mediante scambio termico in controcorrente",
+        "Con solo uno strato esterno di grasso",
+        "Mantenendo l'aria nei polmoni",
+        "Grazie ad una vescica natatoria riscaldata"
+      ],
+      "explanation": "Le reti di vasi recuperano parte del calore prodotto dai muscoli.",
+      "didYouKnow": "Il grande squalo bianco recupera parte del suo calore muscolare utilizzando le reti vascolari.",
+      "imageCaption": "squalo bianco"
+    },
+    {
+      "id": "fish-137",
+      "animal": "Squalo balena",
+      "prompt": "Come fanno gli squali balena a dare alla luce i loro piccoli?",
+      "options": [
+        "Gli embrioni si sviluppano nella madre e i piccoli nascono vivi",
+        "I genitori depositano le capsule delle uova sulla barriera corallina",
+        "Il maschio incuba le uova in bocca",
+        "Le larve si schiudono direttamente dal plancton"
+      ],
+      "explanation": "Lo squalo balena è viviparo aplacentare: gli embrioni si sviluppano nella madre prima della nascita dei piccoli vivi.",
+      "didYouKnow": "Lo squalo balena è il più grande pesce vivente conosciuto.",
+      "imageCaption": "Squalo balena"
+    },
+    {
+      "id": "fish-138",
+      "animal": "squalo volpe",
+      "prompt": "Quale fenomeno riproduttivo chiamato oofagia è stato osservato negli squali volpe?",
+      "options": [
+        "Gli embrioni consumano uova non fecondate nell'utero",
+        "Gli embrioni consumano solo il tuorlo del proprio uovo",
+        "Le femmine depongono le capsule che gli embrioni lasciano prima della schiusa",
+        "Gli embrioni ricevono i loro nutrienti attraverso la placenta materna"
+      ],
+      "explanation": "Negli squali volpe, gli embrioni possono consumare uova non fecondate durante lo sviluppo intrauterino.",
+      "didYouKnow": "Il lungo lobo superiore della coda dello squalo volpe può colpire e stordire i pesci in branco.",
+      "imageCaption": "squalo volpe"
+    },
+    {
+      "id": "fish-139",
+      "animal": "Torpedine",
+      "prompt": "Come fanno i raggi siluro a partorire i loro piccoli?",
+      "options": [
+        "Gli embrioni si sviluppano nella madre, che dà alla luce piccoli vivi",
+        "Depositano capsule di uova sulle alghe",
+        "Il maschio incuba le uova in bocca",
+        "Le uova fluttuano liberamente sulla superficie fino alla schiusa"
+      ],
+      "explanation": "I siluri sono vivipari aplacentari: gli embrioni si sviluppano nell'utero e le femmine partoriscono piccoli vivi.",
+      "didYouKnow": "I cuccioli di siluro possono produrre deboli scariche elettriche.",
+      "imageCaption": "Torpedine"
+    },
+    {
+      "id": "fish-140",
+      "animal": "Razza",
+      "prompt": "Quale apertura permette all'acqua di entrare in una razza sepolta prima che passi sopra le branchie?",
+      "options": [
+        "Gli spiracoli situati sul lato dorsale, dietro gli occhi",
+        "Fessure branchiali ventrali, che aspirano la sabbia",
+        "Le narici poste all'estremità del muso",
+        "Pori elettrici distribuiti sulle pinne"
+      ],
+      "explanation": "Gli spiracoli permettono l'ingresso dell'acqua dall'alto quando la bocca è vicina alla sabbia; poi passa attraverso le branchie.",
+      "didYouKnow": "L'acqua esce poi attraverso le fessure branchiali poste sotto il corpo.",
+      "imageCaption": "Razza"
+    },
+    {
+      "id": "fish-141",
+      "animal": "Pesce sega",
+      "prompt": "Come fa il rostro del pesce sega a individuare le prede nascoste?",
+      "options": [
+        "Trasporta recettori sensibili ai campi elettrici",
+        "Li identificano dal loro colore",
+        "Li attirano con le bolle",
+        "Li rilevano solo ascoltando"
+      ],
+      "explanation": "Questi elettrorecettori rilevano i segnali delle prede sepolte nel substrato.",
+      "didYouKnow": "Il pesce sega è una razza, non uno squalo.",
+      "imageCaption": "Pesce sega"
+    },
+    {
+      "id": "fish-142",
+      "animal": "murena",
+      "prompt": "Perché la murena apre spesso la bocca quando è ferma?",
+      "options": [
+        "Per far circolare l'acqua sulle branchie",
+        "Per filtrare il plancton",
+        "Per trasportare le uova",
+        "Spingersi per ondulazione"
+      ],
+      "explanation": "Aprire e chiudere la bocca contribuisce alla sua ventilazione.",
+      "didYouKnow": "Le mascelle faringee della murena afferrano la preda e la trascinano verso la gola.",
+      "imageCaption": "murena"
+    },
+    {
+      "id": "fish-143",
+      "animal": "Cavalluccio marino",
+      "prompt": "Qual è lo scopo della coda prensile del cavalluccio marino?",
+      "options": [
+        "Aggrapparsi alle erbe e ai coralli",
+        "L'individuo più piccolo è sempre femmina",
+        "Il sesso dipende dalla temperatura dell'acqua",
+        "Tutti gli individui sono femmine"
+      ],
+      "explanation": "La coda arricciata stabilizza l'animale nella corrente e lo mantiene vicino al suo habitat.",
+      "didYouKnow": "Il cavalluccio marino nuota in posizione eretta.",
+      "imageCaption": "Cavalluccio marino"
+    },
+    {
+      "id": "fish-144",
+      "animal": "Pesce pagliaccio",
+      "prompt": "Dove vivono naturalmente i pesci pagliaccio ocellati?",
+      "options": [
+        "Nel Pacifico indooccidentale",
+        "Solo nel Mar dei Caraibi",
+        "Nel temperato Nord Atlantico",
+        "Nei laghi dell'Africa orientale"
+      ],
+      "explanation": "L'Amphiprion ocellaris è originario delle acque tropicali del Pacifico indo-occidentale.",
+      "didYouKnow": "Il pesce pagliaccio ocellato vive presso alcuni anemoni che gli forniscono rifugio.",
+      "imageCaption": "Pesce pagliaccio"
+    },
+    {
+      "id": "fish-145",
+      "animal": "Anguilla europea",
+      "prompt": "Come fanno le giovani anguille a raggiungere i fiumi dopo la deriva dell'oceano?",
+      "options": [
+        "Si trasformano in anguille cieche per poi risalire le acque costiere",
+        "Per colpire banchi di pesci",
+        "Stabilirsi sugli scogli",
+        "Scavare tane"
+      ],
+      "explanation": "I leptocefali vanno alla deriva dall'oceano e diventano anguille cieche trasparenti vicino alla costa.",
+      "didYouKnow": "Le anguille europee adulte migrano nel Mar dei Sargassi per deporre le uova.",
+      "imageCaption": "Anguilla europea"
+    },
+    {
+      "id": "fish-146",
+      "animal": "Pesce spatola americano",
+      "prompt": "Qual è lo scopo del lungo muso del pesce spatola americano?",
+      "options": [
+        "Per rilevare la preda utilizzando i suoi recettori sensoriali",
+        "Depongono le uova nei laghi",
+        "Si riproducono in mare",
+        "Depongono le uova nelle mangrovie"
+      ],
+      "explanation": "Il muso appiattito è ricco di recettori che rilevano gli organismi nell'acqua torbida.",
+      "didYouKnow": "I suoi rastrelli branchiali filtrano lo zooplancton nell'acqua.",
+      "imageCaption": "Pesce spatola americano"
+    },
+    {
+      "id": "fish-147",
+      "animal": "Storione",
+      "prompt": "Perché la protezione delle zone di riproduzione è essenziale per lo storione migratore?",
+      "options": [
+        "Gli adulti risalgono i fiumi per deporre le uova in habitat idonei.",
+        "Prendono l'aria in superficie",
+        "Diventano acqua salata senza trasformazione",
+        "Smettono di respirare nel fiume"
+      ],
+      "explanation": "La frammentazione dei fiumi può impedire l'accesso alle aree di riproduzione.",
+      "didYouKnow": "Diverse specie di storioni sono minacciate dalla pesca e dalla perdita di habitat.",
+      "imageCaption": "Storione"
+    },
+    {
+      "id": "fish-148",
+      "animal": "Salmone",
+      "prompt": "Quali cambiamenti nella smoltificazione preparano un giovane salmone a spostarsi dall'acqua dolce al mare?",
+      "options": [
+        "Gli aggiustamenti dei trasportatori ionici branchiali accompagnano il comportamento migratorio",
+        "I polmoni crescono e sostituiscono le branchie",
+        "Le squame diventano placche ossee impermeabili",
+        "La riproduzione si sposta dal mare ai fiumi"
+      ],
+      "explanation": "La smoltificazione modifica notevolmente la capacità delle branchie di regolare gli ioni e accompagna il comportamento migratorio verso il mare.",
+      "didYouKnow": "I giovani salmoni spesso scendono lungo i fiumi in primavera.",
+      "imageCaption": "Salmone"
+    },
+    {
+      "id": "fish-149",
+      "animal": "Trota iridea",
+      "prompt": "Qual è il nome della forma migratoria marina della trota iridea?",
+      "options": [
+        "La testa d'acciaio",
+        "Pesce rosso",
+        "Carassio argentato",
+        "Koi marini selvatici"
+      ],
+      "explanation": "Cresce in mare per poi ritornare in acqua dolce per deporre le uova.",
+      "didYouKnow": "Altre trote iridee rimangono nel fiume per tutta la vita.",
+      "imageCaption": "Trota iridea"
+    },
+    {
+      "id": "fish-150",
+      "animal": "Carpa koi",
+      "prompt": "Di quali specie domestiche è varia la carpa koi?",
+      "options": [
+        "Carpa comune",
+        "Uova deposte sulle alghe",
+        "Un nido di bolle costruito dal maschio",
+        "Una frizione custodita da entrambi i genitori"
+      ],
+      "explanation": "Le Koi sono forme selezionate di carpa comune, allevate per i loro motivi colorati.",
+      "didYouKnow": "Le carpe possono imparare a riconoscere le persone e le routine di alimentazione.",
+      "imageCaption": "Carpa koi"
+    },
+    {
+      "id": "fish-151",
+      "animal": "Pesce cardinale di Banggai",
+      "prompt": "In che tipo di rifugio frequenta spesso il pesce cardinale di Banggai?",
+      "options": [
+        "Tra le spine dei ricci diademati o vicino agli anemoni",
+        "Nei nidi scavati dagli squali",
+        "Off-shore senza riparo",
+        "Solo nei gusci vuoti"
+      ],
+      "explanation": "Queste strutture forniscono rifugio alle persone e ai loro giovani.",
+      "didYouKnow": "Il cardinale di Banggaï è endemico di una ristretta regione dell'Indonesia ed è minacciato di raccolta.",
+      "imageCaption": "Pesce cardinale di Banggai"
+    },
+    {
+      "id": "fish-152",
+      "animal": "Pesce palla nano",
+      "prompt": "Perché le placche dentali fuse dei tetrodonti rimangono funzionali nonostante la loro crescita?",
+      "options": [
+        "Il bordo delle piastre si usura a contatto con gli alimenti duri",
+        "I piatti cadono e vengono sostituiti dopo ogni pasto",
+        "La loro crescita si ferma una volta che la mascella è adulta",
+        "Uno strato di cartilagine si stacca per accorciare le placche"
+      ],
+      "explanation": "Le placche dentali crescono continuamente e il loro bordo si consuma durante l'alimentazione, mantenendo la loro capacità di macinare.",
+      "didYouKnow": "I Tetrodonti appartengono al gruppo dei pesci palla.",
+      "imageCaption": "Pesce palla nano"
+    },
+    {
+      "id": "fish-153",
+      "animal": "Pesce persico europeo",
+      "prompt": "Quale motivo scuro è tipico del pesce persico europeo?",
+      "options": [
+        "Righe verticali sui lati",
+        "Punti in file orizzontali",
+        "Un corpo unito senza schemi",
+        "Un chiaro schema a spirale"
+      ],
+      "explanation": "Queste bande contrastano con le pinne, spesso rossastre.",
+      "didYouKnow": "Il pesce persico europeo consuma invertebrati e poi altri piccoli pesci man mano che crescono.",
+      "imageCaption": "Pesce persico europeo"
+    },
+    {
+      "id": "fish-154",
+      "animal": "Lucioperca",
+      "prompt": "Quale vantaggio offrono alla lucioperca i suoi occhi adattati alla luce fioca?",
+      "options": [
+        "Facilitano la caccia al crepuscolo e in acque torbide",
+        "Sono adatti per la visione alla luce solare diretta",
+        "Vengono utilizzati solo per trovare partner",
+        "Aiutano a identificare gli odori"
+      ],
+      "explanation": "La sua visione funziona bene quando la luce è limitata.",
+      "didYouKnow": "Il lucioperca è un predatore d'acqua dolce della famiglia dei persici.",
+      "imageCaption": "Lucioperca"
+    },
+    {
+      "id": "fish-155",
+      "animal": "Salmerino alpino",
+      "prompt": "In quali ambienti è particolarmente adatto il salmerino alpino?",
+      "options": [
+        "Alle fredde acque artiche e ai laghi alpini",
+        "Alle calde lagune tropicali",
+        "Ai fiumi molto caldi del deserto",
+        "Verso scogliere poco profonde"
+      ],
+      "explanation": "Abita le regioni settentrionali e alcuni laghi freddi di montagna.",
+      "didYouKnow": "Le popolazioni lacustri isolate di salmerino possono presentare forme diverse.",
+      "imageCaption": "Salmerino alpino"
+    },
+    {
+      "id": "fish-156",
+      "animal": "Temolo comune",
+      "prompt": "Quale pinna è particolarmente alta nel temolo comune?",
+      "options": [
+        "La pinna dorsale",
+        "La pinna caudale",
+        "Pinne pelviche",
+        "Branchie esterne"
+      ],
+      "explanation": "La dorsale alta è un tratto distintivo, particolarmente visibile nei maschi.",
+      "didYouKnow": "Il temolo comune frequenta spesso fiumi freschi con corrente moderata.",
+      "imageCaption": "Temolo comune"
+    },
+    {
+      "id": "fish-157",
+      "animal": "Muskellunge",
+      "prompt": "Quale carattere anatomico viene spesso utilizzato per distinguere il muskellunge dal luccio?",
+      "options": [
+        "Il numero di pori sensoriali sotto la mascella",
+        "La presenza di una pinna adiposa",
+        "Il numero di barbigli attorno alla bocca",
+        "La posizione della linea laterale sulla schiena"
+      ],
+      "explanation": "Il conteggio dei pori mandibolari è un utile criterio di identificazione, insieme ad altri caratteri morfologici.",
+      "didYouKnow": "Il muskellunge può superare in dimensioni il luccio comune.",
+      "imageCaption": "Muskellunge"
+    },
+    {
+      "id": "fish-158",
+      "animal": "Persico trota",
+      "prompt": "Quando viene catturato tramite aspirazione, cosa attira la preda nella bocca del basso?",
+      "options": [
+        "La rapida espansione della cavità orale crea un afflusso di acqua",
+        "Chiudendo i coperchi si espelle l'acqua verso la preda",
+        "La vescica natatoria attira la preda verso la gola",
+        "I denti afferrano la preda prima che la bocca si apra"
+      ],
+      "explanation": "L'abbassamento del pavimento della bocca e la rapida espansione della bocca creano una pressione inferiore che spinge l'acqua e la preda.",
+      "didYouKnow": "Il maschio spesso sorveglia il nido e i primi avannotti.",
+      "imageCaption": "Persico trota"
+    },
+    {
+      "id": "fish-159",
+      "animal": "Persico trota bocca piccola",
+      "prompt": "Quale habitat frequenta spesso il persico trota bocca piccola?",
+      "options": [
+        "Acque rocciose, fresche e ben ossigenate",
+        "Paludi calde e salmastre",
+        "Barriere coralline",
+        "Acque tropicali stagnanti"
+      ],
+      "explanation": "È spesso associato a fiumi e laghi con fondali rocciosi.",
+      "didYouKnow": "Il maschio del persico trota bocca piccola protegge uova e avannotti nel nido.",
+      "imageCaption": "Persico trota bocca piccola"
+    },
+    {
+      "id": "fish-160",
+      "animal": "Pesce gatto europeo",
+      "prompt": "Dove sono particolarmente abbondanti i recettori del gusto del pesce gatto europeo?",
+      "options": [
+        "Sui barbigli e ampiamente distribuito sulla pelle",
+        "Solo sulla lingua, dietro i denti",
+        "Nelle pinne dorsali, senza recettori sulla testa",
+        "Sugli rastrelli branchiali, all'interno delle branchie"
+      ],
+      "explanation": "Nel pesce gatto, le papille gustative si trovano sui barbigli e su ampie aree della pelle.",
+      "didYouKnow": "Il pesce gatto europeo è più attivo al crepuscolo e di notte.",
+      "imageCaption": "Pesce gatto europeo"
+    },
+    {
+      "id": "fish-161",
+      "animal": "Pesce angelo francese",
+      "prompt": "Che ruolo possono a volte svolgere i giovani pesci angelo francesi?",
+      "options": [
+        "Puliscono i parassiti dai pesci più grandi",
+        "Tengono le uova in bocca",
+        "Costruiscono un bozzolo di bolle",
+        "Incubano le uova in un sacchetto"
+      ],
+      "explanation": "I giovani sfruttano questo comportamento per nutrirsi di parassiti.",
+      "didYouKnow": "Gli adulti vivono spesso in coppie territoriali sulle barriere coralline.",
+      "imageCaption": "Pesce angelo francese"
+    },
+    {
+      "id": "fish-162",
+      "animal": "Pesce coccodrillo",
+      "prompt": "Dove aspettano spesso le loro prede i pesci coccodrillo?",
+      "options": [
+        "Agguato su fondale sabbioso o fangoso",
+        "Appeso a testa in giù",
+        "Scavando una tana con i denti",
+        "Imitando una foglia fluttuante"
+      ],
+      "explanation": "Il suo mimetismo gli permette di rimanere quasi invisibile finché la preda non passa.",
+      "didYouKnow": "I suoi occhi sporgenti possono rimanere puntati verso l'alto quando il pesce viene sepolto.",
+      "imageCaption": "Pesce coccodrillo"
+    },
+    {
+      "id": "fish-163",
+      "animal": "Pesce falco",
+      "prompt": "Come fa il pesce falco a stare su un trespolo di corallo?",
+      "options": [
+        "Fa affidamento sulle sue robuste pinne pettorali",
+        "Scava completamente",
+        "Si attacca con una ventosa per la bocca",
+        "Si libra sopra la barriera corallina"
+      ],
+      "explanation": "Queste pinne lo aiutano a stabilizzarsi su un ramo di corallo mentre osserva.",
+      "didYouKnow": "Il pesce falco salta dal suo trespolo per catturare piccoli animali.",
+      "imageCaption": "Pesce falco"
+    },
+    {
+      "id": "fish-164",
+      "animal": "Pesce con bocca rivolta verso l’alto",
+      "prompt": "Che tipo di cibo può afferrare facilmente un pesce con la bocca rivolta verso l'alto?",
+      "options": [
+        "Insetti sulla superficie dell'acqua",
+        "Prede che vivono nella sabbia",
+        "Plancton al largo",
+        "Alghe attaccate ai coralli"
+      ],
+      "explanation": "L'orientamento della bocca è adatto alle prede che galleggiano o cadono in superficie.",
+      "didYouKnow": "La posizione della bocca spesso fornisce un indizio sullo schema di alimentazione.",
+      "imageCaption": "Pesce con bocca rivolta verso l’alto (esempio: pesce arciere)"
+    },
+    {
+      "id": "fish-165",
+      "animal": "Pesce con bocca infera",
+      "prompt": "A quale tipo di alimentazione è spesso adatta la bocca posta sotto la testa?",
+      "options": [
+        "Alla ricerca di cibo sul fondo",
+        "La bocca posta in avanti",
+        "La bocca situata sul retro",
+        "La bocca si ritirò dietro gli occhi"
+      ],
+      "explanation": "Questa posizione facilita il pascolo o lo scavo del substrato.",
+      "didYouKnow": "Il pesce gatto e lo storione hanno spesso la bocca più bassa.",
+      "imageCaption": "Pesce con bocca infera (esempio: pleco comune)"
+    },
+    {
+      "id": "fish-166",
+      "animal": "Pesce con bocca terminale",
+      "prompt": "Dove si trova la bocca terminale di un pesce?",
+      "options": [
+        "All'estremità anteriore della testa",
+        "Per filtrare le meduse",
+        "Per schiacciare i crostacei",
+        "Per succhiare pesci grossi"
+      ],
+      "explanation": "Ti permette di catturare la preda situata direttamente di fronte al pesce.",
+      "didYouKnow": "La bocca terminale è comune tra i nuotatori che cacciano in acque libere.",
+      "imageCaption": "Pesce con bocca terminale (esempio: pesce pagliaccio ocellato)"
+    },
+    {
+      "id": "fish-167",
+      "animal": "Pesce farfalla di rame",
+      "prompt": "Perché il pesce farfalla ha il muso sottile?",
+      "options": [
+        "Per beccare le prede nascoste nelle fessure del reef",
+        "Caccia solo a mezzogiorno",
+        "Vive esclusivamente nei fiumi",
+        "Trascorre la notte tra le mangrovie"
+      ],
+      "explanation": "La sua bocca stretta raggiunge piccoli organismi tra le strutture coralline.",
+      "didYouKnow": "Molti pesci farfalla vivono in coppie territoriali.",
+      "imageCaption": "Pesce farfalla di rame"
+    },
+    {
+      "id": "fish-168",
+      "animal": "Pesce scoiattolo",
+      "prompt": "Dove si nascondono i pesci scoiattolo durante il giorno?",
+      "options": [
+        "Nelle fessure della barriera corallina",
+        "Il suo dorso scuro si fonde con la profondità",
+        "Produce luce ventrale",
+        "Si rintana nelle aiuole erbose"
+      ],
+      "explanation": "Spesso rimane nascosto durante il giorno e di notte esce in cerca di cibo.",
+      "didYouKnow": "Gli scoiattoli hanno occhi grandi adattati alla scarsa illuminazione.",
+      "imageCaption": "Pesce scoiattolo"
+    },
+    {
+      "id": "fish-169",
+      "animal": "Accetta",
+      "prompt": "Come fa il pesce accetta a sfuggire al rilevamento dal basso?",
+      "options": [
+        "Il suo ventre argentato riflette la luce superficiale",
+        "Si nascondono tra le mangrovie",
+        "Hanno branchie esterne",
+        "Vivono in banchi in mare aperto"
+      ],
+      "explanation": "Il riflesso riduce il contrasto per un predatore sottostante.",
+      "didYouKnow": "I suoi occhi rivolti verso l'alto individuano le figure sopra di lui.",
+      "imageCaption": "Accetta"
+    },
+    {
+      "id": "fish-170",
+      "animal": "Pesce sole d’acqua dolce",
+      "prompt": "Dove costruiscono solitamente i loro nidi i pesci luna maschi?",
+      "options": [
+        "In una depressione superficiale del substrato",
+        "In una cavità corallina",
+        "In conchiglie galleggianti",
+        "In una tasca sulla pancia"
+      ],
+      "explanation": "Il maschio pulisce un'area e la custodisce mentre le uova si sviluppano.",
+      "didYouKnow": "Diversi pesci luna difendono la deposizione delle uova.",
+      "imageCaption": "Pesce sole d’acqua dolce"
+    },
+    {
+      "id": "fish-171",
+      "animal": "Pesce pappagallo blu",
+      "prompt": "In quale vasta regione si trovano naturalmente i pesci pappagallo blu?",
+      "options": [
+        "Nelle acque tropicali dell'Atlantico occidentale e dei Caraibi",
+        "Nei laghi d'acqua dolce dell'Asia centrale",
+        "Nelle acque polari dell'Antartide",
+        "Nel Mar Baltico e nel Mare del Nord"
+      ],
+      "explanation": "Lo Scarus coeruleus è presente nelle barriere coralline tropicali dell'Atlantico occidentale, in particolare nei Caraibi.",
+      "didYouKnow": "I giovani pesci pappagallo blu possono avere una livrea diversa rispetto agli adulti.",
+      "imageCaption": "Pesce pappagallo blu"
+    },
+    {
+      "id": "fish-172",
+      "animal": "Pesce chirurgo vela",
+      "prompt": "Che cosa potrebbe segnalare l’esibizione della grande pinna dorsale del pesce chirurgo vela?",
+      "options": [
+        "Un'esibizione o una minaccia durante un'interazione sociale",
+        "La direzione di una banca di plancton",
+        "La presenza di un nido nella sabbia",
+        "L'imminenza della deposizione delle uova in acque libere"
+      ],
+      "explanation": "La pinna spiegata accentua la sagoma del pesce ed è coinvolta in manifestazioni sociali o territoriali.",
+      "didYouKnow": "I pesci chirurgo spesso pascolano le alghe sulle barriere coralline.",
+      "imageCaption": "Pesce chirurgo vela"
+    },
+    {
+      "id": "fish-173",
+      "animal": "Pesci della barriera corallina",
+      "prompt": "Perché i pesci della barriera corallina sfruttano microhabitat diversi?",
+      "options": [
+        "Ciò riduce la concorrenza per le stesse risorse",
+        "Occupano tutti lo stesso livello della barriera corallina",
+        "Vietano qualsiasi predazione",
+        "Mangiano esclusivamente corallo"
+      ],
+      "explanation": "Crepacci, superfici coralline e praterie di fanerogame marine offrono nicchie distinte.",
+      "didYouKnow": "La complessità strutturale delle barriere coralline contribuisce alla loro elevata diversità.",
+      "imageCaption": "Pesci della barriera corallina (esempio: pesce farfalla con pinne reticolate)"
+    },
+    {
+      "id": "fish-174",
+      "animal": "Pesce gatto dalla coda rossa",
+      "prompt": "Quale dettaglio colorante ti aiuta a riconoscere il pesce gatto dalla coda rossa?",
+      "options": [
+        "Una pinna caudale rosso-arancio",
+        "Una macchia blu sulla sommità della testa",
+        "Bande nere verticali sui lati",
+        "Pinne pettorali trasparenti"
+      ],
+      "explanation": "La pinna caudale rosso-arancio è un segno visivo sorprendente di Phractocephalus hemioliopterus.",
+      "didYouKnow": "Il Phractocephalus hemioliopterus è originario dei bacini dell'Amazzonia e dell'Orinoco.",
+      "imageCaption": "Pesce gatto dalla coda rossa"
+    },
+    {
+      "id": "fish-175",
+      "animal": "Piranha dal ventre rosso",
+      "prompt": "Quale affermazione descrive meglio la dieta dei piranha dal ventre rosso?",
+      "options": [
+        "Varia a seconda della specie, dell'età e delle risorse disponibili",
+        "Cacciano esclusivamente grandi mammiferi",
+        "Mangiano solo alghe",
+        "Filtrano il plancton tutto l'anno"
+      ],
+      "explanation": "I piranha consumano pesce e altri animali; non sono tutti cacciatori di grandi animali.",
+      "didYouKnow": "I piranha dal ventre rosso vivono spesso in gruppi, il che può migliorare la loro attenzione ai predatori.",
+      "imageCaption": "Piranha dal ventre rosso"
+    },
+    {
+      "id": "fish-176",
+      "animal": "Pesce palla",
+      "prompt": "Quale struttura aiuta il pesce palla a schiacciare i crostacei?",
+      "options": [
+        "I suoi denti fusi insieme formano un becco",
+        "Filtraggio dei rastrelli branchiali",
+        "Una lingua appiccicosa che strappa le conchiglie",
+        "Un rostro dentato"
+      ],
+      "explanation": "Il robusto beccuccio schiaccia gli alimenti duri e si usura durante l'alimentazione.",
+      "didYouKnow": "I denti fusi dei tetrodonti crescono continuamente.",
+      "imageCaption": "Pesce palla"
+    },
+    {
+      "id": "fish-177",
+      "animal": "Pesce cardinale",
+      "prompt": "Come protegge la sua pochette il cardinale di Banggaï?",
+      "options": [
+        "Tiene le uova in bocca",
+        "La femmina conserva le uova in una sacca",
+        "Entrambi i genitori li portano in una pinna",
+        "Costruiscono un nido galleggiante"
+      ],
+      "explanation": "Questa incubazione orale protegge le uova finché non si schiudono.",
+      "didYouKnow": "Il cardinale di Banggaï vive naturalmente in una zona ristretta dell’Indonesia.",
+      "imageCaption": "Pesce cardinale"
+    },
+    {
+      "id": "fish-178",
+      "animal": "Pesce arciere",
+      "prompt": "Come fa il pesce arciere a produrre un getto capace di buttare la preda fuori dall'acqua?",
+      "options": [
+        "Forma un canale con la bocca e spinge l'acqua con la lingua",
+        "Chiude le palpebre per inviare un getto attraverso le branchie",
+        "Attraverso le narici espelle l'acqua dalla vescica natatoria",
+        "Fa vibrare la pinna caudale per proiettare goccioline"
+      ],
+      "explanation": "La bocca forma un canale di fuoco e la lingua contribuisce ad accelerare il getto diretto verso la preda.",
+      "didYouKnow": "Il pesce arciere può correggere la mira con l'esperienza e mirare a spostare la preda.",
+      "imageCaption": "Pesce arciere"
+    },
+    {
+      "id": "fish-179",
+      "animal": "Pesce pagliaccio",
+      "prompt": "Perché il pesce pagliaccio ha una relazione con un anemone?",
+      "options": [
+        "L'anemone fornisce rifugio da molti predatori",
+        "Gli fornisce una fonte di cibo",
+        "Gli permette di respirare aria",
+        "Depone le uova nello stomaco"
+      ],
+      "explanation": "I pesci tollerati dall'anemone possono nascondersi tra i suoi tentacoli urticanti.",
+      "didYouKnow": "I pesci pagliaccio possono difendere il loro anemone dai pesci che lo mangiano.",
+      "imageCaption": "Pesce pagliaccio"
+    },
+    {
+      "id": "fish-180",
+      "animal": "Pesce leone",
+      "prompt": "Quale origine spiega la presenza del pesce leone nell'Atlantico occidentale?",
+      "options": [
+        "Introduzioni umane al di fuori della sua area indo-pacifica",
+        "Una migrazione naturale dal Mediterraneo",
+        "Trasporto tramite correnti polari",
+        "Espansione dovuta al cambiamento di colore"
+      ],
+      "explanation": "Gli individui fuggiti o rilasciati hanno contribuito a stabilire popolazioni invasive.",
+      "didYouKnow": "Il pesce leone può ridurre l’abbondanza di piccoli pesci autoctoni della barriera corallina.",
+      "imageCaption": "Pesce leone"
+    },
+    {
+      "id": "fish-181",
+      "animal": "Cavalluccio marino",
+      "prompt": "Come si muove il cavalluccio marino nell'acqua?",
+      "options": [
+        "Nuota in posizione verticale, sbattendo rapidamente la piccola pinna dorsale.",
+        "Nuota orizzontalmente agitando la coda.",
+        "Avanza con rapidi colpi di coda.",
+        "Cammina con le pinne pelviche"
+      ],
+      "explanation": "La pinna dorsale fornisce la maggior parte della sua propulsione, con l'aiuto delle pettorali per la guida.",
+      "didYouKnow": "La coda prensile del cavalluccio marino viene utilizzata per afferrare, non per spingere.",
+      "imageCaption": "Cavalluccio marino"
+    },
+    {
+      "id": "fish-182",
+      "animal": "Pesce luna",
+      "prompt": "Quale struttura sostituisce la classica pinna caudale del pesce luna?",
+      "options": [
+        "Il clavus, un margine arrotondato nella parte posteriore del corpo",
+        "Una pinna caudale biforcuta",
+        "Una grande pinna a forma di ventaglio",
+        "Una coda prensile"
+      ],
+      "explanation": "Il clavus risulta dall'accorciamento della parte posteriore del corpo.",
+      "didYouKnow": "Il pesce luna si muove principalmente con le pinne dorsale e anale.",
+      "imageCaption": "Pesce luna"
+    },
+    {
+      "id": "fish-183",
+      "animal": "Carpa comune",
+      "prompt": "Dove si trovano i denti faringei della carpa e contro quale struttura macinano il cibo?",
+      "options": [
+        "Nella gola, dove premono il cibo contro un cuscinetto duro",
+        "Sulle mascelle, dove trafiggono la preda prima di ingerirla",
+        "Sui rastrelli branchiali, dove filtrano i semi",
+        "Nell'esofago, contro la parete della vescica natatoria"
+      ],
+      "explanation": "Le carpe non hanno denti visibili sulle mascelle; i denti faringei macinano il cibo contro un cuscinetto specializzato.",
+      "didYouKnow": "Le carpe comuni hanno piccoli barbigli intorno alla bocca.",
+      "imageCaption": "Carpa comune"
+    },
+    {
+      "id": "fish-184",
+      "animal": "Pesce ago",
+      "prompt": "Quale arto trasporta le uova in più pesci ago?",
+      "options": [
+        "Il maschio, in un'incubatrice o in una sacca",
+        "La femmina, in una sacca ventrale",
+        "Entrambi i genitori, in bocca",
+        "La femmina, sulle pinne"
+      ],
+      "explanation": "La femmina depone lì le uova, che il maschio protegge durante il loro sviluppo.",
+      "didYouKnow": "I pesci ago sono imparentati con i cavallucci marini.",
+      "imageCaption": "Pesce ago"
+    },
+    {
+      "id": "fish-185",
+      "animal": "Pesce pappagallo",
+      "prompt": "Quale termine descrive il cambiamento di sesso osservato in molti pesci pappagallo?",
+      "options": [
+        "Protoginia, dove alcune femmine diventano maschi",
+        "Protandrià, dove i maschi diventano femmine",
+        "Gonochoria, dove ogni individuo cambia sesso più volte",
+        "Partenogenesi, dove le femmine producono cloni"
+      ],
+      "explanation": "Molti pesci pappagallo sono protogini: alcuni individui iniziano la loro vita come femmine e poi diventano maschi.",
+      "didYouKnow": "Il becco dei pesci pappagallo permette loro di pascolare sul substrato della barriera corallina.",
+      "imageCaption": "Pesce pappagallo"
+    },
+    {
+      "id": "fish-186",
+      "animal": "Anguilla europea",
+      "prompt": "Che aspetto hanno i leptocefali, le larve delle anguille?",
+      "options": [
+        "Sono trasparenti e appiattiti come un foglio",
+        "Sono opachi e sferici",
+        "Sembrano piccole anguille marroni",
+        "Hanno un guscio calcificato"
+      ],
+      "explanation": "Questa forma larvale va alla deriva nell'oceano prima di trasformarsi in cieche vicino alla costa.",
+      "didYouKnow": "I leptocefali sono molto diversi dalle anguille adulte.",
+      "imageCaption": "Anguilla europea"
+    },
+    {
+      "id": "fish-187",
+      "animal": "Salmone",
+      "prompt": "Come si chiama una strategia in cui un salmone del Pacifico si riproduce solo una volta prima di morire?",
+      "options": [
+        "Semelparità",
+        "Iteroparità",
+        "Protoginia",
+        "Viviparità"
+      ],
+      "explanation": "Molti salmoni del Pacifico sono semolpari; la riproduzione mobilita pesantemente le loro riserve ed è seguita dalla loro morte.",
+      "didYouKnow": "Il salmone atlantico può sopravvivere e deporre le uova più volte.",
+      "imageCaption": "Salmone"
+    },
+    {
+      "id": "fish-188",
+      "animal": "Salmone",
+      "prompt": "Cosa significa la corsa dei salmoni?",
+      "options": [
+        "Il movimento degli adulti a monte per raggiungere i luoghi di deposizione delle uova",
+        "Migrazione a valle degli adulti",
+        "Il movimento dei giovani verso un estuario",
+        "Pesci che nuotano verso il fondale"
+      ],
+      "explanation": "Gli adulti risalgono i fiumi dal mare per deporre le uova.",
+      "didYouKnow": "A valle si intende il viaggio a valle del giovane salmone.",
+      "imageCaption": "Salmone"
+    },
+    {
+      "id": "fish-189",
+      "animal": "Pesce lanterna",
+      "prompt": "Quale area oceanica frequentano spesso i pesci lanterna?",
+      "options": [
+        "La zona mesopelagica, dove la luce è molto debole",
+        "La zona costiera illuminata dal sole",
+        "Scogliere poco profonde",
+        "Acque costiere temperate"
+      ],
+      "explanation": "Questa zona intermedia ospita grandi popolazioni che migrano verticalmente ogni giorno.",
+      "didYouKnow": "I pesci lanterna sono prede importanti per molti predatori marini.",
+      "imageCaption": "Pesce lanterna artico"
+    },
+    {
+      "id": "fish-190",
+      "animal": "Pesce ghiacciato antartico",
+      "prompt": "Perché l'acqua antartica può contenere molto ossigeno disciolto?",
+      "options": [
+        "La solubilità del gas aumenta quando l'acqua è fredda",
+        "La salinità dell'acqua",
+        "Luce solare diretta",
+        "Il numero di pesci presenti"
+      ],
+      "explanation": "L’acqua fredda può contenere più ossigeno in soluzione rispetto all’acqua calda.",
+      "didYouKnow": "Alcune specie antartiche contengono proteine ​​antigelo nei fluidi corporei.",
+      "imageCaption": "Pesce ghiacciato antartico"
+    },
+    {
+      "id": "fish-191",
+      "animal": "Pesce piatto",
+      "prompt": "Come può un pesce piatto nascondersi su un fondale sabbioso?",
+      "options": [
+        "Si seppellisce parzialmente lanciando sabbia con le pinne.",
+        "Gonfia il suo corpo per sembrare una roccia",
+        "Attacca la pancia al substrato con una ventosa",
+        "Produce una nuvola opaca di muco"
+      ],
+      "explanation": "Molti pesci piatti agitano le pinne per coprirsi il corpo di sabbia mantenendo gli occhi scoperti.",
+      "didYouKnow": "La pigmentazione della superficie superiore di molti pesci piatti può adattarsi al substrato.",
+      "imageCaption": "Pesce piatto (esempio: passera di mare)"
+    },
+    {
+      "id": "fish-192",
+      "animal": "Pesce pulitore",
+      "prompt": "Quale postura assume spesso un pesce cliente presso una stazione di pulizia?",
+      "options": [
+        "Resta fermo ed espone parti del corpo",
+        "Apre la bocca e nuota rapidamente",
+        "Si sdraia su un fianco e si nasconde",
+        "Cambia colore diventando rosso"
+      ],
+      "explanation": "Questa posa consente al pulitore di accedere alla pelle, alle pinne o alle branchie.",
+      "didYouKnow": "Le stazioni di pulizia sono frequentate da clienti di diverse specie.",
+      "imageCaption": "Labro pulitore comune"
+    },
+    {
+      "id": "fish-193",
+      "animal": "Pesce gatto",
+      "prompt": "Quale caratteristica della pelle è comune a molti pesci gatto?",
+      "options": [
+        "È nuda, senza squame tipiche",
+        "Indossa sempre scaglie placoidi",
+        "È ricoperto di macchie di corallo",
+        "È sostituito da un guscio rigido"
+      ],
+      "explanation": "In molti Siluriformi la pelle non presenta le squame tipiche di molti altri pesci ossei, anche se esistono delle eccezioni.",
+      "didYouKnow": "Alcune famiglie di pesci gatto hanno placche ossee protettive.",
+      "imageCaption": "Pesce gatto"
+    },
+    {
+      "id": "fish-194",
+      "animal": "Pesce farfalla",
+      "prompt": "A cosa può servire una striscia scura che attraversa l'occhio di un pesce farfalla?",
+      "options": [
+        "Per nascondere la posizione dell'occhio",
+        "Per attirare una femmina con lampi di luce",
+        "Per proteggere le branchie dai sedimenti",
+        "Per ricevere suoni sott'acqua"
+      ],
+      "explanation": "Il disegno riduce la visibilità dell'occhio e può ostacolare un predatore che mira alla testa.",
+      "didYouKnow": "Un ocello vicino alla coda può confondere l’orientamento di un predatore.",
+      "imageCaption": "Pesce farfalla"
+    },
+    {
+      "id": "fish-195",
+      "animal": "Pesci di mangrovia",
+      "prompt": "In che modo le radici delle mangrovie cambiano l'acqua vicino alla riva?",
+      "options": [
+        "Rallentano la corrente e intrappolano i sedimenti",
+        "Per assorbire i nutrienti",
+        "Per conservare le uova",
+        "Da attaccare alle rocce"
+      ],
+      "explanation": "La rete radicale riduce l'energia delle onde e trattiene le particelle.",
+      "didYouKnow": "Le mangrovie forniscono vivai per molte specie costiere.",
+      "imageCaption": "Pesci di mangrovia (esempio: perioftalmo argentato)"
+    },
+    {
+      "id": "fish-196",
+      "animal": "Pesci di fiume",
+      "prompt": "Perché gli spazi vuoti in un letto di ghiaia ben ossigenato favoriscono lo sviluppo delle uova di salmone?",
+      "options": [
+        "L'acqua circola tra i ciottoli e apporta ossigeno alle uova sepolte.",
+        "La ghiaia produce ossigeno mediante la fotosintesi sotto il fondo",
+        "I ciottoli bloccano la circolazione dell'acqua e trattengono il calore",
+        "Le uova assorbono l'ossigeno direttamente attraverso le pietre"
+      ],
+      "explanation": "La porosità della ghiaia permette la circolazione dell'acqua che rinnova l'ossigeno attorno alle uova; i sedimenti fini possono ostruire questi spazi.",
+      "didYouKnow": "I pesci di fiume possono vedere le loro migrazioni riproduttive interrotte dalle dighe.",
+      "imageCaption": "Pesci di fiume (esempio: trota fario)"
+    },
+    {
+      "id": "fish-197",
+      "animal": "Squalo",
+      "prompt": "Qual è il ruolo del fegato ricco di petrolio in molti squali?",
+      "options": [
+        "Contribuisce alla loro galleggiabilità e immagazzina energia",
+        "Filtra il plancton",
+        "Produce veleno",
+        "Controlla la salinità dell'acqua"
+      ],
+      "explanation": "Gli oli sono meno densi dell’acqua e aiutano a compensare il peso corporeo.",
+      "didYouKnow": "Gli squali non hanno la vescica natatoria.",
+      "imageCaption": "Squalo (esempio: grande squalo bianco)"
+    },
+    {
+      "id": "fish-198",
+      "animal": "Pesci marini",
+      "prompt": "In che modo la controcorrente tra acqua e sangue migliora l'estrazione dell'ossigeno nelle branchie?",
+      "options": [
+        "Mantiene un gradiente di concentrazione su tutta la lunghezza delle lamelle",
+        "Fa circolare il sangue nella stessa direzione dell'acqua per equalizzare le concentrazioni",
+        "Concentra tutto l'ossigeno all'ingresso delle branchie quindi chiude le lamelle",
+        "Converte l'anidride carbonica in ossigeno utilizzando i globuli rossi"
+      ],
+      "explanation": "Con flussi opposti, l'acqua mantiene una concentrazione di ossigeno maggiore rispetto al sangue adiacente lungo le lamelle.",
+      "didYouKnow": "Le coperture branchiali dei pesci ossei proteggono le branchie e aiutano a far circolare l'acqua.",
+      "imageCaption": "Pesci marini (esempio: pesce pagliaccio ocellato)"
+    },
+    {
+      "id": "fish-199",
+      "animal": "Pesce con vescica natatoria",
+      "prompt": "Quale condotto caratterizza un pesce fisostoma e collega la sua vescica natatoria al tratto digestivo?",
+      "options": [
+        "Il dotto pneumatico",
+        "Il dotto endolinfatico",
+        "Il dotto di Wolff",
+        "Il canale opercolare"
+      ],
+      "explanation": "Nei pesci fisostomi, il dotto pneumatico collega la vescica natatoria all’esofago e permette gli scambi gassosi con il tratto digestivo.",
+      "didYouKnow": "Nei pesci fisostomi, il dotto pneumatico collega la vescica natatoria all’esofago.",
+      "imageCaption": "Pesce con vescica natatoria (esempio: pesce rosso)"
+    },
+    {
+      "id": "fish-200",
+      "animal": "Pesce con vescica natatoria",
+      "prompt": "Come fa un pesce fisoclista ad aumentare la quantità di gas nella vescica natatoria in profondità?",
+      "options": [
+        "Una ghiandola del gas trasferisce i gas dal sangue alla vescica",
+        "Un dotto pneumatico lascia entrare l’aria ingerita dall’esofago",
+        "Una zona di riassorbimento aggiunge gas dall’intestino",
+        "I reni filtrano l’ossigeno disciolto e lo inviano alla vescica"
+      ],
+      "explanation": "La ghiandola del gas acidifica localmente il sangue e favorisce il trasferimento di gas alla vescica, aiutando il pesce a mantenere il galleggiamento.",
+      "didYouKnow": "In alcune specie, anche la vescica natatoria contribuisce all'udito.",
+      "imageCaption": "Pesce con vescica natatoria (esempio: pesce rosso)"
+    }
+  ]
+}

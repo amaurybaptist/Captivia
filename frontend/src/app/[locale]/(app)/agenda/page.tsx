@@ -342,6 +342,7 @@ export default function AgendaPage() {
 
   return (
     <div className="cv-container grid gap-6 py-6 sm:py-8">
+      <div><Link href="/agenda/calendrier" className={buttonClasses({ variant: 'secondary', size: 'sm' })}>{tAll('common.careAgenda')}</Link></div>
       <SectionHeader title={t('title')} description={t('subtitle')} marginNote={rangeLabel} marginLabel={t('rangeShown')} />
 
       <div className="grid gap-6 lg:grid-cols-12">

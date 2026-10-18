@@ -489,7 +489,11 @@
     "retry": "Riprova",
     "unexpectedError": "Errore imprevisto",
     "sessionExpired": "Sessione scaduta. Accedi di nuovo.",
-    "agenda": "Agenda delle cure"
+    "agenda": "Agenda delle cure",
+    "habitatGuide": "Guida 3D",
+    "designHabitat": "Progetta il suo habitat",
+    "careAgenda": "Calendario",
+    "animalGame": "Gioco"
   },
   "disclaimers": {
     "affiliate": "Link affiliato",
@@ -955,7 +959,23 @@
     "dateRequired": "Scegli una data per ogni promemoria singolo: la modifica non è stata salvata.",
     "labelTooLong": "Il nome di un promemoria può avere al massimo 60 caratteri.",
     "snoozeInvalid": "Indica un intervallo tra 5 e 120 minuti.",
-    "saveInvalid": "Alcune impostazioni non sono valide. Controlla orari e date dei tuoi promemoria."
+    "saveInvalid": "Alcune impostazioni non sono valide. Controlla orari e date dei tuoi promemoria.",
+    "pushEnabled": "Notifiche attive in questo browser.",
+    "enablePush": "Attiva notifiche",
+    "disablePush": "Disattiva in questo browser",
+    "sendTest": "Invia una prova",
+    "testSent": "Notifica inviata.",
+    "testPartial": "Alcune notifiche non sono state inviate.",
+    "noRecipient": "Nessun destinatario attivo. Attiva le notifiche su un dispositivo.",
+    "testFailed": "Impossibile inviare la notifica di prova.",
+    "timeZone": "Fuso orario",
+    "deliveryWindow": "Orari consentiti per gli invii",
+    "windowStart": "Inizio degli invii",
+    "windowEnd": "Fine degli invii",
+    "channelsUnavailable": "Alcune modalità di ricezione sono temporaneamente non disponibili. I promemoria restano visibili nell’app.",
+    "snoozeAction": "Posticipa",
+    "snoozeDone": "Promemoria posticipato.",
+    "reminderError": "Impossibile aggiornare il promemoria."
   },
   "premiumLock": {
     "goPremium": "Scopri l'abbonamento Premium",
@@ -1321,7 +1341,8 @@
     "endsOn": "Accesso Premium fino al {date}",
     "billingIssue": "Problema di pagamento: aggiorna il metodo di pagamento nello store.",
     "expired": "Il tuo abbonamento è scaduto.",
-    "manage": "Gestisci il mio abbonamento"
+    "manage": "Gestisci il mio abbonamento",
+    "benefitHabitat": "Progettazione habitat 2D e 3D: allestimenti personalizzati, progetti salvati ed esportazioni"
   },
   "legal": {
     "englishFallback": "In attesa della traduzione, fa fede la versione inglese.",

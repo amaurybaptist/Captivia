@@ -1,0 +1,702 @@
+.care-page {
+  min-height: 100vh;
+  padding: 40px 0 max(48px, env(safe-area-inset-bottom));
+  background: var(--paper);
+  color: var(--ink);
+}
+.care-container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 32px;
+  min-width: 0;
+}
+.care-intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+.care-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 0.15em;
+  color: var(--accent-strong);
+  text-transform: normal-case;
+}
+.care-intro h1 {
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 650;
+  letter-spacing: -0.045em;
+  line-height: 1.15;
+  margin: 14px 0;
+}
+.care-intro h1 span {
+  display: block;
+  font-size: 0.56em;
+  color: var(--accent-strong);
+  letter-spacing: -0.025em;
+  margin-top: 10px;
+}
+.care-intro p {
+  max-width: 650px;
+  line-height: 1.8;
+  font-size: 14px;
+  color: var(--ink-2);
+}
+.care-panel {
+  min-width: 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: 0 12px 40px rgb(13 50 35 / 3%);
+}
+.care-button,
+.care-icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 10px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 650;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.care-button.primary {
+  background: var(--accent-strong);
+  border-color: transparent;
+  color: var(--paper);
+}
+.care-icon-button {
+  padding: 9px;
+  min-width: 42px;
+}
+.care-button:hover,
+.care-icon-button:hover {
+  filter: brightness(0.96);
+}
+.care-button:disabled,
+.care-icon-button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.care-page button:focus-visible,
+.care-page input:focus-visible,
+.care-page select:focus-visible,
+.care-form :focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+.care-filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 18px 24px;
+}
+.care-filter-title {
+  display: flex;
+  gap: 9px;
+  font-weight: 650;
+  font-size: 13px;
+  margin-right: auto;
+}
+.care-filters label,
+.care-date-controls label {
+  display: grid;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.care-filters select,
+.care-date-controls input,
+.care-form input,
+.care-form select {
+  min-width: 0;
+  max-width: 100%;
+  min-height: 40px;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  background: var(--paper);
+  color: var(--ink);
+  padding: 9px 12px;
+  font-size: 13px;
+}
+.care-filters select {
+  min-width: 170px;
+}
+.care-view-switch {
+  display: flex;
+  padding: 4px;
+  gap: 4px;
+  border-radius: 12px;
+  background: var(--paper);
+}
+.care-view-switch button {
+  min-height: 38px;
+  border: 0;
+  padding: 8px 18px;
+  border-radius: 9px;
+  font-size: 12px;
+  color: var(--ink-2);
+  cursor: pointer;
+}
+.care-view-switch button[aria-pressed='true'] {
+  color: var(--accent-strong);
+  background: var(--surface);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 5%);
+}
+.care-feedback {
+  min-height: 46px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: var(--ink-2);
+  line-height: 1.6;
+}
+.care-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  align-items: start;
+  gap: 24px;
+}
+.care-calendar {
+  overflow: hidden;
+}
+.care-calendar-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 26px 26px 18px;
+}
+.care-calendar-toolbar h2 {
+  font-size: 27px;
+  font-weight: 650;
+  margin: 6px 0 0;
+  letter-spacing: -0.035em;
+  text-transform: capitalize;
+}
+.care-navigation {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.care-date-controls {
+  display: flex;
+  align-items: end;
+  gap: 12px;
+  padding: 0 26px 24px;
+}
+.care-date-controls input {
+  width: 168px;
+}
+.care-month {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.care-month th {
+  font-size: 11px;
+  color: var(--ink-2);
+  padding: 12px 0;
+  background: var(--paper);
+  font-weight: 650;
+}
+.care-month td {
+  vertical-align: top;
+  border-top: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  padding: 3px;
+}
+.care-month td:last-child {
+  border-right: 0;
+}
+.care-day {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 108px;
+  border-radius: 11px;
+  text-align: left;
+  padding: 8px;
+  color: var(--ink);
+  cursor: pointer;
+  border: 1px solid transparent;
+  background: transparent;
+}
+.care-day:hover {
+  background: var(--paper);
+}
+.care-day.selected {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+.care-day.outside {
+  color: var(--ink-2);
+  background: var(--paper);
+}
+.care-day-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 25px;
+  height: 25px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.care-day.today .care-day-number {
+  background: var(--accent-strong);
+  color: var(--paper);
+  border-radius: 8px;
+}
+.care-day-count {
+  float: right;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  font-size: 10px;
+  font-weight: 700;
+}
+.care-day-preview {
+  display: grid;
+  gap: 5px;
+  margin-top: 7px;
+}
+.care-mini-event {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 10px;
+  line-height: 1.5;
+}
+.care-mini-event i,
+.care-calendar-legend i {
+  display: inline-block;
+  background: #22a67e;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.care-mini-event.appointment i,
+.care-calendar-legend .appointment {
+  background: #818cf8;
+}
+.care-mini-event.medication i,
+.care-calendar-legend .medication {
+  background: #eab063;
+}
+.care-mini-event.vaccination i,
+.care-calendar-legend .vaccination {
+  background: #e384a8;
+}
+.care-day-preview small {
+  font-size: 9px;
+  color: var(--ink-2);
+}
+.care-calendar-legend {
+  padding: 18px 24px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--line);
+  font-size: 10px;
+  color: var(--ink-2);
+}
+.care-day-details {
+  padding: 26px;
+}
+.care-day-heading {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.care-day-heading h2 {
+  font-size: 22px;
+  font-weight: 650;
+  line-height: 1.3;
+  margin: 10px 0;
+  text-transform: capitalize;
+  letter-spacing: -0.03em;
+}
+.care-day-heading p {
+  font-size: 12px;
+  color: var(--ink-2);
+}
+.care-timeline {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+.care-event {
+  display: grid;
+  gap: 8px;
+  text-align: left;
+  border: 1px solid var(--line);
+  border-left: 3px solid #22a67e;
+  padding: 15px;
+  border-radius: 12px;
+  background: var(--paper);
+  width: 100%;
+  color: var(--ink);
+  cursor: pointer;
+  overflow-wrap: anywhere;
+}
+.care-event.appointment {
+  border-left-color: #818cf8;
+}
+.care-event.medication {
+  border-left-color: #eab063;
+}
+.care-event.vaccination {
+  border-left-color: #e384a8;
+}
+.care-event strong {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.care-event-time {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--ink-2);
+}
+.care-event-meta {
+  font-size: 11px;
+  color: var(--ink-2);
+  line-height: 1.6;
+}
+.care-event-edit {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  color: var(--accent-strong);
+  font-weight: 650;
+}
+.care-day-add {
+  margin-top: 20px;
+  width: 100%;
+}
+.care-animal-link {
+  display: block;
+  font-size: 11px;
+  color: var(--accent-strong);
+  margin-top: 18px;
+  text-align: center;
+  line-height: 1.8;
+}
+.care-empty {
+  text-align: center;
+  padding: 26px 0;
+  color: var(--ink-2);
+}
+.care-empty svg {
+  margin: 0 auto 16px;
+  color: var(--accent-strong);
+}
+.care-empty h3 {
+  font-size: 17px;
+  color: var(--ink);
+  margin: 10px 0;
+}
+.care-empty p {
+  font-size: 12px;
+  line-height: 1.8;
+}
+.care-muted {
+  color: var(--ink-2);
+  font-size: 12px;
+  line-height: 1.8;
+}
+.care-premium-note {
+  margin-top: 24px;
+}
+.care-premium-note a,
+.care-callout a {
+  color: var(--accent-strong);
+  text-decoration: underline;
+}
+.care-callout {
+  background: var(--accent-soft);
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 12px;
+  line-height: 1.8;
+  margin: 16px 0;
+}
+.care-error {
+  color: #ba374c;
+  font-size: 13px;
+  line-height: 1.7;
+}
+.care-text-button {
+  text-decoration: underline;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.care-login {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 36px;
+}
+.care-login h1 {
+  font-size: 28px;
+  margin: 16px 0;
+}
+.care-login p {
+  margin-bottom: 24px;
+}
+.care-form {
+  display: grid;
+  gap: 18px;
+}
+.care-form label {
+  display: grid;
+  gap: 7px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.care-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.care-editor-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 10px;
+}
+.care-day-summary {
+  padding: 56px 24px;
+  text-align: center;
+}
+.care-day-summary > svg {
+  margin: 0 auto 20px;
+  color: var(--accent-strong);
+}
+.care-day-summary h3 {
+  font-size: 26px;
+  text-transform: capitalize;
+}
+.care-day-summary p {
+  color: var(--ink-2);
+  margin: 15px 0 28px;
+}
+.care-day-summary .care-navigation {
+  justify-content: center;
+}
+@media (min-width: 1440px) {
+  .care-layout {
+    grid-template-columns: minmax(0, 1fr) 390px;
+  }
+  .care-day {
+    height: 120px;
+  }
+}
+@media (max-width: 1100px) {
+  .care-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .care-day-details {
+    display: block;
+  }
+  .care-timeline {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .care-filter-title {
+    width: 100%;
+  }
+  .care-day-details h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 640px) {
+  .care-page {
+    padding-top: 26px;
+  }
+  .care-container {
+    padding: 0 16px;
+  }
+  .care-intro {
+    display: block;
+  }
+  .care-intro > .care-button {
+    margin-top: 20px;
+  }
+  .care-filters {
+    padding: 18px;
+    gap: 16px;
+  }
+  .care-filters label {
+    width: 100%;
+  }
+  .care-filters select {
+    width: 100%;
+    min-width: 0;
+  }
+  .care-filter-title {
+    font-size: 12px;
+  }
+  .care-view-switch {
+    width: 100%;
+  }
+  .care-view-switch button {
+    flex: 1;
+  }
+  .care-calendar-toolbar {
+    padding: 20px 16px 16px;
+    display: block;
+  }
+  .care-calendar-toolbar h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .care-navigation {
+    justify-content: space-between;
+  }
+  .care-date-controls {
+    padding: 0 16px 20px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 12px;
+  }
+  .care-date-controls input {
+    width: 100%;
+    padding: 8px;
+    font-size: 11px;
+    min-height: 42px;
+  }
+  .care-date-controls > .care-icon-button {
+    grid-column: 2;
+    justify-self: end;
+  }
+  .care-month td {
+    padding: 2px;
+  }
+  .care-month th {
+    font-size: 10px;
+  }
+  .care-day {
+    height: 67px;
+    padding: 3px;
+  }
+  .care-day-number {
+    font-size: 11px;
+    min-width: 22px;
+    height: 22px;
+  }
+  .care-day-count {
+    position: absolute;
+    right: 5px;
+    bottom: 6px;
+    float: none;
+    font-size: 9px;
+    min-width: 17px;
+    height: 17px;
+  }
+  .care-day-preview {
+    display: none;
+  }
+  .care-calendar-legend {
+    padding: 16px;
+    gap: 12px;
+    font-size: 9px;
+  }
+  .care-day-details {
+    padding: 22px;
+  }
+  .care-timeline {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .care-form-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .care-editor-modal {
+    max-width: calc(100% - 24px);
+    padding: 22px;
+  }
+  .care-day-summary .care-navigation {
+    flex-wrap: wrap;
+  }
+  .care-page .care-panel {
+    border-radius: 20px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .care-page *,
+  .care-editor-modal * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  .captivia-header,
+  .care-intro > .care-button,
+  .care-filters,
+  .care-navigation,
+  .care-date-controls,
+  .care-day-add,
+  .care-event-edit,
+  .care-premium-note {
+    display: none !important;
+  }
+  .care-page,
+  .care-panel {
+    background: #fff !important;
+    color: #14252b !important;
+    box-shadow: none;
+  }
+  .care-layout {
+    display: block;
+  }
+  .care-day-details {
+    margin-top: 20px;
+  }
+  .care-container {
+    padding: 0;
+  }
+  .care-day {
+    break-inside: avoid;
+  }
+}
+.care-form-fields {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+.care-day-details {
+  scroll-margin-top: 100px;
+}
+/* Give native mobile date pickers enough width to display the complete year. */
+@media (max-width: 420px) {
+  .care-date-controls {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .care-date-controls > .care-icon-button {
+    grid-column: 1;
+  }
+}

@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "33c5df6bf0e7c0ecdf20ddaa1ae939bf61caf78fdc55b6048f56b12a3a347930",
+  "locale": "it",
+  "questions": [
+    {
+      "id": "insects-001",
+      "animal": "insetti",
+      "prompt": "Quante paia di zampe ha un insetto adulto?",
+      "options": [
+        "Tre",
+        "Due",
+        "Quattro",
+        "Otto"
+      ],
+      "explanation": "La pianta corporea degli insetti comprende tre paia di zampe attaccate al torace.",
+      "didYouKnow": "Negli odonati le larve vivono nell'acqua mentre gli adulti si muovono nell'aria.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-002",
+      "animal": "insetti",
+      "prompt": "In quante grandi regioni è diviso il corpo tipico di un insetto?",
+      "options": [
+        "Tre: testa, torace e addome",
+        "Due: testa e addome",
+        "Quattro: testa, torace, addome e appendici caudali",
+        "Cinque: testa, collo, torace, addome e coda"
+      ],
+      "explanation": "La testa porta gli organi di senso e la bocca, il torace le gambe e spesso le ali, e l'addome contiene diversi organi interni.",
+      "didYouKnow": "Gli insetti fanno parte degli artropodi, un gruppo che comprende anche ragni e crostacei.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-003",
+      "animal": "insetti",
+      "prompt": "Quale materiale costituisce principalmente l'esoscheletro degli insetti?",
+      "options": [
+        "Chitina",
+        "Cellulosa",
+        "Carbonato di calcio",
+        "Cheratina"
+      ],
+      "explanation": "La cuticola esterna contiene chitina e proteine e protegge il corpo.",
+      "didYouKnow": "La chitina si trova anche nella parete cellulare dei funghi.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-004",
+      "animal": "insetti",
+      "prompt": "Come respirano in genere gli insetti?",
+      "options": [
+        "Attraverso una rete di trachee che comunica con l’esterno tramite spiracoli",
+        "Attraverso polmoni collegati alla bocca",
+        "Attraverso branchie sotto l’addome",
+        "Assorbendo ossigeno soltanto attraverso le zampe"
+      ],
+      "explanation": "L’aria entra da aperture chiamate spiracoli e raggiunge i tessuti attraverso le trachee.",
+      "didYouKnow": "La maggior parte degli insetti ha anche un cuore tubolare dorsale che fa circolare l'emolinfa.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-005",
+      "animal": "insetti",
+      "prompt": "Quali sono gli scopi principali delle antenne di un insetto?",
+      "options": [
+        "Per rilevare i segnali sensoriali, compresi gli odori",
+        "Percepire la luce ambientale",
+        "Per spingere l'insetto in volo",
+        "Per pompare il sangue"
+      ],
+      "explanation": "Le antenne trasportano recettori sensibili agli odori, ai contatti e talvolta ai movimenti dell'aria.",
+      "didYouKnow": "Molte falene hanno organi uditivi che rilevano gli ultrasuoni dei pipistrelli.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-006",
+      "animal": "Gerridae",
+      "prompt": "Come fanno le gerridi, come i pattinatori acquatici, a muoversi sulla superficie di uno stagno?",
+      "options": [
+        "Distribuiscono il loro peso su gambe idrofobe senza rompere la tensione superficiale",
+        "Nuotano sotto la superficie spingendo le zampe posteriori frangiate",
+        "Si aggrappano alle piante emerse per uscire dall'acqua",
+        "Si muovono espellendo un getto d'acqua dall'addome"
+      ],
+      "explanation": "I peli idrofobi sulle gambe distribuiscono il peso e respingono l'acqua, consentendo il movimento in superficie.",
+      "didYouKnow": "Le femmine di alcuni gerridi depongono le uova su piante o oggetti galleggianti.",
+      "imageCaption": "Pattinatore acquatico"
+    },
+    {
+      "id": "insects-007",
+      "animal": "insetti",
+      "prompt": "Perché un insetto deve fare la muta per crescere?",
+      "options": [
+        "La sua cuticola rigida non cresce continuamente con essa",
+        "Il suo guscio osseo non può allungarsi",
+        "Deve rinnovare il suo sangue per crescere",
+        "Le sue ali devono ricrescere ogni stagione"
+      ],
+      "explanation": "L'esoscheletro rigido viene periodicamente sostituito da una cuticola più grande.",
+      "didYouKnow": "Gli insetti fanno parte degli artropodi, come ragni e crostacei.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-008",
+      "animal": "insetti",
+      "prompt": "Come si chiamano le aperture respiratorie visibili sul corpo di molti insetti?",
+      "options": [
+        "Spiracoli",
+        "Trachee",
+        "Sacchi aerei",
+        "Branchie"
+      ],
+      "explanation": "Gli spiracoli si aprono sul sistema tracheale e si trovano spesso sul torace e sull’addome.",
+      "didYouKnow": "Negli insetti alati, le ali si attaccano al mesotorace e al metatorace.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-009",
+      "animal": "insetti",
+      "prompt": "Che tipo di circolazione interna ha la maggior parte degli insetti?",
+      "options": [
+        "Una circolazione aperta con emolinfa",
+        "Una circolazione chiusa in cui il sangue rimane in una rete di vasi",
+        "Una doppia circolazione che separa il sangue ossigenato da quello non ossigenato",
+        "Una circolazione aperta il cui fluido è mosso da diversi nuclei periferici"
+      ],
+      "explanation": "L'emolinfa bagna gli organi nella cavità corporea; generalmente non trasporta ossigeno.",
+      "didYouKnow": "Gli occhi composti di molti insetti sono costituiti da migliaia di unità visive chiamate ommatidi.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-010",
+      "animal": "insetti",
+      "prompt": "Qual è il ruolo dei palpi attorno alla bocca nei vari insetti?",
+      "options": [
+        "Aiuta a maneggiare e annusare il cibo",
+        "Mantenere le ali in posizione durante il volo",
+        "Dirigere l'aria verso le stimmate",
+        "Attacca l'insetto alla pianta mentre si nutre"
+      ],
+      "explanation": "I palpi sono appendici sensoriali associate all'apparato boccale.",
+      "didYouKnow": "In molte specie, i recettori del gusto si trovano anche sulle zampe, in particolare sui tarsi.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-011",
+      "animal": "Coleotteri",
+      "prompt": "Che cosa sono le elitre dei coleotteri?",
+      "options": [
+        "Ali anteriori indurite che proteggono le ali posteriori",
+        "Ali posteriori membranose usate per dirigere il volo",
+        "Branchie sotto le ali",
+        "Placche articolate che coprono le zampe"
+      ],
+      "explanation": "Le elitre formano una copertura protettiva sulle ali di volo ripiegate.",
+      "didYouKnow": "Alcuni coleotteri, come i coleotteri terricoli, hanno le ali posteriori ridotte e volano poco.",
+      "imageCaption": "Coccinella a sette macchie"
+    },
+    {
+      "id": "insects-012",
+      "animal": "Coccinelle",
+      "prompt": "Di cosa si nutrono molte coccinelle adulte e larvali?",
+      "options": [
+        "Afidi e altri piccoli artropodi",
+        "Nettare e polline",
+        "Foglie e semi",
+        "Di legno e corteccia"
+      ],
+      "explanation": "Molte specie sono predatrici e aiutano a limitare le popolazioni di afidi.",
+      "didYouKnow": "Alcune coccinelle secernono un liquido difensivo quando vengono disturbate.",
+      "imageCaption": "Coccinella a sette macchie"
+    },
+    {
+      "id": "insects-013",
+      "animal": "Scarabei cervi",
+      "prompt": "Quali sono gli scopi principali delle grandi mandibole del cervo volante maschio?",
+      "options": [
+        "Per combattere e afferrare i maschi rivali",
+        "Per catturare la preda",
+        "Per filtrare le particelle nell'acqua",
+        "Forare le foglie per deporre le uova"
+      ],
+      "explanation": "Le mandibole allargate vengono utilizzate principalmente durante i combattimenti competitivi tra maschi.",
+      "didYouKnow": "Le larve vivono per diversi anni nel legno morto.",
+      "imageCaption": "aquilone cervo volante"
+    },
+    {
+      "id": "insects-014",
+      "animal": "Lampiridi",
+      "prompt": "Quale segnale usano spesso le lucciole per attirare un compagno?",
+      "options": [
+        "Luce prodotta dalla bioluminescenza",
+        "Un suono prodotto dalle elitre",
+        "Una scia di seta",
+        "Una secrezione odorosa"
+      ],
+      "explanation": "Le reazioni chimiche negli organi luminosi producono segnali luminosi.",
+      "didYouKnow": "Le lucciole sono coleotteri, anche se i loro segnali luminosi ricordano le lucciole.",
+      "imageCaption": "Lucciola"
+    },
+    {
+      "id": "insects-015",
+      "animal": "Bupreste",
+      "prompt": "Quale aspetto è comune nei buprestidi adulti?",
+      "options": [
+        "Riflessi metallici sulle elitre",
+        "Ali anteriori squamose",
+        "Una puntura addominale",
+        "Gambe da salto lunghe"
+      ],
+      "explanation": "Molti buprestidi hanno colori cangianti dovuti alla struttura della loro cuticola.",
+      "didYouKnow": "Le larve di diverse specie si insinuano sotto la corteccia o nel legno.",
+      "imageCaption": "Bupreste"
+    },
+    {
+      "id": "insects-016",
+      "animal": "Curculioni",
+      "prompt": "Quale tratto viene spesso utilizzato per riconoscere un punteruolo?",
+      "options": [
+        "Un rostro che porta l'apparato boccale",
+        "Ali anteriori a metà elitre",
+        "Zampe deliziose",
+        "Antenne che terminano a ventaglio"
+      ],
+      "explanation": "La testa del punteruolo spesso si estende in un rostro, sul quale è collocato l'apparato boccale.",
+      "didYouKnow": "I punteruoli costituiscono uno dei gruppi più ricchi di specie tra i coleotteri.",
+      "imageCaption": "Punteruolo delle ghiande"
+    },
+    {
+      "id": "insects-017",
+      "animal": "Coleotteri",
+      "prompt": "Quale senso migliorano le lamelle a ventaglio delle antenne di molti scarabei?",
+      "options": [
+        "Il senso dell'olfatto",
+        "La visione",
+        "L'udienza",
+        "Il gusto"
+      ],
+      "explanation": "Le lamelle antennali portano recettori olfattivi e possono aprirsi a forma di ventaglio.",
+      "didYouKnow": "In molti coleotteri le larve vivono nel terreno o nel legno in decomposizione.",
+      "imageCaption": "Scarabeo rinoceronte europeo"
+    },
+    {
+      "id": "insects-018",
+      "animal": "Ditiscidi",
+      "prompt": "Come respirano gli scarabei tuffatori adulti quando nuotano sott'acqua?",
+      "options": [
+        "Portano una riserva d'aria sotto le elitre",
+        "Attraverso le branchie tracheali",
+        "Dai polmoni",
+        "Trattenendo il respiro finché non raggiungono la superficie"
+      ],
+      "explanation": "Conservano una bolla d'aria sotto le elitre e periodicamente risalgono per rinnovare questa riserva.",
+      "didYouKnow": "Le larve degli scarabei acquatici sono predatori acquatici con mandibole forti.",
+      "imageCaption": "Ditico bordato"
+    },
+    {
+      "id": "insects-019",
+      "animal": "Carabidi",
+      "prompt": "Qual è lo stile di vita comune degli scarafaggi adulti?",
+      "options": [
+        "I cacciatori terrestri sono spesso attivi di notte",
+        "Erbivori specializzati in fiori",
+        "Parassiti interni dei pesci",
+        "Filtratori acquatici"
+      ],
+      "explanation": "Molti coleotteri terrestri vagano per il terreno e cacciano lumache, bruchi o altri invertebrati.",
+      "didYouKnow": "Alcune specie di coleotteri producono secrezioni difensive.",
+      "imageCaption": "Carabido dorato"
+    },
+    {
+      "id": "insects-020",
+      "animal": "Coleotteri",
+      "prompt": "Quale trasformazione subisce una larva di coleottero prima di diventare adulta?",
+      "options": [
+        "Attraversa uno stadio di pupa",
+        "Diventa una ninfa che sviluppa gradualmente le ali",
+        "Compie una sola muta e diventa direttamente adulto",
+        "Rimane nell’uovo fino a completare lo sviluppo"
+      ],
+      "explanation": "I coleotteri compiono una metamorfosi completa: uovo, larva, pupa e adulto.",
+      "didYouKnow": "Gli adulti di molti coleotteri hanno le elitre sopra l'addome.",
+      "imageCaption": "Coccinella a sette macchie"
+    },
+    {
+      "id": "insects-021",
+      "animal": "Maggiolini",
+      "prompt": "Di che cosa si nutrono spesso le larve biancastre dei maggiolini?",
+      "options": [
+        "Radici nel terreno",
+        "Nettare floreale",
+        "Piccoli animali acquatici",
+        "Detriti animali"
+      ],
+      "explanation": "Le larve del maggiolino vivono sottoterra e spesso si nutrono di radici delle piante.",
+      "didYouKnow": "Il loro sviluppo larvale può durare più di una stagione.",
+      "imageCaption": "Maggiolino comune"
+    },
+    {
+      "id": "insects-022",
+      "animal": "Scarabei stercorari",
+      "prompt": "Che ruolo ecologico svolgono gli scarabei stercorari seppellendo gli escrementi?",
+      "options": [
+        "Riciclano i nutrienti e arricchiscono il terreno",
+        "Impollinano gli alberi forestali",
+        "Arricchiscono il terreno con minerali marini",
+        "Degradano le rocce"
+      ],
+      "explanation": "Seppellire il letame accelera il riciclaggio dei materiali e può migliorare il suolo.",
+      "didYouKnow": "Alcuni scarabei stercorari possono guidare i loro movimenti in base al sole o alla luce polarizzata.",
+      "imageCaption": "Scarabeo stercorario sacro"
+    },
+    {
+      "id": "insects-023",
+      "animal": "Tenebrionidi",
+      "prompt": "Perché il verme della farina viene coltivato nei laboratori e nelle fattorie?",
+      "options": [
+        "Le sue larve sono facili da mantenere e servono come modello o cibo",
+        "Produce miele",
+        "Fornisce seta commerciale",
+        "Viene allevato come predatore di zanzare"
+      ],
+      "explanation": "La larva, chiamata verme della farina, viene utilizzata nella ricerca e come cibo per animali.",
+      "didYouKnow": "L'adulto è uno scarabeo scuro della famiglia degli scarabei oscuri.",
+      "imageCaption": "Vermi della farina"
+    },
+    {
+      "id": "insects-024",
+      "animal": "Coleotteri longhorn",
+      "prompt": "Quale caratteristica è particolarmente marcata in molti coleotteri dalle corna lunghe?",
+      "options": [
+        "Antenne molto lunghe",
+        "Zampe posteriori che nuotano",
+        "Ali posteriori ricoperte di scaglie",
+        "Un rostro allungato"
+      ],
+      "explanation": "Le antenne sono spesso lunghe quanto il corpo o più lunghe.",
+      "didYouKnow": "Le larve di molte specie si sviluppano nel legno.",
+      "imageCaption": "Rosalia delle Alpi"
+    },
+    {
+      "id": "insects-025",
+      "animal": "Coleotteri",
+      "prompt": "Cosa hanno di speciale le ali posteriori funzionali degli scarafaggi?",
+      "options": [
+        "Sono membranosi e ripiegati sotto le elitre",
+        "Si piegano sulle elitre",
+        "Sono sostituiti dai pendoli",
+        "Servono da protezione per le ali anteriori"
+      ],
+      "explanation": "Nelle specie capaci di volare, le ali posteriori membranose si piegano sotto le elitre.",
+      "didYouKnow": "Gli adulti di molti coleotteri sono dotati di ghiandole che rilasciano sostanze difensive.",
+      "imageCaption": "Coccinella a sette macchie"
+    },
+    {
+      "id": "insects-026",
+      "animal": "Lepidotteri",
+      "prompt": "Quale differenza generale distingue le farfalle diurne da molte falene a riposo?",
+      "options": [
+        "Le farfalle diurne spesso tengono le ali sollevate, le falene le allargano o le ripiegano a forma di tetto",
+        "Le falene spesso tengono le ali sollevate",
+        "Le farfalle generalmente piegano le ali sotto il corpo",
+        "Le falene hanno sempre ali più piccole"
+      ],
+      "explanation": "Questa posizione è una tendenza generale, con eccezioni in entrambi i gruppi.",
+      "didYouKnow": "Le ali dei lepidotteri sono ricoperte di scaglie microscopiche che conferiscono loro motivi e colori.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-027",
+      "animal": "Lepidotteri",
+      "prompt": "Di cosa sono ricoperte le ali delle farfalle e delle falene?",
+      "options": [
+        "Piccole scaglie",
+        "Di piume",
+        "Capelli densi",
+        "Piastre lisce di chitina"
+      ],
+      "explanation": "Le squame sono espansioni appiattite della cuticola e spesso recano pigmenti o strutture colorate.",
+      "didYouKnow": "Le farfalle possono percepire le sostanze dolci grazie ai recettori situati sulle zampe.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-028",
+      "animal": "Bruchi",
+      "prompt": "Che funzione svolgono le zampe addominali del bruco?",
+      "options": [
+        "Lo aiutano ad afferrarsi e a muoversi",
+        "Diventano le ali dell'adulto",
+        "Hanno un apparato boccale",
+        "Sono abituati a respirare nell'acqua"
+      ],
+      "explanation": "Le prole sono appendici larvali flessibili, distinte dalle vere zampe toraciche.",
+      "didYouKnow": "Alcuni bruchi possono avere peli o spine difensive.",
+      "imageCaption": "bruco di coda forcuta"
+    },
+    {
+      "id": "insects-029",
+      "animal": "Lepidotteri",
+      "prompt": "Qual è lo scopo della proboscide a spirale di molte farfalle adulte?",
+      "options": [
+        "Per aspirare liquidi come il nettare",
+        "Per macinare i semi",
+        "Per catturare la preda",
+        "Mettere le uova nel legno"
+      ],
+      "explanation": "La proboscide è formata da apparato boccale allungato e riccioli quando riposa in molte specie.",
+      "didYouKnow": "Alcune specie di farfalle adulte non si nutrono e vivono delle riserve accumulate durante lo stadio larvale.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-030",
+      "animal": "Lepidotteri",
+      "prompt": "Qual è il ruolo delle piante ospiti per i bruchi?",
+      "options": [
+        "Forniscono cibo larvale per molte specie",
+        "Le femmine di tutte le specie depongono necessariamente le uova lì.",
+        "Forniscono il nettare direttamente agli adulti",
+        "Sono usati come materiale per produrre le elitre"
+      ],
+      "explanation": "La maggior parte dei bruchi mangia le piante, a volte una gamma molto ristretta di specie.",
+      "didYouKnow": "Alcuni bruchi hanno colori che li rendono difficili da individuare sulla pianta ospite.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-031",
+      "animal": "Baco da seta",
+      "prompt": "Di cosa si nutrono i bruchi del baco da seta?",
+      "options": [
+        "Foglie di gelso",
+        "Aghi di conifere",
+        "Nettare dei fiori",
+        "Legno in decomposizione"
+      ],
+      "explanation": "L'allevamento tradizionale del bombyx utilizza principalmente foglie di gelso.",
+      "didYouKnow": "Gli adulti del bombice di gelso domestico generalmente non si nutrono, perché il loro apparato boccale è ridotto.",
+      "imageCaption": "Baco da seta"
+    },
+    {
+      "id": "insects-032",
+      "animal": "Lepidotteri",
+      "prompt": "Come fa un bruco di farfalla a diventare adulto?",
+      "options": [
+        "Si trasforma attraverso uno stadio di pupa, chiamato crisalide",
+        "Diventa una ninfa che sviluppa gradualmente le ali",
+        "Muta direttamente fino a diventare un adulto più piccolo",
+        "Rimane un bruco per tutta la vita"
+      ],
+      "explanation": "Le farfalle hanno una metamorfosi completa e la crisalide è il loro stadio pupale.",
+      "didYouKnow": "Gli adulti di alcune falene hanno le ali ridotte e non si nutrono.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-033",
+      "animal": "Monarchi",
+      "prompt": "Perché le farfalle monarca migratrici si riuniscono in grandi gruppi per svernare?",
+      "options": [
+        "I raduni favoriscono lo svernamento collettivo in siti idonei",
+        "Si riuniscono lì per riprodursi in inverno",
+        "Trascorrono l'inverno sott'acqua",
+        "Lasciano cadere le ali prima della migrazione"
+      ],
+      "explanation": "Le popolazioni migratrici del Nord America trascorrono l'inverno in siti specifici, spesso in fitte colonie.",
+      "didYouKnow": "La monarca è una farfalla della famiglia Nymphalidae.",
+      "imageCaption": "Monarca"
+    },
+    {
+      "id": "insects-034",
+      "animal": "Sfinge",
+      "prompt": "Come possono alcune falene falco nutrirsi di fiori profondi?",
+      "options": [
+        "Hanno una lunga proboscide per raggiungere il nettare",
+        "Perforano la corolla con le mandibole",
+        "Assorbono il nettare attraverso le zampe",
+        "Prendono il nettare dal peduncolo"
+      ],
+      "explanation": "La lunga proboscide di alcune falene permette loro di raggiungere il nettare sul fondo delle corolle tubolari.",
+      "didYouKnow": "Le falene Sfinge hanno spesso corpi aerodinamici e ali strette adatte al volo rapido.",
+      "imageCaption": "Falena del falco del convolvolo"
+    },
+    {
+      "id": "insects-035",
+      "animal": "Imenotteri",
+      "prompt": "Quale tratto è comune negli imenotteri adulti?",
+      "options": [
+        "Due paia di ali membranose, talvolta ridotte o assenti",
+        "Due paia di elitre",
+        "Un paio di ali con pendoli",
+        "Ali squamose"
+      ],
+      "explanation": "La maggior parte degli imenotteri alati possiede due paia di ali accoppiate da piccoli uncini.",
+      "didYouKnow": "Le formiche e le api condividono l'ordine degli imenotteri con le vespe.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-036",
+      "animal": "Api",
+      "prompt": "Cosa raccolgono le api dai fiori per produrre il miele?",
+      "options": [
+        "nettare",
+        "Polline per produrre direttamente il miele",
+        "Linfa fogliare",
+        "Cera vegetale"
+      ],
+      "explanation": "Le api trasformano e disidratano il nettare nell'alveare per produrre miele.",
+      "didYouKnow": "Le api usano la propoli, una resina vegetale, per sigillare alcune crepe nell'alveare.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-037",
+      "animal": "Api",
+      "prompt": "Che ruolo gioca il polline nella riproduzione delle piante da fiore?",
+      "options": [
+        "Il polline trasporta il gametofito maschile allo stigma, quindi un tubo pollinico può crescere verso l'ovulo",
+        "Il polline fornisce direttamente lo zucchero alle uova prima della fecondazione",
+        "Il polline nutre l'embrione una volta formato il seme",
+        "Il polline contiene il gametofito femminile della pianta"
+      ],
+      "explanation": "Il granello di polline trasporta il gametofito maschile. Dopo che il polline compatibile si è depositato sullo stigma, un tubo pollinico può trasportare i gameti maschili all'ovulo.",
+      "didYouKnow": "Le api possono anche percepire la luce ultravioletta, invisibile all'occhio umano.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-038",
+      "animal": "Api",
+      "prompt": "In che modo un'ape indica spesso una fonte di cibo distante?",
+      "options": [
+        "Con una danza scodinzolante che comunica direzione e distanza",
+        "Con una danza circolare che indica una risorsa lontana con il suo orientamento preciso",
+        "Depositando una scia di feromoni dall'alveare al fiore",
+        "Producendo un suono continuo la cui frequenza indica il punto cardinale"
+      ],
+      "explanation": "La danza dimenante trasmette ai suoi conspecifici informazioni sulla direzione e la distanza di una risorsa.",
+      "didYouKnow": "Le api operaie sbattono le ali all'ingresso dell'alveare per favorire la ventilazione.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-039",
+      "animal": "Api",
+      "prompt": "Quale individuo depone la maggior parte delle uova in una colonia di api mellifere?",
+      "options": [
+        "La regina",
+        "Lavoratori in egual proporzione",
+        "I droni",
+        "Vecchie larve"
+      ],
+      "explanation": "La regina è la principale femmina riproduttiva della colonia.",
+      "didYouKnow": "L'ape regina può vivere diversi anni, molto più a lungo di una lavoratrice estiva.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-040",
+      "animal": "Api",
+      "prompt": "Qual è il ruolo dei droni in una colonia di api mellifere?",
+      "options": [
+        "Fecondare una regina durante il volo nuziale",
+        "Raccogli il nettare per la colonia",
+        "Costruisci i pettini di cera",
+        "Difendi l'alveare dai predatori"
+      ],
+      "explanation": "I maschi si accoppiano con le regine durante i voli nuziali.",
+      "didYouKnow": "I droni non hanno pungiglione.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-041",
+      "animal": "Api",
+      "prompt": "Perché le api operaie possono pungere una minaccia?",
+      "options": [
+        "Il loro pungiglione deriva da un ovopositore modificato",
+        "Hanno un apparato boccale velenoso per mordere",
+        "Emettono un liquido urticante dalle zampe",
+        "Usano una punta affilata all’estremità di ogni antenna"
+      ],
+      "explanation": "Il pungiglione delle operaie deriva dall’ovopositore ancestrale.",
+      "didYouKnow": "Le api mellifere comunicano anche la posizione delle risorse attraverso una danza scodinzolante.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-042",
+      "animal": "Bombi",
+      "prompt": "In che modo i bombi aiutano a impollinare alcuni fiori?",
+      "options": [
+        "Fanno vibrare le antere per rilasciare il polline",
+        "Raccolgono il polline già rilasciato senza far vibrare il fiore",
+        "Perforano la corolla per raggiungere il nettare senza toccare le antere",
+        "Depositano il polline sui fiori strofinandovi contro l'addome"
+      ],
+      "explanation": "L'impollinazione vibratile, o “impollinazione ronzante”, rilascia il polline da alcune antere.",
+      "didYouKnow": "Le colonie di bombi sono generalmente annuali; solo le giovani regine fecondate trascorrono l'inverno.",
+      "imageCaption": "Calabrone macinato"
+    },
+    {
+      "id": "insects-043",
+      "animal": "Formiche",
+      "prompt": "Quale segnale chimico spesso aiuta le formiche a seguire una traccia verso il cibo?",
+      "options": [
+        "Feromoni",
+        "Enzimi digestivi",
+        "Pigmenti cuticolari",
+        "Ormoni in muta"
+      ],
+      "explanation": "Le formiche lasciano tracce di feromoni che le loro formiche possono seguire.",
+      "didYouKnow": "Alcune formiche allevano afidi e raccolgono la melata che espellono.",
+      "imageCaption": "Formica da giardino nera"
+    },
+    {
+      "id": "insects-044",
+      "animal": "Formiche",
+      "prompt": "Cosa significa il termine “supercolonia” per alcune formiche?",
+      "options": [
+        "Una vasta rete di nidi i cui membri collaborano ampiamente",
+        "Un nido unico, molto grande",
+        "Un gruppo composto solo da regine",
+        "Un insieme di nidi in cui le operaie sono aggressive tra loro"
+      ],
+      "explanation": "I nidi connessi possono formare una grande società con poca aggressività tra gli individui.",
+      "didYouKnow": "La formica argentina è originaria del Sud America.",
+      "imageCaption": "Formica argentina"
+    },
+    {
+      "id": "insects-045",
+      "animal": "Formiche tagliafoglie",
+      "prompt": "A cosa servono i pezzi di foglie trasportati dalle formiche tagliafoglie?",
+      "options": [
+        "Per coltivare il fungo di cui si nutrono",
+        "Per nutrire direttamente le larve",
+        "Per costruire il nido di carta",
+        "Per realizzare le ali della regina"
+      ],
+      "explanation": "Le foglie servono come substrato per un fungo cresciuto nel nido.",
+      "didYouKnow": "Le formiche tagliafoglie hanno una regina che può vivere per diversi anni.",
+      "imageCaption": "Formica tagliafoglie"
+    },
+    {
+      "id": "insects-046",
+      "animal": "Vespe parassitoidi",
+      "prompt": "In che modo una vespa parassita utilizza spesso un ospite?",
+      "options": [
+        "Depone le uova dentro o sopra un ospite, dove la sua larva si sviluppa a sue spese",
+        "Cattura diverse prede e le immagazzina in una cella per la sua larva",
+        "Depone le uova nei tessuti della pianta, dove la sua larva ne consuma le foglie",
+        "Paralizza un insetto e poi lo consuma senza deporre le uova."
+      ],
+      "explanation": "La larva parassitoide si nutre dell'ospite e solitamente finisce per ucciderlo.",
+      "didYouKnow": "Molte vespe parassitoidi sono abbastanza piccole da passare inosservate.",
+      "imageCaption": "Vespa parassitoide"
+    },
+    {
+      "id": "insects-047",
+      "animal": "Vespe sociali",
+      "prompt": "Di cosa sono fatti i nidi di carta di molte vespe sociali?",
+      "options": [
+        "Da fibre vegetali masticate e mescolate con saliva",
+        "Cera addominale",
+        "Di fango legato dal veleno",
+        "Seta prodotta dai lavoratori"
+      ],
+      "explanation": "Le vespe masticano le fibre di legno e le assemblano in cellule cartacee.",
+      "didYouKnow": "I nidi sono spesso attaccati a rami, edifici o cavità.",
+      "imageCaption": "Vespa tedesca"
+    },
+    {
+      "id": "insects-048",
+      "animal": "Tentredini",
+      "prompt": "A cosa serve l’ovopositore seghettato delle femmine di tentredine?",
+      "options": [
+        "A incidere i tessuti vegetali e deporvi le uova",
+        "A perforare il legno per estrarre linfa per le larve",
+        "A trattenere le prede mentre la femmina si nutre",
+        "A tagliare foglie per costruire un riparo per le pupe"
+      ],
+      "explanation": "Le femmine di molte tentredini usano l’ovopositore dentellato per aprire una fessura in una foglia o in uno stelo e deporre le uova.",
+      "didYouKnow": "Le seghe appartengono agli imenotteri, ma non hanno le dimensioni ristrette tipiche delle vespe apocrite.",
+      "imageCaption": "Rosa sega"
+    },
+    {
+      "id": "insects-049",
+      "animal": "Ditteri",
+      "prompt": "Quante paia di ali funzionali hanno tipicamente i Ditteri?",
+      "options": [
+        "Una coppia",
+        "Due paia di ali membranose",
+        "Tre paia",
+        "Assenza di ali in tutti i Ditteri"
+      ],
+      "explanation": "I ditteri hanno un paio di ali anteriori; la coppia posteriore si trasforma in pendoli.",
+      "didYouKnow": "Le larve di molte mosche vivono nell'acqua, nel suolo o nella materia organica in decomposizione.",
+      "imageCaption": "Mosca domestica"
+    },
+    {
+      "id": "insects-050",
+      "animal": "Mosche",
+      "prompt": "A cosa servono i bilancieri delle mosche?",
+      "options": [
+        "A rilevare le rotazioni e contribuire a stabilizzare il volo",
+        "A raccogliere il polline dai fiori",
+        "A produrre suoni per attirare i partner",
+        "A percepire gli odori nell’aria"
+      ],
+      "explanation": "I bilancieri sono organi sensoriali che aiutano a controllare l’equilibrio e le manovre di volo.",
+      "didYouKnow": "I piedi delle mosche sono dotati di cuscinetti adesivi che le aiutano a camminare su superfici lisce.",
+      "imageCaption": "Mosca domestica"
+    },
+    {
+      "id": "insects-051",
+      "animal": "Mosche",
+      "prompt": "Come percepisce il gusto di una superficie una mosca domestica?",
+      "options": [
+        "Con recettori del gusto situati soprattutto sulle zampe",
+        "Con le sue ali",
+        "Con le stimmate del torace",
+        "Con i pendoli"
+      ],
+      "explanation": "I recettori sensoriali nelle zampe possono rilevare i composti alimentari.",
+      "didYouKnow": "Le mosche domestiche hanno occhi composti che coprono gran parte della testa.",
+      "imageCaption": "Mosca domestica"
+    },
+    {
+      "id": "insects-052",
+      "animal": "Zanzare",
+      "prompt": "Quale fluido cercano le femmine di molte specie di zanzare per produrre le loro uova?",
+      "options": [
+        "Sangue, ricco di sostanze nutritive",
+        "nettare",
+        "Linfa",
+        "Polline"
+      ],
+      "explanation": "In molte specie, la farina di sangue fornisce i nutrienti necessari per lo sviluppo delle uova.",
+      "didYouKnow": "Molte specie di zanzare depongono le uova dentro o vicino all'acqua, dove si sviluppano le larve.",
+      "imageCaption": "Zanzara comune"
+    },
+    {
+      "id": "insects-053",
+      "animal": "Zanzare",
+      "prompt": "Dove si sviluppano più spesso le larve di zanzara?",
+      "options": [
+        "Nell'acqua",
+        "Nelle gallerie del legno",
+        "Nei fiori terreni",
+        "Nei nidi degli uccelli"
+      ],
+      "explanation": "Le larve acquatiche filtrano o pascolano le particelle presenti nell'acqua.",
+      "didYouKnow": "Le zanzare maschi di alcune specie formano sciami da parata dove le femmine vengono per accoppiarsi.",
+      "imageCaption": "Zanzara comune"
+    },
+    {
+      "id": "insects-054",
+      "animal": "Zanzare",
+      "prompt": "Come respira spesso una larva di zanzara sulla superficie dell’acqua?",
+      "options": [
+        "Da un sifone respiratorio o da stimmate in superficie",
+        "Attraverso le branchie tracheali esterne che estraggono l'ossigeno disciolto",
+        "Con scambi attraverso la cuticola senza risalire",
+        "Per stigmate situate all'estremità delle gambe"
+      ],
+      "explanation": "Molte larve raggiungono la superficie e prendono aria tramite un sifone o gli spiracoli.",
+      "didYouKnow": "In molte zanzare, i maschi riconoscono le femmine dal suono dei loro battiti d'ali.",
+      "imageCaption": "Zanzara comune"
+    },
+    {
+      "id": "insects-055",
+      "animal": "Sirfidi",
+      "prompt": "Come si fa spesso a distinguere un sirfide da una vespa che imita?",
+      "options": [
+        "Il sirfide ha un solo paio di ali e può restare sospeso in aria",
+        "La vespa ha un solo paio di ali e può cambiare colore",
+        "Il sirfide ha due paia di ali e non può fermarsi in volo",
+        "La vespa non ha antenne e vola solo in linea retta"
+      ],
+      "explanation": "I sirfidi sono ditteri innocui; alcune specie imitano l’aspetto delle vespe.",
+      "didYouKnow": "Le larve di molti sirfidi si nutrono di afidi.",
+      "imageCaption": "Hoverfly con cintura"
+    },
+    {
+      "id": "insects-056",
+      "animal": "Mosche blu",
+      "prompt": "Che ruolo svolgono spesso i vermi delle mosche spazzini in un ecosistema?",
+      "options": [
+        "Consumano tessuti animali morti e ne accelerano la decomposizione",
+        "Impollinano le conifere",
+        "Fanno la cera",
+        "Cacciano i pesci"
+      ],
+      "explanation": "Le larve spazzine partecipano al riciclaggio della materia animale.",
+      "didYouKnow": "I mosconi adulti hanno spesso corpi blu o verdi metallici.",
+      "imageCaption": "Mosca blu"
+    },
+    {
+      "id": "insects-057",
+      "animal": "Drosophila",
+      "prompt": "Perché la Drosophila melanogaster è diventata un organismo modello in biologia?",
+      "options": [
+        "Il suo breve ciclo di vita e la sua genetica sono facili da studiare",
+        "Ha un cervello più grande di quello delle altre mosche",
+        "Ha un ciclo vitale di diversi anni",
+        "È difficile da coltivare in laboratorio"
+      ],
+      "explanation": "Questa piccola mosca si riproduce rapidamente e ha permesso numerose scoperte nel campo della genetica.",
+      "didYouKnow": "I moscerini della frutta maschi producono segnali di corteggiamento che includono vibrazioni delle ali.",
+      "imageCaption": "Aceto di Drosophila"
+    },
+    {
+      "id": "insects-058",
+      "animal": "Tafani",
+      "prompt": "Come fanno a volte le femmine dei tafani a procurarsi il sangue di cui hanno bisogno per le loro uova?",
+      "options": [
+        "Tagliano o intaccano la pelle con un potente apparato boccale",
+        "Pungono con una puntura",
+        "Assorbono il sangue attraverso le zampe",
+        "Catturano le zanzare gonfie di sangue"
+      ],
+      "explanation": "L'apparato boccale affilato crea una piccola ferita da cui viene succhiato il sangue.",
+      "didYouKnow": "In molti tafani gli occhi dei maschi si toccano sulla sommità della testa, mentre quelli delle femmine no.",
+      "imageCaption": "Tafano del bestiame"
+    },
+    {
+      "id": "insects-059",
+      "animal": "Ditteri",
+      "prompt": "Qual è la forma larvale comune dei Ditteri?",
+      "options": [
+        "Un verme senza vere zampe toraciche",
+        "Un bruco con le zampe finte",
+        "Una ninfa con le ali",
+        "Una larva con zampe ed elitre articolate"
+      ],
+      "explanation": "Le larve di molte mosche sono larve prive di zampe articolate.",
+      "didYouKnow": "Le larve di alcuni Ditteri vivono in ambienti acquatici.",
+      "imageCaption": "Mosca domestica"
+    },
+    {
+      "id": "insects-060",
+      "animal": "Ortotteri",
+      "prompt": "Quale caratteristica delle zampe posteriori aiuta molte cavallette a saltare?",
+      "options": [
+        "Femori potenti e allargati",
+        "Ventose",
+        "Pinne",
+        "Pinze"
+      ],
+      "explanation": "I femori posteriori muscolari forniscono la potenza per saltare.",
+      "didYouKnow": "Le femmine di molte cavallette depositano le uova nel terreno utilizzando l'addome.",
+      "imageCaption": "Locusta migratrice"
+    },
+    {
+      "id": "insects-061",
+      "animal": "Locuste",
+      "prompt": "In che modo le locuste producono spesso il loro canto?",
+      "options": [
+        "Sfregando una parte del corpo contro un'altra",
+        "Sfregando l'addome contro un'ala",
+        "Cliccando sulle mandibole",
+        "Colpendo le ali contro una superficie"
+      ],
+      "explanation": "Molte cavallette pigolano sfregando una fila di denti contro una parte dell'ala o della zampa.",
+      "didYouKnow": "Le locuste hanno spesso una colorazione che le rende meno visibili nella vegetazione.",
+      "imageCaption": "Locusta migratrice"
+    },
+    {
+      "id": "insects-062",
+      "animal": "Cavallette",
+      "prompt": "Come si confronta la lunghezza delle antenne delle cavallette con quella delle locuste dalle antenne corte?",
+      "options": [
+        "Sono spesso lunghi, a volte lunghi quanto il corpo",
+        "Sono assenti",
+        "Hanno la forma di una pinza",
+        "Sono più corti dei palpi"
+      ],
+      "explanation": "Nelle cavallette nel senso comune, le antenne sono lunghe; le locuste hanno spesso antenne più corte.",
+      "didYouKnow": "Sia le cavallette che le locuste appartengono all'ordine degli ortotteri.",
+      "imageCaption": "Grande cavalletta verde"
+    },
+    {
+      "id": "insects-063",
+      "animal": "Grilli",
+      "prompt": "Quale organo uditivo si trova spesso sulle zampe anteriori dei grilli?",
+      "options": [
+        "Un timpano",
+        "Un pendolo",
+        "Una membrana sulle elitre",
+        "Un organo olfattivo addominale"
+      ],
+      "explanation": "I timpani dei grilli sono spesso posizionati sulle tibie anteriori.",
+      "didYouKnow": "Le femmine dei grilli depositano le uova in un substrato utilizzando il loro ovopositore.",
+      "imageCaption": "Grillo da campo"
+    },
+    {
+      "id": "insects-064",
+      "animal": "Mantide",
+      "prompt": "In che modo una mantide religiosa cattura principalmente la sua preda?",
+      "options": [
+        "Con le zampe anteriori spinose e prensili",
+        "Con un pungiglione velenoso sull’addome",
+        "Intrappolando la preda in una ragnatela",
+        "Con le zampe posteriori, che schiacciano la preda"
+      ],
+      "explanation": "Le zampe anteriori ripiegate e spinose afferrano la preda.",
+      "didYouKnow": "La testa altamente mobile consente alla mantide di seguire visivamente un bersaglio.",
+      "imageCaption": "Mantide religiosa"
+    },
+    {
+      "id": "insects-065",
+      "animal": "Mantide",
+      "prompt": "Perché la testa di una mantide può ruotare ampiamente?",
+      "options": [
+        "Grazie ad un'articolazione cervicale specializzata e molto mobile",
+        "Perché le vertebre del collo sono fuse in un'asta rigida",
+        "Perché gli occhi ruotano nelle orbite mentre la testa resta fissa",
+        "Perché il torace ruota sotto una testa fissata all'addome"
+      ],
+      "explanation": "La testa può ruotare più che nella maggior parte degli insetti grazie ad un giunto specializzato.",
+      "didYouKnow": "Le mantidi hanno occhi composti e tre piccoli ocelli sulla sommità della testa.",
+      "imageCaption": "Mantide religiosa"
+    },
+    {
+      "id": "insects-066",
+      "animal": "insetti stecco",
+      "prompt": "Che beneficio porta il mimetismo a molti insetti stecco?",
+      "options": [
+        "Si fondono con ramoscelli o foglie",
+        "Attirano la preda con la luce intensa",
+        "Spaventano gli uccelli con un suono potente",
+        "Si nascondono sott'acqua"
+      ],
+      "explanation": "La forma e il colore degli insetti stecco rendono più difficile la loro individuazione tra la vegetazione.",
+      "didYouKnow": "Gli insetti stecco appartengono ad un ordine distinto dalle locuste e dalle cavallette.",
+      "imageCaption": "Phyllie dalle Filippine"
+    },
+    {
+      "id": "insects-067",
+      "animal": "Scarafaggi",
+      "prompt": "Quale caratteristica aiuta gli scarafaggi a rilevare i movimenti dell'aria dietro di loro?",
+      "options": [
+        "Cerchi sensoriali all'estremità dell'addome",
+        "Antenne che rilevano principalmente gli odori davanti alla testa",
+        "Timpani situati sulle zampe anteriori",
+        "Occhi composti che individuano i movimenti dietro il corpo"
+      ],
+      "explanation": "I Cerci trasportano recettori sensibili alle correnti d'aria e possono innescare una rapida fuga.",
+      "didYouKnow": "Gli scarafaggi possono rilevare gli odori utilizzando i recettori trasportati dalle loro antenne.",
+      "imageCaption": "Scarafaggio americano"
+    },
+    {
+      "id": "insects-068",
+      "animal": "Scarafaggi",
+      "prompt": "Che ruolo ecologico svolgono alcuni scarafaggi nelle foreste?",
+      "options": [
+        "Decompone la materia vegetale morta",
+        "Consumano principalmente la linfa degli alberi",
+        "Cacciano tutte le specie di uccelli",
+        "Vivono esclusivamente nei fiori"
+      ],
+      "explanation": "Diverse specie forestali consumano foglie morte e contribuiscono al riciclaggio del materiale.",
+      "didYouKnow": "La maggior parte delle specie di scarafaggi vive allo stato selvatico piuttosto che nelle abitazioni umane.",
+      "imageCaption": "Scarafaggio gigante della foresta"
+    },
+    {
+      "id": "insects-069",
+      "animal": "Termiti",
+      "prompt": "Di quale ordine zoologico fanno ora parte le termiti?",
+      "options": [
+        "All'interno dell'ordine Blattodea, con gli scarafaggi",
+        "All'interno degli imenotteri, lo stesso ordine delle formiche",
+        "All'interno degli Ortotteri, lo stesso ordine delle locuste",
+        "All'interno degli emitteri, lo stesso ordine delle cimici"
+      ],
+      "explanation": "Le analisi filogenetiche collocano le termiti nell'ordine Blattodea, con gli scarafaggi.",
+      "didYouKnow": "Le termiti alate lasciano la loro colonia per sciamare e trovare nuovi nidi.",
+      "imageCaption": "Termite della savana"
+    },
+    {
+      "id": "insects-070",
+      "animal": "Termiti",
+      "prompt": "Quale partner microbico aiuta molte termiti a digerire il legno?",
+      "options": [
+        "Microrganismi che vivono nel loro tratto digestivo",
+        "Batteri nelle loro ali",
+        "Alghe sulla cuticola",
+        "Virus nelle antenne"
+      ],
+      "explanation": "I microbi intestinali scompongono i componenti della cellulosa e della lignina.",
+      "didYouKnow": "Le termiti alate lasciano la colonia per sciamare e trovare nuovi nidi.",
+      "imageCaption": "Termite gialla dal collo grosso"
+    },
+    {
+      "id": "insects-071",
+      "animal": "Termiti",
+      "prompt": "In che modo le termiti soldato spesso proteggono la colonia?",
+      "options": [
+        "Con mandibole forti o secrezioni difensive",
+        "Bloccando l'ingresso con la testa",
+        "Deponendo le uova negli intrusi",
+        "Tessendo una rete attorno al nido"
+      ],
+      "explanation": "I soldati sono specializzati nella difesa e possono avere mandibole o ghiandole difensive.",
+      "didYouKnow": "I lavoratori delle termiti hanno spesso corpi pallidi ed evitano la luce.",
+      "imageCaption": "Termite della savana"
+    },
+    {
+      "id": "insects-072",
+      "animal": "Odona",
+      "prompt": "Dove vivono tipicamente le larve delle libellule e delle libellule?",
+      "options": [
+        "In acqua dolce",
+        "Nelle gallerie del legno",
+        "Nei semi maturi",
+        "Nei favi"
+      ],
+      "explanation": "Le larve acquatiche, chiamate naiadi, cacciano piccole prede.",
+      "didYouKnow": "Gli odonati adulti hanno grandi occhi composti che conferiscono loro un'eccellente rilevazione del movimento.",
+      "imageCaption": "libellula depressa"
+    },
+    {
+      "id": "insects-073",
+      "animal": "Libellule",
+      "prompt": "In che modo le libellule spesso catturano le loro prede in volo?",
+      "options": [
+        "Li intercettano con le zampe formando una sorta di canestro",
+        "Li catturano con una ragnatela",
+        "Li succhiano con un baule",
+        "Iniettano il veleno a distanza"
+      ],
+      "explanation": "Le libellule sono predatori aerei e spesso afferrano gli insetti con le zampe.",
+      "didYouKnow": "Gli occhi composti delle libellule occupano gran parte della loro testa.",
+      "imageCaption": "libellula depressa"
+    },
+    {
+      "id": "insects-074",
+      "animal": "Zigopteri",
+      "prompt": "Quale postura delle ali è comune tra le damigelle a riposo?",
+      "options": [
+        "Ali piegate lungo il corpo",
+        "Ali permanentemente aperte",
+        "Ali incrociate sotto il ventre",
+        "Ali avvolte attorno alle antenne"
+      ],
+      "explanation": "Molte damigelle piegano le ali sopra il corpo quando sono appollaiate.",
+      "didYouKnow": "Nelle damigelle, gli occhi sono generalmente separati su entrambi i lati della testa.",
+      "imageCaption": "Agrione elegante"
+    },
+    {
+      "id": "insects-075",
+      "animal": "Odona",
+      "prompt": "Come emergono gli odonati dal loro stadio larvale?",
+      "options": [
+        "La larva esce dall’acqua e l’adulto emerge dalla vecchia cuticola",
+        "L’adulto nasce da un uovo deposto sott’acqua",
+        "La larva sviluppa ali sott’acqua e nuota fino alla riva",
+        "La larva si trasforma in una pupa dentro un bozzolo impermeabile"
+      ],
+      "explanation": "L’ultima muta avviene di solito fuori dall’acqua, su uno stelo o un altro supporto.",
+      "didYouKnow": "Le libellule adulte non possono piegare le ali lungo l'addome.",
+      "imageCaption": "libellula depressa"
+    },
+    {
+      "id": "insects-076",
+      "animal": "Effimere",
+      "prompt": "Perché gli adulti di molte effimere vivono poco?",
+      "options": [
+        "Lo stadio adulto è dedicato principalmente alla riproduzione e spesso non si nutre",
+        "Generalmente non si nutrono da adulti.",
+        "Vivono a lungo ma depongono le uova solo una volta.",
+        "Le loro ali smettono di funzionare dopo la schiusa"
+      ],
+      "explanation": "In molte specie l'adulto non si nutre e vive solo il tempo necessario per riprodursi.",
+      "didYouKnow": "Gli adulti delle effimere possono emergere in grandi sciami sopra l'acqua.",
+      "imageCaption": "Effimero comune"
+    },
+    {
+      "id": "insects-077",
+      "animal": "Effimere",
+      "prompt": "Quale insetto ha uno stadio alato intermedio unico chiamato subimago?",
+      "options": [
+        "Un’effimera",
+        "Una libellula",
+        "Un coleottero",
+        "Una farfalla"
+      ],
+      "explanation": "Dopo il primo stadio alato, il subimmagine, l’effimera compie un’altra muta.",
+      "didYouKnow": "Le ali delle effimere adulte sono spesso erette verticalmente quando sono a riposo.",
+      "imageCaption": "Effimero comune"
+    },
+    {
+      "id": "insects-078",
+      "animal": "Plecotteri",
+      "prompt": "Cosa suggerisce spesso la presenza di larve di plecotteri in un corso d'acqua?",
+      "options": [
+        "Acqua ben ossigenata",
+        "Acqua anossica",
+        "Acqua marina",
+        "Acqua contaminata da idrocarburi"
+      ],
+      "explanation": "Molte larve di plecotteri sono sensibili alla mancanza di ossigeno e all'inquinamento.",
+      "didYouKnow": "I plecotteri sono talvolta chiamati perline, dopo la comparsa di diverse specie adulte.",
+      "imageCaption": "Perla comune"
+    },
+    {
+      "id": "insects-079",
+      "animal": "Tricotteri",
+      "prompt": "Di cosa fanno la guaina le larve di molte tricotteri?",
+      "options": [
+        "Seta combinata con sabbia, ramoscelli o altri detriti",
+        "Di bilancia",
+        "Di cera",
+        "Placche chitinose secrete"
+      ],
+      "explanation": "Le larve secernono la seta e incorporano materiali disponibili nel loro habitat acquatico.",
+      "didYouKnow": "Le tricotteri adulte hanno spesso antenne filiformi e ali lunghe e strette.",
+      "imageCaption": "Frigane"
+    },
+    {
+      "id": "insects-080",
+      "animal": "Pulci",
+      "prompt": "Come fanno le pulci adulte a muoversi in modo efficiente sul loro ospite?",
+      "options": [
+        "I loro corpi appiattiti lateralmente e le gambe che saltano li aiutano",
+        "Volano con le ali",
+        "Nuotano nella pelliccia",
+        "Si attaccano con una ventosa"
+      ],
+      "explanation": "Il corpo compresso lateralmente facilita il movimento tra i peli e le gambe permettono di saltare.",
+      "didYouKnow": "Le pulci possono sopravvivere per qualche tempo senza un pasto di sangue tra due ospiti.",
+      "imageCaption": "pulce di gatto"
+    },
+    {
+      "id": "insects-081",
+      "animal": "Pidocchi",
+      "prompt": "Come vengono spesso trasmessi i pidocchi tra gli ospiti?",
+      "options": [
+        "Attraverso uno stretto contatto tra gli host",
+        "Mordendo i vettori",
+        "Quando si vola su lunghe distanze",
+        "Da uno stadio larvale acquatico"
+      ],
+      "explanation": "I pidocchi sono privi di ali e si spostano da persona a persona, spesso attraverso il contatto diretto.",
+      "didYouKnow": "I pidocchi dei mammiferi e degli uccelli sono spesso strettamente adattati ai loro ospiti.",
+      "imageCaption": "Pidocchio del capo"
+    },
+    {
+      "id": "insects-082",
+      "animal": "Pidocchi di piume di piccione",
+      "prompt": "Di cosa si nutre principalmente il pidocchio del piccione, Columbicola columbae?",
+      "options": [
+        "Di frammenti di piume",
+        "Peli e pelle morta",
+        "Sangue prelevato dall'ospite",
+        "Secrezioni grasse alla base delle piume"
+      ],
+      "explanation": "Questo pidocchio masticatore è specializzato nel consumare materiale proveniente dalle piume del suo ospite. Si distingue dai pidocchi che si nutrono di sangue.",
+      "didYouKnow": "Il pidocchio del piccione è privo di ali e appiattito per muoversi tra le piume.",
+      "imageCaption": "Pidocchio del piccione (Columbicola columbae)."
+    },
+    {
+      "id": "insects-083",
+      "animal": "Psocotteri",
+      "prompt": "Dove si trovano comunemente gli psocidi?",
+      "options": [
+        "Su muffe, licheni o detriti organici umidi",
+        "Solo nei fiori tropicali",
+        "Negli ambienti marini",
+        "Solo nei nidi di uccelli"
+      ],
+      "explanation": "Gli psocidi spesso sfruttano microrganismi e detriti presenti nelle zone umide.",
+      "didYouKnow": "Alcune specie di psocidi sono soprannominate pidocchi dei libri, ma non sono pidocchi parassiti.",
+      "imageCaption": "Psococerastis gibbosa, un esempio di psocide che vive sulla corteccia."
+    },
+    {
+      "id": "insects-084",
+      "animal": "Pesciolini d’argento",
+      "prompt": "Quale caratteristica dei pesciolini d'argento è tipica degli insetti atterigoti?",
+      "options": [
+        "Sono senza ali da adulti.",
+        "Quattro ali membranose",
+        "Pendoli",
+        "Elitra"
+      ],
+      "explanation": "I pesciolini d'argento appartengono a una stirpe di insetti primitivi privi di ali.",
+      "didYouKnow": "I pesciolini d'argento fanno ancora la muta dopo aver raggiunto la maturità.",
+      "imageCaption": "Pesce d'argento"
+    },
+    {
+      "id": "insects-085",
+      "animal": "Insetti acquatici",
+      "prompt": "In che modo le larve delle plecotteri ottengono spesso ossigeno nell'acqua?",
+      "options": [
+        "Attraverso le branchie tracheali o attraverso la superficie del corpo",
+        "Mediante un sifone che periodicamente collegano all'aria",
+        "Dai polmoni che assorbono ossigeno disciolto",
+        "Grazie alle branchie che pompano l'aria fuori dall'acqua"
+      ],
+      "explanation": "Lo scambio di gas nelle larve acquatiche avviene attraverso le branchie o attraverso aree della cuticola.",
+      "didYouKnow": "I plecotteri adulti spesso piegano le ali sull'addome.",
+      "imageCaption": "Larva di perla"
+    },
+    {
+      "id": "insects-086",
+      "animal": "Chironomidi",
+      "prompt": "Perché le larve di alcuni chironomidi sono rossastre?",
+      "options": [
+        "Contengono un pigmento respiratorio chiamato emoglobina",
+        "Accumulano carotenoidi dal cibo",
+        "Hanno l'emocianina nella loro emolinfa",
+        "La loro cuticola contiene un pigmento rosso prodotto dai batteri"
+      ],
+      "explanation": "L'emoglobina aiuta alcune larve a catturare l'ossigeno in habitat poveri di ossigeno.",
+      "didYouKnow": "Gli adulti dei chironomidi sembrano piccole zanzare, ma non pungono.",
+      "imageCaption": "Chironomo"
+    },
+    {
+      "id": "insects-087",
+      "animal": "Frigane",
+      "prompt": "A quale ordine appartengono le tricotteri, le cui larve talvolta costruiscono guaine?",
+      "options": [
+        "All’ordine Trichoptera (friganee)",
+        "All’ordine Coleoptera (coleotteri)",
+        "All’ordine Plecoptera (plecotteri)",
+        "All’ordine Diptera (ditteri)"
+      ],
+      "explanation": "Le tricotteri sono tricotteri, evolutivamente vicini ai lepidotteri.",
+      "didYouKnow": "Le larve di molte tricotteri assemblano granelli di sabbia, ramoscelli o altri materiali con la seta.",
+      "imageCaption": "Frigane"
+    },
+    {
+      "id": "insects-088",
+      "animal": "Cicale",
+      "prompt": "In che modo le cicale maschi producono il loro potente canto?",
+      "options": [
+        "Con timpani vibranti sull'addome",
+        "Sfregando le loro zampe",
+        "Con pendoli",
+        "Facendo clic sulle loro mandibole"
+      ],
+      "explanation": "I timpani sono membrane addominali che vibrano sotto l'azione dei muscoli.",
+      "didYouKnow": "Le ninfe di molte cicale vivono sottoterra e si nutrono della linfa delle radici.",
+      "imageCaption": "Cicala comune"
+    },
+    {
+      "id": "insects-089",
+      "animal": "Cicaline",
+      "prompt": "Come fanno le cicaline a saltare velocemente quando vengono disturbate?",
+      "options": [
+        "Grazie alle zampe posteriori adattate al salto",
+        "Ali squamose spiegate",
+        "Espellendo l'acqua",
+        "Svolgere una coda"
+      ],
+      "explanation": "Le loro zampe posteriori sono specializzate e possono spingere il corpo lontano dal supporto.",
+      "didYouKnow": "Le cicaline possono trasmettere agenti patogeni a determinate piante.",
+      "imageCaption": "Cicalina verde"
+    },
+    {
+      "id": "insects-090",
+      "animal": "Afidi",
+      "prompt": "Quanti afidi si riproducono durante una parte dell'anno?",
+      "options": [
+        "Per partenogenesi, con le femmine che danno alla luce prole senza fecondazione",
+        "Per accoppiamento obbligatorio in ogni generazione",
+        "Per gemmazione della cuticola",
+        "Per divisione di un individuo adulto in due"
+      ],
+      "explanation": "La partenogenesi consente ad alcune popolazioni di crescere rapidamente quando le condizioni sono favorevoli.",
+      "didYouKnow": "Gli afidi possono essere associati alle formiche che raccolgono la loro melata.",
+      "imageCaption": "Afide della rosa"
+    },
+    {
+      "id": "insects-091",
+      "animal": "Afidi",
+      "prompt": "Cosa rilasciano gli afidi dalle cornicole dell'addome?",
+      "options": [
+        "Secrezioni cerose o difensive",
+        "Melata per le formiche",
+        "La linfa succhiata dalla pianta",
+        "Uova protette da una capsula"
+      ],
+      "explanation": "In molti afidi le cornicole secernono sostanze cerose o difensive.",
+      "didYouKnow": "Quando le condizioni cambiano, alcune specie di afidi producono individui alati.",
+      "imageCaption": "Afide della rosa"
+    },
+    {
+      "id": "insects-092",
+      "animal": "Cicale",
+      "prompt": "Perché le cicale possono rimanere a lungo sottoterra prima di emergere?",
+      "options": [
+        "Il loro sviluppo ninfale sotterraneo può durare diversi anni",
+        "Rimangono inattivi per tutta la vita",
+        "Si trasformano in pesci",
+        "Stanno aspettando che un albero fiorisca"
+      ],
+      "explanation": "Le ninfe vivono e si nutrono della linfa delle radici prima di emergere.",
+      "didYouKnow": "Le cicale adulte hanno occhi composti ampiamente distanziati.",
+      "imageCaption": "Cicala comune"
+    },
+    {
+      "id": "insects-093",
+      "animal": "Emitteri",
+      "prompt": "Quale tipo di apparato boccale è comune negli emitteri pungenti-succhiatori?",
+      "options": [
+        "Un rostro perforante adatto ad aspirare liquidi",
+        "Mandibole robuste per triturare le foglie",
+        "Una spirotromba arrotolata per succhiare il nettare",
+        "Un apparato boccale spugnoso per assorbire liquidi"
+      ],
+      "explanation": "Il rostro permette di perforare i tessuti o di accedere ai fluidi vegetali.",
+      "didYouKnow": "Gli insetti acquatici giganti respirano in superficie utilizzando un'appendice respiratoria situata all'estremità dell'addome.",
+      "imageCaption": "Insetto verde"
+    },
+    {
+      "id": "insects-094",
+      "animal": "Cimici",
+      "prompt": "In che cosa differiscono le ali anteriori di molte cimici da quelle dei coleotteri?",
+      "options": [
+        "Sono parzialmente induriti, con un'estremità membranosa",
+        "Sono completamente induriti e si incontrano in linea retta",
+        "Sono membranosi per tutta la loro lunghezza",
+        "Si trasformano in pendoli per stabilizzare il volo"
+      ],
+      "explanation": "Le emelitre hanno una parte basale coriacea e una parte distale membranosa.",
+      "didYouKnow": "Molte cimici hanno uno scutello triangolare visibile sul dorso.",
+      "imageCaption": "Insetto verde"
+    },
+    {
+      "id": "insects-095",
+      "animal": "Cimici puzzolenti",
+      "prompt": "Da dove viene spesso l’odore difensivo delle cosiddette cimici puzzolenti?",
+      "options": [
+        "Secrezioni prodotte dalle ghiandole odorifere",
+        "Cibo fermentato nelle loro ali",
+        "Dal loro sangue ricco di ferro",
+        "Germi sulle zampe"
+      ],
+      "explanation": "Alcune cimici puzzolenti rilasciano composti odorosi per scoraggiare i predatori.",
+      "didYouKnow": "Le cimici puzzolenti appartengono alla famiglia dei Pentatomidae.",
+      "imageCaption": "Insetto verde"
+    },
+    {
+      "id": "insects-096",
+      "animal": "Cimici assassine",
+      "prompt": "Come consumano spesso le prede le cimici assassine predatrici?",
+      "options": [
+        "Iniettano saliva con enzimi digestivi e poi aspirano i tessuti liquefatti",
+        "Masticano la preda con le mandibole e inghiottono pezzi solidi",
+        "Avvolgono la preda nella seta e aspettano che si secchi",
+        "Assorbono la preda intera attraverso la superficie del corpo"
+      ],
+      "explanation": "Il rostro perforante serve a iniettare saliva e ad aspirare il contenuto liquefatto.",
+      "didYouKnow": "Alcuni insetti tropicali si nutrono del sangue dei vertebrati, compreso l'uomo.",
+      "imageCaption": "Verme di canna mascherato"
+    },
+    {
+      "id": "insects-097",
+      "animal": "Cercopi",
+      "prompt": "Come si proteggono spesso le larve di sputacchiera?",
+      "options": [
+        "Si circondano di una schiuma fatta di bolle e secrezioni",
+        "Si costruiscono una guaina di sabbia e seta",
+        "Si nascondono in una galleria di legno scavata dall'adulto",
+        "Formano una capsula rigida di terra e saliva"
+      ],
+      "explanation": "Il muschio protegge le larve e probabilmente ne limita l'essiccamento.",
+      "didYouKnow": "Gli spittlebugs sono imparentati con le cicaline e gli afidi all'interno degli emitteri.",
+      "imageCaption": "Spittlebug del prato"
+    },
+    {
+      "id": "insects-098",
+      "animal": "Afidi e formiche",
+      "prompt": "Perché a volte le formiche proteggono gli afidi?",
+      "options": [
+        "Raccolgono la dolce melata che gli afidi espellono",
+        "Gli afidi producono la cera per il nido",
+        "Gli afidi cacciano le termiti",
+        "Gli afidi si nutrono di uova di formica"
+      ],
+      "explanation": "Le formiche raccolgono la melata e talvolta difendono gli afidi dai predatori.",
+      "didYouKnow": "Gli afidi fanno la muta più volte durante il loro sviluppo e talvolta le loro vecchie cuticole rimangono sulle foglie.",
+      "imageCaption": "Afide della rosa"
+    },
+    {
+      "id": "insects-099",
+      "animal": "Insetti sociali",
+      "prompt": "Come fanno le api a comunicare un allarme alla colonia?",
+      "options": [
+        "Dai feromoni e dai segnali comportamentali",
+        "Emettono suoni di allarme",
+        "Fanno un display visivo",
+        "Cambiano il colore del loro corpo"
+      ],
+      "explanation": "Segnali e movimenti chimici possono avvisare gli altri lavoratori del pericolo.",
+      "didYouKnow": "In molte società di insetti, i lavoratori si prendono cura della covata e del mantenimento del nido.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-100",
+      "animal": "Insetti sociali",
+      "prompt": "Cosa significa “eusocialità” negli insetti?",
+      "options": [
+        "Una società con cura cooperativa della prole, generazioni sovrapposte e divisione riproduttiva del lavoro",
+        "Un gruppo in cui ogni adulto si riproduce indipendentemente",
+        "Un gruppo temporaneo che si forma soltanto per migrare",
+        "Una colonia in cui tutti gli individui svolgono gli stessi compiti"
+      ],
+      "explanation": "Questi tratti caratterizzano le società eusociali, come quelle delle formiche e di molte api.",
+      "didYouKnow": "Alcuni termitai possono superare diversi metri di altezza.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-101",
+      "animal": "Insetti sociali",
+      "prompt": "Qual è il ruolo del lavoratore sterile in una colonia sociale?",
+      "options": [
+        "Svolge compiti come prendersi cura della covata o cercare cibo.",
+        "Sostituisce la regina quotidianamente",
+        "È un maschio riproduttore",
+        "Depone tutte le uova fecondate"
+      ],
+      "explanation": "I lavoratori contribuiscono al funzionamento della colonia piuttosto che alla riproduzione diretta.",
+      "didYouKnow": "Le api operaie generalmente vivono molto più a lungo in inverno che in estate.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-102",
+      "animal": "Comunicazione",
+      "prompt": "Cos'è un feromone?",
+      "options": [
+        "Segnale chimico emesso e percepito tra individui della stessa specie",
+        "Una sostanza chimica interna che regola solo il corpo del suo trasmettitore",
+        "Un composto prodotto da una specie e utilizzato da un'altra a proprio vantaggio",
+        "Una sostanza che attira solo i predatori degli insetti"
+      ],
+      "explanation": "I feromoni trasmettono informazioni tra conspecifici, come una traccia o un segnale sessuale.",
+      "didYouKnow": "Anche le api e molti altri insetti percepiscono le vibrazioni trasmesse dal terreno o dalle piante.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-103",
+      "animal": "Comunicazione",
+      "prompt": "Qual è lo scopo delle vibrazioni del substrato in alcuni insetti?",
+      "options": [
+        "Per trasmettere un segnale attraverso le piante, il suolo o la rete",
+        "Trasmettere nell'aria una sostanza odorosa",
+        "Produrre un suono che viaggia principalmente attraverso l'aria",
+        "Per cambiare il colore della carrozzeria per comunicare a distanza"
+      ],
+      "explanation": "Le vibrazioni trasmesse da un mezzo possono essere utilizzate per attirare un partner o segnalare una minaccia.",
+      "didYouKnow": "Le ali delle farfalle possono portare scaglie microscopiche colorate.",
+      "imageCaption": "Spittlebug del prato"
+    },
+    {
+      "id": "insects-104",
+      "animal": "Visione",
+      "prompt": "Cosa rilevano principalmente i semplici ocelli di molti insetti?",
+      "options": [
+        "Intensità della luce e cambiamenti di orientamento",
+        "Formazione di un quadro dettagliato dell'ambiente",
+        "Rilevazione di odori e feromoni",
+        "Vibrazioni del substrato sotto le gambe"
+      ],
+      "explanation": "Gli ocelli completano gli occhi composti fornendo informazioni in particolare sulla luminosità.",
+      "didYouKnow": "Molti insetti hanno anche occhi composti, distinti dagli ocelli.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-105",
+      "animal": "Visione",
+      "prompt": "Come fa un occhio composto a formare l'immagine in un insetto?",
+      "options": [
+        "Da segnali provenienti da numerose unità visive chiamate ommatidi",
+        "Da un'unica lente che forma un'immagine come una macchina fotografica",
+        "Dai recettori olfattivi situati attorno alla retina",
+        "Dalle onde sonore riflesse dagli oggetti"
+      ],
+      "explanation": "Ogni ommatidia cattura parte del campo visivo e il sistema ne assembla i segnali.",
+      "didYouKnow": "Alcune api percepiscono la polarizzazione della luce, che le aiuta ad orientarsi.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-106",
+      "animal": "Ecologia",
+      "prompt": "Che servizio ecologico forniscono alle piante gli insetti impollinatori?",
+      "options": [
+        "Trasportano il polline tra i fiori e promuovono la fecondazione",
+        "Fecondano le piante depositando le uova nei fiori",
+        "Trasportano i semi senza trasportare il polline",
+        "Pascolano sui fiori senza spostare il polline"
+      ],
+      "explanation": "Il trasporto del polline facilita la riproduzione sessuale in molte piante da fiore.",
+      "didYouKnow": "Tra gli insetti i coleotteri costituiscono l'ordine con le specie più descritte.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-107",
+      "animal": "Insetti saproxilici",
+      "prompt": "A quale risorsa o habitat sono legati gli insetti saproxilici?",
+      "options": [
+        "Legno morto o in decomposizione, da cui dipendono in una fase del loro ciclo",
+        "Con foglie vive, che devono consumare da adulte",
+        "In mare aperto, dove trascorrono tutta la vita",
+        "Semi conservati nei nidi delle formiche"
+      ],
+      "explanation": "Il termine saproxilico si riferisce a specie che dipendono dal legno morto o in decomposizione in alcune fasi del loro ciclo di vita. Alcuni partecipano alla sua decomposizione, mentre altri utilizzano questo habitat o gli organismi che lo abitano.",
+      "didYouKnow": "Gli adulti di molti coleotteri saproxilici vivono solo poche settimane.",
+      "imageCaption": "Rosalia delle Alpi"
+    },
+    {
+      "id": "insects-108",
+      "animal": "Ecologia",
+      "prompt": "Perché gli insetti sono un’importante risorsa alimentare per molti uccelli?",
+      "options": [
+        "Forniscono prede abbondanti e nutrienti, soprattutto per i nidiacei",
+        "Sono l'unico cibo per tutti gli uccelli",
+        "Forniscono principalmente fibre vegetali",
+        "Sono disponibili in quantità uguali tutto l'anno"
+      ],
+      "explanation": "Molti uccelli nutrono i loro piccoli con bruchi e altri insetti ricchi di sostanze nutritive.",
+      "didYouKnow": "Gli insetti occupano un'ampia varietà di habitat terrestri, dai deserti alle foreste tropicali.",
+      "imageCaption": "Locusta migratrice"
+    },
+    {
+      "id": "insects-109",
+      "animal": "Metamorfosi",
+      "prompt": "Qual è la differenza tra metamorfosi completa e metamorfosi incompleta?",
+      "options": [
+        "La metamorfosi completa include una fase di pupa tra larva e adulto; quella incompleta no",
+        "La metamorfosi completa non ha una fase larvale, mentre quella incompleta sì",
+        "Nella metamorfosi completa i giovani somigliano agli adulti, mentre in quella incompleta no",
+        "I due tipi differiscono soltanto per il numero di uova deposte"
+      ],
+      "explanation": "La metamorfosi completa passa per uovo, larva, pupa e adulto; in quella incompleta gli stadi giovanili somigliano all’adulto.",
+      "didYouKnow": "Formiche, api e vespe appartengono tutte all'ordine degli Imenotteri.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-110",
+      "animal": "Metamorfosi",
+      "prompt": "Come si chiama il giovane di una locusta che somiglia già all'adulto ma non ha ali funzionanti?",
+      "options": [
+        "Una ninfa",
+        "Una pupa",
+        "Una larva di tipo bruco",
+        "Un'immagine immatura"
+      ],
+      "explanation": "I giovani ortotteri sono ninfe che fanno la muta più volte prima di diventare adulti.",
+      "didYouKnow": "Le cicale adulte producono il loro canto con membrane vibranti chiamate timpani.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-111",
+      "animal": "Metamorfosi",
+      "prompt": "Cosa succede durante la muta degli insetti?",
+      "options": [
+        "L'insetto lascia la vecchia cuticola e ne forma una nuova",
+        "L'insetto perde definitivamente la cuticola",
+        "Sostituisce le sue antenne con i polmoni",
+        "Diventa adulto ad ogni muta"
+      ],
+      "explanation": "La muta consente la crescita e può anche accompagnare i cambiamenti di stadio.",
+      "didYouKnow": "La cuticola esterna funge anche da punto di ancoraggio per i muscoli dell'insetto.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-112",
+      "animal": "Conservazione",
+      "prompt": "Perché la luce artificiale di notte può danneggiare alcuni insetti?",
+      "options": [
+        "Può disorientare o attirare gli insetti dai loro normali comportamenti",
+        "Rende gli insetti più visibili alle piante",
+        "Causa necessariamente la muta",
+        "Allontana tutti i predatori notturni"
+      ],
+      "explanation": "L'illuminazione notturna disturba l'orientamento, l'alimentazione e la riproduzione di alcune specie.",
+      "didYouKnow": "Alcune specie di zanzare possono completare il loro sviluppo larvale in cavità acquatiche molto piccole.",
+      "imageCaption": "Falena del falco del convolvolo"
+    },
+    {
+      "id": "insects-113",
+      "animal": "Conservazione",
+      "prompt": "Quale pratica aiuta a preservare gli insetti impollinatori in un giardino?",
+      "options": [
+        "Pianta una varietà di fiori e limita i pesticidi",
+        "Rimuovere le piante autoctone",
+        "Illumina tutta la notte",
+        "Rimuovi i fiori non appena sbocciano"
+      ],
+      "explanation": "Diverse risorse floreali e rifugi supportano gli impollinatori.",
+      "didYouKnow": "Un piccolo elemento d'acqua poco profondo con pietre può fornire un abbeveratoio per gli insetti.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-114",
+      "animal": "Conservazione",
+      "prompt": "Perché conservare il legno morto in determinate aree naturali?",
+      "options": [
+        "Serve come habitat e risorsa per le specie saproxiliche",
+        "Impedisce ai semi di germogliare",
+        "Elimina gli impollinatori",
+        "Inquina l'acqua"
+      ],
+      "explanation": "Il legno morto fornisce cibo, riparo e siti di riproduzione per molti organismi.",
+      "didYouKnow": "I vecchi alberi spesso forniscono siti di nidificazione per gli uccelli che vivono nelle cavità.",
+      "imageCaption": "Rosalia delle Alpi"
+    },
+    {
+      "id": "insects-115",
+      "animal": "Conservazione",
+      "prompt": "Qual è un possibile effetto della frammentazione dell’habitat sugli insetti?",
+      "options": [
+        "Isola le popolazioni e riduce i viaggi tra i siti",
+        "Promuove il movimento tra i frammenti",
+        "Collega popolazioni precedentemente isolate",
+        "Aumenta la superficie dell'habitat continuo"
+      ],
+      "explanation": "I frammenti isolati possono limitare gli scambi e rendere le popolazioni più vulnerabili.",
+      "didYouKnow": "Alcuni insetti, come le coccinelle, si riuniscono in gruppi per svernare.",
+      "imageCaption": "Monarca"
+    },
+    {
+      "id": "insects-116",
+      "animal": "Conservazione",
+      "prompt": "Perché i pesticidi ad ampio spettro rappresentano un rischio per gli insetti non bersaglio?",
+      "options": [
+        "Possono anche uccidere impollinatori e predatori benefici",
+        "Colpiscono solo gli insetti nocivi",
+        "Favoriscono sistematicamente gli impollinatori",
+        "Impediscono qualsiasi resistenza ai parassiti"
+      ],
+      "explanation": "Un prodotto ad ampio spettro può colpire specie diverse dall'organismo nocivo bersaglio.",
+      "didYouKnow": "La luce artificiale di notte può disorientare alcuni insetti attratti dalle fonti luminose.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-117",
+      "animal": "Ecologia",
+      "prompt": "Cos’è un insetto bioindicatore?",
+      "options": [
+        "Una specie la cui presenza o abbondanza fornisce informazioni sullo stato dell'ambiente",
+        "Una specie introdotta per ripristinare il funzionamento di un ambiente",
+        "Una specie ancora presente solo in ambienti inquinati",
+        "Una specie che indica specificatamente la presenza di un singolo contaminante"
+      ],
+      "explanation": "La sensibilità di alcuni insetti alle condizioni ambientali consente di monitorare i cambiamenti ecologici.",
+      "didYouKnow": "Le larve di molte effimere vivono nell'acqua prima di emergere come adulti.",
+      "imageCaption": "Larva di perla"
+    },
+    {
+      "id": "insects-118",
+      "animal": "Ecologia",
+      "prompt": "In che modo gli insetti decompositori contribuiscono al ciclo dei nutrienti?",
+      "options": [
+        "Frammentano la materia organica e facilitano il riciclaggio",
+        "Creano minerali mediante la fotosintesi",
+        "Impediscono ai microbi di agire",
+        "Convertono il carbonio puro in azoto"
+      ],
+      "explanation": "Il consumo e la frammentazione dei detriti organici ne accelera la decomposizione.",
+      "didYouKnow": "Le termiti possono costruire gallerie che modificano la circolazione dell'acqua nel terreno.",
+      "imageCaption": "Scarabeo stercorario sacro"
+    },
+    {
+      "id": "insects-119",
+      "animal": "Difesa",
+      "prompt": "Perché alcuni insetti mostrano colori di avvertimento luminosi?",
+      "options": [
+        "Avvertono i predatori che l’insetto può essere difeso o avere un sapore sgradevole",
+        "Attirano i partner riflettendo la luce lunare",
+        "Aiutano l’insetto ad assorbire più luce solare",
+        "Rendono l’insetto difficile da vedere tra i fiori"
+      ],
+      "explanation": "I colori di avvertimento possono insegnare ai predatori a evitare prede difese.",
+      "didYouKnow": "La coccinella a sette macchie ha solitamente sette macchie nere sulle elitre rosse.",
+      "imageCaption": "Coccinella a sette macchie"
+    },
+    {
+      "id": "insects-120",
+      "animal": "Difesa",
+      "prompt": "Che vantaggio offre il camuffamento a un insetto fogliare?",
+      "options": [
+        "Riduce le possibilità di essere individuati dai predatori",
+        "Ti permette di respirare sott'acqua",
+        "Sostituisce il sistema immunitario",
+        "Accelera la muta"
+      ],
+      "explanation": "La somiglianza con una foglia può rendere difficile l'individuazione dell'insetto.",
+      "didYouKnow": "Gli insetti fogliari appartengono agli insetti stecco, l'ordine Phasmatodea.",
+      "imageCaption": "Phyllie dalle Filippine"
+    },
+    {
+      "id": "insects-121",
+      "animal": "Difesa",
+      "prompt": "Cosa fa un insetto che esegue l'autotomia?",
+      "options": [
+        "Abbandona volontariamente un’appendice per sfuggire a un predatore",
+        "Spruzza sul predatore un liquido digestivo",
+        "Cambia colore per imitare una foglia",
+        "Si chiude in un bozzolo di seta"
+      ],
+      "explanation": "Alcune specie possono sacrificare una zampa afferrata da un predatore e scappare.",
+      "didYouKnow": "Gli insetti fogliari appartengono all'ordine degli insetti stecco, Phasmatodea.",
+      "imageCaption": "insetto stecco"
+    },
+    {
+      "id": "insects-122",
+      "animal": "Insetti e esseri umani",
+      "prompt": "Perché le api mellifere sono importanti per l’agricoltura?",
+      "options": [
+        "Impollinano molte colture e piante selvatiche",
+        "Producono azoto nel terreno",
+        "Eliminano tutti i parassiti",
+        "Producono semi senza polline"
+      ],
+      "explanation": "La loro impollinazione contribuisce alla produzione di molte colture, sebbene non tutte le colture dipendano da esse.",
+      "didYouKnow": "Le colonie di bombi sono generalmente annuali; le giovani regine accoppiate svernano da sole.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-123",
+      "animal": "Insetti e esseri umani",
+      "prompt": "Che materiale producono i bachi da seta per formare i loro bozzoli?",
+      "options": [
+        "Un filamento di seta secreto dalle loro ghiandole",
+        "Cera dalle loro zampe",
+        "Polline compattato",
+        "Fibre vegetali masticate"
+      ],
+      "explanation": "Il bruco bombice produce un lungo filamento di seta per costruire il suo bozzolo.",
+      "didYouKnow": "La pupa di bombice si sviluppa all'interno del bozzolo di seta prima che emerga l'adulto.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-124",
+      "animal": "Ecologia",
+      "prompt": "Perché gli insetti possono essere agenti di controllo biologico?",
+      "options": [
+        "Alcuni predatori o parassitoidi limitano le popolazioni di organismi nocivi",
+        "Tutti gli insetti mangiano le erbacce",
+        "Rendono inutile la sorveglianza",
+        "Prevengono qualsiasi malattia delle piante"
+      ],
+      "explanation": "Le specie mirate possono ridurre alcuni parassiti in un programma di gestione integrata dei parassiti.",
+      "didYouKnow": "La coccinella a sette macchie è una specie comune in molte parti d’Europa.",
+      "imageCaption": "Coccinella a sette macchie"
+    },
+    {
+      "id": "insects-125",
+      "animal": "Diversità",
+      "prompt": "Perché gli insetti occupano habitat così diversi?",
+      "options": [
+        "I loro lignaggi si sono evoluti in molte forme e stili di vita",
+        "Vivono principalmente nelle aree urbane",
+        "Occupano solo ambienti terrestri",
+        "Evitano gli habitat acquatici"
+      ],
+      "explanation": "La diversità degli adattamenti consente agli insetti di occupare vari ambienti terrestri e acquatici.",
+      "didYouKnow": "Gli insetti costituiscono il gruppo animale con il maggior numero di specie descritte.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-126",
+      "animal": "Odonati",
+      "prompt": "Quale organo utilizzano le larve di libellula per afferrare determinate prede?",
+      "options": [
+        "Un labbro inferiore estensibile, chiamato maschera",
+        "Mandibole a forma di lingua",
+        "Un rostro rigido per aspirare la linfa",
+        "Palpi che filtrano le particelle dall'acqua"
+      ],
+      "explanation": "Il labium può proiettarsi rapidamente per catturare piccole prede acquatiche.",
+      "didYouKnow": "Le larve di libellula vivono nell'acqua prima della muta finale su un supporto emerso.",
+      "imageCaption": "libellula depressa"
+    },
+    {
+      "id": "insects-127",
+      "animal": "Odona",
+      "prompt": "Come si chiama il volo territoriale in alcune libellule maschi?",
+      "options": [
+        "Difesa di un'area in cui cercano di attirare le femmine",
+        "Una migrazione annuale",
+        "Una caccia subacquea collettiva",
+        "Un volo senza battere le ali"
+      ],
+      "explanation": "I maschi a volte pattugliano o difendono un sito favorevole alla deposizione delle uova.",
+      "didYouKnow": "Le libellule adulte possono catturare gli insetti in volo.",
+      "imageCaption": "libellula depressa"
+    },
+    {
+      "id": "insects-128",
+      "animal": "Zanzare",
+      "prompt": "Quale gas espirato, rilevato da molte zanzare femmine, aiuta a localizzare un ospite?",
+      "options": [
+        "Anidride carbonica (CO₂)",
+        "Metano (CH₄)",
+        "Azoto (N₂)",
+        "Ossigeno (O₂)"
+      ],
+      "explanation": "L'anidride carbonica espirata può dirigere le zanzare femmine verso un ospite; Calore e odori affinano poi la ricerca.",
+      "didYouKnow": "A seconda della specie, le femmine depongono le uova sulla superficie dell'acqua, su un terreno umido o in contenitori che possono riempirsi d'acqua.",
+      "imageCaption": "Zanzara comune"
+    },
+    {
+      "id": "insects-129",
+      "animal": "Mosca tse-tse",
+      "prompt": "Come fa la mosca tse-tse a nutrire la sua larva prima della nascita?",
+      "options": [
+        "La larva si sviluppa nell'utero e riceve una secrezione nutritiva dalla madre",
+        "L'uovo si schiude all'esterno, poi la femmina porta la preda ai piccoli",
+        "L'uovo rimane nell'utero ma la larva dipende solo dal tuorlo",
+        "La femmina attacca una larva all'addome, dove si nutre dell'emolinfa."
+      ],
+      "explanation": "Nella mosca tse-tse, la femmina nutre la larva nel suo utero grazie ad una secrezione di ghiandole specializzate, poi deposita una larva matura.",
+      "didYouKnow": "Le mosche tse-tse talvolta trasmettono parassiti del genere Trypanosoma, che causano la malattia del sonno.",
+      "imageCaption": "Mosca tse-tse"
+    },
+    {
+      "id": "insects-130",
+      "animal": "Lepidotteri",
+      "prompt": "Cosa fanno le scaglie delle ali di molte farfalle oltre a contribuire al loro colore?",
+      "options": [
+        "Possono contribuire ai modelli visivi e influenzare lo scambio di calore",
+        "Producono uova e le depongono sulle piante ospiti",
+        "Filtrano l'acqua quando la farfalla si posa su un fiore",
+        "Sostituiscono i muscoli che fanno funzionare le ali"
+      ],
+      "explanation": "Le squame contribuiscono al colore, al mimetismo e ad alcuni segnali visivi.",
+      "didYouKnow": "La monarca nordamericana sverna nelle foreste montane del Messico.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-131",
+      "animal": "Lepidotteri",
+      "prompt": "Perché alcune farfalle migratrici seguono rotte stagionali?",
+      "options": [
+        "Raggiungere aree che offrono condizioni favorevoli alla loro sopravvivenza",
+        "Per prevenire la deposizione delle uova",
+        "Diventare sociale",
+        "Per raggiungere acque profonde"
+      ],
+      "explanation": "La migrazione può collegare i siti di riproduzione ai rifugi stagionali.",
+      "didYouKnow": "Il monarca appartiene alla famiglia Nymphalidae.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-132",
+      "animal": "Coleotteri",
+      "prompt": "In che modo alcuni coleotteri bombardieri difendono il loro corpo?",
+      "options": [
+        "Espellono uno spray caldo e irritante derivante da una reazione chimica",
+        "Rilasciano una secrezione appiccicosa prodotta dalle ghiandole addominali",
+        "Emettono un segnale sonoro sfregando le elitre",
+        "Proiettano una sostanza ghiacciata vaporizzando l'acqua dai loro corpi"
+      ],
+      "explanation": "Le sostanze reagiscono in una camera specializzata e vengono espulse con un getto difensivo.",
+      "didYouKnow": "Gli scarabei bombardieri appartengono alla famiglia degli scarabei terricoli.",
+      "imageCaption": "Petardo Brachine"
+    },
+    {
+      "id": "insects-133",
+      "animal": "Coleotteri",
+      "prompt": "Che ruolo ha la larva nel ciclo vitale di molti coleotteri saproxilici?",
+      "options": [
+        "Si nutre o cresce nel legno morto",
+        "Consuma foglie vive",
+        "Caccia insetti volanti",
+        "Raccoglie il nettare dai fiori"
+      ],
+      "explanation": "Le larve sfruttano spesso il legno morto, i funghi che vi crescono o gli insetti presenti.",
+      "didYouKnow": "Gli adulti di alcuni insetti saproxilici visitano i fiori, sebbene le loro larve vivano nel legno morto.",
+      "imageCaption": "Rosalia delle Alpi"
+    },
+    {
+      "id": "insects-134",
+      "animal": "Imenotteri",
+      "prompt": "Che funzione hanno le celle esagonali del favo?",
+      "options": [
+        "Sono utilizzati per allevare la covata e immagazzinare risorse",
+        "Fanno le ali",
+        "Sostituiscono le stigmate",
+        "Filtrano l'aria"
+      ],
+      "explanation": "I favi di cera contengono celle per la covata, il polline e il miele.",
+      "didYouKnow": "Le api mellifere possono propolizzare da piccole fessure nell'alveare.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-135",
+      "animal": "Imenotteri",
+      "prompt": "In che modo un'ape regina viene allevata diversamente da un'ape operaia?",
+      "options": [
+        "La larva riceve una dieta speciale, in particolare la pappa reale.",
+        "Si schiude da un uovo non fecondato, a differenza delle operaie.",
+        "Riceve più cera masticata rispetto ad altre larve",
+        "Viene allevato in una cella piena di nettare non trasformato"
+      ],
+      "explanation": "La dieta larvale contribuisce alla differenziazione della regina.",
+      "didYouKnow": "Gli operai delle api producono la cera utilizzata per costruire i favi.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-136",
+      "animal": "Imenotteri",
+      "prompt": "Quale fenomeno descrive lo sciame delle api mellifere?",
+      "options": [
+        "Una regina e parte della colonia lasciano l'alveare per fondarsi altrove",
+        "L'intera colonia abbandona le uova in inverno",
+        "I maschi fondarono una colonia senza regina",
+        "I lavoratori spostano solo le larve"
+      ],
+      "explanation": "La sciamatura è una modalità naturale di riproduzione delle colonie.",
+      "didYouKnow": "Le api mellifere utilizzano i feromoni per coordinare alcune attività della colonia.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-137",
+      "animal": "Formiche",
+      "prompt": "In che modo le formiche a volte scambiano cibo liquido tra individui?",
+      "options": [
+        "Per trofallassi, trasferimento di liquidi da una bocca all'altra",
+        "Mediante uno scambio di liquido attraverso le antenne",
+        "Mettendone una goccia a terra che l'altra formica assorbe",
+        "Trasferendo il cibo solido con le mandibole"
+      ],
+      "explanation": "La trofallassi è il trasferimento di liquidi alimentari tra individui; può anche trasmettere molecole di segnalazione.",
+      "didYouKnow": "Le formiche costruiscono stanze e gallerie la cui forma varia a seconda della specie e dell'ambiente.",
+      "imageCaption": "Formica da giardino nera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-138",
+      "animal": "Formiche",
+      "prompt": "Come fanno alcune colonie di formiche a spostare le loro larve?",
+      "options": [
+        "Gli operai li trasportano con le loro mandibole",
+        "Le larve strisciano da sole verso il nuovo nido",
+        "La regina li porta tra le sue ali",
+        "Si attaccano alle antenne dei soldati"
+      ],
+      "explanation": "Il trasporto della covata consente di spostare la colonia o di riorganizzare il nido.",
+      "didYouKnow": "Le operaie di diverse specie di formiche trasportano l'intera preda nel nido.",
+      "imageCaption": "Formica da giardino nera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-139",
+      "animal": "Ortotteri",
+      "prompt": "Qual è lo scopo del canto del grillo maschio?",
+      "options": [
+        "Per attrarre un partner o comunicare con i coetanei",
+        "Per attirare i fiori",
+        "Per far vibrare le uova sottoterra",
+        "Respirare"
+      ],
+      "explanation": "Il canto è un segnale acustico utilizzato nella comunicazione riproduttiva.",
+      "didYouKnow": "I grilli rilevano i suoni utilizzando i timpani delle zampe anteriori.",
+      "imageCaption": "Locusta migratrice, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-140",
+      "animal": "Grilli talpa",
+      "prompt": "Quale adattamento aiuta i grilli talpa a scavare gallerie nel terreno?",
+      "options": [
+        "Le zampe anteriori allargate e dentate, a forma di pala",
+        "Le loro potenti mandibole che scavano da sole le gallerie",
+        "Le zampe posteriori che spingono la terra all'indietro",
+        "Le loro robuste antenne che perforano il terreno"
+      ],
+      "explanation": "I grilli talpa muovono il terreno con le loro zampe anteriori forti e allargate.",
+      "didYouKnow": "I grilli talpa possono nutrirsi sia di radici che di piccoli invertebrati.",
+      "imageCaption": "Grillo talpa comune, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-141",
+      "animal": "Termiti",
+      "prompt": "Quale materiale usano spesso le termiti per costruire i loro tumuli?",
+      "options": [
+        "Particelle di terreno legate da secrezioni",
+        "Di squame incastrate",
+        "Metallo",
+        "Di foglie intessute di seta"
+      ],
+      "explanation": "Le termiti assemblano terreno, saliva e talvolta detriti vegetali per costruire strutture.",
+      "didYouKnow": "I lavoratori delle termiti a volte trasportano i piccoli quando spostano il nido.",
+      "imageCaption": "Termite della savana, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-142",
+      "animal": "Termiti",
+      "prompt": "Quale individuo nella colonia di termiti generalmente depone le uova?",
+      "options": [
+        "La regina",
+        "Il soldato",
+        "Solo il maschio alato",
+        "Tutte le larve"
+      ],
+      "explanation": "La regina è la femmina riproduttiva centrale della colonia.",
+      "didYouKnow": "I lavoratori delle termiti a volte trasportano i piccoli quando spostano il nido.",
+      "imageCaption": "Termite della savana, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-143",
+      "animal": "Larve di effimera",
+      "prompt": "Perché alcune larve di effimere hanno il corpo appiattito e le zampe afferranti?",
+      "options": [
+        "Per restare tra le pietre nelle correnti veloci",
+        "Galleggiare appena sotto la superficie dell'acqua stagnante",
+        "Per trattenere una bolla d'aria sotto le elitre",
+        "Aggrapparsi alle foglie galleggianti lontane dal fondo"
+      ],
+      "explanation": "La forma appiattita e le zampe permettono ad alcune larve reofile di resistere alla corrente riparandosi sul substrato.",
+      "didYouKnow": "Le larve di numerose effimere hanno branchie laterali sull'addome.",
+      "imageCaption": "Larva di effimere"
+    },
+    {
+      "id": "insects-144",
+      "animal": "Insetti acquatici",
+      "prompt": "Cosa mangiano molte larve di caddi acquatici?",
+      "options": [
+        "Alghe, detriti o piccole prede a seconda della specie",
+        "legno secco",
+        "Solo foglie terrestri",
+        "Nettare floreale"
+      ],
+      "explanation": "La dieta dei tricotteri varia: alcune larve pascolano, filtrano o predano.",
+      "didYouKnow": "Le tricotteri adulte hanno spesso antenne lunghe e filiformi.",
+      "imageCaption": "Larva di tricottero"
+    },
+    {
+      "id": "insects-145",
+      "animal": "Scarafaggio sibilante del Madagascar",
+      "prompt": "Come fa lo scarafaggio sibilante del Madagascar a produrre il suo sibilo?",
+      "options": [
+        "Espellendo l'aria attraverso stimmate specializzate",
+        "Sfregando le ali insieme come un grillo",
+        "Facendo vibrare i timpani addominali come una cicala",
+        "Colpendo il suolo con le mandibole"
+      ],
+      "explanation": "Questo scarafaggio spinge l'aria attraverso gli spiracoli per produrre un sibilo difensivo o sociale.",
+      "didYouKnow": "I maschi della blatta sibilante del Madagascar presentano spesso protuberanze pronunciate sul pronoto, più discrete nelle femmine.",
+      "imageCaption": "Scarafaggio sibilante del Madagascar, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-146",
+      "animal": "Scarafaggi",
+      "prompt": "Come si chiama la capsula di uova prodotta da molti scarafaggi?",
+      "options": [
+        "Ooteca",
+        "Bozzolo",
+        "Crisalide",
+        "Galla"
+      ],
+      "explanation": "L’ooteca è una capsula che contiene una o più uova.",
+      "didYouKnow": "Gli scarafaggi hanno antenne lunghe e filiformi che esplorano il loro ambiente.",
+      "imageCaption": "Scarafaggio americano, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-147",
+      "animal": "Difesa",
+      "prompt": "Qual è il ruolo del mimetismo batesiano?",
+      "options": [
+        "Una specie innocua assomiglia a una specie difesa o pericolosa",
+        "Una specie difesa appare come una specie innocua",
+        "Un predatore assomiglia alla specie che caccia",
+        "Diverse specie difese condividono segnali simili"
+      ],
+      "explanation": "La somiglianza può ridurre gli attacchi se i predatori evitano lo schema difeso.",
+      "didYouKnow": "I sirfidi sono mosche innocue, alcune specie delle quali assomigliano alle vespe.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-148",
+      "animal": "Difesa",
+      "prompt": "Cosa significa mimetismo mulleriano?",
+      "options": [
+        "Diverse specie difese condividono segnali di pericolo simili",
+        "Una specie innocua imita una specie difesa",
+        "Un predatore imita l'aspetto della sua preda",
+        "Una specie viene confusa con una foglia o un ramoscello"
+      ],
+      "explanation": "I predatori possono imparare più rapidamente a evitare un segnale condiviso da diverse specie difese.",
+      "didYouKnow": "Le larve di alcune coccinelle hanno spine o protuberanze sul corpo.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-149",
+      "animal": "Ecologia",
+      "prompt": "Perché gli insetti contribuiscono alla dispersione dei semi?",
+      "options": [
+        "Alcuni trasportano o seppelliscono i semi",
+        "Impollinano i fiori trasportando il loro polline",
+        "Disperdono le spore fungine nel terreno",
+        "Trasportano i semi all'interno del loro tratto digestivo"
+      ],
+      "explanation": "Le formiche trasportano alcuni semi per le loro appendici nutrienti e talvolta ne lasciano cadere alcuni.",
+      "didYouKnow": "Alcune formiche raccolgono la melata dagli afidi e li proteggono dai predatori.",
+      "imageCaption": "Formica mietitrice"
+    },
+    {
+      "id": "insects-150",
+      "animal": "Ecologia",
+      "prompt": "Che conseguenze può avere la scomparsa di un impollinatore specializzato?",
+      "options": [
+        "La riproduzione della pianta partner può diminuire",
+        "La pianta produce più nettare senza visite",
+        "La pianta ora dipende esclusivamente dal vento",
+        "Il tasso di fecondazione rimane necessariamente lo stesso"
+      ],
+      "explanation": "Un rapporto molto specializzato può rendere la pianta dipendente da un numero limitato di impollinatori.",
+      "didYouKnow": "Alcuni insetti impollinano principalmente di notte, comprese molte falene.",
+      "imageCaption": "Orchidea dell'ape"
+    },
+    {
+      "id": "insects-151",
+      "animal": "Anatomia",
+      "prompt": "Quale parte del torace sostiene le zampe negli insetti?",
+      "options": [
+        "I tre segmenti toracici",
+        "La testa",
+        "L'addome",
+        "Le antenne"
+      ],
+      "explanation": "Le gambe sono attaccate al torace, che comprende protorace, mesotorace e metatorace.",
+      "didYouKnow": "Le zampe anteriori di alcune mantidi si trasformano in organi rapitori.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-152",
+      "animal": "Anatomia",
+      "prompt": "Di cosa è fatto il sangue degli insetti, chiamato emolinfa?",
+      "options": [
+        "Un fluido che circola nella cavità corporea",
+        "Globuli rossi in vasi chiusi",
+        "Un fluido immagazzinato nelle ali",
+        "Una miscela di nettare e saliva"
+      ],
+      "explanation": "L'emolinfa bagna direttamente gli organi in un sistema circolatorio aperto.",
+      "didYouKnow": "Il sistema nervoso di molti insetti comprende una catena ventrale di gangli segmentali.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-153",
+      "animal": "Anatomia",
+      "prompt": "Quale modello di camminata è comune tra gli insetti che si muovono rapidamente su una superficie?",
+      "options": [
+        "Una camminata alternata su treppiede, con tre gambe di sostegno alla volta",
+        "Una camminata in cui tutte e sei le gambe si staccano sempre da terra contemporaneamente",
+        "Una camminata in cui solo le due zampe posteriori toccano terra",
+        "Una camminata in cui le tre gambe dello stesso lato si muovono insieme"
+      ],
+      "explanation": "Molti insetti utilizzano una camminata tripode alternata: tre zampe di supporto si alternano al trio opposto, il che aiuta a stabilizzare il movimento.",
+      "didYouKnow": "Come altri artropodi, gli insetti devono fare la muta per crescere perché il loro esoscheletro non si allunga come la pelle.",
+      "imageCaption": "Locusta migratrice"
+    },
+    {
+      "id": "insects-154",
+      "animal": "Anatomia",
+      "prompt": "Cosa fanno le mandibole negli insetti che masticano il cibo?",
+      "options": [
+        "Per tagliare e macinare il cibo",
+        "Aspirano liquidi in tutti gli insetti",
+        "Rilevano gli odori",
+        "Sono utilizzati per il bilanciamento del volo"
+      ],
+      "explanation": "Le mandibole sono spesso apparato boccale duro e mobile utilizzato per manipolare o macinare il cibo.",
+      "didYouKnow": "I colori degli insetti possono provenire da pigmenti o strutture microscopiche.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-155",
+      "animal": "Api orchidee",
+      "prompt": "Come fanno i maschi di molte api orchidee a raccogliere gli odori?",
+      "options": [
+        "Raccolgono composti odorosi con le zampe anteriori e li trasferiscono in tasche specializzate delle zampe posteriori",
+        "Aspirano gli odori con la proboscide e li immagazzinano nell'addome",
+        "Raccolgono composti sulle ali e li immagazzinano nelle antenne",
+        "Producono odori dal nettare che consumano"
+      ],
+      "explanation": "I maschi raccolgono sostanze odorose con spazzole sulle zampe anteriori e le conservano in tasche delle tibie posteriori.",
+      "didYouKnow": "Le api femmine di orchidea raccolgono polline e nettare per nutrire la loro prole.",
+      "imageCaption": "Ape orchidea, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-156",
+      "animal": "Anatomia",
+      "prompt": "Come si chiama il rivestimento esterno rigido di un insetto?",
+      "options": [
+        "La cuticola",
+        "Un derma osseo",
+        "Un cappotto di calcare",
+        "Pelle cheratinizzata"
+      ],
+      "explanation": "La cuticola forma l'esoscheletro e comprende diversi strati.",
+      "didYouKnow": "Il cervello degli insetti comprende diverse regioni specializzate per l'elaborazione sensoriale e il comportamento.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-157",
+      "animal": "Elateridi",
+      "prompt": "Come fanno alcuni elateridi a raddrizzarsi quando sono capovolti?",
+      "options": [
+        "Flettono e rilasciano un meccanismo elastico del torace che li lancia con uno scatto",
+        "Sbattono le ali finché non si capovolgono sulle zampe",
+        "Si trascinano in avanti usando le antenne come appiglio",
+        "Gonfiano l’addome per rotolare su un fianco"
+      ],
+      "explanation": "Una spina del torace si aggancia a una tacca; quando si libera, lancia lo scarabeo in aria e può rimetterlo sulle zampe.",
+      "didYouKnow": "I wireworm hanno generalmente un corpo allungato e angoli posteriori appuntiti del pronoto.",
+      "imageCaption": "Wireworm saltante"
+    },
+    {
+      "id": "insects-158",
+      "animal": "Fisiologia",
+      "prompt": "In che modo gli insetti eliminano parte dei loro rifiuti di azoto?",
+      "options": [
+        "Attraverso i tubuli malpighiani",
+        "Attraverso i reni",
+        "Attraverso le branchie",
+        "Attraverso le ghiandole salivari"
+      ],
+      "explanation": "I tubuli malpighiani rimuovono le sostanze di scarto dall’emolinfa e sboccano nel tubo digerente.",
+      "didYouKnow": "Le ali degli insetti sono attaccate al torace anziché alla testa o all'addome.",
+      "imageCaption": "Grillo da campo"
+    },
+    {
+      "id": "insects-159",
+      "animal": "Fisiologia",
+      "prompt": "Perché gli insetti sono chiamati ectotermi?",
+      "options": [
+        "La loro temperatura corporea dipende in gran parte dal calore esterno",
+        "Mantengono sempre una temperatura corporea stabile",
+        "La loro temperatura corporea è sempre inferiore a quella dell'aria",
+        "Possono vivere solo in ambienti freddi"
+      ],
+      "explanation": "La maggior parte degli insetti fa affidamento principalmente su fonti esterne per regolare la propria temperatura.",
+      "didYouKnow": "Larve e adulti dello stesso insetto possono occupare habitat diversi.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-160",
+      "animal": "Volo",
+      "prompt": "Come può un insetto mantenere il volo stazionario?",
+      "options": [
+        "Regolando la portanza prodotta dai battiti delle ali",
+        "Dirigendo le antenne come eliche",
+        "Aggrappandosi a una tela",
+        "Riducendo il peso corporeo"
+      ],
+      "explanation": "Il volo stazionario richiede forze aerodinamiche per compensare il peso e il movimento.",
+      "didYouKnow": "I colori di alcuni insetti derivano da strutture microscopiche che riflettono la luce.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-161",
+      "animal": "Volo",
+      "prompt": "Quale meccanismo muscolare fa funzionare le ali di molti insetti che volano veloci?",
+      "options": [
+        "Muscoli toracici indiretti che deformano il torace e guidano le ali",
+        "Muscoli addominali che tirano direttamente verso il basso le ali",
+        "Muscoli nelle zampe posteriori che fanno ruotare le ali",
+        "Muscoli della testa che tirano le ali tramite le antenne"
+      ],
+      "explanation": "In molti insetti che volano velocemente, i muscoli indiretti deformano il torace; le articolazioni trasmettono questa deformazione alle ali.",
+      "didYouKnow": "Il titano è uno scarabeo tropicale dalle corna lunghe, uno dei più grandi coleotteri conosciuti.",
+      "imageCaption": "Ape mellifera, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-162",
+      "animal": "Monarca",
+      "prompt": "In che modo il bruco monarca acquisisce parte della sua difesa chimica?",
+      "options": [
+        "Accumula cardenolidi dalle piante di asclepiade di cui si nutre",
+        "Ottiene veleno mangiando altri insetti",
+        "Produce pigmenti di avvertimento grazie alla luce solare",
+        "Acquisisce tossine da funghi che crescono sulle ali"
+      ],
+      "explanation": "I bruchi che si nutrono di asclepiadi possono trattenere cardenolidi, che rendono la farfalla sgradevole per alcuni predatori.",
+      "didYouKnow": "La monarca è una farfalla migratrice molto conosciuta nel Nord America.",
+      "imageCaption": "Monarch, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-163",
+      "animal": "Ecologia",
+      "prompt": "Cosa mangia principalmente un insetto fitofago?",
+      "options": [
+        "Tessuti vegetali",
+        "Funghi",
+        "Piccoli animali",
+        "Detriti animali"
+      ],
+      "explanation": "I fitofagi consumano foglie, steli, semi, linfa o altre parti di piante.",
+      "didYouKnow": "Alcune formiche coltivano funghi da pezzi di foglie.",
+      "imageCaption": "Locusta migratrice"
+    },
+    {
+      "id": "insects-164",
+      "animal": "Ecologia",
+      "prompt": "Quale termine descrive un insetto che caccia e consuma altri animali?",
+      "options": [
+        "Predatore",
+        "Impollinatore obbligato",
+        "Decompositore minerale",
+        "Parassita fotosintetico"
+      ],
+      "explanation": "Un predatore in genere cattura e consuma diverse prede durante la sua vita.",
+      "didYouKnow": "Le ali di molte coccinelle sono protette da elitre colorate.",
+      "imageCaption": "Mantide religiosa, esempio che illustra questa domanda sugli insetti."
+    },
+    {
+      "id": "insects-165",
+      "animal": "Ecologia",
+      "prompt": "Quale differenza generale separa un parassitoide da un predatore?",
+      "options": [
+        "Il parassitoide cresce sopra o all'interno di un ospite e solitamente lo uccide",
+        "Il predatore si sviluppa in un'unica preda che finisce per uccidere",
+        "Il parassitoide consuma più prede senza dipendere da un singolo ospite",
+        "Il parassitoide vive sul suo ospite senza comprometterne la sopravvivenza"
+      ],
+      "explanation": "La larva parassitoide dipende da un singolo ospite e molto spesso finisce per ucciderlo.",
+      "didYouKnow": "Le vespe parassitoidi costituiscono un gruppo molto diversificato all'interno degli imenotteri.",
+      "imageCaption": "Vespa parassitoide"
+    },
+    {
+      "id": "insects-166",
+      "animal": "Ecologia",
+      "prompt": "Perché gli insetti contribuiscono all'aerazione di alcuni suoli?",
+      "options": [
+        "Le loro gallerie creano spazi nel terreno",
+        "Le ali pompano l'aria",
+        "Dissolvono il terreno con il nettare",
+        "Fanno radici"
+      ],
+      "explanation": "Le gallerie scavate da formiche, termiti e larve possono modificare la struttura del terreno.",
+      "didYouKnow": "Alcune formiche trasportano i semi e possono aiutare a disperderli.",
+      "imageCaption": "Termite della savana"
+    },
+    {
+      "id": "insects-167",
+      "animal": "Scarabeo stercorario Scarabaeus satyrus",
+      "prompt": "Come si orienta lo scarabeo stercorario Scarabaeus satyrus durante i movimenti notturni?",
+      "options": [
+        "Usando come guida la fascia luminosa della Via Lattea",
+        "Seguendo una scia di feromoni lasciata da altri scarabei stercorari",
+        "Rilevando il campo magnetico terrestre",
+        "Utilizzando le vibrazioni prodotte da altri scarabei stercorari"
+      ],
+      "explanation": "Gli esperimenti hanno dimostrato che questo scarabeo stercorario può mantenere la sua direzione utilizzando la banda luminosa della Via Lattea.",
+      "didYouKnow": "Scarabaeus satyrus è uno scarabeo stercorario coprofago che utilizza gli escrementi come risorsa alimentare.",
+      "imageCaption": "Scarabeo stercorario Scarabaeus satyrus"
+    },
+    {
+      "id": "insects-168",
+      "animal": "Formica tessitrice",
+      "prompt": "Come fanno le formiche tessitrici a mettere insieme le foglie nel loro nido?",
+      "options": [
+        "Le operaie utilizzano la seta prodotta dalle loro larve per incollare insieme le foglie",
+        "I lavoratori secernono la seta dalle ghiandole dell'addome",
+        "Ricoprono le foglie con la cera prodotta dalle loro ghiandole",
+        "Fissano le foglie con una resina raccolta dagli alberi"
+      ],
+      "explanation": "Le operaie uniscono le foglie e poi trattengono le larve contro i bordi; questi secernono la seta che li assembla.",
+      "didYouKnow": "Le operaie delle formiche tessitrici possono mordere e spruzzare acido formico per difendere la colonia.",
+      "imageCaption": "Formica tessitrice asiatica"
+    },
+    {
+      "id": "insects-169",
+      "animal": "Piante e insetti",
+      "prompt": "Perché alcune orchidee imitano l'aspetto o l'odore di un insetto femmina?",
+      "options": [
+        "Per attirare i maschi che contribuiscono alla loro impollinazione",
+        "Per attirare le femmine che vi depongono le uova",
+        "Per respingere gli insetti che mangiano le loro foglie",
+        "Per far credere a un predatore di portare semi"
+      ],
+      "explanation": "Questo inganno può causare pseudocopulazione e trasferimento di polline.",
+      "didYouKnow": "Le orchidee sono una delle famiglie di piante da fiore più ricche di specie.",
+      "imageCaption": "L'ape Ofris"
+    },
+    {
+      "id": "insects-170",
+      "animal": "Piante e insetti",
+      "prompt": "Cosa fanno i nettari floreali per la pianta?",
+      "options": [
+        "Fornire una ricompensa in grado di attirare gli impollinatori",
+        "Per fare petali",
+        "Per conservare i semi",
+        "Per produrre legno"
+      ],
+      "explanation": "Il nettare premia i visitatori che possono trasportare il polline tra i fiori.",
+      "didYouKnow": "Le api mellifere possono comunicare la direzione di una risorsa attraverso una danza.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-171",
+      "animal": "Sviluppo",
+      "prompt": "Quale stadio di una farfalla è tipicamente specializzato per l'alimentazione e la crescita?",
+      "options": [
+        "Il bruco",
+        "Solo per adulti",
+        "Solo la crisalide",
+        "Solo l'uovo"
+      ],
+      "explanation": "Il bruco spesso consuma molto cibo prima della pupa.",
+      "didYouKnow": "Molte farfalle adulte vivono meno dello stadio di bruco.",
+      "imageCaption": "bruco di coda forcuta"
+    },
+    {
+      "id": "insects-172",
+      "animal": "Sviluppo",
+      "prompt": "Come si chiama la busta vuota lasciata dopo la muta di un insetto?",
+      "options": [
+        "Un'esuvia",
+        "Una crisalide",
+        "Uno stigma",
+        "Un'elitre"
+      ],
+      "explanation": "L'esuvia è l'antica cuticola da cui l'insetto si estraeva durante la muta.",
+      "didYouKnow": "Le esuvie di molte larve acquatiche rimangono attaccate alle piante vicine alle rive.",
+      "imageCaption": "Locusta migratrice"
+    },
+    {
+      "id": "insects-173",
+      "animal": "Larva di libellula",
+      "prompt": "Come fa la larva di una libellula (Anisoptera) a far circolare l’acqua sulle branchie interne?",
+      "options": [
+        "Aspira l’acqua e poi la espelle attraverso il retto",
+        "Pompa l’acqua attraverso la bocca e la espelle dagli spiracoli",
+        "Ventila le branchie agitando le zampe",
+        "Assorbe ossigeno direttamente dall’addome"
+      ],
+      "explanation": "Le larve degli anisotteri ventilano la camera rettale aspirando ed espellendo acqua; gli scambi gassosi avvengono sulle branchie interne.",
+      "didYouKnow": "Alcuni insetti hanno un sistema nervoso organizzato attorno ad una catena ventrale di gangli.",
+      "imageCaption": "Larva di libellula"
+    },
+    {
+      "id": "insects-174",
+      "animal": "Sviluppo",
+      "prompt": "Quale stadio giovanile emerge di solito da un uovo di insetto alla schiusa?",
+      "options": [
+        "Uno stadio giovanile di larva o di ninfa",
+        "Un insetto adulto completamente sviluppato",
+        "Direttamente una pupa",
+        "Un altro uovo"
+      ],
+      "explanation": "A seconda del tipo di metamorfosi, dall’uovo nasce una larva oppure una ninfa.",
+      "didYouKnow": "Le antenne dell’ape mellifera hanno numerosi recettori che rilevano gli odori.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-175",
+      "animal": "Sviluppo",
+      "prompt": "Qual è la funzione principale del bozzolo tessuto da alcune larve di falena?",
+      "options": [
+        "Proteggere la pupa",
+        "Nutrire il bruco",
+        "Aiutare l’adulto a volare",
+        "Conservare le uova deposte dalla femmina"
+      ],
+      "explanation": "Il bozzolo è un involucro di seta tessuto dalla larva per proteggere lo stadio pupale.",
+      "didYouKnow": "I bruchi di alcune falene hanno ciuffi di peli o escrescenze sul corpo.",
+      "imageCaption": "Bombice di gelso"
+    },
+    {
+      "id": "insects-176",
+      "animal": "Formiche",
+      "prompt": "Quale organo specializzato usano spesso le formiche per pulire le antenne?",
+      "options": [
+        "Un pettine chiamato strigile sulle zampe anteriori",
+        "Una spazzola situata sulle zampe posteriori",
+        "Denti posizionati sulle mandibole",
+        "Un pettine situato all'estremità dell'addome"
+      ],
+      "explanation": "Lo strigile è una struttura a pettine sulle zampe anteriori che aiuta molte formiche a pulire le antenne.",
+      "didYouKnow": "Alcune formiche formano ponti viventi con i loro corpi per attraversare gli spazi vuoti.",
+      "imageCaption": "Formica da giardino nera"
+    },
+    {
+      "id": "insects-177",
+      "animal": "Api",
+      "prompt": "In che modo gli operatori delle api trasportano il polline all'alveare?",
+      "options": [
+        "Nelle strutture di trasporto sulle zampe posteriori",
+        "Sui pendoli",
+        "Sotto le elitre",
+        "In una tasca formata dal bagagliaio"
+      ],
+      "explanation": "Le api mellifere hanno cestini per il polline sulle zampe posteriori.",
+      "didYouKnow": "Le api operaie sono femmine, mentre i fuchi sono maschi.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-178",
+      "animal": "Api",
+      "prompt": "Perché le api ventilatrici sbattono le ali all’ingresso dell’alveare?",
+      "options": [
+        "Per creare un flusso d’aria e contribuire a regolare il microclima del nido",
+        "Per riscaldare la covata con il contatto diretto",
+        "Per produrre un suono d’allarme per la colonia",
+        "Per diffondere segnali odorosi intorno all’alveare"
+      ],
+      "explanation": "La ventilazione aiuta a controllare la temperatura e l’umidità del nido.",
+      "didYouKnow": "L'ape regina utilizza feromoni che influenzano il comportamento delle operaie.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-179",
+      "animal": "Farfalle",
+      "prompt": "Perché alcune farfalle si radunano sul terreno bagnato o su una riva fangosa?",
+      "options": [
+        "Assumono sali minerali e altri nutrienti disciolti nell'acqua",
+        "Raccolgono principalmente il nettare che sgorga dai fiori vicini",
+        "Catturano piccoli insetti attratti dal fango",
+        "Assorbono l'acqua attraverso le ali per prevenire la disidratazione"
+      ],
+      "explanation": "Questo comportamento, chiamato pozzanghera, consente ad alcuni maschi di assorbire sali e minerali.",
+      "didYouKnow": "Alcune specie di farfalle migrano per lunghe distanze tra i siti di riproduzione e quelli di svernamento.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-180",
+      "animal": "Farfalle",
+      "prompt": "In che modo gli ocelli sulle ali possono aiutare una farfalla?",
+      "options": [
+        "Possono spaventare o distrarre un predatore",
+        "Respirare",
+        "Per produrre feromoni",
+        "Per misurare la velocità del vento"
+      ],
+      "explanation": "I modelli simili a occhi possono sorprendere un predatore o deviare il suo attacco.",
+      "didYouKnow": "Alcune specie di farfalle assaggiano le piante grazie ai recettori situati sulle zampe.",
+      "imageCaption": "pavone del giorno"
+    },
+    {
+      "id": "insects-181",
+      "animal": "Bruchi",
+      "prompt": "Perché alcuni bruchi hanno peli urticanti?",
+      "options": [
+        "Costituiscono una difesa contro i predatori",
+        "Per fare le ali",
+        "Respirare sott'acqua",
+        "Per sostituire le mandibole"
+      ],
+      "explanation": "I peli specializzati possono irritare la pelle o le mucose e scoraggiare i predatori.",
+      "didYouKnow": "I bruchi monarca si nutrono di diverse specie di euforbia.",
+      "imageCaption": "Bruco della processionaria del pino"
+    },
+    {
+      "id": "insects-182",
+      "animal": "Falene",
+      "prompt": "Come fanno alcune falene a sfuggire al rilevamento dei pipistrelli?",
+      "options": [
+        "Rilevano gli ultrasuoni e possono manovrare o produrre clic",
+        "Diventano invisibili",
+        "Respirano sottoterra",
+        "Chiudono le stimmate per ascoltare"
+      ],
+      "explanation": "Gli organi dell'udito rilevano i richiami ultrasonici dei pipistrelli in diverse specie.",
+      "didYouKnow": "Le falene e le farfalle appartengono tutte all'ordine dei lepidotteri.",
+      "imageCaption": "La fidanzata di Noctuelle"
+    },
+    {
+      "id": "insects-183",
+      "animal": "Libellule",
+      "prompt": "Perché le ali della libellula sono in grado di muoversi autonomamente?",
+      "options": [
+        "Ogni coppia ha articolazioni e muscolatura di controllo",
+        "Sono attaccati all'addome",
+        "Sono attivati dalle antenne",
+        "Queste sono le pinne"
+      ],
+      "explanation": "Il controllo indipendente delle ali contribuisce alla notevole manovrabilità degli odonati.",
+      "didYouKnow": "I maschi di alcune libellule difendono i siti di nidificazione dai rivali.",
+      "imageCaption": "libellula depressa"
+    },
+    {
+      "id": "insects-184",
+      "animal": "Insetti acquatici",
+      "prompt": "Come si forma il piastrone respiratorio di alcuni insetti acquatici?",
+      "options": [
+        "Un sottile strato d'aria trattenuto contro il corpo",
+        "Una bolla d'aria chiusa sotto le elitre e rinnovata in superficie",
+        "Branchie tracheali che estraggono l'ossigeno disciolto",
+        "Un sifone respiratorio che raggiunge la superficie dell'acqua"
+      ],
+      "explanation": "Le setole idrofobe mantengono una pellicola d'aria utilizzata per lo scambio di gas.",
+      "didYouKnow": "Le larve della libellula afferrano la preda con un labbro estensibile chiamato maschera.",
+      "imageCaption": "insetto d'acqua"
+    },
+    {
+      "id": "insects-185",
+      "animal": "Girinidi",
+      "prompt": "Quale caratteristica visiva permette ai girinidi di osservare contemporaneamente aria e acqua?",
+      "options": [
+        "Un paio di occhi divisi, con una parte che vede l’aria e l’altra l’acqua",
+        "Un paio di occhi che vede soltanto sott’acqua",
+        "Una fila di occhi su ogni lato dell’addome",
+        "Un solo paio di occhi protetto da scaglie trasparenti"
+      ],
+      "explanation": "Gli occhi divisi permettono loro di controllare contemporaneamente aria e acqua.",
+      "didYouKnow": "I girinidi nuotano spesso rapidamente in cerchio sulla superficie dell’acqua.",
+      "imageCaption": "Gyrin"
+    },
+    {
+      "id": "insects-186",
+      "animal": "Coleotteri",
+      "prompt": "Perché le larve delle lucciole vengono talvolta chiamate lucciole?",
+      "options": [
+        "Possono produrre luce",
+        "Possono produrre uno spruzzo difensivo",
+        "Possono emettere un forte clic",
+        "Possono tessere seta intorno alle prede"
+      ],
+      "explanation": "In diverse specie di lucciole, le larve hanno organi luminosi usati anche per la difesa.",
+      "didYouKnow": "Le lucciole sono coleotteri, non mosche.",
+      "imageCaption": "Larva di lucciola"
+    },
+    {
+      "id": "insects-187",
+      "animal": "Emitteri",
+      "prompt": "In che modo gli insetti acquatici giganti catturano spesso le loro prede?",
+      "options": [
+        "Con zampe anteriori prensili e un rostro perforante",
+        "Con ali che intrappolano la preda contro l’acqua",
+        "Con cuscinetti adesivi sulle zampe posteriori",
+        "Con un pungiglione velenoso all’estremità dell’addome"
+      ],
+      "explanation": "Afferrano le prede e usano il rostro per iniettare saliva digestiva.",
+      "didYouKnow": "Gli insetti acquatici giganti a volte depongono le uova sul dorso dei maschi, a seconda della specie.",
+      "imageCaption": "Cenerentola"
+    },
+    {
+      "id": "insects-188",
+      "animal": "Emitteri",
+      "prompt": "Qual è lo scopo della proboscide di una cicalina che si nutre di linfa?",
+      "options": [
+        "Per forare i tessuti vegetali e succhiarne la linfa",
+        "Per tagliare le foglie",
+        "Per catturare insetti volanti",
+        "Per costruire una tela"
+      ],
+      "explanation": "L'apparato boccale pungente fornisce l'accesso ai fluidi vegetali.",
+      "didYouKnow": "Alcune cicaline producono una schiuma protettiva durante il loro sviluppo larvale.",
+      "imageCaption": "Cicalina verde"
+    },
+    {
+      "id": "insects-189",
+      "animal": "Ditteri",
+      "prompt": "Perché le larve di zanzara filtrano l'acqua con il loro apparato boccale?",
+      "options": [
+        "Per recuperare microrganismi e particelle di cibo",
+        "Per catturare piccoli animali che ingoiano interi",
+        "Per sfiorare le alghe attaccate alle pareti del contenitore",
+        "Per filtrare l'aria e ottenere l'ossigeno necessario"
+      ],
+      "explanation": "La maggior parte delle larve si nutrono di particelle o microrganismi presenti nell'acqua.",
+      "didYouKnow": "Le zanzare maschi generalmente si nutrono di nettare piuttosto che di sangue.",
+      "imageCaption": "Larva di zanzara comune"
+    },
+    {
+      "id": "insects-190",
+      "animal": "Ditteri",
+      "prompt": "Che ruolo possono svolgere le mosche nell’impollinazione?",
+      "options": [
+        "Trasportano il polline visitando i fiori",
+        "Fertilizzano i semi",
+        "Producono il nettare",
+        "Disperdono le radici"
+      ],
+      "explanation": "Molte mosche visitano i fiori per il nettare o il polline e possono trasferire il polline.",
+      "didYouKnow": "Le larve di diversi sirfidi si nutrono di afidi.",
+      "imageCaption": "Hoverfly con cintura"
+    },
+    {
+      "id": "insects-191",
+      "animal": "Ortotteri",
+      "prompt": "Perché le locuste gregarie possono formare sciami?",
+      "options": [
+        "L’alta densità e i segnali sensoriali possono innescare un cambiamento di comportamento",
+        "Un calo della temperatura innesca una migrazione annuale comune a tutte le locuste",
+        "Le cure parentali coordinate mantengono gli individui in gruppi",
+        "Una regina dirige lo sciame verso le piante più ricche di cibo"
+      ],
+      "explanation": "In alcune specie, la densità può portare a cambiamenti comportamentali e morfologici associati alla fase gregaria.",
+      "didYouKnow": "Le cavallette ninfa hanno germogli alari che crescono mentre fanno la muta.",
+      "imageCaption": "Locusta del deserto"
+    },
+    {
+      "id": "insects-192",
+      "animal": "insetti stecco",
+      "prompt": "Che ruolo gioca talvolta il capolino sull'uovo di alcuni insetti stecco?",
+      "options": [
+        "Attira le formiche, che trasportano l'uovo prima di consumare questa parte nutriente",
+        "Attira gli uccelli che disperdono l'uovo nei loro escrementi",
+        "Galleggia sull'acqua fino a una pianta dove l'uovo può schiudersi",
+        "Costituisce una riserva d'aria che permette all'uovo di respirare sott'acqua."
+      ],
+      "explanation": "In alcune specie come Extatosoma tiaratum, un'appendice nutriente dell'uovo attira le formiche, che possono spostare l'uovo nel loro nido.",
+      "didYouKnow": "Alcune specie di insetti stecco possono riprodursi per partenogenesi.",
+      "imageCaption": "Uovo gigante di insetto stecco"
+    },
+    {
+      "id": "insects-193",
+      "animal": "Mantide",
+      "prompt": "Perché a volte le mantidi oscillano il corpo da un lato all'altro?",
+      "options": [
+        "Il movimento può migliorare la loro mimetizzazione tra le foglie",
+        "Il movimento permette di calcolare la distanza esatta di una preda",
+        "L'oscillazione riscalda i muscoli prima del volo",
+        "Il dondolio serve a produrre un segnale sonoro per i partner"
+      ],
+      "explanation": "L'oscillazione può imitare la vegetazione mossa dal vento e contribuire al mimetismo.",
+      "didYouKnow": "La mantide valuta anche le distanze utilizzando la visione stereoscopica.",
+      "imageCaption": "Mantide religiosa"
+    },
+    {
+      "id": "insects-194",
+      "animal": "Scarafaggi",
+      "prompt": "Come fanno gli scarafaggi a rilevare la presenza di un conspecifico?",
+      "options": [
+        "Con segnali chimici e recettori sensoriali",
+        "Solo con segnali visivi",
+        "Con canti nuziali",
+        "Solo con vibrazioni delle ali"
+      ],
+      "explanation": "I feromoni e altre sostanze chimiche influenzano il raggruppamento e il riconoscimento.",
+      "didYouKnow": "Alcuni scarafaggi possono sopravvivere a lungo con poco cibo, ma hanno bisogno dell'accesso all'acqua.",
+      "imageCaption": "Scarafaggio americano"
+    },
+    {
+      "id": "insects-195",
+      "animal": "Api mellifere",
+      "prompt": "Dove producono le operaie dell’ape mellifera le scaglie di cera?",
+      "options": [
+        "Nelle ghiandole situate sotto l'addome",
+        "Nelle ghiandole salivari situate vicino alla bocca",
+        "Nelle ghiandole odorose alla base delle antenne",
+        "Nelle ghiandole situate sotto le ali anteriori"
+      ],
+      "explanation": "Le giovani operaie secernono cera tramite ghiandole addominali; piccole scaglie compaiono sul lato ventrale.",
+      "didYouKnow": "I droni hanno occhi più grandi dei lavoratori.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-196",
+      "animal": "Ecologia",
+      "prompt": "Perché gli insetti sono utili come cibo per i pipistrelli?",
+      "options": [
+        "Costituiscono una risorsa abbondante per molte specie insettivore",
+        "Producono l'ecolocalizzazione",
+        "Fanno le logge",
+        "Sostituiscono l'acqua"
+      ],
+      "explanation": "Molti pipistrelli cacciano insetti volanti, comprese falene e ditteri.",
+      "didYouKnow": "Alcuni insetti, compresi i monarchi, effettuano migrazioni stagionali.",
+      "imageCaption": "La fidanzata di Noctuelle"
+    },
+    {
+      "id": "insects-197",
+      "animal": "Ecologia",
+      "prompt": "In che modo gli insetti a volte aiutano a controllare le erbacce?",
+      "options": [
+        "Alcuni consumano piante invasive in modo mirato",
+        "Concimano le erbe con il miele",
+        "Impediscono la germinazione di qualsiasi seme",
+        "Trasformano le erbe in funghi"
+      ],
+      "explanation": "Gli insetti erbivori sono stati utilizzati come agenti di controllo biologico dopo aver studiato la loro specificità.",
+      "didYouKnow": "La coccinella asiatica, Harmonia axyridis, è originaria dell'Asia orientale.",
+      "imageCaption": "Cattoblasto"
+    },
+    {
+      "id": "insects-198",
+      "animal": "Conservazione",
+      "prompt": "Che effetto può avere la scomparsa delle siepi sugli insetti agricoli?",
+      "options": [
+        "Riduce i rifugi e i corridoi tra gli habitat",
+        "Aumenta i movimenti tra le parcelle",
+        "Fornisce più siti di nidificazione",
+        "Aumenta i rifugi disponibili"
+      ],
+      "explanation": "Le siepi forniscono cibo, riparo e continuità paesaggistica a molti insetti.",
+      "didYouKnow": "Gli insetti svernano a seconda della specie: uova, larve, ninfe o adulti.",
+      "imageCaption": "Il miele delle api"
+    },
+    {
+      "id": "insects-199",
+      "animal": "Conservazione",
+      "prompt": "Perché le zone umide sono importanti per molti insetti?",
+      "options": [
+        "Forniscono habitat per la riproduzione e l'alimentazione, in particolare per le larve acquatiche.",
+        "Lì vivono solo gli scarafaggi",
+        "Gli insetti acquatici non trovano risorse lì",
+        "Questi ambienti non consentono la riproduzione degli insetti"
+      ],
+      "explanation": "Stagni, paludi e ruscelli ospitano gli stadi larvali e adulti di molti insetti.",
+      "didYouKnow": "Le effimere adulte spesso vivono poco e non si nutrono.",
+      "imageCaption": "libellula depressa"
+    },
+    {
+      "id": "insects-200",
+      "animal": "Ecologia",
+      "prompt": "Che ruolo svolgono le termiti negli ecosistemi tropicali?",
+      "options": [
+        "Frammentano la materia vegetale e rielaborano il terreno",
+        "Impollinano principalmente piante da fiore",
+        "Consumano principalmente insetti erbivori",
+        "Si nutrono principalmente di nettare piuttosto che di cellulosa"
+      ],
+      "explanation": "Le termiti partecipano al riciclaggio della cellulosa e alla strutturazione dei suoli.",
+      "didYouKnow": "Le termiti vivono in colonie strutturate in cui gli individui hanno ruoli diversi.",
+      "imageCaption": "Termite della savana"
+    }
+  ]
+}

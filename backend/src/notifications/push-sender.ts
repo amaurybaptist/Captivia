@@ -1,3 +1,5 @@
+import { Optional } from '@nestjs/common';
+import { NotificationDeliveryService } from './notification-delivery.service';
 import { Injectable, Logger } from '@nestjs/common';
 import * as webPush from 'web-push';
 import { PrismaService } from '../prisma/prisma.service';
@@ -7,6 +9,7 @@ import { isAllowedPushEndpoint } from './push-endpoint';
 export type PushUrgency = 'very-low' | 'low' | 'normal' | 'high';
 
 export interface PushReminderPayload {
+  delivery?: { eventId: string; version: number; now: Date };
   title: string;
   body: string;
   icon?: string;
@@ -43,6 +46,7 @@ export interface LocalReminderRef {
 /** Envoi de notifications push pour un utilisateur. Renvoie true si au moins un envoi a abouti. */
 export interface PushSender {
   sendToUser(userId: string, payload: PushReminderPayload): Promise<boolean>;
+  deliver?(userId: string, payload: PushReminderPayload): Promise<PushDeliveryResult>;
 }
 
 export const PUSH_SENDER = Symbol('PUSH_SENDER');
@@ -107,7 +111,10 @@ export class WebPushSender implements PushSender {
   private readonly logger = new Logger(WebPushSender.name);
   private readonly vapid: VapidConfig | null;
 
-  constructor(private readonly prisma: PrismaService) {
+  constructor(
+    private readonly prisma: PrismaService,
+    @Optional() private readonly deliveries?: NotificationDeliveryService,
+  ) {
     this.vapid = this.initVapid();
   }
 
@@ -190,7 +197,7 @@ export class WebPushSender implements PushSender {
           return;
         }
         try {
-          await withDeadline(
+          const send = () => withDeadline(
             webPush.sendNotification(
               {
                 endpoint: sub.endpoint,
@@ -201,7 +208,12 @@ export class WebPushSender implements PushSender {
             ),
             PUSH_REQUEST_TIMEOUT_MS,
           );
-          result.sent++;
+          const context = payload.delivery;
+          const sent = context && this.deliveries
+            ? await this.deliveries.send(context.eventId, context.version, `push:${sub.id}`, send, context.now)
+            : (await send(), true);
+          if (sent) result.sent++;
+          else result.failed++;
         } catch (error) {
           const status = (error as { statusCode?: number })?.statusCode;
           if (status !== undefined && GONE_STATUS_CODES.has(status)) {

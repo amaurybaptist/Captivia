@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "unusual-001",
+    "animal": "pieuvre",
+    "prompt": "Combien de cœurs une pieuvre possède-t-elle ?",
+    "options": [
+      "Un seul",
+      "Quatre",
+      "Deux",
+      "Trois"
+    ],
+    "answer": 3,
+    "explanation": "Deux pompent le sang vers les branchies et le troisième vers le reste du corps.",
+    "didYouKnow": "Son sang bleu contient de l’hémocyanine, une molécule à cuivre qui transporte l’oxygène.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-002",
+    "animal": "pieuvre",
+    "prompt": "Quel pigment respiratoire donne au sang de la pieuvre sa couleur bleue ?",
+    "options": [
+      "L’hémoglobine",
+      "La myoglobine",
+      "L’hémocyanine",
+      "La chlorocruorine"
+    ],
+    "answer": 2,
+    "explanation": "Cette protéine à cuivre transporte l’oxygène dans le sang des pieuvres.",
+    "didYouKnow": "Chez de nombreuses pieuvres, la femelle garde et ventile les œufs jusqu’à leur éclosion.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-003",
+    "animal": "pieuvre",
+    "prompt": "Quelle partie du système nerveux d’une pieuvre se trouve dans chacun de ses bras ?",
+    "options": [
+      "Des tendons reliés au cerveau",
+      "Des ganglions sans neurones",
+      "Des amas de neurones",
+      "Des osselets articulés"
+    ],
+    "answer": 2,
+    "explanation": "Ses bras peuvent traiter localement des informations sensorielles et coordonner des mouvements.",
+    "didYouKnow": "Pendant la nage, le cœur qui envoie le sang vers le corps cesse brièvement de battre; la pieuvre se déplace donc souvent en rampant.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-004",
+    "animal": "pieuvre",
+    "prompt": "Comment une pieuvre peut-elle se faufiler dans une ouverture très étroite ?",
+    "options": [
+      "Elle rétracte ses huit bras dans un sac",
+      "Elle détache ses bras avant de passer",
+      "Son corps est dépourvu de squelette rigide",
+      "Elle dégonfle ses branchies pour s’aplatir"
+    ],
+    "answer": 2,
+    "explanation": "Son bec est la partie dure qui limite le plus souvent le passage.",
+    "didYouKnow": "Certaines pieuvres peuvent régénérer un bras perdu, même si la repousse prend du temps.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-005",
+    "animal": "pieuvre",
+    "prompt": "Quel organe dur constitue souvent la limite au passage d’une pieuvre dans une fissure ?",
+    "options": [
+      "Son manteau",
+      "Son bec",
+      "Sa radula",
+      "Ses yeux"
+    ],
+    "answer": 1,
+    "explanation": "Le reste de son corps est souple et peut se comprimer dans des espaces étroits.",
+    "didYouKnow": "Le poulpe à noix de coco transporte parfois des coquilles pour s’en faire un abri mobile.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-006",
+    "animal": "pieuvre",
+    "prompt": "Quel changement de peau aide certaines pieuvres à se camoufler ?",
+    "options": [
+      "Elles modifient couleur et texture",
+      "Elle modifie uniquement la forme de ses pupilles",
+      "Elle change seulement de luminosité",
+      "Elle sécrète une coquille transparente"
+    ],
+    "answer": 0,
+    "explanation": "Des cellules pigmentaires et des muscles cutanés permettent des changements rapides.",
+    "didYouKnow": "Des expériences montrent que certaines pieuvres perçoivent la lumière polarisée.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-007",
+    "animal": "onychophore",
+    "prompt": "Comment un onychophore capture-t-il souvent un petit arthropode ?",
+    "options": [
+      "Il l’attrape avec une toile de soie",
+      "Il l’enserre dans une coquille calcaire",
+      "Il la pique avec un dard caudal",
+      "Il projette une sécrétion collante depuis des papilles près de la bouche."
+    ],
+    "answer": 3,
+    "explanation": "Les fils de mucus collant enchevêtrent la proie et l’immobilisent.",
+    "didYouKnow": "La tête de l’onychophore porte une paire d’antennes sensorielles et de petites mâchoires chitineuses.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-008",
+    "animal": "pieuvre",
+    "prompt": "À quoi servent les ventouses d’une pieuvre lorsqu’elle explore un objet ?",
+    "options": [
+      "À détecter des signaux chimiques et le toucher",
+      "À mâcher les proies",
+      "À filtrer le plancton",
+      "À propulser l’animal"
+    ],
+    "answer": 0,
+    "explanation": "Les ventouses sont à la fois des outils d’adhérence et des organes sensoriels.",
+    "didYouKnow": "La pieuvre possède trois cœurs, dont deux envoient le sang vers les branchies.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-009",
+    "animal": "pieuvre",
+    "prompt": "Comment une pieuvre expulse-t-elle rapidement de l’eau pour se déplacer ?",
+    "options": [
+      "Par les bras",
+      "Par un siphon",
+      "Par la bouche",
+      "Par les branchies"
+    ],
+    "answer": 1,
+    "explanation": "Elle oriente ce jet d’eau pour avancer ou changer de direction.",
+    "didYouKnow": "Chez de nombreuses pieuvres, la pupille est allongée horizontalement.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-010",
+    "animal": "nautile",
+    "prompt": "Quel avantage procure au nautile sa coquille externe compartimentée ?",
+    "options": [
+      "Une poche qui stocke de l’encre",
+      "Un réservoir de venin",
+      "Elle offre des chambres qui permettent d’ajuster sa flottabilité",
+      "Un organe de nage"
+    ],
+    "answer": 2,
+    "explanation": "Le nautile règle sa flottabilité en modifiant la quantité de liquide et de gaz dans les chambres inoccupées de sa coquille.",
+    "didYouKnow": "Contrairement à la plupart des autres céphalopodes, le nautile n’a pas de poche à encre.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-011",
+    "animal": "nautile",
+    "prompt": "Quelle structure aide le nautile à ajuster sa flottabilité dans sa coquille ?",
+    "options": [
+      "Les tentacules",
+      "Un siphuncle",
+      "Les chromatophores",
+      "Les statocystes"
+    ],
+    "answer": 1,
+    "explanation": "Ce tissu traverse les cloisons et participe aux échanges de liquide et de gaz.",
+    "didYouKnow": "Le nautile est charognard et repère souvent sa nourriture grâce aux molécules odorantes dans l’eau.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-012",
+    "animal": "seiche",
+    "prompt": "Quelle structure rigide interne aide une seiche à contrôler sa flottabilité ?",
+    "options": [
+      "L’os de seiche",
+      "La gladius",
+      "Le siphon",
+      "La radula"
+    ],
+    "answer": 0,
+    "explanation": "Cette coquille interne poreuse permet des ajustements de flottabilité.",
+    "didYouKnow": "La seiche peut modifier rapidement les motifs et les couleurs de sa peau grâce à des cellules pigmentaires.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-013",
+    "animal": "céphalopode",
+    "prompt": "Quel est le nom de l’organe que les céphalopodes utilisent pour produire de l’encre ?",
+    "options": [
+      "Les branchies",
+      "Le manteau",
+      "La poche d’encre",
+      "Les chromatophores"
+    ],
+    "answer": 2,
+    "explanation": "L’encre peut brouiller la vue ou détourner un prédateur pendant la fuite.",
+    "didYouKnow": "Le bec dur des céphalopodes se trouve au centre du cercle formé par leurs bras.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-014",
+    "animal": "seiche",
+    "prompt": "Quelle forme caractéristique prend souvent la pupille d’une seiche ?",
+    "options": [
+      "Un cercle toujours parfaitement rond",
+      "Une croix à quatre branches",
+      "Une forme de W.",
+      "Une fente verticale rectiligne"
+    ],
+    "answer": 2,
+    "explanation": "La pupille en W est une caractéristique visuelle fréquente chez les seiches.",
+    "didYouKnow": "Les seiches peuvent aussi modifier leur apparence pour communiquer ou se fondre dans le décor.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-015",
+    "animal": "seiche",
+    "prompt": "Dans quelle direction une seiche peut-elle orienter son jet d’eau ?",
+    "options": [
+      "Dans plusieurs directions grâce à son siphon",
+      "Sans modifier sa direction",
+      "Uniquement vers l’arrière",
+      "Uniquement vers l’avant"
+    ],
+    "answer": 0,
+    "explanation": "L’orientation du siphon lui permet de manœuvrer avec précision.",
+    "didYouKnow": "De nombreuses seiches s’enfouissent dans le sable pour se dissimuler aux prédateurs.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-016",
+    "animal": "amphibien",
+    "prompt": "Chez des grenouilles du genre Oophaga, comment les têtards reçoivent-ils parfois une nourriture produite par leur mère ?",
+    "options": [
+      "Ils mangent des œufs nutritifs pondus par la femelle",
+      "Ils mangent des algues que la femelle cultive sur les feuilles",
+      "La mère leur apporte des proies dans un terrier",
+      "Ils absorbent une sécrétion nutritive par leurs branchies"
+    ],
+    "answer": 0,
+    "explanation": "La femelle dépose des œufs trophiques non fécondés que les têtards consomment.",
+    "didYouKnow": "Certaines Oophaga accumulent dans leur peau des alcaloïdes provenant de leur alimentation.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-017",
+    "animal": "calmar",
+    "prompt": "En quoi les deux tentacules de capture du calmar se distinguent-ils de ses huit bras ?",
+    "options": [
+      "Elles sont identiques aux bras et portent des branchies",
+      "Ils sont plus longs et portent des massues terminales",
+      "Elles sont plus courtes que les bras et portent des branchies",
+      "Elles sont fusionnées au manteau"
+    ],
+    "answer": 1,
+    "explanation": "Les tentacules jaillissent pour saisir la proie, tandis que les bras la retiennent.",
+    "didYouKnow": "Le calmar possède un bec robuste au centre de ses bras, qu’il utilise pour déchiqueter ses proies.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-018",
+    "animal": "calmar",
+    "prompt": "Comment appelle-t-on la lumière produite par les organes lumineux de certains calmars ?",
+    "options": [
+      "La bioluminescence",
+      "La fluorescence",
+      "La phosphorescence",
+      "La réflexion de la lumière solaire"
+    ],
+    "answer": 0,
+    "explanation": "La lumière peut aider au camouflage, à la communication ou à attirer des proies.",
+    "didYouKnow": "Le manteau du calmar protège la plupart de ses organes internes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-019",
+    "animal": "calmar",
+    "prompt": "Comment le calmar peut-il éviter d’être repéré par dessous dans l’eau éclairée ?",
+    "options": [
+      "En produisant une lumière dorsale dirigée vers le ciel",
+      "En expulsant un nuage d’encre",
+      "En produisant une lumière ventrale qui correspond au fond lumineux",
+      "En s’enfouissant dans le sable"
+    ],
+    "answer": 2,
+    "explanation": "Ce camouflage lumineux est appelé contre-illumination.",
+    "didYouKnow": "Les calmars sont des mollusques céphalopodes, comme les pieuvres et les seiches.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-020",
+    "animal": "calmar",
+    "prompt": "Quel organe extrait l’oxygène dissous de l’eau chez de nombreux calmars ?",
+    "options": [
+      "Les chromatophores",
+      "Le siphon",
+      "La radula",
+      "Les branchies"
+    ],
+    "answer": 3,
+    "explanation": "L’eau circule dans la cavité du manteau et passe sur les branchies.",
+    "didYouKnow": "Le calmar possède un gladius interne qui soutient son manteau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-021",
+    "animal": "méduse",
+    "prompt": "Quelles cellules des méduses déclenchent la capture de proies par un harpon microscopique ?",
+    "options": [
+      "Les colloblastes",
+      "Les choanocytes",
+      "Les cnidocytes",
+      "Les pédicellaires"
+    ],
+    "answer": 2,
+    "explanation": "Les cnidocytes sont les cellules spécialisées; chacun peut contenir un nématocyste, une capsule qui éjecte un filament urticant.",
+    "didYouKnow": "Les méduses n’ont pas de cerveau central; un réseau de cellules nerveuses coordonne leurs réactions.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-022",
+    "animal": "méduse Cassiopea",
+    "prompt": "Pourquoi la méduse Cassiopea se tient-elle souvent à l’envers sur le fond ?",
+    "options": [
+      "Pour faire circuler l’eau dans des branchies",
+      "Pour protéger une coquille fixée à son ombrelle",
+      "Pour exposer à la lumière ses algues symbiotiques.",
+      "Pour enfouir sa bouche dans le sédiment"
+    ],
+    "answer": 2,
+    "explanation": "Cette posture place les tissus qui hébergent les algues vers la lumière, dont les symbiotes ont besoin pour la photosynthèse.",
+    "didYouKnow": "Cassiopea peut aussi capturer de petites proies avec ses tentacules.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-023",
+    "animal": "méduse",
+    "prompt": "Quelle étape fixée au substrat précède souvent la forme méduse dans son cycle de vie ?",
+    "options": [
+      "La larve véligère",
+      "L’éphyrule",
+      "Le polype",
+      "La planula nageuse"
+    ],
+    "answer": 2,
+    "explanation": "Chez de nombreuses espèces, le polype produit ensuite de jeunes méduses.",
+    "didYouKnow": "Le corps des méduses est constitué en grande partie d’une substance gélatineuse riche en eau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-024",
+    "animal": "méduse",
+    "prompt": "Comment appelle-t-on la jeune méduse libérée par le polype chez beaucoup de méduses ?",
+    "options": [
+      "Une planula",
+      "Un polype",
+      "Un nématocyste",
+      "Une éphyrule"
+    ],
+    "answer": 3,
+    "explanation": "Cette petite forme nageuse grandit pour devenir une méduse adulte.",
+    "didYouKnow": "Les méduses n’ont ni os ni coquille rigide; leur corps est principalement gélatineux.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-025",
+    "animal": "méduse",
+    "prompt": "Comment le polype de certaines méduses produit-il plusieurs jeunes méduses ?",
+    "options": [
+      "Par strobilation",
+      "Par bourgeonnement de tentacules",
+      "Par division longitudinale de la méduse",
+      "Par fécondation interne des polypes"
+    ],
+    "answer": 0,
+    "explanation": "Le polype se segmente en disques qui se détachent sous forme d’éphyrules.",
+    "didYouKnow": "Le corps de nombreuses méduses est composé surtout d’eau et de tissus gélatineux.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-026",
+    "animal": "méduse",
+    "prompt": "Quel tissu gélatineux constitue l’essentiel de la cloche d’une méduse ?",
+    "options": [
+      "Le coenosarc",
+      "La cuticule",
+      "L’endoderme",
+      "La mésoglée"
+    ],
+    "answer": 3,
+    "explanation": "Cette matière contient beaucoup d’eau et se situe entre les couches cellulaires.",
+    "didYouKnow": "La cloche se contracte pour contribuer à la nage.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-027",
+    "animal": "méduse",
+    "prompt": "Quel organe sensoriel aide certaines méduses à percevoir l’équilibre ?",
+    "options": [
+      "Les statocystes",
+      "Les cnidocytes",
+      "Les rhopalies dépourvues de statocystes",
+      "Les ocelles"
+    ],
+    "answer": 0,
+    "explanation": "Ces organes sensibles à la gravité aident à orienter le corps.",
+    "didYouKnow": "La cloche de nombreuses méduses se contracte pour contribuer à la nage.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-028",
+    "animal": "méduse",
+    "prompt": "Quelle structure permet aux méduses-boîtes d’avoir une vision particulièrement élaborée ?",
+    "options": [
+      "Un cerveau central complexe",
+      "Des yeux composés sur chaque tentacule",
+      "Des rhopalies portant plusieurs types d’yeux",
+      "Une lentille unique par tentacule"
+    ],
+    "answer": 2,
+    "explanation": "Les rhopalies regroupent des organes sensoriels répartis autour de la cloche.",
+    "didYouKnow": "Le corps des méduses est principalement gélatineux et contient beaucoup d’eau.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-029",
+    "animal": "tardigrade",
+    "prompt": "Pourquoi les tardigrades restent-ils vulnérables malgré leur capacité à entrer en cryptobiose ?",
+    "options": [
+      "Ils restent sensibles aux conditions et aux dommages lorsqu’ils sont actifs",
+      "Ils tolèrent toutes les températures une fois secs",
+      "Ils continuent à se nourrir pendant la cryptobiose",
+      "Ils résistent à toutes les formes de rayonnement"
+    ],
+    "answer": 0,
+    "explanation": "La résistance dépend de l’espèce, du stade et de la durée du stress.",
+    "didYouKnow": "Les œufs de certaines espèces de tardigrades portent des motifs caractéristiques utiles à leur identification.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-030",
+    "animal": "méduse",
+    "prompt": "Pourquoi une méduse n’a-t-elle pas besoin d’un cœur comme un poisson ?",
+    "options": [
+      "Les échanges se font par diffusion dans son corps mince",
+      "Des branchies qui irriguent tout le corps",
+      "Un réseau de vaisseaux clos",
+      "Un cœur dorsal qui distribue le sang"
+    ],
+    "answer": 0,
+    "explanation": "L’oxygène et les nutriments diffusent dans les tissus, sans système circulatoire complexe.",
+    "didYouKnow": "Beaucoup de méduses possèdent un réseau nerveux diffus plutôt qu’un cerveau centralisé.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-031",
+    "animal": "corail",
+    "prompt": "Quels partenaires microscopiques vivent souvent dans les tissus des coraux constructeurs de récifs ?",
+    "options": [
+      "Des algues dinoflagellées symbiotiques",
+      "Des bactéries sulfureuses",
+      "Des diatomées libres dans l’eau",
+      "Des champignons filamenteux"
+    ],
+    "answer": 0,
+    "explanation": "Elles fournissent des composés issus de la photosynthèse au corail.",
+    "didYouKnow": "Après l’éclosion, les larves de nombreux coraux dérivent dans l’eau avant de se fixer sur un support.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-032",
+    "animal": "corail",
+    "prompt": "Quel processus peut provoquer le blanchissement d’un corail stressé par la chaleur ?",
+    "options": [
+      "La croissance rapide du squelette",
+      "L’expulsion ou la perte de ses algues symbiotiques",
+      "La production excessive de mucus",
+      "La multiplication des polypes"
+    ],
+    "answer": 1,
+    "explanation": "Le corail perd alors une partie de ses pigments et de son apport énergétique.",
+    "didYouKnow": "Les récifs coralliens offrent des abris et des sites de nourrissage à de nombreuses espèces marines.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-033",
+    "animal": "corail",
+    "prompt": "De quoi est principalement constitué le squelette des coraux durs ?",
+    "options": [
+      "De phosphate de calcium",
+      "De carbonate de calcium",
+      "De chitine",
+      "De silice"
+    ],
+    "answer": 1,
+    "explanation": "Les polypes déposent ce matériau, qui peut former une structure récifale.",
+    "didYouKnow": "Les récifs croissent lentement et abritent une grande diversité d’espèces.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-034",
+    "animal": "corail",
+    "prompt": "Quelles petites unités animales déposent le squelette des coraux constructeurs de récifs ?",
+    "options": [
+      "Les méduses adultes",
+      "Les polypes",
+      "Les poissons-clowns",
+      "Les larves planula"
+    ],
+    "answer": 1,
+    "explanation": "Chaque polype sécrète une coupe calcaire autour de sa base.",
+    "didYouKnow": "Les coraux constructeurs de récifs vivent souvent en association avec des algues microscopiques dans leurs tissus.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-035",
+    "animal": "corail",
+    "prompt": "Comment les coraux peuvent-ils se reproduire sans fécondation ?",
+    "options": [
+      "Par fragmentation de la coquille",
+      "Par division des gamètes",
+      "Par transformation d’un polype en larve",
+      "Par bourgeonnement de nouveaux polypes"
+    ],
+    "answer": 3,
+    "explanation": "Les polypes issus du bourgeonnement restent souvent reliés à la colonie.",
+    "didYouKnow": "Les polypes coralliens peuvent se rétracter dans leur squelette lorsqu’ils sont dérangés.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-036",
+    "animal": "corail",
+    "prompt": "Que signifie le frai synchronisé observé chez certaines espèces de coraux ?",
+    "options": [
+      "La ponte d’un œuf unique par colonie",
+      "La libération simultanée de larves planula seulement",
+      "La libération coordonnée de gamètes dans l’eau",
+      "La construction collective d’un squelette neuf"
+    ],
+    "answer": 2,
+    "explanation": "Cela augmente les chances de rencontre entre ovules et spermatozoïdes.",
+    "didYouKnow": "Les récifs coralliens offrent nourriture et abri à de nombreuses espèces marines.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-037",
+    "animal": "corail",
+    "prompt": "Quel type de corail forme des structures profondes sans dépendre de la lumière solaire ?",
+    "options": [
+      "Les coraux d’eau froide",
+      "Les coraux constructeurs tropicaux",
+      "Les coraux de surface associés aux algues",
+      "Les coraux mous de lagon"
+    ],
+    "answer": 0,
+    "explanation": "Ils se nourrissent de particules et de plancton capturés dans l’eau.",
+    "didYouKnow": "Les coraux d’eau froide ne dépendent pas d’algues symbiotiques photosynthétiques pour se nourrir.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-038",
+    "animal": "corail",
+    "prompt": "Quel est le rôle des tentacules d’un polype corallien ?",
+    "options": [
+      "Capturer de petites particules et proies",
+      "Se déplacer sur le récif",
+      "Pomper l’eau dans la colonie",
+      "Produire le squelette calcaire"
+    ],
+    "answer": 0,
+    "explanation": "Les tentacules portent des cellules urticantes qui aident à saisir la nourriture.",
+    "didYouKnow": "Les polypes coralliens peuvent se rétracter dans leur squelette lorsqu’ils sont dérangés.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-039",
+    "animal": "corail",
+    "prompt": "Quelle structure interne relie les polypes dans certaines colonies coralliennes ?",
+    "options": [
+      "La madréporite",
+      "Le coenosarc",
+      "Le coelome",
+      "Le siphuncle"
+    ],
+    "answer": 1,
+    "explanation": "Cette couche de tissu permet aux polypes d’une colonie de rester connectés.",
+    "didYouKnow": "De nombreux coraux ont une seule ouverture qui sert à la fois de bouche et à évacuer les déchets.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-040",
+    "animal": "corail",
+    "prompt": "De quelle manière les coraux mous se distinguent-ils souvent des coraux durs ?",
+    "options": [
+      "Ils vivent uniquement en eau douce",
+      "Ils ont une coquille externe articulée",
+      "Ils n’édifient pas un grand squelette externe continu",
+      "Ils n’ont aucune structure calcaire"
+    ],
+    "answer": 2,
+    "explanation": "Ils possèdent plutôt de petits éléments calcaires appelés sclérites dans leurs tissus.",
+    "didYouKnow": "Les récifs coralliens abritent de nombreuses espèces de poissons et d’invertébrés.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-041",
+    "animal": "éponge",
+    "prompt": "Quel type de cellule crée le courant d’eau qui traverse une éponge ?",
+    "options": [
+      "Le colloblaste",
+      "L’amœbocyte",
+      "Le pinacocyte",
+      "Le choanocyte"
+    ],
+    "answer": 3,
+    "explanation": "Son flagelle met l’eau en mouvement et son collerette capture des particules alimentaires.",
+    "didYouKnow": "Les éponges n’ont pas de système nerveux central ni d’organes comparables à ceux des vertébrés.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-042",
+    "animal": "éponge",
+    "prompt": "Par où l’eau sort-elle généralement d’une éponge après sa filtration ?",
+    "options": [
+      "Par les pores inhalants",
+      "Par la bouche",
+      "Par les choanocytes eux-mêmes",
+      "Par un ou plusieurs oscules"
+    ],
+    "answer": 3,
+    "explanation": "L’eau entre par de nombreux petits pores puis ressort par ces ouvertures plus larges.",
+    "didYouKnow": "Les éponges n’ont pas de système nerveux central ni d’organes comparables à ceux des vertébrés.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-043",
+    "animal": "éponge",
+    "prompt": "Quel matériau constitue le squelette de nombreuses éponges ?",
+    "options": [
+      "De carbonate de magnésium uniquement",
+      "De phosphate de calcium",
+      "De chitine seule",
+      "Des spicules ou des fibres de spongine"
+    ],
+    "answer": 3,
+    "explanation": "Les spicules peuvent être calcaires ou siliceux, selon le groupe.",
+    "didYouKnow": "Les éponges font circuler l’eau à travers de nombreux petits pores de leur corps.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-044",
+    "animal": "éponge",
+    "prompt": "Quel est le rôle des amœbocytes dans une éponge ?",
+    "options": [
+      "Produire les courants d’eau",
+      "Digérer dans un estomac",
+      "Transporter des nutriments et participer à la formation du squelette",
+      "Ouvrir les oscules"
+    ],
+    "answer": 2,
+    "explanation": "Ces cellules mobiles se déplacent dans la matrice interne de l’animal.",
+    "didYouKnow": "Les éponges n’ont pas de vrais organes; leur corps est organisé autour de cellules aux rôles spécialisés.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-045",
+    "animal": "éponge",
+    "prompt": "Comment une éponge peut-elle récupérer après avoir été fragmentée ?",
+    "options": [
+      "Elle développe une bouche et un intestin",
+      "Elle forme une carapace externe",
+      "Des cellules peuvent se réorganiser et reformer des tissus",
+      "Elle se transforme en larve nageuse"
+    ],
+    "answer": 2,
+    "explanation": "La régénération dépend de l’espèce et des conditions.",
+    "didYouKnow": "Certaines éponges ajustent le débit d’eau de leurs canaux en réponse à des particules irritantes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-046",
+    "animal": "éponge",
+    "prompt": "Quel type de nourriture une éponge filtre-t-elle surtout ?",
+    "options": [
+      "De feuilles marines intactes",
+      "De gros poissons",
+      "Des bactéries et de très petites particules organiques",
+      "De grosses proies vivantes uniquement"
+    ],
+    "answer": 2,
+    "explanation": "Le courant d’eau transporte ces particules vers les cellules filtrantes.",
+    "didYouKnow": "Certaines éponges hébergent des communautés microbiennes très riches.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-047",
+    "animal": "éponge",
+    "prompt": "Quel élément du squelette distingue les éponges calcaires ?",
+    "options": [
+      "Des plaques de chitine",
+      "Des plaques de silice",
+      "Des fibres de spongine",
+      "Des spicules de carbonate de calcium"
+    ],
+    "answer": 3,
+    "explanation": "Leur squelette est composé de spicules calcaires plutôt que de silice.",
+    "didYouKnow": "Les éponges calcaires sont généralement de taille modeste.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-048",
+    "animal": "Nudibranches doridiens",
+    "prompt": "Quels mollusques comptent des espèces spécialisées dans la consommation d’éponges ?",
+    "options": [
+      "Un crabe violoniste",
+      "Une seiche",
+      "Un crinoïde",
+      "Les nudibranches doridiens"
+    ],
+    "answer": 3,
+    "explanation": "Plusieurs nudibranches consomment des éponges et peuvent détourner leurs toxines.",
+    "didYouKnow": "Les nudibranches sont des mollusques gastéropodes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-049",
+    "animal": "éponge",
+    "prompt": "Pourquoi certaines éponges abritent-elles des bactéries symbiotiques ?",
+    "options": [
+      "Elles leur fournissent de la lumière",
+      "Elles leur offrent un habitat et reçoivent parfois des composés utiles",
+      "Elles assurent leur locomotion",
+      "Elles remplacent leurs choanocytes"
+    ],
+    "answer": 1,
+    "explanation": "Les microbes peuvent contribuer à la défense chimique ou au métabolisme de l’éponge.",
+    "didYouKnow": "Les éponges n’ont pas de système nerveux central; leurs fonctions reposent sur des cellules spécialisées.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-050",
+    "animal": "éponge",
+    "prompt": "Quelle structure forme le squelette de certaines éponges de verre des grands fonds ?",
+    "options": [
+      "Un réseau de spicules de silice",
+      "Une coquille en carbonate de calcium",
+      "Un assemblage de plaques de chitine",
+      "Des fibres de cellulose"
+    ],
+    "answer": 0,
+    "explanation": "Leur squelette de spicules de silice peut rester après la mort de l’éponge.",
+    "didYouKnow": "Les éponges de verre vivent souvent dans des habitats profonds.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-051",
+    "animal": "étoile de mer",
+    "prompt": "Quel système hydraulique actionne les pieds ambulacraires d’une étoile de mer ?",
+    "options": [
+      "Le système digestif ramifié",
+      "Le système nerveux central",
+      "Le système aquifère",
+      "Le système circulatoire fermé"
+    ],
+    "answer": 2,
+    "explanation": "L’eau circule dans des canaux et met en mouvement les podia.",
+    "didYouKnow": "Certaines étoiles de mer détectent la lumière grâce à de petits ocelles situés à l’extrémité de leurs bras.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-052",
+    "animal": "étoile de mer",
+    "prompt": "Quelle plaque poreuse laisse entrer l’eau dans le système aquifère d’une étoile de mer ?",
+    "options": [
+      "Le siphon",
+      "L’oscule",
+      "Le tube digestif",
+      "La madréporite"
+    ],
+    "answer": 3,
+    "explanation": "Cette plaque filtre et régule l’entrée d’eau dans le système hydraulique.",
+    "didYouKnow": "Certaines étoiles de mer peuvent évaginer leur estomac pour digérer une proie à l’extérieur du corps.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-053",
+    "animal": "étoile de mer",
+    "prompt": "Comment une étoile de mer peut-elle ouvrir un coquillage bivalve ?",
+    "options": [
+      "En la broyant avec des dents calcaires",
+      "En tirant progressivement avec ses pieds ambulacraires",
+      "En injectant un acide dans la coquille",
+      "En la perçant avec ses piquants"
+    ],
+    "answer": 1,
+    "explanation": "Une petite ouverture suffit parfois pour évaginer son estomac dans la coquille.",
+    "didYouKnow": "Les extrémités de certains bras d’étoile de mer portent des taches sensibles à la lumière.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-054",
+    "animal": "étoile de mer",
+    "prompt": "Quel comportement alimentaire permet à certaines étoiles de mer de digérer une proie à l’extérieur ?",
+    "options": [
+      "Elles râpent la coquille avec des pédicellaires",
+      "Elles évaginent leur estomac",
+      "Elles injectent des enzymes depuis leurs pieds",
+      "Elles avalent la proie entière puis la digèrent dans l’intestin"
+    ],
+    "answer": 1,
+    "explanation": "L’estomac sort par la bouche et libère des enzymes digestives sur la proie.",
+    "didYouKnow": "Les pieds ambulacraires aident aussi l’étoile de mer à s’accrocher au substrat et à se déplacer.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-055",
+    "animal": "étoile de mer",
+    "prompt": "Où se trouve la bouche d’une étoile de mer ?",
+    "options": [
+      "À l’extrémité d’un bras",
+      "Au centre du disque dorsal",
+      "Sur la face supérieure",
+      "Sur sa face inférieure"
+    ],
+    "answer": 3,
+    "explanation": "La face orale est tournée vers le substrat lors de la marche.",
+    "didYouKnow": "Certaines étoiles de mer peuvent régénérer un bras perdu.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-056",
+    "animal": "étoile de mer",
+    "prompt": "Quelle capacité aide certaines étoiles de mer à refaire un bras perdu ?",
+    "options": [
+      "La mue",
+      "La fission en deux animaux égaux",
+      "La repousse d’une nouvelle coquille",
+      "La régénération"
+    ],
+    "answer": 3,
+    "explanation": "La vitesse et l’étendue de la régénération varient selon l’espèce.",
+    "didYouKnow": "Certaines étoiles de mer possèdent des milliers de pieds ambulacraires sous leurs bras.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-057",
+    "animal": "échinodermes",
+    "prompt": "Comment s’appellent les petites pinces mobiles présentes chez certaines étoiles de mer et certains oursins ?",
+    "options": [
+      "Les pédicellaires",
+      "Les podia",
+      "Les pinnules",
+      "Les pédicelles"
+    ],
+    "answer": 0,
+    "explanation": "Les pédicellaires sont de petites pinces dont le rôle dépend de l’espèce; elles peuvent contribuer à la défense ou au nettoyage de la surface du corps.",
+    "didYouKnow": "Chez les échinodermes adultes, le corps présente souvent une symétrie organisée autour de cinq axes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-058",
+    "animal": "oursin",
+    "prompt": "De quel minéral sont principalement constitués les piquants d’un oursin ?",
+    "options": [
+      "De carbonate de calcium",
+      "De chitine",
+      "De silice",
+      "De kératine"
+    ],
+    "answer": 0,
+    "explanation": "Ils sont articulés sur le test rigide et peuvent servir à la défense et au déplacement.",
+    "didYouKnow": "De nombreux oursins broutent des algues à l’aide de leur appareil masticateur.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-059",
+    "animal": "oursin",
+    "prompt": "Quel nom donne-t-on au squelette rigide qui porte les piquants de l’oursin ?",
+    "options": [
+      "La lanterne d’Aristote",
+      "Le test",
+      "La madréporite",
+      "Le coenosarc"
+    ],
+    "answer": 1,
+    "explanation": "Il est constitué de plaques calcaires assemblées.",
+    "didYouKnow": "De nombreux oursins broutent des algues fixées aux rochers à l’aide de leur appareil masticateur.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-060",
+    "animal": "oursin",
+    "prompt": "Quel appareil masticateur porte cinq dents chez de nombreux oursins ?",
+    "options": [
+      "Le siphon aquifère",
+      "Le moulin gastrique",
+      "La radula",
+      "La lanterne d’Aristote"
+    ],
+    "answer": 3,
+    "explanation": "Cet appareil complexe racle les algues et peut aussi creuser la roche.",
+    "didYouKnow": "Certaines espèces d’oursins creusent des cavités dans la roche, qui leur servent d’abri.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-061",
+    "animal": "oursin",
+    "prompt": "Comment un dollar des sables achemine-t-il de petites particules vers sa bouche ?",
+    "options": [
+      "Il les attrape avec des pinces au bout de ses piquants",
+      "Ses podia et ses cils transportent les particules sur la face inférieure.",
+      "Il les aspire avec un siphon au bord du test",
+      "Il les capture dans une toile de mucus projetée dans l’eau"
+    ],
+    "answer": 1,
+    "explanation": "Des podia et des cils déplacent les particules alimentaires vers la bouche située au centre de la face inférieure.",
+    "didYouKnow": "Les dollars des sables sont des oursins aplatis, adaptés à la vie enfouie dans le sable.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-062",
+    "animal": "oursin",
+    "prompt": "Comment un oursin peut-il s’accrocher à une surface lisse ?",
+    "options": [
+      "En cimentant son test au rocher",
+      "Avec ses pieds ambulacraires adhésifs",
+      "Avec le mucus de son test",
+      "Avec des ventouses musculaires sur les piquants"
+    ],
+    "answer": 1,
+    "explanation": "Les podia portent des extrémités qui sécrètent des substances adhésives.",
+    "didYouKnow": "De nombreux oursins broutent les algues fixées aux rochers à l’aide de leur appareil masticateur.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-063",
+    "animal": "holothurie",
+    "prompt": "Que peuvent faire certaines holothuries après avoir expulsé une partie de leurs viscères pour se défendre ?",
+    "options": [
+      "Régénérer les organes perdus",
+      "Former une coquille protectrice permanente",
+      "Transformer leurs bras en organes digestifs",
+      "Remplacer leur intestin par un filtre externe"
+    ],
+    "answer": 0,
+    "explanation": "Cette éviscération détourne ou encombre parfois un prédateur.",
+    "didYouKnow": "De nombreuses holothuries se déplacent lentement grâce à leurs pieds ambulacraires et aux contractions du corps.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-064",
+    "animal": "holothurie",
+    "prompt": "Comment les holothuries contribuent-elles au recyclage des sédiments marins ?",
+    "options": [
+      "Elles filtrent les algues du plancton",
+      "Elles creusent des coquilles calcaires",
+      "Elles avalent le sédiment et en digèrent la matière organique",
+      "Elles construisent les récifs"
+    ],
+    "answer": 2,
+    "explanation": "Le sédiment rejeté est souvent remanié et enrichi en nutriments.",
+    "didYouKnow": "On les appelle parfois les « vers de mer », bien qu’elles soient des échinodermes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-065",
+    "animal": "holothurie",
+    "prompt": "Qu’est-ce que l’arbre respiratoire des holothuries ?",
+    "options": [
+      "Un poumon relié à la bouche",
+      "Une branchie externe en forme de peigne",
+      "Un tube de filtration sous les bras",
+      "Un organe interne relié au cloaque pour les échanges gazeux"
+    ],
+    "answer": 3,
+    "explanation": "L’eau entre et sort par le cloaque et circule dans cet organe ramifié.",
+    "didYouKnow": "Les holothuries sont des échinodermes, proches des étoiles de mer et des oursins.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-066",
+    "animal": "crinoïde",
+    "prompt": "Comment un crinoïde capture-t-il des particules alimentaires ?",
+    "options": [
+      "Avec des dents au bout des bras",
+      "En poursuivant leurs proies avec un siphon",
+      "Avec ses bras plumeux couverts de petits pieds",
+      "En projetant des filaments adhésifs"
+    ],
+    "answer": 2,
+    "explanation": "Les pieds collants dirigent les particules vers la bouche.",
+    "didYouKnow": "Les crinoïdes comprennent les lis de mer fixés et les comatules mobiles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-067",
+    "animal": "crinoïde",
+    "prompt": "Quel groupe d’échinodermes comprend les lis de mer ?",
+    "options": [
+      "Les ophiures",
+      "Les astéries",
+      "Les holothuries",
+      "Les crinoïdes"
+    ],
+    "answer": 3,
+    "explanation": "Les lis de mer sont fixés par une tige, tandis que beaucoup de comatules peuvent se déplacer.",
+    "didYouKnow": "Les crinoïdes se nourrissent en filtrant les particules en suspension.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-068",
+    "animal": "ophiure",
+    "prompt": "Comment une ophiure se déplace-t-elle principalement ?",
+    "options": [
+      "En nageant avec une nageoire caudale",
+      "En ondulant ses bras souples",
+      "En creusant avec leur disque central",
+      "En rampant avec leurs podia"
+    ],
+    "answer": 1,
+    "explanation": "Contrairement à une étoile de mer, elle utilise surtout les bras pour avancer.",
+    "didYouKnow": "Les ophiures ont un disque central nettement séparé de leurs bras.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-069",
+    "animal": "ophiure",
+    "prompt": "Quel caractère aide à distinguer une ophiure d’une étoile de mer ?",
+    "options": [
+      "Ses bras fins et articulés se détachent nettement du disque central",
+      "Un disque central sans bras",
+      "Des podia ventouses très visibles sur chaque bras",
+      "Une coquille externe autour du disque"
+    ],
+    "answer": 0,
+    "explanation": "Les ophiures se déplacent souvent en ramant avec ces bras.",
+    "didYouKnow": "Chez les ophiures, le tube digestif ne possède généralement pas d’anus.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-070",
+    "animal": "crabe",
+    "prompt": "Quel phénomène permet à un crabe de grandir au-delà de la taille de sa carapace ?",
+    "options": [
+      "Le remplacement régulier de son exosquelette",
+      "La mue",
+      "La fusion de nouvelles plaques calcaires",
+      "La croissance continue de sa carapace"
+    ],
+    "answer": 1,
+    "explanation": "Il se débarrasse de son exosquelette devenu trop étroit et en forme un nouveau.",
+    "didYouKnow": "Sous sa carapace, le crabe possède des branchies qui prélèvent l’oxygène dissous dans l’eau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-071",
+    "animal": "crabe",
+    "prompt": "Pourquoi un crabe est-il particulièrement vulnérable après sa mue ?",
+    "options": [
+      "Ses yeux sont aveugles",
+      "Il ne peut plus manger pendant toute sa vie",
+      "Ses branchies se détachent",
+      "Sa nouvelle carapace est encore molle"
+    ],
+    "answer": 3,
+    "explanation": "Elle durcit ensuite par dépôt de minéraux et autres substances.",
+    "didYouKnow": "Comme les autres décapodes, le crabe possède cinq paires de pattes, dont la première porte souvent des pinces.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-072",
+    "animal": "crabe",
+    "prompt": "Quel est le nom de la carapace vide abandonnée par un crustacé lors de la mue ?",
+    "options": [
+      "L’exuvie",
+      "Le telson",
+      "Le byssus",
+      "La madréporite"
+    ],
+    "answer": 0,
+    "explanation": "Elle conserve la forme de l’animal mais ne contient plus son corps.",
+    "didYouKnow": "Les yeux du crabe sont souvent portés par des pédoncules mobiles.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-073",
+    "animal": "crabe",
+    "prompt": "Quel organe permet à certains crabes de broyer leur nourriture dans l’estomac ?",
+    "options": [
+      "Les pectines",
+      "Le moulin gastrique",
+      "La lanterne d’Aristote",
+      "Le siphon"
+    ],
+    "answer": 1,
+    "explanation": "Des éléments calcifiés de l’estomac contribuent à broyer les aliments.",
+    "didYouKnow": "Le crabe respire grâce à des branchies protégées sous sa carapace.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-074",
+    "animal": "crabe",
+    "prompt": "Comment le crabe violoniste utilise-t-il sa grande pince ?",
+    "options": [
+      "Pour broyer les coquilles",
+      "Pour creuser un terrier",
+      "Pour communiquer et attirer une partenaire",
+      "Pour pomper de l’eau vers ses branchies"
+    ],
+    "answer": 2,
+    "explanation": "Le mâle agite la pince lors de parades visibles au-dessus de son terrier.",
+    "didYouKnow": "Les yeux du crabe violoniste sont placés au bout de longs pédoncules.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-075",
+    "animal": "crabe",
+    "prompt": "Quel petit crabe porte parfois des anémones sur ses pinces comme moyen de défense ?",
+    "options": [
+      "Le crabe violoniste",
+      "Le bernard-l’ermite",
+      "La crevette-pistolet",
+      "Le crabe boxeur"
+    ],
+    "answer": 3,
+    "explanation": "Le crabe boxeur tient de petites anémones dans ses pinces et les agite face à une menace.",
+    "didYouKnow": "Les crabes boxeurs du genre Lybia sont de petits crabes tropicaux de récif.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-076",
+    "animal": "crabe",
+    "prompt": "Comment un crabe peut-il échapper à un prédateur qui le saisit par une patte ?",
+    "options": [
+      "Il libère une substance odorante pour repousser l’ennemi",
+      "Il peut détacher la patte saisie à un point de rupture prévu",
+      "Il abandonne sa carapace et nage hors de portée",
+      "Il se roule en boule sous sa carapace"
+    ],
+    "answer": 1,
+    "explanation": "Certains crabes pratiquent l’autotomie : une patte saisie se détache à un point de rupture naturel, ce qui peut permettre la fuite.",
+    "didYouKnow": "Le crabe prélève l’oxygène de l’eau avec des branchies logées sous la carapace.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-077",
+    "animal": "bernard-l’ermite",
+    "prompt": "Pourquoi un bernard-l’ermite change-t-il parfois de coquille ?",
+    "options": [
+      "Pour respirer hors de l’eau",
+      "Pour remplacer ses pinces",
+      "Pour trouver un abri adapté à sa croissance",
+      "Pour protéger ses œufs"
+    ],
+    "answer": 2,
+    "explanation": "Il occupe souvent des coquilles vides de gastéropodes.",
+    "didYouKnow": "Les bernard-l’ermite possèdent deux paires d’antennes sensorielles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-078",
+    "animal": "bernard-l’ermite",
+    "prompt": "Quelle partie du corps du bernard-l’ermite est souvent molle et recourbée ?",
+    "options": [
+      "Ses yeux pédonculés",
+      "Ses branchies",
+      "Sa carapace dorsale",
+      "Son abdomen"
+    ],
+    "answer": 3,
+    "explanation": "L’abdomen se glisse dans la coquille protectrice qu’il transporte.",
+    "didYouKnow": "Chez le bernard-l’ermite, les deux pinces peuvent avoir des tailles différentes selon l’espèce.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-079",
+    "animal": "crevette nettoyeuse",
+    "prompt": "Que signale souvent une crevette nettoyeuse lorsqu’elle agite ses longues antennes blanches ?",
+    "options": [
+      "Produire un claquement avec une pince",
+      "Qu’elle propose ses services de nettoyage aux poissons",
+      "Se déplacer très vite en arrière",
+      "Émettre une lumière vive sous l’eau"
+    ],
+    "answer": 1,
+    "explanation": "Les mouvements des antennes blanches rendent la crevette nettoyeuse visible aux poissons qui visitent sa station.",
+    "didYouKnow": "Les crevettes nettoyeuses sont des crustacés décapodes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-080",
+    "animal": "crevette",
+    "prompt": "Quel appendice produit le claquement d’une crevette-pistolet ?",
+    "options": [
+      "Un muscle de la nageoire",
+      "Une valve du manteau",
+      "Un muscle de la queue",
+      "Une pince spécialisée qui se ferme très rapidement"
+    ],
+    "answer": 3,
+    "explanation": "La pince hypertrophiée se ferme et provoque un jet d’eau ainsi qu’une bulle de cavitation.",
+    "didYouKnow": "Certaines crevettes-pistolets partagent leur terrier avec un gobie qui surveille les environs.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-081",
+    "animal": "rotifère",
+    "prompt": "Quel appareil musculaire broie les aliments chez de nombreux rotifères ?",
+    "options": [
+      "Le lophophore",
+      "Le mastax, qui contient des pièces dures appelées trophi.",
+      "La lanterne d’Aristote",
+      "Le moulin gastrique"
+    ],
+    "answer": 1,
+    "explanation": "Le mastax est un pharynx musculeux qui actionne les trophi pour broyer ou saisir la nourriture.",
+    "didYouKnow": "Certaines espèces de rotifères possèdent une enveloppe externe rigide appelée lorica.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-082",
+    "animal": "onychophore",
+    "prompt": "Comment les onychophores se déplacent-ils sur le sol ?",
+    "options": [
+      "Ils ondulent avec des parapodes segmentés",
+      "Ils se propulsent en pompant de l’eau par un siphon",
+      "Ils avancent sur des paires de lobopodes musculeux.",
+      "Ils glissent sur un pied musculaire unique"
+    ],
+    "answer": 2,
+    "explanation": "Leurs nombreux lobopodes courts portent le corps au-dessus du substrat et permettent une marche lente.",
+    "didYouKnow": "Les onychophores sont aussi appelés vers de velours en raison de leur peau finement veloutée.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-083",
+    "animal": "crevette",
+    "prompt": "Comment une crevette mante peut-elle frapper aussi vite sous l’eau ?",
+    "options": [
+      "Elle libère l’énergie stockée dans un mécanisme élastique de son appendice",
+      "Elle contracte ses muscles sans mécanisme élastique",
+      "Elle fait vibrer ses antennes",
+      "Elle produit un jet d’eau avec son abdomen"
+    ],
+    "answer": 0,
+    "explanation": "Le mécanisme amplifie la vitesse du coup.",
+    "didYouKnow": "De nombreuses crevettes mantes vivent dans des terriers qu’elles creusent ou entretiennent.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-084",
+    "animal": "crevette",
+    "prompt": "Quel trait des yeux de la crevette mante est particulièrement remarquable ?",
+    "options": [
+      "Ils possèdent de nombreux types de photorécepteurs",
+      "Une vision basée sur des antennes lumineuses",
+      "Une vision uniquement en noir et blanc",
+      "Une vision réduite à la détection du mouvement"
+    ],
+    "answer": 0,
+    "explanation": "Elle perçoit la lumière polarisée et plusieurs gammes de couleurs.",
+    "didYouKnow": "Les crevettes mantes appartiennent aux stomatopodes, un groupe distinct des crevettes vraies.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-085",
+    "animal": "balane",
+    "prompt": "Pourquoi une balane ne ressemble-t-elle plus à un crustacé adulte typique ?",
+    "options": [
+      "Elle est un mollusque adulte",
+      "Elle vit fixée et filtre l’eau avec ses pattes plumeuses",
+      "Elle est un échinoderme fixé",
+      "Elle est un cnidaire colonial"
+    ],
+    "answer": 1,
+    "explanation": "La balane est un crustacé cirripède malgré son apparence de petit volcan.",
+    "didYouKnow": "Les balanes filtrent les particules de l’eau avec leurs cirres plumeux.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-086",
+    "animal": "balane",
+    "prompt": "Quelle larve nageuse précède la fixation d’une balane ?",
+    "options": [
+      "La larve pluteus",
+      "La larve cypris",
+      "La larve planula",
+      "La larve trochophore"
+    ],
+    "answer": 1,
+    "explanation": "Elle recherche une surface où se fixer avant de se métamorphoser.",
+    "didYouKnow": "Les balanes adultes sont souvent hermaphrodites et peuvent féconder leurs voisines.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-087",
+    "animal": "balane",
+    "prompt": "Quelle substance aide certaines balanes à adhérer durablement aux rochers ?",
+    "options": [
+      "Un ciment protéique",
+      "Du mucus riche en calcium",
+      "Une protéine de soie durcie à l’air",
+      "Une fibre de soie"
+    ],
+    "answer": 0,
+    "explanation": "Ce ciment sous-marin résiste aux vagues et à l’immersion.",
+    "didYouKnow": "Une balane déploie ses pattes plumeuses, appelées cirres, pour filtrer les particules en suspension.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-088",
+    "animal": "cloporte",
+    "prompt": "À quel groupe appartient le cloporte malgré son habitat terrestre ?",
+    "options": [
+      "Aux mollusques",
+      "Aux crustacés",
+      "Aux annélides",
+      "Aux insectes"
+    ],
+    "answer": 1,
+    "explanation": "Il respire avec des structures dérivées de branchies et doit garder ses surfaces humides.",
+    "didYouKnow": "Certaines espèces de cloportes peuvent se rouler en boule lorsqu’elles sont dérangées.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-089",
+    "animal": "cloporte",
+    "prompt": "Pourquoi le cloporte recherche-t-il souvent des endroits humides ?",
+    "options": [
+      "Il limite ainsi la perte d’eau et protège ses organes respiratoires",
+      "Pour conserver une température corporelle stable",
+      "Pour éviter les prédateurs visuels",
+      "Pour réduire le bruit lorsqu’il se déplace"
+    ],
+    "answer": 0,
+    "explanation": "Ses structures respiratoires dérivées de branchies fonctionnent mieux à l’humidité.",
+    "didYouKnow": "Certaines espèces peuvent se rouler en boule lorsqu’elles sont dérangées.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-090",
+    "animal": "axolotl",
+    "prompt": "Quelle partie du corps l’axolotl peut-il régénérer après une blessure ?",
+    "options": [
+      "Uniquement le cristallin",
+      "Seulement les cellules de peau",
+      "Les dents et les écailles",
+      "Des membres, ainsi que plusieurs tissus et organes"
+    ],
+    "answer": 3,
+    "explanation": "La régénération varie selon le tissu et les conditions.",
+    "didYouKnow": "L’axolotl est originaire des lacs de la vallée de Mexico, notamment du système de Xochimilco.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-091",
+    "animal": "axolotl",
+    "prompt": "Quel trait larvaire l’axolotl conserve-t-il souvent à l’âge adulte ?",
+    "options": [
+      "Ses branchies externes",
+      "Ses nageoires pectorales",
+      "Ses poumons externes",
+      "Sa carapace de larve"
+    ],
+    "answer": 0,
+    "explanation": "Cette persistance de caractéristiques larvaires s’appelle la néoténie.",
+    "didYouKnow": "L’axolotl peut respirer aussi par la peau et les poumons.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-092",
+    "animal": "axolotl",
+    "prompt": "Quel mécanisme hormonal peut déclencher la métamorphose d’un axolotl ?",
+    "options": [
+      "L’action des hormones thyroïdiennes",
+      "La mélatonine",
+      "L’adrénaline",
+      "Une hormone de croissance"
+    ],
+    "answer": 0,
+    "explanation": "Une métamorphose peut être provoquée expérimentalement, même si elle est rare naturellement.",
+    "didYouKnow": "L’axolotl se nourrit de petits invertébrés aquatiques et de vers.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-093",
+    "animal": "salamandre",
+    "prompt": "Comment certaines salamandres sans poumons respirent-elles ?",
+    "options": [
+      "Par la peau et la muqueuse de la bouche",
+      "Par des poumons fonctionnels",
+      "Par des branchies internes adultes",
+      "Par une trompe respiratoire"
+    ],
+    "answer": 0,
+    "explanation": "Les échanges gazeux dépendent alors d’une peau humide.",
+    "didYouKnow": "À la différence des grenouilles adultes, les salamandres conservent généralement une queue.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-094",
+    "animal": "salamandre",
+    "prompt": "Que peut sécréter la peau de certaines salamandres pour décourager un prédateur ?",
+    "options": [
+      "Du mucus sucré",
+      "Des fibres de soie",
+      "De la lumière bioluminescente",
+      "Des substances toxiques ou irritantes"
+    ],
+    "answer": 3,
+    "explanation": "La composition varie d’une espèce à l’autre.",
+    "didYouKnow": "Les larves de nombreuses salamandres portent des branchies externes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-095",
+    "animal": "salamandre",
+    "prompt": "Comment le mâle de la salamandre géante du Japon protège-t-il la ponte ?",
+    "options": [
+      "Il garde le nid et ventile les œufs jusqu’à leur éclosion",
+      "Il porte les œufs dans une poche sous la gorge",
+      "Il transporte les œufs accrochés à ses pattes",
+      "Il déplace la ponte dans sa bouche"
+    ],
+    "answer": 0,
+    "explanation": "Le mâle reste dans la cavité de ponte et protège les œufs, notamment en les ventilant avec sa queue.",
+    "didYouKnow": "La salamandre géante du Japon peut dépasser un mètre de longueur, ce qui en fait l’un des plus grands amphibiens.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-096",
+    "animal": "grenouille",
+    "prompt": "Comment certaines grenouilles de verre deviennent-elles plus translucides au repos ?",
+    "options": [
+      "En stockant une grande partie de leurs globules rouges dans le foie",
+      "En remplaçant leurs globules rouges par des cellules transparentes",
+      "En concentrant leur sang dans les pattes",
+      "En recouvrant leur ventre d’un mucus sans pigment"
+    ],
+    "answer": 0,
+    "explanation": "Au repos, une grande partie de leurs globules rouges quitte la circulation visible et est stockée dans le foie, ce qui rend le corps plus translucide.",
+    "didYouKnow": "Certaines grenouilles de verre déposent leurs œufs sur des feuilles qui surplombent un cours d’eau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-097",
+    "animal": "grenouille",
+    "prompt": "Quel est le rôle du sac vocal chez de nombreuses grenouilles mâles ?",
+    "options": [
+      "Stocker l’air pour respirer sous l’eau",
+      "Filtrer l’eau autour des œufs",
+      "Maintenir l’équilibre pendant le saut",
+      "Amplifier le chant d’appel"
+    ],
+    "answer": 3,
+    "explanation": "Le sac se gonfle et résonne pendant la vocalisation.",
+    "didYouKnow": "Certaines grenouilles transportent leurs œufs ou leurs têtards sur le corps.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-098",
+    "animal": "grenouille",
+    "prompt": "Comment certaines grenouilles transportent-elles leurs œufs dans une poche dorsale ?",
+    "options": [
+      "Les œufs restent dans une coquille dorsale dure",
+      "Les œufs sont portés dans un sac vocal",
+      "Les œufs sont fixés aux pattes arrière",
+      "La peau du dos forme une poche incubatrice"
+    ],
+    "answer": 3,
+    "explanation": "Ce mode de soin parental existe chez plusieurs groupes de grenouilles.",
+    "didYouKnow": "Les grenouilles adultes ont généralement un cœur à trois cavités : deux oreillettes et un ventricule.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-099",
+    "animal": "grenouille",
+    "prompt": "Quel soin parental inhabituel pratique le mâle du crapaud accoucheur ?",
+    "options": [
+      "Le mâle garde les œufs sous l’eau dans un nid",
+      "La femelle transporte les œufs dans sa bouche",
+      "Il porte les cordons d’œufs autour de ses pattes arrière",
+      "Le mâle colle les œufs sur une feuille"
+    ],
+    "answer": 2,
+    "explanation": "Il garde les œufs humides jusqu’à leur éclosion.",
+    "didYouKnow": "Le crapaud accoucheur est originaire de plusieurs régions d’Europe occidentale.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-100",
+    "animal": "grenouille",
+    "prompt": "Quel amphibien peut produire une mousse protectrice autour de ses œufs ?",
+    "options": [
+      "Le protée anguillard",
+      "La grenouille mousse",
+      "Le crapaud accoucheur",
+      "La grenouille de verre"
+    ],
+    "answer": 1,
+    "explanation": "La mousse limite la dessiccation et peut protéger les œufs des prédateurs.",
+    "didYouKnow": "Le cœur de nombreuses grenouilles possède deux oreillettes et un ventricule.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-101",
+    "animal": "grenouille",
+    "prompt": "Quel avantage peut apporter à des grenouilles une ponte dans un nid de mousse humide au-dessus de l’eau ?",
+    "options": [
+      "Elle soustrait les œufs à certains prédateurs aquatiques tout en les gardant humides",
+      "Elle permet aux embryons de respirer dans une coquille imperméable",
+      "Elle dispense les têtards de rejoindre un milieu aquatique",
+      "Elle expose les œufs au soleil direct pour accélérer leur éclosion"
+    ],
+    "answer": 0,
+    "explanation": "Un nid humide hors de l’eau peut protéger les œufs de certains prédateurs aquatiques; après l’éclosion, les têtards tombent ou sont transportés dans l’eau.",
+    "didYouKnow": "Chez de nombreuses grenouilles, le cœur possède deux oreillettes et un ventricule.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-102",
+    "animal": "cécilie",
+    "prompt": "Quel sens est particulièrement développé chez les cécilies fouisseuses ?",
+    "options": [
+      "Le goût, grâce à une langue fourchue",
+      "L’odorat, aidé par des tentacules sensoriels",
+      "L’ouïe, grâce à des tympans externes",
+      "La vue, grâce à des yeux dirigés vers le haut"
+    ],
+    "answer": 1,
+    "explanation": "Ces petits tentacules sont situés entre les yeux et les narines.",
+    "didYouKnow": "Les cécilies sont des amphibiens sans pattes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-103",
+    "animal": "brachiopode",
+    "prompt": "Comment de nombreux brachiopodes adultes s’attachent-ils au fond marin ?",
+    "options": [
+      "Avec des fils de byssus sécrétés par les branchies",
+      "Avec des pieds ambulacraires hydrauliques",
+      "Avec une ventouse formée par le lophophore",
+      "Avec un pédicule charnu qui sort entre leurs deux valves."
+    ],
+    "answer": 3,
+    "explanation": "Le pédicule ancre l’animal au substrat sans être une patte de locomotion.",
+    "didYouKnow": "Le lophophore d’un brachiopode porte des tentacules ciliés qui capturent des particules alimentaires.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-104",
+    "animal": "cécilie",
+    "prompt": "Comment la peau des petits de certaines cécilies leur fournit-elle de la nourriture ?",
+    "options": [
+      "Ils filtrent du plancton dans l’eau",
+      "Ils mangent les œufs non fécondés",
+      "Ils se nourrissent de la couche externe nutritive de la peau maternelle",
+      "Ils tètent des glandes mammaires"
+    ],
+    "answer": 2,
+    "explanation": "Cette stratégie est appelée dermatotrophie.",
+    "didYouKnow": "Chez les cécilies, la fécondation est interne, contrairement à celle de nombreux autres amphibiens.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-105",
+    "animal": "triton",
+    "prompt": "Quel phénomène permet à certains tritons de repousser des parties de leur queue ?",
+    "options": [
+      "La régénération tissulaire",
+      "Le remplacement d’une vertèbre par une nageoire",
+      "La croissance d’une nouvelle patte avant",
+      "La mue de la peau"
+    ],
+    "answer": 0,
+    "explanation": "La queue peut se reformer après une blessure, selon l’espèce.",
+    "didYouKnow": "Les tritons sont des salamandres qui passent souvent une partie de l’année sur terre et une autre dans l’eau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-106",
+    "animal": "triton",
+    "prompt": "Comment le triton alpestre mâle attire-t-il une partenaire lors de la parade ?",
+    "options": [
+      "Avec une crête dorsale et des mouvements de queue",
+      "En changeant de couleur comme un caméléon",
+      "En frappant le sol avec ses pattes",
+      "En gonflant ses sacs vocaux"
+    ],
+    "answer": 0,
+    "explanation": "Les couleurs vives du ventre servent également de signal visuel.",
+    "didYouKnow": "Le triton alpestre passe souvent l’hiver dans un abri terrestre humide.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-107",
+    "animal": "protée",
+    "prompt": "Quel amphibien cavernicole conserve des branchies externes toute sa vie ?",
+    "options": [
+      "La grenouille de verre",
+      "Le protée tacheté",
+      "Le protée anguillard",
+      "Le triton alpestre"
+    ],
+    "answer": 2,
+    "explanation": "Cet amphibien vit dans des eaux souterraines des Balkans.",
+    "didYouKnow": "Le protée anguillard pond ses œufs dans l’eau, souvent sous des pierres ou dans des fissures.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-108",
+    "animal": "protée",
+    "prompt": "Comment le protée anguillard compense-t-il sa vision réduite ?",
+    "options": [
+      "Il utilise une vision infrarouge",
+      "Il utilise notamment l’odorat et la perception des vibrations",
+      "Il produit de la lumière pour éclairer les grottes",
+      "Il détecte les sons avec des tympans externes"
+    ],
+    "answer": 1,
+    "explanation": "Il est adapté à la vie dans des eaux souterraines obscures.",
+    "didYouKnow": "Le protée peut survivre longtemps avec peu de nourriture.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-109",
+    "animal": "pipa",
+    "prompt": "À quel stade les petits du crapaud du Suriname émergent-ils des alvéoles du dos maternel ?",
+    "options": [
+      "Comme de jeunes grenouilles déjà formées",
+      "Comme des têtards munis de branchies externes",
+      "Sous forme d’œufs non fécondés",
+      "Comme de petites larves nageuses qui quittent le dos"
+    ],
+    "answer": 0,
+    "explanation": "Les embryons se développent dans des cavités dorsales et en sortent après une métamorphose presque complète.",
+    "didYouKnow": "Le crapaud du Suriname est un amphibien entièrement aquatique d’Amérique du Sud.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-110",
+    "animal": "grenouille",
+    "prompt": "Quel comportement a rendu célèbres les grenouilles du genre Rheobatrachus aujourd’hui disparues ?",
+    "options": [
+      "Le mâle transportait les cordons d’œufs autour de ses pattes",
+      "La femelle déposait des œufs nutritifs pour nourrir les têtards",
+      "La femelle incubait les jeunes dans son estomac puis les expulsait par la bouche",
+      "La femelle portait les œufs dans une poche dorsale"
+    ],
+    "answer": 2,
+    "explanation": "La femelle avalait des œufs fécondés et incubait les embryons dans son estomac avant d’expulser les jeunes par la bouche.",
+    "didYouKnow": "Les grenouilles du genre Rheobatrachus vivaient en Australie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-111",
+    "animal": "araignée",
+    "prompt": "Comment une araignée détecte-t-elle souvent une proie qui touche sa toile ?",
+    "options": [
+      "Par les odeurs émises par la proie",
+      "Par des signaux lumineux dans la toile",
+      "Par les changements de température des fils",
+      "Par les vibrations transmises par les fils"
+    ],
+    "answer": 3,
+    "explanation": "La toile fonctionne comme un réseau sensoriel.",
+    "didYouKnow": "La plupart des araignées ont huit yeux simples, mais certaines espèces en ont moins.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-112",
+    "animal": "araignée",
+    "prompt": "Quelle famille de protéines constitue la majeure partie de la soie d’araignée ?",
+    "options": [
+      "La collagène",
+      "Les spidroïnes",
+      "La kératine",
+      "La chitine"
+    ],
+    "answer": 1,
+    "explanation": "Les spidroïnes sont les principales protéines structurales de la soie produite par les araignées.",
+    "didYouKnow": "La plupart des araignées ont huit yeux simples, même si certaines espèces en ont moins.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-113",
+    "animal": "araignée",
+    "prompt": "À quoi sert la soie de sécurité qu’une araignée laisse derrière elle ?",
+    "options": [
+      "À protéger la mue uniquement",
+      "À emballer les proies",
+      "À filtrer le plancton",
+      "À s’ancrer pendant ses déplacements ou ses sauts"
+    ],
+    "answer": 3,
+    "explanation": "Ce fil de traîne peut empêcher une chute.",
+    "didYouKnow": "Les araignées renouvellent leur exosquelette par des mues successives au cours de leur croissance.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-114",
+    "animal": "araignée",
+    "prompt": "Comment les jeunes araignées peuvent-elles se disperser dans l’air après l’éclosion ?",
+    "options": [
+      "En émettant des fils de soie que le vent emporte",
+      "En ouvrant des ailes membraneuses",
+      "En gonflant une poche d’air sous l’abdomen",
+      "En se laissant dériver dans une bulle de mucus"
+    ],
+    "answer": 0,
+    "explanation": "De jeunes araignées libèrent un ou plusieurs fils de soie qui sont emportés par les courants d’air; ce comportement est appelé ballooning.",
+    "didYouKnow": "Les araignées grandissent en abandonnant périodiquement leur exosquelette lors d’une mue.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-115",
+    "animal": "Argyronète",
+    "prompt": "Comment l’argyronète, une araignée aquatique, peut-elle séjourner longtemps sous l’eau ?",
+    "options": [
+      "Elle entretient une cloche d’air dans une toile immergée",
+      "Elle utilise des branchies à la place de ses poumons",
+      "Elle respire uniquement grâce à ses huit pattes",
+      "Elle n’a pas besoin d’oxygène à l’âge adulte"
+    ],
+    "answer": 0,
+    "explanation": "Argyroneta aquatica transporte de l’air depuis la surface et le retient dans une cloche de soie immergée. Cette réserve permet aussi des échanges de gaz avec l’eau.",
+    "didYouKnow": "La plupart des araignées ont huit yeux simples, même si certaines espèces en ont moins.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-116",
+    "animal": "araignée",
+    "prompt": "Pourquoi certaines araignées décorent-elles leur toile avec un stabilimentum ?",
+    "options": [
+      "Pour piéger les oiseaux avec des fils épais",
+      "Pour stocker les œufs dans la toile",
+      "Pour cacher les proies sous un voile",
+      "Cette structure peut aider au camouflage ou à la signalisation"
+    ],
+    "answer": 3,
+    "explanation": "Plusieurs fonctions sont étudiées, notamment le camouflage de l’araignée et la signalisation visuelle. Elles peuvent varier selon l’espèce et le contexte.",
+    "didYouKnow": "Certaines araignées récupèrent et mangent une partie de leur ancienne toile pour recycler ses protéines.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-117",
+    "animal": "araignée",
+    "prompt": "Comment l’araignée crabe peut-elle se déplacer latéralement ?",
+    "options": [
+      "Ses pattes sont faites de ventouses",
+      "Ses pattes sont adaptées à la marche de côté",
+      "Elle se déplace avec son abdomen",
+      "Elle marche sur l’eau grâce à des poils hydrophobes"
+    ],
+    "answer": 1,
+    "explanation": "Elle se tient souvent sur les fleurs pour embusquer des insectes.",
+    "didYouKnow": "Certaines espèces changent lentement de couleur pour se fondre dans la fleur.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-118",
+    "animal": "araignée",
+    "prompt": "Quel est le rôle des pédipalpes chez une araignée mâle adulte ?",
+    "options": [
+      "Détecter les vibrations du sol",
+      "Produire de la soie",
+      "Mâcher la proie",
+      "Transférer le sperme lors de l’accouplement"
+    ],
+    "answer": 3,
+    "explanation": "Les pédipalpes portent des structures qui recueillent et délivrent le sperme.",
+    "didYouKnow": "Les chélicères de nombreuses araignées injectent du venin qui aide à immobiliser leurs proies.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-119",
+    "animal": "araignée",
+    "prompt": "Pourquoi une araignée produit-elle parfois une soie différente pour l’enveloppe des œufs ?",
+    "options": [
+      "Pour protéger le mâle après l’accouplement",
+      "Pour protéger le sac d’œufs",
+      "Pour stocker du venin",
+      "Pour fabriquer une toile de chasse"
+    ],
+    "answer": 1,
+    "explanation": "Les soies du cocon peuvent fournir une enveloppe résistante et isolante.",
+    "didYouKnow": "Les chélicères de nombreuses araignées injectent du venin qui aide à immobiliser leurs proies.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-120",
+    "animal": "araignée",
+    "prompt": "Que fait une araignée bolas pour attirer certains papillons mâles ?",
+    "options": [
+      "Elle émet un leurre chimique ressemblant à une phéromone",
+      "Elle produit de la lumière pour attirer les mâles",
+      "Elle agite une toile pour imiter un papillon",
+      "Elle dépose des œufs ressemblant à des papillons"
+    ],
+    "answer": 0,
+    "explanation": "Elle lance ensuite une goutte de soie collante au bout d’un fil.",
+    "didYouKnow": "Les araignées peuvent réingérer une partie de leur ancienne toile et en recycler les protéines.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-121",
+    "animal": "scorpion",
+    "prompt": "Quel appendice en forme de peigne aide le scorpion à explorer chimiquement le sol ?",
+    "options": [
+      "Les pectines",
+      "Les ocelles",
+      "Le telson",
+      "Les chélicères"
+    ],
+    "answer": 0,
+    "explanation": "Ces appendices sensoriels parcourent le substrat et renseignent le scorpion sur sa texture et ses signaux chimiques.",
+    "didYouKnow": "La cuticule de nombreux scorpions devient fluorescente sous une lumière ultraviolette.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-122",
+    "animal": "scorpion",
+    "prompt": "Pourquoi un scorpion n’injecte-t-il pas toujours la même quantité de venin lorsqu’il pique ?",
+    "options": [
+      "Il peut retenir son venin ou en moduler la quantité",
+      "Il injecte toujours une dose identique",
+      "Il ne produit du venin qu’après une mue",
+      "Il ne peut piquer qu’une seule fois dans sa vie"
+    ],
+    "answer": 0,
+    "explanation": "Certains scorpions réalisent des piqûres sèches ou injectent une quantité variable selon la menace et la proie.",
+    "didYouKnow": "Les scorpions découpent leurs proies avec leurs pièces buccales avant d’en absorber les tissus liquéfiés.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-123",
+    "animal": "scorpion",
+    "prompt": "Quel comportement maternel est fréquent chez de nombreux scorpions ?",
+    "options": [
+      "La mère construit une toile pour les œufs",
+      "Les jeunes montent sur le dos de leur mère",
+      "Les jeunes s’enfouissent sous le sable",
+      "Le père nourrit les petits avec des insectes"
+    ],
+    "answer": 1,
+    "explanation": "Ils restent ainsi protégés jusqu’à leur première mue.",
+    "didYouKnow": "Un scorpion peut rester longtemps sans manger, même si la durée dépend de l’espèce et des conditions.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-124",
+    "animal": "scorpion",
+    "prompt": "Quelle lumière fait souvent briller la cuticule de nombreux scorpions ?",
+    "options": [
+      "La lumière infrarouge",
+      "La lumière ultraviolette",
+      "La lumière rouge",
+      "La lumière polarisée"
+    ],
+    "answer": 1,
+    "explanation": "Des composés de leur cuticule fluorescente émettent une lueur visible sous UV.",
+    "didYouKnow": "Les scorpions capturent leurs proies avec leurs pédipalpes avant de les porter à la bouche.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-125",
+    "animal": "scorpion",
+    "prompt": "Quelle partie du scorpion porte le dard ?",
+    "options": [
+      "Le telson, au bout de la queue",
+      "Le céphalothorax",
+      "La pince gauche",
+      "Le pédipalpe"
+    ],
+    "answer": 0,
+    "explanation": "Le telson contient les glandes à venin et l’aiguillon.",
+    "didYouKnow": "Les scorpions exécutent une parade complexe avant l’accouplement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-126",
+    "animal": "pseudoscorpion",
+    "prompt": "Comment un pseudoscorpion se déplace-t-il parfois sans marcher ?",
+    "options": [
+      "Il nage en agitant ses pinces",
+      "Il s’accroche à un insecte en phorésie",
+      "Il vole grâce à des ailes cachées",
+      "Il se laisse porter par le vent dans une toile"
+    ],
+    "answer": 1,
+    "explanation": "Il profite du transport sans parasiter nécessairement son hôte.",
+    "didYouKnow": "Le pseudoscorpion est un arachnide minuscule dépourvu de queue.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-127",
+    "animal": "pseudoscorpion",
+    "prompt": "Quelle structure permet au pseudoscorpion de capturer sa proie ?",
+    "options": [
+      "Un dard au bout de l’abdomen",
+      "Des pinces munies de glandes à venin chez certaines espèces",
+      "Des pattes à ventouses",
+      "Des chélicères en forme de pince"
+    ],
+    "answer": 1,
+    "explanation": "Le venin est délivré par les pinces et non par un dard caudal.",
+    "didYouKnow": "Le pseudoscorpion est un arachnide minuscule dépourvu de queue.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-128",
+    "animal": "opilion",
+    "prompt": "Pourquoi un opilion peut-il détacher une patte lorsqu’il est attaqué ?",
+    "options": [
+      "La patte continue parfois à bouger et détourne l’attention",
+      "Elle jette de l’encre",
+      "Elle mord son prédateur",
+      "Elle laisse tomber son abdomen"
+    ],
+    "answer": 0,
+    "explanation": "Cette autotomie peut donner à l’animal une chance de fuir.",
+    "didYouKnow": "Contrairement aux araignées, le corps des opilions paraît fusionné en un seul bloc.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-129",
+    "animal": "acarien",
+    "prompt": "Quel acarien microscopique vit normalement dans les follicules pileux humains ?",
+    "options": [
+      "Le sarcopte de la gale",
+      "Demodex",
+      "L’acarien des poussières",
+      "La tique du mouton"
+    ],
+    "answer": 1,
+    "explanation": "Ces acariens se nourrissent de sébum et de cellules cutanées.",
+    "didYouKnow": "Les acariens du genre Demodex ont un corps allongé et des pattes courtes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-130",
+    "animal": "acarien",
+    "prompt": "Comment les tiques repèrent-elles souvent leurs hôtes dans l’environnement ?",
+    "options": [
+      "En écoutant leurs cris",
+      "En repérant les vibrations des toiles",
+      "En détectant chaleur, odeurs et dioxyde de carbone",
+      "En voyant les couleurs de leurs hôtes"
+    ],
+    "answer": 2,
+    "explanation": "Elles attendent souvent sur la végétation à proximité d’un passage.",
+    "didYouKnow": "Une tique n’est pas un insecte, mais un arachnide.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-131",
+    "animal": "acarien",
+    "prompt": "Quel stade du cycle de vie d’une tique possède six pattes ?",
+    "options": [
+      "L’adulte mâle",
+      "La larve",
+      "La nymphe",
+      "L’adulte femelle"
+    ],
+    "answer": 1,
+    "explanation": "Les nymphes et adultes ont huit pattes.",
+    "didYouKnow": "Les tiques respirent par des orifices externes appelés stigmates.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-132",
+    "animal": "tardigrade",
+    "prompt": "Dans quel état de cryptobiose un tardigrade peut-il entrer en se desséchant ?",
+    "options": [
+      "L’état de planula",
+      "L’état de tonnelet (ou « tun »)",
+      "L’anhydrobiose larvaire",
+      "La strobilation"
+    ],
+    "answer": 1,
+    "explanation": "Le tardigrade rétracte son corps et entre dans un état de cryptobiose appelé tonnelet.",
+    "didYouKnow": "Un tardigrade possède quatre paires de pattes courtes terminées par des griffes ou des disques.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-133",
+    "animal": "tardigrade",
+    "prompt": "Comment certains tardigrades limitent-ils les dégâts cellulaires pendant une forte déshydratation ?",
+    "options": [
+      "Des molécules protectrices stabilisent certaines structures cellulaires",
+      "Ils fabriquent une coquille minérale autour du corps",
+      "Ils remplacent l’eau de leurs cellules par de l’huile",
+      "Ils interrompent définitivement toute activité cellulaire"
+    ],
+    "answer": 0,
+    "explanation": "Selon les espèces, des sucres ou des protéines particulières contribuent à protéger les cellules pendant la dessiccation.",
+    "didYouKnow": "Chez certaines espèces, la femelle dépose ses œufs dans l’exuvie qu’elle vient de quitter.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-134",
+    "animal": "tardigrade",
+    "prompt": "Avec quelles structures un tardigrade perce-t-il les cellules dont il aspire le contenu ?",
+    "options": [
+      "Des stylets buccaux",
+      "Des mandibules broyeuses",
+      "Une radula couverte de dents",
+      "Des pédipalpes à pinces"
+    ],
+    "answer": 0,
+    "explanation": "Les stylets buccaux percent les parois ou les tissus avant que le contenu ne soit aspiré par le pharynx musculeux.",
+    "didYouKnow": "Les tardigrades possèdent quatre paires de pattes courtes terminées par des griffes ou des disques.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-135",
+    "animal": "tardigrade",
+    "prompt": "Quel habitat humide héberge souvent des tardigrades ?",
+    "options": [
+      "Les mousses et les lichens",
+      "La surface des rochers brûlants",
+      "Les dunes sèches",
+      "Les nids d’oiseaux"
+    ],
+    "answer": 0,
+    "explanation": "Ils vivent dans le film d’eau qui recouvre ces microhabitats.",
+    "didYouKnow": "Selon l’espèce, un tardigrade peut se nourrir d’algues, de bactéries, de champignons ou de petits animaux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-136",
+    "animal": "tardigrade",
+    "prompt": "À quoi servent les pattes d’un tardigrade ?",
+    "options": [
+      "À s’agripper au substrat et à se déplacer",
+      "À propulser l’animal par battements dans l’eau",
+      "À injecter un venin dans ses proies",
+      "À creuser un terrier dans le sable"
+    ],
+    "answer": 0,
+    "explanation": "Les tardigrades utilisent leurs pattes courtes et griffues pour s’agripper aux surfaces et avancer dans le film d’eau de leur habitat.",
+    "didYouKnow": "Les tardigrades n’ont ni poumons ni branchies; les échanges gazeux se font à travers leur surface corporelle.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "unusual-137",
+    "animal": "rotifère",
+    "prompt": "Quel organe rotatif apparent aide un rotifère à attirer la nourriture ?",
+    "options": [
+      "Les rhinophores",
+      "La couronne ciliée",
+      "Le lophophore",
+      "Les parapodes"
+    ],
+    "answer": 1,
+    "explanation": "Le battement des cils crée des courants et donne une impression de rotation.",
+    "didYouKnow": "Les rotifères sont des animaux microscopiques souvent observés en eau douce.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-138",
+    "animal": "rotifère",
+    "prompt": "Comment le rotifère bdelloïde peut-il survivre à une dessiccation prolongée ?",
+    "options": [
+      "En construisant une coquille calcaire",
+      "En s’enfouissant dans la glace",
+      "En entrant en anhydrobiose",
+      "En migrant vers des sources chaudes"
+    ],
+    "answer": 2,
+    "explanation": "Il se réactive lorsque l’eau redevient disponible.",
+    "didYouKnow": "Les bdelloïdes peuvent recoloniser de petits habitats après transport par le vent.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-139",
+    "animal": "bryozoaire",
+    "prompt": "À quoi ressemble souvent une colonie de bryozoaires ?",
+    "options": [
+      "À un tube creusé dans le sable",
+      "À un tapis ou une croûte composé de nombreux zoïdes",
+      "À un animal isolé de grande taille",
+      "À une coquille unique divisée en chambres"
+    ],
+    "answer": 1,
+    "explanation": "Chaque zoïde est un petit animal filtreur logé dans une chambre.",
+    "didYouKnow": "Certaines colonies de bryozoaires vivent en eau douce, même si la plupart des espèces sont marines.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-140",
+    "animal": "bryozoaire",
+    "prompt": "Quelle structure tentaculaire capture la nourriture chez un bryozoaire ?",
+    "options": [
+      "Les nématocystes",
+      "Les cirres",
+      "Le lophophore",
+      "La radula"
+    ],
+    "answer": 2,
+    "explanation": "Il porte une couronne de tentacules ciliés qui filtre les particules.",
+    "didYouKnow": "Les bryozoaires vivent souvent fixés sur des algues, des rochers ou des coquilles.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-141",
+    "animal": "brachiopode",
+    "prompt": "Quel détail distingue souvent la coquille d’un brachiopode de celle d’une palourde ?",
+    "options": [
+      "Les valves gauche et droite sont symétriques",
+      "Ses deux valves sont dorsale et ventrale plutôt que gauche et droite",
+      "Les valves sont enroulées en spirale",
+      "La coquille n’a qu’une valve"
+    ],
+    "answer": 1,
+    "explanation": "Le plan de symétrie traverse chaque valve.",
+    "didYouKnow": "Les brachiopodes sont un ancien groupe marin encore présent aujourd’hui.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-142",
+    "animal": "bryozoaire d’eau douce",
+    "prompt": "Comment certains bryozoaires d’eau douce traversent-ils une période défavorable ?",
+    "options": [
+      "Ils s’enferment dans une coquille adulte",
+      "Ils déposent des œufs amniotiques dans la vase",
+      "Ils produisent des statoblastes résistants qui peuvent se disperser.",
+      "Ils se transforment en larves de méduses"
+    ],
+    "answer": 2,
+    "explanation": "Les statoblastes sont des bourgeons dormants protégés qui redonnent une colonie lorsque les conditions redeviennent favorables.",
+    "didYouKnow": "Les colonies de bryozoaires d’eau douce vivent souvent fixées sur des plantes ou du bois immergé.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "unusual-143",
+    "animal": "tuniciers",
+    "prompt": "Quel organe filtre l’eau chez l’ascidie adulte ?",
+    "options": [
+      "Un estomac à plusieurs chambres",
+      "Un siphon contenant des branchies externes",
+      "Une poche remplie de cellules urticantes",
+      "Une grande poche pharyngienne perforée"
+    ],
+    "answer": 3,
+    "explanation": "L’eau traverse les fentes branchiales et les particules sont retenues dans le mucus.",
+    "didYouKnow": "Les ascidies adultes restent généralement fixées à un support, tandis que leurs larves sont mobiles.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-144",
+    "animal": "tuniciers",
+    "prompt": "Quel trait des larves d’ascidies révèle leur parenté avec les vertébrés ?",
+    "options": [
+      "Un squelette osseux",
+      "Des branchies externes",
+      "Une chorde dorsale",
+      "Une carapace segmentée"
+    ],
+    "answer": 2,
+    "explanation": "Elle disparaît généralement lors de la métamorphose vers l’adulte fixé.",
+    "didYouKnow": "Chez plusieurs ascidies coloniales, de petits individus partagent une tunique commune.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-145",
+    "animal": "tuniciers",
+    "prompt": "Pourquoi l’ascidie adulte est-elle parfois décrite comme une créature qui « crache » ?",
+    "options": [
+      "Elle pompe de l’eau par ses branchies",
+      "Elle peut expulser l’eau filtrée quand on la dérange",
+      "Elle injecte de l’encre dans l’eau",
+      "Elle expulse un filament urticant"
+    ],
+    "answer": 1,
+    "explanation": "Deux siphons permettent l’entrée et la sortie de l’eau.",
+    "didYouKnow": "La tunique des ascidies contient de la tunicine, une substance apparentée à la cellulose.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-146",
+    "animal": "moule",
+    "prompt": "Comment les moules s’attachent-elles aux rochers ?",
+    "options": [
+      "Avec des fils de soie",
+      "Avec des fils de byssus",
+      "Avec une sécrétion de mucus",
+      "Avec des ventouses sur ses valves"
+    ],
+    "answer": 1,
+    "explanation": "Ces fibres résistantes sont sécrétées par une glande du pied.",
+    "didYouKnow": "Les moules sont des mollusques bivalves dont les deux valves sont reliées par une charnière.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-147",
+    "animal": "moule",
+    "prompt": "Quels organes de la moule trient les particules capturées et les dirigent vers la bouche ?",
+    "options": [
+      "Les siphons",
+      "Les choanocytes",
+      "Les palpes labiaux",
+      "Les pédicellaires"
+    ],
+    "answer": 2,
+    "explanation": "Les palpes labiaux participent au tri et au transport des particules recueillies par les branchies. Ils ne transforment pas eux-mêmes ces particules en nutriments.",
+    "didYouKnow": "Les moules s’attachent souvent aux rochers à l’aide de fils résistants appelés byssus.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-148",
+    "animal": "huître",
+    "prompt": "Quel changement de sexe peut se produire chez de nombreuses huîtres ?",
+    "options": [
+      "Elles changent toutes de sexe chaque saison",
+      "Elles restent toujours mâles",
+      "Elles se reproduisent sans gamètes",
+      "Elles peuvent changer de sexe au cours de leur vie"
+    ],
+    "answer": 3,
+    "explanation": "Le sexe dépend de l’espèce, de l’âge et parfois des conditions.",
+    "didYouKnow": "Les huîtres forment parfois des bancs qui offrent un habitat à d’autres espèces côtières.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-149",
+    "animal": "escargot marin",
+    "prompt": "Comment le cône géographe immobilise-t-il certaines proies ?",
+    "options": [
+      "En paralysant la proie avec un jet d’encre",
+      "En poursuivant sa proie avec des tentacules",
+      "En la piégeant dans une toile collante",
+      "Avec un harpon radulaire contenant du venin"
+    ],
+    "answer": 3,
+    "explanation": "Le harpon est projeté depuis une trompe extensible.",
+    "didYouKnow": "Les coquilles de nombreux cônes marins portent des motifs et des couleurs caractéristiques de l’espèce.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-150",
+    "animal": "nudibranche",
+    "prompt": "Que stockent certains nudibranches après avoir mangé des cnidaires ?",
+    "options": [
+      "Les branchies de la proie pour respirer",
+      "Les chromatophores de la proie pour changer de couleur",
+      "Des nématocystes, les capsules urticantes de leurs proies.",
+      "Les cnidocytes entiers, cellules vivantes de la proie"
+    ],
+    "answer": 2,
+    "explanation": "Les nudibranches concernés digèrent les cellules de la proie mais détournent certaines capsules urticantes, ensuite logées dans des cnidosacs.",
+    "didYouKnow": "Les nudibranches portent souvent des branchies plumeuses ou ramifiées sur le dos, dont la forme varie selon le groupe.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-151",
+    "animal": "limace de mer sacoglosse",
+    "prompt": "Que peut faire une limace de mer sacoglosse avec les chloroplastes des algues qu’elle mange ?",
+    "options": [
+      "Les conserver temporairement dans ses tissus",
+      "Les transformer en cellules urticantes",
+      "Les rejeter sous forme de spores",
+      "Les digérer immédiatement dans l’estomac"
+    ],
+    "answer": 0,
+    "explanation": "Cette kleptoplastie lui permet de tirer parti de la photosynthèse pendant un certain temps.",
+    "didYouKnow": "Chez de nombreuses limaces de mer, la fécondation a lieu après un échange réciproque de spermatozoïdes entre partenaires.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-152",
+    "animal": "ver plat",
+    "prompt": "Comment un planaire reconstitue-t-il une grande partie de son corps après une coupure ?",
+    "options": [
+      "Grâce à des bactéries symbiotiques",
+      "Grâce à ses cellules musculaires",
+      "Grâce à des cellules souches appelées néoblastes",
+      "Grâce à la division de ses yeux"
+    ],
+    "answer": 2,
+    "explanation": "Ces cellules se différencient pour remplacer des tissus manquants.",
+    "didYouKnow": "Les planaires possèdent un système nerveux organisé en deux cordons longitudinaux reliés à l’avant.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-153",
+    "animal": "ver plat",
+    "prompt": "Quel organe sensoriel permet à beaucoup de planaires de détecter la lumière ?",
+    "options": [
+      "Les rhopalies",
+      "Les tentacules",
+      "Des ocelles",
+      "Les statocystes"
+    ],
+    "answer": 2,
+    "explanation": "Ces yeux simples renseignent sur la direction de la lumière sans former d’image détaillée.",
+    "didYouKnow": "Certaines espèces de planaires peuvent se reproduire par division transversale du corps.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-154",
+    "animal": "ver ruban",
+    "prompt": "Comment le ver ruban projette-t-il parfois son proboscis pour saisir une proie ?",
+    "options": [
+      "Il le déroule depuis ses branchies",
+      "Il l’avale avec sa bouche",
+      "Il le projette depuis son pied",
+      "Il l’éverse hors de son corps"
+    ],
+    "answer": 3,
+    "explanation": "Le proboscis peut être collant ou muni de stylets selon le groupe.",
+    "didYouKnow": "Les némertes sont des vers non segmentés, souvent allongés et aplatis.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-155",
+    "animal": "ver polychète",
+    "prompt": "À quoi servent les parapodes des vers polychètes ?",
+    "options": [
+      "À la défense par du venin",
+      "À la locomotion et parfois aux échanges gazeux",
+      "À la reproduction uniquement",
+      "À la filtration du plancton"
+    ],
+    "answer": 1,
+    "explanation": "Ces appendices latéraux portent souvent des soies.",
+    "didYouKnow": "Les polychètes constituent un groupe diversifié d’annélides marins.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-156",
+    "animal": "ver polychète",
+    "prompt": "Quel ver marin fabrique des panaches colorés qu’il rétracte dans un tube ?",
+    "options": [
+      "Le ver plat",
+      "Le ver arbre de Noël",
+      "Le ver de terre",
+      "Le ver ruban"
+    ],
+    "answer": 1,
+    "explanation": "Ses panaches branchiaux servent à respirer et capturer des particules.",
+    "didYouKnow": "Les vers polychètes portent souvent des parapodes le long de leur corps.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-157",
+    "animal": "ver de feu",
+    "prompt": "Comment le ver de feu décourage-t-il certains prédateurs qui le touchent ?",
+    "options": [
+      "Il frappe avec un dard caudal",
+      "Ses soies cassantes peuvent pénétrer la peau et provoquer une irritation.",
+      "Il injecte du venin avec des crochets fixes",
+      "Il libère de l’encre depuis une poche"
+    ],
+    "answer": 1,
+    "explanation": "Les soies blanches du ver de feu sont fragiles et peuvent se détacher au contact, causant une sensation irritante.",
+    "didYouKnow": "Le ver de feu est un polychète marin de la famille des Amphinomidae.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-158",
+    "animal": "sangsue",
+    "prompt": "Comment une sangsue empêche-t-elle parfois le sang de sa proie de coaguler ?",
+    "options": [
+      "Elle sécrète des molécules anticoagulantes",
+      "Elle produit une toxine qui détruit les globules rouges",
+      "Elle aspire le sang avec des branchies",
+      "Elle sécrète une substance qui accélère la coagulation"
+    ],
+    "answer": 0,
+    "explanation": "L’hirudine est un anticoagulant connu chez certaines sangsues.",
+    "didYouKnow": "Les sangsues sont des annélides dont le corps est aplati et segmenté.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-159",
+    "animal": "sangsue",
+    "prompt": "Combien de ventouses une sangsue possède-t-elle généralement ?",
+    "options": [
+      "Aucune",
+      "Deux",
+      "Six",
+      "Une seule"
+    ],
+    "answer": 1,
+    "explanation": "Les ventouses antérieure et postérieure l’aident à s’attacher et se déplacer.",
+    "didYouKnow": "Le corps segmenté peut s’allonger et se raccourcir pendant le déplacement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-160",
+    "animal": "ver de terre",
+    "prompt": "Quel organe du lombric broie les particules avalées avec le sol ?",
+    "options": [
+      "Elle filtre le sang dans son intestin",
+      "Elle stocke la terre dans ses branchies",
+      "Le gésier",
+      "Elle absorbe uniquement des feuilles intactes"
+    ],
+    "answer": 2,
+    "explanation": "Le gésier musculaire broie la terre et les fragments organiques avalés.",
+    "didYouKnow": "Les turricules rejetés par les lombrics contribuent au mélange et à l’aération du sol.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-161",
+    "animal": "ver de terre",
+    "prompt": "Quel est le rôle des soies du lombric ?",
+    "options": [
+      "À attraper des proies",
+      "À creuser le sol en tournant comme une vis",
+      "À respirer sous l’eau",
+      "S’ancrer dans le sol pendant la progression"
+    ],
+    "answer": 3,
+    "explanation": "Les soies s’accrochent au substrat tandis que les muscles déplacent le corps.",
+    "didYouKnow": "Le lombric est hermaphrodite, mais il s’accouple généralement avec un autre individu.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-162",
+    "animal": "limace de mer sacoglosse",
+    "prompt": "Quelle limace de mer peut régénérer un corps à partir de sa tête après une autotomie ?",
+    "options": [
+      "Aplysia californica",
+      "Glaucus atlanticus",
+      "Elysia marginata",
+      "Elysia chlorotica"
+    ],
+    "answer": 2,
+    "explanation": "Chez cette espèce, la tête peut se détacher et régénérer un nouveau corps; le corps abandonné ne régénère pas de nouvelle tête.",
+    "didYouKnow": "Elysia marginata est une limace de mer sacoglosse qui se nourrit d’algues.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-163",
+    "animal": "limace de mer",
+    "prompt": "Pourquoi certains nudibranches affichent-ils des couleurs très vives ?",
+    "options": [
+      "Pour attirer des algues vers leur bouche",
+      "Pour signaler qu’elles sont rapides",
+      "Pour avertir qu’ils sont toxiques ou désagréables à manger",
+      "Pour avertir qu’elles peuvent être désagréables à manger"
+    ],
+    "answer": 2,
+    "explanation": "La coloration aposématique peut signaler des défenses chimiques.",
+    "didYouKnow": "Les rhinophores, tentacules sensoriels placés sur la tête de nombreux nudibranches, détectent des substances chimiques dans l’eau.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-164",
+    "animal": "limace de mer",
+    "prompt": "Quel organe sensoriel aide une limace de mer à détecter des molécules dans l’eau ?",
+    "options": [
+      "Les pectines",
+      "Les rhinophores",
+      "Les pieds ambulacraires",
+      "Les ocelles"
+    ],
+    "answer": 1,
+    "explanation": "Ces tentacules chimiques sont souvent rétractiles.",
+    "didYouKnow": "Les limaces de mer sont des gastéropodes marins; malgré leur nom courant, ce ne sont pas des vers.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-165",
+    "animal": "oursin de mer",
+    "prompt": "Quel petit crabe vit parfois entre les piquants d’un oursin ?",
+    "options": [
+      "La crevette mantis",
+      "Le bernard-l’ermite",
+      "Le crabe violoniste",
+      "Le crabe zèbre (Zebrida adamsii)"
+    ],
+    "answer": 3,
+    "explanation": "Il profite de la protection fournie par les piquants.",
+    "didYouKnow": "Le crabe zèbre porte des bandes sombres et claires sur sa carapace, qui lui donnent son nom commun.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-166",
+    "animal": "étoile fragile",
+    "prompt": "Comment certaines ophiures peuvent-elles éviter une attaque ?",
+    "options": [
+      "En abandonnant un bras qui continue de bouger",
+      "En expulsant ses viscères",
+      "En produisant un jet d’encre",
+      "En cassant son disque central en deux"
+    ],
+    "answer": 0,
+    "explanation": "La perte du bras détourne le prédateur et l’animal peut ensuite le régénérer.",
+    "didYouKnow": "Les ophiures sont souvent plus actives la nuit.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-167",
+    "animal": "limule",
+    "prompt": "Pourquoi les œufs de limule sont-ils une ressource importante pour certains oiseaux migrateurs ?",
+    "options": [
+      "Ils se transforment en algues comestibles",
+      "Ils restent suspendus dans la colonne d’eau au large",
+      "Ils sont transportés dans des nids par les oiseaux adultes",
+      "Ils fournissent une nourriture abondante sur les plages de ponte."
+    ],
+    "answer": 3,
+    "explanation": "Des limules pondent dans le sable des zones intertidales; leurs œufs nourrissent notamment des oiseaux qui s’y arrêtent pendant leur migration.",
+    "didYouKnow": "Le sang bleu de la limule est utilisé dans des tests biomédicaux pour détecter certaines contaminations bactériennes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-168",
+    "animal": "limule",
+    "prompt": "Quel appendice la limule utilise-t-elle pour se redresser si elle est retournée ?",
+    "options": [
+      "Sa madréporite",
+      "Son telson",
+      "Ses chélicères",
+      "Ses branchies"
+    ],
+    "answer": 1,
+    "explanation": "Elle s’en sert comme levier pour basculer sur sa face ventrale.",
+    "didYouKnow": "Sous l’abdomen, la limule porte des branchies en forme de feuillets superposés.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-169",
+    "animal": "limule",
+    "prompt": "À quelle grande lignée appartiennent les limules ?",
+    "options": [
+      "Aux échinodermes",
+      "Aux mollusques",
+      "Aux chélicérates",
+      "Aux crustacés"
+    ],
+    "answer": 2,
+    "explanation": "Elles sont plus proches des araignées que des crabes véritables.",
+    "didYouKnow": "La limule mue plusieurs fois avant d’atteindre sa taille adulte.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-170",
+    "animal": "nautile",
+    "prompt": "Comment le nautile protège-t-il l’ouverture de sa coquille lorsqu’il se rétracte ?",
+    "options": [
+      "Il referme une paire de valves articulées",
+      "Il bouche l’ouverture avec un nuage d’encre",
+      "Il la ferme avec son capuchon charnu.",
+      "Il colle une plaque de mucus durci sur l’ouverture"
+    ],
+    "answer": 2,
+    "explanation": "Le nautile replie ses tentacules et utilise un capuchon formé par des tentacules modifiés pour couvrir l’ouverture.",
+    "didYouKnow": "Le nautile possède de nombreux tentacules dépourvus de ventouses.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-171",
+    "animal": "nautile",
+    "prompt": "Quel sens aide le nautile à repérer des substances dissoutes dans l’eau ?",
+    "options": [
+      "Les vibrisses",
+      "Les yeux à lentille",
+      "Les pectines",
+      "L’odorat, grâce à ses organes olfactifs"
+    ],
+    "answer": 3,
+    "explanation": "Le nautile s’appuie surtout sur l’odorat pour repérer des substances dissoutes et localiser de la nourriture.",
+    "didYouKnow": "Ses yeux détectent la lumière, mais n’ont pas de lentille comparable à celle des calmars.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-172",
+    "animal": "nautile",
+    "prompt": "Comment le nautile capture-t-il des aliments avec ses nombreux appendices ?",
+    "options": [
+      "Il les rassemble autour de la bouche",
+      "En aspirant la proie avec le siphon",
+      "Avec une radula",
+      "Avec un bec qui projette du venin"
+    ],
+    "answer": 0,
+    "explanation": "Ses tentacules sans ventouses manipulent la nourriture.",
+    "didYouKnow": "Le nautile pond des œufs fixés à un support, dont l’éclosion peut prendre longtemps.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-173",
+    "animal": "siphonophore",
+    "prompt": "Pourquoi un siphonophore ressemble-t-il à un seul animal tout en étant une colonie ?",
+    "options": [
+      "Ses cellules se regroupent après chaque division",
+      "La colonie est formée de plusieurs espèces réunies temporairement",
+      "Il s’agit d’un seul animal doté de nombreux bras",
+      "Ses individus spécialisés, les zooïdes, coopèrent"
+    ],
+    "answer": 3,
+    "explanation": "Certains zooïdes capturent la nourriture, d’autres assurent la reproduction ou la nage.",
+    "didYouKnow": "Certaines espèces de siphonophores des grands fonds produisent de la lumière.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-174",
+    "animal": "siphonophore",
+    "prompt": "Quel rôle jouent les nectophores chez certains siphonophores ?",
+    "options": [
+      "Ils portent les organes reproducteurs",
+      "Ils produisent les cellules urticantes",
+      "Ils filtrent les proies",
+      "Ils assurent la propulsion de la colonie"
+    ],
+    "answer": 3,
+    "explanation": "Ces zooïdes spécialisés se contractent pour faire avancer l’ensemble.",
+    "didYouKnow": "Certains siphonophores possèdent des zooïdes spécialisés dans la reproduction.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-175",
+    "animal": "physalie",
+    "prompt": "Quelle structure flottante maintient la physalie près de la surface ?",
+    "options": [
+      "Un sac d’œufs flottant",
+      "Un flotteur rempli de gaz",
+      "Une coquille calcaire",
+      "Une vessie natatoire"
+    ],
+    "answer": 1,
+    "explanation": "Le flotteur est un zooïde spécialisé de la colonie.",
+    "didYouKnow": "Les tentacules urticants peuvent s’étendre très loin sous la surface.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-176",
+    "animal": "siphonophore",
+    "prompt": "Quel zooïde de certains siphonophores est spécialisé dans la capture et la manipulation des proies ?",
+    "options": [
+      "Le dactylozoïde.",
+      "Le nectophore",
+      "Le pneumatophore",
+      "Le gonophore"
+    ],
+    "answer": 0,
+    "explanation": "Les dactylozoïdes portent des tentacules de capture; d’autres zooïdes de la colonie assurent notamment la digestion ou la propulsion.",
+    "didYouKnow": "Certaines espèces de siphonophores des grands fonds produisent de la lumière.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-177",
+    "animal": "cténophore",
+    "prompt": "Qu’est-ce qui produit les reflets irisés le long du corps d’un cténophore ?",
+    "options": [
+      "La diffraction de la lumière par les rangées de cils, ou peignes",
+      "Des cellules pigmentaires qui changent de taille",
+      "Une couche d’algues symbiotiques",
+      "La réflexion de pigments dans les tissus"
+    ],
+    "answer": 0,
+    "explanation": "La lumière extérieure est décomposée par les rangées de cils, ce qui produit des reflets arc-en-ciel. Le battement de ces cils assure aussi la propulsion.",
+    "didYouKnow": "De nombreuses espèces de cténophores sont hermaphrodites et libèrent leurs gamètes dans l’eau.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-178",
+    "animal": "cténophore",
+    "prompt": "Quelle cellule collante aide certains cténophores à capturer leurs proies ?",
+    "options": [
+      "Le colloblaste",
+      "Le nématocyste",
+      "Le choanocyte",
+      "Le chromatophore"
+    ],
+    "answer": 0,
+    "explanation": "Ces cellules adhésives diffèrent des cnidocytes urticants.",
+    "didYouKnow": "Les cténophores ne sont pas des méduses, malgré leur corps gélatineux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-179",
+    "animal": "cténophore",
+    "prompt": "Quel organe sensoriel coordonne l’orientation et le mouvement des rangées de peignes chez un cténophore ?",
+    "options": [
+      "Le nématocyste",
+      "Le lophophore",
+      "La madréporite",
+      "Le statocyste de l’organe apical."
+    ],
+    "answer": 3,
+    "explanation": "Le statocyste contribue à l’équilibre et à la coordination des rangées ciliées qui propulsent le cténophore.",
+    "didYouKnow": "Certains cténophores produisent une lumière visible grâce à la bioluminescence.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-180",
+    "animal": "éponge carnivore",
+    "prompt": "Comment certaines éponges des grands fonds capturent-elles de petits crustacés ?",
+    "options": [
+      "Avec des nématocystes urticants",
+      "En filtrant le plancton grâce aux choanocytes",
+      "Avec des filaments ou des crochets adhésifs",
+      "En sécrétant un nuage d’encre"
+    ],
+    "answer": 2,
+    "explanation": "Ces éponges carnivores vivent là où filtrer assez de particules est difficile.",
+    "didYouKnow": "Les éponges n’ont pas de système nerveux central et leur corps est organisé autour de cellules spécialisées.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-181",
+    "animal": "éponge de verre",
+    "prompt": "Quel animal peut vivre emprisonné à l’âge adulte dans l’éponge de verre « panier de fleurs de Vénus » ?",
+    "options": [
+      "Un crabe violoniste",
+      "Un couple de petites crevettes.",
+      "Une étoile de mer adulte",
+      "Un banc de poissons juvéniles"
+    ],
+    "answer": 1,
+    "explanation": "Deux crevettes peuvent entrer dans la jeune éponge et y grandir jusqu’à ne plus pouvoir ressortir par les ouvertures.",
+    "didYouKnow": "Le squelette du panier de fleurs de Vénus est formé de spicules de silice fusionnés en réseau.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-182",
+    "animal": "corail noir",
+    "prompt": "Pourquoi le corail noir peut-il avoir une apparence sombre ?",
+    "options": [
+      "La couleur de son squelette contraste avec ses polypes clairs",
+      "Il est couvert de chromatophores noirs",
+      "Il n’a pas de polypes vivants",
+      "Il accumule de l’encre dans ses tissus"
+    ],
+    "answer": 0,
+    "explanation": "Le nom fait référence au squelette, pas nécessairement à la couleur de l’animal vivant.",
+    "didYouKnow": "Les polypes de corail noir capturent des particules alimentaires avec leurs tentacules.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-183",
+    "animal": "corail noir",
+    "prompt": "Quelle longévité exceptionnelle a été estimée pour certaines colonies de corail noir ?",
+    "options": [
+      "Plusieurs siècles",
+      "Quelques mois",
+      "Quelques décennies",
+      "Quelques années"
+    ],
+    "answer": 0,
+    "explanation": "La croissance lente et l’âge des colonies sont estimés à partir de leurs structures.",
+    "didYouKnow": "Les coraux noirs appartiennent au groupe des anthozoaires.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-184",
+    "animal": "corail champignon",
+    "prompt": "Comment un corail champignon solitaire se déplace-t-il parfois sur le fond ?",
+    "options": [
+      "En utilisant un siphon propulseur",
+      "En rampant à l’aide de ses podia",
+      "Il peut se redresser ou se retourner avec ses tissus gonflés",
+      "En détachant ses tentacules et en nageant"
+    ],
+    "answer": 2,
+    "explanation": "Ces mouvements l’aident à sortir d’un sédiment qui l’ensevelit.",
+    "didYouKnow": "Certains coraux champignons peuvent se reproduire par division du polype.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-185",
+    "animal": "anémone",
+    "prompt": "Comment le poisson-clown peut-il éviter d’être piqué par son anémone ?",
+    "options": [
+      "En vivant dans une coquille empruntée",
+      "En sécrétant un venin neutralisant",
+      "En mangeant les tentacules de son anémone",
+      "Son mucus limite le déclenchement des cellules urticantes"
+    ],
+    "answer": 3,
+    "explanation": "La protection dépend d’une acclimatation et de l’espèce.",
+    "didYouKnow": "Certaines anémones de mer peuvent se reproduire par division ou bourgeonnement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-186",
+    "animal": "anémone",
+    "prompt": "Que fait une anémone de mer pour digérer sa proie ?",
+    "options": [
+      "Elle expulse sa proie par l’anus",
+      "Elle la broie avec des dents",
+      "Elle la digère sur ses tentacules sans l’avaler",
+      "Elle la conduit dans une cavité gastrovasculaire"
+    ],
+    "answer": 3,
+    "explanation": "Les enzymes y décomposent les aliments avant la distribution des nutriments.",
+    "didYouKnow": "Les anémones sont des cnidaires du groupe des anthozoaires et n’ont pas de stade méduse.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-187",
+    "animal": "anémone",
+    "prompt": "Comment une anémone peut-elle se déplacer lorsqu’elle ne reste pas fixée ?",
+    "options": [
+      "Elle rampe lentement avec son disque pédieux",
+      "Elle creuse avec une coquille",
+      "Elle nage en battant ses tentacules",
+      "Elle se propulse par un siphon"
+    ],
+    "answer": 0,
+    "explanation": "Certaines se détachent et peuvent même dériver dans l’eau.",
+    "didYouKnow": "Les anémones peuvent aussi se reproduire par division ou bourgeonnement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-188",
+    "animal": "cécilie",
+    "prompt": "Comment appelle-t-on les replis transversaux qui donnent au corps des cécilies son aspect annelé ?",
+    "options": [
+      "Les annuli",
+      "Les élytres",
+      "Les podia",
+      "Les cirres"
+    ],
+    "answer": 0,
+    "explanation": "Les annuli sont des replis cutanés transversaux qui donnent un aspect annelé ; ils ne correspondent pas à une segmentation du squelette.",
+    "didYouKnow": "Certaines cécilies donnent naissance à des petits vivants, tandis que d’autres pondent des œufs gardés par un parent.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-189",
+    "animal": "rotifère bdelloïde",
+    "prompt": "Quel mode de reproduction est observé chez les rotifères bdelloïdes, chez lesquels aucun mâle n’a été observé ?",
+    "options": [
+      "La reproduction par bourgeonnement d’une colonie",
+      "La reproduction sans fécondation, par parthénogenèse.",
+      "La fécondation externe avec des gamètes libérés dans l’eau",
+      "La division d’un individu adulte en deux moitiés"
+    ],
+    "answer": 1,
+    "explanation": "Les bdelloïdes produisent des descendants à partir d’œufs non fécondés.",
+    "didYouKnow": "Les rotifères bdelloïdes regroupent de nombreuses espèces microscopiques d’eau douce et de milieux humides.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-190",
+    "animal": "holothurie",
+    "prompt": "Comment certaines holothuries repoussent-elles un prédateur avec leurs tubules de Cuvier ?",
+    "options": [
+      "Elles lancent des piquants calcaires détachables",
+      "Elles referment leurs cinq bras autour du prédateur",
+      "Elles expulsent des filaments collants qui s’emmêlent autour de l’assaillant.",
+      "Elles tirent un jet d’encre noire par la bouche"
+    ],
+    "answer": 2,
+    "explanation": "Certaines espèces projettent ces tubules depuis leur cloaque; ils peuvent coller au prédateur et détourner son attaque.",
+    "didYouKnow": "Les holothuries sont des échinodermes, parentes des étoiles de mer et des oursins.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-191",
+    "animal": "étoile de mer",
+    "prompt": "Comment les taches oculaires d’une étoile détectent-elles l’environnement ?",
+    "options": [
+      "Elles détectent les sons sous l’eau",
+      "Elles forment une image détaillée en couleur",
+      "Elles perçoivent la lumière et les contrastes",
+      "Elles mesurent la salinité avec des lentilles"
+    ],
+    "answer": 2,
+    "explanation": "Elles se trouvent souvent à l’extrémité de chaque bras.",
+    "didYouKnow": "Les étoiles de mer actionnent leurs pieds ambulacraires grâce à un réseau de canaux remplis d’eau.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-192",
+    "animal": "oursin",
+    "prompt": "Quel est l’intérêt des pédicellaires venimeux chez certains oursins ?",
+    "options": [
+      "Accrocher l’oursin aux algues",
+      "Repousser les petits prédateurs ou parasites",
+      "Filtrer le plancton autour du test",
+      "Aider à creuser le sable"
+    ],
+    "answer": 1,
+    "explanation": "Ces minuscules pinces se ferment au contact d’un organisme.",
+    "didYouKnow": "Les oursins possèdent un squelette interne de plaques calcaires appelé test.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-193",
+    "animal": "crinoïde",
+    "prompt": "Comment une comatule peut-elle se déplacer malgré son apparence de plume ?",
+    "options": [
+      "En faisant onduler leur disque central",
+      "Elle nage par mouvements de bras ou rampe avec des cirres",
+      "En pompant l’eau avec leur bouche",
+      "En marchant avec des pinces"
+    ],
+    "answer": 1,
+    "explanation": "Les cirres sont de petits appendices qui s’accrochent au substrat.",
+    "didYouKnow": "Les comatules capturent des particules en suspension avec leurs bras couverts de petits pieds ambulacraires.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-194",
+    "animal": "escargot",
+    "prompt": "Comment le lièvre de mer peut-il brouiller un prédateur lorsqu’il est dérangé ?",
+    "options": [
+      "Il libère de l’encre, parfois accompagnée d’une sécrétion opaline",
+      "Il libère des cellules urticantes",
+      "Il projette une coquille de défense",
+      "Il expulse du sang bleu"
+    ],
+    "answer": 0,
+    "explanation": "L’encre et les sécrétions défensives peuvent former un nuage qui détourne ou perturbe un prédateur.",
+    "didYouKnow": "De nombreux lièvres de mer n’ont pas de coquille externe visible à l’âge adulte.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-195",
+    "animal": "lièvre de mer",
+    "prompt": "Quel comportement reproducteur peut former de longues chaînes chez certains lièvres de mer ?",
+    "options": [
+      "Les adultes se divisent en chaînes de clones",
+      "Les œufs sont attachés en chaîne aux tentacules",
+      "Les mâles transportent les femelles dans leur coquille",
+      "Plusieurs individus s’accouplent en file, chacun pouvant jouer les deux rôles sexuels."
+    ],
+    "answer": 3,
+    "explanation": "Les lièvres de mer sont hermaphrodites et peuvent former des chaînes d’accouplement.",
+    "didYouKnow": "Les lièvres de mer portent des rhinophores sur la tête, souvent comparés à de petites oreilles de lapin.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-196",
+    "animal": "méduse peigne",
+    "prompt": "Comment un cténophore bioluminescent produit-il parfois de la lumière ?",
+    "options": [
+      "Avec ses rangées de cils",
+      "Par des pigments absorbés dans sa nourriture",
+      "Par des réactions biochimiques dans ses tissus",
+      "En réfléchissant les rayons de soleil"
+    ],
+    "answer": 2,
+    "explanation": "La bioluminescence peut servir de défense ou de signal.",
+    "didYouKnow": "Les reflets arc-en-ciel des peignes sont un phénomène optique distinct.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-197",
+    "animal": "éponge",
+    "prompt": "Comment les éponges éliminent-elles leurs déchets azotés ?",
+    "options": [
+      "À l’aide d’un rein",
+      "En les stockant dans une coquille",
+      "Par une vessie natatoire",
+      "Par diffusion dans le courant d’eau qui les traverse"
+    ],
+    "answer": 3,
+    "explanation": "Le flux continu évacue les déchets et renouvelle les gaz dissous.",
+    "didYouKnow": "Certaines éponges hébergent des communautés microbiennes très riches.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-198",
+    "animal": "étoile de mer",
+    "prompt": "Quelle symétrie possède la larve d’une étoile de mer avant sa métamorphose ?",
+    "options": [
+      "Une symétrie hélicoïdale",
+      "Aucune symétrie corporelle",
+      "Une symétrie bilatérale.",
+      "Une symétrie radiaire à cinq axes"
+    ],
+    "answer": 2,
+    "explanation": "La larve nageuse a un côté gauche et un côté droit; l’organisation radiaire apparaît au cours de la métamorphose.",
+    "didYouKnow": "Les étoiles de mer actionnent leurs pieds ambulacraires grâce à un réseau interne de canaux remplis d’eau.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-199",
+    "animal": "méduse Turritopsis dohrnii",
+    "prompt": "Que peut faire la méduse Turritopsis dohrnii après un stress ou une blessure ?",
+    "options": [
+      "Se transformer en une colonie de corail",
+      "Régénérer toutes les espèces de méduses de son environnement",
+      "Se diviser en deux méduses adultes identiques",
+      "Revenir du stade méduse vers un stade polype."
+    ],
+    "answer": 3,
+    "explanation": "Dans certaines conditions, elle peut réorganiser ses tissus et inverser son cycle de vie; cela ne la rend pas invulnérable ni littéralement immortelle.",
+    "didYouKnow": "La cloche de Turritopsis dohrnii mesure seulement quelques millimètres.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "unusual-200",
+    "animal": "calmar",
+    "prompt": "Qu’est-ce que le gladius du calmar ?",
+    "options": [
+      "Une coquille externe rigide en spirale",
+      "Une coquille interne fine et souple",
+      "Un os calcaire externe",
+      "Une poche d’encre"
+    ],
+    "answer": 1,
+    "explanation": "Elle soutient le manteau et constitue un vestige de coquille.",
+    "didYouKnow": "Chez de nombreux calmars, le siphon permet la propulsion par jet d’eau.",
+    "difficulty": "medium"
+  }
+]

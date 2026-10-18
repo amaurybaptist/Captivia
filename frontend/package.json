@@ -14,7 +14,8 @@
     "assets:mobile:sources": "node scripts/make-mobile-assets.mjs",
     "assets:mobile": "npx @capacitor/assets generate --assetPath mobile/assets --iosProject mobile/ios/App --androidProject mobile/android",
     "screenshots:store": "node scripts/store-screenshots.mjs",
-    "store:check": "node scripts/check-store-texts.mjs"
+    "store:check": "node scripts/check-store-texts.mjs",
+    "test:notifications:local": "node scripts/check-notifications-local.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^7.6.9",
@@ -36,7 +37,10 @@
     "next-intl": "^4.8.1",
     "qrcode": "^1.5.4",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "three": "^0.186.1"
   },
   "devDependencies": {
     "@capacitor/cli": "^7.6.9",
@@ -54,9 +58,12 @@
     "jest": "^30.2.0",
     "jest-environment-jsdom": "^30.2.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@netlify/plugin-nextjs": "^5.16.2",
+    "@types/three": "^0.186.0"
   },
   "engines": {
     "node": ">=22"
-  }
+  },
+  "overrides": {}
 }

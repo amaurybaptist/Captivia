@@ -489,7 +489,11 @@
     "retry": "Try again",
     "unexpectedError": "Unexpected error",
     "sessionExpired": "Session expired. Please sign in again.",
-    "agenda": "Care agenda"
+    "agenda": "Care agenda",
+    "habitatGuide": "3D Guide",
+    "designHabitat": "Design their habitat",
+    "careAgenda": "Calendar",
+    "animalGame": "Game"
   },
   "disclaimers": {
     "affiliate": "Affiliate link",
@@ -962,7 +966,23 @@
     "dateRequired": "Choose a date for each one-time reminder: this change hasn't been saved.",
     "labelTooLong": "A reminder name can be up to 60 characters long.",
     "snoozeInvalid": "Enter a delay between 5 and 120 minutes.",
-    "saveInvalid": "Some settings aren't valid. Check the times and dates of your reminders."
+    "saveInvalid": "Some settings aren't valid. Check the times and dates of your reminders.",
+    "pushEnabled": "Notifications are active in this browser.",
+    "enablePush": "Enable notifications",
+    "disablePush": "Disable in this browser",
+    "sendTest": "Send a test",
+    "testSent": "Notification sent.",
+    "testPartial": "Some notifications could not be sent.",
+    "noRecipient": "No active recipient. Enable notifications on a device.",
+    "testFailed": "The test notification could not be sent.",
+    "timeZone": "Time zone",
+    "deliveryWindow": "Allowed delivery hours",
+    "windowStart": "Delivery starts",
+    "windowEnd": "Delivery ends",
+    "channelsUnavailable": "Some delivery methods are temporarily unavailable. Your reminders remain visible in the app.",
+    "snoozeAction": "Snooze",
+    "snoozeDone": "Reminder snoozed.",
+    "reminderError": "The reminder could not be updated."
   },
   "premiumLock": {
     "goPremium": "View Premium subscription",
@@ -1328,7 +1348,8 @@
     "endsOn": "Premium access until {date}",
     "billingIssue": "Payment issue: please update your payment method in the store.",
     "expired": "Your subscription has expired.",
-    "manage": "Manage my subscription"
+    "manage": "Manage my subscription",
+    "benefitHabitat": "2D and 3D habitat designer: custom layouts, saved projects and exports"
   },
   "transparency": {
     "affiliateIndependence": "Equipment and food recommendations depend on the needs of the species, not on commission rates.",

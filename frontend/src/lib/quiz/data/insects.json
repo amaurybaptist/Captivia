@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "insects-001",
+    "animal": "Insectes",
+    "prompt": "Combien de paires de pattes un insecte adulte possède-t-il ?",
+    "options": [
+      "Trois",
+      "Deux",
+      "Quatre",
+      "Huit"
+    ],
+    "answer": 0,
+    "explanation": "Le plan corporel des insectes comprend trois paires de pattes fixées au thorax.",
+    "didYouKnow": "Chez les odonates, les larves vivent dans l’eau alors que les adultes se déplacent dans l’air.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-002",
+    "animal": "Insectes",
+    "prompt": "En combien de grandes régions le corps typique d’un insecte est-il divisé ?",
+    "options": [
+      "Trois : tête, thorax et abdomen",
+      "Deux : tête et abdomen",
+      "Quatre : tête, thorax, abdomen et appendices caudaux",
+      "Cinq : tête, cou, thorax, abdomen et queue"
+    ],
+    "answer": 0,
+    "explanation": "La tête porte les organes sensoriels et la bouche, le thorax les pattes et souvent les ailes, et l’abdomen contient plusieurs organes internes.",
+    "didYouKnow": "Les insectes font partie des arthropodes, un groupe qui comprend aussi les araignées et les crustacés.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-003",
+    "animal": "Insectes",
+    "prompt": "Quel matériau forme principalement l’exosquelette des insectes ?",
+    "options": [
+      "La chitine",
+      "La cellulose",
+      "Le carbonate de calcium",
+      "La kératine"
+    ],
+    "answer": 0,
+    "explanation": "La cuticule externe contient de la chitine et des protéines et protège le corps.",
+    "didYouKnow": "La chitine se trouve aussi dans la paroi cellulaire des champignons.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-004",
+    "animal": "Insectes",
+    "prompt": "Comment les insectes respirent-ils généralement ?",
+    "options": [
+      "Par un réseau de trachées reliées à des stigmates",
+      "Par des sacs aériens reliés aux tissus",
+      "Par des poumons alvéolaires",
+      "Par des branchies chez tous les adultes"
+    ],
+    "answer": 0,
+    "explanation": "L’air entre par des ouvertures appelées stigmates et circule dans des trachées jusqu’aux tissus.",
+    "didYouKnow": "La plupart des insectes possèdent aussi un cœur tubulaire dorsal qui fait circuler l’hémolymphe.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-005",
+    "animal": "Insectes",
+    "prompt": "À quoi servent principalement les antennes d’un insecte ?",
+    "options": [
+      "À détecter des signaux sensoriels, dont les odeurs",
+      "À percevoir la lumière ambiante",
+      "À propulser l’insecte en vol",
+      "À pomper le sang"
+    ],
+    "answer": 0,
+    "explanation": "Les antennes portent des récepteurs sensibles aux odeurs, aux contacts et parfois aux mouvements de l’air.",
+    "didYouKnow": "De nombreux papillons de nuit possèdent des organes auditifs qui détectent les ultrasons des chauves-souris.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-006",
+    "animal": "Gerridés",
+    "prompt": "Comment les gerridés, comme les patineurs d’eau, se déplacent-ils à la surface d’une mare ?",
+    "options": [
+      "Ils répartissent leur poids sur des pattes hydrophobes sans rompre la tension superficielle",
+      "Ils nagent sous la surface en propulsant leurs pattes postérieures frangées",
+      "Ils s’agrippent aux plantes émergées pour avancer hors de l’eau",
+      "Ils se propulsent en expulsant un jet d’eau par l’abdomen"
+    ],
+    "answer": 0,
+    "explanation": "Les poils hydrophobes des pattes répartissent le poids et repoussent l’eau, ce qui permet de se déplacer à la surface.",
+    "didYouKnow": "Les femelles de certains gerridés déposent leurs œufs sur des plantes ou des objets flottants.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-007",
+    "animal": "Insectes",
+    "prompt": "Pourquoi un insecte doit-il muer pour grandir ?",
+    "options": [
+      "Sa cuticule rigide ne grandit pas continuellement avec lui",
+      "Sa carapace osseuse ne peut pas s’étirer",
+      "Il doit renouveler son sang pour grandir",
+      "Ses ailes doivent repousser à chaque saison"
+    ],
+    "answer": 0,
+    "explanation": "L’exosquelette rigide est remplacé périodiquement par une cuticule plus grande.",
+    "didYouKnow": "Les insectes font partie des arthropodes, comme les araignées et les crustacés.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-008",
+    "animal": "Insectes",
+    "prompt": "Quel est le nom des ouvertures respiratoires visibles sur le corps de nombreux insectes ?",
+    "options": [
+      "Stigmates",
+      "Des narines",
+      "Des opercules branchiaux",
+      "Des tubes respiratoires externes"
+    ],
+    "answer": 0,
+    "explanation": "Les stigmates ouvrent sur le système trachéen et sont souvent situés sur le thorax et l’abdomen.",
+    "didYouKnow": "Chez les insectes ailés, les ailes s’attachent au mésothorax et au métathorax.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-009",
+    "animal": "Insectes",
+    "prompt": "Quel type de circulation interne possède la plupart des insectes ?",
+    "options": [
+      "Une circulation ouverte avec hémolymphe",
+      "Une circulation fermée où le sang reste dans un réseau de vaisseaux",
+      "Une double circulation séparant le sang oxygéné et non oxygéné",
+      "Une circulation ouverte dont le fluide est propulsé par plusieurs cœurs périphériques"
+    ],
+    "answer": 0,
+    "explanation": "L’hémolymphe baigne les organes dans la cavité corporelle; elle ne transporte généralement pas l’oxygène.",
+    "didYouKnow": "Les yeux composés de nombreux insectes sont formés de milliers d’unités visuelles appelées ommatidies.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-010",
+    "animal": "Insectes",
+    "prompt": "Quel est le rôle des palpes autour de la bouche chez divers insectes ?",
+    "options": [
+      "Aider à manipuler et sentir la nourriture",
+      "Maintenir les ailes en place pendant le vol",
+      "Diriger l’air vers les stigmates",
+      "Fixer l’insecte à la plante pendant qu’il se nourrit"
+    ],
+    "answer": 0,
+    "explanation": "Les palpes sont des appendices sensoriels associés aux pièces buccales.",
+    "didYouKnow": "Chez de nombreuses espèces, les récepteurs du goût se trouvent aussi sur les pattes, notamment les tarses.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-011",
+    "animal": "Coléoptères",
+    "prompt": "Quelle caractéristique distingue les élytres des coléoptères ?",
+    "options": [
+      "Ce sont des ailes antérieures durcies qui protègent les ailes postérieures",
+      "Des branchies abdominales",
+      "Des antennes épaissies",
+      "Des ailes postérieures rigides"
+    ],
+    "answer": 0,
+    "explanation": "Les élytres forment un étui protecteur au-dessus des ailes de vol repliées.",
+    "didYouKnow": "Certains coléoptères comme les carabes ont des ailes postérieures réduites et volent peu.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-012",
+    "animal": "Coccinelles",
+    "prompt": "De quoi se nourrissent de nombreuses coccinelles adultes et larves ?",
+    "options": [
+      "De pucerons et d’autres petits arthropodes",
+      "De nectar et de pollen",
+      "De feuilles et de graines",
+      "De bois et d’écorce"
+    ],
+    "answer": 0,
+    "explanation": "Beaucoup d’espèces sont prédatrices et contribuent à limiter les populations de pucerons.",
+    "didYouKnow": "Certaines coccinelles sécrètent un liquide défensif lorsqu’elles sont dérangées.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-013",
+    "animal": "Lucanes",
+    "prompt": "À quoi servent principalement les grandes mandibules du lucane cerf-volant mâle ?",
+    "options": [
+      "Aux affrontements entre mâles et à la saisie",
+      "À saisir des proies",
+      "À filtrer des particules dans l’eau",
+      "À percer des feuilles pour pondre"
+    ],
+    "answer": 0,
+    "explanation": "Les mandibules agrandies servent surtout lors des combats de compétition entre mâles.",
+    "didYouKnow": "Les larves vivent plusieurs années dans le bois mort.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-014",
+    "animal": "Lampyridés",
+    "prompt": "Quel signal les lucioles utilisent-elles souvent pour attirer un partenaire ?",
+    "options": [
+      "Une lumière produite par bioluminescence",
+      "Un son produit par les élytres",
+      "Une piste de soie",
+      "Une sécrétion odorante"
+    ],
+    "answer": 0,
+    "explanation": "Des réactions chimiques dans des organes lumineux produisent des signaux lumineux.",
+    "didYouKnow": "Les lucioles font partie des coléoptères, même si leurs signaux lumineux rappellent les vers luisants.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-015",
+    "animal": "Buprestes",
+    "prompt": "Quel aspect est fréquent chez les buprestes adultes ?",
+    "options": [
+      "Des reflets métalliques sur les élytres",
+      "Des ailes antérieures écailleuses",
+      "Un aiguillon abdominal",
+      "Des pattes sauteuses longues"
+    ],
+    "answer": 0,
+    "explanation": "De nombreux buprestes ont des couleurs irisées dues à la structure de leur cuticule.",
+    "didYouKnow": "Les larves de plusieurs espèces creusent sous l’écorce ou dans le bois.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-016",
+    "animal": "Charançons",
+    "prompt": "Quel trait permet souvent de reconnaître un charançon ?",
+    "options": [
+      "Un rostre portant les pièces buccales",
+      "Des ailes antérieures en demi-élytres",
+      "Des pattes ravisseuses",
+      "Des antennes terminées par un éventail"
+    ],
+    "answer": 0,
+    "explanation": "La tête des charançons se prolonge souvent en rostre, qui porte les pièces buccales.",
+    "didYouKnow": "Les charançons forment l’un des groupes les plus riches en espèces chez les coléoptères.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-017",
+    "animal": "Scarabées",
+    "prompt": "Quel sens les lamelles déployables des antennes de nombreux scarabées servent-elles surtout à affiner ?",
+    "options": [
+      "L’odorat",
+      "La vision",
+      "L’audition",
+      "Le goût"
+    ],
+    "answer": 0,
+    "explanation": "Les lamelles antennaires portent des récepteurs olfactifs et peuvent s’ouvrir en éventail.",
+    "didYouKnow": "Chez plusieurs scarabées, les larves vivent dans le sol ou dans du bois en décomposition.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-018",
+    "animal": "Dytiscidés",
+    "prompt": "Comment les dytiques adultes respirent-ils lorsqu’ils nagent sous l’eau ?",
+    "options": [
+      "Ils emportent une réserve d’air sous leurs élytres",
+      "Par des branchies trachéennes",
+      "Par des poumons",
+      "En retenant leur respiration jusqu’à la surface"
+    ],
+    "answer": 0,
+    "explanation": "Ils stockent une bulle d’air sous les élytres et remontent périodiquement renouveler cette réserve.",
+    "didYouKnow": "Les larves de dytiques sont des prédateurs aquatiques munis de fortes mandibules.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-019",
+    "animal": "Carabes",
+    "prompt": "Quel est le mode de vie courant des carabes adultes ?",
+    "options": [
+      "Des chasseurs terrestres souvent actifs la nuit",
+      "Des herbivores spécialisés des fleurs",
+      "Des parasites internes de poissons",
+      "Des filtreurs aquatiques"
+    ],
+    "answer": 0,
+    "explanation": "De nombreux carabes parcourent le sol et chassent limaces, chenilles ou autres invertébrés.",
+    "didYouKnow": "Certaines espèces de carabes produisent des sécrétions défensives.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-020",
+    "animal": "Coléoptères",
+    "prompt": "Quelle transformation subit une larve de coléoptère avant de devenir adulte ?",
+    "options": [
+      "Elle passe par un stade nymphal",
+      "Elle mue directement en adulte sans stade nymphal",
+      "Elle reste au stade larvaire jusqu’à la reproduction",
+      "Elle passe par un stade nymphal aquatique"
+    ],
+    "answer": 0,
+    "explanation": "Les coléoptères ont une métamorphose complète : œuf, larve, nymphe et adulte.",
+    "didYouKnow": "Les adultes de nombreux coléoptères portent des élytres au-dessus de l’abdomen.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-021",
+    "animal": "Hannetons",
+    "prompt": "Que mangent souvent les larves de hannetons, appelées vers blancs ?",
+    "options": [
+      "Des racines dans le sol",
+      "Du nectar floral",
+      "De petits animaux aquatiques",
+      "Des débris animaux"
+    ],
+    "answer": 0,
+    "explanation": "Les larves vivent sous terre et se nourrissent souvent de racines.",
+    "didYouKnow": "Leur développement larvaire peut durer plus d’une saison.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-022",
+    "animal": "Bousiers",
+    "prompt": "Quel rôle écologique les bousiers rendent-ils en enfouissant les excréments ?",
+    "options": [
+      "Ils recyclent les nutriments et enrichissent le sol",
+      "Ils pollinisent les arbres forestiers",
+      "Ils enrichissent le sol avec des minéraux marins",
+      "Ils dégradent les roches"
+    ],
+    "answer": 0,
+    "explanation": "L’enfouissement des déjections accélère le recyclage de matière et peut améliorer le sol.",
+    "didYouKnow": "Certains bousiers peuvent orienter leur déplacement à partir du soleil ou de la lumière polarisée.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-023",
+    "animal": "Ténébrionidés",
+    "prompt": "Pourquoi le ténébrion meunier est-il élevé en laboratoire et en élevage ?",
+    "options": [
+      "Ses larves sont faciles à maintenir et servent de modèle ou d’aliment",
+      "Il produit du miel",
+      "Il fournit de la soie commerciale",
+      "Il est élevé comme prédateur de moustiques"
+    ],
+    "answer": 0,
+    "explanation": "La larve, appelée ver de farine, est utilisée en recherche et comme nourriture pour animaux.",
+    "didYouKnow": "L’adulte est un coléoptère sombre de la famille des ténébrionidés.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-024",
+    "animal": "Longicornes",
+    "prompt": "Quel trait est particulièrement marqué chez beaucoup de longicornes ?",
+    "options": [
+      "Des antennes très longues",
+      "Des pattes arrière nageuses",
+      "Des ailes postérieures couvertes d’écailles",
+      "Un rostre allongé"
+    ],
+    "answer": 0,
+    "explanation": "Les antennes sont souvent aussi longues que le corps ou plus longues.",
+    "didYouKnow": "Les larves de nombreuses espèces se développent dans le bois.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-025",
+    "animal": "Coléoptères",
+    "prompt": "Quelle particularité ont les ailes postérieures fonctionnelles des coléoptères ?",
+    "options": [
+      "Elles sont membraneuses et pliées sous les élytres",
+      "Elles se replient au-dessus des élytres",
+      "Elles sont remplacées par des balanciers",
+      "Elles servent de protection aux ailes antérieures"
+    ],
+    "answer": 0,
+    "explanation": "Chez les espèces capables de voler, les ailes postérieures membraneuses se replient sous les élytres.",
+    "didYouKnow": "Les adultes de plusieurs coléoptères possèdent des glandes qui libèrent des substances défensives.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-026",
+    "animal": "Lépidoptères",
+    "prompt": "Quelle différence générale distingue les papillons de jour de nombreux papillons de nuit au repos ?",
+    "options": [
+      "Les papillons de jour tiennent souvent les ailes relevées, les papillons de nuit les étalent ou les replient en toit",
+      "Les papillons de nuit gardent souvent leurs ailes relevées",
+      "Les papillons de jour replient généralement leurs ailes sous le corps",
+      "Les papillons de nuit ont toujours des ailes plus petites"
+    ],
+    "answer": 0,
+    "explanation": "Cette posture est une tendance générale, avec des exceptions dans les deux groupes.",
+    "didYouKnow": "Les ailes des lépidoptères sont couvertes d’écailles microscopiques qui leur donnent leurs motifs et leurs couleurs.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-027",
+    "animal": "Lépidoptères",
+    "prompt": "De quoi sont couvertes les ailes des papillons et des mites ?",
+    "options": [
+      "De minuscules écailles",
+      "De plumes",
+      "De poils denses",
+      "De plaques de chitine lisses"
+    ],
+    "answer": 0,
+    "explanation": "Les écailles sont des expansions aplaties de la cuticule et portent souvent des pigments ou des structures colorées.",
+    "didYouKnow": "Les papillons peuvent percevoir des substances sucrées avec des récepteurs situés sur leurs pattes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-028",
+    "animal": "Chenilles",
+    "prompt": "Quelle fonction ont les fausses pattes abdominales d’une chenille ?",
+    "options": [
+      "Elles l’aident à s’agripper et à se déplacer",
+      "Elles deviennent les ailes de l’adulte",
+      "Elles portent les pièces buccales",
+      "Elles servent à respirer dans l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Les fausses pattes sont des appendices larvaires souples, distincts des vraies pattes thoraciques.",
+    "didYouKnow": "Certaines chenilles peuvent porter des poils ou des épines défensives.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-029",
+    "animal": "Lépidoptères",
+    "prompt": "À quoi sert la trompe enroulée de nombreux papillons adultes ?",
+    "options": [
+      "À aspirer des liquides comme le nectar",
+      "À broyer les graines",
+      "À capturer des proies",
+      "À déposer les œufs dans le bois"
+    ],
+    "answer": 0,
+    "explanation": "La trompe est formée par des pièces buccales allongées et s’enroule au repos chez de nombreuses espèces.",
+    "didYouKnow": "Certaines espèces de papillons adultes ne se nourrissent pas et vivent sur les réserves accumulées au stade larvaire.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-030",
+    "animal": "Lépidoptères",
+    "prompt": "Quel est le rôle des plantes-hôtes pour les chenilles ?",
+    "options": [
+      "Elles fournissent la nourriture larvaire à de nombreuses espèces",
+      "Les femelles de toutes les espèces y pondent nécessairement",
+      "Elles fournissent directement du nectar aux adultes",
+      "Elles servent de matériau pour fabriquer les élytres"
+    ],
+    "answer": 0,
+    "explanation": "La plupart des chenilles mangent des plantes, parfois une gamme très étroite d’espèces.",
+    "didYouKnow": "Certaines chenilles ont des couleurs qui les rendent difficiles à repérer sur leur plante-hôte.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-031",
+    "animal": "Bombyx du mûrier",
+    "prompt": "Quelle ressource alimentaire est utilisée par les larves du bombyx du mûrier ?",
+    "options": [
+      "Les feuilles de mûrier",
+      "Les aiguilles de conifères",
+      "Le nectar des fleurs",
+      "Le bois en décomposition"
+    ],
+    "answer": 0,
+    "explanation": "L’élevage traditionnel du bombyx utilise principalement des feuilles de mûrier.",
+    "didYouKnow": "Les adultes du bombyx du mûrier domestiqué ne se nourrissent généralement pas, car leurs pièces buccales sont réduites.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-032",
+    "animal": "Lépidoptères",
+    "prompt": "Comment une chenille de papillon devient-elle un adulte ?",
+    "options": [
+      "Elle se transforme au stade nymphal, souvent appelé chrysalide",
+      "Elle se transforme en adulte sans passer par une nymphe",
+      "Elle devient une larve aquatique",
+      "Elle forme une colonie sociale"
+    ],
+    "answer": 0,
+    "explanation": "Les lépidoptères connaissent une métamorphose complète et la chrysalide est leur stade nymphal.",
+    "didYouKnow": "Les adultes de certaines mites ont des ailes réduites et ne se nourrissent pas.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-033",
+    "animal": "Monarques",
+    "prompt": "Pourquoi les papillons monarques migrateurs se rassemblent-ils en grands groupes pour hiverner ?",
+    "options": [
+      "Les rassemblements favorisent un hivernage collectif dans des sites adaptés",
+      "Ils s’y rassemblent pour se reproduire en hiver",
+      "Ils passent l’hiver sous l’eau",
+      "Ils abandonnent leurs ailes avant la migration"
+    ],
+    "answer": 0,
+    "explanation": "Les populations migratrices d’Amérique du Nord passent l’hiver dans des sites précis, souvent en colonies denses.",
+    "didYouKnow": "Le monarque est un papillon de la famille des Nymphalidae.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-034",
+    "animal": "Sphinx",
+    "prompt": "Comment certains sphinx peuvent-ils se nourrir de fleurs profondes ?",
+    "options": [
+      "Ils possèdent une longue trompe pour atteindre le nectar",
+      "Ils percent la corolle avec leurs mandibules",
+      "Ils absorbent le nectar par les pattes",
+      "Ils prélèvent le nectar depuis le pédoncule"
+    ],
+    "answer": 0,
+    "explanation": "La longue trompe de certains sphinx leur permet d’atteindre le nectar au fond de corolles tubulaires.",
+    "didYouKnow": "Les sphinx ont souvent un corps fuselé et des ailes étroites adaptées à un vol rapide.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-035",
+    "animal": "Hyménoptères",
+    "prompt": "Quel caractère est courant chez les hyménoptères adultes ?",
+    "options": [
+      "Deux paires d’ailes membraneuses, parfois réduites ou absentes",
+      "Deux paires d’élytres",
+      "Une paire d’ailes avec des balanciers",
+      "Des ailes écailleuses"
+    ],
+    "answer": 0,
+    "explanation": "La plupart des hyménoptères ailés ont deux paires d’ailes couplées par de petits crochets.",
+    "didYouKnow": "Les fourmis et les abeilles partagent l’ordre des hyménoptères avec les guêpes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-036",
+    "animal": "Abeilles",
+    "prompt": "Que récoltent les abeilles mellifères sur les fleurs pour fabriquer le miel ?",
+    "options": [
+      "Du nectar",
+      "Du pollen pour fabriquer directement le miel",
+      "De la sève des feuilles",
+      "De la cire des végétaux"
+    ],
+    "answer": 0,
+    "explanation": "Les abeilles transforment et déshydratent le nectar dans la ruche pour produire du miel.",
+    "didYouKnow": "Les abeilles mellifères utilisent de la propolis, une résine végétale, pour colmater certaines fissures de la ruche.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-037",
+    "animal": "Abeilles",
+    "prompt": "Quel rôle le pollen joue-t-il dans la reproduction des plantes à fleurs ?",
+    "options": [
+      "Le pollen porte le gamétophyte mâle jusqu’au stigmate, puis un tube pollinique peut croître vers l’ovule",
+      "Le pollen fournit directement du sucre aux ovules avant la fécondation",
+      "Le pollen nourrit l’embryon une fois la graine formée",
+      "Le pollen contient le gamétophyte femelle de la plante"
+    ],
+    "answer": 0,
+    "explanation": "Le grain de pollen porte le gamétophyte mâle. Après le dépôt d’un pollen compatible sur le stigmate, un tube pollinique peut acheminer les gamètes mâles jusqu’à l’ovule.",
+    "didYouKnow": "Les abeilles peuvent aussi percevoir la lumière ultraviolette, invisible à l’œil humain.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-038",
+    "animal": "Abeilles",
+    "prompt": "Comment une abeille domestique indique-t-elle souvent une source de nourriture éloignée ?",
+    "options": [
+      "Par une danse frétillante qui indique notamment la direction et la distance",
+      "Par une danse circulaire qui indique une ressource lointaine avec son orientation précise",
+      "En déposant une piste de phéromones depuis la ruche jusqu’à la fleur",
+      "En produisant un son continu dont la fréquence indique le point cardinal"
+    ],
+    "answer": 0,
+    "explanation": "La danse frétillante transmet à ses congénères des informations sur la direction et l’éloignement d’une ressource.",
+    "didYouKnow": "Les abeilles ouvrières battent des ailes à l’entrée de la ruche pour contribuer à sa ventilation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-039",
+    "animal": "Abeilles",
+    "prompt": "Quel individu pond la majorité des œufs dans une colonie d’abeilles mellifères ?",
+    "options": [
+      "La reine",
+      "Les ouvrières en proportions égales",
+      "Les faux-bourdons",
+      "Les larves âgées"
+    ],
+    "answer": 0,
+    "explanation": "La reine est la principale femelle reproductrice de la colonie.",
+    "didYouKnow": "La reine d’abeille mellifère peut vivre plusieurs années, bien plus longtemps qu’une ouvrière d’été.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-040",
+    "animal": "Abeilles",
+    "prompt": "Quel est le rôle des faux-bourdons dans une colonie d’abeilles mellifères ?",
+    "options": [
+      "Féconder une reine lors du vol nuptial",
+      "Récolter le nectar pour la colonie",
+      "Construire les rayons de cire",
+      "Défendre la ruche contre les prédateurs"
+    ],
+    "answer": 0,
+    "explanation": "Les mâles s’accouplent avec des reines lors des vols nuptiaux.",
+    "didYouKnow": "Les faux-bourdons n’ont pas d’aiguillon.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-041",
+    "animal": "Abeilles",
+    "prompt": "Pourquoi les ouvrières d’abeilles mellifères peuvent-elles piquer une menace ?",
+    "options": [
+      "Elles possèdent un aiguillon modifié de l’appareil de ponte",
+      "Le venin est injecté par les mandibules",
+      "Le venin est projeté par la bouche",
+      "Les pattes postérieures portent un aiguillon"
+    ],
+    "answer": 0,
+    "explanation": "L’aiguillon des ouvrières est une structure dérivée de l’ovipositeur ancestral.",
+    "didYouKnow": "Les abeilles mellifères communiquent aussi l’emplacement de ressources par une danse frétillante.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-042",
+    "animal": "Bourdons",
+    "prompt": "Comment les bourdons contribuent-ils à la pollinisation de certaines fleurs ?",
+    "options": [
+      "Ils font vibrer les anthères pour libérer le pollen",
+      "Ils récoltent le pollen déjà libéré sans faire vibrer la fleur",
+      "Ils percent la corolle pour atteindre le nectar sans toucher les anthères",
+      "Ils déposent le pollen sur les fleurs en frottant leur abdomen contre elles"
+    ],
+    "answer": 0,
+    "explanation": "La pollinisation vibratile, ou « buzz pollination », libère le pollen de certaines anthères.",
+    "didYouKnow": "Les colonies de bourdons sont généralement annuelles; seules les jeunes reines fécondées passent l’hiver.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-043",
+    "animal": "Fourmis",
+    "prompt": "Quel signal chimique aide souvent les fourmis à suivre une piste vers la nourriture ?",
+    "options": [
+      "Les phéromones",
+      "Les enzymes digestives",
+      "Les pigments cuticulaires",
+      "Les hormones de mue"
+    ],
+    "answer": 0,
+    "explanation": "Les fourmis déposent des phéromones de piste que leurs congénères peuvent suivre.",
+    "didYouKnow": "Certaines fourmis élèvent des pucerons et récoltent le miellat qu’ils excrètent.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-044",
+    "animal": "Fourmis",
+    "prompt": "Que désigne le terme « supercolonie » chez certaines fourmis ?",
+    "options": [
+      "Un réseau de nids étendu dont les membres coopèrent largement",
+      "Un nid unique de très grande taille",
+      "Un groupe composé uniquement de reines",
+      "Un ensemble de nids où les ouvrières sont agressives entre elles"
+    ],
+    "answer": 0,
+    "explanation": "Des nids reliés peuvent former une vaste société avec peu d’agressivité entre individus.",
+    "didYouKnow": "La fourmi argentine est originaire d’Amérique du Sud.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-045",
+    "animal": "Fourmis coupe-feuilles",
+    "prompt": "À quoi servent les morceaux de feuilles transportés par les fourmis coupe-feuilles ?",
+    "options": [
+      "À cultiver le champignon dont elles se nourrissent",
+      "À nourrir directement les larves",
+      "À construire le nid en papier",
+      "À fabriquer les ailes de la reine"
+    ],
+    "answer": 0,
+    "explanation": "Les feuilles servent de substrat à un champignon cultivé dans le nid.",
+    "didYouKnow": "Les fourmis coupe-feuilles possèdent une reine qui peut vivre plusieurs années.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-046",
+    "animal": "Guêpes parasitoïdes",
+    "prompt": "Comment une guêpe parasitoïde utilise-t-elle souvent un hôte ?",
+    "options": [
+      "Elle pond dans ou sur un hôte, où sa larve se développe à ses dépens",
+      "Elle capture plusieurs proies et les stocke dans une cellule pour sa larve",
+      "Elle pond dans les tissus d’une plante, où sa larve consomme les feuilles",
+      "Elle paralyse un insecte puis le consomme elle-même sans y pondre"
+    ],
+    "answer": 0,
+    "explanation": "La larve parasitoïde se nourrit de l’hôte et finit généralement par le tuer.",
+    "didYouKnow": "De nombreuses guêpes parasitoïdes sont assez petites pour passer inaperçues.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-047",
+    "animal": "Guêpes sociales",
+    "prompt": "De quoi sont faits les nids de papier de nombreuses guêpes sociales ?",
+    "options": [
+      "De fibres végétales mâchées et mélangées à de la salive",
+      "De cire abdominale",
+      "De boue liée par du venin",
+      "De soie produite par les ouvrières"
+    ],
+    "answer": 0,
+    "explanation": "Les guêpes mâchent des fibres de bois et les assemblent en cellules de papier.",
+    "didYouKnow": "Les nids sont souvent attachés à des branches, des bâtiments ou des cavités.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-048",
+    "animal": "Tenthrèdes",
+    "prompt": "À quoi sert l’ovipositeur en forme de scie des femelles tenthrèdes ?",
+    "options": [
+      "À entailler les tissus végétaux pour y déposer les œufs",
+      "À découper des morceaux de feuilles pour nourrir les adultes",
+      "À creuser une galerie dans le sol avant la ponte",
+      "À percer une proie pour y injecter du venin"
+    ],
+    "answer": 0,
+    "explanation": "Les femelles de nombreuses tenthrèdes utilisent leur ovipositeur dentelé pour ouvrir une fente dans une feuille ou une tige et y pondre.",
+    "didYouKnow": "Les tenthrèdes appartiennent aux hyménoptères, mais n’ont pas la taille étranglée typique des guêpes apocrites.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-049",
+    "animal": "Diptères",
+    "prompt": "Combien de paires d’ailes fonctionnelles les diptères possèdent-ils généralement ?",
+    "options": [
+      "Une paire",
+      "Deux paires d’ailes membraneuses",
+      "Trois paires",
+      "Aucune aile chez tous les diptères"
+    ],
+    "answer": 0,
+    "explanation": "Les diptères ont une paire d’ailes antérieures; la paire postérieure est transformée en balanciers.",
+    "didYouKnow": "Les larves de plusieurs mouches vivent dans l’eau, le sol ou des matières organiques en décomposition.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-050",
+    "animal": "Mouches",
+    "prompt": "À quoi servent les balanciers des mouches ?",
+    "options": [
+      "À détecter les rotations et stabiliser le vol",
+      "À mesurer la lumière ambiante",
+      "À détecter les odeurs",
+      "À produire les signaux sonores de parade"
+    ],
+    "answer": 0,
+    "explanation": "Les balanciers sont des organes sensoriels qui aident à contrôler l’équilibre et les manœuvres.",
+    "didYouKnow": "Les pattes des mouches portent des coussinets adhésifs qui les aident à marcher sur les surfaces lisses.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-051",
+    "animal": "Mouches",
+    "prompt": "Comment une mouche domestique goûte-t-elle souvent une surface ?",
+    "options": [
+      "Avec des récepteurs gustatifs situés notamment sur ses pattes",
+      "Avec ses ailes",
+      "Avec les stigmates du thorax",
+      "Avec les balanciers"
+    ],
+    "answer": 0,
+    "explanation": "Les récepteurs sensoriels des pattes peuvent détecter des composés alimentaires.",
+    "didYouKnow": "Les mouches domestiques possèdent des yeux composés qui couvrent une grande partie de la tête.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-052",
+    "animal": "Moustiques",
+    "prompt": "Quel liquide les femelles de nombreuses espèces de moustiques recherchent-elles pour produire leurs œufs ?",
+    "options": [
+      "Du sang, riche en nutriments",
+      "Du nectar",
+      "De la sève",
+      "Du pollen"
+    ],
+    "answer": 0,
+    "explanation": "Chez beaucoup d’espèces, le repas sanguin fournit des nutriments nécessaires au développement des œufs.",
+    "didYouKnow": "De nombreuses espèces de moustiques pondent leurs œufs dans ou près de l’eau, où se développent les larves.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-053",
+    "animal": "Moustiques",
+    "prompt": "Où les larves de moustiques se développent-elles le plus souvent ?",
+    "options": [
+      "Dans l’eau",
+      "Dans les galeries du bois",
+      "Dans les fleurs terrestres",
+      "Dans les nids d’oiseaux"
+    ],
+    "answer": 0,
+    "explanation": "Les larves aquatiques filtrent ou broutent des particules dans l’eau.",
+    "didYouKnow": "Les moustiques mâles de certaines espèces forment des essaims de parade où les femelles viennent s’accoupler.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-054",
+    "animal": "Moustiques",
+    "prompt": "Comment une larve de moustique respire-t-elle souvent à la surface de l’eau ?",
+    "options": [
+      "Par un siphon respiratoire ou des stigmates à la surface",
+      "Par des branchies trachéennes externes qui extraient l’oxygène dissous",
+      "Par des échanges à travers la cuticule sans remonter",
+      "Par des stigmates situés à l’extrémité des pattes"
+    ],
+    "answer": 0,
+    "explanation": "De nombreuses larves viennent à la surface et prennent l’air par un tube ou des stigmates.",
+    "didYouKnow": "Chez plusieurs moustiques, les mâles détectent les femelles grâce aux sons de leurs battements d’ailes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-055",
+    "animal": "Mouches syrphes",
+    "prompt": "Comment distinguer souvent un syrphe d’une guêpe qu’il imite ?",
+    "options": [
+      "Le syrphe n’a qu’une paire d’ailes et peut faire du vol stationnaire",
+      "Le syrphe a quatre ailes écailleuses",
+      "Le syrphe possède huit pattes",
+      "Le syrphe porte un aiguillon venimeux"
+    ],
+    "answer": 0,
+    "explanation": "Les syrphes sont des diptères inoffensifs, dont certains imitent l’apparence des guêpes.",
+    "didYouKnow": "Les larves de nombreux syrphes se nourrissent de pucerons.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-056",
+    "animal": "Mouches bleues",
+    "prompt": "Quel rôle jouent souvent les asticots de mouches nécrophages dans un écosystème ?",
+    "options": [
+      "Ils consomment des tissus animaux morts et accélèrent leur décomposition",
+      "Ils pollinisent les conifères",
+      "Ils fabriquent de la cire",
+      "Ils chassent des poissons"
+    ],
+    "answer": 0,
+    "explanation": "Les larves nécrophages participent au recyclage des matières animales.",
+    "didYouKnow": "Les mouches bleues adultes ont souvent un corps aux reflets métalliques bleus ou verts.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-057",
+    "animal": "Drosophiles",
+    "prompt": "Pourquoi Drosophila melanogaster est-elle devenue un organisme modèle en biologie ?",
+    "options": [
+      "Son cycle de vie court et sa génétique sont faciles à étudier",
+      "Elle possède un cerveau plus volumineux que les autres mouches",
+      "Elle a un cycle de vie de plusieurs années",
+      "Elle est difficile à élever en laboratoire"
+    ],
+    "answer": 0,
+    "explanation": "Cette petite mouche se reproduit rapidement et a permis de nombreuses découvertes en génétique.",
+    "didYouKnow": "Les drosophiles mâles produisent des signaux de parade qui comprennent des vibrations d’ailes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-058",
+    "animal": "Taons",
+    "prompt": "Comment les taons femelles obtiennent-elles parfois le sang nécessaire à leurs œufs ?",
+    "options": [
+      "Elles coupent ou entaillent la peau avec des pièces buccales puissantes",
+      "Elles piquent avec un aiguillon",
+      "Elles absorbent le sang par les pattes",
+      "Elles capturent des moustiques gorgés de sang"
+    ],
+    "answer": 0,
+    "explanation": "Les pièces buccales coupantes créent une petite plaie dont le sang est aspiré.",
+    "didYouKnow": "Chez de nombreux taons, les yeux des mâles se touchent au sommet de la tête, contrairement à ceux des femelles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-059",
+    "animal": "Diptères",
+    "prompt": "Quelle est la forme larvaire courante des diptères ?",
+    "options": [
+      "Un asticot sans vraies pattes thoraciques",
+      "Une chenille munie de fausses pattes",
+      "Une nymphe avec des ailes",
+      "Une larve à pattes articulées et élytres"
+    ],
+    "answer": 0,
+    "explanation": "Les larves de nombreuses mouches sont des asticots dépourvus de pattes articulées.",
+    "didYouKnow": "Les larves de certains diptères vivent dans des milieux aquatiques.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-060",
+    "animal": "Orthoptères",
+    "prompt": "Quel trait des pattes arrière aide de nombreux criquets à sauter ?",
+    "options": [
+      "Des fémurs puissants et élargis",
+      "Des ventouses",
+      "Des nageoires",
+      "Des pinces"
+    ],
+    "answer": 0,
+    "explanation": "Les fémurs postérieurs musclés fournissent la puissance du saut.",
+    "didYouKnow": "Les femelles de nombreux criquets déposent leurs œufs dans le sol à l’aide de leur abdomen.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-061",
+    "animal": "Criquets",
+    "prompt": "Comment les criquets produisent-ils souvent leur chant ?",
+    "options": [
+      "En frottant une partie du corps contre une autre",
+      "En frottant l’abdomen contre une aile",
+      "En claquant les mandibules",
+      "En frappant les ailes contre une surface"
+    ],
+    "answer": 0,
+    "explanation": "Plusieurs criquets stridulent en frottant une rangée de dents contre une partie de l’aile ou de la patte.",
+    "didYouKnow": "Les criquets présentent souvent une coloration qui les rend moins visibles dans la végétation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-062",
+    "animal": "Sauterelles",
+    "prompt": "Comment la longueur des antennes des sauterelles se compare-t-elle généralement à celle des criquets ?",
+    "options": [
+      "Elles sont souvent longues, parfois aussi longues que le corps",
+      "Elles sont absentes",
+      "Elles sont en forme de pinces",
+      "Elles sont plus courtes que les palpes"
+    ],
+    "answer": 0,
+    "explanation": "Chez les sauterelles au sens courant, les antennes sont longues; les criquets ont souvent des antennes plus courtes.",
+    "didYouKnow": "Les sauterelles et les criquets appartiennent tous deux à l’ordre des orthoptères.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-063",
+    "animal": "Grillons",
+    "prompt": "Quel organe auditif se trouve souvent sur les pattes avant des grillons ?",
+    "options": [
+      "Un tympan",
+      "Un balancier",
+      "Une membrane sur les élytres",
+      "Un organe olfactif abdominal"
+    ],
+    "answer": 0,
+    "explanation": "Les tympans des grillons sont souvent placés sur les tibias antérieurs.",
+    "didYouKnow": "Les femelles grillons déposent leurs œufs dans un substrat grâce à leur ovipositeur.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-064",
+    "animal": "Mantes",
+    "prompt": "Comment une mante religieuse capture-t-elle principalement ses proies ?",
+    "options": [
+      "Avec ses pattes avant ravisseuses épineuses",
+      "En saisissant les proies avec ses mandibules",
+      "En leur injectant du venin avec un aiguillon",
+      "En les capturant dans une toile"
+    ],
+    "answer": 0,
+    "explanation": "Les pattes antérieures repliées et épineuses saisissent les proies.",
+    "didYouKnow": "La tête très mobile permet à la mante de suivre visuellement une cible.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-065",
+    "animal": "Mantes",
+    "prompt": "Pourquoi la tête d’une mante peut-elle pivoter largement ?",
+    "options": [
+      "Grâce à une articulation cervicale spécialisée et très mobile",
+      "Parce que les vertèbres du cou sont soudées en une tige rigide",
+      "Parce que les yeux pivotent dans leurs orbites tandis que la tête reste fixe",
+      "Parce que le thorax tourne sous une tête fixée à l’abdomen"
+    ],
+    "answer": 0,
+    "explanation": "La tête peut tourner davantage que chez la plupart des insectes grâce à une articulation spécialisée.",
+    "didYouKnow": "Les mantes ont des yeux composés et trois petits ocelles sur le dessus de la tête.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-066",
+    "animal": "Phasmes",
+    "prompt": "Quel avantage le mimétisme apporte-t-il à de nombreux phasmes ?",
+    "options": [
+      "Ils se confondent avec des brindilles ou des feuilles",
+      "Ils attirent leurs proies avec une lumière vive",
+      "Ils effraient les oiseaux par un son puissant",
+      "Ils se cachent sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "La forme et la couleur des phasmes rendent leur détection plus difficile parmi la végétation.",
+    "didYouKnow": "Les phasmes appartiennent à un ordre distinct des criquets et des sauterelles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-067",
+    "animal": "Blattes",
+    "prompt": "Quel caractère aide les blattes à détecter les mouvements d’air derrière elles ?",
+    "options": [
+      "Des cerques sensoriels à l’extrémité de l’abdomen",
+      "Des antennes qui détectent surtout les odeurs devant la tête",
+      "Des tympans situés sur les pattes antérieures",
+      "Des yeux composés qui repèrent les déplacements derrière le corps"
+    ],
+    "answer": 0,
+    "explanation": "Les cerques portent des récepteurs sensibles aux courants d’air et peuvent déclencher une fuite rapide.",
+    "didYouKnow": "Les blattes peuvent détecter les odeurs grâce à des récepteurs portés par leurs antennes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-068",
+    "animal": "Blattes",
+    "prompt": "Quel rôle écologique certaines blattes jouent-elles dans les forêts ?",
+    "options": [
+      "Décomposer des matières végétales mortes",
+      "Elles consomment surtout la sève des arbres",
+      "Elles chassent toutes les espèces d’oiseaux",
+      "Elles vivent exclusivement dans les fleurs"
+    ],
+    "answer": 0,
+    "explanation": "Plusieurs espèces forestières consomment des feuilles mortes et contribuent au recyclage de la matière.",
+    "didYouKnow": "La plupart des espèces de blattes vivent dans la nature plutôt que dans les habitations humaines.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-069",
+    "animal": "Termites",
+    "prompt": "De quel ordre zoologique les termites font-ils désormais partie ?",
+    "options": [
+      "Au sein de l’ordre Blattodea, avec les blattes",
+      "Au sein des Hymenoptera, le même ordre que les fourmis",
+      "Au sein des Orthoptera, le même ordre que les criquets",
+      "Au sein des Hemiptera, le même ordre que les punaises"
+    ],
+    "answer": 0,
+    "explanation": "Les analyses phylogénétiques placent les termites au sein de l’ordre Blattodea, avec les blattes.",
+    "didYouKnow": "Les termites ailés quittent leur colonie pour essaimer et fonder de nouveaux nids.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-070",
+    "animal": "Termites",
+    "prompt": "Quel partenaire microbien aide de nombreux termites à digérer le bois ?",
+    "options": [
+      "Des microorganismes vivant dans leur tube digestif",
+      "Des bactéries dans leurs ailes",
+      "Des algues sur la cuticule",
+      "Des virus dans les antennes"
+    ],
+    "answer": 0,
+    "explanation": "Des microbes intestinaux dégradent des composants de la cellulose et de la lignine.",
+    "didYouKnow": "Les termites ailés quittent la colonie pour essaimer et fonder de nouveaux nids.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-071",
+    "animal": "Termites",
+    "prompt": "Comment les termites soldats protègent-ils souvent la colonie ?",
+    "options": [
+      "Avec des mandibules fortes ou des sécrétions défensives",
+      "En bloquant l’entrée avec leur tête",
+      "En déposant des œufs dans les intrus",
+      "En tissant une toile autour du nid"
+    ],
+    "answer": 0,
+    "explanation": "Les soldats sont spécialisés dans la défense et peuvent avoir des mandibules ou des glandes défensives.",
+    "didYouKnow": "Les ouvriers termites ont souvent un corps pâle et évitent la lumière.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-072",
+    "animal": "Odonates",
+    "prompt": "Où les larves de libellules et de demoiselles vivent-elles généralement ?",
+    "options": [
+      "Dans l’eau douce",
+      "Dans les galeries du bois",
+      "Dans les graines mûres",
+      "Dans les nids d’abeilles"
+    ],
+    "answer": 0,
+    "explanation": "Les larves aquatiques, appelées naïades, chassent de petites proies.",
+    "didYouKnow": "Les odonates adultes ont de grands yeux composés qui leur donnent une excellente détection des mouvements.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-073",
+    "animal": "Libellules",
+    "prompt": "Comment les libellules capturent-elles souvent leurs proies en vol ?",
+    "options": [
+      "Elles les interceptent avec leurs pattes formant une sorte de panier",
+      "Elles les attrapent avec une toile",
+      "Elles les aspirent avec une trompe",
+      "Elles injectent du venin à distance"
+    ],
+    "answer": 0,
+    "explanation": "Les libellules sont des prédateurs aériens et saisissent souvent les insectes avec leurs pattes.",
+    "didYouKnow": "Les yeux composés des libellules occupent une grande partie de leur tête.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-074",
+    "animal": "Demoiselles",
+    "prompt": "Quelle posture d’ailes est fréquente chez les demoiselles au repos ?",
+    "options": [
+      "Les ailes repliées le long du corps",
+      "Les ailes étalées en permanence",
+      "Les ailes croisées sous le ventre",
+      "Les ailes enroulées autour des antennes"
+    ],
+    "answer": 0,
+    "explanation": "Beaucoup de demoiselles replient leurs ailes au-dessus du corps lorsqu’elles sont posées.",
+    "didYouKnow": "Chez les demoiselles, les yeux sont généralement séparés de chaque côté de la tête.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-075",
+    "animal": "Odonates",
+    "prompt": "Comment les odonates émergent-ils de leur stade larvaire ?",
+    "options": [
+      "La larve sort de l’eau et l’adulte émerge de son ancienne cuticule",
+      "L’adulte sort d’un cocon sous l’eau",
+      "Une chrysalide dérive à la surface",
+      "La larve se divise en deux"
+    ],
+    "answer": 0,
+    "explanation": "La mue imaginale se déroule généralement hors de l’eau, sur une tige ou un support.",
+    "didYouKnow": "Les libellules adultes ne peuvent pas replier leurs ailes à plat le long de leur abdomen.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-076",
+    "animal": "Éphémères",
+    "prompt": "Pourquoi les adultes de nombreuses éphémères vivent-ils peu de temps ?",
+    "options": [
+      "Le stade adulte est surtout consacré à la reproduction et ne se nourrit souvent pas",
+      "Elles ne s’alimentent généralement pas au stade adulte",
+      "Elles vivent longtemps mais pondent une seule fois",
+      "Leurs ailes cessent de fonctionner après l’éclosion"
+    ],
+    "answer": 0,
+    "explanation": "Chez de nombreuses espèces, l’adulte ne se nourrit pas et vit juste assez longtemps pour se reproduire.",
+    "didYouKnow": "Les adultes d’éphémères peuvent émerger en grands essaims au-dessus de l’eau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-077",
+    "animal": "Éphémères",
+    "prompt": "Quel insecte possède un stade ailé intermédiaire unique appelé subimago ?",
+    "options": [
+      "L’éphémère",
+      "Le plécoptère",
+      "Le trichoptère",
+      "La libellule"
+    ],
+    "answer": 0,
+    "explanation": "L’éphémère mue une fois de plus après son premier stade ailé, le subimago.",
+    "didYouKnow": "Les ailes des éphémères adultes sont souvent dressées verticalement au repos.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-078",
+    "animal": "Plécoptères",
+    "prompt": "Que suggère souvent la présence de larves de plécoptères dans un cours d’eau ?",
+    "options": [
+      "Une eau bien oxygénée",
+      "Une eau anoxique",
+      "Une eau marine",
+      "Une eau contaminée par les hydrocarbures"
+    ],
+    "answer": 0,
+    "explanation": "Beaucoup de larves de plécoptères sont sensibles au manque d’oxygène et à la pollution.",
+    "didYouKnow": "Les plécoptères sont parfois appelés perles, d’après l’apparence de plusieurs espèces adultes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-079",
+    "animal": "Trichoptères",
+    "prompt": "De quoi les larves de nombreux trichoptères fabriquent-elles un fourreau ?",
+    "options": [
+      "De soie associée à du sable, des brindilles ou d’autres débris",
+      "D’écailles",
+      "De cire",
+      "De plaques chitineuses sécrétées"
+    ],
+    "answer": 0,
+    "explanation": "Les larves sécrètent de la soie et y incorporent des matériaux disponibles dans leur habitat aquatique.",
+    "didYouKnow": "Les phryganes adultes ont souvent des antennes filiformes et de longues ailes étroites.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-080",
+    "animal": "Puces",
+    "prompt": "Comment les puces adultes se déplacent-elles efficacement sur leur hôte ?",
+    "options": [
+      "Leur corps aplati latéralement et leurs pattes sauteuses les aident",
+      "Elles volent avec des ailes",
+      "Elles nagent dans la fourrure",
+      "Elles s’attachent avec une ventouse"
+    ],
+    "answer": 0,
+    "explanation": "Le corps comprimé latéralement facilite le déplacement entre les poils, et les pattes permettent de sauter.",
+    "didYouKnow": "Les puces peuvent survivre un certain temps sans repas sanguin entre deux hôtes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-081",
+    "animal": "Poux",
+    "prompt": "Comment les poux se transmettent-ils souvent entre hôtes ?",
+    "options": [
+      "Par contact rapproché entre hôtes",
+      "Par des vecteurs piqueurs",
+      "En volant de longues distances",
+      "Par un stade larvaire aquatique"
+    ],
+    "answer": 0,
+    "explanation": "Les poux sont sans ailes et se déplacent de proche en proche, souvent lors de contacts directs.",
+    "didYouKnow": "Les poux de mammifères et d’oiseaux sont souvent étroitement adaptés à leurs hôtes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-082",
+    "animal": "Pou des plumes du pigeon",
+    "prompt": "De quoi le pou des plumes du pigeon, Columbicola columbae, se nourrit-il principalement ?",
+    "options": [
+      "De fragments de plumes",
+      "De squames et de peau morte",
+      "De sang prélevé sur l’hôte",
+      "De sécrétions grasses à la base des plumes"
+    ],
+    "answer": 0,
+    "explanation": "Ce pou broyeur est spécialisé dans la consommation de matière provenant des plumes de son hôte. Il se distingue des poux qui se nourrissent de sang.",
+    "didYouKnow": "Le pou du pigeon est sans ailes et aplati pour se déplacer entre les plumes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-083",
+    "animal": "Psoques",
+    "prompt": "Où trouve-t-on couramment des psoques ?",
+    "options": [
+      "Sur des moisissures, des lichens ou des débris organiques humides",
+      "Dans les fleurs tropicales seulement",
+      "Dans des milieux marins",
+      "Dans les nids d’oiseaux uniquement"
+    ],
+    "answer": 0,
+    "explanation": "Les psoques exploitent souvent les micro-organismes et débris présents dans les milieux humides.",
+    "didYouKnow": "Certaines espèces de psoques sont surnommées poux des livres, mais ne sont pas des poux parasites.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-084",
+    "animal": "Thysanoures",
+    "prompt": "Quelle caractéristique des poissons d’argent est typique des insectes aptérygotes ?",
+    "options": [
+      "Ils sont dépourvus d’ailes à l’âge adulte",
+      "Quatre ailes membraneuses",
+      "Des balanciers",
+      "Des élytres"
+    ],
+    "answer": 0,
+    "explanation": "Les poissons d’argent appartiennent à une lignée d’insectes primitivement sans ailes.",
+    "didYouKnow": "Les poissons d’argent muent encore après avoir atteint leur maturité.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-085",
+    "animal": "Insectes aquatiques",
+    "prompt": "Comment les larves de plécoptères obtiennent-elles souvent l’oxygène dans l’eau ?",
+    "options": [
+      "Par des branchies trachéennes ou à travers la surface du corps",
+      "Par un siphon qu’elles relient périodiquement à l’air",
+      "Par des poumons qui prélèvent l’oxygène dissous",
+      "Par des branchies qui pompent l’air hors de l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Les échanges gazeux des larves aquatiques se font par des branchies ou à travers des zones de la cuticule.",
+    "didYouKnow": "Les adultes de plécoptères replient souvent leurs ailes à plat sur l’abdomen.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-086",
+    "animal": "Chironomes",
+    "prompt": "Pourquoi les larves de certains chironomes sont-elles rougeâtres ?",
+    "options": [
+      "Elles contiennent un pigment respiratoire appelé hémoglobine",
+      "Elles accumulent des caroténoïdes de leur nourriture",
+      "Elles possèdent de l’hémocyanine dans leur hémolymphe",
+      "Leur cuticule contient un pigment rouge produit par des bactéries"
+    ],
+    "answer": 0,
+    "explanation": "L’hémoglobine aide certaines larves à capter l’oxygène dans des habitats pauvres en oxygène.",
+    "didYouKnow": "Les adultes de chironomes ressemblent à de petits moustiques, mais ne piquent pas.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-087",
+    "animal": "Phryganes",
+    "prompt": "À quel ordre appartiennent les phryganes, dont les larves construisent parfois des fourreaux ?",
+    "options": [
+      "Aux trichoptères",
+      "Aux plécoptères",
+      "Aux lépidoptères",
+      "Aux éphéméroptères"
+    ],
+    "answer": 0,
+    "explanation": "Les phryganes sont des trichoptères, proches des lépidoptères sur le plan évolutif.",
+    "didYouKnow": "Les larves de nombreuses phryganes assemblent des grains de sable, des brindilles ou d’autres matériaux avec de la soie.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-088",
+    "animal": "Cigales",
+    "prompt": "Comment les cigales mâles produisent-elles leur chant puissant ?",
+    "options": [
+      "Avec des timbales vibrantes sur l’abdomen",
+      "En frottant leurs pattes",
+      "Avec des balanciers",
+      "En claquant leurs mandibules"
+    ],
+    "answer": 0,
+    "explanation": "Les timbales sont des membranes abdominales qui vibrent sous l’action de muscles.",
+    "didYouKnow": "Les nymphes de nombreuses cigales vivent sous terre et se nourrissent de la sève des racines.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-089",
+    "animal": "Cicadelles",
+    "prompt": "Comment les cicadelles sautent-elles rapidement lorsqu’elles sont dérangées ?",
+    "options": [
+      "Grâce à leurs pattes postérieures adaptées au saut",
+      "En déployant des ailes écailleuses",
+      "En expulsant de l’eau",
+      "En déroulant une queue"
+    ],
+    "answer": 0,
+    "explanation": "Leurs pattes postérieures sont spécialisées et peuvent propulser le corps loin du support.",
+    "didYouKnow": "Les cicadelles peuvent transmettre des agents pathogènes à certaines plantes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-090",
+    "animal": "Pucerons",
+    "prompt": "Comment de nombreux pucerons se reproduisent-ils pendant une partie de l’année ?",
+    "options": [
+      "Par parthénogenèse, avec des femelles donnant naissance à des descendants sans fécondation",
+      "Par accouplement obligatoire à chaque génération",
+      "Par bourgeonnement de la cuticule",
+      "Par division d’un individu adulte en deux"
+    ],
+    "answer": 0,
+    "explanation": "La parthénogenèse permet à certaines populations de croître rapidement quand les conditions sont favorables.",
+    "didYouKnow": "Les pucerons peuvent être associés à des fourmis qui récoltent leur miellat.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-091",
+    "animal": "Pucerons",
+    "prompt": "Que libèrent les pucerons par les cornicules situées sur leur abdomen ?",
+    "options": [
+      "Des sécrétions cireuses ou défensives",
+      "Du miellat destiné aux fourmis",
+      "De la sève aspirée de la plante",
+      "Des œufs protégés par une capsule"
+    ],
+    "answer": 0,
+    "explanation": "Les cornicules sécrètent des substances cireuses ou défensives chez de nombreux pucerons.",
+    "didYouKnow": "Quand les conditions changent, certaines espèces de pucerons produisent des individus ailés.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-092",
+    "animal": "Cigales",
+    "prompt": "Pourquoi les cigales peuvent-elles rester longtemps sous terre avant d’émerger ?",
+    "options": [
+      "Leur développement nymphal souterrain peut durer plusieurs années",
+      "Elles restent inactives toute leur vie",
+      "Elles se transforment en poissons",
+      "Elles attendent la floraison d’un arbre"
+    ],
+    "answer": 0,
+    "explanation": "Les nymphes vivent et se nourrissent de sève racinaire avant leur émergence.",
+    "didYouKnow": "Les cigales adultes possèdent des yeux composés largement écartés.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-093",
+    "animal": "Hémiptères",
+    "prompt": "Quel type de pièces buccales est courant chez les hémiptères piqueurs-suceurs ?",
+    "options": [
+      "Un rostre perforant adapté à aspirer des liquides",
+      "Des mandibules broyeuses",
+      "Une trompe enroulée",
+      "Des pièces buccales adaptées au léchage"
+    ],
+    "answer": 0,
+    "explanation": "Le rostre permet de percer les tissus ou d’accéder aux fluides végétaux.",
+    "didYouKnow": "Les punaises d’eau géantes respirent à la surface grâce à un appendice respiratoire situé à l’extrémité de l’abdomen.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-094",
+    "animal": "Punaises",
+    "prompt": "En quoi les ailes antérieures de nombreuses punaises diffèrent-elles de celles des coléoptères ?",
+    "options": [
+      "Elles sont partiellement durcies, avec une extrémité membraneuse",
+      "Elles sont entièrement durcies et se rejoignent en ligne droite",
+      "Elles sont membraneuses sur toute leur longueur",
+      "Elles sont transformées en balanciers pour stabiliser le vol"
+    ],
+    "answer": 0,
+    "explanation": "Les hémélytres ont une partie basale coriace et une partie distale membraneuse.",
+    "didYouKnow": "De nombreuses punaises ont un scutellum triangulaire visible sur le dos.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-095",
+    "animal": "Punaises puantes",
+    "prompt": "D’où vient souvent l’odeur défensive des punaises dites puantes ?",
+    "options": [
+      "De sécrétions produites par des glandes odoriférantes",
+      "De nourriture fermentée dans leurs ailes",
+      "De leur sang riche en fer",
+      "De microbes sur leurs pattes"
+    ],
+    "answer": 0,
+    "explanation": "Certaines punaises libèrent des composés odorants pour décourager les prédateurs.",
+    "didYouKnow": "Les punaises puantes appartiennent à la famille des Pentatomidae.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-096",
+    "animal": "Punaise assassine",
+    "prompt": "Comment les réduves prédatrices consomment-elles souvent leurs proies ?",
+    "options": [
+      "Elles injectent des enzymes digestives puis aspirent les tissus liquéfiés",
+      "Elles broient leurs proies avec des mandibules avant de les avaler",
+      "Elles enveloppent les proies dans un cocon puis les digèrent lentement",
+      "Elles prélèvent le sang sans liquéfier les tissus de la proie"
+    ],
+    "answer": 0,
+    "explanation": "Le rostre perforant sert à injecter la salive et à aspirer le contenu liquéfié.",
+    "didYouKnow": "Certaines réduves tropicales se nourrissent du sang de vertébrés, dont des humains.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-097",
+    "animal": "Cercopes",
+    "prompt": "Comment les larves de cercopes se protègent-elles souvent ?",
+    "options": [
+      "Elles s’entourent d’une mousse faite de bulles et de sécrétions",
+      "Elles se construisent un fourreau de sable et de soie",
+      "Elles se cachent dans une galerie de bois creusée par l’adulte",
+      "Elles forment une capsule rigide à partir de terre et de salive"
+    ],
+    "answer": 0,
+    "explanation": "La mousse protège les larves et limite probablement le dessèchement.",
+    "didYouKnow": "Les cercopes sont apparentés aux cicadelles et aux pucerons au sein des hémiptères.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-098",
+    "animal": "Pucerons et fourmis",
+    "prompt": "Pourquoi les fourmis protègent-elles parfois les pucerons ?",
+    "options": [
+      "Elles récoltent le miellat sucré que les pucerons excrètent",
+      "Les pucerons font de la cire pour le nid",
+      "Les pucerons chassent les termites",
+      "Les pucerons nourrissent les œufs de fourmis"
+    ],
+    "answer": 0,
+    "explanation": "Les fourmis récoltent le miellat et défendent parfois les pucerons contre des prédateurs.",
+    "didYouKnow": "Les pucerons muent plusieurs fois au cours de leur développement et leurs anciennes cuticules restent parfois sur les feuilles.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-099",
+    "animal": "Insectes sociaux",
+    "prompt": "Comment les abeilles communiquent-elles une alarme à la colonie ?",
+    "options": [
+      "Par des phéromones et des signaux comportementaux",
+      "Elles émettent des sons d’alarme",
+      "Elles font une parade visuelle",
+      "Elles changent la couleur de leur corps"
+    ],
+    "answer": 0,
+    "explanation": "Les signaux chimiques et les mouvements peuvent alerter d’autres ouvrières d’un danger.",
+    "didYouKnow": "Dans plusieurs sociétés d’insectes, les ouvrières s’occupent du couvain et de l’entretien du nid.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-100",
+    "animal": "Insectes sociaux",
+    "prompt": "Que signifie « eusocialité » chez les insectes ?",
+    "options": [
+      "Une société avec soins coopératifs aux jeunes, générations chevauchantes et division reproductive du travail",
+      "Un groupe temporaire qui se rassemble uniquement pour migrer",
+      "Des individus qui partagent un nid mais élèvent chacun leur propre couvée",
+      "Une colonie où tous les individus se reproduisent au même rythme"
+    ],
+    "answer": 0,
+    "explanation": "Ces traits caractérisent les sociétés eusociales comme celles des fourmis et de nombreuses abeilles.",
+    "didYouKnow": "Certains monticules de termites peuvent dépasser plusieurs mètres de hauteur.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-101",
+    "animal": "Insectes sociaux",
+    "prompt": "Quel est le rôle d’une ouvrière stérile dans une colonie sociale ?",
+    "options": [
+      "Elle accomplit des tâches comme le soin du couvain ou la recherche de nourriture",
+      "Elle remplace la reine quotidiennement",
+      "Elle est un mâle reproducteur",
+      "Elle pond tous les œufs fécondés"
+    ],
+    "answer": 0,
+    "explanation": "Les ouvrières contribuent au fonctionnement de la colonie plutôt qu’à la reproduction directe.",
+    "didYouKnow": "Les ouvrières d’abeilles mellifères vivent généralement bien plus longtemps en hiver qu’en été.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-102",
+    "animal": "Communication",
+    "prompt": "Qu’est-ce qu’une phéromone ?",
+    "options": [
+      "Un signal chimique émis et perçu entre individus de la même espèce",
+      "Une substance chimique interne qui régule seulement le corps de son émetteur",
+      "Un composé produit par une espèce et utilisé par une autre à son bénéfice",
+      "Une substance qui attire uniquement les prédateurs d’un insecte"
+    ],
+    "answer": 0,
+    "explanation": "Les phéromones transmettent des informations entre congénères, comme une piste ou un signal sexuel.",
+    "didYouKnow": "Les abeilles et plusieurs autres insectes perçoivent aussi des vibrations transmises par le sol ou les plantes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-103",
+    "animal": "Communication",
+    "prompt": "À quoi servent les vibrations du substrat chez certains insectes ?",
+    "options": [
+      "À transmettre un signal par les plantes, le sol ou une toile",
+      "À transmettre une substance odorante dans l’air",
+      "À produire un son qui se propage principalement dans l’air",
+      "À modifier la couleur du corps pour communiquer à distance"
+    ],
+    "answer": 0,
+    "explanation": "Des vibrations transmises par un support peuvent servir à attirer un partenaire ou signaler une menace.",
+    "didYouKnow": "Les ailes des papillons peuvent porter des écailles microscopiques colorées.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-104",
+    "animal": "Vision",
+    "prompt": "Que détectent principalement les ocelles simples de nombreux insectes ?",
+    "options": [
+      "L’intensité lumineuse et les changements d’orientation",
+      "La formation d’une image détaillée de l’environnement",
+      "La détection des odeurs et des phéromones",
+      "Les vibrations du substrat sous les pattes"
+    ],
+    "answer": 0,
+    "explanation": "Les ocelles complètent les yeux composés en renseignant notamment sur la luminosité.",
+    "didYouKnow": "De nombreux insectes possèdent également des yeux composés, distincts des ocelles.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-105",
+    "animal": "Vision",
+    "prompt": "Comment un œil composé forme-t-il l’image chez un insecte ?",
+    "options": [
+      "À partir des signaux de nombreuses unités visuelles appelées ommatidies",
+      "À partir d’une seule lentille qui forme une image comme un appareil photo",
+      "À partir de récepteurs olfactifs disposés autour de la rétine",
+      "À partir d’ondes sonores réfléchies par les objets"
+    ],
+    "answer": 0,
+    "explanation": "Chaque ommatidie capte une partie du champ visuel et le système assemble leurs signaux.",
+    "didYouKnow": "Certaines abeilles perçoivent la polarisation de la lumière, ce qui aide à s’orienter.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-106",
+    "animal": "Écologie",
+    "prompt": "Quel service écologique les insectes pollinisateurs rendent-ils aux plantes ?",
+    "options": [
+      "Ils transportent le pollen entre les fleurs et favorisent la fécondation",
+      "Ils fertilisent les plantes en déposant leurs œufs dans les fleurs",
+      "Ils transportent les graines sans transporter de pollen",
+      "Ils broutent les fleurs sans déplacer le pollen"
+    ],
+    "answer": 0,
+    "explanation": "Le transport du pollen facilite la reproduction sexuée de nombreuses plantes à fleurs.",
+    "didYouKnow": "Parmi les insectes, les coléoptères constituent l’ordre qui compte le plus d’espèces décrites.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-107",
+    "animal": "Insectes saproxyliques",
+    "prompt": "À quelle ressource ou quel habitat les insectes saproxyliques sont-ils liés ?",
+    "options": [
+      "Au bois mort ou en décomposition, dont elles dépendent à une étape de leur cycle",
+      "Aux feuilles vivantes, qu’elles consomment obligatoirement à l’état adulte",
+      "Aux eaux libres, où elles passent leur vie entière",
+      "Aux graines entreposées dans les nids de fourmis"
+    ],
+    "answer": 0,
+    "explanation": "Le terme saproxylique désigne les espèces dépendantes du bois mort ou en décomposition à une étape de leur cycle de vie. Certaines participent à sa décomposition, tandis que d’autres utilisent cet habitat ou les organismes qui y vivent.",
+    "didYouKnow": "Les adultes de plusieurs coléoptères saproxyliques ne vivent que quelques semaines.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-108",
+    "animal": "Écologie",
+    "prompt": "Pourquoi les insectes sont-ils une ressource alimentaire importante pour de nombreux oiseaux ?",
+    "options": [
+      "Ils fournissent des proies abondantes et nutritives, notamment aux oisillons",
+      "Ils sont l’unique nourriture de tous les oiseaux",
+      "Ils fournissent surtout des fibres végétales",
+      "Ils sont disponibles en quantité égale toute l’année"
+    ],
+    "answer": 0,
+    "explanation": "De nombreux oiseaux nourrissent leurs jeunes avec des chenilles et d’autres insectes riches en nutriments.",
+    "didYouKnow": "Les insectes occupent des habitats terrestres très variés, des déserts aux forêts tropicales.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-109",
+    "animal": "Métamorphose",
+    "prompt": "Quelle différence distingue la métamorphose complète de la métamorphose incomplète ?",
+    "options": [
+      "La complète comprend un stade nymphal séparant la larve de l’adulte",
+      "La complète passe par des nymphes qui ressemblent à de petits adultes",
+      "L’incomplète comprend une chrysalide immobile",
+      "L’incomplète ne comporte aucun stade juvénile"
+    ],
+    "answer": 0,
+    "explanation": "La métamorphose complète passe par œuf, larve, nymphe et adulte; l’incomplète par des stades juvéniles ressemblant à l’adulte.",
+    "didYouKnow": "Les fourmis, les abeilles et les guêpes appartiennent toutes à l’ordre des hyménoptères.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-110",
+    "animal": "Métamorphose",
+    "prompt": "Quel nom porte le jeune d’un criquet qui ressemble déjà à l’adulte mais n’a pas d’ailes fonctionnelles ?",
+    "options": [
+      "Une nymphe",
+      "Une pupe",
+      "Une larve de type chenille",
+      "Un imago immature"
+    ],
+    "answer": 0,
+    "explanation": "Les jeunes orthoptères sont des nymphes qui muent plusieurs fois avant l’état adulte.",
+    "didYouKnow": "Les cigales adultes produisent leur chant avec des membranes vibrantes appelées timbales.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-111",
+    "animal": "Métamorphose",
+    "prompt": "Que se passe-t-il durant une mue d’insecte ?",
+    "options": [
+      "L’insecte quitte son ancienne cuticule et en forme une nouvelle",
+      "L’insecte perd définitivement sa cuticule",
+      "Il remplace ses antennes par des poumons",
+      "Il devient adulte à chaque mue"
+    ],
+    "answer": 0,
+    "explanation": "La mue permet la croissance et peut aussi accompagner les changements de stade.",
+    "didYouKnow": "La cuticule externe sert aussi de point d’ancrage aux muscles de l’insecte.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-112",
+    "animal": "Conservation",
+    "prompt": "Pourquoi la lumière artificielle nocturne peut-elle nuire à certains insectes ?",
+    "options": [
+      "Elle peut désorienter ou attirer des insectes hors de leurs comportements normaux",
+      "Elle rend les insectes plus visibles pour les plantes",
+      "Elle provoque nécessairement une mue",
+      "Elle supprime tous les prédateurs nocturnes"
+    ],
+    "answer": 0,
+    "explanation": "Les éclairages nocturnes perturbent l’orientation, l’alimentation et la reproduction de certaines espèces.",
+    "didYouKnow": "Certaines espèces de moustiques peuvent accomplir leur développement larvaire dans de très petites cavités d’eau.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-113",
+    "animal": "Conservation",
+    "prompt": "Quelle pratique aide à préserver des insectes pollinisateurs dans un jardin ?",
+    "options": [
+      "Planter des fleurs variées et limiter les pesticides",
+      "Retirer les plantes indigènes",
+      "Éclairer toute la nuit",
+      "Supprimer les fleurs dès leur éclosion"
+    ],
+    "answer": 0,
+    "explanation": "Des ressources florales diversifiées et des refuges soutiennent les pollinisateurs.",
+    "didYouKnow": "Un petit point d’eau peu profond avec des pierres peut fournir un lieu d’abreuvement aux insectes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-114",
+    "animal": "Conservation",
+    "prompt": "Pourquoi conserver du bois mort dans certains espaces naturels ?",
+    "options": [
+      "Il sert d’habitat et de ressource aux espèces saproxyliques",
+      "Elle empêche les graines de germer",
+      "Elle élimine les pollinisateurs",
+      "Elle pollue l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Le bois mort offre nourriture, abris et sites de reproduction à de nombreux organismes.",
+    "didYouKnow": "Les arbres âgés offrent souvent des sites de nidification à des oiseaux cavicoles.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-115",
+    "animal": "Conservation",
+    "prompt": "Quel est un effet possible de la fragmentation des habitats sur les insectes ?",
+    "options": [
+      "Elle isole les populations et réduit les déplacements entre sites",
+      "Elle favorise les déplacements entre fragments",
+      "Elle relie les populations auparavant isolées",
+      "Elle augmente la surface d’habitat continu"
+    ],
+    "answer": 0,
+    "explanation": "Des fragments isolés peuvent limiter les échanges et rendre les populations plus vulnérables.",
+    "didYouKnow": "Certains insectes, comme les coccinelles, se rassemblent en groupes pour hiverner.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-116",
+    "animal": "Conservation",
+    "prompt": "Pourquoi les pesticides à large spectre présentent-ils un risque pour les insectes non ciblés ?",
+    "options": [
+      "Ils peuvent aussi tuer des pollinisateurs et des prédateurs utiles",
+      "Ils ne touchent que les insectes ravageurs",
+      "Ils favorisent systématiquement les pollinisateurs",
+      "Ils empêchent toute résistance chez les ravageurs"
+    ],
+    "answer": 0,
+    "explanation": "Un produit à large spectre peut affecter des espèces autres que le ravageur visé.",
+    "didYouKnow": "La lumière artificielle nocturne peut désorienter certains insectes attirés par les sources lumineuses.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-117",
+    "animal": "Écologie",
+    "prompt": "Qu’appelle-t-on un insecte bioindicateur ?",
+    "options": [
+      "Une espèce dont la présence ou l’abondance renseigne sur l’état du milieu",
+      "Une espèce introduite pour restaurer le fonctionnement d’un milieu",
+      "Une espèce toujours présente uniquement dans les milieux pollués",
+      "Une espèce qui indique précisément la présence d’un seul contaminant"
+    ],
+    "answer": 0,
+    "explanation": "La sensibilité de certains insectes aux conditions du milieu permet de suivre des changements écologiques.",
+    "didYouKnow": "Les larves de nombreuses éphémères vivent dans l’eau avant leur émergence au stade adulte.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-118",
+    "animal": "Écologie",
+    "prompt": "Comment les insectes décomposeurs contribuent-ils au cycle des nutriments ?",
+    "options": [
+      "Ils fragmentent la matière organique et en facilitent le recyclage",
+      "Ils créent les minéraux par photosynthèse",
+      "Ils empêchent les microbes d’agir",
+      "Ils convertissent le carbone pur en azote"
+    ],
+    "answer": 0,
+    "explanation": "La consommation et la fragmentation des débris organiques accélèrent leur décomposition.",
+    "didYouKnow": "Les termites peuvent construire des galeries qui modifient la circulation de l’eau dans le sol.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-119",
+    "animal": "Défense",
+    "prompt": "Pourquoi certains insectes affichent-ils des couleurs vives d’avertissement ?",
+    "options": [
+      "Une coloration d’avertissement associée à une défense ou à un mauvais goût",
+      "Une coloration qui dissimule l’insecte sur un fond de même couleur",
+      "Une ressemblance entre une espèce inoffensive et une espèce défendue",
+      "Une coloration qui attire uniquement des partenaires sexuels"
+    ],
+    "answer": 0,
+    "explanation": "Les couleurs aposématiques peuvent apprendre aux prédateurs à éviter une proie défendue.",
+    "didYouKnow": "La coccinelle à sept points porte généralement sept taches noires sur ses élytres rouges.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-120",
+    "animal": "Défense",
+    "prompt": "Quel avantage procure le camouflage à un insecte-feuille ?",
+    "options": [
+      "Il réduit les chances d’être repéré par les prédateurs",
+      "Il permet de respirer sous l’eau",
+      "Il remplace le système immunitaire",
+      "Il accélère la mue"
+    ],
+    "answer": 0,
+    "explanation": "La ressemblance avec une feuille peut rendre l’insecte difficile à détecter.",
+    "didYouKnow": "Les insectes-feuilles appartiennent aux phasmes, l’ordre Phasmatodea.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-121",
+    "animal": "Défense",
+    "prompt": "Que fait un insecte qui pratique l’autotomie ?",
+    "options": [
+      "Il abandonne volontairement un appendice pour échapper à un prédateur",
+      "Il renouvelle entièrement sa cuticule pour grandir",
+      "Il se fait passer pour mort en restant immobile",
+      "Il régénère un appendice sans l’avoir perdu"
+    ],
+    "answer": 0,
+    "explanation": "Certaines espèces peuvent sacrifier une patte saisie par un prédateur et s’enfuir.",
+    "didYouKnow": "Les insectes-feuilles appartiennent à l’ordre des phasmes, Phasmatodea.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-122",
+    "animal": "Insectes et humains",
+    "prompt": "Pourquoi les abeilles mellifères sont-elles importantes pour l’agriculture ?",
+    "options": [
+      "Elles pollinisent de nombreuses cultures et plantes sauvages",
+      "Ils fabriquent l’azote du sol",
+      "Ils éliminent tous les ravageurs",
+      "Ils produisent les graines sans pollen"
+    ],
+    "answer": 0,
+    "explanation": "Leur pollinisation contribue à la production de nombreuses cultures, même si toutes les cultures n’en dépendent pas.",
+    "didYouKnow": "Les colonies de bourdons sont généralement annuelles; les jeunes reines fécondées hivernent seules.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-123",
+    "animal": "Insectes et humains",
+    "prompt": "Quel matériau les vers à soie produisent-ils pour former leur cocon ?",
+    "options": [
+      "Un filament de soie sécrété par leurs glandes",
+      "De la cire de leurs pattes",
+      "Du pollen compacté",
+      "De fibres végétales mâchées"
+    ],
+    "answer": 0,
+    "explanation": "La chenille du bombyx produit un long filament de soie pour construire son cocon.",
+    "didYouKnow": "La chrysalide du bombyx se développe à l’intérieur du cocon de soie avant l’émergence de l’adulte.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-124",
+    "animal": "Écologie",
+    "prompt": "Pourquoi les insectes peuvent-ils être des agents de lutte biologique ?",
+    "options": [
+      "Certains prédateurs ou parasitoïdes limitent les populations d’organismes nuisibles",
+      "Tous les insectes consomment les mauvaises herbes",
+      "Ils rendent la surveillance inutile",
+      "Ils empêchent toute maladie végétale"
+    ],
+    "answer": 0,
+    "explanation": "Des espèces ciblées peuvent réduire certains ravageurs dans un programme de lutte intégrée.",
+    "didYouKnow": "La coccinelle à sept points est une espèce commune dans de nombreuses régions d’Europe.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-125",
+    "animal": "Diversité",
+    "prompt": "Pourquoi les insectes occupent-ils des habitats aussi variés ?",
+    "options": [
+      "Leurs lignées ont évolué vers de nombreuses formes et modes de vie",
+      "Ils vivent surtout dans les milieux urbains",
+      "Ils occupent uniquement les milieux terrestres",
+      "Ils évitent les habitats aquatiques"
+    ],
+    "answer": 0,
+    "explanation": "La diversité des adaptations permet aux insectes d’occuper des milieux terrestres et aquatiques variés.",
+    "didYouKnow": "Les insectes constituent le groupe animal comptant le plus grand nombre d’espèces décrites.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-126",
+    "animal": "Odonates",
+    "prompt": "Quel organe les larves de libellules utilisent-elles pour saisir certaines proies ?",
+    "options": [
+      "Un labium extensible appelé masque",
+      "Des mandibules en forme de pinces",
+      "Un rostre rigide pour aspirer la sève",
+      "Des palpes qui filtrent les particules de l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Le labium peut se projeter rapidement pour capturer de petites proies aquatiques.",
+    "didYouKnow": "Les larves de libellules vivent dans l’eau avant leur mue finale sur un support émergé.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-127",
+    "animal": "Odonates",
+    "prompt": "Qu’appelle-t-on le vol territorial chez certaines libellules mâles ?",
+    "options": [
+      "La défense d’une zone où ils tentent d’attirer des femelles",
+      "Une migration annuelle",
+      "Une chasse collective sous l’eau",
+      "Un vol sans battement d’ailes"
+    ],
+    "answer": 0,
+    "explanation": "Des mâles patrouillent ou défendent parfois un site favorable à la ponte.",
+    "didYouKnow": "Les libellules adultes peuvent capturer des insectes en vol.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-128",
+    "animal": "Moustiques",
+    "prompt": "Quel gaz expiré, détecté par de nombreuses femelles moustiques, aide à repérer un hôte ?",
+    "options": [
+      "Le dioxyde de carbone (CO₂)",
+      "Le méthane (CH₄)",
+      "L’azote (N₂)",
+      "L’oxygène (O₂)"
+    ],
+    "answer": 0,
+    "explanation": "Le dioxyde de carbone expiré peut orienter les femelles moustiques vers un hôte; la chaleur et les odeurs affinent ensuite la recherche.",
+    "didYouKnow": "Selon l’espèce, les femelles déposent leurs œufs à la surface de l’eau, sur un sol humide ou dans des contenants susceptibles de se remplir d’eau.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-129",
+    "animal": "Mouche tsé-tsé",
+    "prompt": "Comment la mouche tsé-tsé nourrit-elle sa larve avant la naissance ?",
+    "options": [
+      "La larve se développe dans l’utérus et reçoit une sécrétion nutritive de la mère",
+      "L’œuf éclot à l’extérieur, puis la femelle apporte des proies au jeune",
+      "L’œuf reste dans l’utérus mais la larve ne dépend que de son vitellus",
+      "La femelle fixe une larve à son abdomen, où elle se nourrit de l’hémolymphe"
+    ],
+    "answer": 0,
+    "explanation": "Chez la mouche tsé-tsé, la femelle nourrit la larve dans son utérus grâce à une sécrétion de glandes spécialisées, puis dépose une larve arrivée à maturité.",
+    "didYouKnow": "Les mouches tsé-tsé transmettent parfois des parasites du genre Trypanosoma, responsables de la maladie du sommeil.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-130",
+    "animal": "Lépidoptères",
+    "prompt": "Que font les écailles alaires de nombreux papillons en plus de contribuer à leur couleur ?",
+    "options": [
+      "Elles peuvent contribuer aux motifs visuels et influencer les échanges de chaleur",
+      "Elles produisent les œufs et les déposent sur les plantes-hôtes",
+      "Elles filtrent l’eau lorsque le papillon se pose sur une fleur",
+      "Elles remplacent les muscles qui actionnent les ailes"
+    ],
+    "answer": 0,
+    "explanation": "Les écailles participent à la couleur, au camouflage et à certains signaux visuels.",
+    "didYouKnow": "Le monarque d’Amérique du Nord hiverne dans des forêts de montagne au Mexique.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-131",
+    "animal": "Lépidoptères",
+    "prompt": "Pourquoi certains papillons migrateurs suivent-ils des routes saisonnières ?",
+    "options": [
+      "Pour rejoindre des zones offrant des conditions favorables à leur survie",
+      "Pour éviter la ponte",
+      "Pour devenir sociales",
+      "Pour rejoindre des eaux profondes"
+    ],
+    "answer": 0,
+    "explanation": "La migration peut relier les sites de reproduction aux refuges saisonniers.",
+    "didYouKnow": "Le monarque appartient à la famille des Nymphalidae.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-132",
+    "animal": "Coléoptères",
+    "prompt": "Comment certains coléoptères bombardiers défendent-ils leur corps ?",
+    "options": [
+      "Ils éjectent une pulvérisation chaude et irritante issue d’une réaction chimique",
+      "Ils libèrent une sécrétion collante produite par des glandes abdominales",
+      "Ils émettent un signal sonore en frottant leurs élytres",
+      "Ils projettent une substance glacée en vaporisant l’eau de leur corps"
+    ],
+    "answer": 0,
+    "explanation": "Des substances réagissent dans une chambre spécialisée et sont expulsées en jet défensif.",
+    "didYouKnow": "Les coléoptères bombardiers appartiennent à la famille des carabes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-133",
+    "animal": "Coléoptères",
+    "prompt": "Quel rôle a la larve dans le cycle de vie de nombreux coléoptères saproxyliques ?",
+    "options": [
+      "Elle se nourrit ou se développe dans le bois mort",
+      "Elle consomme des feuilles vivantes",
+      "Elle chasse les insectes volants",
+      "Elle récolte du nectar dans les fleurs"
+    ],
+    "answer": 0,
+    "explanation": "Les larves exploitent souvent le bois mort, les champignons qui y poussent ou les insectes présents.",
+    "didYouKnow": "Les adultes de certains insectes saproxyliques visitent les fleurs, même si leurs larves vivent dans le bois mort.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-134",
+    "animal": "Hyménoptères",
+    "prompt": "Quelle fonction ont les cellules hexagonales du nid d’abeilles ?",
+    "options": [
+      "Elles servent à élever le couvain et à stocker des ressources",
+      "Elles fabriquent les ailes",
+      "Elles remplacent les stigmates",
+      "Elles filtrent l’air"
+    ],
+    "answer": 0,
+    "explanation": "Les rayons de cire contiennent des cellules pour le couvain, le pollen et le miel.",
+    "didYouKnow": "Les abeilles mellifères peuvent propoliser de petites fissures dans la ruche.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-135",
+    "animal": "Hyménoptères",
+    "prompt": "Comment une reine d’abeille mellifère est-elle élevée différemment d’une ouvrière ?",
+    "options": [
+      "La larve reçoit une alimentation particulière, notamment de la gelée royale",
+      "Elle éclot d’un œuf non fécondé, contrairement aux ouvrières",
+      "Elle reçoit davantage de cire mâchée que les autres larves",
+      "Elle est élevée dans une cellule remplie de nectar non transformé"
+    ],
+    "answer": 0,
+    "explanation": "Le régime larvaire contribue à la différenciation de la reine.",
+    "didYouKnow": "Les ouvrières d’abeilles mellifères fabriquent la cire utilisée pour bâtir les rayons.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-136",
+    "animal": "Hyménoptères",
+    "prompt": "Quel phénomène décrit l’essaimage chez les abeilles mellifères ?",
+    "options": [
+      "Une reine et une partie de la colonie quittent la ruche pour fonder ailleurs",
+      "La colonie entière abandonne ses œufs en hiver",
+      "Les mâles fondent une colonie sans reine",
+      "Les ouvrières déplacent uniquement les larves"
+    ],
+    "answer": 0,
+    "explanation": "L’essaimage est un mode naturel de reproduction de la colonie.",
+    "didYouKnow": "Les abeilles mellifères utilisent des phéromones pour coordonner certaines activités de la colonie.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-137",
+    "animal": "Fourmis",
+    "prompt": "Comment les fourmis échangent-elles parfois de la nourriture liquide entre individus ?",
+    "options": [
+      "Par trophallaxie, un transfert de liquide de bouche à bouche",
+      "Par un échange de liquide à travers les antennes",
+      "En déposant une goutte sur le sol que l’autre fourmi absorbe",
+      "En transférant des aliments solides avec les mandibules"
+    ],
+    "answer": 0,
+    "explanation": "La trophallaxie est le transfert de liquide alimentaire entre individus; elle peut aussi transmettre des molécules de signalisation.",
+    "didYouKnow": "Les fourmis construisent des chambres et des galeries dont la forme varie selon l’espèce et le milieu.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-138",
+    "animal": "Fourmis",
+    "prompt": "Comment certaines colonies de fourmis déplacent-elles leurs larves ?",
+    "options": [
+      "Les ouvrières les transportent avec leurs mandibules",
+      "Les larves rampent seules jusqu’au nouveau nid",
+      "La reine les transporte dans ses ailes",
+      "Elles s’attachent aux antennes des soldats"
+    ],
+    "answer": 0,
+    "explanation": "Le transport du couvain permet de déplacer la colonie ou de réorganiser le nid.",
+    "didYouKnow": "Les ouvrières de plusieurs espèces de fourmis transportent des proies entières jusqu’au nid.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-139",
+    "animal": "Orthoptères",
+    "prompt": "À quoi sert le chant du grillon mâle ?",
+    "options": [
+      "À attirer une partenaire ou communiquer avec des congénères",
+      "À attirer les fleurs",
+      "À faire vibrer les œufs sous terre",
+      "À respirer"
+    ],
+    "answer": 0,
+    "explanation": "Le chant est un signal acoustique utilisé dans la communication reproductive.",
+    "didYouKnow": "Les grillons détectent des sons grâce à des tympans situés sur leurs pattes avant.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-140",
+    "animal": "Courtilières",
+    "prompt": "Quelle adaptation aide les courtilières à creuser des galeries dans le sol ?",
+    "options": [
+      "Leurs pattes avant élargies et dentées, en forme de pelles",
+      "Leurs mandibules puissantes qui creusent seules les galeries",
+      "Leurs pattes postérieures qui repoussent la terre vers l’arrière",
+      "Leurs antennes robustes qui percent le sol"
+    ],
+    "answer": 0,
+    "explanation": "Les courtilières déplacent la terre avec leurs pattes antérieures robustes et élargies.",
+    "didYouKnow": "Les courtilières peuvent se nourrir à la fois de racines et de petits invertébrés.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-141",
+    "animal": "Termites",
+    "prompt": "Quel matériau les termites utilisent-ils souvent pour construire leurs monticules ?",
+    "options": [
+      "Des particules de sol liées par des sécrétions",
+      "D’écailles collées",
+      "De métal",
+      "De feuilles tissées de soie"
+    ],
+    "answer": 0,
+    "explanation": "Les termites assemblent terre, salive et parfois débris végétaux pour bâtir des structures.",
+    "didYouKnow": "Les ouvriers termites transportent parfois les jeunes lorsqu’ils déplacent le nid.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-142",
+    "animal": "Termites",
+    "prompt": "Quel individu de la colonie termite assure généralement la ponte ?",
+    "options": [
+      "La reine",
+      "Le soldat",
+      "Le mâle ailé uniquement",
+      "Toutes les larves"
+    ],
+    "answer": 0,
+    "explanation": "La reine est la femelle reproductrice centrale de la colonie.",
+    "didYouKnow": "Les ouvrières termites transportent parfois les jeunes lorsqu’elles déplacent le nid.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-143",
+    "animal": "Larves d’éphémères",
+    "prompt": "Pourquoi certaines larves d’éphémères ont-elles un corps aplati et des pattes agrippantes ?",
+    "options": [
+      "Pour se maintenir entre les pierres dans les courants rapides",
+      "Pour flotter juste sous la surface des eaux stagnantes",
+      "Pour retenir une bulle d’air sous les élytres",
+      "Pour s’accrocher aux feuilles flottantes loin du fond"
+    ],
+    "answer": 0,
+    "explanation": "La forme aplatie et les pattes permettent à certaines larves rhéophiles de résister au courant en s’abritant sur le substrat.",
+    "didYouKnow": "Les larves de plusieurs éphémères portent des branchies latérales sur l’abdomen.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-144",
+    "animal": "Insectes aquatiques",
+    "prompt": "Que mangent de nombreuses larves aquatiques de trichoptères ?",
+    "options": [
+      "Des algues, des débris ou de petites proies selon l’espèce",
+      "Du bois sec",
+      "Des feuilles terrestres uniquement",
+      "Du nectar floral"
+    ],
+    "answer": 0,
+    "explanation": "Les régimes des trichoptères varient : certaines larves broutent, filtrent ou prédatent.",
+    "didYouKnow": "Les phryganes adultes ont souvent de longues antennes filiformes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-145",
+    "animal": "Blatte sifflante de Madagascar",
+    "prompt": "Comment la blatte sifflante de Madagascar produit-elle son sifflement ?",
+    "options": [
+      "En expulsant de l’air par des stigmates spécialisés",
+      "En frottant les ailes l’une contre l’autre comme un grillon",
+      "En faisant vibrer des timbales abdominales comme une cigale",
+      "En frappant le sol avec ses mandibules"
+    ],
+    "answer": 0,
+    "explanation": "Cette blatte pousse l’air à travers des stigmates pour produire un sifflement défensif ou social.",
+    "didYouKnow": "Les mâles de la blatte sifflante de Madagascar portent souvent des bosses prononcées sur le pronotum, plus discrètes chez les femelles.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-146",
+    "animal": "Blattes",
+    "prompt": "Quelle capsule contenant des œufs produisent de nombreuses blattes ?",
+    "options": [
+      "Une capsule appelée oothèque",
+      "Une poche de soie fixée sous une feuille",
+      "Un nid de terre contenant un seul œuf",
+      "Une enveloppe de cire portée sur les ailes"
+    ],
+    "answer": 0,
+    "explanation": "L’oothèque est une capsule contenant un ou plusieurs œufs.",
+    "didYouKnow": "Les blattes possèdent de longues antennes filiformes qui explorent leur environnement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-147",
+    "animal": "Défense",
+    "prompt": "Quel est le rôle du mimétisme batésien ?",
+    "options": [
+      "Une espèce inoffensive ressemble à une espèce défendue ou dangereuse",
+      "Une espèce défendue ressemble à une espèce inoffensive",
+      "Un prédateur ressemble à l’espèce qu’il chasse",
+      "Plusieurs espèces défendues partagent des signaux semblables"
+    ],
+    "answer": 0,
+    "explanation": "La ressemblance peut réduire les attaques si les prédateurs évitent le modèle défendu.",
+    "didYouKnow": "Les syrphes sont des mouches inoffensives dont certaines espèces ressemblent à des guêpes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-148",
+    "animal": "Défense",
+    "prompt": "Que signifie le mimétisme müllérien ?",
+    "options": [
+      "Plusieurs espèces défendues partagent des signaux d’avertissement similaires",
+      "Une espèce inoffensive imite une espèce défendue",
+      "Un prédateur imite l’apparence de sa proie",
+      "Une espèce se confond avec une feuille ou une brindille"
+    ],
+    "answer": 0,
+    "explanation": "Les prédateurs peuvent apprendre plus vite à éviter un signal partagé par plusieurs espèces défendues.",
+    "didYouKnow": "Les larves de certaines coccinelles portent des épines ou des protubérances sur le corps.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-149",
+    "animal": "Écologie",
+    "prompt": "Pourquoi les insectes contribuent-ils à la dispersion des graines ?",
+    "options": [
+      "Certains transportent ou enterrent des graines",
+      "Ils pollinisent les fleurs en transportant leur pollen",
+      "Ils dispersent les spores fongiques dans le sol",
+      "Ils transportent les graines à l’intérieur de leur tube digestif"
+    ],
+    "answer": 0,
+    "explanation": "Des fourmis transportent certaines graines pour leurs appendices nutritifs et en abandonnent parfois une partie.",
+    "didYouKnow": "Certaines fourmis récoltent le miellat de pucerons et les protègent de prédateurs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-150",
+    "animal": "Écologie",
+    "prompt": "Quel résultat peut avoir la disparition d’un pollinisateur spécialisé ?",
+    "options": [
+      "La reproduction de sa plante partenaire peut diminuer",
+      "La plante produit davantage de nectar sans visite",
+      "La plante dépend désormais uniquement du vent",
+      "Le taux de fécondation reste nécessairement identique"
+    ],
+    "answer": 0,
+    "explanation": "Une relation très spécialisée peut rendre la plante dépendante d’un nombre limité de pollinisateurs.",
+    "didYouKnow": "Certains insectes pollinisent surtout la nuit, notamment plusieurs papillons nocturnes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-151",
+    "animal": "Anatomie",
+    "prompt": "Quelle partie du thorax porte les pattes chez les insectes ?",
+    "options": [
+      "Les trois segments thoraciques",
+      "La tête",
+      "L’abdomen",
+      "Les antennes"
+    ],
+    "answer": 0,
+    "explanation": "Les pattes sont attachées au thorax, qui comprend le prothorax, le mésothorax et le métathorax.",
+    "didYouKnow": "Les pattes antérieures de certaines mantes sont transformées en organes ravisseurs.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-152",
+    "animal": "Anatomie",
+    "prompt": "De quoi est constitué le sang d’insecte, appelé hémolymphe ?",
+    "options": [
+      "D’un fluide circulant dans la cavité corporelle",
+      "Des globules rouges dans des vaisseaux clos",
+      "Un fluide stocké dans les ailes",
+      "Un mélange de nectar et de salive"
+    ],
+    "answer": 0,
+    "explanation": "L’hémolymphe baigne directement les organes dans un système circulatoire ouvert.",
+    "didYouKnow": "Le système nerveux de nombreux insectes comprend une chaîne ventrale de ganglions segmentaires.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-153",
+    "animal": "Anatomie",
+    "prompt": "Quel schéma de marche est fréquent chez les insectes qui se déplacent rapidement sur une surface ?",
+    "options": [
+      "Une marche tripode alternée, avec trois pattes en appui à la fois",
+      "Une marche où les six pattes quittent toujours le sol simultanément",
+      "Une marche où seules les deux pattes arrière touchent le sol",
+      "Une marche où les trois pattes d’un même côté se déplacent ensemble"
+    ],
+    "answer": 0,
+    "explanation": "De nombreux insectes utilisent une marche tripode alternée : trois pattes en appui alternent avec le trio opposé, ce qui aide à stabiliser le déplacement.",
+    "didYouKnow": "Comme les autres arthropodes, les insectes doivent muer pour grandir, car leur exosquelette ne s’étire pas comme une peau.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-154",
+    "animal": "Anatomie",
+    "prompt": "À quoi servent les mandibules chez les insectes qui mâchent leur nourriture ?",
+    "options": [
+      "À couper et broyer les aliments",
+      "Elles aspirent les liquides chez tous les insectes",
+      "Elles détectent les odeurs",
+      "Elles servent à l’équilibre du vol"
+    ],
+    "answer": 0,
+    "explanation": "Les mandibules sont des pièces buccales souvent dures et mobiles utilisées pour manipuler ou broyer des aliments.",
+    "didYouKnow": "Les couleurs des insectes peuvent provenir de pigments ou de structures microscopiques.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-155",
+    "animal": "Abeilles orchidées",
+    "prompt": "Comment les mâles de nombreuses abeilles orchidées recueillent-ils des parfums ?",
+    "options": [
+      "Ils recueillent des composés odorants avec leurs pattes avant et les transfèrent dans des poches spécialisées des pattes arrière",
+      "Ils aspirent les parfums avec leur trompe et les stockent dans l’abdomen",
+      "Ils recueillent les composés sur les ailes et les stockent dans les antennes",
+      "Ils fabriquent les odeurs à partir du nectar qu’ils consomment"
+    ],
+    "answer": 0,
+    "explanation": "Les mâles collectent des molécules odorantes avec des brosses des pattes antérieures, puis les transfèrent dans des poches des tibias postérieurs pour les conserver.",
+    "didYouKnow": "Les femelles des abeilles orchidées collectent du pollen et du nectar pour nourrir leur descendance.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-156",
+    "animal": "Anatomie",
+    "prompt": "Comment s’appelle l’enveloppe externe rigide d’un insecte ?",
+    "options": [
+      "La cuticule",
+      "Un derme osseux",
+      "Un manteau calcaire",
+      "Une peau kératinisée"
+    ],
+    "answer": 0,
+    "explanation": "La cuticule forme l’exosquelette et comprend plusieurs couches.",
+    "didYouKnow": "Le cerveau des insectes comprend plusieurs régions spécialisées dans le traitement sensoriel et le comportement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-157",
+    "animal": "Taupins",
+    "prompt": "Comment certains taupins se redressent-ils lorsqu’ils sont posés sur le dos ?",
+    "options": [
+      "Ils plient puis détendent un mécanisme thoracique qui les projette avec un claquement",
+      "Ils basculent leur corps en utilisant les pattes arrière comme levier",
+      "Ils gonflent une poche d’air abdominale qui les retourne",
+      "Ils se servent de leurs élytres comme de rames pour se redresser"
+    ],
+    "answer": 0,
+    "explanation": "Une épine du thorax s’accroche à une encoche; sa libération propulse le coléoptère en l’air et peut le retourner sur ses pattes.",
+    "didYouKnow": "Les taupins ont généralement un corps allongé et des angles postérieurs du pronotum pointus.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-158",
+    "animal": "Physiologie",
+    "prompt": "Comment les insectes éliminent-ils une partie de leurs déchets azotés ?",
+    "options": [
+      "Par les tubes de Malpighi",
+      "Par des néphrons comparables à ceux des reins des mammifères",
+      "Par des branchies qui filtrent l’hémolymphe",
+      "Par des glandes situées dans les antennes"
+    ],
+    "answer": 0,
+    "explanation": "Les tubes de Malpighi prélèvent des déchets de l’hémolymphe et débouchent dans le tube digestif.",
+    "didYouKnow": "Les ailes des insectes sont fixées au thorax plutôt qu’à la tête ou à l’abdomen.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-159",
+    "animal": "Physiologie",
+    "prompt": "Pourquoi les insectes sont-ils dits ectothermes ?",
+    "options": [
+      "Leur température corporelle dépend largement de la chaleur extérieure",
+      "Ils maintiennent toujours une température corporelle stable",
+      "Leur température corporelle est toujours inférieure à celle de l’air",
+      "Ils ne peuvent vivre que dans des milieux froids"
+    ],
+    "answer": 0,
+    "explanation": "La plupart des insectes utilisent surtout des sources extérieures pour réguler leur température.",
+    "didYouKnow": "Les larves et les adultes d’un même insecte peuvent occuper des habitats différents.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-160",
+    "animal": "Vol",
+    "prompt": "Comment un insecte peut-il maintenir un vol stationnaire ?",
+    "options": [
+      "En ajustant la portance produite par ses battements d’ailes",
+      "En orientant les antennes comme des hélices",
+      "En s’accrochant à une toile",
+      "En réduisant leur poids corporel"
+    ],
+    "answer": 0,
+    "explanation": "Le vol stationnaire exige que les forces aérodynamiques compensent le poids et les mouvements.",
+    "didYouKnow": "Les couleurs de certains insectes résultent de structures microscopiques qui réfléchissent la lumière.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-161",
+    "animal": "Vol",
+    "prompt": "Quel mécanisme musculaire actionne les ailes de nombreux insectes au vol rapide ?",
+    "options": [
+      "Des muscles thoraciques indirects qui déforment le thorax et entraînent les ailes",
+      "Des muscles abdominaux qui tirent directement les ailes vers le bas",
+      "Des muscles des pattes postérieures qui font pivoter les ailes",
+      "Des muscles de la tête qui tirent les ailes par les antennes"
+    ],
+    "answer": 0,
+    "explanation": "Chez de nombreux insectes au vol rapide, les muscles indirects déforment le thorax; les articulations transmettent cette déformation aux ailes.",
+    "didYouKnow": "Le titan est un longicorne tropical comptant parmi les plus grands coléoptères connus.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-162",
+    "animal": "Monarque",
+    "prompt": "Comment la chenille du monarque acquiert-elle une partie de sa défense chimique ?",
+    "options": [
+      "Elle accumule des cardénolides provenant des asclépiades qu’elle mange",
+      "Elle produit un venin dans des glandes salivaires spécialisées",
+      "Elle absorbe des toxines de proies capturées par les adultes",
+      "Elle fabrique des cardénolides à partir du nectar des fleurs"
+    ],
+    "answer": 0,
+    "explanation": "Les chenilles qui consomment des asclépiades peuvent retenir des cardénolides, qui rendent le papillon moins appétissant pour certains prédateurs.",
+    "didYouKnow": "Le monarque est un papillon migrateur bien connu en Amérique du Nord.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-163",
+    "animal": "Écologie",
+    "prompt": "Que mange principalement un insecte phytophage ?",
+    "options": [
+      "Des tissus végétaux",
+      "Des champignons",
+      "De petits animaux",
+      "Des débris animaux"
+    ],
+    "answer": 0,
+    "explanation": "Les phytophages consomment feuilles, tiges, graines, sève ou autres parties végétales.",
+    "didYouKnow": "Certaines fourmis cultivent des champignons à partir de morceaux de feuilles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-164",
+    "animal": "Écologie",
+    "prompt": "Quel terme décrit un insecte qui chasse et consomme d’autres animaux ?",
+    "options": [
+      "Prédateur",
+      "Pollinisateur obligatoire",
+      "Décomposeur minéral",
+      "Parasite photosynthétique"
+    ],
+    "answer": 0,
+    "explanation": "Un prédateur capture et consomme généralement plusieurs proies au cours de sa vie.",
+    "didYouKnow": "Les ailes de nombreuses coccinelles sont protégées par des élytres colorés.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-165",
+    "animal": "Écologie",
+    "prompt": "Quelle différence générale sépare un parasitoïde d’un prédateur ?",
+    "options": [
+      "Le parasitoïde se développe sur ou dans un hôte et le tue généralement",
+      "Le prédateur se développe dans une seule proie qu’il finit par tuer",
+      "Le parasitoïde consomme plusieurs proies sans dépendre d’un hôte individuel",
+      "Le parasitoïde vit sur son hôte sans affecter sa survie"
+    ],
+    "answer": 0,
+    "explanation": "La larve parasitoïde dépend d’un hôte individuel et finit le plus souvent par le tuer.",
+    "didYouKnow": "Les guêpes parasitoïdes constituent un groupe très diversifié au sein des hyménoptères.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-166",
+    "animal": "Écologie",
+    "prompt": "Pourquoi les insectes contribuent-ils à l’aération de certains sols ?",
+    "options": [
+      "Leurs galeries créent des espaces dans le sol",
+      "Les ailes pompent l’air",
+      "Ils dissolvent le sol avec du nectar",
+      "Ils fabriquent des racines"
+    ],
+    "answer": 0,
+    "explanation": "Les galeries creusées par des fourmis, termites et larves peuvent modifier la structure du sol.",
+    "didYouKnow": "Certaines fourmis transportent des graines et peuvent contribuer à leur dispersion.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-167",
+    "animal": "Bousier Scarabaeus satyrus",
+    "prompt": "Comment le bousier Scarabaeus satyrus s’oriente-t-il lors de déplacements nocturnes ?",
+    "options": [
+      "En utilisant la bande lumineuse de la Voie lactée comme repère",
+      "En suivant une piste de phéromones déposée par d’autres bousiers",
+      "En détectant le champ magnétique de la Terre",
+      "En utilisant les vibrations produites par les autres bousiers"
+    ],
+    "answer": 0,
+    "explanation": "Des expériences ont montré que ce bousier peut maintenir sa direction grâce à la bande lumineuse de la Voie lactée.",
+    "didYouKnow": "Scarabaeus satyrus est un bousier coprophage qui utilise les excréments comme ressource alimentaire.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-168",
+    "animal": "Fourmi tisserande",
+    "prompt": "Comment les fourmis tisserandes assemblent-elles les feuilles de leur nid ?",
+    "options": [
+      "Les ouvrières utilisent la soie produite par leurs larves pour coller les feuilles",
+      "Les ouvrières sécrètent de la soie depuis des glandes de leur abdomen",
+      "Elles enduisent les feuilles de cire produite par leurs glandes",
+      "Elles fixent les feuilles avec une résine récoltée sur les arbres"
+    ],
+    "answer": 0,
+    "explanation": "Les ouvrières rapprochent les feuilles puis tiennent des larves contre les bords; celles-ci sécrètent la soie qui les assemble.",
+    "didYouKnow": "Les ouvrières de fourmis tisserandes peuvent mordre et projeter de l’acide formique pour défendre la colonie.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-169",
+    "animal": "Plantes et insectes",
+    "prompt": "Pourquoi certaines orchidées imitent-elles l’apparence ou l’odeur d’une femelle insecte ?",
+    "options": [
+      "Pour attirer des mâles qui contribuent à leur pollinisation",
+      "Pour attirer des femelles qui y déposent leurs œufs",
+      "Pour repousser les insectes qui consomment leurs feuilles",
+      "Pour faire croire à un prédateur qu’elles portent des graines"
+    ],
+    "answer": 0,
+    "explanation": "Cette tromperie peut provoquer une pseudocopulation et le transfert de pollen.",
+    "didYouKnow": "Les orchidées forment l’une des familles de plantes à fleurs les plus riches en espèces.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-170",
+    "animal": "Plantes et insectes",
+    "prompt": "À quoi servent les nectaires floraux pour la plante ?",
+    "options": [
+      "À fournir une récompense qui peut attirer des pollinisateurs",
+      "À fabriquer des pétales",
+      "À stocker les graines",
+      "À produire du bois"
+    ],
+    "answer": 0,
+    "explanation": "Le nectar récompense des visiteurs qui peuvent transporter du pollen entre fleurs.",
+    "didYouKnow": "Les abeilles mellifères peuvent communiquer la direction d’une ressource par une danse.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-171",
+    "animal": "Développement",
+    "prompt": "Quel stade d’un papillon est généralement spécialisé dans l’alimentation et la croissance ?",
+    "options": [
+      "La chenille",
+      "L’adulte seulement",
+      "La chrysalide seulement",
+      "L’œuf seulement"
+    ],
+    "answer": 0,
+    "explanation": "La chenille consomme souvent beaucoup de nourriture avant la nymphose.",
+    "didYouKnow": "De nombreux papillons adultes vivent moins longtemps que leur stade chenille.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-172",
+    "animal": "Développement",
+    "prompt": "Quel nom porte l’enveloppe vide abandonnée après la mue d’un insecte ?",
+    "options": [
+      "Une exuvie",
+      "Une chrysalide",
+      "Un stigmate",
+      "Un élytre"
+    ],
+    "answer": 0,
+    "explanation": "L’exuvie est l’ancienne cuticule dont l’insecte s’est extrait pendant la mue.",
+    "didYouKnow": "Les exuvies de nombreuses larves aquatiques restent accrochées aux plantes près des berges.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-173",
+    "animal": "Larve de libellule",
+    "prompt": "Comment la larve d’une libellule (Anisoptera) fait-elle circuler l’eau sur ses branchies internes ?",
+    "options": [
+      "Elle aspire puis expulse de l’eau par le rectum",
+      "Elle pompe l’eau avec des branchies externes qui battent sur l’abdomen",
+      "Elle fait circuler l’eau sous ses élytres à l’aide de ses pattes",
+      "Elle aspire l’eau par un siphon situé sur le thorax"
+    ],
+    "answer": 0,
+    "explanation": "Les larves d’anisoptères ventilent leur chambre rectale en aspirant et expulsant de l’eau; les échanges gazeux ont lieu sur les branchies internes.",
+    "didYouKnow": "Certains insectes ont un système nerveux organisé autour d’une chaîne ventrale de ganglions.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-174",
+    "animal": "Développement",
+    "prompt": "Quel jeune stade sort généralement d’un œuf d’insecte à l’éclosion ?",
+    "options": [
+      "Un jeune stade larvaire ou nymphal",
+      "Un adulte qui ne mue jamais",
+      "Une exuvie",
+      "Une aile antérieure"
+    ],
+    "answer": 0,
+    "explanation": "L’œuf donne un jeune insecte, dont la forme dépend du type de métamorphose de l’espèce.",
+    "didYouKnow": "Les antennes de l’abeille mellifère portent de nombreux récepteurs qui analysent les odeurs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-175",
+    "animal": "Développement",
+    "prompt": "Quel est le principal rôle du cocon de certaines mites ?",
+    "options": [
+      "Protéger la nymphe",
+      "À nourrir l’adulte",
+      "À faire voler la chenille",
+      "À remplacer les œufs"
+    ],
+    "answer": 0,
+    "explanation": "Le cocon est une enveloppe de soie que la larve tisse pour protéger son stade nymphal.",
+    "didYouKnow": "Les chenilles de certaines mites portent des touffes de poils ou des excroissances sur le corps.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-176",
+    "animal": "Fourmis",
+    "prompt": "Quel organe spécialisé les fourmis utilisent-elles souvent pour nettoyer leurs antennes ?",
+    "options": [
+      "Un peigne appelé strigile sur les pattes avant",
+      "Une brosse située sur les pattes postérieures",
+      "Des dents placées sur les mandibules",
+      "Un peigne situé à l’extrémité de l’abdomen"
+    ],
+    "answer": 0,
+    "explanation": "Le strigile est une structure en peigne des pattes antérieures qui aide plusieurs fourmis à nettoyer leurs antennes.",
+    "didYouKnow": "Certaines fourmis forment des ponts vivants avec leur corps pour franchir des brèches.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-177",
+    "animal": "Abeilles",
+    "prompt": "Comment les ouvrières des abeilles mellifères transportent-elles le pollen vers la ruche ?",
+    "options": [
+      "Dans des structures de transport sur leurs pattes postérieures",
+      "Sur les balanciers",
+      "Sous les élytres",
+      "Dans une poche formée par la trompe"
+    ],
+    "answer": 0,
+    "explanation": "Les abeilles mellifères possèdent des corbeilles à pollen sur les pattes arrière.",
+    "didYouKnow": "Les abeilles ouvrières sont des femelles, tandis que les faux-bourdons sont des mâles.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-178",
+    "animal": "Abeilles",
+    "prompt": "Pourquoi les abeilles ventileuses battent-elles des ailes à l’entrée de la ruche ?",
+    "options": [
+      "Pour créer un courant d’air et aider à réguler le microclimat",
+      "À fabriquer du pollen",
+      "À entraîner les larves",
+      "À produire de la cire"
+    ],
+    "answer": 0,
+    "explanation": "La ventilation aide à contrôler la température et l’humidité du nid.",
+    "didYouKnow": "La reine d’abeille mellifère utilise des phéromones qui influencent le comportement des ouvrières.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-179",
+    "animal": "Papillons",
+    "prompt": "Pourquoi certains papillons se rassemblent-ils sur un sol humide ou une berge boueuse ?",
+    "options": [
+      "Ils prélèvent des sels minéraux et d’autres nutriments dissous dans l’eau",
+      "Ils recueillent surtout du nectar qui s’écoule des fleurs voisines",
+      "Ils capturent des petits insectes attirés par la boue",
+      "Ils absorbent l’eau par les ailes pour éviter la déshydratation"
+    ],
+    "answer": 0,
+    "explanation": "Ce comportement, appelé puddling, permet surtout à certains mâles d’absorber des sels et minéraux.",
+    "didYouKnow": "Certaines espèces de papillons migrent sur de longues distances entre leurs sites de reproduction et d’hivernage.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-180",
+    "animal": "Papillons",
+    "prompt": "Comment les ocelles sur les ailes peuvent-ils aider un papillon ?",
+    "options": [
+      "Ils peuvent effrayer ou détourner l’attention d’un prédateur",
+      "À respirer",
+      "À produire des phéromones",
+      "À mesurer la vitesse du vent"
+    ],
+    "answer": 0,
+    "explanation": "Des motifs ressemblant à des yeux peuvent surprendre un prédateur ou détourner son attaque.",
+    "didYouKnow": "Certaines espèces de papillons goûtent les plantes avec des récepteurs situés sur leurs pattes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-181",
+    "animal": "Chenilles",
+    "prompt": "Pourquoi certaines chenilles ont-elles des poils urticants ?",
+    "options": [
+      "Ils constituent une défense contre des prédateurs",
+      "À fabriquer les ailes",
+      "À respirer sous l’eau",
+      "À remplacer les mandibules"
+    ],
+    "answer": 0,
+    "explanation": "Les poils spécialisés peuvent irriter la peau ou les muqueuses et décourager les prédateurs.",
+    "didYouKnow": "Les chenilles du monarque se nourrissent de plusieurs espèces d’asclépiades.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-182",
+    "animal": "Papillons de nuit",
+    "prompt": "Comment certains papillons de nuit échappent-ils à la détection des chauves-souris ?",
+    "options": [
+      "Ils détectent les ultrasons et peuvent manœuvrer ou produire des clics",
+      "Elles deviennent invisibles",
+      "Elles respirent sous terre",
+      "Elles ferment les stigmates pour entendre"
+    ],
+    "answer": 0,
+    "explanation": "Des organes auditifs détectent les appels ultrasonores de chauves-souris chez plusieurs espèces.",
+    "didYouKnow": "Les mites et les papillons appartiennent tous à l’ordre des lépidoptères.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-183",
+    "animal": "Libellules",
+    "prompt": "Pourquoi les ailes des libellules sont-elles capables de bouger indépendamment ?",
+    "options": [
+      "Chaque paire possède une articulation et une musculature de contrôle",
+      "Elles sont attachées à l’abdomen",
+      "Elles sont actionnées par les antennes",
+      "Ce sont des nageoires"
+    ],
+    "answer": 0,
+    "explanation": "Le contrôle indépendant des ailes contribue à la manœuvrabilité remarquable des odonates.",
+    "didYouKnow": "Les mâles de certaines libellules défendent des sites de ponte contre leurs rivaux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-184",
+    "animal": "Insectes aquatiques",
+    "prompt": "Que forme le plastron respiratoire de certains insectes aquatiques ?",
+    "options": [
+      "Une fine couche d’air maintenue contre le corps",
+      "Une bulle d’air enfermée sous les élytres et renouvelée à la surface",
+      "Des branchies trachéennes qui extraient l’oxygène dissous",
+      "Un siphon respiratoire qui atteint la surface de l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Des poils hydrophobes maintiennent un film d’air utilisé pour les échanges gazeux.",
+    "didYouKnow": "Les larves de libellules saisissent leurs proies avec un labium extensible appelé masque.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-185",
+    "animal": "Coléoptères",
+    "prompt": "Quelle particularité visuelle permet aux gyrins de surveiller simultanément l’air et l’eau ?",
+    "options": [
+      "Une paire d’yeux divisés, dont une partie voit dans l’air et l’autre dans l’eau",
+      "Une paire d’yeux dirigés vers le fond et une seconde vers le ciel",
+      "Des yeux composés situés à l’extrémité de longues antennes",
+      "Des yeux mobiles qui tournent indépendamment dans leurs orbites"
+    ],
+    "answer": 0,
+    "explanation": "Les yeux divisés leur permettent de surveiller simultanément l’air et l’eau.",
+    "didYouKnow": "Les gyrins tournent souvent rapidement à la surface des mares.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-186",
+    "animal": "Coléoptères",
+    "prompt": "Pourquoi les larves de lucioles sont-elles parfois appelées vers luisants ?",
+    "options": [
+      "Elles peuvent produire de la lumière",
+      "Leur corps émet encore de la lumière après la mort",
+      "Elles possèdent des écailles phosphorescentes",
+      "Elles produisent une lumière provenant de bactéries toujours symbiotiques"
+    ],
+    "answer": 0,
+    "explanation": "Chez plusieurs lucioles, les larves possèdent des organes lumineux utilisés notamment pour la défense.",
+    "didYouKnow": "Les lucioles sont des coléoptères, et non des mouches.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-187",
+    "animal": "Hémiptères",
+    "prompt": "Comment les punaises d’eau géantes capturent-elles souvent leurs proies ?",
+    "options": [
+      "Avec leurs pattes avant ravisseuses et leur rostre",
+      "En projetant une langue collante qui capture les proies",
+      "En construisant un piège de soie sous la surface",
+      "Avec leurs pattes arrière frangées qui forment un panier"
+    ],
+    "answer": 0,
+    "explanation": "Elles saisissent les proies et utilisent leur rostre pour injecter de la salive digestive.",
+    "didYouKnow": "Les punaises d’eau géantes pondent parfois leurs œufs sur le dos des mâles, selon l’espèce.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-188",
+    "animal": "Hémiptères",
+    "prompt": "À quoi sert le rostre d’une cicadelle qui se nourrit de sève ?",
+    "options": [
+      "À percer les tissus végétaux et aspirer la sève",
+      "À découper des feuilles",
+      "À capturer des insectes volants",
+      "À construire une toile"
+    ],
+    "answer": 0,
+    "explanation": "Les pièces buccales piqueuses permettent d’accéder aux fluides des plantes.",
+    "didYouKnow": "Certaines cicadelles produisent une mousse protectrice pendant leur développement larvaire.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-189",
+    "animal": "Diptères",
+    "prompt": "Pourquoi les larves de moustiques filtrent-elles l’eau avec leurs pièces buccales ?",
+    "options": [
+      "Pour récupérer des micro-organismes et particules alimentaires",
+      "Pour capturer de petits animaux qu’elles avalent entiers",
+      "Pour brouter les algues fixées aux parois du récipient",
+      "Pour filtrer l’air et obtenir l’oxygène nécessaire"
+    ],
+    "answer": 0,
+    "explanation": "La plupart des larves se nourrissent de particules ou de micro-organismes présents dans l’eau.",
+    "didYouKnow": "Les moustiques mâles se nourrissent généralement de nectar plutôt que de sang.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-190",
+    "animal": "Diptères",
+    "prompt": "Quel rôle les mouches peuvent-elles jouer dans la pollinisation ?",
+    "options": [
+      "Elles transportent du pollen en visitant des fleurs",
+      "Elles fécondent les graines",
+      "Elles fabriquent le nectar",
+      "Elles dispersent les racines"
+    ],
+    "answer": 0,
+    "explanation": "De nombreuses mouches visitent les fleurs pour le nectar ou le pollen et peuvent transférer du pollen.",
+    "didYouKnow": "Les larves de plusieurs syrphes se nourrissent de pucerons.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-191",
+    "animal": "Orthoptères",
+    "prompt": "Pourquoi les criquets grégaires peuvent-ils former des essaims ?",
+    "options": [
+      "Une forte densité et des signaux sensoriels peuvent déclencher un changement de comportement",
+      "Une baisse de température déclenche une migration annuelle commune à tous les criquets",
+      "Des soins parentaux coordonnés maintiennent les individus en groupe",
+      "Une reine dirige l’essaim vers les plantes les plus riches en nourriture"
+    ],
+    "answer": 0,
+    "explanation": "Chez certaines espèces, la densité peut entraîner des changements comportementaux et morphologiques associés à la phase grégaire.",
+    "didYouKnow": "Les criquets nymphes possèdent des bourgeons alaires qui grandissent au fil des mues.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-192",
+    "animal": "Phasmes",
+    "prompt": "Quel rôle joue parfois le capitulum sur l’œuf de certains phasmes ?",
+    "options": [
+      "Il attire les fourmis, qui transportent l’œuf avant de consommer cette partie nutritive",
+      "Il attire des oiseaux qui dispersent l’œuf dans leurs fientes",
+      "Il flotte sur l’eau jusqu’à une plante où l’œuf peut éclore",
+      "Il constitue une réserve d’air qui permet à l’œuf de respirer sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Chez certaines espèces comme Extatosoma tiaratum, un appendice nutritif de l’œuf attire les fourmis, qui peuvent déplacer l’œuf jusqu’à leur nid.",
+    "didYouKnow": "Certaines espèces de phasmes peuvent se reproduire par parthénogenèse.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-193",
+    "animal": "Mantes",
+    "prompt": "Pourquoi les mantes balancent-elles parfois leur corps d’un côté à l’autre ?",
+    "options": [
+      "Le mouvement peut renforcer leur camouflage parmi les feuilles",
+      "Le mouvement permet de calculer la distance exacte d’une proie",
+      "Le balancement réchauffe les muscles avant le vol",
+      "Le balancement sert à produire un signal sonore pour les partenaires"
+    ],
+    "answer": 0,
+    "explanation": "Le balancement peut imiter une végétation remuée par le vent et contribuer au camouflage.",
+    "didYouKnow": "La mante évalue aussi les distances grâce à la vision stéréoscopique.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-194",
+    "animal": "Blattes",
+    "prompt": "Comment les blattes détectent-elles la présence d’un congénère ?",
+    "options": [
+      "Avec des signaux chimiques et des récepteurs sensoriels",
+      "Avec des signaux visuels seulement",
+      "Avec des chants nuptiaux",
+      "Avec des vibrations d’ailes seulement"
+    ],
+    "answer": 0,
+    "explanation": "Des phéromones et d’autres substances chimiques influencent le regroupement et la reconnaissance.",
+    "didYouKnow": "Certaines blattes peuvent survivre longtemps avec peu de nourriture, mais ont besoin d’accès à l’eau.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-195",
+    "animal": "Abeille mellifère",
+    "prompt": "Où les ouvrières de l’abeille mellifère produisent-elles les écailles de cire ?",
+    "options": [
+      "Dans des glandes situées sous l’abdomen",
+      "Dans des glandes salivaires situées près de la bouche",
+      "Dans des glandes odorantes à la base des antennes",
+      "Dans des glandes situées sous les ailes antérieures"
+    ],
+    "answer": 0,
+    "explanation": "Les jeunes ouvrières sécrètent la cire par des glandes abdominales; de petites écailles apparaissent sur la face ventrale.",
+    "didYouKnow": "Les faux-bourdons ont des yeux plus grands que ceux des ouvrières.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "insects-196",
+    "animal": "Écologie",
+    "prompt": "Pourquoi les insectes sont-ils utiles comme nourriture pour les chauves-souris ?",
+    "options": [
+      "Ils constituent une ressource abondante pour de nombreuses espèces insectivores",
+      "Ils produisent l’écholocation",
+      "Ils fabriquent les gîtes",
+      "Ils remplacent l’eau"
+    ],
+    "answer": 0,
+    "explanation": "De nombreuses chauves-souris chassent des insectes volants, notamment des papillons de nuit et des diptères.",
+    "didYouKnow": "Certains insectes, dont les monarques, effectuent des migrations saisonnières.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-197",
+    "animal": "Écologie",
+    "prompt": "Comment les insectes aident-ils parfois à contrôler les mauvaises herbes ?",
+    "options": [
+      "Certains consomment des plantes envahissantes de façon ciblée",
+      "Elles fertilisent les herbes avec du miel",
+      "Elles empêchent toute graine de germer",
+      "Elles transforment les herbes en champignons"
+    ],
+    "answer": 0,
+    "explanation": "Des insectes herbivores ont été utilisés comme agents de lutte biologique après étude de leur spécificité.",
+    "didYouKnow": "La coccinelle asiatique, Harmonia axyridis, est originaire d’Asie orientale.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-198",
+    "animal": "Conservation",
+    "prompt": "Quel effet peut avoir la disparition des haies sur les insectes agricoles ?",
+    "options": [
+      "Elle réduit des refuges et des corridors entre habitats",
+      "Elle augmente les déplacements entre parcelles",
+      "Elle fournit davantage de sites de ponte",
+      "Elle accroît les refuges disponibles"
+    ],
+    "answer": 0,
+    "explanation": "Les haies offrent nourriture, abri et continuité du paysage pour plusieurs insectes.",
+    "didYouKnow": "Les insectes hivernent selon leur espèce sous forme d’œuf, de larve, de nymphe ou d’adulte.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "insects-199",
+    "animal": "Conservation",
+    "prompt": "Pourquoi les zones humides sont-elles importantes pour de nombreux insectes ?",
+    "options": [
+      "Elles offrent des habitats de reproduction et d’alimentation, notamment aux larves aquatiques",
+      "Seuls les coléoptères y vivent",
+      "Les insectes aquatiques n’y trouvent pas de ressources",
+      "Ces milieux ne permettent pas la reproduction des insectes"
+    ],
+    "answer": 0,
+    "explanation": "Mares, marais et cours d’eau abritent des stades larvaires et adultes de nombreux insectes.",
+    "didYouKnow": "Les éphémères adultes vivent souvent peu de temps et ne se nourrissent pas.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "insects-200",
+    "animal": "Écologie",
+    "prompt": "Quel rôle les termites jouent-ils dans les écosystèmes tropicaux ?",
+    "options": [
+      "Ils fragmentent la matière végétale et remanient les sols",
+      "Ils pollinisent surtout les plantes à fleurs",
+      "Ils consomment principalement des insectes herbivores",
+      "Ils se nourrissent surtout de nectar plutôt que de cellulose"
+    ],
+    "answer": 0,
+    "explanation": "Les termites participent au recyclage de la cellulose et à la structuration des sols.",
+    "didYouKnow": "Les termites vivent dans des colonies structurées où les individus ont des rôles différents.",
+    "difficulty": "medium"
+  }
+]

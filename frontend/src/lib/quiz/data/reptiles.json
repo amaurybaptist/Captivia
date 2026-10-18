@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "reptiles-001",
+    "animal": "Reptiles",
+    "prompt": "Quelle caractéristique distingue les reptiles des mammifères concernant leur peau ?",
+    "options": [
+      "Elle porte des plumes kératinisées",
+      "Elle porte des poils et des glandes sébacées",
+      "Elle porte une peau nue et perméable",
+      "Elle porte des écailles ou des plaques cornées"
+    ],
+    "answer": 3,
+    "explanation": "La peau des reptiles est généralement recouverte d’écailles ou de plaques riches en kératine, qui limitent les pertes d’eau.",
+    "didYouKnow": "La plupart des reptiles ont un cœur à trois cavités; les crocodiliens font exception avec un cœur à quatre cavités.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-002",
+    "animal": "Reptiles",
+    "prompt": "Comment la plupart des reptiles régulent-ils leur température corporelle ?",
+    "options": [
+      "En utilisant des sources de chaleur externes",
+      "En maintenant une température presque constante grâce au métabolisme",
+      "En produisant une chaleur constante par des frissons",
+      "En refroidissant le corps par une transpiration abondante"
+    ],
+    "answer": 0,
+    "explanation": "La plupart sont ectothermes : leur température dépend largement de l’environnement et de comportements comme l’exposition au soleil ou la recherche d’ombre.",
+    "didYouKnow": "La fécondation des reptiles a lieu à l’intérieur du corps de la femelle.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-003",
+    "animal": "Reptiles",
+    "prompt": "Quel type d’œuf a contribué à la reproduction des reptiles loin de l’eau ?",
+    "options": [
+      "Un œuf dont l’embryon dépend directement d’un placenta complexe",
+      "Un œuf sans amnios dont l’embryon se développe en eau libre",
+      "Un œuf à coquille dure qui empêche tout échange gazeux",
+      "Un œuf amniotique protégé par des membranes"
+    ],
+    "answer": 3,
+    "explanation": "Les membranes de l’œuf amniotique protègent l’embryon et créent un milieu liquide interne, permettant le développement sur terre.",
+    "didYouKnow": "La plupart des reptiles ont un cœur à trois cavités; les crocodiliens font exception.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-004",
+    "animal": "Reptiles",
+    "prompt": "Pourquoi les reptiles muent-ils ?",
+    "options": [
+      "Pour renouveler les griffes à chaque cycle de croissance",
+      "Pour éliminer une couche cutanée devenue trop épaisse",
+      "Pour remplacer les os du squelette devenus trop petits",
+      "Pour renouveler une couche externe qui ne grandit pas avec eux"
+    ],
+    "answer": 3,
+    "explanation": "La couche cornée de la peau s’use et ne s’étire pas comme les tissus sous-jacents; la mue permet son renouvellement.",
+    "didYouKnow": "Les reptiles grandissent par périodes et peuvent donc muer plusieurs fois au cours de leur vie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-005",
+    "animal": "Reptiles",
+    "prompt": "Quel rôle joue principalement la langue fourchue chez de nombreux serpents ?",
+    "options": [
+      "Détecter les vibrations sonores du sol",
+      "Transporter des particules odorantes vers l’organe voméronasal",
+      "Goûter les aliments déjà présents dans la bouche",
+      "Mesurer directement l’humidité de l’air"
+    ],
+    "answer": 1,
+    "explanation": "La langue collecte des molécules dans l’air et les dépose dans l’organe voméronasal, qui participe à l’analyse des odeurs.",
+    "didYouKnow": "Chez les serpents, l’organe voméronasal se trouve dans le palais.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-006",
+    "animal": "Serpents",
+    "prompt": "Comment les serpents ouvrent-ils leur bouche pour avaler une proie volumineuse ?",
+    "options": [
+      "Les os des deux côtés de la mâchoire et plusieurs os du crâne sont reliés par des articulations mobiles",
+      "La mâchoire inférieure se déboîte puis se remet en place après le repas",
+      "Les deux moitiés de la mâchoire inférieure fusionnent et s’écartent en bloc",
+      "Le crâne se sépare de la colonne vertébrale pour laisser passer la proie"
+    ],
+    "answer": 0,
+    "explanation": "Les deux côtés de la mâchoire inférieure ne sont pas soudés à l’avant; des ligaments souples et des articulations mobiles permettent à la bouche de s’élargir autour de la proie.",
+    "didYouKnow": "Les serpents n’ont pas de pavillons auditifs externes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-007",
+    "animal": "Serpents",
+    "prompt": "À quoi sert le dessin en zigzag visible sur le dos de nombreuses vipères européennes ?",
+    "options": [
+      "À briser visuellement leur silhouette et les camoufler",
+      "À attirer les proies par un contraste lumineux",
+      "À signaler la présence d’un venin toujours dangereux pour l’humain",
+      "À annoncer une période de mue aux autres vipères"
+    ],
+    "answer": 0,
+    "explanation": "Le motif contrasté peut aider la vipère à se fondre dans la végétation ou les feuilles mortes; son apparence varie selon les espèces.",
+    "didYouKnow": "La vipère péliade est présente jusque dans les régions nordiques de l’Europe.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-008",
+    "animal": "Caméléons",
+    "prompt": "À quoi sert le changement de couleur chez les caméléons ?",
+    "options": [
+      "À adapter la couleur des écailles à chaque type de lumière",
+      "Uniquement à se fondre dans le décor pour échapper aux prédateurs",
+      "À exprimer des interactions sociales sans lien avec la température",
+      "À communiquer et à ajuster leur réponse à l’environnement, notamment la chaleur"
+    ],
+    "answer": 3,
+    "explanation": "Les changements de couleur peuvent intervenir dans les interactions sociales et la thermorégulation; ils ne servent pas seulement au camouflage.",
+    "didYouKnow": "Les caméléons possèdent des pieds dont les doigts opposés forment une prise autour des branches.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-009",
+    "animal": "Geckos",
+    "prompt": "Comment certains geckos grimpent-ils sur des surfaces lisses ?",
+    "options": [
+      "Grâce à des ventouses qui créent un vide sous chaque orteil",
+      "Grâce à des millions de structures microscopiques sous leurs doigts",
+      "Grâce à une sécrétion collante déposée sur la surface",
+      "Grâce à des griffes qui s’accrochent aux pores du support"
+    ],
+    "answer": 1,
+    "explanation": "Les lamelles des doigts portent des soies microscopiques qui établissent des interactions de proximité avec la surface.",
+    "didYouKnow": "Certains geckos peuvent produire des cris ou des claquements lors d’interactions sociales.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-010",
+    "animal": "Geckos",
+    "prompt": "Quelle particularité ont les yeux de nombreux geckos nocturnes ?",
+    "options": [
+      "Une pupille qui se contracte en fentes verticales à la lumière",
+      "Un iris fixe qui bloque la lumière sans changer de forme",
+      "Une pupille ronde qui reste de même taille toute la journée",
+      "Une pupille horizontale qui s’élargit en plein soleil"
+    ],
+    "answer": 0,
+    "explanation": "Chez plusieurs geckos nocturnes, la pupille devient une fente étroite en forte lumière; beaucoup d’espèces n’ont pas de paupières mobiles.",
+    "didYouKnow": "Les geckos sans paupières nettoient leurs yeux avec leur langue.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-011",
+    "animal": "Lézards",
+    "prompt": "Quel mécanisme défensif est appelé autotomie caudale chez certains lézards ?",
+    "options": [
+      "La perte involontaire d’une patte après une blessure",
+      "La mue de la queue avec la peau externe",
+      "La perte volontaire d’une partie de la queue",
+      "La rupture de la queue au moment de la reproduction"
+    ],
+    "answer": 2,
+    "explanation": "Certains lézards peuvent détacher une partie de leur queue lorsqu’un prédateur les saisit; le mouvement résiduel peut détourner son attention.",
+    "didYouKnow": "Certains lézards stockent une partie de leurs réserves énergétiques dans leur queue.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-012",
+    "animal": "Lézards",
+    "prompt": "Quel rôle les lézards jouent-ils souvent dans les écosystèmes ?",
+    "options": [
+      "Ils consomment les mêmes végétaux que les herbivores et ne sont jamais chassés",
+      "Ils dispersent toujours les graines sans consommer d’animaux",
+      "Ils occupent exclusivement le sommet des chaînes alimentaires",
+      "Ils consomment des invertébrés et servent eux-mêmes de proies"
+    ],
+    "answer": 3,
+    "explanation": "Beaucoup de lézards mangent insectes ou autres petits animaux et sont à leur tour consommés par des oiseaux, serpents et mammifères.",
+    "didYouKnow": "Certaines espèces de lézards consomment aussi des fruits ou du nectar.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-013",
+    "animal": "Tortues",
+    "prompt": "À quoi correspond la carapace d’une tortue ?",
+    "options": [
+      "À une coquille cornée posée sur le dos sans lien avec le squelette",
+      "À une structure osseuse intégrée au squelette",
+      "À une enveloppe externe formée de plaques détachables",
+      "À une couche de peau épaissie couvrant les muscles"
+    ],
+    "answer": 1,
+    "explanation": "La carapace est reliée au squelette et comprend des éléments osseux; la tortue ne peut pas en sortir.",
+    "didYouKnow": "Les écailles visibles de nombreuses carapaces sont des plaques cornées appelées scutelles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-014",
+    "animal": "Tortues",
+    "prompt": "Comment appelle-t-on la partie ventrale de la carapace d’une tortue ?",
+    "options": [
+      "Le rostre",
+      "Le plastron",
+      "Le fanon",
+      "La dossière"
+    ],
+    "answer": 1,
+    "explanation": "La carapace comprend une partie dorsale, la dossière, et une partie ventrale appelée plastron.",
+    "didYouKnow": "Chez les tortues-boîtes, une charnière du plastron permet de fermer la carapace.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-015",
+    "animal": "Tortues marines",
+    "prompt": "Quel phénomène aide les tortues marines à retrouver leur région de naissance pour pondre ?",
+    "options": [
+      "Le suivi exclusif de courants d’eau douce jusqu’à la plage",
+      "L’utilisation de repères environnementaux, dont le champ magnétique terrestre",
+      "La mémorisation du trajet effectué avec leur mère",
+      "L’orientation uniquement grâce à l’odeur de leur site de naissance"
+    ],
+    "answer": 1,
+    "explanation": "Les tortues marines utilisent plusieurs indices de navigation; des recherches montrent qu’elles perçoivent des informations liées au champ magnétique terrestre.",
+    "didYouKnow": "Après l’éclosion, les jeunes tortues marines rejoignent l’océan sans soins parentaux directs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-016",
+    "animal": "Tortues marines",
+    "prompt": "Pourquoi la lumière artificielle côtière peut-elle mettre en danger les jeunes tortues marines ?",
+    "options": [
+      "Elle réduit la salinité de l’eau près des plages éclairées",
+      "Elle empêche les œufs de recevoir assez de chaleur diurne",
+      "Elle peut les désorienter lorsqu’elles rejoignent la mer après l’éclosion",
+      "Elle rend le sable trop compact pour l’éclosion"
+    ],
+    "answer": 2,
+    "explanation": "Les nouveau-nés s’orientent vers l’horizon naturellement lumineux; les lumières artificielles peuvent les attirer vers l’intérieur des terres.",
+    "didYouKnow": "Les tortues marines adultes reviennent sur des plages pour y creuser leurs nids.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-017",
+    "animal": "Crocodiliens",
+    "prompt": "Où se trouvent les yeux et les narines des crocodiliens lorsqu’ils flottent presque entièrement immergés ?",
+    "options": [
+      "Sous la mâchoire inférieure",
+      "Sur les côtés du ventre",
+      "Sur la partie supérieure de la tête",
+      "À l’extrémité de la queue"
+    ],
+    "answer": 2,
+    "explanation": "Le placement des yeux et des narines sur le dessus du crâne permet de voir et respirer en exposant peu le corps.",
+    "didYouKnow": "Des valves peuvent fermer les narines et les oreilles des crocodiliens sous l’eau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-018",
+    "animal": "Crocodiliens",
+    "prompt": "Quel est l’intérêt de la communication vocale chez les crocodiliens ?",
+    "options": [
+      "Elle intervient notamment entre parents et jeunes",
+      "Elle aide les crocodiliens à localiser une proie par écholocation",
+      "Elle sert uniquement aux mâles pour attirer des partenaires",
+      "Elle remplace les appels visuels entre individus"
+    ],
+    "answer": 0,
+    "explanation": "Les crocodiliens produisent divers sons; les petits peuvent vocaliser dans l’œuf et appeler leur mère autour de l’éclosion.",
+    "didYouKnow": "Les crocodiliens sont ectothermes et prennent souvent le soleil pour réchauffer leur corps.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-019",
+    "animal": "Alligators",
+    "prompt": "Dans quel grand groupe zoologique se trouvent les alligators ?",
+    "options": [
+      "Les crocodiliens",
+      "Les tortues",
+      "Les squamates",
+      "Les rhynchocéphales"
+    ],
+    "answer": 0,
+    "explanation": "Alligators, caïmans, crocodiles et gavials sont des crocodiliens, un groupe de reptiles archosaures.",
+    "didYouKnow": "Les oiseaux sont les plus proches parents vivants des crocodiliens parmi les grands groupes actuels.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-020",
+    "animal": "Gavials",
+    "prompt": "Quelle forme de museau caractérise le gavial du Gange ?",
+    "options": [
+      "Un museau court et très robuste",
+      "Un museau très long et étroit",
+      "Un museau aplati et en forme de pelle",
+      "Un museau large et arrondi"
+    ],
+    "answer": 1,
+    "explanation": "Le gavial possède un museau allongé et étroit adapté à la capture de poissons dans les rivières.",
+    "didYouKnow": "Le mâle adulte porte à l’extrémité du museau une excroissance appelée ghara.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-021",
+    "animal": "Tortues terrestres",
+    "prompt": "Quelle adaptation aide la tortue des Galápagos à atteindre la végétation en hauteur ?",
+    "options": [
+      "Des pattes arrière allongées adaptées aux bonds",
+      "Une queue aplatie qui les propulse dans l’eau",
+      "Un cou et une carapace dont la forme varie selon l’habitat",
+      "Un bec étroit qui filtre les plantes aquatiques"
+    ],
+    "answer": 2,
+    "explanation": "Chez certaines tortues géantes, une carapace en forme de selle et un cou long facilitent l’accès aux plantes plus hautes.",
+    "didYouKnow": "Les tortues géantes des Galápagos peuvent disperser des graines après avoir mangé des fruits.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-022",
+    "animal": "Tortue alligator",
+    "prompt": "Comment la tortue alligator (Macrochelys temminckii) attire-t-elle certaines proies aquatiques ?",
+    "options": [
+      "Elle filtre de petites proies avec des lamelles branchiales",
+      "Elle agite sa queue pour imiter un poisson blessé",
+      "Elle remue un appendice en forme de ver au fond de sa bouche",
+      "Elle projette sa langue hors de l’eau pour saisir les poissons"
+    ],
+    "answer": 2,
+    "explanation": "La tortue alligator peut rester immobile, bouche ouverte, et remuer un appendice lingual qui ressemble à un ver pour attirer une proie.",
+    "didYouKnow": "La tortue alligator est endémique des bassins fluviaux du sud-est des États-Unis.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-023",
+    "animal": "Tortues marines",
+    "prompt": "Quel aliment constitue une part importante du régime des tortues luth ?",
+    "options": [
+      "Les méduses et autres organismes gélatineux",
+      "Les algues et les herbiers marins",
+      "Les crustacés et les mollusques du fond",
+      "Les éponges et les coraux durs"
+    ],
+    "answer": 0,
+    "explanation": "La tortue luth consomme surtout des méduses et d’autres proies gélatineuses; les sacs plastiques peuvent être confondus avec elles.",
+    "didYouKnow": "La tortue luth est la seule tortue marine dépourvue d’une carapace osseuse rigide recouverte de grandes écailles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-024",
+    "animal": "Tortues marines",
+    "prompt": "À quoi servent les glandes à sel situées près des yeux chez les tortues marines ?",
+    "options": [
+      "À produire un mucus qui protège l’œil du sable",
+      "À évacuer les déchets azotés du sang",
+      "À éliminer l’excès de sels absorbés",
+      "À maintenir les yeux humides sous l’eau"
+    ],
+    "answer": 2,
+    "explanation": "Ces glandes excrètent une solution concentrée en sels, ce qui aide les tortues marines à maintenir l’équilibre hydrique en milieu salé.",
+    "didYouKnow": "Les tortues marines doivent remonter à la surface pour respirer avec leurs poumons.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-025",
+    "animal": "Varans",
+    "prompt": "Quel sens aide le dragon de Komodo à repérer des odeurs à distance ?",
+    "options": [
+      "La perception des vibrations par les os de ses pattes",
+      "La détection des odeurs par des antennes sur le museau",
+      "La détection de molécules par sa langue et son organe voméronasal",
+      "La vision infrarouge assurée uniquement par ses yeux"
+    ],
+    "answer": 2,
+    "explanation": "Comme d’autres lézards, le dragon de Komodo collecte des particules odorantes avec sa langue et les analyse via l’organe voméronasal.",
+    "didYouKnow": "Le dragon de Komodo est le plus grand lézard vivant connu.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-026",
+    "animal": "Iguanes marins",
+    "prompt": "Quelle ressource alimentaire exploite l’iguane marin des Galápagos ?",
+    "options": [
+      "Des éponges prélevées sur les récifs",
+      "Des poissons qu’il capture à la surface",
+      "Des herbiers marins qu’il déracine sur la plage",
+      "Des algues qu’il broute dans la mer"
+    ],
+    "answer": 3,
+    "explanation": "L’iguane marin se nourrit d’algues, qu’il broute en plongeant dans les eaux côtières des Galápagos.",
+    "didYouKnow": "L’iguane marin se chauffe souvent au soleil après ses plongées en eau froide.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-027",
+    "animal": "Basilics",
+    "prompt": "Pourquoi le basilic vert est-il surnommé lézard Jésus-Christ ?",
+    "options": [
+      "Il se déplace sur l’eau grâce à des pattes palmées",
+      "Il marche uniquement au fond des ruisseaux",
+      "Il peut courir brièvement à la surface de l’eau",
+      "Il plonge en apnée plusieurs minutes sans nager"
+    ],
+    "answer": 2,
+    "explanation": "Ses longues pattes arrière et ses franges de doigts lui permettent de courir un court moment sur l’eau avant de nager.",
+    "didYouKnow": "Le basilic vert vit dans des régions d’Amérique centrale, souvent près de cours d’eau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-028",
+    "animal": "Anolis",
+    "prompt": "À quoi sert le fanon coloré que déploient les anolis mâles ?",
+    "options": [
+      "À l’intimidation par une expansion de la cage thoracique",
+      "À la communication visuelle, notamment territoriale",
+      "À la thermorégulation par échange de chaleur avec l’air",
+      "À la détection tactile de proies dans le sol"
+    ],
+    "answer": 1,
+    "explanation": "Le fanon, une extension de peau sous la gorge, est déployé lors de parades ou d’interactions avec d’autres individus.",
+    "didYouKnow": "Certains anolis peuvent détacher leur queue lorsqu’un prédateur les saisit.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-029",
+    "animal": "Lézard à collerette",
+    "prompt": "Comment le lézard à collerette peut-il s’enfuir rapidement sur un terrain dégagé ?",
+    "options": [
+      "En courant brièvement sur ses pattes arrière",
+      "En planant grâce à une membrane soutenue par ses côtes",
+      "En nageant à l’aide d’une queue aplatie",
+      "En creusant avec ses pattes avant sans quitter le sol"
+    ],
+    "answer": 0,
+    "explanation": "Le lézard à collerette peut courir sur ses pattes postérieures lorsqu’il fuit sur un terrain dégagé.",
+    "didYouKnow": "Le lézard à collerette vit dans le nord de l’Australie et le sud de la Nouvelle-Guinée.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-030",
+    "animal": "Lézards cornus",
+    "prompt": "Quel moyen de défense est connu chez certaines espèces de lézards cornus ?",
+    "options": [
+      "Mordre les prédateurs avec des crochets venimeux",
+      "Projeter du sang depuis des vaisseaux près des yeux",
+      "Déployer des côtes pointues autour de la tête",
+      "Éjecter un mucus irritant par les glandes de la peau"
+    ],
+    "answer": 1,
+    "explanation": "Certaines espèces peuvent expulser du sang de la région oculaire, un comportement défensif dirigé contre certains prédateurs.",
+    "didYouKnow": "Les lézards cornus se nourrissent souvent de fourmis.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-031",
+    "animal": "Scinques",
+    "prompt": "Quelle est une adaptation commune des scinques fouisseurs ?",
+    "options": [
+      "Une tête aplatie et des pattes palmées",
+      "Un corps court et une longue nageoire dorsale",
+      "Un corps allongé et des membres parfois réduits",
+      "Un corps compact et des membres élargis pour creuser"
+    ],
+    "answer": 2,
+    "explanation": "Les scinques qui vivent sous terre présentent souvent un corps allongé et des membres réduits, facilitant les déplacements dans le sol.",
+    "didYouKnow": "Certaines espèces de scinques ont des paupières inférieures transparentes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-032",
+    "animal": "Lézards sans pattes",
+    "prompt": "Quel indice distingue souvent un lézard sans pattes d’un serpent ?",
+    "options": [
+      "La présence d’écailles ventrales larges",
+      "La présence de paupières mobiles ou d’ouvertures auriculaires",
+      "La forme allongée du corps",
+      "La langue fourchue"
+    ],
+    "answer": 1,
+    "explanation": "Certains lézards sans pattes conservent des paupières mobiles et des ouvertures auriculaires externes, contrairement aux serpents.",
+    "didYouKnow": "L’orvet peut perdre sa queue lorsqu’il est attaqué.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-033",
+    "animal": "Orvets",
+    "prompt": "Quel est le régime alimentaire habituel de l’orvet ?",
+    "options": [
+      "Les poissons et les crustacés",
+      "Les insectes volants et les araignées",
+      "Les œufs d’oiseaux et les petits mammifères",
+      "Les limaces et les vers"
+    ],
+    "answer": 3,
+    "explanation": "L’orvet, qui est un lézard sans pattes, consomme surtout de petits invertébrés comme les limaces et les vers.",
+    "didYouKnow": "L’orvet possède des écailles lisses et brillantes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-034",
+    "animal": "Reptiles",
+    "prompt": "Comment appelle-t-on le mode de reproduction où les œufs se développent à l’extérieur du corps maternel après la ponte ?",
+    "options": [
+      "La viviparité",
+      "L’oviparité",
+      "La parthénogenèse",
+      "La diapause embryonnaire"
+    ],
+    "answer": 1,
+    "explanation": "L’oviparité est le mode de reproduction dans lequel la femelle pond des œufs avant que le développement embryonnaire soit achevé.",
+    "didYouKnow": "La peau des reptiles comprend une couche externe riche en kératine.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-035",
+    "animal": "Serpents",
+    "prompt": "Comment les serpents détectent-ils les vibrations du sol ?",
+    "options": [
+      "Ils perçoivent les vibrations uniquement avec la langue",
+      "Ils détectent les sons grâce à des tympans externes visibles",
+      "Ils captent les vibrations avec des poils sensoriels sur la peau",
+      "Les vibrations sont transmises par le corps et les os de la mâchoire à l’oreille interne"
+    ],
+    "answer": 3,
+    "explanation": "Les serpents n’ont pas d’oreilles externes, mais les vibrations du substrat peuvent atteindre leur oreille interne via le crâne et la mâchoire.",
+    "didYouKnow": "Les serpents n’ont pas de pavillons auditifs externes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-036",
+    "animal": "Serpents à fossettes",
+    "prompt": "À quoi servent les fossettes thermosensibles de nombreuses vipères ?",
+    "options": [
+      "À capter les sons de fréquence élevée sous l’eau",
+      "À mesurer les vibrations du sol transmises à la mâchoire",
+      "À repérer les molécules odorantes transportées par l’air",
+      "À détecter le rayonnement infrarouge émis par des objets chauds"
+    ],
+    "answer": 3,
+    "explanation": "Les organes à fossette détectent de faibles différences de rayonnement thermique et peuvent aider à localiser des proies chaudes.",
+    "didYouKnow": "Les vipères appartiennent au groupe des serpents dits vipéridés.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-037",
+    "animal": "Boas",
+    "prompt": "Comment un boa tue-t-il généralement une proie qu’il a saisie ?",
+    "options": [
+      "En comprimant son corps autour d’elle, ce qui perturbe rapidement sa circulation sanguine",
+      "En l’étouffant lentement en bloquant uniquement ses voies respiratoires",
+      "En lui injectant du venin par des crochets spécialisés",
+      "En la maintenant sous l’eau jusqu’à ce qu’elle se noie"
+    ],
+    "answer": 0,
+    "explanation": "La constriction exerce une pression qui gêne fortement le retour veineux et la circulation sanguine de la proie; l’immobilisation est rapide.",
+    "didYouKnow": "Les boas possèdent une mâchoire très mobile qui leur permet d’avaler des proies entières.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-038",
+    "animal": "Pythons",
+    "prompt": "Quelle caractéristique reproductive est courante chez les pythons ?",
+    "options": [
+      "La ponte d’œufs",
+      "La reproduction sans fécondation par un mâle",
+      "La garde de cocons déposés sous terre",
+      "La naissance de petits vivants après développement interne"
+    ],
+    "answer": 0,
+    "explanation": "Les pythons sont des serpents ovipares; plusieurs espèces gardent ou couvent leurs œufs, certaines pouvant les réchauffer par contractions musculaires.",
+    "didYouKnow": "Les pythons possèdent des fossettes thermosensibles autour des lèvres.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-039",
+    "animal": "Cobras",
+    "prompt": "Pourquoi le cobra déploie-t-il son capuchon ?",
+    "options": [
+      "Pour paraître plus grand lors d’une menace ou d’une parade",
+      "Pour intimider une proie avant de l’attraper",
+      "Pour mieux capter les odeurs portées par l’air",
+      "Pour augmenter la surface de peau exposée au soleil"
+    ],
+    "answer": 0,
+    "explanation": "Le capuchon est formé par l’extension des côtes du cou et contribue à une posture d’avertissement ou d’intimidation.",
+    "didYouKnow": "Les cobras ont des crochets fixes à l’avant de la bouche.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-040",
+    "animal": "Serpents marins",
+    "prompt": "Comment les serpents marins respirent-ils ?",
+    "options": [
+      "Avec une poche d’air permanente sous les écailles",
+      "Avec des poumons, en remontant à la surface",
+      "Par diffusion cutanée sans prendre d’air",
+      "Avec des branchies qui extraient l’oxygène dissous"
+    ],
+    "answer": 1,
+    "explanation": "Même adaptés à la vie marine, les serpents marins respirent l’air avec des poumons et doivent remonter en surface.",
+    "didYouKnow": "La queue aplatie des serpents marins leur sert de pagaie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-041",
+    "animal": "Serpents marins",
+    "prompt": "Quelle forme de queue aide de nombreux serpents marins à nager ?",
+    "options": [
+      "Une queue aplatie latéralement comme une pagaie",
+      "Une queue longue et cylindrique qui sert de gouvernail",
+      "Une queue aplatie verticalement comme une dérive",
+      "Une queue très courte qui réduit la traînée"
+    ],
+    "answer": 0,
+    "explanation": "La queue comprimée sur les côtés contribue à la propulsion dans l’eau, tandis que le corps ondulant guide la nage.",
+    "didYouKnow": "Les serpents marins respirent avec des poumons et doivent remonter à la surface.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-042",
+    "animal": "Couleuvres",
+    "prompt": "À quoi sert le comportement de thanatose observé chez certaines couleuvres ?",
+    "options": [
+      "À simuler la mort pour décourager un prédateur",
+      "À se rendre plus difficile à repérer en changeant de couleur",
+      "À attirer une proie en imitant ses mouvements",
+      "À se refroidir lorsque l’air est trop chaud"
+    ],
+    "answer": 0,
+    "explanation": "La thanatose consiste à rester immobile et à feindre la mort; elle peut réduire l’intérêt de certains prédateurs.",
+    "didYouKnow": "La couleuvre à collier porte souvent un collier clair derrière la tête.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-043",
+    "animal": "Couleuvres à collier",
+    "prompt": "Quel type de proie la couleuvre à collier consomme-t-elle souvent ?",
+    "options": [
+      "Des poissons et leurs œufs",
+      "Des insectes aquatiques et des larves",
+      "Des petits mammifères vivant dans les terriers",
+      "Des amphibiens, notamment des grenouilles"
+    ],
+    "answer": 3,
+    "explanation": "La couleuvre à collier fréquente les zones humides et se nourrit notamment d’amphibiens et parfois de poissons.",
+    "didYouKnow": "Elle est généralement inoffensive pour l’être humain.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-044",
+    "animal": "Vipères",
+    "prompt": "Que font les crochets des vipères ?",
+    "options": [
+      "Ils injectent de la salive digestive sans venin",
+      "Ils injectent le venin dans une proie ou un animal mordu",
+      "Ils servent à retenir les proies sans les blesser",
+      "Ils conduisent les odeurs vers l’organe voméronasal"
+    ],
+    "answer": 1,
+    "explanation": "Les vipères possèdent des crochets spécialisés reliés à des glandes à venin; elles peuvent les replier vers le palais au repos.",
+    "didYouKnow": "De nombreuses vipères donnent naissance à des petits vivants plutôt que de pondre des œufs.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-045",
+    "animal": "Serpents venimeux",
+    "prompt": "Quel rôle écologique le venin joue-t-il souvent chez les serpents qui en possèdent ?",
+    "options": [
+      "Rendre les œufs plus résistants au dessèchement",
+      "Immobiliser ou digérer plus facilement une proie",
+      "Permettre de respirer sous l’eau",
+      "Réguler directement la température corporelle"
+    ],
+    "answer": 1,
+    "explanation": "Le venin peut contribuer à immobiliser une proie et contient des molécules qui amorcent sa digestion; il sert aussi à la défense.",
+    "didYouKnow": "Les serpents recueillent des molécules odorantes avec leur langue fourchue.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-046",
+    "animal": "Serpents",
+    "prompt": "Pourquoi certains serpents avalent-ils leurs proies la tête la première ?",
+    "options": [
+      "Les tissus de la proie sont plus tendres autour de la tête",
+      "Les serpents peuvent ouvrir la gueule plus largement dans cette direction",
+      "Les membres et les écailles de la proie se replient plus facilement dans ce sens",
+      "Les os de la proie se dissolvent plus vite lorsqu’elle est orientée ainsi"
+    ],
+    "answer": 2,
+    "explanation": "Avaler une proie orientée tête la première réduit l’accrochage de ses membres, plumes ou écailles pendant la progression dans la gorge.",
+    "didYouKnow": "Chez de nombreux serpents, la langue fourchue recueille des molécules odorantes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-047",
+    "animal": "Reptiles",
+    "prompt": "Quel organe permet aux reptiles d’assurer la respiration aérienne ?",
+    "options": [
+      "Les sacs aériens externes",
+      "Les trachées",
+      "Les poumons",
+      "Les branchies"
+    ],
+    "answer": 2,
+    "explanation": "Les reptiles respirent l’air avec des poumons; les espèces aquatiques doivent généralement revenir à la surface pour prendre de l’air.",
+    "didYouKnow": "Chez les reptiles, le cloaque est une ouverture commune aux systèmes digestif, urinaire et reproducteur.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-048",
+    "animal": "Reptiles",
+    "prompt": "Quel déchet azoté les reptiles terrestres excrètent-ils souvent sous forme pâteuse ou cristalline ?",
+    "options": [
+      "Le dioxyde de carbone dissous",
+      "L’ammoniac en solution abondante",
+      "L’urée très diluée",
+      "L’acide urique"
+    ],
+    "answer": 3,
+    "explanation": "Beaucoup de reptiles excrètent l’azote sous forme d’acide urique, ce qui permet de limiter la perte d’eau par rapport à une urine très diluée.",
+    "didYouKnow": "Les reptiles possèdent une ouverture commune appelée cloaque.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-049",
+    "animal": "Reptiles",
+    "prompt": "Comment les reptiles utilisent-ils souvent le soleil pour se thermoréguler ?",
+    "options": [
+      "Ils alternent exposition au soleil et retrait à l’ombre",
+      "Ils produisent de la chaleur par des frissons continus",
+      "Ils transpirent pour dissiper la chaleur",
+      "Ils maintiennent une température constante grâce à leur métabolisme"
+    ],
+    "answer": 0,
+    "explanation": "Les reptiles peuvent ajuster leur température corporelle en choisissant des microhabitats plus chauds ou plus frais.",
+    "didYouKnow": "Les crocodiliens sont les seuls reptiles vivants dotés d’un cœur à quatre cavités.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-050",
+    "animal": "Reptiles",
+    "prompt": "Quel effet peut avoir une température d’incubation sur certaines tortues ?",
+    "options": [
+      "Elle peut influencer le sexe des nouveau-nés",
+      "Elle détermine directement la couleur de la carapace adulte",
+      "Elle détermine la durée de vie future de l’embryon",
+      "Elle règle toujours la taille adulte de chaque petit"
+    ],
+    "answer": 0,
+    "explanation": "Chez plusieurs espèces de tortues et d’autres reptiles, la température durant une période sensible de l’incubation influence le sexe des petits.",
+    "didYouKnow": "Les tortues marines peuvent parcourir de longues distances entre les zones de nourrissage et de ponte.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-051",
+    "animal": "Tortues",
+    "prompt": "Comment certaines tortues d’eau douce passent-elles l’hiver sous la glace ?",
+    "options": [
+      "Elles respirent avec des branchies qui restent fonctionnelles à l’âge adulte",
+      "Elles nagent continuellement sous la glace pour produire de la chaleur",
+      "Elles migrent par les rivières vers des zones tropicales",
+      "Elles restent au fond et ralentissent fortement leur métabolisme"
+    ],
+    "answer": 3,
+    "explanation": "Certaines tortues aquatiques entrent en brumation et peuvent échanger une partie des gaz à travers des surfaces très vascularisées, notamment dans le cloaque.",
+    "didYouKnow": "Certaines tortues d’eau douce peuvent réduire fortement leur activité pendant l’hiver.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-052",
+    "animal": "Tortues",
+    "prompt": "À quoi sert le cou rétractile chez plusieurs tortues ?",
+    "options": [
+      "À protéger la tête en la ramenant sous la carapace",
+      "À pousser le corps dans la vase",
+      "À filtrer les sédiments avec le museau",
+      "À étendre le cou pour atteindre des plantes éloignées"
+    ],
+    "answer": 0,
+    "explanation": "La rétraction du cou permet à de nombreuses tortues de mettre leur tête à l’abri; la façon de replier le cou diffère entre lignées.",
+    "didYouKnow": "Certaines tortues-boîtes ferment leur plastron grâce à une charnière.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-053",
+    "animal": "Tortues à cou latéral",
+    "prompt": "Comment une tortue à cou latéral retire-t-elle sa tête ?",
+    "options": [
+      "Elle replie le cou en S vertical puis le glisse entre les épaules",
+      "Elle rabat le cou vers l’arrière sous le bord de la carapace",
+      "Elle tire la tête vers le bas sans déplacer le cou",
+      "Elle replie le cou horizontalement sur le côté sous le rebord de la carapace"
+    ],
+    "answer": 3,
+    "explanation": "Les pleurodires replient le cou latéralement sous le bord de la carapace, contrairement aux tortues qui le replient verticalement.",
+    "didYouKnow": "Les tortues à cou latéral sont surtout représentées dans les régions tropicales de l’hémisphère Sud.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-054",
+    "animal": "Tortues marines",
+    "prompt": "Quelle structure remplace les pattes chez les tortues marines pour la nage ?",
+    "options": [
+      "Des griffes recourbées pour s’accrocher au fond",
+      "Des membres transformés en nageoires",
+      "Des doigts allongés reliés par une palmure partielle",
+      "Des pattes arrière plus longues que celles de devant"
+    ],
+    "answer": 1,
+    "explanation": "Les membres antérieurs des tortues marines sont transformés en nageoires puissantes, tandis que les membres postérieurs contribuent au guidage.",
+    "didYouKnow": "Les tortues marines pondent leurs œufs sur les plages, au-dessus de la ligne de marée.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-055",
+    "animal": "Tortues marines",
+    "prompt": "Quel comportement les nouveau-nés de tortue marine adoptent-ils après avoir atteint l’océan ?",
+    "options": [
+      "Ils nagent activement vers le large",
+      "Ils restent groupés près du nid jusqu’à l’âge adulte",
+      "Ils se laissent dériver sans nager jusqu’au rivage",
+      "Ils plongent dans le sable sous-marin pour s’abriter"
+    ],
+    "answer": 0,
+    "explanation": "Après avoir rejoint la mer, les nouveau-nés nagent activement vers le large, période souvent décrite comme une nage frénétique.",
+    "didYouKnow": "Les nouveau-nés de tortue marine s’orientent grâce aux indices lumineux de l’horizon.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-056",
+    "animal": "Tortues imbriquées",
+    "prompt": "De quoi se nourrit souvent la tortue imbriquée sur les récifs ?",
+    "options": [
+      "D’éponges marines",
+      "Des méduses et autres animaux gélatineux",
+      "Des herbes marines",
+      "Des algues flottantes"
+    ],
+    "answer": 0,
+    "explanation": "La tortue imbriquée consomme fréquemment des éponges, ce qui en fait une spécialiste alimentaire importante des récifs coralliens.",
+    "didYouKnow": "La tortue imbriquée est reconnaissable à ses scutelles de carapace qui se chevauchent.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-057",
+    "animal": "Tortues vertes",
+    "prompt": "Quel changement alimentaire se produit souvent chez la tortue verte en grandissant ?",
+    "options": [
+      "Les jeunes mangent des méduses puis les adultes des coquillages",
+      "Le régime reste exclusivement carnivore à tout âge",
+      "Les jeunes sont plus omnivores et les adultes deviennent surtout herbivores",
+      "Les jeunes sont herbivores puis les adultes deviennent piscivores"
+    ],
+    "answer": 2,
+    "explanation": "Les juvéniles peuvent consommer diverses proies animales et végétales, tandis que les adultes se nourrissent largement d’herbes marines et d’algues.",
+    "didYouKnow": "La tortue verte adulte broute souvent des herbiers marins.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-058",
+    "animal": "Tortues luth",
+    "prompt": "Quelle particularité distingue la carapace de la tortue luth de celle de nombreuses autres tortues ?",
+    "options": [
+      "Elle est souple et recouverte d’une peau coriace",
+      "Elle est faite uniquement de cartilage sans éléments osseux",
+      "Elle est composée de plaques mobiles qui s’ouvrent pour nager",
+      "Elle est recouverte de larges scutelles cornées comme celle des tortues vertes"
+    ],
+    "answer": 0,
+    "explanation": "La tortue luth possède une carapace sans larges écailles cornées typiques de nombreuses tortues, avec une peau coriace sur une structure osseuse.",
+    "didYouKnow": "La tortue luth est la seule espèce vivante de sa famille, les Dermochelyidae.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-059",
+    "animal": "Tortues terrestres",
+    "prompt": "Pourquoi les tortues terrestres ont-elles souvent des pattes robustes ?",
+    "options": [
+      "Elles se terminent par des ventouses pour grimper aux arbres",
+      "Elles portent le poids du corps et permettent la marche sur le sol",
+      "Elles sont aplaties en nageoires pour creuser dans le sable",
+      "Elles s’écartent latéralement pour la nage rapide"
+    ],
+    "answer": 1,
+    "explanation": "Les tortues terrestres se déplacent sur leurs membres épais et robustes, adaptés au soutien de leur corps et à la locomotion terrestre.",
+    "didYouKnow": "Les tortues terrestres n’ont pas de dents et utilisent un bec corné pour couper les aliments.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-060",
+    "animal": "Tortues",
+    "prompt": "Que sont les écailles cornées visibles sur la carapace de nombreuses tortues ?",
+    "options": [
+      "Des scutelles recouvrant les éléments osseux",
+      "Des plaques osseuses séparées qui remplacent les vertèbres",
+      "Des plaques de peau pigmentées sans couche cornée",
+      "Des écailles molles détachables sous la carapace"
+    ],
+    "answer": 0,
+    "explanation": "Les scutelles sont des plaques de kératine qui recouvrent la carapace osseuse chez beaucoup d’espèces, mais leur présence varie selon les groupes.",
+    "didYouKnow": "Les écailles de carapace, ou scutelles, sont des plaques cornées qui recouvrent l’os.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-061",
+    "animal": "Crocodiles",
+    "prompt": "Comment différencier souvent un crocodile d’un alligator lorsque la bouche est fermée ?",
+    "options": [
+      "Les alligators ferment la bouche en gardant les mâchoires écartées",
+      "Chez les alligators, les dents inférieures dépassent toujours du museau",
+      "Les crocodiles ont des dents uniquement sur la mâchoire supérieure",
+      "Chez beaucoup de crocodiles, une grande dent inférieure reste visible"
+    ],
+    "answer": 3,
+    "explanation": "Chez de nombreux crocodiles, la quatrième dent de la mâchoire inférieure est visible lorsque la gueule est fermée; chez les alligators, elle est généralement cachée.",
+    "didYouKnow": "Les crocodiliens ont un palais secondaire osseux.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-062",
+    "animal": "Crocodiliens",
+    "prompt": "À quoi sert la valve située au fond de la bouche des crocodiliens ?",
+    "options": [
+      "À maintenir la langue fixée au fond de la bouche",
+      "À empêcher les proies d’échapper à la bouche sur terre",
+      "À isoler les voies respiratoires de l’eau pendant l’immersion",
+      "À fermer le passage de l’œsophage pendant la respiration aérienne"
+    ],
+    "answer": 2,
+    "explanation": "Le palais secondaire et la valve palatale permettent au crocodilien de garder les voies respiratoires isolées lorsqu’il tient une proie dans l’eau.",
+    "didYouKnow": "Les crocodiliens peuvent fermer leurs narines lorsqu’ils sont immergés.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-063",
+    "animal": "Crocodiliens",
+    "prompt": "Quel organe sensoriel se trouve dans de petits récepteurs à la surface du museau des crocodiliens ?",
+    "options": [
+      "Des organes qui perçoivent le champ magnétique terrestre",
+      "Des glandes qui mesurent la salinité du sang",
+      "Des récepteurs sensibles aux pressions et aux mouvements de l’eau",
+      "Des récepteurs qui détectent uniquement les odeurs dissoutes"
+    ],
+    "answer": 2,
+    "explanation": "Les organes sensoriels tégumentaires des crocodiliens perçoivent notamment des changements de pression et des mouvements dans l’eau.",
+    "didYouKnow": "Les crocodiliens possèdent un cœur à quatre cavités.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-064",
+    "animal": "Alligators",
+    "prompt": "Dans quel type d’habitat trouve-t-on surtout l’alligator américain ?",
+    "options": [
+      "Les rivières montagneuses d’Asie centrale",
+      "Les zones humides d’eau douce du sud-est des États-Unis",
+      "Les grands lacs froids du nord du Canada",
+      "Les estuaires côtiers salés des îles du Pacifique"
+    ],
+    "answer": 1,
+    "explanation": "L’alligator américain habite les marais, rivières et autres zones humides, principalement dans le sud-est des États-Unis.",
+    "didYouKnow": "L’alligator américain construit un nid de végétation pour y déposer ses œufs.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-065",
+    "animal": "Crocodiliens",
+    "prompt": "Quel comportement parental est observé chez plusieurs crocodiliens ?",
+    "options": [
+      "Les adultes portent les œufs sous les écailles du ventre",
+      "La femelle peut transporter les nouveau-nés dans sa gueule jusqu’à l’eau",
+      "Les deux parents mâchent la nourriture pour les petits",
+      "Le mâle nourrit les jeunes avec une sécrétion produite par la peau"
+    ],
+    "answer": 1,
+    "explanation": "Chez plusieurs crocodiliens, la femelle protège le nid et peut transporter délicatement les nouveau-nés vers l’eau dans sa bouche.",
+    "didYouKnow": "Les femelles de plusieurs crocodiliens transportent leurs nouveau-nés jusqu’à l’eau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-066",
+    "animal": "Crocodiliens",
+    "prompt": "Que font les crocodiliens avec leur membrane nictitante lorsqu’ils sont immergés ?",
+    "options": [
+      "Ils protègent leurs yeux avec cette paupière supplémentaire",
+      "Ils ferment leurs narines avec elle",
+      "Ils la déploient pour attraper les poissons",
+      "Ils la gonflent pour produire des sons"
+    ],
+    "answer": 0,
+    "explanation": "La membrane nictitante peut recouvrir l’œil et le protéger sous l’eau. Elle se distingue des deux paupières externes.",
+    "didYouKnow": "La membrane nictitante est une paupière translucide qui protège l’œil.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-067",
+    "animal": "Crocodiliens",
+    "prompt": "Quel est le nom du mouvement par lequel un crocodilien entraîne une proie en tournant sur lui-même ?",
+    "options": [
+      "La nage en ondulation",
+      "Le plongeon en vrille",
+      "La marche latérale",
+      "Le roulé de la mort"
+    ],
+    "answer": 3,
+    "explanation": "Le roulé de la mort est une rotation rapide utilisée pour déséquilibrer ou démembrer une proie saisie.",
+    "didYouKnow": "Le cœur des crocodiliens possède quatre cavités.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-068",
+    "animal": "Crocodiliens",
+    "prompt": "Quelle différence aide à distinguer les crocodiliens des lézards ?",
+    "options": [
+      "Les crocodiliens ont deux cœurs séparés dans le thorax",
+      "Les crocodiliens ont un cœur à quatre cavités",
+      "Tous les reptiles possèdent un cœur à quatre cavités",
+      "Les lézards ont un cœur à quatre cavités et les crocodiliens un cœur à trois"
+    ],
+    "answer": 1,
+    "explanation": "Les crocodiliens possèdent un cœur à quatre cavités, une caractéristique partagée avec les oiseaux et les mammifères.",
+    "didYouKnow": "Les crocodiliens gardent leurs œufs et peuvent transporter les nouveau-nés dans leur bouche.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-069",
+    "animal": "Crocodiliens",
+    "prompt": "Quel rôle écologique les crocodiliens peuvent-ils remplir dans les zones humides ?",
+    "options": [
+      "Décomposeurs qui digèrent les feuilles mortes",
+      "Pollinisateurs qui fertilisent les plantes aquatiques",
+      "Herbivores qui maintiennent les prairies par le broutage",
+      "Prédateurs qui influencent les populations de proies et l’écosystème"
+    ],
+    "answer": 3,
+    "explanation": "Comme prédateurs de haut niveau, ils peuvent modifier l’abondance et le comportement de leurs proies et contribuer à la structure de l’écosystème.",
+    "didYouKnow": "Les crocodiliens peuvent détecter de faibles mouvements de l’eau grâce aux récepteurs de leur peau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-070",
+    "animal": "Caïmans",
+    "prompt": "À quel groupe appartiennent les caïmans ?",
+    "options": [
+      "Aux gavialidés, avec les gavials",
+      "Aux Alligatoridés, avec les alligators",
+      "Aux squamates, avec les varans",
+      "Aux Crocodylidés, avec les vrais crocodiles"
+    ],
+    "answer": 1,
+    "explanation": "Les caïmans sont des crocodiliens de la famille des Alligatoridés, originaires des Amériques centrales et du Sud.",
+    "didYouKnow": "Plusieurs espèces de caïmans vivent dans les bassins de l’Amazone et de l’Orénoque.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-071",
+    "animal": "Gavials",
+    "prompt": "Pourquoi le gavial dépend-il particulièrement des cours d’eau ?",
+    "options": [
+      "Ses pattes puissantes lui permettent de poursuivre des proies terrestres",
+      "Son corps et son museau sont adaptés à la chasse aquatique aux poissons",
+      "Ses narines sont adaptées à la plongée profonde en mer",
+      "Son museau court sert à broyer les plantes aquatiques"
+    ],
+    "answer": 1,
+    "explanation": "Le gavial est un crocodilien très aquatique, spécialisé dans la capture de poissons dans les grands cours d’eau.",
+    "didYouKnow": "Le mâle du gavial du Gange porte un renflement appelé ghara au bout du museau.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-072",
+    "animal": "Crocodiliens",
+    "prompt": "Que mangent principalement les jeunes crocodiliens à l’éclosion ?",
+    "options": [
+      "Des algues qu’ils broutent au bord de l’eau",
+      "De petits invertébrés et animaux accessibles",
+      "Des proies aussi grandes que celles des adultes",
+      "Du lait fourni par leur mère après l’éclosion"
+    ],
+    "answer": 1,
+    "explanation": "Les jeunes crocodiliens capturent des proies de petite taille, comme des insectes et d’autres petits animaux, avant de pouvoir s’attaquer à des proies plus grandes.",
+    "didYouKnow": "Les crocodiliens possèdent un palais secondaire osseux.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-073",
+    "animal": "Crocodiliens",
+    "prompt": "Quelle structure aide les crocodiliens à nager efficacement ?",
+    "options": [
+      "Des pattes antérieures transformées en nageoires",
+      "Des mouvements latéraux du cou qui tirent le corps",
+      "Une queue musclée qui fournit une grande partie de la propulsion",
+      "Des pieds palmés qui produisent seuls toute la poussée"
+    ],
+    "answer": 2,
+    "explanation": "La queue puissante et comprimée latéralement propulse le crocodilien dans l’eau; les membres contribuent à la direction et à la stabilité.",
+    "didYouKnow": "Les crocodiliens ont des queues puissantes qui contribuent à la propulsion aquatique.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-074",
+    "animal": "Crocodiliens",
+    "prompt": "Comment les crocodiliens entendent-ils sous l’eau ?",
+    "options": [
+      "Leurs dents agissent comme des antennes auditives externes",
+      "Ils entendent uniquement les sons transmis par l’air",
+      "Des structures auditives protégées peuvent transmettre les vibrations sonores",
+      "Leurs narines captent les ondes sonores à la place des oreilles"
+    ],
+    "answer": 2,
+    "explanation": "Les ouvertures auditives peuvent être fermées par des replis, et les vibrations atteignent l’appareil auditif par les tissus et le crâne.",
+    "didYouKnow": "Les crocodiliens peuvent fermer leurs oreilles lorsqu’ils plongent.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-075",
+    "animal": "Sphénodon",
+    "prompt": "À quel groupe vivant appartient le sphénodon, aussi appelé tuatara ?",
+    "options": [
+      "Aux Testudines, comme les tortues",
+      "Aux Rhynchocéphales, distincts des lézards",
+      "Aux Squamates, comme les serpents et les lézards",
+      "Aux Crocodiliens, comme les gavials"
+    ],
+    "answer": 1,
+    "explanation": "Le tuatara est le seul représentant actuel des Rhynchocéphales, une lignée distincte des squamates qui comprend lézards et serpents.",
+    "didYouKnow": "Le tuatara peut vivre à des températures plus fraîches que beaucoup de reptiles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-076",
+    "animal": "Sphénodon",
+    "prompt": "Quelle structure particulière est parfois appelée troisième œil chez le jeune tuatara ?",
+    "options": [
+      "L’œil pariétal, organe sensoriel situé sur le sommet de la tête",
+      "Une paire supplémentaire d’yeux mobiles derrière les oreilles",
+      "Un organe olfactif exposé au sommet du crâne",
+      "Une troisième paupière transparente qui ferme les deux yeux"
+    ],
+    "answer": 0,
+    "explanation": "Le tuatara possède un œil pariétal médian, particulièrement visible chez les jeunes; il est recouvert au cours du développement.",
+    "didYouKnow": "Le tuatara peut vivre très longtemps et atteint sa maturité tardivement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-077",
+    "animal": "Sphénodon",
+    "prompt": "Dans quel type de climat le tuatara est-il particulièrement adapté ?",
+    "options": [
+      "Un climat tempéré frais, avec une activité possible à basse température",
+      "Un climat tropical humide où les températures sont constamment élevées",
+      "Un désert aride où les températures dépassent souvent celles des reptiles tropicaux",
+      "Un climat polaire où les adultes restent actifs sous la glace"
+    ],
+    "answer": 0,
+    "explanation": "Le tuatara peut rester actif à des températures plus fraîches que la plupart des reptiles, ce qui correspond au climat tempéré de Nouvelle-Zélande.",
+    "didYouKnow": "Le tuatara est endémique de Nouvelle-Zélande.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-078",
+    "animal": "Sphénodon",
+    "prompt": "Quel est le rythme de développement des œufs du tuatara ?",
+    "options": [
+      "L’incubation est exceptionnellement longue chez ce reptile",
+      "Le développement embryonnaire ne reprend qu’après plusieurs années",
+      "Les œufs sont incubés par la femelle dans son corps",
+      "Les œufs éclosent quelques jours après la ponte"
+    ],
+    "answer": 0,
+    "explanation": "Les œufs de tuatara ont une incubation très longue, pouvant s’étendre sur de nombreux mois selon les conditions.",
+    "didYouKnow": "Les tuataras creusent souvent des terriers qui peuvent aussi être utilisés par des oiseaux marins.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-079",
+    "animal": "Sphénodon",
+    "prompt": "Quel type de dents possède le tuatara ?",
+    "options": [
+      "Des dents creuses reliées à des glandes à venin",
+      "Deux rangées de dents supérieures qui chevauchent une rangée inférieure",
+      "Une seule rangée de dents supérieures qui s’emboîte entre deux rangées inférieures",
+      "Un bec corné sans dents sur les mâchoires"
+    ],
+    "answer": 1,
+    "explanation": "Les dents supérieures du tuatara comportent deux rangées fonctionnelles contre lesquelles vient se placer une rangée de dents inférieures.",
+    "didYouKnow": "Le tuatara est le seul représentant vivant de l’ordre des Rhynchocéphales.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-080",
+    "animal": "Sphénodon",
+    "prompt": "Avec quels oiseaux le tuatara partage-t-il parfois son terrier sur certaines îles ?",
+    "options": [
+      "Des pétrels nicheurs",
+      "Des albatros qui construisent des nids dans les terriers",
+      "Des manchots qui se reproduisent sur les îles",
+      "Des kiwis qui vivent dans les arbres"
+    ],
+    "answer": 0,
+    "explanation": "Sur certaines îles néo-zélandaises, les tuataras peuvent vivre dans des terriers proches de colonies de pétrels.",
+    "didYouKnow": "Le tuatara partage parfois ses terriers insulaires avec des pétrels.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-081",
+    "animal": "Caméléons",
+    "prompt": "Comment les caméléons capturent-ils souvent des insectes ?",
+    "options": [
+      "Avec une langue projetée rapidement et terminée par une surface adhésive",
+      "Avec des doigts collants qui attrapent les insectes à distance",
+      "En projetant une salive visqueuse sur la proie",
+      "Avec des mâchoires munies de longues dents qui saisissent les insectes"
+    ],
+    "answer": 0,
+    "explanation": "La langue du caméléon peut être projetée rapidement; son extrémité adhésive saisit une proie avant d’être ramenée dans la bouche.",
+    "didYouKnow": "Les caméléons peuvent orienter leurs deux yeux indépendamment l’un de l’autre.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-082",
+    "animal": "Caméléons",
+    "prompt": "Pourquoi les yeux des caméléons sont-ils remarquables ?",
+    "options": [
+      "Ils peuvent orienter chaque œil indépendamment",
+      "Ils sont fixes et la tête entière tourne pour balayer le paysage",
+      "Ils sont placés de face pour une vision binoculaire permanente",
+      "Ils regardent toujours dans la même direction et ne convergent jamais"
+    ],
+    "answer": 0,
+    "explanation": "Les yeux des caméléons peuvent bouger indépendamment, ce qui leur donne un large champ de vision; ils coordonnent ensuite leur regard pour viser.",
+    "didYouKnow": "Certaines espèces de caméléons portent un casque ou des crêtes cutanées sur la tête.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-083",
+    "animal": "Caméléons",
+    "prompt": "Quelle adaptation des pieds aide les caméléons à s’accrocher aux branches ?",
+    "options": [
+      "Des griffes qui se rétractent sous la peau",
+      "Des coussinets adhésifs semblables à ceux des geckos",
+      "Des doigts regroupés en pinces opposées",
+      "Des doigts longs réunis en une large palmure"
+    ],
+    "answer": 2,
+    "explanation": "Les doigts sont regroupés en faisceaux opposés qui forment une prise solide autour des branches.",
+    "didYouKnow": "Les caméléons capturent souvent des insectes avec une langue projetée rapidement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-084",
+    "animal": "Caméléons",
+    "prompt": "Quel usage les caméléons font-ils de leur queue préhensile ?",
+    "options": [
+      "Elle propulse le caméléon lorsqu’il nage",
+      "Elle sert à porter les œufs pendant la ponte",
+      "Elle équilibre le caméléon lors d’une course au sol",
+      "Elle aide à s’agripper aux branches"
+    ],
+    "answer": 3,
+    "explanation": "La queue préhensile peut s’enrouler autour d’une branche et apporter un appui lors des déplacements arboricoles.",
+    "didYouKnow": "Les caméléons peuvent bouger leurs yeux indépendamment l’un de l’autre.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-085",
+    "animal": "Caméléons",
+    "prompt": "Où trouve-t-on la plus grande diversité de caméléons ?",
+    "options": [
+      "À Madagascar",
+      "En Asie centrale",
+      "Dans les îles des Caraïbes",
+      "En Afrique australe uniquement"
+    ],
+    "answer": 0,
+    "explanation": "Madagascar abrite une très grande diversité de caméléons, dont de nombreuses espèces endémiques.",
+    "didYouKnow": "La langue du caméléon peut être projetée rapidement pour saisir des proies.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-086",
+    "animal": "Geckos",
+    "prompt": "Quel son certains geckos produisent-ils ?",
+    "options": [
+      "Des cris ou des claquements utilisés dans la communication",
+      "Des vocalisations possibles seulement sous l’eau",
+      "Des sons produits uniquement par le frottement de leurs pattes",
+      "Des appels sonores qui servent à écholocaliser les proies"
+    ],
+    "answer": 0,
+    "explanation": "Plusieurs geckos sont capables de vocaliser, avec des cris, clics ou claquements liés notamment aux interactions sociales.",
+    "didYouKnow": "Les geckos tokay sont connus pour leurs vocalisations sonores.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-087",
+    "animal": "Geckos",
+    "prompt": "Que font les yeux du gecko tokay lorsqu’il nettoie sa cornée ?",
+    "options": [
+      "Il retire ses yeux pour les nettoyer dans l’eau",
+      "Il les lèche avec sa langue",
+      "Il cligne avec des paupières mobiles",
+      "Il frotte ses yeux contre les branches"
+    ],
+    "answer": 1,
+    "explanation": "Les geckos dépourvus de paupières mobiles nettoient la surface de l’œil avec leur langue.",
+    "didYouKnow": "Le gecko tokay est originaire d’Asie du Sud-Est.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-088",
+    "animal": "Gecko à crête",
+    "prompt": "Que devient la queue d’un gecko à crête après une autotomie ?",
+    "options": [
+      "Elle ne repousse pas",
+      "Elle est entièrement reconstruite à chaque mue",
+      "Elle se divise toujours en deux nouvelles queues",
+      "Elle est remplacée par un appendice osseux rigide"
+    ],
+    "answer": 0,
+    "explanation": "Contrairement à de nombreux lézards, le gecko à crête ne régénère pas sa queue après l’avoir perdue. Un individu sans queue peut néanmoins continuer sa vie.",
+    "didYouKnow": "Le gecko à crête est originaire de Nouvelle-Calédonie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-089",
+    "animal": "Geckos",
+    "prompt": "Pourquoi de nombreux geckos nocturnes ont-ils de grands yeux ?",
+    "options": [
+      "Ils facilitent la vision sous l’eau trouble",
+      "Ils repèrent les infrarouges émis par les proies",
+      "Ils élargissent le champ visuel au soleil de midi",
+      "Ils recueillent davantage de lumière dans la pénombre"
+    ],
+    "answer": 3,
+    "explanation": "De grands yeux peuvent aider à capter la faible lumière disponible la nuit, même si les capacités visuelles varient entre espèces.",
+    "didYouKnow": "Certains geckos peuvent détacher leur queue lorsqu’un prédateur les saisit.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-090",
+    "animal": "Geckos",
+    "prompt": "Que désigne le nom commun gecko à crête ?",
+    "options": [
+      "Un gecko fouisseur dont le dos porte une crête osseuse continue",
+      "Un gecko aquatique doté d’une nageoire dorsale",
+      "Un gecko désertique muni d’une collerette autour du cou",
+      "Un gecko arboricole doté de reliefs au-dessus des yeux et le long du dos"
+    ],
+    "answer": 3,
+    "explanation": "Le gecko à crête est un lézard arboricole de Nouvelle-Calédonie reconnaissable aux crêtes cutanées qui bordent ses yeux et son dos.",
+    "didYouKnow": "Le gecko à crête porte de petites protubérances au-dessus des yeux et le long du dos.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-091",
+    "animal": "Uromastyx",
+    "prompt": "De quoi se nourrissent principalement de nombreux uromastyx ?",
+    "options": [
+      "De végétaux, comme des feuilles, fleurs et graines",
+      "De poissons et de crustacés capturés dans les mares",
+      "De mammifères qu’ils tuent par constriction",
+      "De nectar aspiré au fond des fleurs"
+    ],
+    "answer": 0,
+    "explanation": "Les uromastyx sont surtout herbivores et consomment diverses parties de plantes.",
+    "didYouKnow": "Les uromastyx vivent dans des régions arides d’Afrique et d’Asie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-092",
+    "animal": "Gecko léopard",
+    "prompt": "À quoi sert la queue épaisse du gecko léopard ?",
+    "options": [
+      "À stocker des réserves énergétiques sous forme de graisse",
+      "À injecter du venin dans ses proies",
+      "À nager en ondulant dans les cours d’eau",
+      "À produire des sons d’avertissement en la frottant au sol"
+    ],
+    "answer": 0,
+    "explanation": "Le gecko léopard stocke une partie de ses réserves énergétiques dans sa queue.",
+    "didYouKnow": "Le gecko léopard possède des paupières mobiles, contrairement à beaucoup de geckos.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reptiles-093",
+    "animal": "Lézards",
+    "prompt": "Quel phénomène est la parthénogenèse observée chez certaines espèces de lézards ?",
+    "options": [
+      "Une reproduction où les embryons se développent sans fécondation par un mâle",
+      "La naissance vivante après incubation dans le corps maternel",
+      "Une fécondation interne suivie de la ponte d’œufs",
+      "La division d’un individu en deux animaux adultes"
+    ],
+    "answer": 0,
+    "explanation": "La parthénogenèse permet à une femelle de produire une descendance sans fécondation; elle existe chez certaines lignées de lézards.",
+    "didYouKnow": "Certains lézards peuvent détacher leur queue pour détourner l’attention d’un prédateur.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-094",
+    "animal": "Lézards",
+    "prompt": "Quel rôle la queue peut-elle jouer chez un lézard arboricole ?",
+    "options": [
+      "Creuser le sol en remuant le sable",
+      "Maintenir l’équilibre lors des déplacements",
+      "Saisir les proies entre des écailles préhensiles",
+      "Réguler la température en évacuant la chaleur"
+    ],
+    "answer": 1,
+    "explanation": "Chez les lézards qui se déplacent dans les branches, la queue peut contribuer à l’équilibre et au contrôle du mouvement.",
+    "didYouKnow": "Certains lézards arboricoles ont des doigts élargis qui améliorent l’adhérence.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-095",
+    "animal": "Lézards",
+    "prompt": "À quoi sert le cloaque chez les reptiles ?",
+    "options": [
+      "À expulser l’air des poumons lors d’une plongée",
+      "À séparer définitivement les voies urinaires des voies digestives",
+      "À recevoir les odeurs transférées par la langue",
+      "À évacuer les déchets et à participer à la reproduction"
+    ],
+    "answer": 3,
+    "explanation": "Le cloaque est une ouverture commune aux systèmes digestif, urinaire et reproducteur chez les reptiles.",
+    "didYouKnow": "Chez les femelles, le cloaque participe au passage des œufs lors de la ponte.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-096",
+    "animal": "Lézards",
+    "prompt": "Quelle différence de membres distingue les lézards de nombreux serpents ?",
+    "options": [
+      "Tous les lézards ont quatre membres bien développés",
+      "Les lézards ont des nageoires à la place des membres",
+      "Les serpents possèdent des membres arrière fonctionnels",
+      "Beaucoup de lézards ont quatre membres, mais certains les ont réduits ou perdus"
+    ],
+    "answer": 3,
+    "explanation": "La plupart des lézards possèdent quatre membres, mais des lignées ont évolué vers des membres réduits ou absents.",
+    "didYouKnow": "Certains lézards sans pattes conservent des paupières mobiles et des ouvertures auriculaires.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-097",
+    "animal": "Lézards",
+    "prompt": "Pourquoi certains lézards du désert ont-ils des couleurs pâles ?",
+    "options": [
+      "La couleur claire est toujours un signal de toxicité",
+      "Une coloration sombre évite toute surchauffe au soleil",
+      "Une couleur pâle garantit un camouflage sur tout type de sable",
+      "Une coloration claire peut réfléchir davantage de rayonnement solaire"
+    ],
+    "answer": 3,
+    "explanation": "Une coloration plus claire peut réduire l’absorption de chaleur dans certains milieux, bien que le camouflage et d’autres fonctions varient selon le contexte.",
+    "didYouKnow": "Des lézards pâles peuvent se confondre avec les substrats sableux de leur habitat.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-098",
+    "animal": "Lézards",
+    "prompt": "Comment les lézards fouisseurs évitent-ils souvent de se dessécher ?",
+    "options": [
+      "Ils passent du temps dans des terriers ou sous le sol humide",
+      "Ils s’activent seulement à midi lorsque l’humidité est minimale",
+      "Ils remplacent leurs écailles par une peau perméable",
+      "Ils produisent une urine très diluée qui refroidit le corps"
+    ],
+    "answer": 0,
+    "explanation": "Le sol et les terriers offrent un microclimat plus stable et plus humide que la surface, limitant les pertes d’eau.",
+    "didYouKnow": "Les lézards fouisseurs possèdent souvent un corps allongé adapté au déplacement dans le sol.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-099",
+    "animal": "Lézards",
+    "prompt": "À quel grand groupe appartiennent les iguanes et les anolis ?",
+    "options": [
+      "Aux Iguaniens",
+      "Aux Testudines",
+      "Aux Crocodiliens",
+      "Aux Rhynchocéphales"
+    ],
+    "answer": 0,
+    "explanation": "Iguanes et anolis font partie des Iguaniens, un grand groupe de lézards; dans les classifications modernes, ils sont rangés dans des familles différentes.",
+    "didYouKnow": "Les anolis communiquent notamment au moyen d’un fanon coloré.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-100",
+    "animal": "Lézards",
+    "prompt": "Pourquoi les lézards insulaires peuvent-ils être particulièrement vulnérables aux espèces introduites ?",
+    "options": [
+      "Les reptiles des îles sont incapables de reconnaître des proies",
+      "Les îles empêchent les reptiles de se reproduire en captivité",
+      "Les espèces insulaires ne peuvent pas se cacher dans la végétation",
+      "Leurs populations ont parfois évolué sans certains prédateurs terrestres"
+    ],
+    "answer": 3,
+    "explanation": "L’introduction de prédateurs comme les rats ou les chats peut fortement affecter des populations insulaires qui n’ont pas coévolué avec eux.",
+    "didYouKnow": "Les lézards insulaires peuvent être endémiques et occuper une aire géographique réduite.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-101",
+    "animal": "Serpents",
+    "prompt": "Quel mouvement permet au serpent d’avancer sur un sol irrégulier en prenant appui sur des aspérités ?",
+    "options": [
+      "L’ondulation latérale",
+      "La locomotion en accordéon",
+      "La rectilinéarité",
+      "La locomotion en boucle"
+    ],
+    "answer": 1,
+    "explanation": "En locomotion en accordéon, le serpent fixe une partie de son corps, puis replie et étend le reste pour progresser dans un espace étroit ou sur un support irrégulier.",
+    "didYouKnow": "Les serpents peuvent aussi avancer par ondulation latérale sur un sol dégagé.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-102",
+    "animal": "Serpents",
+    "prompt": "Comment un serpent se déplace-t-il en ondulant dans un couloir dégagé ?",
+    "options": [
+      "Il contracte les muscles du ventre pour avancer en ligne droite",
+      "Il déplace sa peau indépendamment de son squelette",
+      "Il pousse latéralement contre le sol avec les courbes de son corps",
+      "Il prend appui avec des membres vestigiaux"
+    ],
+    "answer": 2,
+    "explanation": "Lors de l’ondulation latérale, les courbes du corps prennent appui sur les irrégularités et produisent une poussée vers l’avant.",
+    "didYouKnow": "Les serpents peuvent employer plusieurs modes de locomotion selon le terrain.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-103",
+    "animal": "Serpents arboricoles",
+    "prompt": "Comment certains serpents arboricoles stabilisent-ils leur progression sur une branche ?",
+    "options": [
+      "Ils plaquent leur ventre contre la branche et progressent par ondulations sans s’y enrouler",
+      "Ils enroulent leur queue préhensile autour du support et déplacent le reste du corps",
+      "Ils forment des boucles autour de la branche pour soutenir leur poids et avancer",
+      "Ils soulèvent leur corps en prenant appui sur des replis latéraux de peau"
+    ],
+    "answer": 2,
+    "explanation": "Les serpents arboricoles peuvent enrouler une partie du corps autour des branches afin de s’ancrer pendant qu’ils déplacent le reste.",
+    "didYouKnow": "Certains serpents arboricoles ont une queue préhensile qui les aide à s’ancrer.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-104",
+    "animal": "Serpents",
+    "prompt": "À quoi sert la plaque transparente qui couvre l’œil de nombreux serpents ?",
+    "options": [
+      "Elle constitue une paupière mobile qui ferme l’œil",
+      "Elle filtre les particules odorantes vers le palais",
+      "Elle amplifie les vibrations sonores reçues par le crâne",
+      "Elle protège l’œil et fait partie de l’écaille appelée lunette"
+    ],
+    "answer": 3,
+    "explanation": "La lunette est une écaille transparente qui recouvre l’œil; elle est renouvelée lors de la mue.",
+    "didYouKnow": "Les boas et les pythons immobilisent généralement leurs proies par constriction.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-105",
+    "animal": "Serpents",
+    "prompt": "Comment les dents des serpents sont-elles renouvelées ?",
+    "options": [
+      "Elles ne sont remplacées qu’une fois lors du passage à l’âge adulte",
+      "Elles sont continuellement remplacées au cours de la vie, indépendamment de la mue de la peau",
+      "Seuls les crochets venimeux sont remplacés, les autres dents restent à vie",
+      "Les dents perdues ne repoussent pas chez les serpents adultes"
+    ],
+    "answer": 1,
+    "explanation": "Les serpents remplacent leurs dents de façon continue au fil de la vie; ce renouvellement n’est pas déclenché par la mue de la peau.",
+    "didYouKnow": "Les serpents avalent leurs proies entières grâce à leur bouche et leur gorge extensibles.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-106",
+    "animal": "Serpents",
+    "prompt": "Quelle particularité pulmonaire est fréquente chez les serpents ?",
+    "options": [
+      "Le poumon droit est généralement développé, tandis que le gauche est réduit ou absent",
+      "Les deux poumons sont reliés à des branchies fonctionnelles",
+      "Le poumon gauche est toujours le seul poumon fonctionnel",
+      "Les serpents adultes respirent uniquement à travers leur peau"
+    ],
+    "answer": 0,
+    "explanation": "Chez de nombreux serpents, le poumon droit est le plus développé et le gauche est réduit ou absent, ce qui correspond à leur corps allongé.",
+    "didYouKnow": "Les serpents n’ont pas de pavillons auditifs externes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-107",
+    "animal": "Crotales",
+    "prompt": "Quel élément produit le son caractéristique de la sonnette d’un crotale ?",
+    "options": [
+      "Des écailles vibrantes sur les flancs",
+      "Des segments de kératine emboîtés au bout de la queue",
+      "Des petits os mobiles dans la gorge",
+      "Des bulles d’air expulsées par les narines"
+    ],
+    "answer": 1,
+    "explanation": "Le crotale fait vibrer sa queue; les segments creux de kératine à son extrémité s’entrechoquent et produisent le bruit d’avertissement.",
+    "didYouKnow": "Les crotales ajoutent de nouveaux segments à leur sonnette lors de leurs mues.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-108",
+    "animal": "Serpents",
+    "prompt": "À quoi sert la mue complète chez un serpent ?",
+    "options": [
+      "Remplacer le cartilage du squelette",
+      "Éliminer la mue précédente par la digestion",
+      "Renouveler les dents et la couche profonde de peau",
+      "À renouveler la couche externe de peau et la lunette"
+    ],
+    "answer": 3,
+    "explanation": "Le serpent renouvelle périodiquement la couche cornée de sa peau; la lunette transparente couvrant l’œil se détache avec la vieille peau.",
+    "didYouKnow": "Les serpents repèrent des molécules odorantes avec leur langue fourchue.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-109",
+    "animal": "Serpents",
+    "prompt": "À quel groupe appartiennent les boas et les pythons dans la classification des serpents ?",
+    "options": [
+      "Aux lézards et aux amphisbènes au sein des Squamates",
+      "Aux tortues et aux crocodiliens",
+      "Aux serpents à crochets avant, comme les vipères",
+      "À des lignées distinctes des serpents à crochets avant"
+    ],
+    "answer": 3,
+    "explanation": "Boas et pythons appartiennent à des lignées de serpents constricteurs, distinctes des vipères et de nombreux élapidés.",
+    "didYouKnow": "Les boas et les pythons sont des serpents non venimeux qui tuent leurs proies par constriction.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-110",
+    "animal": "Serpents",
+    "prompt": "Quelle partie du squelette permet aux serpents de faire des mouvements ondulatoires ?",
+    "options": [
+      "Un grand nombre de vertèbres et de côtes articulées",
+      "Des nageoires osseuses répétées le long du corps",
+      "Des disques cartilagineux sans os vertébraux",
+      "Un petit nombre de vertèbres soudées et de côtes immobiles"
+    ],
+    "answer": 0,
+    "explanation": "Les serpents possèdent de nombreuses vertèbres auxquelles sont associées des côtes mobiles, permettant une grande flexibilité du tronc.",
+    "didYouKnow": "Les serpents n’ont pas de pavillons auditifs externes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-111",
+    "animal": "Serpents",
+    "prompt": "Pourquoi le cœur d’un serpent peut-il se déplacer légèrement dans son corps ?",
+    "options": [
+      "Il n’est pas fixé comme chez les mammifères et s’adapte à l’allongement du corps",
+      "Il est libre dans la cavité et se déplace à chaque respiration",
+      "Il se déplace vers le crâne pendant chaque mue",
+      "Il est situé près du cloaque pour faciliter la ponte"
+    ],
+    "answer": 0,
+    "explanation": "Le cœur des serpents est mobile dans la cavité corporelle, ce qui est utile à un corps très allongé et à l’ingestion de grandes proies.",
+    "didYouKnow": "Chez de nombreux serpents, le poumon gauche est réduit ou absent.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-112",
+    "animal": "Serpents",
+    "prompt": "Pourquoi le système digestif d’un serpent peut-il s’adapter après un grand repas ?",
+    "options": [
+      "La digestion est déplacée des intestins vers les poumons",
+      "Tous les organes digestifs cessent leur activité plusieurs jours",
+      "L’intestin est remplacé par un estomac temporaire",
+      "Certains organes augmentent fortement leur activité et leur taille temporairement"
+    ],
+    "answer": 3,
+    "explanation": "Après un repas important, le métabolisme digestif des serpents augmente et certains organes connaissent une activité accrue avant de revenir vers leur état de repos.",
+    "didYouKnow": "Les serpents n’ont pas de paupières mobiles; une écaille transparente protège chaque œil.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-113",
+    "animal": "Cobras cracheurs",
+    "prompt": "Quelle cible les cobras cracheurs visent-ils lorsqu’ils projettent leur venin pour se défendre ?",
+    "options": [
+      "Les yeux de l’agresseur",
+      "Les pattes pour les immobiliser à distance",
+      "Les oreilles pour perturber l’audition",
+      "Le sol pour créer une barrière odorante"
+    ],
+    "answer": 0,
+    "explanation": "La projection de venin vise surtout les yeux et constitue une défense. Elle se distingue de la morsure utilisée notamment pour maîtriser une proie.",
+    "didYouKnow": "Le venin des cobras cracheurs peut provoquer une douleur intense s’il atteint les yeux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-114",
+    "animal": "Serpents",
+    "prompt": "Quel est le rôle des glandes à venin chez les serpents venimeux ?",
+    "options": [
+      "Produire la salive qui lubrifie la proie",
+      "Fabriquer les crochets qui poussent dans la mâchoire",
+      "Produire et stocker une sécrétion utilisée lors de la morsure",
+      "Filtrer le venin du sang après chaque morsure"
+    ],
+    "answer": 2,
+    "explanation": "Les glandes à venin produisent une sécrétion qui est conduite vers les crochets ou les dents spécialisées par des canaux.",
+    "didYouKnow": "Les serpents utilisent parfois leur venin à des fins défensives.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-115",
+    "animal": "Serpents",
+    "prompt": "Quels serpents possèdent souvent des crochets fixes à l’avant de la bouche ?",
+    "options": [
+      "Les vipères, qui replient leurs crochets vers le palais",
+      "Les boas, dont les crochets se replient sur la mâchoire",
+      "De nombreux élapidés comme les cobras",
+      "Les pythons, dont les crochets injectent du venin"
+    ],
+    "answer": 2,
+    "explanation": "De nombreux élapidés, notamment les cobras, ont des crochets avant fixes; d’autres serpents venimeux présentent des configurations différentes.",
+    "didYouKnow": "Les mambas et les serpents corail sont aussi des élapidés.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-116",
+    "animal": "Tricot rayé",
+    "prompt": "Où les femelles de tricot rayé (krait marin) pondent-elles leurs œufs ?",
+    "options": [
+      "Sur la terre ferme, dans des sites abrités",
+      "Sous l’eau, dans des cavités de récif",
+      "En pleine mer, dans des nids flottants d’algues",
+      "Dans des terriers creusés au fond des rivières"
+    ],
+    "answer": 0,
+    "explanation": "Le tricot rayé chasse en mer mais revient à terre pour pondre ses œufs.",
+    "didYouKnow": "Les kraits marins vivent en milieu marin et peuvent nager efficacement grâce à leur queue aplatie.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-117",
+    "animal": "Serpents",
+    "prompt": "Quel comportement peut aider un serpent à économiser de l’énergie après un repas ?",
+    "options": [
+      "Augmenter leur activité pour accélérer le transit intestinal",
+      "Se chauffer sans interruption au soleil, même en cas de surchauffe",
+      "Muer afin d’accélérer la décomposition de la proie",
+      "Rester relativement immobile pendant la digestion"
+    ],
+    "answer": 3,
+    "explanation": "Après avoir ingéré une proie, beaucoup de serpents réduisent leurs déplacements et consacrent leur énergie à la digestion.",
+    "didYouKnow": "Les serpents n’ont pas de pavillons auditifs externes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-118",
+    "animal": "Serpents mangeurs d’œufs",
+    "prompt": "Comment les serpents africains du genre Dasypeltis ouvrent-ils les œufs qu’ils avalent ?",
+    "options": [
+      "Des reliefs de leurs vertèbres appuient sur l’œuf dans l’œsophage",
+      "Ils l’écrasent avec des molaires",
+      "Ils le dissolvent avec une salive très acide dans la bouche",
+      "Ils percent sa coquille avec un crochet venimeux"
+    ],
+    "answer": 0,
+    "explanation": "Des projections osseuses des vertèbres aident à briser la coquille dans l’œsophage. Le contenu est avalé et la coquille comprimée peut être régurgitée.",
+    "didYouKnow": "Les serpents du genre Dasypeltis sont spécialisés dans la consommation d’œufs d’oiseaux.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-119",
+    "animal": "Serpents",
+    "prompt": "Comment les serpents des régions tempérées traversent-ils souvent l’hiver ?",
+    "options": [
+      "Ils entrent en brumation dans un abri et ralentissent leur activité",
+      "Ils se développent dans des œufs jusqu’au printemps",
+      "Ils restent actifs toute l’année en régulant leur température par frisson",
+      "Ils migrent systématiquement vers des régions tropicales"
+    ],
+    "answer": 0,
+    "explanation": "La brumation est une période d’activité réduite chez les reptiles, souvent passée dans un refuge protégé lorsque les températures sont basses.",
+    "didYouKnow": "Certains serpents se rassemblent dans des abris hivernaux communs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-120",
+    "animal": "Serpents",
+    "prompt": "Pourquoi un serpent peut-il s’enrouler en spirale lorsqu’il se repose ?",
+    "options": [
+      "La posture redresse le serpent pour mieux repérer les proies",
+      "L’enroulement réduit la pression des aliments dans l’estomac",
+      "La posture compacte peut aider à conserver la chaleur et à protéger le corps",
+      "La posture permet de détacher la queue en cas de danger"
+    ],
+    "answer": 2,
+    "explanation": "Une posture enroulée réduit la surface exposée et protège une partie du corps; son intérêt dépend des circonstances.",
+    "didYouKnow": "Les serpents recueillent des molécules odorantes avec leur langue fourchue.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-121",
+    "animal": "Pythons",
+    "prompt": "Comment certaines femelles pythons peuvent-elles réchauffer leur ponte ?",
+    "options": [
+      "Par des contractions musculaires répétées",
+      "En produisant du venin chaud",
+      "En ventilant les œufs avec des nageoires",
+      "En transformant leur peau en tissu isolant à poils"
+    ],
+    "answer": 0,
+    "explanation": "Chez certaines espèces, des contractions musculaires produisent de la chaleur pendant la couvaison. Cela reste un phénomène particulier chez des animaux essentiellement ectothermes.",
+    "didYouKnow": "Les pythons femelles peuvent enrouler leur corps autour des œufs pendant l’incubation.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-122",
+    "animal": "Reptiles",
+    "prompt": "Quelle est la différence entre ectothermie et incapacité à réguler sa température ?",
+    "options": [
+      "Il signifie que l’animal ne peut pas modifier sa température par aucun comportement",
+      "Il signifie que la chaleur vient surtout de sources externes, mais l’animal peut ajuster sa température par son comportement",
+      "Il signifie que la température corporelle reste toujours égale à celle de l’air",
+      "Il signifie que l’animal produit assez de chaleur métabolique pour maintenir une température constante"
+    ],
+    "answer": 1,
+    "explanation": "Un reptile ectotherme peut contrôler en partie sa température par son comportement, même s’il dépend de sources externes de chaleur.",
+    "didYouKnow": "Les reptiles ectothermes peuvent néanmoins ajuster leur température par leur comportement.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-123",
+    "animal": "Reptiles",
+    "prompt": "Quelle membrane entoure la cavité contenant l’embryon dans l’œuf amniotique ?",
+    "options": [
+      "Le sac vitellin",
+      "L’amnios",
+      "L’allantoïde",
+      "Le chorion"
+    ],
+    "answer": 1,
+    "explanation": "L’amnios est une membrane qui entoure l’embryon dans un milieu liquide, caractéristique fondamentale de la reproduction des amniotes.",
+    "didYouKnow": "La fécondation des reptiles a lieu à l’intérieur du corps de la femelle.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-124",
+    "animal": "Reptiles",
+    "prompt": "À quoi sert le sac vitellin de l’embryon reptilien ?",
+    "options": [
+      "À protéger l’embryon des chocs mécaniques",
+      "À fournir des réserves nutritives au développement",
+      "À permettre les échanges gazeux avec l’air extérieur",
+      "À éliminer les déchets azotés de l’embryon"
+    ],
+    "answer": 1,
+    "explanation": "Le sac vitellin contient ou est associé au vitellus, réserve nutritive utilisée par l’embryon pendant son développement.",
+    "didYouKnow": "Les coquilles d’œufs de reptiles permettent les échanges gazeux avec l’environnement.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-125",
+    "animal": "Reptiles",
+    "prompt": "Quel type de fécondation les reptiles utilisent-ils ?",
+    "options": [
+      "La fécondation des œufs après la ponte",
+      "La parthénogenèse chez toutes les espèces",
+      "La fécondation interne",
+      "La fécondation externe dans l’eau"
+    ],
+    "answer": 2,
+    "explanation": "Les reptiles ont une fécondation interne; les accouplements permettent la rencontre des gamètes avant la ponte ou le développement des embryons.",
+    "didYouKnow": "La fécondation interne est commune aux reptiles actuels.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-126",
+    "animal": "Œufs de reptiles",
+    "prompt": "À quoi sert l’allantoïde dans l’œuf amniotique d’un reptile ?",
+    "options": [
+      "À entourer l’embryon d’un liquide protecteur",
+      "À fournir à l’embryon ses réserves nutritives principales",
+      "À former la coquille calcaire externe",
+      "À stocker des déchets embryonnaires et participer aux échanges gazeux"
+    ],
+    "answer": 3,
+    "explanation": "L’allantoïde stocke des déchets embryonnaires et participe aux échanges gazeux à travers les membranes de l’œuf.",
+    "didYouKnow": "La peau des reptiles est riche en kératine et limite les pertes d’eau.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-127",
+    "animal": "Tortues à carapace molle",
+    "prompt": "Quelle structure du nez permet à une tortue à carapace molle de respirer en restant largement enfouie ?",
+    "options": [
+      "Un museau allongé en petit tube",
+      "Un bec recourbé en crochet",
+      "Une poche gonflable sous la gorge",
+      "Une crête osseuse au-dessus des yeux"
+    ],
+    "answer": 0,
+    "explanation": "Le museau tubulaire peut atteindre la surface alors que la tortue reste dissimulée dans le fond. Elle continue de respirer de l’air avec ses poumons.",
+    "didYouKnow": "Les tortues à carapace molle possèdent une carapace aplatie et flexible.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-128",
+    "animal": "Reptiles",
+    "prompt": "Quel effet l’humidité peut-elle avoir sur le développement d’un œuf de reptile ?",
+    "options": [
+      "Elle détermine à elle seule le sexe de tous les reptiles",
+      "Elle contrôle l’apport nutritif contenu dans le vitellus",
+      "Elle empêche l’embryon d’échanger des gaz avec le milieu",
+      "Elle influence les échanges d’eau et peut affecter la survie de l’embryon"
+    ],
+    "answer": 3,
+    "explanation": "Les œufs échangent de l’eau avec leur environnement; une humidité inadaptée peut compromettre l’embryon.",
+    "didYouKnow": "La fécondation des reptiles est interne.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-129",
+    "animal": "Reptiles",
+    "prompt": "Pourquoi certaines femelles reptiles gardent-elles leurs œufs après la ponte ?",
+    "options": [
+      "La garde peut réduire le risque de prédation ou de dessèchement",
+      "La garde permet aux œufs de sortir du nid pour se nourrir",
+      "La présence du parent assure une température identique à tous les œufs",
+      "La garde apporte de la nourriture aux embryons à travers la coquille"
+    ],
+    "answer": 0,
+    "explanation": "La garde du nid, observée notamment chez plusieurs crocodiliens et pythons, peut protéger les œufs contre les prédateurs et certaines conditions défavorables.",
+    "didYouKnow": "La peau des reptiles est recouverte d’écailles ou de plaques cornées.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-130",
+    "animal": "Reptiles",
+    "prompt": "Quel terme désigne la reproduction où les petits naissent vivants après s’être développés dans l’appareil reproducteur maternel ?",
+    "options": [
+      "L’oviparité",
+      "La parthénogenèse",
+      "La diapause embryonnaire",
+      "La viviparité"
+    ],
+    "answer": 3,
+    "explanation": "La viviparité désigne le développement des embryons dans le corps maternel jusqu’à la naissance; les formes de nutrition embryonnaire varient chez les reptiles.",
+    "didYouKnow": "Les reptiles sont ectothermes et peuvent utiliser le soleil pour se réchauffer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-131",
+    "animal": "Crocodile marin",
+    "prompt": "Quel crocodilien est particulièrement connu pour parcourir de grandes distances en mer ?",
+    "options": [
+      "Le crocodile marin, Crocodylus porosus",
+      "L’alligator chinois",
+      "Le caïman nain de Cuvier",
+      "Le gavial du Gange"
+    ],
+    "answer": 0,
+    "explanation": "Le crocodile marin tolère l’eau salée et peut effectuer de longs déplacements côtiers ou marins, parfois en profitant des courants.",
+    "didYouKnow": "Le crocodile marin est la plus grande espèce de crocodilien vivant.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-132",
+    "animal": "Reptiles",
+    "prompt": "Quel est un effet potentiel du réchauffement climatique sur les populations de tortues à sexe thermodépendant ?",
+    "options": [
+      "Il peut déséquilibrer la proportion des sexes dans certains nids",
+      "Il rend les jeunes incapables de sortir du nid",
+      "Il empêche toute fécondation interne chez les adultes",
+      "Il transforme progressivement les femelles adultes en mâles"
+    ],
+    "answer": 0,
+    "explanation": "Des températures d’incubation plus élevées peuvent modifier le sex-ratio chez les espèces thermodépendantes, avec des conséquences possibles pour la reproduction.",
+    "didYouKnow": "La peau des reptiles comprend une couche externe riche en kératine.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-133",
+    "animal": "Reptiles",
+    "prompt": "À quoi sert la diapause chez certains embryons de reptiles ?",
+    "options": [
+      "À accélérer le développement jusqu’à l’éclosion",
+      "À empêcher l’embryon de consommer son vitellus",
+      "À suspendre temporairement le développement avant qu’il reprenne",
+      "À augmenter la température corporelle de la femelle"
+    ],
+    "answer": 2,
+    "explanation": "La diapause est un arrêt ou ralentissement temporaire du développement embryonnaire, qui peut synchroniser la naissance avec des conditions favorables.",
+    "didYouKnow": "Le cloaque est une ouverture commune aux systèmes digestif, urinaire et reproducteur des reptiles.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-134",
+    "animal": "Crocodile d’Amérique",
+    "prompt": "Quel crocodilien américain fréquente aussi des eaux saumâtres et des zones côtières ?",
+    "options": [
+      "Le crocodile d’Amérique",
+      "L’alligator américain",
+      "Le caïman à lunettes",
+      "Le caïman nain de Cuvier"
+    ],
+    "answer": 0,
+    "explanation": "Le crocodile d’Amérique utilise des habitats côtiers, estuariens et saumâtres dans une partie de son aire de répartition.",
+    "didYouKnow": "Le crocodile américain peut tolérer des eaux saumâtres et fréquenter des zones côtières.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-135",
+    "animal": "Reptiles",
+    "prompt": "Pourquoi les nouveau-nés de nombreux reptiles sont-ils capables de se débrouiller rapidement ?",
+    "options": [
+      "Ils naissent sous forme de larves qui se métamorphosent dans l’eau",
+      "Ils sont nourris par du lait après l’éclosion",
+      "Ils doivent rester dans le nid jusqu’à ce qu’ils puissent voler",
+      "Ils éclosent sous une forme miniature déjà fonctionnelle"
+    ],
+    "answer": 3,
+    "explanation": "La plupart des reptiles éclosent comme de petits individus semblables aux adultes, sans métamorphose larvaire obligatoire.",
+    "didYouKnow": "Chez de nombreux reptiles, les nouveau-nés ne reçoivent pas de soins parentaux prolongés.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-136",
+    "animal": "Reptiles",
+    "prompt": "Qu’appelle-t-on brumation chez les reptiles ?",
+    "options": [
+      "Une période de ralentissement saisonnier de l’activité",
+      "Une phase de migration vers des zones de ponte",
+      "Un arrêt du développement embryonnaire avant la ponte",
+      "Une mue accélérée qui renouvelle toutes les écailles"
+    ],
+    "answer": 0,
+    "explanation": "La brumation est une période d’activité réduite chez les reptiles, souvent liée au froid et accompagnée d’une baisse du métabolisme.",
+    "didYouKnow": "Les écailles des reptiles protègent leur peau de l’abrasion.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-137",
+    "animal": "Reptiles",
+    "prompt": "Pourquoi les reptiles doivent-ils souvent rester actifs à des températures modérées ?",
+    "options": [
+      "Leur digestion et leurs mouvements dépendent de leur température corporelle",
+      "Leurs muscles sont inactifs jusqu’à une température unique précise",
+      "Leur cœur cesse toujours de battre quand il fait frais",
+      "Leurs poumons ne fonctionnent que pendant la saison chaude"
+    ],
+    "answer": 0,
+    "explanation": "Les processus physiologiques des reptiles, dont l’activité musculaire et la digestion, varient avec la température corporelle.",
+    "didYouKnow": "La peau écailleuse des reptiles limite les pertes d’eau.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-138",
+    "animal": "Reptiles",
+    "prompt": "Quelle stratégie aide un reptile du désert à éviter la déshydratation pendant la journée ?",
+    "options": [
+      "Rester dans un abri chaud pendant les heures fraîches puis s’exposer au soleil au milieu de la journée",
+      "S’exposer au soleil à midi pour accélérer la perte d’eau par évaporation",
+      "Augmenter l’évaporation respiratoire pour refroidir le sang",
+      "Se réfugier dans un terrier pendant les heures chaudes et être actif aux moments plus frais"
+    ],
+    "answer": 3,
+    "explanation": "Le recours à des abris frais et à une activité crépusculaire ou nocturne aide de nombreux reptiles désertiques à limiter les pertes d’eau et la surchauffe.",
+    "didYouKnow": "De nombreux reptiles du désert sont surtout actifs à l’aube, au crépuscule ou la nuit.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-139",
+    "animal": "Reptiles",
+    "prompt": "Quel avantage la peau kératinisée apporte-t-elle à de nombreux reptiles terrestres ?",
+    "options": [
+      "Elle augmente les échanges d’air à travers la peau",
+      "Elle évite toute perte d’eau par la respiration",
+      "Elle permet l’absorption directe de l’eau par les écailles",
+      "Elle limite la perte d’eau à travers la surface du corps"
+    ],
+    "answer": 3,
+    "explanation": "La couche externe riche en kératine constitue une barrière qui réduit la déshydratation dans l’air.",
+    "didYouKnow": "La peau kératinisée aide à protéger les reptiles terrestres contre l’abrasion.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-140",
+    "animal": "Reptiles",
+    "prompt": "Quel est l’intérêt des écailles ventrales larges chez les serpents ?",
+    "options": [
+      "Elles absorbent la chaleur du sol plus rapidement que le dos",
+      "Elles prennent appui sur le sol pendant la locomotion",
+      "Elles protègent le ventre des morsures de prédateurs",
+      "Elles servent à recueillir des molécules odorantes"
+    ],
+    "answer": 1,
+    "explanation": "Les larges écailles ventrales agrippent les irrégularités du substrat et contribuent à la progression du serpent.",
+    "didYouKnow": "Les serpents n’ont pas de pavillons auditifs externes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-141",
+    "animal": "Reptiles",
+    "prompt": "Pourquoi les reptiles pondent-ils souvent leurs œufs dans un site abrité ?",
+    "options": [
+      "Pour garantir que les œufs restent immergés pendant l’incubation",
+      "Pour protéger les embryons de tout échange gazeux",
+      "Pour limiter l’exposition aux prédateurs et aux variations environnementales",
+      "Pour permettre à la femelle de couver les œufs sous son corps"
+    ],
+    "answer": 2,
+    "explanation": "Le choix d’un nid protégé peut réduire la prédation et aider à maintenir des conditions convenables d’humidité et de température.",
+    "didYouKnow": "Certains reptiles choisissent des sites de ponte où le sol facilite l’incubation des œufs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-142",
+    "animal": "Gavial du Gange",
+    "prompt": "Que désigne le ghara du gavial mâle adulte ?",
+    "options": [
+      "Une nageoire à l’extrémité de la queue",
+      "Une excroissance arrondie au bout du museau",
+      "Une plaque osseuse sur la gorge",
+      "Une poche extensible sous le ventre"
+    ],
+    "answer": 1,
+    "explanation": "Le ghara est une excroissance arrondie portée au bout du museau des gavials mâles adultes.",
+    "didYouKnow": "Le ghara du gavial mâle est une excroissance située à l’extrémité de son museau.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-143",
+    "animal": "Reptiles",
+    "prompt": "Quel mécanisme permet aux poumons de nombreux reptiles de renouveler l’air ?",
+    "options": [
+      "Des battements des membres qui aspirent l’air dans les poumons",
+      "Des variations de pression produites par la langue",
+      "Des contractions de la peau qui compriment les poumons",
+      "Des mouvements de la cage thoracique et des muscles respiratoires"
+    ],
+    "answer": 3,
+    "explanation": "Les reptiles ventilent généralement leurs poumons grâce aux mouvements des côtes et de muscles associés, avec des variations entre groupes.",
+    "didYouKnow": "Les squamates renouvellent périodiquement la couche externe de leur peau.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-144",
+    "animal": "Reptiles",
+    "prompt": "Pourquoi les tortues ne respirent-elles pas en gonflant leurs côtes comme un lézard ?",
+    "options": [
+      "Elles n’ont pas de diaphragme comme les mammifères",
+      "Elles possèdent des branchies internes qui ferment les poumons",
+      "Leur carapace empêche tout mouvement des muscles respiratoires",
+      "Leurs côtes sont intégrées à la carapace et ne s’écartent pas librement"
+    ],
+    "answer": 3,
+    "explanation": "Les côtes des tortues sont fusionnées à la carapace, elles utilisent donc des muscles spécialisés pour ventiler leurs poumons.",
+    "didYouKnow": "Les tortues actuelles n’ont pas de dents et possèdent un bec corné.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-145",
+    "animal": "Reptiles",
+    "prompt": "Quel effet la plongée a-t-elle sur la circulation de certaines tortues aquatiques ?",
+    "options": [
+      "Le sang s’arrête de circuler pendant la plongée",
+      "Les poumons se remplissent d’eau pour échanger les gaz",
+      "Le rythme cardiaque peut ralentir pour économiser l’oxygène",
+      "Le cœur accélère pour consommer plus vite l’oxygène stocké"
+    ],
+    "answer": 2,
+    "explanation": "Comme d’autres vertébrés plongeurs, des tortues aquatiques peuvent ralentir leur rythme cardiaque et redistribuer l’oxygène pendant une plongée.",
+    "didYouKnow": "La carapace des tortues comprend des éléments osseux intégrés au squelette.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-146",
+    "animal": "Reptiles",
+    "prompt": "Quel rôle les narines jouent-elles chez les crocodiliens qui flottent ?",
+    "options": [
+      "Elles filtrent le sel de l’eau absorbée",
+      "Elles maintiennent les yeux ouverts pendant une plongée",
+      "Elles détectent les mouvements de proies dans l’eau",
+      "Elles permettent de respirer en restant presque entièrement immergés"
+    ],
+    "answer": 3,
+    "explanation": "Les narines situées au sommet du museau restent au-dessus de l’eau lorsque le crocodilien flotte, ce qui lui permet de respirer discrètement.",
+    "didYouKnow": "Les narines placées sur le haut du museau permettent aux crocodiliens de respirer en flottant bas.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-147",
+    "animal": "Crocodiliens",
+    "prompt": "Que sont les ostéodermes des crocodiliens ?",
+    "options": [
+      "Des os intégrés dans la peau, sous les écailles",
+      "Des plaques de kératine détachables à chaque mue",
+      "Des dents de remplacement logées dans le palais",
+      "Des organes sensoriels situés autour des narines"
+    ],
+    "answer": 0,
+    "explanation": "Les ostéodermes sont des éléments osseux intégrés au derme et présents sous les écailles de nombreux crocodiliens.",
+    "didYouKnow": "Les crocodiliens ont un cœur à quatre cavités, comme les oiseaux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-148",
+    "animal": "Lézard volant Draco",
+    "prompt": "Quelle structure permet au lézard volant Draco de planer entre les arbres ?",
+    "options": [
+      "Une queue aplatie qui agit comme une aile",
+      "Une membrane soutenue par des doigts très longs",
+      "Une membrane de peau soutenue par des côtes allongées",
+      "Des plumes implantées sur les flancs"
+    ],
+    "answer": 2,
+    "explanation": "Le genre Draco déploie un patagium, une membrane de peau soutenue par des côtes allongées, pour planer d’un arbre à l’autre.",
+    "didYouKnow": "Les lézards du genre Draco vivent dans les forêts tropicales d’Asie du Sud et du Sud-Est.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-149",
+    "animal": "Reptiles",
+    "prompt": "Quel rôle peut jouer la coloration d’avertissement chez certains reptiles ?",
+    "options": [
+      "Attirer des proies par une imitation de leur nourriture",
+      "Indiquer la température corporelle aux congénères",
+      "Camoufler l’animal dans les milieux sombres",
+      "Signaler une défense ou une toxicité à des prédateurs"
+    ],
+    "answer": 3,
+    "explanation": "Des couleurs vives ou contrastées peuvent servir de signal d’avertissement, bien que leur fonction dépende de l’espèce et du contexte.",
+    "didYouKnow": "Les couleurs vives d’avertissement sont visibles chez certaines espèces de reptiles.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-150",
+    "animal": "Reptiles",
+    "prompt": "Pourquoi les motifs de camouflage des reptiles sont-ils souvent irréguliers ?",
+    "options": [
+      "Ils rendent l’animal invisible dans tous les habitats",
+      "Ils peuvent casser le contour du corps dans un environnement complexe",
+      "Ils reflètent la lumière pour avertir les prédateurs",
+      "Ils produisent des motifs qui attirent les partenaires à distance"
+    ],
+    "answer": 1,
+    "explanation": "Les motifs irréguliers peuvent perturber la perception du contour d’un animal et le rendre plus difficile à repérer dans son habitat.",
+    "didYouKnow": "Les reptiles terrestres possèdent une peau écailleuse riche en kératine.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-151",
+    "animal": "Reptiles",
+    "prompt": "Quelle est une menace majeure pour les reptiles qui vivent dans les zones humides ?",
+    "options": [
+      "Le drainage et la destruction de leur habitat",
+      "L’augmentation de la couverture végétale autour des étangs",
+      "La formation de nouveaux méandres dans les cours d’eau",
+      "La baisse saisonnière du niveau des mares"
+    ],
+    "answer": 0,
+    "explanation": "Le drainage, la pollution et la fragmentation des zones humides suppriment les sites de nourrissage, de ponte et d’abri de nombreux reptiles.",
+    "didYouKnow": "La disparition des zones humides affecte notamment les crocodiliens et les tortues d’eau douce.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-152",
+    "animal": "Reptiles",
+    "prompt": "Comment la fragmentation des habitats affecte-t-elle les populations de reptiles ?",
+    "options": [
+      "Elle crée des sites de ponte sans fragmenter les territoires",
+      "Elle rapproche les populations et augmente toujours les échanges génétiques",
+      "Elle ne touche que les espèces qui vivent dans les arbres",
+      "Elle isole des populations et réduit les déplacements entre habitats"
+    ],
+    "answer": 3,
+    "explanation": "Les routes et les zones aménagées peuvent séparer des populations, limiter l’accès aux sites de reproduction et réduire les échanges génétiques.",
+    "didYouKnow": "Les lézards insulaires peuvent être endémiques à une aire géographique restreinte.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-153",
+    "animal": "Tortues marines",
+    "prompt": "Pourquoi les prises accidentelles dans les engins de pêche menacent-elles les tortues marines ?",
+    "options": [
+      "Elles empêchent les tortues de retrouver leur plage de naissance",
+      "Elles peuvent faire disparaître le sel de l’eau de mer",
+      "Elles peuvent entraîner blessures ou noyades",
+      "Elles dégradent la coquille des œufs avant la ponte"
+    ],
+    "answer": 2,
+    "explanation": "Les tortues capturées accidentellement dans les filets ou hameçons peuvent se blesser ou se noyer si elles ne peuvent pas remonter respirer.",
+    "didYouKnow": "La tortue luth se nourrit surtout de méduses et d’autres organismes gélatineux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-154",
+    "animal": "Tortues marines",
+    "prompt": "Quel risque les déchets plastiques posent-ils aux tortues marines ?",
+    "options": [
+      "Ils fournissent des matériaux de nidification aux tortues adultes",
+      "Ils réduisent les risques de blessures causées par les filets",
+      "Ils peuvent être ingérés ou provoquer un emmêlement",
+      "Ils augmentent la quantité de méduses disponibles pour les tortues"
+    ],
+    "answer": 2,
+    "explanation": "Les tortues peuvent avaler des déchets qu’elles confondent avec des proies ou s’emmêler dans des lignes et des filets abandonnés.",
+    "didYouKnow": "Les tortues marines éliminent l’excès de sel grâce à des glandes spécialisées près des yeux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-155",
+    "animal": "Tortues terrestres",
+    "prompt": "Pourquoi le commerce illégal de tortues peut-il réduire rapidement certaines populations ?",
+    "options": [
+      "Les tortues adultes ne peuvent se reproduire qu’une seule fois",
+      "Les tortues pondent uniquement un œuf à la fin de leur vie",
+      "Les populations de tortues ne peuvent pas être suivies par les chercheurs",
+      "Les tortues ont souvent une croissance lente et une maturité tardive"
+    ],
+    "answer": 3,
+    "explanation": "La croissance lente, la maturité tardive et parfois une faible survie des jeunes rendent de nombreuses tortues vulnérables au prélèvement excessif.",
+    "didYouKnow": "La carapace des tortues est intégrée à leur squelette.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-156",
+    "animal": "Reptiles",
+    "prompt": "Quel effet une route peut-elle avoir sur des serpents et des lézards ?",
+    "options": [
+      "Elle peut supprimer les proies uniquement pendant la nuit",
+      "Elle ne perturbe que les reptiles arboricoles",
+      "Elle peut causer une mortalité directe et fragmenter leur habitat",
+      "Elle peut rendre la peau des serpents plus perméable"
+    ],
+    "answer": 2,
+    "explanation": "Les reptiles traversant une route risquent d’être heurtés, et les infrastructures peuvent séparer les habitats et limiter les déplacements.",
+    "didYouKnow": "Les serpents détectent des molécules odorantes avec leur langue fourchue.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-157",
+    "animal": "Reptiles",
+    "prompt": "Pourquoi les espèces exotiques envahissantes peuvent-elles menacer les reptiles insulaires ?",
+    "options": [
+      "Elles améliorent toujours la diversité génétique des populations locales",
+      "Elles ne peuvent pas consommer des œufs de reptiles",
+      "Elles peuvent devenir de nouveaux prédateurs ou concurrents",
+      "Elles sont incapables de survivre dans les îles"
+    ],
+    "answer": 2,
+    "explanation": "Des mammifères introduits peuvent prédater les œufs et les jeunes reptiles ou concurrencer les espèces locales pour les ressources.",
+    "didYouKnow": "Les reptiles possèdent une peau écailleuse riche en kératine.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-158",
+    "animal": "Crocodiliens",
+    "prompt": "Quelle pression historique a fortement réduit certaines populations de crocodiliens ?",
+    "options": [
+      "La chasse pour leurs peaux et la perte d’habitat",
+      "La prédation par les oiseaux adultes",
+      "La compétition naturelle entre individus d’une même espèce",
+      "La diminution saisonnière des proies dans les rivières"
+    ],
+    "answer": 0,
+    "explanation": "La chasse commerciale et la transformation des zones humides ont provoqué de forts déclins chez plusieurs espèces de crocodiliens.",
+    "didYouKnow": "Les crocodiliens construisent des nids de végétation ou creusent des nids selon l’espèce.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-159",
+    "animal": "Diable cornu (Moloch)",
+    "prompt": "Comment le diable cornu peut-il conduire l’eau recueillie sur sa peau vers sa bouche ?",
+    "options": [
+      "Par de fins sillons entre ses écailles qui guident l’eau",
+      "Par des glandes qui pompent l’eau depuis ses pattes",
+      "Par une poche située dans sa queue",
+      "Par des poils creux qui aspirent l’eau jusqu’au museau"
+    ],
+    "answer": 0,
+    "explanation": "Des sillons entre les écailles du Moloch peuvent acheminer l’eau présente sur sa peau vers sa bouche par capillarité.",
+    "didYouKnow": "Le diable cornu peut se camoufler en restant immobile dans son habitat aride.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-160",
+    "animal": "Reptiles",
+    "prompt": "Pourquoi préserver les sites de ponte est-il essentiel pour les tortues ?",
+    "options": [
+      "Les œufs ne peuvent éclore que si la mère reste sur la plage",
+      "Les œufs dépendent de conditions locales de sol, d’humidité et de température",
+      "Les sites de ponte déterminent l’alimentation des adultes",
+      "Les adultes ne peuvent pondre qu’à proximité d’une forêt"
+    ],
+    "answer": 1,
+    "explanation": "Le succès de l’incubation dépend des caractéristiques du site, tandis que la destruction des plages ou des berges peut supprimer l’accès aux nids.",
+    "didYouKnow": "Les tortues marines respirent avec des poumons et doivent remonter à la surface.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-161",
+    "animal": "Lézard à collerette",
+    "prompt": "Que fait le lézard à collerette lorsqu’il déploie son large repli de peau ?",
+    "options": [
+      "Il ouvre une collerette autour de la tête pour paraître plus imposant",
+      "Il déploie une membrane entre les pattes pour planer",
+      "Il gonfle une poche sous la gorge pour stocker de l’air",
+      "Il redresse une rangée d’épines sur sa queue"
+    ],
+    "answer": 0,
+    "explanation": "Le lézard à collerette ouvre la peau plissée autour de son cou lors d’une parade ou d’une menace, ce qui agrandit visuellement sa silhouette.",
+    "didYouKnow": "Le lézard à collerette est originaire du nord de l’Australie et du sud de la Nouvelle-Guinée.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-162",
+    "animal": "Reptiles",
+    "prompt": "Pourquoi la collecte de reptiles sauvages pour animaux de compagnie peut-elle être problématique ?",
+    "options": [
+      "Elle ne concerne que les espèces élevées en captivité",
+      "Elle peut appauvrir les populations naturelles et perturber leur structure",
+      "Elle améliore toujours la diversité génétique des populations sauvages",
+      "Elle rend les individus prélevés plus adaptés aux milieux naturels"
+    ],
+    "answer": 1,
+    "explanation": "Les prélèvements non durables peuvent retirer trop d’individus, en particulier des adultes reproducteurs ou des espèces à aire restreinte.",
+    "didYouKnow": "Les reptiles se reproduisent par fécondation interne.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-163",
+    "animal": "Scinque à langue bleue",
+    "prompt": "Quel signal visuel le scinque à langue bleue peut-il montrer à un prédateur ?",
+    "options": [
+      "Une langue bleu vif",
+      "Une collerette rouge déployée autour du cou",
+      "Une paire de grands ocelles sur les ailes",
+      "Un fanon jaune sous la gorge"
+    ],
+    "answer": 0,
+    "explanation": "Le scinque à langue bleue peut ouvrir la bouche et exposer sa langue vive lors d’une posture défensive.",
+    "didYouKnow": "Le scinque à langue bleue est omnivore et consomme végétaux et petits animaux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-164",
+    "animal": "Reptiles",
+    "prompt": "Comment les tortues contribuent-elles parfois à la dispersion des graines ?",
+    "options": [
+      "Elles peuvent consommer des fruits puis déposer les graines dans leurs excréments",
+      "Elles transportent les graines accrochées à leur carapace sans les avaler",
+      "Elles enterrent toutes les graines dans leurs nids",
+      "Elles pollinisent les fruits avant de les consommer"
+    ],
+    "answer": 0,
+    "explanation": "Les tortues qui mangent des fruits peuvent avaler des graines et les transporter avant de les excréter ailleurs.",
+    "didYouKnow": "La carapace des tortues comprend des éléments osseux soudés au squelette.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-165",
+    "animal": "Reptiles",
+    "prompt": "Quel service écologique certains serpents rendent-ils dans les paysages agricoles ?",
+    "options": [
+      "Ils peuvent limiter des populations de rongeurs",
+      "Ils fertilisent directement les sols en digérant les racines",
+      "Ils pollinisent les cultures de céréales",
+      "Ils éliminent toutes les espèces de ravageurs sans effet secondaire"
+    ],
+    "answer": 0,
+    "explanation": "Les serpents qui mangent des rongeurs peuvent contribuer à réguler leurs populations, même si leur impact dépend de l’espèce et du milieu.",
+    "didYouKnow": "Les serpents n’ont pas de paupières mobiles; une écaille transparente protège leurs yeux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-166",
+    "animal": "Scinque des sables (Scincus)",
+    "prompt": "Comment le scinque des sables se déplace-t-il dans le sable meuble ?",
+    "options": [
+      "Il s’enfouit sous le sable et avance en ondulant son corps, comme s’il nageait dans le substrat",
+      "Il s’enfouit en poussant le sable vers l’arrière avec ses membres",
+      "Il progresse sous le sable en ondulant son corps, comme s’il nageait dans le substrat",
+      "Il creuse une galerie en alternant des mouvements de ses pattes antérieures"
+    ],
+    "answer": 0,
+    "explanation": "Le scinque des sables peut s’enfouir et progresser sous le sable meuble par des mouvements ondulatoires du corps.",
+    "didYouKnow": "Le scinque des sables vit dans des régions arides d’Afrique du Nord et du Moyen-Orient.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-167",
+    "animal": "Tortue à nez de cochon",
+    "prompt": "Quelle tortue d’eau douce possède un museau charnu ressemblant à un petit groin ?",
+    "options": [
+      "Carettochelys insculpta",
+      "La tortue d’Hermann",
+      "La tortue luth",
+      "La tortue imbriquée"
+    ],
+    "answer": 0,
+    "explanation": "La tortue à nez de cochon vit dans des eaux douces du nord de l’Australie et du sud de la Nouvelle-Guinée. Son museau porte les narines à son extrémité.",
+    "didYouKnow": "La tortue à nez de cochon possède des membres antérieurs en forme de palettes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-168",
+    "animal": "Reptiles",
+    "prompt": "Quelle relation évolutive unit les crocodiliens et les oiseaux ?",
+    "options": [
+      "Les oiseaux descendent des crocodiliens actuels",
+      "Ils appartiennent tous deux aux archosaures",
+      "Les oiseaux et les crocodiliens n’ont pas d’ancêtre commun",
+      "Les crocodiliens appartiennent aux squamates comme les serpents"
+    ],
+    "answer": 1,
+    "explanation": "Crocodiliens et oiseaux sont les deux grandes lignées actuelles des archosaures et partagent un ancêtre commun ancien.",
+    "didYouKnow": "Les crocodiliens construisent des nids et protègent parfois les jeunes autour de l’éclosion.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-169",
+    "animal": "Monstre de Gila",
+    "prompt": "Où le monstre de Gila stocke-t-il une partie de ses réserves énergétiques ?",
+    "options": [
+      "Dans une poche sous la gorge",
+      "Dans les membres antérieurs",
+      "Sous les écailles de son dos",
+      "Dans sa queue épaisse"
+    ],
+    "answer": 3,
+    "explanation": "Le monstre de Gila stocke des réserves de graisse dans sa queue, ce qui lui permet de traverser des périodes où la nourriture est moins disponible.",
+    "didYouKnow": "Le monstre de Gila est l’un des rares lézards venimeux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-170",
+    "animal": "Reptiles",
+    "prompt": "Quel groupe actuel comprend les serpents et les lézards ?",
+    "options": [
+      "Les Testudines",
+      "Les Rhynchocéphales",
+      "Les Crocodiliens",
+      "Les Squamates"
+    ],
+    "answer": 3,
+    "explanation": "Les Squamates regroupent les serpents, les lézards et les amphisbènes.",
+    "didYouKnow": "Les serpents recueillent des molécules odorantes avec leur langue fourchue.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-171",
+    "animal": "Caïman noir",
+    "prompt": "Dans quelle grande région se rencontre naturellement le caïman noir ?",
+    "options": [
+      "Le bassin amazonien",
+      "Le bassin du Nil",
+      "Les marais de Floride uniquement",
+      "Les rivières du nord de l’Australie"
+    ],
+    "answer": 0,
+    "explanation": "Le caïman noir, Melanosuchus niger, est un grand crocodilien d’Amérique du Sud associé notamment aux milieux aquatiques amazoniens.",
+    "didYouKnow": "Le caïman noir est le plus grand caïman vivant.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-172",
+    "animal": "Reptiles",
+    "prompt": "Quel groupe de reptiles comprend les tortues ?",
+    "options": [
+      "Les Rhynchocéphales",
+      "Les Crocodiliens",
+      "Les Testudines",
+      "Les Squamates"
+    ],
+    "answer": 2,
+    "explanation": "Les Testudines sont l’ordre qui rassemble les tortues terrestres, d’eau douce et marines.",
+    "didYouKnow": "Les tortues actuelles comprennent des espèces marines, d’eau douce et terrestres.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-173",
+    "animal": "Reptiles",
+    "prompt": "Quel trait dentaire manque généralement aux tortues actuelles ?",
+    "options": [
+      "Des choanes qui relient les narines à la bouche",
+      "Une langue mobile",
+      "Des mâchoires osseuses",
+      "Des dents; elles ont un bec kératinisé"
+    ],
+    "answer": 3,
+    "explanation": "Les tortues actuelles n’ont pas de dents; leurs mâchoires sont recouvertes d’un bec corné qui coupe ou broie les aliments.",
+    "didYouKnow": "Les tortues marines utilisent des nageoires pour nager en mer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-174",
+    "animal": "Tortues",
+    "prompt": "Que désigne le terme ‘dossière’ chez une tortue ?",
+    "options": [
+      "La partie ventrale de la carapace",
+      "Le rebord latéral des écailles",
+      "La partie dorsale de la carapace",
+      "La base osseuse du bec"
+    ],
+    "answer": 2,
+    "explanation": "La dossière est la partie supérieure et dorsale de la carapace; le plastron en forme la face ventrale.",
+    "didYouKnow": "Chez les tortues, le plastron forme la face ventrale de la carapace.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-175",
+    "animal": "Tortues",
+    "prompt": "Comment les tortues marines se propulsent-elles principalement ?",
+    "options": [
+      "Par des mouvements alternés de leurs pattes postérieures",
+      "Par un mouvement latéral de leur queue",
+      "Par des battements de leurs nageoires antérieures",
+      "En ondulant l’ensemble de leur corps comme un serpent"
+    ],
+    "answer": 2,
+    "explanation": "Les nageoires antérieures assurent l’essentiel de la propulsion; les postérieures aident à diriger et stabiliser l’animal.",
+    "didYouKnow": "Les tortues marines éliminent l’excès de sel grâce à des glandes spécialisées près des yeux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-176",
+    "animal": "Tortues marines",
+    "prompt": "Quelle action est essentielle pour une tortue marine femelle après la ponte ?",
+    "options": [
+      "Déplacer les œufs vers une zone plus chaude à chaque marée",
+      "Couvrir les œufs puis rester sur le nid jusqu’à leur éclosion",
+      "Transporter les œufs sous sa carapace jusqu’à l’éclosion",
+      "Retourner à la mer en laissant les œufs incuber dans le sable"
+    ],
+    "answer": 3,
+    "explanation": "Après la ponte, la femelle recouvre souvent le nid et repart; les embryons se développent sans soins directs jusqu’à l’éclosion.",
+    "didYouKnow": "Les tortues marines utilisent des indices magnétiques et visuels pour s’orienter.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-177",
+    "animal": "Tortues marines",
+    "prompt": "Que font les nouveau-nés lorsqu’ils émergent d’un nid sur la plage ?",
+    "options": [
+      "Ils suivent les adultes jusqu’à une zone de nourrissage",
+      "Ils se dirigent généralement vers la mer",
+      "Ils s’enfouissent dans la plage jusqu’à la saison suivante",
+      "Ils attendent que la femelle les porte dans sa bouche"
+    ],
+    "answer": 1,
+    "explanation": "Les nouveau-nés émergent souvent ensemble et se dirigent vers l’océan en utilisant des indices lumineux et visuels de l’horizon.",
+    "didYouKnow": "Les tortues marines possèdent des glandes près des yeux qui éliminent l’excès de sel.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-178",
+    "animal": "Tortues marines",
+    "prompt": "Quel habitat les tortues vertes adultes utilisent-elles souvent pour se nourrir ?",
+    "options": [
+      "Les herbes terrestres des plages",
+      "Les éponges des récifs et les coraux mous",
+      "Les herbiers marins et les zones riches en algues",
+      "Les méduses des eaux profondes"
+    ],
+    "answer": 2,
+    "explanation": "De nombreuses tortues vertes adultes broutent les herbiers marins ou les algues dans les eaux côtières peu profondes.",
+    "didYouKnow": "La tortue verte est la plus grande des tortues marines à carapace rigide.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-179",
+    "animal": "Tortues",
+    "prompt": "Quel trait permet de distinguer souvent une tortue aquatique d’une tortue terrestre ?",
+    "options": [
+      "Des branchies fonctionnelles chez les adultes",
+      "Des pattes palmées ou des nageoires adaptées à la nage",
+      "Une carapace plus plate chez toutes les espèces aquatiques",
+      "Un plastron toujours réduit à une seule plaque"
+    ],
+    "answer": 1,
+    "explanation": "Les tortues aquatiques possèdent souvent des pieds palmés ou des nageoires, tandis que les tortues terrestres ont des membres robustes pour marcher.",
+    "didYouKnow": "Les tortues actuelles n’ont pas de dents et possèdent un bec kératinisé.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-180",
+    "animal": "Tortues",
+    "prompt": "Quelle information peut fournir la forme d’une carapace de tortue ?",
+    "options": [
+      "Elle peut être liée à l’habitat et au mode de vie de l’espèce",
+      "Elle permet de déterminer la température du nid d’origine",
+      "Elle révèle le sexe sans variation entre les espèces",
+      "Elle indique toujours l’âge exact en années"
+    ],
+    "answer": 0,
+    "explanation": "La forme de la carapace peut refléter des adaptations écologiques, par exemple une forme hydrodynamique chez les espèces aquatiques.",
+    "didYouKnow": "Les tortues actuelles n’ont pas de dents et possèdent un bec kératinisé.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-181",
+    "animal": "Tortue gopher",
+    "prompt": "Quel abri la tortue gopher creuse-t-elle dans les sols sableux ?",
+    "options": [
+      "Un terrier profond pouvant aussi servir d’abri à d’autres animaux",
+      "Une cavité sous-marine dans la vase",
+      "Un nid suspendu dans les branches",
+      "Une galerie uniquement destinée à stocker des feuilles"
+    ],
+    "answer": 0,
+    "explanation": "La tortue gopher creuse de grands terriers dans le sol; ces refuges servent aussi à d’autres espèces.",
+    "didYouKnow": "La tortue gopher se nourrit de plantes, notamment de feuilles, de fleurs et de fruits.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-182",
+    "animal": "Reptiles",
+    "prompt": "Pourquoi l’ADN environnemental peut-il aider à détecter des reptiles aquatiques ?",
+    "options": [
+      "Les reptiles produisent un signal lumineux détectable dans l’eau",
+      "Des traces d’ADN laissées dans l’eau peuvent révéler leur présence",
+      "L’ADN dissous permet de calculer l’âge moyen des individus",
+      "La méthode permet d’observer les déplacements de chaque individu"
+    ],
+    "answer": 1,
+    "explanation": "Les animaux laissent des cellules et des fragments d’ADN dans leur environnement; leur détection peut indiquer la présence d’une espèce dans un plan d’eau.",
+    "didYouKnow": "Les tortues aquatiques doivent remonter à la surface pour respirer de l’air.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-183",
+    "animal": "Gecko volant",
+    "prompt": "Quelle adaptation permet à certains geckos volants de planer d’un tronc à l’autre ?",
+    "options": [
+      "Des replis cutanés latéraux et des membranes entre les membres augmentent la surface portante",
+      "Des côtes allongées déploient un patagium de chaque côté du tronc",
+      "Une membrane tendue entre les membres postérieurs et la queue sert de parachute",
+      "Des écailles rigides s’écartent le long du dos et forment des ailes"
+    ],
+    "answer": 0,
+    "explanation": "Certains geckos volants déploient des replis cutanés sur les flancs et entre les membres pour ralentir et contrôler leur chute.",
+    "didYouKnow": "Le gecko volant de Kuhl est originaire d’Asie du Sud-Est.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-184",
+    "animal": "Reptiles",
+    "prompt": "Quel danger le feu peut-il représenter dans les habitats de reptiles ?",
+    "options": [
+      "Il affecte uniquement les œufs et jamais les adultes",
+      "Il peut tuer directement des individus peu mobiles et détruire des refuges",
+      "Il améliore toujours la germination des plantes dont se nourrissent les reptiles",
+      "Il fait disparaître les prédateurs plutôt que les habitats"
+    ],
+    "answer": 1,
+    "explanation": "Les incendies intenses ou trop fréquents peuvent détruire la couverture végétale, les abris et les sites de ponte, et tuer des animaux incapables de fuir.",
+    "didYouKnow": "Les reptiles ont une peau écailleuse qui limite les pertes d’eau.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-185",
+    "animal": "Tortue luth",
+    "prompt": "Quelle adaptation aide la tortue luth à limiter les pertes de chaleur dans ses nageoires ?",
+    "options": [
+      "Des échanges de chaleur à contre-courant entre vaisseaux sanguins",
+      "Des plumes isolantes sous les écailles",
+      "Une fermeture permanente de toute circulation dans les nageoires",
+      "Des glandes qui sécrètent de l’eau chaude"
+    ],
+    "answer": 0,
+    "explanation": "Des vaisseaux transportant le sang dans des directions opposées permettent de transférer de la chaleur avant qu’elle ne soit perdue vers l’eau. Sa grande taille contribue aussi à sa conservation de chaleur.",
+    "didYouKnow": "La tortue luth se nourrit surtout de méduses et d’autres organismes gélatineux.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-186",
+    "animal": "Reptiles",
+    "prompt": "Quelle mesure réduit l’impact des filets abandonnés sur les reptiles aquatiques ?",
+    "options": [
+      "Éclairer les engins uniquement au moment des marées",
+      "Augmenter le maillage des filets dans les zones de ponte",
+      "Déplacer les filets vers les herbiers de nourrissage",
+      "Retirer les engins fantômes et limiter leur perte en mer"
+    ],
+    "answer": 3,
+    "explanation": "Les engins de pêche perdus ou abandonnés peuvent continuer à capturer des animaux; leur récupération et une meilleure gestion réduisent ce risque.",
+    "didYouKnow": "Les reptiles aquatiques comme les tortues doivent remonter à la surface pour respirer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-187",
+    "animal": "Reptiles",
+    "prompt": "Pourquoi une espèce de reptile menacée peut-elle bénéficier d’un élevage conservatoire ?",
+    "options": [
+      "Il permet de relâcher les individus sans évaluer leur adaptation",
+      "Il garantit le maintien de la diversité génétique sans gestion",
+      "Il peut soutenir la population, à condition d’être lié à un plan scientifique de conservation",
+      "Il remplace durablement la protection des habitats naturels"
+    ],
+    "answer": 2,
+    "explanation": "L’élevage conservatoire peut contribuer à des objectifs de conservation, mais doit être bien géré et accompagné de protection de l’habitat et de suivi génétique.",
+    "didYouKnow": "Les reptiles sont ectothermes et dépendent largement de la température du milieu.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-188",
+    "animal": "Tortue du désert",
+    "prompt": "Où la tortue du désert peut-elle stocker une réserve d’eau ?",
+    "options": [
+      "Dans sa vessie",
+      "Dans des sacs sous la carapace",
+      "Dans les cavités de ses os des pattes",
+      "Dans une poche de peau derrière la tête"
+    ],
+    "answer": 0,
+    "explanation": "La tortue du désert peut conserver de l’eau dans sa vessie et la réabsorber lorsque les conditions sont sèches.",
+    "didYouKnow": "La tortue du désert est originaire du sud-ouest de l’Amérique du Nord.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-189",
+    "animal": "Crotale cornu (sidewinder)",
+    "prompt": "Quel mode de déplacement aide le sidewinder à progresser sur le sable ?",
+    "options": [
+      "La locomotion en accordéon",
+      "L’ondulation latérale en prenant appui sur des rochers",
+      "La locomotion latérale en soulevant des boucles successives du corps",
+      "La progression par battements de nageoires"
+    ],
+    "answer": 2,
+    "explanation": "Le sidewinder avance par locomotion latérale : plusieurs boucles du corps touchent le sable tandis que le reste se déplace vers l’avant.",
+    "didYouKnow": "Les crotales cornus possèdent des fossettes thermosensibles entre l’œil et la narine.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-190",
+    "animal": "Chuckwalla",
+    "prompt": "Comment le chuckwalla peut-il se protéger dans une crevasse rocheuse ?",
+    "options": [
+      "Il s’aplatit et change de couleur pour se fondre dans la pierre",
+      "Il gonfle son corps pour se coincer dans la crevasse",
+      "Il projette du sang depuis ses yeux",
+      "Il déploie une collerette autour du cou"
+    ],
+    "answer": 1,
+    "explanation": "Le chuckwalla peut se réfugier dans une fissure et gonfler son corps afin d’être plus difficile à en extraire.",
+    "didYouKnow": "Le chuckwalla se nourrit surtout de feuilles, de fleurs et d’autres végétaux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-191",
+    "animal": "Tortue mata mata",
+    "prompt": "Comment la tortue mata mata capture-t-elle souvent un poisson ?",
+    "options": [
+      "Elle ouvre rapidement la bouche et augmente le volume de la cavité buccale, aspirant le poisson avec l’eau",
+      "Elle projette une langue collante qui adhère au poisson puis le ramène dans sa bouche",
+      "Elle utilise l’appendice de sa langue pour attirer le poisson, puis le saisit avec les mâchoires",
+      "Elle pousse le poisson vers la gorge avec un courant créé par les mouvements des nageoires"
+    ],
+    "answer": 0,
+    "explanation": "La mata mata peut ouvrir brusquement sa grande bouche et aspirer une proie aquatique à proximité.",
+    "didYouKnow": "La tortue mata mata est originaire des bassins de l’Amazone et de l’Orénoque.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-192",
+    "animal": "Tortue peinte",
+    "prompt": "Comment la carapace aide-t-elle la tortue peinte à supporter l’accumulation d’acide lactique pendant un hiver pauvre en oxygène ?",
+    "options": [
+      "Ses minéraux contribuent à tamponner l’acidité",
+      "Elle filtre le sang comme un rein supplémentaire",
+      "Elle transforme l’acide lactique en oxygène",
+      "Elle expulse tout l’acide lactique par ses scutelles"
+    ],
+    "answer": 0,
+    "explanation": "La carapace et les os participent au tamponnement des acides et peuvent stocker une partie du lactate. Cette adaptation accompagne un ralentissement considérable du métabolisme.",
+    "didYouKnow": "La tortue peinte possède souvent des marques rouges ou jaunes sur la tête et les membres.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-193",
+    "animal": "Tortue-boîte",
+    "prompt": "Quelle partie de la carapace la tortue-boîte peut-elle refermer grâce à une charnière ?",
+    "options": [
+      "Le plastron",
+      "La dossière",
+      "Le rebord des écailles de la tête",
+      "La colonne vertébrale"
+    ],
+    "answer": 0,
+    "explanation": "Chez les tortues-boîtes, une charnière dans le plastron permet de relever ses parties pour protéger le corps.",
+    "didYouKnow": "Les tortues-boîtes sont des tortues terrestres nord-américaines.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-194",
+    "animal": "Tortue crêpe (pancake tortoise)",
+    "prompt": "Quelle particularité aide la tortue crêpe à se cacher dans les fissures rocheuses ?",
+    "options": [
+      "Une carapace aplatie et souple peut se déformer légèrement pour passer dans des fissures étroites",
+      "Une carapace très bombée lui permet de se coincer dans des fissures en les bloquant par le haut",
+      "Un plastron articulé s’ouvre pour laisser passer le corps dans les crevasses",
+      "Une carapace aplatie et rigide la rend hydrodynamique pour entrer dans des fissures immergées"
+    ],
+    "answer": 0,
+    "explanation": "La carapace aplatie et plus souple que celle de nombreuses tortues lui permet de se glisser dans des crevasses rocheuses.",
+    "didYouKnow": "La tortue crêpe est originaire d’Afrique de l’Est.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-195",
+    "animal": "Lézard cornu du Texas",
+    "prompt": "Quelle proie constitue une part importante du régime du lézard cornu du Texas ?",
+    "options": [
+      "Les fourmis moissonneuses",
+      "Les méduses",
+      "Les poissons de rivière",
+      "Les œufs de crocodiliens"
+    ],
+    "answer": 0,
+    "explanation": "Le lézard cornu du Texas consomme fréquemment des fourmis moissonneuses, qu’il attrape au sol.",
+    "didYouKnow": "Le lézard cornu du Texas peut projeter du sang depuis des vaisseaux près de ses yeux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-196",
+    "animal": "Serpent volant",
+    "prompt": "Comment le serpent volant du genre Chrysopelea peut-il planer entre les arbres ?",
+    "options": [
+      "Il aplatit son corps et le fait onduler pendant sa trajectoire aérienne",
+      "Il bat des ailes cachées sous ses écailles",
+      "Il déploie un patagium soutenu par des côtes allongées",
+      "Il se propulse en faisant vibrer sa queue comme une hélice"
+    ],
+    "answer": 0,
+    "explanation": "Les serpents volants du genre Chrysopelea aplatissent leur corps et ondulent en l’air, ce qui leur permet de planer entre les arbres.",
+    "didYouKnow": "Les serpents du genre Chrysopelea sont originaires d’Asie du Sud et du Sud-Est.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reptiles-197",
+    "animal": "Iguane à bandes des Fidji",
+    "prompt": "Dans quelle région l’iguane à bandes des Fidji vit-il naturellement ?",
+    "options": [
+      "Dans les îles Fidji",
+      "Dans les îles Galápagos",
+      "Dans les forêts de Madagascar",
+      "Dans les zones humides du bassin du Yangzi Jiang"
+    ],
+    "answer": 0,
+    "explanation": "L’iguane à bandes des Fidji est une espèce originaire de l’archipel fidjien.",
+    "didYouKnow": "L’iguane à bandes des Fidji est fortement menacé par la perte de son habitat.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-198",
+    "animal": "Alligator américain",
+    "prompt": "Que désigne l’expression « trou d’alligator » dans les Everglades ?",
+    "options": [
+      "Une dépression creusée et entretenue par un alligator qui peut retenir l’eau en saison sèche",
+      "Un terrier creusé par une tortue pour pondre ses œufs",
+      "Une cavité naturelle utilisée uniquement par les crocodiles marins",
+      "Un nid suspendu construit avec des branches et des feuilles"
+    ],
+    "answer": 0,
+    "explanation": "Les alligators peuvent creuser des dépressions dans les zones humides; celles-ci conservent parfois l’eau lorsque le niveau baisse.",
+    "didYouKnow": "Les alligators américains construisent des nids de végétation pour y déposer leurs œufs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-199",
+    "animal": "Couleuvre royale de Californie",
+    "prompt": "De quoi se nourrit souvent la couleuvre royale de Californie en plus des petits mammifères ?",
+    "options": [
+      "D’autres serpents",
+      "De grandes feuilles et des fruits mûrs",
+      "De nectar de fleurs",
+      "De méduses et de petits crustacés"
+    ],
+    "answer": 0,
+    "explanation": "La couleuvre royale de Californie est un prédateur opportuniste qui peut consommer d’autres serpents.",
+    "didYouKnow": "La couleuvre royale de Californie tolère le venin de certaines vipères à fosse, notamment les crotales.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "reptiles-200",
+    "animal": "Alligator chinois",
+    "prompt": "Dans quel grand bassin fluvial vit naturellement l’alligator chinois ?",
+    "options": [
+      "Dans les zones humides du bassin amazonien",
+      "Dans le bassin du Gange et du Brahmapoutre",
+      "Dans les estuaires du nord de l’Australie",
+      "Dans le bassin inférieur du Yangzi Jiang"
+    ],
+    "answer": 3,
+    "explanation": "L’alligator chinois est originaire de l’est de la Chine, notamment des zones humides du bassin inférieur du Yangzi Jiang.",
+    "didYouKnow": "L’alligator chinois est plus petit que l’alligator américain.",
+    "difficulty": "medium"
+  }
+]

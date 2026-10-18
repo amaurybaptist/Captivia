@@ -489,7 +489,11 @@
     "retry": "Erneut versuchen",
     "unexpectedError": "Unerwarteter Fehler",
     "sessionExpired": "Ihre Sitzung ist abgelaufen. Melden Sie sich erneut an, um fortzufahren.",
-    "agenda": "Pflegekalender"
+    "agenda": "Pflegekalender",
+    "habitatGuide": "3D-Ratgeber",
+    "designHabitat": "Lebensraum gestalten",
+    "careAgenda": "Kalender",
+    "animalGame": "Spiel"
   },
   "disclaimers": {
     "affiliate": "Affiliate-Link",
@@ -955,7 +959,23 @@
     "dateRequired": "Wählen Sie für jede einmalige Erinnerung ein Datum: Die Änderung wurde nicht gespeichert.",
     "labelTooLong": "Der Name einer Erinnerung darf höchstens 60 Zeichen lang sein.",
     "snoozeInvalid": "Geben Sie eine Dauer zwischen 5 und 120 Minuten an.",
-    "saveInvalid": "Einige Einstellungen sind ungültig. Prüfen Sie die Uhrzeiten und Daten Ihrer Erinnerungen."
+    "saveInvalid": "Einige Einstellungen sind ungültig. Prüfen Sie die Uhrzeiten und Daten Ihrer Erinnerungen.",
+    "pushEnabled": "Benachrichtigungen sind in diesem Browser aktiv.",
+    "enablePush": "Benachrichtigungen aktivieren",
+    "disablePush": "In diesem Browser deaktivieren",
+    "sendTest": "Test senden",
+    "testSent": "Benachrichtigung gesendet.",
+    "testPartial": "Einige Benachrichtigungen konnten nicht gesendet werden.",
+    "noRecipient": "Kein aktiver Empfänger. Aktiviere Benachrichtigungen auf einem Gerät.",
+    "testFailed": "Die Testbenachrichtigung konnte nicht gesendet werden.",
+    "timeZone": "Zeitzone",
+    "deliveryWindow": "Erlaubte Versandzeiten",
+    "windowStart": "Versandbeginn",
+    "windowEnd": "Versandende",
+    "channelsUnavailable": "Einige Empfangsarten sind vorübergehend nicht verfügbar. Erinnerungen bleiben in der App sichtbar.",
+    "snoozeAction": "Verschieben",
+    "snoozeDone": "Erinnerung verschoben.",
+    "reminderError": "Die Erinnerung konnte nicht aktualisiert werden."
   },
   "premiumLock": {
     "goPremium": "Premium-Abo ansehen",
@@ -1321,7 +1341,8 @@
     "endsOn": "Premium-Zugang bis {date}",
     "billingIssue": "Zahlungsproblem: Aktualisieren Sie Ihre Zahlungsmethode im Store.",
     "expired": "Dein Abonnement ist abgelaufen.",
-    "manage": "Abonnement verwalten"
+    "manage": "Abonnement verwalten",
+    "benefitHabitat": "2D- und 3D-Habitatplaner: individuelle Einrichtung, gespeicherte Projekte und Exporte"
   },
   "legal": {
     "englishFallback": "Bis zur Übersetzung ist die englische Fassung maßgeblich.",

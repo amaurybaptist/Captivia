@@ -1,3 +1,4 @@
+import { NotificationDeliveryService } from './notification-delivery.service';
 import { Inject, Injectable, Logger, Optional } from '@nestjs/common';
 import type { DeviceToken } from '@prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
@@ -179,6 +180,7 @@ export class NativePushSender {
     @Optional()
     @Inject(NATIVE_PUSH_OPTIONS)
     options: NativePushOptions | null = null,
+    @Optional() private readonly deliveries?: NotificationDeliveryService,
   ) {
     this.now = options?.now ?? Date.now;
     const result = readFcmConfig(options?.env ?? process.env);
@@ -244,7 +246,21 @@ export class NativePushSender {
         }
         inFlight.add(device.id);
         try {
-          await this.sendOne(client, device, payload, nowMs, result);
+          const context = payload.delivery;
+          if (context && this.deliveries) {
+            const local = emptyDelivery();
+            try {
+              const sent = await this.deliveries.send(context.eventId, context.version, `native:${device.id}`, async () => {
+                await this.sendOne(client, device, payload, nowMs, local);
+                if (local.failed) throw new Error('Native push delivery failed');
+              }, context.now);
+              if (sent && !local.removed) result.sent++;
+              else if (!sent) result.failed++;
+              result.removed += local.removed;
+            } catch { result.failed++; }
+          } else {
+            await this.sendOne(client, device, payload, nowMs, result);
+          }
         } finally {
           inFlight.delete(device.id);
         }

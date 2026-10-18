@@ -1,3 +1,4 @@
+import { NotificationDeliveryService } from './notification-delivery.service';
 import { Module } from '@nestjs/common';
 import { ScheduleModule } from '@nestjs/schedule';
 import { NotificationsController } from './notifications.controller';
@@ -20,6 +21,7 @@ import { MailModule } from '../mail/mail.module';
     DeviceTokensController,
   ],
   providers: [
+    NotificationDeliveryService,
     NotificationsService,
     NotificationsSchedulerService,
     WebPushSender,

@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "475ce01b588597d021430c6b280c4a9eecbaecc62ebdcf7be4bc4515978b1f4d",
+  "locale": "de",
+  "questions": [
+    {
+      "id": "unusual-001",
+      "animal": "Oktopus",
+      "prompt": "Wie viele Herzen hat ein Oktopus?",
+      "options": [
+        "Nur einer",
+        "Vier",
+        "Zwei",
+        "Drei"
+      ],
+      "explanation": "Zwei pumpen Blut zu den Kiemen und der dritte zum Rest des Körpers.",
+      "didYouKnow": "Sein blaues Blut enthält Hämocyanin, ein Kupfermolekül, das Sauerstoff transportiert.",
+      "imageCaption": "Octopus vulgaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-002",
+      "animal": "Oktopus",
+      "prompt": "Welches Atmungspigment verleiht Oktopusblut seine blaue Farbe?",
+      "options": [
+        "Hämoglobin",
+        "Myoglobin",
+        "Hämocyanin",
+        "Chlorcruorin"
+      ],
+      "explanation": "Dieses Kupferprotein transportiert Sauerstoff im Blut von Kraken.",
+      "didYouKnow": "Bei vielen Kraken bewacht und belüftet das Weibchen die Eier, bis sie schlüpfen.",
+      "imageCaption": "Octopus vulgaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-003",
+      "animal": "Oktopus",
+      "prompt": "Wie viel vom Nervensystem eines Oktopus steckt in jedem seiner Arme?",
+      "options": [
+        "Mit dem Gehirn verbundene Sehnen",
+        "Ganglien ohne Neuronen",
+        "Cluster von Neuronen",
+        "Gelenkknöchelchen"
+      ],
+      "explanation": "Seine Arme können sensorische Informationen lokal verarbeiten und Bewegungen koordinieren.",
+      "didYouKnow": "Beim Schwimmen hört das Herz, das den Körper mit Blut versorgt, kurzzeitig auf zu schlagen; Der Oktopus bewegt sich daher oft kriechend fort.",
+      "imageCaption": "Octopus vulgaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-004",
+      "animal": "Oktopus",
+      "prompt": "Wie kann sich ein Oktopus durch eine sehr enge Öffnung zwängen?",
+      "options": [
+        "Sie zieht ihre acht Arme in eine Tasche zurück",
+        "Sie fesselt ihre Arme, bevor sie vorbeigeht",
+        "Seinem Körper fehlt ein starres Skelett",
+        "Es lässt die Luft aus seinen Kiemen ab, um sich abzuflachen"
+      ],
+      "explanation": "Sein Schnabel ist der harte Teil, der den Durchgang am häufigsten einschränkt.",
+      "didYouKnow": "Einige Kraken können einen verlorenen Arm regenerieren, obwohl das Nachwachsen Zeit braucht.",
+      "imageCaption": "Octopus vulgaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-005",
+      "animal": "Oktopus",
+      "prompt": "Welches harte Organ ist für einen Oktopus oft die Grenze, um durch einen Spalt zu gelangen?",
+      "options": [
+        "Sein Mantel",
+        "Sein Schnabel",
+        "Seine Radula",
+        "Seine Augen"
+      ],
+      "explanation": "Der Rest seines Körpers ist flexibel und kann in enge Räume komprimiert werden.",
+      "didYouKnow": "Der Kokosnusskrake trägt manchmal Muscheln, um einen mobilen Unterschlupf zu bauen.",
+      "imageCaption": "Octopus vulgaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-006",
+      "animal": "Oktopus",
+      "prompt": "Welche Hautveränderung hilft manchen Kraken bei der Tarnung?",
+      "options": [
+        "Sie verändern Farbe und Textur",
+        "Sie verändert lediglich die Form ihrer Pupillen",
+        "Es ändert sich nur die Helligkeit",
+        "Es sondert eine transparente Hülle ab"
+      ],
+      "explanation": "Pigmentzellen und Hautmuskeln ermöglichen schnelle Veränderungen.",
+      "didYouKnow": "Experimente zeigen, dass einige Kraken polarisiertes Licht wahrnehmen.",
+      "imageCaption": "Octopus vulgaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-007",
+      "animal": "Onychophora",
+      "prompt": "Wie fängt ein Onychophor oft einen kleinen Arthropoden?",
+      "options": [
+        "Er fängt es mit einem Seidennetz",
+        "Er umschließt es mit einer Kalksteinhülle",
+        "Er sticht sie mit einem Schwanzstachel",
+        "Es projiziert ein klebriges Sekret aus Papillen in der Nähe des Mundes."
+      ],
+      "explanation": "Fäden aus klebrigem Schleim verwickeln die Beute und machen sie bewegungsunfähig.",
+      "didYouKnow": "Der Kopf der Onychophora trägt ein Paar Sinnesantennen und kleine Kiefer aus Chitin.",
+      "imageCaption": "Euperipatoides rowelli, ein Beispiel für Onychophor."
+    },
+    {
+      "id": "unusual-008",
+      "animal": "Oktopus",
+      "prompt": "Was machen die Saugnäpfe eines Oktopus, wenn er ein Objekt erkundet?",
+      "options": [
+        "Zur Erkennung chemischer Signale und Berührungen",
+        "Beute kauen",
+        "Um Plankton zu filtern",
+        "Um das Tier anzutreiben"
+      ],
+      "explanation": "Saugnäpfe sind Greifwerkzeuge und Sinnesorgane zugleich.",
+      "didYouKnow": "Der Oktopus hat drei Herzen, von denen zwei Blut zu den Kiemen leiten.",
+      "imageCaption": "Octopus vulgaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-009",
+      "animal": "Oktopus",
+      "prompt": "Wie stößt ein Oktopus schnell Wasser aus, um sich fortzubewegen?",
+      "options": [
+        "An den Armen",
+        "Durch einen Siphon",
+        "Durch den Mund",
+        "Durch die Kiemen"
+      ],
+      "explanation": "Es lenkt diesen Wasserstrahl so, dass er sich vorwärts bewegt oder die Richtung ändert.",
+      "didYouKnow": "Bei vielen Kraken ist die Pupille horizontal verlängert.",
+      "imageCaption": "Octopus vulgaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-010",
+      "animal": "Nautilus",
+      "prompt": "Welchen Vorteil bietet die unterteilte Außenhülle des Nautilus?",
+      "options": [
+        "Eine Tasche, in der Tinte aufbewahrt wird",
+        "Ein Reservoir voller Gift",
+        "Es bietet Räume, in denen Sie Ihren Auftrieb anpassen können",
+        "Eine schwimmende Orgel"
+      ],
+      "explanation": "Der Nautilus reguliert seinen Auftrieb, indem er die Menge an Flüssigkeit und Gas in den unbesetzten Kammern seines Gehäuses verändert.",
+      "didYouKnow": "Im Gegensatz zu den meisten anderen Kopffüßern besitzt der Nautilus keinen Tintenbeutel.",
+      "imageCaption": "Nautilus pompilius – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-011",
+      "animal": "Nautilus",
+      "prompt": "Welche Struktur hilft dem Nautilus, seinen Auftrieb in seinem Panzer anzupassen?",
+      "options": [
+        "Die Tentakel",
+        "Ein Siphunkel",
+        "Chromatophoren",
+        "Statozysten"
+      ],
+      "explanation": "Dieses Gewebe durchquert die Trennwände und beteiligt sich am Flüssigkeits- und Gasaustausch.",
+      "didYouKnow": "Der Nautilus ist ein Aasfresser und findet seine Nahrung häufig anhand von Geruchsmolekülen im Wasser.",
+      "imageCaption": "Nautilus pompilius – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-012",
+      "animal": "Tintenfisch",
+      "prompt": "Welche innere starre Struktur hilft einem Tintenfisch, seinen Auftrieb zu kontrollieren?",
+      "options": [
+        "Tintenfisch",
+        "Der Gladius",
+        "Der Siphon",
+        "Die Radula"
+      ],
+      "explanation": "Diese poröse Innenschale ermöglicht die Anpassung des Auftriebs.",
+      "didYouKnow": "Tintenfische können mithilfe von Pigmentzellen schnell die Muster und Farben ihrer Haut verändern.",
+      "imageCaption": "Sepia officinalis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-013",
+      "animal": "Kopffüßer",
+      "prompt": "Wie heißt das Organ, mit dem Kopffüßer Tinte produzieren?",
+      "options": [
+        "Die Kiemen",
+        "Der Mantel",
+        "Die Tintentasche",
+        "Chromatophoren"
+      ],
+      "explanation": "Tinte kann die Sicht beeinträchtigen oder ein Raubtier auf der Flucht ablenken.",
+      "didYouKnow": "Der harte Schnabel der Kopffüßer befindet sich in der Mitte des Kreises, den ihre Arme bilden.",
+      "imageCaption": "Sepia officinalis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-014",
+      "animal": "Tintenfisch",
+      "prompt": "Welche charakteristische Form nimmt die Pupille eines Tintenfisches oft an?",
+      "options": [
+        "Ein Kreis, immer perfekt rund",
+        "Ein vierzackiges Kreuz",
+        "Eine W-Form.",
+        "Ein gerader vertikaler Schlitz"
+      ],
+      "explanation": "Die W-förmige Pupille ist ein häufiges visuelles Merkmal bei Tintenfischen.",
+      "didYouKnow": "Tintenfische können auch ihr Aussehen ändern, um zu kommunizieren oder mit dem Hintergrund zu verschmelzen.",
+      "imageCaption": "Sepia officinalis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-015",
+      "animal": "Tintenfisch",
+      "prompt": "In welche Richtung kann ein Tintenfisch seinen Wasserstrahl richten?",
+      "options": [
+        "Dank seines Siphons in mehrere Richtungen",
+        "Ohne die Richtung zu ändern",
+        "Nur nach hinten",
+        "Nur vorwärts"
+      ],
+      "explanation": "Die Ausrichtung des Siphons ermöglicht ein präzises Manövrieren.",
+      "didYouKnow": "Viele Tintenfische vergraben sich im Sand, um sich vor Raubtieren zu verstecken.",
+      "imageCaption": "Sepia officinalis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-016",
+      "animal": "Amphibie",
+      "prompt": "Wie erhalten Kaulquappen bei Fröschen der Gattung Oophaga manchmal Nahrung, die von ihrer Mutter produziert wurde?",
+      "options": [
+        "Sie fressen nahrhafte Eier, die das Weibchen legt",
+        "Sie fressen Algen, die das Weibchen auf den Blättern wachsen lässt",
+        "Die Mutter bringt ihnen Beute in einem Bau",
+        "Über ihre Kiemen nehmen sie ein Nährstoffsekret auf"
+      ],
+      "explanation": "Das Weibchen legt unbefruchtete trophische Eier, die von den Kaulquappen gefressen werden.",
+      "didYouKnow": "Einige Oophaga reichern über die Nahrung Alkaloide in ihrer Haut an.",
+      "imageCaption": "Oophaga pumilio – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-017",
+      "animal": "Tintenfisch",
+      "prompt": "Wie unterscheiden sich die beiden Fangtentakel des Tintenfischs von seinen acht Armen?",
+      "options": [
+        "Sie sind mit den Armen identisch und haben Kiemen",
+        "Sie sind länger und tragen Endkeulen",
+        "Sie sind kürzer als die Arme und haben Kiemen",
+        "Sie sind mit dem Fell verwachsen"
+      ],
+      "explanation": "Die Tentakel schießen nach vorne, um die Beute zu ergreifen, während die Arme sie zurückhalten.",
+      "didYouKnow": "Der Tintenfisch hat in der Mitte seiner Arme einen kräftigen Schnabel, mit dem er seine Beute zerkleinert.",
+      "imageCaption": "Doryteuthis pealeii – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-018",
+      "animal": "Tintenfisch",
+      "prompt": "Wie nennt man das Licht, das die Leuchtorgane mancher Tintenfische erzeugen?",
+      "options": [
+        "Biolumineszenz",
+        "Fluoreszenz",
+        "Phosphoreszenz",
+        "Reflexion des Sonnenlichts"
+      ],
+      "explanation": "Licht kann bei der Tarnung, Kommunikation oder beim Anlocken von Beute helfen.",
+      "didYouKnow": "Der Mantel des Tintenfischs schützt die meisten seiner inneren Organe.",
+      "imageCaption": "Doryteuthis pealeii – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-019",
+      "animal": "Tintenfisch",
+      "prompt": "Wie kann man verhindern, dass Tintenfische in beleuchtetem Wasser von unten entdeckt werden?",
+      "options": [
+        "Durch die Erzeugung eines dorsalen, zum Himmel gerichteten Lichts",
+        "Durch Ausstoßen einer Tintenwolke",
+        "Durch die Erzeugung eines ventralen Lichts, das dem hellen Hintergrund entspricht",
+        "Im Sand vergraben"
+      ],
+      "explanation": "Diese leichte Tarnung nennt man Gegenbeleuchtung.",
+      "didYouKnow": "Tintenfische sind Kopffüßer-Mollusken, wie Kraken und Tintenfische.",
+      "imageCaption": "Doryteuthis pealeii – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-020",
+      "animal": "Tintenfisch",
+      "prompt": "Welches Organ entzieht dem Wasser bei vielen Tintenfischen gelösten Sauerstoff?",
+      "options": [
+        "Chromatophoren",
+        "Der Siphon",
+        "Die Radula",
+        "Die Kiemen"
+      ],
+      "explanation": "Wasser zirkuliert in der Mantelhöhle und fließt über die Kiemen.",
+      "didYouKnow": "Der Tintenfisch hat einen inneren Gladius, der seinen Mantel stützt.",
+      "imageCaption": "Doryteuthis pealeii – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-021",
+      "animal": "Qualle",
+      "prompt": "Welche Zellen in Quallen lösen den Beutefang durch eine mikroskopisch kleine Harpune aus?",
+      "options": [
+        "Kolloblasten",
+        "Choanozyten",
+        "Nesselzellen",
+        "Die Pedicellarien"
+      ],
+      "explanation": "Nesselzellen sind die spezialisierten Zellen; Jede kann eine Nematozyste enthalten, eine Kapsel, die einen stechenden Faden ausstößt.",
+      "didYouKnow": "Quallen haben kein zentrales Gehirn; Ein Netzwerk aus Nervenzellen koordiniert ihre Reaktionen.",
+      "imageCaption": "Aurelia aurita – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-022",
+      "animal": "Cassiopea-Quallen",
+      "prompt": "Warum steht die Cassiopea-Qualle oft kopfüber auf dem Boden?",
+      "options": [
+        "Um Wasser in Kiemen zirkulieren zu lassen",
+        "Zum Schutz einer an seinem Schirm befestigten Muschel",
+        "Um seine symbiotischen Algen dem Licht auszusetzen.",
+        "Seinen Mund im Sediment vergraben"
+      ],
+      "explanation": "Durch diese Haltung wird das Gewebe, in dem sich die Algen befinden, dem Licht ausgesetzt, das die Symbionten für die Photosynthese benötigen.",
+      "didYouKnow": "Cassiopea kann mit ihren Tentakeln auch kleine Beutetiere fangen.",
+      "imageCaption": "Cassiopea xamachana – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-023",
+      "animal": "Qualle",
+      "prompt": "Welches Stadium der Anheftung an das Substrat geht der Quallenform in ihrem Lebenszyklus häufig voraus?",
+      "options": [
+        "Die Veliger-Larve",
+        "Die Ephyrule",
+        "Der Polyp",
+        "Die schwimmende Planula"
+      ],
+      "explanation": "Bei vielen Arten bringt der Polyp dann junge Quallen hervor.",
+      "didYouKnow": "Der Körper von Quallen besteht größtenteils aus einer gallertartigen Substanz, die reich an Wasser ist.",
+      "imageCaption": "Aurelia aurita – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-024",
+      "animal": "Qualle",
+      "prompt": "Wie heißt bei vielen Quallen die junge Qualle, die aus dem Polypen freigesetzt wird?",
+      "options": [
+        "Eine Planula",
+        "Ein Polyp",
+        "Eine Nematozyste",
+        "Eine Ephyra"
+      ],
+      "explanation": "Diese schwimmende Jungqualle wächst zu einer erwachsenen Qualle heran.",
+      "didYouKnow": "Quallen haben keine Knochen oder harte Schalen; Ihr Körper besteht hauptsächlich aus Gallert.",
+      "imageCaption": "Aurelia aurita – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-025",
+      "animal": "Qualle",
+      "prompt": "Wie bringt der Polyp einiger Quallen mehrere junge Quallen hervor?",
+      "options": [
+        "Durch Strobilation",
+        "Durch Sprossung von Tentakeln",
+        "Durch Längsteilung der Qualle",
+        "Durch innere Befruchtung von Polypen"
+      ],
+      "explanation": "Der Polyp gliedert sich in übereinanderliegende Scheiben, die sich als Jungquallen (Ephyren) ablösen.",
+      "didYouKnow": "Der Körper vieler Quallen besteht größtenteils aus Wasser und gallertartigem Gewebe.",
+      "imageCaption": "Aurelia aurita – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-026",
+      "animal": "Qualle",
+      "prompt": "Aus welchem ​​gallertartigen Gewebe besteht der größte Teil der Glocke einer Qualle?",
+      "options": [
+        "Der Coenosark",
+        "Die Nagelhaut",
+        "Das Endoderm",
+        "Die Mesoglea"
+      ],
+      "explanation": "Dieses Material enthält viel Wasser und befindet sich zwischen den Zellschichten.",
+      "didYouKnow": "Die Glocke zieht sich zusammen, um das Schwimmen zu erleichtern.",
+      "imageCaption": "Aurelia aurita – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-027",
+      "animal": "Qualle",
+      "prompt": "Welches Sinnesorgan hilft manchen Quallen, das Gleichgewicht wahrzunehmen?",
+      "options": [
+        "Statozysten",
+        "Nesselzellen",
+        "Rhopalien ohne Statozysten",
+        "Augenflecken"
+      ],
+      "explanation": "Diese schwerkraftempfindlichen Organe helfen dem Körper bei der Orientierung.",
+      "didYouKnow": "Die Glocke vieler Quallen zieht sich zusammen, um das Schwimmen zu erleichtern.",
+      "imageCaption": "Aurelia aurita – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-028",
+      "animal": "Qualle",
+      "prompt": "Welche Struktur ermöglicht es Würfelquallen, besonders gut zu sehen?",
+      "options": [
+        "Ein komplexes Zentralhirn",
+        "Facettenaugen auf jedem Tentakel",
+        "Rhopalien mit mehreren Augentypen",
+        "Eine einzelne Linse pro Tentakel"
+      ],
+      "explanation": "Rhopalien sind Sinnesstrukturen am Rand der Glocke; bei Würfelquallen enthalten sie mehrere Augentypen.",
+      "didYouKnow": "Die Körper von Quallen sind meist gallertartig und enthalten viel Wasser.",
+      "imageCaption": "Chironex fleckeri – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-029",
+      "animal": "Bärtierchen",
+      "prompt": "Warum bleiben Bärtierchen trotz ihrer Fähigkeit, in die Kryptobiose einzutreten, anfällig?",
+      "options": [
+        "Während sie aktiv sind, bleiben sie anfällig für Zustände und Schäden",
+        "Nach dem Trocknen vertragen sie alle Temperaturen",
+        "Sie fressen während der Kryptobiose weiter",
+        "Sie widerstehen allen Formen von Strahlung"
+      ],
+      "explanation": "Die Resistenz hängt von der Art, dem Stadium und der Dauer der Belastung ab.",
+      "didYouKnow": "Die Eier bestimmter Bärtierchenarten weisen charakteristische Muster auf, die zur Identifizierung nützlich sind.",
+      "imageCaption": "Hypsibius exemplaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-030",
+      "animal": "Qualle",
+      "prompt": "Warum braucht eine Qualle kein Herz wie ein Fisch?",
+      "options": [
+        "Der Austausch erfolgt durch Diffusion in seinem dünnen Körper",
+        "Kiemen, die den gesamten Körper bewässern",
+        "Ein Netzwerk geschlossener Gefäße",
+        "Ein Rückenherz, das das Blut verteilt"
+      ],
+      "explanation": "Sauerstoff und Nährstoffe diffundieren in das Gewebe, ohne dass ein komplexes Kreislaufsystem vorhanden ist.",
+      "didYouKnow": "Viele Quallen verfügen über ein diffuses Nervennetzwerk und nicht über ein zentralisiertes Gehirn.",
+      "imageCaption": "Aurelia aurita – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-031",
+      "animal": "Koralle",
+      "prompt": "Welche mikroskopisch kleinen Partner leben häufig im Gewebe von Riffkorallen?",
+      "options": [
+        "Symbiotische Dinoflagellatenalgen",
+        "Schwefelbakterien",
+        "Freie Kieselalgen im Wasser",
+        "Fadenpilze"
+      ],
+      "explanation": "Sie versorgen die Korallen mit Verbindungen, die bei der Photosynthese entstehen.",
+      "didYouKnow": "Nach dem Schlüpfen treiben die Larven vieler Korallen im Wasser, bevor sie sich auf einer Unterlage niederlassen.",
+      "imageCaption": "Acropora millepora – repräsentative Arten der genannten Gruppe."
+    },
+    {
+      "id": "unusual-032",
+      "animal": "Koralle",
+      "prompt": "Welcher Prozess kann dazu führen, dass hitzegestresste Korallen ausbleichen?",
+      "options": [
+        "Schnelles Wachstum des Skeletts",
+        "Die Vertreibung oder der Verlust seiner symbiotischen Algen",
+        "Übermäßige Schleimproduktion",
+        "Die Vermehrung von Polypen"
+      ],
+      "explanation": "Die Koralle verliert dann einen Teil ihrer Pigmente und ihren Energievorrat.",
+      "didYouKnow": "Korallenriffe bieten vielen Meereslebewesen Schutz und Nahrungsplätze.",
+      "imageCaption": "Acropora millepora – repräsentative Arten der genannten Gruppe."
+    },
+    {
+      "id": "unusual-033",
+      "animal": "Koralle",
+      "prompt": "Woraus besteht das Skelett von Hartkorallen hauptsächlich?",
+      "options": [
+        "Calciumphosphat",
+        "Calciumcarbonat",
+        "Chitin",
+        "Silizium"
+      ],
+      "explanation": "Die Polypen lagern dieses Material ab, das eine Riffstruktur bilden kann.",
+      "didYouKnow": "Riffe wachsen langsam und beherbergen eine große Artenvielfalt.",
+      "imageCaption": "Acropora millepora – repräsentative Arten der genannten Gruppe."
+    },
+    {
+      "id": "unusual-034",
+      "animal": "Koralle",
+      "prompt": "Welche kleinen Tiereinheiten bilden das Skelett riffbildender Korallen?",
+      "options": [
+        "Ausgewachsene Qualle",
+        "Polypen",
+        "Clownfisch",
+        "Planula-Larven"
+      ],
+      "explanation": "Jeder Polyp sondert um seine Basis einen Kalkbecher ab.",
+      "didYouKnow": "Riffbildende Korallen leben oft in Verbindung mit mikroskopisch kleinen Algen in ihrem Gewebe.",
+      "imageCaption": "Acropora millepora – repräsentative Arten der genannten Gruppe."
+    },
+    {
+      "id": "unusual-035",
+      "animal": "Koralle",
+      "prompt": "Wie können sich Korallen ohne Düngung vermehren?",
+      "options": [
+        "Durch Fragmentierung der Hülle",
+        "Durch Gametenteilung",
+        "Durch Umwandlung eines Polypen in eine Larve",
+        "Durch die Bildung neuer Polypen"
+      ],
+      "explanation": "Die aus der Knospung resultierenden Polypen bleiben oft mit der Kolonie verbunden.",
+      "didYouKnow": "Korallenpolypen können sich bei Störung in ihr Skelett zurückziehen.",
+      "imageCaption": "Acropora millepora – repräsentative Arten der genannten Gruppe."
+    },
+    {
+      "id": "unusual-036",
+      "animal": "Koralle",
+      "prompt": "Was bedeutet das synchronisierte Laichen einiger Korallenarten?",
+      "options": [
+        "Ein einzelnes Ei pro Kolonie legen",
+        "Gleichzeitige Freisetzung nur von Planula-Larven",
+        "Koordinierte Freisetzung von Gameten ins Wasser",
+        "Der kollektive Aufbau eines neuen Skeletts"
+      ],
+      "explanation": "Dies erhöht die Wahrscheinlichkeit, dass sich Eizellen und Spermien treffen.",
+      "didYouKnow": "Korallenriffe bieten vielen Meereslebewesen Nahrung und Schutz.",
+      "imageCaption": "Acropora millepora – repräsentative Arten der genannten Gruppe."
+    },
+    {
+      "id": "unusual-037",
+      "animal": "Koralle",
+      "prompt": "Welche Korallenart bildet tiefe Strukturen, ohne auf Sonnenlicht angewiesen zu sein?",
+      "options": [
+        "Kaltwasserkorallen",
+        "Tropische Gebäudekorallen",
+        "Mit Algen assoziierte Oberflächenkorallen",
+        "Weichkorallen in der Lagune"
+      ],
+      "explanation": "Sie ernähren sich von im Wasser gefangenen Partikeln und Plankton.",
+      "didYouKnow": "Kaltwasserkorallen sind nicht auf photosynthetische symbiotische Algen als Nahrung angewiesen.",
+      "imageCaption": "Desmophyllum pertusum – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-038",
+      "animal": "Koralle",
+      "prompt": "Welche Rolle spielen die Tentakel eines Korallenpolypen?",
+      "options": [
+        "Kleine Partikel und Beute einfangen",
+        "Weiter geht es am Riff",
+        "Pumpen Sie Wasser in die Kolonie",
+        "Stellen Sie das Kalksteinskelett her"
+      ],
+      "explanation": "Die Tentakel tragen Nesselzellen, die beim Greifen von Nahrung helfen.",
+      "didYouKnow": "Korallenpolypen können sich bei Störung in ihr Skelett zurückziehen.",
+      "imageCaption": "Acropora millepora – repräsentative Arten der genannten Gruppe."
+    },
+    {
+      "id": "unusual-039",
+      "animal": "Koralle",
+      "prompt": "Welche innere Struktur verbindet Polypen in manchen Korallenkolonien?",
+      "options": [
+        "Madreporit",
+        "Der Coenosark",
+        "Das Zölom",
+        "Der Siphunkel"
+      ],
+      "explanation": "Diese Gewebeschicht ermöglicht es den Polypen einer Kolonie, miteinander verbunden zu bleiben.",
+      "didYouKnow": "Viele Korallen haben eine einzige Öffnung, die sowohl als Mund als auch zum Ablassen von Abfall dient.",
+      "imageCaption": "Acropora millepora – repräsentative Arten der genannten Gruppe."
+    },
+    {
+      "id": "unusual-040",
+      "animal": "Koralle",
+      "prompt": "Wie werden Weichkorallen oft von Hartkorallen unterschieden?",
+      "options": [
+        "Sie leben nur im Süßwasser",
+        "Sie haben eine aufklappbare Außenhülle",
+        "Sie bilden kein großes, durchgehendes Außenskelett",
+        "Sie haben keine kalkhaltige Struktur"
+      ],
+      "explanation": "Stattdessen haben sie kleine kalkhaltige Elemente, sogenannte Sklerite, in ihrem Gewebe.",
+      "didYouKnow": "Korallenriffe beherbergen viele Arten von Fischen und Wirbellosen.",
+      "imageCaption": "Alcyonium digitatum – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-041",
+      "animal": "Schwamm",
+      "prompt": "Welche Art von Zelle erzeugt den Wasserstrom, der durch einen Schwamm fließt?",
+      "options": [
+        "Der Kolloblast",
+        "Der Amöbozyt",
+        "Der Pinakozyt",
+        "Der Choanozyt"
+      ],
+      "explanation": "Seine Geißel setzt das Wasser in Bewegung, und sein Kragen fängt Nahrungspartikel auf.",
+      "didYouKnow": "Schwämme verfügen nicht über ein Zentralnervensystem oder vergleichbare Organe wie Wirbeltiere.",
+      "imageCaption": "Aplysina aerophoba – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-042",
+      "animal": "Schwamm",
+      "prompt": "Wo kommt normalerweise Wasser aus einem Schwamm, nachdem er gefiltert wurde?",
+      "options": [
+        "Durch die inhalierenden Poren",
+        "Durch den Mund",
+        "Durch die Choanozyten selbst",
+        "Durch ein oder mehrere Oscules"
+      ],
+      "explanation": "Wasser dringt durch viele kleine Poren ein und tritt dann durch diese größeren Öffnungen wieder aus.",
+      "didYouKnow": "Schwämme verfügen nicht über ein Zentralnervensystem oder vergleichbare Organe wie Wirbeltiere.",
+      "imageCaption": "Aplysina aerophoba – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-043",
+      "animal": "Schwamm",
+      "prompt": "Aus welchem ​​Material besteht das Skelett vieler Schwämme?",
+      "options": [
+        "Nur Magnesiumcarbonat",
+        "Calciumphosphat",
+        "Nur aus Chitin",
+        "Spicula oder Sponginfasern"
+      ],
+      "explanation": "Je nach Gruppe können die Spicules kalkhaltig oder kieselhaltig sein.",
+      "didYouKnow": "Schwämme zirkulieren Wasser durch viele kleine Poren in ihrem Körper.",
+      "imageCaption": "Aplysina aerophoba – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-044",
+      "animal": "Schwamm",
+      "prompt": "Welche Rolle spielen Amöbozyten in einem Schwamm?",
+      "options": [
+        "Wasserströmungen erzeugen",
+        "Im Magen verdauen",
+        "Transportieren Nährstoffe und sind am Aufbau des Skeletts beteiligt",
+        "Öffnen Sie das Oscula"
+      ],
+      "explanation": "Diese mobilen Zellen bewegen sich innerhalb der inneren Matrix des Tieres.",
+      "didYouKnow": "Schwämme haben keine echten Organe; Ihr Körper ist um Zellen mit speziellen Aufgaben herum organisiert.",
+      "imageCaption": "Aplysina aerophoba – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-045",
+      "animal": "Schwamm",
+      "prompt": "Wie kann sich ein Schwamm nach der Fragmentierung erholen?",
+      "options": [
+        "Es entwickelt einen Mund und einen Darm",
+        "Es bildet eine äußere Hülle",
+        "Zellen können Gewebe reorganisieren und reformieren",
+        "Es verwandelt sich in eine schwimmende Larve"
+      ],
+      "explanation": "Die Regeneration hängt von der Art und den Bedingungen ab.",
+      "didYouKnow": "Einige Schwämme passen den Wasserfluss aus ihren Kanälen als Reaktion auf irritierende Partikel an.",
+      "imageCaption": "Aplysina aerophoba – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-046",
+      "animal": "Schwamm",
+      "prompt": "Welche Art von Nahrung filtert ein Schwamm am meisten?",
+      "options": [
+        "Intakte Meeresblätter",
+        "großer Fisch",
+        "Bakterien und sehr kleine organische Partikel",
+        "Nur große lebende Beute"
+      ],
+      "explanation": "Der Wasserstrom transportiert diese Partikel zu den Filterzellen.",
+      "didYouKnow": "Einige Schwämme beherbergen sehr reiche mikrobielle Gemeinschaften.",
+      "imageCaption": "Aplysina aerophoba – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-047",
+      "animal": "Schwamm",
+      "prompt": "Welches Skelettelement zeichnet Kalkschwämme aus?",
+      "options": [
+        "Chitinplatten",
+        "Silica-Platten",
+        "Schwammfasern",
+        "Calciumcarbonat-Spicules"
+      ],
+      "explanation": "Ihr Skelett besteht eher aus Kalknadeln als aus Kieselsäure.",
+      "didYouKnow": "Kalkschwämme sind im Allgemeinen von bescheidener Größe.",
+      "imageCaption": "Clathrina clathrus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-048",
+      "animal": "Doridische Nacktschnecken",
+      "prompt": "Welche Weichtierarten haben sich auf den Verzehr von Schwämmen spezialisiert?",
+      "options": [
+        "Eine Winkerkrabbe",
+        "Ein Tintenfisch",
+        "Ein Crinoid",
+        "Doridische Nacktschnecken"
+      ],
+      "explanation": "Viele Nacktschnecken fressen Schwämme und können deren Giftstoffe ableiten.",
+      "didYouKnow": "Nacktschnecken sind Schneckenmollusken.",
+      "imageCaption": "Chromodoris annae – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-049",
+      "animal": "Schwamm",
+      "prompt": "Warum beherbergen manche Schwämme symbiotische Bakterien?",
+      "options": [
+        "Sie versorgen sie mit Licht",
+        "Sie bieten ihnen einen Lebensraum und erhalten manchmal nützliche Verbindungen",
+        "Sie sorgen für ihre Fortbewegung",
+        "Sie ersetzen ihre Choanozyten"
+      ],
+      "explanation": "Mikroben können zur chemischen Abwehr oder zum Stoffwechsel des Schwamms beitragen.",
+      "didYouKnow": "Schwämme haben kein Zentralnervensystem; Ihre Funktionen basieren auf spezialisierten Zellen.",
+      "imageCaption": "Aplysina aerophoba – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-050",
+      "animal": "Schwamm",
+      "prompt": "Welche Struktur bildet das Skelett einiger Tiefsee-Glasschwämme?",
+      "options": [
+        "Ein Netzwerk aus Kieselsäurenadeln",
+        "Eine Hülle aus Kalziumkarbonat",
+        "Eine Ansammlung von Chitinplatten",
+        "Zellulosefasern"
+      ],
+      "explanation": "Ihr Silica-Spicula-Skelett kann nach dem Absterben des Schwamms bestehen bleiben.",
+      "didYouKnow": "Glasschwämme leben oft in tiefen Lebensräumen.",
+      "imageCaption": "Euplectella aspergillum – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-051",
+      "animal": "Seestern",
+      "prompt": "Welches hydraulische System betätigt die Rohrfüße eines Seesterns?",
+      "options": [
+        "Das verzweigte Verdauungssystem",
+        "Das Zentralnervensystem",
+        "Das Aquifersystem",
+        "Das geschlossene Kreislaufsystem"
+      ],
+      "explanation": "Das Wasser zirkuliert in Kanälen und versetzt die Podien in Bewegung.",
+      "didYouKnow": "Manche Seesterne erkennen Licht mithilfe kleiner Augenflecken an den Enden ihrer Arme.",
+      "imageCaption": "Asterias rubens – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-052",
+      "animal": "Seestern",
+      "prompt": "Welche poröse Platte lässt Wasser in das Grundwasserleitersystem eines Seesterns gelangen?",
+      "options": [
+        "Der Siphon",
+        "Das Oscule",
+        "Der Verdauungstrakt",
+        "Madreporit"
+      ],
+      "explanation": "Diese Platte filtert und reguliert den Wassereintritt in das Hydrauliksystem.",
+      "didYouKnow": "Einige Seesterne können ihren Magen aushöhlen, um Beute außerhalb des Körpers zu verdauen.",
+      "imageCaption": "Asterias rubens – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-053",
+      "animal": "Seestern",
+      "prompt": "Wie kann ein Seestern eine Muschelschale öffnen?",
+      "options": [
+        "Durch Schleifen mit Kalksteinzähnen",
+        "Durch allmähliches Ziehen mit den ambulakralen Füßen",
+        "Durch Einspritzen einer Säure in die Schale",
+        "Indem man es mit seinen Federkielen durchbohrt"
+      ],
+      "explanation": "Manchmal reicht eine kleine Öffnung aus, um den Magen in die Schale auszustülpen.",
+      "didYouKnow": "Die Spitzen einiger Seesternarme weisen lichtempfindliche Flecken auf.",
+      "imageCaption": "Asterias rubens – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-054",
+      "animal": "Seestern",
+      "prompt": "Welches Fressverhalten ermöglicht es einigen Seesternen, Beute von außen zu verdauen?",
+      "options": [
+        "Sie reiben die Schale mit Pedicellarien ab",
+        "Sie entleeren ihren Magen",
+        "Sie injizieren Enzyme aus ihren Füßen",
+        "Sie verschlingen die Beute im Ganzen und verdauen sie dann im Darm"
+      ],
+      "explanation": "Der Magen tritt durch den Mund aus und gibt Verdauungsenzyme an die Beute ab.",
+      "didYouKnow": "Die Röhrenfüße helfen dem Seestern auch dabei, sich am Untergrund festzuhalten und sich fortzubewegen.",
+      "imageCaption": "Asterias rubens – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-055",
+      "animal": "Seestern",
+      "prompt": "Wo ist das Maul eines Seesterns?",
+      "options": [
+        "Am Ende eines Armes",
+        "In der Mitte der dorsalen Bandscheibe",
+        "Auf der Oberseite",
+        "Auf seiner Unterseite"
+      ],
+      "explanation": "Beim Gehen ist die orale Seite dem Untergrund zugewandt.",
+      "didYouKnow": "Manche Seesterne können einen verlorenen Arm regenerieren.",
+      "imageCaption": "Asterias rubens – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-056",
+      "animal": "Seestern",
+      "prompt": "Welche Fähigkeit hilft einigen Seesternen, einen verlorenen Arm wiederherzustellen?",
+      "options": [
+        "Häutung",
+        "Spaltung in zwei gleiche Tiere",
+        "Das Nachwachsen einer neuen Hülle",
+        "Regeneration"
+      ],
+      "explanation": "Die Geschwindigkeit und das Ausmaß der Regeneration variieren je nach Art.",
+      "didYouKnow": "Manche Seesterne haben Tausende von Röhrenfüßen unter ihren Armen.",
+      "imageCaption": "Asterias rubens – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-057",
+      "animal": "Stachelhäuter",
+      "prompt": "Wie heißen die kleinen beweglichen Krallen einiger Seesterne und Seeigel?",
+      "options": [
+        "Die Pedicellarien",
+        "Die Podien",
+        "Blättchen",
+        "Die Stiele"
+      ],
+      "explanation": "Die Pedicellariae sind kleine Zangen, deren Rolle von der Art abhängt; Sie können zur Abwehr oder Reinigung der Körperoberfläche beitragen.",
+      "didYouKnow": "Bei erwachsenen Stachelhäutern weist der Körper häufig eine um fünf Achsen organisierte Symmetrie auf.",
+      "imageCaption": "Asterias rubens – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-058",
+      "animal": "Seeigel",
+      "prompt": "Aus welchem Mineral bestehen die Stacheln eines Seeigels hauptsächlich?",
+      "options": [
+        "Calciumcarbonat",
+        "Chitin",
+        "Silizium",
+        "Keratin"
+      ],
+      "explanation": "Sie sind an der starren Prüfung angelenkt und können zur Verteidigung und Bewegung eingesetzt werden.",
+      "didYouKnow": "Viele Seeigel fressen mit ihrem Kauapparat Algen ab.",
+      "imageCaption": "Paracentrotus lividus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-059",
+      "animal": "Seeigel",
+      "prompt": "Wie nennt man das starre Skelett, das die Stacheln des Seeigels trägt?",
+      "options": [
+        "Die Laterne des Aristoteles",
+        "Der Test",
+        "Madreporit",
+        "Der Coenosark"
+      ],
+      "explanation": "Es besteht aus zusammengesetzten Kalksteinplatten.",
+      "didYouKnow": "Viele Seeigel grasen mit ihrem Kauapparat an an Felsen befestigten Algen.",
+      "imageCaption": "Paracentrotus lividus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-060",
+      "animal": "Seeigel",
+      "prompt": "Welcher Kauapparat hat bei vielen Seeigeln fünf Zähne?",
+      "options": [
+        "Der Grundwasserleiter-Siphon",
+        "Die Magenmühle",
+        "Die Radula",
+        "Die Laterne des Aristoteles"
+      ],
+      "explanation": "Dieses komplexe Gerät schabt Algen ab und kann auch Steine ausgraben.",
+      "didYouKnow": "Einige Seeigelarten graben Höhlen in den Fels, die als Unterschlupf dienen.",
+      "imageCaption": "Paracentrotus lividus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-061",
+      "animal": "Seeigel",
+      "prompt": "Wie trägt ein Sanddollar kleine Partikel in sein Maul?",
+      "options": [
+        "Es fängt sie mit einer Zange am Ende seiner Federkiele",
+        "Seine Podien und Flimmerhärchen transportieren Partikel zur Unterseite.",
+        "Er saugt sie mit einem Siphon am Rande des Tests auf",
+        "Es fängt sie in einem Schleimnetz ein, das ins Wasser geschleudert wird"
+      ],
+      "explanation": "Podien und Zilien transportieren Nahrungspartikel in Richtung des Mundes, der sich in der Mitte der Unterseite befindet.",
+      "didYouKnow": "Sanddollars sind abgeflachte Seeigel, die an das Leben im Sand angepasst sind.",
+      "imageCaption": "Echinarachnius parma – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-062",
+      "animal": "Seeigel",
+      "prompt": "Wie kann sich ein Seeigel an einer glatten Oberfläche festhalten?",
+      "options": [
+        "Indem er seinen Test in den Fels zementiert",
+        "Mit seinen ambulakralen Klebefüßen",
+        "Mit dem Schleim von seinem Test",
+        "Mit muskulösen Saugnäpfen an den Federn"
+      ],
+      "explanation": "Die Podien haben Enden, die klebrige Substanzen absondern.",
+      "didYouKnow": "Viele Seeigel grasen mit ihrem Kauapparat an an Felsen befestigten Algen.",
+      "imageCaption": "Paracentrotus lividus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-063",
+      "animal": "Seegurke",
+      "prompt": "Was können manche Seegurken tun, nachdem sie einen Teil ihrer Eingeweide ausgestoßen haben, um sich zu verteidigen?",
+      "options": [
+        "Verlorene Organe regenerieren",
+        "Bilden Sie eine dauerhafte Schutzhülle",
+        "Verwandeln Sie ihre Arme in Verdauungsorgane",
+        "Ersetzen Sie ihren Darm durch einen Außenfilter"
+      ],
+      "explanation": "Dieses Ausweiden lenkt ein Raubtier manchmal ab oder belastet es.",
+      "didYouKnow": "Viele Seegurken bewegen sich langsam, indem sie ihre Lauffüße und Körperkontraktionen nutzen.",
+      "imageCaption": "Holothuria tubulosa – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-064",
+      "animal": "Seegurke",
+      "prompt": "Wie tragen Seegurken zum Recycling von Meeressedimenten bei?",
+      "options": [
+        "Sie filtern Algen aus Plankton",
+        "Sie graben Muscheln aus Kalkstein",
+        "Sie schlucken das Sediment und verdauen die organische Substanz",
+        "Sie bauen die Riffe"
+      ],
+      "explanation": "Das ausgetragene Sediment wird häufig aufbereitet und mit Nährstoffen angereichert.",
+      "didYouKnow": "Sie werden manchmal „Meereswürmer“ genannt, obwohl es sich um Stachelhäuter handelt.",
+      "imageCaption": "Holothuria tubulosa – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-065",
+      "animal": "Seegurke",
+      "prompt": "Was ist der Atmungsbaum der Seegurke?",
+      "options": [
+        "Eine Lunge, die mit dem Mund verbunden ist",
+        "Eine kammförmige äußere Kieme",
+        "Ein Filterschlauch unter den Armen",
+        "Ein inneres Organ, das zum Gasaustausch mit der Kloake verbunden ist"
+      ],
+      "explanation": "Wasser tritt durch die Kloake ein und aus und zirkuliert in diesem verzweigten Organ.",
+      "didYouKnow": "Seegurken sind Stachelhäuter und eng mit Seesternen und Seeigeln verwandt.",
+      "imageCaption": "Holothuria tubulosa – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-066",
+      "animal": "Crinoid",
+      "prompt": "Wie fängt ein Haarlilien Speisereste ein?",
+      "options": [
+        "Mit Zähnen am Ende seiner Arme",
+        "Indem sie ihre Beute mit einem Siphon verfolgen",
+        "Mit seinen gefiederten Armen, die mit kleinen Füßen bedeckt sind",
+        "Durch hervorstehende Klebefäden"
+      ],
+      "explanation": "Klebrige Füße leiten Partikel in Richtung Mund.",
+      "didYouKnow": "Zu den Seelilien zählen feste Seelilien und bewegliche Seelilien.",
+      "imageCaption": "Metacrinus rotundus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-067",
+      "animal": "Crinoid",
+      "prompt": "Zu welcher Gruppe von Stachelhäutern gehören Seelilien?",
+      "options": [
+        "Die spröden Sterne",
+        "Asterias",
+        "Seegurken",
+        "Seelilien"
+      ],
+      "explanation": "Seelilien werden durch einen Stiel fixiert, während viele Komatulen sich bewegen können.",
+      "didYouKnow": "Seelilien ernähren sich, indem sie Schwebstoffe filtern.",
+      "imageCaption": "Metacrinus rotundus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-068",
+      "animal": "spröder Stern",
+      "prompt": "Wie bewegt sich ein Schlangenstern hauptsächlich?",
+      "options": [
+        "Beim Schwimmen mit Schwanzflosse",
+        "Sie wedelte mit ihren geschmeidigen Armen",
+        "Indem sie mit ihrer zentralen Scheibe graben",
+        "Krabbeln mit ihren Podien"
+      ],
+      "explanation": "Im Gegensatz zu einem Seestern bewegt er sich hauptsächlich mit seinen Armen vorwärts.",
+      "didYouKnow": "Schlangensterne haben eine zentrale Scheibe, die klar von ihren Armen getrennt ist.",
+      "imageCaption": "Ophiothrix fragilis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-069",
+      "animal": "spröder Stern",
+      "prompt": "Welches Zeichen hilft, einen Schlangenstern von einem Seestern zu unterscheiden?",
+      "options": [
+        "Seine dünnen Gelenkarme heben sich deutlich von der zentralen Scheibe ab",
+        "Eine zentrale Scheibe ohne Arme",
+        "Gut sichtbare Saugpodien an jedem Arm",
+        "Eine äußere Hülle um die Scheibe"
+      ],
+      "explanation": "Schlangensterne bewegen sich oft durch Rudern mit diesen Armen fort.",
+      "didYouKnow": "Bei Schlangensternen hat der Verdauungstrakt im Allgemeinen keinen Anus.",
+      "imageCaption": "Ophiothrix fragilis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-070",
+      "animal": "Krabbe",
+      "prompt": "Welches Phänomen lässt eine Krabbe über die Größe ihres Panzers hinaus wachsen?",
+      "options": [
+        "Regelmäßiger Austausch Ihres Exoskeletts",
+        "Häutung",
+        "Die Verschmelzung neuer Kalksteinplatten",
+        "Das kontinuierliche Wachstum seiner Hülle"
+      ],
+      "explanation": "Er entledigt sich seines zu schmal gewordenen Exoskeletts und formt ein neues.",
+      "didYouKnow": "Unter ihrem Panzer hat die Krabbe Kiemen, die im Wasser gelösten Sauerstoff aufnehmen.",
+      "imageCaption": "Carcinus maenas – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-071",
+      "animal": "Krabbe",
+      "prompt": "Warum ist eine Krabbe nach der Häutung besonders anfällig?",
+      "options": [
+        "Seine Augen sind blind",
+        "Er kann den Rest seines Lebens nicht essen.",
+        "Seine Kiemen lösen sich",
+        "Seine neue Schale ist noch weich"
+      ],
+      "explanation": "Anschließend härtet es durch Ablagerung von Mineralien und anderen Stoffen aus.",
+      "didYouKnow": "Wie andere Zehnfüßer hat die Krabbe fünf Beinpaare, von denen das erste oft Krallen trägt.",
+      "imageCaption": "Carcinus maenas – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-072",
+      "animal": "Krabbe",
+      "prompt": "Wie heißt die leere Schale, die ein Krebstier während der Häutung zurücklässt?",
+      "options": [
+        "Die Exuvia",
+        "Der Telson",
+        "Der Byssus",
+        "Madreporit"
+      ],
+      "explanation": "Es behält die Form des Tieres, enthält aber nicht mehr seinen Körper.",
+      "didYouKnow": "Die Augen der Krabbe werden oft von beweglichen Stielen getragen.",
+      "imageCaption": "Carcinus maenas – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-073",
+      "animal": "Krabbe",
+      "prompt": "Welches Organ ermöglicht es manchen Krabben, ihre Nahrung im Magen zu zermahlen?",
+      "options": [
+        "Pektine",
+        "Die Magenmühle",
+        "Die Laterne des Aristoteles",
+        "Der Siphon"
+      ],
+      "explanation": "Verkalkte Bestandteile des Magens helfen bei der Zerkleinerung der Nahrung.",
+      "didYouKnow": "Die Krabbe atmet dank der Kiemen, die unter ihrem Panzer geschützt sind.",
+      "imageCaption": "Carcinus maenas – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-074",
+      "animal": "Krabbe",
+      "prompt": "Wie nutzt die Winkerkrabbe ihre große Schere?",
+      "options": [
+        "Um die Muscheln zu zerdrücken",
+        "Einen Bau graben",
+        "Um zu kommunizieren und einen Partner anzuziehen",
+        "Wasser zu seinen Kiemen pumpen"
+      ],
+      "explanation": "Das Männchen schwenkt die Zange während sichtbarer Vorführungen über seinem Bau.",
+      "didYouKnow": "Die Augen der Winkerkrabbe sitzen am Ende langer Stiele.",
+      "imageCaption": "Afruca tangeri – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-075",
+      "animal": "Krabbe",
+      "prompt": "Welche kleine Krabbe trägt zur Verteidigung manchmal Anemonen an den Krallen?",
+      "options": [
+        "Die Winkerkrabbe",
+        "Der Einsiedlerkrebs",
+        "Die Pistolengarnele",
+        "Die Boxerkrabbe"
+      ],
+      "explanation": "Die Boxerkrabbe hält kleine Anemonen in ihren Krallen und schüttelt sie, wenn sie einer Bedrohung ausgesetzt ist.",
+      "didYouKnow": "Boxerkrabben der Gattung Lybia sind kleine tropische Riffkrabben.",
+      "imageCaption": "Lybia tessellata – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-076",
+      "animal": "Krabbe",
+      "prompt": "Wie kann eine Krabbe einem Raubtier entkommen, das sie am Bein packt?",
+      "options": [
+        "Es setzt einen Geruchsstoff frei, um den Feind abzuwehren",
+        "Es kann die ergriffene Pfote an einer erwarteten Sollbruchstelle lösen",
+        "Er verlässt seine Muschel und schwimmt außer Reichweite",
+        "Er rollt sich unter seinem Panzer zu einer Kugel zusammen"
+      ],
+      "explanation": "Einige Krabben praktizieren Autotomie: Ein ergriffenes Bein löst sich an einer natürlichen Bruchstelle, was eine Flucht ermöglichen kann.",
+      "didYouKnow": "Die Krabbe nimmt Sauerstoff aus dem Wasser mit Kiemen unter dem Panzer auf.",
+      "imageCaption": "Carcinus maenas – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-077",
+      "animal": "Einsiedlerkrebs",
+      "prompt": "Warum wechselt ein Einsiedlerkrebs manchmal seinen Panzer?",
+      "options": [
+        "Aus dem Wasser atmen",
+        "Zum Ersetzen Ihrer Zange",
+        "Um einen an sein Wachstum angepassten Schutz zu finden",
+        "Um ihre Eier zu schützen"
+      ],
+      "explanation": "Es besetzt oft leere Schneckengehäuse.",
+      "didYouKnow": "Einsiedlerkrebse haben zwei Paar Sinnesantennen.",
+      "imageCaption": "Pagurus bernhardus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-078",
+      "animal": "Einsiedlerkrebs",
+      "prompt": "Welcher Teil des Körpers des Einsiedlerkrebses ist oft weich und gekräuselt?",
+      "options": [
+        "Seine gestielten Augen",
+        "Seine Kiemen",
+        "Seine Rückenschale",
+        "Sein Bauch"
+      ],
+      "explanation": "Der Bauch schlüpft in die Schutzhülle, die er trägt.",
+      "didYouKnow": "Beim Einsiedlerkrebs können die beiden Scheren je nach Art unterschiedlich groß sein.",
+      "imageCaption": "Pagurus bernhardus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-079",
+      "animal": "Putzergarnelen",
+      "prompt": "Was signalisiert eine Putzergarnele oft, wenn sie mit ihren langen weißen Fühlern wackelt?",
+      "options": [
+        "Mit einer Zange ein Klickgeräusch erzeugen",
+        "Dass sie ihre Reinigungsdienste den Fischen anbietet",
+        "Bewegen Sie sich sehr schnell rückwärts",
+        "Geben Sie unter Wasser helles Licht ab"
+      ],
+      "explanation": "Durch die Bewegungen der weißen Fühler ist die Putzergarnele für Fische, die ihre Station besuchen, sichtbar.",
+      "didYouKnow": "Putzergarnelen sind Zehnfußkrebse.",
+      "imageCaption": "Lysmata amboinensis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-080",
+      "animal": "Garnelen",
+      "prompt": "Welches Glied erzeugt das Schnappen einer Pistolengarnele?",
+      "options": [
+        "Ein Flossenmuskel",
+        "Ein Mantelventil",
+        "Ein Schwanzmuskel",
+        "Eine spezielle Klemme, die sehr schnell schließt"
+      ],
+      "explanation": "Die vergrößerte Klemme schließt sich und erzeugt einen Wasserstrahl sowie eine Kavitationsblase.",
+      "didYouKnow": "Einige Pistolengarnelen teilen ihren Bau mit einem Grundel, der über die Umgebung wacht.",
+      "imageCaption": "Alpheus heterochaelis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-081",
+      "animal": "Rädertierchen",
+      "prompt": "Welcher Muskelapparat zermahlt bei vielen Rädertierchen die Nahrung?",
+      "options": [
+        "Der Lophophor",
+        "Mastax, das harte Stücke enthält, die Trophi genannt werden.",
+        "Die Laterne des Aristoteles",
+        "Die Magenmühle"
+      ],
+      "explanation": "Der Mastax ist ein muskulöser Pharynx, der die Trophi zum Mahlen oder Greifen von Nahrung aktiviert.",
+      "didYouKnow": "Einige Rädertierarten haben eine starre äußere Hülle, die Lorica genannt wird.",
+      "imageCaption": "Philodina roseola – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-082",
+      "animal": "Onychophora",
+      "prompt": "Wie bewegen sich Onychophoranen auf dem Boden?",
+      "options": [
+        "Sie wellenförmig mit segmentierten Parapodien",
+        "Sie treiben sich an, indem sie Wasser durch einen Siphon pumpen",
+        "Sie bewegen sich auf Paaren muskulöser Lobopoden fort.",
+        "Sie gleiten auf einem einzigen muskulösen Fuß"
+      ],
+      "explanation": "Ihre zahlreichen kurzen Lappen tragen den Körper über dem Untergrund und ermöglichen ein langsames Gehen.",
+      "didYouKnow": "Wegen ihrer fein samtigen Haut werden Onychophoranen auch Samtwürmer genannt.",
+      "imageCaption": "Euperipatoides rowelli, ein Beispiel für Onychophor."
+    },
+    {
+      "id": "unusual-083",
+      "animal": "Garnelen",
+      "prompt": "Wie kann eine Fangschreckenkrebs-Garnele unter Wasser so schnell zuschlagen?",
+      "options": [
+        "Es gibt die in einem elastischen Mechanismus seines Fortsatzes gespeicherte Energie frei",
+        "Es kontrahiert seine Muskeln ohne elastischen Mechanismus",
+        "Sie lässt ihre Antennen vibrieren",
+        "Sie erzeugt mit ihrem Bauch einen Wasserstrahl"
+      ],
+      "explanation": "Der Mechanismus verstärkt die Schlaggeschwindigkeit.",
+      "didYouKnow": "Viele Fangschreckenkrebse leben in Höhlen, die sie graben oder pflegen.",
+      "imageCaption": "Odontodactylus scyllarus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-084",
+      "animal": "Garnelen",
+      "prompt": "Welches Augenmerkmal der Fangschreckenkrebse fällt besonders auf?",
+      "options": [
+        "Sie haben viele Arten von Photorezeptoren",
+        "Eine Vision basierend auf Lichtantennen",
+        "Eine Vision nur in Schwarz-Weiß",
+        "Die Sicht wird auf die Bewegungserkennung reduziert"
+      ],
+      "explanation": "Es nimmt polarisiertes Licht und verschiedene Farbbereiche wahr.",
+      "didYouKnow": "Fangschreckenkrebse gehören zu den Stomatopoden, einer Gruppe, die sich von echten Garnelen unterscheidet.",
+      "imageCaption": "Odontodactylus scyllarus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-085",
+      "animal": "Seepocken",
+      "prompt": "Warum sieht ein Seepocken nicht mehr wie ein typisches ausgewachsenes Krebstier aus?",
+      "options": [
+        "Sie ist eine erwachsene Molluske",
+        "Er lebt ortsfest und filtert das Wasser mit seinen gefiederten Beinen.",
+        "Sie ist ein festsitzender Stachelhäuter",
+        "Sie ist ein koloniales Nesseltier"
+      ],
+      "explanation": "Der Seepocken ist trotz seines Aussehens wie ein kleiner Vulkan ein Cirripedalkrebstier.",
+      "didYouKnow": "Seepocken filtern mit ihren gefiederten Cirri Partikel aus dem Wasser.",
+      "imageCaption": "Semibalanus balanoides – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-086",
+      "animal": "Seepocken",
+      "prompt": "Welche schwimmende Larve geht der Anheftung eines Seepockens voraus?",
+      "options": [
+        "Die Pluteuslarve",
+        "Die Cyprid-Larve",
+        "Die Planula-Larve",
+        "Die Trochophorlarve"
+      ],
+      "explanation": "Es sucht nach einer Oberfläche, an der es sich festsetzen kann, bevor es sich verwandelt.",
+      "didYouKnow": "Erwachsene Seepocken sind oft Hermaphroditen und können ihre Nachbarn befruchten.",
+      "imageCaption": "Semibalanus balanoides – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-087",
+      "animal": "Seepocken",
+      "prompt": "Welche Substanz hilft einigen Seepocken, dauerhaft an Felsen zu haften?",
+      "options": [
+        "Ein Proteinzement",
+        "Kalziumreicher Schleim",
+        "Ein luftgehärtetes Seidenprotein",
+        "Eine Seidenfaser"
+      ],
+      "explanation": "Dieser Unterwasserzement widersteht Wellen und Eintauchen.",
+      "didYouKnow": "Ein Seepocken spreizt seine gefiederten Beine, Cirri genannt, um Schwebstoffe zu filtern.",
+      "imageCaption": "Semibalanus balanoides – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-088",
+      "animal": "Asseln",
+      "prompt": "Zu welcher Gruppe gehören die Asseln trotz ihres terrestrischen Lebensraums?",
+      "options": [
+        "Mit Weichtieren",
+        "Mit Schalentieren",
+        "Mit Ringelblumen",
+        "Zu Insekten"
+      ],
+      "explanation": "Es atmet mit von Kiemen abgeleiteten Strukturen und muss seine Oberflächen feucht halten.",
+      "didYouKnow": "Einige Asselnarten können sich bei Störung zu einer Kugel zusammenrollen.",
+      "imageCaption": "Oniscus asellus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-089",
+      "animal": "Asseln",
+      "prompt": "Warum suchen Asseln oft feuchte Orte auf?",
+      "options": [
+        "Dadurch begrenzt es den Wasserverlust und schützt seine Atmungsorgane.",
+        "Zur Aufrechterhaltung einer stabilen Körpertemperatur",
+        "Um visuelle Raubtiere zu vermeiden",
+        "Zur Geräuschreduzierung beim Bewegen"
+      ],
+      "explanation": "Seine von Kiemen abgeleiteten Atmungsstrukturen funktionieren am besten bei Luftfeuchtigkeit.",
+      "didYouKnow": "Einige Arten können sich bei Störung zu einer Kugel zusammenrollen.",
+      "imageCaption": "Oniscus asellus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-090",
+      "animal": "Axolotl",
+      "prompt": "Welchen Körperteil kann der Axolotl nach einer Verletzung regenerieren?",
+      "options": [
+        "Nur das Objektiv",
+        "Nur Hautzellen",
+        "Zähne und Schuppen",
+        "Gliedmaßen sowie mehrere Gewebe und Organe"
+      ],
+      "explanation": "Die Regeneration variiert je nach Gewebe und Bedingungen.",
+      "didYouKnow": "Der Axolotl ist in den Seen des Tals von Mexiko beheimatet, insbesondere im Xochimilco-System.",
+      "imageCaption": "Ambystoma mexicanum – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-091",
+      "animal": "Axolotl",
+      "prompt": "Welches Larvenmerkmal behält der Axolotl oft bis ins Erwachsenenalter?",
+      "options": [
+        "Seine äußeren Kiemen",
+        "Seine Brustflossen",
+        "Seine äußere Lunge",
+        "Sein Larvenpanzer"
+      ],
+      "explanation": "Dieses Fortbestehen der Larvenmerkmale wird als Neotenie bezeichnet.",
+      "didYouKnow": "Der Axolotl kann auch durch seine Haut und Lunge atmen.",
+      "imageCaption": "Ambystoma mexicanum – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-092",
+      "animal": "Axolotl",
+      "prompt": "Welcher hormonelle Mechanismus kann die Metamorphose eines Axolotls auslösen?",
+      "options": [
+        "Die Wirkung von Schilddrüsenhormonen",
+        "Melatonin",
+        "Adrenalin",
+        "Ein Wachstumshormon"
+      ],
+      "explanation": "Metamorphose kann experimentell induziert werden, obwohl sie auf natürlichem Wege selten vorkommt.",
+      "didYouKnow": "Der Axolotl stammt aus dem Seensystem von Xochimilco im Tal von Mexiko.",
+      "imageCaption": "Ambystoma mexicanum – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-093",
+      "animal": "Salamander",
+      "prompt": "Wie atmen einige lungenlose Salamander?",
+      "options": [
+        "Durch die Haut und Schleimhaut des Mundes",
+        "Durch funktionsfähige Lungen",
+        "Durch erwachsene innere Kiemen",
+        "Durch einen Atemschlauch"
+      ],
+      "explanation": "Der Gasaustausch ist dann auf feuchte Haut angewiesen.",
+      "didYouKnow": "Im Gegensatz zu erwachsenen Fröschen behalten Salamander im Allgemeinen einen Schwanz.",
+      "imageCaption": "Plethodon cinereus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-094",
+      "animal": "Salamander",
+      "prompt": "Was könnte die Haut einiger Salamander absondern, um ein Raubtier abzuschrecken?",
+      "options": [
+        "Süßer Schleim",
+        "Seidenfasern",
+        "Biolumineszierendes Licht",
+        "Giftige oder reizende Substanzen"
+      ],
+      "explanation": "Die Zusammensetzung variiert von Art zu Art.",
+      "didYouKnow": "Die Larven vieler Salamander tragen äußere Kiemen.",
+      "imageCaption": "Salamandra salamandra – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-095",
+      "animal": "Salamander",
+      "prompt": "Wie schützt der männliche japanische Riesensalamander die Eiablage?",
+      "options": [
+        "Er bewacht das Nest und fächert den Eiern Luft zu, bis sie schlüpfen.",
+        "Die Eier trägt er in einem Beutel unter seinem Hals",
+        "Es trägt die Eier an seinen Beinen",
+        "Er schiebt den Laich in sein Maul"
+      ],
+      "explanation": "Das Männchen bleibt in der Eiablagehöhle und schützt die Eier, insbesondere indem es sie mit seinem Schwanz auffächert.",
+      "didYouKnow": "Der Japanische Riesensalamander kann eine Länge von über einem Meter erreichen und ist damit eine der größten Amphibienarten.",
+      "imageCaption": "Andrias japonicus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-096",
+      "animal": "Frosch",
+      "prompt": "Wie werden manche Glasfrösche im Ruhezustand durchscheinender?",
+      "options": [
+        "Indem sie einen großen Teil ihrer roten Blutkörperchen in der Leber speichern",
+        "Indem sie ihre roten Blutkörperchen durch transparente Zellen ersetzen",
+        "Indem sie ihr Blut in den Pfoten konzentrieren",
+        "Indem sie ihren Magen mit Schleim ohne Pigment bedecken"
+      ],
+      "explanation": "Im Ruhezustand verlässt ein großer Teil ihrer roten Blutkörperchen den sichtbaren Kreislauf und wird in der Leber gespeichert, wodurch der Körper durchsichtiger wird.",
+      "didYouKnow": "Einige Glasfrösche legen ihre Eier auf Blättern mit Blick auf einen Bach.",
+      "imageCaption": "Hyalinobatrachium fleischmanni – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-097",
+      "animal": "Frosch",
+      "prompt": "Welche Rolle spielt der Stimmbeutel bei vielen männlichen Fröschen?",
+      "options": [
+        "Luft zum Atmen unter Wasser speichern",
+        "Filtern Sie das Wasser um die Eier herum",
+        "Halten Sie beim Springen das Gleichgewicht",
+        "Verstärken Sie das rufende Lied"
+      ],
+      "explanation": "Der Sack bläht sich auf und schwingt beim Sprechen mit.",
+      "didYouKnow": "Manche Frösche tragen ihre Eier oder Kaulquappen am Körper.",
+      "imageCaption": "Pelophylax Ridibundus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-098",
+      "animal": "Frosch",
+      "prompt": "Wie tragen manche Frösche ihre Eier in einem Rückenbeutel?",
+      "options": [
+        "Eier bleiben in einer harten Rückenschale",
+        "Eier werden in einem Stimmsack getragen",
+        "Die Eier sind an den Hinterbeinen befestigt",
+        "Die Haut auf der Rückseite bildet einen Brutbeutel"
+      ],
+      "explanation": "Diese Art der elterlichen Fürsorge gibt es bei mehreren Froschgruppen.",
+      "didYouKnow": "Erwachsene Frösche haben im Allgemeinen ein Herz mit drei Kammern: zwei Vorhöfe und eine Herzkammer.",
+      "imageCaption": "Gastrotheca marsupiata – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-099",
+      "animal": "Frosch",
+      "prompt": "Welche ungewöhnliche elterliche Fürsorge praktiziert die männliche Hebammenkröte?",
+      "options": [
+        "Das Männchen hält die Eier in einem Nest unter Wasser",
+        "Das Weibchen trägt die Eier im Maul",
+        "Es trägt Eierschnüre um seine Hinterbeine",
+        "Das Männchen klebt die Eier auf ein Blatt"
+      ],
+      "explanation": "Es hält die Eier feucht, bis sie schlüpfen.",
+      "didYouKnow": "Die Geburtshelferkröte ist in mehreren Regionen Westeuropas heimisch.",
+      "imageCaption": "Alytes obstetricans – repräsentative Arten der genannten Gruppe."
+    },
+    {
+      "id": "unusual-100",
+      "animal": "Frosch",
+      "prompt": "Welche Amphibie kann einen schützenden Schaum um ihre Eier bilden?",
+      "options": [
+        "Der Aal-Protea",
+        "Der Moosfrosch",
+        "Die Hebammenkröte",
+        "Der Glasfrosch"
+      ],
+      "explanation": "Moos begrenzt die Austrocknung und kann Eier vor Raubtieren schützen.",
+      "didYouKnow": "Die Herzen vieler Frösche haben zwei Vorhöfe und einen Ventrikel.",
+      "imageCaption": "Rhacophorus nigropalmatus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-101",
+      "animal": "Frosch",
+      "prompt": "Wie können Frösche davon profitieren, ihre Eier in ein feuchtes Moosnest über Wasser zu legen?",
+      "options": [
+        "Es schützt die Eier vor bestimmten Wasserräubern und hält sie gleichzeitig feucht",
+        "Es ermöglicht Embryonen, in einer undurchlässigen Hülle zu atmen",
+        "Es befreit Kaulquappen vom Eindringen in Gewässer.",
+        "Sie setzt die Eier direktem Sonnenlicht aus, um das Schlüpfen zu beschleunigen."
+      ],
+      "explanation": "Ein feuchtes Nest außerhalb des Wassers kann Eier vor einigen Wasserräubern schützen; Nach dem Schlüpfen fallen die Kaulquappen ins Wasser oder werden ins Wasser getragen.",
+      "didYouKnow": "Bei vielen Fröschen hat das Herz zwei Vorhöfe und einen Ventrikel.",
+      "imageCaption": "Rhacophorus nigropalmatus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-102",
+      "animal": "Cécile",
+      "prompt": "Welcher Sinn ist bei grabenden Blindwächtern besonders ausgeprägt?",
+      "options": [
+        "Schmecken Sie dank einer gespaltenen Zunge",
+        "Riechen, unterstützt durch sensorische Tentakel",
+        "Hören dank äußerem Trommelfell",
+        "Sicht dank nach oben gerichteter Augen"
+      ],
+      "explanation": "Diese kleinen Tentakel befinden sich zwischen Augen und Nasenlöchern.",
+      "didYouKnow": "Blindgänger sind beinlose Amphibien.",
+      "imageCaption": "Ichthyophis glutinosus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-103",
+      "animal": "Brachiopod",
+      "prompt": "Wie heften sich viele erwachsene Brachiopoden am Meeresboden fest?",
+      "options": [
+        "Mit von den Kiemen abgesonderten Byssusfäden",
+        "Mit hydraulischen Rohrfüßen",
+        "Mit einem vom Lophophor gebildeten Saugnapf",
+        "Mit einem fleischigen Stiel, der zwischen den beiden Klappen herausragt."
+      ],
+      "explanation": "Der Stiel verankert das Tier am Untergrund, ohne dass es sich um ein Fortbewegungsbein handelt.",
+      "didYouKnow": "Der Lophophor eines Brachiopoden trägt bewimperte Tentakel, die Nahrungspartikel einfangen.",
+      "imageCaption": "Lingula anatina – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-104",
+      "animal": "Cécile",
+      "prompt": "Wie versorgt die Haut der Jungen mancher Blinddarmfische sie mit Nahrung?",
+      "options": [
+        "Sie filtern Plankton ins Wasser",
+        "Sie fressen unbefruchtete Eier",
+        "Sie ernähren sich von der nährstoffreichen Außenschicht der mütterlichen Haut",
+        "Sie saugen aus den Milchdrüsen"
+      ],
+      "explanation": "Diese Strategie wird Dermatotrophie genannt.",
+      "didYouKnow": "Im Gegensatz zu vielen anderen Amphibien erfolgt die Befruchtung bei Blinddarmfischen intern.",
+      "imageCaption": "Boulengerula taitana – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-105",
+      "animal": "Molch",
+      "prompt": "Welches Phänomen ermöglicht es einigen Molchen, Teile ihres Schwanzes nachwachsen zu lassen?",
+      "options": [
+        "Geweberegeneration",
+        "Ersetzen eines Wirbels durch eine Flosse",
+        "Ein neues Vorderbein wachsen lassen",
+        "Ablösung der Haut"
+      ],
+      "explanation": "Je nach Art kann sich der Schwanz nach einer Verletzung neu bilden.",
+      "didYouKnow": "Molche sind Salamander, die oft einen Teil des Jahres an Land und einen Teil im Wasser verbringen.",
+      "imageCaption": "Ichthyosaura alpestris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-106",
+      "animal": "Molch",
+      "prompt": "Wie lockt der männliche Bergmolch während der Balz einen Partner an?",
+      "options": [
+        "Mit Rückenkamm und Schwanzbewegungen",
+        "Verändert die Farbe wie ein Chamäleon",
+        "Indem er mit seinen Pfoten auf den Boden schlägt",
+        "Indem er seine Stimmtaschen aufbläst"
+      ],
+      "explanation": "Die leuchtenden Bauchfarben dienen auch als optischer Hinweis.",
+      "didYouKnow": "Der Bergmolch verbringt den Winter oft in einem feuchten Landunterschlupf.",
+      "imageCaption": "Ichthyosaura alpestris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-107",
+      "animal": "Protea",
+      "prompt": "Welche Höhlenamphibie behält ihr ganzes Leben lang äußere Kiemen?",
+      "options": [
+        "Der Glasfrosch",
+        "Der gefleckte Protea",
+        "Der Aal-Protea",
+        "Der Alpenmolch"
+      ],
+      "explanation": "Diese Amphibie lebt in unterirdischen Gewässern auf dem Balkan.",
+      "didYouKnow": "Der Vielaal legt seine Eier im Wasser ab, oft unter Steinen oder in Ritzen.",
+      "imageCaption": "Proteus anguinus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-108",
+      "animal": "Protea",
+      "prompt": "Wie kompensiert der Aalprotea seine verminderte Sehkraft?",
+      "options": [
+        "Es nutzt Infrarotsicht",
+        "Dabei werden insbesondere der Geruchssinn und die Wahrnehmung von Schwingungen genutzt",
+        "Es erzeugt Licht zur Beleuchtung von Höhlen",
+        "Es erkennt Geräusche mit externen Trommelfellen"
+      ],
+      "explanation": "Es ist an das Leben im dunklen Grundwasser angepasst.",
+      "didYouKnow": "Der Protea kann mit wenig Nahrung lange überleben.",
+      "imageCaption": "Proteus anguinus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-109",
+      "animal": "Pipa",
+      "prompt": "In welchem Stadium schlüpfen die Jungen der Suriname-Kröte aus den Alveolen auf dem Rücken der Mutter?",
+      "options": [
+        "Wie junge Frösche, die sich bereits gebildet haben",
+        "Wie Kaulquappen mit äußeren Kiemen",
+        "In Form unbefruchteter Eier",
+        "Wie kleine schwimmende Larven, die den Rücken verlassen"
+      ],
+      "explanation": "Embryonen entwickeln sich in Rückenhöhlen und schlüpfen nach einer fast vollständigen Metamorphose.",
+      "didYouKnow": "Die Suriname-Kröte ist eine vollständig im Wasser lebende Amphibie aus Südamerika.",
+      "imageCaption": "Pipa pipa – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-110",
+      "animal": "Frosch",
+      "prompt": "Welches Verhalten machte die inzwischen ausgestorbenen Frösche der Gattung Rheobatrachus berühmt?",
+      "options": [
+        "Das Männchen trug die Eierschnüre um seine Beine",
+        "Das Weibchen legte nährstoffreiche Eier, um die Kaulquappen zu ernähren",
+        "Das Weibchen brütete die Jungen in ihrem Magen aus und speiste sie dann durch den Mund aus.",
+        "Das Weibchen trug die Eier in einer Rückentasche"
+      ],
+      "explanation": "Das Weibchen schluckte befruchtete Eier und brütete die Embryonen in seinem Magen aus, bevor es die Jungen durch den Mund ausstieß.",
+      "didYouKnow": "Frösche der Gattung Rheobatrachus lebten in Australien.",
+      "imageCaption": "Rheobatrachus silus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-111",
+      "animal": "Spinne",
+      "prompt": "Wie erkennt eine Spinne oft, dass Beute ihr Netz berührt?",
+      "options": [
+        "Durch die Gerüche, die die Beute verströmt",
+        "Durch Lichtsignale im Web",
+        "Durch Temperaturänderungen der Drähte",
+        "Durch die von den Drähten übertragenen Vibrationen"
+      ],
+      "explanation": "Das Web funktioniert wie ein sensorisches Netzwerk.",
+      "didYouKnow": "Die meisten Spinnen haben acht einfache Augen, einige Arten haben jedoch weniger.",
+      "imageCaption": "Araneus diadematus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-112",
+      "animal": "Spinne",
+      "prompt": "Aus welcher Proteinfamilie besteht der größte Teil der Spinnenseide?",
+      "options": [
+        "Kollagen",
+        "Spidroine",
+        "Keratin",
+        "Chitin"
+      ],
+      "explanation": "Spidroine sind die wichtigsten Strukturproteine in der von Spinnen produzierten Seide.",
+      "didYouKnow": "Die meisten Spinnen haben acht einfache Augen, einige Arten haben jedoch weniger.",
+      "imageCaption": "Araneus diadematus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-113",
+      "animal": "Spinne",
+      "prompt": "Welchen Zweck hat die Sicherheitsseide, die eine Spinne zurücklässt?",
+      "options": [
+        "Nur zum Schutz vor der Mauser",
+        "Beute packen",
+        "Um Plankton zu filtern",
+        "Um sich beim Bewegen oder Springen zu verankern"
+      ],
+      "explanation": "Diese Trolling-Leine kann einen Sturz verhindern.",
+      "didYouKnow": "Spinnen erneuern ihr Exoskelett durch aufeinanderfolgende Häutungen während ihres Wachstums.",
+      "imageCaption": "Salticus Scenicus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-114",
+      "animal": "Spinne",
+      "prompt": "Wie können sich junge Spinnen nach dem Schlüpfen in der Luft verteilen?",
+      "options": [
+        "Durch das Aussenden von Seidenfäden, die der Wind trägt",
+        "Durch Öffnen der Membranflügel",
+        "Durch Aufblasen einer Lufttasche unter dem Bauch",
+        "Indem man sich in einer Schleimblase treiben lässt"
+      ],
+      "explanation": "Junge Spinnen geben einen oder mehrere Seidenfäden ab, die von Luftströmungen weggetragen werden; Dieses Verhalten wird als Ballonbildung bezeichnet.",
+      "didYouKnow": "Spinnen wachsen, indem sie während der Häutung regelmäßig ihr Exoskelett abwerfen.",
+      "imageCaption": "Linyphiidae – repräsentative Arten der genannten Gruppe."
+    },
+    {
+      "id": "unusual-115",
+      "animal": "Argyronet",
+      "prompt": "Wie kann die Argyronete, eine Wasserspinne, lange unter Wasser bleiben?",
+      "options": [
+        "Es unterhält eine Luftglocke in einer untergetauchten Leinwand",
+        "Es verwendet Kiemen anstelle von Lungen",
+        "Es atmet nur dank seiner acht Beine.",
+        "Als Erwachsene braucht sie keinen Sauerstoff"
+      ],
+      "explanation": "Argyroneta aquatica transportiert Luft von der Oberfläche und fängt sie in einer untergetauchten Seidenglocke ein. Diese Reserve ermöglicht auch den Gasaustausch mit Wasser.",
+      "didYouKnow": "Die meisten Spinnen haben acht einfache Augen, einige Arten haben jedoch weniger.",
+      "imageCaption": "Argyroneta aquatica – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-116",
+      "animal": "Spinne",
+      "prompt": "Warum schmücken manche Spinnen ihre Netze mit einem Stabilimentum?",
+      "options": [
+        "Vögel mit dickem Draht fangen",
+        "Zum Aufbewahren von Eiern in Segeltuch",
+        "Beute unter einem Schleier verstecken",
+        "Diese Struktur kann bei der Tarnung oder Signalisierung hilfreich sein"
+      ],
+      "explanation": "Mehrere Funktionen werden untersucht, darunter Spinnentarnung und visuelle Signalisierung. Sie können je nach Art und Kontext variieren.",
+      "didYouKnow": "Einige Spinnen fressen einen Teil ihres alten Netzes und fressen es, um dessen Proteine ​​zu recyceln.",
+      "imageCaption": "Argiope bruennichi – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-117",
+      "animal": "Spinne",
+      "prompt": "Wie kann sich die Krabbenspinne seitwärts bewegen?",
+      "options": [
+        "Seine Beine bestehen aus Saugnäpfen",
+        "Seine Beine sind für das Seitwärtsgehen geeignet",
+        "Sie bewegt sich mit ihrem Bauch",
+        "Dank hydrophober Borsten läuft sie über das Wasser"
+      ],
+      "explanation": "Es sitzt oft auf Blumen, um Insekten zu überfallen.",
+      "didYouKnow": "Einige Arten ändern langsam ihre Farbe, um mit der Blüte zu verschmelzen.",
+      "imageCaption": "Misumena vatia – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-118",
+      "animal": "Spinne",
+      "prompt": "Welche Rolle spielen die Pedipalpen bei einer erwachsenen männlichen Spinne?",
+      "options": [
+        "Bodenerschütterungen wahrnehmen",
+        "Seide herstellen",
+        "Die Beute zerkleinern",
+        "Bei der Paarung Spermien übertragen"
+      ],
+      "explanation": "Die Pedipalpen tragen Strukturen, die Spermien sammeln und abgeben.",
+      "didYouKnow": "Die Cheliceren vieler Spinnen injizieren Gift, das hilft, ihre Beute bewegungsunfähig zu machen.",
+      "imageCaption": "Araneus diadematus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-119",
+      "animal": "Spinne",
+      "prompt": "Warum produziert eine Spinne manchmal unterschiedliche Seide für die Eihülle?",
+      "options": [
+        "Zum Schutz des Männchens nach der Paarung",
+        "Zum Schutz des Eiersacks",
+        "Gift aufbewahren",
+        "Ein Jagdnetz erstellen"
+      ],
+      "explanation": "Die Seide des Kokons kann eine starke und isolierende Hülle bilden.",
+      "didYouKnow": "Die Cheliceren vieler Spinnen injizieren Gift, das hilft, ihre Beute bewegungsunfähig zu machen.",
+      "imageCaption": "Araneus diadematus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-120",
+      "animal": "Spinne",
+      "prompt": "Was macht eine Bolas-Spinne, um bestimmte männliche Schmetterlinge anzulocken?",
+      "options": [
+        "Es gibt einen chemischen Lockstoff ab, der einem Pheromon ähnelt",
+        "Es erzeugt Licht, um Männchen anzulocken",
+        "Sie wedelt mit einem Netz, um einen Schmetterling nachzuahmen",
+        "Sie legt Eier, die Schmetterlingen ähneln"
+      ],
+      "explanation": "Dann wirft sie einen Tropfen klebriger Seide auf das Ende eines Fadens.",
+      "didYouKnow": "Spinnen können einen Teil ihres alten Netzes wieder aufnehmen und die Proteine ​​recyceln.",
+      "imageCaption": "Mastophora cornigera – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-121",
+      "animal": "Skorpion",
+      "prompt": "Welcher kammartige Fortsatz hilft dem Skorpion dabei, den Boden chemisch zu erkunden?",
+      "options": [
+        "Pektine",
+        "Augenflecken",
+        "Der Telson",
+        "Cheliceren"
+      ],
+      "explanation": "Diese sensorischen Anhängsel durchstreifen das Substrat und informieren den Skorpion über seine Beschaffenheit und chemische Signale.",
+      "didYouKnow": "Die Nagelhaut vieler Skorpione fluoresziert unter ultraviolettem Licht.",
+      "imageCaption": "Pandinus imperator – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-122",
+      "animal": "Skorpion",
+      "prompt": "Warum injiziert ein Skorpion beim Stechen nicht immer die gleiche Menge Gift?",
+      "options": [
+        "Es kann sein Gift behalten oder seine Menge regulieren",
+        "Er spritzt immer die gleiche Dosis",
+        "Erst nach der Häutung produziert es Gift",
+        "Er kann nur einmal in seinem Leben stechen"
+      ],
+      "explanation": "Einige Skorpione machen Trockenstiche oder injizieren je nach Bedrohung und Beute eine unterschiedliche Menge.",
+      "didYouKnow": "Skorpione zerschneiden ihre Beute mit ihren Mundwerkzeugen, bevor sie das verflüssigte Gewebe aufnehmen.",
+      "imageCaption": "Pandinus imperator – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-123",
+      "animal": "Skorpion",
+      "prompt": "Welches mütterliche Verhalten ist bei vielen Skorpionen üblich?",
+      "options": [
+        "Die Mutter baut ein Netz für die Eier",
+        "Die Jungen reiten auf dem Rücken ihrer Mutter",
+        "Junge Menschen vergraben sich im Sand",
+        "Der Vater füttert die Kleinen mit Insekten"
+      ],
+      "explanation": "Sie bleiben somit bis zur ersten Häutung geschützt.",
+      "didYouKnow": "Ein Skorpion kann lange Zeit ohne Nahrung auskommen, wobei die Länge von der Art und den Bedingungen abhängt.",
+      "imageCaption": "Pandinus imperator – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-124",
+      "animal": "Skorpion",
+      "prompt": "Welches Licht lässt die Nagelhaut vieler Skorpione oft leuchten?",
+      "options": [
+        "Infrarotlicht",
+        "Ultraviolettes Licht",
+        "Das rote Licht",
+        "Polarisiertes Licht"
+      ],
+      "explanation": "Verbindungen in ihrer fluoreszierenden Kutikula strahlen unter UV-Licht ein sichtbares Leuchten aus.",
+      "didYouKnow": "Skorpione fangen ihre Beute mit ihren Pedipalps, bevor sie sie zum Maul führen.",
+      "imageCaption": "Pandinus imperator – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-125",
+      "animal": "Skorpion",
+      "prompt": "Welcher Teil des Skorpions hat den Stachel?",
+      "options": [
+        "Der Telson am Ende des Schwanzes",
+        "Der Cephalothorax",
+        "Die linke Klemme",
+        "Der Pedipalpus"
+      ],
+      "explanation": "Der Telson enthält die Giftdrüsen und den Stachel.",
+      "didYouKnow": "Skorpione führen vor der Paarung eine komplexe Darbietung durch.",
+      "imageCaption": "Pandinus imperator – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-126",
+      "animal": "Pseudoskorpion",
+      "prompt": "Wie bewegt sich ein Pseudoskorpion manchmal, ohne zu gehen?",
+      "options": [
+        "Es schwimmt, während es mit seinen Krallen wedelt",
+        "Er klammert sich in Phorese an ein Insekt",
+        "Er fliegt mit versteckten Flügeln",
+        "Er lässt sich in einem Netz vom Wind tragen"
+      ],
+      "explanation": "Es profitiert vom Transport, ohne seinen Wirt unbedingt zu parasitieren.",
+      "didYouKnow": "Der Pseudoskorpion ist ein winziges Spinnentier ohne Schwanz.",
+      "imageCaption": "Chelifer cancroides – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-127",
+      "animal": "Pseudoskorpion",
+      "prompt": "Welche Struktur ermöglicht es dem Pseudoskorpion, seine Beute zu fangen?",
+      "options": [
+        "Ein Stachel am Ende des Hinterleibs",
+        "Krallen mit Giftdrüsen bei bestimmten Arten",
+        "Saugnapfbeine",
+        "Klammerförmige Cheliceren"
+      ],
+      "explanation": "Das Gift wird durch die Zange abgegeben und nicht durch einen Schwanzstachel.",
+      "didYouKnow": "Der Pseudoskorpion ist ein winziges Spinnentier ohne Schwanz.",
+      "imageCaption": "Chelifer cancroides – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-128",
+      "animal": "Meinung",
+      "prompt": "Warum kann ein Opilion bei einem Angriff ein Bein abtrennen?",
+      "options": [
+        "Manchmal bewegt sich die Pfote weiter und lenkt die Aufmerksamkeit ab",
+        "Sie wirft Tinte",
+        "Sie beißt ihr Raubtier",
+        "Sie lässt ihren Bauch fallen"
+      ],
+      "explanation": "Diese Autotomie kann dem Tier eine Chance zur Flucht geben.",
+      "didYouKnow": "Im Gegensatz zu Spinnen scheint der Körper von Opilions zu einem einzigen Block verschmolzen zu sein.",
+      "imageCaption": "Phalangium opilio – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-129",
+      "animal": "Milbe",
+      "prompt": "Welche mikroskopisch kleine Milbe lebt normalerweise in menschlichen Haarfollikeln?",
+      "options": [
+        "Krätze Sarcoptus",
+        "Demodex",
+        "Die Hausstaubmilbe",
+        "Die Schafzecke"
+      ],
+      "explanation": "Diese Milben ernähren sich von Talg und Hautzellen.",
+      "didYouKnow": "Demodex-Milben haben einen länglichen Körper und kurze Beine.",
+      "imageCaption": "Demodex folliculorum – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-130",
+      "animal": "Milbe",
+      "prompt": "Wie finden Zecken ihre Wirte häufig in der Umgebung?",
+      "options": [
+        "Auf ihre Schreie hören",
+        "Indem man die Vibrationen der Leinwände wahrnimmt",
+        "Durch die Erkennung von Hitze, Gerüchen und Kohlendioxid",
+        "Die Farben ihrer Gastgeber sehen"
+      ],
+      "explanation": "Sie warten oft auf Vegetation in der Nähe eines Durchgangs.",
+      "didYouKnow": "Eine Zecke ist kein Insekt, sondern ein Spinnentier.",
+      "imageCaption": "Ixodes ricinus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-131",
+      "animal": "Milbe",
+      "prompt": "In welcher Lebensphase hat eine Zecke sechs Beine?",
+      "options": [
+        "Der erwachsene Mann",
+        "Die Larve",
+        "Die Nymphe",
+        "Das erwachsene Weibchen"
+      ],
+      "explanation": "Nymphen und erwachsene Tiere haben acht Beine.",
+      "didYouKnow": "Zecken atmen durch äußere Öffnungen, sogenannte Spirakel.",
+      "imageCaption": "Ixodes ricinus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-132",
+      "animal": "Bärtierchen",
+      "prompt": "In welchen Zustand der Kryptobiose kann ein Bärtierchen beim Austrocknen gelangen?",
+      "options": [
+        "Der Planula-Zustand",
+        "Der Ton-Zustand (auch Tönnchenzustand genannt)",
+        "Anhydrobiose der Larven",
+        "Strobilation"
+      ],
+      "explanation": "Das Bärtierchen zieht seinen Körper zu einem Ton zusammen, einer kompakten Form der Kryptobiose.",
+      "didYouKnow": "Ein Bärtierchen hat vier Paar kurze Beine, die in Krallen oder Scheiben enden.",
+      "imageCaption": "Hypsibius exemplaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-133",
+      "animal": "Bärtierchen",
+      "prompt": "Wie begrenzen einige Bärtierchen die Zellschädigung bei starker Dehydrierung?",
+      "options": [
+        "Schutzmoleküle stabilisieren bestimmte Zellstrukturen",
+        "Sie bilden eine mineralische Hülle um den Körper",
+        "Sie ersetzen das Wasser in ihren Zellen durch Öl",
+        "Sie unterbrechen dauerhaft jegliche Zellaktivität"
+      ],
+      "explanation": "Je nach Art tragen bestimmte Zucker oder Proteine zum Schutz der Zellen während der Austrocknung bei.",
+      "didYouKnow": "Bei bestimmten Arten legt das Weibchen seine Eier in die Exuvien ab, die es gerade verlassen hat.",
+      "imageCaption": "Hypsibius exemplaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-134",
+      "animal": "Bärtierchen",
+      "prompt": "Mit welchen Strukturen durchdringt ein Bärtierchen die Zellen, aus denen es den Inhalt saugt?",
+      "options": [
+        "Orale Stilette",
+        "Unterkiefer schleifen",
+        "Eine mit Zähnen bedeckte Radula",
+        "Pedipalps mit Zangen"
+      ],
+      "explanation": "Bukkale Stilette durchdringen die Wände oder das Gewebe, bevor der Inhalt durch den muskulösen Rachenraum abgesaugt wird.",
+      "didYouKnow": "Bärtierchen haben vier Paar kurze Beine, die in Krallen oder Scheiben enden.",
+      "imageCaption": "Hypsibius exemplaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-135",
+      "animal": "Bärtierchen",
+      "prompt": "Welcher Feuchtgebietslebensraum beherbergt häufig Bärtierchen?",
+      "options": [
+        "Moose und Flechten",
+        "Die Oberfläche der brennenden Felsen",
+        "Trockene Dünen",
+        "Vogelnester"
+      ],
+      "explanation": "Sie leben im Wasserfilm, der diese Mikrohabitate bedeckt.",
+      "didYouKnow": "Je nach Art kann sich ein Bärtierchen von Algen, Bakterien, Pilzen oder Kleintieren ernähren.",
+      "imageCaption": "Hypsibius exemplaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-136",
+      "animal": "Bärtierchen",
+      "prompt": "Was machen die Beine eines Bärtierchens?",
+      "options": [
+        "Am Untergrund festhalten und bewegen",
+        "Das Tier durch Schlagen im Wasser vorantreiben",
+        "Gift in seine Beute injizieren",
+        "Einen Bau in den Sand graben"
+      ],
+      "explanation": "Bärtierchen greifen mit ihren kurzen Krallenbeinen an Oberflächen und bewegen sich durch den Wasserfilm ihres Lebensraums.",
+      "didYouKnow": "Bärtierchen haben weder Lungen noch Kiemen; Der Gasaustausch findet über ihre Körperoberfläche statt.",
+      "imageCaption": "Hypsibius exemplaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-137",
+      "animal": "Rädertierchen",
+      "prompt": "Welches scheinbar rotierende Organ hilft einem Rädertier, Nahrung anzuziehen?",
+      "options": [
+        "Rhinophoren",
+        "Die Flimmerkrone",
+        "Der Lophophor",
+        "Parapodien"
+      ],
+      "explanation": "Der Schlag der Zilien erzeugt Strömungen und lässt das Organ rotierend erscheinen.",
+      "didYouKnow": "Rädertiere sind mikroskopisch kleine Tiere, die häufig im Süßwasser vorkommen.",
+      "imageCaption": "Philodina roseola – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-138",
+      "animal": "Rädertierchen",
+      "prompt": "Wie kann das Rädertierchen eine längere Austrocknung überleben?",
+      "options": [
+        "Durch den Bau einer Kalksteinhülle",
+        "Im Eis begraben",
+        "Durch Eintritt in die Anhydrobiose",
+        "Durch die Migration zu heißen Quellen"
+      ],
+      "explanation": "Es wird reaktiviert, wenn wieder Wasser verfügbar ist.",
+      "didYouKnow": "Bdelloide können nach dem Transport durch den Wind kleine Lebensräume wiederbesiedeln.",
+      "imageCaption": "Philodina roseola – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-139",
+      "animal": "Bryozoen",
+      "prompt": "Wie sieht eine Bryozoenkolonie oft aus?",
+      "options": [
+        "Zu einer im Sand gegrabenen Röhre",
+        "Zu einer Matte oder Kruste bestehend aus zahlreichen Zooiden",
+        "Zu einem einzelnen großen Tier",
+        "Zu einer einzigen Hülle, die in Räume unterteilt ist"
+      ],
+      "explanation": "Bei jedem Zooid handelt es sich um ein kleines Filtriertier, das in einer Kammer untergebracht ist.",
+      "didYouKnow": "Einige Bryozoenkolonien leben im Süßwasser, obwohl die meisten Arten im Meer leben.",
+      "imageCaption": "Membranipora membranacea – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-140",
+      "animal": "Bryozoen",
+      "prompt": "Welche Tentakelstruktur fängt die Nahrung eines Bryozoen ein?",
+      "options": [
+        "Nematozysten",
+        "Die Cirri",
+        "Der Lophophor",
+        "Die Radula"
+      ],
+      "explanation": "Es trägt eine Krone aus bewimperten Tentakeln, die Partikel filtern.",
+      "didYouKnow": "Bryozoen leben oft an Algen, Steinen oder Muscheln.",
+      "imageCaption": "Membranipora membranacea – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-141",
+      "animal": "Brachiopod",
+      "prompt": "Welches Detail unterscheidet oft den Panzer eines Brachiopoden von dem einer Muschel?",
+      "options": [
+        "Die linken und rechten Ventile sind symmetrisch",
+        "Seine beiden Klappen sind dorsal und ventral und nicht links und rechts",
+        "Die Ventile sind spiralförmig gewickelt",
+        "Die Schale hat nur ein Ventil"
+      ],
+      "explanation": "Die Symmetrieebene kreuzt jedes Ventil.",
+      "didYouKnow": "Brachiopoden sind eine alte Meeresgruppe, die noch heute existiert.",
+      "imageCaption": "Lingula anatina, ein Beispiel für einen Brachiopoden."
+    },
+    {
+      "id": "unusual-142",
+      "animal": "Süßwasserbryozoen",
+      "prompt": "Wie überstehen manche Süßwasserbryozoen eine ungünstige Zeit?",
+      "options": [
+        "Sie schließen sich in einer erwachsenen Hülle ein",
+        "Sie legen Fruchtwassereier in den Schlamm",
+        "Sie produzieren zähe Statoblasten, die sich zerstreuen können.",
+        "Sie verwandeln sich in Quallenlarven"
+      ],
+      "explanation": "Statoblasten sind geschützte, ruhende Knospen, die eine Kolonie neu gründen, wenn die Bedingungen wieder günstiger werden.",
+      "didYouKnow": "Kolonien von Süßwasserbryozoen leben oft an Pflanzen oder untergetauchtem Holz.",
+      "imageCaption": "Cristatella mucedo – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-143",
+      "animal": "Manteltiere",
+      "prompt": "Welches Organ filtert Wasser bei erwachsenen Ascidianern?",
+      "options": [
+        "Ein Magen mit mehreren Kammern",
+        "Ein Siphon mit äußeren Kiemen",
+        "Eine Tasche voller Nesselzellen",
+        "Ein großer perforierter Rachenbeutel"
+      ],
+      "explanation": "Wasser gelangt durch die Kiemenschlitze und die Partikel werden im Schleim zurückgehalten.",
+      "didYouKnow": "Erwachsene Ascidien bleiben im Allgemeinen an einer Unterlage befestigt, während ihre Larven mobil sind.",
+      "imageCaption": "Ciona intestinalis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-144",
+      "animal": "Manteltiere",
+      "prompt": "Welches Merkmal von Ascidian-Larven verrät ihre Verwandtschaft mit Wirbeltieren?",
+      "options": [
+        "Ein knöchernes Skelett",
+        "Äußere Kiemen",
+        "Ein Rückenakkord",
+        "Eine segmentierte Hülle"
+      ],
+      "explanation": "Es verschwindet im Allgemeinen während der Metamorphose zum fixierten Erwachsenen.",
+      "didYouKnow": "Bei vielen kolonialen Ascidien teilen sich kleine Individuen eine gemeinsame Tunika.",
+      "imageCaption": "Ciona intestinalis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-145",
+      "animal": "Manteltiere",
+      "prompt": "Warum wird der erwachsene Ascidian manchmal als „spuckendes“ Wesen beschrieben?",
+      "options": [
+        "Es pumpt Wasser durch seine Kiemen",
+        "Bei Störungen kann es gefiltertes Wasser ausstoßen",
+        "Sie spritzt Tinte ins Wasser",
+        "Sie stößt einen stechenden Faden aus"
+      ],
+      "explanation": "Zwei Siphons ermöglichen den Zu- und Abfluss von Wasser.",
+      "didYouKnow": "Die Tunika von Ascidians enthält Tunicin, eine mit Zellulose verwandte Substanz.",
+      "imageCaption": "Ciona intestinalis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-146",
+      "animal": "Schimmel",
+      "prompt": "Wie heften sich Muscheln an Steine?",
+      "options": [
+        "Mit Seidenfäden",
+        "Mit Byssusfäden",
+        "Mit Schleimsekretion",
+        "Mit Saugnäpfen an den Ventilen"
+      ],
+      "explanation": "Diese zähen Fasern werden von einer Drüse im Fuß abgesondert.",
+      "didYouKnow": "Muscheln sind zweischalige Weichtiere, deren zwei Klappen durch ein Scharnier verbunden sind.",
+      "imageCaption": "Mytilus edulis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-147",
+      "animal": "Schimmel",
+      "prompt": "Welche Organe der Muschel sortieren die eingefangenen Partikel und leiten sie zum Mund weiter?",
+      "options": [
+        "Die Siphons",
+        "Choanozyten",
+        "Labiale Palpen",
+        "Die Pedicellarien"
+      ],
+      "explanation": "Die Schamlippen sind an der Sortierung und dem Transport der von den Kiemen gesammelten Partikel beteiligt. Sie wandeln diese Partikel nicht selbst in Nährstoffe um.",
+      "didYouKnow": "Muscheln heften sich oft mit starken Fäden, sogenannten Byssus, an Felsen fest.",
+      "imageCaption": "Mytilus edulis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-148",
+      "animal": "Auster",
+      "prompt": "Welche Geschlechtsumwandlung kann bei vielen Austern auftreten?",
+      "options": [
+        "Sie alle wechseln jede Saison ihr Geschlecht",
+        "Sie bleiben immer männlich",
+        "Sie vermehren sich ohne Gameten",
+        "Sie können im Laufe ihres Lebens ihr Geschlecht ändern"
+      ],
+      "explanation": "Das Geschlecht hängt von der Art, dem Alter und manchmal auch von den Bedingungen ab.",
+      "didYouKnow": "Austern bilden manchmal Bänke, die anderen Küstenarten Lebensraum bieten.",
+      "imageCaption": "Ostrea edulis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-149",
+      "animal": "Meeresschnecke",
+      "prompt": "Wie macht die Geografische Kegelschnecke bestimmte Beutetiere bewegungsunfähig?",
+      "options": [
+        "Indem man die Beute mit einem Tintenstrahl lähmt",
+        "Indem er seine Beute mit Tentakeln verfolgt",
+        "Indem man sie in einem klebrigen Netz gefangen hält",
+        "Mit einer radförmigen Harpune, die Gift enthält"
+      ],
+      "explanation": "Sie schießt die Harpune aus einem ausstreckbaren Rüssel ab.",
+      "didYouKnow": "Die Schalen vieler Seezapfen tragen für die Art charakteristische Muster und Farben.",
+      "imageCaption": "Conus geographus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-150",
+      "animal": "Nacktschnecke",
+      "prompt": "Was speichern manche Nacktschnecken nach dem Verzehr von Nesseltieren?",
+      "options": [
+        "Die Kiemen der Beute zum Atmen",
+        "Chromatophoren der Beute, um ihre Farbe zu ändern",
+        "Nematozysten, die Brennkapseln ihrer Beute.",
+        "Ganze Nesselzellen, lebende Zellen der Beute"
+      ],
+      "explanation": "Die betroffenen Nacktschnecken verdauen die Zellen der Beute, leiten aber bestimmte Nesselkapseln ab und lagern diese in Nesselsäcken.",
+      "didYouKnow": "Nacktschnecken haben oft gefiederte oder verzweigte Kiemen auf dem Rücken, deren Form je nach Gruppe variiert.",
+      "imageCaption": "Aeolidia papillosa – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-151",
+      "animal": "Sacoglossus-Meeresschnecke",
+      "prompt": "Was kann eine Nacktschnecke mit den Chloroplasten der Algen, die sie frisst, anstellen?",
+      "options": [
+        "Bewahren Sie sie vorübergehend in Ihren Taschentüchern auf",
+        "Verwandeln Sie sie in Nesselzellen",
+        "Lehnen Sie sie in Form von Sporen ab",
+        "Verdauen Sie sie sofort im Magen"
+      ],
+      "explanation": "Diese Kleptoplastik ermöglicht es ihm, für einen bestimmten Zeitraum die Photosynthese zu nutzen.",
+      "didYouKnow": "Bei vielen Meeresschnecken erfolgt die Befruchtung nach einem gegenseitigen Spermienaustausch zwischen den Partnern.",
+      "imageCaption": "Elysia chlorotica – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-152",
+      "animal": "Plattwurm",
+      "prompt": "Wie baut ein Planarier nach einem Schnitt einen Großteil seines Körpers wieder auf?",
+      "options": [
+        "Dank symbiotischer Bakterien",
+        "Dank seiner Muskelzellen",
+        "Dank Stammzellen, sogenannten Neoblasten",
+        "Durch die Teilung seiner Augen"
+      ],
+      "explanation": "Diese Zellen differenzieren sich, um fehlendes Gewebe zu ersetzen.",
+      "didYouKnow": "Planarien haben ein Nervensystem, das in zwei Längsstränge unterteilt ist, die an der Vorderseite verbunden sind.",
+      "imageCaption": "Schmidtea mediterranea – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-153",
+      "animal": "Plattwurm",
+      "prompt": "Mit welchem ​​Sinnesorgan können viele Planarien Licht wahrnehmen?",
+      "options": [
+        "Rhopalien",
+        "Die Tentakel",
+        "Augenflecken",
+        "Statozysten"
+      ],
+      "explanation": "Diese einfachen Augen geben Auskunft über die Richtung des Lichts, ohne ein detailliertes Bild zu erzeugen.",
+      "didYouKnow": "Einige Arten von Planarien können sich durch Querteilung des Körpers vermehren.",
+      "imageCaption": "Schmidtea mediterranea – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-154",
+      "animal": "Schnurwurm",
+      "prompt": "Wie stülpt ein Schnurwurm manchmal seinen Rüssel aus, um Beute zu fangen?",
+      "options": [
+        "Er rollt es von seinen Kiemen ab",
+        "Er schluckt es mit dem Mund",
+        "Er wirft es von seinem Fuß",
+        "Er stülpt ihn aus seinem Körper heraus"
+      ],
+      "explanation": "Der Rüssel kann je nach Gruppe klebrig oder mit Mandrinen ausgestattet sein.",
+      "didYouKnow": "Nemertes sind unsegmentierte Würmer, oft länglich und abgeflacht.",
+      "imageCaption": "Lineus longissimus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-155",
+      "animal": "Polychaetenwurm",
+      "prompt": "Wofür werden die Parapodien von Polychaetenwürmern verwendet?",
+      "options": [
+        "Verteidigung mit Gift",
+        "Fortbewegung und manchmal Gasaustausch",
+        "Nur zur Reproduktion",
+        "Filterung von Plankton"
+      ],
+      "explanation": "Diese seitlichen Fortsätze tragen oft Borsten.",
+      "didYouKnow": "Polychaeten sind eine vielfältige Gruppe mariner Ringelwürmer.",
+      "imageCaption": "Hediste diversicolor – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-156",
+      "animal": "Polychaetenwurm",
+      "prompt": "Welcher Meereswurm bildet bunte Federn, die er zu einer Röhre zusammenschrumpfen lässt?",
+      "options": [
+        "Der Plattwurm",
+        "Der Weihnachtsbaumwurm",
+        "Der Regenwurm",
+        "Der Bandwurm"
+      ],
+      "explanation": "Seine Kiemenfahnen dienen zum Atmen und Einfangen von Partikeln.",
+      "didYouKnow": "Polychaetenwürmer haben oft Parapodien entlang ihres Körpers.",
+      "imageCaption": "Spirobranchus giganteus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-157",
+      "animal": "Feuerwurm",
+      "prompt": "Wie hält der Feuerwurm bestimmte Raubtiere davon ab, ihn zu berühren?",
+      "options": [
+        "Es schlägt mit einem Schwanzstachel zu",
+        "Seine spröden Borsten können in die Haut eindringen und Reizungen verursachen.",
+        "Es injiziert Gift mit festen Reißzähnen",
+        "Es gibt Tinte aus einer Tasche ab"
+      ],
+      "explanation": "Die weißen Borsten des Feuerwurms sind zerbrechlich und können sich bei Kontakt lösen und ein irritierendes Gefühl verursachen.",
+      "didYouKnow": "Der Feuerwurm ist ein mariner Polychaet aus der Familie der Amphinomidae.",
+      "imageCaption": "Hermodice carunculata – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-158",
+      "animal": "Blutegel",
+      "prompt": "Wie verhindert ein Blutegel manchmal, dass das Blut seiner Beute gerinnt?",
+      "options": [
+        "Es sondert gerinnungshemmende Moleküle ab",
+        "Es produziert ein Toxin, das rote Blutkörperchen zerstört",
+        "Es saugt Blut mit Kiemen",
+        "Es sondert eine Substanz ab, die die Blutgerinnung beschleunigt"
+      ],
+      "explanation": "Hirudin ist bei bestimmten Blutegeln ein bekanntes Antikoagulans.",
+      "didYouKnow": "Blutegel sind Ringelwürmer, deren Körper abgeflacht und segmentiert sind.",
+      "imageCaption": "Hirudo Medicinalis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-159",
+      "animal": "Blutegel",
+      "prompt": "Wie viele Saugnäpfe hat ein Blutegel normalerweise?",
+      "options": [
+        "Keine",
+        "Zwei",
+        "Sechs",
+        "Nur einer"
+      ],
+      "explanation": "Die vorderen und hinteren Saugnäpfe erleichtern die Befestigung und Bewegung.",
+      "didYouKnow": "Der segmentierte Körper kann sich bei Bewegung verlängern und verkürzen.",
+      "imageCaption": "Hirudo Medicinalis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-160",
+      "animal": "Regenwurm",
+      "prompt": "Welches Organ des Regenwurms zermahlt verschluckte Partikel mit dem Boden?",
+      "options": [
+        "Es filtert das Blut in seinem Darm",
+        "Es speichert Erde in seinen Kiemen",
+        "Der Muskelmagen",
+        "Es nimmt nur intakte Blätter auf"
+      ],
+      "explanation": "Der Muskelmagen zerquetscht die Erde und verschluckt organische Bruchstücke.",
+      "didYouKnow": "Die von Regenwürmern freigesetzten Ausscheidungen tragen zur Durchmischung und Belüftung des Bodens bei.",
+      "imageCaption": "Lumbricus terrestris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-161",
+      "animal": "Regenwurm",
+      "prompt": "Welche Rolle spielen Regenwurmseiden?",
+      "options": [
+        "Um Beute zu fangen",
+        "Den Boden durch Drehen wie eine Schraube umgraben",
+        "Unter Wasser atmen",
+        "Verankern Sie sich während des Fortschritts im Boden"
+      ],
+      "explanation": "Die Borsten haften am Untergrund, während die Muskeln den Körper bewegen.",
+      "didYouKnow": "Der Regenwurm ist ein Hermaphrodit, paart sich aber im Allgemeinen mit einem anderen Individuum.",
+      "imageCaption": "Lumbricus terrestris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-162",
+      "animal": "Sacoglossus-Meeresschnecke",
+      "prompt": "Welche Meeresschnecke kann nach der Autotomie einen Körper aus dem Kopf regenerieren?",
+      "options": [
+        "Aplysia californica",
+        "Glaucus atlanticus",
+        "Elysia marginata",
+        "Elysia chlorotica"
+      ],
+      "explanation": "Bei dieser Art kann der Kopf abgelöst und ein neuer Körper regeneriert werden; Der verlassene Körper regeneriert keinen neuen Kopf.",
+      "didYouKnow": "Elysia marginata ist eine Meeresschnecke, die sich von Algen ernährt.",
+      "imageCaption": "Elysia marginata – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-163",
+      "animal": "Meeresschnecke",
+      "prompt": "Warum zeigen manche Nacktschnecken sehr leuchtende Farben?",
+      "options": [
+        "Um Algen in den Mund zu locken",
+        "Um zu signalisieren, dass sie schnell sind",
+        "Um zu warnen, dass sie giftig oder unangenehm zu essen sind",
+        "Um zu warnen, dass es unangenehm sein kann, sie zu essen"
+      ],
+      "explanation": "Aposematische Färbung kann auf chemische Abwehrkräfte hinweisen.",
+      "didYouKnow": "Nashörner, sensorische Tentakel auf den Köpfen vieler Nacktschnecken, spüren Chemikalien im Wasser auf.",
+      "imageCaption": "Chromodoris annae – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-164",
+      "animal": "Meeresschnecke",
+      "prompt": "Welches Sinnesorgan hilft einer Meeresschnecke, Moleküle im Wasser zu erkennen?",
+      "options": [
+        "Pektine",
+        "Nashörner",
+        "Ambulakrale Füße",
+        "Augenflecken"
+      ],
+      "explanation": "Diese chemischen Tentakel sind oft einziehbar.",
+      "didYouKnow": "Meeresschnecken sind Meeresschnecken; Trotz ihres gebräuchlichen Namens sind sie keine Würmer.",
+      "imageCaption": "Chromodoris annae – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-165",
+      "animal": "Seeigel",
+      "prompt": "Welche kleine Krabbe lebt manchmal zwischen den Stacheln eines Seeigels?",
+      "options": [
+        "Die Fangschreckenkrebse",
+        "Der Einsiedlerkrebs",
+        "Die Winkerkrabbe",
+        "Die Zebrakrabbe (Zebrida adamsii)"
+      ],
+      "explanation": "Es profitiert vom Schutz durch die Federkiele.",
+      "didYouKnow": "Der Zebrakrabbe hat auf seinem Panzer dunkle und helle Streifen, die ihm seinen gebräuchlichen Namen geben.",
+      "imageCaption": "Zebrida adamsii – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-166",
+      "animal": "zerbrechlicher Stern",
+      "prompt": "Wie können manche Schlangensterne einem Angriff entgehen?",
+      "options": [
+        "Indem man einen Arm aufgibt, der sich weiter bewegt",
+        "Durch das Ausstoßen seiner Eingeweide",
+        "Durch die Erzeugung eines Tintenstrahls",
+        "Indem man seine zentrale Scheibe in zwei Teile zerbricht"
+      ],
+      "explanation": "Der Verlust des Arms lenkt das Raubtier ab und das Tier kann ihn dann regenerieren.",
+      "didYouKnow": "Schlangensterne sind oft nachts aktiver.",
+      "imageCaption": "Ophiothrix fragilis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-167",
+      "animal": "Pfeilschwanzkrebs",
+      "prompt": "Warum sind Pfeilschwanzkrebseier eine wichtige Ressource für einige Zugvögel?",
+      "options": [
+        "Sie verwandeln sich in essbare Algen",
+        "Sie bleiben vor der Küste in der Wassersäule schweben",
+        "Sie werden von erwachsenen Vögeln in Nester getragen",
+        "An Brutstränden bieten sie reichlich Nahrung."
+      ],
+      "explanation": "Pfeilschwanzkrebse legen Eier im Sand der Gezeitenzonen; Ihre Eier ernähren Vögel, die während ihrer Wanderung dort Halt machen.",
+      "didYouKnow": "Das blaue Blut des Pfeilschwanzkrebses wird in biomedizinischen Tests zum Nachweis bestimmter bakterieller Verunreinigungen verwendet.",
+      "imageCaption": "Limulus polyphemus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-168",
+      "animal": "Pfeilschwanzkrebs",
+      "prompt": "Mit welchem ​​Glied richtet sich der Pfeilschwanzkrebs wieder auf, wenn er umgedreht wird?",
+      "options": [
+        "Es ist Madreporit",
+        "Sein Telson",
+        "Seine Cheliceren",
+        "Seine Kiemen"
+      ],
+      "explanation": "Sie nutzt ihn als Hebel, um sich auf die Bauchseite zu drehen.",
+      "didYouKnow": "Unter dem Bauch hat der Pfeilschwanzkrebs Kiemen in Form übereinanderliegender Blätter.",
+      "imageCaption": "Limulus polyphemus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-169",
+      "animal": "Pfeilschwanzkrebs",
+      "prompt": "Zu welcher Hauptlinie gehören Pfeilschwanzkrebse?",
+      "options": [
+        "Zu den Stachelhäutern",
+        "Mit Weichtieren",
+        "Mit Cheliceraten",
+        "Mit Schalentieren"
+      ],
+      "explanation": "Sie sind Spinnen näher als echten Krabben.",
+      "didYouKnow": "Der Pfeilschwanzkrebs häutet sich mehrmals, bevor er seine Erwachsenengröße erreicht.",
+      "imageCaption": "Limulus polyphemus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-170",
+      "animal": "Nautilus",
+      "prompt": "Wie schützt der Nautilus die Öffnung seines Gehäuses, wenn er sich zurückzieht?",
+      "options": [
+        "Es schließt ein Paar Gelenkventile",
+        "Er verschließt die Öffnung mit einer Tintenwolke",
+        "Er verschließt es mit seiner fleischigen Kapuze.",
+        "Es klebt einen Fleck verhärteten Schleims an der Öffnung"
+      ],
+      "explanation": "Der Nautilus faltet seine Tentakel und bedeckt die Öffnung mit einer aus modifizierten Tentakeln gebildeten Haube.",
+      "didYouKnow": "Der Nautilus hat zahlreiche Tentakel ohne Saugnäpfe.",
+      "imageCaption": "Nautilus pompilius – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-171",
+      "animal": "Nautilus",
+      "prompt": "Welcher Sinn hilft dem Nautilus, im Wasser gelöste Stoffe zu orten?",
+      "options": [
+        "Die Vibrissen",
+        "Linsenaugen",
+        "Pektine",
+        "Der Geruchssinn dank seiner Geruchsorgane"
+      ],
+      "explanation": "Der Nautilus verlässt sich hauptsächlich auf den Geruchssinn, um gelöste Substanzen zu identifizieren und Nahrung zu lokalisieren.",
+      "didYouKnow": "Seine Augen erkennen Licht, haben aber keine Linsen, die mit denen von Tintenfischen vergleichbar sind.",
+      "imageCaption": "Nautilus pompilius – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-172",
+      "animal": "Nautilus",
+      "prompt": "Wie fängt die Nautilus Nahrung mit ihren vielen Anhängseln?",
+      "options": [
+        "Er sammelt sie um den Mund",
+        "Durch das Ansaugen der Beute mit dem Siphon",
+        "Mit einer Radula",
+        "Mit einem Schnabel, der Gift verschießt"
+      ],
+      "explanation": "Seine sauglosen Tentakel verarbeiten Nahrung.",
+      "didYouKnow": "Der Nautilus legt an einer Unterlage befestigte Eier ab, deren Schlüpfen lange dauern kann.",
+      "imageCaption": "Nautilus pompilius – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-173",
+      "animal": "Siphonophor",
+      "prompt": "Warum sieht ein Siphonophor wie ein einzelnes Tier aus, ist aber dennoch eine Kolonie?",
+      "options": [
+        "Seine Zellen gruppieren sich nach jeder Teilung",
+        "Die Kolonie besteht aus mehreren vorübergehend zusammengebrachten Arten",
+        "Es ist ein einzelnes Tier mit vielen Armen",
+        "Seine spezialisierten Individuen, die Zooiden, kooperieren"
+      ],
+      "explanation": "Einige Zoos fangen Nahrung, andere vermehren sich oder schwimmen.",
+      "didYouKnow": "Einige Arten von Tiefsee-Siphonophoren erzeugen Licht.",
+      "imageCaption": "Physalia physalis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-174",
+      "animal": "Siphonophor",
+      "prompt": "Welche Rolle spielen Nektophoren bei manchen Siphonophoren?",
+      "options": [
+        "Sie tragen die Fortpflanzungsorgane",
+        "Sie produzieren Nesselzellen",
+        "Sie filtern Beute",
+        "Sie sorgen für den Vortrieb der Kolonie"
+      ],
+      "explanation": "Diese spezialisierten Zooide kontrahieren und treiben dadurch die ganze Kolonie voran.",
+      "didYouKnow": "Einige Siphonophore haben Zooide, die auf die Fortpflanzung spezialisiert sind.",
+      "imageCaption": "Physophora hydrostatica – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-175",
+      "animal": "Physalia",
+      "prompt": "Welche Auftriebsstruktur hält die Physalia nahe der Oberfläche?",
+      "options": [
+        "Ein schwimmender Eiersack",
+        "Ein mit Gas gefüllter Schwimmer",
+        "Eine Muschel aus Kalkstein",
+        "Eine Schwimmblase"
+      ],
+      "explanation": "Der Floater ist ein spezialisierter Zooid der Kolonie.",
+      "didYouKnow": "Die stechenden Tentakel können weit unter die Oberfläche reichen.",
+      "imageCaption": "Physalia physalis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-176",
+      "animal": "Siphonophor",
+      "prompt": "Welcher Zoo von einigen Siphonophoren ist auf das Fangen und Manipulieren von Beute spezialisiert?",
+      "options": [
+        "Das Daktylozoid.",
+        "Der Nektophor",
+        "Der Pneumatophor",
+        "Der Gonophor"
+      ],
+      "explanation": "Dactylozoids tragen Fangtentakel; Andere Zoos in der Kolonie sorgen für Verdauung oder Antrieb.",
+      "didYouKnow": "Einige Arten von Tiefsee-Siphonophoren erzeugen Licht.",
+      "imageCaption": "Physalia physalis – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-177",
+      "animal": "Ctenophor",
+      "prompt": "Was erzeugt die schillernden Glanzlichter entlang des Körpers eines Ctenophors?",
+      "options": [
+        "Beugung des Lichts an den Reihen von Zilien (Kammreihen)",
+        "Pigmentzellen, die ihre Größe ändern",
+        "Eine Schicht symbiotischer Algen",
+        "Reflexion von Pigmenten im Gewebe"
+      ],
+      "explanation": "Äußeres Licht wird an den Zilienreihen gebeugt und erzeugt regenbogenartige Reflexe. Die schlagenden Zilien dienen auch dem Vortrieb.",
+      "didYouKnow": "Viele Arten von Ctenophoren sind Hermaphroditen und geben ihre Gameten ins Wasser ab.",
+      "imageCaption": "Mnemiopsis leidyi – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-178",
+      "animal": "Ctenophor",
+      "prompt": "Welche klebrige Zelle hilft einigen Ctenophoren, ihre Beute zu fangen?",
+      "options": [
+        "Der Kolloblast",
+        "Die Nematozyste",
+        "Der Choanozyten",
+        "Der Chromatophor"
+      ],
+      "explanation": "Diese adhäsiven Zellen unterscheiden sich von stechenden Nesselzellen.",
+      "didYouKnow": "Ctenophoren sind trotz ihres gallertartigen Körpers keine Quallen.",
+      "imageCaption": "Pleurobrachia Pileus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-179",
+      "animal": "Ctenophor",
+      "prompt": "Welches Sinnesorgan koordiniert die Ausrichtung und Bewegung der Kammreihen in einem Ctenophor?",
+      "options": [
+        "Die Nematozyste",
+        "Der Lophophor",
+        "Madreporit",
+        "Die Statozyste des apikalen Organs."
+      ],
+      "explanation": "Der Statocyst trägt zum Gleichgewicht bei und koordiniert die Zilienreihen, die den Rippenquallen Vortrieb verleihen.",
+      "didYouKnow": "Einige Ctenophoren erzeugen durch Biolumineszenz sichtbares Licht.",
+      "imageCaption": "Mnemiopsis leidyi – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-180",
+      "animal": "fleischfressender Schwamm",
+      "prompt": "Wie fangen manche Tiefseeschwämme kleine Krebstiere?",
+      "options": [
+        "Mit stechenden Nematozysten",
+        "Durch Filterung von Plankton mithilfe von Choanozyten",
+        "Mit Fäden oder Klebehaken",
+        "Durch das Absondern einer Tintenwolke"
+      ],
+      "explanation": "Diese fleischfressenden Schwämme leben dort, wo es schwierig ist, genügend Partikel herauszufiltern.",
+      "didYouKnow": "Schwämme haben kein zentrales Nervensystem und ihr Körper ist um spezialisierte Zellen herum organisiert.",
+      "imageCaption": "Chondrocladia lyra – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-181",
+      "animal": "Glasschwamm",
+      "prompt": "Welches Tier kann als Erwachsener im Glasschwamm „Blumenkorb der Venus“ eingesperrt leben?",
+      "options": [
+        "Eine Winkerkrabbe",
+        "Ein paar kleine Garnelen.",
+        "Ein erwachsener Seestern",
+        "Ein Schwarm Jungfische"
+      ],
+      "explanation": "Zwei Garnelen können in den jungen Schwamm eindringen und dort wachsen, bis sie durch die Öffnungen nicht mehr herauskommen.",
+      "didYouKnow": "Das Skelett des Blumenkorbs der Venus besteht aus zu einem Netzwerk verschmolzenen Kieselsäurenadeln.",
+      "imageCaption": "Euplectella aspergillum – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-182",
+      "animal": "schwarze Koralle",
+      "prompt": "Warum können schwarze Korallen ein dunkles Aussehen haben?",
+      "options": [
+        "Die Farbe seines Skeletts steht im Kontrast zu seinen hellen Polypen",
+        "Es ist mit schwarzen Chromatophoren bedeckt",
+        "Er hat keine lebenden Polypen",
+        "Er sammelt Tinte in seinem Gewebe"
+      ],
+      "explanation": "Der Name bezieht sich auf das Skelett, nicht unbedingt auf die Farbe des lebenden Tieres.",
+      "didYouKnow": "Schwarze Korallenpolypen fangen mit ihren Tentakeln Nahrungspartikel ein.",
+      "imageCaption": "Antipathes dichotoma, ein Vertreter der Schwarzkorallen."
+    },
+    {
+      "id": "unusual-183",
+      "animal": "schwarze Koralle",
+      "prompt": "Welche außergewöhnliche Langlebigkeit wurde für einige schwarze Korallenkolonien geschätzt?",
+      "options": [
+        "Mehrere Jahrhunderte",
+        "Ein paar Monate",
+        "Ein paar Jahrzehnte",
+        "Ein paar Jahre"
+      ],
+      "explanation": "Das langsame Wachstum und das Alter der Kolonien werden anhand ihrer Strukturen geschätzt.",
+      "didYouKnow": "Schwarze Korallen gehören zur Gruppe der Anthozoa.",
+      "imageCaption": "Antipathes dichotoma, ein Vertreter der Schwarzkorallen."
+    },
+    {
+      "id": "unusual-184",
+      "animal": "Pilzkoralle",
+      "prompt": "Wie bewegt sich eine einzelne Pilzkoralle manchmal über den Grund?",
+      "options": [
+        "Verwendung eines Treibmittelsiphons",
+        "Durch Krabbeln mithilfe seiner Podien",
+        "Es kann sein, dass er mit geschwollenem Gewebe aufsteht oder sich umdreht",
+        "Indem er seine Tentakel ablöst und schwimmt"
+      ],
+      "explanation": "Diese Bewegungen helfen ihm, aus einem Sediment aufzutauchen, das ihn begräbt.",
+      "didYouKnow": "Einige Pilzkorallen können sich durch Teilung des Polypen vermehren.",
+      "imageCaption": "Pilzpilze – repräsentative Arten der genannten Gruppe."
+    },
+    {
+      "id": "unusual-185",
+      "animal": "Anemone",
+      "prompt": "Wie kann der Clownfisch vermeiden, von seiner Anemone gestochen zu werden?",
+      "options": [
+        "Leben in einer geliehenen Hülle",
+        "Durch die Absonderung eines neutralisierenden Giftes",
+        "Indem er die Tentakel seiner Anemone frisst",
+        "Sein Schleim begrenzt die Auslösung von Nesselzellen"
+      ],
+      "explanation": "Der Schutz hängt von der Akklimatisierung und der Art ab.",
+      "didYouKnow": "Einige Seeanemonen können sich durch Teilung oder Knospung vermehren.",
+      "imageCaption": "Amphiprion ocellaris – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-186",
+      "animal": "Anemone",
+      "prompt": "Was tut eine Seeanemone, um ihre Beute zu verdauen?",
+      "options": [
+        "Es stößt seine Beute durch den Anus aus",
+        "Sie zerquetscht es mit ihren Zähnen",
+        "Es verdaut es an seinen Tentakeln, ohne es zu schlucken.",
+        "Es führt es in eine gastrovaskuläre Höhle"
+      ],
+      "explanation": "Dort zersetzen Enzyme die Nahrung, bevor sie die Nährstoffe verteilen.",
+      "didYouKnow": "Anemonen sind Nesseltiere aus der Gruppe der Anthozoa und haben kein Quallenstadium.",
+      "imageCaption": "Actinia equina – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-187",
+      "animal": "Anemone",
+      "prompt": "Wie kann sich eine Anemone bewegen, wenn sie nicht festsitzt?",
+      "options": [
+        "Sie kriecht langsam mit ihrer Pedalscheibe",
+        "Sie gräbt mit einer Muschel",
+        "Sie schwimmt, indem sie mit ihren Tentakeln schlägt",
+        "Der Antrieb erfolgt über einen Siphon"
+      ],
+      "explanation": "Manche lösen sich und können sogar ins Wasser treiben.",
+      "didYouKnow": "Anemonen können sich auch durch Teilung oder Knospung vermehren.",
+      "imageCaption": "Actinia equina – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-188",
+      "animal": "Cécile",
+      "prompt": "Wie heißen die quer verlaufenden Hautfalten, die einem Schleichenlurch ein ringförmiges Aussehen verleihen?",
+      "options": [
+        "Annuli (Hautringe)",
+        "Die Flügeldecken",
+        "Die Podien",
+        "Die Cirri"
+      ],
+      "explanation": "Annuli sind quer verlaufende Hautfalten, die ein ringförmiges Aussehen erzeugen; sie entsprechen keiner Segmentierung des Skeletts.",
+      "didYouKnow": "Einige Blindwüchsige bringen lebende Junge zur Welt, während andere ihre Eier unter der Aufsicht eines Elternteils legen.",
+      "imageCaption": "Ichthyophis glutinosus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-189",
+      "animal": "Bdeloid-Rädertierchen",
+      "prompt": "Welche Art der Fortpflanzung wird bei Rädertierchen beobachtet, bei denen keine Männchen beobachtet wurden?",
+      "options": [
+        "Fortpflanzung durch Knospung einer Kolonie",
+        "Fortpflanzung ohne Befruchtung durch Parthenogenese.",
+        "Äußere Befruchtung mit ins Wasser abgegebenen Gameten",
+        "Die Teilung eines erwachsenen Individuums in zwei Hälften"
+      ],
+      "explanation": "Bdelloide produzieren Nachkommen aus unbefruchteten Eiern.",
+      "didYouKnow": "Zu den Bdeloid-Rädertierchen zählen zahlreiche mikroskopisch kleine Arten aus Süßwasser- und Feuchtgebieten.",
+      "imageCaption": "Philodina roseola – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-190",
+      "animal": "Seegurke",
+      "prompt": "Wie können manche Seegurken mit ihren Cuvier-Tubuli ein Raubtier abwehren?",
+      "options": [
+        "Sie werfen abnehmbare Kalksteinkiele",
+        "Sie schließen ihre fünf Arme um das Raubtier",
+        "Sie stoßen klebrige Fäden aus, die sich um den Angreifer verfangen.",
+        "Sie schießen einen Strahl schwarzer Tinte aus ihrem Mund"
+      ],
+      "explanation": "Einige Arten ragen diese Röhrchen aus ihrer Kloake heraus; Sie können sich am Raubtier festhalten und dessen Angriff abwehren.",
+      "didYouKnow": "Seegurken sind Stachelhäuter, Verwandte von Seesternen und Seeigeln.",
+      "imageCaption": "Holothuria forskali – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-191",
+      "animal": "Seestern",
+      "prompt": "Wie erkennen die Augenflecken eines Sterns die Umgebung?",
+      "options": [
+        "Sie erkennen Geräusche unter Wasser",
+        "Sie ergeben ein detailliertes Farbbild",
+        "Sie nehmen Licht und Kontraste wahr",
+        "Sie messen den Salzgehalt mit Linsen"
+      ],
+      "explanation": "Sie befinden sich häufig am Ende jedes Arms.",
+      "didYouKnow": "Seesterne bewegen sich mit ihren Röhrenfüßen durch ein Netzwerk wassergefüllter Kanäle.",
+      "imageCaption": "Asterias rubens – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-192",
+      "animal": "Seeigel",
+      "prompt": "Welches Interesse haben giftige Pedicellarien an bestimmten Seeigeln?",
+      "options": [
+        "Hängen Sie den Seeigel an die Algen",
+        "Vertreibt kleine Raubtiere oder Parasiten",
+        "Filtern Sie das Plankton um den Test herum",
+        "Helfen Sie mit, den Sand auszugraben"
+      ],
+      "explanation": "Diese winzigen Zangen schließen sich bei Kontakt mit einem Organismus.",
+      "didYouKnow": "Seeigel haben ein inneres Skelett aus Kalkplatten, das als Test bezeichnet wird.",
+      "imageCaption": "Toxopneustes Pileolus – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-193",
+      "animal": "Crinoid",
+      "prompt": "Wie kann sich eine Komatula bewegen, obwohl sie wie eine Feder aussieht?",
+      "options": [
+        "Indem man ihre zentrale Scheibe wellenförmig macht",
+        "Sie schwimmt mit Armbewegungen oder krabbelt mit Cirri",
+        "Indem sie Wasser mit dem Mund pumpen",
+        "Mit einer Zange gehen"
+      ],
+      "explanation": "Cirren sind kleine Anhänge, mit denen sich das Tier am Untergrund festhält.",
+      "didYouKnow": "Comatulae fangen schwebende Partikel mit ihren Armen auf, die mit kleinen ambulakralen Füßen bedeckt sind.",
+      "imageCaption": "Antedon mediterranea – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-194",
+      "animal": "Schnecke",
+      "prompt": "Wie kann der Seehase ein Raubtier verwirren, wenn er gestört wird?",
+      "options": [
+        "Es gibt Tinte ab, manchmal begleitet von einer opalen Sekretion",
+        "Es setzt Nesselzellen frei",
+        "Es projiziert eine Verteidigungshülle",
+        "Er stößt blaues Blut aus"
+      ],
+      "explanation": "Tinte und Abwehrsekrete können eine Wolke bilden, die ein Raubtier ablenkt oder stört.",
+      "didYouKnow": "Viele Seehasen haben als Erwachsene keinen sichtbaren Außenpanzer.",
+      "imageCaption": "Aplysia californica – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-195",
+      "animal": "Seehase",
+      "prompt": "Welches Fortpflanzungsverhalten kann bei manchen Seehasen lange Ketten bilden?",
+      "options": [
+        "Erwachsene teilen sich in Klonketten",
+        "Die Eier sind in einer Kette an den Tentakeln befestigt",
+        "Männchen tragen Weibchen in ihren Panzern",
+        "In einer Linie paaren sich mehrere Individuen, die jeweils beide Geschlechtsrollen einnehmen können."
+      ],
+      "explanation": "Seehasen sind Hermaphroditen und können Paarungsketten bilden.",
+      "didYouKnow": "Seehasen haben Nashörner auf dem Kopf, die oft mit kleinen Hasenohren verglichen werden.",
+      "imageCaption": "Aplysia californica – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-196",
+      "animal": "Kammqualle",
+      "prompt": "Wie erzeugt ein biolumineszierender Ctenophor manchmal Licht?",
+      "options": [
+        "Mit ihren Wimpernreihen",
+        "Durch in seiner Nahrung aufgenommene Pigmente",
+        "Durch biochemische Reaktionen in seinen Geweben",
+        "Reflektiert die Sonnenstrahlen"
+      ],
+      "explanation": "Biolumineszenz kann als Abwehr oder als Signal dienen.",
+      "didYouKnow": "Regenbogen-Highlights von Kämmen sind ein ausgeprägtes optisches Phänomen.",
+      "imageCaption": "Mnemiopsis leidyi – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-197",
+      "animal": "Schwamm",
+      "prompt": "Wie entfernen Schwämme ihre stickstoffhaltigen Abfälle?",
+      "options": [
+        "Mit einer Niere",
+        "Indem man sie in einer Hülle speichert",
+        "Durch eine Schwimmblase",
+        "Durch Diffusion im durch sie fließenden Wasserstrom"
+      ],
+      "explanation": "Der kontinuierliche Fluss evakuiert Abfall und erneuert gelöste Gase.",
+      "didYouKnow": "Einige Schwämme beherbergen sehr reiche mikrobielle Gemeinschaften.",
+      "imageCaption": "Aplysina aerophoba – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-198",
+      "animal": "Seestern",
+      "prompt": "Welche Symmetrie hat eine Seesternlarve vor der Metamorphose?",
+      "options": [
+        "Spiralsymmetrie",
+        "Keine Körpersymmetrie",
+        "Bilaterale Symmetrie.",
+        "Fünfachsige Radialsymmetrie"
+      ],
+      "explanation": "Die schwimmende Larve hat eine linke und eine rechte Seite; Die radiale Organisation erscheint während der Metamorphose.",
+      "didYouKnow": "Seesterne bewegen ihre Röhrenfüße durch ein internes Netzwerk wassergefüllter Kanäle.",
+      "imageCaption": "Asterias rubens – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-199",
+      "animal": "Qualle Turritopsis dohrnii",
+      "prompt": "Was kann die Qualle Turritopsis dohrnii nach Stress oder Verletzung tun?",
+      "options": [
+        "Verwandle dich in eine Korallenkolonie",
+        "Regenerieren Sie alle Quallenarten in ihrer Umgebung",
+        "In zwei identische erwachsene Quallen aufgeteilt",
+        "Kehren Sie vom Quallenstadium zum Polypenstadium zurück."
+      ],
+      "explanation": "Unter bestimmten Bedingungen kann es sein Gewebe neu organisieren und seinen Lebenszyklus umkehren; das macht sie nicht unverwundbar oder buchstäblich unsterblich.",
+      "didYouKnow": "Die Glocke von Turritopsis dohrnii misst nur wenige Millimeter.",
+      "imageCaption": "Turritopsis dohrnii – repräsentative Art der genannten Gruppe."
+    },
+    {
+      "id": "unusual-200",
+      "animal": "Tintenfisch",
+      "prompt": "Was ist der Gladius eines Tintenfischs?",
+      "options": [
+        "Eine starre spiralförmige Außenhülle",
+        "Eine dünne und flexible Innenschale",
+        "Ein äußerer Kalkknochen",
+        "Eine Tüte Tinte"
+      ],
+      "explanation": "Es stützt den Mantel und stellt einen Überrest einer Muschel dar.",
+      "didYouKnow": "Bei vielen Tintenfischen ermöglicht der Siphon den Wasserstrahlantrieb.",
+      "imageCaption": "Doryteuthis pealeii – repräsentative Art der genannten Gruppe."
+    }
+  ]
+}

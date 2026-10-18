@@ -1,8 +1,12 @@
+import { createECDH } from 'crypto';
+import * as nodemailer from 'nodemailer';
+import { validTimeZone } from './notification-schedule';
 import {
   BadRequestException,
   ForbiddenException,
   Injectable,
   Logger,
+  ServiceUnavailableException,
 } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
@@ -23,6 +27,101 @@ export class NotificationsService {
     /** Web Push + push natif (W6-07). */
     private readonly pushSender: PushDispatcher,
   ) {}
+
+  private vapidDetails() {
+    const publicKey = process.env.VAPID_PUBLIC_KEY || '';
+    const privateKey = process.env.VAPID_PRIVATE_KEY || '';
+    const subject = process.env.VAPID_SUBJECT || 'mailto:contact@captivia.com';
+    try {
+      const pair = createECDH('prime256v1');
+      pair.setPrivateKey(Buffer.from(privateKey, 'base64url'));
+      if (
+        pair.getPublicKey().toString('base64url') !== publicKey ||
+        !/^(mailto:|https:\/\/)/.test(subject)
+      )
+        return null;
+      return { publicKey, privateKey, subject };
+    } catch {
+      return null;
+    }
+  }
+
+  getCapabilities() {
+    const vapid = this.vapidDetails();
+    return {
+      push: !!vapid,
+      email: !!(process.env.MAIL_HOST && process.env.MAIL_FROM),
+      publicKey: vapid?.publicKey || null,
+    };
+  }
+
+  async sendEmail(to: string, payload: PushReminderPayload) {
+    if (!this.getCapabilities().email)
+      throw new ServiceUnavailableException(
+        'Les rappels par email ne sont pas configurés.',
+      );
+    const transport = nodemailer.createTransport({
+      host: process.env.MAIL_HOST,
+      port: Number(process.env.MAIL_PORT || 587),
+      secure: process.env.MAIL_SECURE === 'true',
+      requireTLS:
+        process.env.MAIL_REQUIRE_TLS !== 'false' &&
+        process.env.NODE_ENV === 'production',
+      auth: process.env.MAIL_USER
+        ? { user: process.env.MAIL_USER, pass: process.env.MAIL_PASS }
+        : undefined,
+      connectionTimeout: 10000,
+      greetingTimeout: 10000,
+      socketTimeout: 15000,
+    });
+    const result = await transport.sendMail({
+      from: process.env.MAIL_FROM,
+      to,
+      subject: payload.title,
+      text: payload.body,
+    });
+    if (!result.accepted?.length)
+      throw new Error('Email refusé par le serveur SMTP.');
+  }
+
+  async sendTestNotification(userId: string) {
+    const prefs = await this.getNotificationPreferences(userId);
+    const capabilities = this.getCapabilities();
+    if (
+      (prefs.deliveryChannel !== 'email' && !capabilities.push) ||
+      (prefs.deliveryChannel !== 'push' && !capabilities.email)
+    )
+      throw new ServiceUnavailableException(
+        'Un canal de réception est indisponible.',
+      );
+    const payload = {
+      title: 'Test Captivia',
+      body: 'Vos notifications Captivia sont opérationnelles.',
+      icon: '/icon.png',
+    };
+    let sent = 0;
+    let failed = 0;
+    if (prefs.deliveryChannel !== 'email') {
+      const result = await this.sendNotification(userId, payload);
+      sent += result.sent ? 1 : 0;
+      failed += result.sent ? 0 : 1;
+    }
+    if (prefs.deliveryChannel !== 'push') {
+      const user = await this.prisma.user.findUniqueOrThrow({
+        where: { id: userId },
+        select: { email: true },
+      });
+      try {
+        if (!user.email) throw new BadRequestException('An email address is required');
+        await this.sendEmail(user.email, payload);
+        sent++;
+      } catch {
+        failed++;
+        this.logger.warn('La notification email de test n’a pas été acceptée.');
+      }
+    }
+    return { sent, failed };
+  }
 
   async subscribeToPush(
     userId: string,
@@ -156,9 +255,14 @@ export class NotificationsService {
     userId: string,
     data: UpdateNotificationPreferencesDto,
   ) {
+    if (data.timeZone !== undefined) {
+      if (!validTimeZone(data.timeZone)) throw new BadRequestException('Invalid time zone');
+      await this.prisma.user.update({ where: { id: userId }, data: { timezone: data.timeZone } });
+    }
     const existing = await this.getNotificationPreferences(userId);
 
     const updateData: Prisma.NotificationPreferenceUpdateInput = {};
+    if (data.timeZone !== undefined) updateData.timeZone = data.timeZone;
     if (data.types !== undefined) updateData.types = data.types;
     // DTO validés (objets simples) : stockés tels quels dans les colonnes JSON.
     if (data.typeSchedules !== undefined)

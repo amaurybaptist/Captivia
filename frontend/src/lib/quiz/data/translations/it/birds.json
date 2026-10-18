@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "f73d2fa614b144ab422070e253ea9d319bf07fe9bb00f11624b72666973debf7",
+  "locale": "it",
+  "questions": [
+    {
+      "id": "birds-001",
+      "animal": "Aquila reale",
+      "prompt": "Quali sono gli scopi principali delle ampie ali dell'aquila reale?",
+      "options": [
+        "Veleggiare sfruttando le correnti ascensionali",
+        "Accelerare battendo velocemente nel sottobosco",
+        "Nuotare spingendo l'acqua",
+        "Scavare il terreno in un ventaglio"
+      ],
+      "explanation": "Le ampie ali consentono all’aquila reale di percorrere grandi territori planando e risparmiando energia.",
+      "didYouKnow": "Le aquile reali possono riutilizzare e ampliare lo stesso nido per più stagioni riproduttive.",
+      "imageCaption": "Aquila reale"
+    },
+    {
+      "id": "birds-002",
+      "animal": "Albatro errante",
+      "prompt": "Quale meccanismo di volo permette all'albatro errante di sfruttare i venti sopra le onde?",
+      "options": [
+        "Alterna fasi di salita e discesa per sfruttare le variazioni del vento.",
+        "Si libra nel vento, sbattendo rapidamente le ali.",
+        "Ruota continuamente in colonne di aria calda sopra la terra.",
+        "Batte costantemente le ali per spostarsi alla stessa altezza sopra l'acqua."
+      ],
+      "explanation": "Il volo dinamico dell'albatro sfrutta le differenze nella velocità del vento a varie altezze sopra le onde, permettendogli di percorrere lunghe distanze con pochi battiti.",
+      "didYouKnow": "Gli albatros tornano nelle isole per riprodursi.",
+      "imageCaption": "Albatro errante"
+    },
+    {
+      "id": "birds-003",
+      "animal": "Pinguino imperatore",
+      "prompt": "Come fa il pinguino imperatore a proteggere il suo uovo dal contatto con il ghiaccio?",
+      "options": [
+        "Tiene l’uovo sui piedi, sotto una piega di pelle piumata.",
+        "Lo depone in un nido scavato nel ghiaccio",
+        "Lo incastra tra le pietre riscaldate dal sole",
+        "Lo porta nel becco mentre nuota"
+      ],
+      "explanation": "Il genitore evita il contatto con il ghiaccio sostenendo l’uovo sui piedi, sotto una piega di pelle ricoperta di piume.",
+      "didYouKnow": "Entrambi i genitori si alternano nella cova, ma il maschio svolge la maggior parte dell’incubazione durante l’inverno antartico.",
+      "imageCaption": "Pinguino imperatore"
+    },
+    {
+      "id": "birds-004",
+      "animal": "Struzzo",
+      "prompt": "Qual è la principale modalità di movimento dello struzzo?",
+      "options": [
+        "Correre",
+        "Il volo battuto",
+        "Nuotare sotto il ghiaccio",
+        "Scivolando dalle scogliere"
+      ],
+      "explanation": "Lo struzzo non vola; le sue lunghe zampe sono adatte alla corsa veloce.",
+      "didYouKnow": "Lo struzzo ha due dita per piede, mentre la maggior parte degli uccelli ne ha quattro.",
+      "imageCaption": "Struzzo"
+    },
+    {
+      "id": "birds-005",
+      "animal": "Il colibrì di Anna",
+      "prompt": "Quale proprietà del battito delle ali aiuta il colibrì di Anna a restare sospeso?",
+      "options": [
+        "Genera portanza sia nella fase discendente sia in quella ascendente del battito.",
+        "Produce portanza solo sulla via del ritorno, quindi lascia che l'uccello scenda leggermente.",
+        "Blocca le ali durante ogni ciclo e utilizza principalmente le correnti d'aria.",
+        "Alterna un battito potente con una lunga fase di scivolamento."
+      ],
+      "explanation": "I colibrì generano portanza in entrambe le fasi del battito alare e possono così restare sospesi davanti a un fiore.",
+      "didYouKnow": "Il colibrì di Anna può entrare in torpore nelle notti fredde, riducendo temporaneamente il consumo energetico.",
+      "imageCaption": "Il colibrì di Anna"
+    },
+    {
+      "id": "birds-006",
+      "animal": "Picchio rosso maggiore",
+      "prompt": "Qual è lo scopo comune del tamburellare del picchio rosso maggiore su un tronco?",
+      "options": [
+        "Per comunicare con altri picchi, spesso segnalando il territorio.",
+        "Per sondare la profondità dell'acqua",
+        "Per attirare i pesci vicino alla riva",
+        "Asciugare le piume dopo la pioggia"
+      ],
+      "explanation": "Il tamburellamento è un segnale sonoro usato soprattutto nelle interazioni territoriali.",
+      "didYouKnow": "Le penne rigide della coda aiutano il picchio a sostenersi mentre si arrampica sui tronchi.",
+      "imageCaption": "Picchio rosso maggiore"
+    },
+    {
+      "id": "birds-007",
+      "animal": "Fenicottero",
+      "prompt": "Come fa il fenicottero a procurarsi gran parte del suo cibo?",
+      "options": [
+        "Filtrando piccoli organismi dall'acqua e dal fango",
+        "Infilzando il pesce da un trespolo",
+        "Sgusciare i semi con il becco incrociato",
+        "Catturando gli insetti mentre si libra"
+      ],
+      "explanation": "Le lame del becco trattengono piccoli crostacei, alghe e altri organismi.",
+      "didYouKnow": "I carotenoidi presenti in alcuni alimenti contribuiscono al colore rosa del suo piumaggio.",
+      "imageCaption": "Fenicottero"
+    },
+    {
+      "id": "birds-008",
+      "animal": "Allocco",
+      "prompt": "In che modo l'asimmetria delle orecchie dell'allocco aiuta a localizzare le prede nascoste?",
+      "options": [
+        "Le piccole differenze di tempo e di intensità tra le orecchie forniscono informazioni sulla direzione del suono.",
+        "Amplifica solo i suoni acuti emessi dalla preda.",
+        "Trasforma i suoni in segnali visivi quando la luce è scarsa.",
+        "Blocca i suoni provenienti dal terreno per isolare quelli provenienti dai rami."
+      ],
+      "explanation": "La posizione e l'asimmetria delle orecchie aiutano il gufo a confrontare i suoni ricevuti da ciascun lato e a stimare da dove proviene la preda.",
+      "didYouKnow": "Come altri gufi, rigurgita pellet contenenti resti non digeriti della preda.",
+      "imageCaption": "Allocco"
+    },
+    {
+      "id": "birds-009",
+      "animal": "Rondine di fienile",
+      "prompt": "Perché le rondini migrano verso zone più calde in inverno?",
+      "options": [
+        "Per trovare altri insetti volanti disponibili",
+        "Per trovare le cavità degli alberi senza neve",
+        "Per evitare tutta la pioggia e il vento",
+        "Per deporre le uova in terreni più asciutti"
+      ],
+      "explanation": "La migrazione lo porta in regioni dove gli insetti di cui si nutre rimangono accessibili.",
+      "didYouKnow": "Cattura la maggior parte delle sue prede in volo.",
+      "imageCaption": "Rondine di fienile"
+    },
+    {
+      "id": "birds-010",
+      "animal": "Anatra selvatica",
+      "prompt": "Qual è lo scopo della membrana tra le dita del germano reale?",
+      "options": [
+        "Per aumentare la spinta delle zampe nell'acqua",
+        "Aggrapparsi a tronchi lisci",
+        "Scavare cavità di nidificazione",
+        "Per afferrare i semi dai rami"
+      ],
+      "explanation": "La cinghia aumenta la superficie che spinge l'acqua quando l'anatra nuota.",
+      "didYouKnow": "Il germano reale è l'antenato di numerose razze di anatre domestiche.",
+      "imageCaption": "Anatra selvatica"
+    },
+    {
+      "id": "birds-011",
+      "animal": "Pellicano bianco",
+      "prompt": "A cosa serve la custodia espandibile sul becco del pellicano?",
+      "options": [
+        "Per catturare temporaneamente i pesci",
+        "Per immagazzinare aria durante il volo",
+        "Per trasportare le uova in modo sostenibile",
+        "Per filtrare il sale dall'acqua di mare"
+      ],
+      "explanation": "La borsa funziona come una rete temporanea per catturare i pesci nell'acqua.",
+      "didYouKnow": "I pellicani spesso nidificano in colonie, a volte su isole o siti costieri.",
+      "imageCaption": "Pellicano bianco"
+    },
+    {
+      "id": "birds-012",
+      "animal": "Cicogna bianca",
+      "prompt": "In che modo la cicogna bianca risparmia energia durante parte della sua migrazione?",
+      "options": [
+        "Planando sopra la terra sulle correnti ascensionali di aria calda.",
+        "Mentre si nuota nelle correnti marine",
+        "Scavando rifugi per riposarsi in volo",
+        "Sbattendo costantemente le ali alla massima velocità"
+      ],
+      "explanation": "Le correnti termiche aiutano la cicogna a salire e poi a planare con meno battiti d’ala.",
+      "didYouKnow": "Le cicogne bianche nidificano spesso su strutture costruite dall’uomo, come tetti e piattaforme.",
+      "imageCaption": "Cicogna bianca"
+    },
+    {
+      "id": "birds-013",
+      "animal": "Martin pescatore europeo",
+      "prompt": "In che modo il martin pescatore europeo cattura spesso un piccolo pesce?",
+      "options": [
+        "Si tuffa da un posatoio dopo aver avvistato il pesce.",
+        "Filtra il fango con le zampe",
+        "Pesca i pesci sugli alberi",
+        "Lo insegue sott'acqua mentre nuota a lungo"
+      ],
+      "explanation": "Il martin pescatore osserva l’acqua da un posatoio e poi si tuffa per afferrare la preda.",
+      "didYouKnow": "Scava un tunnel per il nido in una riva o in un altro pendio di terra.",
+      "imageCaption": "Martin pescatore europeo"
+    },
+    {
+      "id": "birds-014",
+      "animal": "Corvo comune",
+      "prompt": "Quale capacità è stata osservata in diverse specie di corvidi?",
+      "options": [
+        "Usa o modifica oggetti per accedere al cibo",
+        "Produrre il latte per i loro pulcini",
+        "Respira sott'acqua grazie alle loro piume",
+        "Coltivazione di semi nelle cavità"
+      ],
+      "explanation": "I corvidi a volte utilizzano strumenti per raggiungere cibo a cui altrimenti sarebbe di difficile accesso.",
+      "didYouKnow": "La famiglia dei corvidi comprende corvi imperiali, cornacchie e ghiandaie.",
+      "imageCaption": "Corvo comune"
+    },
+    {
+      "id": "birds-015",
+      "animal": "Ghiandaia eurasiatica",
+      "prompt": "Che ruolo può svolgere la ghiandaia nella rigenerazione delle foreste?",
+      "options": [
+        "Spargi le ghiande che ha nascosto",
+        "Impollinare le querce bevendone la linfa",
+        "Scavando cavità sott'acqua dove germinano le ghiande",
+        "Evita che le ghiande cadano dagli alberi"
+      ],
+      "explanation": "Le ghiande dimenticate nei loro nascondigli possono germogliare lontano dall'albero genitore.",
+      "didYouKnow": "La ghiandaia ha una macchia blu striata sull'ala, chiaramente visibile nel suo piumaggio marrone.",
+      "imageCaption": "Ghiandaia eurasiatica"
+    },
+    {
+      "id": "birds-016",
+      "animal": "Cinciallegra",
+      "prompt": "Dove cercano spesso i piccoli insetti le cinciallegre?",
+      "options": [
+        "Nelle fessure e sotto le foglie",
+        "In fondo a laghi profondi",
+        "Nelle tane dei grandi mammiferi",
+        "Sotto la sabbia delle spiagge"
+      ],
+      "explanation": "Esplora i rami e il fogliame alla ricerca di piccoli invertebrati.",
+      "didYouKnow": "Frequenta prontamente anche le mangiatoie in inverno.",
+      "imageCaption": "Cinciallegra"
+    },
+    {
+      "id": "birds-017",
+      "animal": "Pettirosso",
+      "prompt": "Perché a volte il pettirosso segue una persona che rivolta la terra?",
+      "options": [
+        "Il terreno disturbato può rivelare vermi e altri invertebrati",
+        "Il suono della pala attira i pesci in superficie",
+        "Raccoglie i semi gettati dagli strumenti",
+        "Usa la pala per costruire il suo nido"
+      ],
+      "explanation": "La lavorazione del terreno a volte rende accessibili piccole prede nascoste nel terreno.",
+      "didYouKnow": "Il pettirosso spesso difende il suo territorio dai suoi simili.",
+      "imageCaption": "Pettirosso"
+    },
+    {
+      "id": "birds-018",
+      "animal": "barbagianni",
+      "prompt": "Quale struttura aiuta il barbagianni a captare i suoni?",
+      "options": [
+        "Il suo disco facciale, che dirige i suoni alle orecchie",
+        "Una cresta che vibra come un'antenna",
+        "Una membrana trasparente sul becco",
+        "Piume rigide sotto le gambe"
+      ],
+      "explanation": "La forma del disco facciale aiuta a convogliare i suoni nelle orecchie.",
+      "didYouKnow": "Il suo volo è silenzioso grazie alla particolare struttura delle sue piume.",
+      "imageCaption": "barbagianni"
+    },
+    {
+      "id": "birds-019",
+      "animal": "Falco pellegrino",
+      "prompt": "Quale tattica di caccia è famosa nel falco pellegrino?",
+      "options": [
+        "Tuffati rapidamente dall'aria per intercettare un uccello",
+        "Insegui la preda per molto tempo sott'acqua",
+        "Costruisci una trappola con ramoscelli",
+        "Caccia circondando la tua preda in gruppi sul terreno"
+      ],
+      "explanation": "Il falco pellegrino può planare dall'alto per intercettare gli uccelli in volo.",
+      "didYouKnow": "Nidifica sulle scogliere e talvolta sugli alti edifici delle città.",
+      "imageCaption": "Falco pellegrino"
+    },
+    {
+      "id": "birds-020",
+      "animal": "Poiana",
+      "prompt": "Quali prede cattura comunemente la Poiana nei paesaggi aperti?",
+      "options": [
+        "Piccoli mammiferi come le arvicole",
+        "Meduse e piccoli crostacei",
+        "Nettare raccolto dai fiori",
+        "Semi estratti dai coni"
+      ],
+      "explanation": "La sua dieta è opportunistica, ma i piccoli mammiferi spesso costituiscono prede importanti.",
+      "didYouKnow": "Può librarsi in circolo sopra il suo territorio.",
+      "imageCaption": "Poiana"
+    },
+    {
+      "id": "birds-021",
+      "animal": "Grifone",
+      "prompt": "Quale ruolo ecologico svolge il grifone?",
+      "options": [
+        "Consumare le carcasse e accelerarne il riciclaggio",
+        "Spargi le ghiande nascondendole",
+        "Pulizia delle squame di pesci vivi",
+        "Impollinare i fiori della scogliera"
+      ],
+      "explanation": "Consumando le carcasse, contribuisce al riciclaggio della materia organica.",
+      "didYouKnow": "Il grifone può sfruttare le correnti ascensionali per planare senza sbattere continuamente le ali.",
+      "imageCaption": "Grifone"
+    },
+    {
+      "id": "birds-022",
+      "animal": "Garzetta",
+      "prompt": "In che modo le garzette spesso catturano le prede in acque poco profonde?",
+      "options": [
+        "Osserva o agita l'acqua per far emergere la preda",
+        "Cattura gli insetti con una ragnatela",
+        "Si tuffa da una grande altezza",
+        "Scava una tana per intrappolare i pesci."
+      ],
+      "explanation": "Caccia pesci e invertebrati nelle zone umide poco profonde.",
+      "didYouKnow": "Le sue dita gialle contrastano con le sue zampe scure.",
+      "imageCaption": "Garzetta"
+    },
+    {
+      "id": "birds-023",
+      "animal": "Airone cenerino",
+      "prompt": "Come fa spesso l'airone cenerino a catturare un pesce?",
+      "options": [
+        "Resta immobile poi lancia velocemente il becco",
+        "Filtra l'acqua con lamelle",
+        "Succhia il pesce con le sue piume",
+        "Lo circonda con il collo prima di afferrarlo"
+      ],
+      "explanation": "L'airone caccia spesso restando in agguato e afferra rapidamente i pesci con il becco.",
+      "didYouKnow": "Può anche cercare la preda nei campi, lontano dall'acqua.",
+      "imageCaption": "Airone cenerino"
+    },
+    {
+      "id": "birds-024",
+      "animal": "Gru comune",
+      "prompt": "A cosa possono servire le danze comuni della gru?",
+      "options": [
+        "Interazioni sociali e corteggiamento.",
+        "Per costruire una diga di fango",
+        "Nutrire i pesci adulti",
+        "Per far galleggiare il nido"
+      ],
+      "explanation": "Salti e movimenti delle ali fanno parte delle esibizioni e delle interazioni sociali delle gru.",
+      "didYouKnow": "Le gru comuni formano spesso legami di coppia duraturi.",
+      "imageCaption": "Gru comune"
+    },
+    {
+      "id": "birds-025",
+      "animal": "Pavone",
+      "prompt": "Qual è lo scopo principale della lunga coda del pavone maschio?",
+      "options": [
+        "Al corteggiamento",
+        "Per scavare una tana",
+        "Per librarsi sopra il mare",
+        "Per regolare la temperatura durante il nuoto"
+      ],
+      "explanation": "Il maschio mostra le sue piume colorate durante le esibizioni destinate ai partner.",
+      "didYouKnow": "Il pavone blu si nutre a terra di una varietà di cibi, inclusi semi, frutti e piccoli animali.",
+      "imageCaption": "Pavone"
+    },
+    {
+      "id": "birds-026",
+      "animal": "Struzzo",
+      "prompt": "Chi di solito partecipa all'incubazione delle uova di struzzo durante la notte?",
+      "options": [
+        "Il maschio.",
+        "La femmina sola",
+        "Entrambi i genitori fianco a fianco",
+        "Un altro maschio del gruppo"
+      ],
+      "explanation": "Di solito il maschio cova di notte, mentre la femmina si occupa soprattutto della cova diurna.",
+      "didYouKnow": "I piccoli di struzzo possono lasciare il nido poco dopo la schiusa.",
+      "imageCaption": "Struzzo"
+    },
+    {
+      "id": "birds-027",
+      "animal": "Piccione selvatico",
+      "prompt": "Quali indizi può combinare un piccione per trovare la sua tana?",
+      "options": [
+        "Segnali visivi e indizi relativi al sole o al campo magnetico",
+        "Solo il profumo dei fiori",
+        "Le impronte lasciate dai suoi coetanei",
+        "Ultrasuoni emessi dagli edifici"
+      ],
+      "explanation": "L'orientamento dei piccioni può mobilitare diversi segnali ambientali piuttosto che un singolo segnale.",
+      "didYouKnow": "I piccioni urbani discendono dai piccioni torraioli domestici.",
+      "imageCaption": "Piccione selvatico"
+    },
+    {
+      "id": "birds-028",
+      "animal": "Tortora dal collare",
+      "prompt": "Di cosa si nutre principalmente la colomba turca?",
+      "options": [
+        "Dai semi",
+        "Meduse",
+        "Legno vivo",
+        "Molluschi marini"
+      ],
+      "explanation": "Consuma prevalentemente semi e frequenta spesso i centri abitati.",
+      "didYouKnow": "Il suo colletto nero sulla parte posteriore del collo aiuta a riconoscerla.",
+      "imageCaption": "Tortora dal collare"
+    },
+    {
+      "id": "birds-029",
+      "animal": "Pavoncella",
+      "prompt": "Come può la Pavoncella attirare un predatore lontano dal suo nido?",
+      "options": [
+        "Simulando il comportamento infortunato",
+        "Lanciando sassi con il becco",
+        "Ricoprendo le uova con piume luminose",
+        "Chiamando un mammifero predatore"
+      ],
+      "explanation": "Un adulto può attirare l'attenzione lontano dal nido con un'esibizione diversiva.",
+      "didYouKnow": "Frequenta spesso prati e campi umidi.",
+      "imageCaption": "Pavoncella"
+    },
+    {
+      "id": "birds-030",
+      "animal": "Piovanello da sole",
+      "prompt": "Qual è lo scopo del becco del piovanello quando cerca il cibo nel fango?",
+      "options": [
+        "Sondare il substrato per trovare piccoli invertebrati",
+        "Per rompere le noci dure",
+        "Per portare i tuoi pulcini in volo",
+        "Per filtrare le alghe dall'aria"
+      ],
+      "explanation": "Il suo becco esplora il fango dove si nascondono piccoli animali.",
+      "didYouKnow": "Durante la migrazione, il piovanello piovano può riunirsi in grandi gruppi sulle distese fangose.",
+      "imageCaption": "Piovanello da sole"
+    },
+    {
+      "id": "birds-031",
+      "animal": "Beccaccia di mare",
+      "prompt": "Come fa la beccaccia di mare ad aprire alcune prede sgusciate?",
+      "options": [
+        "Usando il suo robusto becco per aprirli o sondarli",
+        "Sciogliendo il guscio con il veleno",
+        "Rompendo il guscio con le ali",
+        "Ingoiando pietre per aprirlo nel raccolto"
+      ],
+      "explanation": "Il suo becco permette di aprire i molluschi o di cercare i vermi, a seconda della tecnica utilizzata.",
+      "didYouKnow": "La beccaccia di mare ha un lungo becco rosso-arancio e zampe dello stesso colore.",
+      "imageCaption": "Beccaccia di mare"
+    },
+    {
+      "id": "birds-032",
+      "animal": "Avocetta pezzata",
+      "prompt": "Come fa spesso l'avocetta nera a catturare piccole prede?",
+      "options": [
+        "Attraversa acque poco profonde con il becco ricurvo verso l'alto.",
+        "Si tuffa a grandi profondità dall'aria",
+        "Scava i tronchi con le zampe",
+        "Cattura gli insetti con la lingua appiccicosa"
+      ],
+      "explanation": "Muove il becco in acque poco profonde per catturare piccoli invertebrati.",
+      "didYouKnow": "L'Avocetta nera costruisce il nido in una piccola depressione del terreno, spesso in prossimità di una zona umida.",
+      "imageCaption": "Avocetta pezzata"
+    },
+    {
+      "id": "birds-033",
+      "animal": "Gabbiano comune",
+      "prompt": "Perché i gabbiani comuni cambiano spesso le aree di alimentazione?",
+      "options": [
+        "Sfrutta risorse diverse a seconda della loro disponibilità",
+        "Dipende sempre da una singola specie di pesce",
+        "Può mangiare solo durante l'alta marea",
+        "Si nutre solo di semi di canna."
+      ],
+      "explanation": "Questa specie opportunista cerca cibo sia sull'acqua che sulla terra.",
+      "didYouKnow": "Il suo cappuccio marrone appare soprattutto durante la stagione riproduttiva.",
+      "imageCaption": "Gabbiano comune"
+    },
+    {
+      "id": "birds-034",
+      "animal": "Gabbiano reale",
+      "prompt": "Quale comportamento potrebbe usare un gabbiano reale per aprire una conchiglia?",
+      "options": [
+        "Facendola cadere su una superficie dura.",
+        "Coprilo nella sabbia",
+        "Strofinalo contro una piuma",
+        "Fallo galleggiare finché non si apre"
+      ],
+      "explanation": "Alcuni gabbiani lasciano cadere prede con guscio su un terreno duro per romperle.",
+      "didYouKnow": "I gabbiani reali possono bere acqua dolce e salata; le ghiandole del sale eliminano quello in eccesso.",
+      "imageCaption": "Gabbiano reale"
+    },
+    {
+      "id": "birds-035",
+      "animal": "Sterna artica",
+      "prompt": "Tra quali regioni migrano spesso le sterne artiche?",
+      "options": [
+        "L'Artico e l'Antartide",
+        "Le Alpi e i Pirenei",
+        "Il Mediterraneo e il Mar Nero",
+        "Il Sahara e la foresta amazzonica"
+      ],
+      "explanation": "Migra tra le aree di riproduzione artiche e le aree antartiche non riproduttive.",
+      "didYouKnow": "La sterna artica nidifica spesso sul terreno, in prossimità delle coste o sulle isole.",
+      "imageCaption": "Sterna artica"
+    },
+    {
+      "id": "birds-036",
+      "animal": "Pulcinella di mare",
+      "prompt": "In che modo le pulcinelle di mare a volte trasportano più pesci?",
+      "options": [
+        "Li tiene sul becco",
+        "Li ripone in una tasca sulla pancia",
+        "Li attacca alle zampe",
+        "Li immagazzina nelle penne della coda"
+      ],
+      "explanation": "Le rugosità nel becco aiutano la pulcinella di mare a mantenere diversi piccoli pesci.",
+      "didYouKnow": "Scava spesso la tana riproduttiva nel terreno soffice.",
+      "imageCaption": "Pulcinella di mare"
+    },
+    {
+      "id": "birds-037",
+      "animal": "Marangone dal ciuffo",
+      "prompt": "Perché il marangone dal ciuffo si tuffa sott'acqua?",
+      "options": [
+        "Per inseguire i pesci",
+        "Per raccogliere il polline dalle piante acquatiche",
+        "Respirare in una grotta sommersa",
+        "Per costruire il suo nido in fondo al mare"
+      ],
+      "explanation": "I suoi piedi palmati lo spingono quando insegue i pesci sotto la superficie.",
+      "didYouKnow": "Le sue dita palmate lo aiutano a spingersi sott'acqua.",
+      "imageCaption": "Marangone dal ciuffo"
+    },
+    {
+      "id": "birds-038",
+      "animal": "Sula",
+      "prompt": "In che modo le sule spesso catturano i pesci?",
+      "options": [
+        "Tuffarsi in mare dall'aria",
+        "Filtrando il fango con il becco",
+        "Costruendo nidi sott'acqua",
+        "Durante la pesca con un ramoscello"
+      ],
+      "explanation": "Individua i pesci e poi si tuffa in acqua per catturarli.",
+      "didYouKnow": "Le sule si riproducono spesso in colonie molto fitte su scogliere o isolotti.",
+      "imageCaption": "Sula"
+    },
+    {
+      "id": "birds-039",
+      "animal": "Alca comune",
+      "prompt": "Quali sono gli scopi principali delle ali del pinguino Torda sott'acqua?",
+      "options": [
+        "Per spingersi sott’acqua durante il nuoto.",
+        "Scavare buche nel ghiaccio",
+        "Per filtrare il plancton",
+        "Per portare le uova"
+      ],
+      "explanation": "Le ali corte e rigide dell’alca comune funzionano come pinne durante le immersioni.",
+      "didYouKnow": "L’alca comune appartiene alla famiglia degli alcidi e nidifica sulle coste dell’Atlantico settentrionale.",
+      "imageCaption": "Alca comune"
+    },
+    {
+      "id": "birds-040",
+      "animal": "Svasso maggiore",
+      "prompt": "Come trasporta talvolta i suoi pulcini lo svasso maggiore?",
+      "options": [
+        "Sul dorso, tra le piume",
+        "In una tasca del becco",
+        "Aggrappato alle sue ali in volo",
+        "Sotto le sue zampe mentre nuota"
+      ],
+      "explanation": "I giovani svassi possono cavalcare sul dorso di un genitore che nuota.",
+      "didYouKnow": "Le zampe posteriori lo aiutano a nuotare, ma rendono goffo il cammino.",
+      "imageCaption": "Svasso maggiore"
+    },
+    {
+      "id": "birds-041",
+      "animal": "Folaga",
+      "prompt": "Quale caratteristica spesso distingue le folaghe da molte anatre?",
+      "options": [
+        "Le sue dita lobate anziché un'ampia ragnatela",
+        "Il suo becco era ricurvo come quello di un uccello da preda",
+        "Branchie nascoste sotto le ali",
+        "Una coda prensile"
+      ],
+      "explanation": "I lobi della pelle sulle dita aiutano a nuotare e camminare sulla vegetazione bagnata.",
+      "didYouKnow": "Il suo becco bianco e la fronte sono visibili da lontano.",
+      "imageCaption": "Folaga"
+    },
+    {
+      "id": "birds-042",
+      "animal": "Martin pescatore europeo",
+      "prompt": "Perché il martin pescatore deve tenere conto della rifrazione durante l'immersione?",
+      "options": [
+        "La luce cambia l'aspetto della posizione della preda mentre attraversa l'acqua",
+        "Deve vedere nel buio più totale",
+        "Vede il pesce attraverso le rocce",
+        "Localizza la preda tramite l'ecolocalizzazione"
+      ],
+      "explanation": "Il passaggio dall'aria all'acqua devia la luce, modificando l'immagine della preda.",
+      "didYouKnow": "Diverse specie di martin pescatori cacciano anche prede terrestri.",
+      "imageCaption": "Martin pescatore europeo"
+    },
+    {
+      "id": "birds-043",
+      "animal": "Gruccione europeo",
+      "prompt": "Come fa spesso il gruccione europeo a sbarazzarsi della puntura di un'ape catturata?",
+      "options": [
+        "Colpisce o sfrega l'insetto contro un trespolo",
+        "Ci soffia sopra finché non cade il pungiglione",
+        "Lo immerge in acqua salata",
+        "Chiede ad un altro uccello di portarlo via"
+      ],
+      "explanation": "Può strofinare l'insetto contro un supporto prima di inghiottirlo.",
+      "didYouKnow": "Il gruccione europeo migra nell'Africa subsahariana per trascorrere l'inverno.",
+      "imageCaption": "Gruccione europeo"
+    },
+    {
+      "id": "birds-044",
+      "animal": "Rullo Europeo",
+      "prompt": "Dove nidifica spesso la ghiandaia marina?",
+      "options": [
+        "In una cavità, a volte nel buco di un vecchio albero",
+        "Nella tela di un ragno",
+        "Sott'acqua tra le radici",
+        "In un nido galleggiante di canne"
+      ],
+      "explanation": "Per riprodursi utilizza cavità naturali o cavità scavate da altre specie.",
+      "didYouKnow": "Caccia spesso da un trespolo aperto.",
+      "imageCaption": "Rullo Europeo"
+    },
+    {
+      "id": "birds-045",
+      "animal": "Upupa",
+      "prompt": "In che modo le upupe trovano spesso gli insetti nel terreno?",
+      "options": [
+        "Sonda il substrato con il suo lungo becco",
+        "Filtra l'acqua con il suo piumaggio",
+        "Scava con le ali",
+        "Usa l'ecolocalizzazione"
+      ],
+      "explanation": "Affonda il becco nella terra o nelle foglie morte alla ricerca di invertebrati.",
+      "didYouKnow": "La sua cresta può essere aperta a ventaglio quando è eccitata o in mostra.",
+      "imageCaption": "Upupa"
+    },
+    {
+      "id": "birds-046",
+      "animal": "Cuculo",
+      "prompt": "Quale strategia riproduttiva caratterizza il cuculo grigio?",
+      "options": [
+        "Depone spesso le uova nel nido di un'altra specie",
+        "Alleva sempre una grande colonia da solo",
+        "Depone le uova senza nido sugli alberi.",
+        "Nutre i pulcini di altre specie sott'acqua"
+      ],
+      "explanation": "Il cuculo grigio pratica il parassitismo della cova: gli ospiti ne incubano l'uovo e spesso allevano i piccoli.",
+      "didYouKnow": "Il cuculo grigio adulto consuma soprattutto i bruchi, comprese le specie pelose.",
+      "imageCaption": "Cuculo"
+    },
+    {
+      "id": "birds-047",
+      "animal": "Rigogolo europeo",
+      "prompt": "Che tipo di nido costruisce spesso il rigogolo?",
+      "options": [
+        "Una tazza appesa alla biforcazione dei rami",
+        "Una tana in una duna",
+        "Una cavità piena d'acqua",
+        "Un nido galleggiante attaccato a un pesce"
+      ],
+      "explanation": "La femmina tesse un nido a forma di coppa, spesso sospeso tra i rami.",
+      "didYouKnow": "Il maschio giallo brillante può essere difficile da vedere nel fogliame.",
+      "imageCaption": "Rigogolo europeo"
+    },
+    {
+      "id": "birds-048",
+      "animal": "Merlo",
+      "prompt": "In che modo i merli spesso cercano i vermi?",
+      "options": [
+        "Scruta il terreno osservando e ascoltando",
+        "Si tuffa sotto le foglie per succhiarle",
+        "Utilizza gli ultrasuoni",
+        "Segue le radici con il becco chiuso"
+      ],
+      "explanation": "Cerca sul terreno e può individuare la preda attraverso i sensi e l'osservazione.",
+      "didYouKnow": "Può usare una pietra come incudine per rompere certe lumache.",
+      "imageCaption": "Merlo"
+    },
+    {
+      "id": "birds-049",
+      "animal": "Tordo bottaccio",
+      "prompt": "Perché a volte il tordo bottaccio sbatte una lumaca contro una pietra?",
+      "options": [
+        "Per rompere il suo guscio e accedere al corpo",
+        "Per asciugare il guscio",
+        "Per attirare i pesci",
+        "Per decorare il tuo nido"
+      ],
+      "explanation": "A volte usa una pietra come incudine per aprire certe lumache.",
+      "didYouKnow": "Il tordo bottaccio produce un canto vario, spesso udibile all'inizio della stagione riproduttiva.",
+      "imageCaption": "Tordo bottaccio"
+    },
+    {
+      "id": "birds-050",
+      "animal": "Storno europeo",
+      "prompt": "Come fanno gli storni a coordinare i loro voli di gruppo?",
+      "options": [
+        "Ogni uccello adatta i suoi movimenti a seconda dei suoi vicini",
+        "Un leader dà ordini a tutto il gregge",
+        "Gli uccelli sono collegati da fili invisibili",
+        "Seguono solo il campo gravitazionale"
+      ],
+      "explanation": "I cambiamenti di direzione emergono da reazioni rapide tra individui vicini.",
+      "didYouKnow": "Anche gli storni si riuniscono nei posatoi comuni al crepuscolo.",
+      "imageCaption": "Storno europeo"
+    },
+    {
+      "id": "birds-051",
+      "animal": "Cardinale settentrionale",
+      "prompt": "Quale differenza nel piumaggio distingue generalmente i sessi del cardinale settentrionale?",
+      "options": [
+        "Il maschio è rosso vivo e la femmina più brunastra",
+        "La femmina è di colore rosso vivo e il maschio interamente marrone.",
+        "Il maschio è bianco e la femmina nera",
+        "Entrambi i sessi sono sempre gli stessi"
+      ],
+      "explanation": "Il maschio è rosso vivo, mentre la femmina è prevalentemente brunastra con accenti rossi.",
+      "didYouKnow": "Anche le femmine cardinali cantano, a differenza delle femmine di molti uccelli canori delle zone temperate.",
+      "imageCaption": "Cardinale settentrionale"
+    },
+    {
+      "id": "birds-052",
+      "animal": "Mimo poliglotto",
+      "prompt": "Perché il tordo beffardo poliglotta ha questo nome?",
+      "options": [
+        "Imita i canti e le grida di altre specie",
+        "Produce suoni sott'acqua",
+        "Ha diverse siringi indipendenti",
+        "Canta solo in duetti"
+      ],
+      "explanation": "Spesso incorpora nel suo canto i suoni ascoltati in altri uccelli.",
+      "didYouKnow": "Le macchie bianche sulle ali diventano visibili quando vola via.",
+      "imageCaption": "Mimo poliglotto"
+    },
+    {
+      "id": "birds-053",
+      "animal": "Stupendo uccello lira",
+      "prompt": "Quale facoltà vocale è notevole nel superbo uccello lira?",
+      "options": [
+        "Imita un'ampia varietà di suoni ascoltati",
+        "Canta sott'acqua senza respirare",
+        "Produci ultrasuoni per cacciare",
+        "Parla con frasi umane comprensibili"
+      ],
+      "explanation": "Può imitare il canto degli altri uccelli e i suoni del suo ambiente.",
+      "didYouKnow": "La coda del maschio si apre a ventaglio durante l'esposizione.",
+      "imageCaption": "Stupendo uccello lira"
+    },
+    {
+      "id": "birds-054",
+      "animal": "Bucero rinoceronte",
+      "prompt": "Che ruolo potrebbe svolgere l'elmo del bucero rinoceronte?",
+      "options": [
+        "Partecipate all'eco dei richiami e dei cortei",
+        "Servire come tasca per trasportare i pulcini",
+        "Filtra l'acqua piovana",
+        "Consentire la respirazione sotto terra"
+      ],
+      "explanation": "L'elmo cavo può influenzare la risonanza delle vocalizzazioni ed è coinvolto nelle esibizioni.",
+      "didYouKnow": "Durante la nidificazione la femmina rimane nella cavità con apertura ridotta.",
+      "imageCaption": "Bucero rinoceronte"
+    },
+    {
+      "id": "birds-055",
+      "animal": "Toco del tucano",
+      "prompt": "In che modo il grande becco del tucano toco potrebbe contribuire alla sua termoregolazione?",
+      "options": [
+        "Partecipando agli scambi termici con l’ambiente",
+        "Immagazzinando acqua calda",
+        "Creando una corrente d'aria attraverso la vibrazione",
+        "Coprendosi gli occhi dal sole"
+      ],
+      "explanation": "Il becco riccamente vascolarizzato può aiutare a dissipare il calore quando il flusso sanguigno varia.",
+      "didYouKnow": "Come molti uccelli rampicanti, il tucano ha due dita rivolte in avanti e due rivolte all'indietro.",
+      "imageCaption": "Toco del tucano"
+    },
+    {
+      "id": "birds-056",
+      "animal": "Pappagallino ondulato",
+      "prompt": "Come reagiscono spesso i pappagalli selvatici alla pioggia nelle zone aride?",
+      "options": [
+        "Si spostano in aree dove acqua e semi diventano disponibili",
+        "Si seppelliscono nella sabbia fino alla stagione secca",
+        "Migrano tutti verso le coste",
+        "Smettono di nutrirsi per diverse settimane"
+      ],
+      "explanation": "Il loro nomadismo li porta verso risorse temporanee che compaiono dopo le piogge.",
+      "didYouKnow": "Nidificano nelle cavità, soprattutto sugli alberi.",
+      "imageCaption": "Pappagallino ondulato"
+    },
+    {
+      "id": "birds-057",
+      "animal": "Kakapo",
+      "prompt": "Quale caratteristica distingue il kakapo dalla maggior parte dei pappagalli?",
+      "options": [
+        "È notturno e non può volare",
+        "Vive esclusivamente in mare",
+        "Ha le branchie",
+        "Migra ogni inverno in Antartide"
+      ],
+      "explanation": "Il kakapo è un pappagallo terrestre, notturno e incapace di volare.",
+      "didYouKnow": "I kakapo maschi producono richiami forti e bassi per attirare i compagni dalle loro arene di esibizione.",
+      "imageCaption": "Kakapo"
+    },
+    {
+      "id": "birds-058",
+      "animal": "Kiwi marrone",
+      "prompt": "In che modo i kiwi localizzano spesso gli invertebrati nei rifiuti del suolo?",
+      "options": [
+        "Grazie alle sue narici situate vicino all'estremità del becco",
+        "Con vibrisse sotto le ali",
+        "Rilevando la luce infrarossa emessa dalle sue uova",
+        "Ascoltare le radici crescere"
+      ],
+      "explanation": "Le narici terminali e l'olfatto lo aiutano a trovare la preda nel terreno.",
+      "didYouKnow": "I kiwi depongono uova molto grandi rispetto al loro corpo.",
+      "imageCaption": "Kiwi marrone"
+    },
+    {
+      "id": "birds-059",
+      "animal": "Casuario con l'elmo",
+      "prompt": "Qual è l'habitat principale del casuario dall'elmo?",
+      "options": [
+        "Le foreste tropicali della Nuova Guinea e dell'Australia nordorientale",
+        "Lastroni di ghiaccio antartici",
+        "Deserti d'alta quota",
+        "Barriere coralline"
+      ],
+      "explanation": "Vive nelle foreste tropicali dove consuma i frutti caduti.",
+      "didYouKnow": "Il casuario ha aree di pelle nuda dai colori vivaci sul collo, in particolare blu e rossi.",
+      "imageCaption": "Casuario con l'elmo"
+    },
+    {
+      "id": "birds-060",
+      "animal": "Emù",
+      "prompt": "Di che colore hanno solitamente le uova di emù?",
+      "options": [
+        "Verde scuro",
+        "Blu pallido",
+        "Bianco macchiato di rosso",
+        "Giallo brillante"
+      ],
+      "explanation": "Il guscio delle uova di emù è di un caratteristico verde scuro.",
+      "didYouKnow": "Di solito è il maschio a covare.",
+      "imageCaption": "Emù"
+    },
+    {
+      "id": "birds-061",
+      "animal": "Hoazin",
+      "prompt": "Come fa l'hoazin a digerire una grande quantità di foglie?",
+      "options": [
+        "Per fermentazione microbica in una parte allargata dell'esofago",
+        "Con il ventriglio pieno di pesci",
+        "Ingoiando pietre riscaldate",
+        "Trasformando le foglie in nettare"
+      ],
+      "explanation": "La fermentazione microbica nel raccolto e nell'esofago aiuta ad abbattere le piante.",
+      "didYouKnow": "L'hoazin vive nelle foreste ripariali e nelle pianure alluvionali dei bacini dell'Amazzonia e dell'Orinoco.",
+      "imageCaption": "Hoazin"
+    },
+    {
+      "id": "birds-062",
+      "animal": "Cacatua nero dalla coda rossa",
+      "prompt": "Con cosa apre spesso i frutti legnosi il cacatua nero dalla coda rossa?",
+      "options": [
+        "Il suo potente becco",
+        "I suoi piedi palmati",
+        "Una tasca espandibile sotto il beccuccio",
+        "Un artiglio situato sul collo"
+      ],
+      "explanation": "Il suo becco robusto gli permette di sgusciare semi e frutti resistenti.",
+      "didYouKnow": "Le femmine e i maschi hanno segni diversi del piumaggio.",
+      "imageCaption": "Cacatua nero dalla coda rossa"
+    },
+    {
+      "id": "birds-063",
+      "animal": "Lorichetto arcobaleno",
+      "prompt": "Come si è adattata la lingua del lorichetto arcobaleno al nettare?",
+      "options": [
+        "La sua estremità porta papille a forma di pennello",
+        "È cavo come una cannuccia rigida",
+        "È diviso in quattro becchi",
+        "Porta degli ami per catturare i pesci"
+      ],
+      "explanation": "Le papille gustative sulla lingua raccolgono il nettare e il polline dei fiori.",
+      "didYouKnow": "I lorichetti arcobaleno si vedono spesso in gruppi rumorosi sugli alberi.",
+      "imageCaption": "Lorichetto arcobaleno"
+    },
+    {
+      "id": "birds-064",
+      "animal": "Ara giacinto",
+      "prompt": "Quale cibo può spezzare l'ara giacinto con il suo potente becco?",
+      "options": [
+        "Noci di palma",
+        "Uova di tartaruga gigante",
+        "Conchiglie della barriera corallina",
+        "Pietre vulcaniche"
+      ],
+      "explanation": "Il suo potente becco apre noci e semi di palma molto duri.",
+      "didYouKnow": "L'Ara giacinto nidifica nelle cavità dei grandi alberi, in particolare delle palme.",
+      "imageCaption": "Ara giacinto"
+    },
+    {
+      "id": "birds-065",
+      "animal": "Pappagallo eclettico",
+      "prompt": "Che differenza di colore esiste tra i sessi del pappagallo eclectus?",
+      "options": [
+        "Il maschio è verde e la femmina prevalentemente rossa e blu",
+        "Il maschio è blu e la femmina bianca",
+        "Entrambi i sessi sono interamente neri",
+        "La femmina è verde e il maschio rosso"
+      ],
+      "explanation": "Il dimorfismo è marcato: il maschio è verde, mentre la femmina è rossa e blu.",
+      "didYouKnow": "Il pappagallo eclectus nidifica in una cavità alta, dove la femmina talvolta difende l'accesso da altre femmine.",
+      "imageCaption": "Pappagallo eclettico"
+    },
+    {
+      "id": "birds-066",
+      "animal": "Inseparabile di Fischer",
+      "prompt": "Come fa a volte l'Inseparabile di Fischer a trasportare i materiali per il suo nido?",
+      "options": [
+        "Lo intrappola nelle piume della sua groppa",
+        "Lo porta in una tasca sotto la lingua",
+        "Lo lega con un filo che produce",
+        "Lo porta con le dita posteriori"
+      ],
+      "explanation": "Può trasportare strisce di piante incastrate nelle penne della groppa.",
+      "didYouKnow": "Il piccioncino di Fischer è originario dell'Africa orientale.",
+      "imageCaption": "Inseparabile di Fischer"
+    },
+    {
+      "id": "birds-067",
+      "animal": "Becco a scarpa",
+      "prompt": "In che modo i becchi a scarpa spesso catturano le loro prede nelle paludi?",
+      "options": [
+        "Sta all'erta e poi colpisce velocemente",
+        "Insegue i pesci su lunghe distanze in volo",
+        "Filtra il plancton durante il nuoto",
+        "Scava una tana ad ogni marea"
+      ],
+      "explanation": "Caccia in acque poco profonde e cattura rapidamente pesci o anfibi.",
+      "didYouKnow": "Le grandi dita dei piedi distribuiscono il suo peso e lo aiutano a muoversi sulla vegetazione paludosa.",
+      "imageCaption": "Becco a scarpa"
+    },
+    {
+      "id": "birds-068",
+      "animal": "Ibis scarlatto",
+      "prompt": "Cosa contribuisce al colore rosso dell'ibis scarlatto?",
+      "options": [
+        "Carotenoidi presenti nella vostra dieta",
+        "La luce del sole che ne tinge le piume",
+        "Una polvere rossa che applica ogni giorno",
+        "Il ferro del suo sangue che scorre attraverso le piume"
+      ],
+      "explanation": "I carotenoidi di alcuni molluschi consumati contribuiscono alla pigmentazione delle sue piume.",
+      "didYouKnow": "Gli ibis scarlatti spesso si riuniscono in gruppi per riposarsi e spostarsi tra i siti di alimentazione.",
+      "imageCaption": "Ibis scarlatto"
+    },
+    {
+      "id": "birds-069",
+      "animal": "Spatola",
+      "prompt": "Come utilizza il becco appiattito la spatola?",
+      "options": [
+        "Lo spazza nell'acqua per rilevare e catturare piccole prede",
+        "Scava nel legno duro",
+        "Taglia gli steli come una cesoia",
+        "Punge i pesci per trasportarli"
+      ],
+      "explanation": "Il sensibile becco a spatola gli permette di catturare piccoli animali acquatici.",
+      "didYouKnow": "La spatola può nidificare in colonie sugli alberi o nei canneti.",
+      "imageCaption": "Spatola"
+    },
+    {
+      "id": "birds-070",
+      "animal": "Oca dalla testa barra",
+      "prompt": "Quale adattamento aiuta l'oca dalla testa a barra a volare ad altitudini molto elevate?",
+      "options": [
+        "Un’emoglobina capace di legare efficacemente l’ossigeno quando è scarso.",
+        "Emoglobina sostituita da emocianina",
+        "Emoglobina la cui affinità per l'ossigeno diminuisce drasticamente",
+        "Assenza di emoglobina nei globuli rossi"
+      ],
+      "explanation": "L’emoglobina dell’oca indiana è adattata a captare efficacemente l’ossigeno nell’aria rarefatta.",
+      "didYouKnow": "L’oca indiana migra tra l’Asia centrale e quella meridionale attraversando l’Himalaya.",
+      "imageCaption": "Oca dalla testa barra"
+    },
+    {
+      "id": "birds-071",
+      "animal": "Cavaliere d’Italia",
+      "prompt": "Quale adattamento aiuta i cavalieri d'Italia a foraggiare nelle paludi?",
+      "options": [
+        "Le sue lunghe zampe gli permettono di camminare in acque poco profonde.",
+        "Le sue zampe corte lo aiutano a scavare le rocce",
+        "Le sue ali palmate filtrano il fango",
+        "I suoi artigli si ancorano ai pesci"
+      ],
+      "explanation": "Le sue lunghe zampe gli consentono l'accesso alle prede in acque poco profonde.",
+      "didYouKnow": "Il cavaliere d'Italia nidifica al suolo nelle zone umide, spesso in piccole colonie.",
+      "imageCaption": "Cavaliere d’Italia"
+    },
+    {
+      "id": "birds-072",
+      "animal": "Jacana dalla coda lunga",
+      "prompt": "Come si muove la jacana sulle piante acquatiche galleggianti?",
+      "options": [
+        "Con le sue lunghe dita che distribuiscono il suo peso",
+        "Con ventose sotto le ali",
+        "Correndo direttamente sull'acqua",
+        "Usare le foglie come racchette"
+      ],
+      "explanation": "Le sue lunghissime dita distribuiscono il suo peso sulla vegetazione galleggiante.",
+      "didYouKnow": "In molte jacana, il maschio assume gran parte dell'incubazione.",
+      "imageCaption": "Jacana dalla coda lunga"
+    },
+    {
+      "id": "birds-073",
+      "animal": "Pittima reale",
+      "prompt": "Quale migrazione è degna di nota in alcune pittime rosse?",
+      "options": [
+        "Un volo a lunga distanza tra l'Alaska e la Nuova Zelanda",
+        "Una migrazione quotidiana tra due alberi vicini",
+        "Un viaggio sottomarino da un continente all'altro",
+        "Si viaggia solo a piedi"
+      ],
+      "explanation": "Alcune popolazioni effettuano voli molto lunghi senza scalo tra l'Alaska e la Nuova Zelanda.",
+      "didYouKnow": "Nel piumaggio riproduttivo, la parte inferiore della pittima reale assume una caratteristica tonalità rossastra.",
+      "imageCaption": "Pittima reale"
+    },
+    {
+      "id": "birds-074",
+      "animal": "Piccione selvatico",
+      "prompt": "Che tipo di sito utilizza naturalmente il colombaccio selvatico per nidificare?",
+      "options": [
+        "Cavità e sporgenze della scogliera",
+        "Piattaforme galleggianti in canne",
+        "Tane nei prati",
+        "Rami sottili in cima agli alberi"
+      ],
+      "explanation": "La roccia selvatica nidifica soprattutto sulle scogliere, i cui cornicioni ricordano certi spigoli di edifici.",
+      "didYouKnow": "Il piumaggio del colombaccio selvatico presenta spesso due barre scure sulle ali.",
+      "imageCaption": "Piccione selvatico"
+    },
+    {
+      "id": "birds-075",
+      "animal": "Merlo acquaiolo",
+      "prompt": "Come si nutrono i mestoli nei fiumi?",
+      "options": [
+        "Cammina o nuota sott'acqua alla ricerca di invertebrati",
+        "Si libra sopra le onde per filtrare il plancton",
+        "Scava i nidi sotto il fango",
+        "Cattura solo gli insetti del cielo"
+      ],
+      "explanation": "Si tuffa e si sposta sul fondo dei corsi d'acqua alla ricerca di larve e altri invertebrati.",
+      "didYouKnow": "Il merlo acquaiolo si riconosce soprattutto dal petto bianco ben visibile.",
+      "imageCaption": "Merlo acquaiolo"
+    },
+    {
+      "id": "birds-076",
+      "animal": "Capinera",
+      "prompt": "Quale cambiamento migratorio sta colpendo alcune popolazioni di capinere europee?",
+      "options": [
+        "A volte svernano nell'Europa occidentale piuttosto che nel sud",
+        "Attraversano l'Atlantico nuotando",
+        "Migrano verso nord solo in autunno",
+        "Trascorrono l'inverno sotto il ghiaccio"
+      ],
+      "explanation": "Alcune popolazioni hanno cambiato destinazione invernale e rimangono nell'Europa occidentale.",
+      "didYouKnow": "In questa specie il maschio indossa un berretto nero mentre quello della femmina è brunastro.",
+      "imageCaption": "Capinera"
+    },
+    {
+      "id": "birds-077",
+      "animal": "Cinciarella",
+      "prompt": "Come fa la cinciarella a volte ad arrivare agli insetti sotto un ramo?",
+      "options": [
+        "È appesa a testa in giù",
+        "Usa una rete per oscillare",
+        "Scava un tunnel nel ramo",
+        "Succhia gli insetti attraverso le narici"
+      ],
+      "explanation": "Le sue zampe agili gli permettono di esplorare diversi lati dei rami.",
+      "didYouKnow": "Usa volentieri le cassette nido con cavità.",
+      "imageCaption": "Cinciarella"
+    },
+    {
+      "id": "birds-078",
+      "animal": "Scricciolo",
+      "prompt": "Perché lo scricciolo fruga tra i mucchi di rami?",
+      "options": [
+        "Per trovare piccoli invertebrati",
+        "Per raccogliere piume di pavone",
+        "Per catturare i pesci nascosti",
+        "Da posare direttamente nel legno"
+      ],
+      "explanation": "Gli spazi disordinati ospitano piccole prede che cerca attivamente.",
+      "didYouKnow": "Nonostante le sue piccole dimensioni, il suo canto è potente.",
+      "imageCaption": "Scricciolo"
+    },
+    {
+      "id": "birds-079",
+      "animal": "Crociere comune",
+      "prompt": "Come fa il crociere rosso ad aprire le squame del cono?",
+      "options": [
+        "Con le punte incrociate del becco",
+        "Iniettando acido con la lingua",
+        "Rompendo il cono contro le rocce",
+        "Scaldandolo sotto le sue ali"
+      ],
+      "explanation": "Le sue mandibole incrociate allargano le scaglie per estrarre i semi.",
+      "didYouKnow": "Nel crociere rosso il maschio adulto è spesso rossastro e la femmina piuttosto verdastra o giallastra.",
+      "imageCaption": "Crociere comune"
+    },
+    {
+      "id": "birds-080",
+      "animal": "Picchio verde",
+      "prompt": "Perché i picchi verdi visitano spesso i prati?",
+      "options": [
+        "Per cercare le formiche",
+        "Bere il nettare dell'erba",
+        "Covare nell'erba",
+        "Per catturare i pesci dello stagno"
+      ],
+      "explanation": "Le formiche e le loro larve costituiscono una parte importante della sua dieta.",
+      "didYouKnow": "Il picchio verde scava la sua cavità di nidificazione nel legno degli alberi.",
+      "imageCaption": "Picchio verde"
+    },
+    {
+      "id": "birds-081",
+      "animal": "Corvo",
+      "prompt": "In che modo il corvo imperiale sfrutta le termiche in montagna?",
+      "options": [
+        "Planando sulle correnti ascensionali di montagna.",
+        "Filtra i semi sopra le foreste",
+        "Crea bolle che attirano la sua preda",
+        "Scava il nido nelle correnti d'aria"
+      ],
+      "explanation": "I corvi imperiali possono sfruttare l’aria ascendente per guadagnare quota e poi planare.",
+      "didYouKnow": "I corvi imperiali giocano in volo e talvolta compiono delle rotazioni.",
+      "imageCaption": "Corvo"
+    },
+    {
+      "id": "birds-082",
+      "animal": "Gazza",
+      "prompt": "Cosa può fare la gazza quando trova cibo in abbondanza?",
+      "options": [
+        "Nascondilo per ritrovarlo più tardi",
+        "Trasformatelo in nettare",
+        "Mettilo nel nido di un'altra specie",
+        "Seppelliscilo sempre nello stesso posto"
+      ],
+      "explanation": "Le gazze possono nascondere il cibo e ricordare molti luoghi.",
+      "didYouKnow": "La gazza appartiene alla famiglia dei corvidi.",
+      "imageCaption": "Gazza"
+    },
+    {
+      "id": "birds-083",
+      "animal": "Kea",
+      "prompt": "Quale comportamento esplorativo è associato al kea?",
+      "options": [
+        "Manipola gli oggetti con il becco e le zampe",
+        "Costruisci dighe di fango",
+        "Pesca lanciando sassi",
+        "Nascondi le uova nei termitai"
+      ],
+      "explanation": "Il kea è noto per la sua curiosità e la sua capacità di manipolare gli oggetti.",
+      "didYouKnow": "Vive nelle regioni montuose della Nuova Zelanda.",
+      "imageCaption": "Kea"
+    },
+    {
+      "id": "birds-084",
+      "animal": "Tinamou elegante",
+      "prompt": "Dove costruisce solitamente il nido l’elegante tinamou?",
+      "options": [
+        "In una piccola depressione sul terreno",
+        "In una cavità sottomarina",
+        "In cima ad una nuda scogliera",
+        "In una tasca delle piume dei genitori"
+      ],
+      "explanation": "I tinami nidificano generalmente sul terreno e nascondono le uova nella vegetazione.",
+      "didYouKnow": "Il piumaggio dell'elegante tinamou si fonde con le foglie e le erbe del terreno.",
+      "imageCaption": "Tinamou elegante"
+    },
+    {
+      "id": "birds-085",
+      "animal": "Tessitore comune",
+      "prompt": "Come costruisce il nido il tessitore maschio?",
+      "options": [
+        "Intrecciando fibre vegetali",
+        "Attaccando la sabbia con la saliva",
+        "Scavando una cavità nella roccia",
+        "Legando solo ragnatele"
+      ],
+      "explanation": "Intreccia erbe o foglie per formare una struttura sospesa.",
+      "didYouKnow": "In molti uccelli tessitori, il maschio indossa un piumaggio riproduttivo giallo brillante e contrastante.",
+      "imageCaption": "Tessitore comune"
+    },
+    {
+      "id": "birds-086",
+      "animal": "Tessitore sociale",
+      "prompt": "Perché i nidi social-repubblicani sono degni di nota?",
+      "options": [
+        "Formano grandi strutture collettive occupate da più coppie",
+        "Sono interamente costruiti sott'acqua",
+        "Appendono alle ali degli adulti",
+        "Sono costruiti solo con lische di pesce"
+      ],
+      "explanation": "Le colonie costruiscono una grande struttura nido sotto un tetto comune.",
+      "didYouKnow": "Il socialrepubblicano costruisce i suoi nidi collettivi nelle regioni aride dell’Africa meridionale.",
+      "imageCaption": "Tessitore sociale"
+    },
+    {
+      "id": "birds-087",
+      "animal": "Rondone comune",
+      "prompt": "Come trascorre gran parte della sua vita il Rondone Nero?",
+      "options": [
+        "In volo",
+        "In fondo ai fiumi",
+        "Nelle tane dei roditori",
+        "Sui rami mentre si cammina"
+      ],
+      "explanation": "Si nutre, beve e talvolta raccoglie materiale in volo, trascorrendo molto tempo in aria.",
+      "didYouKnow": "Il rondone nero infila con la saliva i materiali del nido nelle cavità degli edifici o delle scogliere.",
+      "imageCaption": "Rondone comune"
+    },
+    {
+      "id": "birds-088",
+      "animal": "Succiacapre europeo",
+      "prompt": "Perché il succiacapre europeo è più attivo al crepuscolo e di notte?",
+      "options": [
+        "Caccia insetti notturni o crepuscolari",
+        "Evita la luce perché non può vedere il giorno",
+        "Cova solo nell'oscurità",
+        "Si nutre di funghi che escono di notte"
+      ],
+      "explanation": "La sua attività coincide con la disponibilità di insetti volanti nelle ore serali e notturne.",
+      "didYouKnow": "Il suo piumaggio criptico lo rende difficile da individuare quando è appollaiato a terra.",
+      "imageCaption": "Succiacapre europeo"
+    },
+    {
+      "id": "birds-089",
+      "animal": "Beccale giallo",
+      "prompt": "Dove nidificano spesso le canne gialle?",
+      "options": [
+        "Negli arbusti vicino all'acqua o alle zone umide",
+        "In profonde caverne calcaree",
+        "Sotto il ghiaccio polare",
+        "Nelle tane del deserto"
+      ],
+      "explanation": "Nidifica spesso negli arbusti lungo i corsi d'acqua o nelle zone umide.",
+      "didYouKnow": "Il maschio presenta generalmente striature rossastre sul petto giallo.",
+      "imageCaption": "Beccale giallo"
+    },
+    {
+      "id": "birds-090",
+      "animal": "Uccello del paradiso superbo",
+      "prompt": "Qual è lo scopo delle piume ornamentali del maschio durante la sua esibizione?",
+      "options": [
+        "Presentare segnali visivi ai partner",
+        "Per isolare il nido sott'acqua",
+        "Per filtrare i semi nel terreno",
+        "Per portare in volo i più piccoli"
+      ],
+      "explanation": "Il maschio mostra le sue piume in uno spettacolo che partecipa alla scelta della compagna.",
+      "didYouKnow": "La femmina del superbo uccello del paradiso costruisce da sola un nido a coppa su un albero.",
+      "imageCaption": "Uccello del paradiso superbo"
+    },
+    {
+      "id": "birds-091",
+      "animal": "Picchio ghiandaia",
+      "prompt": "Perché il picchio mangiatore di ghiande pratica buchi negli alberi o nei pali?",
+      "options": [
+        "Per conservare le ghiande",
+        "Per coltivare funghi commestibili",
+        "Per intrappolare gli insetti a distanza",
+        "Per raccogliere solo l'acqua piovana"
+      ],
+      "explanation": "Crea granai di stoccaggio inserendo le ghiande nelle cavità.",
+      "didYouKnow": "Il picchio mangiatore di ghiande vive in gruppi familiari che collaborano per difendere il proprio territorio.",
+      "imageCaption": "Picchio ghiandaia"
+    },
+    {
+      "id": "birds-092",
+      "animal": "picchio tridattilo",
+      "prompt": "Quante dita ha ciascun piede del picchio tridattilo?",
+      "options": [
+        "Tre",
+        "Due",
+        "Quattro",
+        "Cinque"
+      ],
+      "explanation": "Come suggerisce il nome, ha tre dita su ciascun piede.",
+      "didYouKnow": "Cerca spesso insetti negli alberi morti o indeboliti.",
+      "imageCaption": "picchio tridattilo"
+    },
+    {
+      "id": "birds-093",
+      "animal": "Cuculo dal ciuffo",
+      "prompt": "Quale specie alleva frequentemente la giovane ghiandaia cuculo in determinate zone?",
+      "options": [
+        "La gazza",
+        "Il pinguino imperatore",
+        "Il fenicottero rosa",
+        "L'albatro"
+      ],
+      "explanation": "La ghiandaia cuculo parassita i nidi delle gazze in alcune regioni.",
+      "didYouKnow": "La ghiandaia cuculo generalmente lascia i suoi luoghi di riproduzione per svernare più a sud.",
+      "imageCaption": "Cuculo dal ciuffo"
+    },
+    {
+      "id": "birds-094",
+      "animal": "Ani dal becco liscio",
+      "prompt": "Quale organizzazione di nidificazione può adottare l'Ani dal becco liscio?",
+      "options": [
+        "Diverse coppie possono condividere un nido collettivo",
+        "Ogni individuo nidifica sott'acqua",
+        "Il pesce incuba le sue uova",
+        "Il gruppo costruisce un nido appeso ad ogni ramo"
+      ],
+      "explanation": "I gruppi possono costruire un nido comune dove diverse femmine depongono le uova.",
+      "didYouKnow": "L'Ani dal becco liscio può associarsi con altri individui per cercare insetti nei pascoli.",
+      "imageCaption": "Ani dal becco liscio"
+    },
+    {
+      "id": "birds-095",
+      "animal": "Piccione incoronato Victoria",
+      "prompt": "Come si procura il cibo il piccione incoronato Victoria?",
+      "options": [
+        "Beccare frutti e semi sul suolo della foresta",
+        "Mentre inseguo i pesci sott'acqua",
+        "Filtrando il nettare con le sue ali",
+        "Scavando nidi nelle scogliere"
+      ],
+      "explanation": "Cerca nel terreno frutti e semi caduti nella foresta.",
+      "didYouKnow": "La sua grande cresta blu è composta da piume delicate.",
+      "imageCaption": "Piccione incoronato Victoria"
+    },
+    {
+      "id": "birds-096",
+      "animal": "Dodo",
+      "prompt": "Quali pressioni hanno contribuito all’estinzione del dodo a Mauritius?",
+      "options": [
+        "Caccia e specie introdotte",
+        "Una migrazione in Antartide",
+        "Una trasformazione in un mammifero",
+        "Incapacità di mangiare frutta"
+      ],
+      "explanation": "La caccia e i cambiamenti causati dall’uomo, compresi gli animali introdotti, hanno contribuito alla sua scomparsa.",
+      "didYouKnow": "Il dodo era endemico di Mauritius, nell'Oceano Indiano.",
+      "imageCaption": "Dodo"
+    },
+    {
+      "id": "birds-097",
+      "animal": "Piccione migratore",
+      "prompt": "Che impatto ha avuto la caccia commerciale intensiva sul piccione migratore?",
+      "options": [
+        "La specie si estinse all'inizio del XX secolo",
+        "Ha sviluppato ali più lunghe",
+        "Ha lasciato l'America per l'Asia",
+        "È diventata un uccello marino"
+      ],
+      "explanation": "La caccia su larga scala e la distruzione dell’habitat hanno portato alla sua scomparsa.",
+      "didYouKnow": "Prima del suo declino, il piccione migratore formava gruppi storici che contavano milioni di individui.",
+      "imageCaption": "Piccione migratore"
+    },
+    {
+      "id": "birds-098",
+      "animal": "L'Ara di Spix",
+      "prompt": "Perché l’Ara di Spix è un esempio di conservazione complessa?",
+      "options": [
+        "È scomparso dalla natura e i programmi stanno cercando di reintrodurlo",
+        "Vive solo nelle città europee",
+        "Non può riprodursi in cattività",
+        "Ha ancora una popolazione selvatica molto abbondante"
+      ],
+      "explanation": "Gli uccelli allevati in cattività sono stati rilasciati in Brasile come parte degli sforzi di reintroduzione.",
+      "didYouKnow": "Il suo habitat naturale è la caatinga, un ambiente secco nel nord-est del Brasile.",
+      "imageCaption": "L'Ara di Spix"
+    },
+    {
+      "id": "birds-099",
+      "animal": "Cacatua delle palme nero",
+      "prompt": "Qual è lo scopo del bastone che può realizzare il Cacatua delle palme nere?",
+      "options": [
+        "Tamburellare su un supporto durante una parata",
+        "Per catturare i pesci in una buca",
+        "Scavare una cavità per il nido",
+        "Per filtrare i semi dal terreno"
+      ],
+      "explanation": "Alcuni maschi modellano un bastone e lo usano per produrre un suono di tamburo da esposizione.",
+      "didYouKnow": "Ha una grande macchia rossa nuda sulla guancia.",
+      "imageCaption": "Cacatua delle palme nero"
+    },
+    {
+      "id": "birds-100",
+      "animal": "Cacatua rosa",
+      "prompt": "Che tipo di cibo mangia spesso il Cacatua di Rosalbin?",
+      "options": [
+        "Semi e cereali",
+        "Esclusivamente plancton",
+        "Pesci della barriera corallina",
+        "Solo foglie di conifere"
+      ],
+      "explanation": "Si nutre principalmente di semi e piante, talvolta nelle zone agricole.",
+      "didYouKnow": "Il suo piumaggio rosa e grigio è molto caratteristico.",
+      "imageCaption": "Cacatua rosa"
+    },
+    {
+      "id": "birds-101",
+      "animal": "Oca selvatica",
+      "prompt": "Perché le oche selvatiche a volte volano in formazione a V?",
+      "options": [
+        "Gli uccelli che seguono possono sfruttare le correnti d'aria create da quello che li precede",
+        "La forma permette il trasporto del nido",
+        "La V impedisce agli uccelli di vedere i predatori",
+        "L'addestramento riduce il peso dell'ala"
+      ],
+      "explanation": "La scia di un uccello può fornire ulteriore portanza al seguace e ridurne lo sforzo.",
+      "didYouKnow": "L'Oca selvatica ha il becco arancione e le zampe rosate, caratteristiche del suo aspetto.",
+      "imageCaption": "Oca selvatica"
+    },
+    {
+      "id": "birds-102",
+      "animal": "Civetta delle nevi",
+      "prompt": "Come fanno a volte le civette delle nevi a individuare le arvicole sotto la neve?",
+      "options": [
+        "Ascoltare i loro movimenti per poi tuffarsi nella neve",
+        "Vedere dritto attraverso la neve",
+        "Rilevando i loro colori ultravioletti",
+        "Scavando con le ali prima di ascoltare"
+      ],
+      "explanation": "Il suo udito acuto lo aiuta a localizzare piccoli mammiferi nascosti sotto uno strato di neve.",
+      "didYouKnow": "Il suo piumaggio leggero aiuta a mimetizzarsi nei paesaggi innevati.",
+      "imageCaption": "Civetta delle nevi"
+    },
+    {
+      "id": "birds-103",
+      "animal": "Pittima reale",
+      "prompt": "In che modo il lungo becco della pittima rossa la aiuta a nutrirsi?",
+      "options": [
+        "Sondando il fango per trovare invertebrati",
+        "Rompendo i noccioli dei frutti",
+        "Filtrando il plancton durante il volo",
+        "Scavando cavità negli alberi"
+      ],
+      "explanation": "Con il becco sonda il fango e il terreno umido alla ricerca di vermi e altri invertebrati.",
+      "didYouKnow": "Alcune popolazioni volano senza sosta tra l'Alaska e la Nuova Zelanda.",
+      "imageCaption": "Pittima reale"
+    },
+    {
+      "id": "birds-104",
+      "animal": "Gru comune",
+      "prompt": "Quale caratteristica della trachea della gru comune contribuisce alla risonanza dei suoi richiami?",
+      "options": [
+        "È allungato e arrotolato all'interno dello sterno.",
+        "Si divide in diversi rami paralleli nel collo.",
+        "Forma una sacca esterna sotto la pelle della gola.",
+        "Passa attraverso le cavità del becco prima di raggiungere i polmoni."
+      ],
+      "explanation": "La lunghissima ed arrotolata trachea della gru comune contribuisce alla risonanza dei suoi richiami, che portano lontano.",
+      "didYouKnow": "Le gru comuni eseguono anche danze che prevedono salti e movimenti delle ali.",
+      "imageCaption": "Gru comune"
+    },
+    {
+      "id": "birds-105",
+      "animal": "Cicogna bianca",
+      "prompt": "Quale comportamento di nidificazione può esibire la cicogna bianca?",
+      "options": [
+        "Riutilizza e amplia un nido da un anno all'altro",
+        "Scava ogni anno una tana in una banca",
+        "Appendi il nido sotto rami sottili",
+        "Depone le uova sul terreno senza nido"
+      ],
+      "explanation": "Una coppia può riutilizzare ed espandere una piattaforma di nidificazione per diverse stagioni.",
+      "didYouKnow": "Negli adulti il ​​becco e le zampe della cicogna bianca sono rossi, mentre nei giovani sono più opachi.",
+      "imageCaption": "Cicogna bianca"
+    },
+    {
+      "id": "birds-106",
+      "animal": "Merlo acquaiolo",
+      "prompt": "Dove fa spesso il nido il Carro?",
+      "options": [
+        "In una cavità o in un angolo vicino ad un corso d'acqua",
+        "In un nido che galleggia al largo",
+        "In una tana secca in mezzo a un campo",
+        "Su una sporgenza del deserto, lontano dall'acqua"
+      ],
+      "explanation": "Nidifica in prossimità di fiumi, in cavità di sponde, rocce o strutture umane.",
+      "didYouKnow": "Il mestolo ha una grande pettorina bianca che contrasta con il suo dorso scuro.",
+      "imageCaption": "Merlo acquaiolo"
+    },
+    {
+      "id": "birds-107",
+      "animal": "Svasso maggiore",
+      "prompt": "Quale gesto fa parte del corteggiamento dello svasso maggiore?",
+      "options": [
+        "I partner si trovano uno di fronte all'altro sulle piante che presentano l'acqua",
+        "Colpiscono il fondo del lago con il becco",
+        "Costruiscono una piattaforma di pietra sulla riva",
+        "Si tuffano insieme fino al fondo e restano lì"
+      ],
+      "explanation": "L'esposizione dello svasso maggiore include una visualizzazione sincronizzata delle piante tra i partner.",
+      "didYouKnow": "Le zampe dello svasso maggiore, situate molto dietro il corpo, sono adatte per il nuoto.",
+      "imageCaption": "Svasso maggiore"
+    },
+    {
+      "id": "birds-108",
+      "animal": "Colombaccio",
+      "prompt": "Che comportamento usa il colombaccio durante la sua esibizione aerea?",
+      "options": [
+        "Si alza sbattendo le ali e poi ridiscende planando",
+        "Si tuffa sott'acqua ed esce vicino al nido",
+        "Fa girare un ramoscello nel becco",
+        "Sbatte le ali mentre cammina per terra"
+      ],
+      "explanation": "Il maschio esegue voli dimostrativi con alzata, battito d'ali e poi planata discendente.",
+      "didYouKnow": "Il suo nido è spesso una semplice piattaforma di ramoscelli.",
+      "imageCaption": "Colombaccio"
+    },
+    {
+      "id": "birds-109",
+      "animal": "Beccaccia",
+      "prompt": "In che modo il piumaggio della beccaccia aiuta a evitare di essere individuata?",
+      "options": [
+        "I suoi motivi marroni si fondono con le foglie morte",
+        "Le sue piume riflettono i raggi ultravioletti verso i predatori",
+        "Il suo piumaggio diventa trasparente all'ombra",
+        "Le sue ali imitano fiori colorati"
+      ],
+      "explanation": "I suoi toni marroni e ocra forniscono un'efficace mimetizzazione nei rifiuti della foresta.",
+      "didYouKnow": "I suoi occhi fissati in alto sulla testa gli conferiscono un ampio campo visivo.",
+      "imageCaption": "Beccaccia"
+    },
+    {
+      "id": "birds-110",
+      "animal": "Avocetta pezzata",
+      "prompt": "Quale habitat utilizza spesso l'avocetta nera per nutrirsi?",
+      "options": [
+        "Lagune e paludi poco profonde",
+        "Fitte foreste di conifere",
+        "Scogliere innevate",
+        "Fiumi profondi di montagna"
+      ],
+      "explanation": "Cerca la sua preda nelle lagune e in altre zone umide poco profonde.",
+      "didYouKnow": "I pulcini di avocetta sono precoci e possono spostarsi subito dopo la schiusa.",
+      "imageCaption": "Avocetta pezzata"
+    },
+    {
+      "id": "birds-111",
+      "animal": "Ghiandaia azzurra",
+      "prompt": "Che effetto possono avere i richiami d'allarme della ghiandaia azzurra in un bosco?",
+      "options": [
+        "Avvertono gli altri animali della presenza di un predatore",
+        "Attirano i pesci a riva",
+        "Dicono alle piante la direzione del vento",
+        "Portano gli insetti fuori dal terreno"
+      ],
+      "explanation": "I suoi richiami possono segnalare pericolo ed essere ascoltati da altri uccelli.",
+      "didYouKnow": "La ghiandaia azzurra può nascondere semi e ghiande, per poi dimenticare alcune delle sue riserve.",
+      "imageCaption": "Ghiandaia azzurra"
+    },
+    {
+      "id": "birds-112",
+      "animal": "Gheppio comune",
+      "prompt": "Come fa il gheppio a individuare spesso un'arvicola in un campo?",
+      "options": [
+        "Resta immobile di fronte al vento mentre scruta il terreno",
+        "Si tuffa sottoterra per ascoltare",
+        "Filtra l'erba con il becco",
+        "Sta ancora aspettando in una tana"
+      ],
+      "explanation": "Stare in bilico gli consente di ispezionare il terreno prima di piombare sulla preda.",
+      "didYouKnow": "Il gheppio maschio e femmina hanno modelli di piumaggio diversi.",
+      "imageCaption": "Gheppio comune"
+    },
+    {
+      "id": "birds-113",
+      "animal": "Fenicottero minore",
+      "prompt": "Come fa il fenicottero minore a catturare i minuscoli organismi di cui si nutre?",
+      "options": [
+        "Filtra l'acqua con le lame del becco",
+        "Li trafigge con i suoi artigli",
+        "Li cattura in una rete",
+        "Li estrae dai tronchi con la lingua"
+      ],
+      "explanation": "Le lame del becco trattengono piccole alghe e crostacei quando scorre l'acqua.",
+      "didYouKnow": "Il fenicottero minore può formare enormi colonie riproduttive sui laghi salati dell’Africa.",
+      "imageCaption": "Fenicottero minore"
+    },
+    {
+      "id": "birds-114",
+      "animal": "Rondine di fienile",
+      "prompt": "Come fa la rondine a costruire il nido sotto un riparo?",
+      "options": [
+        "Modella palline di fango mescolate a fibre vegetali.",
+        "Scava un tunnel nella pietra",
+        "Intreccia foglie di palma",
+        "Incolla le conchiglie con il nettare"
+      ],
+      "explanation": "La rondine comune unisce piccole palline di fango e rinforza il nido con fibre vegetali.",
+      "didYouKnow": "Spesso cattura insetti sopra campi aperti e specchi d’acqua.",
+      "imageCaption": "Rondine di fienile"
+    },
+    {
+      "id": "birds-115",
+      "animal": "Picchio nero",
+      "prompt": "Che conseguenze possono avere le cavità scavate dal picchio nero in un bosco?",
+      "options": [
+        "Altri animali possono riutilizzarli per la nidificazione",
+        "Impediscono la crescita degli alberi vicini",
+        "Diventano sempre serbatoi d'acqua",
+        "Attirano solo i pesci"
+      ],
+      "explanation": "Le specie che non sono in grado di scavare le proprie cavità possono utilizzare quelle del picchio nero.",
+      "didYouKnow": "Il picchio nero è il picchio più grande d'Europa.",
+      "imageCaption": "Picchio nero"
+    },
+    {
+      "id": "birds-116",
+      "animal": "Condor della California",
+      "prompt": "Quale minaccia di munizioni colpisce il condor della California?",
+      "options": [
+        "Ingestione di frammenti di piombo nelle carcasse",
+        "L'intreccio delle sue ali nei retini per farfalle",
+        "Contaminazione del piumaggio da parte del sale marino",
+        "Perdere gli artigli al contatto con l'acciaio"
+      ],
+      "explanation": "I frammenti di munizioni di piombo presenti nelle carcasse possono avvelenare i condor.",
+      "didYouKnow": "Il condor della California ha un'apertura alare che può avvicinarsi ai tre metri.",
+      "imageCaption": "Condor della California"
+    },
+    {
+      "id": "birds-117",
+      "animal": "Falco pescatore",
+      "prompt": "Perché il falco pescatore porta spesso il pesce con la testa in avanti?",
+      "options": [
+        "Questo orientamento riduce la resistenza dell'aria",
+        "Impedisce al pesce di raffreddarsi",
+        "Aiuta il falco pescatore a tuffarsi di nuovo",
+        "Permette di nutrire i pulcini in volo"
+      ],
+      "explanation": "Orientare il pesce nella direzione del volo riduce la sua resistenza aerodinamica.",
+      "didYouKnow": "Il falco pescatore talvolta riutilizza un'area di nidificazione costruita negli anni precedenti.",
+      "imageCaption": "Falco pescatore"
+    },
+    {
+      "id": "birds-118",
+      "animal": "Airone cenerino",
+      "prompt": "Perché l'airone cenerino a volte riposiziona un pesce prima di inghiottirlo?",
+      "options": [
+        "Per orientarlo a testa in giù e facilitare la deglutizione",
+        "Per asciugarlo al sole",
+        "Rimuovere le sue squame con una pietra",
+        "Per raffreddarlo prima del trasporto"
+      ],
+      "explanation": "Ingoiare prima la testa della preda aiuta a evitare che le sue pinne rimangano incastrate in gola.",
+      "didYouKnow": "L'airone cenerino indossa lunghe piume ornamentali sulla testa e sul collo durante la riproduzione.",
+      "imageCaption": "Airone cenerino"
+    },
+    {
+      "id": "birds-119",
+      "animal": "Gallinella d'acqua",
+      "prompt": "Come può la gallinella d'acqua spostarsi sulla vegetazione delle sponde del fiume?",
+      "options": [
+        "Con le sue lunghe dita che distribuiscono il suo peso",
+        "Con una membrana che agisce come una ventosa",
+        "Aggrappandosi con il becco adunco",
+        "Usando la coda come piede"
+      ],
+      "explanation": "Le sue lunghe dita lo aiutano a camminare sulle piante e sui terreni morbidi delle rive.",
+      "didYouKnow": "Può immergersi brevemente per sfuggire al pericolo.",
+      "imageCaption": "Gallinella d'acqua"
+    },
+    {
+      "id": "birds-120",
+      "animal": "Turaco violetto",
+      "prompt": "Che caratteristica chimica ha il pigmento rosso turacina dei turachi?",
+      "options": [
+        "Contiene rame",
+        "È costituito da clorofilla",
+        "È prodotto dal sangue delle piante",
+        "Contiene cristalli di sale"
+      ],
+      "explanation": "La turacina, un pigmento rosso specifico dei turachi, contiene rame.",
+      "didYouKnow": "I turachi sono uccelli arboricoli africani che consumano soprattutto frutta.",
+      "imageCaption": "Turaco violetto"
+    },
+    {
+      "id": "birds-121",
+      "animal": "Picchio panciagialla",
+      "prompt": "A quale famiglia appartiene il picchio dal ventre giallo?",
+      "options": [
+        "Alle vette",
+        "Alle rondini",
+        "Ai rapaci notturni",
+        "Agli uccelli costieri"
+      ],
+      "explanation": "Il picchio dal ventre giallo è un membro della famiglia dei picchi.",
+      "didYouKnow": "Nidifica in una cavità che scava in un albero.",
+      "imageCaption": "Picchio panciagialla"
+    },
+    {
+      "id": "birds-122",
+      "animal": "Oca dalla testa barra",
+      "prompt": "Quale sfida fisiologica deve affrontare l'oca dalla testa di barra durante i suoi passaggi sull'Himalaya?",
+      "options": [
+        "Volare in aria povera di ossigeno ad alta quota",
+        "Nuota nell'acqua salata dei passi",
+        "Resistere al caldo tropicale in vetta",
+        "Muoversi su scogliere senza ali"
+      ],
+      "explanation": "Attraversa passi alti dove la pressione e la disponibilità di ossigeno sono basse.",
+      "didYouKnow": "Le bande nere che segnano la testa dell'oca dalla testa barrata ne facilitano il riconoscimento.",
+      "imageCaption": "Oca dalla testa barra"
+    },
+    {
+      "id": "birds-123",
+      "animal": "Bucero dall'elmo",
+      "prompt": "Perché il bucero dall’elmo è particolarmente minacciato dal bracconaggio?",
+      "options": [
+        "Il suo solido elmo è ricercato per la scultura",
+        "Le sue piume vengono utilizzate per realizzare reti da pesca.",
+        "Le sue uova sono usate come pietre preziose",
+        "Il suo becco viene venduto come strumento musicale"
+      ],
+      "explanation": "L'elmo di cheratina è ambito per la scultura, il che ha portato a una forte pressione di caccia.",
+      "didYouKnow": "Il bucero dall'elmo dipende dalle foreste tropicali del sud-est asiatico, alcune delle quali sono frammentate.",
+      "imageCaption": "Bucero dall'elmo"
+    },
+    {
+      "id": "birds-124",
+      "animal": "avvoltoio collorosso",
+      "prompt": "Quale senso aiuta particolarmente gli avvoltoi collorosso a trovare carcasse nascoste?",
+      "options": [
+        "Il senso dell'olfatto",
+        "Rilevazione ad ultrasuoni",
+        "Il tocco delle penne della coda",
+        "Visione subacquea"
+      ],
+      "explanation": "Il suo acuto senso dell'olfatto gli consente di rilevare l'odore delle carcasse sotto la copertura vegetale.",
+      "didYouKnow": "La testa rossa nuda dell'avvoltoio collorosso è una caratteristica distintiva della specie.",
+      "imageCaption": "avvoltoio collorosso"
+    },
+    {
+      "id": "birds-125",
+      "animal": "Aquilone rosso",
+      "prompt": "In che modo la coda biforcuta del nibbio reale aiuta il suo volo?",
+      "options": [
+        "Ne migliora la manovrabilità",
+        "Conserva il cibo",
+        "Serve come gancio per appenderlo ai rami",
+        "Gli raffredda il sangue"
+      ],
+      "explanation": "La sua coda biforcuta gli consente di regolare con precisione la sua direzione durante il volo a vela.",
+      "didYouKnow": "Il nibbio reale si trova in gran parte dell'Europa, con popolazioni sia residenti che migratrici.",
+      "imageCaption": "Aquilone rosso"
+    },
+    {
+      "id": "birds-126",
+      "animal": "Picchio dorato americano",
+      "prompt": "Che cibo cerca spesso il Northern Flicker sul terreno?",
+      "options": [
+        "Formiche",
+        "Meduse",
+        "Nettare di bambù",
+        "Uova di pesce"
+      ],
+      "explanation": "Raccoglie frequentemente formiche da terra, oltre ad altri invertebrati.",
+      "didYouKnow": "In volo, il Northern Flicker mostra una grande macchia bianca sulla groppa.",
+      "imageCaption": "Picchio dorato americano"
+    },
+    {
+      "id": "birds-127",
+      "animal": "Sula",
+      "prompt": "In che modo la sula limita gli effetti dell'impatto durante l'immersione?",
+      "options": [
+        "Gli adattamenti del cranio e dei tessuti assorbono parte dello shock",
+        "Gonfia una sacca d'aria nel becco",
+        "Dispiega le gambe come un paracadute",
+        "Mantiene le ali spalancate sott'acqua"
+      ],
+      "explanation": "Gli adattamenti anatomici aiutano a supportare l'impatto delle sue immersioni rapide.",
+      "didYouKnow": "Le sule nidificano in colonie compatte, spesso sulle sporgenze costiere.",
+      "imageCaption": "Sula"
+    },
+    {
+      "id": "birds-128",
+      "animal": "Anatra selvatica",
+      "prompt": "Come fa il germano reale a raggiungere il cibo sotto la superficie?",
+      "options": [
+        "Inclina la parte anteriore del corpo mantenendo a galla la parte posteriore",
+        "Si immerge sistematicamente a grandi profondità",
+        "Scava la riva con le sue ali",
+        "Succhia l'acqua con un tubicino nel becco"
+      ],
+      "explanation": "L'anatra può tuffarsi con la testa e il collo per raggiungere il fondo in acque poco profonde.",
+      "didYouKnow": "Il maschio del germano reale cambia piumaggio dopo la riproduzione e assume temporaneamente un aspetto più discreto.",
+      "imageCaption": "Anatra selvatica"
+    },
+    {
+      "id": "birds-129",
+      "animal": "Gabbiano tridattilo",
+      "prompt": "Quale sito scelgono spesso i gabbiani tridattili per nidificare?",
+      "options": [
+        "Una stretta sporgenza costiera della scogliera",
+        "Una tana profonda in un prato",
+        "Una cavità sottomarina",
+        "Un tronco cavo nel cuore di una foresta"
+      ],
+      "explanation": "Nidifica in colonie sui bordi delle scogliere marittime.",
+      "didYouKnow": "Dopo la riproduzione, il gabbiano tridattilo trascorre gran parte del suo tempo al largo.",
+      "imageCaption": "Gabbiano tridattilo"
+    },
+    {
+      "id": "birds-130",
+      "animal": "Tuffetto",
+      "prompt": "Che tipo di nido costruiscono spesso i tuffetti?",
+      "options": [
+        "Una piattaforma per piante galleggiante",
+        "Una cavità rocciosa secca",
+        "Una tazza posta in cima ad un albero",
+        "Una tana scavata in una duna"
+      ],
+      "explanation": "Costruisce un nido galleggiante tra le piante acquatiche.",
+      "didYouKnow": "Durante l'esposizione il tuffetto può alzare le piume ed emettere forti richiami.",
+      "imageCaption": "Tuffetto"
+    },
+    {
+      "id": "birds-131",
+      "animal": "Piccione selvatico",
+      "prompt": "A quale famiglia appartiene il dodo, come il piccione torraiuolo?",
+      "options": [
+        "Alla famiglia dei piccioni",
+        "Alla famiglia dei pinguini",
+        "Alla famiglia dei fagiani",
+        "Alla famiglia degli albatros"
+      ],
+      "explanation": "Il dodo e il colombaccio appartengono entrambi alla famiglia dei Columbidae.",
+      "didYouKnow": "I piccioni danno da mangiare ai loro pulcini un alimento ricco prodotto nel raccolto, chiamato latte del raccolto.",
+      "imageCaption": "Piccione selvatico"
+    },
+    {
+      "id": "birds-132",
+      "animal": "Parrocchetto della Carolina",
+      "prompt": "Cosa è successo al parrocchetto della Carolina, una volta trovato negli Stati Uniti orientali?",
+      "options": [
+        "Si estinse all'inizio del XX secolo",
+        "È stato introdotto in Europa e lì prospera",
+        "È diventata un uccello marino",
+        "È emigrata in Antartide"
+      ],
+      "explanation": "La distruzione e la persecuzione dell'habitat hanno contribuito all'estinzione di questa specie.",
+      "didYouKnow": "Il parrocchetto della Carolina viveva spesso in gruppi rumorosi e si nutriva di semi e frutti.",
+      "imageCaption": "Parrocchetto della Carolina"
+    },
+    {
+      "id": "birds-133",
+      "animal": "Cacatua ciuffogiallo",
+      "prompt": "Quale segnale visivo può mostrare il Cacatua dalla cresta solforosa con la testa?",
+      "options": [
+        "Alza la sua cresta di piume",
+        "Cambia il colore delle sue gambe",
+        "Fa lampeggiare le penne della coda",
+        "Getta polvere colorata"
+      ],
+      "explanation": "La cresta può sollevarsi durante l'eccitazione o le interazioni sociali.",
+      "didYouKnow": "Il cacatua usa i piedi per trattenere e manipolare il cibo.",
+      "imageCaption": "Cacatua ciuffogiallo"
+    },
+    {
+      "id": "birds-134",
+      "animal": "Calopsitta",
+      "prompt": "Cosa può esprimere la cresta mobile della calopsitta?",
+      "options": [
+        "Il loro livello di attenzione o eccitazione",
+        "La profondità dell'acqua sotto di lei",
+        "La temperatura esatta del suo nido",
+        "Il numero di semi che ha mangiato"
+      ],
+      "explanation": "La cresta si alza o si abbassa a seconda dell'attenzione e dello stato emotivo dell'uccello.",
+      "didYouKnow": "La calopsitta è originaria dell'Australia.",
+      "imageCaption": "Calopsitta"
+    },
+    {
+      "id": "birds-135",
+      "animal": "Il lorichetto di Swainson",
+      "prompt": "Quale risorsa cercano i lorichetti di Swainson negli alberi di eucalipto in fiore?",
+      "options": [
+        "Nettare e polline",
+        "Larve solo sotto la corteccia",
+        "Pesci nelle cavità degli alberi",
+        "Semi di cono"
+      ],
+      "explanation": "I fiori di eucalipto forniscono nettare e polline consumati dai lorichetti.",
+      "didYouKnow": "Il lorichetto di Swainson è originario dell'Australia orientale.",
+      "imageCaption": "Il lorichetto di Swainson"
+    },
+    {
+      "id": "birds-136",
+      "animal": "Pappagallo grigio africano",
+      "prompt": "Quale capacità di apprendimento vocale è stata osservata in alcuni pappagalli cenerini africani?",
+      "options": [
+        "Associa determinati suoni a oggetti o situazioni",
+        "Comprendi tutte le frasi come un essere umano",
+        "Produrre parole senza mai sentirle",
+        "Canta solo sott'acqua"
+      ],
+      "explanation": "Gli studi su alcuni individui mostrano la capacità di apprendere associazioni tra suoni e oggetti.",
+      "didYouKnow": "In natura consuma soprattutto frutti e semi.",
+      "imageCaption": "Pappagallo grigio africano"
+    },
+    {
+      "id": "birds-137",
+      "animal": "Kakapo",
+      "prompt": "Perché i kakapo sono particolarmente vulnerabili ai mammiferi predatori introdotti?",
+      "options": [
+        "Non vola e si è evoluto con pochi predatori terrestri",
+        "Non riesce a sentire le grida di allarme",
+        "Nidifica esclusivamente in acqua",
+        "Cambia colore ogni notte"
+      ],
+      "explanation": "La storica assenza di mammiferi predatori in Nuova Zelanda ha favorito un uccello terrestre incapace di volare.",
+      "didYouKnow": "Il kakapo si nutre di varie parti vegetali, tra cui foglie, semi e frutti.",
+      "imageCaption": "Kakapo"
+    },
+    {
+      "id": "birds-138",
+      "animal": "Oca selvatica",
+      "prompt": "Perché l'oca selvatica pascola spesso sulla terraferma?",
+      "options": [
+        "Erbe e altre piante costituiscono una parte importante della sua dieta",
+        "Lì cerca solo pesci.",
+        "Raccoglie il nettare dalla terra",
+        "Caccia gli insetti sotto la corteccia"
+      ],
+      "explanation": "Le oche selvatiche spesso consumano erba e altre piante terrestri o acquatiche.",
+      "didYouKnow": "L'oca selvatica è l'antenato selvatico di molte razze di oche domestiche.",
+      "imageCaption": "Oca selvatica"
+    },
+    {
+      "id": "birds-139",
+      "animal": "Pellicano bruno",
+      "prompt": "In che modo i pellicani marroni catturano spesso i pesci vicino alla superficie?",
+      "options": [
+        "Si tuffa dall'aria in un tuffo",
+        "Cammina verso il fondo e li afferra con le zampe",
+        "Filtra il plancton in superficie",
+        "Scava tane sott'acqua"
+      ],
+      "explanation": "Si tuffa per afferrare i pesci vicino alla superficie e poi usa la sacca per trattenerli brevemente.",
+      "didYouKnow": "Il pellicano bruno si riproduce in colonie, spesso su isole o in siti costieri.",
+      "imageCaption": "Pellicano bruno"
+    },
+    {
+      "id": "birds-140",
+      "animal": "Spatola",
+      "prompt": "In che tipo di acqua la spatola cerca spesso la sua preda?",
+      "options": [
+        "In acque poco profonde",
+        "Nel mare profondo",
+        "Nei torrenti ghiacciati",
+        "Solo nelle pozze temporanee del deserto"
+      ],
+      "explanation": "Spazza il becco in acque poco profonde per catturare piccoli animali.",
+      "didYouKnow": "La spatola può nidificare in colonie sugli alberi o sui canneti.",
+      "imageCaption": "Spatola"
+    },
+    {
+      "id": "birds-141",
+      "animal": "Folaga",
+      "prompt": "Quale segno distintivo ha la folaga sopra il becco?",
+      "options": [
+        "Uno stemma frontale bianco",
+        "Una cresta gialla",
+        "Una lunga appendice rossa",
+        "Un elmo corneo"
+      ],
+      "explanation": "La macchia bianca sulla fronte è un'area di pelle nuda sopra il becco.",
+      "didYouKnow": "La folaga nuota e si tuffa per cercare il cibo.",
+      "imageCaption": "Folaga"
+    },
+    {
+      "id": "birds-142",
+      "animal": "Topino",
+      "prompt": "Dove scava tipicamente la sua galleria di nidificazione la Rondine della Banca?",
+      "options": [
+        "In un argine o muro di terreno sabbioso",
+        "In un baule vivente",
+        "Sotto la superficie di un lago",
+        "Nella cavità della conchiglia"
+      ],
+      "explanation": "Scava un tunnel nelle morbide pareti degli argini o delle cave.",
+      "didYouKnow": "La rondine bancaria sverna principalmente nell'Africa subsahariana.",
+      "imageCaption": "Topino"
+    },
+    {
+      "id": "birds-143",
+      "animal": "Airone guardabuoi",
+      "prompt": "Perché gli aironi guardabuoi spesso si aggirano vicino al bestiame?",
+      "options": [
+        "Gli animali disturbano gli insetti che riescono a catturare",
+        "Si nutre esclusivamente di latte bovino.",
+        "Utilizza le corna come trespolo per nidificare",
+        "Il bestiame gli porta il pesce"
+      ],
+      "explanation": "Lo spostamento del bestiame a volte fa emergere insetti e piccole prede accessibili all'airone.",
+      "didYouKnow": "L'airone guardabuoi può nidificare in colonie sugli alberi, talvolta con altre specie.",
+      "imageCaption": "Airone guardabuoi"
+    },
+    {
+      "id": "birds-144",
+      "animal": "Francolino di monte",
+      "prompt": "Come può il gallo cedrone muoversi nella neve farinosa?",
+      "options": [
+        "Può tuffarsi nella neve per ripararsi.",
+        "Nuota sotto la neve con le sue ali",
+        "Scava una galleria con il becco",
+        "Pende dai rami per la coda"
+      ],
+      "explanation": "Il gallo cedrone può seppellirsi nella neve farinosa per proteggersi dal freddo.",
+      "didYouKnow": "Il maschio del gallo cedrone produce un suono rotolante facendo vibrare rapidamente le ali.",
+      "imageCaption": "Francolino di monte"
+    },
+    {
+      "id": "birds-145",
+      "animal": "Pernice bianca",
+      "prompt": "Come fa la pernice bianca ad adattare il suo piumaggio alle stagioni?",
+      "options": [
+        "Diventa più chiaro in inverno e più marrone in estate",
+        "Diventa sempre rosso in primavera",
+        "In inverno perde tutte le piume",
+        "Cambia colore ogni giorno"
+      ],
+      "explanation": "Il cambio stagionale del piumaggio ne migliora la mimetizzazione a seconda del colore del paesaggio.",
+      "didYouKnow": "Durante l'esibizione, la pernice bianca maschio può emettere grida e inseguirsi.",
+      "imageCaption": "Pernice bianca"
+    },
+    {
+      "id": "birds-146",
+      "animal": "Ruddy Turnstone",
+      "prompt": "Cosa fa il Voltapietra Ruddy con i piccoli ciottoli della riva?",
+      "options": [
+        "Li gira per scoprire prede nascoste",
+        "Li ingoia per fare una conchiglia",
+        "Li lancia per catturare i pesci",
+        "Se li attacca alle ali per volare meglio"
+      ],
+      "explanation": "Rimuove pietre e detriti per trovare invertebrati nascosti sotto.",
+      "didYouKnow": "Il Voltapietra Ruddy si riproduce nelle regioni artiche e subartiche.",
+      "imageCaption": "Ruddy Turnstone"
+    },
+    {
+      "id": "birds-147",
+      "animal": "Beccaccino",
+      "prompt": "In che modo la punta del becco di un beccaccino lo aiuta a nutrirsi?",
+      "options": [
+        "Rileva la preda nel fango",
+        "Produce una luce che attira gli insetti",
+        "Spezza la corteccia degli alberi",
+        "Misura la salinità dell'aria"
+      ],
+      "explanation": "I recettori sulla punta del becco lo aiutano a rilevare la preda quando sonda il fango.",
+      "didYouKnow": "Durante l'esibizione, il beccaccino maschio può produrre un suono vibrante chiamato \"tremore\" con le penne della coda.",
+      "imageCaption": "Beccaccino"
+    },
+    {
+      "id": "birds-148",
+      "animal": "Gruccione carminio",
+      "prompt": "Perché i gruccioni carminio scavano i loro nidi sulle rive dei fiumi?",
+      "options": [
+        "Il terreno soffice permette di scavare gallerie per la nidificazione",
+        "Le banche producono nettare",
+        "Filtrano i pesci nelle tane",
+        "Evitano di dover deporre le uova"
+      ],
+      "explanation": "Le coppie scavano tunnel nelle rive o nelle scogliere di terra soffice.",
+      "didYouKnow": "Il gruccione carminio ha il piumaggio rosso-rosato molto brillante e la testa contrastante.",
+      "imageCaption": "Gruccione carminio"
+    },
+    {
+      "id": "birds-149",
+      "animal": "Martin pescatore dal collare",
+      "prompt": "Dove nidifica spesso il martin pescatore americano?",
+      "options": [
+        "In un tunnel scavato in una banca",
+        "In un nido appeso al canneto",
+        "In una cavità sottomarina",
+        "In un albero cavo lontano dall'acqua"
+      ],
+      "explanation": "Spesso scava una galleria per nidificare in un banco sabbioso vicino all'acqua.",
+      "didYouKnow": "Il martin pescatore americano ha una cresta arruffata e produce richiami aspri.",
+      "imageCaption": "Martin pescatore dal collare"
+    },
+    {
+      "id": "birds-150",
+      "animal": "Fregata magnifica",
+      "prompt": "Perché la fregata superba generalmente evita di tuffarsi in acqua?",
+      "options": [
+        "Il suo piumaggio non è adatto a restare immerso a lungo.",
+        "Non riesce a vedere il pesce",
+        "Non ha remiganti.",
+        "Non può aprire il becco in volo."
+      ],
+      "explanation": "Il piumaggio delle fregate è meno impermeabile di quello di molti uccelli subacquei, quindi catturano di solito le prede in superficie.",
+      "didYouKnow": "Durante il corteggiamento il maschio gonfia una sacca rossa sulla gola.",
+      "imageCaption": "Fregata magnifica"
+    },
+    {
+      "id": "birds-151",
+      "animal": "Megapodio di Latham",
+      "prompt": "Come fa il megapode di Latham a mantenere calde le sue uova?",
+      "options": [
+        "Li seppellisce in un cumulo di piante in decomposizione",
+        "Li porta sotto le sue ali in volo",
+        "Costruisce un nido galleggiante sopra una sorgente termale",
+        "Li affida ad un altro uccello"
+      ],
+      "explanation": "Il calore prodotto dalla vegetazione in decomposizione incuba le uova nel tumulo.",
+      "didYouKnow": "Il megapode di Latham è originario dell'Australia orientale.",
+      "imageCaption": "Megapodio di Latham"
+    },
+    {
+      "id": "birds-152",
+      "animal": "Sula",
+      "prompt": "Che colore caratterizza l'uovo della sula?",
+      "options": [
+        "Blu pallido",
+        "Verde brillante",
+        "Rosso maculato",
+        "Nero lucido"
+      ],
+      "explanation": "L'uovo è di colore azzurro pallido, e il suo aspetto è in parte legato al guscio calcareo.",
+      "didYouKnow": "Le sule nidificano in colonie su scogliere e isolotti marini.",
+      "imageCaption": "Sula"
+    },
+    {
+      "id": "birds-153",
+      "animal": "Pinguino reale",
+      "prompt": "Come fa il pinguino reale a mantenere il suo uovo durante l'incubazione?",
+      "options": [
+        "In piedi sotto una piega di pelle",
+        "In un nido di ramoscelli",
+        "In una cavità scavata nel ghiaccio",
+        "In una tasca sotto il becco"
+      ],
+      "explanation": "L'uovo poggia sulle zampe e sotto una piega addominale che lo isola dal terreno freddo.",
+      "didYouKnow": "Il pulcino indossa una folta peluria marrone prima di indossare il piumaggio adulto.",
+      "imageCaption": "Pinguino reale"
+    },
+    {
+      "id": "birds-154",
+      "animal": "Pinguino di Adelia",
+      "prompt": "Che materiale raccoglie il pinguino di Adelia per formare il suo nido?",
+      "options": [
+        "Piccoli ciottoli",
+        "Alghe intrecciate sott'acqua",
+        "Rami di conifere",
+        "Fango a forma di torre"
+      ],
+      "explanation": "Di solito costruisce una piccola piattaforma di pietre per sollevare le uova.",
+      "didYouKnow": "Dopo la schiusa, i giovani pinguini di Adelia possono raggrupparsi negli asili nido mentre gli adulti si nutrono.",
+      "imageCaption": "Pinguino di Adelia"
+    },
+    {
+      "id": "birds-155",
+      "animal": "Berta minore",
+      "prompt": "Perché la Berta maggiore ritorna spesso alla sua colonia dopo il tramonto?",
+      "options": [
+        "Ciò può ridurre la sua esposizione ai predatori vicino alle tane",
+        "Non può vedere il giorno",
+        "Le tane aprono solo a mezzanotte",
+        "La luna scalda le uova"
+      ],
+      "explanation": "Ritornare di notte può ridurre il rischio di essere individuati dai predatori attorno alla colonia.",
+      "didYouKnow": "La Berta maggiore compie lunghi viaggi migratori tra le zone di riproduzione e quelle di svernamento.",
+      "imageCaption": "Berta minore"
+    },
+    {
+      "id": "birds-156",
+      "animal": "Uria comune",
+      "prompt": "Quale ipotesi è stata avanzata per spiegare la forma conica dell'uovo dell'uria?",
+      "options": [
+        "Potrebbe limitare quanto lontano rotola l’uovo da una sporgenza.",
+        "Permetterebbe all'uovo di galleggiare verso il mare",
+        "Aiuterebbe il pulcino a volare prima",
+        "Fissava l'uovo alla scogliera per la punta"
+      ],
+      "explanation": "È un’ipotesi sulla forma dell’uovo dell’uria; l’importanza di questo effetto è ancora discussa.",
+      "didYouKnow": "Le urie comuni nidificano in colonie fitte su strette sporgenze e scogliere marine.",
+      "imageCaption": "Uria comune"
+    },
+    {
+      "id": "birds-157",
+      "animal": "Albatro errante",
+      "prompt": "Quante uova depone in genere l'albatro errante per ogni tentativo di riproduzione?",
+      "options": [
+        "Solo uno",
+        "Due",
+        "Quattro",
+        "Una dozzina"
+      ],
+      "explanation": "Come molti grandi albatros, generalmente alleva solo un pulcino per tentativo.",
+      "didYouKnow": "L'albatro errante usa il suo senso dell'olfatto per trovare risorse alimentari in mare.",
+      "imageCaption": "Albatro errante"
+    },
+    {
+      "id": "birds-158",
+      "animal": "Fregata superba",
+      "prompt": "Come fa a volte la superba fregata a procurarsi la preda senza pescare?",
+      "options": [
+        "Inseguendo un altro uccello finché non lascia cadere o rigurgita il cibo.",
+        "Prende i pesci dai nidi delle tartarughe",
+        "Filtra il plancton nella scia delle navi",
+        "Aspetta che i pesci saltino su una spiaggia"
+      ],
+      "explanation": "Talvolta le fregate costringono altri uccelli marini a cedere il cibo: questo comportamento è detto cleptoparassitismo.",
+      "didYouKnow": "Le ali molto lunghe permettono loro di veleggiare sopra l’oceano aperto.",
+      "imageCaption": "Fregata superba"
+    },
+    {
+      "id": "birds-159",
+      "animal": "Cigno reale",
+      "prompt": "Come fa il cigno reale a raggiungere le piante sotto la superficie in acque poco profonde?",
+      "options": [
+        "Immerge il lungo collo rimanendo a galla",
+        "Si tuffa completamente sul fondo",
+        "Filtra le piante con i fanoni",
+        "Cammina sott'acqua con le sue ali"
+      ],
+      "explanation": "Il suo lungo collo gli permette di raggiungere le piante sommerse senza sommergere tutto il corpo.",
+      "didYouKnow": "Il cigno reale adulto ha una protuberanza nera alla base del becco arancione.",
+      "imageCaption": "Cigno reale"
+    },
+    {
+      "id": "birds-160",
+      "animal": "Bucero rinoceronte",
+      "prompt": "In che modo il bucero rinoceronte protegge la cavità del nido?",
+      "options": [
+        "La femmina si chiude nella cavità, lasciando una stretta apertura per il passaggio del cibo da parte del maschio.",
+        "Costruisce un cancello di pietra",
+        "Riempie la cavità con acqua",
+        "Mette le uova in un nido sospeso"
+      ],
+      "explanation": "La femmina rimane nel nido mentre l’ingresso viene sigillato con fango e altro materiale, lasciando una fessura per ricevere il cibo.",
+      "didYouKnow": "L’elmo è cavo ed è sostenuto da una struttura reticolare di osso e cheratina.",
+      "imageCaption": "Bucero rinoceronte"
+    },
+    {
+      "id": "birds-161",
+      "animal": "Picchio mangiatore di ghiande",
+      "prompt": "Come distribuisce spesso le ghiande che immagazzina il picchio mangiatore di ghiande?",
+      "options": [
+        "Li posiziona in fori di varie dimensioni a seconda del loro diametro",
+        "Li seppellisce tutti in una tana",
+        "Li infila sotto le ali",
+        "Li mette nell'acqua per mantenerli freschi"
+      ],
+      "explanation": "I fori di stoccaggio possono avere dimensioni diverse per contenere ghiande di varie dimensioni.",
+      "didYouKnow": "Il picchio mangiatore di ghiande vive spesso in gruppi familiari che collaborano per difendere il proprio territorio.",
+      "imageCaption": "Picchio mangiatore di ghiande"
+    },
+    {
+      "id": "birds-162",
+      "animal": "Picchio dal ventre giallo",
+      "prompt": "Quale animale può trarre beneficio dai fori di linfa praticati dal picchio dal ventre giallo?",
+      "options": [
+        "Colibrì",
+        "Pinguini",
+        "Avvoltoi",
+        "Berte"
+      ],
+      "explanation": "I colibrì possono venire e bere la linfa che scorre dalle file di buchi.",
+      "didYouKnow": "Le popolazioni settentrionali del picchio dal ventre giallo migrano verso sud in inverno.",
+      "imageCaption": "Picchio dal ventre giallo"
+    },
+    {
+      "id": "birds-163",
+      "animal": "Balestruccio",
+      "prompt": "Dove nidifica spesso il balestruccio?",
+      "options": [
+        "Sotto un cornicione o una grondaia",
+        "Nella tana di una banca",
+        "In una cavità sottomarina",
+        "Su una piattaforma di rami a terra"
+      ],
+      "explanation": "Fissa il suo nido di fango sotto il bordo di un edificio o di una parete rocciosa.",
+      "didYouKnow": "Il balestruccio si riconosce in volo dalla groppa bianca che contrasta con il dorso scuro.",
+      "imageCaption": "Balestruccio"
+    },
+    {
+      "id": "birds-164",
+      "animal": "Gru comune",
+      "prompt": "Quale comportamento migratorio mostra la gru comune?",
+      "options": [
+        "Si riunisce spesso in gruppi prima di partire per i quartieri invernali.",
+        "Nuota attraverso gli oceani",
+        "Resta sempre nella stessa palude tutto l'anno",
+        "Migra sotto la neve"
+      ],
+      "explanation": "Le gru comuni si riuniscono e migrano tra i siti di riproduzione e di svernamento.",
+      "didYouKnow": "Le gru comuni spesso formano coppie che rimangono insieme per diverse stagioni.",
+      "imageCaption": "Gru comune"
+    },
+    {
+      "id": "birds-165",
+      "animal": "Upupa",
+      "prompt": "Quale specifica difesa chimica è associata al nido dell'upupa?",
+      "options": [
+        "I giovani e le femmine possono produrre una secrezione maleodorante",
+        "Il nido è ricoperto di veleno di serpente",
+        "Le uova rilasciano cloro",
+        "Il maschio spruzza resina tossica"
+      ],
+      "explanation": "La femmina e i pulcini possono produrre una secrezione odorosa che probabilmente aiuta a scoraggiare alcuni predatori.",
+      "didYouKnow": "L'upupa può sollevare la sua cresta a forma di ventaglio quando è attenta o eccitata.",
+      "imageCaption": "Upupa"
+    },
+    {
+      "id": "birds-166",
+      "animal": "Cuculo",
+      "prompt": "Che tipo di vocalizzazione fa tipicamente la femmina del cuculo grigio?",
+      "options": [
+        "Un richiamo rapido e forte distinto dal canto del maschio",
+        "Un tamburellare sui rami",
+        "Un grido solo sott'acqua",
+        "Un lungo tubare identico a quello di un piccione"
+      ],
+      "explanation": "La femmina emette un richiamo rapido e forte, diverso dallo schema a due note del maschio.",
+      "didYouKnow": "Il cuculo grigio migra in Africa per superare la brutta stagione.",
+      "imageCaption": "Cuculo"
+    },
+    {
+      "id": "birds-167",
+      "animal": "Balestruccio",
+      "prompt": "Che forma ha spesso il nido di fango del balestruccio?",
+      "options": [
+        "Una coppa di fango quasi chiusa, con una piccola apertura.",
+        "Una coppa aperta fissata sotto un ramo",
+        "Un profondo tunnel scavato in una sponda",
+        "Una piattaforma galleggiante di canne"
+      ],
+      "explanation": "Il balestruccio costruisce un nido a cupola con palline di fango, lasciando una piccola apertura.",
+      "didYouKnow": "I balestrucci nidificano spesso in colonie sotto le gronde degli edifici.",
+      "imageCaption": "Balestruccio"
+    },
+    {
+      "id": "birds-168",
+      "animal": "Gruccione europeo",
+      "prompt": "Dove colloca solitamente il nido il gruccione europeo?",
+      "options": [
+        "All'estremità di una galleria scavata in una sponda o in un terrapieno",
+        "In un nido appeso sotto un ramo",
+        "In fondo ad un baule pieno d'acqua",
+        "In una cavità della scogliera costruita con ramoscelli"
+      ],
+      "explanation": "La coppia scava un tunnel per la nidificazione nel terreno soffice.",
+      "didYouKnow": "Il gruccione europeo lascia l’Europa in autunno e sverna in Africa.",
+      "imageCaption": "Gruccione europeo"
+    },
+    {
+      "id": "birds-169",
+      "animal": "Nero Rapido",
+      "prompt": "Come fa spesso il Rondone Nero a riposarsi?",
+      "options": [
+        "Si aggrappa ad una superficie verticale",
+        "Si trova su un sottile ramo orizzontale",
+        "Si attacca per la coda ad un filo",
+        "È sospeso sott'acqua"
+      ],
+      "explanation": "Le sue zampe corte e gli artigli gli permettono di aggrapparsi alle superfici verticali.",
+      "didYouKnow": "Il rondone nero trascorre l'inverno in Africa dopo essersi riprodotto in Europa.",
+      "imageCaption": "Nero Rapido"
+    },
+    {
+      "id": "birds-170",
+      "animal": "Merlo acquaiolo",
+      "prompt": "Quale ambiente è particolarmente importante per il mestolo?",
+      "options": [
+        "Corsi d'acqua limpidi e veloci",
+        "Dune costiere senza acqua",
+        "Foreste tropicali a baldacchino",
+        "Campi di grano secco"
+      ],
+      "explanation": "Dipende dai fiumi e dai torrenti dove trova le sue prede acquatiche.",
+      "didYouKnow": "Il merlo acquaiolo si riconosce dal piastrone bianco che contrasta con il piumaggio marrone.",
+      "imageCaption": "Merlo acquaiolo"
+    },
+    {
+      "id": "birds-171",
+      "animal": "Cardinale settentrionale",
+      "prompt": "Quale caratteristica del becco aiuta il cardinale settentrionale a mangiare i semi?",
+      "options": [
+        "Un becco corto e conico",
+        "Un becco molto lungo e ricurvo",
+        "Un becco a forma di spatola",
+        "Un becco incrociato con punte opposte"
+      ],
+      "explanation": "Il suo robusto becco conico è adatto a maneggiare e sgusciare i semi.",
+      "didYouKnow": "Il cardinale settentrionale costruisce un nido a coppa, solitamente posto su un arbusto o un piccolo albero.",
+      "imageCaption": "Cardinale settentrionale"
+    },
+    {
+      "id": "birds-172",
+      "animal": "Kiwi marrone",
+      "prompt": "Perché l'uovo del kiwi è notevole rispetto alle dimensioni della femmina?",
+      "options": [
+        "Rappresenta una porzione eccezionalmente grande della sua massa corporea",
+        "È l'uovo più piccolo tra gli uccelli",
+        "Non contiene giallo",
+        "È posato sott'acqua"
+      ],
+      "explanation": "L'uovo del kiwi è molto grande rispetto alle dimensioni del corpo della femmina.",
+      "didYouKnow": "Il kiwi marrone è attivo principalmente di notte.",
+      "imageCaption": "Kiwi marrone"
+    },
+    {
+      "id": "birds-173",
+      "animal": "Casuario con l'elmo",
+      "prompt": "Che ruolo può svolgere il casuario dopo aver mangiato un frutto di bosco?",
+      "options": [
+        "Trasporta e deposita i tuoi semi altrove",
+        "Impollinare le alghe",
+        "Evita che i semi germinino seppellendoli tutti",
+        "Trasforma la frutta in nettare"
+      ],
+      "explanation": "I semi ingeriti possono passare attraverso il suo sistema digestivo ed essere depositati a distanza.",
+      "didYouKnow": "Il casuario ha bargigli colorati sul collo, che variano a seconda della specie.",
+      "imageCaption": "Casuario con l'elmo"
+    },
+    {
+      "id": "birds-174",
+      "animal": "Piccione selvatico",
+      "prompt": "Quale forma di vita selvatica del colombaccio è responsabile delle popolazioni urbane?",
+      "options": [
+        "Una specie che nidifica naturalmente sulle scogliere",
+        "È un uccello palustre che nidifica tra i canneti",
+        "Un migrante artico d'alto mare",
+        "Un pappagallo della foresta tropicale"
+      ],
+      "explanation": "La roccia selvaggia si annida sulle scogliere e gli edifici offrono sporgenze simili.",
+      "didYouKnow": "I piccioni nutrono i loro piccoli con il “latte del raccolto”, una secrezione nutriente prodotta da entrambi i genitori.",
+      "imageCaption": "Piccione selvatico"
+    },
+    {
+      "id": "birds-175",
+      "animal": "Aquila reale",
+      "prompt": "Cosa fa spesso un'aquila reale con un nido utilizzato nelle stagioni precedenti?",
+      "options": [
+        "Può riutilizzarlo e ingrandirlo",
+        "Lo porta su un'altra scogliera",
+        "Lo copre sempre con acqua",
+        "Lo sostituisce con una tana"
+      ],
+      "explanation": "Una coppia può riutilizzare ed espandere la propria area di nidificazione per diversi anni.",
+      "didYouKnow": "Le zampe dell'aquila reale sono piumate fino alle dita.",
+      "imageCaption": "Aquila reale"
+    },
+    {
+      "id": "birds-176",
+      "animal": "Uccello segretario",
+      "prompt": "Come fa spesso la segretaria a catturare i serpenti?",
+      "options": [
+        "Li colpisce con le sue lunghe gambe",
+        "Li cattura con una tasca sotto il becco",
+        "Li attira con una rete di piume",
+        "Li insegue sott'acqua"
+      ],
+      "explanation": "Il segretario caccia a piedi e può colpire la preda con le sue lunghe zampe.",
+      "didYouKnow": "Costruisce un grande nido su un albero o un arbusto.",
+      "imageCaption": "Uccello segretario"
+    },
+    {
+      "id": "birds-177",
+      "animal": "Toco del tucano",
+      "prompt": "Perché il becco del tucano toco sembra massiccio ma rimane relativamente leggero?",
+      "options": [
+        "All’interno contiene una leggera rete di sostegni ossei.",
+        "È costituito da piume compattate",
+        "Si riempie d'aria attraverso una tasca esterna",
+        "Viene sostituito da una conchiglia ogni stagione"
+      ],
+      "explanation": "Il becco è sostenuto internamente da una struttura reticolare: è voluminoso ma non massiccio e pesante.",
+      "didYouKnow": "Il tucano toco è la specie di tucano più grande.",
+      "imageCaption": "Toco del tucano"
+    },
+    {
+      "id": "birds-178",
+      "animal": "Hoazin",
+      "prompt": "Che particolarità hanno le ali dei giovani hoazin?",
+      "options": [
+        "Artigli che li aiutano ad arrampicarsi sulla vegetazione",
+        "Membrane che permettono loro di nuotare come anatre",
+        "Piume impermeabili che formano una borsa",
+        "Dita opposte che afferrano il pesce"
+      ],
+      "explanation": "I giovani usano gli artigli delle ali per arrampicarsi sui rami quando si muovono attraverso la vegetazione.",
+      "didYouKnow": "Lo hoazin vive nelle foreste alluvionali che costeggiano i corsi d'acqua dell'Amazzonia e dell'Orinoco.",
+      "imageCaption": "Hoazin"
+    },
+    {
+      "id": "birds-179",
+      "animal": "Becco a scarpa",
+      "prompt": "Dove nidifica tipicamente il becco a scarpa?",
+      "options": [
+        "Su una piattaforma di vegetazione in una palude",
+        "In una cavità della scogliera marina",
+        "In una tana scavata sotto le dune",
+        "In un nido appeso a un albero secco della foresta"
+      ],
+      "explanation": "Costruisce il nido a terra, nella vegetazione delle paludi dove vive.",
+      "didYouKnow": "Il nome becco a scarpa si riferisce alla forma caratteristica del suo massiccio becco.",
+      "imageCaption": "Becco a scarpa"
+    },
+    {
+      "id": "birds-180",
+      "animal": "Gru damigella",
+      "prompt": "Dove trascorre spesso l’inverno la gru demoiselle in Asia centrale dopo la riproduzione?",
+      "options": [
+        "Nell'Asia meridionale",
+        "In Antartide",
+        "Nelle isole dei Caraibi",
+        "Nelle foreste boreali del Canada"
+      ],
+      "explanation": "Migra nell'Asia meridionale per svernare dopo aver nidificato nelle steppe dell'Asia centrale.",
+      "didYouKnow": "Le gru demoiselle maschi e femmine hanno piumaggio molto simile.",
+      "imageCaption": "Gru damigella"
+    },
+    {
+      "id": "birds-181",
+      "animal": "Bucero rinoceronte",
+      "prompt": "Di che materiale è fatto principalmente il fodero dell'elmo del bucero rinoceronte?",
+      "options": [
+        "Cheratina",
+        "Chitina",
+        "Silice",
+        "Cartilagine nuda"
+      ],
+      "explanation": "La guaina corneo che ricopre l'elmo è di cheratina, come quella del becco. L'elmo si sviluppa man mano che l'uccello cresce.",
+      "didYouKnow": "Il bucero rinoceronte vive nelle foreste tropicali del Borneo, di Sumatra e della penisola malese.",
+      "imageCaption": "Bucero rinoceronte"
+    },
+    {
+      "id": "birds-182",
+      "animal": "Parrocchetto dal ventre arancione",
+      "prompt": "Tra quali regioni migra il parrocchetto dal ventre arancione?",
+      "options": [
+        "Tasmania e Australia meridionale",
+        "L'Artico e l'Antartide",
+        "Europa e Africa occidentale",
+        "Giappone e Siberia"
+      ],
+      "explanation": "Si riproduce in Tasmania per poi migrare nei quartieri invernali del continente australiano.",
+      "didYouKnow": "La sua popolazione selvatica è molto piccola ed è oggetto di sforzi di conservazione.",
+      "imageCaption": "Parrocchetto dal ventre arancione"
+    },
+    {
+      "id": "birds-183",
+      "animal": "Piccione incoronato Victoria",
+      "prompt": "Quale struttura visibile distingue il piccione incoronato Victoria?",
+      "options": [
+        "Una grande cresta di piume blu traforate",
+        "Un elmo corneo sul becco",
+        "Una tasca espandibile sotto la gola",
+        "Un treno fatto di ocelli"
+      ],
+      "explanation": "La sua cresta blu è composta da delicate piume simili a merletti.",
+      "didYouKnow": "Il piccione incoronato Victoria è una delle specie di piccioni viventi più grandi.",
+      "imageCaption": "Piccione incoronato Victoria"
+    },
+    {
+      "id": "birds-184",
+      "animal": "Aquila calva",
+      "prompt": "Quale cibo è una risorsa importante per l'aquila calva?",
+      "options": [
+        "Il pesce",
+        "Solo semi di canna",
+        "Licheni delle scogliere",
+        "Nettare dei fiori"
+      ],
+      "explanation": "Cattura spesso pesci, anche se la sua dieta comprende anche altre prede e carcasse.",
+      "didYouKnow": "Nell'aquila calva, la testa bianca appare con il piumaggio adulto, dopo diversi anni.",
+      "imageCaption": "Aquila calva"
+    },
+    {
+      "id": "birds-185",
+      "animal": "Aquila Arpia",
+      "prompt": "Perché le ali relativamente corte dell'aquila arpia sono utili nella foresta?",
+      "options": [
+        "Rendono più facile la manovra tra gli alberi",
+        "Ti permettono di nuotare sott'acqua",
+        "Aumentano la velocità in alto mare",
+        "Impediscono qualsiasi scivolamento"
+      ],
+      "explanation": "Le ali più corte e più larghe facilitano la svolta nella fitta vegetazione.",
+      "didYouKnow": "L'aquila arpia costruisce un grande nido tra le chiome degli alberi ad alto fusto.",
+      "imageCaption": "Aquila Arpia"
+    },
+    {
+      "id": "birds-186",
+      "animal": "Petrel gigante",
+      "prompt": "Che ruolo gioca talvolta la procellaria gigante del sud nelle colonie marine?",
+      "options": [
+        "Consuma carcasse e altre risorse disponibili",
+        "Costruisci barriere coralline",
+        "Filtra il sale dalle correnti",
+        "Impollinare le alghe del fondale marino"
+      ],
+      "explanation": "Agisce come un predatore opportunista e spazzino negli ecosistemi marini.",
+      "didYouKnow": "La procellaria gigante è il più grande rappresentante delle procellarie.",
+      "imageCaption": "Petrel gigante"
+    },
+    {
+      "id": "birds-187",
+      "animal": "Avvoltoio Nero",
+      "prompt": "Come fa spesso l'avvoltoio nero a individuare una carcassa?",
+      "options": [
+        "Osservando altri spazzini e grazie alla sua vista",
+        "Solo da un olfatto eccezionale",
+        "Ascoltare i semi cadere",
+        "Scavando sotto le carcasse"
+      ],
+      "explanation": "Si affida in gran parte alla vista e può individuare gli uccelli che hanno trovato una carcassa.",
+      "didYouKnow": "L'avvoltoio nero può sfruttare le correnti ascensionali termiche per planare con poco sforzo.",
+      "imageCaption": "Avvoltoio Nero"
+    },
+    {
+      "id": "birds-188",
+      "animal": "Aquila pescatrice africana",
+      "prompt": "Quale risorsa cattura principalmente l'aquila?",
+      "options": [
+        "Pesci vicino alla superficie dell’acqua.",
+        "Radici sotterranee",
+        "Solo semi di erba",
+        "Insetti nei tronchi"
+      ],
+      "explanation": "L’aquila pescatrice africana cattura spesso i pesci lanciandosi su di loro vicino alla superficie.",
+      "didYouKnow": "Il suo richiamo squillante si sente spesso presso laghi e fiumi africani.",
+      "imageCaption": "Aquila pescatrice africana"
+    },
+    {
+      "id": "birds-189",
+      "animal": "Corriere grosso",
+      "prompt": "Come si comporta il pulcino di Piviere poco dopo la schiusa?",
+      "options": [
+        "Può camminare e cercare cibo poco dopo la schiusa.",
+        "Resta nutrito in una cavità per diversi mesi",
+        "Vola subito verso il mare",
+        "Trascorre la sua prima settimana sott'acqua"
+      ],
+      "explanation": "I pulcini del corriere grosso sono precoci: lasciano presto il nido a terra e cercano piccole prede, mentre gli adulti li sorvegliano.",
+      "didYouKnow": "Gli adulti possono fingere di avere un’ala ferita per allontanare i predatori dal nido o dai pulcini.",
+      "imageCaption": "Corriere grosso"
+    },
+    {
+      "id": "birds-190",
+      "animal": "Falaropo beccosottile",
+      "prompt": "In che modo il falarope dal collo rosso a volte concentra le piccole prede sulla superficie?",
+      "options": [
+        "Gira velocemente nell'acqua",
+        "Costruisce una diga di piume",
+        "Soffia aria calda nel fango",
+        "Colpisce il pesce con le ali"
+      ],
+      "explanation": "La rotazione crea vortici che possono portare piccoli organismi alla sua portata.",
+      "didYouKnow": "In questo falaropo le femmine hanno colori più vivaci dei maschi e sono questi ultimi a garantire l'incubazione.",
+      "imageCaption": "Falaropo beccosottile"
+    },
+    {
+      "id": "birds-191",
+      "animal": "Motmot coronazzurra",
+      "prompt": "A cosa può servire il movimento pendolare della coda in certi motmot?",
+      "options": [
+        "Per segnalare uno stato di allerta o un'interazione",
+        "Per raffreddare le uova sotto il nido",
+        "Per attirare i pesci sott'acqua",
+        "Per spingere l'uccello all'indietro"
+      ],
+      "explanation": "Il movimento della coda può servire come segnale visibile, soprattutto in un contesto di allerta.",
+      "didYouKnow": "Il motmot dalle sopracciglia blu spesso scava il suo nido in fondo a un tunnel sulla riva del fiume.",
+      "imageCaption": "Motmot coronazzurra"
+    },
+    {
+      "id": "birds-192",
+      "animal": "Trogone elegante",
+      "prompt": "Come sono disposte le dita dell'elegante trogone?",
+      "options": [
+        "Due avanti e due indietro",
+        "Tre avanti e uno indietro",
+        "Tutti avanti",
+        "Tutti indietro"
+      ],
+      "explanation": "Questa disposizione, detta eterodattilo, aiuta il trogono ad afferrare i rami.",
+      "didYouKnow": "I trogoni possono nidificare in cavità naturali o in vecchi termitai a seconda della specie.",
+      "imageCaption": "Trogone elegante"
+    },
+    {
+      "id": "birds-193",
+      "animal": "Stupendo uccello lira",
+      "prompt": "Perché il superbo uccello lira si chiama così?",
+      "options": [
+        "La coda del maschio schierata evoca la forma di una lira",
+        "La sua canzone ricorda solo il suono di uno strumento a corda",
+        "Nidifica esclusivamente su alberi chiamati lire.",
+        "Ha un becco a forma di lira."
+      ],
+      "explanation": "Le lunghe penne della coda del maschio formano una sagoma simile a una lira durante l'esposizione.",
+      "didYouKnow": "L'uccello lira è endemico dell'Australia e vive nelle foreste temperate e umide.",
+      "imageCaption": "Stupendo uccello lira"
+    },
+    {
+      "id": "birds-194",
+      "animal": "Tessitore comune",
+      "prompt": "Perché i nidi intrecciati dei tessitori pendono spesso dai rami?",
+      "options": [
+        "La sospensione rende l'accesso più difficile per alcuni predatori terrestri",
+        "Permette alle uova di galleggiare",
+        "Dà al nido l'accesso alla linfa",
+        "Impedisce ai genitori di uscire"
+      ],
+      "explanation": "I nidi sospesi possono limitare l'accesso ad alcuni predatori che si arrampicano da terra.",
+      "didYouKnow": "Il maschio del tessitore gendarme mostra il piumaggio giallo brillante durante la stagione riproduttiva.",
+      "imageCaption": "Tessitore comune"
+    },
+    {
+      "id": "birds-195",
+      "animal": "Tessitore sociale",
+      "prompt": "Quale materiale utilizza principalmente il repubblicano sociale per costruire il suo grande nido collettivo?",
+      "options": [
+        "Erba secca e ramoscelli",
+        "Conchiglie e sabbia",
+        "Solo fango e foglie fresche",
+        "Piume di mammiferi"
+      ],
+      "explanation": "La struttura collettiva è composta principalmente da materiali vegetali secchi.",
+      "didYouKnow": "Il repubblicano sociale vive negli ambienti aridi dell’Africa meridionale.",
+      "imageCaption": "Tessitore sociale"
+    },
+    {
+      "id": "birds-196",
+      "animal": "Falco pescatore",
+      "prompt": "In che modo gli artigli del falco pescatore aiutano a trattenere un pesce scivoloso?",
+      "options": [
+        "I dossi e i cuscinetti ruvidi migliorano la presa",
+        "Secernono una colla",
+        "Avvolgono il pesce in una membrana",
+        "Indossano ventose"
+      ],
+      "explanation": "Le superfici ruvide delle dita aiutano a trattenere saldamente la preda.",
+      "didYouKnow": "Il falco pescatore spesso stabilisce la sua area su un supporto alto, vicino a uno specchio d'acqua.",
+      "imageCaption": "Falco pescatore"
+    },
+    {
+      "id": "birds-197",
+      "animal": "Corvo",
+      "prompt": "Come può un corvo rompere una noce dal guscio duro?",
+      "options": [
+        "Facendolo cadere su una superficie resistente",
+        "Sciogliendolo in acqua",
+        "Masticandolo con i denti",
+        "Sfregandolo contro una piuma"
+      ],
+      "explanation": "Cadere su una superficie dura può rompere il guscio e rendere accessibile il dado.",
+      "didYouKnow": "Il corvo comune spesso forma legami di coppia duraturi e difende un territorio di nidificazione.",
+      "imageCaption": "Corvo"
+    },
+    {
+      "id": "birds-198",
+      "animal": "Cuculo",
+      "prompt": "Perché la femmina del cuculo grigio a volte veglia sul nido di un ospite?",
+      "options": [
+        "Per scegliere il momento in cui potrà deporre lì il suo uovo",
+        "Insegnare al genitore ospitante a costruire un nido",
+        "Per conservare i bruchi",
+        "Per impedire la migrazione dei pulcini ospiti"
+      ],
+      "explanation": "La femmina deve individuare un nido attivo la cui fase di deposizione sia adatta all'incubazione del suo uovo.",
+      "didYouKnow": "Il cuculo grigio si nutre soprattutto di bruchi, tra cui alcune specie pelose poco apprezzate dagli altri uccelli.",
+      "imageCaption": "Cuculo"
+    },
+    {
+      "id": "birds-199",
+      "animal": "Pinguino imperatore",
+      "prompt": "Che ruolo gioca l'aggregazione dei pinguini imperatore durante le tempeste invernali?",
+      "options": [
+        "Riduce l'esposizione individuale al vento e al freddo",
+        "Permette di condividere le uova tra i gruppi",
+        "Attira i pesci sotto il ghiaccio",
+        "Accelera lo scioglimento della neve"
+      ],
+      "explanation": "Gli individui stipati uno vicino all’altro riducono la superficie esposta al freddo.",
+      "didYouKnow": "Il pinguino imperatore si tuffa per catturare pesci e calamari sotto il lastrone di ghiaccio.",
+      "imageCaption": "Pinguino imperatore"
+    },
+    {
+      "id": "birds-200",
+      "animal": "Sterna artica",
+      "prompt": "Quale habitat utilizzano spesso le sterne artiche per nidificare?",
+      "options": [
+        "Aree costiere o isole artiche",
+        "Foreste tropicali a baldacchino",
+        "Scogliere deserte senza acqua",
+        "Grotte d'acqua dolce"
+      ],
+      "explanation": "Nidifica nelle regioni artiche, spesso vicino alle coste o sulle isole.",
+      "didYouKnow": "La sterna artica può vivere per diversi decenni, nonostante le sue piccole dimensioni.",
+      "imageCaption": "Sterna artica"
+    }
+  ]
+}

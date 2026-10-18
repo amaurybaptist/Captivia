@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "33c5df6bf0e7c0ecdf20ddaa1ae939bf61caf78fdc55b6048f56b12a3a347930",
+  "locale": "de",
+  "questions": [
+    {
+      "id": "insects-001",
+      "animal": "Insekten",
+      "prompt": "Wie viele Beinpaare hat ein erwachsenes Insekt?",
+      "options": [
+        "Drei",
+        "Zwei",
+        "Vier",
+        "Acht"
+      ],
+      "explanation": "Der Körperbauplan von Insekten umfasst drei Beinpaare, die am Brustkorb befestigt sind.",
+      "didYouKnow": "Bei Odonaten leben die Larven im Wasser, während sich die Erwachsenen durch die Luft bewegen.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-002",
+      "animal": "Insekten",
+      "prompt": "In wie viele große Regionen ist der Körper eines typischen Insekts unterteilt?",
+      "options": [
+        "Drei: Kopf, Brustkorb und Bauch",
+        "Zwei: Kopf und Bauch",
+        "Vier: Kopf, Brustkorb, Bauch und Schwanzanhängsel",
+        "Fünf: Kopf, Hals, Brustkorb, Bauch und Schwanz"
+      ],
+      "explanation": "Der Kopf trägt die Sinnesorgane und den Mund, der Brustkorb die Beine und oft auch die Flügel und der Bauch enthält mehrere innere Organe.",
+      "didYouKnow": "Insekten gehören zu den Arthropoden, einer Gruppe, zu der auch Spinnen und Krebstiere gehören.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-003",
+      "animal": "Insekten",
+      "prompt": "Aus welchem ​​Material besteht hauptsächlich das Exoskelett von Insekten?",
+      "options": [
+        "Chitin",
+        "Zellulose",
+        "Calciumcarbonat",
+        "Keratin"
+      ],
+      "explanation": "Die äußere Nagelhaut enthält Chitin und Proteine und schützt den Körper.",
+      "didYouKnow": "Chitin kommt auch in der Zellwand von Pilzen vor.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-004",
+      "animal": "Insekten",
+      "prompt": "Wie atmen Insekten normalerweise?",
+      "options": [
+        "Über ein Tracheensystem, das durch Atemöffnungen (Stigmen) mit der Außenluft verbunden ist",
+        "Über Lungen, die mit dem Mund verbunden sind",
+        "Über Kiemen unter dem Hinterleib",
+        "Indem sie Sauerstoff ausschließlich über die Beine aufnehmen"
+      ],
+      "explanation": "Luft gelangt durch Atemöffnungen, sogenannte Stigmen, in die Tracheen und von dort zu den Geweben.",
+      "didYouKnow": "Die meisten Insekten haben auch ein röhrenförmiges Herz auf dem Rücken, das die Hämolymphe zirkuliert.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-005",
+      "animal": "Insekten",
+      "prompt": "Was sind die Hauptzwecke der Antennen eines Insekts?",
+      "options": [
+        "Zur Erkennung sensorischer Signale, einschließlich Gerüchen",
+        "Umgebungslicht wahrnehmen",
+        "Um das Insekt im Flug anzutreiben",
+        "Um das Blut zu pumpen"
+      ],
+      "explanation": "Die Antennen tragen Rezeptoren, die empfindlich auf Gerüche, Kontakte und manchmal auch auf Luftbewegungen reagieren.",
+      "didYouKnow": "Viele Motten verfügen über Hörorgane, die Ultraschall von Fledermäusen wahrnehmen.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-006",
+      "animal": "Gerridae",
+      "prompt": "Wie bewegen sich Gerriden, ähnlich wie Wasserläufer, über die Oberfläche eines Teiches?",
+      "options": [
+        "Sie verteilen ihr Gewicht auf hydrophobe Beine, ohne die Oberflächenspannung zu zerstören",
+        "Sie schwimmen unter der Oberfläche, indem sie ihre gesäumten Hinterbeine antreiben",
+        "Sie klammern sich an geschlüpfte Pflanzen, um aus dem Wasser zu gelangen",
+        "Sie treiben sich fort, indem sie einen Wasserstrahl aus dem Bauch ausstoßen"
+      ],
+      "explanation": "Hydrophobe Haare an den Beinen verteilen das Gewicht, weisen Wasser ab und ermöglichen so Bewegung auf der Oberfläche.",
+      "didYouKnow": "Die Weibchen einiger Gerriden legen ihre Eier auf Pflanzen oder schwimmenden Gegenständen ab.",
+      "imageCaption": "Wasserskater"
+    },
+    {
+      "id": "insects-007",
+      "animal": "Insekten",
+      "prompt": "Warum muss sich ein Insekt häuten, um zu wachsen?",
+      "options": [
+        "Die starre Nagelhaut wächst nicht ständig mit",
+        "Sein knöcherner Panzer kann sich nicht dehnen",
+        "Er muss sein Blut erneuern, um zu wachsen",
+        "Seine Flügel müssen jede Saison nachwachsen"
+      ],
+      "explanation": "Das starre Exoskelett wird regelmäßig durch eine größere Kutikula ersetzt.",
+      "didYouKnow": "Insekten gehören wie Spinnen und Krebstiere zu den Arthropoden.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-008",
+      "animal": "Insekten",
+      "prompt": "Wie heißen die Atemöffnungen, die bei vielen Insekten am Körper sichtbar sind?",
+      "options": [
+        "Stigmen",
+        "Tracheen",
+        "Luftsäcke",
+        "Kiemen"
+      ],
+      "explanation": "Stigmen münden in das Tracheensystem und liegen oft am Brustkorb und Hinterleib.",
+      "didYouKnow": "Bei geflügelten Insekten sind die Flügel am Mesothorax und Metathorax befestigt.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-009",
+      "animal": "Insekten",
+      "prompt": "Welchen inneren Kreislauf haben die meisten Insekten?",
+      "options": [
+        "Ein offener Kreislauf mit Hämolymphe",
+        "Ein geschlossener Kreislauf, bei dem das Blut in einem Gefäßnetz verbleibt",
+        "Ein doppelter Kreislauf, der sauerstoffhaltiges und nicht sauerstoffhaltiges Blut trennt",
+        "Ein offener Kreislauf, dessen Flüssigkeit von mehreren peripheren Kernen angetrieben wird"
+      ],
+      "explanation": "Hämolymphe umspült die Organe in der Körperhöhle; es transportiert im Allgemeinen keinen Sauerstoff.",
+      "didYouKnow": "Die Facettenaugen vieler Insekten bestehen aus Tausenden von Seheinheiten, den sogenannten Ommatidien.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-010",
+      "animal": "Insekten",
+      "prompt": "Welche Rolle spielen die Palpen um den Mund herum bei verschiedenen Insekten?",
+      "options": [
+        "Helfen Sie dabei, mit Lebensmitteln umzugehen und sie zu riechen",
+        "Halten Sie die Flügel während des Fluges an Ort und Stelle",
+        "Richten Sie die Luft auf die Stigmata",
+        "Befestigen Sie das Insekt während der Nahrungsaufnahme an der Pflanze"
+      ],
+      "explanation": "Palpen sind sensorische Anhängsel, die mit den Mundwerkzeugen verbunden sind.",
+      "didYouKnow": "Bei vielen Arten finden sich Geschmacksrezeptoren auch an den Beinen, insbesondere an den Fußwurzeln.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-011",
+      "animal": "Käfer",
+      "prompt": "Was sind die Elytren der Käfer?",
+      "options": [
+        "Gehärtete Vorderflügel, die die Hinterflügel schützen",
+        "Häutige Hinterflügel, die beim Steuern helfen",
+        "Kiemen unter den Flügeldecken",
+        "Gelenkige Platten, die die Beine bedecken"
+      ],
+      "explanation": "Elytren bilden eine schützende Decke über den gefalteten Flugflügeln.",
+      "didYouKnow": "Einige Käfer, wie zum Beispiel Laufkäfer, haben reduzierte Hinterflügel und fliegen kaum.",
+      "imageCaption": "Siebenfleckiger Marienkäfer"
+    },
+    {
+      "id": "insects-012",
+      "animal": "Marienkäfer",
+      "prompt": "Wovon ernähren sich viele erwachsene Marienkäfer und Larven?",
+      "options": [
+        "Blattläuse und andere kleine Arthropoden",
+        "Nektar und Pollen",
+        "Blätter und Samen",
+        "Aus Holz und Rinde"
+      ],
+      "explanation": "Viele Arten sind räuberisch und tragen dazu bei, die Blattlauspopulation zu begrenzen.",
+      "didYouKnow": "Manche Marienkäfer scheiden bei Störung eine Abwehrflüssigkeit aus.",
+      "imageCaption": "Siebenfleckiger Marienkäfer"
+    },
+    {
+      "id": "insects-013",
+      "animal": "Hirschkäfer",
+      "prompt": "Was sind die Hauptzwecke der großen Mandibeln des männlichen Hirschkäfers?",
+      "options": [
+        "Zum Kämpfen und Festhalten rivalisierender Männchen",
+        "Beute ergreifen",
+        "Zum Filtern von Partikeln im Wasser",
+        "Blätter durchstechen, um Eier zu legen"
+      ],
+      "explanation": "Die vergrößerten Mandibeln dienen vor allem Kämpfen zwischen rivalisierenden Männchen.",
+      "didYouKnow": "Die Larven leben mehrere Jahre in Totholz.",
+      "imageCaption": "Hirschkäfer-Drachen"
+    },
+    {
+      "id": "insects-014",
+      "animal": "Lampyriden",
+      "prompt": "Welches Signal nutzen Glühwürmchen häufig, um einen Partner anzulocken?",
+      "options": [
+        "Durch Biolumineszenz erzeugtes Licht",
+        "Ein von den Flügeldecken erzeugter Ton",
+        "Ein Seidenweg",
+        "Ein riechendes Sekret"
+      ],
+      "explanation": "Chemische Reaktionen in Lichtorganen erzeugen Lichtsignale.",
+      "didYouKnow": "Glühwürmchen sind Käfer, obwohl ihre Lichtsignale an Glühwürmchen erinnern.",
+      "imageCaption": "Glühwürmchen"
+    },
+    {
+      "id": "insects-015",
+      "animal": "Buprestes",
+      "prompt": "Welches Erscheinungsbild ist bei erwachsenen Buprestiden üblich?",
+      "options": [
+        "Metallische Reflexe auf den Flügeldecken",
+        "Schuppige Vorderflügel",
+        "Ein Bauchstich",
+        "Lange Sprungbeine"
+      ],
+      "explanation": "Viele Buprestiden haben aufgrund der Struktur ihrer Kutikula schillernde Farben.",
+      "didYouKnow": "Die Larven einiger Arten graben sich unter der Rinde oder im Holz ein.",
+      "imageCaption": "Bupreste"
+    },
+    {
+      "id": "insects-016",
+      "animal": "Rüsselkäfer",
+      "prompt": "Welches Merkmal wird häufig verwendet, um einen Rüsselkäfer zu erkennen?",
+      "options": [
+        "Ein Rednerpult mit den Mundwerkzeugen",
+        "Vorderflügel in halben Flügeldecken",
+        "Entzückende Pfoten",
+        "Antennen, die in einem Fächer enden"
+      ],
+      "explanation": "Der Kopf von Rüsselkäfern ragt oft in ein Podest, das die Mundwerkzeuge trägt.",
+      "didYouKnow": "Rüsselkäfer bilden eine der artenreichsten Gruppen unter den Käfern.",
+      "imageCaption": "Eichelkäfer"
+    },
+    {
+      "id": "insects-017",
+      "animal": "Käfer",
+      "prompt": "Welchen Sinn verbessern die fächerförmigen Fühlerlamellen vieler Blatthornkäfer?",
+      "options": [
+        "Der Geruchssinn",
+        "Die Vision",
+        "Die Anhörung",
+        "Der Geschmack"
+      ],
+      "explanation": "Die Antennenlamellen tragen Geruchsrezeptoren und können sich fächerförmig öffnen.",
+      "didYouKnow": "Bei vielen Käfern leben die Larven im Boden oder in verrottendem Holz.",
+      "imageCaption": "Europäischer Nashornkäfer"
+    },
+    {
+      "id": "insects-018",
+      "animal": "Dytiscidae",
+      "prompt": "Wie atmen ausgewachsene Tauchkäfer beim Schwimmen unter Wasser?",
+      "options": [
+        "Sie tragen einen Luftvorrat unter ihren Flügeldecken",
+        "Durch die Trachealkiemen",
+        "Durch die Lunge",
+        "Indem sie den Atem anhalten, bis sie die Oberfläche erreichen"
+      ],
+      "explanation": "Sie speichern eine Luftblase unter den Flügeldecken und kommen regelmäßig nach oben, um diese Reserve zu erneuern.",
+      "didYouKnow": "Wasserkäferlarven sind Wasserräuber mit kräftigen Mandibeln.",
+      "imageCaption": "Umrandeter Dyticus"
+    },
+    {
+      "id": "insects-019",
+      "animal": "Karabiden",
+      "prompt": "Was ist die übliche Lebensweise erwachsener Laufkäfer?",
+      "options": [
+        "Landjäger sind oft nachts aktiv",
+        "Spezialisierte Blumen-Pflanzenfresser",
+        "Innere Fischparasiten",
+        "Aquatische Filtrierer"
+      ],
+      "explanation": "Viele Laufkäfer durchstreifen den Boden und jagen Schnecken, Raupen oder andere Wirbellose.",
+      "didYouKnow": "Einige Laufkäferarten produzieren Abwehrsekrete.",
+      "imageCaption": "Goldener Karabiner"
+    },
+    {
+      "id": "insects-020",
+      "animal": "Käfer",
+      "prompt": "Welche Transformation durchläuft eine Käferlarve, bevor sie erwachsen wird?",
+      "options": [
+        "Sie durchläuft ein Puppenstadium",
+        "Sie wird zu einer Nymphe, die allmählich Flügel entwickelt",
+        "Sie häutet sich einmal und wird direkt zum erwachsenen Käfer",
+        "Sie bleibt bis zur vollständigen Entwicklung im Ei"
+      ],
+      "explanation": "Käfer durchlaufen eine vollständige Metamorphose: Ei, Larve, Puppe und erwachsenes Tier.",
+      "didYouKnow": "Erwachsene vieler Käfer haben Flügeldecken über dem Hinterleib.",
+      "imageCaption": "Siebenfleckiger Marienkäfer"
+    },
+    {
+      "id": "insects-021",
+      "animal": "Maikäfer",
+      "prompt": "Wovon ernähren sich die Engerlinge des Maikäfers häufig?",
+      "options": [
+        "Wurzeln im Boden",
+        "Blumennektar",
+        "Kleine Wassertiere",
+        "Tierreste"
+      ],
+      "explanation": "Die Larven des Maikäfers leben unter der Erde und ernähren sich häufig von Pflanzenwurzeln.",
+      "didYouKnow": "Ihre Larvenentwicklung kann mehr als eine Saison dauern.",
+      "imageCaption": "Gemeiner Maikäfer"
+    },
+    {
+      "id": "insects-022",
+      "animal": "Mistkäfer",
+      "prompt": "Welche ökologische Rolle spielen Mistkäfer, indem sie Exkremente vergraben?",
+      "options": [
+        "Sie recyceln Nährstoffe und reichern den Boden an",
+        "Sie bestäuben Waldbäume",
+        "Sie reichern den Boden mit Meeresmineralien an",
+        "Sie bauen Gestein ab"
+      ],
+      "explanation": "Das Vergraben von Gülle beschleunigt die stoffliche Verwertung und kann den Boden verbessern.",
+      "didYouKnow": "Einige Mistkäfer können ihre Bewegung anhand der Sonne oder polarisiertem Licht steuern.",
+      "imageCaption": "Heiliger Mistkäfer"
+    },
+    {
+      "id": "insects-023",
+      "animal": "Tenebrionidae",
+      "prompt": "Warum wird der Mehlwurm in Labors und auf Bauernhöfen gezüchtet?",
+      "options": [
+        "Seine Larven sind leicht zu pflegen und dienen als Modell oder Nahrung",
+        "Es produziert Honig",
+        "Es liefert kommerzielle Seide",
+        "Es wird als Raubtier von Mücken gezüchtet"
+      ],
+      "explanation": "Die Larve, Mehlwurm genannt, wird in der Forschung und als Tierfutter verwendet.",
+      "didYouKnow": "Der erwachsene Käfer ist ein Schwarzkäfer aus der Familie der Schwarzkäfer.",
+      "imageCaption": "Mehlwurm"
+    },
+    {
+      "id": "insects-024",
+      "animal": "Bockkäfer",
+      "prompt": "Welches Merkmal ist bei vielen Laubholzbockkäfern besonders ausgeprägt?",
+      "options": [
+        "Sehr lange Antennen",
+        "Schwimmende Hinterbeine",
+        "Hinterflügel mit Schuppen bedeckt",
+        "Ein verlängertes Podest"
+      ],
+      "explanation": "Die Fühler sind oft so lang wie der Körper oder länger.",
+      "didYouKnow": "Die Larven vieler Arten entwickeln sich im Holz.",
+      "imageCaption": "Rosalie der Alpen"
+    },
+    {
+      "id": "insects-025",
+      "animal": "Käfer",
+      "prompt": "Was ist das Besondere an den funktionsfähigen Hinterflügeln von Käfern?",
+      "options": [
+        "Sie sind häutig und unter den Flügeldecken gefaltet",
+        "Sie falten sich über die Flügeldecken",
+        "Sie werden durch Pendel ersetzt",
+        "Sie dienen als Schutz für die Vorderflügel"
+      ],
+      "explanation": "Bei flugfähigen Arten falten sich die häutigen Hinterflügel unter den Flügeldecken.",
+      "didYouKnow": "Die adulten Käfer besitzen Drüsen, die Abwehrstoffe absondern.",
+      "imageCaption": "Siebenfleckiger Marienkäfer"
+    },
+    {
+      "id": "insects-026",
+      "animal": "Schmetterlinge",
+      "prompt": "Welcher allgemeine Unterschied unterscheidet Tagfalter von vielen ruhenden Nachtfaltern?",
+      "options": [
+        "Tagfalter halten oft ihre Flügel hoch, Motten breiten sie aus oder falten sie zu einem Dach",
+        "Motten halten oft ihre Flügel hoch",
+        "Schmetterlinge falten ihre Flügel im Allgemeinen unter dem Körper",
+        "Motten haben immer kleinere Flügel"
+      ],
+      "explanation": "Diese Haltung ist ein allgemeiner Trend, mit Ausnahmen in beiden Gruppen.",
+      "didYouKnow": "Die Flügel von Schmetterlingen sind mit mikroskopisch kleinen Schuppen bedeckt, die ihnen ihre Muster und Farben verleihen.",
+      "imageCaption": "Vulkanier"
+    },
+    {
+      "id": "insects-027",
+      "animal": "Schmetterlinge",
+      "prompt": "Womit sind die Flügel von Schmetterlingen und Motten bedeckt?",
+      "options": [
+        "Winzige Schuppen",
+        "Aus Federn",
+        "Dichtes Haar",
+        "Glatte Chitinplatten"
+      ],
+      "explanation": "Schuppen sind abgeflachte Erweiterungen der Kutikula und tragen oft Pigment- oder Farbstrukturen.",
+      "didYouKnow": "Schmetterlinge können süße Substanzen über Rezeptoren an ihren Beinen wahrnehmen.",
+      "imageCaption": "Vulkanier"
+    },
+    {
+      "id": "insects-028",
+      "animal": "Raupen",
+      "prompt": "Welche Funktion haben die Hinterleibsbeine einer Raupe?",
+      "options": [
+        "Sie helfen ihm beim Greifen und Bewegen",
+        "Sie werden zu den Flügeln des Erwachsenen",
+        "Sie haben Mundwerkzeuge",
+        "Sie dienen zum Einatmen von Wasser"
+      ],
+      "explanation": "Die Vorbeine sind flexible Larvenanhängsel, die sich von den echten Brustbeinen unterscheiden.",
+      "didYouKnow": "Einige Raupen können Abwehrhaare oder Stacheln haben.",
+      "imageCaption": "Schwalbenschwanzraupe"
+    },
+    {
+      "id": "insects-029",
+      "animal": "Schmetterlinge",
+      "prompt": "Welchen Zweck hat der gewundene Rüssel vieler erwachsener Schmetterlinge?",
+      "options": [
+        "Zum Aufsaugen von Flüssigkeiten wie Nektar",
+        "Zum Mahlen der Samen",
+        "Um Beute zu fangen",
+        "Die Eier ins Holz legen"
+      ],
+      "explanation": "Der Rüssel wird bei vielen Arten im Ruhezustand durch verlängerte Mundwerkzeuge und Locken gebildet.",
+      "didYouKnow": "Einige Arten erwachsener Schmetterlinge ernähren sich nicht von den im Larvenstadium angesammelten Reserven und leben von ihnen.",
+      "imageCaption": "Vulkanier"
+    },
+    {
+      "id": "insects-030",
+      "animal": "Schmetterlinge",
+      "prompt": "Welche Rolle spielen Wirtspflanzen für Raupen?",
+      "options": [
+        "Sie dienen vielen Arten als Larvennahrung",
+        "Weibchen aller Arten legen dort zwangsläufig Eier ab.",
+        "Sie versorgen Erwachsene direkt mit Nektar",
+        "Sie werden als Material zur Herstellung von Flügeldecken verwendet"
+      ],
+      "explanation": "Die meisten Raupen fressen Pflanzen, manchmal handelt es sich dabei um ein sehr begrenztes Artenspektrum.",
+      "didYouKnow": "Manche Raupen haben Farben, die es schwierig machen, sie an ihrer Wirtspflanze zu erkennen.",
+      "imageCaption": "Vulkanier"
+    },
+    {
+      "id": "insects-031",
+      "animal": "Seidenspinner",
+      "prompt": "Wovon ernähren sich die Raupen des Seidenspinners?",
+      "options": [
+        "Maulbeerblätter",
+        "Nadeln von Nadelbäumen",
+        "Blumennektar",
+        "Verrottendes Holz"
+      ],
+      "explanation": "Bei der traditionellen Bombyx-Züchtung werden hauptsächlich Maulbeerblätter verwendet.",
+      "didYouKnow": "Ausgewachsene Exemplare des domestizierten Maulbeer-Bombyx fressen im Allgemeinen nicht, da ihre Mundwerkzeuge verkleinert sind.",
+      "imageCaption": "Seidenspinner"
+    },
+    {
+      "id": "insects-032",
+      "animal": "Schmetterlinge",
+      "prompt": "Wie wird eine Schmetterlingsraupe erwachsen?",
+      "options": [
+        "Sie entwickelt sich über ein Puppenstadium, die sogenannte Puppe oder Chrysalis",
+        "Sie wird zu einer Nymphe, die allmählich Flügel entwickelt",
+        "Sie häutet sich direkt zu einem kleineren erwachsenen Tier",
+        "Sie bleibt ihr ganzes Leben lang eine Raupe"
+      ],
+      "explanation": "Schmetterlinge durchlaufen eine vollständige Metamorphose; die Puppe ist ihr Puppenstadium.",
+      "didYouKnow": "Erwachsene Exemplare einiger Motten haben reduzierte Flügel und nehmen keine Nahrung auf.",
+      "imageCaption": "Vulkanier"
+    },
+    {
+      "id": "insects-033",
+      "animal": "Monarchen",
+      "prompt": "Warum versammeln sich wandernde Monarchfalter zum Überwintern in großen Gruppen?",
+      "options": [
+        "Zusammenkünfte fördern die gemeinsame Überwinterung an geeigneten Standorten",
+        "Im Winter versammeln sie sich dort zum Brüten",
+        "Den Winter verbringen sie unter Wasser",
+        "Vor der Migration lassen sie ihre Flügel fallen"
+      ],
+      "explanation": "Wanderpopulationen in Nordamerika verbringen den Winter an bestimmten Orten, oft in dichten Kolonien.",
+      "didYouKnow": "Der Monarch ist ein Schmetterling aus der Familie der Nymphalidae.",
+      "imageCaption": "Monarch"
+    },
+    {
+      "id": "insects-034",
+      "animal": "Sphinx",
+      "prompt": "Wie können sich manche Schwärmer von tiefen Blüten ernähren?",
+      "options": [
+        "Sie haben einen langen Rüssel, um an den Nektar zu gelangen",
+        "Sie durchbohren die Blütenkrone mit ihren Mandibeln",
+        "Sie nehmen Nektar über ihre Beine auf",
+        "Sie nehmen Nektar vom Blütenstiel auf"
+      ],
+      "explanation": "Der lange Rüssel bestimmter Schwärmer ermöglicht es ihnen, den Nektar am Boden der röhrenförmigen Blütenkrone zu erreichen.",
+      "didYouKnow": "Sphinxmotten haben oft stromlinienförmige Körper und schmale Flügel, die für einen schnellen Flug geeignet sind.",
+      "imageCaption": "Ackerwindenschwärmer"
+    },
+    {
+      "id": "insects-035",
+      "animal": "Hymenopteren",
+      "prompt": "Welches Merkmal kommt bei erwachsenen Hymenopteren häufig vor?",
+      "options": [
+        "Zwei Paar häutiger Flügel, manchmal reduziert oder fehlend",
+        "Zwei Paar Flügeldecken",
+        "Ein Paar Flügel mit Pendeln",
+        "Schuppige Flügel"
+      ],
+      "explanation": "Die meisten geflügelten Hymenopteren haben zwei Flügelpaare, die durch kleine Haken verbunden sind.",
+      "didYouKnow": "Ameisen und Bienen teilen sich die Ordnung Hymenoptera mit Wespen.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-036",
+      "animal": "Bienen",
+      "prompt": "Was sammeln Honigbienen von Blüten, um Honig herzustellen?",
+      "options": [
+        "Nektar",
+        "Pollen zur direkten Herstellung von Honig",
+        "Blattsaft",
+        "Pflanzenwachs"
+      ],
+      "explanation": "Bienen verarbeiten und entwässern den Nektar im Bienenstock, um Honig zu produzieren.",
+      "didYouKnow": "Honigbienen verwenden Propolis, ein Pflanzenharz, um bestimmte Ritzen im Bienenstock abzudichten.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-037",
+      "animal": "Bienen",
+      "prompt": "Welche Rolle spielen Pollen bei der Vermehrung blühender Pflanzen?",
+      "options": [
+        "Pollen tragen den männlichen Gametophyten zur Narbe, dann kann ein Pollenschlauch in Richtung der Eizelle wachsen",
+        "Pollen versorgen die Eier vor der Befruchtung direkt mit Zucker",
+        "Pollen nähren den Embryo, sobald sich der Samen gebildet hat",
+        "Pollen enthalten den weiblichen Gametophyten der Pflanze"
+      ],
+      "explanation": "Das Pollenkörner trägt den männlichen Gametophyten. Nachdem kompatibler Pollen auf der Narbe abgelagert wurde, kann ein Pollenschlauch die männlichen Gameten zur Eizelle transportieren.",
+      "didYouKnow": "Bienen können auch ultraviolettes Licht wahrnehmen, das für das menschliche Auge unsichtbar ist.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-038",
+      "animal": "Bienen",
+      "prompt": "Wie weist eine Honigbiene oft auf eine entfernte Nahrungsquelle hin?",
+      "options": [
+        "Durch einen Schwänzeltanz, der Richtung und Entfernung vermittelt",
+        "Durch einen Kreistanz, der mit seiner präzisen Ausrichtung auf eine entfernte Ressource hinweist",
+        "Durch die Hinterlegung einer Pheromonspur vom Bienenstock zur Blüte",
+        "Durch die Erzeugung eines kontinuierlichen Tons, dessen Frequenz den Himmelsrichtungspunkt angibt"
+      ],
+      "explanation": "Der zappelnde Tanz übermittelt seinen Artgenossen Informationen über die Richtung und Entfernung einer Ressource.",
+      "didYouKnow": "Arbeitsbienen schlagen am Eingang des Bienenstocks mit den Flügeln, um die Belüftung zu erleichtern.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-039",
+      "animal": "Bienen",
+      "prompt": "Welches Individuum legt die meisten Eier in einem Honigbienenvolk?",
+      "options": [
+        "Die Königin",
+        "Arbeiter zu gleichen Teilen",
+        "Die Drohnen",
+        "Alte Larven"
+      ],
+      "explanation": "Die Königin ist das wichtigste Fortpflanzungsweibchen der Kolonie.",
+      "didYouKnow": "Die Honigbienenkönigin kann mehrere Jahre leben, viel länger als eine Sommerarbeiterin.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-040",
+      "animal": "Bienen",
+      "prompt": "Welche Rolle spielen Drohnen in einem Honigbienenvolk?",
+      "options": [
+        "Befruchtung einer Königin während des Hochzeitsfluges",
+        "Sammle Nektar für die Kolonie",
+        "Baue die Wachskämme",
+        "Verteidige den Bienenstock gegen Raubtiere"
+      ],
+      "explanation": "Während der Hochzeitsflüge paaren sich Männchen mit Königinnen.",
+      "didYouKnow": "Drohnen haben keinen Stachel.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-041",
+      "animal": "Bienen",
+      "prompt": "Warum können Honigbienen-Arbeiterinnen eine Bedrohung stechen?",
+      "options": [
+        "Ihr Stachel ist ein umgebildeter Legeapparat",
+        "Sie besitzen ein giftiges Mundwerkzeug zum Beißen",
+        "Sie geben stechende Flüssigkeit über die Beine ab",
+        "Sie verwenden eine scharfe Spitze am Ende jeder Antenne"
+      ],
+      "explanation": "Der Stachel der Arbeiterin ist eine Struktur, die aus dem ursprünglichen Legeapparat hervorgegangen ist.",
+      "didYouKnow": "Honigbienen teilen den Standort von Ressourcen auch durch einen Wedeltanz mit.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-042",
+      "animal": "Hummeln",
+      "prompt": "Wie helfen Hummeln bei der Bestäubung bestimmter Blumen?",
+      "options": [
+        "Sie vibrieren mit den Staubbeuteln, um Pollen freizusetzen",
+        "Sie sammeln den bereits freigesetzten Pollen ein, ohne die Blüte zu vibrieren",
+        "Sie durchbohren die Blütenkrone, um an den Nektar zu gelangen, ohne die Staubbeutel zu berühren",
+        "Sie lagern Pollen auf den Blüten ab, indem sie ihren Hinterleib daran reiben"
+      ],
+      "explanation": "Bei der Vibrationsbestäubung oder „Summenbestäubung“ werden Pollen aus bestimmten Staubbeuteln freigesetzt.",
+      "didYouKnow": "Hummelvölker sind im Allgemeinen einjährig; Nur junge befruchtete Königinnen verbringen den Winter.",
+      "imageCaption": "Bodenhummel"
+    },
+    {
+      "id": "insects-043",
+      "animal": "Ameisen",
+      "prompt": "Welches chemische Signal hilft Ameisen oft dabei, der Spur zur Nahrung zu folgen?",
+      "options": [
+        "Pheromone",
+        "Verdauungsenzyme",
+        "Kutikuläre Pigmente",
+        "Häutungshormone"
+      ],
+      "explanation": "Ameisen legen Spurenpheromone ab, denen ihre Ameisen folgen können.",
+      "didYouKnow": "Manche Ameisen züchten Blattläuse und sammeln den Honigtau, den sie ausscheiden.",
+      "imageCaption": "Schwarze Gartenameise"
+    },
+    {
+      "id": "insects-044",
+      "animal": "Ameisen",
+      "prompt": "Was bedeutet der Begriff „Superkolonie“ für bestimmte Ameisen?",
+      "options": [
+        "Ein umfangreiches Nestnetzwerk, dessen Mitglieder intensiv zusammenarbeiten",
+        "Ein einzigartiges, sehr großes Nest",
+        "Eine Gruppe, die nur aus Königinnen besteht",
+        "Eine Reihe von Nestern, in denen die Arbeiter untereinander aggressiv sind"
+      ],
+      "explanation": "Verbundene Nester können eine große Gesellschaft mit wenig Aggression zwischen Individuen bilden.",
+      "didYouKnow": "Die argentinische Ameise stammt aus Südamerika.",
+      "imageCaption": "Argentinische Ameise"
+    },
+    {
+      "id": "insects-045",
+      "animal": "Blattschneiderameisen",
+      "prompt": "Wozu dienen die Blattstücke, die Blattschneiderameisen mit sich tragen?",
+      "options": [
+        "Um den Pilz zu kultivieren, von dem sie sich ernähren",
+        "Zur direkten Fütterung der Larven",
+        "Um das Papiernest zu bauen",
+        "Um die Flügel der Königin zu machen"
+      ],
+      "explanation": "Die Blätter dienen als Substrat für einen im Nest wachsenden Pilz.",
+      "didYouKnow": "Blattschneiderameisen haben eine Königin, die mehrere Jahre leben kann.",
+      "imageCaption": "Blattschneiderameise"
+    },
+    {
+      "id": "insects-046",
+      "animal": "Parasitoide Wespen",
+      "prompt": "Wie nutzt eine Schlupfwespe häufig einen Wirt?",
+      "options": [
+        "Es legt Eier in oder auf einen Wirt, wo sich auf seine Kosten die Larve entwickelt",
+        "Es fängt mehrere Beutetiere und lagert sie in einer Zelle für seine Larve",
+        "Es legt Eier in das Gewebe einer Pflanze, wo seine Larve die Blätter verzehrt",
+        "Es lähmt ein Insekt und verzehrt es dann selbst, ohne Eier zu legen."
+      ],
+      "explanation": "Die Parasitoidlarve ernährt sich vom Wirt und tötet ihn meist.",
+      "didYouKnow": "Viele Schlupfwespen sind klein genug, um unbemerkt zu bleiben.",
+      "imageCaption": "Parasitoide Wespe"
+    },
+    {
+      "id": "insects-047",
+      "animal": "Soziale Wespen",
+      "prompt": "Woraus bestehen die Papiernester vieler sozialer Wespen?",
+      "options": [
+        "Aus gekauten und mit Speichel vermischten Pflanzenfasern",
+        "Bauchwachs",
+        "Aus Schlamm, gebunden durch Gift",
+        "Von Arbeitern hergestellte Seide"
+      ],
+      "explanation": "Wespen zerkauen Holzfasern und fügen sie zu papierartigen Zellen zusammen.",
+      "didYouKnow": "Nester werden oft an Ästen, Gebäuden oder Hohlräumen angebracht.",
+      "imageCaption": "Deutsche Wespe"
+    },
+    {
+      "id": "insects-048",
+      "animal": "Blattwespen",
+      "prompt": "Welchen Zweck hat der sägeförmige Legebohrer weiblicher Blattwespen?",
+      "options": [
+        "Zum Einschneiden von Pflanzengewebe zum Einlegen von Eiern",
+        "Schneiden Sie Blätterstücke ab, um Erwachsene zu ernähren",
+        "Vor dem Eierlegen eine Galerie in den Boden graben",
+        "Beute durchstechen, um Gift zu injizieren"
+      ],
+      "explanation": "Die Weibchen vieler Blattwespen nutzen ihre gezackten Legebohrer, um einen Schlitz in einem Blatt oder Stängel zu öffnen und Eier zu legen.",
+      "didYouKnow": "Blattwespen gehören zu den Hautflüglern, haben aber nicht die für Apokritwespen typische eingeschränkte Größe.",
+      "imageCaption": "Rosenblattwespe"
+    },
+    {
+      "id": "insects-049",
+      "animal": "Diptera",
+      "prompt": "Wie viele funktionelle Flügelpaare haben Diptera normalerweise?",
+      "options": [
+        "Ein Paar",
+        "Zwei Paar häutiger Flügel",
+        "Drei Paare",
+        "Keine Flügel bei allen Diptera"
+      ],
+      "explanation": "Diptera haben ein Paar Vorderflügel; das hintere Paar verwandelt sich in Pendel.",
+      "didYouKnow": "Die Larven vieler Fliegen leben im Wasser, im Boden oder in verrottenden organischen Stoffen.",
+      "imageCaption": "Stubenfliege"
+    },
+    {
+      "id": "insects-050",
+      "animal": "Fliegen",
+      "prompt": "Wozu dienen die Schwingkölbchen der Fliegen?",
+      "options": [
+        "Sie registrieren Drehbewegungen und helfen, den Flug zu stabilisieren",
+        "Sie sammeln Pollen von Blüten",
+        "Sie erzeugen Laute, um Partner anzulocken",
+        "Sie nehmen Gerüche aus der Luft wahr"
+      ],
+      "explanation": "Schwingkölbchen sind Sinnesorgane, die Gleichgewicht und Flugmanöver unterstützen.",
+      "didYouKnow": "Die Füße von Fliegen verfügen über Klebepads, die ihnen das Gehen auf glatten Oberflächen erleichtern.",
+      "imageCaption": "Stubenfliege"
+    },
+    {
+      "id": "insects-051",
+      "animal": "Fliegen",
+      "prompt": "Wie prüft eine Stubenfliege den Geschmack einer Oberfläche?",
+      "options": [
+        "Mit Geschmacksrezeptoren, die sich besonders an den Beinen befinden",
+        "Mit seinen Flügeln",
+        "Mit den Stigmata des Brustkorbs",
+        "Mit den Pendeln"
+      ],
+      "explanation": "Sinnesrezeptoren in den Pfoten können Nahrungsbestandteile erkennen.",
+      "didYouKnow": "Stubenfliegen haben Facettenaugen, die einen großen Teil des Kopfes bedecken.",
+      "imageCaption": "Stubenfliege"
+    },
+    {
+      "id": "insects-052",
+      "animal": "Mücken",
+      "prompt": "Welche Flüssigkeit suchen die Weibchen vieler Mückenarten, um ihre Eier zu produzieren?",
+      "options": [
+        "Blut, reich an Nährstoffen",
+        "Nektar",
+        "Saft",
+        "Pollen"
+      ],
+      "explanation": "Bei vielen Arten liefert die Blutmahlzeit die für die Eientwicklung notwendigen Nährstoffe.",
+      "didYouKnow": "Viele Mückenarten legen ihre Eier im oder in der Nähe von Wasser ab, wo sich die Larven entwickeln.",
+      "imageCaption": "Gewöhnliche Mücke"
+    },
+    {
+      "id": "insects-053",
+      "animal": "Mücken",
+      "prompt": "Wo entwickeln sich Mückenlarven am häufigsten?",
+      "options": [
+        "Im Wasser",
+        "In den Holzgalerien",
+        "In irdischen Blumen",
+        "In Vogelnestern"
+      ],
+      "explanation": "Wasserlarven filtern oder grasen an Partikeln im Wasser.",
+      "didYouKnow": "Männliche Mücken bestimmter Arten bilden Paradeschwärme, zu denen die Weibchen zur Paarung kommen.",
+      "imageCaption": "Gewöhnliche Mücke"
+    },
+    {
+      "id": "insects-054",
+      "animal": "Mücken",
+      "prompt": "Wie atmet eine Mückenlarve häufig an der Wasseroberfläche?",
+      "options": [
+        "Durch einen Atemsiphon oder Stigmata an der Oberfläche",
+        "Durch äußere Trachealkiemen, die gelösten Sauerstoff extrahieren",
+        "Durch den Austausch durch die Nagelhaut, ohne nach oben zu gehen",
+        "Durch Stigmata am Ende der Beine"
+      ],
+      "explanation": "Viele Larven kommen an die Oberfläche und nehmen über ein Atemrohr oder Stigmen Luft auf.",
+      "didYouKnow": "Bei vielen Mücken erkennen die Männchen die Weibchen am Geräusch ihrer Flügelschläge.",
+      "imageCaption": "Gewöhnliche Mücke"
+    },
+    {
+      "id": "insects-055",
+      "animal": "Schwebfliegen",
+      "prompt": "Wie kann man eine Schwebfliege oft von einer Wespe unterscheiden, die sie imitiert?",
+      "options": [
+        "Die Schwebfliege hat nur ein Flügelpaar und kann schweben",
+        "Die Schwebfliege hat vier schuppige Flügel",
+        "Die Schwebfliege hat acht Beine",
+        "Die Schwebfliege trägt einen giftigen Stachel"
+      ],
+      "explanation": "Schwebfliegen sind harmlose Zweiflügler, von denen einige das Aussehen von Wespen imitieren.",
+      "didYouKnow": "Die Larven vieler Schwebfliegen ernähren sich von Blattläusen.",
+      "imageCaption": "Schwebfliege mit Gürtel"
+    },
+    {
+      "id": "insects-056",
+      "animal": "Blaue Fliegen",
+      "prompt": "Welche Rolle spielen aasfressende Fliegenmaden oft in einem Ökosystem?",
+      "options": [
+        "Sie fressen totes tierisches Gewebe und beschleunigen dessen Zersetzung",
+        "Sie bestäuben Nadelbäume",
+        "Sie stellen Wachs her",
+        "Sie jagen Fische"
+      ],
+      "explanation": "Aasfressende Larven sind an der Wiederverwertung tierischer Stoffe beteiligt.",
+      "didYouKnow": "Erwachsene Schmeißfliegen haben oft einen metallisch blauen oder grünen Körper.",
+      "imageCaption": "Blaue Fliege"
+    },
+    {
+      "id": "insects-057",
+      "animal": "Drosophila",
+      "prompt": "Warum ist Drosophila melanogaster zu einem Modellorganismus in der Biologie geworden?",
+      "options": [
+        "Sein kurzer Lebenszyklus und seine Genetik sind leicht zu untersuchen",
+        "Sie hat ein größeres Gehirn als andere Fliegen",
+        "Es hat einen Lebenszyklus von mehreren Jahren",
+        "Es ist schwierig, im Labor zu wachsen"
+      ],
+      "explanation": "Diese kleine Fliege vermehrt sich schnell und hat zahlreiche genetische Entdeckungen ermöglicht.",
+      "didYouKnow": "Männliche Fruchtfliegen erzeugen Balzsignale, zu denen auch Flügelvibrationen gehören.",
+      "imageCaption": "Essig Drosophila"
+    },
+    {
+      "id": "insects-058",
+      "animal": "Bremsen",
+      "prompt": "Wie bekommen weibliche Bremsen manchmal das Blut, das sie für ihre Eier brauchen?",
+      "options": [
+        "Sie schneiden oder ritzen die Haut mit kräftigen Mundwerkzeugen ein",
+        "Sie stechen mit einem Stich",
+        "Sie nehmen Blut über ihre Pfoten auf",
+        "Sie fangen mit Blut gefüllte Mücken"
+      ],
+      "explanation": "Durch die scharfen Mundwerkzeuge entsteht eine kleine Wunde, aus der Blut gesaugt wird.",
+      "didYouKnow": "Bei vielen Bremsen berühren sich die Augen der Männchen oben am Kopf, während dies bei den Weibchen nicht der Fall ist.",
+      "imageCaption": "Viehbremse"
+    },
+    {
+      "id": "insects-059",
+      "animal": "Diptera",
+      "prompt": "Was ist die häufigste Larvenform von Dipteren?",
+      "options": [
+        "Eine Made ohne echte Brustbeine",
+        "Eine Raupe mit falschen Beinen",
+        "Eine Nymphe mit Flügeln",
+        "Eine Larve mit beweglichen Beinen und Flügeldecken"
+      ],
+      "explanation": "Die Larven vieler Fliegen sind Maden ohne bewegliche Beine.",
+      "didYouKnow": "Die Larven bestimmter Diptera leben in Gewässern.",
+      "imageCaption": "Stubenfliege"
+    },
+    {
+      "id": "insects-060",
+      "animal": "Orthopteren",
+      "prompt": "Welche Hinterbeineigenschaft hilft vielen Heuschrecken beim Springen?",
+      "options": [
+        "Kräftige und vergrößerte Oberschenkelknochen",
+        "Saugnäpfe",
+        "Flossen",
+        "Zange"
+      ],
+      "explanation": "Die muskulösen hinteren Oberschenkelknochen liefern die Kraft zum Springen.",
+      "didYouKnow": "Die Weibchen vieler Heuschrecken legen ihre Eier mit dem Hinterleib in den Boden.",
+      "imageCaption": "Wanderheuschrecke"
+    },
+    {
+      "id": "insects-061",
+      "animal": "Heuschrecken",
+      "prompt": "Wie produzieren Heuschrecken oft ihren Gesang?",
+      "options": [
+        "Durch Reiben eines Körperteils an einem anderen",
+        "Durch Reiben des Bauches an einem Flügel",
+        "Durch Klicken auf die Mandibeln",
+        "Durch Schlagen der Flügel gegen eine Oberfläche"
+      ],
+      "explanation": "Viele Heuschrecken zwitschern, indem sie eine Zahnreihe an einem Teil des Flügels oder Beins reiben.",
+      "didYouKnow": "Heuschrecken haben oft eine Färbung, die sie in der Vegetation weniger sichtbar macht.",
+      "imageCaption": "Wanderheuschrecke"
+    },
+    {
+      "id": "insects-062",
+      "animal": "Laubheuschrecken",
+      "prompt": "Wie unterscheiden sich die Fühlerlängen von Laubheuschrecken und Kurzfühlerschrecken?",
+      "options": [
+        "Sie sind oft lang, manchmal so lang wie der Körper",
+        "Sie fehlen",
+        "Sie haben die Form einer Zange",
+        "Sie sind kürzer als die Palpen"
+      ],
+      "explanation": "Bei Heuschrecken im herkömmlichen Sinne sind die Fühler lang; Heuschrecken haben oft kürzere Fühler.",
+      "didYouKnow": "Heuschrecken und Heuschrecken gehören beide zur Ordnung Orthoptera.",
+      "imageCaption": "Große grüne Heuschrecke"
+    },
+    {
+      "id": "insects-063",
+      "animal": "Grillen",
+      "prompt": "Welches Hörorgan findet man häufig an den Vorderbeinen von Grillen?",
+      "options": [
+        "Ein Trommelfell",
+        "Ein Pendel",
+        "Eine Membran auf den Flügeldecken",
+        "Ein abdominales Riechorgan"
+      ],
+      "explanation": "Das Trommelfell von Grillen sitzt oft an den vorderen Schienbeinen.",
+      "didYouKnow": "Weibliche Grillen legen ihre Eier mit ihrem Legebohrer in ein Substrat ab.",
+      "imageCaption": "Feldkricket"
+    },
+    {
+      "id": "insects-064",
+      "animal": "Gottesanbeterin",
+      "prompt": "Wie fängt eine Gottesanbeterin ihre Beute hauptsächlich?",
+      "options": [
+        "Mit bedornten Fangbeinen am Vorderkörper",
+        "Mit einem Giftstachel am Hinterleib",
+        "Indem sie die Beute in einem Spinnennetz fängt",
+        "Mit den Hinterbeinen, die die Beute zerdrücken"
+      ],
+      "explanation": "Die gefalteten, bedornten Vorderbeine packen die Beute.",
+      "didYouKnow": "Der hochbewegliche Kopf ermöglicht es der Gottesanbeterin, ein Ziel visuell zu verfolgen.",
+      "imageCaption": "Gottesanbeterin"
+    },
+    {
+      "id": "insects-065",
+      "animal": "Gottesanbeterin",
+      "prompt": "Warum kann sich der Kopf einer Gottesanbeterin weit drehen?",
+      "options": [
+        "Dank eines speziellen und sehr beweglichen Halsgelenks",
+        "Denn die Halswirbel sind zu einem starren Stab verwachsen",
+        "Denn die Augen drehen sich in ihren Augenhöhlen, während der Kopf fixiert bleibt",
+        "Denn der Brustkorb rotiert unter einem am Bauch fixierten Kopf"
+      ],
+      "explanation": "Dank eines speziellen Gelenks kann der Kopf stärker rotieren als bei den meisten Insekten.",
+      "didYouKnow": "Gottesanbeterinnen haben Facettenaugen und drei kleine Augenflecken auf ihrem Kopf.",
+      "imageCaption": "Gottesanbeterin"
+    },
+    {
+      "id": "insects-066",
+      "animal": "Stabheuschrecken",
+      "prompt": "Welchen Nutzen bringt Mimikry vielen Stabheuschrecken?",
+      "options": [
+        "Sie verschmelzen mit Zweigen oder Blättern",
+        "Sie locken ihre Beute mit hellem Licht an",
+        "Sie erschrecken Vögel mit einem kräftigen Geräusch",
+        "Sie verstecken sich unter Wasser"
+      ],
+      "explanation": "Die Form und Farbe von Stabheuschrecken erschweren ihre Erkennung in der Vegetation.",
+      "didYouKnow": "Stabheuschrecken gehören zu einer anderen Ordnung als Heuschrecken und Heuschrecken.",
+      "imageCaption": "Phyllie aus den Philippinen"
+    },
+    {
+      "id": "insects-067",
+      "animal": "Kakerlaken",
+      "prompt": "Welche Eigenschaft hilft Kakerlaken, Luftbewegungen hinter sich zu erkennen?",
+      "options": [
+        "Sensorische Cerci am Ende des Abdomens",
+        "Antennen, die vor allem Gerüche vor dem Kopf wahrnehmen",
+        "Trommelfelle an den Vorderbeinen",
+        "Facettenaugen, die Bewegungen hinter dem Körper erkennen"
+      ],
+      "explanation": "Cerci tragen luftströmungsempfindliche Rezeptoren und können eine schnelle Flucht auslösen.",
+      "didYouKnow": "Kakerlaken können Gerüche mithilfe von Rezeptoren wahrnehmen, die sich an ihren Antennen befinden.",
+      "imageCaption": "Amerikanische Kakerlake"
+    },
+    {
+      "id": "insects-068",
+      "animal": "Kakerlaken",
+      "prompt": "Welche ökologische Rolle spielen manche Kakerlaken in Wäldern?",
+      "options": [
+        "Zersetzen Sie abgestorbene Pflanzenteile",
+        "Sie ernähren sich hauptsächlich von Baumsaft",
+        "Sie jagen alle Vogelarten",
+        "Sie leben ausschließlich in Blumen"
+      ],
+      "explanation": "Mehrere Waldarten fressen totes Laub und tragen zur Wiederverwertung des Materials bei.",
+      "didYouKnow": "Die meisten Kakerlakenarten leben in freier Wildbahn und nicht in menschlichen Behausungen.",
+      "imageCaption": "Riesige Waldschabe"
+    },
+    {
+      "id": "insects-069",
+      "animal": "Termiten",
+      "prompt": "Zu welcher zoologischen Ordnung gehören Termiten heute?",
+      "options": [
+        "Innerhalb der Ordnung Blattodea, mit Kakerlaken",
+        "Innerhalb der Hymenopteren die gleiche Ordnung wie bei den Ameisen",
+        "Innerhalb der Orthoptera gilt die gleiche Ordnung wie bei den Heuschrecken",
+        "Innerhalb der Hemiptera gilt die gleiche Reihenfolge wie bei Bettwanzen"
+      ],
+      "explanation": "Phylogenetische Analysen ordnen Termiten der Ordnung Blattodea mit Kakerlaken zu.",
+      "didYouKnow": "Geflügelte Termiten verlassen ihre Kolonie, um auszuschwärmen und neue Nester zu finden.",
+      "imageCaption": "Savannah-Termite"
+    },
+    {
+      "id": "insects-070",
+      "animal": "Termiten",
+      "prompt": "Welcher mikrobielle Partner hilft vielen Termiten bei der Holzverdauung?",
+      "options": [
+        "Mikroorganismen, die in ihrem Verdauungstrakt leben",
+        "Bakterien in ihren Flügeln",
+        "Algen auf der Nagelhaut",
+        "Viren in den Antennen"
+      ],
+      "explanation": "Darmmikroben bauen Bestandteile von Zellulose und Lignin ab.",
+      "didYouKnow": "Geflügelte Termiten verlassen die Kolonie, um auszuschwärmen und neue Nester zu finden.",
+      "imageCaption": "Dickhalsige gelbe Termite"
+    },
+    {
+      "id": "insects-071",
+      "animal": "Termiten",
+      "prompt": "Wie schützen Soldatentermiten oft die Kolonie?",
+      "options": [
+        "Mit starken Mandibeln oder Abwehrsekreten",
+        "Indem sie den Eingang mit dem Kopf blockieren",
+        "Indem man den Eindringlingen Eier legt",
+        "Indem man ein Netz um das Nest webt"
+      ],
+      "explanation": "Soldaten sind auf Verteidigung spezialisiert und verfügen möglicherweise über Mandibeln oder Abwehrdrüsen.",
+      "didYouKnow": "Termitenarbeiter haben oft einen blassen Körper und meiden Licht.",
+      "imageCaption": "Savannah-Termite"
+    },
+    {
+      "id": "insects-072",
+      "animal": "Libellen",
+      "prompt": "Wo leben normalerweise Libellen- und Libellenlarven?",
+      "options": [
+        "Im Süßwasser",
+        "In den Holzgalerien",
+        "In reifen Samen",
+        "In den Waben"
+      ],
+      "explanation": "Wasserlarven, Najaden genannt, jagen kleine Beutetiere.",
+      "didYouKnow": "Erwachsene Odonate haben große Facettenaugen, die ihnen eine hervorragende Bewegungserkennung ermöglichen.",
+      "imageCaption": "deprimierte Libelle"
+    },
+    {
+      "id": "insects-073",
+      "animal": "Libellen",
+      "prompt": "Wie fangen Libellen ihre Beute oft im Flug?",
+      "options": [
+        "Sie fangen sie ab, indem sie mit ihren Beinen eine Art Korb bilden",
+        "Sie fangen sie mit einem Netz",
+        "Sie saugen sie mit einem Rüssel auf",
+        "Sie injizieren Gift aus der Ferne"
+      ],
+      "explanation": "Libellen sind Raubtiere aus der Luft und greifen Insekten oft mit ihren Beinen.",
+      "didYouKnow": "Die Facettenaugen der Libellen nehmen einen großen Teil ihres Kopfes ein.",
+      "imageCaption": "deprimierte Libelle"
+    },
+    {
+      "id": "insects-074",
+      "animal": "Kleinlibellen",
+      "prompt": "Welche Flügelhaltung ist bei ruhenden Kleinlibellen üblich?",
+      "options": [
+        "Die Flügel sind entlang des Körpers gefaltet",
+        "Die Flügel sind ständig ausgebreitet",
+        "Die Flügel sind unter dem Bauch gekreuzt",
+        "Flügel um Antennen gewickelt"
+      ],
+      "explanation": "Viele Libellen falten beim Sitzen ihre Flügel über dem Körper.",
+      "didYouKnow": "Bei Kleinlibellen sind die Augen im Allgemeinen auf beiden Seiten des Kopfes getrennt.",
+      "imageCaption": "Eleganter Agrion"
+    },
+    {
+      "id": "insects-075",
+      "animal": "Libellen",
+      "prompt": "Wie verlassen Odonate ihr Larvenstadium?",
+      "options": [
+        "Die Larve verlässt das Wasser und das erwachsene Tier schlüpft aus der alten Cuticula",
+        "Das erwachsene Tier schlüpft aus einem unter Wasser abgelegten Ei",
+        "Die Larve entwickelt unter Wasser Flügel und schwimmt zum Ufer",
+        "Die Larve verwandelt sich in einen Kokon aus Seide"
+      ],
+      "explanation": "Die letzte Häutung findet meist außerhalb des Wassers an einem Stängel oder einer anderen Unterlage statt.",
+      "didYouKnow": "Erwachsene Libellen können ihre Flügel nicht flach entlang des Bauches falten.",
+      "imageCaption": "deprimierte Libelle"
+    },
+    {
+      "id": "insects-076",
+      "animal": "Eintagsfliegen",
+      "prompt": "Warum leben die Erwachsenen vieler Eintagsfliegen nur kurze Zeit?",
+      "options": [
+        "Das Erwachsenenstadium dient hauptsächlich der Fortpflanzung und nimmt häufig keine Nahrung auf",
+        "Als Erwachsene nehmen sie im Allgemeinen keine Nahrung auf.",
+        "Sie leben lange, legen aber nur einmal Eier.",
+        "Ihre Flügel funktionieren nach dem Schlüpfen nicht mehr"
+      ],
+      "explanation": "Bei vielen Arten ernährt sich das ausgewachsene Tier nicht und lebt gerade lange genug, um sich fortzupflanzen.",
+      "didYouKnow": "Erwachsene Eintagsfliegen können in großen Schwärmen über Wasser auftauchen.",
+      "imageCaption": "Gewöhnlich vergänglich"
+    },
+    {
+      "id": "insects-077",
+      "animal": "Eintagsfliegen",
+      "prompt": "Welches Insekt hat ein einzigartiges geflügeltes Zwischenstadium namens Subimago?",
+      "options": [
+        "Eine Eintagsfliege",
+        "Eine Libelle",
+        "Ein Käfer",
+        "Ein Schmetterling"
+      ],
+      "explanation": "Nach dem ersten geflügelten Stadium, dem Subimago, häutet sich die Eintagsfliege noch einmal.",
+      "didYouKnow": "Die Flügel erwachsener Eintagsfliegen sind im Ruhezustand oft senkrecht aufgestellt.",
+      "imageCaption": "Gewöhnlich vergänglich"
+    },
+    {
+      "id": "insects-078",
+      "animal": "Plecoptera",
+      "prompt": "Was deutet das Vorhandensein von Steinfliegenlarven in einem Gewässer oft darauf hin?",
+      "options": [
+        "Gut sauerstoffhaltiges Wasser",
+        "Anoxisches Wasser",
+        "Meerwasser",
+        "Durch Kohlenwasserstoffe verunreinigtes Wasser"
+      ],
+      "explanation": "Viele Steinfliegenlarven reagieren empfindlich auf Sauerstoffmangel und Umweltverschmutzung.",
+      "didYouKnow": "Steinfliegen werden nach dem Auftreten mehrerer erwachsener Arten manchmal auch Beadlets genannt.",
+      "imageCaption": "Gewöhnliche Perle"
+    },
+    {
+      "id": "insects-079",
+      "animal": "Trichoptera",
+      "prompt": "Woraus besteht die Hülle der Larven vieler Köcherfliegen?",
+      "options": [
+        "Seide kombiniert mit Sand, Zweigen oder anderen Ablagerungen",
+        "Von Skalen",
+        "Aus Wachs",
+        "Chitinhaltige Plaques werden abgesondert"
+      ],
+      "explanation": "Die Larven scheiden Seide aus und nehmen Materialien auf, die in ihrem aquatischen Lebensraum verfügbar sind.",
+      "didYouKnow": "Erwachsene Köcherfliegen haben oft fadenförmige Fühler und lange, schmale Flügel.",
+      "imageCaption": "Phrygane"
+    },
+    {
+      "id": "insects-080",
+      "animal": "Flöhe",
+      "prompt": "Wie bewegen sich erwachsene Flöhe effizient auf ihrem Wirt?",
+      "options": [
+        "Dabei helfen ihnen ihr seitlich abgeflachter Körper und ihre springenden Beine",
+        "Sie fliegen mit Flügeln",
+        "Sie schwimmen im Fell",
+        "Sie werden mit einem Saugnapf befestigt"
+      ],
+      "explanation": "Der seitlich zusammengedrückte Körper erleichtert die Bewegung zwischen den Haaren und die Beine ermöglichen das Springen.",
+      "didYouKnow": "Flöhe können einige Zeit ohne Blutmahlzeit zwischen zwei Wirten überleben.",
+      "imageCaption": "Katzenfloh"
+    },
+    {
+      "id": "insects-081",
+      "animal": "Läuse",
+      "prompt": "Wie werden Läuse häufig zwischen Wirten übertragen?",
+      "options": [
+        "Durch engen Kontakt zwischen den Gastgebern",
+        "Durch beißende Vektoren",
+        "Bei Langstreckenflügen",
+        "Durch ein aquatisches Larvenstadium"
+      ],
+      "explanation": "Läuse sind flügellos und bewegen sich von Mensch zu Mensch, oft durch direkten Kontakt.",
+      "didYouKnow": "Säugetier- und Vogelläuse sind oft eng an ihre Wirte angepasst.",
+      "imageCaption": "Kopflaus"
+    },
+    {
+      "id": "insects-082",
+      "animal": "Taubenfederlaus",
+      "prompt": "Wovon ernährt sich die Taubenfederlaus Columbicola columbae hauptsächlich?",
+      "options": [
+        "Aus Federfragmenten",
+        "Hautschuppen und abgestorbene Haut",
+        "Dem Wirt wird Blut entnommen",
+        "Fettige Sekrete an der Basis der Federn"
+      ],
+      "explanation": "Diese Kaulaus ist darauf spezialisiert, Material aus den Federn ihres Wirts zu fressen. Sie unterscheidet sich von Läusen, die sich von Blut ernähren.",
+      "didYouKnow": "Die Taubenlaus ist flügellos und abgeflacht, um sich zwischen den Federn bewegen zu können.",
+      "imageCaption": "Taubenfederlaus (Columbicola columbae)."
+    },
+    {
+      "id": "insects-083",
+      "animal": "Staubläuse",
+      "prompt": "Wo kommen Psozide häufig vor?",
+      "options": [
+        "Auf Schimmel, Flechten oder feuchten organischen Rückständen",
+        "Nur in tropischen Blumen",
+        "In Meeresumgebungen",
+        "Nur in Vogelnestern"
+      ],
+      "explanation": "Psozide nutzen häufig Mikroorganismen und Ablagerungen aus, die in Feuchtgebieten vorkommen.",
+      "didYouKnow": "Einige Arten von Psoziden werden Buchläuse genannt, sind aber keine parasitären Läuse.",
+      "imageCaption": "Psococerastis gibbosa, ein Beispiel für einen auf Rinde lebenden Schuppenflechte."
+    },
+    {
+      "id": "insects-084",
+      "animal": "Silberfischchen",
+      "prompt": "Welches Merkmal von Silberfischen ist typisch für apterygote Insekten?",
+      "options": [
+        "Als Erwachsene sind sie flügellos.",
+        "Vier häutige Flügel",
+        "Pendel",
+        "Elytra"
+      ],
+      "explanation": "Silberfische gehören zu einer Abstammungslinie ursprünglich flügelloser Insekten.",
+      "didYouKnow": "Silberfischchen häuten sich auch nach Erreichen der Reife noch.",
+      "imageCaption": "Silberner Fisch"
+    },
+    {
+      "id": "insects-085",
+      "animal": "Wasserinsekten",
+      "prompt": "Wie erhalten Steinfliegenlarven häufig Sauerstoff im Wasser?",
+      "options": [
+        "Durch die Trachealkiemen oder über die Körperoberfläche",
+        "Durch einen Siphon, den sie regelmäßig mit der Luft verbinden",
+        "Durch die Lunge, die gelösten Sauerstoff aufnimmt",
+        "Durch Kiemen, die Luft aus dem Wasser pumpen"
+      ],
+      "explanation": "Der Gasaustausch erfolgt bei Wasserlarven über Kiemen oder durch Bereiche der Kutikula.",
+      "didYouKnow": "Erwachsene Steinfliegen falten ihre Flügel oft flach auf dem Bauch.",
+      "imageCaption": "Perlenlarve"
+    },
+    {
+      "id": "insects-086",
+      "animal": "Chironomiden",
+      "prompt": "Warum sind die Larven einiger Chironomiden rötlich?",
+      "options": [
+        "Sie enthalten ein Atmungspigment namens Hämoglobin",
+        "Sie reichern Carotinoide aus ihrer Nahrung an",
+        "Sie haben Hämocyanin in ihrer Hämolymphe",
+        "Ihre Nagelhaut enthält einen roten Farbstoff, der von Bakterien produziert wird"
+      ],
+      "explanation": "Hämoglobin hilft einigen Larven, Sauerstoff in sauerstoffarmen Lebensräumen aufzunehmen.",
+      "didYouKnow": "Erwachsene Chironomiden sehen aus wie kleine Mücken, stechen aber nicht.",
+      "imageCaption": "Chironomus"
+    },
+    {
+      "id": "insects-087",
+      "animal": "Phryganes",
+      "prompt": "Zu welcher Ordnung gehören Köcherfliegen, deren Larven manchmal Hüllen bauen?",
+      "options": [
+        "Zur Ordnung Trichoptera (Köcherfliegen)",
+        "Zur Ordnung Coleoptera (Käfer)",
+        "Zur Ordnung Plecoptera (Steinfliegen)",
+        "Zur Ordnung Diptera (Zweiflügler)"
+      ],
+      "explanation": "Köcherfliegen sind Trichoptera und evolutionär den Schmetterlingen nahe.",
+      "didYouKnow": "Die Larven vieler Köcherfliegen verknüpfen Sandkörner, Zweige oder andere Materialien mit Seide.",
+      "imageCaption": "Phrygane"
+    },
+    {
+      "id": "insects-088",
+      "animal": "Zikaden",
+      "prompt": "Wie erzeugen männliche Zikaden ihren kraftvollen Gesang?",
+      "options": [
+        "Mit vibrierender Pauke am Bauch",
+        "Indem sie ihre Pfoten reiben",
+        "Mit Pendeln",
+        "Durch das Klicken ihrer Mandibeln"
+      ],
+      "explanation": "Die Pauken sind Bauchmembranen, die unter der Wirkung von Muskeln vibrieren.",
+      "didYouKnow": "Die Nymphen vieler Zikaden leben unter der Erde und ernähren sich von Wurzelsaft.",
+      "imageCaption": "Gemeine Zikade"
+    },
+    {
+      "id": "insects-089",
+      "animal": "Kleinzikaden",
+      "prompt": "Wie springen Kleinzikaden schnell, wenn sie gestört werden?",
+      "options": [
+        "Dank ihrer zum Springen geeigneten Hinterbeine",
+        "Schuppige Flügel ausbreiten",
+        "Durch das Austreiben von Wasser",
+        "Einen Schwanz abwickeln"
+      ],
+      "explanation": "Ihre Hinterbeine sind spezialisiert und können den Körper von der Stütze wegbewegen.",
+      "didYouKnow": "Zikaden können Krankheitserreger auf bestimmte Pflanzen übertragen.",
+      "imageCaption": "Grüne Zikaden"
+    },
+    {
+      "id": "insects-090",
+      "animal": "Blattläuse",
+      "prompt": "Wie vermehren sich viele Blattläuse während eines Teils des Jahres?",
+      "options": [
+        "Durch Parthenogenese, wobei die Weibchen ohne Befruchtung Nachkommen zur Welt bringen",
+        "Durch obligatorische Paarung in jeder Generation",
+        "Durch Austrieb der Nagelhaut",
+        "Durch Teilung eines erwachsenen Individuums in zwei Teile"
+      ],
+      "explanation": "Durch die Parthenogenese können bestimmte Populationen unter günstigen Bedingungen schnell wachsen.",
+      "didYouKnow": "Blattläuse können mit Ameisen in Verbindung gebracht werden, die ihren Honigtau ernten.",
+      "imageCaption": "Rosenblattlaus"
+    },
+    {
+      "id": "insects-091",
+      "animal": "Blattläuse",
+      "prompt": "Was geben Blattläuse aus den Hornhäuten an ihrem Hinterleib ab?",
+      "options": [
+        "Wachsartige oder Abwehrsekrete",
+        "Honigtau für Ameisen",
+        "Saft wurde aus der Pflanze gesaugt",
+        "Eier durch eine Kapsel geschützt"
+      ],
+      "explanation": "Die Hornhaut sondert bei vielen Blattläusen wachsartige oder Abwehrstoffe ab.",
+      "didYouKnow": "Wenn sich die Bedingungen ändern, produzieren einige Blattlausarten geflügelte Individuen.",
+      "imageCaption": "Rosenblattlaus"
+    },
+    {
+      "id": "insects-092",
+      "animal": "Zikaden",
+      "prompt": "Warum können Zikaden lange unter der Erde bleiben, bevor sie auftauchen?",
+      "options": [
+        "Ihre unterirdische Nymphenentwicklung kann mehrere Jahre dauern",
+        "Sie bleiben ihr Leben lang inaktiv",
+        "Sie verwandeln sich in Fische",
+        "Sie warten darauf, dass ein Baum blüht"
+      ],
+      "explanation": "Die Nymphen leben und ernähren sich von Wurzelsaft, bevor sie schlüpfen.",
+      "didYouKnow": "Erwachsene Zikaden haben weit auseinander liegende Facettenaugen.",
+      "imageCaption": "Gemeine Zikade"
+    },
+    {
+      "id": "insects-093",
+      "animal": "Hemiptera",
+      "prompt": "Welche Mundwerkzeuge sind bei stechend-saugenden Wanzen häufig?",
+      "options": [
+        "Ein stechender Saugrüssel zur Aufnahme von Flüssigkeiten",
+        "Kräftige Mandibeln zum Zerkleinern von Blättern",
+        "Ein eingerollter Saugrüssel zum Nektarsaugen",
+        "Ein Schwammrüssel zum Auflecken von Flüssigkeiten"
+      ],
+      "explanation": "Mit dem Saugrüssel können sie Gewebe anstechen oder Pflanzensäfte aufnehmen.",
+      "didYouKnow": "Riesige Wasserwanzen atmen an der Oberfläche mithilfe eines Atmungsfortsatzes am Ende des Hinterleibs.",
+      "imageCaption": "Grüner Käfer"
+    },
+    {
+      "id": "insects-094",
+      "animal": "Wanzen",
+      "prompt": "Wie unterscheiden sich die Vorderflügel vieler Wanzen von denen der Käfer?",
+      "options": [
+        "Sie sind teilweise gehärtet und haben ein häutiges Ende",
+        "Sie sind vollständig gehärtet und treffen in einer geraden Linie aufeinander",
+        "Sie sind über ihre gesamte Länge häutig",
+        "Sie werden in Pendel umgewandelt, um den Flug zu stabilisieren"
+      ],
+      "explanation": "Die Hemelytra haben einen ledrigen Basalteil und einen häutigen distalen Teil.",
+      "didYouKnow": "Viele Bettwanzen haben ein sichtbares dreieckiges Schildchen auf dem Rücken.",
+      "imageCaption": "Grüner Käfer"
+    },
+    {
+      "id": "insects-095",
+      "animal": "Stinkwanzen",
+      "prompt": "Woher kommt oft der Abwehrgeruch sogenannter Stinkwanzen?",
+      "options": [
+        "Von Duftdrüsen produzierte Sekrete",
+        "Fermentiertes Essen in ihren Flügeln",
+        "Aus ihrem eisenreichen Blut",
+        "Keime auf ihren Pfoten"
+      ],
+      "explanation": "Manche Stinkwanzen geben Duftstoffe ab, um Fressfeinde abzuschrecken.",
+      "didYouKnow": "Stinkwanzen gehören zur Familie der Pentatomidae.",
+      "imageCaption": "Grüner Käfer"
+    },
+    {
+      "id": "insects-096",
+      "animal": "Raubwanzen",
+      "prompt": "Wie verzehren räuberische Raubwanzen häufig ihre Beute?",
+      "options": [
+        "Sie injizieren Speichel mit Verdauungsenzymen und saugen anschließend das verflüssigte Gewebe aus",
+        "Sie zerkauen ihre Beute mit Mandibeln und schlucken feste Stücke",
+        "Sie wickeln die Beute in Seide ein und warten, bis sie austrocknet",
+        "Sie nehmen die gesamte Beute über ihre Körperoberfläche auf"
+      ],
+      "explanation": "Mit ihrem stechenden Saugrüssel injizieren sie Speichel und saugen den verflüssigten Inhalt aus.",
+      "didYouKnow": "Einige tropische Insekten ernähren sich vom Blut von Wirbeltieren, darunter auch Menschen.",
+      "imageCaption": "Maskierter Schilfwurm"
+    },
+    {
+      "id": "insects-097",
+      "animal": "Cercopes",
+      "prompt": "Wie schützen sich Spucklauslarven oft?",
+      "options": [
+        "Sie umgeben sich mit einem Schaum aus Blasen und Sekreten",
+        "Sie bauen sich eine Hülle aus Sand und Seide",
+        "Sie verstecken sich in einer vom Erwachsenen gegrabenen Holzgalerie",
+        "Sie bilden aus Erde und Speichel eine starre Kapsel"
+      ],
+      "explanation": "Das Moos schützt die Larven und verhindert vermutlich das Austrocknen.",
+      "didYouKnow": "Spittlebugs sind mit Zikaden und Blattläusen innerhalb der Hemiptera verwandt.",
+      "imageCaption": "Wiesenspuckkäfer"
+    },
+    {
+      "id": "insects-098",
+      "animal": "Blattläuse und Ameisen",
+      "prompt": "Warum schützen Ameisen manchmal Blattläuse?",
+      "options": [
+        "Sie ernten den süßen Honigtau, den Blattläuse ausscheiden",
+        "Blattläuse produzieren Wachs für das Nest",
+        "Blattläuse jagen Termiten",
+        "Blattläuse ernähren sich von Ameiseneiern"
+      ],
+      "explanation": "Ameisen ernten Honigtau und verteidigen manchmal Blattläuse gegen Fressfeinde.",
+      "didYouKnow": "Blattläuse häuten sich während ihrer Entwicklung mehrmals und ihre alte Nagelhaut verbleibt manchmal auf den Blättern.",
+      "imageCaption": "Rosenblattlaus"
+    },
+    {
+      "id": "insects-099",
+      "animal": "Soziale Insekten",
+      "prompt": "Wie übermitteln Bienen dem Bienenvolk einen Alarm?",
+      "options": [
+        "Durch Pheromone und Verhaltenssignale",
+        "Sie geben Alarmtöne ab",
+        "Sie sorgen für eine visuelle Darstellung",
+        "Sie verändern die Farbe ihres Körpers"
+      ],
+      "explanation": "Chemische Signale und Bewegungen können andere Arbeiter auf Gefahren aufmerksam machen.",
+      "didYouKnow": "In vielen Insektengesellschaften kümmern sich Arbeiter um die Brut und den Unterhalt des Nestes.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-100",
+      "animal": "Soziale Insekten",
+      "prompt": "Was bedeutet „Eusozialität“ bei Insekten?",
+      "options": [
+        "Eine Gesellschaft mit gemeinsamer Brutpflege, überlappenden Generationen und Fortpflanzungsteilung",
+        "Eine Gruppe, in der sich jedes erwachsene Tier unabhängig fortpflanzt",
+        "Eine vorübergehende Gruppe, die sich nur zum Wandern bildet",
+        "Ein Volk, in dem alle Tiere dieselben Aufgaben übernehmen"
+      ],
+      "explanation": "Diese Merkmale kennzeichnen eusoziale Gesellschaften wie die von Ameisen und vielen Bienen.",
+      "didYouKnow": "Einige Termitenhügel können mehrere Meter hoch sein.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-101",
+      "animal": "Soziale Insekten",
+      "prompt": "Welche Rolle spielt ein steriler Arbeiter in einer Sozialkolonie?",
+      "options": [
+        "Sie übernimmt Aufgaben wie die Brutpflege oder die Nahrungssuche.",
+        "Sie ersetzt die Königin täglich",
+        "Sie ist ein Zuchtrüde",
+        "Sie legt alle befruchteten Eier"
+      ],
+      "explanation": "Arbeiter tragen eher zum Funktionieren der Kolonie als zur direkten Fortpflanzung bei.",
+      "didYouKnow": "Arbeiterinnen von Honigbienen leben im Winter im Allgemeinen deutlich länger als im Sommer.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-102",
+      "animal": "Kommunikation",
+      "prompt": "Was ist ein Pheromon?",
+      "options": [
+        "Ein chemisches Signal, das zwischen Individuen derselben Art ausgesendet und wahrgenommen wird",
+        "Eine innere Chemikalie, die nur den Körper seines Senders reguliert",
+        "Eine Verbindung, die von einer Art produziert und von einer anderen zu ihrem Nutzen genutzt wird",
+        "Eine Substanz, die nur die Fressfeinde eines Insekts anlockt"
+      ],
+      "explanation": "Pheromone übertragen Informationen zwischen Artgenossen, etwa eine Spur oder ein sexuelles Signal.",
+      "didYouKnow": "Auch Bienen und viele andere Insekten nehmen Schwingungen wahr, die vom Boden oder von Pflanzen übertragen werden.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-103",
+      "animal": "Kommunikation",
+      "prompt": "Welchen Zweck haben Substratvibrationen bei manchen Insekten?",
+      "options": [
+        "Um ein Signal durch Pflanzen, Erde oder Netz zu übertragen",
+        "Einen Geruchsstoff in die Luft übertragen",
+        "Um einen Ton zu erzeugen, der sich hauptsächlich durch die Luft ausbreitet",
+        "Um die Körperfarbe zu ändern, um aus der Ferne zu kommunizieren"
+      ],
+      "explanation": "Von einem Medium übertragene Vibrationen können dazu genutzt werden, einen Partner anzulocken oder eine Bedrohung zu signalisieren.",
+      "didYouKnow": "Die Flügel von Schmetterlingen können bunte, mikroskopisch kleine Schuppen tragen.",
+      "imageCaption": "Wiesenspuckkäfer"
+    },
+    {
+      "id": "insects-104",
+      "animal": "Vision",
+      "prompt": "Was erfassen die einfachen Punktaugen, die Ocelli, vieler Insekten hauptsächlich?",
+      "options": [
+        "Lichtintensität und Orientierungsänderungen",
+        "Erstellung eines detaillierten Bildes der Umgebung",
+        "Erkennung von Gerüchen und Pheromonen",
+        "Vibrationen des Untergrundes unter den Beinen"
+      ],
+      "explanation": "Die Ocelli vervollständigen die Facettenaugen, indem sie insbesondere Informationen über die Leuchtkraft liefern.",
+      "didYouKnow": "Viele Insekten haben im Gegensatz zu Ocelli auch Facettenaugen.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-105",
+      "animal": "Vision",
+      "prompt": "Wie erzeugt ein Facettenauge das Bild eines Insekts?",
+      "options": [
+        "Aus Signalen zahlreicher Seheinheiten, sogenannte Ommatidien",
+        "Von einem einzigen Objektiv, das ein Bild wie eine Kamera erzeugt",
+        "Von Geruchsrezeptoren rund um die Netzhaut",
+        "Von Schallwellen, die von Objekten reflektiert werden"
+      ],
+      "explanation": "Jede Ommatidien erfasst einen Teil des Gesichtsfeldes und das System setzt ihre Signale zusammen.",
+      "didYouKnow": "Manche Bienen nehmen die Polarisation des Lichts wahr, was ihnen bei der Orientierung hilft.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-106",
+      "animal": "Ökologie",
+      "prompt": "Welchen ökologischen Dienst erbringen bestäubende Insekten für Pflanzen?",
+      "options": [
+        "Sie transportieren Pollen zwischen den Blüten und fördern die Befruchtung",
+        "Sie befruchten Pflanzen, indem sie ihre Eier in Blüten ablegen",
+        "Sie tragen Samen, aber keinen Pollen",
+        "Sie grasen auf Blumen, ohne Pollen zu transportieren"
+      ],
+      "explanation": "Der Pollentransport erleichtert bei vielen Blütenpflanzen die sexuelle Fortpflanzung.",
+      "didYouKnow": "Unter den Insekten stellen die Käfer die Ordnung mit den am häufigsten beschriebenen Arten dar.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-107",
+      "animal": "Saproxylische Insekten",
+      "prompt": "Mit welcher Ressource oder welchem Lebensraum sind Saproxy-Insekten verbunden?",
+      "options": [
+        "Abgestorbenes oder verrottendes Holz, von dem sie in einer Phase ihres Zyklus abhängig sind",
+        "Mit lebenden Blättern, die sie als Erwachsene verzehren müssen",
+        "In die offenen Gewässer, wo sie ihr ganzes Leben verbringen",
+        "In Ameisennestern gelagerte Samen"
+      ],
+      "explanation": "Der Begriff Saproxyl bezieht sich auf Arten, die in einem bestimmten Stadium ihres Lebenszyklus auf totes oder verrottendes Holz angewiesen sind. Einige beteiligen sich an seiner Zersetzung, andere nutzen diesen Lebensraum oder die dort lebenden Organismen.",
+      "didYouKnow": "Die erwachsenen Käfer vieler Blattkäfer leben nur wenige Wochen.",
+      "imageCaption": "Rosalie der Alpen"
+    },
+    {
+      "id": "insects-108",
+      "animal": "Ökologie",
+      "prompt": "Warum sind Insekten für viele Vögel eine wichtige Nahrungsquelle?",
+      "options": [
+        "Sie bieten reichlich und nahrhafte Beute, insbesondere für Nestlinge",
+        "Sie sind die einzige Nahrung für alle Vögel",
+        "Sie liefern hauptsächlich Pflanzenfasern",
+        "Sie sind das ganze Jahr über in gleichen Mengen erhältlich"
+      ],
+      "explanation": "Viele Vögel ernähren ihre Jungen mit Raupen und anderen nährstoffreichen Insekten.",
+      "didYouKnow": "Insekten bewohnen eine Vielzahl terrestrischer Lebensräume, von Wüsten bis hin zu tropischen Wäldern.",
+      "imageCaption": "Wanderheuschrecke"
+    },
+    {
+      "id": "insects-109",
+      "animal": "Metamorphose",
+      "prompt": "Was ist der Unterschied zwischen vollständiger Metamorphose und unvollständiger Metamorphose?",
+      "options": [
+        "Bei vollständiger Metamorphose liegt ein Puppenstadium zwischen Larve und erwachsenem Tier; bei unvollständiger fehlt es",
+        "Bei vollständiger Metamorphose gibt es kein Larvenstadium, bei unvollständiger schon",
+        "Bei vollständiger Metamorphose ähneln Jungtiere den Erwachsenen, bei unvollständiger nicht",
+        "Die beiden Formen unterscheiden sich nur in der Zahl der gelegten Eier"
+      ],
+      "explanation": "Die vollständige Metamorphose verläuft über Ei, Larve, Puppe und erwachsenes Tier; bei unvollständiger Metamorphose ähneln die Jugendstadien dem erwachsenen Tier.",
+      "didYouKnow": "Ameisen, Bienen und Wespen gehören alle zur Ordnung der Hautflügler.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-110",
+      "animal": "Metamorphose",
+      "prompt": "Wie heißen die Jungen einer Heuschrecke, die bereits dem Erwachsenen ähnelt, aber keine funktionierenden Flügel hat?",
+      "options": [
+        "Eine Nymphe",
+        "Eine Puppe",
+        "Eine Larve vom Raupentyp",
+        "Eine unreife Imago"
+      ],
+      "explanation": "Junge Orthopteren sind Nymphen, die sich mehrmals häuten, bevor sie erwachsen werden.",
+      "didYouKnow": "Erwachsene Zikaden erzeugen ihren Gesang mit vibrierenden Membranen, den sogenannten Pauken.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-111",
+      "animal": "Metamorphose",
+      "prompt": "Was passiert während einer Insektenhäutung?",
+      "options": [
+        "Das Insekt verlässt seine alte Nagelhaut und bildet eine neue",
+        "Das Insekt verliert dauerhaft seine Nagelhaut",
+        "Es ersetzt seine Antennen durch Lungen",
+        "Mit jeder Häutung wird es erwachsen"
+      ],
+      "explanation": "Häutung ermöglicht Wachstum und kann auch Veränderungen im Stadium begleiten.",
+      "didYouKnow": "Die äußere Nagelhaut dient auch als Ankerpunkt für die Muskeln des Insekts.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-112",
+      "animal": "Konservierung",
+      "prompt": "Warum kann künstliches Licht in der Nacht bestimmten Insekten schaden?",
+      "options": [
+        "Es kann Insekten verwirren oder sie von ihrem normalen Verhalten abbringen",
+        "Es macht Insekten für Pflanzen besser sichtbar",
+        "Es verursacht notwendigerweise Häutung",
+        "Es vertreibt alle nachtaktiven Raubtiere"
+      ],
+      "explanation": "Nachtbeleuchtung stört die Orientierung, Nahrungsaufnahme und Fortpflanzung bestimmter Arten.",
+      "didYouKnow": "Einige Mückenarten können ihre Larvenentwicklung in sehr kleinen Wasserhöhlen abschließen.",
+      "imageCaption": "Ackerwindenschwärmer"
+    },
+    {
+      "id": "insects-113",
+      "animal": "Konservierung",
+      "prompt": "Welche Vorgehensweise trägt dazu bei, bestäubende Insekten in einem Garten zu schützen?",
+      "options": [
+        "Pflanzen Sie eine Vielzahl von Blumen und beschränken Sie den Einsatz von Pestiziden",
+        "Entfernen Sie einheimische Pflanzen",
+        "Leuchtet die ganze Nacht",
+        "Entfernen Sie Blumen, sobald sie blühen"
+      ],
+      "explanation": "Verschiedene Blumenressourcen und Schutzgebiete unterstützen Bestäuber.",
+      "didYouKnow": "Ein kleines, flaches Wasserspiel mit Steinen kann als Tränke für Insekten dienen.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-114",
+      "animal": "Konservierung",
+      "prompt": "Warum sollte man in bestimmten Naturgebieten Totholz aufbewahren?",
+      "options": [
+        "Es dient als Lebensraum und Ressource für saproxylische Arten",
+        "Es verhindert das Keimen der Samen",
+        "Es eliminiert Bestäuber",
+        "Es verschmutzt das Wasser"
+      ],
+      "explanation": "Totholz bietet vielen Organismen Nahrung, Schutz und Brutstätte.",
+      "didYouKnow": "Alte Bäume bieten oft Nistplätze für Höhlenvögel.",
+      "imageCaption": "Rosalie der Alpen"
+    },
+    {
+      "id": "insects-115",
+      "animal": "Konservierung",
+      "prompt": "Was ist eine mögliche Auswirkung der Lebensraumfragmentierung auf Insekten?",
+      "options": [
+        "Es isoliert Populationen und reduziert den Reiseverkehr zwischen Standorten",
+        "Es fördert die Bewegung zwischen Fragmenten",
+        "Es verbindet zuvor isolierte Populationen",
+        "Es vergrößert die Oberfläche des zusammenhängenden Lebensraums"
+      ],
+      "explanation": "Isolierte Fragmente können den Austausch einschränken und Populationen anfälliger machen.",
+      "didYouKnow": "Manche Insekten, wie zum Beispiel Marienkäfer, versammeln sich zum Überwintern in Gruppen.",
+      "imageCaption": "Monarch"
+    },
+    {
+      "id": "insects-116",
+      "animal": "Konservierung",
+      "prompt": "Warum stellen Breitbandpestizide eine Gefahr für Nichtzielinsekten dar?",
+      "options": [
+        "Sie können auch nützliche Bestäuber und Raubtiere töten",
+        "Sie befallen nur Insektenschädlinge",
+        "Sie bevorzugen systematisch Bestäuber",
+        "Sie verhindern jegliche Resistenz bei Schädlingen"
+      ],
+      "explanation": "Ein Breitbandprodukt kann andere Arten als den Zielschädling befallen.",
+      "didYouKnow": "Künstliches Licht in der Nacht kann einige Insekten, die von Lichtquellen angezogen werden, desorientieren.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-117",
+      "animal": "Ökologie",
+      "prompt": "Was ist ein Bioindikator-Insekt?",
+      "options": [
+        "Eine Art, deren Vorkommen oder Häufigkeit Aufschluss über den Zustand der Umwelt gibt",
+        "Eine Art, die eingeführt wurde, um das Funktionieren einer Umwelt wiederherzustellen",
+        "Eine Art, die noch immer nur in verschmutzten Umgebungen vorkommt",
+        "Eine Art, die spezifisch auf das Vorhandensein eines einzelnen Schadstoffs hinweist"
+      ],
+      "explanation": "Die Empfindlichkeit bestimmter Insekten gegenüber Umweltbedingungen ermöglicht die Überwachung ökologischer Veränderungen.",
+      "didYouKnow": "Die Larven vieler Eintagsfliegen leben im Wasser, bevor sie auswachsen.",
+      "imageCaption": "Perlenlarve"
+    },
+    {
+      "id": "insects-118",
+      "animal": "Ökologie",
+      "prompt": "Wie tragen Zersetzerinsekten zum Nährstoffkreislauf bei?",
+      "options": [
+        "Sie zerkleinern organisches Material und erleichtern das Recycling",
+        "Sie erzeugen Mineralien durch Photosynthese",
+        "Sie verhindern, dass Mikroben wirken",
+        "Sie wandeln reinen Kohlenstoff in Stickstoff um"
+      ],
+      "explanation": "Der Verbrauch und die Zerkleinerung organischer Abfälle beschleunigt deren Zersetzung.",
+      "didYouKnow": "Termiten können Galerien bauen, die die Wasserzirkulation im Boden verändern.",
+      "imageCaption": "Heiliger Mistkäfer"
+    },
+    {
+      "id": "insects-119",
+      "animal": "Verteidigung",
+      "prompt": "Warum zeigen manche Insekten leuchtende Warnfarben?",
+      "options": [
+        "Sie warnen Fressfeinde, dass das Insekt geschützt oder ungenießbar sein könnte",
+        "Sie locken Partner an, indem sie Mondlicht reflektieren",
+        "Sie helfen dem Insekt, mehr Sonnenlicht aufzunehmen",
+        "Sie tarnen das Insekt zwischen Blüten"
+      ],
+      "explanation": "Warnfarben können Fressfeinden vermitteln, dass sie eine geschützte Beute meiden sollten.",
+      "didYouKnow": "Der Siebenpunkt-Marienkäfer hat normalerweise sieben schwarze Flecken auf seinen roten Flügeldecken.",
+      "imageCaption": "Siebenfleckiger Marienkäfer"
+    },
+    {
+      "id": "insects-120",
+      "animal": "Verteidigung",
+      "prompt": "Welchen Nutzen bietet die Tarnung einem Blattinsekt?",
+      "options": [
+        "Es verringert die Wahrscheinlichkeit, von Raubtieren entdeckt zu werden",
+        "Es ermöglicht Ihnen, unter Wasser zu atmen",
+        "Es ersetzt das Immunsystem",
+        "Es beschleunigt die Mauser"
+      ],
+      "explanation": "Die Ähnlichkeit mit einem Blatt kann die Erkennung des Insekts erschweren.",
+      "didYouKnow": "Blattinsekten gehören zu den Stabheuschrecken, der Ordnung Phasmatodea.",
+      "imageCaption": "Phyllie aus den Philippinen"
+    },
+    {
+      "id": "insects-121",
+      "animal": "Verteidigung",
+      "prompt": "Was macht ein Insekt, das eine Autotomie durchführt?",
+      "options": [
+        "Es wirft freiwillig ein Körperteil ab, um einem Fressfeind zu entkommen",
+        "Es spritzt Verdauungsflüssigkeit auf den Fressfeind",
+        "Es wechselt die Farbe und imitiert ein Blatt",
+        "Es schließt sich in einem Seidenkokon ein"
+      ],
+      "explanation": "Manche Arten können ein von einem Fressfeind ergriffenes Bein opfern und fliehen.",
+      "didYouKnow": "Blattinsekten gehören zur Ordnung der Stabheuschrecken (Phasmatodea).",
+      "imageCaption": "Stabheuschrecke"
+    },
+    {
+      "id": "insects-122",
+      "animal": "Insekten und Menschen",
+      "prompt": "Warum sind Honigbienen wichtig für die Landwirtschaft?",
+      "options": [
+        "Sie bestäuben viele Nutz- und Wildpflanzen",
+        "Sie produzieren Stickstoff im Boden",
+        "Sie beseitigen alle Schädlinge",
+        "Sie produzieren Samen ohne Pollen"
+      ],
+      "explanation": "Ihre Bestäubung trägt zur Produktion vieler Nutzpflanzen bei, obwohl nicht alle Nutzpflanzen von ihnen abhängig sind.",
+      "didYouKnow": "Hummelvölker sind im Allgemeinen einjährig; Junge begattete Königinnen überwintern allein.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-123",
+      "animal": "Insekten und Menschen",
+      "prompt": "Welches Material produzieren Seidenraupen zur Bildung ihrer Kokons?",
+      "options": [
+        "Ein Seidenfaden, der von ihren Drüsen abgesondert wird",
+        "Wachs von ihren Pfoten",
+        "Verdichteter Pollen",
+        "Gekaute Pflanzenfasern"
+      ],
+      "explanation": "Die Bombyx-Raupe produziert einen langen Seidenfaden, um ihren Kokon zu bauen.",
+      "didYouKnow": "Die Bombyx-Puppe entwickelt sich im Seidenkokon, bevor das erwachsene Tier schlüpft.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-124",
+      "animal": "Ökologie",
+      "prompt": "Warum können Insekten biologische Schädlingsbekämpfungsmittel sein?",
+      "options": [
+        "Bestimmte Raubtiere oder Parasitoide begrenzen die Populationen schädlicher Organismen",
+        "Alle Insekten fressen Unkraut",
+        "Sie machen die Überwachung nutzlos",
+        "Sie beugen Pflanzenkrankheiten vor"
+      ],
+      "explanation": "Zielarten können in einem integrierten Schädlingsbekämpfungsprogramm bestimmte Schädlinge reduzieren.",
+      "didYouKnow": "Der Siebenfleckige Marienkäfer ist in vielen Teilen Europas eine häufige Art.",
+      "imageCaption": "Siebenfleckiger Marienkäfer"
+    },
+    {
+      "id": "insects-125",
+      "animal": "Vielfalt",
+      "prompt": "Warum besiedeln Insekten so unterschiedliche Lebensräume?",
+      "options": [
+        "Ihre Abstammungslinien haben sich zu vielen Formen und Lebensstilen entwickelt",
+        "Sie leben hauptsächlich in städtischen Gebieten",
+        "Sie bewohnen ausschließlich terrestrische Umgebungen",
+        "Sie meiden aquatische Lebensräume"
+      ],
+      "explanation": "Die Vielfalt der Anpassungen ermöglicht es Insekten, unterschiedliche terrestrische und aquatische Umgebungen zu besiedeln.",
+      "didYouKnow": "Insekten stellen die Tiergruppe mit der größten Anzahl beschriebener Arten dar.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-126",
+      "animal": "Libellen",
+      "prompt": "Mit welchem ​​Organ greifen Libellenlarven bestimmte Beutetiere?",
+      "options": [
+        "Eine vorschnellbare Unterlippe, die Fangmaske",
+        "Zungenförmige Mandibeln",
+        "Ein starres Podest zum Aufsaugen des Saftes",
+        "Palpen, die Partikel aus dem Wasser filtern"
+      ],
+      "explanation": "Die Unterlippe kann schnell vorspringen, um kleine Wasserbeute zu fangen.",
+      "didYouKnow": "Libellenlarven leben im Wasser, bevor sie sich endgültig auf einer Unterlage häuten.",
+      "imageCaption": "deprimierte Libelle"
+    },
+    {
+      "id": "insects-127",
+      "animal": "Libellen",
+      "prompt": "Wie nennt man Territorialflug bei manchen männlichen Libellen?",
+      "options": [
+        "Verteidigung eines Gebiets, in dem sie versuchen, Weibchen anzulocken",
+        "Eine jährliche Migration",
+        "Eine gemeinsame Unterwasserjagd",
+        "Ein Flug ohne Flügelschlag"
+      ],
+      "explanation": "Männchen patrouillieren oder verteidigen manchmal einen für die Eiablage günstigen Ort.",
+      "didYouKnow": "Erwachsene Libellen können Insekten im Flug fangen.",
+      "imageCaption": "deprimierte Libelle"
+    },
+    {
+      "id": "insects-128",
+      "animal": "Mücken",
+      "prompt": "Welches ausgeatmete Gas, das von vielen weiblichen Mücken entdeckt wird, hilft bei der Lokalisierung eines Wirts?",
+      "options": [
+        "Kohlendioxid (CO₂)",
+        "Methan (CH₄)",
+        "Stickstoff (N₂)",
+        "Sauerstoff (O₂)"
+      ],
+      "explanation": "Ausgeatmetes Kohlendioxid kann weibliche Mücken auf einen Wirt lenken; Hitze und Gerüche verfeinern dann die Suche.",
+      "didYouKnow": "Je nach Art legen die Weibchen ihre Eier auf der Wasseroberfläche, auf feuchtem Boden oder in Behältern ab, die sich mit Wasser füllen können.",
+      "imageCaption": "Gewöhnliche Mücke"
+    },
+    {
+      "id": "insects-129",
+      "animal": "Tsetse-Fliege",
+      "prompt": "Wie ernährt die Tsetsefliege ihre Larve vor der Geburt?",
+      "options": [
+        "Die Larve entwickelt sich in der Gebärmutter und erhält von der Mutter ein Nährstoffsekret",
+        "Das Ei schlüpft draußen, dann bringt das Weibchen den Jungen Beute",
+        "Das Ei verbleibt in der Gebärmutter, die Larve ist jedoch nur von ihrem Eigelb abhängig",
+        "Das Weibchen befestigt eine Larve an ihrem Hinterleib und ernährt sich dort von der Hämolymphe."
+      ],
+      "explanation": "Bei der Tsetsefliege ernährt das Weibchen die Larve in ihrer Gebärmutter mithilfe eines Sekrets aus speziellen Drüsen und legt dann eine reife Larve ab.",
+      "didYouKnow": "Tsetsefliegen übertragen manchmal Parasiten der Gattung Trypanosoma, die die Schlafkrankheit verursachen.",
+      "imageCaption": "Tsetse-Fliege"
+    },
+    {
+      "id": "insects-130",
+      "animal": "Schmetterlinge",
+      "prompt": "Welche Funktion haben die Flügelschuppen vieler Schmetterlinge außer ihrer Farbe?",
+      "options": [
+        "Sie können zu visuellen Mustern beitragen und den Wärmeaustausch beeinflussen",
+        "Sie produzieren Eier und legen sie auf Wirtspflanzen ab",
+        "Sie filtern das Wasser, wenn der Schmetterling auf einer Blume landet",
+        "Sie ersetzen die Muskeln, die die Flügel bedienen"
+      ],
+      "explanation": "Schuppen tragen zur Farbe, Tarnung und bestimmten visuellen Signalen bei.",
+      "didYouKnow": "Der nordamerikanische Monarch überwintert in Bergwäldern in Mexiko.",
+      "imageCaption": "Vulkanier"
+    },
+    {
+      "id": "insects-131",
+      "animal": "Schmetterlinge",
+      "prompt": "Warum folgen einige wandernde Schmetterlinge saisonalen Routen?",
+      "options": [
+        "Um Gebiete zu erreichen, die günstige Bedingungen für ihr Überleben bieten",
+        "Um die Eiablage zu verhindern",
+        "Sozial werden",
+        "Um tiefe Gewässer zu erreichen"
+      ],
+      "explanation": "Migration kann Brutstätten mit saisonalen Zufluchtsorten verbinden.",
+      "didYouKnow": "Der Monarch gehört zur Familie der Nymphalidae.",
+      "imageCaption": "Vulkanier"
+    },
+    {
+      "id": "insects-132",
+      "animal": "Käfer",
+      "prompt": "Wie verteidigen manche Bombardierkäfer ihren Körper?",
+      "options": [
+        "Sie stoßen einen heißen, reizenden Sprühnebel aus, der durch eine chemische Reaktion entsteht",
+        "Sie geben ein klebriges Sekret ab, das von den Bauchdrüsen produziert wird",
+        "Sie geben ein Tonsignal ab, indem sie ihre Flügeldecken reiben",
+        "Sie projizieren eine eisige Substanz, indem sie Wasser aus ihrem Körper verdampfen"
+      ],
+      "explanation": "Substanzen reagieren in einer speziellen Kammer und werden in einem Abwehrstrahl ausgestoßen.",
+      "didYouKnow": "Bombardierkäfer gehören zur Familie der Laufkäfer.",
+      "imageCaption": "Brachine-Kracher"
+    },
+    {
+      "id": "insects-133",
+      "animal": "Käfer",
+      "prompt": "Welche Rolle spielt die Larve im Lebenszyklus vieler Blattkäfer?",
+      "options": [
+        "Es ernährt sich von totem Holz oder wächst darin",
+        "Es frisst lebende Blätter",
+        "Sie jagt fliegende Insekten",
+        "Sie sammelt Nektar von Blumen"
+      ],
+      "explanation": "Die Larven nutzen oft totes Holz, die dort wachsenden Pilze oder die vorhandenen Insekten.",
+      "didYouKnow": "Die erwachsenen Insekten einiger saproxylischer Insekten besuchen Blüten, obwohl ihre Larven in totem Holz leben.",
+      "imageCaption": "Rosalie der Alpen"
+    },
+    {
+      "id": "insects-134",
+      "animal": "Hymenopteren",
+      "prompt": "Welche Funktion haben die sechseckigen Zellen der Wabe?",
+      "options": [
+        "Sie dienen der Brutaufzucht und der Lagerung von Ressourcen",
+        "Sie machen die Flügel",
+        "Sie ersetzen die Stigmata",
+        "Sie filtern die Luft"
+      ],
+      "explanation": "Die Wachswaben enthalten Zellen für Brut, Pollen und Honig.",
+      "didYouKnow": "Honigbienen können sich aus kleinen Ritzen im Bienenstock vermehren.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-135",
+      "animal": "Hymenopteren",
+      "prompt": "Wie unterscheidet sich die Aufzucht einer Bienenkönigin von der einer Arbeiterin?",
+      "options": [
+        "Die Larve erhält eine spezielle Nahrung, insbesondere Gelée Royale.",
+        "Im Gegensatz zu Arbeiterinnen schlüpft es aus einer unbefruchteten Eizelle.",
+        "Es erhält mehr Kauwachs als andere Larven",
+        "Es wird in einer Zelle aufgezogen, die mit unverarbeitetem Nektar gefüllt ist"
+      ],
+      "explanation": "Die Larvenernährung trägt zur Differenzierung der Königin bei.",
+      "didYouKnow": "Honigbienenarbeiter stellen das Wachs her, das zum Bau der Waben verwendet wird.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-136",
+      "animal": "Hymenopteren",
+      "prompt": "Welches Phänomen beschreibt das Schwärmen bei Honigbienen?",
+      "options": [
+        "Eine Königin und ein Teil der Kolonie verlassen den Bienenstock, um sich woanders niederzulassen",
+        "Im Winter gibt die gesamte Kolonie ihre Eier ab",
+        "Männchen gründeten eine Kolonie ohne Königin",
+        "Arbeiter bewegen nur Larven"
+      ],
+      "explanation": "Das Schwärmen ist eine natürliche Art der Koloniereproduktion.",
+      "didYouKnow": "Honigbienen nutzen Pheromone, um bestimmte Aktivitäten des Bienenvolkes zu koordinieren.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-137",
+      "animal": "Ameisen",
+      "prompt": "Wie tauschen Ameisen manchmal flüssige Nahrung zwischen Individuen aus?",
+      "options": [
+        "Bei der Trohallaxis handelt es sich um eine Flüssigkeitsübertragung von Mund zu Mund",
+        "Durch einen Flüssigkeitsaustausch über die Antennen",
+        "Indem man einen Tropfen auf den Boden gibt, den die andere Ameise aufnimmt",
+        "Durch die Übertragung fester Nahrung mit den Mandibeln"
+      ],
+      "explanation": "Unter Trophallaxie versteht man die Übertragung von Nahrungsflüssigkeit zwischen Individuen; Es kann auch Signalmoleküle übertragen.",
+      "didYouKnow": "Ameisen bauen Räume und Galerien, deren Form je nach Art und Umgebung variiert.",
+      "imageCaption": "Schwarze Gartenameise, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-138",
+      "animal": "Ameisen",
+      "prompt": "Wie bewegen manche Ameisenkolonien ihre Larven?",
+      "options": [
+        "Die Arbeiter tragen sie mit ihren Mandibeln",
+        "Die Larven kriechen selbstständig zum neuen Nest",
+        "Die Königin trägt sie in ihren Flügeln",
+        "Sie werden an den Antennen der Soldaten befestigt"
+      ],
+      "explanation": "Der Transport der Brut ermöglicht es, die Kolonie zu verlegen oder das Nest neu zu organisieren.",
+      "didYouKnow": "Die Arbeiterinnen mehrerer Ameisenarten tragen ganze Beute zum Nest.",
+      "imageCaption": "Schwarze Gartenameise, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-139",
+      "animal": "Orthopteren",
+      "prompt": "Welchen Zweck hat das Lied der männlichen Grille?",
+      "options": [
+        "Um einen Partner zu gewinnen oder mit Gleichaltrigen zu kommunizieren",
+        "Um Blumen anzulocken",
+        "Damit die Eier unter der Erde vibrieren",
+        "Zum Atmen"
+      ],
+      "explanation": "Singen ist ein akustisches Signal, das der reproduktiven Kommunikation dient.",
+      "didYouKnow": "Grillen erkennen Geräusche mithilfe des Trommelfells an ihren Vorderbeinen.",
+      "imageCaption": "Wanderheuschrecke, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-140",
+      "animal": "Maulwurfsgrillen",
+      "prompt": "Welche Anpassung hilft Maulwurfsgrillen, Galerien in den Boden zu graben?",
+      "options": [
+        "Ihre vergrößerten und gezahnten Vorderbeine haben die Form einer Schaufel",
+        "Ihre kräftigen Mandibeln graben allein die Galerien",
+        "Ihre Hinterbeine drücken die Erde nach hinten",
+        "Ihre robusten Antennen, die den Boden durchdringen"
+      ],
+      "explanation": "Maulwurfsgrillen bewegen den Boden mit ihren kräftigen, vergrößerten Vorderbeinen.",
+      "didYouKnow": "Maulwurfsgrillen können sich sowohl von Wurzeln als auch von kleinen Wirbellosen ernähren.",
+      "imageCaption": "Gewöhnliche Maulwurfsgrille, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-141",
+      "animal": "Termiten",
+      "prompt": "Welches Material verwenden Termiten häufig zum Bau ihrer Hügel?",
+      "options": [
+        "Durch Sekrete gebundene Bodenpartikel",
+        "Von festsitzenden Schuppen",
+        "Metall",
+        "Aus mit Seide gewebten Blättern"
+      ],
+      "explanation": "Termiten sammeln Erde, Speichel und manchmal Pflanzenreste, um Strukturen zu errichten.",
+      "didYouKnow": "Termitenarbeiter tragen manchmal die Jungen, wenn sie das Nest bewegen.",
+      "imageCaption": "Savannentermite, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-142",
+      "animal": "Termiten",
+      "prompt": "Welches Individuum in der Termitenkolonie legt im Allgemeinen Eier?",
+      "options": [
+        "Die Königin",
+        "Der Soldat",
+        "Nur das geflügelte Männchen",
+        "Alle Larven"
+      ],
+      "explanation": "Die Königin ist das zentrale Fortpflanzungsweibchen der Kolonie.",
+      "didYouKnow": "Termitenarbeiter tragen manchmal die Jungen, wenn sie das Nest bewegen.",
+      "imageCaption": "Savannentermite, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-143",
+      "animal": "Eintagsfliegenlarven",
+      "prompt": "Warum haben manche Eintagsfliegenlarven abgeflachte Körper und Greifbeine?",
+      "options": [
+        "In den schnellen Strömungen zwischen den Steinen bleiben",
+        "Knapp unter der Oberfläche von stehendem Wasser schwimmen",
+        "Um eine Luftblase unter den Flügeldecken zurückzuhalten",
+        "Sich an schwimmenden Blättern festhalten, die weit vom Boden entfernt sind"
+      ],
+      "explanation": "Die abgeflachte Form und die Beine ermöglichen es bestimmten rheophilen Larven, der Strömung zu widerstehen, indem sie auf dem Substrat Schutz suchen.",
+      "didYouKnow": "Die Larven einiger Eintagsfliegen haben seitliche Kiemen am Hinterleib.",
+      "imageCaption": "Eintagsfliegenlarve"
+    },
+    {
+      "id": "insects-144",
+      "animal": "Wasserinsekten",
+      "prompt": "Was fressen viele Köcherlarven im Wasser?",
+      "options": [
+        "Je nach Art Algen, Trümmer oder kleine Beutetiere",
+        "trockenes Holz",
+        "Nur terrestrische Blätter",
+        "Blumennektar"
+      ],
+      "explanation": "Die Ernährung von Trichoptera variiert: Einige Larven grasen, filtern oder fressen.",
+      "didYouKnow": "Erwachsene Köcherfliegen haben oft lange, fadenförmige Fühler.",
+      "imageCaption": "Köcherfliegenlarve"
+    },
+    {
+      "id": "insects-145",
+      "animal": "Zischende Kakerlake aus Madagaskar",
+      "prompt": "Wie erzeugt die Zischschabe aus Madagaskar ihr Zischgeräusch?",
+      "options": [
+        "Durch Ausstoßen der Luft durch spezielle Stigmata",
+        "Die Flügel aneinander reiben wie eine Grille",
+        "Durch vibrierende Bauchpauken wie eine Zikade",
+        "Indem es mit seinen Mandibeln auf den Boden schlägt"
+      ],
+      "explanation": "Diese Kakerlake drückt Luft durch Luftlöcher, um ein defensives oder soziales Zischen zu erzeugen.",
+      "didYouKnow": "Männchen der Madagaskar-Zischschabe haben oft ausgeprägte Beulen am Halsschild, die bei Weibchen eher diskret sind.",
+      "imageCaption": "Zischende Kakerlake aus Madagaskar, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-146",
+      "animal": "Kakerlaken",
+      "prompt": "Wie heißt die Eikapsel, die viele Schaben bilden?",
+      "options": [
+        "Oothek",
+        "Kokon",
+        "Puppe",
+        "Galle"
+      ],
+      "explanation": "Eine Oothek ist eine Kapsel, die ein oder mehrere Eier enthält.",
+      "didYouKnow": "Kakerlaken haben lange, fadenförmige Fühler, mit denen sie ihre Umgebung erkunden.",
+      "imageCaption": "Amerikanische Schabe, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-147",
+      "animal": "Verteidigung",
+      "prompt": "Welche Rolle spielt die batesianische Mimikry?",
+      "options": [
+        "Eine harmlose Art ähnelt einer verteidigten oder gefährlichen Art",
+        "Eine geschützte Art sieht aus wie eine harmlose Art",
+        "Ein Raubtier sieht aus wie die Art, die es jagt",
+        "Mehrere geschützte Arten weisen ähnliche Signale auf"
+      ],
+      "explanation": "Ähnlichkeit kann Angriffe reduzieren, wenn Raubtiere das verteidigte Muster meiden.",
+      "didYouKnow": "Schwebfliegen sind harmlose Fliegen, von denen einige Arten Wespen ähneln.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-148",
+      "animal": "Verteidigung",
+      "prompt": "Was bedeutet Müllersche Mimikry?",
+      "options": [
+        "Mehrere geschützte Arten weisen ähnliche Warnzeichen auf",
+        "Eine harmlose Art ahmt eine verteidigte Art nach",
+        "Ein Raubtier imitiert das Aussehen seiner Beute",
+        "Eine Art wird mit einem Blatt oder einem Zweig verwechselt"
+      ],
+      "explanation": "Raubtiere können schneller lernen, einem Signal auszuweichen, das von mehreren geschützten Arten geteilt wird.",
+      "didYouKnow": "Die Larven einiger Marienkäfer haben Stacheln oder Vorsprünge am Körper.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-149",
+      "animal": "Ökologie",
+      "prompt": "Warum tragen Insekten zur Samenverbreitung bei?",
+      "options": [
+        "Manche tragen oder vergraben Samen",
+        "Sie bestäuben Blumen, indem sie ihren Pollen transportieren",
+        "Sie verbreiten Pilzsporen im Boden",
+        "Sie transportieren die Samen in ihrem Verdauungstrakt"
+      ],
+      "explanation": "Ameisen tragen einige Samen als nährstoffreiche Gliedmaßen bei sich und lassen manchmal einige davon fallen.",
+      "didYouKnow": "Manche Ameisen sammeln Honigtau von Blattläusen und schützen sie vor Fressfeinden.",
+      "imageCaption": "Ernteameise"
+    },
+    {
+      "id": "insects-150",
+      "animal": "Ökologie",
+      "prompt": "Welche Folgen kann das Verschwinden eines spezialisierten Bestäubers haben?",
+      "options": [
+        "Die Vermehrung der Partnerpflanze kann abnehmen",
+        "Die Pflanze produziert ohne Besuche mehr Nektar",
+        "Die Anlage ist nun ausschließlich auf den Wind angewiesen",
+        "Die Befruchtungsrate bleibt zwangsläufig gleich"
+      ],
+      "explanation": "Eine sehr spezielle Beziehung kann dazu führen, dass die Pflanze von einer begrenzten Anzahl von Bestäubern abhängig ist.",
+      "didYouKnow": "Einige Insekten bestäuben hauptsächlich nachts, darunter auch viele Motten.",
+      "imageCaption": "Bienenorchidee"
+    },
+    {
+      "id": "insects-151",
+      "animal": "Anatomie",
+      "prompt": "Welcher Teil des Brustkorbs stützt die Beine bei Insekten?",
+      "options": [
+        "Die drei Brustsegmente",
+        "Der Kopf",
+        "Der Bauch",
+        "Die Antennen"
+      ],
+      "explanation": "Die Beine sind am Brustkorb befestigt, zu dem Prothorax, Mesothorax und Metathorax gehören.",
+      "didYouKnow": "Die Vorderbeine einiger Gottesanbeterinnen sind in Abduktionsorgane umgewandelt.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-152",
+      "animal": "Anatomie",
+      "prompt": "Woraus besteht Insektenblut, Hämolymphe genannt?",
+      "options": [
+        "Eine in der Körperhöhle zirkulierende Flüssigkeit",
+        "Rote Blutkörperchen in geschlossenen Gefäßen",
+        "Eine in den Flügeln gespeicherte Flüssigkeit",
+        "Eine Mischung aus Nektar und Speichel"
+      ],
+      "explanation": "Hämolymphe umspült die Organe direkt in einem offenen Kreislaufsystem.",
+      "didYouKnow": "Das Nervensystem vieler Insekten umfasst eine ventrale Kette segmentaler Ganglien.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-153",
+      "animal": "Anatomie",
+      "prompt": "Welches Laufmuster ist bei Insekten üblich, die sich schnell über eine Oberfläche bewegen?",
+      "options": [
+        "Ein abwechselnder Dreibeingang, bei dem jeweils drei Beine stützen",
+        "Ein Spaziergang, bei dem alle sechs Beine immer gleichzeitig den Boden verlassen",
+        "Ein Spaziergang, bei dem nur die beiden Hinterbeine den Boden berühren",
+        "Ein Spaziergang, bei dem sich die drei Beine derselben Seite gemeinsam bewegen"
+      ],
+      "explanation": "Viele Insekten verwenden einen alternierenden Dreibeingang: Drei Stützbeine wechseln sich mit dem gegenüberliegenden Trio ab, was zur Stabilisierung der Bewegung beiträgt.",
+      "didYouKnow": "Wie andere Arthropoden müssen sich Insekten häuten, um zu wachsen, da sich ihr Außenskelett nicht wie Haut dehnt.",
+      "imageCaption": "Wanderheuschrecke"
+    },
+    {
+      "id": "insects-154",
+      "animal": "Anatomie",
+      "prompt": "Was machen Mandibeln bei Insekten, die ihre Nahrung kauen?",
+      "options": [
+        "Zum Schneiden und Mahlen von Lebensmitteln",
+        "Sie saugen bei allen Insekten Flüssigkeiten auf",
+        "Sie erkennen Gerüche",
+        "Sie dienen der Flugbalance"
+      ],
+      "explanation": "Mandibeln sind oft harte, bewegliche Mundwerkzeuge, die zum Manipulieren oder Mahlen von Nahrungsmitteln verwendet werden.",
+      "didYouKnow": "Insektenfarben können von Pigmenten oder mikroskopischen Strukturen stammen.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-155",
+      "animal": "Orchideenbienen",
+      "prompt": "Wie sammeln die Männchen vieler Orchideenbienen Duftstoffe?",
+      "options": [
+        "Sie sammeln Duftstoffe mit den Vorderbeinen und übertragen sie in spezielle Taschen an den Hinterbeinen",
+        "Sie saugen mit ihrem Rüssel Duftstoffe auf und speichern sie im Bauchraum",
+        "Sie sammeln Verbindungen auf den Flügeln und speichern sie in den Antennen",
+        "Sie produzieren Gerüche aus dem Nektar, den sie konsumieren"
+      ],
+      "explanation": "Die Männchen sammeln Duftstoffe mit Bürsten an den Vorderbeinen und speichern sie anschließend in Taschen ihrer Hinterschienen.",
+      "didYouKnow": "Weibliche Orchideenbienen sammeln Pollen und Nektar, um ihre Nachkommen zu ernähren.",
+      "imageCaption": "Orchideenbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-156",
+      "animal": "Anatomie",
+      "prompt": "Wie nennt man die starre äußere Hülle eines Insekts?",
+      "options": [
+        "Die Nagelhaut",
+        "Eine knöcherne Dermis",
+        "Ein Kalksteinmantel",
+        "Keratinisierte Haut"
+      ],
+      "explanation": "Die Kutikula bildet das Außenskelett und besteht aus mehreren Schichten.",
+      "didYouKnow": "Das Insektengehirn umfasst mehrere Regionen, die auf die Verarbeitung von Sinneseindrücken und das Verhalten spezialisiert sind.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-157",
+      "animal": "Schnellkäfer",
+      "prompt": "Wie richten sich manche Schnellkäfer wieder auf, wenn sie auf dem Rücken liegen?",
+      "options": [
+        "Sie spannen einen Brustmechanismus und lösen ihn ruckartig, sodass er sie hochschnellen lässt",
+        "Sie schlagen mit den Flügeln, bis sie sich auf die Beine drehen",
+        "Sie ziehen sich mit den Fühlern am Boden nach vorn",
+        "Sie blähen den Hinterleib auf, um sich seitlich abzurollen"
+      ],
+      "explanation": "Ein Fortsatz an der Brust trifft auf eine Kerbe; beim Lösen schnellt der Käfer hoch und kann auf den Beinen landen.",
+      "didYouKnow": "Drahtwürmer haben im Allgemeinen einen länglichen Körper und spitze hintere Winkel des Pronotums.",
+      "imageCaption": "Springender Drahtwurm"
+    },
+    {
+      "id": "insects-158",
+      "animal": "Physiologie",
+      "prompt": "Wie beseitigen Insekten einen Teil ihrer Stickstoffabfälle?",
+      "options": [
+        "Über die Malpighischen Gefäße",
+        "Über die Nieren",
+        "Über die Kiemen",
+        "Über die Speicheldrüsen"
+      ],
+      "explanation": "Malpighische Gefäße entziehen der Hämolymphe Abfallstoffe und münden in den Verdauungstrakt.",
+      "didYouKnow": "Insektenflügel sind am Brustkorb und nicht am Kopf oder Hinterleib befestigt.",
+      "imageCaption": "Feldkricket"
+    },
+    {
+      "id": "insects-159",
+      "animal": "Physiologie",
+      "prompt": "Warum werden Insekten Ektothermen genannt?",
+      "options": [
+        "Ihre Körpertemperatur hängt weitgehend von der Außenwärme ab",
+        "Sie sorgen stets für eine stabile Körpertemperatur",
+        "Ihre Körpertemperatur ist immer niedriger als die der Luft",
+        "Sie können nur in kalten Umgebungen leben"
+      ],
+      "explanation": "Die meisten Insekten sind zur Regulierung ihrer Temperatur hauptsächlich auf externe Quellen angewiesen.",
+      "didYouKnow": "Larven und erwachsene Tiere desselben Insekts können unterschiedliche Lebensräume besetzen.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-160",
+      "animal": "Flug",
+      "prompt": "Wie kann ein Insekt den Schwebezustand aufrechterhalten?",
+      "options": [
+        "Durch Anpassen des durch die Flügelschläge erzeugten Auftriebs",
+        "Indem man die Antennen wie Propeller ausrichtet",
+        "Indem man sich an eine Leinwand klammert",
+        "Durch die Reduzierung ihres Körpergewichts"
+      ],
+      "explanation": "Beim Schweben sind aerodynamische Kräfte erforderlich, um Gewicht und Bewegung auszugleichen.",
+      "didYouKnow": "Die Farben einiger Insekten entstehen durch mikroskopische Strukturen, die Licht reflektieren.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-161",
+      "animal": "Flug",
+      "prompt": "Welcher Muskelmechanismus betätigt die Flügel vieler schnell fliegender Insekten?",
+      "options": [
+        "Indirekte Brustmuskeln, die den Brustkorb verformen und die Flügel antreiben",
+        "Bauchmuskeln, die die Flügel direkt nach unten ziehen",
+        "Muskeln in den Hinterbeinen, die die Flügel drehen",
+        "Kopfmuskeln, die die Flügel an den Fühlern ziehen"
+      ],
+      "explanation": "Bei vielen schnell fliegenden Insekten verformen indirekte Muskeln den Brustkorb; Die Gelenke übertragen diese Verformung auf die Flügel.",
+      "didYouKnow": "Der Titan ist ein tropischer Bockkäfer und einer der größten bekannten Käfer.",
+      "imageCaption": "Honigbiene, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-162",
+      "animal": "Monarch",
+      "prompt": "Wie erlangt die Monarchraupe einen Teil ihrer chemischen Abwehr?",
+      "options": [
+        "Sie lagert Cardenolide aus den Seidenpflanzen ein, die sie frisst",
+        "Sie nimmt Gift auf, indem sie andere Insekten frisst",
+        "Sie bildet Warnpigmente mithilfe von Sonnenlicht",
+        "Sie erhält Giftstoffe von Pilzen auf ihren Flügeln"
+      ],
+      "explanation": "Raupen, die Seidenpflanzen fressen, können Cardenolide einlagern, wodurch der Schmetterling für manche Fressfeinde ungenießbar wird.",
+      "didYouKnow": "Der Monarch ist ein bekannter wandernder Schmetterling in Nordamerika.",
+      "imageCaption": "Monarch, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-163",
+      "animal": "Ökologie",
+      "prompt": "Was frisst ein phytophagen Insekt hauptsächlich?",
+      "options": [
+        "Pflanzengewebe",
+        "Pilze",
+        "Kleine Tiere",
+        "Tierreste"
+      ],
+      "explanation": "Phytophagen fressen Blätter, Stängel, Samen, Saft oder andere Pflanzenteile.",
+      "didYouKnow": "Manche Ameisen züchten Pilze aus Blattstücken.",
+      "imageCaption": "Wanderheuschrecke"
+    },
+    {
+      "id": "insects-164",
+      "animal": "Ökologie",
+      "prompt": "Welcher Begriff beschreibt ein Insekt, das andere Tiere jagt und frisst?",
+      "options": [
+        "Raubtier",
+        "Obligatorischer Bestäuber",
+        "Mineralzersetzer",
+        "Photosynthetischer Parasit"
+      ],
+      "explanation": "Ein Raubtier fängt und verzehrt im Laufe seines Lebens typischerweise mehrere Beutetiere.",
+      "didYouKnow": "Die Flügel vieler Marienkäfer werden durch bunte Flügeldecken geschützt.",
+      "imageCaption": "Gottesanbeterin, Beispiel zur Veranschaulichung dieser Frage zu Insekten."
+    },
+    {
+      "id": "insects-165",
+      "animal": "Ökologie",
+      "prompt": "Welcher allgemeine Unterschied unterscheidet einen Parasitoiden von einem Raubtier?",
+      "options": [
+        "Der Parasitoid wächst auf oder in einem Wirt und tötet ihn normalerweise ab",
+        "Das Raubtier entwickelt sich zu einer einzigen Beute, die es schließlich tötet",
+        "Der Parasitoid verzehrt mehrere Beutetiere, ohne auf einen einzelnen Wirt angewiesen zu sein",
+        "Der Parasitoid lebt auf seinem Wirt, ohne dessen Überleben zu beeinträchtigen"
+      ],
+      "explanation": "Die Parasitoidlarve ist auf einen einzelnen Wirt angewiesen und tötet diesen meist.",
+      "didYouKnow": "Schlupfwespen bilden eine sehr vielfältige Gruppe innerhalb der Hautflügler.",
+      "imageCaption": "Parasitoide Wespe"
+    },
+    {
+      "id": "insects-166",
+      "animal": "Ökologie",
+      "prompt": "Warum tragen Insekten zur Belüftung bestimmter Böden bei?",
+      "options": [
+        "Ihre Galerien schaffen Räume im Boden",
+        "Die Flügel pumpen die Luft",
+        "Sie lösen den Boden mit Nektar auf",
+        "Sie schlagen Wurzeln"
+      ],
+      "explanation": "Die von Ameisen, Termiten und Larven gegrabenen Gänge können die Struktur des Bodens verändern.",
+      "didYouKnow": "Manche Ameisen tragen Samen und können dabei helfen, diese zu verbreiten.",
+      "imageCaption": "Savannah-Termite"
+    },
+    {
+      "id": "insects-167",
+      "animal": "Mistkäfer Scarabaeus satyrus",
+      "prompt": "Wie orientiert sich der Mistkäfer Scarabaeus satyrus bei nächtlichen Bewegungen?",
+      "options": [
+        "Als Orientierung dient das helle Band der Milchstraße",
+        "Indem man einer Spur von Pheromonen folgt, die andere Mistkäfer hinterlassen",
+        "Durch die Erfassung des Erdmagnetfeldes",
+        "Nutzung der Vibrationen anderer Mistkäfer"
+      ],
+      "explanation": "Experimente haben gezeigt, dass dieser Mistkäfer seine Richtung mithilfe des Lichtbandes der Milchstraße beibehalten kann.",
+      "didYouKnow": "Scarabaeus satyrus ist ein koprophager Mistkäfer, der Exkremente als Nahrungsquelle nutzt.",
+      "imageCaption": "Mistkäfer Scarabaeus satyrus"
+    },
+    {
+      "id": "insects-168",
+      "animal": "Weberameise",
+      "prompt": "Wie bauen Weberameisen Blätter in ihrem Nest zusammen?",
+      "options": [
+        "Arbeiter verwenden die von ihren Larven produzierte Seide, um Blätter zusammenzukleben",
+        "Arbeiter scheiden Seide aus Drüsen in ihrem Bauch aus",
+        "Sie überziehen die Blätter mit Wachs, das ihre Drüsen produzieren",
+        "Sie fixieren die Blätter mit einem von den Bäumen gesammelten Harz"
+      ],
+      "explanation": "Die Arbeiter bringen die Blätter zusammen und halten dann die Larven an den Rändern fest; Diese scheiden die Seide aus, aus der sie zusammengesetzt sind.",
+      "didYouKnow": "Weberameisenarbeiter können Ameisensäure beißen und versprühen, um die Kolonie zu verteidigen.",
+      "imageCaption": "Asiatische Weberameise"
+    },
+    {
+      "id": "insects-169",
+      "animal": "Pflanzen und Insekten",
+      "prompt": "Warum imitieren manche Orchideen das Aussehen oder den Geruch eines weiblichen Insekts?",
+      "options": [
+        "Um Männchen anzulocken, die zu ihrer Bestäubung beitragen",
+        "Um Weibchen anzulocken, die dort ihre Eier ablegen",
+        "Um Insekten abzuwehren, die ihre Blätter fressen",
+        "Um ein Raubtier glauben zu lassen, dass es Samen trägt"
+      ],
+      "explanation": "Diese Täuschung kann zu Pseudokopulation und Pollenübertragung führen.",
+      "didYouKnow": "Orchideen gehören zu den artenreichsten Blütenpflanzenfamilien.",
+      "imageCaption": "Ophrys-Biene"
+    },
+    {
+      "id": "insects-170",
+      "animal": "Pflanzen und Insekten",
+      "prompt": "Welche Wirkung haben Blütennektarien auf die Pflanze?",
+      "options": [
+        "Bereitstellung einer Belohnung, die Bestäuber anlocken kann",
+        "Um Blütenblätter zu machen",
+        "Zum Aufbewahren von Samen",
+        "Holz produzieren"
+      ],
+      "explanation": "Nektar belohnt Besucher, die Pollen zwischen Blumen transportieren können.",
+      "didYouKnow": "Honigbienen können durch einen Tanz die Richtung einer Ressource mitteilen.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-171",
+      "animal": "Entwicklung",
+      "prompt": "Welches Stadium eines Schmetterlings ist typischerweise auf Nahrungsaufnahme und Wachstum spezialisiert?",
+      "options": [
+        "Die Raupe",
+        "Nur für Erwachsene",
+        "Nur die Puppe",
+        "Nur das Ei"
+      ],
+      "explanation": "Die Raupe nimmt vor der Verpuppung oft viel Nahrung zu sich.",
+      "didYouKnow": "Viele erwachsene Schmetterlinge leben kürzer als ihr Raupenstadium.",
+      "imageCaption": "Schwalbenschwanzraupe"
+    },
+    {
+      "id": "insects-172",
+      "animal": "Entwicklung",
+      "prompt": "Wie heißt der leere Umschlag, der nach der Häutung eines Insekts zurückbleibt?",
+      "options": [
+        "Eine Exuvia",
+        "Eine Puppe",
+        "Ein Stigma",
+        "Ein Elytra"
+      ],
+      "explanation": "Die Exuvia ist die alte Kutikula, aus der sich das Insekt während der Häutung extrahiert hat.",
+      "didYouKnow": "Die Exuvien vieler Wasserlarven bleiben an Pflanzen in Ufernähe hängen.",
+      "imageCaption": "Wanderheuschrecke"
+    },
+    {
+      "id": "insects-173",
+      "animal": "Libellenlarve",
+      "prompt": "Wie bewegt die Larve einer Großlibelle (Anisoptera) Wasser über ihre inneren Kiemen?",
+      "options": [
+        "Sie zieht Wasser ein und stößt es durch den Enddarm wieder aus",
+        "Sie pumpt Wasser durch den Mund und aus den Stigmen",
+        "Sie belüftet die Kiemen durch Winken mit den Beinen",
+        "Sie nimmt Sauerstoff direkt über den Hinterleib auf"
+      ],
+      "explanation": "Larven der Großlibellen belüften ihre Enddarmkammer, indem sie Wasser ein- und ausstoßen; der Gasaustausch findet an inneren Kiemen statt.",
+      "didYouKnow": "Einige Insekten haben ein Nervensystem, das um eine ventrale Ganglienkette herum organisiert ist.",
+      "imageCaption": "Libellenlarve"
+    },
+    {
+      "id": "insects-174",
+      "animal": "Entwicklung",
+      "prompt": "Welches Jugendstadium schlüpft gewöhnlich aus einem Insektenei?",
+      "options": [
+        "Ein junges Larven- oder Nymphenstadium",
+        "Ein vollständig entwickeltes erwachsenes Insekt",
+        "Direkt eine Puppe",
+        "Ein weiteres Ei"
+      ],
+      "explanation": "Je nach Metamorphose des Insekts schlüpft aus dem Ei eine Larve oder eine Nymphe.",
+      "didYouKnow": "Die Fühler einer Honigbiene tragen zahlreiche Rezeptoren zur Wahrnehmung von Gerüchen.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-175",
+      "animal": "Entwicklung",
+      "prompt": "Welche Hauptfunktion hat der Kokon, den manche Nachtfalterraupen spinnen?",
+      "options": [
+        "Er schützt die Puppe",
+        "Er ernährt die Raupe",
+        "Er hilft dem erwachsenen Falter beim Fliegen",
+        "Er dient zum Aufbewahren der Eier"
+      ],
+      "explanation": "Der Kokon ist eine Seidenhülle, die die Larve spinnt, um das Puppenstadium zu schützen.",
+      "didYouKnow": "Die Raupen einiger Motten haben Haarbüschel oder Auswüchse am Körper.",
+      "imageCaption": "Maulbeerbombyx"
+    },
+    {
+      "id": "insects-176",
+      "animal": "Ameisen",
+      "prompt": "Welches Spezialorgan nutzen Ameisen häufig zur Reinigung ihrer Antennen?",
+      "options": [
+        "Ein Kamm namens Strigil an den Vorderbeinen",
+        "Eine Bürste an den Hinterbeinen",
+        "Auf die Mandibeln aufgesetzte Zähne",
+        "Ein Kamm am Ende des Bauches"
+      ],
+      "explanation": "Der Strigil ist eine kammartige Struktur an den Vorderbeinen, die vielen Ameisen dabei hilft, ihre Fühler zu reinigen.",
+      "didYouKnow": "Manche Ameisen bilden mit ihren Körpern lebende Brücken, um Lücken zu überbrücken.",
+      "imageCaption": "Schwarze Gartenameise"
+    },
+    {
+      "id": "insects-177",
+      "animal": "Bienen",
+      "prompt": "Wie transportieren Honigbienenarbeiter Pollen zum Bienenstock?",
+      "options": [
+        "In Transportstrukturen auf den Hinterbeinen",
+        "Auf den Pendeln",
+        "Unter den Flügeldecken",
+        "In einer vom Kofferraum gebildeten Tasche"
+      ],
+      "explanation": "Honigbienen haben Pollenkörbe an ihren Hinterbeinen.",
+      "didYouKnow": "Arbeitsbienen sind weiblich, während Drohnen männlich sind.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-178",
+      "animal": "Bienen",
+      "prompt": "Warum fächeln Bienen am Eingang des Bienenstocks mit den Flügeln?",
+      "options": [
+        "Sie erzeugen einen Luftstrom und helfen, das Mikroklima im Nest zu regulieren",
+        "Sie wärmen die Brut durch direkten Körperkontakt",
+        "Sie erzeugen einen Warnton für das Volk",
+        "Sie verbreiten Duftmarken rund um den Stock"
+      ],
+      "explanation": "Die Belüftung hilft, Temperatur und Feuchtigkeit im Nest zu regulieren.",
+      "didYouKnow": "Die Honigbienenkönigin nutzt Pheromone, die das Verhalten der Arbeiterinnen beeinflussen.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-179",
+      "animal": "Schmetterlinge",
+      "prompt": "Warum versammeln sich manche Schmetterlinge auf nassem Boden oder einem schlammigen Flussufer?",
+      "options": [
+        "Sie nehmen Mineralsalze und andere in Wasser gelöste Nährstoffe auf",
+        "Sie sammeln hauptsächlich Nektar, der von benachbarten Blüten fließt",
+        "Sie fangen kleine Insekten, die vom Schlamm angezogen werden",
+        "Sie nehmen Wasser über ihre Flügel auf, um einer Austrocknung vorzubeugen"
+      ],
+      "explanation": "Dieses Verhalten, Pfützenbildung genannt, ermöglicht es bestimmten Männchen, Salze und Mineralien aufzunehmen.",
+      "didYouKnow": "Einige Schmetterlingsarten legen weite Strecken zwischen ihren Brut- und Überwinterungsgebieten zurück.",
+      "imageCaption": "Vulkanier"
+    },
+    {
+      "id": "insects-180",
+      "animal": "Schmetterlinge",
+      "prompt": "Wie können Augenflecken auf Flügeln einem Schmetterling helfen?",
+      "options": [
+        "Sie können ein Raubtier erschrecken oder ablenken",
+        "Zum Atmen",
+        "Um Pheromone zu produzieren",
+        "Zur Messung der Windgeschwindigkeit"
+      ],
+      "explanation": "Augenähnliche Muster können ein Raubtier überraschen oder seinen Angriff abwehren.",
+      "didYouKnow": "Einige Schmetterlingsarten schmecken Pflanzen mit Rezeptoren an ihren Beinen.",
+      "imageCaption": "Pfau des Tages"
+    },
+    {
+      "id": "insects-181",
+      "animal": "Raupen",
+      "prompt": "Warum haben manche Raupen Brennhaare?",
+      "options": [
+        "Sie stellen eine Verteidigung gegen Raubtiere dar",
+        "Um die Flügel zu machen",
+        "Unter Wasser atmen",
+        "Zum Ersetzen der Mandibeln"
+      ],
+      "explanation": "Spezialisierte Haare können die Haut oder Schleimhäute reizen und Fressfeinde abschrecken.",
+      "didYouKnow": "Monarchraupen ernähren sich von mehreren Wolfsmilcharten.",
+      "imageCaption": "Raupe eines Kiefernprozessionsspinners"
+    },
+    {
+      "id": "insects-182",
+      "animal": "Motten",
+      "prompt": "Wie entgehen manche Motten der Entdeckung durch Fledermäuse?",
+      "options": [
+        "Sie erkennen Ultraschall und können manövrieren oder Klickgeräusche erzeugen",
+        "Sie werden unsichtbar",
+        "Sie atmen unter der Erde",
+        "Sie schließen die Stigmata, um zu hören"
+      ],
+      "explanation": "Hörorgane erkennen Ultraschallrufe von Fledermäusen bei mehreren Arten.",
+      "didYouKnow": "Motten und Schmetterlinge gehören alle zur Ordnung der Lepidoptera.",
+      "imageCaption": "Noctuelle Verlobte"
+    },
+    {
+      "id": "insects-183",
+      "animal": "Libellen",
+      "prompt": "Warum können sich Libellenflügel unabhängig voneinander bewegen?",
+      "options": [
+        "Jedes Paar verfügt über Artikulations- und Kontrollmuskulatur",
+        "Sie sind am Bauch befestigt",
+        "Sie werden durch die Antennen aktiviert",
+        "Das sind Flossen"
+      ],
+      "explanation": "Die unabhängige Flügelsteuerung trägt zur bemerkenswerten Manövrierfähigkeit der Odonate bei.",
+      "didYouKnow": "Die Männchen mancher Libellen verteidigen ihre Nistplätze gegen Rivalen.",
+      "imageCaption": "deprimierte Libelle"
+    },
+    {
+      "id": "insects-184",
+      "animal": "Wasserinsekten",
+      "prompt": "Wie bildet sich das Atemplastron mancher Wasserinsekten?",
+      "options": [
+        "Eine dünne Luftschicht, die gegen den Körper gedrückt wird",
+        "Eine Luftblase schloss sich unter den Flügeldecken ein und erneuerte sich an der Oberfläche",
+        "Trachealkiemen, die gelösten Sauerstoff extrahieren",
+        "Ein atmender Siphon, der die Wasseroberfläche erreicht"
+      ],
+      "explanation": "Hydrophobe Borsten halten einen Luftfilm aufrecht, der dem Gasaustausch dient.",
+      "didYouKnow": "Libellenlarven greifen ihre Beute mit einer ausziehbaren Unterlippe, einer sogenannten Maske.",
+      "imageCaption": "Wasserwanze"
+    },
+    {
+      "id": "insects-185",
+      "animal": "Taumelkäfer",
+      "prompt": "Welche Besonderheit ihrer Augen ermöglicht Taumelkäfern, Luft und Wasser gleichzeitig zu beobachten?",
+      "options": [
+        "Ein Augenpaar ist geteilt: Ein Teil sieht die Luft, der andere das Wasser",
+        "Ein Augenpaar, das nur unter Wasser sehen kann",
+        "Eine Reihe von Augen auf jeder Seite des Hinterleibs",
+        "Ein Augenpaar, das von durchsichtigen Schuppen geschützt ist"
+      ],
+      "explanation": "Mit ihren geteilten Augen können sie gleichzeitig Luft und Wasser beobachten.",
+      "didYouKnow": "Taumelkäfer schwimmen oft schnell kreisend an der Wasseroberfläche.",
+      "imageCaption": "Gyrin"
+    },
+    {
+      "id": "insects-186",
+      "animal": "Käfer",
+      "prompt": "Warum werden Glühwürmchenlarven manchmal als Glühwürmchen bezeichnet?",
+      "options": [
+        "Sie können Licht erzeugen",
+        "Sie können ein Abwehrsekret versprühen",
+        "Sie können ein lautes Klickgeräusch erzeugen",
+        "Sie können ihre Beute mit Seide umspinnen"
+      ],
+      "explanation": "Bei mehreren Arten von Leuchtkäfern besitzen die Larven Leuchtorgane, die unter anderem der Abwehr dienen.",
+      "didYouKnow": "Glühwürmchen sind Käfer, keine Fliegen.",
+      "imageCaption": "Glühwürmchenlarve"
+    },
+    {
+      "id": "insects-187",
+      "animal": "Hemiptera",
+      "prompt": "Wie fangen riesige Wasserwanzen oft ihre Beute?",
+      "options": [
+        "Mit Fangbeinen und einem stechenden Saugrüssel",
+        "Mit Flügeln, die Beute gegen das Wasser drücken",
+        "Mit klebrigen Polstern an den Hinterbeinen",
+        "Mit einem Giftstachel am Hinterleib"
+      ],
+      "explanation": "Sie packen die Beute und injizieren mit ihrem Saugrüssel Verdauungsspeichel.",
+      "didYouKnow": "Je nach Art legen riesige Wasserwanzen ihre Eier manchmal auf dem Rücken von Männchen ab.",
+      "imageCaption": "Aschenputtel"
+    },
+    {
+      "id": "insects-188",
+      "animal": "Hemiptera",
+      "prompt": "Welchen Zweck hat der Rüssel einer Zikade, die sich von Saft ernährt?",
+      "options": [
+        "Pflanzengewebe durchstechen und den Saft absaugen",
+        "Zum Ausschneiden von Blättern",
+        "Um fliegende Insekten zu fangen",
+        "Eine Leinwand bauen"
+      ],
+      "explanation": "Stechende Mundwerkzeuge ermöglichen den Zugang zu Pflanzenflüssigkeiten.",
+      "didYouKnow": "Einige Zikaden produzieren während ihrer Larvenentwicklung einen schützenden Schaum.",
+      "imageCaption": "Grüne Zikaden"
+    },
+    {
+      "id": "insects-189",
+      "animal": "Diptera",
+      "prompt": "Warum filtern Mückenlarven Wasser mit ihren Mundwerkzeugen?",
+      "options": [
+        "Zur Rückgewinnung von Mikroorganismen und Speiseresten",
+        "Um kleine Tiere zu fangen, die sie im Ganzen verschlingen",
+        "Zum Abgrasen der an den Wänden des Behälters haftenden Algen",
+        "Um die Luft zu filtern und den notwendigen Sauerstoff zu erhalten"
+      ],
+      "explanation": "Die meisten Larven ernähren sich von im Wasser vorhandenen Partikeln oder Mikroorganismen.",
+      "didYouKnow": "Männliche Mücken ernähren sich im Allgemeinen eher von Nektar als von Blut.",
+      "imageCaption": "Gewöhnliche Mückenlarve"
+    },
+    {
+      "id": "insects-190",
+      "animal": "Diptera",
+      "prompt": "Welche Rolle können Fliegen bei der Bestäubung spielen?",
+      "options": [
+        "Sie tragen Pollen, indem sie Blumen besuchen",
+        "Sie befruchten die Samen",
+        "Sie produzieren Nektar",
+        "Sie zerstreuen die Wurzeln"
+      ],
+      "explanation": "Viele Fliegen besuchen Blumen auf der Suche nach Nektar oder Pollen und können Pollen übertragen.",
+      "didYouKnow": "Die Larven einiger Schwebfliegen ernähren sich von Blattläusen.",
+      "imageCaption": "Schwebfliege mit Gürtel"
+    },
+    {
+      "id": "insects-191",
+      "animal": "Orthopteren",
+      "prompt": "Warum können gesellige Heuschrecken Schwärme bilden?",
+      "options": [
+        "Hohe Dichte und sensorische Hinweise können Verhaltensänderungen auslösen",
+        "Ein Temperaturabfall löst eine jährliche Wanderung aus, die allen Heuschrecken gemeinsam ist",
+        "Durch die koordinierte elterliche Fürsorge bleiben Einzelpersonen in Gruppen",
+        "Eine Königin dirigiert den Schwarm zu den nahrungsreichsten Pflanzen"
+      ],
+      "explanation": "Bei einigen Arten kann die Dichte zu Verhaltens- und morphologischen Veränderungen führen, die mit der Herdenphase einhergehen.",
+      "didYouKnow": "Nymphenheuschrecken haben Flügelknospen, die während der Häutung wachsen.",
+      "imageCaption": "Wüstenheuschrecke"
+    },
+    {
+      "id": "insects-192",
+      "animal": "Stabheuschrecken",
+      "prompt": "Welche Rolle spielt das Capitulum manchmal am Ei bestimmter Stabheuschrecken?",
+      "options": [
+        "Es lockt Ameisen an, die das Ei transportieren, bevor sie diesen nahrhaften Teil verzehren",
+        "Es lockt Vögel an, die das Ei in ihrem Kot verteilen",
+        "Es schwimmt auf dem Wasser zu einer Pflanze, wo das Ei schlüpfen kann",
+        "Es stellt eine Luftreserve dar, die es dem Ei ermöglicht, unter Wasser zu atmen."
+      ],
+      "explanation": "Bei einigen Arten wie Extatosoma tiaratum lockt ein nährstoffreicher Anhang des Eies Ameisen an, die das Ei zu ihrem Nest bewegen können.",
+      "didYouKnow": "Einige Stabheuschreckenarten können sich durch Parthenogenese vermehren.",
+      "imageCaption": "Riesiges Stabheuschreckenei"
+    },
+    {
+      "id": "insects-193",
+      "animal": "Gottesanbeterin",
+      "prompt": "Warum schwingen Gottesanbeterinnen manchmal ihren Körper hin und her?",
+      "options": [
+        "Bewegung kann ihre Tarnung zwischen den Blättern verstärken",
+        "Mithilfe der Bewegung können Sie die genaue Entfernung einer Beute berechnen",
+        "Durch das Schwingen werden die Muskeln vor dem Flug aufgewärmt",
+        "Das Schaukeln dient dazu, ein akustisches Signal für die Partner zu erzeugen"
+      ],
+      "explanation": "Schwanken kann windgepeitschte Vegetation imitieren und zur Tarnung beitragen.",
+      "didYouKnow": "Die Gottesanbeterin beurteilt Entfernungen auch mithilfe des stereoskopischen Sehens.",
+      "imageCaption": "Gottesanbeterin"
+    },
+    {
+      "id": "insects-194",
+      "animal": "Kakerlaken",
+      "prompt": "Wie erkennen Kakerlaken die Anwesenheit eines Artgenossen?",
+      "options": [
+        "Mit chemischen Signalen und Sinnesrezeptoren",
+        "Nur mit visuellen Hinweisen",
+        "Mit Hochzeitsliedern",
+        "Nur mit Flügelvibrationen"
+      ],
+      "explanation": "Pheromone und andere Chemikalien beeinflussen die Gruppierung und Erkennung.",
+      "didYouKnow": "Manche Kakerlaken können mit wenig Nahrung lange überleben, benötigen aber Zugang zu Wasser.",
+      "imageCaption": "Amerikanische Kakerlake"
+    },
+    {
+      "id": "insects-195",
+      "animal": "Honigbienen",
+      "prompt": "Wo produzieren Honigbienenarbeiter Wachsschuppen?",
+      "options": [
+        "In Drüsen unter dem Bauch",
+        "In Speicheldrüsen in der Nähe des Mundes",
+        "In Duftdrüsen an der Basis der Fühler",
+        "In Drüsen unter den Vorderflügeln"
+      ],
+      "explanation": "Junge Arbeiter scheiden Wachs über Bauchdrüsen aus; Auf der Bauchseite erscheinen kleine Schuppen.",
+      "didYouKnow": "Drohnen haben größere Augen als Arbeiter.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-196",
+      "animal": "Ökologie",
+      "prompt": "Warum sind Insekten als Nahrung für Fledermäuse nützlich?",
+      "options": [
+        "Sie stellen eine reichhaltige Ressource für viele insektenfressende Arten dar",
+        "Sie erzeugen eine Echoortung",
+        "Sie machen die Lodges",
+        "Sie ersetzen Wasser"
+      ],
+      "explanation": "Viele Fledermäuse jagen fliegende Insekten, darunter Motten und Zweiflügler.",
+      "didYouKnow": "Einige Insekten, darunter auch Monarchfalter, unternehmen saisonale Wanderungen.",
+      "imageCaption": "Noctuelle Verlobte"
+    },
+    {
+      "id": "insects-197",
+      "animal": "Ökologie",
+      "prompt": "Wie helfen Insekten manchmal bei der Unkrautbekämpfung?",
+      "options": [
+        "Manche konsumieren gezielt invasive Pflanzen",
+        "Sie düngen die Kräuter mit Honig",
+        "Sie verhindern, dass Samen keimen",
+        "Sie verwandeln Kräuter in Pilze"
+      ],
+      "explanation": "Pflanzenfressende Insekten wurden nach Untersuchung ihrer Spezifität als biologische Bekämpfungsmittel eingesetzt.",
+      "didYouKnow": "Der Asiatische Marienkäfer, Harmonia axyridis, stammt aus Ostasien.",
+      "imageCaption": "Kaktoblast"
+    },
+    {
+      "id": "insects-198",
+      "animal": "Konservierung",
+      "prompt": "Welche Auswirkungen kann das Verschwinden von Hecken auf landwirtschaftliche Insekten haben?",
+      "options": [
+        "Es reduziert Schutzräume und Korridore zwischen Lebensräumen",
+        "Es erhöht die Bewegungen zwischen den Parzellen",
+        "Es bietet mehr Nistplätze",
+        "Es erhöht die Anzahl der verfügbaren Unterkünfte"
+      ],
+      "explanation": "Hecken bieten vielen Insekten Nahrung, Schutz und Landschaftskontinuität.",
+      "didYouKnow": "Insekten überwintern je nach Art als Eier, Larven, Nymphen oder adulte Tiere.",
+      "imageCaption": "Honigbiene"
+    },
+    {
+      "id": "insects-199",
+      "animal": "Konservierung",
+      "prompt": "Warum sind Feuchtgebiete für viele Insekten wichtig?",
+      "options": [
+        "Sie bieten Brut- und Nahrungshabitate insbesondere für Wasserlarven.",
+        "Dort leben ausschließlich Käfer",
+        "Wasserinsekten finden dort keine Ressourcen",
+        "In diesen Umgebungen ist die Vermehrung von Insekten nicht möglich"
+      ],
+      "explanation": "Teiche, Sümpfe und Bäche beherbergen die Larven- und Erwachsenenstadien vieler Insekten.",
+      "didYouKnow": "Erwachsene Eintagsfliegen leben oft nur kurze Zeit und fressen nicht.",
+      "imageCaption": "deprimierte Libelle"
+    },
+    {
+      "id": "insects-200",
+      "animal": "Ökologie",
+      "prompt": "Welche Rolle spielen Termiten in tropischen Ökosystemen?",
+      "options": [
+        "Sie zerkleinern Pflanzenmaterial und bearbeiten den Boden neu",
+        "Sie bestäuben hauptsächlich Blütenpflanzen",
+        "Sie ernähren sich hauptsächlich von pflanzenfressenden Insekten",
+        "Sie ernähren sich hauptsächlich von Nektar und nicht von Zellulose"
+      ],
+      "explanation": "Termiten sind am Recycling von Zellulose und an der Strukturierung von Böden beteiligt.",
+      "didYouKnow": "Termiten leben in strukturierten Kolonien, in denen die Individuen unterschiedliche Rollen spielen.",
+      "imageCaption": "Savannah-Termite"
+    }
+  ]
+}
