@@ -6,6 +6,7 @@ import { JwtService } from '@nestjs/jwt';
 import * as request from 'supertest';
 import { AppModule } from '../src/app.module';
 import { PrismaService } from '../src/prisma/prisma.service';
+import { assertIsolatedDatabase } from './isolated-database';
 jest.setTimeout(30000);
 describe('Agenda — API réelle et données isolées', () => {
   let app: INestApplication,
@@ -18,8 +19,7 @@ describe('Agenda — API réelle et données isolées', () => {
     routine: string;
   const speciesId = 2147482300;
   beforeAll(async () => {
-    if (!process.env.DATABASE_URL?.includes(':55435/captivia_agenda_test'))
-      throw new Error('Base agenda isolée obligatoire.');
+    assertIsolatedDatabase('55435', 'captivia_agenda_test');
     const module = await Test.createTestingModule({
       imports: [AppModule],
     }).compile();
@@ -127,7 +127,11 @@ describe('Agenda — API réelle et données isolées', () => {
     token = app.get(JwtService).sign({ sub: a });
   });
   afterEach(async () => {
-    await db.user.deleteMany({ where: { id: { in: [a, b] } } });
+    if (db) {
+      await db.user.deleteMany({
+        where: { id: { in: [a, b].filter((id): id is string => !!id) } },
+      });
+    }
   });
   afterAll(async () => {
     if (db) await db.speciesProfile.delete({ where: { speciesId } });

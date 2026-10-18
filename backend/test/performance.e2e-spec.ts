@@ -23,7 +23,9 @@ describe('Performance Tests', () => {
         transform: true,
       }),
     );
-    await app.init();
+    // Keep one listener alive for the whole suite. Otherwise Supertest starts
+    // and closes the same server for concurrent requests, causing ECONNRESET.
+    await app.listen(0, '127.0.0.1');
   });
 
   afterAll(async () => {

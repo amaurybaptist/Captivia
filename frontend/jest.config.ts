@@ -26,6 +26,7 @@ const config: Config = {
   ],
   moduleDirectories: ['node_modules', '<rootDir>/'],
   testPathIgnorePatterns: ['/node_modules/', '/.next/', '/e2e/'],
+  modulePathIgnorePatterns: ['<rootDir>/.next/'],
   transformIgnorePatterns: [
     'node_modules/(?!(next-intl)/)',
   ],
