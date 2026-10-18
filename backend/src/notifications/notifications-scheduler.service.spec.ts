@@ -79,7 +79,7 @@ describeDb('NotificationsSchedulerService (Prisma réel)', () => {
     sendToUser.mockResolvedValue(true);
     sendCareReminder = jest
       .spyOn(mail, 'sendCareReminder')
-      .mockResolvedValue({ sent: true, simulated: true, attempts: 1 });
+      .mockResolvedValue({ sent: true, simulated: false, attempts: 1 });
   });
 
   afterAll(async () => {
@@ -576,23 +576,40 @@ describeDb('NotificationsSchedulerService (Prisma réel)', () => {
     expect(byId.get(ok.id)).not.toBeNull();
   });
 
-  it('is disabled in tests and when REMINDERS_ENABLED=false', async () => {
+  it('does not mark a simulated email as delivered', async () => {
+    const user = await createUser('email');
+    const event = await createDueEvent(user.id);
+    sendCareReminder.mockResolvedValueOnce({ sent: true, simulated: true, attempts: 1 });
+    await scheduler.runOnce(NOW);
+    expect(mailsTo(user.email)).toHaveLength(1);
+    const row = await prisma.notificationEvent.findUniqueOrThrow({ where: { id: event.id } });
+    expect(row.notifiedAt).toBeNull();
+  });
+
+  it('honors both scheduler flags and remains disabled in tests', async () => {
     const spy = jest.spyOn(scheduler, 'runOnce');
-    expect(scheduler.enabled).toBe(false); // NODE_ENV=test
+    expect(scheduler.enabled).toBe(false);
     await scheduler.handleCron();
     expect(spy).not.toHaveBeenCalled();
-
-    const prev = {
-      env: process.env.NODE_ENV,
-      flag: process.env.REMINDERS_ENABLED,
+    const previous = {
+      NODE_ENV: process.env.NODE_ENV,
+      REMINDERS_ENABLED: process.env.REMINDERS_ENABLED,
+      NOTIFICATIONS_SCHEDULER_ENABLED: process.env.NOTIFICATIONS_SCHEDULER_ENABLED,
     };
-    process.env.NODE_ENV = 'development';
-    process.env.REMINDERS_ENABLED = 'false';
-    expect(scheduler.enabled).toBe(false);
-    process.env.REMINDERS_ENABLED = 'true';
-    expect(scheduler.enabled).toBe(true);
-    process.env.NODE_ENV = prev.env;
-    if (prev.flag === undefined) delete process.env.REMINDERS_ENABLED;
-    else process.env.REMINDERS_ENABLED = prev.flag;
+    try {
+      process.env.NODE_ENV = 'development';
+      process.env.NOTIFICATIONS_SCHEDULER_ENABLED = 'true';
+      process.env.REMINDERS_ENABLED = 'false';
+      expect(scheduler.enabled).toBe(false);
+      process.env.REMINDERS_ENABLED = 'true';
+      expect(scheduler.enabled).toBe(true);
+      process.env.NOTIFICATIONS_SCHEDULER_ENABLED = 'false';
+      expect(scheduler.enabled).toBe(false);
+    } finally {
+      for (const [name, value] of Object.entries(previous)) {
+        if (value === undefined) delete process.env[name];
+        else process.env[name] = value;
+      }
+    }
   });
 });

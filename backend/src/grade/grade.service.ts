@@ -147,7 +147,7 @@ export class GradeService {
   async getOrCreateTodayEvents(
     userId: string,
     dateStr?: string,
-    refresh = false,
+    _refresh = false,
   ): Promise<
     {
       id: string;
@@ -171,8 +171,7 @@ export class GradeService {
 
     // Reconcile the current sources without deleting pending or delivered occurrences.
     // A refresh must retain ids, snoozes, delivery claims and completion points.
-    if (events.length === 0 || refresh) {
-      const candidates = await this.buildCandidateEvents(userId, day, timeZone, locale);
+    const candidates = await this.buildCandidateEvents(userId, day, timeZone, locale);
       const present = new Set(events.map((event) => `${event.sourceKey}:${event.scheduledAt.toISOString()}`));
       const missing = candidates.filter((event) => !present.has(`${event.sourceKey}:${new Date(event.scheduledAt).toISOString()}`));
       const budget = Math.max(0, MAX_EVENTS_PER_DAY - events.length);
@@ -185,7 +184,6 @@ export class GradeService {
       const current = new Set(candidates.map((event) => `${event.sourceKey}:${new Date(event.scheduledAt).toISOString()}`));
       // Hidden occurrences remain in the DB so re-enabling a routine cannot award points twice.
       events = events.filter((event) => !event.sourceKey || current.has(`${event.sourceKey}:${event.scheduledAt.toISOString()}`));
-    }
     events = events.filter((event) => event.status !== 'dismissed' && event.status !== 'obsolete');
 
     return events.map((e) => ({
