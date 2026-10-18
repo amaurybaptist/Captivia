@@ -1,0 +1,77 @@
+import 'reflect-metadata';
+import { AdvancedSearchController } from '../species/advanced-search.controller';
+import { ApiGatewayController } from '../gateway/api-gateway.controller';
+import { FoodController } from '../food/food.controller';
+import { OpenDataController } from '../external/open-data.controller';
+import { PubMedController } from '../health-content/health-content.controller';
+import { SpeciesPlusController } from '../legislation/legislation.controller';
+import { OperatorGuard } from '../common/guards/operator.guard';
+import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
+import {
+  EXTERNAL_API_THROTTLE_LIMIT,
+  GLOBAL_THROTTLE,
+  SPECIES_PAGE_THROTTLE_LIMIT,
+} from './throttle.config';
+
+describe('throttle.config', () => {
+  it('limites relevées en test, strictes sinon (300 global / 20 API externes / 120 fiche)', () => {
+    // jest => NODE_ENV=test : limites très hautes pour les e2e
+    expect(GLOBAL_THROTTLE.limit).toBeGreaterThan(120);
+    expect(EXTERNAL_API_THROTTLE_LIMIT).toBeGreaterThan(20);
+    expect(GLOBAL_THROTTLE.ttl).toBe(60_000);
+  });
+
+  it('les valeurs de production sont 300, 20 et 120 par minute', async () => {
+    const previous = process.env.NODE_ENV;
+    process.env.NODE_ENV = 'production';
+    try {
+      await jest.isolateModulesAsync(async () => {
+        const prod = await import('./throttle.config');
+        expect(prod.GLOBAL_THROTTLE).toEqual({ ttl: 60_000, limit: 300 });
+        expect(prod.EXTERNAL_API_THROTTLE).toEqual({
+          default: { ttl: 60_000, limit: 20 },
+        });
+        expect(prod.SPECIES_PAGE_THROTTLE).toEqual({
+          default: { ttl: 60_000, limit: 120 },
+        });
+      });
+    } finally {
+      process.env.NODE_ENV = previous;
+    }
+  });
+
+  it.each([
+    ['ApiGatewayController', ApiGatewayController],
+    ['FoodController', FoodController],
+    ['SpeciesPlusController', SpeciesPlusController],
+    ['PubMedController', PubMedController],
+    ['OpenDataController', OpenDataController],
+    ['AdvancedSearchController', AdvancedSearchController],
+  ])('%s porte un @Throttle strict', (_name, controller) => {
+    expect(Reflect.getMetadata('THROTTLER:LIMITdefault', controller)).toBe(
+      EXTERNAL_API_THROTTLE_LIMIT,
+    );
+    expect(Reflect.getMetadata('THROTTLER:TTLdefault', controller)).toBe(
+      60_000,
+    );
+  });
+
+  it('GET /food/species/:species (onglet Alimentation de chaque fiche) : limite de fiche, pas 20', () => {
+    const handler = Object.getOwnPropertyDescriptor(
+      FoodController.prototype,
+      'getFoodBySpecies',
+    )?.value as object;
+    expect(Reflect.getMetadata('THROTTLER:LIMITdefault', handler)).toBe(
+      SPECIES_PAGE_THROTTLE_LIMIT,
+    );
+  });
+
+  it('POST /gateway/clear-cache/* exige JwtAuthGuard puis OperatorGuard', () => {
+    const handler = Object.getOwnPropertyDescriptor(
+      ApiGatewayController.prototype,
+      'clearCache',
+    )?.value as object;
+    const guards = Reflect.getMetadata('__guards__', handler) as unknown[];
+    expect(guards).toEqual([JwtAuthGuard, OperatorGuard]);
+  });
+});

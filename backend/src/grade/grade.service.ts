@@ -1,9 +1,38 @@
 import { Injectable } from '@nestjs/common';
+import { Prisma } from '@prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
 import { RoutinesService } from '../routines/routines.service';
+import {
+  addDays,
+  localDay,
+  localDayBounds,
+  makeLocalTimeResolver,
+  resolveTimeZone,
+} from '../common/timezone';
+import {
+  REMINDER_ANCHOR_HOUR,
+  SCHEDULE_TIME_REGEX,
+  matchesSchedule,
+  medicationOccurrencesOn,
+  normalizeSchedule,
+  routineOccurrencesOn,
+  routinePlan,
+  scheduleOccurrences,
+} from '../common/care-occurrences';
+import {
+  medicationLabel,
+  reminderTypeLabel,
+  routineLabel,
+  vaccineDueLabel,
+  vetAppointmentLabel,
+  vetReminderLabel,
+} from '../notifications/reminder-labels';
 
 /** Seules les routines (rappels liés à une routine) donnent des points. 2 pts par routine effectuée. */
 const POINTS_PER_ROUTINE_DONE = 2;
+
+/** Plafond défensif d'événements générés par jour et par utilisateur (anti-DoS, W0-07). */
+export const MAX_EVENTS_PER_DAY = 200;
 
 const GRADE_THRESHOLDS: { grade: string; minPoints: number }[] = [
   { grade: 'bronze', minPoints: 0 },
@@ -35,16 +64,21 @@ function getProgress(points: number): {
   progressPercent: number;
 } {
   const currentGrade = pointsToGrade(points);
-  const currentIndex = GRADE_THRESHOLDS.findIndex((t) => t.grade === currentGrade);
+  const currentIndex = GRADE_THRESHOLDS.findIndex(
+    (t) => t.grade === currentGrade,
+  );
   const currentMin = GRADE_THRESHOLDS[currentIndex].minPoints;
   const nextGrade = getNextGrade(currentGrade);
   const nextMin = nextGrade
-    ? GRADE_THRESHOLDS[GRADE_THRESHOLDS.findIndex((t) => t.grade === nextGrade)].minPoints
+    ? GRADE_THRESHOLDS[GRADE_THRESHOLDS.findIndex((t) => t.grade === nextGrade)]
+        .minPoints
     : currentMin;
   const pointsInCurrent = points - currentMin;
   const pointsNeededForNext = nextMin - currentMin;
   const progressPercent =
-    pointsNeededForNext > 0 ? Math.min(100, (pointsInCurrent / pointsNeededForNext) * 100) : 100;
+    pointsNeededForNext > 0
+      ? Math.min(100, (pointsInCurrent / pointsNeededForNext) * 100)
+      : 100;
   return {
     currentGrade,
     nextGrade,
@@ -54,99 +88,11 @@ function getProgress(points: number): {
   };
 }
 
-const ROUTINE_TYPE_LABELS: Record<string, string> = {
-  nourrissage: 'Nourrissage',
-  entretien: 'Nettoyage',
-  uvb: 'UVB / éclairage',
-  controle: 'Santé',
+/** Événement à créer (avant insertion groupée). `sourceKey` = clé d'idempotence (unique par user + date). */
+type NewEvent = Prisma.NotificationEventCreateManyInput & {
+  sourceKey: string;
+  scheduledAt: Date;
 };
-
-/** Mapping des noms de jours (format seed) vers getDay() JS : 0=dimanche … 6=samedi */
-const DAY_NAME_TO_INDEX: Record<string, number> = {
-  sunday: 0,
-  monday: 1,
-  tuesday: 2,
-  wednesday: 3,
-  thursday: 4,
-  friday: 5,
-  saturday: 6,
-};
-
-interface NormalizedSchedule {
-  time?: string;
-  recurrence?: string;
-  date?: string;
-  weekDay?: number;
-  dayOfMonth?: number;
-  intervalHours?: number;
-  days?: number[];
-}
-
-/**
- * Normalise les formats de schedule rencontrés dans le codebase :
- * - frontend (routines + prefs) : { time: '08:00', recurrence: 'daily', weekDay?, dayOfMonth?, date?, intervalHours? }
- * - seed :                        { days: ['tuesday','friday'], time: '19:00' }
- * - ancien format scheduler :     { hour: 8, day: 2, date: 15, hours: [8, 20] }
- */
-function normalizeSchedule(raw: unknown): NormalizedSchedule {
-  const s = (raw && typeof raw === 'object' ? raw : {}) as Record<string, unknown>;
-
-  let time: string | undefined = typeof s.time === 'string' ? s.time : undefined;
-  if (!time && typeof s.hour === 'number') time = `${s.hour}:00`;
-  if (!time && Array.isArray(s.hours) && typeof s.hours[0] === 'number') time = `${s.hours[0]}:00`;
-
-  const weekDay: number | undefined =
-    typeof s.weekDay === 'number' ? s.weekDay : typeof s.day === 'number' ? s.day : undefined;
-
-  let days: number[] | undefined;
-  if (Array.isArray(s.days)) {
-    days = s.days
-      .map((d) => (typeof d === 'number' ? d : DAY_NAME_TO_INDEX[String(d).toLowerCase()]))
-      .filter((d): d is number => typeof d === 'number');
-  }
-
-  return {
-    time,
-    recurrence: typeof s.recurrence === 'string' ? s.recurrence : undefined,
-    date: typeof s.date === 'string' ? s.date : s.date != null ? String(s.date) : undefined,
-    weekDay,
-    dayOfMonth: typeof s.dayOfMonth === 'number' ? s.dayOfMonth : undefined,
-    intervalHours: typeof s.intervalHours === 'number' ? s.intervalHours : undefined,
-    days: days && days.length > 0 ? days : undefined,
-  };
-}
-
-/** Vérifie si la récurrence d'un schedule correspond au jour demandé. */
-function matchesSchedule(
-  sch: NormalizedSchedule,
-  todayStr: string,
-  dayOfWeek: number,
-  dayOfMonth: number,
-  daysSinceEpoch: number,
-): boolean {
-  const rec = sch.recurrence || 'daily';
-  if (rec === 'once') {
-    if (!sch.date || sch.date !== todayStr) return false;
-  } else if (rec === 'weekly') {
-    if (sch.days && sch.days.length > 0) {
-      // Format seed : plusieurs jours par semaine (ex: ['tuesday','friday'])
-      if (!sch.days.includes(dayOfWeek)) return false;
-    } else {
-      const wanted = sch.weekDay ?? 0;
-      if (dayOfWeek !== wanted) return false;
-    }
-  } else if (rec === 'monthly') {
-    const wanted = sch.dayOfMonth ?? 1;
-    if (dayOfMonth !== wanted) return false;
-  } else if (rec === 'every_2_days') {
-    if (daysSinceEpoch % 2 !== 0) return false;
-  } else if (rec === 'every_3_days') {
-    if (daysSinceEpoch % 3 !== 0) return false;
-  } else if (rec === 'custom') {
-    return false;
-  }
-  return true;
-}
 
 @Injectable()
 export class GradeService {
@@ -179,7 +125,30 @@ export class GradeService {
     };
   }
 
-  async getOrCreateTodayEvents(userId: string, dateStr?: string, refresh = false): Promise<
+  /** Fuseau IANA (repli Europe/Paris) et langue de l'utilisateur (libellés des rappels). */
+  private async userSettings(
+    userId: string,
+  ): Promise<{ timeZone: string; locale: string }> {
+    const user = await this.prisma.user.findUnique({
+      where: { id: userId },
+      select: { timezone: true, locale: true },
+    });
+    return {
+      timeZone: resolveTimeZone(user?.timezone),
+      locale: user?.locale ?? 'fr',
+    };
+  }
+
+  /**
+   * Événements du jour LOCAL `dateStr` (défaut : aujourd'hui dans le fuseau de l'utilisateur),
+   * générés s'ils n'existent pas encore. Les bornes du jour sont celles du jour local (instants
+   * UTC de minuit à minuit dans `User.timezone`), comme pour le scheduler et l'agenda.
+   */
+  async getOrCreateTodayEvents(
+    userId: string,
+    dateStr?: string,
+    refresh = false,
+  ): Promise<
     {
       id: string;
       type: string;
@@ -189,258 +158,53 @@ export class GradeService {
       pointsAwarded: number;
     }[]
   > {
-    const date = dateStr ? new Date(dateStr + 'T12:00:00Z') : new Date();
-    const start = new Date(date);
-    start.setUTCHours(0, 0, 0, 0);
-    const end = new Date(date);
-    end.setUTCHours(23, 59, 59, 999);
+    const { timeZone, locale } = await this.userSettings(userId);
+    const day = dateStr ?? localDay(new Date(), timeZone);
+    const { start, end } = localDayBounds(day, timeZone);
+    const dayWhere = { userId, scheduledAt: { gte: start, lte: end } };
 
     let events = await this.prisma.notificationEvent.findMany({
-      where: { userId, scheduledAt: { gte: start, lte: end } },
+      where: dayWhere,
       orderBy: { scheduledAt: 'asc' },
+      take: MAX_EVENTS_PER_DAY * 2,
     });
 
     if (refresh && events.length > 0) {
+      // Ne supprime QUE les rappels en attente : les événements traités (done / skipped)
+      // sont conservés (sinon « refresh » permettrait de recréditer des points à l'infini).
       await this.prisma.notificationEvent.deleteMany({
-        where: { userId, scheduledAt: { gte: start, lte: end } },
+        where: { ...dayWhere, status: 'pending' },
       });
-      events = [];
     }
 
-    if (events.length === 0) {
-      const todayStr = date.toISOString().slice(0, 10);
-      const dayOfWeek = date.getUTCDay();
-      const dayOfMonth = date.getUTCDate();
-      const daysSinceEpoch = Math.floor(date.getTime() / 86400000);
+    if (events.length === 0 || refresh) {
+      const kept = refresh
+        ? await this.prisma.notificationEvent.count({ where: dayWhere })
+        : events.length;
+      const budget = Math.max(0, MAX_EVENTS_PER_DAY - kept);
 
-      const prefs = await this.prisma.notificationPreference.findUnique({
-        where: { userId },
-      });
-      if (prefs?.types && typeof prefs.types === 'object') {
-        const types = prefs.types as Record<string, boolean>;
-        const rawSchedules =
-          prefs.typeSchedules && typeof prefs.typeSchedules === 'object'
-            ? (prefs.typeSchedules as Record<string, unknown>)
-            : {};
-        const globalStart =
-          prefs.schedule &&
-          typeof prefs.schedule === 'object' &&
-          typeof (prefs.schedule as { start?: unknown }).start === 'string'
-            ? (prefs.schedule as { start: string }).start
-            : '08:00';
-
-        for (const [type, enabled] of Object.entries(types)) {
-          if (!enabled) continue;
-          const sch = normalizeSchedule(rawSchedules[type]);
-          const time = sch.time ?? globalStart;
-          const rec = sch.recurrence || 'daily';
-          if (!matchesSchedule({ ...sch, time, recurrence: rec }, todayStr, dayOfWeek, dayOfMonth, daysSinceEpoch)) continue;
-
-          if (rec === 'hourly') {
-            const interval = Math.max(1, Math.min(24, sch.intervalHours ?? 2));
-            const [startH] = (time || '08:00').split(':').map(Number);
-            for (let hour = startH; hour < 24; hour += interval) {
-              const scheduledAt = new Date(date);
-              scheduledAt.setUTCHours(hour, 0, 0, 0);
-              const created = await this.prisma.notificationEvent.create({
-                data: {
-                  userId,
-                  type,
-                  label: type,
-                  scheduledAt,
-                  status: 'pending',
-                },
-              });
-              events = [...events, created];
-            }
-          } else {
-            const [h, m] = (time || '08:00').split(':').map(Number);
-            const scheduledAt = new Date(date);
-            scheduledAt.setUTCHours(h, m || 0, 0, 0);
-            const created = await this.prisma.notificationEvent.create({
-              data: {
-                userId,
-                type,
-                label: type,
-                scheduledAt,
-                status: 'pending',
-              },
-            });
-            events = [...events, created];
-          }
-        }
-      }
-
-      // Événements depuis les routines (associées aux animaux) — TOUJOURS générés,
-      // même sans préférences de notification configurées.
-      const activeRoutines = await this.routinesService.getActiveRoutines(userId);
-      for (const routine of activeRoutines) {
-        const sch = normalizeSchedule(routine.schedule);
-        const time = sch.time;
-        if (!time) continue;
-        const rec = sch.recurrence || routine.frequency || 'daily';
-        if (!matchesSchedule({ ...sch, time, recurrence: rec }, todayStr, dayOfWeek, dayOfMonth, daysSinceEpoch)) continue;
-
-          const typeLabel = routine.name || ROUTINE_TYPE_LABELS[routine.type] || routine.type;
-          const animal = (routine as any).animal;
-
-          if (rec === 'hourly') {
-            const interval = Math.max(1, Math.min(24, sch.intervalHours ?? 2));
-            const [startH] = (time || '08:00').split(':').map(Number);
-            for (let hour = startH; hour < 24; hour += interval) {
-              const scheduledAt = new Date(date);
-              scheduledAt.setUTCHours(hour, 0, 0, 0);
-              const created = await this.prisma.notificationEvent.create({
-                data: {
-                  userId,
-                  type: routine.type,
-                  label: typeLabel,
-                  scheduledAt,
-                  status: 'pending',
-                  routineId: routine.id,
-                  animalId: routine.animalId,
-                },
-              });
-              events = [...events, created];
-            }
-          } else {
-            const [h, m] = (time || '08:00').split(':').map(Number);
-            const scheduledAt = new Date(date);
-            scheduledAt.setUTCHours(h, m || 0, 0, 0);
-            const created = await this.prisma.notificationEvent.create({
-              data: {
-                userId,
-                type: routine.type,
-                label: typeLabel,
-                scheduledAt,
-                status: 'pending',
-                routineId: routine.id,
-                animalId: routine.animalId,
-              },
-            });
-            events = [...events, created];
-          }
-      }
-
-      // Clés anti-doublon : type + refId + scheduledAt, pour les événements créés
-      // dans cette passe (la journée était vide, seuls les doublons intra-passe
-      // sont possibles, ex. rappel J-0 + événement du jour du RDV).
-      const createdKeys = new Set<string>();
-
-      // Module A — Événements depuis les médicaments actifs (Premium)
-      const activeMedications = await this.prisma.medication.findMany({
-        where: { active: true, animal: { userId } },
-      });
-      for (const med of activeMedications) {
-        const startDay = med.startDate.toISOString().slice(0, 10);
-        const endDay = med.endDate ? med.endDate.toISOString().slice(0, 10) : null;
-        if (startDay > todayStr) continue;
-        if (endDay && endDay < todayStr) continue;
-
-        const scheduledAt = new Date(date);
-        scheduledAt.setUTCHours(8, 0, 0, 0);
-        const key = `medication:${med.id}:${scheduledAt.getTime()}`;
-        if (createdKeys.has(key)) continue;
-        createdKeys.add(key);
-        const created = await this.prisma.notificationEvent.create({
-          data: {
-            userId,
-            type: 'medication',
-            label: `💊 ${med.name} (${med.dose})`,
-            scheduledAt,
-            status: 'pending',
-            pointsAwarded: 0,
-            medicationId: med.id,
-            animalId: med.animalId,
-          },
-        });
-        events = [...events, created];
-      }
-
-      // Module A — Événements depuis les RDV vétérinaires (Premium)
-      const scheduledAppointments = await this.prisma.vetAppointment.findMany({
-        where: { status: 'scheduled', animal: { userId } },
-      });
-      for (const appt of scheduledAppointments) {
-        const apptDay = appt.date.toISOString().slice(0, 10);
-        const scheduledAt = new Date(date);
-        scheduledAt.setUTCHours(8, 0, 0, 0);
-
-        // Événement du jour du RDV
-        if (apptDay === todayStr) {
-          const key = `vet_appointment:${appt.id}:${scheduledAt.getTime()}`;
-          if (!createdKeys.has(key)) {
-            createdKeys.add(key);
-            const created = await this.prisma.notificationEvent.create({
-              data: {
-                userId,
-                type: 'vet_appointment',
-                label: `🏥 RDV ${appt.vetName}`,
-                scheduledAt,
-                status: 'pending',
-                pointsAwarded: 0,
-                appointmentId: appt.id,
-                animalId: appt.animalId,
-              },
-            });
-            events = [...events, created];
-          }
-        }
-
-        // Rappels J-N (reminderDays jours avant le RDV)
-        for (const n of appt.reminderDays ?? []) {
-          const reminderDate = new Date(appt.date);
-          reminderDate.setUTCDate(reminderDate.getUTCDate() - n);
-          if (reminderDate.toISOString().slice(0, 10) !== todayStr) continue;
-          const key = `vet_appointment:${appt.id}:${scheduledAt.getTime()}`;
-          if (createdKeys.has(key)) continue; // ex. rappel J-0 déjà couvert par l'événement du jour
-          createdKeys.add(key);
-          const created = await this.prisma.notificationEvent.create({
-            data: {
-              userId,
-              type: 'vet_appointment',
-              label: `🔔 ${appt.vetName} (J-${n})`,
-              scheduledAt,
-              status: 'pending',
-              pointsAwarded: 0,
-              appointmentId: appt.id,
-              animalId: appt.animalId,
-            },
+      if (budget > 0) {
+        const candidates = await this.buildCandidateEvents(
+          userId,
+          day,
+          timeZone,
+          locale,
+        );
+        if (candidates.length > 0) {
+          await this.prisma.notificationEvent.createMany({
+            data: candidates.slice(0, budget),
+            // L'index unique (userId, sourceKey, scheduledAt) rend la génération idempotente,
+            // y compris sous requêtes concurrentes ; les événements déjà traités ne sont pas recréés.
+            skipDuplicates: true,
           });
-          events = [...events, created];
         }
       }
 
-      // Module C — Événements de rappel vaccin (Premium) : un rappel est créé le
-      // jour où nextDueDate == aujourd'hui (anti-doublon par type+vaccinationId+scheduledAt)
-      const vaccinations = await this.prisma.vaccination.findMany({
-        where: { animal: { userId } },
+      events = await this.prisma.notificationEvent.findMany({
+        where: dayWhere,
+        orderBy: { scheduledAt: 'asc' },
+        take: MAX_EVENTS_PER_DAY * 2,
       });
-      for (const vac of vaccinations) {
-        if (!vac.nextDueDate) continue;
-        if (vac.nextDueDate.toISOString().slice(0, 10) !== todayStr) continue;
-
-        const scheduledAt = new Date(date);
-        scheduledAt.setUTCHours(8, 0, 0, 0);
-        const key = `vaccination:${vac.id}:${scheduledAt.getTime()}`;
-        if (createdKeys.has(key)) continue;
-        createdKeys.add(key);
-        const created = await this.prisma.notificationEvent.create({
-          data: {
-            userId,
-            type: 'vaccination',
-            label: `💉 Rappel vaccin ${vac.name}`,
-            scheduledAt,
-            status: 'pending',
-            pointsAwarded: 0,
-            vaccinationId: vac.id,
-            animalId: vac.animalId,
-          },
-        });
-        events = [...events, created];
-      }
-
-      events.sort((a, b) => a.scheduledAt.getTime() - b.scheduledAt.getTime());
     }
 
     return events.map((e) => ({
@@ -457,33 +221,252 @@ export class GradeService {
     }));
   }
 
+  /**
+   * Construit (sans écrire) la liste des événements du jour local `day`, par ordre de priorité :
+   * RDV vétérinaires, rappels de vaccin, médicaments, routines, préférences. Dédoublonnée par
+   * (sourceKey, scheduledAt) et plafonnée à MAX_EVENTS_PER_DAY. Heures murales converties dans
+   * `timeZone`. Médicaments et routines : instants calculés par `common/care-occurrences` (source
+   * unique partagée avec l'Agenda et la couverture locale). Libellés dans la langue du compte
+   * (`notifications/reminder-labels`) : envoyés tels quels en push et par e-mail.
+   */
+  private async buildCandidateEvents(
+    userId: string,
+    day: string,
+    timeZone: string,
+    locale = 'fr',
+  ): Promise<NewEvent[]> {
+    const resolve = makeLocalTimeResolver(timeZone);
+
+    const out: NewEvent[] = [];
+    const seen = new Set<string>();
+    const push = (ev: NewEvent): void => {
+      if (out.length >= MAX_EVENTS_PER_DAY) return;
+      const key = `${ev.sourceKey}|${ev.scheduledAt.getTime()}`;
+      if (seen.has(key)) return;
+      seen.add(key);
+      out.push(ev);
+    };
+    /** Rappels « du jour » (RDV, vaccin) : 08:00 heure locale. */
+    const at8 = (): Date => resolve(day, REMINDER_ANCHOR_HOUR, 0);
+
+    // Module A — Événements depuis les RDV vétérinaires (Premium). `date` est un instant : son
+    // jour est le jour LOCAL de l'utilisateur.
+    const scheduledAppointments = await this.prisma.vetAppointment.findMany({
+      where: { status: 'scheduled', animal: { userId } },
+      take: MAX_EVENTS_PER_DAY,
+    });
+    for (const appt of scheduledAppointments) {
+      const apptDay = localDay(appt.date, timeZone);
+
+      // Événement du jour du RDV
+      if (apptDay === day) {
+        push({
+          userId,
+          type: 'vet_appointment',
+          label: vetAppointmentLabel(appt.vetName, locale),
+          scheduledAt: at8(),
+          status: 'pending',
+          pointsAwarded: 0,
+          appointmentId: appt.id,
+          animalId: appt.animalId,
+          sourceKey: `appointment:${appt.id}`,
+        });
+      }
+
+      // Rappels J-N (reminderDays jours avant le RDV). Un rappel J-0 est déjà couvert par
+      // l'événement du jour (même clé + même heure → dédoublonné par `push`).
+      for (const n of (appt.reminderDays ?? []).slice(0, 10)) {
+        if (addDays(apptDay, -n) !== day) continue;
+        push({
+          userId,
+          type: 'vet_appointment',
+          label: vetReminderLabel(appt.vetName, n, locale),
+          scheduledAt: at8(),
+          status: 'pending',
+          pointsAwarded: 0,
+          appointmentId: appt.id,
+          animalId: appt.animalId,
+          sourceKey: `appointment:${appt.id}`,
+        });
+      }
+    }
+
+    // Module C — Événements de rappel vaccin (Premium) : un rappel est créé le
+    // jour où nextDueDate (date calendaire) == aujourd'hui (jour local)
+    const vaccinations = await this.prisma.vaccination.findMany({
+      where: { animal: { userId }, nextDueDate: { not: null } },
+      take: MAX_EVENTS_PER_DAY * 2,
+    });
+    for (const vac of vaccinations) {
+      if (!vac.nextDueDate) continue;
+      if (vac.nextDueDate.toISOString().slice(0, 10) !== day) continue;
+
+      push({
+        userId,
+        type: 'vaccination',
+        label: vaccineDueLabel(vac.name, locale),
+        scheduledAt: at8(),
+        status: 'pending',
+        pointsAwarded: 0,
+        vaccinationId: vac.id,
+        animalId: vac.animalId,
+        sourceKey: `vaccination:${vac.id}`,
+      });
+    }
+
+    // Module A — Prises des médicaments actifs (Premium) : MÊME calcul que l'Agenda et que les
+    // rappels locaux de l'app (`medicationOccurrencesOn`) — hebdomadaire : uniquement le jour de
+    // la semaine du début ; toutes les N heures : grille depuis 08:00 du premier jour.
+    const activeMedications = await this.prisma.medication.findMany({
+      where: { active: true, animal: { userId } },
+      orderBy: { id: 'asc' },
+      take: MAX_EVENTS_PER_DAY,
+    });
+    for (const med of activeMedications) {
+      for (const scheduledAt of medicationOccurrencesOn(med, day, resolve)) {
+        push({
+          userId,
+          type: 'medication',
+          label: medicationLabel(med),
+          scheduledAt,
+          status: 'pending',
+          pointsAwarded: 0,
+          medicationId: med.id,
+          animalId: med.animalId,
+          sourceKey: `medication:${med.id}`,
+        });
+      }
+    }
+
+    // Routines (associées aux animaux) — TOUJOURS générées, même sans préférences de
+    // notification. MÊME calcul que l'Agenda (`routinePlan` / `routineOccurrencesOn`) : aucune
+    // occurrence avant le jour local de création, récurrence ancrée sur ce jour.
+    const activeRoutines = await this.routinesService.getActiveRoutines(userId);
+    for (const routine of activeRoutines) {
+      const plan = routinePlan(routine, timeZone);
+      if (!plan) continue; // sans heure : aucun rappel (ni dans l'Agenda)
+      const typeLabel = routineLabel(routine, locale);
+      for (const scheduledAt of routineOccurrencesOn(plan, day, resolve)) {
+        push({
+          userId,
+          type: routine.type,
+          label: typeLabel,
+          scheduledAt,
+          status: 'pending',
+          routineId: routine.id,
+          animalId: routine.animalId,
+          sourceKey: `routine:${routine.id}`,
+        });
+      }
+    }
+
+    // Types personnalisés des préférences (absents de l'Agenda).
+    const prefs = await this.prisma.notificationPreference.findUnique({
+      where: { userId },
+    });
+    if (
+      prefs?.types &&
+      typeof prefs.types === 'object' &&
+      !Array.isArray(prefs.types)
+    ) {
+      const types = prefs.types as Record<string, boolean>;
+      const rawSchedules =
+        prefs.typeSchedules && typeof prefs.typeSchedules === 'object'
+          ? (prefs.typeSchedules as Record<string, unknown>)
+          : {};
+      const rawStart =
+        prefs.schedule &&
+        typeof prefs.schedule === 'object' &&
+        typeof (prefs.schedule as { start?: unknown }).start === 'string'
+          ? (prefs.schedule as { start: string }).start
+          : undefined;
+      const globalStart =
+        rawStart && SCHEDULE_TIME_REGEX.test(rawStart) ? rawStart : '08:00';
+      const prefsAnchor = localDay(prefs.createdAt, timeZone);
+
+      for (const [type, enabled] of Object.entries(types).slice(0, 100)) {
+        if (!enabled) continue;
+        const sch = normalizeSchedule(rawSchedules[type]);
+        const time = sch.time ?? globalStart;
+        const rec = sch.recurrence || 'daily';
+        if (
+          !matchesSchedule({ ...sch, time, recurrence: rec }, day, prefsAnchor)
+        )
+          continue;
+
+        for (const scheduledAt of scheduleOccurrences(
+          sch,
+          rec,
+          time,
+          day,
+          resolve,
+        )) {
+          push({
+            userId,
+            type,
+            // Clé connue (« uvb », « Santé »…) → libellé lisible dans la langue du compte.
+            label: reminderTypeLabel(type, locale),
+            scheduledAt,
+            status: 'pending',
+            sourceKey: `pref:${type}`,
+          });
+        }
+      }
+    }
+
+    // Ordre de PRIORITÉ (pas chronologique) : l'appelant tronque au budget restant, et des
+    // routines ou types personnalisés fréquents ne doivent jamais évincer un RDV, un vaccin ou
+    // une prise de médicament (même règle que l'Agenda). La lecture finale est triée par date.
+    return out;
+  }
+
   async setEventStatus(
     userId: string,
     eventId: string,
     status: 'done' | 'skipped',
   ): Promise<{ event: unknown; grade: unknown } | null> {
-    const ev = await this.prisma.notificationEvent.findFirst({
-      where: { id: eventId, userId },
-    });
-    if (!ev || ev.status !== 'pending') return null;
-
-    // Seules les routines (ev.routineId) donnent des points. Les notifications seules n'en donnent pas.
-    const pointsToAdd =
-      status === 'done' && ev.routineId ? POINTS_PER_ROUTINE_DONE : 0;
-    await this.prisma.notificationEvent.update({
-      where: { id: eventId },
-      data: { status, pointsAwarded: pointsToAdd },
-    });
-
-    if (pointsToAdd > 0) {
-      const user = await this.prisma.user.findUnique({ where: { id: userId }, select: { points: true } });
-      const newPoints = (user?.points ?? 0) + pointsToAdd;
-      const newGrade = pointsToGrade(newPoints);
-      await this.prisma.user.update({
-        where: { id: userId },
-        data: { points: newPoints, grade: newGrade },
+    // Transition atomique pending -> done|skipped + crédit de points dans UNE transaction :
+    // `updateMany where status = 'pending'` ne réussit (count === 1) que pour UNE requête, donc
+    // deux requêtes parallèles ne peuvent pas créditer deux fois les points.
+    const applied = await this.prisma.$transaction(async (tx) => {
+      const ev = await tx.notificationEvent.findFirst({
+        where: { id: eventId, userId },
+        select: { routineId: true, scheduledAt: true },
       });
-    }
+      if (!ev) return false;
+
+      // Seules les routines (ev.routineId) donnent des points. Les notifications seules n'en donnent pas.
+      // Pas de points hors de la fenêtre [maintenant − 24 h ; maintenant + 24 h] (tolérance de fuseau) :
+      // ni pour le futur (« faire » à l'avance les routines des 12 prochains mois), ni pour un
+      // événement antidaté (farming). Le passage à « done » reste permis, sans points.
+      const delta = ev.scheduledAt.getTime() - Date.now();
+      const inPointsWindow = Math.abs(delta) <= 24 * 3600 * 1000;
+      const pointsToAdd =
+        status === 'done' && ev.routineId && inPointsWindow
+          ? POINTS_PER_ROUTINE_DONE
+          : 0;
+
+      const res = await tx.notificationEvent.updateMany({
+        where: { id: eventId, userId, status: 'pending' },
+        data: { status, pointsAwarded: pointsToAdd },
+      });
+      if (res.count !== 1) return false;
+
+      if (pointsToAdd > 0) {
+        const user = await tx.user.update({
+          where: { id: userId },
+          data: { points: { increment: pointsToAdd } },
+          select: { points: true },
+        });
+        await tx.user.update({
+          where: { id: userId },
+          data: { grade: pointsToGrade(user.points) },
+        });
+      }
+      return true;
+    });
+
+    if (!applied) return null;
 
     const updated = await this.prisma.notificationEvent.findUnique({
       where: { id: eventId },
@@ -513,8 +496,10 @@ export class GradeService {
    * Ne supprime pas la routine ni les préférences de notification.
    */
   async deleteEvent(userId: string, eventId: string): Promise<boolean> {
+    // Un événement déjà « fait » n'est pas supprimable : supprimer puis régénérer (refresh)
+    // permettrait de le refaire et de recréditer ses points indéfiniment.
     const deleted = await this.prisma.notificationEvent.deleteMany({
-      where: { id: eventId, userId },
+      where: { id: eventId, userId, status: { not: 'done' } },
     });
     return deleted.count > 0;
   }

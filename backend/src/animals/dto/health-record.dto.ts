@@ -1,6 +1,19 @@
-import { IsString, IsOptional, IsDateString, IsIn, IsObject, MinLength } from 'class-validator';
+import {
+  IsString,
+  IsOptional,
+  IsDateString,
+  IsIn,
+  IsObject,
+  MinLength,
+  MaxLength,
+} from 'class-validator';
 
-export const HEALTH_RECORD_TYPES = ['vaccine', 'surgery', 'specific_food', 'medical_history'] as const;
+export const HEALTH_RECORD_TYPES = [
+  'vaccine',
+  'surgery',
+  'specific_food',
+  'medical_history',
+] as const;
 export type HealthRecordType = (typeof HEALTH_RECORD_TYPES)[number];
 
 export class CreateHealthRecordDto {
@@ -10,6 +23,7 @@ export class CreateHealthRecordDto {
 
   @IsString()
   @MinLength(1)
+  @MaxLength(200)
   title: string;
 
   @IsDateString()
@@ -17,6 +31,7 @@ export class CreateHealthRecordDto {
 
   @IsOptional()
   @IsString()
+  @MaxLength(5000)
   notes?: string;
 
   @IsOptional()
@@ -33,6 +48,7 @@ export class UpdateHealthRecordDto {
   @IsOptional()
   @IsString()
   @MinLength(1)
+  @MaxLength(200)
   title?: string;
 
   @IsOptional()
@@ -41,6 +57,7 @@ export class UpdateHealthRecordDto {
 
   @IsOptional()
   @IsString()
+  @MaxLength(5000)
   notes?: string;
 
   @IsOptional()

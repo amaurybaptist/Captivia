@@ -1,18 +1,20 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { RedisModule } from '@nestjs-modules/ioredis';
-import * as Joi from 'joi';
+import { APP_GUARD } from '@nestjs/core';
+import { ThrottlerGuard, ThrottlerModule } from '@nestjs/throttler';
+import { envValidationSchema } from './config/env.validation';
+import { GLOBAL_THROTTLE } from './config/throttle.config';
 import { SpeciesModule } from './species/species.module';
+import { LoggerModule } from 'nestjs-pino';
+import { buildLoggerParams } from './common/logging/logger.config';
 import { HealthModule } from './health/health.module';
 import { CommonModule } from './common/common.module';
 import { CacheModule } from './cache/cache.module';
 import { TransformerModule } from './transformers/transformer.module';
 import { FilterModule } from './filters/filter.module';
-import { ExceptionsModule } from './common/exceptions/exceptions.module';
-import { InterceptorsModule } from './common/interceptors/interceptors.module';
 import { MonitoringModule } from './monitoring/monitoring.module';
 import { AnalyticsModule } from './analytics/analytics.module';
-import { DatabaseOptimizationModule } from './database/database-optimization.module';
 import { PrismaModule } from './prisma/prisma.module';
 import { AuthModule } from './auth/auth.module';
 import { HealthContentModule } from './health-content/health-content.module';
@@ -30,7 +32,13 @@ import { NotificationsModule } from './notifications/notifications.module';
 import { GradeModule } from './grade/grade.module';
 import { AffiliateModule } from './affiliate/affiliate.module';
 import { SubscriptionModule } from './subscription/subscription.module';
+import { EntitlementModule } from './entitlement/entitlement.module';
 import { SpeciesRoutinesModule } from './species-routines/species-routines.module';
+import { AccountModule } from './account/account.module';
+import { AgendaModule } from './agenda/agenda.module';
+import { MaintenanceModule } from './maintenance/maintenance.module';
+import { CommunityModule } from './community/community.module';
+import { ExternalHttpModule } from './external/http/external-http.module';
 
 const redisEnabled = process.env.REDIS_ENABLED === 'true';
 
@@ -38,23 +46,19 @@ const redisEnabled = process.env.REDIS_ENABLED === 'true';
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
-      validationSchema: Joi.object({
-        DATABASE_URL: Joi.string().required(),
-        JWT_SECRET: Joi.string().min(16).required(),
-        PORT: Joi.number().default(3001),
-        CACHE_TYPE: Joi.string().valid('memory', 'redis', 'memcached').default('memory'),
-        REDIS_ENABLED: Joi.string().valid('true', 'false').default('false'),
-        REDIS_HOST: Joi.string().default('localhost'),
-        REDIS_PORT: Joi.number().default(6379),
-      }),
+      validationSchema: envValidationSchema,
       validationOptions: { allowUnknown: true, abortEarly: false },
     }),
+    // Logs structurés pino (JSON en production, pino-pretty en dev), request-id, redaction.
+    LoggerModule.forRoot(buildLoggerParams()),
+    // Rate limiting global par IP (120 req/min) ; durci par @Throttle sur les routes à API externes.
+    ThrottlerModule.forRoot({ throttlers: [GLOBAL_THROTTLE] }),
     ...(redisEnabled
       ? [
           RedisModule.forRootAsync({
             useFactory: (config: ConfigService) => {
-              const host = config.get('REDIS_HOST', 'localhost');
-              const port = config.get('REDIS_PORT', '6379');
+              const host = config.get<string>('REDIS_HOST', 'localhost');
+              const port = config.get<string>('REDIS_PORT', '6379');
               return {
                 type: 'single',
                 url: `redis://${host}:${port}`,
@@ -65,6 +69,8 @@ const redisEnabled = process.env.REDIS_ENABLED === 'true';
           }),
         ]
       : []),
+    // Client HTTP sortant partagé (timeout, retry, disjoncteurs) — global.
+    ExternalHttpModule,
     PrismaModule,
     AuthModule,
     HealthContentModule,
@@ -73,6 +79,7 @@ const redisEnabled = process.env.REDIS_ENABLED === 'true';
     EquipmentModule,
     AffiliateModule,
     AnimalsModule,
+    EntitlementModule,
     SubscriptionModule,
     SpeciesRoutinesModule,
     RoutinesModule,
@@ -83,15 +90,19 @@ const redisEnabled = process.env.REDIS_ENABLED === 'true';
     BreedingModule,
     NotificationsModule,
     GradeModule,
+    AccountModule,
+    AgendaModule,
+    // Communauté : routes en 404 tant que COMMUNITY_ENABLED != true (export/suppression RGPD actifs).
+    CommunityModule,
+    MaintenanceModule,
     CacheModule.registerAsync(),
     TransformerModule,
     FilterModule,
-    ExceptionsModule,
-    InterceptorsModule,
     SpeciesModule,
     HealthModule,
     CommonModule,
-    ...(redisEnabled ? [MonitoringModule, AnalyticsModule, DatabaseOptimizationModule] : []),
+    ...(redisEnabled ? [MonitoringModule, AnalyticsModule] : []),
   ],
+  providers: [{ provide: APP_GUARD, useClass: ThrottlerGuard }],
 })
 export class AppModule {}

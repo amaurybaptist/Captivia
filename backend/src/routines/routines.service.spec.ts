@@ -1,5 +1,9 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { ForbiddenException, NotFoundException } from '@nestjs/common';
+import {
+  BadRequestException,
+  ForbiddenException,
+  NotFoundException,
+} from '@nestjs/common';
 import { RoutinesService } from './routines.service';
 import { PrismaService } from '../prisma/prisma.service';
 import {
@@ -10,7 +14,6 @@ import {
 
 describe('RoutinesService', () => {
   let service: RoutinesService;
-  let prismaService: PrismaService;
 
   const mockUserId = 'user-id-123';
   const mockAnimalId = 'animal-id-456';
@@ -83,7 +86,6 @@ describe('RoutinesService', () => {
     }).compile();
 
     service = module.get<RoutinesService>(RoutinesService);
-    prismaService = module.get<PrismaService>(PrismaService);
 
     jest.clearAllMocks();
   });
@@ -150,11 +152,7 @@ describe('RoutinesService', () => {
       mockPrismaService.animal.findUnique.mockResolvedValue(mockAnimal);
       mockPrismaService.routine.create.mockResolvedValue(mockRoutine);
 
-      await service.createRoutine(
-        mockUserId,
-        mockAnimalId,
-        dtoWithoutActive,
-      );
+      await service.createRoutine(mockUserId, mockAnimalId, dtoWithoutActive);
 
       expect(mockPrismaService.routine.create).toHaveBeenCalledWith({
         data: expect.objectContaining({
@@ -175,7 +173,9 @@ describe('RoutinesService', () => {
       expect(result).toEqual(routines);
       expect(mockPrismaService.routine.findMany).toHaveBeenCalledWith({
         where: { animalId: mockAnimalId },
-        orderBy: { createdAt: 'desc' },
+        orderBy: [{ createdAt: 'desc' }, { id: 'asc' }],
+        take: 100,
+        skip: 0,
       });
     });
 
@@ -263,6 +263,53 @@ describe('RoutinesService', () => {
     });
   });
 
+  describe('« Une seule fois » : date obligatoire', () => {
+    it('création sans date → 400, rien n’est enregistré', async () => {
+      mockPrismaService.animal.findUnique.mockResolvedValue(mockAnimal);
+      await expect(
+        service.createRoutine(mockUserId, mockAnimalId, {
+          type: 'nourrissage',
+          frequency: 'once',
+          schedule: { time: '08:00', recurrence: 'once' },
+        }),
+      ).rejects.toThrow(BadRequestException);
+      expect(mockPrismaService.routine.create).not.toHaveBeenCalled();
+    });
+
+    it('création avec date → enregistrée', async () => {
+      mockPrismaService.animal.findUnique.mockResolvedValue(mockAnimal);
+      mockPrismaService.routine.create.mockResolvedValue(mockRoutine);
+      await service.createRoutine(mockUserId, mockAnimalId, {
+        type: 'nourrissage',
+        frequency: 'once',
+        schedule: { time: '08:00', recurrence: 'once', date: '2026-10-05' },
+      });
+      expect(mockPrismaService.routine.create).toHaveBeenCalled();
+    });
+
+    it('modification vers « once » sans date → 400 ; simple pause → acceptée', async () => {
+      mockPrismaService.routine.findUnique.mockResolvedValue(mockRoutine);
+      await expect(
+        service.updateRoutine(mockUserId, mockAnimalId, mockRoutineId, {
+          frequency: 'once',
+          schedule: { time: '08:00', recurrence: 'once' },
+        }),
+      ).rejects.toThrow(BadRequestException);
+
+      mockPrismaService.routine.findUnique.mockResolvedValue({
+        ...mockRoutine,
+        frequency: 'once',
+        schedule: { time: '08:00', recurrence: 'once' },
+      });
+      mockPrismaService.routine.update.mockResolvedValue(mockRoutine);
+      await expect(
+        service.updateRoutine(mockUserId, mockAnimalId, mockRoutineId, {
+          active: false,
+        }),
+      ).resolves.toBeDefined();
+    });
+  });
+
   describe('deleteRoutine', () => {
     it('should delete routine successfully', async () => {
       mockPrismaService.routine.findUnique.mockResolvedValue(mockRoutine);
@@ -330,8 +377,9 @@ describe('RoutinesService', () => {
       expect(result).toEqual(logs);
       expect(mockPrismaService.actionLog.findMany).toHaveBeenCalledWith({
         where: { animalId: mockAnimalId },
-        orderBy: { doneAt: 'desc' },
+        orderBy: [{ doneAt: 'desc' }, { id: 'asc' }],
         take: 100,
+        skip: 0,
       });
     });
 

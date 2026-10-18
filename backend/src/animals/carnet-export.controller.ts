@@ -1,14 +1,11 @@
-import {
-  Controller,
-  Get,
-  Param,
-  UseGuards,
-  Req,
-  Res,
-  ForbiddenException,
-} from '@nestjs/common';
+import { Controller, Get, Param, UseGuards, Req, Res } from '@nestjs/common';
 import { Response } from 'express';
-import { ApiTags, ApiOperation, ApiBearerAuth, ApiParam } from '@nestjs/swagger';
+import {
+  ApiTags,
+  ApiOperation,
+  ApiBearerAuth,
+  ApiParam,
+} from '@nestjs/swagger';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import { CarnetExportService } from './carnet-export.service';
 
@@ -17,19 +14,12 @@ import { CarnetExportService } from './carnet-export.service';
  * Pas de PDF pour l'instant : le frontend peut afficher/imprimer ce JSON.
  */
 @ApiTags('animals')
+// D-16 : carnet de santé complet sans Premium (la limite porte sur le nombre d'animaux).
 @Controller('users/me/animals/:animalId/carnet')
 @UseGuards(JwtAuthGuard)
 @ApiBearerAuth()
 export class CarnetExportController {
   constructor(private readonly carnetExportService: CarnetExportService) {}
-
-  private ensurePremium(req: { user: { id: string; isPremium?: boolean } }) {
-    if (!req.user.isPremium) {
-      throw new ForbiddenException(
-        'Premium subscription required to export the health record (carnet de santé).',
-      );
-    }
-  }
 
   @Get('export')
   @ApiOperation({
@@ -38,12 +28,14 @@ export class CarnetExportController {
   })
   @ApiParam({ name: 'animalId', description: 'Animal ID' })
   async exportCarnet(
-    @Req() req: { user: { id: string; isPremium?: boolean } },
+    @Req() req: { user: { id: string } },
     @Param('animalId') animalId: string,
     @Res({ passthrough: true }) res: Response,
   ) {
-    this.ensurePremium(req);
-    const result = await this.carnetExportService.exportCarnet(animalId, req.user.id);
+    const result = await this.carnetExportService.exportCarnet(
+      animalId,
+      req.user.id,
+    );
     res.setHeader(
       'Content-Disposition',
       `attachment; filename="${result.filename}"`,

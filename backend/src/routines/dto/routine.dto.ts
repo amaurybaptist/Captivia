@@ -5,9 +5,25 @@ import {
   IsObject,
   IsIn,
   MinLength,
+  MaxLength,
 } from 'class-validator';
+import type { Prisma } from '@prisma/client';
 
-const routineTypes = ['nourrissage', 'entretien', 'uvb', 'controle'] as const;
+export const routineTypes = [
+  'nourrissage',
+  'entretien',
+  'uvb',
+  'controle',
+  'changement_eau',
+  'nettoyage_habitat',
+  'litiere',
+  'promenade',
+  'exercice',
+  'brossage',
+  'hygiene',
+  'entrainement',
+  'controle_materiel',
+] as const;
 const frequencies = [
   'daily',
   'every_2_days',
@@ -23,6 +39,7 @@ export class CreateRoutineDto {
   @IsOptional()
   @IsString()
   @MinLength(1)
+  @MaxLength(100)
   name?: string;
 
   @IsString()
@@ -34,7 +51,7 @@ export class CreateRoutineDto {
   frequency: string;
 
   @IsObject()
-  schedule: any; // JSON object with horaires, saison, params personnalisés
+  schedule: Prisma.InputJsonObject; // JSON object with horaires, saison, params personnalisés
 
   @IsOptional()
   @IsBoolean()
@@ -45,6 +62,7 @@ export class UpdateRoutineDto {
   @IsOptional()
   @IsString()
   @MinLength(1)
+  @MaxLength(100)
   name?: string;
 
   @IsOptional()
@@ -59,7 +77,7 @@ export class UpdateRoutineDto {
 
   @IsOptional()
   @IsObject()
-  schedule?: any;
+  schedule?: Prisma.InputJsonObject;
 
   @IsOptional()
   @IsBoolean()
@@ -69,9 +87,11 @@ export class UpdateRoutineDto {
 export class CreateActionLogDto {
   @IsString()
   @MinLength(1)
+  @MaxLength(50)
   type: string;
 
   @IsOptional()
   @IsString()
+  @MaxLength(1000)
   note?: string;
 }
