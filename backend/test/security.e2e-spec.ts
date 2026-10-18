@@ -36,7 +36,9 @@ describe('Security Tests', () => {
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
       credentials: false,
     });
-    await app.init();
+    // Concurrent requests must share a persistent listener rather than letting
+    // Supertest close an ephemeral server while other requests are in flight.
+    await app.listen(0, '127.0.0.1');
     
     prisma = app.get(PrismaService);
 

@@ -4,20 +4,23 @@ on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
   schedule:
     - cron: "0 6 * * 1"
 
 jobs:
   audit:
+    name: audit-${{ matrix.directory }}
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        directory: [backend, frontend]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Audit backend
-        working-directory: backend
-        run: npm audit --audit-level=high
-      - name: Audit frontend
-        working-directory: frontend
+      - name: Audit dependencies (including development tools)
+        working-directory: ${{ matrix.directory }}
         run: npm audit --audit-level=high

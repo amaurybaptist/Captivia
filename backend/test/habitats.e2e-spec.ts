@@ -10,6 +10,7 @@ import { PrismaService } from '../src/prisma/prisma.service';
 import { PrismaModule } from '../src/prisma/prisma.module';
 import { AuthModule } from '../src/auth/auth.module';
 import { HabitatsModule } from '../src/habitats/habitats.module';
+import { assertIsolatedDatabase } from './isolated-database';
 
 jest.setTimeout(30000);
 const speciesId = 2147482100;
@@ -78,8 +79,7 @@ describe('Habitats — HTTP/JWT/PostgreSQL réel isolé', () => {
       snapshot: ReturnType<typeof snapshot>;
     };
   beforeAll(async () => {
-    if (!process.env.DATABASE_URL?.includes(':55434/captivia_habitats_test'))
-      throw new Error('Cette suite exige la base de vérification isolée.');
+    assertIsolatedDatabase('55434', 'captivia_habitats_test');
     const module = await Test.createTestingModule({
       imports: [
         ConfigModule.forRoot({ isGlobal: true }),
@@ -123,7 +123,11 @@ describe('Habitats — HTTP/JWT/PostgreSQL réel isolé', () => {
     tokenB = jwt.sign({ sub: b.id });
   });
   afterEach(async () => {
-    await prisma.user.deleteMany({ where: { id: { in: [a.id, b.id] } } });
+    if (prisma) {
+      await prisma.user.deleteMany({
+        where: { id: { in: [a?.id, b?.id].filter((id): id is string => !!id) } },
+      });
+    }
   });
   afterAll(async () => {
     if (prisma) await prisma.speciesProfile.delete({ where: { speciesId } });
