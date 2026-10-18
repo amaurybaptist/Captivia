@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "33c5df6bf0e7c0ecdf20ddaa1ae939bf61caf78fdc55b6048f56b12a3a347930",
+  "locale": "en",
+  "questions": [
+    {
+      "id": "insects-001",
+      "animal": "Insects",
+      "prompt": "How many pairs of legs does an adult insect have?",
+      "options": [
+        "Three",
+        "Two",
+        "Four",
+        "Eight"
+      ],
+      "explanation": "The body plan of insects includes three pairs of legs attached to the thorax.",
+      "didYouKnow": "In odonates, the larvae live in water while the adults move through the air.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-002",
+      "animal": "Insects",
+      "prompt": "How many large regions is a typical insect's body divided into?",
+      "options": [
+        "Three: head, thorax and abdomen",
+        "Two: head and abdomen",
+        "Four: head, thorax, abdomen and caudal appendages",
+        "Five: head, neck, thorax, abdomen and tail"
+      ],
+      "explanation": "The head carries the sensory organs and the mouth, the thorax the legs and often the wings, and the abdomen contains several internal organs.",
+      "didYouKnow": "Insects are part of the arthropods, a group that also includes spiders and crustaceans.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-003",
+      "animal": "Insects",
+      "prompt": "What material primarily forms the exoskeleton of insects?",
+      "options": [
+        "Chitin",
+        "Cellulose",
+        "Calcium carbonate",
+        "Keratin"
+      ],
+      "explanation": "The outer cuticle contains chitin and proteins and protects the body.",
+      "didYouKnow": "Chitin is also found in the cell wall of fungi.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-004",
+      "animal": "Insects",
+      "prompt": "How do insects generally breathe?",
+      "options": [
+        "Through a network of tracheae that opens to the outside through spiracles",
+        "Through lungs connected to the mouth",
+        "Through gills beneath the abdomen",
+        "By absorbing oxygen only through the legs"
+      ],
+      "explanation": "Air enters through openings called spiracles and travels through tracheae to the tissues.",
+      "didYouKnow": "Most insects also have a dorsal tubular heart that circulates hemolymph.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-005",
+      "animal": "Insects",
+      "prompt": "What are the main purposes of an insect’s antennae?",
+      "options": [
+        "To detect sensory signals, including odors",
+        "To perceive ambient light",
+        "To propel the insect in flight",
+        "To pump the blood"
+      ],
+      "explanation": "The antennas carry receptors sensitive to odors, contacts and sometimes air movements.",
+      "didYouKnow": "Many moths have hearing organs that detect ultrasound from bats.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-006",
+      "animal": "Gerridae",
+      "prompt": "How do gerrids, like water skaters, move across the surface of a pond?",
+      "options": [
+        "They distribute their weight on hydrophobic legs without breaking surface tension",
+        "They swim below the surface by propelling their fringed hind legs",
+        "They cling to emerged plants to move out of the water",
+        "They propel themselves by expelling a jet of water from the abdomen"
+      ],
+      "explanation": "Hydrophobic hairs on the legs distribute weight and repel water, allowing movement on the surface.",
+      "didYouKnow": "The females of some gerrids lay their eggs on plants or floating objects.",
+      "imageCaption": "Water skater"
+    },
+    {
+      "id": "insects-007",
+      "animal": "Insects",
+      "prompt": "Why does an insect have to molt to grow?",
+      "options": [
+        "Its rigid cuticle does not continually grow with it",
+        "Its bony shell cannot stretch",
+        "He must renew his blood to grow",
+        "Its wings must grow back each season"
+      ],
+      "explanation": "The rigid exoskeleton is periodically replaced by a larger cuticle.",
+      "didYouKnow": "Insects are part of arthropods, like spiders and crustaceans.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-008",
+      "animal": "Insects",
+      "prompt": "What are the respiratory openings visible on the bodies of many insects called?",
+      "options": [
+        "Spiracles",
+        "Tracheae",
+        "Air sacs",
+        "Gills"
+      ],
+      "explanation": "Spiracles open into the tracheal system and are often located on the thorax and abdomen.",
+      "didYouKnow": "In winged insects, the wings attach to the mesothorax and metathorax.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-009",
+      "animal": "Insects",
+      "prompt": "What type of internal circulation do most insects have?",
+      "options": [
+        "An open circulation with hemolymph",
+        "A closed circulation where the blood remains in a network of vessels",
+        "A dual circulation separating oxygenated and non-oxygenated blood",
+        "An open circulation whose fluid is propelled by several peripheral cores"
+      ],
+      "explanation": "Hemolymph bathes the organs in the body cavity; it generally does not transport oxygen.",
+      "didYouKnow": "The compound eyes of many insects are made up of thousands of visual units called ommatidia.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-010",
+      "animal": "Insects",
+      "prompt": "What is the role of the palps around the mouth in various insects?",
+      "options": [
+        "Help handle and smell food",
+        "Holding the wings in place during flight",
+        "Direct the air towards the spiracles",
+        "Attach the insect to the plant while it feeds"
+      ],
+      "explanation": "Palps are sensory appendages associated with the mouthparts.",
+      "didYouKnow": "In many species, taste receptors are also found on the legs, notably the tarsi.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-011",
+      "animal": "Beetles",
+      "prompt": "What are the elytra of beetles?",
+      "options": [
+        "Hardened forewings that protect the hindwings",
+        "Membranous hindwings used to steer",
+        "Gills beneath the wing covers",
+        "Jointed plates that cover the legs"
+      ],
+      "explanation": "Elytra form a protective cover over the folded flight wings.",
+      "didYouKnow": "Some beetles, such as ground beetles, have reduced hind wings and fly little.",
+      "imageCaption": "Seven-spotted ladybug"
+    },
+    {
+      "id": "insects-012",
+      "animal": "Ladybugs",
+      "prompt": "What do many adult and larval ladybugs feed on?",
+      "options": [
+        "Aphids and other small arthropods",
+        "Nectar and pollen",
+        "Leaves and seeds",
+        "Of wood and bark"
+      ],
+      "explanation": "Many species are predatory and help limit aphid populations.",
+      "didYouKnow": "Some ladybugs secrete a defensive liquid when disturbed.",
+      "imageCaption": "Seven-spotted ladybug"
+    },
+    {
+      "id": "insects-013",
+      "animal": "Stag beetles",
+      "prompt": "What are the main purposes of the large mandibles of the male stag beetle?",
+      "options": [
+        "Fighting and grappling with rival males",
+        "To seize prey",
+        "To filter particles in water",
+        "To pierce leaves to lay eggs"
+      ],
+      "explanation": "The enlarged mandibles are mainly used during competitive fights between males.",
+      "didYouKnow": "The larvae live for several years in dead wood.",
+      "imageCaption": "stag beetle kite"
+    },
+    {
+      "id": "insects-014",
+      "animal": "Lampyrids",
+      "prompt": "What signal do fireflies often use to attract a mate?",
+      "options": [
+        "Light produced by bioluminescence",
+        "A sound produced by the elytra",
+        "A silk trail",
+        "An odorous secretion"
+      ],
+      "explanation": "Chemical reactions in light organs produce light signals.",
+      "didYouKnow": "Fireflies are beetles, although their light signals are reminiscent of glow worms.",
+      "imageCaption": "Glowworm"
+    },
+    {
+      "id": "insects-015",
+      "animal": "Buprestes",
+      "prompt": "What appearance is common in adult buprestids?",
+      "options": [
+        "Metallic reflections on the elytra",
+        "Scaly forewings",
+        "An abdominal stinger",
+        "Long jumping legs"
+      ],
+      "explanation": "Many buprestids have iridescent colors due to the structure of their cuticle.",
+      "didYouKnow": "The larvae of several species burrow under the bark or in the wood.",
+      "imageCaption": "Bupreste"
+    },
+    {
+      "id": "insects-016",
+      "animal": "Weevils",
+      "prompt": "What trait is often used to recognize a weevil?",
+      "options": [
+        "A rostrum carrying the mouthparts",
+        "Forewings in half elytra",
+        "Delightful paws",
+        "Antennae ending in a fan"
+      ],
+      "explanation": "The head of weevils often extends into a rostrum, which bears the mouthparts.",
+      "didYouKnow": "Weevils form one of the most species-rich groups among beetles.",
+      "imageCaption": "Acorn weevil"
+    },
+    {
+      "id": "insects-017",
+      "animal": "Beetles",
+      "prompt": "Which sense is enhanced by the fan-like antennal plates of many scarab beetles?",
+      "options": [
+        "The sense of smell",
+        "The vision",
+        "The hearing",
+        "The taste"
+      ],
+      "explanation": "The antennal lamellae carry olfactory receptors and can open fan-shaped.",
+      "didYouKnow": "In many beetles, the larvae live in the soil or in decaying wood.",
+      "imageCaption": "European Rhinoceros Beetle"
+    },
+    {
+      "id": "insects-018",
+      "animal": "Dytiscidae",
+      "prompt": "How do adult diving beetles breathe when swimming underwater?",
+      "options": [
+        "They carry a reserve of air under their elytra",
+        "Through tracheal gills",
+        "By lungs",
+        "By holding their breath until they reach the surface"
+      ],
+      "explanation": "They store a bubble of air under the elytra and periodically come up to renew this reserve.",
+      "didYouKnow": "Water beetle larvae are aquatic predators with strong mandibles.",
+      "imageCaption": "Bordered dyticus"
+    },
+    {
+      "id": "insects-019",
+      "animal": "Carabids",
+      "prompt": "What is the common lifestyle of adult ground beetles?",
+      "options": [
+        "Land hunters often active at night",
+        "Specialized flower herbivores",
+        "Internal fish parasites",
+        "Aquatic filter feeders"
+      ],
+      "explanation": "Many ground beetles roam the ground and hunt slugs, caterpillars or other invertebrates.",
+      "didYouKnow": "Some species of ground beetles produce defensive secretions.",
+      "imageCaption": "Golden carabid"
+    },
+    {
+      "id": "insects-020",
+      "animal": "Beetles",
+      "prompt": "What transformation does a beetle larva undergo before becoming an adult?",
+      "options": [
+        "It passes through a pupal stage",
+        "It becomes a nymph that gradually grows wings",
+        "It molts once directly into an adult",
+        "It remains inside the egg until fully developed"
+      ],
+      "explanation": "Beetles undergo complete metamorphosis: egg, larva, pupa and adult.",
+      "didYouKnow": "Adults of many beetles have elytra above the abdomen.",
+      "imageCaption": "Seven-spotted ladybug"
+    },
+    {
+      "id": "insects-021",
+      "animal": "Cockchafers",
+      "prompt": "What do the white grubs of cockchafers often eat?",
+      "options": [
+        "Roots in the ground",
+        "Floral nectar",
+        "Small aquatic animals",
+        "Animal debris"
+      ],
+      "explanation": "Cockchafer larvae live underground and often feed on plant roots.",
+      "didYouKnow": "Their larval development can last more than one season.",
+      "imageCaption": "Common cockchafer"
+    },
+    {
+      "id": "insects-022",
+      "animal": "Dung beetles",
+      "prompt": "What ecological role do dung beetles perform by burying excrement?",
+      "options": [
+        "They recycle nutrients and enrich the soil",
+        "They pollinate forest trees",
+        "They enrich the soil with marine minerals",
+        "They degrade rocks"
+      ],
+      "explanation": "Burying manure accelerates material recycling and can improve the soil.",
+      "didYouKnow": "Some dung beetles can guide their movement based on the sun or polarized light.",
+      "imageCaption": "Sacred dung beetle"
+    },
+    {
+      "id": "insects-023",
+      "animal": "Tenebrionidae",
+      "prompt": "Why is the mealworm grown in laboratories and farms?",
+      "options": [
+        "Its larvae are easy to maintain and serve as a model or food",
+        "It produces honey",
+        "It supplies commercial silk",
+        "It is bred as a predator of mosquitoes"
+      ],
+      "explanation": "The larva, called a mealworm, is used in research and as animal food.",
+      "didYouKnow": "The adult is a dark beetle from the darkling beetle family.",
+      "imageCaption": "Mealworm"
+    },
+    {
+      "id": "insects-024",
+      "animal": "Longhorn beetles",
+      "prompt": "What trait is particularly marked in many longhorned beetles?",
+      "options": [
+        "Very long antennae",
+        "Swimming hind legs",
+        "Hind wings covered in scales",
+        "An elongated rostrum"
+      ],
+      "explanation": "The antennae are often as long as the body or longer.",
+      "didYouKnow": "The larvae of many species develop in wood.",
+      "imageCaption": "Rosalie of the Alps"
+    },
+    {
+      "id": "insects-025",
+      "animal": "Beetles",
+      "prompt": "What is special about the functional hindwings of beetles?",
+      "options": [
+        "They are membranous and folded under the elytra",
+        "They fold over the elytra",
+        "They are replaced by pendulums",
+        "They serve as protection for the forewings"
+      ],
+      "explanation": "In species capable of flight, the membranous hindwings fold under the elytra.",
+      "didYouKnow": "The adults of many beetles have glands that release defensive substances.",
+      "imageCaption": "Seven-spotted ladybug"
+    },
+    {
+      "id": "insects-026",
+      "animal": "Lepidoptera",
+      "prompt": "What general difference distinguishes day butterflies from many resting moths?",
+      "options": [
+        "Day butterflies often hold their wings raised, moths spread them or fold them into a roof",
+        "Moths often keep their wings raised",
+        "Butterflies generally fold their wings under the body",
+        "Moths always have smaller wings"
+      ],
+      "explanation": "This posture is a general trend, with exceptions in both groups.",
+      "didYouKnow": "Lepidoptera's wings are covered in microscopic scales that give them their patterns and colors.",
+      "imageCaption": "Vulcan"
+    },
+    {
+      "id": "insects-027",
+      "animal": "Lepidoptera",
+      "prompt": "What are the wings of butterflies and moths covered with?",
+      "options": [
+        "Tiny scales",
+        "Of feathers",
+        "Dense hair",
+        "Smooth chitin plates"
+      ],
+      "explanation": "Scales are flattened expansions of the cuticle and often bear pigment or colored structures.",
+      "didYouKnow": "Butterflies can perceive sweet substances with receptors located on their legs.",
+      "imageCaption": "Vulcan"
+    },
+    {
+      "id": "insects-028",
+      "animal": "Caterpillars",
+      "prompt": "What function do a caterpillar’s abdominal prolegs serve?",
+      "options": [
+        "They help it to grip and move",
+        "They become the wings of the adult",
+        "They have mouthparts",
+        "They are used to breathe in water"
+      ],
+      "explanation": "The prolegs are flexible larval appendages, distinct from the true thoracic legs.",
+      "didYouKnow": "Some caterpillars may have defensive hairs or spines.",
+      "imageCaption": "swallowtail caterpillar"
+    },
+    {
+      "id": "insects-029",
+      "animal": "Lepidoptera",
+      "prompt": "What is the purpose of the coiled proboscis of many adult butterflies?",
+      "options": [
+        "To suck up liquids like nectar",
+        "To grind the seeds",
+        "To capture prey",
+        "To place the eggs in the wood"
+      ],
+      "explanation": "The proboscis is formed by elongated mouthparts and curls when resting in many species.",
+      "didYouKnow": "Some species of adult butterflies do not feed and live on reserves accumulated during the larval stage.",
+      "imageCaption": "Vulcan"
+    },
+    {
+      "id": "insects-030",
+      "animal": "Lepidoptera",
+      "prompt": "What is the role of host plants for caterpillars?",
+      "options": [
+        "They provide larval food for many species",
+        "Females of all species necessarily lay eggs there.",
+        "They provide nectar directly to adults",
+        "They are used as material to make elytra"
+      ],
+      "explanation": "Most caterpillars eat plants, sometimes a very narrow range of species.",
+      "didYouKnow": "Some caterpillars have colors that make them difficult to spot on their host plant.",
+      "imageCaption": "Vulcan"
+    },
+    {
+      "id": "insects-031",
+      "animal": "Domestic silkworm",
+      "prompt": "What do domestic silkworm caterpillars eat?",
+      "options": [
+        "Mulberry leaves",
+        "Conifer needles",
+        "Flower nectar",
+        "Decaying wood"
+      ],
+      "explanation": "Traditional bombyx breeding mainly uses mulberry leaves.",
+      "didYouKnow": "Adults of the domesticated mulberry bombyx generally do not feed, because their mouthparts are reduced.",
+      "imageCaption": "Domestic silkworm"
+    },
+    {
+      "id": "insects-032",
+      "animal": "Lepidoptera",
+      "prompt": "How does a butterfly caterpillar become an adult?",
+      "options": [
+        "It transforms through a pupal stage, often called a chrysalis",
+        "It grows into a nymph that gradually develops wings",
+        "It molts directly into a smaller adult",
+        "It remains a caterpillar throughout its life"
+      ],
+      "explanation": "Butterflies undergo complete metamorphosis, and the chrysalis is their pupal stage.",
+      "didYouKnow": "Adults of some moths have reduced wings and do not feed.",
+      "imageCaption": "Vulcan"
+    },
+    {
+      "id": "insects-033",
+      "animal": "Monarchs",
+      "prompt": "Why do migratory monarch butterflies gather in large groups to overwinter?",
+      "options": [
+        "They spend the winter in suitable sheltered sites, often in dense clusters",
+        "They gather to feed on nectar produced by winter flowers",
+        "They form groups to mate continuously throughout winter",
+        "They migrate together to lay eggs before the cold season"
+      ],
+      "explanation": "Migratory monarchs in North America overwinter at specific sites, often clustered together.",
+      "didYouKnow": "The monarch is a butterfly of the family Nymphalidae.",
+      "imageCaption": "Monarch"
+    },
+    {
+      "id": "insects-034",
+      "animal": "Sphinx",
+      "prompt": "How can some hawkmoths feed on deep flowers?",
+      "options": [
+        "They have a long proboscis to reach the nectar",
+        "They pierce the corolla with their mandibles",
+        "They absorb nectar through their legs",
+        "They take nectar from the peduncle"
+      ],
+      "explanation": "The long proboscis of certain hawkmoths allows them to reach the nectar at the bottom of tubular corollas.",
+      "didYouKnow": "Sphinx moths often have streamlined bodies and narrow wings adapted for rapid flight.",
+      "imageCaption": "Bindweed hawk moth"
+    },
+    {
+      "id": "insects-035",
+      "animal": "Hymenoptera",
+      "prompt": "Which trait is common in adult Hymenoptera?",
+      "options": [
+        "Two pairs of membranous wings, sometimes reduced or absent",
+        "Two pairs of elytra",
+        "A pair of wings with pendulums",
+        "Scaly wings"
+      ],
+      "explanation": "Most winged hymenoptera have two pairs of wings coupled by small hooks.",
+      "didYouKnow": "Ants and bees share the order Hymenoptera with wasps.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-036",
+      "animal": "Bees",
+      "prompt": "What do honey bees collect from flowers to make honey?",
+      "options": [
+        "Nectar",
+        "Pollen to directly make honey",
+        "Leaf sap",
+        "Plant wax"
+      ],
+      "explanation": "Bees process and dehydrate nectar in the hive to produce honey.",
+      "didYouKnow": "Honey bees use propolis, a plant resin, to seal certain cracks in the hive.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-037",
+      "animal": "Bees",
+      "prompt": "What role does pollen play in the reproduction of flowering plants?",
+      "options": [
+        "Pollen carries the male gametophyte to the stigma, then a pollen tube can grow toward the ovule",
+        "Pollen directly supplies sugar to eggs before fertilization",
+        "Pollen nourishes the embryo once the seed has formed",
+        "Pollen contains the female gametophyte of the plant"
+      ],
+      "explanation": "The pollen grain carries the male gametophyte. After compatible pollen has been deposited on the stigma, a pollen tube can carry the male gametes to the ovule.",
+      "didYouKnow": "Bees can also perceive ultraviolet light, invisible to the human eye.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-038",
+      "animal": "Bees",
+      "prompt": "How does a honey bee often indicate a distant food source?",
+      "options": [
+        "A waggle dance that conveys direction and distance",
+        "By a circular dance which indicates a distant resource with its precise orientation",
+        "By depositing a trail of pheromones from the hive to the flower",
+        "By producing a continuous sound whose frequency indicates the cardinal point"
+      ],
+      "explanation": "The wriggling dance transmits to its conspecifics information about the direction and distance of a resource.",
+      "didYouKnow": "Worker bees flap their wings at the entrance to the hive to help with ventilation.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-039",
+      "animal": "Bees",
+      "prompt": "Which individual lays the majority of eggs in a honey bee colony?",
+      "options": [
+        "The queen",
+        "Workers in equal proportions",
+        "The drones",
+        "Old larvae"
+      ],
+      "explanation": "The queen is the main reproductive female of the colony.",
+      "didYouKnow": "The queen honey bee can live for several years, much longer than a summer worker.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-040",
+      "animal": "Bees",
+      "prompt": "What is the role of drones in a honey bee colony?",
+      "options": [
+        "Fertilizing a queen during the nuptial flight",
+        "Collect nectar for the colony",
+        "Build the wax combs",
+        "Defend the hive against predators"
+      ],
+      "explanation": "Males mate with queens during nuptial flights.",
+      "didYouKnow": "Drones do not have a sting.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-041",
+      "animal": "Bees",
+      "prompt": "Why can worker honey bees sting a threat?",
+      "options": [
+        "Their stinger is a modified egg-laying structure",
+        "They have a venomous mouthpart used to bite",
+        "They produce a stinging fluid through their legs",
+        "They use a sharp tip on the end of each antenna"
+      ],
+      "explanation": "The worker bee’s stinger is a structure derived from the ancestral ovipositor.",
+      "didYouKnow": "Honey bees also communicate the location of resources through a wagging dance.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-042",
+      "animal": "Bumblebees",
+      "prompt": "How do bumblebees help pollinate certain flowers?",
+      "options": [
+        "They vibrate the anthers to release pollen",
+        "They collect the pollen already released without vibrating the flower",
+        "They pierce the corolla to reach the nectar without touching the anthers",
+        "They deposit pollen on the flowers by rubbing their abdomen against them"
+      ],
+      "explanation": "Vibratile pollination, or “buzz pollination”, releases pollen from certain anthers.",
+      "didYouKnow": "Bumblebee colonies are generally annual; only young fertilized queens spend the winter.",
+      "imageCaption": "Ground Bumblebee"
+    },
+    {
+      "id": "insects-043",
+      "animal": "Ants",
+      "prompt": "What chemical signal often helps ants follow a trail to food?",
+      "options": [
+        "Pheromones",
+        "Digestive enzymes",
+        "Cuticular pigments",
+        "Molting hormones"
+      ],
+      "explanation": "Ants lay down trail pheromones that their ants can follow.",
+      "didYouKnow": "Some ants breed aphids and collect the honeydew they excrete.",
+      "imageCaption": "Black garden ant"
+    },
+    {
+      "id": "insects-044",
+      "animal": "Ants",
+      "prompt": "What does the term “supercolony” mean for certain ants?",
+      "options": [
+        "An extensive nest network whose members cooperate extensively",
+        "A unique, very large nest",
+        "A group composed only of queens",
+        "A set of nests where the workers are aggressive among themselves"
+      ],
+      "explanation": "Connected nests can form a large society with little aggression between individuals.",
+      "didYouKnow": "The Argentine ant is native to South America.",
+      "imageCaption": "Argentine Ant"
+    },
+    {
+      "id": "insects-045",
+      "animal": "Leafcutter ants",
+      "prompt": "What are the pieces of leaves carried by leaf-cutter ants used for?",
+      "options": [
+        "To cultivate the fungus on which they feed",
+        "To feed the larvae directly",
+        "To build the paper nest",
+        "To make the queen's wings"
+      ],
+      "explanation": "The leaves serve as a substrate for a fungus grown in the nest.",
+      "didYouKnow": "Leaf-cutter ants have a queen that can live for several years.",
+      "imageCaption": "Leafcutter ant"
+    },
+    {
+      "id": "insects-046",
+      "animal": "Parasitoid wasps",
+      "prompt": "How does a parasitoid wasp often use a host?",
+      "options": [
+        "It lays eggs in or on a host, where its larva develops at its expense",
+        "It captures several preys and stores them in a cell for its larva",
+        "It lays eggs in the tissues of a plant, where its larva consumes the leaves",
+        "It paralyzes an insect then consumes it itself without laying eggs."
+      ],
+      "explanation": "The parasitoid larva feeds on the host and usually ends up killing it.",
+      "didYouKnow": "Many parasitoid wasps are small enough to go unnoticed.",
+      "imageCaption": "Parasitoid wasp"
+    },
+    {
+      "id": "insects-047",
+      "animal": "Social wasps",
+      "prompt": "What are the paper nests of many social wasps made of?",
+      "options": [
+        "Chewed plant fibers mixed with saliva",
+        "Mud mixed with pollen and nectar",
+        "Woven silk coated with wax",
+        "Leaves stitched together with plant fibers"
+      ],
+      "explanation": "Wasps chew wood fibers and assemble them into paper-like cells.",
+      "didYouKnow": "Nests are often attached to branches, buildings or cavities.",
+      "imageCaption": "German wasp"
+    },
+    {
+      "id": "insects-048",
+      "animal": "Sawflies",
+      "prompt": "What is the purpose of the saw-shaped ovipositor of female sawflies?",
+      "options": [
+        "To cut into plant tissue to place eggs",
+        "To cut pieces of leaves to feed adults",
+        "To dig a gallery in the ground before laying eggs",
+        "To pierce prey to inject venom"
+      ],
+      "explanation": "The females of many sawflies use their serrated ovipositors to open a slit in a leaf or stem and lay eggs.",
+      "didYouKnow": "Sawflies belong to the Hymenoptera, but do not have the constricted size typical of apocrite wasps.",
+      "imageCaption": "Rose sawfly"
+    },
+    {
+      "id": "insects-049",
+      "animal": "Diptera",
+      "prompt": "How many pairs of functional wings do Diptera typically have?",
+      "options": [
+        "A pair",
+        "Two pairs of membranous wings",
+        "Three pairs",
+        "No wings in all Diptera"
+      ],
+      "explanation": "Diptera have a pair of forewings; the rear pair is transformed into pendulums.",
+      "didYouKnow": "The larvae of many flies live in water, soil or decaying organic matter.",
+      "imageCaption": "House fly"
+    },
+    {
+      "id": "insects-050",
+      "animal": "Flies",
+      "prompt": "What are the halteres of flies used for?",
+      "options": [
+        "Sensing rotations and helping stabilize flight",
+        "Collecting pollen from flowers",
+        "Producing sound to attract mates",
+        "Sensing odors in the air"
+      ],
+      "explanation": "Halteres are sensory organs that help control balance and flight maneuvers.",
+      "didYouKnow": "Flies' feet have adhesive pads that help them walk on smooth surfaces.",
+      "imageCaption": "House fly"
+    },
+    {
+      "id": "insects-051",
+      "animal": "Flies",
+      "prompt": "How does a housefly taste a surface?",
+      "options": [
+        "With taste receptors located particularly on its legs",
+        "With his wings",
+        "With the spiracles of the thorax",
+        "With the pendulums"
+      ],
+      "explanation": "Sensory receptors in the paws can detect food compounds.",
+      "didYouKnow": "Houseflies have compound eyes that cover a large portion of the head.",
+      "imageCaption": "House fly"
+    },
+    {
+      "id": "insects-052",
+      "animal": "Mosquitoes",
+      "prompt": "What fluid do females of many mosquito species seek out to produce their eggs?",
+      "options": [
+        "Blood, rich in nutrients",
+        "Nectar",
+        "Sap",
+        "Pollen"
+      ],
+      "explanation": "In many species, the blood meal provides nutrients necessary for egg development.",
+      "didYouKnow": "Many species of mosquitoes lay their eggs in or near water, where the larvae develop.",
+      "imageCaption": "Common mosquito"
+    },
+    {
+      "id": "insects-053",
+      "animal": "Mosquitoes",
+      "prompt": "Where do mosquito larvae most often develop?",
+      "options": [
+        "In the water",
+        "In the wood galleries",
+        "In earthly flowers",
+        "In bird nests"
+      ],
+      "explanation": "Aquatic larvae filter or graze on particles in the water.",
+      "didYouKnow": "Male mosquitoes of certain species form parade swarms where females come to mate.",
+      "imageCaption": "Common mosquito"
+    },
+    {
+      "id": "insects-054",
+      "animal": "Mosquitoes",
+      "prompt": "How does a mosquito larva often breathe at the water surface?",
+      "options": [
+        "Through a breathing siphon or spiracles at the surface",
+        "By external tracheal gills which extract dissolved oxygen",
+        "By exchanges through the cuticle without going up",
+        "By spiracles located at the end of the legs"
+      ],
+      "explanation": "Many larvae reach the surface and take in air through a tube or through spiracles.",
+      "didYouKnow": "In many mosquitoes, males detect females by the sounds of their wingbeats.",
+      "imageCaption": "Common mosquito"
+    },
+    {
+      "id": "insects-055",
+      "animal": "Hoverflies",
+      "prompt": "How can you often tell a hoverfly from a wasp that it imitates?",
+      "options": [
+        "The hoverfly has only one pair of wings and can hover",
+        "The hoverfly has four scaly wings",
+        "The hoverfly has eight legs",
+        "The hoverfly carries a venomous sting"
+      ],
+      "explanation": "Hoverflies are harmless dipterans, some of which mimic the appearance of wasps.",
+      "didYouKnow": "The larvae of many hoverflies feed on aphids.",
+      "imageCaption": "Belted hoverfly"
+    },
+    {
+      "id": "insects-056",
+      "animal": "Blue flies",
+      "prompt": "What role do scavenging fly maggots often play in an ecosystem?",
+      "options": [
+        "They consume dead animal tissues and accelerate their decomposition",
+        "They pollinate conifers",
+        "They make wax",
+        "They hunt fish"
+      ],
+      "explanation": "Scavenging larvae participate in the recycling of animal matter.",
+      "didYouKnow": "Adult bluebottles often have metallic blue or green bodies.",
+      "imageCaption": "Blue fly"
+    },
+    {
+      "id": "insects-057",
+      "animal": "Drosophila",
+      "prompt": "Why has Drosophila melanogaster become a model organism in biology?",
+      "options": [
+        "Its short life cycle and genetics are easy to study",
+        "It has a larger brain than other flies",
+        "It has a life cycle of several years",
+        "It is difficult to grow in the laboratory"
+      ],
+      "explanation": "This small fly reproduces quickly and has enabled numerous discoveries in genetics.",
+      "didYouKnow": "Male fruit flies produce courtship signals that include wing vibrations.",
+      "imageCaption": "Vinegar Drosophila"
+    },
+    {
+      "id": "insects-058",
+      "animal": "Horseflies",
+      "prompt": "How do female horseflies sometimes get the blood they need for their eggs?",
+      "options": [
+        "They cut or nick the skin with powerful mouthparts",
+        "They sting with a sting",
+        "They absorb blood through their paws",
+        "They capture mosquitoes engorged with blood"
+      ],
+      "explanation": "The sharp mouthparts create a small wound from which blood is sucked.",
+      "didYouKnow": "In many horseflies, the eyes of males touch at the top of the head, while those of females do not.",
+      "imageCaption": "Cattle gadfly"
+    },
+    {
+      "id": "insects-059",
+      "animal": "Diptera",
+      "prompt": "What is the common larval form of Diptera?",
+      "options": [
+        "A maggot without true thoracic legs",
+        "A caterpillar with false legs",
+        "A nymph with wings",
+        "A larva with articulated legs and elytra"
+      ],
+      "explanation": "The larvae of many flies are maggots that lack jointed legs.",
+      "didYouKnow": "The larvae of certain Diptera live in aquatic environments.",
+      "imageCaption": "House fly"
+    },
+    {
+      "id": "insects-060",
+      "animal": "Orthoptera",
+      "prompt": "What hind leg trait helps many grasshoppers jump?",
+      "options": [
+        "Powerful and enlarged femurs",
+        "Suction cups",
+        "Fins",
+        "Pliers"
+      ],
+      "explanation": "The muscular posterior femurs provide the power for jumping.",
+      "didYouKnow": "The females of many grasshoppers deposit their eggs in the ground using their abdomen.",
+      "imageCaption": "Migratory locust"
+    },
+    {
+      "id": "insects-061",
+      "animal": "Locusts",
+      "prompt": "How do locusts often produce their song?",
+      "options": [
+        "By rubbing one part of the body against another",
+        "By rubbing the abdomen against a wing",
+        "By clicking the mandibles",
+        "By hitting the wings against a surface"
+      ],
+      "explanation": "Many grasshoppers chirp by rubbing a row of teeth against part of the wing or leg.",
+      "didYouKnow": "Locusts often have a coloration that makes them less visible in vegetation.",
+      "imageCaption": "Migratory locust"
+    },
+    {
+      "id": "insects-062",
+      "animal": "Katydids",
+      "prompt": "How do the antennae of katydids generally compare with those of short-horned grasshoppers?",
+      "options": [
+        "They are often long, sometimes as long as the body",
+        "They are always shorter than the head",
+        "They are absent in adults",
+        "They are used as paddles when swimming"
+      ],
+      "explanation": "Long-horned grasshoppers typically have long antennae, whereas short-horned grasshoppers have shorter ones.",
+      "didYouKnow": "Grasshoppers and locusts both belong to the order Orthoptera.",
+      "imageCaption": "Large green grasshopper"
+    },
+    {
+      "id": "insects-063",
+      "animal": "Crickets",
+      "prompt": "What hearing organ is often found on the front legs of crickets?",
+      "options": [
+        "An eardrum",
+        "A pendulum",
+        "A membrane on the elytra",
+        "An abdominal olfactory organ"
+      ],
+      "explanation": "The eardrums of crickets are often placed on the front tibiae.",
+      "didYouKnow": "Female crickets deposit their eggs in a substrate using their ovipositor.",
+      "imageCaption": "Field cricket"
+    },
+    {
+      "id": "insects-064",
+      "animal": "Mantis",
+      "prompt": "How does a praying mantis primarily capture its prey?",
+      "options": [
+        "With spiny, grasping forelegs",
+        "With a venomous stinger on its abdomen",
+        "By trapping prey in a silk web",
+        "With its hind legs, which crush the prey"
+      ],
+      "explanation": "The folded, spiny forelegs seize prey.",
+      "didYouKnow": "The highly mobile head allows the mantis to visually track a target.",
+      "imageCaption": "Praying mantis"
+    },
+    {
+      "id": "insects-065",
+      "animal": "Mantis",
+      "prompt": "Why can a mantis' head rotate widely?",
+      "options": [
+        "Thanks to a specialized and very mobile cervical joint",
+        "Because the neck vertebrae are fused into a rigid rod",
+        "Because the eyes rotate in their sockets while the head remains fixed",
+        "Because the thorax rotates under a head fixed to the abdomen"
+      ],
+      "explanation": "The head can rotate more than in most insects thanks to a specialized joint.",
+      "didYouKnow": "Mantises have compound eyes and three small eyespots on the top of their heads.",
+      "imageCaption": "Praying mantis"
+    },
+    {
+      "id": "insects-066",
+      "animal": "stick insects",
+      "prompt": "What benefit does mimicry bring to many stick insects?",
+      "options": [
+        "They blend in with twigs or leaves",
+        "They attract their prey with bright light",
+        "They scare birds with a powerful sound",
+        "They hide underwater"
+      ],
+      "explanation": "The shape and color of stick insects make their detection more difficult among vegetation.",
+      "didYouKnow": "Stick insects belong to an order distinct from locusts and grasshoppers.",
+      "imageCaption": "Phyllie from the Philippines"
+    },
+    {
+      "id": "insects-067",
+      "animal": "Cockroaches",
+      "prompt": "What trait helps cockroaches detect air movement behind them?",
+      "options": [
+        "Sensory cerci at the end of the abdomen",
+        "Antennas that mainly detect odors in front of the head",
+        "Eardrums located on the front legs",
+        "Compound eyes that spot movements behind the body"
+      ],
+      "explanation": "Cerci carry receptors sensitive to air currents and can trigger a rapid escape.",
+      "didYouKnow": "Cockroaches can detect odors using receptors carried by their antennae.",
+      "imageCaption": "American cockroach"
+    },
+    {
+      "id": "insects-068",
+      "animal": "Cockroaches",
+      "prompt": "What ecological role do some cockroaches play in forests?",
+      "options": [
+        "Decompose dead plant matter",
+        "They mainly consume tree sap",
+        "They hunt all species of birds",
+        "They live exclusively in flowers"
+      ],
+      "explanation": "Several forest species consume dead leaves and contribute to recycling the material.",
+      "didYouKnow": "Most cockroach species live in the wild rather than in human habitation.",
+      "imageCaption": "Giant forest cockroach"
+    },
+    {
+      "id": "insects-069",
+      "animal": "Termites",
+      "prompt": "What zoological order are termites now a part of?",
+      "options": [
+        "Within the order Blattodea, with cockroaches",
+        "Within Hymenoptera, the same order as ants",
+        "Within the Orthoptera, the same order as the locusts",
+        "Within Hemiptera, the same order as bedbugs"
+      ],
+      "explanation": "Phylogenetic analyzes place termites within the order Blattodea, with cockroaches.",
+      "didYouKnow": "Winged termites leave their colony to swarm and found new nests.",
+      "imageCaption": "Savannah termite"
+    },
+    {
+      "id": "insects-070",
+      "animal": "Termites",
+      "prompt": "Which microbial partner helps many termites digest wood?",
+      "options": [
+        "Microorganisms living in their digestive tract",
+        "Bacteria in their wings",
+        "Algae on the cuticle",
+        "Viruses in the antennas"
+      ],
+      "explanation": "Gut microbes break down components of cellulose and lignin.",
+      "didYouKnow": "Winged termites leave the colony to swarm and found new nests.",
+      "imageCaption": "Thick-necked yellow termite"
+    },
+    {
+      "id": "insects-071",
+      "animal": "Termites",
+      "prompt": "How do soldier termites often protect the colony?",
+      "options": [
+        "With strong mandibles or defensive secretions",
+        "By blocking the entrance with their head",
+        "By laying eggs in the intruders",
+        "By weaving a web around the nest"
+      ],
+      "explanation": "Soldiers specialize in defense and may have mandibles or defensive glands.",
+      "didYouKnow": "Termite workers often have pale bodies and avoid light.",
+      "imageCaption": "Savannah termite"
+    },
+    {
+      "id": "insects-072",
+      "animal": "Odonates",
+      "prompt": "Where do dragonfly and damselfly larvae typically live?",
+      "options": [
+        "In fresh water",
+        "In the wood galleries",
+        "In ripe seeds",
+        "In the honeycombs"
+      ],
+      "explanation": "Aquatic larvae, called naiads, hunt small prey.",
+      "didYouKnow": "Adult odonates have large compound eyes that give them excellent motion detection.",
+      "imageCaption": "depressed dragonfly"
+    },
+    {
+      "id": "insects-073",
+      "animal": "Dragonflies",
+      "prompt": "How do dragonflies often capture their prey in flight?",
+      "options": [
+        "They intercept them with their legs forming a sort of basket",
+        "They catch them with a web",
+        "They suck them up with a trunk",
+        "They inject venom from a distance"
+      ],
+      "explanation": "Dragonflies are aerial predators and often grab insects with their legs.",
+      "didYouKnow": "Dragonflies' compound eyes take up a large portion of their heads.",
+      "imageCaption": "depressed dragonfly"
+    },
+    {
+      "id": "insects-074",
+      "animal": "Damselflies",
+      "prompt": "What wing posture is common among damselflies at rest?",
+      "options": [
+        "Wings folded along the body",
+        "Wings permanently spread",
+        "Wings crossed under the belly",
+        "Wings wrapped around antennae"
+      ],
+      "explanation": "Many damselflies fold their wings above the body when perched.",
+      "didYouKnow": "In damselflies, the eyes are generally separated on either side of the head.",
+      "imageCaption": "Elegant Agrion"
+    },
+    {
+      "id": "insects-075",
+      "animal": "Odonates",
+      "prompt": "How do odonates emerge from their larval stage?",
+      "options": [
+        "The larva leaves the water and the adult emerges from its old cuticle",
+        "The adult hatches from an egg laid underwater",
+        "The larva grows wings underwater and swims to shore",
+        "The larva turns into a pupa inside a waterproof cocoon"
+      ],
+      "explanation": "The final molt usually takes place out of the water, on a stem or another support.",
+      "didYouKnow": "Adult dragonflies cannot fold their wings flat along their abdomen.",
+      "imageCaption": "depressed dragonfly"
+    },
+    {
+      "id": "insects-076",
+      "animal": "Mayflies",
+      "prompt": "Why do the adults of many mayflies live a short time?",
+      "options": [
+        "The adult stage is mainly devoted to reproduction and often does not feed",
+        "They generally do not feed as adults.",
+        "They live a long time but only lay eggs once.",
+        "Their wings stop working after hatching"
+      ],
+      "explanation": "In many species, the adult does not feed and lives just long enough to reproduce.",
+      "didYouKnow": "Mayfly adults may emerge in large swarms above water.",
+      "imageCaption": "Common ephemeral"
+    },
+    {
+      "id": "insects-077",
+      "animal": "Mayflies",
+      "prompt": "Which insect has a unique intermediate winged stage called subimago?",
+      "options": [
+        "A mayfly",
+        "A dragonfly",
+        "A beetle",
+        "A butterfly"
+      ],
+      "explanation": "A mayfly molts once more after its first winged stage, the subimago.",
+      "didYouKnow": "The wings of adult mayflies are often erect vertically when at rest.",
+      "imageCaption": "Common ephemeral"
+    },
+    {
+      "id": "insects-078",
+      "animal": "Plecoptera",
+      "prompt": "What does the presence of stonefly larvae in a waterway often suggest?",
+      "options": [
+        "Well oxygenated water",
+        "Anoxic water",
+        "Marine water",
+        "Water contaminated by hydrocarbons"
+      ],
+      "explanation": "Many stonefly larvae are sensitive to lack of oxygen and pollution.",
+      "didYouKnow": "Stoneflies are sometimes called beadlets, after the appearance of several adult species.",
+      "imageCaption": "Common pearl"
+    },
+    {
+      "id": "insects-079",
+      "animal": "Trichoptera",
+      "prompt": "What do the larvae of many caddisflies make a sheath from?",
+      "options": [
+        "Silk combined with sand, twigs or other debris",
+        "Of scales",
+        "Of wax",
+        "Chitinous plaques secreted"
+      ],
+      "explanation": "The larvae secrete silk and incorporate materials available in their aquatic habitat.",
+      "didYouKnow": "Adult caddisflies often have threadlike antennae and long, narrow wings.",
+      "imageCaption": "Phrygane"
+    },
+    {
+      "id": "insects-080",
+      "animal": "Fleas",
+      "prompt": "How do adult fleas move efficiently on their host?",
+      "options": [
+        "Their laterally flattened bodies and jumping legs help them",
+        "They fly with wings",
+        "They swim in the fur",
+        "They attach with a suction cup"
+      ],
+      "explanation": "The laterally compressed body facilitates movement between the hairs, and the legs allow jumping.",
+      "didYouKnow": "Fleas can survive for some time without a blood meal between two hosts.",
+      "imageCaption": "cat flea"
+    },
+    {
+      "id": "insects-081",
+      "animal": "Lice",
+      "prompt": "How are lice often transmitted between hosts?",
+      "options": [
+        "By close contact between hosts",
+        "By biting vectors",
+        "When flying long distances",
+        "By an aquatic larval stage"
+      ],
+      "explanation": "Lice are wingless and move from person to person, often through direct contact.",
+      "didYouKnow": "Mammalian and bird lice are often closely adapted to their hosts.",
+      "imageCaption": "Head louse"
+    },
+    {
+      "id": "insects-082",
+      "animal": "Pigeon feather louse",
+      "prompt": "What does the pigeon feather louse, Columbicola columbae, primarily feed on?",
+      "options": [
+        "Of feather fragments",
+        "Dander and dead skin",
+        "Blood taken from the host",
+        "Fatty secretions at the base of the feathers"
+      ],
+      "explanation": "This chewing louse specializes in consuming material from its host's feathers. It is distinguished from lice which feed on blood.",
+      "didYouKnow": "The pigeon louse is wingless and flattened to move between feathers.",
+      "imageCaption": "Pigeon feather louse (Columbicola columbae)."
+    },
+    {
+      "id": "insects-083",
+      "animal": "Booklice",
+      "prompt": "Where are psocids commonly found?",
+      "options": [
+        "On mold, lichen or damp organic debris",
+        "In tropical flowers only",
+        "In marine environments",
+        "In bird nests only"
+      ],
+      "explanation": "Psocids often exploit microorganisms and debris present in wetlands.",
+      "didYouKnow": "Some species of psocids are nicknamed book lice, but are not parasitic lice.",
+      "imageCaption": "Psococerastis gibbosa, an example of a psocid living on bark."
+    },
+    {
+      "id": "insects-084",
+      "animal": "Silverfish",
+      "prompt": "Which feature of silverfish is typical of apterygote insects?",
+      "options": [
+        "They are wingless as adults.",
+        "Four membranous wings",
+        "Pendulums",
+        "Elytra"
+      ],
+      "explanation": "Silverfish belong to a lineage of primitively wingless insects.",
+      "didYouKnow": "Silverfish still molt after reaching maturity.",
+      "imageCaption": "Silver fish"
+    },
+    {
+      "id": "insects-085",
+      "animal": "Aquatic insects",
+      "prompt": "How do stonefly larvae often obtain oxygen in water?",
+      "options": [
+        "Through tracheal gills or across the body surface",
+        "By a siphon that they periodically connect to the air",
+        "By lungs which take dissolved oxygen",
+        "By gills that pump air out of the water"
+      ],
+      "explanation": "Gas exchange in aquatic larvae occurs via gills or through areas of the cuticle.",
+      "didYouKnow": "Adult stoneflies often fold their wings flat on their abdomen.",
+      "imageCaption": "Pearl larva"
+    },
+    {
+      "id": "insects-086",
+      "animal": "Chironomids",
+      "prompt": "Why are the larvae of some chironomids reddish?",
+      "options": [
+        "They contain a respiratory pigment called hemoglobin",
+        "They accumulate carotenoids from their food",
+        "They have hemocyanin in their hemolymph",
+        "Their cuticle contains a red pigment produced by bacteria"
+      ],
+      "explanation": "Hemoglobin helps some larvae capture oxygen in oxygen-poor habitats.",
+      "didYouKnow": "Chironomid adults look like small mosquitoes, but do not bite.",
+      "imageCaption": "Chironomus"
+    },
+    {
+      "id": "insects-087",
+      "animal": "Phryganes",
+      "prompt": "What order do caddisflies belong to, whose larvae sometimes build sheaths?",
+      "options": [
+        "The order Trichoptera",
+        "The order Coleoptera",
+        "The order Plecoptera",
+        "The order Diptera"
+      ],
+      "explanation": "Caddisflies are Trichoptera, evolutionarily close to Lepidoptera.",
+      "didYouKnow": "The larvae of many caddisflies assemble grains of sand, twigs, or other materials with silk.",
+      "imageCaption": "Phrygane"
+    },
+    {
+      "id": "insects-088",
+      "animal": "Cicadas",
+      "prompt": "How do male cicadas produce their powerful song?",
+      "options": [
+        "With vibrating tymbals on the abdomen",
+        "By rubbing the hind legs against the wings",
+        "With a vibrating membrane on the thorax",
+        "By clicking their mandibles together"
+      ],
+      "explanation": "Tymbals are abdominal membranes that vibrate under the action of muscles.",
+      "didYouKnow": "The nymphs of many cicadas live underground and feed on root sap.",
+      "imageCaption": "Common cicada"
+    },
+    {
+      "id": "insects-089",
+      "animal": "Leafhoppers",
+      "prompt": "How do leafhoppers quickly jump when disturbed?",
+      "options": [
+        "Thanks to their hind legs adapted to jumping",
+        "Spreading scaly wings",
+        "By expelling water",
+        "Unwinding a tail"
+      ],
+      "explanation": "Their hind legs are specialized and can propel the body away from support.",
+      "didYouKnow": "Leafhoppers can transmit pathogens to certain plants.",
+      "imageCaption": "Green leafhopper"
+    },
+    {
+      "id": "insects-090",
+      "animal": "Aphids",
+      "prompt": "How do many aphids reproduce during part of the year?",
+      "options": [
+        "By parthenogenesis, with females giving birth to offspring without fertilization",
+        "By compulsory mating in each generation",
+        "By budding of the cuticle",
+        "By division of an adult individual in two"
+      ],
+      "explanation": "Parthenogenesis allows certain populations to grow rapidly when conditions are favorable.",
+      "didYouKnow": "Aphids can be associated with ants that harvest their honeydew.",
+      "imageCaption": "Rose aphid"
+    },
+    {
+      "id": "insects-091",
+      "animal": "Aphids",
+      "prompt": "What do aphids release from the cornicles on their abdomen?",
+      "options": [
+        "Waxy or defensive secretions",
+        "Honeydew for ants",
+        "Sap sucked from the plant",
+        "Eggs protected by a capsule"
+      ],
+      "explanation": "The cornicles secrete waxy or defensive substances in many aphids.",
+      "didYouKnow": "When conditions change, some species of aphids produce winged individuals.",
+      "imageCaption": "Rose aphid"
+    },
+    {
+      "id": "insects-092",
+      "animal": "Cicadas",
+      "prompt": "Why can cicadas stay underground for a long time before emerging?",
+      "options": [
+        "Their underground nymphal development can last several years",
+        "They remain inactive all their lives",
+        "They turn into fish",
+        "They are waiting for a tree to bloom"
+      ],
+      "explanation": "The nymphs live and feed on root sap before they emerge.",
+      "didYouKnow": "Adult cicadas have widely spaced compound eyes.",
+      "imageCaption": "Common cicada"
+    },
+    {
+      "id": "insects-093",
+      "animal": "Hemiptera",
+      "prompt": "What type of mouthparts is common in piercing-sucking hemipterans?",
+      "options": [
+        "A piercing rostrum adapted to draw up liquids",
+        "Strong mandibles for chewing leaves",
+        "A coiled proboscis for sipping nectar",
+        "A sponging mouthpart for lapping liquids"
+      ],
+      "explanation": "The rostrum can pierce tissues or reach plant fluids.",
+      "didYouKnow": "Giant water bugs breathe at the surface using a respiratory appendage located at the end of the abdomen.",
+      "imageCaption": "Green bug"
+    },
+    {
+      "id": "insects-094",
+      "animal": "True bugs",
+      "prompt": "How do the forewings of many true bugs differ from those of beetles?",
+      "options": [
+        "They are partially hardened, with a membranous end",
+        "They are fully hardened and meet in a straight line",
+        "They are membranous throughout their length",
+        "They are transformed into pendulums to stabilize the flight"
+      ],
+      "explanation": "The hemelytra have a leathery basal part and a membranous distal part.",
+      "didYouKnow": "Many bedbugs have a visible triangular scutellum on their back.",
+      "imageCaption": "Green bug"
+    },
+    {
+      "id": "insects-095",
+      "animal": "Stink bugs",
+      "prompt": "Where does the defensive odor of so-called stink bugs often come from?",
+      "options": [
+        "Secretions produced by scent glands",
+        "Fermented food in their wings",
+        "From their iron-rich blood",
+        "Germs on their paws"
+      ],
+      "explanation": "Some bedbugs release odorous compounds to deter predators.",
+      "didYouKnow": "Stink bugs belong to the family Pentatomidae.",
+      "imageCaption": "Green bug"
+    },
+    {
+      "id": "insects-096",
+      "animal": "Assassin bugs",
+      "prompt": "How do predatory assassin bugs often consume their prey?",
+      "options": [
+        "They inject saliva containing digestive enzymes and then suck out the liquefied tissues",
+        "They chew the prey with mandibles and swallow solid pieces",
+        "They wrap the prey in silk and wait for it to dry",
+        "They absorb the entire prey through their body surface"
+      ],
+      "explanation": "Their piercing rostrum injects saliva and then draws up the liquefied contents.",
+      "didYouKnow": "Some tropical insects feed on the blood of vertebrates, including humans.",
+      "imageCaption": "Masked reedworm"
+    },
+    {
+      "id": "insects-097",
+      "animal": "Cercopes",
+      "prompt": "How do spittlebug larvae often protect themselves?",
+      "options": [
+        "They surround themselves with a foam made of bubbles and secretions",
+        "They build themselves a sheath of sand and silk",
+        "They hide in a wooden gallery dug by the adult",
+        "They form a rigid capsule from soil and saliva"
+      ],
+      "explanation": "The moss protects the larvae and probably limits drying out.",
+      "didYouKnow": "Spittlebugs are related to leafhoppers and aphids within the Hemiptera.",
+      "imageCaption": "Meadow spittlebug"
+    },
+    {
+      "id": "insects-098",
+      "animal": "Aphids and ants",
+      "prompt": "Why do ants sometimes protect aphids?",
+      "options": [
+        "They harvest the sweet honeydew that aphids excrete",
+        "Aphids make wax for the nest",
+        "Aphids hunt termites",
+        "Aphids feed on ant eggs"
+      ],
+      "explanation": "Ants harvest honeydew and sometimes defend aphids against predators.",
+      "didYouKnow": "Aphids molt several times during their development and their old cuticles sometimes remain on the leaves.",
+      "imageCaption": "Rose aphid"
+    },
+    {
+      "id": "insects-099",
+      "animal": "Social insects",
+      "prompt": "How do bees communicate an alarm to the colony?",
+      "options": [
+        "By pheromones and behavioral signals",
+        "They emit alarm sounds",
+        "They make a visual display",
+        "They change the color of their body"
+      ],
+      "explanation": "Chemical signals and movements can alert other workers to danger.",
+      "didYouKnow": "In many insect societies, workers take care of the brood and maintenance of the nest.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-100",
+      "animal": "Social insects",
+      "prompt": "What does “eusociality” mean in insects?",
+      "options": [
+        "A society with cooperative care of offspring, overlapping generations and reproductive division of labor",
+        "A group in which every adult reproduces independently",
+        "A temporary group that forms only to migrate",
+        "A colony in which all individuals perform identical tasks"
+      ],
+      "explanation": "These traits characterize eusocial societies such as those of ants and many bees.",
+      "didYouKnow": "Some termite mounds can exceed several meters in height.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-101",
+      "animal": "Social insects",
+      "prompt": "What is the role of a sterile worker in a social colony?",
+      "options": [
+        "She performs tasks such as caring for the brood or searching for food.",
+        "She replaces the queen daily",
+        "She is a breeding male",
+        "She lays all the fertilized eggs"
+      ],
+      "explanation": "Workers contribute to the functioning of the colony rather than direct reproduction.",
+      "didYouKnow": "Honey bee workers generally live much longer in winter than in summer.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-102",
+      "animal": "Communication",
+      "prompt": "What is a pheromone?",
+      "options": [
+        "A chemical signal emitted and perceived between individuals of the same species",
+        "An internal chemical that only regulates the body of its transmitter",
+        "A compound produced by one species and used by another for its benefit",
+        "A substance that only attracts an insect's predators"
+      ],
+      "explanation": "Pheromones transmit information between conspecifics, such as a trail or a sexual signal.",
+      "didYouKnow": "Bees and many other insects also perceive vibrations transmitted by the ground or plants.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-103",
+      "animal": "Communication",
+      "prompt": "What is the purpose of substrate vibrations in some insects?",
+      "options": [
+        "To transmit a signal through plants, soil or web",
+        "To transmit an odorous substance into the air",
+        "To produce a sound that travels mainly through the air",
+        "To change body color to communicate remotely"
+      ],
+      "explanation": "Vibrations transmitted by a medium can be used to attract a partner or signal a threat.",
+      "didYouKnow": "The wings of butterflies can bear colorful microscopic scales.",
+      "imageCaption": "Meadow spittlebug"
+    },
+    {
+      "id": "insects-104",
+      "animal": "Vision",
+      "prompt": "What do the simple eyes, or ocelli, of many insects mainly detect?",
+      "options": [
+        "Light intensity and changes in orientation",
+        "Formation of a detailed picture of the environment",
+        "Detection of odors and pheromones",
+        "Vibrations of the substrate under the legs"
+      ],
+      "explanation": "The ocelli complete the compound eyes by providing information in particular on luminosity.",
+      "didYouKnow": "Many insects also have compound eyes, distinct from ocelli.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-105",
+      "animal": "Vision",
+      "prompt": "How does a compound eye form the image in an insect?",
+      "options": [
+        "From signals from numerous visual units called ommatidia",
+        "From a single lens that forms an image like a camera",
+        "From olfactory receptors located around the retina",
+        "From sound waves reflected by objects"
+      ],
+      "explanation": "Each ommatidia captures part of the visual field and the system assembles their signals.",
+      "didYouKnow": "Some bees perceive the polarization of light, which helps them orient themselves.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-106",
+      "animal": "Ecology",
+      "prompt": "What ecological service do pollinating insects provide to plants?",
+      "options": [
+        "They transport pollen between flowers and promote fertilization",
+        "They fertilize plants by depositing their eggs in flowers",
+        "They carry seeds without carrying pollen",
+        "They graze on flowers without moving pollen"
+      ],
+      "explanation": "Pollen transport facilitates sexual reproduction in many flowering plants.",
+      "didYouKnow": "Among insects, beetles constitute the order with the most described species.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-107",
+      "animal": "Saproxylic insects",
+      "prompt": "What resource or habitat are saproxylic insects related to?",
+      "options": [
+        "Dead or decomposing wood, on which they depend at one stage of their cycle",
+        "With living leaves, which they must consume as adults",
+        "To the open waters, where they spend their entire lives",
+        "Seeds stored in ant nests"
+      ],
+      "explanation": "The term saproxylic refers to species dependent on dead or decaying wood at some stage of their life cycle. Some participate in its decomposition, while others use this habitat or the organisms that live there.",
+      "didYouKnow": "The adults of many saproxylic beetles live only a few weeks.",
+      "imageCaption": "Rosalie of the Alps"
+    },
+    {
+      "id": "insects-108",
+      "animal": "Ecology",
+      "prompt": "Why are insects an important food resource for many birds?",
+      "options": [
+        "They provide abundant and nutritious prey, especially for nestlings",
+        "They are the only food for all birds",
+        "They mainly provide plant fibers",
+        "They are available in equal quantities all year round"
+      ],
+      "explanation": "Many birds feed their young with caterpillars and other nutrient-rich insects.",
+      "didYouKnow": "Insects occupy a wide variety of terrestrial habitats, from deserts to tropical forests.",
+      "imageCaption": "Migratory locust"
+    },
+    {
+      "id": "insects-109",
+      "animal": "Metamorphosis",
+      "prompt": "What is the difference between complete metamorphosis and incomplete metamorphosis?",
+      "options": [
+        "Complete metamorphosis includes a pupal stage between larva and adult; incomplete metamorphosis does not",
+        "Complete metamorphosis has no larval stage, while incomplete metamorphosis does",
+        "In complete metamorphosis, juveniles resemble adults; in incomplete metamorphosis, they do not",
+        "The two types differ only in how many eggs are laid"
+      ],
+      "explanation": "Complete metamorphosis proceeds through egg, larva, pupa and adult; incomplete metamorphosis has juvenile stages that resemble the adult.",
+      "didYouKnow": "Ants, bees and wasps all belong to the order Hymenoptera.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-110",
+      "animal": "Metamorphosis",
+      "prompt": "What is the name of the young of a locust that already resembles the adult but does not have functional wings?",
+      "options": [
+        "A nymph",
+        "A pupa",
+        "A caterpillar-type larva",
+        "An immature imago"
+      ],
+      "explanation": "Young Orthopterans are nymphs that molt several times before becoming adults.",
+      "didYouKnow": "Adult cicadas produce their song with vibrating membranes called timpani.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-111",
+      "animal": "Metamorphosis",
+      "prompt": "What happens during an insect molt?",
+      "options": [
+        "The insect leaves its old cuticle and forms a new one",
+        "The insect permanently loses its cuticle",
+        "It replaces its antennae with lungs",
+        "It becomes an adult with each molt"
+      ],
+      "explanation": "Molting allows growth and can also accompany changes in stage.",
+      "didYouKnow": "The outer cuticle also serves as an anchor point for the insect's muscles.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-112",
+      "animal": "Preservation",
+      "prompt": "Why can artificial light at night harm certain insects?",
+      "options": [
+        "It can disorient or attract insects from their normal behaviors",
+        "It makes insects more visible to plants",
+        "It necessarily causes molting",
+        "It removes all nocturnal predators"
+      ],
+      "explanation": "Nighttime lighting disrupts the orientation, feeding and reproduction of certain species.",
+      "didYouKnow": "Some species of mosquitoes can complete their larval development in very small water cavities.",
+      "imageCaption": "Bindweed hawk moth"
+    },
+    {
+      "id": "insects-113",
+      "animal": "Preservation",
+      "prompt": "What practice helps preserve pollinating insects in a garden?",
+      "options": [
+        "Plant a variety of flowers and limit pesticides",
+        "Remove Native Plants",
+        "Light up all night",
+        "Remove flowers as soon as they bloom"
+      ],
+      "explanation": "Diverse floral resources and refuges support pollinators.",
+      "didYouKnow": "A small, shallow water feature with stones can provide a drinking place for insects.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-114",
+      "animal": "Preservation",
+      "prompt": "Why keep dead wood in certain natural areas?",
+      "options": [
+        "It serves as a habitat and resource for saproxylic species",
+        "It prevents seeds from germinating",
+        "It eliminates pollinators",
+        "It pollutes the water"
+      ],
+      "explanation": "Dead wood provides food, shelter and breeding sites for many organisms.",
+      "didYouKnow": "Old trees often provide nesting sites for cavity-dwelling birds.",
+      "imageCaption": "Rosalie of the Alps"
+    },
+    {
+      "id": "insects-115",
+      "animal": "Preservation",
+      "prompt": "What is one possible effect of habitat fragmentation on insects?",
+      "options": [
+        "It isolates populations and reduces travel between sites",
+        "It promotes movement between fragments",
+        "It connects previously isolated populations",
+        "It increases the surface area of continuous habitat"
+      ],
+      "explanation": "Isolated fragments can limit exchanges and make populations more vulnerable.",
+      "didYouKnow": "Some insects, like ladybugs, gather in groups to overwinter.",
+      "imageCaption": "Monarch"
+    },
+    {
+      "id": "insects-116",
+      "animal": "Preservation",
+      "prompt": "Why do broad-spectrum pesticides pose a risk to non-target insects?",
+      "options": [
+        "They can also kill beneficial pollinators and predators",
+        "They only affect insect pests",
+        "They systematically favor pollinators",
+        "They prevent any resistance in pests"
+      ],
+      "explanation": "A broad-spectrum product may affect species other than the target pest.",
+      "didYouKnow": "Artificial light at night can disorient some insects attracted to light sources.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-117",
+      "animal": "Ecology",
+      "prompt": "What is a bioindicator insect?",
+      "options": [
+        "A species whose presence or abundance provides information on the state of the environment",
+        "A species introduced to restore the functioning of an environment",
+        "A species still present only in polluted environments",
+        "A species that specifically indicates the presence of a single contaminant"
+      ],
+      "explanation": "The sensitivity of certain insects to environmental conditions makes it possible to monitor ecological changes.",
+      "didYouKnow": "The larvae of many mayflies live in the water before emerging as adults.",
+      "imageCaption": "Pearl larva"
+    },
+    {
+      "id": "insects-118",
+      "animal": "Ecology",
+      "prompt": "How do decomposer insects contribute to nutrient cycling?",
+      "options": [
+        "They fragment organic matter and facilitate recycling",
+        "They create minerals by photosynthesis",
+        "They prevent microbes from acting",
+        "They convert pure carbon into nitrogen"
+      ],
+      "explanation": "Consumption and fragmentation of organic debris accelerates their decomposition.",
+      "didYouKnow": "Termites can build galleries that modify the circulation of water in the soil.",
+      "imageCaption": "Sacred dung beetle"
+    },
+    {
+      "id": "insects-119",
+      "animal": "Defense",
+      "prompt": "Why do some insects display bright warning colors?",
+      "options": [
+        "They warn predators that the insect may be defended or distasteful",
+        "They attract mates by reflecting moonlight",
+        "They help the insect absorb more sunlight",
+        "They make the insect harder to see against flowers"
+      ],
+      "explanation": "Aposematic colors can teach predators to avoid defended prey.",
+      "didYouKnow": "The seven-spotted ladybug usually has seven black spots on its red elytra.",
+      "imageCaption": "Seven-spotted ladybug"
+    },
+    {
+      "id": "insects-120",
+      "animal": "Defense",
+      "prompt": "What benefit does camouflage provide to a leaf insect?",
+      "options": [
+        "It reduces the chances of being spotted by predators",
+        "It allows you to breathe underwater",
+        "It replaces the immune system",
+        "It accelerates moulting"
+      ],
+      "explanation": "The resemblance to a leaf can make the insect difficult to detect.",
+      "didYouKnow": "Leaf insects belong to stick insects, the order Phasmatodea.",
+      "imageCaption": "Phyllie from the Philippines"
+    },
+    {
+      "id": "insects-121",
+      "animal": "Defense",
+      "prompt": "What does an insect do that performs autotomy?",
+      "options": [
+        "It voluntarily sheds an appendage to escape a predator",
+        "It sprays digestive fluid at the predator",
+        "It changes its body color to imitate a leaf",
+        "It seals itself inside a silk cocoon"
+      ],
+      "explanation": "Some species can sacrifice a leg caught by a predator and escape.",
+      "didYouKnow": "Leaf insects belong to the stick insect order, Phasmatodea.",
+      "imageCaption": "stick insect"
+    },
+    {
+      "id": "insects-122",
+      "animal": "Insects and humans",
+      "prompt": "Why are honey bees important to agriculture?",
+      "options": [
+        "They pollinate many crops and wild plants",
+        "They produce nitrogen in the soil",
+        "They eliminate all pests",
+        "They produce seeds without pollen"
+      ],
+      "explanation": "Their pollination contributes to the production of many crops, although not all crops depend on them.",
+      "didYouKnow": "Bumblebee colonies are generally annual; young mated queens overwinter alone.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-123",
+      "animal": "Insects and humans",
+      "prompt": "What material do silkworms produce to form their cocoons?",
+      "options": [
+        "A silk filament secreted by their glands",
+        "Wax from their paws",
+        "Compacted pollen",
+        "Chewed vegetable fibers"
+      ],
+      "explanation": "The bombyx caterpillar produces a long filament of silk to build its cocoon.",
+      "didYouKnow": "The bombyx pupa develops inside the silk cocoon before the adult emerges.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-124",
+      "animal": "Ecology",
+      "prompt": "Why can insects be biological control agents?",
+      "options": [
+        "Certain predators or parasitoids limit populations of harmful organisms",
+        "All insects eat weeds",
+        "They make surveillance useless",
+        "They prevent any plant disease"
+      ],
+      "explanation": "Targeted species can reduce certain pests in an integrated pest management program.",
+      "didYouKnow": "The seven-spotted ladybug is a common species in many parts of Europe.",
+      "imageCaption": "Seven-spotted ladybug"
+    },
+    {
+      "id": "insects-125",
+      "animal": "Diversity",
+      "prompt": "Why do insects occupy such varied habitats?",
+      "options": [
+        "Their lineages have evolved into many forms and lifestyles",
+        "They live mainly in urban areas",
+        "They only occupy terrestrial environments",
+        "They avoid aquatic habitats"
+      ],
+      "explanation": "The diversity of adaptations allows insects to occupy varied terrestrial and aquatic environments.",
+      "didYouKnow": "Insects constitute the animal group with the greatest number of described species.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-126",
+      "animal": "Odonates",
+      "prompt": "What organ do dragonfly larvae use to grasp certain prey?",
+      "options": [
+        "An extendable lower lip, or labium, called the mask",
+        "Tongue-shaped mandibles",
+        "A rigid rostrum to suck up the sap",
+        "Palps that filter particles from the water"
+      ],
+      "explanation": "The labium can project quickly to capture small aquatic prey.",
+      "didYouKnow": "Dragonfly larvae live in the water before their final moult on an emerged support.",
+      "imageCaption": "depressed dragonfly"
+    },
+    {
+      "id": "insects-127",
+      "animal": "Odonates",
+      "prompt": "What is territorial flight in some male dragonflies called?",
+      "options": [
+        "Defense of an area where they try to attract females",
+        "An annual migration",
+        "A collective underwater hunt",
+        "A flight without flapping its wings"
+      ],
+      "explanation": "Males sometimes patrol or defend a site favorable for egg-laying.",
+      "didYouKnow": "Adult dragonflies can capture insects in flight.",
+      "imageCaption": "depressed dragonfly"
+    },
+    {
+      "id": "insects-128",
+      "animal": "Mosquitoes",
+      "prompt": "What exhaled gas, detected by many female mosquitoes, helps locate a host?",
+      "options": [
+        "Carbon dioxide (CO₂)",
+        "Methane (CH₄)",
+        "Nitrogen (N₂)",
+        "Oxygen (O₂)"
+      ],
+      "explanation": "Exhaled carbon dioxide can direct female mosquitoes toward a host; heat and odors then refine the search.",
+      "didYouKnow": "Depending on the species, females lay their eggs on the surface of the water, on damp ground or in containers likely to fill with water.",
+      "imageCaption": "Common mosquito"
+    },
+    {
+      "id": "insects-129",
+      "animal": "Tsetse fly",
+      "prompt": "How does the tsetse fly feed its larva before birth?",
+      "options": [
+        "The larva develops in the uterus and receives a nutrient secretion from the mother",
+        "The egg hatches outside, then the female brings prey to the young",
+        "The egg remains in the uterus but the larva depends only on its yolk",
+        "The female attaches a larva to her abdomen, where she feeds on the hemolymph."
+      ],
+      "explanation": "In the tsetse fly, the female nourishes the larva in her uterus thanks to a secretion from specialized glands, then deposits a mature larva.",
+      "didYouKnow": "Tsetse flies sometimes transmit parasites of the Trypanosoma genus, which cause sleeping sickness.",
+      "imageCaption": "Tsetse fly"
+    },
+    {
+      "id": "insects-130",
+      "animal": "Lepidoptera",
+      "prompt": "What do the wing scales of many butterflies do besides contribute to their color?",
+      "options": [
+        "They can contribute to visual patterns and influence heat exchange",
+        "They produce eggs and lay them on host plants",
+        "They filter the water when the butterfly lands on a flower",
+        "They replace the muscles that operate the wings"
+      ],
+      "explanation": "Scales contribute to color, camouflage and certain visual signals.",
+      "didYouKnow": "The North American monarch winters in mountain forests in Mexico.",
+      "imageCaption": "Vulcan"
+    },
+    {
+      "id": "insects-131",
+      "animal": "Lepidoptera",
+      "prompt": "Why do some migratory butterflies follow seasonal routes?",
+      "options": [
+        "To reach areas offering favorable conditions for their survival",
+        "To prevent egg laying",
+        "To become social",
+        "To reach deep waters"
+      ],
+      "explanation": "Migration can link breeding sites to seasonal refuges.",
+      "didYouKnow": "The monarch belongs to the family Nymphalidae.",
+      "imageCaption": "Vulcan"
+    },
+    {
+      "id": "insects-132",
+      "animal": "Beetles",
+      "prompt": "How do some bombardier beetles defend their bodies?",
+      "options": [
+        "They eject a hot, irritating spray resulting from a chemical reaction",
+        "They release a sticky secretion produced by abdominal glands",
+        "They emit a sound signal by rubbing their elytra",
+        "They project an icy substance by vaporizing water from their bodies"
+      ],
+      "explanation": "Substances react in a specialized chamber and are expelled in a defensive jet.",
+      "didYouKnow": "Bombardier beetles belong to the ground beetle family.",
+      "imageCaption": "Brachine firecracker"
+    },
+    {
+      "id": "insects-133",
+      "animal": "Beetles",
+      "prompt": "What role does the larva have in the life cycle of many saproxylic beetles?",
+      "options": [
+        "It feeds or grows in dead wood",
+        "It consumes live leaves",
+        "She hunts flying insects",
+        "She collects nectar from flowers"
+      ],
+      "explanation": "The larvae often exploit dead wood, the mushrooms growing there or the insects present.",
+      "didYouKnow": "Adults of some saproxylic insects visit flowers, although their larvae live in dead wood.",
+      "imageCaption": "Rosalie of the Alps"
+    },
+    {
+      "id": "insects-134",
+      "animal": "Hymenoptera",
+      "prompt": "What function do the hexagonal cells of the honeycomb have?",
+      "options": [
+        "They are used to raise brood and store resources",
+        "They make the wings",
+        "They replace the spiracles",
+        "They filter the air"
+      ],
+      "explanation": "The wax combs contain cells for brood, pollen and honey.",
+      "didYouKnow": "Honey bees can propolize from small cracks in the hive.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-135",
+      "animal": "Hymenoptera",
+      "prompt": "How is a queen honey bee raised differently from a worker?",
+      "options": [
+        "The larva receives a special diet, notably royal jelly.",
+        "It hatches from an unfertilized egg, unlike workers.",
+        "It receives more chewed wax than other larvae",
+        "It is raised in a cell filled with unprocessed nectar"
+      ],
+      "explanation": "The larval diet contributes to queen differentiation.",
+      "didYouKnow": "Honey bee workers make the wax used to build the combs.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-136",
+      "animal": "Hymenoptera",
+      "prompt": "What phenomenon describes swarming in honey bees?",
+      "options": [
+        "A queen and part of the colony leave the hive to found elsewhere",
+        "The entire colony abandons its eggs in winter",
+        "Males found a colony without a queen",
+        "Workers only move larvae"
+      ],
+      "explanation": "Swarming is a natural mode of colony reproduction.",
+      "didYouKnow": "Honey bees use pheromones to coordinate certain colony activities.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-137",
+      "animal": "Ants",
+      "prompt": "How do ants sometimes exchange liquid food between individuals?",
+      "options": [
+        "By trophallaxis, a transfer of fluid from mouth to mouth",
+        "By an exchange of liquid through the antennae",
+        "By placing a drop on the ground which the other ant absorbs",
+        "By transferring solid food with the mandibles"
+      ],
+      "explanation": "Trophallaxis is the transfer of food fluid between individuals; it can also transmit signaling molecules.",
+      "didYouKnow": "Ants build rooms and galleries whose shape varies depending on the species and the environment.",
+      "imageCaption": "Black garden ant, example illustrating this question on insects."
+    },
+    {
+      "id": "insects-138",
+      "animal": "Ants",
+      "prompt": "How do some ant colonies move their larvae?",
+      "options": [
+        "The workers carry them with their mandibles",
+        "The larvae crawl to the new nest on their own",
+        "The queen carries them in her wings",
+        "They attach to the antennae of soldiers"
+      ],
+      "explanation": "Transporting the brood makes it possible to move the colony or reorganize the nest.",
+      "didYouKnow": "The workers of several ant species carry entire prey to the nest.",
+      "imageCaption": "Black garden ant, example illustrating this question on insects."
+    },
+    {
+      "id": "insects-139",
+      "animal": "Orthoptera",
+      "prompt": "What is the purpose of the male cricket's song?",
+      "options": [
+        "To attract a partner or communicate with peers",
+        "To attract flowers",
+        "To make the eggs vibrate underground",
+        "To breathe"
+      ],
+      "explanation": "Singing is an acoustic signal used in reproductive communication.",
+      "didYouKnow": "Crickets detect sounds using eardrums on their front legs.",
+      "imageCaption": "Migratory locust, example illustrating this question on insects."
+    },
+    {
+      "id": "insects-140",
+      "animal": "Mole crickets",
+      "prompt": "What adaptation helps mole crickets dig galleries in the ground?",
+      "options": [
+        "Their enlarged and toothed front legs, shaped like shovels",
+        "Their powerful mandibles which dig the galleries alone",
+        "Their hind legs which push the earth backwards",
+        "Their robust antennae that pierce the ground"
+      ],
+      "explanation": "Mole crickets move soil with their strong, enlarged front legs.",
+      "didYouKnow": "Mole crickets can feed on both roots and small invertebrates.",
+      "imageCaption": "Common mole cricket, example illustrating this question on insects."
+    },
+    {
+      "id": "insects-141",
+      "animal": "Termites",
+      "prompt": "What material do termites often use to build their mounds?",
+      "options": [
+        "Soil particles bound by secretions",
+        "Of stuck scales",
+        "Metal",
+        "Of leaves woven with silk"
+      ],
+      "explanation": "Termites assemble soil, saliva and sometimes plant debris to build structures.",
+      "didYouKnow": "Termite workers sometimes carry the young when they move the nest.",
+      "imageCaption": "Savanna termite, example illustrating this question on insects."
+    },
+    {
+      "id": "insects-142",
+      "animal": "Termites",
+      "prompt": "Which individual in the termite colony generally lays eggs?",
+      "options": [
+        "The queen",
+        "The soldier",
+        "The winged male only",
+        "All larvae"
+      ],
+      "explanation": "The queen is the central reproductive female of the colony.",
+      "didYouKnow": "Termite workers sometimes carry the young when they move the nest.",
+      "imageCaption": "Savanna termite, example illustrating this question on insects."
+    },
+    {
+      "id": "insects-143",
+      "animal": "Mayfly larvae",
+      "prompt": "Why do some mayfly larvae have flattened bodies and grasping legs?",
+      "options": [
+        "To stay between the stones in the fast currents",
+        "To float just below the surface of stagnant water",
+        "To retain an air bubble under the elytra",
+        "To cling to floating leaves far from the bottom"
+      ],
+      "explanation": "The flattened shape and legs allow certain rheophilic larvae to resist the current by sheltering on the substrate.",
+      "didYouKnow": "The larvae of several mayflies have lateral gills on the abdomen.",
+      "imageCaption": "Mayfly larva"
+    },
+    {
+      "id": "insects-144",
+      "animal": "Aquatic insects",
+      "prompt": "What do many aquatic caddis larvae eat?",
+      "options": [
+        "Algae, debris or small prey depending on the species",
+        "dry wood",
+        "Terrestrial leaves only",
+        "Floral nectar"
+      ],
+      "explanation": "Trichoptera diets vary: some larvae graze, filter or predate.",
+      "didYouKnow": "Adult caddisflies often have long, threadlike antennae.",
+      "imageCaption": "Caddisfly larva"
+    },
+    {
+      "id": "insects-145",
+      "animal": "Madagascar hissing cockroach",
+      "prompt": "How does the Madagascar hissing cockroach make its hissing sound?",
+      "options": [
+        "By forcing air through specialized spiracles",
+        "Rubbing the wings together like a cricket",
+        "By vibrating abdominal timpani like a cicada",
+        "By striking the ground with its mandibles"
+      ],
+      "explanation": "This cockroach pushes air through spiracles to produce a defensive or social hiss.",
+      "didYouKnow": "Males of the Madagascar hissing cockroach often have pronounced bumps on the pronotum, more discreet in females.",
+      "imageCaption": "Madagascar hissing cockroach, example illustrating this question on insects."
+    },
+    {
+      "id": "insects-146",
+      "animal": "Cockroaches",
+      "prompt": "What is the name of the egg case produced by many cockroaches?",
+      "options": [
+        "An ootheca",
+        "A cocoon",
+        "A chrysalis",
+        "A gall"
+      ],
+      "explanation": "An ootheca is a capsule containing one or more eggs.",
+      "didYouKnow": "Cockroaches have long, threadlike antennae that explore their environment.",
+      "imageCaption": "American cockroach, example illustrating this question on insects."
+    },
+    {
+      "id": "insects-147",
+      "animal": "Defense",
+      "prompt": "What is the role of Batesian mimicry?",
+      "options": [
+        "A harmless species resembles a defended or dangerous species",
+        "A defended species looks like a harmless species",
+        "A predator looks like the species it hunts",
+        "Several defended species share similar signals"
+      ],
+      "explanation": "Resemblance can reduce attacks if predators avoid the defended pattern.",
+      "didYouKnow": "Hoverflies are harmless flies, some species of which resemble wasps.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-148",
+      "animal": "Defense",
+      "prompt": "What does Müllerian mimicry mean?",
+      "options": [
+        "Several defended species share similar warning signs",
+        "A harmless species imitates a defended species",
+        "A predator imitates the appearance of its prey",
+        "A species is confused with a leaf or a twig"
+      ],
+      "explanation": "Predators can learn more quickly to avoid a signal shared by several defended species.",
+      "didYouKnow": "The larvae of some ladybugs have spines or protrusions on their bodies.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-149",
+      "animal": "Ecology",
+      "prompt": "Why do insects contribute to seed dispersal?",
+      "options": [
+        "Some carry or bury seeds",
+        "They pollinate flowers by carrying their pollen",
+        "They disperse fungal spores in the soil",
+        "They transport the seeds inside their digestive tract"
+      ],
+      "explanation": "Ants carry some seeds for their nutritious appendages and sometimes drop some of them.",
+      "didYouKnow": "Some ants collect honeydew from aphids and protect them from predators.",
+      "imageCaption": "Harvester Ant"
+    },
+    {
+      "id": "insects-150",
+      "animal": "Ecology",
+      "prompt": "What result can the disappearance of a specialist pollinator have?",
+      "options": [
+        "The reproduction of its partner plant may decrease",
+        "The plant produces more nectar without visits",
+        "The plant now depends solely on the wind",
+        "The fertilization rate necessarily remains the same"
+      ],
+      "explanation": "A very specialized relationship can make the plant dependent on a limited number of pollinators.",
+      "didYouKnow": "Some insects pollinate mainly at night, including many moths.",
+      "imageCaption": "Bee orchid"
+    },
+    {
+      "id": "insects-151",
+      "animal": "Anatomy",
+      "prompt": "Which part of the thorax supports the legs in insects?",
+      "options": [
+        "The three thoracic segments",
+        "The head",
+        "The abdomen",
+        "The antennas"
+      ],
+      "explanation": "The legs are attached to the thorax, which includes the prothorax, mesothorax, and metathorax.",
+      "didYouKnow": "The front legs of some mantises are transformed into abductor organs.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-152",
+      "animal": "Anatomy",
+      "prompt": "What is insect blood, called hemolymph, made of?",
+      "options": [
+        "A fluid circulating in the body cavity",
+        "Red blood cells in closed vessels",
+        "A fluid stored in the wings",
+        "A mixture of nectar and saliva"
+      ],
+      "explanation": "Hemolymph directly bathes the organs in an open circulatory system.",
+      "didYouKnow": "The nervous system of many insects includes a ventral chain of segmental ganglia.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-153",
+      "animal": "Anatomy",
+      "prompt": "What walking pattern is common among insects that move quickly across a surface?",
+      "options": [
+        "An alternating tripod walk, with three legs supporting at a time",
+        "A walk where all six legs always leave the ground simultaneously",
+        "A walk where only the two hind legs touch the ground",
+        "A walk where the three legs on the same side move together"
+      ],
+      "explanation": "Many insects use an alternating tripodal walk: three supporting legs alternate with the opposing trio, which helps stabilize movement.",
+      "didYouKnow": "Like other arthropods, insects must molt to grow because their exoskeleton does not stretch like skin.",
+      "imageCaption": "Migratory locust"
+    },
+    {
+      "id": "insects-154",
+      "animal": "Anatomy",
+      "prompt": "What do mandibles do in insects that chew their food?",
+      "options": [
+        "To cut and grind food",
+        "They suck up liquids in all insects",
+        "They detect odors",
+        "They are used for flight balance"
+      ],
+      "explanation": "Mandibles are often hard, movable mouthparts used to manipulate or grind food.",
+      "didYouKnow": "Insect colors can come from pigments or microscopic structures.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-155",
+      "animal": "Orchid bees",
+      "prompt": "How do the males of many orchid bees collect scents?",
+      "options": [
+        "They collect fragrant compounds with their front legs and transfer them into specialized pouches in their hind legs",
+        "They suck up scents with their proboscis and store them in the abdomen",
+        "They collect compounds on the wings and store them in the antennae",
+        "They produce odors from the nectar they consume"
+      ],
+      "explanation": "Males gather scent compounds with brushes on their front legs, then transfer them into pouches in their hind tibiae for storage.",
+      "didYouKnow": "Female orchid bees collect pollen and nectar to feed their offspring.",
+      "imageCaption": "Orchid bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-156",
+      "animal": "Anatomy",
+      "prompt": "What is the rigid outer covering of an insect called?",
+      "options": [
+        "The cuticle",
+        "A bony dermis",
+        "A limestone coat",
+        "Keratinized skin"
+      ],
+      "explanation": "The cuticle forms the exoskeleton and includes several layers.",
+      "didYouKnow": "The insect brain includes several regions specialized for sensory processing and behavior.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-157",
+      "animal": "Click beetles",
+      "prompt": "How do some click beetles right themselves when lying on their backs?",
+      "options": [
+        "They bend and release a thoracic spring mechanism that launches them with a snap",
+        "They spread their wing covers to glide back onto their feet",
+        "They push against the ground with their antennae",
+        "They inflate their abdomen to roll onto their legs"
+      ],
+      "explanation": "A projection on the thorax catches against a notch; releasing it propels the beetle into the air and can flip it onto its feet.",
+      "didYouKnow": "Wireworms generally have an elongated body and pointed posterior angles of the pronotum.",
+      "imageCaption": "Jumping wireworm"
+    },
+    {
+      "id": "insects-158",
+      "animal": "Physiology",
+      "prompt": "How do insects eliminate some of their nitrogen waste?",
+      "options": [
+        "Through the Malpighian tubules",
+        "Through the kidneys",
+        "Through the gills",
+        "Through the salivary glands"
+      ],
+      "explanation": "Malpighian tubules remove wastes from the hemolymph and empty into the digestive tract.",
+      "didYouKnow": "Insect wings are attached to the thorax rather than the head or abdomen.",
+      "imageCaption": "Field cricket"
+    },
+    {
+      "id": "insects-159",
+      "animal": "Physiology",
+      "prompt": "Why are insects called ectotherms?",
+      "options": [
+        "Their body temperature largely depends on the outside heat",
+        "They always maintain a stable body temperature",
+        "Their body temperature is always lower than that of the air",
+        "They can only live in cold environments"
+      ],
+      "explanation": "Most insects rely primarily on outside sources to regulate their temperature.",
+      "didYouKnow": "Larvae and adults of the same insect can occupy different habitats.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-160",
+      "animal": "Flight",
+      "prompt": "How can an insect maintain a hover?",
+      "options": [
+        "By adjusting the lift produced by its wing beats",
+        "By directing the antennas like propellers",
+        "By clinging to a canvas",
+        "By reducing their body weight"
+      ],
+      "explanation": "Hovering requires aerodynamic forces to compensate for weight and movement.",
+      "didYouKnow": "The colors of some insects result from microscopic structures that reflect light.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-161",
+      "animal": "Flight",
+      "prompt": "What muscular mechanism operates the wings of many fast-flying insects?",
+      "options": [
+        "Indirect thoracic muscles that deform the thorax and drive the wings",
+        "Abdominal muscles that directly pull the wings down",
+        "Muscles in the hind legs that rotate the wings",
+        "Head muscles that pull the wings by the antennae"
+      ],
+      "explanation": "In many fast-flying insects, indirect muscles deform the thorax; the joints transmit this deformation to the wings.",
+      "didYouKnow": "The titan is a tropical longhorn beetle, one of the largest known beetles.",
+      "imageCaption": "Honey bee, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-162",
+      "animal": "Monarch",
+      "prompt": "How does the monarch caterpillar acquire some of its chemical defense?",
+      "options": [
+        "It accumulates cardenolides from the milkweed plants it eats",
+        "It obtains venom by eating other insects",
+        "It produces warning pigments from sunlight",
+        "It acquires toxins from fungi growing on its wings"
+      ],
+      "explanation": "Caterpillars that eat milkweeds can retain cardenolides, making the butterfly distasteful to some predators.",
+      "didYouKnow": "The monarch is a well-known migratory butterfly in North America.",
+      "imageCaption": "Monarch, example illustrating this question on insects."
+    },
+    {
+      "id": "insects-163",
+      "animal": "Ecology",
+      "prompt": "What does a phytophagous insect primarily eat?",
+      "options": [
+        "Plant tissues",
+        "Mushrooms",
+        "Small animals",
+        "Animal debris"
+      ],
+      "explanation": "Phytophages consume leaves, stems, seeds, sap or other plant parts.",
+      "didYouKnow": "Some ants grow mushrooms from pieces of leaves.",
+      "imageCaption": "Migratory locust"
+    },
+    {
+      "id": "insects-164",
+      "animal": "Ecology",
+      "prompt": "What term describes an insect that hunts and consumes other animals?",
+      "options": [
+        "Predator",
+        "Obligate pollinator",
+        "Mineral decomposer",
+        "Photosynthetic parasite"
+      ],
+      "explanation": "A predator typically captures and consumes several prey items during its lifetime.",
+      "didYouKnow": "The wings of many ladybugs are protected by colorful elytra.",
+      "imageCaption": "Praying mantis, example illustrating this question about insects."
+    },
+    {
+      "id": "insects-165",
+      "animal": "Ecology",
+      "prompt": "What general difference separates a parasitoid from a predator?",
+      "options": [
+        "The parasitoid grows on or in a host and usually kills it",
+        "The predator develops in a single prey which it ends up killing",
+        "The parasitoid consumes multiple prey without depending on an individual host",
+        "The parasitoid lives on its host without affecting its survival"
+      ],
+      "explanation": "The parasitoid larva depends on an individual host and most often ends up killing it.",
+      "didYouKnow": "Parasitoid wasps constitute a very diverse group within the Hymenoptera.",
+      "imageCaption": "Parasitoid wasp"
+    },
+    {
+      "id": "insects-166",
+      "animal": "Ecology",
+      "prompt": "Why do insects contribute to the aeration of certain soils?",
+      "options": [
+        "Their galleries create spaces in the ground",
+        "The wings pump the air",
+        "They dissolve the soil with nectar",
+        "They make roots"
+      ],
+      "explanation": "The galleries dug by ants, termites and larvae can modify the structure of the soil.",
+      "didYouKnow": "Some ants carry seeds and can help disperse them.",
+      "imageCaption": "Savannah termite"
+    },
+    {
+      "id": "insects-167",
+      "animal": "Dung beetle Scarabaeus satyrus",
+      "prompt": "How does the dung beetle Scarabaeus satyrus orient itself during nocturnal movements?",
+      "options": [
+        "Using the bright band of the Milky Way as a guide",
+        "By following a trail of pheromones left by other dung beetles",
+        "By detecting the Earth's magnetic field",
+        "Using the vibrations produced by other dung beetles"
+      ],
+      "explanation": "Experiments have shown that this dung beetle can maintain its direction using the Milky Way's light band.",
+      "didYouKnow": "Scarabaeus satyrus is a coprophagous dung beetle that uses excrement as a food resource.",
+      "imageCaption": "Dung beetle Scarabaeus satyrus"
+    },
+    {
+      "id": "insects-168",
+      "animal": "Weaver ant",
+      "prompt": "How do weaver ants put together leaves in their nest?",
+      "options": [
+        "Workers use the silk produced by their larvae to stick leaves together",
+        "Workers secrete silk from glands in their abdomen",
+        "They coat the leaves with wax produced by their glands",
+        "They fix the leaves with a resin collected from the trees"
+      ],
+      "explanation": "The workers bring the leaves together and then hold larvae against the edges; these secrete the silk which assembles them.",
+      "didYouKnow": "Weaver ant workers may bite and spray formic acid to defend the colony.",
+      "imageCaption": "Asian weaver ant"
+    },
+    {
+      "id": "insects-169",
+      "animal": "Plants and insects",
+      "prompt": "Why do some orchids imitate the appearance or smell of a female insect?",
+      "options": [
+        "To attract males who contribute to their pollination",
+        "To attract females who lay their eggs there",
+        "To repel insects that eat their leaves",
+        "To make a predator believe that they carry seeds"
+      ],
+      "explanation": "This deception can cause pseudocopulation and pollen transfer.",
+      "didYouKnow": "Orchids are one of the most species-rich families of flowering plants.",
+      "imageCaption": "Ophrys bee"
+    },
+    {
+      "id": "insects-170",
+      "animal": "Plants and insects",
+      "prompt": "What do floral nectaries do for the plant?",
+      "options": [
+        "To provide a reward that can attract pollinators",
+        "To make petals",
+        "To store seeds",
+        "To produce wood"
+      ],
+      "explanation": "Nectar rewards visitors who can transport pollen between flowers.",
+      "didYouKnow": "Honey bees can communicate the direction of a resource through a dance.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-171",
+      "animal": "Development",
+      "prompt": "Which stage of a butterfly is typically specialized for feeding and growth?",
+      "options": [
+        "The caterpillar",
+        "Adult only",
+        "The chrysalis only",
+        "The egg only"
+      ],
+      "explanation": "The caterpillar often consumes a lot of food before pupation.",
+      "didYouKnow": "Many adult butterflies live less than their caterpillar stage.",
+      "imageCaption": "swallowtail caterpillar"
+    },
+    {
+      "id": "insects-172",
+      "animal": "Development",
+      "prompt": "What is the name of the empty envelope left behind after an insect molts?",
+      "options": [
+        "An exuvia",
+        "A chrysalis",
+        "A stigma",
+        "An elytra"
+      ],
+      "explanation": "The exuvia is the old cuticle from which the insect extracted itself during molting.",
+      "didYouKnow": "The exuviae of many aquatic larvae remain attached to plants near the banks.",
+      "imageCaption": "Migratory locust"
+    },
+    {
+      "id": "insects-173",
+      "animal": "Dragonfly larva",
+      "prompt": "How does a dragonfly larva (Anisoptera) move water over its internal gills?",
+      "options": [
+        "It draws water in and expels it through the rectum",
+        "It pumps water through its mouth and out through its spiracles",
+        "It ventilates the gills by waving its legs",
+        "It absorbs oxygen directly through the abdomen"
+      ],
+      "explanation": "Anisopteran larvae ventilate their rectal chamber by drawing in and expelling water; gas exchange occurs at internal gills.",
+      "didYouKnow": "Some insects have a nervous system organized around a ventral chain of ganglia.",
+      "imageCaption": "Dragonfly larva"
+    },
+    {
+      "id": "insects-174",
+      "animal": "Development",
+      "prompt": "Which juvenile stage usually emerges when an insect egg hatches?",
+      "options": [
+        "A young larval or nymphal stage",
+        "A fully formed adult insect",
+        "A pupa directly",
+        "Another egg"
+      ],
+      "explanation": "Depending on the insect’s metamorphosis, the egg hatches into a larva or a nymph.",
+      "didYouKnow": "A honey bee’s antennae carry numerous receptors that detect odors.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-175",
+      "animal": "Development",
+      "prompt": "What is the main role of the cocoon spun by some moth larvae?",
+      "options": [
+        "To protect the pupa",
+        "To feed the caterpillar",
+        "To help the adult fly",
+        "To store eggs laid by the female"
+      ],
+      "explanation": "The cocoon is a silk covering spun by the larva to protect the pupal stage.",
+      "didYouKnow": "The caterpillars of some moths have tufts of hair or growths on their bodies.",
+      "imageCaption": "Mulberry bombyx"
+    },
+    {
+      "id": "insects-176",
+      "animal": "Ants",
+      "prompt": "What specialized organ do ants often use to clean their antennae?",
+      "options": [
+        "A comb called strigil on the front legs",
+        "A brush located on the hind legs",
+        "Teeth placed on the mandibles",
+        "A comb located at the end of the abdomen"
+      ],
+      "explanation": "The strigil is a comb-like structure on the forelegs that helps many ants clean their antennae.",
+      "didYouKnow": "Some ants form living bridges with their bodies to cross gaps.",
+      "imageCaption": "Black garden ant"
+    },
+    {
+      "id": "insects-177",
+      "animal": "Bees",
+      "prompt": "How do honey bee workers transport pollen to the hive?",
+      "options": [
+        "In transport structures on their hind legs",
+        "On the pendulums",
+        "Under the elytra",
+        "In a pocket formed by the trunk"
+      ],
+      "explanation": "Honey bees have pollen baskets on their hind legs.",
+      "didYouKnow": "Worker bees are female, while drones are male.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-178",
+      "animal": "Bees",
+      "prompt": "Why do fanning bees beat their wings at the hive entrance?",
+      "options": [
+        "To create airflow and help regulate the nest microclimate",
+        "To warm the brood through direct contact",
+        "To produce a sound that warns the colony",
+        "To spread scent marks around the hive"
+      ],
+      "explanation": "Ventilation helps control the nest’s temperature and humidity.",
+      "didYouKnow": "The honey bee queen uses pheromones that influence the behavior of the workers.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-179",
+      "animal": "Butterflies",
+      "prompt": "Why do some butterflies congregate on wet ground or a muddy riverbank?",
+      "options": [
+        "They take mineral salts and other nutrients dissolved in water",
+        "They mainly collect nectar which flows from neighboring flowers",
+        "They capture small insects attracted to the mud",
+        "They absorb water through their wings to prevent dehydration"
+      ],
+      "explanation": "This behavior, called puddling, allows certain males to absorb salts and minerals.",
+      "didYouKnow": "Some species of butterflies migrate long distances between their breeding and wintering sites.",
+      "imageCaption": "Vulcan"
+    },
+    {
+      "id": "insects-180",
+      "animal": "Butterflies",
+      "prompt": "How can eyespots on wings help a butterfly?",
+      "options": [
+        "They can scare or distract a predator",
+        "To breathe",
+        "To produce pheromones",
+        "To measure wind speed"
+      ],
+      "explanation": "Eye-like patterns can surprise a predator or deflect its attack.",
+      "didYouKnow": "Some species of butterflies taste plants with receptors located on their legs.",
+      "imageCaption": "peacock-of-the-day"
+    },
+    {
+      "id": "insects-181",
+      "animal": "Caterpillars",
+      "prompt": "Why do some caterpillars have stinging hairs?",
+      "options": [
+        "They constitute a defense against predators",
+        "To make the wings",
+        "To breathe underwater",
+        "To replace the mandibles"
+      ],
+      "explanation": "Specialized hairs can irritate the skin or mucous membranes and deter predators.",
+      "didYouKnow": "Monarch caterpillars feed on several species of milkweed.",
+      "imageCaption": "Pine processionary caterpillar"
+    },
+    {
+      "id": "insects-182",
+      "animal": "Moths",
+      "prompt": "How do some moths escape detection by bats?",
+      "options": [
+        "They detect ultrasound and can maneuver or produce clicks",
+        "They become invisible",
+        "They breathe underground",
+        "They close the spiracles to hear"
+      ],
+      "explanation": "Hearing organs detect ultrasonic bat calls in several species.",
+      "didYouKnow": "Moths and butterflies all belong to the order Lepidoptera.",
+      "imageCaption": "Noctuelle fiancée"
+    },
+    {
+      "id": "insects-183",
+      "animal": "Dragonflies",
+      "prompt": "Why are dragonfly wings able to move independently?",
+      "options": [
+        "Each pair has articulation and control musculature",
+        "They are attached to the abdomen",
+        "They are activated by the antennas",
+        "These are fins"
+      ],
+      "explanation": "Independent wing control contributes to the odonates' remarkable maneuverability.",
+      "didYouKnow": "Males of some dragonflies defend nesting sites against rivals.",
+      "imageCaption": "depressed dragonfly"
+    },
+    {
+      "id": "insects-184",
+      "animal": "Aquatic insects",
+      "prompt": "What does the respiratory plastron of some aquatic insects form?",
+      "options": [
+        "A thin layer of air held against the body",
+        "An air bubble locked under the elytra and renewed on the surface",
+        "Tracheal gills that extract dissolved oxygen",
+        "A breathing siphon that reaches the surface of the water"
+      ],
+      "explanation": "Hydrophobic bristles maintain a film of air used for gas exchange.",
+      "didYouKnow": "Dragonfly larvae grasp their prey with an extendable labium called a mask.",
+      "imageCaption": "water bug"
+    },
+    {
+      "id": "insects-185",
+      "animal": "Whirligig beetles",
+      "prompt": "What visual feature lets whirligig beetles monitor the air and water at the same time?",
+      "options": [
+        "A pair of divided eyes, with one part viewing the air and the other the water",
+        "A pair of eyes that can see only underwater",
+        "A row of eyes along each side of the abdomen",
+        "A single pair of eyes protected by transparent scales"
+      ],
+      "explanation": "Their divided eyes let them monitor air and water at the same time.",
+      "didYouKnow": "Whirligig beetles often swim rapidly in circles on the water surface.",
+      "imageCaption": "Gyrin"
+    },
+    {
+      "id": "insects-186",
+      "animal": "Beetles",
+      "prompt": "Why are firefly larvae sometimes called glow worms?",
+      "options": [
+        "They can produce light",
+        "They can produce a defensive spray",
+        "They can make a loud clicking sound",
+        "They can spin silk around their prey"
+      ],
+      "explanation": "In several firefly species, larvae have light organs used in part for defense.",
+      "didYouKnow": "Fireflies are beetles, not flies.",
+      "imageCaption": "Glowworm larva"
+    },
+    {
+      "id": "insects-187",
+      "animal": "Hemiptera",
+      "prompt": "How do giant water bugs often capture their prey?",
+      "options": [
+        "With grasping forelegs and a piercing rostrum",
+        "With wings that trap prey against the water",
+        "With sticky pads on the hind legs",
+        "With a venomous sting at the end of the abdomen"
+      ],
+      "explanation": "They seize prey and use their rostrum to inject digestive saliva.",
+      "didYouKnow": "Giant water bugs sometimes lay their eggs on the backs of males, depending on the species.",
+      "imageCaption": "Cinderella"
+    },
+    {
+      "id": "insects-188",
+      "animal": "Hemiptera",
+      "prompt": "What is the purpose of the proboscis of a leafhopper that feeds on sap?",
+      "options": [
+        "To pierce plant tissues and suck out the sap",
+        "To cut out leaves",
+        "To capture flying insects",
+        "To build a canvas"
+      ],
+      "explanation": "Stinging mouthparts provide access to plant fluids.",
+      "didYouKnow": "Some leafhoppers produce a protective foam during their larval development.",
+      "imageCaption": "Green leafhopper"
+    },
+    {
+      "id": "insects-189",
+      "animal": "Diptera",
+      "prompt": "Why do mosquito larvae filter water with their mouthparts?",
+      "options": [
+        "To recover microorganisms and food particles",
+        "To capture small animals which they swallow whole",
+        "To graze the algae attached to the walls of the container",
+        "To filter the air and obtain the necessary oxygen"
+      ],
+      "explanation": "Most larvae feed on particles or microorganisms present in the water.",
+      "didYouKnow": "Male mosquitoes generally feed on nectar rather than blood.",
+      "imageCaption": "Common mosquito larva"
+    },
+    {
+      "id": "insects-190",
+      "animal": "Diptera",
+      "prompt": "What role can flies play in pollination?",
+      "options": [
+        "They carry pollen by visiting flowers",
+        "They fertilize the seeds",
+        "They make nectar",
+        "They disperse the roots"
+      ],
+      "explanation": "Many flies visit flowers for nectar or pollen and can transfer pollen.",
+      "didYouKnow": "The larvae of several hoverflies feed on aphids.",
+      "imageCaption": "Belted hoverfly"
+    },
+    {
+      "id": "insects-191",
+      "animal": "Orthoptera",
+      "prompt": "Why can gregarious locusts form swarms?",
+      "options": [
+        "High density and sensory cues can trigger behavior change",
+        "A drop in temperature triggers an annual migration common to all locusts",
+        "Coordinated parental care keeps individuals in groups",
+        "A queen directs the swarm towards the plants richest in food"
+      ],
+      "explanation": "In some species, density can lead to behavioral and morphological changes associated with the gregarious phase.",
+      "didYouKnow": "Nymph grasshoppers have wing buds that grow as they molt.",
+      "imageCaption": "Desert Locust"
+    },
+    {
+      "id": "insects-192",
+      "animal": "stick insects",
+      "prompt": "What role does the capitulum on the egg of some stick insects sometimes play?",
+      "options": [
+        "It attracts ants, which carry the egg and may consume this nutritious part",
+        "It keeps the egg afloat on water",
+        "It helps the egg attach to a leaf",
+        "It releases a scent that repels predators"
+      ],
+      "explanation": "In some species, such as Extatosoma tiaratum, a nutritious appendage on the egg attracts ants, which may carry it to their nest.",
+      "didYouKnow": "Some species of stick insects can reproduce by parthenogenesis.",
+      "imageCaption": "Giant stick insect egg"
+    },
+    {
+      "id": "insects-193",
+      "animal": "Mantis",
+      "prompt": "Why do mantises sometimes swing their bodies from side to side?",
+      "options": [
+        "Movement can enhance their camouflage among leaves",
+        "Movement allows you to calculate the exact distance of a prey",
+        "Swinging warms up the muscles before flight",
+        "Rocking serves to produce a sound signal for partners"
+      ],
+      "explanation": "Swaying can mimic wind-stirred vegetation and contribute to camouflage.",
+      "didYouKnow": "The mantis also judges distances using stereoscopic vision.",
+      "imageCaption": "Praying mantis"
+    },
+    {
+      "id": "insects-194",
+      "animal": "Cockroaches",
+      "prompt": "How do cockroaches detect the presence of a conspecific?",
+      "options": [
+        "With chemical signals and sensory receptors",
+        "With visual cues only",
+        "With wedding songs",
+        "With wing vibrations only"
+      ],
+      "explanation": "Pheromones and other chemicals influence grouping and recognition.",
+      "didYouKnow": "Some cockroaches can survive for a long time on little food, but need access to water.",
+      "imageCaption": "American cockroach"
+    },
+    {
+      "id": "insects-195",
+      "animal": "Honey bees",
+      "prompt": "Where do honey bee workers produce wax scales?",
+      "options": [
+        "In glands located under the abdomen",
+        "In salivary glands located near the mouth",
+        "In scent glands at the base of the antennae",
+        "In glands located under the forewings"
+      ],
+      "explanation": "Young workers secrete wax through abdominal glands; small scales appear on the ventral side.",
+      "didYouKnow": "Drones have larger eyes than workers.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-196",
+      "animal": "Ecology",
+      "prompt": "Why are insects useful as food for bats?",
+      "options": [
+        "They constitute an abundant resource for many insectivorous species",
+        "They produce echolocation",
+        "They make the lodges",
+        "They replace water"
+      ],
+      "explanation": "Many bats hunt flying insects, including moths and dipterans.",
+      "didYouKnow": "Some insects, including monarchs, make seasonal migrations.",
+      "imageCaption": "Noctuelle fiancée"
+    },
+    {
+      "id": "insects-197",
+      "animal": "Ecology",
+      "prompt": "How do insects sometimes help control weeds?",
+      "options": [
+        "Some consume invasive plants in a targeted manner",
+        "They fertilize the herbs with honey",
+        "They prevent any seed from germinating",
+        "They transform herbs into mushrooms"
+      ],
+      "explanation": "Herbivorous insects have been used as biological control agents after studying their specificity.",
+      "didYouKnow": "The Asian ladybug, Harmonia axyridis, is native to eastern Asia.",
+      "imageCaption": "Cactoblast"
+    },
+    {
+      "id": "insects-198",
+      "animal": "Preservation",
+      "prompt": "What effect can the disappearance of hedgerows have on agricultural insects?",
+      "options": [
+        "It reduces refuges and corridors between habitats",
+        "It increases movements between plots",
+        "It provides more nesting sites",
+        "It increases the available shelters"
+      ],
+      "explanation": "Hedges provide food, shelter and landscape continuity for many insects.",
+      "didYouKnow": "Insects overwinter depending on their species as eggs, larvae, nymphs or adults.",
+      "imageCaption": "Honey bee"
+    },
+    {
+      "id": "insects-199",
+      "animal": "Preservation",
+      "prompt": "Why are wetlands important to many insects?",
+      "options": [
+        "They provide breeding and feeding habitats, particularly for aquatic larvae.",
+        "Only beetles live there",
+        "Aquatic insects do not find resources there",
+        "These environments do not allow the reproduction of insects"
+      ],
+      "explanation": "Ponds, marshes and streams are home to the larval and adult stages of many insects.",
+      "didYouKnow": "Adult mayflies often live a short time and do not feed.",
+      "imageCaption": "depressed dragonfly"
+    },
+    {
+      "id": "insects-200",
+      "animal": "Ecology",
+      "prompt": "What role do termites play in tropical ecosystems?",
+      "options": [
+        "They fragment plant matter and rework the soil",
+        "They mainly pollinate flowering plants",
+        "They mainly consume herbivorous insects",
+        "They feed mainly on nectar rather than cellulose"
+      ],
+      "explanation": "Termites participate in the recycling of cellulose and the structuring of soils.",
+      "didYouKnow": "Termites live in structured colonies where individuals have different roles.",
+      "imageCaption": "Savannah termite"
+    }
+  ]
+}

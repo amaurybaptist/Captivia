@@ -267,7 +267,11 @@
     "search": "Search",
     "settings": "Settings",
     "shop": "Shop",
-    "species": "Species"
+    "species": "Species",
+    "habitatGuide": "3D Guide",
+    "designHabitat": "Design their habitat",
+    "careAgenda": "Calendar",
+    "animalGame": "Game"
   },
   "disclaimers": {
     "affiliate": "Affiliate link",
@@ -373,7 +377,25 @@
     "weekDay3": "Wednesday",
     "weekDay4": "Thursday",
     "weekDay5": "Friday",
-    "weekDay6": "Saturday"
+    "weekDay6": "Saturday",
+    "pushUnsupported": "This browser does not support push notifications. On iPhone, open Captivia from its icon added to the Home Screen.",
+    "pushUnavailable": "Push notifications are temporarily unavailable. Your reminders remain visible in the app.",
+    "pushEnabled": "Notifications are active in this browser.",
+    "enablePush": "Enable notifications",
+    "disablePush": "Disable in this browser",
+    "sendTest": "Send a test",
+    "testSent": "Notification sent.",
+    "testPartial": "Some notifications could not be sent.",
+    "noRecipient": "No active recipient. Enable notifications on a device.",
+    "testFailed": "The test notification could not be sent.",
+    "timeZone": "Time zone",
+    "deliveryWindow": "Allowed delivery hours",
+    "windowStart": "Delivery starts",
+    "windowEnd": "Delivery ends",
+    "channelsUnavailable": "Some delivery methods are temporarily unavailable. Your reminders remain visible in the app.",
+    "snoozeAction": "Snooze",
+    "snoozeDone": "Reminder snoozed.",
+    "reminderError": "The reminder could not be updated."
   },
   "premiumLock": {
     "goPremium": "View Premium subscription",
@@ -513,6 +535,7 @@
     "subscribeSuccess": "Subscription activated. You now have access to all Premium features.",
     "subtitle": "Unlock all Captivia benefits",
     "title": "Premium subscription",
-    "yearly": "Yearly"
+    "yearly": "Yearly",
+    "benefitHabitat": "2D and 3D habitat designer: custom layouts, saved projects and exports"
   }
 }

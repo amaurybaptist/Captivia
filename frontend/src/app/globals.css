@@ -1240,90 +1240,6 @@ textarea {
     font-size: 0.74rem !important;
   }
 
-  .captivia-menu-button {
-    width: 38px;
-    height: 38px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid var(--captivia-border-strong);
-    border-radius: 12px;
-    color: var(--captivia-ink);
-    background: var(--captivia-surface-solid);
-    cursor: pointer;
-  }
-
-  .captivia-mobile-menu {
-    display: block;
-    border-top: 1px solid var(--captivia-border);
-    background: var(--captivia-bg);
-  }
-
-  .captivia-mobile-nav {
-    width: min(100% - 28px, 1240px);
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    padding: 12px 0 18px;
-  }
-
-  .captivia-mobile-link,
-  .captivia-mobile-login,
-  .captivia-mobile-logout,
-  .captivia-mobile-user,
-  .captivia-mobile-register {
-    min-height: 47px;
-    display: flex;
-    align-items: center;
-    gap: 11px;
-    padding: 0 13px;
-    border-radius: 13px;
-    color: var(--captivia-muted);
-    font-size: 0.9rem;
-    font-weight: 680;
-    text-decoration: none;
-  }
-
-  .captivia-mobile-link:hover,
-  .captivia-mobile-link.is-active,
-  .captivia-mobile-login:hover,
-  .captivia-mobile-user:hover {
-    color: var(--captivia-accent);
-    background: var(--captivia-soft);
-  }
-
-  .captivia-mobile-auth {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    margin-top: 9px;
-    padding-top: 11px;
-    border-top: 1px solid var(--captivia-border);
-  }
-
-  .captivia-mobile-user span:last-child {
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .captivia-mobile-logout {
-    width: 100%;
-    border: 0;
-    color: #b24e4e;
-    background: transparent;
-    cursor: pointer;
-    text-align: left;
-  }
-
-  .captivia-mobile-register {
-    justify-content: space-between;
-    color: #ffffff;
-    background: var(--captivia-accent);
-  }
-
   .captivia-hero {
     gap: 34px;
     padding: 48px 0 38px;
@@ -1778,4 +1694,109 @@ textarea {
     color: #83e1bc;
     background: #14352c;
   }
+}
+
+/* Keep the guide and game links accessible on narrow desktop windows. */
+@media (max-width: 1360px) {
+  .captivia-desktop-nav,
+  .captivia-header-actions { display: none; }
+  .captivia-mobile-actions { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+  .captivia-menu-button {
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--captivia-border-strong);
+    border-radius: 12px;
+    color: var(--captivia-ink);
+    background: var(--captivia-surface-solid);
+    cursor: pointer;
+  }
+
+  .captivia-mobile-menu {
+    display: block;
+    border-top: 1px solid var(--captivia-border);
+    background: var(--captivia-bg);
+  }
+
+  .captivia-mobile-nav {
+    width: min(100% - 28px, 1240px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 12px 0 18px;
+  }
+
+  .captivia-mobile-link,
+  .captivia-mobile-login,
+  .captivia-mobile-logout,
+  .captivia-mobile-user,
+  .captivia-mobile-register {
+    min-height: 47px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 0 13px;
+    border-radius: 13px;
+    color: var(--captivia-muted);
+    font-size: 0.9rem;
+    font-weight: 680;
+    text-decoration: none;
+  }
+
+  .captivia-mobile-link:hover,
+  .captivia-mobile-link.is-active,
+  .captivia-mobile-login:hover,
+  .captivia-mobile-user:hover {
+    color: var(--captivia-accent);
+    background: var(--captivia-soft);
+  }
+
+  .captivia-mobile-auth {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 9px;
+    padding-top: 11px;
+    border-top: 1px solid var(--captivia-border);
+  }
+
+  .captivia-mobile-user span:last-child {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .captivia-mobile-logout {
+    width: 100%;
+    border: 0;
+    color: #b24e4e;
+    background: transparent;
+    cursor: pointer;
+    text-align: left;
+  }
+
+  .captivia-mobile-register {
+    justify-content: space-between;
+    color: #ffffff;
+    background: var(--captivia-accent);
+  }
+
+}
+
+.captivia-premium-label {
+  display: block;
+  font-size: 9px;
+  line-height: 1.2;
+  letter-spacing: .05em;
+  font-weight: 700;
+  color: var(--captivia-accent-dark);
+}
+
+/* Keep account actions visible beside the expanded desktop navigation. */
+@media (min-width:1361px) and (max-width:1650px) {
+  .captivia-user-email { display:none; }
 }

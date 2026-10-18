@@ -1,5 +1,6 @@
 'use client';
 
+import { disablePush, syncExistingPushSubscription } from '@/lib/push-notifications';
 import { createContext, useContext, useState, useEffect, useCallback } from 'react';
 
 interface User {
@@ -31,7 +32,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       const res = await fetch(`${API_URL}/auth/me`, {
         headers: { Authorization: `Bearer ${storedToken}` },
       });
-      if (res.ok) {
+      if (res.ok && localStorage.getItem('token') === storedToken) {
         const freshUser = await res.json();
         setUser(freshUser);
         localStorage.setItem('user', JSON.stringify(freshUser));
@@ -42,20 +43,32 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   useEffect(() => {
-    const storedToken = localStorage.getItem('token');
-    const storedUser = localStorage.getItem('user');
-
-    if (storedToken && storedUser) {
-      setToken(storedToken);
-      setUser(JSON.parse(storedUser));
-      refreshProfile(storedToken);
-    }
-
-    setIsLoading(false);
+    let active = true;
+    void Promise.resolve().then(() => {
+      if (!active) return;
+      try {
+        const storedToken = localStorage.getItem('token');
+        const storedUser = localStorage.getItem('user');
+        if (storedToken && storedUser) {
+          const cached = JSON.parse(storedUser) as User;
+          if (!cached || typeof cached.id !== 'string' || typeof cached.email !== 'string') throw new Error('Session invalide');
+          setToken(storedToken); setUser(cached);
+          void refreshProfile(storedToken);
+        }
+      } catch { localStorage.removeItem('token'); localStorage.removeItem('user'); }
+      setIsLoading(false);
+    });
+    return () => { active = false; };
   }, [refreshProfile]);
 
   useEffect(() => {
+    if (token) void syncExistingPushSubscription(token).catch(() => {});
+  }, [token]);
+
+  useEffect(() => {
     const handleForceLogout = () => {
+      const previous = localStorage.getItem('token');
+      if (previous) void disablePush(previous).catch(() => {});
       setToken(null);
       setUser(null);
       localStorage.removeItem('token');
@@ -73,6 +86,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   };
 
   const logout = () => {
+    if (token) void disablePush(token).catch(() => {});
     setToken(null);
     setUser(null);
     localStorage.removeItem('token');

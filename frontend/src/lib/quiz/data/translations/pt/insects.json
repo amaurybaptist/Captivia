@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "33c5df6bf0e7c0ecdf20ddaa1ae939bf61caf78fdc55b6048f56b12a3a347930",
+  "locale": "pt",
+  "questions": [
+    {
+      "id": "insects-001",
+      "animal": "Insetos",
+      "prompt": "Quantos pares de pernas um inseto adulto tem?",
+      "options": [
+        "Três",
+        "Dois",
+        "Quatro",
+        "Oito"
+      ],
+      "explanation": "O plano corporal dos insetos inclui três pares de pernas presas ao tórax.",
+      "didYouKnow": "Nos odonatos, as larvas vivem na água enquanto os adultos se movem no ar.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-002",
+      "animal": "Insetos",
+      "prompt": "Em quantas regiões grandes o corpo de um inseto típico está dividido?",
+      "options": [
+        "Três: cabeça, tórax e abdômen",
+        "Dois: cabeça e abdômen",
+        "Quatro: cabeça, tórax, abdômen e apêndices caudais",
+        "Cinco: cabeça, pescoço, tórax, abdômen e cauda"
+      ],
+      "explanation": "A cabeça contém os órgãos sensoriais e a boca, o tórax as pernas e muitas vezes as asas, e o abdômen contém vários órgãos internos.",
+      "didYouKnow": "Os insetos fazem parte dos artrópodes, grupo que também inclui aranhas e crustáceos.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-003",
+      "animal": "Insetos",
+      "prompt": "Que material forma principalmente o exoesqueleto dos insetos?",
+      "options": [
+        "Quitina",
+        "Celulose",
+        "Carbonato de cálcio",
+        "Queratina"
+      ],
+      "explanation": "A cutícula externa contém quitina e proteínas e protege o corpo.",
+      "didYouKnow": "A quitina também é encontrada na parede celular dos fungos.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-004",
+      "animal": "Insetos",
+      "prompt": "Como os insetos geralmente respiram?",
+      "options": [
+        "Por uma rede de traqueias que se abre para o exterior através de espiráculos",
+        "Por pulmões ligados à boca",
+        "Por brânquias sob o abdômen",
+        "Absorvendo oxigênio apenas pelas pernas"
+      ],
+      "explanation": "O ar entra por aberturas chamadas espiráculos e circula pelas traqueias até os tecidos.",
+      "didYouKnow": "A maioria dos insetos também possui um coração tubular dorsal que circula a hemolinfa.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-005",
+      "animal": "Insetos",
+      "prompt": "Quais são as principais finalidades das antenas de um inseto?",
+      "options": [
+        "Para detectar sinais sensoriais, incluindo odores",
+        "Para perceber a luz ambiente",
+        "Para impulsionar o inseto em vôo",
+        "Para bombear o sangue"
+      ],
+      "explanation": "As antenas carregam receptores sensíveis a odores, contatos e às vezes movimentos de ar.",
+      "didYouKnow": "Muitas mariposas possuem órgãos auditivos que detectam ultrassom de morcegos.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-006",
+      "animal": "Gerridae",
+      "prompt": "Como os gerrids, como os patinadores aquáticos, se movem pela superfície de um lago?",
+      "options": [
+        "Eles distribuem seu peso nas pernas hidrofóbicas sem quebrar a tensão superficial",
+        "Eles nadam abaixo da superfície impulsionando suas patas traseiras franjadas",
+        "Eles se agarram às plantas emergentes para sair da água",
+        "Eles se impulsionam expelindo um jato de água do abdômen"
+      ],
+      "explanation": "Os pelos hidrofóbicos nas pernas distribuem o peso e repelem a água, permitindo o movimento na superfície.",
+      "didYouKnow": "As fêmeas de alguns gerrídeos depositam seus ovos em plantas ou objetos flutuantes.",
+      "imageCaption": "Patinador aquático"
+    },
+    {
+      "id": "insects-007",
+      "animal": "Insetos",
+      "prompt": "Por que um inseto precisa mudar para crescer?",
+      "options": [
+        "Sua cutícula rígida não cresce continuamente com ela",
+        "Sua casca óssea não pode esticar",
+        "Ele deve renovar seu sangue para crescer",
+        "Suas asas devem voltar a crescer a cada estação"
+      ],
+      "explanation": "O exoesqueleto rígido é periodicamente substituído por uma cutícula maior.",
+      "didYouKnow": "Os insetos fazem parte dos artrópodes, como aranhas e crustáceos.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-008",
+      "animal": "Insetos",
+      "prompt": "Como se chamam as aberturas respiratórias visíveis no corpo de muitos insetos?",
+      "options": [
+        "Espiráculos",
+        "Traqueias",
+        "Sacos aéreos",
+        "Brânquias"
+      ],
+      "explanation": "Os espiráculos se abrem para o sistema traqueal e costumam ficar no tórax e no abdômen.",
+      "didYouKnow": "Nos insetos alados, as asas fixam-se ao mesotórax e ao metatórax.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-009",
+      "animal": "Insetos",
+      "prompt": "Que tipo de circulação interna a maioria dos insetos tem?",
+      "options": [
+        "Uma circulação aberta com hemolinfa",
+        "Uma circulação fechada onde o sangue permanece em uma rede de vasos",
+        "Uma circulação dupla separando sangue oxigenado e não oxigenado",
+        "Uma circulação aberta cujo fluido é impulsionado por vários núcleos periféricos"
+      ],
+      "explanation": "A hemolinfa banha os órgãos da cavidade corporal; geralmente não transporta oxigênio.",
+      "didYouKnow": "Os olhos compostos de muitos insetos são compostos de milhares de unidades visuais chamadas omatídeos.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-010",
+      "animal": "Insetos",
+      "prompt": "Qual é o papel dos palpos ao redor da boca em vários insetos?",
+      "options": [
+        "Ajude a manusear e cheirar os alimentos",
+        "Mantendo as asas no lugar durante o voo",
+        "Direcione o ar para os estigmas",
+        "Anexe o inseto à planta enquanto ele se alimenta"
+      ],
+      "explanation": "Os palpos são apêndices sensoriais associados ao aparelho bucal.",
+      "didYouKnow": "Em muitas espécies, os receptores gustativos também são encontrados nas pernas, principalmente nos tarsos.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-011",
+      "animal": "Besouros",
+      "prompt": "O que são os élitros dos besouros?",
+      "options": [
+        "Asas anteriores endurecidas que protegem as asas posteriores",
+        "Asas posteriores membranosas usadas para dirigir o voo",
+        "Brânquias sob as asas",
+        "Placas articuladas que cobrem as pernas"
+      ],
+      "explanation": "Os élitros formam uma cobertura protetora sobre as asas de voo dobradas.",
+      "didYouKnow": "Alguns besouros, como os besouros terrestres, têm asas traseiras reduzidas e voam pouco.",
+      "imageCaption": "Joaninha de sete pintas"
+    },
+    {
+      "id": "insects-012",
+      "animal": "Joaninhas",
+      "prompt": "De que se alimentam muitas joaninhas adultas e larvais?",
+      "options": [
+        "Pulgões e outros pequenos artrópodes",
+        "Néctar e pólen",
+        "Folhas e sementes",
+        "De madeira e casca"
+      ],
+      "explanation": "Muitas espécies são predatórias e ajudam a limitar as populações de pulgões.",
+      "didYouKnow": "Algumas joaninhas secretam um líquido defensivo quando perturbadas.",
+      "imageCaption": "Joaninha de sete pintas"
+    },
+    {
+      "id": "insects-013",
+      "animal": "Besouros veados",
+      "prompt": "Quais são os principais objetivos das grandes mandíbulas do besouro-veado macho?",
+      "options": [
+        "Para lutar e agarrar machos rivais",
+        "Para capturar a presa",
+        "Para filtrar partículas na água",
+        "Furar folhas para botar ovos"
+      ],
+      "explanation": "As mandíbulas aumentadas são usadas sobretudo em confrontos entre machos rivais.",
+      "didYouKnow": "As larvas vivem vários anos em madeira morta.",
+      "imageCaption": "pipa de besouro"
+    },
+    {
+      "id": "insects-014",
+      "animal": "Lampirídeos",
+      "prompt": "Que sinal os vaga-lumes costumam usar para atrair um parceiro?",
+      "options": [
+        "Luz produzida por bioluminescência",
+        "Um som produzido pelo élitro",
+        "Uma trilha de seda",
+        "Uma secreção odorífera"
+      ],
+      "explanation": "As reações químicas nos órgãos de luz produzem sinais luminosos.",
+      "didYouKnow": "Os vaga-lumes são besouros, embora seus sinais luminosos sejam uma reminiscência de pirilampos.",
+      "imageCaption": "Pirilampo"
+    },
+    {
+      "id": "insects-015",
+      "animal": "Buprestes",
+      "prompt": "Qual aparência é comum em buprestídeos adultos?",
+      "options": [
+        "Reflexos metálicos nos élitros",
+        "Asas anteriores escamosas",
+        "Um ferrão abdominal",
+        "Pernas de salto longo"
+      ],
+      "explanation": "Muitos buprestídeos apresentam cores iridescentes devido à estrutura de sua cutícula.",
+      "didYouKnow": "As larvas de diversas espécies enterram-se sob a casca ou na madeira.",
+      "imageCaption": "Bupreste"
+    },
+    {
+      "id": "insects-016",
+      "animal": "Gorgulhos",
+      "prompt": "Que característica é frequentemente usada para reconhecer um gorgulho?",
+      "options": [
+        "Uma tribuna carregando o aparelho bucal",
+        "Asas anteriores em meio élitro",
+        "Patas deliciosas",
+        "Antenas terminando em leque"
+      ],
+      "explanation": "A cabeça dos gorgulhos geralmente se estende até uma tribuna, que contém o aparelho bucal.",
+      "didYouKnow": "Os gorgulhos formam um dos grupos mais ricos em espécies entre os besouros.",
+      "imageCaption": "Gorgulho da bolota"
+    },
+    {
+      "id": "insects-017",
+      "animal": "Besouros",
+      "prompt": "Que sentido é aperfeiçoado pelas lamelas em leque das antenas de muitos escaravelhos?",
+      "options": [
+        "O sentido do olfato",
+        "A visão",
+        "A audiência",
+        "O sabor"
+      ],
+      "explanation": "As lamelas antenais carregam receptores olfativos e podem abrir em forma de leque.",
+      "didYouKnow": "Em muitos besouros, as larvas vivem no solo ou em madeira em decomposição.",
+      "imageCaption": "Besouro Rinoceronte Europeu"
+    },
+    {
+      "id": "insects-018",
+      "animal": "Dytiscidae",
+      "prompt": "Como os besouros mergulhadores adultos respiram quando nadam debaixo d'água?",
+      "options": [
+        "Eles carregam uma reserva de ar sob seus élitros",
+        "Através das brânquias traqueais",
+        "Por pulmões",
+        "Prendendo a respiração até chegarem à superfície"
+      ],
+      "explanation": "Eles armazenam uma bolha de ar sob os élitros e periodicamente sobem para renovar essa reserva.",
+      "didYouKnow": "As larvas do besouro aquático são predadores aquáticos com mandíbulas fortes.",
+      "imageCaption": "Dítico delimitado"
+    },
+    {
+      "id": "insects-019",
+      "animal": "Carabídeos",
+      "prompt": "Qual é o estilo de vida comum dos besouros terrestres adultos?",
+      "options": [
+        "Os caçadores terrestres costumam ser ativos à noite",
+        "Herbívoros especializados em flores",
+        "Parasitas internos de peixes",
+        "Alimentadores de filtros aquáticos"
+      ],
+      "explanation": "Muitos besouros terrestres vagam pelo solo e caçam lesmas, lagartas ou outros invertebrados.",
+      "didYouKnow": "Algumas espécies de besouros terrestres produzem secreções defensivas.",
+      "imageCaption": "Carabídeo dourado"
+    },
+    {
+      "id": "insects-020",
+      "animal": "Besouros",
+      "prompt": "Que transformação sofre uma larva de besouro antes de se tornar adulta?",
+      "options": [
+        "Passa por uma fase de pupa",
+        "Torna-se uma ninfa que desenvolve asas aos poucos",
+        "Muda uma vez e se transforma diretamente em adulto",
+        "Permanece no ovo até completar o desenvolvimento"
+      ],
+      "explanation": "Os besouros passam por metamorfose completa: ovo, larva, pupa e adulto.",
+      "didYouKnow": "Adultos de muitos besouros têm élitros acima do abdômen.",
+      "imageCaption": "Joaninha de sete pintas"
+    },
+    {
+      "id": "insects-021",
+      "animal": "Escaravelhos-de-maio",
+      "prompt": "Do que as larvas esbranquiçadas dos escaravelhos-de-maio costumam se alimentar?",
+      "options": [
+        "Raízes no chão",
+        "Néctar floral",
+        "Pequenos animais aquáticos",
+        "Restos de animais"
+      ],
+      "explanation": "As larvas dos escaravelhos-de-maio vivem no subsolo e muitas vezes se alimentam de raízes de plantas.",
+      "didYouKnow": "Seu desenvolvimento larval pode durar mais de uma temporada.",
+      "imageCaption": "Cockchafer comum"
+    },
+    {
+      "id": "insects-022",
+      "animal": "Besouros de esterco",
+      "prompt": "Qual é o papel ecológico que os escaravelhos desempenham ao enterrar excrementos?",
+      "options": [
+        "Eles reciclam nutrientes e enriquecem o solo",
+        "Eles polinizam árvores da floresta",
+        "Eles enriquecem o solo com minerais marinhos",
+        "Eles degradam rochas"
+      ],
+      "explanation": "Enterrar estrume acelera a reciclagem de materiais e pode melhorar o solo.",
+      "didYouKnow": "Alguns besouros de esterco podem guiar seu movimento com base no sol ou na luz polarizada.",
+      "imageCaption": "Besouro de esterco sagrado"
+    },
+    {
+      "id": "insects-023",
+      "animal": "Tenebrionidae",
+      "prompt": "Por que a larva da farinha é cultivada em laboratórios e fazendas?",
+      "options": [
+        "Suas larvas são fáceis de manter e servem de modelo ou alimento",
+        "Produz mel",
+        "Fornece seda comercial",
+        "É criado como predador de mosquitos"
+      ],
+      "explanation": "A larva, chamada larva da farinha, é utilizada em pesquisas e como alimento animal.",
+      "didYouKnow": "O adulto é um besouro escuro da família dos besouros escuros.",
+      "imageCaption": "larva de farinha"
+    },
+    {
+      "id": "insects-024",
+      "animal": "Besouros Longhorn",
+      "prompt": "Que característica é particularmente marcante em muitos besouros de chifre longo?",
+      "options": [
+        "Antenas muito longas",
+        "Nadando nas patas traseiras",
+        "Asas traseiras cobertas de escamas",
+        "Uma tribuna alongada"
+      ],
+      "explanation": "As antenas costumam ser tão longas quanto o corpo ou mais longas.",
+      "didYouKnow": "As larvas de muitas espécies se desenvolvem na madeira.",
+      "imageCaption": "Rosália dos Alpes"
+    },
+    {
+      "id": "insects-025",
+      "animal": "Besouros",
+      "prompt": "O que há de especial nas asas posteriores funcionais dos besouros?",
+      "options": [
+        "Eles são membranosos e dobrados sob os élitros",
+        "Eles se dobram sobre o élitro",
+        "Eles são substituídos por pêndulos",
+        "Eles servem como proteção para as asas anteriores"
+      ],
+      "explanation": "Em espécies capazes de voar, as asas posteriores membranosas dobram-se sob os élitros.",
+      "didYouKnow": "Os adultos de muitos besouros possuem glândulas que liberam substâncias defensivas.",
+      "imageCaption": "Joaninha de sete pintas"
+    },
+    {
+      "id": "insects-026",
+      "animal": "Lepidópteros",
+      "prompt": "Que diferença geral distingue as borboletas diurnas de muitas mariposas em repouso?",
+      "options": [
+        "As borboletas diurnas geralmente mantêm suas asas levantadas, as mariposas as abrem ou as dobram em um telhado",
+        "As mariposas costumam manter as asas levantadas",
+        "As borboletas geralmente dobram as asas sob o corpo",
+        "As mariposas sempre têm asas menores"
+      ],
+      "explanation": "Essa postura é uma tendência geral, com exceções em ambos os grupos.",
+      "didYouKnow": "As asas dos lepidópteros são cobertas por escamas microscópicas que lhes conferem padrões e cores.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-027",
+      "animal": "Lepidópteros",
+      "prompt": "De que são cobertas as asas das borboletas e mariposas?",
+      "options": [
+        "Escamas minúsculas",
+        "De penas",
+        "Cabelo denso",
+        "Placas lisas de quitina"
+      ],
+      "explanation": "As escamas são expansões achatadas da cutícula e geralmente apresentam pigmentos ou estruturas coloridas.",
+      "didYouKnow": "As borboletas podem perceber substâncias doces com receptores localizados nas pernas.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-028",
+      "animal": "Lagartas",
+      "prompt": "Qual é a função das pernas abdominais de uma lagarta?",
+      "options": [
+        "Eles ajudam a agarrar e se mover",
+        "Eles se tornam as asas do adulto",
+        "Eles têm aparelhos bucais",
+        "Eles são usados para respirar na água"
+      ],
+      "explanation": "As prolegs são apêndices larvais flexíveis, distintos das verdadeiras pernas torácicas.",
+      "didYouKnow": "Algumas lagartas podem ter pêlos ou espinhos defensivos.",
+      "imageCaption": "lagarta rabo de andorinha"
+    },
+    {
+      "id": "insects-029",
+      "animal": "Lepidópteros",
+      "prompt": "Qual é a finalidade da tromba enrolada de muitas borboletas adultas?",
+      "options": [
+        "Para sugar líquidos como néctar",
+        "Para moer as sementes",
+        "Para capturar presas",
+        "Para colocar os ovos na madeira"
+      ],
+      "explanation": "A tromba é formada por aparelhos bucais alongados e curvados quando em repouso em muitas espécies.",
+      "didYouKnow": "Algumas espécies de borboletas adultas não se alimentam e vivem de reservas acumuladas durante a fase larval.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-030",
+      "animal": "Lepidópteros",
+      "prompt": "Qual é o papel das plantas hospedeiras das lagartas?",
+      "options": [
+        "Eles fornecem alimento larval para muitas espécies",
+        "As fêmeas de todas as espécies põem necessariamente ovos ali.",
+        "Eles fornecem néctar diretamente aos adultos",
+        "Eles são usados ​​como material para fazer élitros"
+      ],
+      "explanation": "A maioria das lagartas come plantas, às vezes uma gama muito restrita de espécies.",
+      "didYouKnow": "Algumas lagartas têm cores que as tornam difíceis de detectar na planta hospedeira.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-031",
+      "animal": "Bicho-da-seda",
+      "prompt": "De que se alimentam as lagartas do bicho-da-seda?",
+      "options": [
+        "Folhas de amoreira",
+        "Agulhas de coníferas",
+        "Néctar de flores",
+        "Madeira em decomposição"
+      ],
+      "explanation": "A criação tradicional de bombyx usa principalmente folhas de amoreira.",
+      "didYouKnow": "Os adultos da amoreira bombyx domesticada geralmente não se alimentam, porque seu aparelho bucal é reduzido.",
+      "imageCaption": "Bicho-da-seda"
+    },
+    {
+      "id": "insects-032",
+      "animal": "Lepidópteros",
+      "prompt": "Como uma lagarta de borboleta se torna adulta?",
+      "options": [
+        "Passa por uma fase de pupa, chamada crisálida",
+        "Torna-se uma ninfa que desenvolve asas aos poucos",
+        "Muda diretamente até se tornar um adulto menor",
+        "Permanece lagarta durante toda a vida"
+      ],
+      "explanation": "As borboletas passam por metamorfose completa, e a crisálida é sua fase pupal.",
+      "didYouKnow": "Os adultos de algumas mariposas têm asas reduzidas e não se alimentam.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-033",
+      "animal": "Monarcas",
+      "prompt": "Por que as borboletas monarcas migratórias se reúnem em grandes grupos para passar o inverno?",
+      "options": [
+        "As reuniões incentivam o inverno coletivo em locais adequados",
+        "Eles se reúnem lá para procriar no inverno",
+        "Eles passam o inverno debaixo d'água",
+        "Eles deixam cair as asas antes da migração"
+      ],
+      "explanation": "As populações migratórias na América do Norte passam o inverno em locais específicos, muitas vezes em colônias densas.",
+      "didYouKnow": "A monarca é uma borboleta da família Nymphalidae.",
+      "imageCaption": "Monarca"
+    },
+    {
+      "id": "insects-034",
+      "animal": "Esfinge",
+      "prompt": "Como alguns falcões podem se alimentar de flores profundas?",
+      "options": [
+        "Eles têm uma longa tromba para alcançar o néctar",
+        "Eles perfuram a corola com suas mandíbulas",
+        "Eles absorvem o néctar pelas pernas",
+        "Eles tiram néctar do pedúnculo"
+      ],
+      "explanation": "A longa tromba de certos falcões permite-lhes alcançar o néctar na parte inferior das corolas tubulares.",
+      "didYouKnow": "As mariposas esfinge geralmente têm corpos aerodinâmicos e asas estreitas adaptadas para vôos rápidos.",
+      "imageCaption": "Mariposa falcão trepadeira"
+    },
+    {
+      "id": "insects-035",
+      "animal": "Himenópteros",
+      "prompt": "Qual característica é comum em Hymenoptera adultos?",
+      "options": [
+        "Dois pares de asas membranosas, às vezes reduzidas ou ausentes",
+        "Dois pares de élitros",
+        "Um par de asas com pêndulos",
+        "Asas escamosas"
+      ],
+      "explanation": "A maioria dos himenópteros alados possui dois pares de asas acoplados por pequenos ganchos.",
+      "didYouKnow": "Formigas e abelhas compartilham a ordem Hymenoptera com vespas.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-036",
+      "animal": "Abelhas",
+      "prompt": "O que as abelhas coletam das flores para fazer mel?",
+      "options": [
+        "Néctar",
+        "Pólen para fazer mel diretamente",
+        "Seiva de folha",
+        "Cera vegetal"
+      ],
+      "explanation": "As abelhas processam e desidratam o néctar na colmeia para produzir mel.",
+      "didYouKnow": "As abelhas usam própolis, uma resina vegetal, para selar certas rachaduras na colmeia.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-037",
+      "animal": "Abelhas",
+      "prompt": "Qual o papel do pólen na reprodução das plantas com flores?",
+      "options": [
+        "O pólen carrega o gametófito masculino até o estigma, então um tubo polínico pode crescer em direção ao óvulo",
+        "O pólen fornece açúcar diretamente aos ovos antes da fertilização",
+        "O pólen nutre o embrião assim que a semente se forma",
+        "O pólen contém o gametófito feminino da planta"
+      ],
+      "explanation": "O grão de pólen carrega o gametófito masculino. Depois que o pólen compatível foi depositado no estigma, um tubo polínico pode transportar os gametas masculinos até o óvulo.",
+      "didYouKnow": "As abelhas também podem perceber a luz ultravioleta, invisível ao olho humano.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-038",
+      "animal": "Abelhas",
+      "prompt": "Como é que uma abelha muitas vezes indica uma fonte de alimento distante?",
+      "options": [
+        "Por uma dança de requebrado que comunica direção e distância",
+        "Por uma dança circular que indica um recurso distante com sua orientação precisa",
+        "Ao depositar um rastro de feromônios da colmeia até a flor",
+        "Produzindo um som contínuo cuja frequência indica o ponto cardeal"
+      ],
+      "explanation": "A dança contorcida transmite aos seus membros informações sobre a direção e distância de um recurso.",
+      "didYouKnow": "As abelhas operárias batem as asas na entrada da colmeia para ajudar na ventilação.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-039",
+      "animal": "Abelhas",
+      "prompt": "Qual indivíduo põe a maioria dos ovos em uma colônia de abelhas?",
+      "options": [
+        "A rainha",
+        "Trabalhadores em proporções iguais",
+        "Os drones",
+        "Larvas velhas"
+      ],
+      "explanation": "A rainha é a principal fêmea reprodutiva da colônia.",
+      "didYouKnow": "A abelha rainha pode viver vários anos, muito mais do que uma operária de verão.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-040",
+      "animal": "Abelhas",
+      "prompt": "Qual é o papel dos drones em uma colônia de abelhas?",
+      "options": [
+        "Fertilizando uma rainha durante o voo nupcial",
+        "Colete néctar para a colônia",
+        "Construa os pentes de cera",
+        "Defenda a colmeia contra predadores"
+      ],
+      "explanation": "Os machos acasalam com rainhas durante os voos nupciais.",
+      "didYouKnow": "Drones não têm ferrão.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-041",
+      "animal": "Abelhas",
+      "prompt": "Por que as operárias das abelhas melíferas podem picar uma ameaça?",
+      "options": [
+        "Seu ferrão é uma estrutura derivada do ovipositor",
+        "Elas têm uma peça bucal venenosa para morder",
+        "Liberam um líquido urticante pelas pernas",
+        "Usam uma ponta afiada na extremidade de cada antena"
+      ],
+      "explanation": "O ferrão das operárias é uma estrutura derivada do ovipositor ancestral.",
+      "didYouKnow": "As abelhas também comunicam a localização dos recursos por meio de uma dança ondulante.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-042",
+      "animal": "Abelhas",
+      "prompt": "Como as abelhas ajudam a polinizar certas flores?",
+      "options": [
+        "Eles vibram as anteras para liberar pólen",
+        "Eles coletam o pólen já liberado sem fazer vibrar a flor",
+        "Eles perfuram a corola para alcançar o néctar sem tocar nas anteras",
+        "Eles depositam pólen nas flores esfregando o abdômen contra elas"
+      ],
+      "explanation": "A polinização vibratória, ou “polinização vibrante”, libera pólen de certas anteras.",
+      "didYouKnow": "As colônias de abelhas são geralmente anuais; apenas as jovens rainhas fertilizadas passam o inverno.",
+      "imageCaption": "Abelha terrestre"
+    },
+    {
+      "id": "insects-043",
+      "animal": "Formigas",
+      "prompt": "Que sinal químico geralmente ajuda as formigas a seguirem uma trilha até a comida?",
+      "options": [
+        "Feromônios",
+        "Enzimas digestivas",
+        "Pigmentos cuticulares",
+        "Hormônios da muda"
+      ],
+      "explanation": "As formigas deixam rastros de feromônios que suas formigas podem seguir.",
+      "didYouKnow": "Algumas formigas criam pulgões e coletam a melada que excretam.",
+      "imageCaption": "Formiga de jardim preta"
+    },
+    {
+      "id": "insects-044",
+      "animal": "Formigas",
+      "prompt": "O que significa o termo “supercolônia” para certas formigas?",
+      "options": [
+        "Uma extensa rede de ninhos cujos membros cooperam extensivamente",
+        "Um ninho único e muito grande",
+        "Um grupo composto apenas por rainhas",
+        "Um conjunto de ninhos onde as operárias são agressivas entre si"
+      ],
+      "explanation": "Ninhos conectados podem formar uma grande sociedade com pouca agressão entre os indivíduos.",
+      "didYouKnow": "A formiga argentina é nativa da América do Sul.",
+      "imageCaption": "Formiga argentina"
+    },
+    {
+      "id": "insects-045",
+      "animal": "Formigas cortadeiras",
+      "prompt": "Para que servem os pedaços de folhas carregados pelas formigas cortadeiras?",
+      "options": [
+        "Para cultivar o fungo do qual se alimentam",
+        "Para alimentar as larvas diretamente",
+        "Para construir o ninho de papel",
+        "Para fazer as asas da rainha"
+      ],
+      "explanation": "As folhas servem de substrato para um fungo cultivado no ninho.",
+      "didYouKnow": "As formigas cortadeiras têm uma rainha que pode viver vários anos.",
+      "imageCaption": "Formiga cortadeira"
+    },
+    {
+      "id": "insects-046",
+      "animal": "Vespas parasitóides",
+      "prompt": "Como uma vespa parasitóide costuma usar um hospedeiro?",
+      "options": [
+        "Ele põe ovos dentro ou sobre um hospedeiro, onde sua larva se desenvolve às suas custas",
+        "Ele captura diversas presas e as armazena em uma cela para sua larva",
+        "Deposita ovos nos tecidos de uma planta, onde sua larva consome as folhas",
+        "Ele paralisa um inseto e depois o consome sem botar ovos."
+      ],
+      "explanation": "A larva do parasitóide se alimenta do hospedeiro e geralmente acaba matando-o.",
+      "didYouKnow": "Muitas vespas parasitóides são pequenas o suficiente para passarem despercebidas.",
+      "imageCaption": "Vespa parasitóide"
+    },
+    {
+      "id": "insects-047",
+      "animal": "Vespas sociais",
+      "prompt": "De que são feitos os ninhos de papel de muitas vespas sociais?",
+      "options": [
+        "De fibras vegetais mastigadas e misturadas com saliva",
+        "Cera abdominal",
+        "De lama presa por veneno",
+        "Seda produzida por trabalhadores"
+      ],
+      "explanation": "As vespas mastigam fibras de madeira e as montam em células semelhantes a papel.",
+      "didYouKnow": "Os ninhos são frequentemente fixados em galhos, edifícios ou cavidades.",
+      "imageCaption": "Vespa alemã"
+    },
+    {
+      "id": "insects-048",
+      "animal": "Vespas-serra",
+      "prompt": "Para que serve o ovipositor serrilhado das fêmeas de vespas-serra?",
+      "options": [
+        "Para abrir cortes no tecido vegetal e depositar os ovos",
+        "Para perfurar madeira e retirar seiva para as larvas",
+        "Para segurar presas enquanto a fêmea se alimenta",
+        "Para cortar folhas e construir abrigos para as pupas"
+      ],
+      "explanation": "As fêmeas de muitas vespas-serra usam o ovipositor serrilhado para abrir uma fenda numa folha ou caule e pôr ovos.",
+      "didYouKnow": "As moscas-serras pertencem aos Hymenoptera, mas não possuem o tamanho restrito típico das vespas apócritas.",
+      "imageCaption": "Rosa mosca"
+    },
+    {
+      "id": "insects-049",
+      "animal": "Dípteros",
+      "prompt": "Quantos pares de asas funcionais os dípteros normalmente possuem?",
+      "options": [
+        "Um par",
+        "Dois pares de asas membranosas",
+        "Três pares",
+        "Sem asas em todos os dípteros"
+      ],
+      "explanation": "Os dípteros têm um par de asas anteriores; o par traseiro é transformado em pêndulos.",
+      "didYouKnow": "As larvas de muitas moscas vivem na água, no solo ou em matéria orgânica em decomposição.",
+      "imageCaption": "Mosca doméstica"
+    },
+    {
+      "id": "insects-050",
+      "animal": "Moscas",
+      "prompt": "Para que servem os halteres das moscas?",
+      "options": [
+        "Para detectar rotações e ajudar a estabilizar o voo",
+        "Para coletar pólen das flores",
+        "Para produzir sons que atraem parceiros",
+        "Para detectar odores no ar"
+      ],
+      "explanation": "Os halteres são órgãos sensoriais que ajudam a controlar o equilíbrio e as manobras de voo.",
+      "didYouKnow": "Os pés das moscas possuem almofadas adesivas que as ajudam a andar em superfícies lisas.",
+      "imageCaption": "Mosca doméstica"
+    },
+    {
+      "id": "insects-051",
+      "animal": "Moscas",
+      "prompt": "Como uma mosca-doméstica percebe o sabor de uma superfície?",
+      "options": [
+        "Com receptores gustativos localizados principalmente nas pernas",
+        "Com suas asas",
+        "Com os estigmas do tórax",
+        "Com os pêndulos"
+      ],
+      "explanation": "Os receptores sensoriais nas patas podem detectar compostos alimentares.",
+      "didYouKnow": "As moscas domésticas têm olhos compostos que cobrem uma grande parte da cabeça.",
+      "imageCaption": "Mosca doméstica"
+    },
+    {
+      "id": "insects-052",
+      "animal": "Mosquitos",
+      "prompt": "Que fluido as fêmeas de muitas espécies de mosquitos procuram para produzir os seus ovos?",
+      "options": [
+        "Sangue, rico em nutrientes",
+        "Néctar",
+        "Seiva",
+        "Pólen"
+      ],
+      "explanation": "Em muitas espécies, a refeição sanguínea fornece os nutrientes necessários para o desenvolvimento dos ovos.",
+      "didYouKnow": "Muitas espécies de mosquitos depositam seus ovos dentro ou perto da água, onde as larvas se desenvolvem.",
+      "imageCaption": "Mosquito comum"
+    },
+    {
+      "id": "insects-053",
+      "animal": "Mosquitos",
+      "prompt": "Onde as larvas do mosquito se desenvolvem com mais frequência?",
+      "options": [
+        "Na água",
+        "Nas galerias de madeira",
+        "Em flores terrenas",
+        "Em ninhos de pássaros"
+      ],
+      "explanation": "As larvas aquáticas filtram ou pastam nas partículas da água.",
+      "didYouKnow": "Os mosquitos machos de certas espécies formam enxames onde as fêmeas vêm para acasalar.",
+      "imageCaption": "Mosquito comum"
+    },
+    {
+      "id": "insects-054",
+      "animal": "Mosquitos",
+      "prompt": "Como uma larva de mosquito costuma respirar na superfície da água?",
+      "options": [
+        "Por um sifão respiratório ou estigmas na superfície",
+        "Pelas brânquias traqueais externas que extraem oxigênio dissolvido",
+        "Por trocas através da cutícula sem subir",
+        "Por estigmas localizados nas extremidades das pernas"
+      ],
+      "explanation": "Muitas larvas chegam à superfície e captam ar por um tubo respiratório ou por espiráculos.",
+      "didYouKnow": "Em muitos mosquitos, os machos detectam as fêmeas pelos sons das batidas das asas.",
+      "imageCaption": "Mosquito comum"
+    },
+    {
+      "id": "insects-055",
+      "animal": "Sirfídeos",
+      "prompt": "Como distinguir uma mosca-das-flores de uma vespa que ela imita?",
+      "options": [
+        "A mosca-das-flores tem apenas um par de asas e pode pairar no ar",
+        "A vespa tem apenas um par de asas e pode mudar de cor",
+        "A mosca-das-flores possui dois pares de asas e não consegue parar em voo",
+        "A vespa não tem antenas e só voa em linha reta"
+      ],
+      "explanation": "Os sirfídeos são dípteros inofensivos; algumas espécies imitam a aparência de vespas.",
+      "didYouKnow": "As larvas de muitas moscas flutuantes se alimentam de pulgões.",
+      "imageCaption": "Hoverfly com cinto"
+    },
+    {
+      "id": "insects-056",
+      "animal": "Moscas azuis",
+      "prompt": "Qual o papel que as larvas de moscas necrófagas costumam desempenhar em um ecossistema?",
+      "options": [
+        "Eles consomem tecidos de animais mortos e aceleram sua decomposição",
+        "Eles polinizam coníferas",
+        "Eles fazem cera",
+        "Eles caçam peixes"
+      ],
+      "explanation": "As larvas necrófagas participam da reciclagem da matéria animal.",
+      "didYouKnow": "As moscas azuis adultas geralmente têm corpos azuis ou verdes metálicos.",
+      "imageCaption": "Mosca azul"
+    },
+    {
+      "id": "insects-057",
+      "animal": "Drosófila",
+      "prompt": "Por que Drosophila melanogaster se tornou um organismo modelo em biologia?",
+      "options": [
+        "Seu curto ciclo de vida e genética são fáceis de estudar",
+        "Tem um cérebro maior do que outras moscas",
+        "Tem um ciclo de vida de vários anos",
+        "É difícil crescer em laboratório"
+      ],
+      "explanation": "Esta pequena mosca se reproduz rapidamente e possibilitou inúmeras descobertas na genética.",
+      "didYouKnow": "As moscas-das-frutas machos produzem sinais de cortejo que incluem vibrações nas asas.",
+      "imageCaption": "Vinagre Drosófila"
+    },
+    {
+      "id": "insects-058",
+      "animal": "Mutucas",
+      "prompt": "Como as mutucas fêmeas às vezes conseguem o sangue de que precisam para seus ovos?",
+      "options": [
+        "Eles cortam ou cortam a pele com aparelhos bucais poderosos",
+        "Eles picam com uma picada",
+        "Eles absorvem sangue pelas patas",
+        "Eles capturam mosquitos cheios de sangue"
+      ],
+      "explanation": "As peças bucais afiadas criam uma pequena ferida da qual o sangue é sugado.",
+      "didYouKnow": "Em muitas mutucas, os olhos dos machos tocam o topo da cabeça, enquanto os das fêmeas não.",
+      "imageCaption": "mosca de gado"
+    },
+    {
+      "id": "insects-059",
+      "animal": "Dípteros",
+      "prompt": "Qual é a forma larval comum de Diptera?",
+      "options": [
+        "Um verme sem pernas torácicas verdadeiras",
+        "Uma lagarta com pernas falsas",
+        "Uma ninfa com asas",
+        "Uma larva com pernas articuladas e élitros"
+      ],
+      "explanation": "As larvas de muitas moscas são larvas sem pernas articuladas.",
+      "didYouKnow": "As larvas de certos dípteros vivem em ambientes aquáticos.",
+      "imageCaption": "Mosca doméstica"
+    },
+    {
+      "id": "insects-060",
+      "animal": "Ortópteros",
+      "prompt": "Que característica das patas traseiras ajuda muitos gafanhotos a pular?",
+      "options": [
+        "Fêmures poderosos e aumentados",
+        "Ventosas",
+        "Barbatanas",
+        "Alicate"
+      ],
+      "explanation": "Os fêmures posteriores musculares fornecem a força para saltar.",
+      "didYouKnow": "As fêmeas de muitos gafanhotos depositam seus ovos no solo usando o abdômen.",
+      "imageCaption": "Gafanhoto migratório"
+    },
+    {
+      "id": "insects-061",
+      "animal": "Gafanhotos",
+      "prompt": "Como os gafanhotos costumam produzir seu canto?",
+      "options": [
+        "Esfregando uma parte do corpo contra outra",
+        "Esfregando o abdômen contra uma asa",
+        "Ao clicar nas mandíbulas",
+        "Ao bater as asas contra uma superfície"
+      ],
+      "explanation": "Muitos gafanhotos cantam esfregando uma fileira de dentes em parte da asa ou perna.",
+      "didYouKnow": "Os gafanhotos costumam ter uma coloração que os torna menos visíveis na vegetação.",
+      "imageCaption": "Gafanhoto migratório"
+    },
+    {
+      "id": "insects-062",
+      "animal": "Gafanhotos",
+      "prompt": "Como o comprimento das antenas das esperanças se compara ao dos gafanhotos de antenas curtas?",
+      "options": [
+        "Geralmente são longos, às vezes tão longos quanto o corpo",
+        "Eles estão ausentes",
+        "Eles têm o formato de um alicate",
+        "Eles são mais curtos que os palpos"
+      ],
+      "explanation": "Nos gafanhotos do senso comum, as antenas são longas; os gafanhotos geralmente têm antenas mais curtas.",
+      "didYouKnow": "Gafanhotos e gafanhotos pertencem à ordem Orthoptera.",
+      "imageCaption": "Grande gafanhoto verde"
+    },
+    {
+      "id": "insects-063",
+      "animal": "Grilos",
+      "prompt": "Qual órgão auditivo costuma ser encontrado nas patas dianteiras dos grilos?",
+      "options": [
+        "Um tímpano",
+        "Um pêndulo",
+        "Uma membrana no élitro",
+        "Um órgão olfativo abdominal"
+      ],
+      "explanation": "Os tímpanos dos grilos costumam ser colocados nas tíbias anteriores.",
+      "didYouKnow": "Os grilos fêmeas depositam seus ovos em um substrato usando seu ovipositor.",
+      "imageCaption": "Críquete de campo"
+    },
+    {
+      "id": "insects-064",
+      "animal": "Louva-a-deus",
+      "prompt": "Como um louva-a-deus captura principalmente sua presa?",
+      "options": [
+        "Com as patas dianteiras espinhosas e preênseis",
+        "Com um ferrão venenoso no abdômen",
+        "Prendendo a presa em uma teia de aranha",
+        "Com as patas traseiras, que esmagam a presa"
+      ],
+      "explanation": "As patas dianteiras dobradas e espinhosas agarram as presas.",
+      "didYouKnow": "A cabeça altamente móvel permite que o louva-a-deus rastreie visualmente um alvo.",
+      "imageCaption": "Louva-a-deus"
+    },
+    {
+      "id": "insects-065",
+      "animal": "Louva-a-deus",
+      "prompt": "Por que a cabeça de um louva-a-deus pode girar amplamente?",
+      "options": [
+        "Graças a uma articulação cervical especializada e muito móvel",
+        "Porque as vértebras do pescoço estão fundidas em uma haste rígida",
+        "Porque os olhos giram nas órbitas enquanto a cabeça permanece fixa",
+        "Porque o tórax gira sob uma cabeça fixada no abdômen"
+      ],
+      "explanation": "A cabeça pode girar mais do que a maioria dos insetos graças a uma articulação especializada.",
+      "didYouKnow": "Os louva-a-deus têm olhos compostos e três pequenas manchas no topo da cabeça.",
+      "imageCaption": "Louva-a-deus"
+    },
+    {
+      "id": "insects-066",
+      "animal": "bichos-pau",
+      "prompt": "Que benefício o mimetismo traz para muitos bichos-pau?",
+      "options": [
+        "Eles se misturam com galhos ou folhas",
+        "Eles atraem suas presas com luz brilhante",
+        "Eles assustam os pássaros com um som poderoso",
+        "Eles se escondem debaixo d'água"
+      ],
+      "explanation": "A forma e a cor dos bichos-pau tornam sua detecção mais difícil na vegetação.",
+      "didYouKnow": "Os bichos-pau pertencem a uma ordem distinta dos gafanhotos e dos gafanhotos.",
+      "imageCaption": "Phyllie das Filipinas"
+    },
+    {
+      "id": "insects-067",
+      "animal": "Baratas",
+      "prompt": "Que característica ajuda as baratas a detectar o movimento do ar atrás delas?",
+      "options": [
+        "Cercos sensoriais no final do abdômen",
+        "Antenas que detectam principalmente odores na frente da cabeça",
+        "Tímpanos localizados nas patas dianteiras",
+        "Olhos compostos que detectam movimentos atrás do corpo"
+      ],
+      "explanation": "Cerci carregam receptores sensíveis às correntes de ar e podem desencadear uma fuga rápida.",
+      "didYouKnow": "As baratas podem detectar odores usando receptores transportados por suas antenas.",
+      "imageCaption": "Barata americana"
+    },
+    {
+      "id": "insects-068",
+      "animal": "Baratas",
+      "prompt": "Qual o papel ecológico que algumas baratas desempenham nas florestas?",
+      "options": [
+        "Decompor matéria vegetal morta",
+        "Eles consomem principalmente seiva de árvores",
+        "Eles caçam todas as espécies de pássaros",
+        "Eles vivem exclusivamente em flores"
+      ],
+      "explanation": "Diversas espécies florestais consomem folhas mortas e contribuem para a reciclagem do material.",
+      "didYouKnow": "A maioria das espécies de baratas vive na natureza, e não em habitações humanas.",
+      "imageCaption": "Barata gigante da floresta"
+    },
+    {
+      "id": "insects-069",
+      "animal": "Cupins",
+      "prompt": "De que ordem zoológica os cupins fazem parte agora?",
+      "options": [
+        "Dentro da ordem Blattodea, com baratas",
+        "Dentro dos Hymenoptera, a mesma ordem das formigas",
+        "Dentro dos Orthoptera, a mesma ordem dos gafanhotos",
+        "Dentro dos Hemiptera, a mesma ordem dos percevejos"
+      ],
+      "explanation": "As análises filogenéticas colocam os cupins dentro da ordem Blattodea, com as baratas.",
+      "didYouKnow": "Os cupins alados deixam sua colônia para enxamear e encontrar novos ninhos.",
+      "imageCaption": "Cupim da savana"
+    },
+    {
+      "id": "insects-070",
+      "animal": "Cupins",
+      "prompt": "Qual parceiro microbiano ajuda muitos cupins a digerir a madeira?",
+      "options": [
+        "Microorganismos que vivem em seu trato digestivo",
+        "Bactérias em suas asas",
+        "Algas na cutícula",
+        "Vírus nas antenas"
+      ],
+      "explanation": "Os micróbios intestinais decompõem componentes da celulose e da lignina.",
+      "didYouKnow": "Os cupins alados deixam a colônia para enxamear e encontrar novos ninhos.",
+      "imageCaption": "Cupim amarelo de pescoço grosso"
+    },
+    {
+      "id": "insects-071",
+      "animal": "Cupins",
+      "prompt": "Como os cupins soldados costumam proteger a colônia?",
+      "options": [
+        "Com mandíbulas fortes ou secreções defensivas",
+        "Ao bloquear a entrada com a cabeça",
+        "Colocando ovos nos intrusos",
+        "Tecendo uma teia ao redor do ninho"
+      ],
+      "explanation": "Os soldados são especializados em defesa e podem ter mandíbulas ou glândulas defensivas.",
+      "didYouKnow": "Os trabalhadores de cupins geralmente têm corpos pálidos e evitam a luz.",
+      "imageCaption": "Cupim da savana"
+    },
+    {
+      "id": "insects-072",
+      "animal": "Odona",
+      "prompt": "Onde normalmente vivem as larvas de libélula e libelinha?",
+      "options": [
+        "Em água doce",
+        "Nas galerias de madeira",
+        "Em sementes maduras",
+        "Nos favos de mel"
+      ],
+      "explanation": "Larvas aquáticas, chamadas náiades, caçam pequenas presas.",
+      "didYouKnow": "Os odonatos adultos têm olhos grandes e compostos que lhes proporcionam excelente detecção de movimento.",
+      "imageCaption": "libélula deprimida"
+    },
+    {
+      "id": "insects-073",
+      "animal": "Libélulas",
+      "prompt": "Como as libélulas costumam capturar suas presas durante o vôo?",
+      "options": [
+        "Eles os interceptam com as pernas formando uma espécie de cesto",
+        "Eles os pegam com uma teia",
+        "Eles os sugam com um tronco",
+        "Eles injetam veneno à distância"
+      ],
+      "explanation": "As libélulas são predadoras aéreas e muitas vezes agarram insetos com as pernas.",
+      "didYouKnow": "Os olhos compostos das libélulas ocupam grande parte de suas cabeças.",
+      "imageCaption": "libélula deprimida"
+    },
+    {
+      "id": "insects-074",
+      "animal": "Donzelinhas",
+      "prompt": "Que postura de asa é comum entre libelinhas em repouso?",
+      "options": [
+        "Asas dobradas ao longo do corpo",
+        "Asas permanentemente abertas",
+        "Asas cruzadas sob a barriga",
+        "Asas enroladas em antenas"
+      ],
+      "explanation": "Muitas libelinhas dobram as asas acima do corpo quando empoleiradas.",
+      "didYouKnow": "Nas libelinhas, os olhos geralmente são separados em cada lado da cabeça.",
+      "imageCaption": "Agrião elegante"
+    },
+    {
+      "id": "insects-075",
+      "animal": "Odona",
+      "prompt": "Como os odonatos emergem do estágio larval?",
+      "options": [
+        "A larva sai da água e o adulto emerge da antiga cutícula",
+        "O adulto nasce de um ovo depositado debaixo d’água",
+        "A larva desenvolve asas debaixo d’água e nada até a margem",
+        "A larva se transforma em pupa dentro de um casulo impermeável"
+      ],
+      "explanation": "A última muda geralmente ocorre fora da água, sobre um caule ou outro suporte.",
+      "didYouKnow": "As libélulas adultas não conseguem dobrar as asas ao longo do abdômen.",
+      "imageCaption": "libélula deprimida"
+    },
+    {
+      "id": "insects-076",
+      "animal": "Efêmeras",
+      "prompt": "Por que os adultos de muitas efêmeras vivem pouco tempo?",
+      "options": [
+        "A fase adulta é principalmente dedicada à reprodução e muitas vezes não se alimenta",
+        "Geralmente não se alimentam quando adultos.",
+        "Eles vivem muito tempo, mas só põem ovos uma vez.",
+        "Suas asas param de funcionar após a eclosão"
+      ],
+      "explanation": "Em muitas espécies, o adulto não se alimenta e vive apenas o suficiente para se reproduzir.",
+      "didYouKnow": "Adultos de efeméridas podem emergir em grandes enxames acima da água.",
+      "imageCaption": "Efêmero comum"
+    },
+    {
+      "id": "insects-077",
+      "animal": "Efêmeras",
+      "prompt": "Qual inseto tem um estágio alado intermediário único chamado subimago?",
+      "options": [
+        "Uma efêmera",
+        "Uma libélula",
+        "Um besouro",
+        "Uma borboleta"
+      ],
+      "explanation": "A efêmera passa por mais uma muda depois de sua primeira fase alada, chamada subimago.",
+      "didYouKnow": "As asas das efeméridas adultas costumam ficar eretas verticalmente quando em repouso.",
+      "imageCaption": "Efêmero comum"
+    },
+    {
+      "id": "insects-078",
+      "animal": "Plecópteros",
+      "prompt": "O que muitas vezes sugere a presença de larvas de mosca-pedra em um curso de água?",
+      "options": [
+        "Água bem oxigenada",
+        "Água anóxica",
+        "Água marinha",
+        "Água contaminada por hidrocarbonetos"
+      ],
+      "explanation": "Muitas larvas de mosca-pedra são sensíveis à falta de oxigênio e à poluição.",
+      "didYouKnow": "As moscas-pedra são às vezes chamadas de beadlets, após o aparecimento de várias espécies adultas.",
+      "imageCaption": "Pérola comum"
+    },
+    {
+      "id": "insects-079",
+      "animal": "Tricópteros",
+      "prompt": "Do que as larvas de muitas moscas caddis fazem uma bainha?",
+      "options": [
+        "Seda combinada com areia, galhos ou outros detritos",
+        "De escalas",
+        "De cera",
+        "Placas quitinosas secretadas"
+      ],
+      "explanation": "As larvas secretam seda e incorporam materiais disponíveis em seu habitat aquático.",
+      "didYouKnow": "Os caddisflies adultos geralmente têm antenas filiformes e asas longas e estreitas.",
+      "imageCaption": "Frigano"
+    },
+    {
+      "id": "insects-080",
+      "animal": "Pulgas",
+      "prompt": "Como as pulgas adultas se movem de forma eficiente em seu hospedeiro?",
+      "options": [
+        "Seus corpos lateralmente achatados e pernas saltadoras os ajudam",
+        "Eles voam com asas",
+        "Eles nadam na pele",
+        "Eles se fixam com uma ventosa"
+      ],
+      "explanation": "O corpo comprimido lateralmente facilita o movimento entre os pelos e as pernas permitem o salto.",
+      "didYouKnow": "As pulgas podem sobreviver por algum tempo sem uma refeição de sangue entre dois hospedeiros.",
+      "imageCaption": "pulga de gato"
+    },
+    {
+      "id": "insects-081",
+      "animal": "Piolhos",
+      "prompt": "Como os piolhos são frequentemente transmitidos entre hosts?",
+      "options": [
+        "Por contato próximo entre hosts",
+        "Ao morder vetores",
+        "Ao voar longas distâncias",
+        "Por um estágio larval aquático"
+      ],
+      "explanation": "Os piolhos não têm asas e passam de pessoa para pessoa, muitas vezes por contato direto.",
+      "didYouKnow": "Os piolhos de mamíferos e pássaros costumam estar intimamente adaptados aos seus hospedeiros.",
+      "imageCaption": "Piolho"
+    },
+    {
+      "id": "insects-082",
+      "animal": "Piolho de pena de pombo",
+      "prompt": "De que se alimenta principalmente o piolho das penas de pombo, Columbicola columbae?",
+      "options": [
+        "De fragmentos de penas",
+        "Caspa e pele morta",
+        "Sangue retirado do hospedeiro",
+        "Secreções gordurosas na base das penas"
+      ],
+      "explanation": "Este piolho mastigador é especializado em consumir material das penas de seu hospedeiro. Distingue-se dos piolhos que se alimentam de sangue.",
+      "didYouKnow": "O piolho-pombo não tem asas e é achatado para se mover entre as penas.",
+      "imageCaption": "Piolho de penas de pombo (Columbicola columbae)."
+    },
+    {
+      "id": "insects-083",
+      "animal": "Psocídeos",
+      "prompt": "Onde os psocidas são comumente encontrados?",
+      "options": [
+        "Em mofo, líquen ou detritos orgânicos úmidos",
+        "Apenas em flores tropicais",
+        "Em ambientes marinhos",
+        "Apenas em ninhos de pássaros"
+      ],
+      "explanation": "Os psocídeos frequentemente exploram microorganismos e detritos presentes em zonas úmidas.",
+      "didYouKnow": "Algumas espécies de psocídeos são apelidadas de piolhos dos livros, mas não são piolhos parasitas.",
+      "imageCaption": "Psococerastis gibbosa, um exemplo de psocídeo que vive da casca."
+    },
+    {
+      "id": "insects-084",
+      "animal": "Peixinhos-de-prata",
+      "prompt": "Qual característica do peixe prateado é típica dos insetos apterigotos?",
+      "options": [
+        "Eles não têm asas quando adultos.",
+        "Quatro asas membranosas",
+        "Pêndulos",
+        "Élitros"
+      ],
+      "explanation": "Silverfish pertence a uma linhagem de insetos primitivamente sem asas.",
+      "didYouKnow": "Silverfish ainda muda depois de atingir a maturidade.",
+      "imageCaption": "Peixe prateado"
+    },
+    {
+      "id": "insects-085",
+      "animal": "Insetos aquáticos",
+      "prompt": "Como as larvas da mosca-pedra costumam obter oxigênio na água?",
+      "options": [
+        "Através das brânquias traqueais ou através da superfície corporal",
+        "Por um sifão que conectam periodicamente ao ar",
+        "Pelos pulmões que absorvem oxigênio dissolvido",
+        "Pelas guelras que bombeiam o ar para fora da água"
+      ],
+      "explanation": "As trocas gasosas em larvas aquáticas ocorrem através de brânquias ou através de áreas da cutícula.",
+      "didYouKnow": "As moscas-pedra adultas geralmente dobram as asas sobre o abdômen.",
+      "imageCaption": "Larva de pérola"
+    },
+    {
+      "id": "insects-086",
+      "animal": "Quironomídeos",
+      "prompt": "Por que as larvas de alguns quironomídeos são avermelhadas?",
+      "options": [
+        "Eles contêm um pigmento respiratório chamado hemoglobina",
+        "Eles acumulam carotenóides em seus alimentos",
+        "Eles têm hemocianina em sua hemolinfa",
+        "Sua cutícula contém um pigmento vermelho produzido por bactérias"
+      ],
+      "explanation": "A hemoglobina ajuda algumas larvas a capturar oxigênio em habitats pobres em oxigênio.",
+      "didYouKnow": "Os adultos quironomídeos parecem pequenos mosquitos, mas não picam.",
+      "imageCaption": "Chironomus"
+    },
+    {
+      "id": "insects-087",
+      "animal": "Fríganos",
+      "prompt": "A que ordem pertencem os caddisflies, cujas larvas às vezes constroem bainhas?",
+      "options": [
+        "À ordem Trichoptera (frigâneas)",
+        "À ordem Coleoptera (besouros)",
+        "À ordem Plecoptera (plecópteros)",
+        "À ordem Diptera (dípteros)"
+      ],
+      "explanation": "Caddisflies são Trichoptera, evolutivamente próximos dos Lepidoptera.",
+      "didYouKnow": "As larvas de muitos caddisflies reúnem grãos de areia, galhos ou outros materiais com seda.",
+      "imageCaption": "Frigano"
+    },
+    {
+      "id": "insects-088",
+      "animal": "Cigarras",
+      "prompt": "Como as cigarras machos produzem seu canto poderoso?",
+      "options": [
+        "Com tímpanos vibrantes no abdômen",
+        "Esfregando as patas",
+        "Com pêndulos",
+        "Ao clicar em suas mandíbulas"
+      ],
+      "explanation": "Os tímpanos são membranas abdominais que vibram sob a ação dos músculos.",
+      "didYouKnow": "As ninfas de muitas cigarras vivem no subsolo e se alimentam da seiva das raízes.",
+      "imageCaption": "Cigarra comum"
+    },
+    {
+      "id": "insects-089",
+      "animal": "Cicadelídeos",
+      "prompt": "Como os cicadelídeos saltam rapidamente quando são perturbados?",
+      "options": [
+        "Graças às suas patas traseiras adaptadas para saltar",
+        "Abrindo asas escamosas",
+        "Ao expulsar a água",
+        "Desenrolando uma cauda"
+      ],
+      "explanation": "Suas patas traseiras são especializadas e podem afastar o corpo do suporte.",
+      "didYouKnow": "As cigarrinhas podem transmitir patógenos a certas plantas.",
+      "imageCaption": "Cigarrinha verde"
+    },
+    {
+      "id": "insects-090",
+      "animal": "Pulgões",
+      "prompt": "Quantos pulgões se reproduzem durante parte do ano?",
+      "options": [
+        "Por partenogênese, com as fêmeas dando à luz descendentes sem fertilização",
+        "Pelo acasalamento obrigatório em cada geração",
+        "Por brotamento da cutícula",
+        "Pela divisão de um indivíduo adulto em dois"
+      ],
+      "explanation": "A partenogênese permite que certas populações cresçam rapidamente quando as condições são favoráveis.",
+      "didYouKnow": "Os pulgões podem estar associados a formigas que colhem sua melada.",
+      "imageCaption": "Pulgão rosa"
+    },
+    {
+      "id": "insects-091",
+      "animal": "Pulgões",
+      "prompt": "O que os pulgões liberam das cornículas do abdômen?",
+      "options": [
+        "Secreções cerosas ou defensivas",
+        "Mel para formigas",
+        "Seiva sugada da planta",
+        "Ovos protegidos por uma cápsula"
+      ],
+      "explanation": "As cornículas secretam substâncias cerosas ou defensivas em muitos pulgões.",
+      "didYouKnow": "Quando as condições mudam, algumas espécies de pulgões produzem indivíduos alados.",
+      "imageCaption": "Pulgão rosa"
+    },
+    {
+      "id": "insects-092",
+      "animal": "Cigarras",
+      "prompt": "Por que as cigarras podem permanecer no subsolo por muito tempo antes de emergirem?",
+      "options": [
+        "O desenvolvimento das ninfas subterrâneas pode durar vários anos",
+        "Eles permanecem inativos por toda a vida",
+        "Eles se transformam em peixes",
+        "Eles estão esperando uma árvore florescer"
+      ],
+      "explanation": "As ninfas vivem e se alimentam da seiva das raízes antes de emergirem.",
+      "didYouKnow": "As cigarras adultas têm olhos compostos bem espaçados.",
+      "imageCaption": "Cigarra comum"
+    },
+    {
+      "id": "insects-093",
+      "animal": "Hemípteros",
+      "prompt": "Que tipo de aparelho bucal é comum nos hemípteros que perfuram e sugam?",
+      "options": [
+        "Um rostro perfurante adaptado para sugar líquidos",
+        "Mandíbulas robustas para triturar folhas",
+        "Uma espirotromba enrolada para sugar néctar",
+        "Um aparelho bucal esponjoso para absorver líquidos"
+      ],
+      "explanation": "O rostro permite perfurar tecidos ou acessar fluidos vegetais.",
+      "didYouKnow": "Insetos aquáticos gigantes respiram na superfície usando um apêndice respiratório localizado na extremidade do abdômen.",
+      "imageCaption": "Inseto verde"
+    },
+    {
+      "id": "insects-094",
+      "animal": "Percevejos verdadeiros",
+      "prompt": "Como as asas anteriores de muitos percevejos verdadeiros diferem das dos besouros?",
+      "options": [
+        "São parcialmente endurecidos, com extremidade membranosa",
+        "Eles estão totalmente endurecidos e se encontram em linha reta",
+        "Eles são membranosos em todo o seu comprimento",
+        "Eles são transformados em pêndulos para estabilizar o vôo"
+      ],
+      "explanation": "Os hemelytra possuem uma parte basal coriácea e uma parte distal membranosa.",
+      "didYouKnow": "Muitos percevejos têm um escutelo triangular visível nas costas.",
+      "imageCaption": "Inseto verde"
+    },
+    {
+      "id": "insects-095",
+      "animal": "Percevejos-fedorentos",
+      "prompt": "De onde vem frequentemente o odor defensivo dos chamados percevejos?",
+      "options": [
+        "Secreções produzidas pelas glândulas odoríferas",
+        "Comida fermentada em suas asas",
+        "Do seu sangue rico em ferro",
+        "Germes nas patas"
+      ],
+      "explanation": "Alguns percevejos-fedorentos liberam compostos odoríferos para afastar predadores.",
+      "didYouKnow": "Os percevejos pertencem à família Pentatomidae.",
+      "imageCaption": "Inseto verde"
+    },
+    {
+      "id": "insects-096",
+      "animal": "Percevejos-assassinos",
+      "prompt": "Como os percevejos-assassinos predadores costumam consumir suas presas?",
+      "options": [
+        "Injetam saliva com enzimas digestivas e depois sugam os tecidos liquefeitos",
+        "Mastigam a presa com mandíbulas e engolem pedaços sólidos",
+        "Envolvem a presa em seda e esperam que seque",
+        "Absorvem a presa inteira pela superfície do corpo"
+      ],
+      "explanation": "O rostro perfurante é usado para injetar saliva e sugar o conteúdo liquefeito.",
+      "didYouKnow": "Alguns insetos tropicais se alimentam do sangue de vertebrados, incluindo humanos.",
+      "imageCaption": "Lagarta mascarada"
+    },
+    {
+      "id": "insects-097",
+      "animal": "Cercópes",
+      "prompt": "Como as larvas da cigarrinha costumam se proteger?",
+      "options": [
+        "Eles se cercam de uma espuma feita de bolhas e secreções",
+        "Eles constroem para si uma bainha de areia e seda",
+        "Eles se escondem em uma galeria de madeira escavada pelo adulto",
+        "Eles formam uma cápsula rígida a partir do solo e da saliva"
+      ],
+      "explanation": "O musgo protege as larvas e provavelmente limita a secagem.",
+      "didYouKnow": "As cigarrinhas estão relacionadas às cigarrinhas e pulgões dos hemípteros.",
+      "imageCaption": "Cigarrinha do prado"
+    },
+    {
+      "id": "insects-098",
+      "animal": "Pulgões e formigas",
+      "prompt": "Por que às vezes as formigas protegem os pulgões?",
+      "options": [
+        "Eles colhem a doce melada que os pulgões excretam",
+        "Pulgões fazem cera para o ninho",
+        "Pulgões caçam cupins",
+        "Pulgões se alimentam de ovos de formiga"
+      ],
+      "explanation": "As formigas colhem melada e às vezes defendem os pulgões contra predadores.",
+      "didYouKnow": "Os pulgões mudam várias vezes durante o seu desenvolvimento e às vezes suas cutículas velhas permanecem nas folhas.",
+      "imageCaption": "Pulgão rosa"
+    },
+    {
+      "id": "insects-099",
+      "animal": "Insetos sociais",
+      "prompt": "Como as abelhas comunicam um alarme à colônia?",
+      "options": [
+        "Por feromônios e sinais comportamentais",
+        "Eles emitem sons de alarme",
+        "Eles fazem uma exibição visual",
+        "Eles mudam a cor do corpo"
+      ],
+      "explanation": "Sinais e movimentos químicos podem alertar outros trabalhadores sobre o perigo.",
+      "didYouKnow": "Em muitas sociedades de insetos, as operárias cuidam da criação e da manutenção do ninho.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-100",
+      "animal": "Insetos sociais",
+      "prompt": "O que significa “eussocialidade” em insetos?",
+      "options": [
+        "Uma sociedade com cuidado cooperativo da prole, gerações sobrepostas e divisão reprodutiva do trabalho",
+        "Um grupo em que cada adulto se reproduz de forma independente",
+        "Um grupo temporário que se forma apenas para migrar",
+        "Uma colônia em que todos os indivíduos realizam as mesmas tarefas"
+      ],
+      "explanation": "Essas características definem sociedades eussociais, como as de formigas e muitas abelhas.",
+      "didYouKnow": "Alguns cupinzeiros podem ultrapassar vários metros de altura.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-101",
+      "animal": "Insetos sociais",
+      "prompt": "Qual é o papel do trabalhador estéril em uma colônia social?",
+      "options": [
+        "Ela realiza tarefas como cuidar da ninhada ou procurar comida.",
+        "Ela substitui a rainha diariamente",
+        "Ela é um macho reprodutor",
+        "Ela põe todos os ovos fertilizados"
+      ],
+      "explanation": "Os trabalhadores contribuem para o funcionamento da colónia em vez de para a reprodução direta.",
+      "didYouKnow": "As operárias das abelhas geralmente vivem muito mais tempo no inverno do que no verão.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-102",
+      "animal": "Comunicação",
+      "prompt": "O que é um feromônio?",
+      "options": [
+        "Um sinal químico emitido e percebido entre indivíduos da mesma espécie",
+        "Um produto químico interno que regula apenas o corpo do seu transmissor",
+        "Composto produzido por uma espécie e utilizado por outra em seu benefício",
+        "Uma substância que atrai apenas os predadores de um inseto"
+      ],
+      "explanation": "Os feromônios transmitem informações entre membros da mesma espécie, como uma trilha ou um sinal sexual.",
+      "didYouKnow": "As abelhas e muitos outros insetos também percebem as vibrações transmitidas pelo solo ou pelas plantas.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-103",
+      "animal": "Comunicação",
+      "prompt": "Qual é a finalidade das vibrações do substrato em alguns insetos?",
+      "options": [
+        "Para transmitir um sinal através de plantas, solo ou teia",
+        "Para transmitir uma substância odorífera para o ar",
+        "Para produzir um som que viaja principalmente pelo ar",
+        "Para mudar a cor do corpo para se comunicar remotamente"
+      ],
+      "explanation": "As vibrações transmitidas por um meio podem ser usadas para atrair um parceiro ou sinalizar uma ameaça.",
+      "didYouKnow": "As asas das borboletas podem apresentar escamas microscópicas coloridas.",
+      "imageCaption": "Cigarrinha do prado"
+    },
+    {
+      "id": "insects-104",
+      "animal": "Visão",
+      "prompt": "O que as simples manchas oculares de muitos insetos detectam principalmente?",
+      "options": [
+        "Intensidade da luz e mudanças na orientação",
+        "Formação de uma imagem detalhada do meio ambiente",
+        "Detecção de odores e feromônios",
+        "Vibrações do substrato sob as pernas"
+      ],
+      "explanation": "Os ocelos completam os olhos compostos, fornecendo informações principalmente sobre a luminosidade.",
+      "didYouKnow": "Muitos insetos também possuem olhos compostos, distintos dos ocelos.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-105",
+      "animal": "Visão",
+      "prompt": "Como um olho composto forma a imagem de um inseto?",
+      "options": [
+        "A partir de sinais de numerosas unidades visuais chamadas omatídeos",
+        "A partir de uma única lente que forma uma imagem como uma câmera",
+        "De receptores olfativos localizados ao redor da retina",
+        "De ondas sonoras refletidas por objetos"
+      ],
+      "explanation": "Cada omatídeo captura parte do campo visual e o sistema monta seus sinais.",
+      "didYouKnow": "Algumas abelhas percebem a polarização da luz, o que as ajuda a se orientar.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-106",
+      "animal": "Ecologia",
+      "prompt": "Que serviço ecológico os insetos polinizadores prestam às plantas?",
+      "options": [
+        "Eles transportam pólen entre as flores e promovem a fertilização",
+        "Eles fertilizam as plantas depositando seus ovos nas flores",
+        "Eles carregam sementes sem carregar pólen",
+        "Eles pastam nas flores sem mover o pólen"
+      ],
+      "explanation": "O transporte de pólen facilita a reprodução sexuada em muitas plantas com flores.",
+      "didYouKnow": "Entre os insetos, os besouros constituem a ordem com as espécies mais descritas.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-107",
+      "animal": "Insetos saproxílicos",
+      "prompt": "A que recurso ou habitat os insetos saproxílicos estão relacionados?",
+      "options": [
+        "Madeira morta ou em decomposição, da qual dependem em uma fase do seu ciclo",
+        "Com folhas vivas, que devem consumir quando adultos",
+        "Para as águas abertas, onde passam a vida inteira",
+        "Sementes armazenadas em formigueiros"
+      ],
+      "explanation": "O termo saproxílico refere-se a espécies que dependem de madeira morta ou em decomposição em algum estágio de seu ciclo de vida. Alguns participam de sua decomposição, enquanto outros utilizam esse habitat ou os organismos que nele vivem.",
+      "didYouKnow": "Os adultos de muitos besouros saproxílicos vivem apenas algumas semanas.",
+      "imageCaption": "Rosália dos Alpes"
+    },
+    {
+      "id": "insects-108",
+      "animal": "Ecologia",
+      "prompt": "Por que os insetos são um importante recurso alimentar para muitas aves?",
+      "options": [
+        "Eles fornecem presas abundantes e nutritivas, especialmente para filhotes",
+        "Eles são o único alimento para todos os pássaros",
+        "Eles fornecem principalmente fibras vegetais",
+        "Eles estão disponíveis em quantidades iguais durante todo o ano"
+      ],
+      "explanation": "Muitos pássaros alimentam seus filhotes com lagartas e outros insetos ricos em nutrientes.",
+      "didYouKnow": "Os insetos ocupam uma grande variedade de habitats terrestres, desde desertos até florestas tropicais.",
+      "imageCaption": "Gafanhoto migratório"
+    },
+    {
+      "id": "insects-109",
+      "animal": "Metamorfose",
+      "prompt": "Qual é a diferença entre metamorfose completa e metamorfose incompleta?",
+      "options": [
+        "A metamorfose completa inclui uma fase de pupa entre larva e adulto; a incompleta não",
+        "A metamorfose completa não tem fase larval, enquanto a incompleta tem",
+        "Na metamorfose completa os jovens se parecem com os adultos, mas na incompleta não",
+        "Os dois tipos diferem apenas pelo número de ovos postos"
+      ],
+      "explanation": "A metamorfose completa passa por ovo, larva, pupa e adulto; na incompleta, as fases jovens se parecem com o adulto.",
+      "didYouKnow": "Formigas, abelhas e vespas pertencem à ordem Hymenoptera.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-110",
+      "animal": "Metamorfose",
+      "prompt": "Qual é o nome do filhote de gafanhoto que já se parece com o adulto mas não possui asas funcionais?",
+      "options": [
+        "Uma ninfa",
+        "Uma pupa",
+        "Uma larva do tipo lagarta",
+        "Uma imago imatura"
+      ],
+      "explanation": "Ortópteros jovens são ninfas que mudam várias vezes antes de se tornarem adultos.",
+      "didYouKnow": "As cigarras adultas produzem seu canto com membranas vibrantes chamadas tímpanos.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-111",
+      "animal": "Metamorfose",
+      "prompt": "O que acontece durante a muda de um inseto?",
+      "options": [
+        "O inseto deixa sua cutícula velha e forma uma nova",
+        "O inseto perde permanentemente a cutícula",
+        "Ele substitui suas antenas por pulmões",
+        "Torna-se adulto a cada muda"
+      ],
+      "explanation": "A muda permite o crescimento e também pode acompanhar mudanças de estágio.",
+      "didYouKnow": "A cutícula externa também serve como ponto de ancoragem para os músculos do inseto.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-112",
+      "animal": "Preservação",
+      "prompt": "Por que a luz artificial à noite pode prejudicar certos insetos?",
+      "options": [
+        "Pode desorientar ou atrair insetos de seus comportamentos normais",
+        "Torna os insetos mais visíveis para as plantas",
+        "Isso necessariamente causa muda",
+        "Remove todos os predadores noturnos"
+      ],
+      "explanation": "A iluminação noturna perturba a orientação, alimentação e reprodução de certas espécies.",
+      "didYouKnow": "Algumas espécies de mosquitos podem completar o seu desenvolvimento larval em cavidades de água muito pequenas.",
+      "imageCaption": "Mariposa falcão trepadeira"
+    },
+    {
+      "id": "insects-113",
+      "animal": "Preservação",
+      "prompt": "Que prática ajuda a preservar os insetos polinizadores em um jardim?",
+      "options": [
+        "Plante uma variedade de flores e limite os pesticidas",
+        "Remover plantas nativas",
+        "Ilumine a noite toda",
+        "Remova as flores assim que elas florescerem"
+      ],
+      "explanation": "Diversos recursos florais e refúgios apoiam os polinizadores.",
+      "didYouKnow": "Um pequeno elemento de água rasa com pedras pode fornecer um local de bebida para os insetos.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-114",
+      "animal": "Preservação",
+      "prompt": "Porquê manter madeira morta em certas áreas naturais?",
+      "options": [
+        "Serve como habitat e recurso para espécies saproxílicas",
+        "Impede a germinação das sementes",
+        "Elimina polinizadores",
+        "Isso polui a água"
+      ],
+      "explanation": "A madeira morta fornece alimento, abrigo e locais de reprodução para muitos organismos.",
+      "didYouKnow": "Árvores velhas geralmente fornecem locais de nidificação para pássaros que vivem em cavidades.",
+      "imageCaption": "Rosália dos Alpes"
+    },
+    {
+      "id": "insects-115",
+      "animal": "Preservação",
+      "prompt": "Qual é um possível efeito da fragmentação do habitat sobre os insetos?",
+      "options": [
+        "Isola populações e reduz viagens entre locais",
+        "Promove movimento entre fragmentos",
+        "Conecta populações anteriormente isoladas",
+        "Aumenta a área de superfície do habitat contínuo"
+      ],
+      "explanation": "Fragmentos isolados podem limitar as trocas e tornar as populações mais vulneráveis.",
+      "didYouKnow": "Alguns insetos, como as joaninhas, reúnem-se em grupos para passar o inverno.",
+      "imageCaption": "Monarca"
+    },
+    {
+      "id": "insects-116",
+      "animal": "Preservação",
+      "prompt": "Por que os pesticidas de amplo espectro representam um risco para os insetos não-alvo?",
+      "options": [
+        "Eles também podem matar polinizadores e predadores benéficos",
+        "Eles afetam apenas pragas de insetos",
+        "Eles favorecem sistematicamente os polinizadores",
+        "Eles evitam qualquer resistência em pragas"
+      ],
+      "explanation": "Um produto de amplo espectro pode afetar outras espécies além da praga alvo.",
+      "didYouKnow": "A luz artificial à noite pode desorientar alguns insetos atraídos por fontes de luz.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-117",
+      "animal": "Ecologia",
+      "prompt": "O que é um inseto bioindicador?",
+      "options": [
+        "Uma espécie cuja presença ou abundância fornece informações sobre o estado do meio ambiente",
+        "Uma espécie introduzida para restaurar o funcionamento de um ambiente",
+        "Uma espécie ainda presente apenas em ambientes poluídos",
+        "Uma espécie que indica especificamente a presença de um único contaminante"
+      ],
+      "explanation": "A sensibilidade de certos insetos às condições ambientais permite monitorar as mudanças ecológicas.",
+      "didYouKnow": "As larvas de muitas efeméridas vivem na água antes de emergirem como adultas.",
+      "imageCaption": "Larva de pérola"
+    },
+    {
+      "id": "insects-118",
+      "animal": "Ecologia",
+      "prompt": "Como os insetos decompositores contribuem para a ciclagem de nutrientes?",
+      "options": [
+        "Eles fragmentam a matéria orgânica e facilitam a reciclagem",
+        "Eles criam minerais por fotossíntese",
+        "Eles impedem que os micróbios atuem",
+        "Eles convertem carbono puro em nitrogênio"
+      ],
+      "explanation": "O consumo e a fragmentação de detritos orgânicos aceleram a sua decomposição.",
+      "didYouKnow": "Os cupins podem construir galerias que modificam a circulação da água no solo.",
+      "imageCaption": "Besouro de esterco sagrado"
+    },
+    {
+      "id": "insects-119",
+      "animal": "Defesa",
+      "prompt": "Por que alguns insetos exibem cores de alerta brilhantes?",
+      "options": [
+        "Alertam os predadores de que o inseto pode ser protegido ou ter gosto desagradável",
+        "Atraem parceiros ao refletir a luz da lua",
+        "Ajudam o inseto a absorver mais luz solar",
+        "Tornam o inseto mais difícil de ver entre as flores"
+      ],
+      "explanation": "As cores de advertência podem ensinar predadores a evitar presas defendidas.",
+      "didYouKnow": "A joaninha de sete pintas geralmente tem sete manchas pretas em seus élitros vermelhos.",
+      "imageCaption": "Joaninha de sete pintas"
+    },
+    {
+      "id": "insects-120",
+      "animal": "Defesa",
+      "prompt": "Que benefício a camuflagem proporciona a um inseto foliar?",
+      "options": [
+        "Reduz as chances de ser avistado por predadores",
+        "Permite que você respire debaixo d'água",
+        "Substitui o sistema imunológico",
+        "Acelera a muda"
+      ],
+      "explanation": "A semelhança com uma folha pode dificultar a detecção do inseto.",
+      "didYouKnow": "Os insetos folhosos pertencem aos bichos-pau, da ordem Phasmatodea.",
+      "imageCaption": "Phyllie das Filipinas"
+    },
+    {
+      "id": "insects-121",
+      "animal": "Defesa",
+      "prompt": "O que faz um inseto que realiza autotomia?",
+      "options": [
+        "Ele abandona voluntariamente um apêndice para escapar de um predador",
+        "Ele borrifa líquido digestivo no predador",
+        "Ele muda de cor para imitar uma folha",
+        "Ele se fecha dentro de um casulo de seda"
+      ],
+      "explanation": "Algumas espécies podem sacrificar uma perna agarrada por um predador e fugir.",
+      "didYouKnow": "Os insetos folhosos pertencem à ordem dos bichos-pau, Phasmatodea.",
+      "imageCaption": "bicho-pau"
+    },
+    {
+      "id": "insects-122",
+      "animal": "Insetos e humanos",
+      "prompt": "Por que as abelhas melíferas são importantes para a agricultura?",
+      "options": [
+        "Eles polinizam muitas culturas e plantas selvagens",
+        "Eles produzem nitrogênio no solo",
+        "Eles eliminam todas as pragas",
+        "Eles produzem sementes sem pólen"
+      ],
+      "explanation": "A sua polinização contribui para a produção de muitas culturas, embora nem todas as culturas dependam delas.",
+      "didYouKnow": "As colônias de abelhas são geralmente anuais; jovens rainhas acasaladas passam o inverno sozinhas.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-123",
+      "animal": "Insetos e humanos",
+      "prompt": "Que material os bichos-da-seda produzem para formar seus casulos?",
+      "options": [
+        "Um filamento de seda secretado por suas glândulas",
+        "Cera de suas patas",
+        "Pólen compactado",
+        "Fibras vegetais mastigadas"
+      ],
+      "explanation": "A lagarta bombyx produz um longo filamento de seda para construir seu casulo.",
+      "didYouKnow": "A pupa bombyx se desenvolve dentro do casulo de seda antes que o adulto emerja.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-124",
+      "animal": "Ecologia",
+      "prompt": "Por que os insetos podem ser agentes de controle biológico?",
+      "options": [
+        "Certos predadores ou parasitóides limitam as populações de organismos prejudiciais",
+        "Todos os insetos comem ervas daninhas",
+        "Eles tornam a vigilância inútil",
+        "Eles previnem qualquer doença de planta"
+      ],
+      "explanation": "As espécies-alvo podem reduzir certas pragas num programa integrado de gestão de pragas.",
+      "didYouKnow": "A joaninha de sete pintas é uma espécie comum em muitas partes da Europa.",
+      "imageCaption": "Joaninha de sete pintas"
+    },
+    {
+      "id": "insects-125",
+      "animal": "Diversidade",
+      "prompt": "Por que os insetos ocupam habitats tão variados?",
+      "options": [
+        "Suas linhagens evoluíram para muitas formas e estilos de vida",
+        "Eles vivem principalmente em áreas urbanas",
+        "Eles ocupam apenas ambientes terrestres",
+        "Eles evitam habitats aquáticos"
+      ],
+      "explanation": "A diversidade de adaptações permite que os insetos ocupem variados ambientes terrestres e aquáticos.",
+      "didYouKnow": "Os insetos constituem o grupo animal com maior número de espécies descritas.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-126",
+      "animal": "Odonatos",
+      "prompt": "Que órgão as larvas de libélula usam para agarrar certas presas?",
+      "options": [
+        "Um lábio inferior extensível, chamado máscara",
+        "Mandíbulas em formato de língua",
+        "Uma tribuna rígida para sugar a seiva",
+        "Palpos que filtram partículas da água"
+      ],
+      "explanation": "O lábio pode se projetar rapidamente para capturar pequenas presas aquáticas.",
+      "didYouKnow": "As larvas da libélula vivem na água antes da muda final em um suporte emergente.",
+      "imageCaption": "libélula deprimida"
+    },
+    {
+      "id": "insects-127",
+      "animal": "Odona",
+      "prompt": "Como é chamado o voo territorial em algumas libélulas machos?",
+      "options": [
+        "Defesa de uma área onde tentam atrair mulheres",
+        "Uma migração anual",
+        "Uma caça subaquática coletiva",
+        "Um voo sem bater as asas"
+      ],
+      "explanation": "Os machos às vezes patrulham ou defendem um local favorável à postura de ovos.",
+      "didYouKnow": "Libélulas adultas podem capturar insetos durante o vôo.",
+      "imageCaption": "libélula deprimida"
+    },
+    {
+      "id": "insects-128",
+      "animal": "Mosquitos",
+      "prompt": "Que gás exalado, detectado por muitas fêmeas de mosquitos, ajuda a localizar um hospedeiro?",
+      "options": [
+        "Dióxido de carbono (CO₂)",
+        "Metano (CH₄)",
+        "Nitrogênio (N₂)",
+        "Oxigênio (O₂)"
+      ],
+      "explanation": "O dióxido de carbono exalado pode direcionar as fêmeas dos mosquitos para um hospedeiro; calor e odores refinam a pesquisa.",
+      "didYouKnow": "Dependendo da espécie, as fêmeas depositam os seus ovos na superfície da água, em solo húmido ou em recipientes que possam encher-se de água.",
+      "imageCaption": "Mosquito comum"
+    },
+    {
+      "id": "insects-129",
+      "animal": "Mosca tsé-tsé",
+      "prompt": "Como a mosca tsé-tsé alimenta sua larva antes do nascimento?",
+      "options": [
+        "A larva se desenvolve no útero e recebe uma secreção nutritiva da mãe",
+        "O ovo eclode do lado de fora, então a fêmea traz a presa para os filhotes",
+        "O ovo permanece no útero, mas a larva depende apenas da gema",
+        "A fêmea fixa uma larva em seu abdômen, onde se alimenta da hemolinfa."
+      ],
+      "explanation": "Na mosca tsé-tsé, a fêmea nutre a larva em seu útero graças a uma secreção de glândulas especializadas e depois deposita uma larva madura.",
+      "didYouKnow": "As moscas tsé-tsé às vezes transmitem parasitas do gênero Trypanosoma, que causam a doença do sono.",
+      "imageCaption": "Mosca tsé-tsé"
+    },
+    {
+      "id": "insects-130",
+      "animal": "Lepidópteros",
+      "prompt": "O que as escamas das asas de muitas borboletas fazem além de contribuir para a sua cor?",
+      "options": [
+        "Eles podem contribuir para padrões visuais e influenciar a troca de calor",
+        "Eles produzem ovos e os depositam nas plantas hospedeiras",
+        "Eles filtram a água quando a borboleta pousa em uma flor",
+        "Eles substituem os músculos que operam as asas"
+      ],
+      "explanation": "As escamas contribuem para a cor, camuflagem e certos sinais visuais.",
+      "didYouKnow": "O monarca norte-americano passa o inverno nas florestas montanhosas do México.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-131",
+      "animal": "Lepidópteros",
+      "prompt": "Por que algumas borboletas migratórias seguem rotas sazonais?",
+      "options": [
+        "Alcançar áreas que ofereçam condições favoráveis à sua sobrevivência",
+        "Para evitar a postura de ovos",
+        "Para se tornar social",
+        "Para alcançar águas profundas"
+      ],
+      "explanation": "A migração pode ligar locais de reprodução a refúgios sazonais.",
+      "didYouKnow": "O monarca pertence à família Nymphalidae.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-132",
+      "animal": "Besouros",
+      "prompt": "Como alguns besouros bombardeiros defendem seus corpos?",
+      "options": [
+        "Eles ejetam um spray quente e irritante resultante de uma reação química",
+        "Eles liberam uma secreção pegajosa produzida pelas glândulas abdominais",
+        "Eles emitem um sinal sonoro esfregando seus élitros",
+        "Eles projetam uma substância gelada vaporizando a água de seus corpos"
+      ],
+      "explanation": "As substâncias reagem em uma câmara especializada e são expelidas em um jato defensivo.",
+      "didYouKnow": "Os besouros bombardeiros pertencem à família dos besouros terrestres.",
+      "imageCaption": "Fogo de artifício Brachine"
+    },
+    {
+      "id": "insects-133",
+      "animal": "Besouros",
+      "prompt": "Qual o papel da larva no ciclo de vida de muitos besouros saproxílicos?",
+      "options": [
+        "Alimenta-se ou cresce em madeira morta",
+        "Consome folhas vivas",
+        "Ela caça insetos voadores",
+        "Ela coleta néctar das flores"
+      ],
+      "explanation": "As larvas muitas vezes exploram a madeira morta, os cogumelos que ali crescem ou os insetos presentes.",
+      "didYouKnow": "Os adultos de alguns insetos saproxílicos visitam as flores, embora suas larvas vivam na madeira morta.",
+      "imageCaption": "Rosália dos Alpes"
+    },
+    {
+      "id": "insects-134",
+      "animal": "Himenópteros",
+      "prompt": "Qual a função das células hexagonais do favo de mel?",
+      "options": [
+        "Eles são usados para criar crias e armazenar recursos",
+        "Eles fazem as asas",
+        "Eles substituem os estigmas",
+        "Eles filtram o ar"
+      ],
+      "explanation": "Os favos de cera contêm células para cria, pólen e mel.",
+      "didYouKnow": "As abelhas melíferas podem se propagar a partir de pequenas rachaduras na colmeia.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-135",
+      "animal": "Himenópteros",
+      "prompt": "Como uma abelha rainha é criada de maneira diferente de uma operária?",
+      "options": [
+        "A larva recebe uma dieta especial, principalmente geleia real.",
+        "Ele eclode de um ovo não fertilizado, ao contrário das operárias.",
+        "Recebe mais cera mastigada do que outras larvas",
+        "É criado em uma célula cheia de néctar não processado"
+      ],
+      "explanation": "A dieta larval contribui para a diferenciação da rainha.",
+      "didYouKnow": "As abelhas trabalhadoras produzem a cera usada para construir os favos.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-136",
+      "animal": "Himenópteros",
+      "prompt": "Que fenômeno descreve a enxameação de abelhas?",
+      "options": [
+        "Uma rainha e parte da colônia deixam a colméia para serem encontradas em outro lugar",
+        "A colônia inteira abandona seus ovos no inverno",
+        "Os machos encontraram uma colônia sem rainha",
+        "Os trabalhadores movem apenas larvas"
+      ],
+      "explanation": "A enxameação é um modo natural de reprodução da colônia.",
+      "didYouKnow": "As abelhas usam feromônios para coordenar certas atividades da colônia.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-137",
+      "animal": "Formigas",
+      "prompt": "Como as formigas às vezes trocam alimentos líquidos entre indivíduos?",
+      "options": [
+        "Por trofalaxia, transferência de líquido de boca a boca",
+        "Por uma troca de líquido através das antenas",
+        "Ao colocar uma gota no chão que a outra formiga absorve",
+        "Ao transferir alimentos sólidos com as mandíbulas"
+      ],
+      "explanation": "Trofalaxia é a transferência de fluido alimentar entre indivíduos; também pode transmitir moléculas sinalizadoras.",
+      "didYouKnow": "As formigas constroem salas e galerias cujo formato varia dependendo da espécie e do ambiente.",
+      "imageCaption": "Formiga preta de jardim, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-138",
+      "animal": "Formigas",
+      "prompt": "Como algumas colônias de formigas movimentam suas larvas?",
+      "options": [
+        "Os trabalhadores os carregam com suas mandíbulas",
+        "As larvas rastejam sozinhas para o novo ninho",
+        "A rainha os carrega em suas asas",
+        "Eles se prendem às antenas dos soldados"
+      ],
+      "explanation": "O transporte da ninhada permite movimentar a colônia ou reorganizar o ninho.",
+      "didYouKnow": "As operárias de diversas espécies de formigas carregam presas inteiras para o ninho.",
+      "imageCaption": "Formiga preta de jardim, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-139",
+      "animal": "Ortópteros",
+      "prompt": "Qual é o propósito da música do críquete masculino?",
+      "options": [
+        "Para atrair um parceiro ou comunicar-se com colegas",
+        "Para atrair flores",
+        "Para fazer os ovos vibrarem no subsolo",
+        "Para respirar"
+      ],
+      "explanation": "O canto é um sinal acústico utilizado na comunicação reprodutiva.",
+      "didYouKnow": "Os grilos detectam sons usando os tímpanos nas patas dianteiras.",
+      "imageCaption": "Gafanhotos migratórios, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-140",
+      "animal": "Grilos-toupeira",
+      "prompt": "Que adaptação ajuda os grilos-toupeira a cavar galerias no solo?",
+      "options": [
+        "Suas patas dianteiras alargadas e dentadas, em forma de pás",
+        "Suas poderosas mandíbulas que escavam sozinhas as galerias",
+        "Suas patas traseiras que empurram a terra para trás",
+        "Suas antenas robustas que perfuram o solo"
+      ],
+      "explanation": "Os grilos-toupeira movem o solo com suas patas dianteiras fortes e alargadas.",
+      "didYouKnow": "Os grilos-toupeira podem se alimentar de raízes e pequenos invertebrados.",
+      "imageCaption": "Grilo-toupeira comum, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-141",
+      "animal": "Cupins",
+      "prompt": "Que material os cupins costumam usar para construir seus montes?",
+      "options": [
+        "Partículas de solo ligadas por secreções",
+        "De balanças presas",
+        "Metálico",
+        "De folhas tecidas com seda"
+      ],
+      "explanation": "Os cupins coletam solo, saliva e às vezes plantam restos para construir estruturas.",
+      "didYouKnow": "As operárias de cupins às vezes carregam os filhotes quando movem o ninho.",
+      "imageCaption": "Cupim da savana, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-142",
+      "animal": "Cupins",
+      "prompt": "Qual indivíduo da colônia de cupins geralmente põe ovos?",
+      "options": [
+        "A rainha",
+        "O soldado",
+        "Somente o macho alado",
+        "Todas as larvas"
+      ],
+      "explanation": "A rainha é a fêmea reprodutiva central da colônia.",
+      "didYouKnow": "As operárias de cupins às vezes carregam os filhotes quando movem o ninho.",
+      "imageCaption": "Cupim da savana, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-143",
+      "animal": "Larvas de efêmeras",
+      "prompt": "Por que algumas larvas de efeméridas têm corpos achatados e pernas que agarram?",
+      "options": [
+        "Para ficar entre as pedras nas correntes rápidas",
+        "Flutuar logo abaixo da superfície da água estagnada",
+        "Para reter uma bolha de ar sob o élitro",
+        "Agarrar-se às folhas flutuantes longe do fundo"
+      ],
+      "explanation": "A forma achatada e as pernas permitem que certas larvas reofílicas resistam à corrente, abrigando-se no substrato.",
+      "didYouKnow": "As larvas de várias efeméridas possuem brânquias laterais no abdômen.",
+      "imageCaption": "Larva de mosca"
+    },
+    {
+      "id": "insects-144",
+      "animal": "Insetos aquáticos",
+      "prompt": "O que comem muitas larvas de caddis aquáticos?",
+      "options": [
+        "Algas, detritos ou pequenas presas dependendo da espécie",
+        "madeira seca",
+        "Somente folhas terrestres",
+        "Néctar floral"
+      ],
+      "explanation": "As dietas dos tricópteros variam: algumas larvas pastam, filtram ou predam.",
+      "didYouKnow": "Os caddisflies adultos geralmente têm antenas longas e semelhantes a fios.",
+      "imageCaption": "Larva de mosca-cadáver"
+    },
+    {
+      "id": "insects-145",
+      "animal": "Barata sibilante de Madagascar",
+      "prompt": "Como a barata sibilante de Madagascar emite seu som sibilante?",
+      "options": [
+        "Ao expelir o ar através de estigmas especializados",
+        "Esfregando as asas como um grilo",
+        "Vibrando os tímpanos abdominais como uma cigarra",
+        "Ao atingir o chão com suas mandíbulas"
+      ],
+      "explanation": "Esta barata empurra o ar através dos espiráculos para produzir um silvo defensivo ou social.",
+      "didYouKnow": "Os machos da barata sibilante de Madagascar costumam apresentar protuberâncias pronunciadas no pronoto, mais discretas nas fêmeas.",
+      "imageCaption": "Barata sibilante de Madagascar, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-146",
+      "animal": "Baratas",
+      "prompt": "Como se chama a cápsula de ovos produzida por muitas baratas?",
+      "options": [
+        "Ooteca",
+        "Casulo",
+        "Crisálida",
+        "Galha"
+      ],
+      "explanation": "A ooteca é uma cápsula que contém um ou mais ovos.",
+      "didYouKnow": "As baratas têm antenas longas e filiformes que exploram o ambiente.",
+      "imageCaption": "Barata americana, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-147",
+      "animal": "Defesa",
+      "prompt": "Qual é o papel do mimetismo batesiano?",
+      "options": [
+        "Uma espécie inofensiva se assemelha a uma espécie defendida ou perigosa",
+        "Uma espécie defendida parece uma espécie inofensiva",
+        "Um predador se parece com a espécie que caça",
+        "Várias espécies defendidas compartilham sinais semelhantes"
+      ],
+      "explanation": "A semelhança pode reduzir os ataques se os predadores evitarem o padrão defendido.",
+      "didYouKnow": "Hoverflies são moscas inofensivas, algumas das quais se assemelham a vespas.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-148",
+      "animal": "Defesa",
+      "prompt": "O que significa mimetismo mülleriano?",
+      "options": [
+        "Várias espécies defendidas compartilham sinais de alerta semelhantes",
+        "Uma espécie inofensiva imita uma espécie defendida",
+        "Um predador imita a aparência de sua presa",
+        "Uma espécie é confundida com uma folha ou um galho"
+      ],
+      "explanation": "Os predadores podem aprender mais rapidamente a evitar um sinal partilhado por várias espécies defendidas.",
+      "didYouKnow": "As larvas de algumas joaninhas têm espinhos ou saliências no corpo.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-149",
+      "animal": "Ecologia",
+      "prompt": "Por que os insetos contribuem para a dispersão das sementes?",
+      "options": [
+        "Alguns carregam ou enterram sementes",
+        "Eles polinizam as flores carregando seu pólen",
+        "Eles dispersam esporos de fungos no solo",
+        "Eles transportam as sementes dentro do trato digestivo"
+      ],
+      "explanation": "As formigas carregam algumas sementes para seus apêndices nutritivos e às vezes deixam cair algumas delas.",
+      "didYouKnow": "Algumas formigas coletam melada de pulgões e os protegem de predadores.",
+      "imageCaption": "Formiga Colhedora"
+    },
+    {
+      "id": "insects-150",
+      "animal": "Ecologia",
+      "prompt": "Que resultado pode ter o desaparecimento de um polinizador especialista?",
+      "options": [
+        "A reprodução de sua planta parceira pode diminuir",
+        "A planta produz mais néctar sem visitas",
+        "A usina agora depende apenas do vento",
+        "A taxa de fertilização permanece necessariamente a mesma"
+      ],
+      "explanation": "Uma relação muito especializada pode tornar a planta dependente de um número limitado de polinizadores.",
+      "didYouKnow": "Alguns insetos polinizam principalmente à noite, incluindo muitas mariposas.",
+      "imageCaption": "Orquídea abelha"
+    },
+    {
+      "id": "insects-151",
+      "animal": "Anatomia",
+      "prompt": "Qual parte do tórax sustenta as pernas dos insetos?",
+      "options": [
+        "Os três segmentos torácicos",
+        "A cabeça",
+        "O abdômen",
+        "As antenas"
+      ],
+      "explanation": "As pernas estão ligadas ao tórax, que inclui o protórax, o mesotórax e o metatórax.",
+      "didYouKnow": "As patas dianteiras de alguns louva-a-deus são transformadas em órgãos abdutores.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-152",
+      "animal": "Anatomia",
+      "prompt": "De que é feito o sangue de inseto, chamado hemolinfa?",
+      "options": [
+        "Um fluido circulando na cavidade corporal",
+        "Glóbulos vermelhos em vasos fechados",
+        "Um fluido armazenado nas asas",
+        "Uma mistura de néctar e saliva"
+      ],
+      "explanation": "A hemolinfa banha diretamente os órgãos em um sistema circulatório aberto.",
+      "didYouKnow": "O sistema nervoso de muitos insetos inclui uma cadeia ventral de gânglios segmentares.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-153",
+      "animal": "Anatomia",
+      "prompt": "Que padrão de caminhada é comum entre os insetos que se movem rapidamente através de uma superfície?",
+      "options": [
+        "Uma caminhada alternada em tripé, com três pernas apoiadas ao mesmo tempo",
+        "Uma caminhada onde todas as seis pernas sempre saem do chão simultaneamente",
+        "Uma caminhada onde apenas as duas patas traseiras tocam o chão",
+        "Uma caminhada onde as três pernas do mesmo lado se movem juntas"
+      ],
+      "explanation": "Muitos insetos usam um andar tripodal alternado: três pernas de apoio alternam-se com o trio oposto, o que ajuda a estabilizar o movimento.",
+      "didYouKnow": "Como outros artrópodes, os insetos precisam mudar para crescer porque seu exoesqueleto não se estica como a pele.",
+      "imageCaption": "Gafanhoto migratório"
+    },
+    {
+      "id": "insects-154",
+      "animal": "Anatomia",
+      "prompt": "O que as mandíbulas fazem nos insetos que mastigam a comida?",
+      "options": [
+        "Para cortar e moer alimentos",
+        "Eles sugam líquidos em todos os insetos",
+        "Eles detectam odores",
+        "Eles são usados para equilíbrio de vôo"
+      ],
+      "explanation": "As mandíbulas costumam ser peças bucais duras e móveis, usadas para manipular ou triturar alimentos.",
+      "didYouKnow": "As cores dos insetos podem vir de pigmentos ou estruturas microscópicas.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-155",
+      "animal": "Abelhas de orquídea",
+      "prompt": "Como os machos de muitas abelhas das orquídeas coletam aromas?",
+      "options": [
+        "Recolhem compostos aromáticos com as patas dianteiras e transferem-nos para bolsas especializadas nas patas traseiras",
+        "Eles sugam aromas com sua tromba e os armazenam no abdômen",
+        "Eles coletam compostos nas asas e os armazenam nas antenas",
+        "Eles produzem odores a partir do néctar que consomem"
+      ],
+      "explanation": "Os machos recolhem substâncias aromáticas com escovas nas patas dianteiras e armazenam-nas em bolsas das tíbias posteriores.",
+      "didYouKnow": "As abelhas fêmeas das orquídeas coletam pólen e néctar para alimentar seus filhotes.",
+      "imageCaption": "Abelha orquídea, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-156",
+      "animal": "Anatomia",
+      "prompt": "Como é chamada a cobertura externa rígida de um inseto?",
+      "options": [
+        "A cutícula",
+        "Uma derme óssea",
+        "Um casaco de calcário",
+        "Pele queratinizada"
+      ],
+      "explanation": "A cutícula forma o exoesqueleto e inclui várias camadas.",
+      "didYouKnow": "O cérebro do inseto inclui várias regiões especializadas em processamento sensorial e comportamento.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-157",
+      "animal": "Elaterídeos",
+      "prompt": "Como alguns besouros-estaladores se desviram quando ficam de costas?",
+      "options": [
+        "Eles flexionam e liberam um mecanismo elástico do tórax, que os lança com um estalo",
+        "Batem as asas até girarem e ficarem sobre as patas",
+        "Arrastam-se para a frente apoiando-se nas antenas",
+        "Inflam o abdômen para rolar para o lado"
+      ],
+      "explanation": "Uma projeção do tórax se prende a um entalhe; ao se soltar, impulsiona o besouro no ar e pode virá-lo sobre as patas.",
+      "didYouKnow": "Wireworms geralmente têm um corpo alongado e ângulos posteriores pontiagudos do pronoto.",
+      "imageCaption": "Verme saltador"
+    },
+    {
+      "id": "insects-158",
+      "animal": "Fisiologia",
+      "prompt": "Como os insetos eliminam alguns de seus resíduos de nitrogênio?",
+      "options": [
+        "Pelos túbulos de Malpighi",
+        "Pelos rins",
+        "Pelas brânquias",
+        "Pelas glândulas salivares"
+      ],
+      "explanation": "Os túbulos de Malpighi retiram resíduos da hemolinfa e desembocam no tubo digestivo.",
+      "didYouKnow": "As asas dos insetos estão presas ao tórax e não à cabeça ou abdômen.",
+      "imageCaption": "Críquete de campo"
+    },
+    {
+      "id": "insects-159",
+      "animal": "Fisiologia",
+      "prompt": "Por que os insetos são chamados de ectotérmicos?",
+      "options": [
+        "A temperatura corporal depende em grande parte do calor externo",
+        "Eles sempre mantêm uma temperatura corporal estável",
+        "A temperatura corporal deles é sempre inferior à do ar",
+        "Eles só podem viver em ambientes frios"
+      ],
+      "explanation": "A maioria dos insetos depende principalmente de fontes externas para regular sua temperatura.",
+      "didYouKnow": "Larvas e adultos do mesmo inseto podem ocupar habitats diferentes.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-160",
+      "animal": "Voo",
+      "prompt": "Como um inseto pode manter-se pairando?",
+      "options": [
+        "Ajustando a sustentação produzida pelas batidas das asas",
+        "Direcionando as antenas como hélices",
+        "Agarrando-se a uma tela",
+        "Ao reduzir o peso corporal"
+      ],
+      "explanation": "Pairar requer forças aerodinâmicas para compensar o peso e o movimento.",
+      "didYouKnow": "As cores de alguns insetos resultam de estruturas microscópicas que refletem a luz.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-161",
+      "animal": "Voo",
+      "prompt": "Que mecanismo muscular opera as asas de muitos insetos que voam rapidamente?",
+      "options": [
+        "Músculos torácicos indiretos que deformam o tórax e movimentam as asas",
+        "Músculos abdominais que puxam diretamente as asas para baixo",
+        "Músculos nas patas traseiras que giram as asas",
+        "Músculos da cabeça que puxam as asas pelas antenas"
+      ],
+      "explanation": "Em muitos insetos que voam rápido, os músculos indiretos deformam o tórax; as juntas transmitem essa deformação às asas.",
+      "didYouKnow": "O titã é um besouro tropical, um dos maiores besouros conhecidos.",
+      "imageCaption": "Abelha, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-162",
+      "animal": "Monarca",
+      "prompt": "Como a lagarta-monarca adquire parte de sua defesa química?",
+      "options": [
+        "Acumula cardenolídeos das asclepíades de que se alimenta",
+        "Obtém veneno ao comer outros insetos",
+        "Produz pigmentos de advertência com a luz solar",
+        "Adquire toxinas de fungos que crescem nas asas"
+      ],
+      "explanation": "Lagartas que se alimentam de asclepíades podem reter cardenolídeos, tornando a borboleta desagradável para alguns predadores.",
+      "didYouKnow": "A monarca é uma borboleta migratória bem conhecida na América do Norte.",
+      "imageCaption": "Monarca, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-163",
+      "animal": "Ecologia",
+      "prompt": "O que um inseto fitófago come principalmente?",
+      "options": [
+        "Tecidos vegetais",
+        "Cogumelos",
+        "Pequenos animais",
+        "Restos de animais"
+      ],
+      "explanation": "Os fitófagos consomem folhas, caules, sementes, seiva ou outras partes da planta.",
+      "didYouKnow": "Algumas formigas cultivam cogumelos a partir de pedaços de folhas.",
+      "imageCaption": "Gafanhoto migratório"
+    },
+    {
+      "id": "insects-164",
+      "animal": "Ecologia",
+      "prompt": "Que termo descreve um inseto que caça e consome outros animais?",
+      "options": [
+        "Predador",
+        "Polinizador obrigatório",
+        "Decompositor mineral",
+        "Parasita fotossintético"
+      ],
+      "explanation": "Um predador normalmente captura e consome várias presas durante sua vida.",
+      "didYouKnow": "As asas de muitas joaninhas são protegidas por élitros coloridos.",
+      "imageCaption": "Louva-a-deus, exemplo que ilustra esta questão sobre insetos."
+    },
+    {
+      "id": "insects-165",
+      "animal": "Ecologia",
+      "prompt": "Que diferença geral separa um parasitóide de um predador?",
+      "options": [
+        "O parasitóide cresce no hospedeiro e geralmente o mata",
+        "O predador se desenvolve em uma única presa que acaba matando",
+        "O parasitóide consome múltiplas presas sem depender de um hospedeiro individual",
+        "O parasitóide vive em seu hospedeiro sem afetar sua sobrevivência"
+      ],
+      "explanation": "A larva do parasitóide depende de um hospedeiro individual e na maioria das vezes acaba matando-o.",
+      "didYouKnow": "As vespas parasitóides constituem um grupo muito diversificado dentro dos Hymenoptera.",
+      "imageCaption": "Vespa parasitóide"
+    },
+    {
+      "id": "insects-166",
+      "animal": "Ecologia",
+      "prompt": "Por que os insetos contribuem para a aeração de certos solos?",
+      "options": [
+        "Suas galerias criam espaços no solo",
+        "As asas bombeiam o ar",
+        "Eles dissolvem o solo com néctar",
+        "Eles fazem raízes"
+      ],
+      "explanation": "As galerias escavadas por formigas, cupins e larvas podem modificar a estrutura do solo.",
+      "didYouKnow": "Algumas formigas carregam sementes e podem ajudar a dispersá-las.",
+      "imageCaption": "Cupim da savana"
+    },
+    {
+      "id": "insects-167",
+      "animal": "Escaravelho Scarabaeus satyrus",
+      "prompt": "Como o escaravelho Scarabaeus satyrus se orienta durante os movimentos noturnos?",
+      "options": [
+        "Usando a faixa brilhante da Via Láctea como guia",
+        "Seguindo um rastro de feromônios deixado por outros besouros de esterco",
+        "Ao detectar o campo magnético da Terra",
+        "Usando as vibrações produzidas por outros besouros rola-bosta"
+      ],
+      "explanation": "Experimentos mostraram que este escaravelho pode manter sua direção usando a faixa de luz da Via Láctea.",
+      "didYouKnow": "Scarabaeus satyrus é um besouro coprófago que usa excrementos como recurso alimentar.",
+      "imageCaption": "Escaravelho Scarabaeus satyrus"
+    },
+    {
+      "id": "insects-168",
+      "animal": "Formiga tecelã",
+      "prompt": "Como as formigas tecelãs juntam as folhas em seu ninho?",
+      "options": [
+        "Os trabalhadores usam a seda produzida por suas larvas para colar as folhas",
+        "As operárias secretam seda pelas glândulas do abdômen",
+        "Eles revestem as folhas com cera produzida por suas glândulas",
+        "Eles fixam as folhas com uma resina coletada nas árvores"
+      ],
+      "explanation": "As operárias juntam as folhas e depois seguram as larvas contra as bordas; estes secretam a seda que os une.",
+      "didYouKnow": "As formigas tecelãs podem morder e borrifar ácido fórmico para defender a colônia.",
+      "imageCaption": "Formiga tecelã asiática"
+    },
+    {
+      "id": "insects-169",
+      "animal": "Plantas e insetos",
+      "prompt": "Por que algumas orquídeas imitam a aparência ou o cheiro de uma fêmea de inseto?",
+      "options": [
+        "Para atrair machos que contribuem para sua polinização",
+        "Para atrair fêmeas que ali depositam seus ovos",
+        "Para repelir insetos que comem suas folhas",
+        "Para fazer um predador acreditar que carrega sementes"
+      ],
+      "explanation": "Esse engano pode causar pseudocópula e transferência de pólen.",
+      "didYouKnow": "As orquídeas são uma das famílias de plantas com flores mais ricas em espécies.",
+      "imageCaption": "Abelha Ophrys"
+    },
+    {
+      "id": "insects-170",
+      "animal": "Plantas e insetos",
+      "prompt": "O que os nectários florais fazem pela planta?",
+      "options": [
+        "Para fornecer uma recompensa que possa atrair polinizadores",
+        "Para fazer pétalas",
+        "Para armazenar sementes",
+        "Para produzir madeira"
+      ],
+      "explanation": "O néctar recompensa os visitantes que conseguem transportar pólen entre as flores.",
+      "didYouKnow": "As abelhas podem comunicar a direção de um recurso por meio de uma dança.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-171",
+      "animal": "Desenvolvimento",
+      "prompt": "Qual estágio de uma borboleta é normalmente especializado em alimentação e crescimento?",
+      "options": [
+        "A lagarta",
+        "Apenas para adultos",
+        "A crisálida apenas",
+        "O ovo só"
+      ],
+      "explanation": "A lagarta costuma consumir muita comida antes da pupação.",
+      "didYouKnow": "Muitas borboletas adultas vivem menos do que o estágio de lagarta.",
+      "imageCaption": "lagarta rabo de andorinha"
+    },
+    {
+      "id": "insects-172",
+      "animal": "Desenvolvimento",
+      "prompt": "Qual é o nome do envelope vazio deixado após a muda de um inseto?",
+      "options": [
+        "Uma exúvia",
+        "Uma crisálida",
+        "Um estigma",
+        "Um élitro"
+      ],
+      "explanation": "A exúvia é a velha cutícula da qual o inseto se extraiu durante a muda.",
+      "didYouKnow": "As exúvias de muitas larvas aquáticas permanecem presas às plantas próximas às margens.",
+      "imageCaption": "Gafanhoto migratório"
+    },
+    {
+      "id": "insects-173",
+      "animal": "Larva de libélula",
+      "prompt": "Como a larva de uma libélula (Anisoptera) movimenta água sobre suas brânquias internas?",
+      "options": [
+        "Ela aspira água e depois a expulsa pelo reto",
+        "Bombeia água pela boca e a expulsa pelos espiráculos",
+        "Ventila as brânquias movimentando as pernas",
+        "Absorve oxigênio diretamente pelo abdômen"
+      ],
+      "explanation": "As larvas de anisópteros ventilam a câmara retal aspirando e expulsando água; as trocas gasosas ocorrem nas brânquias internas.",
+      "didYouKnow": "Alguns insetos possuem um sistema nervoso organizado em torno de uma cadeia ventral de gânglios.",
+      "imageCaption": "Larva de libélula"
+    },
+    {
+      "id": "insects-174",
+      "animal": "Desenvolvimento",
+      "prompt": "Que fase juvenil costuma sair de um ovo de inseto ao eclodir?",
+      "options": [
+        "Uma fase jovem de larva ou ninfa",
+        "Um inseto adulto totalmente desenvolvido",
+        "Diretamente uma pupa",
+        "Outro ovo"
+      ],
+      "explanation": "Dependendo do tipo de metamorfose, do ovo nasce uma larva ou uma ninfa.",
+      "didYouKnow": "As antenas da abelha-melífera possuem numerosos recetores que detetam odores.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-175",
+      "animal": "Desenvolvimento",
+      "prompt": "Qual é a principal função do casulo tecido por algumas lagartas de mariposa?",
+      "options": [
+        "Proteger a pupa",
+        "Alimentar a lagarta",
+        "Ajudar o adulto a voar",
+        "Armazenar os ovos postos pela fêmea"
+      ],
+      "explanation": "O casulo é uma cobertura de seda tecida pela larva para proteger a fase pupal.",
+      "didYouKnow": "As lagartas de algumas mariposas têm tufos de pelos ou protuberâncias no corpo.",
+      "imageCaption": "Bombix de amoreira"
+    },
+    {
+      "id": "insects-176",
+      "animal": "Formigas",
+      "prompt": "Que órgão especializado as formigas costumam usar para limpar suas antenas?",
+      "options": [
+        "Um pente chamado strigil nas patas dianteiras",
+        "Uma escova localizada nas patas traseiras",
+        "Dentes colocados nas mandíbulas",
+        "Um pente localizado na extremidade do abdômen"
+      ],
+      "explanation": "O strigil é uma estrutura semelhante a um pente nas patas dianteiras que ajuda muitas formigas a limpar suas antenas.",
+      "didYouKnow": "Algumas formigas formam pontes vivas com seus corpos para atravessar lacunas.",
+      "imageCaption": "Formiga de jardim preta"
+    },
+    {
+      "id": "insects-177",
+      "animal": "Abelhas",
+      "prompt": "Como as operárias das abelhas transportam o pólen para a colmeia?",
+      "options": [
+        "Em estruturas de transporte nas patas traseiras",
+        "Nos pêndulos",
+        "Sob o élitro",
+        "Num bolso formado pelo tronco"
+      ],
+      "explanation": "As abelhas têm cestos de pólen nas patas traseiras.",
+      "didYouKnow": "As abelhas operárias são fêmeas, enquanto os zangões são machos.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-178",
+      "animal": "Abelhas",
+      "prompt": "Por que as abelhas ventiladoras batem as asas na entrada da colmeia?",
+      "options": [
+        "Para criar uma corrente de ar e ajudar a regular o microclima do ninho",
+        "Para aquecer a cria por contato direto",
+        "Para produzir um som de alarme para a colônia",
+        "Para espalhar sinais de cheiro ao redor da colmeia"
+      ],
+      "explanation": "A ventilação ajuda a controlar a temperatura e a umidade do ninho.",
+      "didYouKnow": "A abelha rainha utiliza feromônios que influenciam o comportamento das operárias.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-179",
+      "animal": "Borboletas",
+      "prompt": "Por que algumas borboletas se reúnem em solo úmido ou na margem lamacenta de um rio?",
+      "options": [
+        "Eles levam sais minerais e outros nutrientes dissolvidos em água",
+        "Eles coletam principalmente o néctar que flui das flores vizinhas",
+        "Eles capturam pequenos insetos atraídos pela lama",
+        "Eles absorvem água pelas asas para evitar a desidratação"
+      ],
+      "explanation": "Esse comportamento, denominado poça, permite que certos machos absorvam sais e minerais.",
+      "didYouKnow": "Algumas espécies de borboletas migram longas distâncias entre seus locais de reprodução e de inverno.",
+      "imageCaption": "Vulcano"
+    },
+    {
+      "id": "insects-180",
+      "animal": "Borboletas",
+      "prompt": "Como as manchas nas asas podem ajudar uma borboleta?",
+      "options": [
+        "Eles podem assustar ou distrair um predador",
+        "Para respirar",
+        "Para produzir feromônios",
+        "Para medir a velocidade do vento"
+      ],
+      "explanation": "Padrões semelhantes a olhos podem surpreender um predador ou desviar seu ataque.",
+      "didYouKnow": "Algumas espécies de borboletas experimentam plantas com receptores localizados nas pernas.",
+      "imageCaption": "pavão do dia"
+    },
+    {
+      "id": "insects-181",
+      "animal": "Lagartas",
+      "prompt": "Por que algumas lagartas têm pelos urticantes?",
+      "options": [
+        "Eles constituem uma defesa contra predadores",
+        "Para fazer as asas",
+        "Para respirar debaixo d'água",
+        "Para substituir as mandíbulas"
+      ],
+      "explanation": "Pêlos especializados podem irritar a pele ou as membranas mucosas e deter predadores.",
+      "didYouKnow": "As lagartas monarca se alimentam de várias espécies de serralha.",
+      "imageCaption": "Lagarta processionária do pinheiro"
+    },
+    {
+      "id": "insects-182",
+      "animal": "Mariposas",
+      "prompt": "Como algumas mariposas escapam da detecção por morcegos?",
+      "options": [
+        "Eles detectam ultrassom e podem manobrar ou produzir cliques",
+        "Eles se tornam invisíveis",
+        "Eles respiram no subsolo",
+        "Eles fecham os estigmas para ouvir"
+      ],
+      "explanation": "Os órgãos auditivos detectam cantos ultrassônicos de morcegos em diversas espécies.",
+      "didYouKnow": "Todas as mariposas e borboletas pertencem à ordem Lepidoptera.",
+      "imageCaption": "Noiva Noctuelle"
+    },
+    {
+      "id": "insects-183",
+      "animal": "Libélulas",
+      "prompt": "Por que as asas das libélulas são capazes de se mover de forma independente?",
+      "options": [
+        "Cada par possui musculatura de articulação e controle",
+        "Eles estão presos ao abdômen",
+        "Eles são ativados pelas antenas",
+        "Estas são barbatanas"
+      ],
+      "explanation": "O controle independente das asas contribui para a notável manobrabilidade dos odonates.",
+      "didYouKnow": "Os machos de algumas libélulas defendem os locais de nidificação contra os rivais.",
+      "imageCaption": "libélula deprimida"
+    },
+    {
+      "id": "insects-184",
+      "animal": "Insetos aquáticos",
+      "prompt": "Como se forma o plastrão respiratório de alguns insetos aquáticos?",
+      "options": [
+        "Uma fina camada de ar mantida contra o corpo",
+        "Uma bolha de ar presa sob o élitro e renovada na superfície",
+        "Brânquias traqueais que extraem oxigênio dissolvido",
+        "Um sifão respiratório que atinge a superfície da água"
+      ],
+      "explanation": "As cerdas hidrofóbicas mantêm uma película de ar usada para trocas gasosas.",
+      "didYouKnow": "As larvas da libélula agarram suas presas com um lábio extensível chamado máscara.",
+      "imageCaption": "inseto aquático"
+    },
+    {
+      "id": "insects-185",
+      "animal": "Besouros girinídeos",
+      "prompt": "Que característica visual permite aos besouros girinídeos observar o ar e a água ao mesmo tempo?",
+      "options": [
+        "Um par de olhos dividido, com uma parte voltada para o ar e outra para a água",
+        "Um par de olhos que só enxerga debaixo d’água",
+        "Uma fileira de olhos em cada lado do abdômen",
+        "Um único par de olhos protegido por escamas transparentes"
+      ],
+      "explanation": "Os olhos divididos permitem que observem o ar e a água ao mesmo tempo.",
+      "didYouKnow": "Os besouros girinídeos costumam nadar rapidamente em círculos na superfície da água.",
+      "imageCaption": "Gyrin"
+    },
+    {
+      "id": "insects-186",
+      "animal": "Besouros",
+      "prompt": "Por que as larvas de vaga-lumes às vezes são chamadas de pirilampos?",
+      "options": [
+        "Elas conseguem produzir luz",
+        "Elas conseguem produzir um jato defensivo",
+        "Elas conseguem emitir um estalo alto",
+        "Elas conseguem tecer seda ao redor das presas"
+      ],
+      "explanation": "Em várias espécies de vaga-lumes, as larvas têm órgãos luminosos usados, entre outras coisas, para defesa.",
+      "didYouKnow": "Os vaga-lumes são besouros e não moscas.",
+      "imageCaption": "Larva de pirilampo"
+    },
+    {
+      "id": "insects-187",
+      "animal": "Hemípteros",
+      "prompt": "Como os insetos aquáticos gigantes costumam capturar suas presas?",
+      "options": [
+        "Com patas dianteiras preênseis e um rostro perfurante",
+        "Com asas que prendem a presa contra a água",
+        "Com almofadas aderentes nas patas traseiras",
+        "Com um ferrão venenoso na ponta do abdômen"
+      ],
+      "explanation": "Elas agarram as presas e usam o rostro para injetar saliva digestiva.",
+      "didYouKnow": "Insetos aquáticos gigantes às vezes põem seus ovos nas costas dos machos, dependendo da espécie.",
+      "imageCaption": "Cinderela"
+    },
+    {
+      "id": "insects-188",
+      "animal": "Hemípteros",
+      "prompt": "Qual a finalidade da tromba da cigarrinha que se alimenta de seiva?",
+      "options": [
+        "Para perfurar tecidos vegetais e sugar a seiva",
+        "Para cortar folhas",
+        "Para capturar insetos voadores",
+        "Para construir uma tela"
+      ],
+      "explanation": "Aparelhos bucais pungentes fornecem acesso aos fluidos vegetais.",
+      "didYouKnow": "Algumas cigarrinhas produzem uma espuma protetora durante o desenvolvimento larval.",
+      "imageCaption": "Cigarrinha verde"
+    },
+    {
+      "id": "insects-189",
+      "animal": "Dípteros",
+      "prompt": "Por que as larvas dos mosquitos filtram a água com o aparelho bucal?",
+      "options": [
+        "Para recuperar microorganismos e partículas de alimentos",
+        "Para capturar pequenos animais que engolem inteiros",
+        "Para pastar as algas presas às paredes do recipiente",
+        "Para filtrar o ar e obter o oxigênio necessário"
+      ],
+      "explanation": "A maioria das larvas se alimenta de partículas ou microorganismos presentes na água.",
+      "didYouKnow": "Os mosquitos machos geralmente se alimentam de néctar e não de sangue.",
+      "imageCaption": "Larva de mosquito comum"
+    },
+    {
+      "id": "insects-190",
+      "animal": "Dípteros",
+      "prompt": "Qual o papel que as moscas podem desempenhar na polinização?",
+      "options": [
+        "Eles carregam pólen visitando flores",
+        "Eles fertilizam as sementes",
+        "Eles fazem néctar",
+        "Eles dispersam as raízes"
+      ],
+      "explanation": "Muitas moscas visitam as flores em busca de néctar ou pólen e podem transferir pólen.",
+      "didYouKnow": "As larvas de várias moscas flutuantes se alimentam de pulgões.",
+      "imageCaption": "Hoverfly com cinto"
+    },
+    {
+      "id": "insects-191",
+      "animal": "Ortópteros",
+      "prompt": "Por que os gafanhotos gregários podem formar enxames?",
+      "options": [
+        "Sinais sensoriais e de alta densidade podem desencadear mudanças de comportamento",
+        "Uma queda na temperatura desencadeia uma migração anual comum a todos os gafanhotos",
+        "O cuidado parental coordenado mantém os indivíduos em grupos",
+        "Uma rainha direciona o enxame para as plantas mais ricas em alimentos"
+      ],
+      "explanation": "Em algumas espécies, a densidade pode levar a alterações comportamentais e morfológicas associadas à fase gregária.",
+      "didYouKnow": "Os gafanhotos ninfas têm botões de asas que crescem à medida que mudam.",
+      "imageCaption": "Gafanhoto do Deserto"
+    },
+    {
+      "id": "insects-192",
+      "animal": "bichos-pau",
+      "prompt": "Que função o apêndice nutritivo no ovo de alguns bichos-pau pode desempenhar?",
+      "options": [
+        "Atrai formigas, que carregam o ovo e podem consumir essa parte nutritiva",
+        "Mantém o ovo flutuando na água",
+        "Ajuda o ovo a se fixar a uma folha",
+        "Libera um odor que afasta predadores"
+      ],
+      "explanation": "Em algumas espécies, como Extatosoma tiaratum, um apêndice nutritivo do ovo atrai formigas, que podem levá-lo ao ninho.",
+      "didYouKnow": "Algumas espécies de bichos-pau podem se reproduzir por partenogênese.",
+      "imageCaption": "Ovo de bicho-pau gigante"
+    },
+    {
+      "id": "insects-193",
+      "animal": "Louva-a-deus",
+      "prompt": "Por que os louva-a-deus às vezes balançam o corpo de um lado para o outro?",
+      "options": [
+        "O movimento pode melhorar sua camuflagem entre as folhas",
+        "O movimento permite calcular a distância exata de uma presa",
+        "Balançar aquece os músculos antes do voo",
+        "Rocking serve para produzir um sinal sonoro para parceiros"
+      ],
+      "explanation": "Balançar pode imitar a vegetação agitada pelo vento e contribuir para a camuflagem.",
+      "didYouKnow": "O louva-a-deus também avalia distâncias usando visão estereoscópica.",
+      "imageCaption": "Louva-a-deus"
+    },
+    {
+      "id": "insects-194",
+      "animal": "Baratas",
+      "prompt": "Como as baratas detectam a presença de um membro da mesma espécie?",
+      "options": [
+        "Com sinais químicos e receptores sensoriais",
+        "Apenas com dicas visuais",
+        "Com canções de casamento",
+        "Somente com vibrações de asa"
+      ],
+      "explanation": "Feromônios e outros produtos químicos influenciam o agrupamento e o reconhecimento.",
+      "didYouKnow": "Algumas baratas podem sobreviver por muito tempo com pouca comida, mas precisam de acesso à água.",
+      "imageCaption": "Barata americana"
+    },
+    {
+      "id": "insects-195",
+      "animal": "Abelhas melíferas",
+      "prompt": "Onde as operárias da abelha melífera produzem as escamas de cera?",
+      "options": [
+        "Nas glândulas localizadas sob o abdômen",
+        "Nas glândulas salivares localizadas perto da boca",
+        "Nas glândulas odoríferas na base das antenas",
+        "Nas glândulas localizadas sob as asas anteriores"
+      ],
+      "explanation": "As operárias jovens secretam cera por glândulas abdominais; pequenas escamas aparecem na face ventral.",
+      "didYouKnow": "Os drones têm olhos maiores que os dos trabalhadores.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-196",
+      "animal": "Ecologia",
+      "prompt": "Por que os insetos são úteis como alimento para morcegos?",
+      "options": [
+        "Eles constituem um recurso abundante para muitas espécies insetívoras",
+        "Eles produzem ecolocalização",
+        "Eles fazem as lojas",
+        "Eles substituem a água"
+      ],
+      "explanation": "Muitos morcegos caçam insetos voadores, incluindo mariposas e dípteros.",
+      "didYouKnow": "Alguns insetos, incluindo monarcas, fazem migrações sazonais.",
+      "imageCaption": "Noiva Noctuelle"
+    },
+    {
+      "id": "insects-197",
+      "animal": "Ecologia",
+      "prompt": "Como os insetos às vezes ajudam a controlar as ervas daninhas?",
+      "options": [
+        "Alguns consomem plantas invasoras de maneira direcionada",
+        "Eles fertilizam as ervas com mel",
+        "Eles impedem que qualquer semente germine",
+        "Eles transformam ervas em cogumelos"
+      ],
+      "explanation": "Insetos herbívoros têm sido utilizados como agentes de controle biológico após estudo de sua especificidade.",
+      "didYouKnow": "A joaninha asiática, Harmonia axyridis, é nativa do leste da Ásia.",
+      "imageCaption": "Cactoblasto"
+    },
+    {
+      "id": "insects-198",
+      "animal": "Preservação",
+      "prompt": "Que efeito pode ter o desaparecimento das sebes sobre os insectos agrícolas?",
+      "options": [
+        "Reduz refúgios e corredores entre habitats",
+        "Aumenta os movimentos entre parcelas",
+        "Fornece mais locais de nidificação",
+        "Aumenta os abrigos disponíveis"
+      ],
+      "explanation": "As sebes fornecem alimento, abrigo e continuidade da paisagem para muitos insetos.",
+      "didYouKnow": "Os insetos hibernam dependendo de sua espécie como ovos, larvas, ninfas ou adultos.",
+      "imageCaption": "Abelha"
+    },
+    {
+      "id": "insects-199",
+      "animal": "Preservação",
+      "prompt": "Por que as zonas úmidas são importantes para muitos insetos?",
+      "options": [
+        "Eles fornecem habitats de reprodução e alimentação, especialmente para larvas aquáticas.",
+        "Só besouros vivem lá",
+        "Insetos aquáticos não encontram recursos lá",
+        "Esses ambientes não permitem a reprodução de insetos"
+      ],
+      "explanation": "Lagoas, pântanos e riachos abrigam os estágios larvais e adultos de muitos insetos.",
+      "didYouKnow": "As efêmeras adultas geralmente vivem pouco tempo e não se alimentam.",
+      "imageCaption": "libélula deprimida"
+    },
+    {
+      "id": "insects-200",
+      "animal": "Ecologia",
+      "prompt": "Qual o papel dos cupins nos ecossistemas tropicais?",
+      "options": [
+        "Eles fragmentam a matéria vegetal e retrabalham o solo",
+        "Eles polinizam principalmente plantas com flores",
+        "Eles consomem principalmente insetos herbívoros",
+        "Alimentam-se principalmente de néctar em vez de celulose"
+      ],
+      "explanation": "Os cupins participam da reciclagem da celulose e da estruturação dos solos.",
+      "didYouKnow": "Os cupins vivem em colônias estruturadas onde os indivíduos desempenham funções diferentes.",
+      "imageCaption": "Cupim da savana"
+    }
+  ]
+}

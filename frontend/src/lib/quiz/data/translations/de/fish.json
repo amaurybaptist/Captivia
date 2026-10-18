@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "72298cf964a9f29277068df74da238d23e560d0a70bb654fccbc95400a9546f6",
+  "locale": "de",
+  "questions": [
+    {
+      "id": "fish-001",
+      "animal": "Walhai",
+      "prompt": "Wovon ernähren sich Walhaie hauptsächlich?",
+      "options": [
+        "Im Wasser gefiltertes Plankton",
+        "Abgegraste Algen an Riffen",
+        "Aus Sand gewonnene Weichtiere",
+        "Große Meeressäuger"
+      ],
+      "explanation": "Es filtert Plankton und kleine Organismen, indem es Wasser durch sein Maul und über seine Kiemen leitet.",
+      "didYouKnow": "Seine Haut trägt kleine Hautzähnchen, die den Luftwiderstand verringern.",
+      "imageCaption": "Walhai"
+    },
+    {
+      "id": "fish-002",
+      "animal": "Riesenhai",
+      "prompt": "Welche Ressource filtert der Riesenhai, indem er mit offenem Maul schwimmt?",
+      "options": [
+        "Zooplankton",
+        "Seegräser",
+        "Ausgewachsener Fisch",
+        "Sedimente reich an Würmern"
+      ],
+      "explanation": "Seine Kiemenräumer halten winzige Planktonorganismen fest, während Wasser durch die Kiemenschlitze entweicht.",
+      "didYouKnow": "Er kann eine sehr große Größe erreichen, die nur vom Walhai übertroffen wird.",
+      "imageCaption": "Riesenhai"
+    },
+    {
+      "id": "fish-003",
+      "animal": "Ammenhai",
+      "prompt": "Welcher Mechanismus ermöglicht es dem Ammenhai, seine Kiemen zu belüften, ohne vorwärts zu schwimmen?",
+      "options": [
+        "Es pumpt Wasser durch den Mund und leitet es dann über die Kiemen",
+        "Es muss vorwärts schwimmen, um Wasser durch die Kiemen zu drücken",
+        "Es saugt Wasser durch die Stigmen an und stößt es durch den Mund aus",
+        "Es belüftet seine Kiemen, indem es seine Abdeckungen wie ein Teleost öffnet und schließt"
+      ],
+      "explanation": "Durch die orale Belüftung wird Wasser durch den Mund eingebracht und über die Kiemen zirkuliert, auch wenn der Hai sitzt.",
+      "didYouKnow": "Der Ammenhai jagt nachts hauptsächlich Fische und Wirbellose, die in Bodennähe leben.",
+      "imageCaption": "Ammenhai"
+    },
+    {
+      "id": "fish-004",
+      "animal": "Hammerhai",
+      "prompt": "Welche Rezeptoren am Kopf des Hammerhais erkennen schwache elektrische Felder von Beutetieren?",
+      "options": [
+        "Lorenzinis Glühbirnen",
+        "Neuromasten der Seitenlinie",
+        "Riechzellen in den Nasenlöchern",
+        "Photorezeptorzellen der Netzhaut"
+      ],
+      "explanation": "Die Ampullen von Lorenzini sind Elektrorezeptoren; Ihre Verteilung auf dem vergrößerten Kopf hilft dem Hai, vergrabene Beute zu lokalisieren.",
+      "didYouKnow": "Der vergrößerte Kopf ermöglicht zudem ein weites Sichtfeld nach unten.",
+      "imageCaption": "Hammerhai"
+    },
+    {
+      "id": "fish-005",
+      "animal": "Fuchshai",
+      "prompt": "Wie nutzt der Fuchshai oft seinen langen Schwanz zur Jagd?",
+      "options": [
+        "Es peitscht das Wasser, um Schwarmfische zu desorientieren",
+        "Es gräbt Höhlen im Sand",
+        "Es filtert Oberflächenplankton",
+        "Es trägt seine Eier zu den Riffen"
+      ],
+      "explanation": "Der verlängerte Oberlappen seines Schwanzes trifft auf das Wasser und kann Köderfische betäuben.",
+      "didYouKnow": "Embryonen verschiedener Arten ernähren sich von unbefruchteten Eiern in der Gebärmutter.",
+      "imageCaption": "Fuchshai"
+    },
+    {
+      "id": "fish-006",
+      "animal": "Bullenhai",
+      "prompt": "Welche physiologische Anpassung ermöglicht es dem Bullenhai, vom Salzwasser ins Süßwasser zu wechseln?",
+      "options": [
+        "Es passt das Wasser- und Ionengleichgewicht entsprechend dem Salzgehalt an",
+        "Es behält die gleiche Harnstoffkonzentration bei und trinkt mehr Frischwasser",
+        "Es stößt alle seine Ionen über die Nieren aus, ohne die Kiemenbelüftung zu verändern",
+        "Es reduziert den Wassereintritt, indem es die Stigmen verschließt"
+      ],
+      "explanation": "Der Bullenhai passt das Wasser- und Ionengleichgewicht seines Körpers an, wenn sich der Salzgehalt ändert.",
+      "didYouKnow": "Wie andere Haie tauscht er im Laufe seines Lebens kontinuierlich seine Zähne aus.",
+      "imageCaption": "Bullenhai"
+    },
+    {
+      "id": "fish-007",
+      "animal": "Mantarochen",
+      "prompt": "Wie sammelt der Mantarochen Plankton?",
+      "options": [
+        "Seine Kopflappen leiten Wasser in Richtung seines Mauls",
+        "Sie streift mit schnabelartigen Zähnen darauf.",
+        "Sie fängt ihn mit einem Schwanzstachel",
+        "Sie sammelt es in Höhlen ein"
+      ],
+      "explanation": "Die Kopflappen leiten planktonbeladenes Wasser in Richtung Mund und Filterstrukturen.",
+      "didYouKnow": "Mantarochen haben keinen Schwanzstachel.",
+      "imageCaption": "Mantarochen"
+    },
+    {
+      "id": "fish-008",
+      "animal": "Zitterrochen",
+      "prompt": "Welche Spezialzellen erzeugen die elektrische Entladung eines Torpedostrahls?",
+      "options": [
+        "In seinen elektrischen Organen sind Elektrozyten organisiert",
+        "Motoneuronen der Brustflossen",
+        "Sinneszellen der Seitenlinie",
+        "Isolierte Muskelzellen werden zufällig aktiviert"
+      ],
+      "explanation": "Elektrozyten sind Zellen, die von Muskelzellen abgeleitet sind; Ihre koordinierte Aktivierung führt zu einer Entladung.",
+      "didYouKnow": "Der Torpedorochen lebt oft ruhend oder begraben auf dem Meeresboden.",
+      "imageCaption": "Zitterrochen"
+    },
+    {
+      "id": "fish-009",
+      "animal": "Stechrochen",
+      "prompt": "Was ist der Hauptzweck des Stachelrochenstichs?",
+      "options": [
+        "Um sich gegen eine Bedrohung zu verteidigen",
+        "Um Plankton zu filtern",
+        "Einen Partner mit Licht anlocken",
+        "Einen tiefen Bau graben"
+      ],
+      "explanation": "Der Schwanzstachel dient der Verteidigung und wird oft eingesetzt, wenn der Rochen zertrampelt oder gefangen wird.",
+      "didYouKnow": "Der Rochen versucht im Allgemeinen zu entkommen, wenn er die Gelegenheit dazu hat.",
+      "imageCaption": "Stechrochen"
+    },
+    {
+      "id": "fish-010",
+      "animal": "Sägefisch",
+      "prompt": "Zu welcher Gruppe gehört der Sägefisch trotz seines gezahnten Rostrums?",
+      "options": [
+        "Mit Knorpelstrahlen",
+        "Knochenrifffische",
+        "Zu den Meeressäugetieren",
+        "Mit Süßwasserstör"
+      ],
+      "explanation": "Der Sägefisch ist ein Rochen: Seine Kiemenschlitze befinden sich unter seinem abgeflachten Körper.",
+      "didYouKnow": "Sägefische sind Rochen, deren Kiemenschlitze auf der Bauchseite liegen.",
+      "imageCaption": "Sägefisch"
+    },
+    {
+      "id": "fish-011",
+      "animal": "Chimäre",
+      "prompt": "Aus welchem Material besteht das Skelett einer Chimäre hauptsächlich?",
+      "options": [
+        "Knorpel",
+        "Verkalktes Holz",
+        "Chitin",
+        "Vollständig knöcherne Platten"
+      ],
+      "explanation": "Chimären sind wie Haie und Rochen Knorpelfische.",
+      "didYouKnow": "Viele leben in der Tiefe und legen Eikapseln.",
+      "imageCaption": "Chimäre"
+    },
+    {
+      "id": "fish-012",
+      "animal": "Stör",
+      "prompt": "Welches Merkmal des Störskeletts ist bemerkenswert?",
+      "options": [
+        "Es bleibt weitgehend knorpelig",
+        "Es besteht aus Chitin",
+        "Es enthält sichtbare Außenrippen",
+        "Es besteht aus mineralisiertem Pflanzengewebe"
+      ],
+      "explanation": "Obwohl sie zu den Knochenfischen gehören, besteht ihr Skelett größtenteils aus Knorpel und ihr Rückenmark bleibt erhalten.",
+      "didYouKnow": "Für Kaviar werden traditionell Störeier verwendet.",
+      "imageCaption": "Stör"
+    },
+    {
+      "id": "fish-013",
+      "animal": "Europäischer Aal",
+      "prompt": "Wohin wandern ausgewachsene Europäische Aale zum Laichen?",
+      "options": [
+        "Richtung Sargassosee",
+        "Richtung Ostsee",
+        "Richtung Baikalsee",
+        "Richtung Rotes Meer"
+      ],
+      "explanation": "Nachdem sie in kontinentalen Gewässern aufgewachsen sind, überqueren die ausgewachsenen Silberfische den Atlantik, um ihr Brutgebiet zu erreichen.",
+      "didYouKnow": "Junge Aale werden zu durchsichtigen Glasaalen, wenn sie in Küstennähe ankommen.",
+      "imageCaption": "Europäischer Aal"
+    },
+    {
+      "id": "fish-014",
+      "animal": "Zitteraal",
+      "prompt": "Wie lokalisiert der Zitteraal mithilfe der aktiven Elektroortung ein Hindernis?",
+      "options": [
+        "Es sendet ein schwaches elektrisches Feld aus und erkennt dessen Störungen",
+        "Es sendet Ultraschall aus und analysiert deren Echo",
+        "Es erkennt nur elektrische Felder, die von Beutetieren erzeugt werden",
+        "Mit ihren Nasenlöchern misst sie die Schwingungen des Wassers"
+      ],
+      "explanation": "Objekte in der Nähe stören das vom Aal abgegebene elektrische Feld; Spezielle Rezeptoren erkennen diese Verformungen.",
+      "didYouKnow": "Es muss an die Oberfläche steigen, um atmosphärische Luft zu atmen.",
+      "imageCaption": "Zitteraal"
+    },
+    {
+      "id": "fish-015",
+      "animal": "Muräne",
+      "prompt": "Wie zieht die Muräne ihre Beute an ihre Kehle?",
+      "options": [
+        "Mit einem zweiten Rachenkieferpaar",
+        "Mit einem Saugnapf am Schwanz",
+        "Durch das Projizieren eines Wasserstrahls",
+        "Mit Barteln, die sich um die Beute wickeln"
+      ],
+      "explanation": "Seine Rachenkiefer dringen in den Rachen vor, packen die Beute und ziehen sie in Richtung Speiseröhre.",
+      "didYouKnow": "Seine Nasenlöcher dienen hauptsächlich der Wahrnehmung von Gerüchen und nicht dem Atmen.",
+      "imageCaption": "Muräne"
+    },
+    {
+      "id": "fish-016",
+      "animal": "Clownfisch",
+      "prompt": "Welcher Elternteil trägt beim Clownfisch die befruchteten Eier?",
+      "options": [
+        "Keine: Eier werden auf ein Substrat gelegt",
+        "Das Männchen in einer Bauchtasche",
+        "Das Weibchen in seinem Mund",
+        "Beide Elternteile in einer gemeinsamen Tasche"
+      ],
+      "explanation": "Clownfische legen Eier auf einem Substrat in der Nähe ihrer Anemone ab und die Eltern bewachen den Laich.",
+      "didYouKnow": "In einer Gruppe ist das größte Individuum normalerweise das brütende Weibchen.",
+      "imageCaption": "Clownfisch"
+    },
+    {
+      "id": "fish-017",
+      "animal": "Seepferdchen",
+      "prompt": "Welcher Elternteil trägt bei Seepferdchen die Embryonen in einem Beutel?",
+      "options": [
+        "Der Mann",
+        "Das Weibchen",
+        "Beide Elternteile wechseln sich ab",
+        "Keine: Eier treiben frei"
+      ],
+      "explanation": "Das Weibchen überträgt ihre Eier in den Brutbeutel des Männchens, wo sie sich entwickeln.",
+      "didYouKnow": "Seepferdchen schwimmen in vertikaler Position und bewegen sich mithilfe ihrer Rückenflosse vorwärts.",
+      "imageCaption": "Seepferdchen"
+    },
+    {
+      "id": "fish-018",
+      "animal": "Rotfeuerfisch",
+      "prompt": "Wofür werden die Rückgrate von Rotfeuerfischen verwendet?",
+      "options": [
+        "Um Raubtiere mit ihrem Gift abzuschrecken",
+        "Licht erzeugen, um Beute anzulocken",
+        "Um Plankton zu filtern",
+        "In den Riffen graben"
+      ],
+      "explanation": "Die giftigen Dornen stellen eine Verteidigung dar; Der Fisch fängt seine Beute mit dem Maul.",
+      "didYouKnow": "Die Rückenstacheln des Feuerfisches sind mit Giftdrüsen verbunden.",
+      "imageCaption": "Rotfeuerfisch"
+    },
+    {
+      "id": "fish-019",
+      "animal": "Kugelfisch",
+      "prompt": "Wie vergrößern Kugelfische ihr Volumen schnell, wenn sie bedroht sind?",
+      "options": [
+        "Er schluckt Wasser",
+        "Er bläst seine Flossen mit Luft auf",
+        "Es gibt Blasen aus seinen Kiemen ab",
+        "Es entfaltet Knochenplatten unter der Haut"
+      ],
+      "explanation": "Er schluckt Wasser und dehnt seinen Körper aus, was ihm das Schlucken erschwert.",
+      "didYouKnow": "Tetrodotoxin, das in bestimmten Arten vorkommt, kann für Raubtiere gefährlich sein.",
+      "imageCaption": "Kugelfisch"
+    },
+    {
+      "id": "fish-020",
+      "animal": "Schützenfisch",
+      "prompt": "Wie schlägt der Schützenfisch ein Insekt über dem Wasser nieder?",
+      "options": [
+        "Es projiziert einen präzisen Wasserstrahl",
+        "Er springt und schlägt ihn mit seinem Schwanz",
+        "Er lockt ihn mit einem Licht an",
+        "Er wirft eine Blase, die ihn einsperrt"
+      ],
+      "explanation": "Es komprimiert das Wasser in seinem Maul und richtet einen Strahl auf die Beute aus der Luft.",
+      "didYouKnow": "Es lebt in Brack- und Süßwasser von Mangroven und Flussmündungen in Asien.",
+      "imageCaption": "Schützenfisch"
+    },
+    {
+      "id": "fish-021",
+      "animal": "Fliegender Fisch",
+      "prompt": "Welche Flossen ermöglichen es den fliegenden Fischen, über den Wellen zu gleiten?",
+      "options": [
+        "Seine vergrößerten Brustflossen",
+        "Seine Rückenflossen verwandelten sich in Flügel",
+        "Seine fadenförmigen Bauchflossen",
+        "Seine Kiemen sind ausgestreckt"
+      ],
+      "explanation": "Nach der Beschleunigung unter Wasser dienen seine großen Brustflossen als Stützflächen.",
+      "didYouKnow": "Er schwebt kurz und schlägt nicht wie ein Vogel mit den Flügeln.",
+      "imageCaption": "Fliegender Fisch"
+    },
+    {
+      "id": "fish-022",
+      "animal": "Roter Thunfisch",
+      "prompt": "Welche Gefäßanordnung hilft dem Roten Thun, die von seinen Muskeln erzeugte Wärme zu speichern?",
+      "options": [
+        "Gegenstromgefäßnetze gewinnen Wärme aus dem Blut zurück",
+        "Eine Fettschicht blockiert den Wärmeverlust vollständig",
+        "In benachbarten Gefäßen fließt das Blut in die gleiche Richtung",
+        "Die Schwimmblase überträgt Wärme an die Muskulatur"
+      ],
+      "explanation": "Gegenstromaustauscher übertragen einen Teil der Wärme vom venösen Blut auf das arterielle Blut und begrenzen dessen Verlust über die Kiemen.",
+      "didYouKnow": "Roter Thun legt lange Meereswanderungen zwischen Nahrungs- und Brutgebieten zurück.",
+      "imageCaption": "Roter Thunfisch"
+    },
+    {
+      "id": "fish-023",
+      "animal": "Hecht",
+      "prompt": "Welche Jagdstrategie verfolgen Hechte häufig?",
+      "options": [
+        "Der Hinterhalt in der Wasservegetation",
+        "Filtration von Plankton im offenen Wasser",
+        "Ein Nest im Schlamm graben",
+        "Untiefen auf hoher See nachjagen"
+      ],
+      "explanation": "Sein länglicher Körper und seine Tarnung ermöglichen es ihm, schnell aus einem Versteck hervorzukommen.",
+      "didYouKnow": "Seine nach hinten geneigten Zähne halten gefangene Beute fest.",
+      "imageCaption": "Hecht"
+    },
+    {
+      "id": "fish-024",
+      "animal": "Lachs",
+      "prompt": "Welcher Sinn hilft Lachsen, den Weg zurück zu ihrem Heimatfluss zu finden?",
+      "options": [
+        "Geruchssinn",
+        "Erkennung von Luftinfraschall",
+        "Nur Sternensicht",
+        "Der Geschmack von Salz in seinen Schuppen"
+      ],
+      "explanation": "Es merkt sich chemische Hinweise aus seinem heimischen Wasserlauf und erkennt sie bei seiner Rückkehr wieder.",
+      "didYouKnow": "Junge Lachse verbringen oft einen Teil ihres Wachstums in Flüssen, bevor sie wandern.",
+      "imageCaption": "Lachs"
+    },
+    {
+      "id": "fish-025",
+      "animal": "Blauer Sonnenbarsch (Lepomis macrochirus)",
+      "prompt": "Welches Elternteil bewacht beim Blauen Sonnenbarsch oft das Nest und befächelt die Eier?",
+      "options": [
+        "Das Männchen",
+        "Das Weibchen",
+        "Beide Eltern nur nachts",
+        "Kein Elternteil"
+      ],
+      "explanation": "Das Männchen verteidigt das Nest und bewegt seine Flossen, um das Wasser über den Eiern zirkulieren zu lassen.",
+      "didYouKnow": "Das Nest ist normalerweise eine kreisförmige Vertiefung in einem flachen Boden.",
+      "imageCaption": "Blauer Sonnenbarsch (Lepomis macrochirus)"
+    },
+    {
+      "id": "fish-026",
+      "animal": "Wels",
+      "prompt": "Welche Informationen können die Barteln eines Welses bei der Erkundung des Bodens erkennen?",
+      "options": [
+        "Kontakte und gelöste Chemikalien",
+        "Magnetfelder und Ultraschall",
+        "Nur Temperatur und ultraviolettes Licht",
+        "Schwankungen des Salzgehalts über große Entfernungen"
+      ],
+      "explanation": "Die Barteln tragen Tast- und Geschmacksrezeptoren, die zum Auffinden von Nahrung in trübem Wasser nützlich sind.",
+      "didYouKnow": "Vielen Welsarten fehlen die typischen Schuppen anderer Knochenfische.",
+      "imageCaption": "Wels"
+    },
+    {
+      "id": "fish-027",
+      "animal": "Corydoras",
+      "prompt": "Wie führen manche Corydoras den Gasaustausch durch, wenn das Wasser sauerstoffarm ist?",
+      "options": [
+        "Sie schlucken Luft und nehmen einen Teil des Sauerstoffs im Darm auf",
+        "Sie schlucken Luft und Sauerstoff diffundiert hauptsächlich in die Schwimmblase",
+        "Sie entlüften die Kiemen schneller, wenn sie nahe der Oberfläche schwimmen",
+        "Sie nehmen Luftsauerstoff hauptsächlich über die Haut auf"
+      ],
+      "explanation": "Manche Corydoras kommen hoch, um Luft zu schlucken; Ein Teil des Sauerstoffs gelangt neben den Kiemen auch durch die Darmwand.",
+      "didYouKnow": "Ihre Knochenplatten schützen den Körper unter der Haut.",
+      "imageCaption": "Corydoras"
+    },
+    {
+      "id": "fish-028",
+      "animal": "Papageienfisch",
+      "prompt": "Welche Rolle spielt der Schnabel des Papageienfisches?",
+      "options": [
+        "Algen von Felsen und Korallen abkratzen",
+        "Plankton mit Barten filtern",
+        "Gift in Korallen injizieren",
+        "Tunnel in Felsen graben"
+      ],
+      "explanation": "Seine verwachsenen Zähne bilden einen Schnabel, der zum Grasen auf dem Untergrund geeignet ist.",
+      "didYouKnow": "Zerkleinertes Korallenmaterial trägt an manchen Stränden zum Sand bei.",
+      "imageCaption": "Papageienfisch"
+    },
+    {
+      "id": "fish-029",
+      "animal": "Grundel und Pistolengarnele",
+      "prompt": "Wie hilft die Grundel den fast blinden Garnelen?",
+      "options": [
+        "Es steht Wache und signalisiert Gefahr mit einer Schwanzbewegung.",
+        "Die Garnele erkennt Raubtiere und die Grundel gräbt sich ein",
+        "Der Grundel füttert die Garnelen mit Algen",
+        "Sie tauschen Lichtsignale aus"
+      ],
+      "explanation": "Die Garnele pflegt den Bau, während der Grundel den Eingang bewacht.",
+      "didYouKnow": "Durch den Kontakt zwischen den beiden Tieren bleibt ihre Koordination erhalten.",
+      "imageCaption": "Grundel und Pistolengarnele"
+    },
+    {
+      "id": "fish-030",
+      "animal": "Mondfisch",
+      "prompt": "Warum wärmen sich Mondfische nach einem Tauchgang manchmal in der Nähe der Oberfläche auf?",
+      "options": [
+        "Sonnenwärme wärmt Ihren Körper vor einem neuen Tauchgang",
+        "Das Mondlicht wärmt seine Kiemen",
+        "Es nimmt die Wärme aus dem Sand auf, indem es sich eingräbt",
+        "Durch die Gärung seiner Nahrung entsteht Wärme"
+      ],
+      "explanation": "Die warme Oberfläche trägt dazu bei, die Abkühlung bei tiefen Tauchgängen auszugleichen.",
+      "didYouKnow": "Der Mondfisch ist der schwerste bekannte Knochenfisch.",
+      "imageCaption": "Mondfisch"
+    },
+    {
+      "id": "fish-031",
+      "animal": "Rotlachs",
+      "prompt": "Welche Farbveränderung geht häufig mit dem Laichen von Rotlachsen einher?",
+      "options": [
+        "Der Körper wird rot und der Kopf grünlich",
+        "Der Körper wird silbern und der Kopf blau",
+        "Ohne Körperveränderung werden die Flossen schwarz",
+        "Der Rücken wird weiß und der Bauch gelb"
+      ],
+      "explanation": "Zuchtveränderungen machen die Zuchtlackierung deutlich sichtbar.",
+      "didYouKnow": "Junge Rotlachse können in einem See heranwachsen, bevor sie das Meer erreichen.",
+      "imageCaption": "Rotlachs"
+    },
+    {
+      "id": "fish-032",
+      "animal": "Höhlenfisch",
+      "prompt": "Welcher Sinn hilft Höhlenfischen, Bewegungen im Dunkeln zu erkennen?",
+      "options": [
+        "Die Seitenlinie",
+        "Ultraviolettes Sehen",
+        "Hören aus der Luft",
+        "Infraroterkennung"
+      ],
+      "explanation": "Seine Rezeptoren erkennen Bewegungen und Vibrationen des Wassers um den Fisch herum.",
+      "didYouKnow": "Oberflächenpopulationen dieser Art haben funktionelle Augen und eine ausgeprägtere Pigmentierung.",
+      "imageCaption": "Höhlenfisch"
+    },
+    {
+      "id": "fish-033",
+      "animal": "Clownfisch",
+      "prompt": "Welche soziale Veränderung kann eintreten, wenn das dominante Clownfisch-Weibchen verschwindet?",
+      "options": [
+        "Das brütende Männchen kann zum Weibchen werden",
+        "Das Weibchen wird zum Männchen, dann löst sich die Gruppe auf",
+        "Alle Mitglieder werden weiblich",
+        "Die Gruppe kann das Weibchen nicht ersetzen"
+      ],
+      "explanation": "Bei Clownfischen ändert sich das Geschlecht je nach Gruppenhierarchie.",
+      "didYouKnow": "Das größte Individuum in der Gruppe ist im Allgemeinen das Weibchen.",
+      "imageCaption": "Clownfisch"
+    },
+    {
+      "id": "fish-034",
+      "animal": "Papageienfisch",
+      "prompt": "Wie kann das Weiden von Papageienfischen den Korallen helfen?",
+      "options": [
+        "Es entfernt Algen, die mit jungen Korallen konkurrieren",
+        "Es befruchtet Algen mit Gift",
+        "Es zerstört die Riffe, um den Sand freizusetzen",
+        "Es stößt Korallen ab, indem es sie mit Schleim bedeckt"
+      ],
+      "explanation": "Durch die Beweidung werden Flächen frei, in denen sich Korallenlarven ansiedeln können.",
+      "didYouKnow": "Ihre Schnäbel können auch Kalziumkarbonat mahlen.",
+      "imageCaption": "Papageienfisch"
+    },
+    {
+      "id": "fish-035",
+      "animal": "Tilapia",
+      "prompt": "Welcher Elternteil brütet bei vielen Tilapia-Arten Eier im Maul aus?",
+      "options": [
+        "Ein Elternteil, je nach Art oft das Weibchen",
+        "Das Männchen, das die Eier auf einem Blatt hält",
+        "Das Männchen trägt die Eier in einem Beutel",
+        "Keine Eltern, die Eier schwimmen noch"
+      ],
+      "explanation": "Die Inkubation im Mund schützt die Eier vor Fressfeinden und Störungen.",
+      "didYouKnow": "Bei Tilapia können je nach Art beide Elternteile an der Pflege teilnehmen.",
+      "imageCaption": "Tilapia"
+    },
+    {
+      "id": "fish-036",
+      "animal": "Karpfen",
+      "prompt": "Wie finden Karpfen oft ihre Nahrung im Schlamm?",
+      "options": [
+        "Mit seinen sensorischen Barteln sucht es den Boden ab",
+        "Mit seinen Barteln filtert er das Wasser",
+        "Es fängt Insekten über dem Wasser",
+        "Er jagt mit einem leuchtenden Köder"
+      ],
+      "explanation": "Die Barteln helfen ihm, Nahrung und Wirbellose im Sediment zu lokalisieren.",
+      "didYouKnow": "Karpfen können beim Graben den Boden aufwühlen, wodurch Partikel wieder aufgewirbelt werden.",
+      "imageCaption": "Karpfen"
+    },
+    {
+      "id": "fish-037",
+      "animal": "Zebrafisch",
+      "prompt": "Warum werden Zebrafische zur Untersuchung der Wirbeltierentwicklung eingesetzt?",
+      "options": [
+        "Seine transparenten Embryonen entwickeln sich außerhalb des Körpers",
+        "Um seinen Körper herum bildet es eine Kalkhülle",
+        "Er ändert das Geschlecht, um die Anemone zu adoptieren",
+        "Es ist mit giftigen Schuppen bedeckt"
+      ],
+      "explanation": "Die Transparenz ermöglicht es, die Entwicklung der Organe live zu beobachten.",
+      "didYouKnow": "Es handelt sich um eine in Südasien beheimatete Süßwasserart.",
+      "imageCaption": "Zebrafisch"
+    },
+    {
+      "id": "fish-038",
+      "animal": "Siamesischer Kampffisch",
+      "prompt": "Wie baut das Männchen des Siamesischen Kampffischs sein Nest?",
+      "options": [
+        "Es baut ein Schaumnest an der Oberfläche",
+        "Es lässt Algen am Nest schneller wachsen",
+        "Es verhindert, dass sich Korallenlarven ansiedeln",
+        "Es erzeugt Giftstoffe gegen Korallen"
+      ],
+      "explanation": "Das Männchen baut ein Blasennest und bewacht die Eier und dann die Jungfische.",
+      "didYouKnow": "Der siamesische Kämpfer kann dank eines zusätzlichen labyrinthischen Organs Luft atmen.",
+      "imageCaption": "Siamesischer Kampffisch"
+    },
+    {
+      "id": "fish-039",
+      "animal": "Gurami",
+      "prompt": "Durch welches Organ kann der Gurami Sauerstoff aus der Luft aufnehmen?",
+      "options": [
+        "Das labyrinthische Organ",
+        "Der Vater trägt sie bei allen Arten in einer Bauchtasche",
+        "Beide Eltern bebrüten sie in ihren Kiemen",
+        "Keine Eltern: Eier bleiben ungeschützt"
+      ],
+      "explanation": "Dieses zusätzliche Atmungsorgan ergänzt die Nutzung der Kiemen.",
+      "didYouKnow": "Das Labyrinthorgan ermöglicht es Guramis, Sauerstoff aus der Luft zu nutzen.",
+      "imageCaption": "Gurami"
+    },
+    {
+      "id": "fish-040",
+      "animal": "Afrikanischer Lungenfisch",
+      "prompt": "Wie begrenzt der Afrikanische Lungenfisch während der Ästhetisierung den Wasserverlust, wenn sein Lebensraum austrocknet?",
+      "options": [
+        "Es gräbt sich ein, bildet einen Schleimkokon und reduziert seinen Stoffwechsel",
+        "Es gräbt sich ohne Kokon ein und behält seinen gewohnten Stoffwechsel bei",
+        "Es bleibt an der Oberfläche und verlangsamt seine Kiemenatmung",
+        "Es sondert einen Kokon ab, bleibt aber im Restwasser aktiv"
+      ],
+      "explanation": "Der Lungenfisch gräbt sich in den Schlamm und bildet einen schleimigen Kokon; seine Stoffwechselaktivität nimmt ab, bis wieder günstige Bedingungen herrschen.",
+      "didYouKnow": "Lungenfische gehören zu den Fischen mit fleischigen Flossen, wie etwa Quastenflossern.",
+      "imageCaption": "Afrikanischer Lungenfisch"
+    },
+    {
+      "id": "fish-041",
+      "animal": "Quastenflosser",
+      "prompt": "Warum wird der Quastenflosser als Fisch mit fleischigen Flossen beschrieben?",
+      "options": [
+        "Seine paarigen Flossen werden von muskulösen Lappen gestützt",
+        "Es bildet eine mineralische Hülle",
+        "Es hängt an einem Ast außerhalb des Wassers",
+        "Es wandert in einem Meeresbau"
+      ],
+      "explanation": "Seine Flossen enthalten innere Knochen- und Muskelstrukturen.",
+      "didYouKnow": "Der Quastenflosser ist ein Sarkopterygian, ein naher entfernter Verwandter der Tetrapoden.",
+      "imageCaption": "Quastenflosser"
+    },
+    {
+      "id": "fish-042",
+      "animal": "Stör",
+      "prompt": "Warum bedrohen Staudämme wandernde Störe?",
+      "options": [
+        "Sie können den Zugang zu Laichplätzen flussaufwärts blockieren",
+        "Seine Flossen werden von Federn getragen",
+        "Seine Flossen sind einfache Membranen ohne Innenskelett.",
+        "Es gehört zu den Wasserreptilien"
+      ],
+      "explanation": "Viele Arten wandern zur Fortpflanzung Flüsse hinauf.",
+      "didYouKnow": "Störe gehören zu den größten Süßwasserfischen.",
+      "imageCaption": "Stör"
+    },
+    {
+      "id": "fish-043",
+      "animal": "Amerikanischer Löffelstör",
+      "prompt": "Wie kommt der Amerikanische Paddelfisch an seine Nahrung?",
+      "options": [
+        "Es filtert Zooplankton, indem es mit offenem Maul schwimmt",
+        "Sie blockieren Meeresströmungen",
+        "Sie verbessern den Zugang zu Laichplätzen",
+        "Sie verwandeln den Stör in einen sesshaften Fisch"
+      ],
+      "explanation": "Seine Kiemenräumer halten kleine Planktonorganismen fest.",
+      "didYouKnow": "Der amerikanische Paddelfisch ist im Mississippi-Becken beheimatet.",
+      "imageCaption": "Amerikanischer Löffelstör"
+    },
+    {
+      "id": "fish-044",
+      "animal": "Clownfisch",
+      "prompt": "Wie vermeidet ein Clownfisch im Allgemeinen, die Nesselzellen seiner Wirtsanemone auszulösen?",
+      "options": [
+        "Es gewöhnt sich an die Zusammensetzung des Anemonenschleims",
+        "Es sondert einen absolut wasserfesten Schleim ab, der jeglichen Kontakt verhindert",
+        "Es löst die Nematozysten aus der Ferne aus, bevor es sich in die Anemone flüchtet",
+        "Es hat eine dicke Haut, die allen Bissen widersteht"
+      ],
+      "explanation": "Die Akklimatisierung seines Oberflächenschleims schränkt die Erkennung des Fisches als Beute durch bestimmte Anemonen ein.",
+      "didYouKnow": "Clownfische leben in hierarchischen Gruppen, wobei das brütende Weibchen im Allgemeinen das größte ist.",
+      "imageCaption": "Clownfisch"
+    },
+    {
+      "id": "fish-045",
+      "animal": "Blauer Hai",
+      "prompt": "Welche Tarnung hilft dem Blauhai im Meer?",
+      "options": [
+        "Ein blauer Rücken und ein heller Bauch",
+        "Der Schleim ermöglicht es ihm, die Anemone zu fressen",
+        "Es ist von Natur aus unempfindlich gegenüber jeglichen Giftstoffen",
+        "Die Anemone hat nie Nesselzellen"
+      ],
+      "explanation": "Der Rücken verschmilzt mit dem dunklen Wasser von oben gesehen und der Bauch mit der leuchtenden Oberfläche von unten.",
+      "didYouKnow": "Es handelt sich um eine pelagische Art, die weite Strecken zurücklegt.",
+      "imageCaption": "Blauer Hai"
+    },
+    {
+      "id": "fish-046",
+      "animal": "Zitronenhai",
+      "prompt": "Warum sind Mangroven für junge Zitronenhaie wichtig?",
+      "options": [
+        "Sie bieten ihnen geschützte Kindergärten an",
+        "Transparente Flossen wie Glas",
+        "Eine vollständige knöcherne Hülle",
+        "Fluoreszierende Außenkiemen"
+      ],
+      "explanation": "Wurzeln bieten Jungtieren Verstecke und Nahrungsressourcen.",
+      "didYouKnow": "Erwachsene Zitronenhaie können in das Gebiet zurückkehren, in dem sie geboren wurden.",
+      "imageCaption": "Zitronenhai"
+    },
+    {
+      "id": "fish-047",
+      "animal": "Silbrig glänzender pelagischer Fisch",
+      "prompt": "Welchen Zweck hat der silbrige Glanz vieler pelagischer Fische?",
+      "options": [
+        "Um ihren Kontrast im Wasser zu verringern",
+        "Ein blauer Bauch und ein weißer Rücken",
+        "Schwarze Streifen, die Licht reflektieren",
+        "Transparente Haut ohne Pigmente"
+      ],
+      "explanation": "Durch die reflektierende Oberfläche verschmelzen sie mit dem Umgebungslicht.",
+      "didYouKnow": "Viele Schwarmfische haben silberne Seiten.",
+      "imageCaption": "Silbrig glänzender pelagischer Fisch"
+    },
+    {
+      "id": "fish-048",
+      "animal": "Vieräugiger Fisch",
+      "prompt": "Wie überwacht der Vieräugige Fisch gleichzeitig Luft und Wasser?",
+      "options": [
+        "Jedes Auge ist in zwei optische Zonen unterteilt",
+        "Jedes Auge sieht nur unter Wasser",
+        "Es hat zwei unabhängige Augenpaare.",
+        "Die Sicht aus der Luft wird durch seine Flossen gewährleistet"
+      ],
+      "explanation": "Der obere und untere Bereich jedes Auges ist für das Sehen in der Luft und unter Wasser geeignet.",
+      "didYouKnow": "Der vieräugige Fisch kommt häufig im Brackwasser von Mangroven und Flussmündungen vor.",
+      "imageCaption": "Vieräugiger Fisch"
+    },
+    {
+      "id": "fish-049",
+      "animal": "Clownfisch",
+      "prompt": "Welchen Nutzen hat die Anemone manchmal von ihrem Clownfisch?",
+      "options": [
+        "Der Fisch vertreibt bestimmte Eindringlinge und liefert Nährstoffe",
+        "Er reinigt die Anemone von ihrem Skelett",
+        "Es gibt ihm einen Verteidigungssporn",
+        "Es gibt ihm Licht durch Biolumineszenz"
+      ],
+      "explanation": "Der Fisch verteidigt die Anemone und ihre Bewegungen können die Wasserzirkulation verbessern.",
+      "didYouKnow": "Clownfische sind protandrische Hermaphroditen: Das dominante Männchen kann zum Weibchen werden.",
+      "imageCaption": "Clownfisch"
+    },
+    {
+      "id": "fish-050",
+      "animal": "Geisterfisch",
+      "prompt": "Wie entgeht der Geisterfisch der Entdeckung?",
+      "options": [
+        "Es imitiert die Schwebealgen, zwischen denen es lebt",
+        "Sein Schwanz schwebt über dem Wasser",
+        "Es tarnt sich mit transparentem Schleim",
+        "Es lebt immer noch im Süßwasser"
+      ],
+      "explanation": "Seine Silhouette und Farbe erinnern an treibende Pflanzen.",
+      "didYouKnow": "Sein röhrenförmiges Maul saugt kleine Krebstiere und andere winzige Beutetiere an.",
+      "imageCaption": "Geisterfisch"
+    },
+    {
+      "id": "fish-051",
+      "animal": "Südlicher Mondfisch",
+      "prompt": "Wie können Mondfische Parasiten von ihrer Haut entfernen?",
+      "options": [
+        "Es liegt nahe der Oberfläche und wird von Seevögeln gereinigt",
+        "Es entsteht ein Wasserstrahl",
+        "Es filtert Plankton mit Barten",
+        "Es speichert Luft in einer Tasche"
+      ],
+      "explanation": "Seevögel picken manchmal äußere Parasiten auf ihren Körper.",
+      "didYouKnow": "Mondfische können tief tauchen, um zu fressen, bevor sie zum Aufwärmen zurückkehren.",
+      "imageCaption": "Südlicher Mondfisch"
+    },
+    {
+      "id": "fish-052",
+      "animal": "Beilfisch",
+      "prompt": "Warum ist der Bauch des Beilfisches silbern?",
+      "options": [
+        "Es reflektiert das schwache Licht und tarnt seine Silhouette von unten",
+        "Es nimmt Sauerstoff über seine Haut auf",
+        "Es saugt Plankton mit Barten auf",
+        "Es verfügt über eine Lufttasche zum Schweben"
+      ],
+      "explanation": "Durch die Reflexion verringert sich der Kontrast zum von der Oberfläche kommenden Licht.",
+      "didYouKnow": "Seine nach oben gerichteten Augen erkennen die Beute über ihnen.",
+      "imageCaption": "Silberbeilfisch"
+    },
+    {
+      "id": "fish-053",
+      "animal": "Abgrundseeteufel",
+      "prompt": "Was passiert bei bestimmten Tiefsee-Seeteufeln mit dem Männchen, nachdem es sich an ein Weibchen geheftet hat?",
+      "options": [
+        "Es kann dauerhaft mit dem Weibchen verschmelzen und dessen Blutkreislauf teilen",
+        "Es bleibt ein freies Männchen übrig, das allein die Eier bewacht.",
+        "Es heftet sich vorübergehend an und löst sich nach dem Laichen wieder",
+        "Es wird weiblich, bevor es sich mit einem zweiten Weibchen paart"
+      ],
+      "explanation": "Bei mehreren Tiefsee-Seeteufeln heftet sich das Zwergmännchen an das Weibchen und kann mit ihm verschmelzen, wodurch der Zugang zu Partnern in einer weitläufigen Umgebung gewährleistet wird.",
+      "didYouKnow": "Bei einigen Arten hat das Weibchen einen leuchtenden Fortsatz in der Nähe des Mauls.",
+      "imageCaption": "Abgrundseeteufel (Beispiel: Johnson-Melanozet)"
+    },
+    {
+      "id": "fish-054",
+      "animal": "Antarktischer Eisfisch",
+      "prompt": "Wie begrenzen die Frostschutzproteine im Eisfisch Kälteschäden?",
+      "options": [
+        "Sie heften sich an Kristalle und verlangsamen deren Wachstum",
+        "Sie senken den Gefrierpunkt, indem sie den Salzgehalt des Blutes stark erhöhen",
+        "Sie fördern die Kristallbildung abseits empfindlicher Gewebe",
+        "Sie isolieren die Organe thermisch, ohne das Eis anzugreifen"
+      ],
+      "explanation": "Diese Proteine binden an die Oberflächen kleiner Kristalle und verhindern deren Wachstum in Körperflüssigkeiten.",
+      "didYouKnow": "Einige antarktische Arten haben auch wenig oder gar kein Hämoglobin im Blut.",
+      "imageCaption": "Antarktischer Eisfisch"
+    },
+    {
+      "id": "fish-055",
+      "animal": "Höhlensalmler",
+      "prompt": "Welche Veränderung des Tagesrhythmus wurde bei höhlenbewohnenden Salmlern beobachtet?",
+      "options": [
+        "Sie schlafen weniger als oberflächenlebende Formen",
+        "Sie werden nur in Vollmondnächten aktiv",
+        "Sie überwintern jeden Winter in Höhlen",
+        "Sie wandern jeden Tag an die Oberfläche"
+      ],
+      "explanation": "Einige Höhlenpopulationen von Astyanax mexicanus weisen im Vergleich zu Oberflächenpopulationen eine kürzere Schlafdauer auf.",
+      "didYouKnow": "Höhlen- und Oberflächenformen können sich weiterhin miteinander reproduzieren.",
+      "imageCaption": "Höhlensalmler"
+    },
+    {
+      "id": "fish-056",
+      "animal": "Elektrischer Wels",
+      "prompt": "Was bewirkt der Ausfluss des Afrikanischen Zitterwelses?",
+      "options": [
+        "Beute betäuben oder eine Bedrohung abschrecken",
+        "Durch die Freisetzung von Gift durch die Zähne",
+        "Durch die Erzeugung eines Wasserstrahls",
+        "Indem es seine Beute im Schleim bewegungsunfähig macht"
+      ],
+      "explanation": "Ein spezialisiertes elektrisches Organ erzeugt eine starke Abwehr- oder Jagdentladung.",
+      "didYouKnow": "Seine sensorischen Barteln erforschen den Boden und helfen ihm, Nahrung zu finden.",
+      "imageCaption": "Elektrischer Wels"
+    },
+    {
+      "id": "fish-057",
+      "animal": "Elefantenrüsselfisch",
+      "prompt": "Welches Prinzip ermöglicht es Elefantenfischen, Elektroortung in trübem Wasser zu nutzen?",
+      "options": [
+        "Es sendet ein schwaches elektrisches Feld aus und erkennt seine Verformungen über Hautrezeptoren",
+        "Es sendet Ultraschall aus und folgt ihrem Echo im Schlamm",
+        "Es erkennt nur das elektrische Feld der Beute",
+        "Es nutzt die Seitenlinie zur Messung des reflektierten Lichts"
+      ],
+      "explanation": "Der Elefantenfisch sendet schwache elektrische Signale aus; Objekte verändern das Feld, das von den Elektrorezeptoren der Haut empfangen wird.",
+      "didYouKnow": "Seine flexible Schnauze hilft dem Elefantenfisch beim Durchsuchen des Grundes.",
+      "imageCaption": "Elefantenrüsselfisch"
+    },
+    {
+      "id": "fish-058",
+      "animal": "Schwarzer Geistermesserfisch",
+      "prompt": "Wie erkennt der schwarze Geistermesserfisch ein Objekt mit seinem schwachen elektrischen Feld?",
+      "options": [
+        "Elektrorezeptoren der Haut erkennen Verformungen des von ihr ausgesendeten Feldes",
+        "Riechzellen erkennen im Wasser gelöste Elektrizität",
+        "Fotorezeptoren messen den vom Objekt geworfenen Schatten",
+        "Otolithen wandeln das elektrische Feld in Schall um"
+      ],
+      "explanation": "Der Fisch sendet ein schwaches elektrisches Feld aus und erkennt mithilfe von Elektrorezeptoren, wie Objekte ihn stören.",
+      "didYouKnow": "Seine lange, gewellte Afterflosse ermöglicht es ihm, vorwärts und rückwärts zu schwimmen.",
+      "imageCaption": "Schwarzer Geistermesserfisch"
+    },
+    {
+      "id": "fish-059",
+      "animal": "Seewolf",
+      "prompt": "Wie fressen Steinbeißer Schalentiere und Seeigel?",
+      "options": [
+        "Es zerquetscht sie mit seinen starken Kiefern und Zähnen",
+        "Indem man die Schalen im Ganzen schluckt",
+        "Durch das Filtern von Plankton",
+        "Mit einem giftigen Stich"
+      ],
+      "explanation": "Seine Zähne sind an hartschalige benthische Beutetiere angepasst.",
+      "didYouKnow": "In den kalten Gewässern des Nordatlantiks leben mehrere Steinbeißer.",
+      "imageCaption": "Seewolf"
+    },
+    {
+      "id": "fish-060",
+      "animal": "Schlangenkopffisch",
+      "prompt": "Welches Hilfsorgan ermöglicht es manchen Schlangenkopftieren, die Kiemenatmung durch Luft zu ergänzen?",
+      "options": [
+        "Vaskularisierte suprabranchiale Strukturen",
+        "Eine mit der Lunge verbundene Schwimmblase",
+        "Spiralen hinter den Augen",
+        "Mit den Brustflossen verbundene Luftsäcke"
+      ],
+      "explanation": "In vielen Channa ermöglichen vaskularisierte suprabranchiale Strukturen die Nutzung von Sauerstoff aus der Luft.",
+      "didYouKnow": "Bestimmte Schlangenkopfarten, die außerhalb ihres natürlichen Verbreitungsgebiets eingeführt werden, können invasiv werden.",
+      "imageCaption": "Gestreifter Schlangenkopf"
+    },
+    {
+      "id": "fish-061",
+      "animal": "Igelfisch",
+      "prompt": "Was passiert, wenn sich ein Igelfisch aufbläht?",
+      "options": [
+        "Seine Dornen stehen auf und erschweren das Schlucken",
+        "Zum Gleiten setzt es ein Rückensegel ein",
+        "Es gibt abnehmbare Dornen frei",
+        "Es gräbt sich, ohne Wasser zu schlucken"
+      ],
+      "explanation": "Verschlucktes Wasser vergrößert sein Volumen und strafft seine Abwehrstacheln.",
+      "didYouKnow": "Seine Stacheln sind nicht mit einem Giftapparat verbunden.",
+      "imageCaption": "Igelfisch"
+    },
+    {
+      "id": "fish-062",
+      "animal": "Kofferfisch",
+      "prompt": "Welche Struktur schützt den Körper des Kofferfisches?",
+      "options": [
+        "Eine Hülle aus geschweißten Knochenplatten",
+        "Ein Beutel mit getrocknetem Schleim",
+        "Verstärkte mobile Waage",
+        "Haut mit Haaren bedeckt"
+      ],
+      "explanation": "Die Platten schützen den Rumpf, während die Flossen beweglich bleiben.",
+      "didYouKnow": "Einige Kofferfischarten scheiden bei Stress Giftstoffe aus.",
+      "imageCaption": "Gelber Kofferfisch"
+    },
+    {
+      "id": "fish-063",
+      "animal": "Vieräugiger Fisch",
+      "prompt": "Wie bringt der Vieräugige Fisch seine Jungen zur Welt?",
+      "options": [
+        "Nach der inneren Entwicklung bringt es lebende Jungtiere zur Welt",
+        "Es legt schwimmende Eier in großen Schwärmen",
+        "Das Männchen trägt die Embryonen in einem Beutel",
+        "Eier schlüpfen in einem Blasennest"
+      ],
+      "explanation": "Anableps sind lebendgebärend: Die Befruchtung erfolgt intern und die Weibchen bringen bereits entwickelte Junge zur Welt.",
+      "didYouKnow": "Jedes Weibchen verfügt über einen Fortpflanzungstrakt, der an eine Seite des Körpers des Männchens angepasst ist und die Paarung richtungsweisend macht.",
+      "imageCaption": "Vieräugiger Fisch"
+    },
+    {
+      "id": "fish-064",
+      "animal": "Seenadeln",
+      "prompt": "Welche Haltung hilft Pfeifenfischen, sich im Seegras zu verstecken?",
+      "options": [
+        "Er steht fast senkrecht, den Kopf nach oben gerichtet",
+        "Er vergräbt sich im Sand",
+        "Es bläst sich auf, um eine Blase zu imitieren",
+        "Es schwimmt in einer Schule vor der Küste"
+      ],
+      "explanation": "Sein schlanker Körper ähnelt den Stängeln, zwischen denen er sich bewegt.",
+      "didYouKnow": "Seenadeln sind enge Verwandte der Seepferdchen.",
+      "imageCaption": "Seenadeln"
+    },
+    {
+      "id": "fish-065",
+      "animal": "Geisterfisch",
+      "prompt": "Welches Elternteil trägt beim Geisterfisch während der Entwicklung die Eier?",
+      "options": [
+        "Das Weibchen, zwischen seinen vergrößerten Bauchflossen",
+        "Das Männchen in einer Bauchtasche wie beim Seepferdchen",
+        "Beide Eltern, in ihren Kiemen",
+        "Keine: Eier werden immer im offenen Wasser verstreut"
+      ],
+      "explanation": "Bei Solenostomus paradoxus trägt das Weibchen die Eier zwischen seinen modifizierten Bauchflossen.",
+      "didYouKnow": "Die Tarnung des Geisterfisches ermöglicht es ihm, mit Schwebealgen zu verschmelzen.",
+      "imageCaption": "Geisterfisch"
+    },
+    {
+      "id": "fish-066",
+      "animal": "Feilenfisch",
+      "prompt": "Wie verankert sich der Feilenfisch in einer Felsspalte, um einem Raubtier zu entkommen?",
+      "options": [
+        "Er sperrt sein erstes Rückgrat",
+        "Er bläst seinen Bauch auf, um zu schweben",
+        "Es wird elektrisiert, um sich am Felsen festzusetzen",
+        "Es steckt sein Maul in den Untergrund"
+      ],
+      "explanation": "Ein zweiter Dorn blockiert den ersten in einer aufrechten Position.",
+      "didYouKnow": "Das erste Rückgrat des Feilenfisches kann durch ein zweites Rückgrat verbunden sein.",
+      "imageCaption": "Feilenfisch"
+    },
+    {
+      "id": "fish-067",
+      "animal": "Fledermausfisch",
+      "prompt": "Wie bewegen sich Fledermausfische auf dem Grund?",
+      "options": [
+        "Es stützt sich auf seinen flossenartigen Beinen ab.",
+        "Es bewegt seine Brustflossen",
+        "Er schwebt aus dem Wasser",
+        "Der Antrieb erfolgt über einen gegabelten Schwanz"
+      ],
+      "explanation": "Seine Brust- und Bauchflossen dienen dem Kriechen auf dem Untergrund.",
+      "didYouKnow": "Jungtiere einiger Arten ähneln schwimmenden toten Blättern.",
+      "imageCaption": "Fledermausfisch"
+    },
+    {
+      "id": "fish-068",
+      "animal": "Krötenfisch",
+      "prompt": "Welche Struktur dient als Resonator für die tiefen Rufe des männlichen Krötenfisches?",
+      "options": [
+        "Die Schwimmblase vibriert durch spezielle Muskeln",
+        "Rachenzähne rieben aneinander",
+        "Die Decken schlugen gegen die Kiemen",
+        "Brustflossen rieben am Untergrund"
+      ],
+      "explanation": "Spezialisierte Muskeln versetzen die Schwimmblase in Schwingung, wodurch die bei Lautäußerungen erzeugten Geräusche verstärkt werden.",
+      "didYouKnow": "Krötenfische kommen häufig in flachen Küstengewässern vor.",
+      "imageCaption": "Krötenfisch"
+    },
+    {
+      "id": "fish-069",
+      "animal": "Lotsenfisch",
+      "prompt": "Welchen Vorteil hat der Lotsenfisch manchmal aus der Nähe zu einem Hai?",
+      "options": [
+        "Es profitiert von Essensresten und einem relativen Schutz",
+        "Es wird im Beutel des Hais getragen",
+        "Dank des Wirts filtert es das Plankton",
+        "Es kann nur in Süßwasser leben"
+      ],
+      "explanation": "Während es in der Nähe eines großen Wirts schwimmt, kann es sich von Essensresten oder Parasiten ernähren.",
+      "didYouKnow": "Der Lotsenfisch kann sich auch ohne Hai fortbewegen und fressen.",
+      "imageCaption": "Lotsenfisch"
+    },
+    {
+      "id": "fish-070",
+      "animal": "Eichhörnchenfisch",
+      "prompt": "Warum sind die großen Augen des Eichhörnchenfisches nützlich?",
+      "options": [
+        "Sie fangen bei nächtlichen Ausflügen mehr Licht ein",
+        "Sie saugen Luft von der Oberfläche",
+        "Sie erkennen elektrische Felder",
+        "Sie filtern Speisereste"
+      ],
+      "explanation": "Diese Anpassung hilft ihm, Beute zu erkennen, wenn das Licht schwach ist.",
+      "didYouKnow": "Tagsüber versteckt es sich oft in Spalten.",
+      "imageCaption": "Eichhörnchenfisch"
+    },
+    {
+      "id": "fish-071",
+      "animal": "Soldatenfisch",
+      "prompt": "Wann gehen Soldatenfische häufig auf Futtersuche?",
+      "options": [
+        "Nachts",
+        "Es frisst nur tagsüber",
+        "Es wandert in Richtung Mangroven",
+        "Er speichert Eier in seinem Mund"
+      ],
+      "explanation": "Es kommt nach Sonnenuntergang heraus, um kleine Krebstiere und Zooplankton zu jagen.",
+      "didYouKnow": "Soldatenfische können Geräusche erzeugen, indem sie ihre Schwimmblase vibrieren lassen.",
+      "imageCaption": "Soldatenfisch"
+    },
+    {
+      "id": "fish-072",
+      "animal": "Schafskopf-Lippfisch",
+      "prompt": "Welche Fortpflanzungsveränderung kann beim Schafskopf-Lippfisch auftreten?",
+      "options": [
+        "Ein Weibchen kann zum Männchen werden",
+        "Das Männchen wird jede Saison zum Weibchen",
+        "Die Geschlechter bleiben immer getrennt",
+        "Die Art wechselt nie das Geschlecht"
+      ],
+      "explanation": "Bei dieser Art wechseln einige Individuen im Laufe ihres Lebens das Geschlecht.",
+      "didYouKnow": "Große Männchen des Schafskopf-Lippfischs verteidigen häufig Brutgebiete.",
+      "imageCaption": "Schafskopf-Lippfisch"
+    },
+    {
+      "id": "fish-073",
+      "animal": "Napoleon-Lippfisch",
+      "prompt": "Wovon ernährt sich der ausgewachsene Napoleon-Lippfisch hauptsächlich?",
+      "options": [
+        "Von Weichtieren und Krebstieren mit Panzer",
+        "Von gefiltertem Plankton im offenen Wasser",
+        "Nur von Algen",
+        "Von großen Meeressäugern"
+      ],
+      "explanation": "Napoleon-Lippfische fressen Weichtiere und Krebstiere; Dornenkronenseesterne gehören gelegentlich zur Beute, sind aber keine Hauptnahrung.",
+      "didYouKnow": "Der Napoleon-Lippfisch ist der größte lebende Lippfisch und wächst langsam.",
+      "imageCaption": "Napoleon-Lippfisch"
+    },
+    {
+      "id": "fish-074",
+      "animal": "Mandarinenfisch",
+      "prompt": "Welche chemische Abwehr nutzt der Mandarinenfisch?",
+      "options": [
+        "Hautschleim, der bestimmte Raubtiere abschreckt",
+        "Es hat ein knorpeliges Skelett",
+        "Bei Berührung ist es giftig",
+        "Es lebt ausschließlich in Süßwasser"
+      ],
+      "explanation": "Die im Schleim enthaltenen Stoffe machen den Fisch unappetitlich.",
+      "didYouKnow": "Mandarinfische zeigen leuchtende Farben, die von Pigmentzellen erzeugt werden.",
+      "imageCaption": "Mandarinenfisch"
+    },
+    {
+      "id": "fish-075",
+      "animal": "Falterfisch",
+      "prompt": "Welche Nahrung picken Falterfische häufig aus Spalten?",
+      "options": [
+        "Korallenpolypen und kleine Wirbellose",
+        "Auf dem Riff grasten Algen",
+        "Auf Pflanzen gelegte Eier",
+        "Fische, die von einem Wasserstrahl angezogen werden"
+      ],
+      "explanation": "Seine dünne Schnauze ermöglicht es ihm, im Riff versteckte Beute zu erreichen.",
+      "didYouKnow": "Ein Augenfleck in der Nähe des Schwanzes kann die Aufmerksamkeit vom eigentlichen Auge ablenken.",
+      "imageCaption": "Falterfisch"
+    },
+    {
+      "id": "fish-076",
+      "animal": "Vieräugiger Falterfisch",
+      "prompt": "Welchen Zweck hat der augenförmige Fleck in der Nähe des Schwanzes bei manchen Falterfischen?",
+      "options": [
+        "Es kann den Angriff eines Raubtiers von seinem Kopf abwehren",
+        "Es gibt die Wassertiefe an",
+        "Es wird zum Filtern von Beute verwendet",
+        "Es entsteht eine elektrische Entladung"
+      ],
+      "explanation": "Ein Augenfleck verwirrt die Orientierung des Fisches und kann den Angriff nach hinten locken.",
+      "didYouKnow": "Ein dunkler Balken kreuzt oft das wahre Auge.",
+      "imageCaption": "Vieräugiger Falterfisch"
+    },
+    {
+      "id": "fish-077",
+      "animal": "Leopardenrochen",
+      "prompt": "Welches Muster hilft Ihnen, den Leopardenrochen zu erkennen?",
+      "options": [
+        "Dunkle Flecken auf hellem Rücken",
+        "Helle Längsstreifen auf dunklem Rücken",
+        "Eine Hülle aus Knochenplatten",
+        "Eine sichelförmige Schwanzflosse"
+      ],
+      "explanation": "Seine Flecken geben ihm seinen gebräuchlichen Namen und helfen dabei, seine Umrisse vom Hintergrund abzuheben.",
+      "didYouKnow": "Der Adlerrochen hält sich häufig auf Sandböden und Küstenbuchten auf.",
+      "imageCaption": "Leopardenrochen"
+    },
+    {
+      "id": "fish-078",
+      "animal": "Zebrahai",
+      "prompt": "Wie verändert sich die Farbgebung des Zebrahais zwischen Jung und Alt?",
+      "options": [
+        "Die jungen Streifen werden im Laufe des Wachstums fleckig",
+        "Die gefleckten Jungen werden gestreift",
+        "Das Kleid bleibt in jedem Alter gleich",
+        "Die Jungtiere sind silbern und werden dann einfarbig blau"
+      ],
+      "explanation": "Gestreifte Jungtiere bekommen als Erwachsene ein geflecktes Fell.",
+      "didYouKnow": "Jugendliche haben kontrastierende Bänder, während Erwachsene Flecken haben.",
+      "imageCaption": "Zebrahai"
+    },
+    {
+      "id": "fish-079",
+      "animal": "Epaulettenhai",
+      "prompt": "Wie kann der Epaulettenhai in einem isolierten Riff bei Ebbe Hypoxie tolerieren?",
+      "options": [
+        "Es verringert seine Stoffwechselaktivität und seinen Sauerstoffverbrauch",
+        "Es beschleunigt sein Schwimmen, um den Wasserfluss auf die Kiemen zu erhöhen",
+        "Dank eines suprabranchialen Organs atmet es Luft",
+        "Es schließt seine Kiemen und tauscht dauerhaft Austauschvorgänge mit der Haut aus"
+      ],
+      "explanation": "Der Epaulettenhai toleriert Episoden von Hypoxie, indem er seine Stoffwechselaktivität reduziert und seine lebenswichtigen Funktionen aufrechterhält.",
+      "didYouKnow": "Seine Brust- und Bauchflossen ermöglichen ihm auch bei Ebbe die Fortbewegung auf dem Riff.",
+      "imageCaption": "Epaulettenhai"
+    },
+    {
+      "id": "fish-080",
+      "animal": "Kleinzahn-Sägefisch",
+      "prompt": "Warum könnte die Nase des Sägefisches ihn anfällig für Netze machen?",
+      "options": [
+        "Seine Seitenzähne können sich darin verfangen",
+        "Sein Rostrum filtert Plankton im Wasser",
+        "Seine Flossen bilden ein Fangnetz",
+        "Es vergräbt sich und verlässt sein Podest"
+      ],
+      "explanation": "Der gezahnte Fortsatz bleibt leicht an der Angelausrüstung hängen und kann das Tier verletzen.",
+      "didYouKnow": "Der Sägefisch ist ein Rochen und hat Kiemenschlitze an der Unterseite seines Körpers.",
+      "imageCaption": "Kleinzahn-Sägefisch"
+    },
+    {
+      "id": "fish-081",
+      "animal": "Grönlandhai",
+      "prompt": "An welchem Teil des Grönlandhais haben die Forscher den Radiokohlenstoff gemessen, um sein Alter abzuschätzen?",
+      "options": [
+        "Der Kern der Augenlinse",
+        "Wachstumsringe schuppen",
+        "Flossenwachstumsstreifen",
+        "Wachstumsbänder der Wirbel"
+      ],
+      "explanation": "Radiokarbon aus dem Linsenkern wurde verwendet, um das Alter der Grönlandhaie, einer langsam wachsenden Art, abzuschätzen.",
+      "didYouKnow": "Der Grönlandhai ist einer der größten Haie, die in den kalten Gewässern des Nordatlantiks leben.",
+      "imageCaption": "Grönlandhai"
+    },
+    {
+      "id": "fish-082",
+      "animal": "Blauer Hai",
+      "prompt": "Welche Eigenschaft hilft dem Blauhai, sich in das Meer einzufügen?",
+      "options": [
+        "Sein blauer Rücken und sein heller Bauch",
+        "Ein weißer Rücken und ein blauer Bauch",
+        "Rote Streifen am ganzen Körper",
+        "Transparente Haut ohne Pigmente"
+      ],
+      "explanation": "Der dunkle Rücken verschmilzt mit dem tiefen Wasser, von oben gesehen, und der helle Bauch, von unten gesehen, mit der Oberfläche.",
+      "didYouKnow": "Der Blauhai legt auf hoher See weite Strecken zurück.",
+      "imageCaption": "Blauer Hai"
+    },
+    {
+      "id": "fish-083",
+      "animal": "Eisfisch",
+      "prompt": "Wie wird das Fehlen von Hämoglobin bei vielen antarktischen Eisfischen ausgeglichen?",
+      "options": [
+        "Sauerstoff bleibt in kaltem Plasma gelöst, mit hoher Zirkulationsrate",
+        "Transparentes Hämoglobin ersetzt gewöhnliches Hämoglobin",
+        "Die Kiemen wandeln Kohlendioxid in Sauerstoff um",
+        "Fische nutzen beim Tauchen die Lunge"
+      ],
+      "explanation": "Kälte erhöht die Löslichkeit von Sauerstoff im Plasma; Das große Blutvolumen und die hohe Herzleistung unterstützen den Transport.",
+      "didYouKnow": "Frostschutzproteine, die in vielen Arten vorkommen, verlangsamen das Wachstum von Kristallen in ihren Flüssigkeiten.",
+      "imageCaption": "Eisfisch"
+    },
+    {
+      "id": "fish-084",
+      "animal": "Fisch mit Schwimmblase",
+      "prompt": "Welche primäre Rolle spielt die Schwimmblase bei vielen Knochenfischen?",
+      "options": [
+        "Auftrieb anpassen",
+        "Erzeugen Sie einen Schock, um die Beute zu betäuben",
+        "Austausch der Kiemen während eines Tauchgangs",
+        "Erkennen Sie vom Wasser übertragene Gerüche"
+      ],
+      "explanation": "Das Gas in der Blase hilft dem Fisch, mit geringem Aufwand in einer bestimmten Tiefe zu bleiben.",
+      "didYouKnow": "Haie kompensieren ihren Auftrieb durch eine große, ölreiche Leber.",
+      "imageCaption": "Fisch mit Schwimmblase (Beispiel: Goldfisch)"
+    },
+    {
+      "id": "fish-085",
+      "animal": "Fisch mit Seitenlinie",
+      "prompt": "Was erkennt die Seitenlinie eines Fisches?",
+      "options": [
+        "Die Bewegungen und Vibrationen des Wassers",
+        "Variationen des Salzgehalts",
+        "Die Geräusche der Boote",
+        "Nur ultraviolettes Licht"
+      ],
+      "explanation": "Seine sensorischen Rezeptoren nehmen Druckschwankungen im Körper wahr.",
+      "didYouKnow": "Die Rezeptoren dieser Sinneslinie sind an den Seiten und am Kopf angeordnet.",
+      "imageCaption": "Fisch mit Seitenlinie (Beispiel: Zebrafisch)"
+    },
+    {
+      "id": "fish-086",
+      "animal": "Meeresfische",
+      "prompt": "Was nehmen die Kiemen eines Fisches aus dem Wasser auf?",
+      "options": [
+        "Gelöster Sauerstoff",
+        "Wassertemperatur",
+        "Gezeitenströmungen",
+        "Die Menge an gelöstem Salz"
+      ],
+      "explanation": "Die Kiemen übertragen gasförmigen, im Wasser gelösten Sauerstoff an das Blut.",
+      "didYouKnow": "Die Kiemen helfen auch dabei, Kohlendioxid auszuscheiden.",
+      "imageCaption": "Meeresfische (Beispiel: Augen-Clownfisch)"
+    },
+    {
+      "id": "fish-087",
+      "animal": "Knochenfisch",
+      "prompt": "Welche Struktur bedeckt typischerweise die Kiemen von Knochenfischen?",
+      "options": [
+        "Das Cover",
+        "Der Mund",
+        "Die Schwanzflosse",
+        "Die Schwimmblase"
+      ],
+      "explanation": "Dieser knöcherne Teil schützt die Kiemen und ist an der Belüftung beteiligt.",
+      "didYouKnow": "Der Deckel schützt die Kiemen und hilft bei der Wasserzirkulation bei Knochenfischen.",
+      "imageCaption": "Knochenfisch (Beispiel: Karpfen)"
+    },
+    {
+      "id": "fish-088",
+      "animal": "Knorpelfische",
+      "prompt": "Woraus bestehen die Skelette von Haien und Rochen hauptsächlich?",
+      "options": [
+        "Knorpel",
+        "Chitin",
+        "Reines Kalzium ohne Knorpel",
+        "Nur aus Muskelgewebe"
+      ],
+      "explanation": "Diese Fische haben ein überwiegend knorpeliges Skelett, obwohl einige Bereiche mineralisiert sind.",
+      "didYouKnow": "Hautzähnchen verleihen der Haifischhaut oft eine raue Textur.",
+      "imageCaption": "Knorpelfische (Beispiel: Weißer Hai)"
+    },
+    {
+      "id": "fish-089",
+      "animal": "Strahlenflosser",
+      "prompt": "Zu welcher Gruppe gehören die meisten aktuellen Fischarten?",
+      "options": [
+        "Rochenflosser",
+        "Lappenflosserfisch",
+        "Meeressäugetiere",
+        "Wirbellose Tiere mit Flossen"
+      ],
+      "explanation": "Actinopterygii sind die vielfältigste Fischgruppe.",
+      "didYouKnow": "Die Flossen der Aktinopterygier werden von feinen Strahlen getragen.",
+      "imageCaption": "Strahlenflosser (Beispiel: Zebrafisch)"
+    },
+    {
+      "id": "fish-090",
+      "animal": "Fleischflosser",
+      "prompt": "Zu welcher Gruppe gehören Quastenflosser und Lungenfische?",
+      "options": [
+        "Fleischflosser",
+        "Strahlenflosser",
+        "Rochen mit Knorpelskelett",
+        "Erwachsene Amphibien"
+      ],
+      "explanation": "Sarcopterygii haben gepaarte Flossen, die von Muskellappen getragen werden.",
+      "didYouKnow": "Tetrapoden stammen von Vorfahren ab, die zur Abstammungslinie der Fleischflossenfische gehören.",
+      "imageCaption": "Fleischflosser (Beispiel: Quastenflosser)"
+    },
+    {
+      "id": "fish-091",
+      "animal": "Süßwasserfische",
+      "prompt": "Warum muss ein Süßwasserfisch reichlich und verdünnten Urin ausscheiden?",
+      "options": [
+        "Wasser dringt durch Osmose ein, während Ionen dazu neigen, nach außen zu diffundieren",
+        "Salz gelangt durch Osmose in den Körper und Wasser verlässt den Körper kontinuierlich",
+        "Kiemen entfernen Wasser und halten gleichzeitig Harnstoff zurück",
+        "Der Fisch trinkt Meerwasser und muss überschüssiges Natrium ausscheiden"
+      ],
+      "explanation": "Süßwasser ist weniger konzentriert als Körperflüssigkeiten: Wasser dringt durch Osmose ein, während Fische Ionen sammeln und überschüssiges Wasser ausscheiden.",
+      "didYouKnow": "Bei vielen knöchernen Süßwasserfischen hilft die Schwimmblase auch dabei, den Auftrieb zu kontrollieren.",
+      "imageCaption": "Süßwasserfische (Beispiel: Karpfen)"
+    },
+    {
+      "id": "fish-092",
+      "animal": "Meeresfische",
+      "prompt": "Wie kompensieren viele knöcherne Meeresfische den Wasserverlust in einer salzigen Umgebung?",
+      "options": [
+        "Sie trinken Meerwasser und scheiden überschüssige Ionen über die Kiemen aus",
+        "Sie nehmen Wasser über die Haut auf und halten alle Salze zurück",
+        "Sie trinken wenig und scheiden sehr verdünnten Urin aus",
+        "Sie scheiden Salze nur über die Flossen aus"
+      ],
+      "explanation": "Das Trinken von Meerwasser gleicht Verluste aus; Kiemenzellen scheiden hauptsächlich überschüssige Ionen aus.",
+      "didYouKnow": "Meereshaie kompensieren Salz mit einer anderen osmotischen Strategie als Knochenfische.",
+      "imageCaption": "Meeresfische (Beispiel: Augen-Clownfisch)"
+    },
+    {
+      "id": "fish-093",
+      "animal": "Küstenfische",
+      "prompt": "Welchen Nutzen hat ein Seegras für viele Fischarten?",
+      "options": [
+        "Schutz-, Beute- und Wachstumsgebiete",
+        "Ein Unterschlupf nur für ausgewachsene Fische",
+        "Ein Laichplatz, der den Haien vorbehalten ist",
+        "Ein Gebiet ohne Beute"
+      ],
+      "explanation": "Die Blätter bremsen das Wasser und beherbergen kleine Wirbellose, die die Fische füttern.",
+      "didYouKnow": "Auch Seegraswiesen speichern Kohlenstoff in ihren Sedimenten.",
+      "imageCaption": "Küstenfische (Beispiel: Schwarzgrundel)"
+    },
+    {
+      "id": "fish-094",
+      "animal": "Wanderfische",
+      "prompt": "Welches menschliche Hindernis kann die Fischwanderung in Flüssen unterbrechen?",
+      "options": [
+        "Ein Damm ohne wirksamen Durchgang",
+        "Eine Fischaufstiegshilfe",
+        "Ein künstliches Riff",
+        "Ein Laichgebiet im Meer"
+      ],
+      "explanation": "Dämme versperren manchmal den Zugang zu Laichgebieten oder Nahrungshabitaten.",
+      "didYouKnow": "Fischwanderhilfen können einen Teil der Durchgängigkeit von Flüssen wiederherstellen.",
+      "imageCaption": "Wanderfische (Beispiel: Atlantischer Lachs)"
+    },
+    {
+      "id": "fish-095",
+      "animal": "Anadromer Fisch",
+      "prompt": "Was bedeutet es, wenn ein Fisch anadrom ist?",
+      "options": [
+        "Es wächst hauptsächlich im Meer und vermehrt sich im Süßwasser.",
+        "Es wächst in Flüssen und laicht im Meer",
+        "Er verlässt nie frisches Wasser",
+        "Es lebt im Meer und laicht an Stränden"
+      ],
+      "explanation": "Lachse sind Beispiele für Arten, die zum Laichen vom Meer in Flüsse wandern.",
+      "didYouKnow": "Lachs ist ein bekanntes Beispiel für einen anadromen Fisch.",
+      "imageCaption": "Anadromer Fisch (Beispiel: Atlantischer Lachs)"
+    },
+    {
+      "id": "fish-096",
+      "animal": "Katadromer Fisch",
+      "prompt": "In welche Richtung verläuft die Fortpflanzungswanderung eines katadromen Aals?",
+      "options": [
+        "Es wächst im Süßwasser und wandert dann zur Fortpflanzung ins Meer",
+        "Es wächst im Meer und wandert dann zum Laichen die Flüsse hinauf",
+        "Sie bleibt ihr ganzes Leben in einer Flussmündung",
+        "Es wird im Meer geboren und vermehrt sich in Seen."
+      ],
+      "explanation": "Süßwasseraale kehren nach ihrem kontinentalen Wachstum zum Laichen ins Meer zurück.",
+      "didYouKnow": "Europäische Aale wachsen im Süßwasser und vermehren sich dann im Meer.",
+      "imageCaption": "Katadrome Fische (Beispiel: Europäischer Aal)"
+    },
+    {
+      "id": "fish-097",
+      "animal": "Grundfisch",
+      "prompt": "Wo lebt ein Grundfisch hauptsächlich?",
+      "options": [
+        "In der Nähe des Meeresbodens",
+        "Im Baumdach",
+        "Nur im offenen Wasser nahe der Oberfläche",
+        "In am Ufer gegrabenen Höhlen"
+      ],
+      "explanation": "Grundfischarten leben über oder in Bodenkontakt und können frei schwimmen.",
+      "didYouKnow": "Grundfische können auf felsigen, sandigen oder schlammigen Böden leben.",
+      "imageCaption": "Grundfisch (Beispiel: Seezunge)"
+    },
+    {
+      "id": "fish-098",
+      "animal": "Filtrierender Fisch",
+      "prompt": "Welche Kiemenstrukturen halten bei vielen filterfressenden Fischen Nahrungspartikel zurück?",
+      "options": [
+        "Die Kiemenräumer der Kiemenbögen",
+        "Elektrorezeptoren der Brustflosse",
+        "Die Rachenzähne des Rachens",
+        "Fühlbare Barteln um den Mund"
+      ],
+      "explanation": "Die Kiemenrechen bilden eine Filterfläche, die kleine Beute zurückhält, während Wasser durch die Kiemen zirkuliert.",
+      "didYouKnow": "Der Walhai und der Riesenhai sind große Filterfische.",
+      "imageCaption": "Filtrierender Fisch (Beispiel: Walhai)"
+    },
+    {
+      "id": "fish-099",
+      "animal": "Plattfisch",
+      "prompt": "Durch welchen Prozess werden bei der Metamorphose eines Steinbutts die beiden Augen auf die Oberseite gebracht?",
+      "options": [
+        "Bei der Metamorphose wandert ein Auge durch den Kopf",
+        "Beide Augen wandern gemeinsam nach dorsal",
+        "Ein Auge geht verloren und wird auf der anderen Seite regeneriert",
+        "Der Schädel dreht sich, ohne die Augen zu bewegen"
+      ],
+      "explanation": "Bei Plattfischen führt die Metamorphose zu einer Migration des Auges und einer asymmetrischen Neuordnung des Kopfes.",
+      "didYouKnow": "Die nach unten gerichtete Seite des Steinbutts ist oft heller als seine Oberseite.",
+      "imageCaption": "Plattfisch (Beispiel: Scholle)"
+    },
+    {
+      "id": "fish-100",
+      "animal": "Gemeine Seezunge",
+      "prompt": "Wie findet die Seezunge im Sediment vergrabene Beute?",
+      "options": [
+        "Sie nutzt ihre chemischen Sinne und ihre Nasenlöcher dicht am Boden",
+        "Es lokalisiert Beute mit dem Gehör aus der Luft",
+        "Es saugt das Plankton an die Oberfläche",
+        "Es erkennt elektrische Felder von Glühbirnen"
+      ],
+      "explanation": "Die Seezunge sucht auf oder im Untergrund nach Würmern und kleinen Wirbellosen.",
+      "didYouKnow": "Die Sohle liegt auf einer Seite, beide Augen zeigen nach oben.",
+      "imageCaption": "Gemeine Seezunge"
+    },
+    {
+      "id": "fish-101",
+      "animal": "Einhornfisch",
+      "prompt": "Was ist der vordere Vorsprung des Einhornfisches?",
+      "options": [
+        "Zu einer knöchernen Erweiterung des Schädels",
+        "Eine in einen Köder verwandelte Rückenflosse",
+        "Ein geiler Fleck am Schwanz",
+        "Ein leuchtendes Organ unter dem Kinn"
+      ],
+      "explanation": "Das „Horn“ ist ein knöcherner Vorsprung, dessen Größe je nach Art und Alter variiert.",
+      "didYouKnow": "Einhornfische gehören zur Familie der Doktorfische.",
+      "imageCaption": "Einhornfisch"
+    },
+    {
+      "id": "fish-102",
+      "animal": "Exocet",
+      "prompt": "Welche Flosse ist bei vielen fliegenden Fischen besonders ausgeprägt?",
+      "options": [
+        "Die Brustflosse",
+        "Der Schwanz",
+        "Das Rückgrat",
+        "Die Barteln"
+      ],
+      "explanation": "Die vergrößerten Brustmuskeln bilden beim Gleiten Stützflächen.",
+      "didYouKnow": "Exozeten können über Wasser schweben, ohne mit den Flügeln zu schlagen.",
+      "imageCaption": "Exocet"
+    },
+    {
+      "id": "fish-103",
+      "animal": "Rasiermesserfisch",
+      "prompt": "Wie tarnen sich Schwertfische im Seegras?",
+      "options": [
+        "Es schwimmt oft vertikal mit gesenktem Kopf",
+        "Er schwimmt horizontal und imitiert einen Plattfisch",
+        "Er vergräbt sich im Sand",
+        "Es bildet eine Klebescheibe"
+      ],
+      "explanation": "Seine dünne Silhouette ähnelt den Blättern des Seegrases, zwischen denen er steht.",
+      "didYouKnow": "Schwertfische leben oft in Gruppen und fressen kleine Planktonorganismen.",
+      "imageCaption": "Rasiermesserfisch"
+    },
+    {
+      "id": "fish-104",
+      "animal": "Buckelpapageienfisch",
+      "prompt": "Welches Material produzieren Buckelpapageienfische beim Grasen am Riff?",
+      "options": [
+        "Feiner Korallensand",
+        "Gefiltertes Plankton",
+        "Ganze Muscheln",
+        "Schützender Schleim"
+      ],
+      "explanation": "Es nimmt Kalkmaterial auf und zerkleinert es, das es in Form von Sedimenten abstößt.",
+      "didYouKnow": "Der Buckelpapageienfisch ist einer der größten Papageienfische.",
+      "imageCaption": "Buckelpapageienfisch"
+    },
+    {
+      "id": "fish-105",
+      "animal": "Kaiserfisch",
+      "prompt": "Wie verändert sich das Fell des Kaiserfisches mit dem Alter?",
+      "options": [
+        "Bei jungen Tieren wird das Kreismuster bei erwachsenen Tieren gestreift",
+        "Das kreisförmige Muster der Erwachsenen wird bei den Jungen gestreift",
+        "Beide Stadien haben das gleiche Kleid",
+        "Die Jungen sind gefleckt, dann wird der Erwachsene ganz schwarz"
+      ],
+      "explanation": "Die Lackierung der Jungtiere unterscheidet sich stark von der der Erwachsenen.",
+      "didYouKnow": "Die beiden Lackierungen wurden einst für zwei verschiedene Arten übernommen.",
+      "imageCaption": "Kaiserfisch"
+    },
+    {
+      "id": "fish-106",
+      "animal": "Blauer Doktorfisch",
+      "prompt": "Welchen Zweck hat die Wirbelsäule in der Nähe des Schwanzes des Doktorfisches?",
+      "options": [
+        "Um sich zu verteidigen",
+        "Weibchen mit Pheromonen anlocken",
+        "Um Plankton zu filtern",
+        "An Algen festhalten"
+      ],
+      "explanation": "Dieser scharfe Dorn kann gegen einen Gegner erhoben werden.",
+      "didYouKnow": "Doktorfische ernähren sich häufig von Algen an Riffen.",
+      "imageCaption": "Blauer Doktorfisch"
+    },
+    {
+      "id": "fish-107",
+      "animal": "Riffbarsch",
+      "prompt": "Wie pflegen manche Damen ihr Essen?",
+      "options": [
+        "Sie kultivieren und verteidigen Algenbestände",
+        "Sie verteidigen einen Garnelenbau",
+        "Sie filtern Larven ins Wasser",
+        "Sie behalten die Eier im Mund"
+      ],
+      "explanation": "Sie verjagen konkurrierende Pflanzenfresser aus ihren Algengärten.",
+      "didYouKnow": "Damselfly-Algengärten können die Riffgemeinschaft verändern.",
+      "imageCaption": "Riffbarsch"
+    },
+    {
+      "id": "fish-108",
+      "animal": "Putzer-Lippfisch",
+      "prompt": "Welcher Kontrast beschreibt die Ernährung eines Putzer-Lippfischs an einer Putzerstation richtig?",
+      "options": [
+        "Es werden hauptsächlich Ektoparasiten und manchmal Schleim entnommen, kein nekrotisches Gewebe",
+        "Es frisst hauptsächlich abgestorbene Schuppen und nekrotisches Gewebe",
+        "Es frisst Kiemenalgen und frisst selten Parasiten",
+        "Er ernährt sich hauptsächlich von den Eiern, die auf der Haut des Klientenfisches abgelegt werden"
+      ],
+      "explanation": "Putzer-Lippfische nehmen hauptsächlich äußere Parasiten auf und fressen auch Hautschleim; Dies ist keine Diät mit totem Gewebe.",
+      "didYouKnow": "Kundenfische besuchen regelmäßig Reinigungsstationen am Riff.",
+      "imageCaption": "Putzer-Lippfisch"
+    },
+    {
+      "id": "fish-109",
+      "animal": "Antarktischer Eisfisch",
+      "prompt": "Wie transportieren bestimmte Eisfischarten Sauerstoff, obwohl kein Hämoglobin vorhanden ist?",
+      "options": [
+        "Sauerstoff bleibt im kalten Plasma gelöst und zirkuliert mit hohen Strömungsgeschwindigkeiten",
+        "Rote Blutkörperchen enthalten transparentes Hämoglobin",
+        "Die Kiemen wandeln gelösten Stickstoff in Sauerstoff um",
+        "Die Schwimmblase gibt Sauerstoff direkt an die Muskulatur ab"
+      ],
+      "explanation": "Ohne Hämoglobin wird Sauerstoff im Plasma gelöst transportiert; Kaltwasser und Kreislaufanpassungen kompensieren diese Einschränkung teilweise.",
+      "didYouKnow": "Die Herzen und Gefäße von Eisfischen können größer sein als bei verwandten Fischen.",
+      "imageCaption": "Antarktischer Eisfisch"
+    },
+    {
+      "id": "fish-110",
+      "animal": "Laufwels",
+      "prompt": "Wie ermöglichen die suprabranchialen Organe von Clarias die Luftatmung?",
+      "options": [
+        "Vaskularisierte suprabranchiale Oberflächen bringen eingeatmete Luft mit Blut in Kontakt",
+        "Suprabranchiale Kammern speichern Luft ohne Austausch mit Blut",
+        "Eine geschlossene Schwimmblase verteilt die Luft in Richtung der Kiemen",
+        "Spiralen ziehen Luft zu den Kiemenbögen"
+      ],
+      "explanation": "Die suprabranchialen Organe sind vaskularisierte akzessorische Atmungsstrukturen, in denen Sauerstoff aus der Luft in das Blut diffundieren kann.",
+      "didYouKnow": "Auf feuchtem Untergrund kann er sich kurzzeitig zwischen benachbarten Gewässern fortbewegen.",
+      "imageCaption": "Laufwels"
+    },
+    {
+      "id": "fish-111",
+      "animal": "Gestreifter Schlangenkopffisch",
+      "prompt": "Wie schützen Erwachsene des Streifenschlangenkopfes ihre Nachkommen?",
+      "options": [
+        "Sie halten Eier und braten sie in einem geschützten Bereich",
+        "Das Männchen bebrütet die Eier in einem Beutel",
+        "Sie befestigen den Laich an ihren Flossen",
+        "Sie legen die Eier in einem Blasennest zurück"
+      ],
+      "explanation": "Bei Channa striata verteidigen Erwachsene die Eier und Jungfische gegen Raubtiere.",
+      "didYouKnow": "Gestreifte Schlangenkopfschlangen jagen oft im flachen Süßwasser.",
+      "imageCaption": "Gestreifter Schlangenkopffisch"
+    },
+    {
+      "id": "fish-112",
+      "animal": "Mekong-Wels",
+      "prompt": "Welche Bedrohung betrifft den Mekong-Riesenwels?",
+      "options": [
+        "Der Fischfang und die Dämme, die seine Wanderungen stören",
+        "Lichtverschmutzung und Tourismus",
+        "Seine Schuppen verlieren",
+        "Luftversauerung"
+      ],
+      "explanation": "Diese wandernde Art ist sowohl von der Entnahme als auch von der Fragmentierung des Flusses betroffen.",
+      "didYouKnow": "Er ist einer der größten bekannten Süßwasserfische.",
+      "imageCaption": "Mekong-Wels"
+    },
+    {
+      "id": "fish-113",
+      "animal": "Plattkopfwels",
+      "prompt": "In welchem Gebiet jagen Plattkopfwelse hauptsächlich?",
+      "options": [
+        "Ganz unten",
+        "Im Baumdach",
+        "Im offenen Wasser an der Oberfläche",
+        "Auf schwimmenden Blättern"
+      ],
+      "explanation": "Es handelt sich um ein benthisches Raubtier, das auf dem Untergrund nach Fischen und Wirbellosen sucht.",
+      "didYouKnow": "Sein breiter, abgeflachter Kopf gibt ihm seinen gebräuchlichen Namen.",
+      "imageCaption": "Plattkopfwels"
+    },
+    {
+      "id": "fish-114",
+      "animal": "Siamesischer Kampffisch",
+      "prompt": "Was macht das kämpfende Männchen, wenn ein Ei aus dem Blasennest fällt?",
+      "options": [
+        "Er nimmt es mit dem Mund auf und legt es zurück ins Nest.",
+        "Er vergräbt es unten im Sand",
+        "Es trägt es auf seinen Brustflossen",
+        "Er verlässt das Nest, um eine neue Tasche zu bauen"
+      ],
+      "explanation": "Der männliche Betta splendens sammelt oft fallengelassene Eier ein und gibt sie in das Blasennest zurück.",
+      "didYouKnow": "Der Kämpfer verfügt über ein labyrinthartiges Organ, das es ihm ermöglicht, an der Oberfläche Luft zu atmen.",
+      "imageCaption": "Siamesischer Kampffisch"
+    },
+    {
+      "id": "fish-115",
+      "animal": "Kugelfisch",
+      "prompt": "Warum ist der Verzehr einiger Kugelfischarten gefährlich?",
+      "options": [
+        "Einige Stoffe können Tetrodotoxin enthalten",
+        "Ein Gift, das von seinen Stacheln injiziert wird",
+        "Ein leuchtender Schleim",
+        "Ein elektrischer Schlag"
+      ],
+      "explanation": "Dieses Neurotoxin kann schwere Lähmungen verursachen und sein Vorhandensein hängt von der Art und dem Gewebe ab.",
+      "didYouKnow": "Bei mehreren Arten wird das Toxin mit Bakterien oder Nahrungsmitteln in Verbindung gebracht.",
+      "imageCaption": "Kugelfisch"
+    },
+    {
+      "id": "fish-116",
+      "animal": "Falterfisch",
+      "prompt": "Warum könnte ein augenförmiger Fleck in der Nähe des Schwanzes nützlich sein?",
+      "options": [
+        "Sie kann einen Angriff von ihrem Kopf abwehren",
+        "Es wird zum Atmen verwendet",
+        "Es lockt einen Partner durch Biolumineszenz an",
+        "Es wird zum Tragen von Eiern verwendet"
+      ],
+      "explanation": "Dieser Augenfleck macht die Orientierung des Fisches für ein Raubtier weniger offensichtlich.",
+      "didYouKnow": "Auch ein dunkler Streifen in der Nähe des wahren Auges kann dieses verdecken.",
+      "imageCaption": "Falterfisch"
+    },
+    {
+      "id": "fish-117",
+      "animal": "Koboldhai",
+      "prompt": "Wie ergreift der Koboldhai Beute in Reichweite seines Mauls?",
+      "options": [
+        "Es streckt seine Kiefer schnell nach vorne",
+        "Es löst seine Zähne, um sie auf die Beute zu werfen",
+        "Es öffnet seine Atemlöcher und saugt die Beute von unten ein",
+        "Es erzeugt mit seiner Lorenzini-Ampulle eine elektrische Entladung"
+      ],
+      "explanation": "Seine hervorstehenden Kiefer bewegen sich schnell vorwärts, um Beute zu greifen, eine bemerkenswerte Anpassung dieses Tiefseehais.",
+      "didYouKnow": "Ihre rosa Haut ist auf Gefäße zurückzuführen, die unter schlecht pigmentierter Haut sichtbar sind.",
+      "imageCaption": "Koboldhai"
+    },
+    {
+      "id": "fish-118",
+      "animal": "Riesenmaulhai",
+      "prompt": "Wie ernährt sich der Riesenmaulhai?",
+      "options": [
+        "Es filtert Plankton und kleine Organismen",
+        "Mit seinen großen Zähnen jagt er Beute",
+        "Es frisst Algen am Boden",
+        "Seine Eier trägt er auf dem Rücken"
+      ],
+      "explanation": "Es leitet Wasser über seine Filterstrukturen und hält winzige Beutetiere zurück.",
+      "didYouKnow": "Diese Art wurde erst im 20. Jahrhundert beschrieben.",
+      "imageCaption": "Riesenmaulhai"
+    },
+    {
+      "id": "fish-119",
+      "animal": "Epaulettenhai",
+      "prompt": "Wie schützen weibliche Epaulettenhaie ihre Embryonen?",
+      "options": [
+        "Es legt Eikapseln in Ritzen des Riffs ab",
+        "Sie trägt die Eier in einem Bauchbeutel",
+        "Sie bebrütet die Embryonen in ihrem Mund",
+        "Sie befestigt sie an ihren Brustflossen"
+      ],
+      "explanation": "Der Schulterklappenhai ist eierlegend; Seine Eikapseln werden in Refugien am Riff abgelegt.",
+      "didYouKnow": "Der Epaulettenhai kann sich auf dem Riff fortbewegen, indem er sich auf seine Flossen stützt.",
+      "imageCaption": "Epaulettenhai"
+    },
+    {
+      "id": "fish-120",
+      "animal": "Viperfisch",
+      "prompt": "Wozu dienen die langen Zähne des Viperfisches?",
+      "options": [
+        "Um gefangene Beute zurückzuhalten",
+        "Mit einem Köder Beute anlocken",
+        "Sich mit einer Entlassung verteidigen",
+        "Höhlen graben"
+      ],
+      "explanation": "Seine gebogenen Zähne verhindern, dass gefangener Fisch aus seinem Maul herauskommt.",
+      "didYouKnow": "Der Viperfisch lebt in tiefen Gewässern, wo es kaum Licht gibt.",
+      "imageCaption": "Viperfisch"
+    },
+    {
+      "id": "fish-121",
+      "animal": "Laternenfisch",
+      "prompt": "Warum schwimmen viele Laternenfische nachts an die Oberfläche?",
+      "options": [
+        "Sie folgen der vertikalen Wanderung des Zooplanktons",
+        "Sie folgen Sardinen bis zum Grund",
+        "Sie meiden Raubtiere, indem sie an die Oberfläche wandern",
+        "Sie legen ihre Eier im Plankton ab"
+      ],
+      "explanation": "Das Zooplankton kommt nachts zum Fressen herauf, und die Fische folgen ihnen.",
+      "didYouKnow": "Tägliche vertikale Wanderungen bewegen immense Meeresbiomasse.",
+      "imageCaption": "Arktischer Laternenfisch"
+    },
+    {
+      "id": "fish-122",
+      "animal": "Schlammspringer",
+      "prompt": "Wie hält der Periophthalmus seine Kiemen funktionsfähig, wenn er sich außerhalb des Wassers aufhält?",
+      "options": [
+        "Es hält Wasser in seinen Kiemenkammern und hält die Atemwege feucht",
+        "Es schließt die Kiemen und atmet nur durch trockene Schuppen",
+        "Es ersetzt das Kiemenwasser in der Lungenblase durch Luft",
+        "Es hält die Kiemen trocken und absorbiert Sauerstoff aus dem Schlamm"
+      ],
+      "explanation": "Der Periophthalmus speichert Wasser in seinen Kiemenkammern und hält seine Atemflächen feucht.",
+      "didYouKnow": "Seine hervorstehenden Augen können sich unabhängig bewegen und Luft und Wasser überwachen.",
+      "imageCaption": "Schlammspringer (Beispiel: silberner Schlammspringer)"
+    },
+    {
+      "id": "fish-123",
+      "animal": "Elektrischer Wels",
+      "prompt": "Wie erzeugen die elektrischen Organe des Zitterwelses eine Entladung?",
+      "options": [
+        "Durch die koordinierte Aktivierung von Elektrozyten entsteht eine Potentialdifferenz",
+        "Durch die Reibung der Waage entsteht eine statische Aufladung",
+        "Leuchtbakterien setzen im Wasser Strom frei",
+        "Die Schwimmblase verstärkt die Signale der Seitenlinie"
+      ],
+      "explanation": "Elektrozyten werden koordiniert aktiviert; Ihre Stapelung ermöglicht die Erzeugung einer elektrischen Entladung.",
+      "didYouKnow": "Seine sensorischen Barteln helfen ihm, Nahrung in trüben Gewässern zu finden.",
+      "imageCaption": "Elektrischer Wels"
+    },
+    {
+      "id": "fish-124",
+      "animal": "Bluegill",
+      "prompt": "Welches charakteristische Zeichen findet sich auf dem Deckel des Blaukiemens?",
+      "options": [
+        "Ein dunkler, lappenförmiger Fleck hinter dem Auge",
+        "Ein langer Bart unter dem Kinn",
+        "Ein durchgehender roter Streifen am Schwanz",
+        "An der Außenseite des Mundes ist eine Zahnreihe sichtbar"
+      ],
+      "explanation": "Der Blaukiemenvogel hat einen charakteristischen dunklen Fleck am hinteren Rand seiner Hülle.",
+      "didYouKnow": "Zuchtmännchen können intensivere Farben aufweisen.",
+      "imageCaption": "Bluegill"
+    },
+    {
+      "id": "fish-125",
+      "animal": "Schützenfisch",
+      "prompt": "Welches optische Phänomen muss der Schützenfisch kompensieren, wenn er auf Beute aus der Luft zielt?",
+      "options": [
+        "Lichtbrechung an der Oberfläche",
+        "Schallbeugung",
+        "Nachdenken über die Waage",
+        "Die Verteilung von Salz"
+      ],
+      "explanation": "Die Änderung der Lichtrichtung an der Wasser-Luft-Grenzfläche verschiebt das scheinbare Bild des Ziels.",
+      "didYouKnow": "Der Schützenfisch kann seinen Schuss mit Erfahrung anpassen und auf sich bewegende Ziele zielen.",
+      "imageCaption": "Schützenfisch"
+    },
+    {
+      "id": "fish-126",
+      "animal": "Schützenfisch",
+      "prompt": "Wie lernt der Schützenfisch, seine Genauigkeit zu verbessern?",
+      "options": [
+        "Indem Sie Ihren Schuss anpassen, nachdem Sie die Ergebnisse beobachtet haben",
+        "Indem man die Aufnahme im gleichen Winkel wiederholt, ohne hinzusehen",
+        "Durch Schwimmen zum Ziel",
+        "Indem man das Insekt mit seinem Schwanz schlägt"
+      ],
+      "explanation": "Es kann seinen Winkel entsprechend der scheinbaren und tatsächlichen Position des Ziels korrigieren.",
+      "didYouKnow": "Der Schützenfisch nutzt sein Maul als Rohr, um den Strahl zu lenken.",
+      "imageCaption": "Schützenfisch"
+    },
+    {
+      "id": "fish-127",
+      "animal": "Mondfisch",
+      "prompt": "Warum tauchen Mondfische manchmal tief und kehren dann nahe der Oberfläche zurück?",
+      "options": [
+        "Tief nach unten füttern und dann an der Oberfläche aufwärmen",
+        "In einem flachen Riff laichen",
+        "Um atmosphärische Luft zu atmen",
+        "Sich in den Mangroven verstecken"
+      ],
+      "explanation": "Es kann sich von Beute aus der Tiefe ernähren und dann Sonnenwärme absorbieren.",
+      "didYouKnow": "Der Mondfisch ist der schwerste bekannte Knochenfisch.",
+      "imageCaption": "Mondfisch"
+    },
+    {
+      "id": "fish-128",
+      "animal": "Kofferfisch",
+      "prompt": "Warum kann der Kofferfisch manövrieren, ohne seinen Rumpf stark zu beugen?",
+      "options": [
+        "Seine Flossen sorgen um eine starre Hülle herum für den größten Teil des Vortriebs.",
+        "Es treibt seinen Körper an, indem es einen sehr flexiblen Schwanz bewegt.",
+        "Es nutzt Wasserstrahlen, die aus seinen Kiemen ausgestoßen werden",
+        "Es kriecht mit Flossen, die in bewegliche Beine umgewandelt sind"
+      ],
+      "explanation": "Die starre Schale begrenzt die Körperflexion; Die Brust-, Rücken- und Afterflossen sorgen für Vortrieb und Manövrierfähigkeit.",
+      "didYouKnow": "Geschweißte Knochenplatten schützen den Rumpf des Kofferfisches.",
+      "imageCaption": "Gelber Kofferfisch"
+    },
+    {
+      "id": "fish-129",
+      "animal": "Gelbbrauner Ammenhai",
+      "prompt": "Wie atmet der Ammenhai, wenn er in einer Höhle ruht?",
+      "options": [
+        "Es pumpt aktiv Wasser über seine Kiemen",
+        "Es bewegt sich kontinuierlich mit hoher Geschwindigkeit",
+        "Er atmet durch die Lunge",
+        "Es nimmt Sauerstoff über die Haut auf"
+      ],
+      "explanation": "Durch die Mundbeatmung kann es ruhig bleiben, ohne sich ausschließlich auf das Vorwärtsschwimmen verlassen zu müssen.",
+      "didYouKnow": "Der Ammenhai jagt hauptsächlich nachts in Bodennähe.",
+      "imageCaption": "Gelbbrauner Ammenhai"
+    },
+    {
+      "id": "fish-130",
+      "animal": "Mako-Hai",
+      "prompt": "Welche Anpassung macht den Makohai besonders schnell?",
+      "options": [
+        "Ein stromlinienförmiger Körper gepaart mit kraftvoller Muskulatur",
+        "Vergrößerte Brustflossen",
+        "Eine riesige Schwimmblase",
+        "Sensorische Widerhaken"
+      ],
+      "explanation": "Seine hydrodynamische Form und sein kraftvolles Heck fördern eine schnelle Beschleunigung.",
+      "didYouKnow": "Der Makohai kann bei der Jagd auf Beute aus dem Wasser springen.",
+      "imageCaption": "Mako-Hai"
+    },
+    {
+      "id": "fish-131",
+      "animal": "Sägehai",
+      "prompt": "Welcher Charakter des Podiums ermöglicht es Ihnen, einen Sägehai von einem Sägefisch zu unterscheiden?",
+      "options": [
+        "Die sensorischen Widerhaken des Sägehais",
+        "Elektrorezeptoren von Sägefischen",
+        "Die Rückenkiemenschlitze des Sägehais",
+        "Die verwachsenen Brustflossen des Sägefisches"
+      ],
+      "explanation": "Sägehaie haben im Gegensatz zu Sägefischen Barteln unter ihrem Rostrum.",
+      "didYouKnow": "Der Sägehai ist ein Knorpelfisch mit einem gezahnten Rostrum.",
+      "imageCaption": "Sägehai"
+    },
+    {
+      "id": "fish-132",
+      "animal": "Papageienfisch",
+      "prompt": "Welchen Nutzen bringt der nächtliche Schleimkokon bestimmten Papageienfischen?",
+      "options": [
+        "Es kann Geruchssignale dämpfen und bestimmte Parasiten stören",
+        "Es reduziert insbesondere den Wasserverlust, wenn sich die Fische außerhalb des Riffs befinden",
+        "Es schützt die Flossen vor Reibung an der Koralle",
+        "Es umhüllt die Eier während ihrer Brutzeit"
+      ],
+      "explanation": "Der Schleim bildet eine Hülle um den ruhenden Fisch; es könnte Geruchssignale reduzieren und bestimmte Parasiten stören.",
+      "didYouKnow": "Der Buckelpapageienfisch kann Korallenkarbonat zu Sand zermahlen.",
+      "imageCaption": "Papageienfisch"
+    },
+    {
+      "id": "fish-133",
+      "animal": "Mondfisch",
+      "prompt": "Wie sehen junge Mondfische oft aus, bevor sie sich in ihre erwachsene Form verwandeln?",
+      "options": [
+        "Zu einem kleinen Kugelfisch mit vielen Stacheln",
+        "Zu einem langen, flossenlosen Aal",
+        "Zu einem abgeflachten Strahl mit einem Stachel",
+        "Zu einem stromlinienförmigen Fisch mit langem Podium"
+      ],
+      "explanation": "Junge Mondfische sind klein und stachelig; Ihre Silhouette verändert sich mit dem Wachstum stark.",
+      "didYouKnow": "Der ausgewachsene Mondfisch hat einen verkürzten Schwanz, der Clavus genannt wird.",
+      "imageCaption": "Mondfisch"
+    },
+    {
+      "id": "fish-134",
+      "animal": "Papageienfisch",
+      "prompt": "Welche Rolle spielen Papageienfische in Korallenriffen?",
+      "options": [
+        "Sie fressen Algen, die mit Korallen konkurrieren könnten",
+        "Sie filtern Zooplankton",
+        "Sie fressen ausschließlich Quallen",
+        "Sie jagen große Säugetiere"
+      ],
+      "explanation": "Durch die Beweidung wird die Algenbedeckung begrenzt und Platz für Korallen geschaffen.",
+      "didYouKnow": "Der Schnabel des Papageienfisches zermahlt Korallenmaterial zu Sand.",
+      "imageCaption": "Papageienfisch"
+    },
+    {
+      "id": "fish-135",
+      "animal": "Falterfisch",
+      "prompt": "Warum kann die Anwesenheit bestimmter Falterfische Aufschluss über den Zustand eines Riffs geben?",
+      "options": [
+        "Mehrere Arten sind auf lebende Korallen als Nahrungsquelle angewiesen",
+        "Alle Arten leben nur in Gewässern ohne Korallen",
+        "Ihre Farbe ändert sich direkt mit dem Säuregehalt des Wassers",
+        "Sie produzieren Substanzen, die das Korallenwachstum messen"
+      ],
+      "explanation": "Die Häufigkeit bestimmter Arten folgt der ihrer Beutekorallen, die einen ökologischen Index liefern können, ohne eine direkte Messung zu ersetzen.",
+      "didYouKnow": "Die dünne Schnauze von Falterfischen ermöglicht es ihnen, in Spalten zu picken.",
+      "imageCaption": "Falterfisch"
+    },
+    {
+      "id": "fish-136",
+      "animal": "Weißer Hai",
+      "prompt": "Wie kann der Weiße Hai seine Muskeln relativ warm halten?",
+      "options": [
+        "Durch Gegenstrom-Wärmeaustausch",
+        "Nur mit einer äußeren Fettschicht",
+        "Indem Sie die Luft in Ihrer Lunge halten",
+        "Dank beheizter Schwimmblase"
+      ],
+      "explanation": "Gefäßnetze gewinnen einen Teil der von den Muskeln erzeugten Wärme zurück.",
+      "didYouKnow": "Der Weiße Hai gewinnt einen Teil seiner Muskelwärme über Gefäßnetze zurück.",
+      "imageCaption": "Weißer Hai"
+    },
+    {
+      "id": "fish-137",
+      "animal": "Walhai",
+      "prompt": "Wie bringen Walhaie ihre Jungen zur Welt?",
+      "options": [
+        "Embryonen entwickeln sich in der Mutter und die Jungen werden lebend geboren",
+        "Die Eltern legen ihre Eikapseln am Riff ab",
+        "Das Männchen bebrütet die Eier in seinem Maul",
+        "Larven schlüpfen direkt aus Plankton"
+      ],
+      "explanation": "Der Walhai ist aplazentar lebendgebärend: Die Embryonen entwickeln sich bei der Mutter, bevor lebende Junge zur Welt kommen.",
+      "didYouKnow": "Der Walhai ist der größte bekannte lebende Fisch.",
+      "imageCaption": "Walhai"
+    },
+    {
+      "id": "fish-138",
+      "animal": "Fuchshai",
+      "prompt": "Welches Fortpflanzungsphänomen namens Oophagie wurde bei Fuchshaien beobachtet?",
+      "options": [
+        "Embryonen fressen unbefruchtete Eier in der Gebärmutter",
+        "Embryonen nehmen nur das Eigelb ihrer eigenen Eizelle auf",
+        "Die Weibchen legen Kapseln ab, die die Embryonen verlassen, bevor sie schlüpfen",
+        "Embryonen erhalten ihre Nährstoffe über die mütterliche Plazenta"
+      ],
+      "explanation": "Bei Fuchshaien können Embryonen während der intrauterinen Entwicklung unbefruchtete Eier fressen.",
+      "didYouKnow": "Der lange obere Schwanzlappen des Fuchshais kann Schwarmfische treffen und betäuben.",
+      "imageCaption": "Fuchshai"
+    },
+    {
+      "id": "fish-139",
+      "animal": "Torpedorochen",
+      "prompt": "Wie bringen Torpedorochen ihre Jungen zur Welt?",
+      "options": [
+        "Embryonen entwickeln sich in der Mutter, die lebende Junge zur Welt bringt",
+        "Sie legen Eikapseln auf Algen ab",
+        "Das Männchen bebrütet die Eier in seinem Maul",
+        "Bis zum Schlüpfen treiben die Eier frei an der Oberfläche"
+      ],
+      "explanation": "Torpedos sind aplazentar lebendgebärend: Die Embryonen entwickeln sich in der Gebärmutter und die Weibchen bringen lebende Junge zur Welt.",
+      "didYouKnow": "Junge Torpedorochen können schwache elektrische Entladungen erzeugen.",
+      "imageCaption": "Torpedorochen"
+    },
+    {
+      "id": "fish-140",
+      "animal": "Stachelrochen",
+      "prompt": "Durch welche Öffnung kann bei einem vergrabenen Stachelrochen Wasser eindringen, bevor es über die Kiemen gelangt?",
+      "options": [
+        "Die Stigmen befinden sich auf der Rückenseite hinter den Augen",
+        "Ventrale Kiemenschlitze, die Sand ansaugen",
+        "Die Nasenlöcher befinden sich am Ende der Schnauze",
+        "Auf den Flossen verteilte elektrische Poren"
+      ],
+      "explanation": "Die Stigmen lassen Wasser von oben eindringen, wenn sich die Mündung nahe am Sand befindet; es passiert dann die Kiemen.",
+      "didYouKnow": "Das Wasser tritt dann durch die Kiemenschlitze unter dem Körper aus.",
+      "imageCaption": "Stachelrochen"
+    },
+    {
+      "id": "fish-141",
+      "animal": "Sägefisch",
+      "prompt": "Wie erkennt das Rostrum des Sägefisches versteckte Beute?",
+      "options": [
+        "Es trägt Rezeptoren, die gegenüber elektrischen Feldern empfindlich sind",
+        "Sie identifizieren sie anhand ihrer Farbe",
+        "Sie locken sie mit Blasen an",
+        "Sie erkennen sie nur durch Hören"
+      ],
+      "explanation": "Diese Elektrorezeptoren erkennen Signale von im Substrat vergrabener Beute.",
+      "didYouKnow": "Der Sägefisch ist ein Rochen, kein Hai.",
+      "imageCaption": "Sägefisch"
+    },
+    {
+      "id": "fish-142",
+      "animal": "Muräne",
+      "prompt": "Warum öffnet eine Muräne oft ihr Maul, wenn sie stillsteht?",
+      "options": [
+        "Um Wasser über seine Kiemen zirkulieren zu lassen",
+        "Um Plankton zu filtern",
+        "Eier tragen",
+        "Sich durch Wellen fortbewegen"
+      ],
+      "explanation": "Das Öffnen und Schließen des Mundes trägt zu seiner Belüftung bei.",
+      "didYouKnow": "Die Rachenkiefer der Muräne greifen nach Beute und ziehen sie in Richtung Kehle.",
+      "imageCaption": "Muräne"
+    },
+    {
+      "id": "fish-143",
+      "animal": "Seepferdchen",
+      "prompt": "Welchen Zweck hat der Greifschwanz des Seepferdchens?",
+      "options": [
+        "An Gräsern und Korallen festhalten",
+        "Das kleinste Individuum ist immer weiblich",
+        "Sex hängt von der Wassertemperatur ab",
+        "Alle Individuen sind weiblich"
+      ],
+      "explanation": "Der gekräuselte Schwanz stabilisiert das Tier in der Strömung und hält es nahe an seinem Lebensraum.",
+      "didYouKnow": "Das Seepferdchen schwimmt in aufrechter Position.",
+      "imageCaption": "Seepferdchen"
+    },
+    {
+      "id": "fish-144",
+      "animal": "Clownfisch",
+      "prompt": "Wo leben Ocellated Clownfish natürlicherweise?",
+      "options": [
+        "Im Indo-Westpazifik",
+        "Nur im Karibischen Meer",
+        "Im gemäßigten Nordatlantik",
+        "In den Seen Ostafrikas"
+      ],
+      "explanation": "Amphiprion ocellaris stammt aus den tropischen Gewässern des Indo-Westpazifiks.",
+      "didYouKnow": "Der Augen-Clownfisch lebt mit bestimmten Anemonen zusammen, die ihm Zuflucht bieten.",
+      "imageCaption": "Clownfisch"
+    },
+    {
+      "id": "fish-145",
+      "animal": "Europäischer Aal",
+      "prompt": "Wie gelangen junge Aale nach der Meeresdrift in Flüsse?",
+      "options": [
+        "Sie verwandeln sich in Glasaale und wandern dann die Küstengewässer hinauf",
+        "Um Fischschwärme zu treffen",
+        "Sich auf den Felsen niederlassen",
+        "Höhlen graben"
+      ],
+      "explanation": "Leptocephali treiben aus dem Meer und verwandeln sich in Küstennähe in durchsichtige Glasaale.",
+      "didYouKnow": "Erwachsene europäische Aale wandern zum Laichen in die Sargassosee.",
+      "imageCaption": "Europäischer Aal"
+    },
+    {
+      "id": "fish-146",
+      "animal": "Amerikanischer Löffelstör",
+      "prompt": "Welchen Zweck hat die lange Schnauze des Amerikanischen Paddelfisches?",
+      "options": [
+        "Um Beute mithilfe seiner Sinnesrezeptoren zu erkennen",
+        "Sie laichen in Seen",
+        "Sie brüten auf See",
+        "Sie legen Eier in den Mangroven"
+      ],
+      "explanation": "Die abgeflachte Schnauze ist reich an Rezeptoren, die Organismen in trübem Wasser erkennen.",
+      "didYouKnow": "Seine Kiemenräumer filtern Zooplankton ins Wasser.",
+      "imageCaption": "Amerikanischer Löffelstör"
+    },
+    {
+      "id": "fish-147",
+      "animal": "Stör",
+      "prompt": "Warum ist der Schutz der Laichgründe für wandernde Störe so wichtig?",
+      "options": [
+        "Die erwachsenen Tiere begeben sich flussaufwärts, um in geeigneten Lebensräumen Eier abzulegen.",
+        "Sie nehmen die Luft an der Oberfläche auf",
+        "Sie werden ohne Umwandlung zu Salzwasser",
+        "Sie hören auf, im Fluss zu atmen"
+      ],
+      "explanation": "Die Fragmentierung von Flüssen kann den Zugang zu Brutgebieten verhindern.",
+      "didYouKnow": "Mehrere Störarten sind durch Fischerei und Lebensraumverlust bedroht.",
+      "imageCaption": "Stör"
+    },
+    {
+      "id": "fish-148",
+      "animal": "Lachs",
+      "prompt": "Welche Veränderungen bei der Smoltifizierung bereiten einen jungen Lachs auf den Übergang vom Süßwasser ins Meer vor?",
+      "options": [
+        "Anpassungen verzweigter Ionentransporter begleiten das Migrationsverhalten",
+        "Die Lunge wächst und ersetzt die Kiemen",
+        "Die Schuppen werden zu wasserdichten Knochenplatten",
+        "Die Fortpflanzung verlagert sich vom Meer in die Flüsse"
+      ],
+      "explanation": "Die Smoltifizierung verändert insbesondere die Fähigkeit der Kiemen, Ionen zu regulieren, und begleitet das Migrationsverhalten in Richtung Meer.",
+      "didYouKnow": "Junge Lachse wandern im Frühjahr oft flussabwärts.",
+      "imageCaption": "Lachs"
+    },
+    {
+      "id": "fish-149",
+      "animal": "Regenbogenforelle",
+      "prompt": "Wie heißt die im Meer wandernde Form der Regenbogenforelle?",
+      "options": [
+        "Der Steelhead",
+        "Goldfisch",
+        "Silberner Karausche",
+        "Wilde Meereskoi"
+      ],
+      "explanation": "Es wächst im Meer und kehrt dann zum Laichen ins Süßwasser zurück.",
+      "didYouKnow": "Andere Regenbogenforellen bleiben ihr ganzes Leben im Fluss.",
+      "imageCaption": "Regenbogenforelle"
+    },
+    {
+      "id": "fish-150",
+      "animal": "Koi-Karpfen",
+      "prompt": "Zu welcher heimischen Art gehört der Koi-Karpfen?",
+      "options": [
+        "Karpfen",
+        "Auf Algen gelegte Eier",
+        "Ein vom Männchen gebautes Blasennest",
+        "Ein Gelege, das von beiden Eltern bewacht wird"
+      ],
+      "explanation": "Koi sind ausgewählte Karpfenarten, die wegen ihrer farbenfrohen Muster gezüchtet werden.",
+      "didYouKnow": "Karpfen können lernen, Menschen und Fressgewohnheiten zu erkennen.",
+      "imageCaption": "Koi-Karpfen"
+    },
+    {
+      "id": "fish-151",
+      "animal": "Banggai-Kardinalfisch",
+      "prompt": "In welcher Art von Unterschlupf hält sich der Banggai-Kardinalbarsch oft auf?",
+      "options": [
+        "Unter den Stacheln von Seeigeln mit Diadem oder in der Nähe von Anemonen",
+        "In den von Haien gegrabenen Nestern",
+        "Offshore ohne Schutz",
+        "Nur in leeren Hüllen"
+      ],
+      "explanation": "Diese Strukturen bieten Einzelpersonen und ihren Jugendlichen Schutz.",
+      "didYouKnow": "Der Banggaï-Kardinal ist in einer begrenzten Region Indonesiens endemisch und von der Sammlung bedroht.",
+      "imageCaption": "Banggai-Kardinalfisch"
+    },
+    {
+      "id": "fish-152",
+      "animal": "Zwergkugelfisch",
+      "prompt": "Warum bleiben die verschmolzenen Zahnplatten von Tetrodonen trotz ihres Wachstums funktionsfähig?",
+      "options": [
+        "Der Rand der Teller verschleißt bei harten Speisen",
+        "Die Teller fallen ab und werden nach jeder Mahlzeit ersetzt",
+        "Ihr Wachstum stoppt, sobald der Kiefer erwachsen ist",
+        "Um die Platten zu verkürzen, löst sich eine Knorpelschicht"
+      ],
+      "explanation": "Zahnplatten wachsen kontinuierlich und ihre Kante nutzt sich beim Vorschub ab, wodurch ihre Schleiffähigkeit erhalten bleibt.",
+      "didYouKnow": "Tetrodons gehören zur Gruppe der Kugelfische.",
+      "imageCaption": "Zwergkugelfisch"
+    },
+    {
+      "id": "fish-153",
+      "animal": "Europäischer Barsch",
+      "prompt": "Welches dunkle Muster ist typisch für den Europäischen Barsch?",
+      "options": [
+        "Vertikale Streifen an den Seiten",
+        "Flecken in horizontalen Reihen",
+        "Ein vereinter Körper ohne Muster",
+        "Ein klares Spiralmuster"
+      ],
+      "explanation": "Diese Bänder stehen im Kontrast zu den oft rötlichen Flossen.",
+      "didYouKnow": "Europäische Barsche fressen Wirbellose und im Laufe ihres Wachstums immer mehr kleine Fische.",
+      "imageCaption": "Europäischer Barsch"
+    },
+    {
+      "id": "fish-154",
+      "animal": "Zander",
+      "prompt": "Welchen Vorteil bieten dem Zander seine an schwaches Licht angepassten Augen?",
+      "options": [
+        "Sie erleichtern die Jagd in der Dämmerung und in trübem Wasser",
+        "Sie eignen sich zum Sehen bei direkter Sonneneinstrahlung",
+        "Sie dienen lediglich der Partnersuche",
+        "Sie helfen, Gerüche zu erkennen"
+      ],
+      "explanation": "Seine Sicht funktioniert gut, wenn das Licht begrenzt ist.",
+      "didYouKnow": "Der Zander ist ein Süßwasserraubtier aus der Familie der Barsche.",
+      "imageCaption": "Zander"
+    },
+    {
+      "id": "fish-155",
+      "animal": "Seesaibling",
+      "prompt": "An welche Umgebungen sind Seesaiblinge besonders angepasst?",
+      "options": [
+        "In kalte arktische Gewässer und Alpenseen",
+        "Zu den warmen tropischen Lagunen",
+        "Zu sehr heißen Wüstenflüssen",
+        "Zu flachen Riffen"
+      ],
+      "explanation": "Sie bewohnt nördliche Regionen und bestimmte kalte Bergseen.",
+      "didYouKnow": "Isolierte Seesaibling-Populationen können unterschiedliche Formen aufweisen.",
+      "imageCaption": "Seesaibling"
+    },
+    {
+      "id": "fish-156",
+      "animal": "Äsche",
+      "prompt": "Welche Flosse ist bei der Äsche besonders hoch?",
+      "options": [
+        "Die Rückenflosse",
+        "Die Schwanzflosse",
+        "Bauchflossen",
+        "Äußere Kiemen"
+      ],
+      "explanation": "Der hohe Rücken ist ein charakteristisches Merkmal, das besonders bei Männern sichtbar ist.",
+      "didYouKnow": "Die Äsche lebt oft in kühlen Flüssen mit mäßiger Strömung.",
+      "imageCaption": "Äsche"
+    },
+    {
+      "id": "fish-157",
+      "animal": "Muskellunge",
+      "prompt": "Welcher anatomische Charakter wird häufig verwendet, um Muskellunge vom Hecht zu unterscheiden?",
+      "options": [
+        "Die Anzahl der Sinnesporen unter dem Kiefer",
+        "Das Vorhandensein einer Fettflosse",
+        "Die Anzahl der Barteln um das Maul herum",
+        "Die Position der Seitenlinie auf dem Rücken"
+      ],
+      "explanation": "Die Anzahl der Unterkieferporen ist neben anderen morphologischen Merkmalen ein nützliches Identifikationskriterium.",
+      "didYouKnow": "Der Muskellunge kann die Größe eines Hechts übertreffen.",
+      "imageCaption": "Muskellunge"
+    },
+    {
+      "id": "fish-158",
+      "animal": "Forellenbarsch",
+      "prompt": "Was zieht die Beute in das Maul des Barschs, wenn er angesaugt wird?",
+      "options": [
+        "Durch die schnelle Erweiterung der Mundhöhle kommt es zu einem Wasserzufluss",
+        "Durch das Schließen der Abdeckungen wird Wasser in Richtung der Beute ausgestoßen",
+        "Die Schwimmblase lockt die Beute in Richtung Rachen",
+        "Die Zähne greifen nach der Beute, bevor sich das Maul öffnet"
+      ],
+      "explanation": "Das Absenken des Mundbodens und die schnelle Ausdehnung des Mauls erzeugen einen geringeren Druck, der Wasser und Beute antreibt.",
+      "didYouKnow": "Das Männchen bewacht oft das Nest und die ersten Jungfische.",
+      "imageCaption": "Forellenbarsch"
+    },
+    {
+      "id": "fish-159",
+      "animal": "Kleinmaulbarsch",
+      "prompt": "Welchen Lebensraum bevorzugt der Kleinmaulbarsch häufig?",
+      "options": [
+        "Felsiges, frisches und gut mit Sauerstoff angereichertes Wasser",
+        "Heiße Brackwassersümpfe",
+        "Korallenriffe",
+        "Tropische stehende Gewässer"
+      ],
+      "explanation": "Es wird oft mit Flüssen und Seen mit felsigem Grund in Verbindung gebracht.",
+      "didYouKnow": "Das Männchen des Kleinmaulbarschs bewacht Eier und Jungfische im Nest.",
+      "imageCaption": "Kleinmaulbarsch"
+    },
+    {
+      "id": "fish-160",
+      "animal": "Europäischer Wels",
+      "prompt": "Wo gibt es beim Europäischen Wels besonders viele Geschmacksrezeptoren?",
+      "options": [
+        "An den Barteln und weiträumig auf der Haut verteilt",
+        "Nur auf der Zunge, hinter den Zähnen",
+        "In den Rückenflossen, ohne Rezeptoren am Kopf",
+        "Auf den Kiemenrechen, in den Kiemen"
+      ],
+      "explanation": "Bei Welsen befinden sich Geschmacksknospen an den Barteln und auf großen Bereichen der Haut.",
+      "didYouKnow": "Europäische Welse sind in der Dämmerung und in der Nacht am aktivsten.",
+      "imageCaption": "Europäischer Wels"
+    },
+    {
+      "id": "fish-161",
+      "animal": "Französischer Kaiserfisch",
+      "prompt": "Welche Rolle können junge französische Kaiserfische manchmal spielen?",
+      "options": [
+        "Sie reinigen größere Fische von Parasiten",
+        "Sie behalten die Eier im Mund",
+        "Sie bilden einen Kokon aus Blasen",
+        "Sie bebrüten die Eier in einem Beutel"
+      ],
+      "explanation": "Junge Menschen nutzen dieses Verhalten aus, um sich von Parasiten zu ernähren.",
+      "didYouKnow": "Erwachsene leben oft in Revierpaaren an Riffen.",
+      "imageCaption": "Französischer Kaiserfisch"
+    },
+    {
+      "id": "fish-162",
+      "animal": "Krokodilfisch",
+      "prompt": "Wo warten Krokodilfische oft auf ihre Beute?",
+      "options": [
+        "Überfallen auf sandigem oder schlammigem Grund",
+        "Indem man kopfüber hängt",
+        "Indem man mit seinen Zähnen einen Bau gräbt",
+        "Durch die Nachahmung eines schwebenden Blattes"
+      ],
+      "explanation": "Seine Tarnung ermöglicht es ihm, nahezu unsichtbar zu bleiben, bis die Beute vorbeikommt.",
+      "didYouKnow": "Seine hervorstehenden Augen bleiben möglicherweise nach oben gerichtet, wenn der Fisch vergraben ist.",
+      "imageCaption": "Krokodilfisch"
+    },
+    {
+      "id": "fish-163",
+      "animal": "Habichtsfisch",
+      "prompt": "Wie bleibt der Habichtsfisch auf einem Korallenbarsch?",
+      "options": [
+        "Dabei ist er auf seine robusten Brustflossen angewiesen",
+        "Er vergräbt sich vollständig",
+        "Die Befestigung erfolgt mit einem Mundsaugnapf",
+        "Es schwebt über dem Riff"
+      ],
+      "explanation": "Diese Flossen helfen ihm, sich beim Beobachten auf einem Korallenzweig zu stabilisieren.",
+      "didYouKnow": "Der Habichtsfisch springt von seinem Sitzplatz, um kleine Tiere zu fangen.",
+      "imageCaption": "Habichtsfisch"
+    },
+    {
+      "id": "fish-164",
+      "animal": "Fisch mit oberständigem Maul",
+      "prompt": "Welche Art von Futter kann ein Fisch mit nach oben gerichtetem Maul problemlos greifen?",
+      "options": [
+        "Insekten auf der Wasseroberfläche",
+        "Beute, die im Sand lebt",
+        "Plankton vor der Küste",
+        "An Korallen haftende Algen"
+      ],
+      "explanation": "Die Ausrichtung seines Mauls ist an schwimmende oder an die Oberfläche fallende Beute angepasst.",
+      "didYouKnow": "Die Position des Mauls gibt oft einen Hinweis auf das Fressverhalten.",
+      "imageCaption": "Fisch mit oberständigem Maul (Beispiel: Schützenfisch)"
+    },
+    {
+      "id": "fish-165",
+      "animal": "Fisch mit unterständigem Maul",
+      "prompt": "Für welche Art der Fütterung eignet sich ein Mund unter dem Kopf oft?",
+      "options": [
+        "Auf der Suche nach Nahrung am Boden",
+        "Der Mund vorne platziert",
+        "Der Mund befindet sich auf der Rückseite",
+        "Der Mund zog sich hinter die Augen zurück"
+      ],
+      "explanation": "Diese Position erleichtert das Abgrasen oder Umgraben des Substrats.",
+      "didYouKnow": "Welse und Störe haben oft ein tieferes Maul.",
+      "imageCaption": "Fisch mit unterständigem Maul (Beispiel: Antennenwels)"
+    },
+    {
+      "id": "fish-166",
+      "animal": "Fisch mit endständigem Maul",
+      "prompt": "Wo befindet sich das Endmaul eines Fisches?",
+      "options": [
+        "Am vorderen Ende des Kopfes",
+        "Quallen filtern",
+        "Zum Zerkleinern von Schalentieren",
+        "Um große Fische aufzusaugen"
+      ],
+      "explanation": "Es ermöglicht Ihnen, Beute direkt vor dem Fisch zu fangen.",
+      "didYouKnow": "Bei Schwimmern, die im offenen Wasser jagen, kommt es häufig zum Endmaulfischen.",
+      "imageCaption": "Fisch mit endständigem Maul (Beispiel: Augenfleck-Anemonenfisch)"
+    },
+    {
+      "id": "fish-167",
+      "animal": "Kupferfalterfisch",
+      "prompt": "Warum hat der Falterfisch eine dünne Schnauze?",
+      "options": [
+        "Zum Picken von Beute, die in den Ritzen des Riffs versteckt ist",
+        "Er jagt nur mittags",
+        "Es lebt ausschließlich in Flüssen",
+        "Die Nacht verbringt er in den Mangroven"
+      ],
+      "explanation": "Sein schmales Maul erreicht kleine Organismen zwischen Korallenstrukturen.",
+      "didYouKnow": "Viele Falterfische leben in Revierpaaren.",
+      "imageCaption": "Kupferfalterfisch"
+    },
+    {
+      "id": "fish-168",
+      "animal": "Eichhörnchenfisch",
+      "prompt": "Wo verstecken sich Eichhörnchenfische tagsüber?",
+      "options": [
+        "In den Spalten des Riffs",
+        "Sein dunkler Rücken verschmilzt mit der Tiefe",
+        "Es erzeugt ventrales Licht",
+        "Es gräbt sich in die Grasbeete ein"
+      ],
+      "explanation": "Tagsüber bleibt es oft versteckt und kommt nachts auf Nahrungssuche heraus.",
+      "didYouKnow": "Eichhörnchenfische haben große Augen, die an schwaches Licht angepasst sind.",
+      "imageCaption": "Eichhörnchenfisch"
+    },
+    {
+      "id": "fish-169",
+      "animal": "Beilfisch",
+      "prompt": "Wie entgeht der Beilfisch der Entdeckung von unten?",
+      "options": [
+        "Sein silberner Bauch reflektiert das Oberflächenlicht",
+        "Sie verstecken sich in den Mangroven",
+        "Sie haben äußere Kiemen",
+        "Sie leben in Schulen auf offener See"
+      ],
+      "explanation": "Die Reflexion verringert den Kontrast für ein Raubtier darunter.",
+      "didYouKnow": "Seine nach oben gerichteten Augen erkennen Gestalten über ihm.",
+      "imageCaption": "Beilfisch"
+    },
+    {
+      "id": "fish-170",
+      "animal": "Sonnenbarsch",
+      "prompt": "Wo bauen männliche Mondfische normalerweise ihre Nester?",
+      "options": [
+        "In einer flachen Vertiefung im Untergrund",
+        "In einer Korallenhöhle",
+        "In schwimmenden Muscheln",
+        "In einer Bauchtasche"
+      ],
+      "explanation": "Das Männchen reinigt einen Bereich und bewacht ihn, während sich die Eier entwickeln.",
+      "didYouKnow": "Mehrere Mondfische verteidigen ihren Laichplatz.",
+      "imageCaption": "Sonnenbarsch"
+    },
+    {
+      "id": "fish-171",
+      "animal": "Blauer Papageienfisch",
+      "prompt": "In welcher großen Region kommt der Blaue Papageienfisch natürlicherweise vor?",
+      "options": [
+        "In den tropischen Gewässern des Westatlantiks und der Karibik",
+        "In den Süßwasserseen Zentralasiens",
+        "In den Polargewässern der Antarktis",
+        "In der Ostsee und der Nordsee"
+      ],
+      "explanation": "Scarus coeruleus kommt in den tropischen Riffen des Westatlantiks vor, insbesondere in der Karibik.",
+      "didYouKnow": "Junge Blaupapageienfische haben möglicherweise eine andere Lackierung als Erwachsene.",
+      "imageCaption": "Blauer Papageienfisch"
+    },
+    {
+      "id": "fish-172",
+      "animal": "Segelflossen-Doktorfisch",
+      "prompt": "Worauf könnte das Imponieren mit der großen Rückenflosse des Segelflossen-Doktorfischs hindeuten?",
+      "options": [
+        "Eine Zurschaustellung oder Drohung während einer sozialen Interaktion",
+        "Die Richtung einer Planktonbank",
+        "Das Vorhandensein eines Nestes im Sand",
+        "Das bevorstehende Laichen im offenen Wasser"
+      ],
+      "explanation": "Die ausgebreitete Flosse betont die Silhouette des Fisches und ist an sozialen oder territorialen Darstellungen beteiligt.",
+      "didYouKnow": "Doktorfische grasen oft auf Algen an Riffen.",
+      "imageCaption": "Segelflossen-Doktorfisch"
+    },
+    {
+      "id": "fish-173",
+      "animal": "Rifffische",
+      "prompt": "Warum nutzen Rifffische unterschiedliche Mikrohabitate?",
+      "options": [
+        "Dadurch verringert sich der Wettbewerb um die gleichen Ressourcen",
+        "Sie befinden sich alle auf der gleichen Höhe des Riffs",
+        "Sie verbieten jegliche Raubtiere",
+        "Sie fressen ausschließlich Korallen"
+      ],
+      "explanation": "Spalten, Korallenoberflächen und Seegraswiesen bieten ausgeprägte Nischen.",
+      "didYouKnow": "Die strukturelle Komplexität von Riffen trägt zu ihrer großen Vielfalt bei.",
+      "imageCaption": "Rifffische (Beispiel: Falterfische mit Netzflossen)"
+    },
+    {
+      "id": "fish-174",
+      "animal": "Rotschwanzwels",
+      "prompt": "Welches Farbdetail hilft Ihnen, Rotschwanzwelse zu erkennen?",
+      "options": [
+        "Eine rot-orange Schwanzflosse",
+        "Ein blauer Fleck oben auf dem Kopf",
+        "Vertikale schwarze Streifen an den Seiten",
+        "Transparente Brustflossen"
+      ],
+      "explanation": "Die orangerote Schwanzflosse ist ein auffälliges visuelles Zeichen von Phractocephalus hemioliopterus.",
+      "didYouKnow": "Phractocephalus hemioliopterus stammt aus dem Amazonas- und Orinoco-Becken.",
+      "imageCaption": "Rotschwanzwels"
+    },
+    {
+      "id": "fish-175",
+      "animal": "Rotbauchpiranha",
+      "prompt": "Welche Aussage beschreibt die Ernährung von Rotbauchpiranhas am besten?",
+      "options": [
+        "Sie variiert je nach Art, Alter und verfügbaren Ressourcen",
+        "Sie jagen ausschließlich große Säugetiere",
+        "Sie fressen nur Algen",
+        "Sie filtern das ganze Jahr über Plankton"
+      ],
+      "explanation": "Piranhas ernähren sich von Fisch und anderen tierischen Stoffen; Sie sind nicht alle Jäger großer Tiere.",
+      "didYouKnow": "Rotbauchpiranhas leben oft in Gruppen, was ihre Wachsamkeit gegenüber Raubtieren verbessern kann.",
+      "imageCaption": "Rotbauchpiranha"
+    },
+    {
+      "id": "fish-176",
+      "animal": "Kugelfisch",
+      "prompt": "Welche Struktur hilft Kugelfischen dabei, Schalentiere zu zerkleinern?",
+      "options": [
+        "Seine zusammengewachsenen Zähne bilden einen Schnabel",
+        "Kiemenrechen filtern",
+        "Eine klebrige Zunge, die Muscheln zerreißt",
+        "Ein gezahntes Podium"
+      ],
+      "explanation": "Der robuste Auslauf zerkleinert harte Lebensmittel und verschleißt beim Füttern.",
+      "didYouKnow": "Die verwachsenen Zähne von Tetrodons wachsen kontinuierlich.",
+      "imageCaption": "Kugelfisch"
+    },
+    {
+      "id": "fish-177",
+      "animal": "Kardinalfisch",
+      "prompt": "Wie schützt der männliche Banggaï-Kardinal sein Gelege?",
+      "options": [
+        "Er behält die Eier im Mund",
+        "Das Weibchen bewahrt die Eier in einem Beutel auf",
+        "Beide Eltern tragen sie in einer Flosse",
+        "Sie bauen ein schwimmendes Nest"
+      ],
+      "explanation": "Diese orale Inkubation schützt die Eier bis zum Schlüpfen.",
+      "didYouKnow": "Der Banggaï-Kardinal lebt natürlicherweise in einem Sperrgebiet Indonesiens.",
+      "imageCaption": "Kardinalfisch"
+    },
+    {
+      "id": "fish-178",
+      "animal": "Schützenfisch",
+      "prompt": "Wie erzeugt der Schützenfisch einen Strahl, der Beute aus dem Wasser schleudern kann?",
+      "options": [
+        "Es formt mit seinem Maul einen Kanal und drückt mit seiner Zunge das Wasser",
+        "Es schließt seine Lider, um einen Strahl durch die Kiemen zu schicken",
+        "Durch die Nasenlöcher stößt es Wasser aus seiner Schwimmblase aus",
+        "Es vibriert mit seiner Schwanzflosse, um Tröpfchen auszustoßen"
+      ],
+      "explanation": "Das Maul bildet einen Schusskanal und die Zunge beschleunigt den auf die Beute gerichteten Strahl.",
+      "didYouKnow": "Mit Erfahrung kann der Schützenfisch sein Ziel korrigieren und auf die Bewegung von Beute zielen.",
+      "imageCaption": "Schützenfisch"
+    },
+    {
+      "id": "fish-179",
+      "animal": "Clownfisch",
+      "prompt": "Warum hat der Clownfisch eine Beziehung zu einer Anemone?",
+      "options": [
+        "Die Anemone bietet Schutz vor vielen Raubtieren",
+        "Es bietet ihm eine Nahrungsquelle",
+        "Dadurch kann er Luft atmen",
+        "Sie legt ihre Eier in den Bauch"
+      ],
+      "explanation": "Fische, die die Anemone verträgt, können sich zwischen ihren stechenden Tentakeln verstecken.",
+      "didYouKnow": "Clownfische können ihre Anemone gegen Fische verteidigen, die sie fressen.",
+      "imageCaption": "Clownfisch"
+    },
+    {
+      "id": "fish-180",
+      "animal": "Rotfeuerfisch",
+      "prompt": "Welche Herkunft erklärt das Vorkommen von Rotfeuerfischen im Westatlantik?",
+      "options": [
+        "Menschliche Einführungen außerhalb seines indopazifischen Gebiets",
+        "Eine natürliche Migration aus dem Mittelmeerraum",
+        "Transport durch Polarströme",
+        "Erweiterung durch Farbwechsel"
+      ],
+      "explanation": "Entflohene oder freigelassene Personen trugen zur Bildung invasiver Populationen bei.",
+      "didYouKnow": "Rotfeuerfische können die Häufigkeit kleiner einheimischer Rifffische verringern.",
+      "imageCaption": "Rotfeuerfisch"
+    },
+    {
+      "id": "fish-181",
+      "animal": "Seepferdchen",
+      "prompt": "Wie bewegt sich das Seepferdchen im Wasser?",
+      "options": [
+        "Es schwimmt in vertikaler Position und schlägt schnell mit seiner kleinen Rückenflosse.",
+        "Es schwimmt horizontal und wedelt dabei mit dem Schwanz.",
+        "Mit schnellen Schwanzschlägen bewegt es sich vorwärts.",
+        "Er geht mit seinen Bauchflossen"
+      ],
+      "explanation": "Die Rückenflosse sorgt für den größten Teil des Vortriebs, die Brustflosse dient der Steuerung.",
+      "didYouKnow": "Der Greifschwanz des Seepferdchens dient zum Greifen, nicht zum Antreiben.",
+      "imageCaption": "Seepferdchen"
+    },
+    {
+      "id": "fish-182",
+      "animal": "Mondfisch",
+      "prompt": "Welche Struktur ersetzt die klassische Schwanzflosse des Mondfisches?",
+      "options": [
+        "Der Clavus, ein abgerundeter Rand auf der Rückseite des Körpers",
+        "Eine gegabelte Schwanzflosse",
+        "Eine große fächerförmige Flosse",
+        "Ein Greifschwanz"
+      ],
+      "explanation": "Der Clavus entsteht durch die Verkürzung des hinteren Körperteils.",
+      "didYouKnow": "Der Mondfisch treibt sich hauptsächlich mit seinen Rücken- und Afterflossen fort.",
+      "imageCaption": "Mondfisch"
+    },
+    {
+      "id": "fish-183",
+      "animal": "Karpfen",
+      "prompt": "Wo befinden sich die Schlundzähne des Karpfens und an welcher Struktur zermahlen sie die Nahrung?",
+      "options": [
+        "Im Hals, wo sie die Nahrung gegen ein hartes Polster drücken",
+        "An den Kiefern, wo sie die Beute vor dem Verzehr durchstechen",
+        "Auf den Kiemenrechen, wo die Samen gefiltert werden",
+        "In der Speiseröhre, an der Wand der Schwimmblase"
+      ],
+      "explanation": "Karpfen haben keine sichtbaren Zähne am Kiefer; Rachenzähne zermahlen Nahrung gegen ein spezielles Polster.",
+      "didYouKnow": "Karpfen haben kleine Barteln um ihr Maul.",
+      "imageCaption": "Karpfen"
+    },
+    {
+      "id": "fish-184",
+      "animal": "Seenadeln",
+      "prompt": "Welches Glied trägt bei mehreren Seenadeln die Eier?",
+      "options": [
+        "Das Männchen, auf einem Brutkasten oder in einem Beutel",
+        "Das Weibchen in einer Bauchtasche",
+        "Beide Eltern, im Mund",
+        "Das Weibchen auf seinen Flossen"
+      ],
+      "explanation": "Das Weibchen legt dort die Eier ab, die das Männchen während ihrer Entwicklung beschützt.",
+      "didYouKnow": "Seenadeln sind mit Seepferdchen verwandt.",
+      "imageCaption": "Seenadeln"
+    },
+    {
+      "id": "fish-185",
+      "animal": "Papageienfisch",
+      "prompt": "Welcher Begriff beschreibt die bei vielen Papageienfischen beobachtete Geschlechtsumwandlung?",
+      "options": [
+        "Protogynie, bei der einige Weibchen zu Männchen werden",
+        "Protandrie, bei der Männchen zu Weibchen werden",
+        "Gonochoria, bei der jedes Individuum mehrmals das Geschlecht wechselt",
+        "Parthenogenese, bei der Weibchen Klone produzieren"
+      ],
+      "explanation": "Viele Papageienfische sind protogyn: Einige Individuen beginnen ihr Leben als Weibchen und werden dann Männchen.",
+      "didYouKnow": "Der Schnabel von Papageienfischen ermöglicht es ihnen, auf Riffsubstrat zu grasen.",
+      "imageCaption": "Papageienfisch"
+    },
+    {
+      "id": "fish-186",
+      "animal": "Europäischer Aal",
+      "prompt": "Wie sehen Leptocephali, die Larven der Aale, aus?",
+      "options": [
+        "Sie sind transparent und flach wie ein Laken",
+        "Sie sind undurchsichtig und kugelförmig",
+        "Sie sehen aus wie winzige braune Aale",
+        "Sie haben eine verkalkte Schale"
+      ],
+      "explanation": "Diese Larvenform treibt im Meer umher, bevor sie sich in Küstennähe in Glasaale verwandelt.",
+      "didYouKnow": "Leptocephali unterscheiden sich stark von erwachsenen Aalen.",
+      "imageCaption": "Europäischer Aal"
+    },
+    {
+      "id": "fish-187",
+      "animal": "Lachs",
+      "prompt": "Wie nennt man eine Strategie, bei der sich ein pazifischer Lachs nur einmal vermehrt, bevor er stirbt?",
+      "options": [
+        "Semelparität",
+        "Iteroparität",
+        "Protogynie",
+        "Viviparität"
+      ],
+      "explanation": "Viele pazifische Lachse sind semolpar; Die Fortpflanzung mobilisiert ihre Reserven stark und führt zu ihrem Tod.",
+      "didYouKnow": "Atlantischer Lachs kann mehrmals überleben und laichen.",
+      "imageCaption": "Lachs"
+    },
+    {
+      "id": "fish-188",
+      "animal": "Lachs",
+      "prompt": "Was bedeutet der Lachslauf?",
+      "options": [
+        "Die Bewegung erwachsener Tiere flussaufwärts, um zu ihren Laichplätzen zu gelangen",
+        "Abwanderung von Erwachsenen",
+        "Die Bewegung junger Menschen in Richtung einer Flussmündung",
+        "Fische schwimmen in Richtung Meeresboden"
+      ],
+      "explanation": "Die erwachsenen Tiere wandern vom Meer aus flussaufwärts, um Eier zu legen.",
+      "didYouKnow": "Unter stromabwärts versteht man die flussabwärts gerichtete Reise junger Lachse.",
+      "imageCaption": "Lachs"
+    },
+    {
+      "id": "fish-189",
+      "animal": "Laternenfisch",
+      "prompt": "In welchem ​​Meeresgebiet halten sich Laternenfische häufig auf?",
+      "options": [
+        "Die mesopelagische Zone, in der das Licht sehr schwach ist",
+        "Der von der Sonne beleuchtete Küstenbereich",
+        "Flache Riffe",
+        "Gemäßigte Küstengewässer"
+      ],
+      "explanation": "In dieser Zwischenzone leben große Populationen, die täglich vertikal wandern.",
+      "didYouKnow": "Laternenfische sind für viele Meeresräuber eine wichtige Beute.",
+      "imageCaption": "Arktischer Laternenfisch"
+    },
+    {
+      "id": "fish-190",
+      "animal": "Antarktischer Eisfisch",
+      "prompt": "Warum kann antarktisches Wasser viel gelösten Sauerstoff enthalten?",
+      "options": [
+        "Bei kaltem Wasser nimmt die Gaslöslichkeit zu",
+        "Der Salzgehalt des Wassers",
+        "Direktes Sonnenlicht",
+        "Die Anzahl der vorhandenen Fische"
+      ],
+      "explanation": "Kaltes Wasser kann mehr Sauerstoff in Lösung halten als heißes Wasser.",
+      "didYouKnow": "Einige antarktische Arten haben Frostschutzproteine ​​in ihren Körperflüssigkeiten.",
+      "imageCaption": "Antarktischer Eisfisch"
+    },
+    {
+      "id": "fish-191",
+      "animal": "Plattfisch",
+      "prompt": "Wie kann sich ein Plattfisch auf einem Sandboden verstecken?",
+      "options": [
+        "Es vergräbt sich teilweise, indem es mit seinen Flossen Sand auswirft.",
+        "Es bläst seinen Körper auf, um wie ein Stein auszusehen",
+        "Mit einem Saugnapf befestigt es seinen Bauch am Untergrund",
+        "Es entsteht eine undurchsichtige Schleimwolke"
+      ],
+      "explanation": "Viele Plattfische bewegen ihre Flossen, um ihren Körper mit Sand zu bedecken und dabei die Augen freizuhalten.",
+      "didYouKnow": "Die Pigmentierung der Oberfläche vieler Plattfische kann sich an den Untergrund anpassen.",
+      "imageCaption": "Plattfisch (Beispiel: Scholle)"
+    },
+    {
+      "id": "fish-192",
+      "animal": "Putzerfisch",
+      "prompt": "Welche Haltung nimmt ein Kundenfisch an einer Putzerstation oft ein?",
+      "options": [
+        "Er verharrt und präsentiert Teile seines Körpers",
+        "Er öffnet das Maul und schwimmt schnell weiter",
+        "Er legt sich auf die Seite und gräbt sich ein",
+        "Er verfärbt sich rot"
+      ],
+      "explanation": "Diese Haltung ermöglicht es dem Reiniger, an die Haut, Flossen oder Kiemen heranzukommen.",
+      "didYouKnow": "Die Reinigungsstationen werden von Kunden verschiedenster Art frequentiert.",
+      "imageCaption": "Gemeiner Putzerlippfisch"
+    },
+    {
+      "id": "fish-193",
+      "animal": "Wels",
+      "prompt": "Welches Hautmerkmal haben viele Welse gemeinsam?",
+      "options": [
+        "Sie ist nackt, ohne typische Schuppen",
+        "Sie trägt immer Placoid-Schuppen",
+        "Es ist mit Korallenflecken bedeckt",
+        "Es wird durch eine starre Schale ersetzt"
+      ],
+      "explanation": "Bei vielen Siluriformes trägt die Haut nicht die Schuppen, die für viele andere Knochenfische typisch sind, obwohl es Ausnahmen gibt.",
+      "didYouKnow": "Einige Welsfamilien haben schützende Knochenplatten.",
+      "imageCaption": "Wels"
+    },
+    {
+      "id": "fish-194",
+      "animal": "Falterfisch",
+      "prompt": "Welchen Zweck kann ein dunkler Streifen erfüllen, der über das Auge eines Falterfisches verläuft?",
+      "options": [
+        "Um die Position des Auges zu verbergen",
+        "Eine Frau mit Lichtblitzen anlocken",
+        "Zum Schutz der Kiemen vor Sedimenten",
+        "Um Geräusche unter Wasser zu empfangen"
+      ],
+      "explanation": "Das Muster verringert die Sichtbarkeit des Auges und kann ein Raubtier daran hindern, auf den Kopf zu zielen.",
+      "didYouKnow": "Ein Augenfleck in der Nähe des Schwanzes kann die Orientierung eines Raubtiers verwirren.",
+      "imageCaption": "Falterfisch"
+    },
+    {
+      "id": "fish-195",
+      "animal": "Mangrovenfisch",
+      "prompt": "Wie verändern Mangrovenwurzeln das Wasser in Küstennähe?",
+      "options": [
+        "Sie verlangsamen die Strömung und fangen Sedimente ein",
+        "Um Nährstoffe aufzunehmen",
+        "Zum Aufbewahren von Eiern",
+        "Zur Befestigung an Felsen"
+      ],
+      "explanation": "Das Wurzelnetzwerk reduziert die Wellenenergie und hält Partikel zurück.",
+      "didYouKnow": "Mangroven bieten vielen Küstenarten eine Brutstätte.",
+      "imageCaption": "Mangrovenfisch (Beispiel: Silberperiophthalmus)"
+    },
+    {
+      "id": "fish-196",
+      "animal": "Flussfisch",
+      "prompt": "Warum fördern die Lücken in einem gut mit Sauerstoff versorgten Kiesbett die Entwicklung von Lachseiern?",
+      "options": [
+        "Wasser zirkuliert zwischen den Kieselsteinen und versorgt die vergrabenen Eier mit Sauerstoff.",
+        "Kies produziert durch Photosynthese unter dem Boden Sauerstoff",
+        "Die Kieselsteine blockieren die Wasserzirkulation und speichern die Wärme",
+        "Eier nehmen Sauerstoff direkt über Steine auf"
+      ],
+      "explanation": "Die Porosität des Kieses ermöglicht eine Wasserzirkulation, die den Sauerstoff um die Eier herum erneuert. Feine Sedimente können diese Räume verstopfen.",
+      "didYouKnow": "Flussfische können bei ihrer Fortpflanzungswanderung durch Dämme unterbrochen werden.",
+      "imageCaption": "Flussfische (Beispiel: Bachforelle)"
+    },
+    {
+      "id": "fish-197",
+      "animal": "Hai",
+      "prompt": "Welche Rolle spielt die ölreiche Leber bei vielen Haien?",
+      "options": [
+        "Es trägt zu ihrem Auftrieb bei und speichert Energie",
+        "Es filtert Plankton",
+        "Es produziert Gift",
+        "Es steuert den Salzgehalt des Wassers"
+      ],
+      "explanation": "Öle haben eine geringere Dichte als Wasser und helfen, das Körpergewicht auszugleichen.",
+      "didYouKnow": "Haie haben keine Schwimmblasen.",
+      "imageCaption": "Hai (Beispiel: Weißer Hai)"
+    },
+    {
+      "id": "fish-198",
+      "animal": "Meeresfische",
+      "prompt": "Wie verbessert der Gegenstrom zwischen Wasser und Blut die Sauerstoffgewinnung in den Kiemen?",
+      "options": [
+        "Es hält einen Konzentrationsgradienten über die gesamte Länge der Lamellen aufrecht",
+        "Es zirkuliert das Blut in der gleichen Richtung wie das Wasser, um die Konzentrationen auszugleichen",
+        "Es konzentriert den gesamten Sauerstoff am Eingang der Kiemen und schließt dann die Lamellen",
+        "Es wandelt Kohlendioxid mithilfe roter Blutkörperchen in Sauerstoff um"
+      ],
+      "explanation": "Bei entgegengesetzten Strömungen behält das Wasser eine höhere Sauerstoffkonzentration bei als das angrenzende Blut entlang der Lamellen.",
+      "didYouKnow": "Die Kiemendeckel von Knochenfischen schützen die Kiemen und helfen bei der Wasserzirkulation.",
+      "imageCaption": "Meeresfische (Beispiel: Augen-Clownfisch)"
+    },
+    {
+      "id": "fish-199",
+      "animal": "Fisch mit Schwimmblase",
+      "prompt": "Welcher Gang verbindet bei einem physostomen Fisch die Schwimmblase mit dem Verdauungstrakt?",
+      "options": [
+        "Der pneumatische Gang",
+        "Der endolymphatische Gang",
+        "Der Wolff-Gang",
+        "Der Kiemendeckelkanal"
+      ],
+      "explanation": "Bei physostomen Fischen verbindet der pneumatische Gang die Schwimmblase mit der Speiseröhre und ermöglicht den Gasaustausch mit dem Verdauungstrakt.",
+      "didYouKnow": "Bei physostomen Fischen verbindet der pneumatische Gang die Schwimmblase mit der Speiseröhre.",
+      "imageCaption": "Fisch mit Schwimmblase (Beispiel: Goldfisch)"
+    },
+    {
+      "id": "fish-200",
+      "animal": "Fisch mit Schwimmblase",
+      "prompt": "Wie erhöht ein physoklistischer Fisch in der Tiefe die Gasmenge in seiner Schwimmblase?",
+      "options": [
+        "Eine Gasdrüse überträgt Gase aus dem Blut in die Blase",
+        "Ein pneumatischer Gang lässt geschluckte Luft aus der Speiseröhre eintreten",
+        "Eine Rückresorptionszone fügt Gas aus dem Darm hinzu",
+        "Die Nieren filtern gelösten Sauerstoff und leiten ihn in die Blase"
+      ],
+      "explanation": "Die Gasdrüse säuert das Blut lokal an und fördert so den Gastransport in die Schwimmblase, wodurch der Fisch seinen Auftrieb reguliert.",
+      "didYouKnow": "Bei einigen Arten trägt die Schwimmblase auch zum Hören bei.",
+      "imageCaption": "Fisch mit Schwimmblase (Beispiel: Goldfisch)"
+    }
+  ]
+}

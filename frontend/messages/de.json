@@ -267,7 +267,11 @@
     "search": "Suchen",
     "settings": "Einstellungen",
     "shop": "Magasin",
-    "species": "Arten"
+    "species": "Arten",
+    "habitatGuide": "3D-Ratgeber",
+    "designHabitat": "Lebensraum gestalten",
+    "careAgenda": "Kalender",
+    "animalGame": "Spiel"
   },
   "disclaimers": {
     "affiliate": "Affiliate-Link",
@@ -373,7 +377,25 @@
     "weekDay3": "Mittwoch",
     "weekDay4": "Donnerstag",
     "weekDay5": "Freitag",
-    "weekDay6": "Samstag"
+    "weekDay6": "Samstag",
+    "pushUnsupported": "Dieser Browser unterstützt keine Push-Benachrichtigungen. Öffne Captivia auf dem iPhone über das zum Home-Bildschirm hinzugefügte Symbol.",
+    "pushUnavailable": "Push-Benachrichtigungen sind vorübergehend nicht verfügbar. Erinnerungen bleiben in der App sichtbar.",
+    "pushEnabled": "Benachrichtigungen sind in diesem Browser aktiv.",
+    "enablePush": "Benachrichtigungen aktivieren",
+    "disablePush": "In diesem Browser deaktivieren",
+    "sendTest": "Test senden",
+    "testSent": "Benachrichtigung gesendet.",
+    "testPartial": "Einige Benachrichtigungen konnten nicht gesendet werden.",
+    "noRecipient": "Kein aktiver Empfänger. Aktiviere Benachrichtigungen auf einem Gerät.",
+    "testFailed": "Die Testbenachrichtigung konnte nicht gesendet werden.",
+    "timeZone": "Zeitzone",
+    "deliveryWindow": "Erlaubte Versandzeiten",
+    "windowStart": "Versandbeginn",
+    "windowEnd": "Versandende",
+    "channelsUnavailable": "Einige Empfangsarten sind vorübergehend nicht verfügbar. Erinnerungen bleiben in der App sichtbar.",
+    "snoozeAction": "Verschieben",
+    "snoozeDone": "Erinnerung verschoben.",
+    "reminderError": "Die Erinnerung konnte nicht aktualisiert werden."
   },
   "premiumLock": {
     "goPremium": "Voir l'abonnement Premium",
@@ -513,6 +535,7 @@
     "subscribeSuccess": "Abonnement activé. Vous avez maintenant accès à toutes les fonctionnalités Premium.",
     "subtitle": "Débloquez tous les avantages Captivia",
     "title": "Abonnement Premium",
-    "yearly": "Annuel"
+    "yearly": "Annuel",
+    "benefitHabitat": "2D- und 3D-Habitatplaner: individuelle Einrichtung, gespeicherte Projekte und Exporte"
   }
 }

@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "f73d2fa614b144ab422070e253ea9d319bf07fe9bb00f11624b72666973debf7",
+  "locale": "de",
+  "questions": [
+    {
+      "id": "birds-001",
+      "animal": "Steinadler",
+      "prompt": "Was sind die Hauptzwecke der breiten Flügel des Steinadlers?",
+      "options": [
+        "Auf warmen Aufwinden zu gleiten",
+        "Durch schnelles Schlagen im Unterholz beschleunigen",
+        "Schwimmen, indem man das Wasser drückt",
+        "Den Boden fächerförmig ausgraben"
+      ],
+      "explanation": "Seine breiten Flügel ermöglichen es dem Steinadler, mit wenigen Flügelschlägen weite Gebiete zu überfliegen.",
+      "didYouKnow": "Steinadler können denselben Horst über mehrere Brutzeiten hinweg wiederverwenden und ausbauen.",
+      "imageCaption": "Steinadler"
+    },
+    {
+      "id": "birds-002",
+      "animal": "Wanderalbatros",
+      "prompt": "Welcher Flugmechanismus ermöglicht es dem Wanderalbatros, die Winde über den Wellen auszunutzen?",
+      "options": [
+        "Es wechselt die Auf- und Abstiegsphasen ab, um Windschwankungen auszunutzen.",
+        "Es schwebt im Wind und schlägt schnell mit den Flügeln.",
+        "Es rotiert ständig in warmen Luftsäulen über dem Land.",
+        "Es schlägt ständig mit den Flügeln, um sich auf gleicher Höhe über dem Wasser zu bewegen."
+      ],
+      "explanation": "Der dynamische Flug des Albatros nutzt Unterschiede in der Windgeschwindigkeit in verschiedenen Höhen über den Wellen aus und ermöglicht es ihm, weite Strecken mit wenigen Schlägen zurückzulegen.",
+      "didYouKnow": "Albatrosse kehren zur Fortpflanzung auf die Inseln zurück.",
+      "imageCaption": "Wanderalbatros"
+    },
+    {
+      "id": "birds-003",
+      "animal": "Kaiserpinguin",
+      "prompt": "Wie schützt der Kaiserpinguin sein Ei vor dem Kontakt mit Eis?",
+      "options": [
+        "Es balanciert das Ei auf den Füßen unter einer Brutfalte.",
+        "Er legt es in ein ins Eis gegrabenes Nest",
+        "Er klemmt es zwischen in der Sonne erhitzte Steine",
+        "Beim Schwimmen trägt er es im Schnabel"
+      ],
+      "explanation": "So hält der Elternvogel das Ei vom Eis fern: Es liegt auf den Füßen unter einer befiederten Hautfalte.",
+      "didYouKnow": "Beide Eltern wechseln sich beim Brüten ab; im antarktischen Winter übernimmt das Männchen den größten Teil.",
+      "imageCaption": "Kaiserpinguin"
+    },
+    {
+      "id": "birds-004",
+      "animal": "Strauß",
+      "prompt": "Was ist die Hauptbewegungsart des Straußes?",
+      "options": [
+        "Laufen",
+        "Der geschlagene Flug",
+        "Schwimmen unter dem Eis",
+        "Von den Klippen gleiten"
+      ],
+      "explanation": "Der Strauß kann nicht fliegen; seine langen Beine sind an schnelles Laufen angepasst.",
+      "didYouKnow": "Ein Strauß hat an jedem Fuß zwei Zehen, während die meisten Vögel vier haben.",
+      "imageCaption": "Strauß"
+    },
+    {
+      "id": "birds-005",
+      "animal": "Annas Kolibri",
+      "prompt": "Welche Eigenschaft des Flügelschlags hilft Annas Kolibri beim Schweben?",
+      "options": [
+        "Beim Abschlag und beim Aufschlag entsteht Auftrieb.",
+        "Es erzeugt nur auf dem Rückweg Auftrieb und lässt den Vogel dann leicht sinken.",
+        "Es verriegelt die Flügel bei jedem Zyklus und nutzt hauptsächlich Luftströmungen.",
+        "Es wechselt einen kraftvollen Schlag mit einer langen Gleitphase."
+      ],
+      "explanation": "Kolibris erzeugen in beiden Phasen des Flügelschlags Auftrieb und können dadurch vor einer Blüte in der Luft stehen.",
+      "didYouKnow": "Annas Kolibri kann in kalten Nächten in Torpor fallen und so seinen Energieverbrauch vorübergehend senken.",
+      "imageCaption": "Annas Kolibri"
+    },
+    {
+      "id": "birds-006",
+      "animal": "Buntspecht",
+      "prompt": "Was ist der gemeinsame Zweck des Trommelns des Buntspechts auf einem Stamm?",
+      "options": [
+        "Zur Kommunikation mit anderen Spechten, häufig zur Revieranzeige.",
+        "Um die Tiefe des Wassers zu erforschen",
+        "Um Fische in Ufernähe anzulocken",
+        "Trocknen Sie Ihre Federn nach dem Regen"
+      ],
+      "explanation": "Trommeln ist ein lautes Signal, das besonders bei Revierverhalten eingesetzt wird.",
+      "didYouKnow": "Die steifen Schwanzfedern helfen dem Specht, sich beim Klettern am Stamm abzustützen.",
+      "imageCaption": "Buntspecht"
+    },
+    {
+      "id": "birds-007",
+      "animal": "Flamingo",
+      "prompt": "Wie bekommt der Flamingo viel von seiner Nahrung?",
+      "options": [
+        "Durch das Filtern kleiner Organismen aus Wasser und Schlamm",
+        "Durch das Aufspießen von Fischen vom Barsch",
+        "Mit seinem gekreuzten Schnabel Samen schälen",
+        "Durch das Einfangen von Insekten im Schwebeflug"
+      ],
+      "explanation": "Die Klingen seines Schnabels halten kleine Krebstiere, Algen und andere Organismen fest.",
+      "didYouKnow": "Carotinoide in bestimmten Lebensmitteln tragen zur rosa Farbe seines Gefieders bei.",
+      "imageCaption": "Flamingo"
+    },
+    {
+      "id": "birds-008",
+      "animal": "Waldkauz",
+      "prompt": "Wie hilft die Asymmetrie der Ohren des Waldkauz dabei, versteckte Beute aufzuspüren?",
+      "options": [
+        "Die kleinen Zeit- und Intensitätsunterschiede zwischen den Ohren geben Aufschluss über die Richtung des Schalls.",
+        "Es verstärkt nur die hohen Töne der Beute.",
+        "Es wandelt Geräusche in visuelle Hinweise um, wenn das Licht schwach ist.",
+        "Es blockiert Geräusche, die vom Boden kommen, um diese von den Ästen zu isolieren."
+      ],
+      "explanation": "Die Position und Asymmetrie der Ohren helfen der Eule, die von beiden Seiten empfangenen Geräusche zu vergleichen und abzuschätzen, woher die Beute kommt.",
+      "didYouKnow": "Wie andere Eulen spuckt sie Pellets aus, die unverdaute Beutereste enthalten.",
+      "imageCaption": "Waldkauz"
+    },
+    {
+      "id": "birds-009",
+      "animal": "Rauchschwalbe",
+      "prompt": "Warum ziehen Rauchschwalben im Winter in wärmere Gebiete?",
+      "options": [
+        "Um weitere verfügbare Fluginsekten zu finden",
+        "Baumhöhlen ohne Schnee finden",
+        "Um jeglichen Regen und Wind zu vermeiden",
+        "Eier in trockenere Böden legen"
+      ],
+      "explanation": "Die Wanderung führt ihn in Regionen, in denen die Insekten, von denen er sich ernährt, zugänglich bleiben.",
+      "didYouKnow": "Den Großteil seiner Beute fängt er im Flug.",
+      "imageCaption": "Rauchschwalbe"
+    },
+    {
+      "id": "birds-010",
+      "animal": "Stockente",
+      "prompt": "Welchen Zweck hat die Membran zwischen den Zehen der Stockente?",
+      "options": [
+        "Um den Schub seiner Beine im Wasser zu erhöhen",
+        "Zum Festhalten an glatten Stämmen",
+        "Nisthöhlen ausheben",
+        "Samen von Zweigen holen"
+      ],
+      "explanation": "Das Gurtband vergrößert die Oberfläche, die das Wasser beim Schwimmen der Ente nach außen drückt.",
+      "didYouKnow": "Die Stockente ist der Vorfahre vieler Hausentenrassen.",
+      "imageCaption": "Stockente"
+    },
+    {
+      "id": "birds-011",
+      "animal": "Weißer Pelikan",
+      "prompt": "Wozu dient die erweiterbare Tasche am Schnabel des Pelikans?",
+      "options": [
+        "Um vorübergehend Fische zu fangen",
+        "Zum Speichern von Luft während des Fluges",
+        "Eier nachhaltig transportieren",
+        "Zum Filtern von Salz aus Meerwasser"
+      ],
+      "explanation": "Die Tasche fungiert als temporäres Netz zum Fangen von Fischen im Wasser.",
+      "didYouKnow": "Pelikane nisten oft in Kolonien, manchmal auf Inseln oder an Küstenstandorten.",
+      "imageCaption": "Weißer Pelikan"
+    },
+    {
+      "id": "birds-012",
+      "animal": "Weißer Storch",
+      "prompt": "Wie spart der Weißstorch während eines Teils seiner Wanderung Energie?",
+      "options": [
+        "Sie gleitet über dem Land auf aufsteigender Warmluft.",
+        "Beim Schwimmen in den Meeresströmungen",
+        "Indem man Schutzräume gräbt, um sich im Flug auszuruhen",
+        "Indem Sie ständig mit maximaler Geschwindigkeit mit den Flügeln schlagen"
+      ],
+      "explanation": "Warmluftaufwinde tragen den Storch nach oben; anschließend kann er mit wenigen Flügelschlägen gleiten.",
+      "didYouKnow": "Weißstörche brüten häufig auf von Menschen geschaffenen Strukturen wie Dächern und Plattformen.",
+      "imageCaption": "Weißer Storch"
+    },
+    {
+      "id": "birds-013",
+      "animal": "Europäischer Eisvogel",
+      "prompt": "Wie fängt der Eisvogel oft einen kleinen Fisch?",
+      "options": [
+        "Er taucht von einer Sitzwarte aus nach dem Fisch.",
+        "Mit seinen Pfoten filtert es den Schlamm",
+        "Er fängt Fische in den Bäumen",
+        "Er verfolgt ihn lange Zeit beim Schwimmen unter Wasser"
+      ],
+      "explanation": "Der Eisvogel beobachtet das Wasser von einer Sitzwarte und taucht dann hinab, um seine Beute zu fangen.",
+      "didYouKnow": "Er gräbt seinen Bruttunnel in ein Ufer oder eine andere steile Erdwand.",
+      "imageCaption": "Europäischer Eisvogel"
+    },
+    {
+      "id": "birds-014",
+      "animal": "Saatkrähe",
+      "prompt": "Welche Fähigkeit wurde bei mehreren Rabenvogelarten beobachtet?",
+      "options": [
+        "Verwenden oder modifizieren Sie Gegenstände, um an Nahrung zu gelangen",
+        "Produzieren Sie Milch für ihre Küken",
+        "Dank ihrer Federn atmen sie unter Wasser",
+        "Wachsende Samen in Hohlräumen"
+      ],
+      "explanation": "Rabenvögel benutzen manchmal Werkzeuge, um an Nahrung zu gelangen, die sonst schwer zugänglich wäre.",
+      "didYouKnow": "Zur Familie der Rabenvögel gehören Raben, Krähen und Eichelhäher.",
+      "imageCaption": "Saatkrähe"
+    },
+    {
+      "id": "birds-015",
+      "animal": "Eichelhäher",
+      "prompt": "Welche Rolle kann der Eichenhäher bei der Waldverjüngung spielen?",
+      "options": [
+        "Verstreue Eicheln, die er versteckt hat",
+        "Bestäuben Sie Eichen, indem Sie ihren Saft trinken",
+        "Hohlräume graben, in denen unter Wasser Eicheln keimen",
+        "Verhindern Sie, dass Eicheln von Bäumen fallen"
+      ],
+      "explanation": "In seinen Verstecken vergessene Eicheln können weit vom Mutterbaum entfernt keimen.",
+      "didYouKnow": "Der Eichenhäher hat einen gestreiften blauen Fleck auf dem Flügel, der in seinem braunen Gefieder deutlich sichtbar ist.",
+      "imageCaption": "Eichelhäher"
+    },
+    {
+      "id": "birds-016",
+      "animal": "Kohlmeise",
+      "prompt": "Wo suchen Kohlmeisen oft nach kleinen Insekten?",
+      "options": [
+        "In den Ritzen und unter den Blättern",
+        "Am Grund tiefer Seen",
+        "In den Höhlen großer Säugetiere",
+        "Unter dem Sand der Strände"
+      ],
+      "explanation": "Sie erkundet die Äste und das Laubwerk auf der Suche nach kleinen Wirbellosen.",
+      "didYouKnow": "Auch im Winter sucht sie gerne Fressplätze auf.",
+      "imageCaption": "Kohlmeise"
+    },
+    {
+      "id": "birds-017",
+      "animal": "Rotkehlchen",
+      "prompt": "Warum folgt das Rotkehlchen manchmal einem Menschen, der die Erde umwälzt?",
+      "options": [
+        "Aufgewühlter Boden kann Würmer und andere Wirbellose zum Vorschein bringen",
+        "Das Geräusch der Schaufel lockt Fische an die Oberfläche",
+        "Er erntet die von den Werkzeugen gesäten Samen",
+        "Er benutzt die Schaufel, um sein Nest zu bauen"
+      ],
+      "explanation": "Die Bearbeitung des Bodens macht manchmal kleine, in der Erde versteckte Beutetiere zugänglich.",
+      "didYouKnow": "Das Rotkehlchen verteidigt sein Revier oft gegen Artgenossen.",
+      "imageCaption": "Rotkehlchen"
+    },
+    {
+      "id": "birds-018",
+      "animal": "Schleiereule",
+      "prompt": "Welche Struktur hilft der Schleiereule, Geräusche aufzunehmen?",
+      "options": [
+        "Seine Gesichtsscheibe, die Geräusche zu den Ohren leitet",
+        "Ein Kamm, der wie eine Antenne vibriert",
+        "Eine transparente Membran am Schnabel",
+        "Steife Federn unter den Beinen"
+      ],
+      "explanation": "Die Form der Gesichtsscheibe hilft dabei, Geräusche zu ihren Ohren zu leiten.",
+      "didYouKnow": "Dank der besonderen Struktur seiner Federn ist sein Flug geräuschlos.",
+      "imageCaption": "Schleiereule"
+    },
+    {
+      "id": "birds-019",
+      "animal": "Wanderfalke",
+      "prompt": "Welche Jagdtaktik ist beim Wanderfalken berühmt?",
+      "options": [
+        "Springe schnell aus der Luft, um einen Vogel abzufangen",
+        "Verfolgen Sie Ihre Beute lange Zeit unter Wasser",
+        "Baue eine Falle aus Zweigen",
+        "Jagen Sie, indem Sie Ihre Beute in Gruppen am Boden umzingeln"
+      ],
+      "explanation": "Der Wanderfalke kann aus der Luft fliegen, um fliegende Vögel abzufangen.",
+      "didYouKnow": "Es nistet auf Klippen und manchmal auf hohen Gebäuden in der Stadt.",
+      "imageCaption": "Wanderfalke"
+    },
+    {
+      "id": "birds-020",
+      "animal": "Mäusebussard",
+      "prompt": "Welche Beute fängt der Mäusebussard häufig in offenen Landschaften?",
+      "options": [
+        "Kleine Säugetiere wie Wühlmäuse",
+        "Quallen und kleine Krebstiere",
+        "Aus Blumen gesammelter Nektar",
+        "Aus den Zapfen gewonnene Samen"
+      ],
+      "explanation": "Seine Ernährung ist opportunistisch, aber kleine Säugetiere stellen oft eine wichtige Beute dar.",
+      "didYouKnow": "Es kann im Kreis über seinem Revier schweben.",
+      "imageCaption": "Mäusebussard"
+    },
+    {
+      "id": "birds-021",
+      "animal": "Gänsegeier",
+      "prompt": "Welche ökologische Rolle erfüllt der Gänsegeier?",
+      "options": [
+        "Verbrauchen Sie Schlachtkörper und beschleunigen Sie deren Recycling",
+        "Verstreuen Sie Eicheln, indem Sie sie verstecken",
+        "Reinigung lebender Fischschuppen",
+        "Klippenblumen bestäuben"
+      ],
+      "explanation": "Durch den Verzehr von Schlachtkörpern trägt es zum Recycling organischer Stoffe bei.",
+      "didYouKnow": "Der Gänsegeier kann Aufwinde zum Gleiten nutzen, ohne ständig mit den Flügeln zu schlagen.",
+      "imageCaption": "Gänsegeier"
+    },
+    {
+      "id": "birds-022",
+      "animal": "Seidenreiher",
+      "prompt": "Wie fangen Seidenreiher häufig Beute im seichten Wasser?",
+      "options": [
+        "Sie beobachtet oder rührt das Wasser, um Beute hervorzubringen",
+        "Sie fängt Insekten mit einem Netz",
+        "Sie taucht aus großer Höhe",
+        "Es gräbt einen Bau, um Fische zu fangen."
+      ],
+      "explanation": "Es jagt Fische und Wirbellose in flachen Feuchtgebieten.",
+      "didYouKnow": "Seine gelben Finger stehen im Kontrast zu seinen dunklen Pfoten.",
+      "imageCaption": "Seidenreiher"
+    },
+    {
+      "id": "birds-023",
+      "animal": "Graureiher",
+      "prompt": "Wie fängt der Graureiher oft einen Fisch?",
+      "options": [
+        "Es bleibt regungslos stehen und streckt dann schnell seinen Schnabel aus",
+        "Es filtert das Wasser mit Lamellen",
+        "Es saugt den Fisch mit seinen Federn",
+        "Er umschließt es mit seinem Hals, bevor er es ergreift"
+      ],
+      "explanation": "Der Reiher jagt oft auf der Lauer und schnappt sich schnell Fische mit seinem Schnabel.",
+      "didYouKnow": "Es kann auch auf Feldern fernab von Wasser nach Beute suchen.",
+      "imageCaption": "Graureiher"
+    },
+    {
+      "id": "birds-024",
+      "animal": "Gemeiner Kranich",
+      "prompt": "Wofür können Kranich-Tänze verwendet werden?",
+      "options": [
+        "Sozialen Kontakten und Balz.",
+        "Einen Schlammdamm bauen",
+        "Fütterung erwachsener Fische",
+        "Damit das Nest schwimmt"
+      ],
+      "explanation": "Sprünge und Flügelbewegungen gehören zu den sozialen Darbietungen und Interaktionen der Kraniche.",
+      "didYouKnow": "Kraniche bilden oft langjährige Paarbindungen.",
+      "imageCaption": "Gemeiner Kranich"
+    },
+    {
+      "id": "birds-025",
+      "animal": "Pfau",
+      "prompt": "Was ist der Hauptzweck des langen Schwanzes des männlichen Pfaus?",
+      "options": [
+        "Bei der Balz",
+        "Einen Bau graben",
+        "Über dem Meer schweben",
+        "Zur Regulierung Ihrer Temperatur beim Schwimmen"
+      ],
+      "explanation": "Das Männchen zeigt seine bunten Federn bei Präsentationen, die für Partner bestimmt sind.",
+      "didYouKnow": "Der Blaue Pfau ernährt sich am Boden von einer Vielzahl von Nahrungsmitteln, darunter Samen, Früchte und Kleintiere.",
+      "imageCaption": "Pfau"
+    },
+    {
+      "id": "birds-026",
+      "animal": "Strauß",
+      "prompt": "Wer ist normalerweise über Nacht am Ausbrüten von Straußeneiern beteiligt?",
+      "options": [
+        "Das Männchen.",
+        "Das Weibchen allein",
+        "Beide Elternteile nebeneinander",
+        "Ein weiterer Mann in der Gruppe"
+      ],
+      "explanation": "Das Männchen brütet gewöhnlich nachts; tagsüber übernimmt überwiegend das Weibchen.",
+      "didYouKnow": "Straußenküken können das Nest kurz nach dem Schlüpfen verlassen.",
+      "imageCaption": "Strauß"
+    },
+    {
+      "id": "birds-027",
+      "animal": "Felsentaube",
+      "prompt": "Welche Hinweise kann eine Taube kombinieren, um ihren Schlag zu finden?",
+      "options": [
+        "Visuelle Hinweise und Hinweise im Zusammenhang mit der Sonne oder dem Magnetfeld",
+        "Nur der Duft von Blumen",
+        "Die Fußabdrücke, die seine Artgenossen hinterlassen",
+        "Von Gebäuden ausgesendeter Ultraschall"
+      ],
+      "explanation": "Die Orientierung von Tauben kann mehrere Umweltreize anstelle eines einzelnen Reizes mobilisieren.",
+      "didYouKnow": "Stadttauben stammen von domestizierten Felsentauben ab.",
+      "imageCaption": "Felsentaube"
+    },
+    {
+      "id": "birds-028",
+      "animal": "Türkentaube",
+      "prompt": "Wovon ernährt sich die Türkentaube hauptsächlich?",
+      "options": [
+        "Aus Samen",
+        "Qualle",
+        "Lebendiges Holz",
+        "Meeresmollusken"
+      ],
+      "explanation": "Er frisst hauptsächlich Samen und hält sich häufig in bewohnten Gebieten auf.",
+      "didYouKnow": "Ihr schwarzer Kragen um ihren Hals hilft, sie zu erkennen.",
+      "imageCaption": "Türkentaube"
+    },
+    {
+      "id": "birds-029",
+      "animal": "Kiebitz",
+      "prompt": "Wie kann der Kiebitz ein Raubtier aus seinem Nest locken?",
+      "options": [
+        "Durch die Simulation von Verletzungsverhalten",
+        "Indem er mit seinem Schnabel Steine wirft",
+        "Indem man die Eier mit leuchtenden Federn bedeckt",
+        "Indem man ein Raubtier ruft"
+      ],
+      "explanation": "Ein Erwachsener kann durch Ablenkungsmanöver die Aufmerksamkeit abseits des Nestes auf sich ziehen.",
+      "didYouKnow": "Er hält sich häufig auf feuchten Wiesen und Feldern auf.",
+      "imageCaption": "Kiebitz"
+    },
+    {
+      "id": "birds-030",
+      "animal": "Alpenstrandläufer",
+      "prompt": "Welchen Zweck hat der Schnabel des Flussuferläufers, wenn er im Schlamm nach Nahrung sucht?",
+      "options": [
+        "Untersuchen Sie den Untergrund, um kleine Wirbellose zu finden",
+        "Harte Nüsse knacken",
+        "Um Ihre Küken im Flug zu tragen",
+        "Algen aus der Luft filtern"
+      ],
+      "explanation": "Sein Schnabel erkundet den Schlamm, in dem sich kleine Tiere verstecken.",
+      "didYouKnow": "Während der Wanderung kann sich der Alpenstrandläufer in großen Gruppen im Watt versammeln.",
+      "imageCaption": "Alpenstrandläufer"
+    },
+    {
+      "id": "birds-031",
+      "animal": "Austernfischer",
+      "prompt": "Wie öffnet der Austernfischer bestimmte geschälte Beutetiere?",
+      "options": [
+        "Mit seinem kräftigen Schnabel können Sie sie öffnen oder untersuchen",
+        "Durch das Auflösen der Schale mit Gift",
+        "Indem man die Schale mit den Flügeln zerbricht",
+        "Durch das Verschlucken von Steinen öffnet sich dieser im Kropf"
+      ],
+      "explanation": "Mit seinem Schnabel können Sie je nach verwendeter Technik Weichtiere öffnen oder nach Würmern suchen.",
+      "didYouKnow": "Der Austernfischer hat einen langen orangeroten Schnabel und gleichfarbige Beine.",
+      "imageCaption": "Austernfischer"
+    },
+    {
+      "id": "birds-032",
+      "animal": "Säbelschnäbler",
+      "prompt": "Wie fängt der Säbelschnäbler oft kleine Beute?",
+      "options": [
+        "Mit seinem nach oben gebogenen Schnabel fegt er über seichtes Wasser.",
+        "Sie taucht aus der Luft in große Tiefen",
+        "Sie gräbt die Stämme mit ihren Pfoten um",
+        "Sie fängt Insekten mit einer klebrigen Zunge"
+      ],
+      "explanation": "Er bewegt seinen Schnabel im seichten Wasser, um kleine Wirbellose zu fangen.",
+      "didYouKnow": "Der Säbelschnäbler baut sein Nest in einer kleinen Vertiefung am Boden, oft in der Nähe einer feuchten Stelle.",
+      "imageCaption": "Säbelschnäbler"
+    },
+    {
+      "id": "birds-033",
+      "animal": "Lachmöwe",
+      "prompt": "Warum wechseln Lachmöwen oft ihr Futtergebiet?",
+      "options": [
+        "Je nach Verfügbarkeit werden unterschiedliche Ressourcen genutzt",
+        "Es kommt immer auf eine einzelne Fischart an",
+        "Sie kann nur bei Flut essen",
+        "Es ernährt sich ausschließlich von Schilfsamen."
+      ],
+      "explanation": "Diese opportunistische Art sucht sowohl im Wasser als auch an Land nach Nahrung.",
+      "didYouKnow": "Sein braunes Fell kommt vor allem während der Brutzeit zum Vorschein.",
+      "imageCaption": "Lachmöwe"
+    },
+    {
+      "id": "birds-034",
+      "animal": "Silbermöwe",
+      "prompt": "Welches Verhalten könnte eine Silbermöwe anwenden, um eine Muschel zu öffnen?",
+      "options": [
+        "Indem sie es auf einen harten Untergrund fallen lässt.",
+        "Bedecken Sie es mit Sand",
+        "Reibe es an einer Feder",
+        "Lassen Sie es schweben, bis es sich öffnet"
+      ],
+      "explanation": "Manche Möwen lassen hartschalige Beute auf festen Boden fallen, um die Schale zu öffnen.",
+      "didYouKnow": "Silbermöwen können Süß- und Salzwasser trinken; Salzdrüsen scheiden überschüssiges Salz aus.",
+      "imageCaption": "Silbermöwe"
+    },
+    {
+      "id": "birds-035",
+      "animal": "Küstenseeschwalbe",
+      "prompt": "Zwischen welchen Regionen wandern Küstenseeschwalben häufig?",
+      "options": [
+        "Die Arktis und Antarktis",
+        "Die Alpen und die Pyrenäen",
+        "Das Mittelmeer und das Schwarze Meer",
+        "Die Sahara und der Amazonaswald"
+      ],
+      "explanation": "Es wandert zwischen arktischen Brutgebieten und antarktischen Nichtbrutgebieten.",
+      "didYouKnow": "Die Küstenseeschwalbe nistet häufig am Boden, in Küstennähe oder auf Inseln.",
+      "imageCaption": "Küstenseeschwalbe"
+    },
+    {
+      "id": "birds-036",
+      "animal": "Papageitaucher",
+      "prompt": "Wie tragen Papageientaucher manchmal mehrere Fische?",
+      "options": [
+        "Er hält sie quer über seinen Schnabel",
+        "Er verstaut sie in einer Bauchtasche",
+        "Er befestigt sie an seinen Pfoten",
+        "Es speichert sie in seinen Schwanzfedern"
+      ],
+      "explanation": "Rauheiten im Schnabel helfen dem Papageientaucher, mehrere kleine Fische zu halten.",
+      "didYouKnow": "Es gräbt seinen Brutbau oft in weichem Boden.",
+      "imageCaption": "Papageitaucher"
+    },
+    {
+      "id": "birds-037",
+      "animal": "Krähenscharbe",
+      "prompt": "Warum taucht der Shag unter Wasser?",
+      "options": [
+        "Fischen nachjagen",
+        "Zum Sammeln von Pollen von Wasserpflanzen",
+        "In einer überfluteten Höhle atmen",
+        "Um sein Nest auf dem Meeresgrund zu bauen"
+      ],
+      "explanation": "Seine mit Schwimmhäuten versehenen Füße treiben ihn an, wenn er Fische unter der Wasseroberfläche jagt.",
+      "didYouKnow": "Seine mit Schwimmhäuten versehenen Finger helfen ihm, sich unter Wasser fortzubewegen.",
+      "imageCaption": "Krähenscharbe"
+    },
+    {
+      "id": "birds-038",
+      "animal": "Basstölpel",
+      "prompt": "Wie fangen Basstölpel häufig Fische?",
+      "options": [
+        "Aus der Luft ins Meer eintauchen",
+        "Indem er den Schlamm mit seinem Schnabel filtert",
+        "Durch den Bau von Nestern unter Wasser",
+        "Beim Angeln mit einem Zweig"
+      ],
+      "explanation": "Er entdeckt Fische und taucht dann ins Wasser, um sie zu fangen.",
+      "didYouKnow": "Basstölpel brüten oft in sehr dichten Kolonien auf Klippen oder Inselchen.",
+      "imageCaption": "Basstölpel"
+    },
+    {
+      "id": "birds-039",
+      "animal": "Tordalk",
+      "prompt": "Was sind die Hauptzwecke der Flügel des Torda-Pinguins unter Wasser?",
+      "options": [
+        "Zur Fortbewegung unter Wasser.",
+        "Löcher ins Eis graben",
+        "Um Plankton zu filtern",
+        "Um die Eier zu tragen"
+      ],
+      "explanation": "Beim Tauchen dienen die kurzen, steifen Flügel des Tordalks wie Flossen.",
+      "didYouKnow": "Tordalken gehören zur Familie der Alken und brüten an Küsten des Nordatlantiks.",
+      "imageCaption": "Tordalk"
+    },
+    {
+      "id": "birds-040",
+      "animal": "Haubentaucher",
+      "prompt": "Wie transportiert der Haubentaucher manchmal seine Küken?",
+      "options": [
+        "Auf dem Rücken, zwischen seinen Federn",
+        "In einer Tasche seines Schnabels",
+        "Klammert sich im Flug an seine Flügel",
+        "Unter seinen Pfoten beim Schwimmen"
+      ],
+      "explanation": "Junge Haubentaucher können auf dem Rücken eines schwimmenden Elternteils reiten.",
+      "didYouKnow": "Seine Hinterpfoten helfen ihm beim Schwimmen, machen das Gehen jedoch schwerfällig.",
+      "imageCaption": "Haubentaucher"
+    },
+    {
+      "id": "birds-041",
+      "animal": "Blässhuhn",
+      "prompt": "Welches Merkmal unterscheidet Blässhühner oft von vielen Enten?",
+      "options": [
+        "Es sind eher gelappte Finger als breite Schwimmhäute",
+        "Sein Schnabel war gebogen wie der eines Raubvogels",
+        "Kiemen unter den Flügeln versteckt",
+        "Ein Greifschwanz"
+      ],
+      "explanation": "Die Hautlappen an seinen Fingern helfen beim Schwimmen und Gehen auf nasser Vegetation.",
+      "didYouKnow": "Sein weißer Schnabel und seine Stirn sind weithin sichtbar.",
+      "imageCaption": "Blässhuhn"
+    },
+    {
+      "id": "birds-042",
+      "animal": "Europäischer Eisvogel",
+      "prompt": "Warum muss der Eisvogel beim Tauchen die Lichtbrechung berücksichtigen?",
+      "options": [
+        "Licht verändert das Erscheinungsbild der Beuteposition, wenn es durch Wasser geht",
+        "Er muss in völliger Dunkelheit sehen",
+        "Er sieht den Fisch durch die Felsen",
+        "Es lokalisiert Beute durch Echoortung"
+      ],
+      "explanation": "Der Übergang von Luft zu Wasser lenkt Licht ab, wodurch sich das Bild der Beute verschiebt.",
+      "didYouKnow": "Einige Eisvogelarten jagen auch terrestrische Beute.",
+      "imageCaption": "Europäischer Eisvogel"
+    },
+    {
+      "id": "birds-043",
+      "animal": "Europäischer Bienenfresser",
+      "prompt": "Wie beseitigt der Bienenfresser häufig den Stachel einer gefangenen Biene?",
+      "options": [
+        "Es schlägt oder reibt das Insekt gegen eine Sitzstange",
+        "Er bläst darauf, bis der Stachel abfällt",
+        "Er taucht es in Salzwasser",
+        "Er bittet einen anderen Vogel, es wegzunehmen"
+      ],
+      "explanation": "Es kann sein, dass das Insekt an einer Unterlage gerieben wird, bevor es verschluckt wird.",
+      "didYouKnow": "Der Europäische Bienenfresser wandert zum Überwintern nach Afrika südlich der Sahara.",
+      "imageCaption": "Europäischer Bienenfresser"
+    },
+    {
+      "id": "birds-044",
+      "animal": "Europäischer Roller",
+      "prompt": "Wo nistet die Blauracke oft?",
+      "options": [
+        "In einer Höhle, manchmal einem alten Baumloch",
+        "In einem Spinnennetz",
+        "Unter Wasser zwischen Wurzeln",
+        "In einem schwimmenden Schilfnest"
+      ],
+      "explanation": "Zur Fortpflanzung nutzt es natürliche oder von anderen Arten gegrabene Höhlen.",
+      "didYouKnow": "Es jagt häufig von einer offenen Sitzstange aus.",
+      "imageCaption": "Europäischer Roller"
+    },
+    {
+      "id": "birds-045",
+      "animal": "Wiedehopf",
+      "prompt": "Wie finden Wiedehopfe oft Insekten im Boden?",
+      "options": [
+        "Mit seinem langen Schnabel tastet er den Untergrund ab",
+        "Mit seinem Gefieder filtert er das Wasser",
+        "Sie gräbt mit ihren Flügeln",
+        "Sie nutzt Echoortung"
+      ],
+      "explanation": "Es gräbt seinen Schnabel in die Erde oder tote Blätter, um nach Wirbellosen zu suchen.",
+      "didYouKnow": "Sein Wappen kann aufgefächert werden, wenn es aufgeregt oder zur Schau gestellt wird.",
+      "imageCaption": "Wiedehopf"
+    },
+    {
+      "id": "birds-046",
+      "animal": "Kuckuck",
+      "prompt": "Welche Fortpflanzungsstrategie zeichnet den Grauen Kuckuck aus?",
+      "options": [
+        "Es legt oft Eier in das Nest einer anderen Art",
+        "Er zieht immer alleine eine große Kolonie auf",
+        "Es legt seine Eier ohne Nest in Bäumen ab.",
+        "Es füttert Küken anderer Arten unter Wasser"
+      ],
+      "explanation": "Der Graue Kuckuck betreibt Brutparasitismus: Wirte bebrüten seine Eier und ziehen oft die Jungen groß.",
+      "didYouKnow": "Der ausgewachsene graue Kuckuck frisst vor allem Raupen, darunter auch haarige Arten.",
+      "imageCaption": "Kuckuck"
+    },
+    {
+      "id": "birds-047",
+      "animal": "Europäischer Pirol",
+      "prompt": "Welche Art von Nest baut der Pirol oft?",
+      "options": [
+        "Eine Tasse hängt in der Astgabel",
+        "Ein Bau in einer Düne",
+        "Ein mit Wasser gefüllter Hohlraum",
+        "Ein schwimmendes Nest, das an einem Fisch befestigt ist"
+      ],
+      "explanation": "Das Weibchen baut ein becherförmiges Nest, das oft zwischen Zweigen aufgehängt ist.",
+      "didYouKnow": "Das leuchtend gelbe Männchen kann im Laub schwer zu erkennen sein.",
+      "imageCaption": "Europäischer Pirol"
+    },
+    {
+      "id": "birds-048",
+      "animal": "Amsel",
+      "prompt": "Wie suchen Amseln häufig nach Würmern?",
+      "options": [
+        "Er sucht den Boden ab, beobachtet und hört zu",
+        "Es taucht unter die Blätter, um sie aufzusaugen",
+        "Dabei kommt Ultraschall zum Einsatz",
+        "Mit geschlossenem Schnabel folgt es den Wurzeln"
+      ],
+      "explanation": "Es sucht am Boden und kann seine Beute durch seine Sinne und Beobachtung erkennen.",
+      "didYouKnow": "Er kann einen Stein als Amboss benutzen, um bestimmte Schnecken zu zerbrechen.",
+      "imageCaption": "Amsel"
+    },
+    {
+      "id": "birds-049",
+      "animal": "Singdrossel",
+      "prompt": "Warum schlägt die Singdrossel manchmal eine Schnecke gegen einen Stein?",
+      "options": [
+        "Um seine Hülle zu brechen und Zugang zum Körper zu erhalten",
+        "Zum Trocknen der Schale",
+        "Um Fische anzulocken",
+        "Um Ihr Nest zu dekorieren"
+      ],
+      "explanation": "Manchmal benutzt sie einen Stein als Amboss, um bestimmte Schnecken zu öffnen.",
+      "didYouKnow": "Die Singdrossel produziert einen abwechslungsreichen Gesang, der oft zu Beginn der Brutzeit zu hören ist.",
+      "imageCaption": "Singdrossel"
+    },
+    {
+      "id": "birds-050",
+      "animal": "Europäischer Star",
+      "prompt": "Wie koordinieren Stare ihre großen Gruppenflüge?",
+      "options": [
+        "Jeder Vogel passt seine Bewegungen abhängig von seinen Nachbarn an",
+        "Ein Anführer gibt der gesamten Herde Befehle",
+        "Vögel sind durch unsichtbare Fäden verbunden",
+        "Sie folgen lediglich dem Gravitationsfeld"
+      ],
+      "explanation": "Richtungsänderungen entstehen durch schnelle Reaktionen zwischen nahestehenden Personen.",
+      "didYouKnow": "Stare versammeln sich in der Abenddämmerung auch in gemeinsamen Schlafplätzen.",
+      "imageCaption": "Europäischer Star"
+    },
+    {
+      "id": "birds-051",
+      "animal": "Nördlicher Kardinal",
+      "prompt": "Welcher Unterschied im Gefieder unterscheidet im Allgemeinen die Geschlechter des nördlichen Kardinals?",
+      "options": [
+        "Das Männchen ist leuchtend rot und das Weibchen eher bräunlich",
+        "Das Weibchen ist leuchtend rot und das Männchen ganz braun.",
+        "Das Männchen ist weiß und das Weibchen schwarz",
+        "Beide Geschlechter sind immer gleich"
+      ],
+      "explanation": "Das Männchen ist leuchtend rot, während das Weibchen überwiegend bräunlich mit roten Akzenten ist.",
+      "didYouKnow": "Im Gegensatz zu den Weibchen vieler Singvögel der gemäßigten Klimazonen singen auch weibliche Kardinäle.",
+      "imageCaption": "Nördlicher Kardinal"
+    },
+    {
+      "id": "birds-052",
+      "animal": "Spottdrossel",
+      "prompt": "Warum hat die polyglotte Spottdrossel diesen Namen?",
+      "options": [
+        "Es imitiert die Lieder und Schreie anderer Arten",
+        "Es erzeugt Geräusche unter Wasser",
+        "Es verfügt über mehrere unabhängige Syrinxen",
+        "Er singt nur im Duett"
+      ],
+      "explanation": "In seinen Gesang integrieren sie häufig Geräusche, die sie von anderen Vögeln hören.",
+      "didYouKnow": "Beim Wegfliegen werden weiße Flecken auf seinen Flügeln sichtbar.",
+      "imageCaption": "Spottdrossel"
+    },
+    {
+      "id": "birds-053",
+      "animal": "Hervorragender Leiervogel",
+      "prompt": "Welche Stimmfähigkeit ist beim Prachtleiervogel bemerkenswert?",
+      "options": [
+        "Imitieren Sie eine Vielzahl gehörter Geräusche",
+        "Singen Sie unter Wasser, ohne zu atmen",
+        "Produzieren Sie Ultraschall, um zu jagen",
+        "Sprechen Sie mit verständlichen menschlichen Sätzen"
+      ],
+      "explanation": "Es kann den Gesang anderer Vögel und Geräusche aus seiner Umgebung imitieren.",
+      "didYouKnow": "Der Schwanz des Männchens fächert sich während der Zurschaustellung auf.",
+      "imageCaption": "Hervorragender Leiervogel"
+    },
+    {
+      "id": "birds-054",
+      "animal": "Nashornvogel",
+      "prompt": "Welche Rolle könnte der Helm des Nashornvogels spielen?",
+      "options": [
+        "Beteiligen Sie sich am Echo von Aufrufen und Paraden",
+        "Dient als Tasche zum Tragen von Küken",
+        "Regenwasser filtern",
+        "Lassen Sie unter der Erde atmen"
+      ],
+      "explanation": "Der Hohlhelm kann die Resonanz von Lautäußerungen beeinflussen und ist an Darstellungen beteiligt.",
+      "didYouKnow": "Während der Brutzeit bleibt das Weibchen in der Höhle mit verkleinerter Öffnung.",
+      "imageCaption": "Nashornvogel"
+    },
+    {
+      "id": "birds-055",
+      "animal": "Tukan Toco",
+      "prompt": "Wie könnte der große Schnabel des Riesentukans zu seiner Thermoregulation beitragen?",
+      "options": [
+        "Durch die Teilnahme am Wärmeaustausch mit der Umwelt",
+        "Durch die Speicherung von heißem Wasser",
+        "Indem durch Vibration ein Luftstrom erzeugt wird",
+        "Seine Augen vor der Sonne bedecken"
+      ],
+      "explanation": "Der reich vaskularisierte Schnabel kann bei schwankendem Blutfluss zur Wärmeableitung beitragen.",
+      "didYouKnow": "Wie viele Klettervögel hat der Tukan zwei Zehen, die nach vorne und zwei nach hinten zeigen.",
+      "imageCaption": "Tukan Toco"
+    },
+    {
+      "id": "birds-056",
+      "animal": "Wellensittich",
+      "prompt": "Wie reagieren wilde Wellensittiche häufig auf Regen in trockenen Gebieten?",
+      "options": [
+        "Sie ziehen in Gebiete, in denen Wasser und Samen verfügbar sind",
+        "Sie vergraben sich bis zur Trockenzeit im Sand",
+        "Sie alle wandern in Richtung der Küsten",
+        "Sie hören mehrere Wochen lang auf zu fressen"
+      ],
+      "explanation": "Ihr Nomadentum führt sie zu temporären Ressourcen, die nach dem Regen entstehen.",
+      "didYouKnow": "Sie nisten in Höhlen, insbesondere in Bäumen.",
+      "imageCaption": "Wellensittich"
+    },
+    {
+      "id": "birds-057",
+      "animal": "Kakapo",
+      "prompt": "Welche Eigenschaft unterscheidet den Kakapo von den meisten Papageien?",
+      "options": [
+        "Es ist nachtaktiv und nicht flugfähig",
+        "Es lebt ausschließlich auf See",
+        "Es hat Kiemen",
+        "Es wandert jeden Winter in die Antarktis"
+      ],
+      "explanation": "Der Kakapo ist ein landlebender, nachtaktiver, flugunfähiger Papagei.",
+      "didYouKnow": "Männliche Kakapos geben laute, tiefe Rufe von sich, um Partner aus ihren Schauplätzen anzulocken.",
+      "imageCaption": "Kakapo"
+    },
+    {
+      "id": "birds-058",
+      "animal": "Braune Kiwi",
+      "prompt": "Wie finden Kiwis häufig Wirbellose im Bodenabfall?",
+      "options": [
+        "Dank seiner Nasenlöcher am Ende des Schnabels",
+        "Mit Vibrissen unter den Flügeln",
+        "Durch die Erkennung des Infrarotlichts seiner Eier",
+        "Zuhören, wie die Wurzeln wachsen"
+      ],
+      "explanation": "Seine Nasenlöcher und sein Geruchssinn helfen ihm, Beute im Boden zu finden.",
+      "didYouKnow": "Kiwis legen Eier, die im Verhältnis zu ihrem Körper sehr groß sind.",
+      "imageCaption": "Braune Kiwi"
+    },
+    {
+      "id": "birds-059",
+      "animal": "Behelmter Kasuar",
+      "prompt": "Was ist der Hauptlebensraum des Helmkasuars?",
+      "options": [
+        "Die tropischen Wälder Neuguineas und Nordostaustraliens",
+        "Antarktische Eisschollen",
+        "Wüsten in großer Höhe",
+        "Korallenriffe"
+      ],
+      "explanation": "Er lebt in tropischen Wäldern und frisst dort gefallene Früchte.",
+      "didYouKnow": "Der Kasuar hat leuchtend farbige Bereiche nackter Haut am Hals, vor allem blau und rot.",
+      "imageCaption": "Behelmter Kasuar"
+    },
+    {
+      "id": "birds-060",
+      "animal": "Emu",
+      "prompt": "Welche Farbe haben Emu-Eier normalerweise?",
+      "options": [
+        "Dunkelgrün",
+        "Hellblau",
+        "Weiß mit roten Flecken",
+        "Leuchtendes Gelb"
+      ],
+      "explanation": "Die Schale von Emu-Eiern ist charakteristisch dunkelgrün.",
+      "didYouKnow": "Das Brüten übernimmt in der Regel das Männchen.",
+      "imageCaption": "Emu"
+    },
+    {
+      "id": "birds-061",
+      "animal": "Hoazin",
+      "prompt": "Wie verdaut der Hoazin eine große Menge Blätter?",
+      "options": [
+        "Durch mikrobielle Fermentation in einem vergrößerten Teil der Speiseröhre",
+        "Mit einem Magen voller Fische",
+        "Durch Verschlucken erhitzter Steine",
+        "Durch die Umwandlung der Blätter in Nektar"
+      ],
+      "explanation": "Die mikrobielle Fermentation im Kropf und in der Speiseröhre trägt zum Abbau der Pflanzen bei.",
+      "didYouKnow": "Der Hoazin lebt in den Auwäldern und Auen des Amazonas- und Orinoco-Beckens.",
+      "imageCaption": "Hoazin"
+    },
+    {
+      "id": "birds-062",
+      "animal": "Rotschwanzkakadu",
+      "prompt": "Womit öffnet der Rotschwanzkakadu oft holzige Früchte?",
+      "options": [
+        "Sein kräftiger Schnabel",
+        "Seine Schwimmfüße",
+        "Eine erweiterbare Tasche unter dem Auslauf",
+        "An seinem Hals befindet sich eine Klaue"
+      ],
+      "explanation": "Sein robuster Schnabel ermöglicht es ihm, widerstandsfähige Samen und Früchte zu schälen.",
+      "didYouKnow": "Weibchen und Männchen haben unterschiedliche Gefiederzeichnungen.",
+      "imageCaption": "Rotschwanzkakadu"
+    },
+    {
+      "id": "birds-063",
+      "animal": "Regenbogen-Lorikeet",
+      "prompt": "Wie ist die Zunge des Regenbogen-Loris an die Aufnahme von Nektar angepasst?",
+      "options": [
+        "Sein Ende trägt bürstenförmige Papillen",
+        "Es ist hohl wie ein starrer Strohhalm",
+        "Es ist in vier Schnäbel unterteilt",
+        "Sie trägt Haken, um Fische zu fangen"
+      ],
+      "explanation": "Die Geschmacksknospen auf seiner Zunge sammeln Nektar und Pollen von Blüten.",
+      "didYouKnow": "Regenbogen-Loris sieht man oft in lärmenden Gruppen auf Bäumen.",
+      "imageCaption": "Regenbogen-Lorikeet"
+    },
+    {
+      "id": "birds-064",
+      "animal": "Hyazinthenara",
+      "prompt": "Welche Nahrung kann der Hyazinthenara mit seinem kräftigen Schnabel zerbrechen?",
+      "options": [
+        "Palmnüsse",
+        "Riesige Schildkröteneier",
+        "Riffmuscheln",
+        "Vulkansteine"
+      ],
+      "explanation": "Sein kräftiger Schnabel öffnet sehr harte Nüsse und Palmkerne.",
+      "didYouKnow": "Der Hyazinthenara nistet in Höhlen großer Bäume, insbesondere Palmen.",
+      "imageCaption": "Hyazinthenara"
+    },
+    {
+      "id": "birds-065",
+      "animal": "Eclectus-Papagei",
+      "prompt": "Welchen Farbunterschied gibt es zwischen den Geschlechtern des Edelpapageis?",
+      "options": [
+        "Das Männchen ist grün und das Weibchen überwiegend rot und blau",
+        "Das Männchen ist blau und das Weibchen weiß",
+        "Beide Geschlechter sind komplett schwarz",
+        "Das Weibchen ist grün und das Männchen rot"
+      ],
+      "explanation": "Der Dimorphismus ist ausgeprägt: Das Männchen ist grün, während das Weibchen rot und blau ist.",
+      "didYouKnow": "Der Edelpapagei nistet in einer hohen Höhle, zu der das Weibchen manchmal den Zugang gegen andere Weibchen verteidigt.",
+      "imageCaption": "Eclectus-Papagei"
+    },
+    {
+      "id": "birds-066",
+      "animal": "Fischerköpfchen",
+      "prompt": "Wie transportiert ein Fischer-Lovebird manchmal Material für sein Nest?",
+      "options": [
+        "Er fängt es in den Federn seines Hinterteils ein",
+        "Er trägt es in einer Tasche unter seiner Zunge",
+        "Er bindet es mit einem Faden zusammen, den er herstellt",
+        "Er trägt es mit seinen Hinterfingern"
+      ],
+      "explanation": "Es kann in den Rumpffedern steckende Pflanzenstreifen tragen.",
+      "didYouKnow": "Fischers Turteltaube stammt aus Ostafrika.",
+      "imageCaption": "Fischerköpfchen"
+    },
+    {
+      "id": "birds-067",
+      "animal": "Schuhschnabel",
+      "prompt": "Wie fangen Schuhschnäbel oft ihre Beute in Sümpfen?",
+      "options": [
+        "Er bleibt auf der Hut und schlägt dann schnell zu",
+        "Im Flug verfolgt er Fische über weite Distanzen",
+        "Es filtert Plankton beim Schwimmen",
+        "Bei jeder Flut gräbt es einen Bau"
+      ],
+      "explanation": "Es jagt im flachen Wasser und erbeutet schnell Fische oder Amphibien.",
+      "didYouKnow": "Seine großen Zehen verteilen sein Gewicht und helfen ihm, sich über sumpfige Vegetation zu bewegen.",
+      "imageCaption": "Schuhschnabel"
+    },
+    {
+      "id": "birds-068",
+      "animal": "Scharlachroter Ibis",
+      "prompt": "Was trägt zur roten Farbe des Scharlachroten Ibis bei?",
+      "options": [
+        "Carotinoide, die in Ihrer Ernährung enthalten sind",
+        "Das Sonnenlicht, das seine Federn färbt",
+        "Ein roter Staub, den er jeden Tag aufträgt",
+        "Das Eisen seines Blutes, das durch die Federn fließt"
+      ],
+      "explanation": "Die Carotinoide bestimmter verzehrter Schalentiere tragen zur Pigmentierung ihrer Federn bei.",
+      "didYouKnow": "Scharlachrote Ibisse versammeln sich oft in Gruppen, um sich auszuruhen und zwischen den Futterplätzen zu wechseln.",
+      "imageCaption": "Scharlachroter Ibis"
+    },
+    {
+      "id": "birds-069",
+      "animal": "Löffler",
+      "prompt": "Wie nutzt der Löffler seinen abgeflachten Schnabel?",
+      "options": [
+        "Sie fegt damit durch das Wasser, um kleine Beute aufzuspüren und zu fangen",
+        "Sie gräbt im Hartholz",
+        "Es schneidet die Stängel wie eine Schere",
+        "Sie sticht die Fische, um sie zu tragen"
+      ],
+      "explanation": "Der empfindliche, spachtelförmige Schnabel ermöglicht den Fang kleiner Wassertiere.",
+      "didYouKnow": "Der Löffler kann in Kolonien in Bäumen oder Schilfgebieten nisten.",
+      "imageCaption": "Löffler"
+    },
+    {
+      "id": "birds-070",
+      "animal": "Barköpfige Gans",
+      "prompt": "Welche Anpassung hilft der Streifengans beim Fliegen in sehr großen Höhen?",
+      "options": [
+        "Hämoglobin, das Sauerstoff auch bei geringem Sauerstoffgehalt wirksam bindet.",
+        "Hämoglobin wird durch Hämocyanin ersetzt",
+        "Hämoglobin, dessen Affinität zu Sauerstoff stark abnimmt",
+        "Fehlen von Hämoglobin in den roten Blutkörperchen"
+      ],
+      "explanation": "Das Hämoglobin der Streifengans ist daran angepasst, in dünner Luft wirksam Sauerstoff aufzunehmen.",
+      "didYouKnow": "Streifengänse ziehen zwischen Zentral- und Südasien über den Himalaja.",
+      "imageCaption": "Barköpfige Gans"
+    },
+    {
+      "id": "birds-071",
+      "animal": "Stelzenläufer",
+      "prompt": "Welche Anpassung hilft dem Weißen Stelzenläufer bei der Nahrungssuche in Sümpfen?",
+      "options": [
+        "Seine langen Beine ermöglichen es ihm, im seichten Wasser zu laufen.",
+        "Seine kurzen Beine helfen ihm, Steine zu graben",
+        "Seine Schwimmflügel filtern den Schlamm",
+        "Seine Krallen verankern sich am Fisch"
+      ],
+      "explanation": "Seine langen Beine ermöglichen ihm den Zugang zu Beute im flachen Wasser.",
+      "didYouKnow": "Der Weiße Stelzenläufer nistet auf dem Boden in feuchten Gebieten, oft in kleinen Kolonien.",
+      "imageCaption": "Stelzenläufer"
+    },
+    {
+      "id": "birds-072",
+      "animal": "Langschwanz-Jacana",
+      "prompt": "Wie bewegt sich Jacana auf schwimmenden Wasserpflanzen?",
+      "options": [
+        "Mit seinen langen Fingern, die sein Gewicht verteilen",
+        "Mit Saugnäpfen unter den Flügeln",
+        "Indem man direkt auf dem Wasser läuft",
+        "Verwendung von Blättern als Schläger"
+      ],
+      "explanation": "Seine sehr langen Finger verteilen sein Gewicht auf der schwimmenden Vegetation.",
+      "didYouKnow": "Bei vielen Blatthühnern übernimmt das Männchen einen großen Teil der Brutzeit.",
+      "imageCaption": "Langschwanz-Jacana"
+    },
+    {
+      "id": "birds-073",
+      "animal": "Pfuhlschnepfe",
+      "prompt": "Welche Migration ist bei einigen Uferschnepfen bemerkenswert?",
+      "options": [
+        "Ein Langstreckenflug zwischen Alaska und Neuseeland",
+        "Eine tägliche Wanderung zwischen zwei benachbarten Bäumen",
+        "Eine Unterwasserreise von einem Kontinent zum anderen",
+        "Nur zu Fuß unterwegs"
+      ],
+      "explanation": "Einige Populationen unternehmen sehr lange Nonstop-Flüge zwischen Alaska und Neuseeland.",
+      "didYouKnow": "Im Brutkleid nimmt die Unterseite der Uferschnepfe einen charakteristischen rötlichen Farbton an.",
+      "imageCaption": "Pfuhlschnepfe"
+    },
+    {
+      "id": "birds-074",
+      "animal": "Felsentaube",
+      "prompt": "Welche Art von Nistplatz nutzt die wilde Felsentaube von Natur aus?",
+      "options": [
+        "Felshöhlen und Felsvorsprünge",
+        "Schwimmende Schilfplattformen",
+        "Höhlen auf den Wiesen",
+        "Dünne Äste oben auf Bäumen"
+      ],
+      "explanation": "Der wilde Felsen nistet insbesondere auf Klippen, deren Gesimse bestimmten Gebäudekanten ähneln.",
+      "didYouKnow": "Das Gefieder der wilden Felsentaube weist oft zwei dunkle Streifen auf den Flügeln auf.",
+      "imageCaption": "Felsentaube"
+    },
+    {
+      "id": "birds-075",
+      "animal": "Wasseramsel",
+      "prompt": "Wie ernähren sich Wasseramsel in Flüssen?",
+      "options": [
+        "Es geht oder schwimmt unter Wasser, um nach Wirbellosen zu suchen",
+        "Es schwebt über den Wellen, um Plankton zu filtern",
+        "Es gräbt Nester unter dem Schlamm",
+        "Es fängt nur Insekten am Himmel"
+      ],
+      "explanation": "Es taucht und bewegt sich zum Grund von Wasserstraßen, um nach Larven und anderen Wirbellosen zu suchen.",
+      "didYouKnow": "Die Wasseramsel ist insbesondere an ihrer deutlich sichtbaren weißen Brust zu erkennen.",
+      "imageCaption": "Wasseramsel"
+    },
+    {
+      "id": "birds-076",
+      "animal": "Mönchsgrasmücke",
+      "prompt": "Welche Migrationsveränderung betrifft bestimmte Populationen der Mönchsgrasmücke?",
+      "options": [
+        "Manchmal überwintern sie eher in Westeuropa als im Süden",
+        "Sie überqueren den Atlantik schwimmend",
+        "Erst im Herbst wandern sie nach Norden",
+        "Den Winter verbringen sie unter dem Eis"
+      ],
+      "explanation": "Einige Populationen haben ihr Winterziel geändert und bleiben in Westeuropa.",
+      "didYouKnow": "Bei dieser Art trägt das Männchen eine schwarze Mütze, während die des Weibchens bräunlich ist.",
+      "imageCaption": "Mönchsgrasmücke"
+    },
+    {
+      "id": "birds-077",
+      "animal": "Blaumeise",
+      "prompt": "Wie gelangt die Blaumeise manchmal an Insekten unter einem Ast?",
+      "options": [
+        "Sie hängt kopfüber",
+        "Zum Schwingen nutzt sie ein Netz",
+        "Sie gräbt einen Tunnel in den Ast",
+        "Sie saugt Insekten durch die Nase"
+      ],
+      "explanation": "Seine beweglichen Beine ermöglichen es ihm, verschiedene Seiten der Äste zu erkunden.",
+      "didYouKnow": "Sie nutzt gern Höhlennistkästen.",
+      "imageCaption": "Blaumeise"
+    },
+    {
+      "id": "birds-078",
+      "animal": "Zaunkönig",
+      "prompt": "Warum durchsucht der Zaunkönig Asthaufen?",
+      "options": [
+        "Kleine Wirbellose finden",
+        "Pfauenfedern sammeln",
+        "Um versteckte Fische zu fangen",
+        "Direkt in Holz verlegen"
+      ],
+      "explanation": "Überfüllte Räume beherbergen kleine Beute, die er aktiv aufspürt.",
+      "didYouKnow": "Trotz seiner geringen Größe ist sein Gesang kraftvoll.",
+      "imageCaption": "Zaunkönig"
+    },
+    {
+      "id": "birds-079",
+      "animal": "Roter Fichtenkreuzschnabel",
+      "prompt": "Wie öffnet der Fichtenkreuzschnabel die Zapfenschuppen?",
+      "options": [
+        "Mit gekreuzten Schnabelspitzen",
+        "Indem er Säure mit der Zunge injizierte",
+        "Indem man den Kegel gegen die Felsen bricht",
+        "Indem er ihn unter seinen Flügeln wärmt"
+      ],
+      "explanation": "Seine gekreuzten Mandibeln spreizen die Schuppen, um die Samen zu extrahieren.",
+      "didYouKnow": "Beim Roten Fichtenkreuzschnabel ist das erwachsene Männchen oft rötlich und das Weibchen eher grünlich oder gelblich.",
+      "imageCaption": "Roter Fichtenkreuzschnabel"
+    },
+    {
+      "id": "birds-080",
+      "animal": "Grünspecht",
+      "prompt": "Warum besuchen Grünspechte häufig Rasenflächen?",
+      "options": [
+        "Nach Ameisen suchen",
+        "Grasnektar trinken",
+        "Im Gras brüten",
+        "Teichfische fangen"
+      ],
+      "explanation": "Ameisen und ihre Larven sind ein wichtiger Bestandteil ihrer Ernährung.",
+      "didYouKnow": "Der Grünspecht gräbt seine Nisthöhle im Wald von Bäumen.",
+      "imageCaption": "Grünspecht"
+    },
+    {
+      "id": "birds-081",
+      "animal": "Rabe",
+      "prompt": "Wie nutzt der Kolkrabe die Thermik im Gebirge aus?",
+      "options": [
+        "Sie gleitet auf orografischen Aufwinden und spart so Energie.",
+        "Es filtert Samen über den Wäldern",
+        "Es erzeugt Blasen, die seine Beute anlocken",
+        "Es gräbt sein Nest im Luftstrom"
+      ],
+      "explanation": "Kolkraben können aufsteigende Luft nutzen, Höhe gewinnen und anschließend gleiten.",
+      "didYouKnow": "Kolkraben spielen in der Luft und führen dabei gelegentlich Rollen aus.",
+      "imageCaption": "Rabe"
+    },
+    {
+      "id": "birds-082",
+      "animal": "Elster",
+      "prompt": "Was kann die Elster tun, wenn sie reichlich Nahrung findet?",
+      "options": [
+        "Verstecke es, um es später wiederzufinden",
+        "Verwandle es in Nektar",
+        "Legen Sie es in das Nest einer anderen Art",
+        "Vergraben Sie es immer am selben Ort"
+      ],
+      "explanation": "Elstern können Nahrung zwischenspeichern und sich an viele Orte erinnern.",
+      "didYouKnow": "Die Elster gehört zur Familie der Rabenvögel.",
+      "imageCaption": "Elster"
+    },
+    {
+      "id": "birds-083",
+      "animal": "Kea",
+      "prompt": "Welches Erkundungsverhalten ist mit Kea verbunden?",
+      "options": [
+        "Manipulieren Sie Gegenstände mit Schnabel und Pfoten",
+        "Baue Schlammdämme",
+        "Angeln durch Steinwerfen",
+        "Verstecken Sie Ihre Eier in Termitennestern"
+      ],
+      "explanation": "Der Kea ist bekannt für seine Neugier und seine Fähigkeit, Objekte zu manipulieren.",
+      "didYouKnow": "Sie lebt in den Bergregionen Neuseelands.",
+      "imageCaption": "Kea"
+    },
+    {
+      "id": "birds-084",
+      "animal": "Elegantes Tinamou",
+      "prompt": "Wo baut der elegante Tinamou normalerweise sein Nest?",
+      "options": [
+        "In einer kleinen Vertiefung am Boden",
+        "In einer Unterwasserhöhle",
+        "Oben auf einer kahlen Klippe",
+        "In einer Tasche mit den Federn der Eltern"
+      ],
+      "explanation": "Tinamous nisten im Allgemeinen auf dem Boden und verstecken ihre Eier in der Vegetation.",
+      "didYouKnow": "Das Gefieder des eleganten Tinamou verschmilzt mit den Blättern und Gräsern am Boden.",
+      "imageCaption": "Elegantes Tinamou"
+    },
+    {
+      "id": "birds-085",
+      "animal": "Dorfweber",
+      "prompt": "Wie baut der männliche Weber sein Nest?",
+      "options": [
+        "Durch Flechten von Pflanzenfasern",
+        "Durch Ankleben von Sand mit Speichel",
+        "Indem man einen Hohlraum in den Fels gräbt",
+        "Indem man nur Spinnweben bindet"
+      ],
+      "explanation": "Es verflochten Gräser oder Blätter zu einer hängenden Struktur.",
+      "didYouKnow": "Bei vielen Webervögeln trägt das Männchen ein leuchtendes, kontrastierendes gelbes Brutgefieder.",
+      "imageCaption": "Dorfweber"
+    },
+    {
+      "id": "birds-086",
+      "animal": "Siedelweber",
+      "prompt": "Warum sind sozialrepublikanische Nester bemerkenswert?",
+      "options": [
+        "Sie bilden große kollektive Strukturen, die von mehreren Paaren bewohnt werden",
+        "Sie sind vollständig unter Wasser gebaut",
+        "Sie hängen an den Flügeln von Erwachsenen",
+        "Sie sind nur aus Fischgräten gebaut"
+      ],
+      "explanation": "Kolonien bauen eine große Neststruktur unter einem gemeinsamen Dach.",
+      "didYouKnow": "Der soziale Republikaner baut seine kollektiven Nester in den trockenen Regionen des südlichen Afrikas.",
+      "imageCaption": "Siedelweber"
+    },
+    {
+      "id": "birds-087",
+      "animal": "Mauersegler",
+      "prompt": "Wie verbringt der Schwarze Mauersegler einen Großteil seines Lebens?",
+      "options": [
+        "Im Flug",
+        "Am Grund der Flüsse",
+        "In Nagetierhöhlen",
+        "Auf den Ästen beim Gehen"
+      ],
+      "explanation": "Es ernährt sich, trinkt und sammelt manchmal Material im Flug ein, wobei es viel Zeit in der Luft verbringt.",
+      "didYouKnow": "Der Mauersegler steckt mit seinem Speichel das Material seines Nestes in die Hohlräume von Gebäuden oder Klippen.",
+      "imageCaption": "Mauersegler"
+    },
+    {
+      "id": "birds-088",
+      "animal": "Europäischer Ziegenmelker",
+      "prompt": "Warum ist der Europäische Ziegenmelker in der Dämmerung und in der Nacht am aktivsten?",
+      "options": [
+        "Es jagt nachtaktive oder dämmernde Insekten",
+        "Er meidet das Licht, weil er den Tag nicht sehen kann",
+        "Es brütet nur im Dunkeln",
+        "Es ernährt sich von Pilzen, die nachts schlüpfen"
+      ],
+      "explanation": "Seine Aktivität fällt mit der Verfügbarkeit fliegender Insekten am Abend und in der Nacht zusammen.",
+      "didYouKnow": "Sein kryptisches Gefieder macht es schwierig, ihn zu erkennen, wenn er auf dem Boden sitzt.",
+      "imageCaption": "Europäischer Ziegenmelker"
+    },
+    {
+      "id": "birds-089",
+      "animal": "Gelber Waldsänger",
+      "prompt": "Wo nisten Gelbgrasmücken häufig?",
+      "options": [
+        "In Sträuchern in der Nähe von Wasser oder Feuchtgebieten",
+        "In tiefen Kalksteinhöhlen",
+        "Unter dem Polareis",
+        "In Wüstenhöhlen"
+      ],
+      "explanation": "Es nistet oft in Sträuchern entlang von Wasserstraßen oder Feuchtgebieten.",
+      "didYouKnow": "Das Männchen hat im Allgemeinen rötliche Streifen auf der gelben Brust.",
+      "imageCaption": "Gelber Waldsänger"
+    },
+    {
+      "id": "birds-090",
+      "animal": "Prachtparadiesvogel",
+      "prompt": "Welchen Zweck haben die Zierfedern des Männchens während seiner Zurschaustellung?",
+      "options": [
+        "Den Partnern visuelle Signale geben",
+        "Um das Nest unter Wasser zu isolieren",
+        "Um die Samen in den Boden zu filtern",
+        "Um die Kleinen im Flug zu tragen"
+      ],
+      "explanation": "Das Männchen stellt seine Federn zur Schau, was an der Partnerwahl beteiligt ist.",
+      "didYouKnow": "Das Weibchen des prächtigen Paradiesvogels baut alleine ein schalenförmiges Nest in einem Baum.",
+      "imageCaption": "Prachtparadiesvogel"
+    },
+    {
+      "id": "birds-091",
+      "animal": "Eichelspecht",
+      "prompt": "Warum bohrt der eichelfressende Specht Löcher in Bäume oder Pfosten?",
+      "options": [
+        "Eicheln aufbewahren",
+        "Essbare Pilze züchten",
+        "Um Insekten aus der Ferne zu fangen",
+        "Nur zum Sammeln von Regenwasser"
+      ],
+      "explanation": "Durch das Einsetzen von Eicheln in Hohlräume entstehen Speicherspeicher.",
+      "didYouKnow": "Der eichelfressende Specht lebt in Familienverbänden, die bei der Verteidigung ihres Reviers zusammenarbeiten.",
+      "imageCaption": "Eichelspecht"
+    },
+    {
+      "id": "birds-092",
+      "animal": "Dreizehenspecht",
+      "prompt": "Wie viele Zehen hat jeder Fuß beim Dreizehenspecht?",
+      "options": [
+        "Drei",
+        "Zwei",
+        "Vier",
+        "Fünf"
+      ],
+      "explanation": "Wie der Name schon sagt, hat er an jedem Fuß drei Zehen.",
+      "didYouKnow": "Es sucht oft in toten oder geschwächten Bäumen nach Insekten.",
+      "imageCaption": "Dreizehenspecht"
+    },
+    {
+      "id": "birds-093",
+      "animal": "Häherkuckuck",
+      "prompt": "Welche Art brütet in bestimmten Gebieten häufig den jungen Kuckuckshäher?",
+      "options": [
+        "Die Elster",
+        "Der Kaiserpinguin",
+        "Der rosa Flamingo",
+        "Der Albatros"
+      ],
+      "explanation": "Der Kuckuckshäher parasitiert in bestimmten Regionen Elsternester.",
+      "didYouKnow": "Der Kuckuckshäher verlässt seine Brutgebiete meist, um weiter südlich zu überwintern.",
+      "imageCaption": "Häherkuckuck"
+    },
+    {
+      "id": "birds-094",
+      "animal": "Glattschnabel-Ani",
+      "prompt": "Welche Brutorganisation kann die Glattschnabelani annehmen?",
+      "options": [
+        "Mehrere Paare können sich ein gemeinsames Nest teilen",
+        "Jeder Einzelne nistet unter Wasser",
+        "Der Fisch bebrütet seine Eier",
+        "Die Gruppe baut ein Nest, das an jedem Ast hängt"
+      ],
+      "explanation": "Gruppen können ein gemeinsames Nest bauen, in dem mehrere Weibchen Eier legen.",
+      "didYouKnow": "Der Glattschnabelani kann sich mit anderen Individuen zusammenschließen, um auf Weiden nach Insekten zu suchen.",
+      "imageCaption": "Glattschnabel-Ani"
+    },
+    {
+      "id": "birds-095",
+      "animal": "Victoria gekrönte Taube",
+      "prompt": "Wie sucht die Victoria-Kronentaube nach Nahrung?",
+      "options": [
+        "Auf dem Waldboden nach Früchten und Samen picken",
+        "Beim Jagen von Fischen unter Wasser",
+        "Indem er den Nektar mit seinen Flügeln filtert",
+        "Durch das Graben von Nestern in Klippen"
+      ],
+      "explanation": "Er sucht im Wald den Boden nach heruntergefallenen Früchten und Samen ab.",
+      "didYouKnow": "Sein großer blauer Kamm besteht aus zarten Federn.",
+      "imageCaption": "Victoria gekrönte Taube"
+    },
+    {
+      "id": "birds-096",
+      "animal": "Dodo",
+      "prompt": "Welche Belastungen trugen zum Aussterben des Dodos auf Mauritius bei?",
+      "options": [
+        "Jagd und eingeführte Arten",
+        "Eine Migration in die Antarktis",
+        "Eine Verwandlung in ein Säugetier",
+        "Unfähigkeit, Obst zu essen"
+      ],
+      "explanation": "Jagd und durch den Menschen verursachte Veränderungen, einschließlich eingeführter Tiere, trugen zu seinem Verschwinden bei.",
+      "didYouKnow": "Der Dodo war auf Mauritius im Indischen Ozean endemisch.",
+      "imageCaption": "Dodo"
+    },
+    {
+      "id": "birds-097",
+      "animal": "Wandertaube",
+      "prompt": "Welchen Einfluss hatte die intensive kommerzielle Jagd auf die Zugtaube?",
+      "options": [
+        "Die Art starb zu Beginn des 20. Jahrhunderts aus",
+        "Sie entwickelte längere Flügel",
+        "Sie verließ Amerika und ging nach Asien",
+        "Sie wurde ein Seevogel"
+      ],
+      "explanation": "Großflächige Jagd und Lebensraumzerstörung führten zu seinem Verschwinden.",
+      "didYouKnow": "Vor ihrem Niedergang bildete die Zugtaube historische Ansammlungen von Millionen von Individuen.",
+      "imageCaption": "Wandertaube"
+    },
+    {
+      "id": "birds-098",
+      "animal": "Spix-Ara",
+      "prompt": "Warum ist der Spix-Ara ein Beispiel für komplexen Schutz?",
+      "options": [
+        "Es ist aus der Wildnis verschwunden und Programme versuchen, es wieder einzuführen",
+        "Es lebt nur in europäischen Städten",
+        "In Gefangenschaft kann es sich nicht fortpflanzen",
+        "Es gibt immer noch eine sehr große Wildpopulation"
+      ],
+      "explanation": "Im Rahmen der Wiederansiedlungsbemühungen wurden in Brasilien in Gefangenschaft gezüchtete Vögel freigelassen.",
+      "didYouKnow": "Sein natürlicher Lebensraum ist die Caatinga, eine trockene Umgebung im Nordosten Brasiliens.",
+      "imageCaption": "Spix-Ara"
+    },
+    {
+      "id": "birds-099",
+      "animal": "Schwarzer Palmkakadu",
+      "prompt": "Welchen Zweck hat der Stock, den der schwarze Palmkakadu herstellen kann?",
+      "options": [
+        "Während einer Parade auf eine Stütze trommeln",
+        "Fische in einem Loch fangen",
+        "Eine Nisthöhle graben",
+        "Um Samen aus der Erde zu filtern"
+      ],
+      "explanation": "Manche Männchen fertigen einen Stock und erzeugen damit einen Trommelklang.",
+      "didYouKnow": "Er hat einen großen, kahlen roten Fleck auf seiner Wange.",
+      "imageCaption": "Schwarzer Palmkakadu"
+    },
+    {
+      "id": "birds-100",
+      "animal": "Rosakakadu",
+      "prompt": "Welche Nahrung frisst der Rosalbin-Kakadu häufig?",
+      "options": [
+        "Samen und Getreide",
+        "Ausschließlich Plankton",
+        "Rifffische",
+        "Nur Blätter von Nadelbäumen"
+      ],
+      "explanation": "Es frisst hauptsächlich Samen und Pflanzen, manchmal auch in landwirtschaftlichen Gebieten.",
+      "didYouKnow": "Sein rosa-graues Gefieder ist sehr charakteristisch.",
+      "imageCaption": "Rosakakadu"
+    },
+    {
+      "id": "birds-101",
+      "animal": "Graugans",
+      "prompt": "Warum fliegen Graugänse manchmal in einer V-Formation?",
+      "options": [
+        "Folgevögel können die Luftströmungen nutzen, die der Vogel vor ihnen erzeugt",
+        "Die Form ermöglicht den Transport des Nestes",
+        "Das V verhindert, dass Vögel Raubtiere sehen",
+        "Training reduziert das Gewicht des Flügels"
+      ],
+      "explanation": "Eine Vogelspur kann dem Anhänger zusätzlichen Auftrieb verleihen und seine Anstrengung verringern.",
+      "didYouKnow": "Die Graugans hat einen orangefarbenen Schnabel und rosafarbene Beine, die für ihr Aussehen charakteristisch sind.",
+      "imageCaption": "Graugans"
+    },
+    {
+      "id": "birds-102",
+      "animal": "Schneeeule",
+      "prompt": "Wie entdecken Schneeeulen manchmal Wühlmäuse unter dem Schnee?",
+      "options": [
+        "Auf ihre Bewegungen lauschen und dann in den Schnee eintauchen",
+        "Direkt durch den Schnee sehen",
+        "Durch die Erkennung ihrer ultravioletten Farben",
+        "Indem er mit seinen Flügeln gräbt, bevor er zuhört"
+      ],
+      "explanation": "Sein scharfes Gehör hilft ihm, kleine Säugetiere zu lokalisieren, die unter einer Schneeschicht versteckt sind.",
+      "didYouKnow": "Sein helles Gefieder hilft bei der Tarnung in verschneiten Landschaften.",
+      "imageCaption": "Schneeeule"
+    },
+    {
+      "id": "birds-103",
+      "animal": "Pfuhlschnepfe",
+      "prompt": "Wie hilft der lange Schnabel der Uferschnepfe bei der Nahrungsaufnahme?",
+      "options": [
+        "Indem man den Schlamm untersucht, um Wirbellose zu finden",
+        "Durch Zerbrechen der Fruchtkerne",
+        "Durch das Filtern von Plankton während des Fluges",
+        "Durch das Ausheben von Hohlräumen in Bäumen"
+      ],
+      "explanation": "Mit seinem Schnabel tastet er Schlamm und feuchten Boden ab, um Würmer und andere Wirbellose zu finden.",
+      "didYouKnow": "Einige Populationen fliegen nonstop zwischen Alaska und Neuseeland.",
+      "imageCaption": "Pfuhlschnepfe"
+    },
+    {
+      "id": "birds-104",
+      "animal": "Gemeiner Kranich",
+      "prompt": "Welches Merkmal der Luftröhre des Kranichs trägt zur Resonanz seiner Rufe bei?",
+      "options": [
+        "Es ist länglich und gewunden im Brustbein.",
+        "Es teilt sich im Nacken in mehrere parallele Äste.",
+        "Es bildet einen äußeren Beutel unter der Rachenhaut.",
+        "Es passiert die Hohlräume des Schnabels, bevor es die Lunge erreicht."
+      ],
+      "explanation": "Die sehr lange und gewundene Luftröhre des Kranichs trägt zur Resonanz seiner Rufe bei, die weit reichen.",
+      "didYouKnow": "Kraniche führen auch Tänze mit Sprüngen und Flügelbewegungen aus.",
+      "imageCaption": "Gemeiner Kranich"
+    },
+    {
+      "id": "birds-105",
+      "animal": "Weißer Storch",
+      "prompt": "Welches Brutverhalten kann der Weißstorch zeigen?",
+      "options": [
+        "Ein Nest von Jahr zu Jahr wiederverwenden und vergrößern",
+        "Graben Sie jedes Jahr einen Bau in einer Bank",
+        "Hängen Sie sein Nest unter dünne Äste",
+        "Legen Sie Eier ohne Nest auf den Boden"
+      ],
+      "explanation": "Ein Paar kann eine Nistplattform mehrere Saisons lang wiederverwenden und erweitern.",
+      "didYouKnow": "Bei Erwachsenen sind Schnabel und Beine des Weißstorchs rot, bei Jungstörchen sind sie stumpfer.",
+      "imageCaption": "Weißer Storch"
+    },
+    {
+      "id": "birds-106",
+      "animal": "Wasseramsel",
+      "prompt": "Wo baut die Wasseramsel oft ihr Nest?",
+      "options": [
+        "In einer Höhle oder Nische in der Nähe eines Wasserlaufs",
+        "In einem vor der Küste schwimmenden Nest",
+        "In einem trockenen Bau mitten auf einem Feld",
+        "Auf einem Wüstenvorsprung weit weg vom Wasser"
+      ],
+      "explanation": "Es nistet in der Nähe von Flüssen, in Uferhöhlen, Felsen oder menschlichen Strukturen.",
+      "didYouKnow": "Der Wasseramsel hat einen großen weißen Latz, der einen Kontrast zu seinem dunklen Rücken bildet.",
+      "imageCaption": "Wasseramsel"
+    },
+    {
+      "id": "birds-107",
+      "animal": "Haubentaucher",
+      "prompt": "Welche Geste gehört zur Balz des Haubentauchers?",
+      "options": [
+        "Die Partner stehen sich auf den wasserpräsentierenden Pflanzen gegenüber",
+        "Sie schlagen mit ihrem Schnabel auf den Grund des Sees",
+        "Sie bauen eine Steinplattform am Ufer",
+        "Sie tauchen gemeinsam auf den Grund und bleiben dort"
+      ],
+      "explanation": "Die Präsentation des Haubentauchers umfasst eine synchronisierte Präsentation von Pflanzen zwischen Partnern.",
+      "didYouKnow": "Die weit hinter dem Körper liegenden Beine des Haubentauchers sind zum Schwimmen geeignet.",
+      "imageCaption": "Haubentaucher"
+    },
+    {
+      "id": "birds-108",
+      "animal": "Ringeltaube",
+      "prompt": "Welches Verhalten zeigt die Ringeltaube während ihrer Flugschauspiele?",
+      "options": [
+        "Es steigt beim Flügelschlag auf und senkt sich beim Gleiten wieder ab",
+        "Es taucht unter Wasser und kommt in der Nähe des Nestes heraus",
+        "Er dreht einen Zweig in seinem Schnabel",
+        "Beim Gehen auf dem Boden schlägt es mit den Flügeln"
+      ],
+      "explanation": "Das Männchen führt Schauflüge mit Aufwärts-, Flügelschlag- und dann Abwärtsgleiten durch.",
+      "didYouKnow": "Sein Nest ist oft eine einfache Plattform aus Zweigen.",
+      "imageCaption": "Ringeltaube"
+    },
+    {
+      "id": "birds-109",
+      "animal": "Waldschnepfe",
+      "prompt": "Wie hilft das Gefieder der Waldschnepfe, nicht entdeckt zu werden?",
+      "options": [
+        "Seine braunen Muster verschmelzen mit den toten Blättern",
+        "Seine Federn reflektieren ultraviolette Strahlen in Richtung Raubtiere",
+        "Im Schatten wird sein Gefieder transparent",
+        "Seine Flügel imitieren bunte Blumen"
+      ],
+      "explanation": "Seine Braun- und Ockertöne sorgen für eine wirkungsvolle Tarnung im Waldabfall.",
+      "didYouKnow": "Seine hoch auf dem Kopf angebrachten Augen ermöglichen ihm ein weites Sichtfeld.",
+      "imageCaption": "Waldschnepfe"
+    },
+    {
+      "id": "birds-110",
+      "animal": "Säbelschnäbler",
+      "prompt": "Welchen Lebensraum nutzt der Säbelschnäbler häufig zur Nahrungsaufnahme?",
+      "options": [
+        "Lagunen und flache Sümpfe",
+        "Dichte Nadelwälder",
+        "Verschneite Klippen",
+        "Tiefe Gebirgsflüsse"
+      ],
+      "explanation": "Seine Beute sucht er in Lagunen und anderen flachen Feuchtgebieten.",
+      "didYouKnow": "Säbelschnäblerküken sind frühsozial und können kurz nach dem Schlüpfen umherziehen.",
+      "imageCaption": "Säbelschnäbler"
+    },
+    {
+      "id": "birds-111",
+      "animal": "Blauhäher",
+      "prompt": "Welche Wirkung können die Alarmrufe des Blauhähers in einem Wald haben?",
+      "options": [
+        "Sie warnen andere Tiere vor der Anwesenheit eines Raubtiers",
+        "Sie locken Fische ans Ufer",
+        "Sie teilen Pflanzen die Richtung des Windes mit",
+        "Sie bringen Insekten aus dem Boden"
+      ],
+      "explanation": "Seine Rufe können Gefahren signalisieren und von anderen Vögeln gehört werden.",
+      "didYouKnow": "Der Blauhäher kann Samen und Eicheln verstecken und dann einige seiner Reserven vergessen.",
+      "imageCaption": "Blauhäher"
+    },
+    {
+      "id": "birds-112",
+      "animal": "Turmfalke",
+      "prompt": "Wie erkennt der Turmfalke oft eine Wühlmaus auf einem Feld?",
+      "options": [
+        "Er steht still, dem Wind zugewandt, während er den Boden absucht",
+        "Er taucht unter die Erde, um zuzuhören",
+        "Mit seinem Schnabel filtert er das Gras",
+        "Er wartet immer noch in einem Bau"
+      ],
+      "explanation": "Durch das Schweben kann es das Gelände inspizieren, bevor es sich auf die Beute stürzt.",
+      "didYouKnow": "Der männliche und der weibliche Turmfalke haben unterschiedliche Gefiedermuster.",
+      "imageCaption": "Turmfalke"
+    },
+    {
+      "id": "birds-113",
+      "animal": "Zwergflamingo",
+      "prompt": "Wie fängt der Zwergflamingo die winzigen Organismen, von denen er sich ernährt?",
+      "options": [
+        "Es filtert Wasser mit seinen Schnabelblättern",
+        "Er spießt sie mit seinen Krallen auf",
+        "Er fängt sie in einem Netz",
+        "Er zieht sie mit seiner Zunge aus den Stämmen"
+      ],
+      "explanation": "Die Schnabelblätter halten kleine Algen und Krebstiere fest, wenn das Wasser fließt.",
+      "didYouKnow": "Der Zwergflamingo kann auf den Salzseen Afrikas riesige Brutkolonien bilden.",
+      "imageCaption": "Zwergflamingo"
+    },
+    {
+      "id": "birds-114",
+      "animal": "Rauchschwalbe",
+      "prompt": "Wie baut die Rauchschwalbe ihr Nest unter einem Unterschlupf?",
+      "options": [
+        "Sie formt Schlammkügelchen und vermischt sie mit Pflanzenfasern.",
+        "Sie gräbt einen Tunnel in den Stein",
+        "Sie flechtet Palmblätter",
+        "Sie beklebt Muscheln mit Nektar"
+      ],
+      "explanation": "Die Rauchschwalbe setzt kleine Schlammkügelchen zusammen und verstärkt das Nest mit Pflanzenfasern.",
+      "didYouKnow": "Rauchschwalben jagen Insekten oft über offenen Feldern und Gewässern.",
+      "imageCaption": "Rauchschwalbe"
+    },
+    {
+      "id": "birds-115",
+      "animal": "Schwarzspecht",
+      "prompt": "Welche Folgen können die vom Schwarzspecht gegrabenen Höhlen im Wald haben?",
+      "options": [
+        "Andere Tiere können sie zum Nisten weiterverwenden",
+        "Sie verhindern das Wachstum benachbarter Bäume",
+        "Sie werden immer zu Wasserreservoirs",
+        "Sie locken nur Fische an"
+      ],
+      "explanation": "Arten, die nicht in der Lage sind, ihre eigenen Höhlen zu graben, können die Höhlen des Schwarzspechts nutzen.",
+      "didYouKnow": "Der Schwarzspecht ist der größte Specht Europas.",
+      "imageCaption": "Schwarzspecht"
+    },
+    {
+      "id": "birds-116",
+      "animal": "Kalifornischer Kondor",
+      "prompt": "Welche Munitionsgefahr betrifft den Kalifornischen Kondor?",
+      "options": [
+        "Aufnahme von Bleifragmenten in Schlachtkörpern",
+        "Die Verstrickung seiner Flügel in Schmetterlingsnetze",
+        "Verschmutzung seines Gefieders durch Meersalz",
+        "Bei Kontakt mit Stahl verliert man seine Krallen"
+      ],
+      "explanation": "In Kadavern enthaltene Fragmente von Bleimunition können Kondore vergiften.",
+      "didYouKnow": "Der Kalifornische Kondor hat eine Flügelspannweite von bis zu drei Metern.",
+      "imageCaption": "Kalifornischer Kondor"
+    },
+    {
+      "id": "birds-117",
+      "animal": "Fischadler",
+      "prompt": "Warum trägt der Fischadler einen Fisch oft mit dem Kopf nach vorne?",
+      "options": [
+        "Diese Ausrichtung verringert den Luftwiderstand",
+        "Es verhindert, dass der Fisch kalt wird",
+        "Sie hilft dem Fischadler, wieder zu tauchen",
+        "Damit können Sie die Küken im Flug füttern"
+      ],
+      "explanation": "Die Ausrichtung des Fisches in Flugrichtung verringert seinen Luftwiderstand.",
+      "didYouKnow": "Der Fischadler nutzt manchmal einen in früheren Jahren angelegten Nistplatz wieder.",
+      "imageCaption": "Fischadler"
+    },
+    {
+      "id": "birds-118",
+      "animal": "Graureiher",
+      "prompt": "Warum positioniert der Graureiher manchmal einen Fisch neu, bevor er ihn verschluckt?",
+      "options": [
+        "Um ihn mit dem Kopf voran auszurichten und das Schlucken zu erleichtern",
+        "Zum Trocknen in der Sonne",
+        "Mit einem Stein die Schuppen entfernen",
+        "Zum Abkühlen vor dem Transport"
+      ],
+      "explanation": "Das Verschlucken der Beute mit dem Kopf voran verhindert, dass ihre Flossen im Hals stecken bleiben.",
+      "didYouKnow": "Der Graureiher trägt während der Brutzeit lange Zierfedern an Kopf und Hals.",
+      "imageCaption": "Graureiher"
+    },
+    {
+      "id": "birds-119",
+      "animal": "Teichhuhn",
+      "prompt": "Wie kann sich das Teichhuhn durch die Ufervegetation bewegen?",
+      "options": [
+        "Mit seinen langen Fingern, die sein Gewicht verteilen",
+        "Mit einer Membran, die wie ein Saugnapf wirkt",
+        "Indem er sich mit seinem Hakenschnabel festhält",
+        "Benutzt seinen Schwanz als Fuß"
+      ],
+      "explanation": "Seine langen Finger helfen ihm, auf den Pflanzen und weichen Böden der Ufer zu laufen.",
+      "didYouKnow": "Sie kann kurz tauchen, um der Gefahr zu entkommen.",
+      "imageCaption": "Teichhuhn"
+    },
+    {
+      "id": "birds-120",
+      "animal": "Violettturako",
+      "prompt": "Welche chemischen Eigenschaften hat das Turacinrot-Pigment von Turacos?",
+      "options": [
+        "Es enthält Kupfer",
+        "Es besteht aus Chlorophyll",
+        "Es wird aus dem Blut von Pflanzen hergestellt",
+        "Es enthält Salzkristalle"
+      ],
+      "explanation": "Turacin, ein für Turakos spezifisches rotes Pigment, enthält Kupfer.",
+      "didYouKnow": "Turakos sind afrikanische Baumvögel, die vor allem Früchte fressen.",
+      "imageCaption": "Violettturako"
+    },
+    {
+      "id": "birds-121",
+      "animal": "Gelbbauch-Saftlecker",
+      "prompt": "Zu welcher Familie gehört der Gelbbauchspecht?",
+      "options": [
+        "Zu den Gipfeln",
+        "Zu den Schwalben",
+        "Zu nachtaktiven Greifvögeln",
+        "Zu den Küstenvögeln"
+      ],
+      "explanation": "Der Gelbbauchspecht gehört zur Familie der Spechte.",
+      "didYouKnow": "Es nistet in einer Höhle, die es in einen Baum gräbt.",
+      "imageCaption": "Gelbbauch-Saftlecker"
+    },
+    {
+      "id": "birds-122",
+      "animal": "Barköpfige Gans",
+      "prompt": "Vor welcher physiologischen Herausforderung steht die Gans auf ihren Himalaya-Passagen?",
+      "options": [
+        "Fliegen in sauerstoffarmer Luft in großer Höhe",
+        "Schwimmen Sie im Salzwasser der Pässe",
+        "Anhaltende tropische Hitze auf dem Gipfel",
+        "Sich ohne Flügel über Klippen bewegen"
+      ],
+      "explanation": "Es überquert hohe Pässe, wo der Druck und die Sauerstoffverfügbarkeit gering sind.",
+      "didYouKnow": "Die schwarzen Streifen, die den Kopf der Streifengans markieren, machen sie leicht zu erkennen.",
+      "imageCaption": "Barköpfige Gans"
+    },
+    {
+      "id": "birds-123",
+      "animal": "Behelmter Nashornvogel",
+      "prompt": "Warum ist der behelmte Nashornvogel besonders von Wilderei bedroht?",
+      "options": [
+        "Sein robuster Helm ist für Skulpturen begehrt",
+        "Aus seinen Federn werden Fischernetze hergestellt.",
+        "Seine Eier werden als Edelsteine verwendet",
+        "Sein Schnabel wird als Musikinstrument verkauft"
+      ],
+      "explanation": "Der Keratinhelm ist für die Bildhauerei begehrt, was zu einem starken Jagddruck geführt hat.",
+      "didYouKnow": "Der behelmte Nashornvogel lebt in den tropischen Wäldern Südostasiens, von denen einige fragmentiert sind.",
+      "imageCaption": "Behelmter Nashornvogel"
+    },
+    {
+      "id": "birds-124",
+      "animal": "Truthahngeier",
+      "prompt": "Welcher Sinn hilft Truthahngeiern besonders dabei, versteckte Kadaver zu finden?",
+      "options": [
+        "Der Geruchssinn",
+        "Ultraschallerkennung",
+        "Die Berührung von Schwanzfedern",
+        "Unterwassersicht"
+      ],
+      "explanation": "Sein ausgeprägter Geruchssinn ermöglicht es ihm, den Geruch von Kadavern unter der Pflanzendecke wahrzunehmen.",
+      "didYouKnow": "Der nackte rote Kopf des Truthahngeiers ist ein charakteristisches Merkmal dieser Art.",
+      "imageCaption": "Truthahngeier"
+    },
+    {
+      "id": "birds-125",
+      "animal": "Rotmilan",
+      "prompt": "Wie unterstützt der gegabelte Schwanz des Rotmilans seinen Flug?",
+      "options": [
+        "Es verbessert seine Manövrierfähigkeit",
+        "Sie lagert Lebensmittel",
+        "Er dient als Haken zum Aufhängen an den Ästen",
+        "Sie kühlt sein Blut"
+      ],
+      "explanation": "Dank seines gegabelten Schwanzes kann er seine Richtung beim Gleiten fein anpassen.",
+      "didYouKnow": "Der Rotmilan kommt in weiten Teilen Europas vor, sowohl in ansässigen als auch in wandernden Populationen.",
+      "imageCaption": "Rotmilan"
+    },
+    {
+      "id": "birds-126",
+      "animal": "Goldspecht",
+      "prompt": "Nach welcher Nahrung sucht der Northern Flicker oft am Boden?",
+      "options": [
+        "Ameisen",
+        "Qualle",
+        "Bambusnektar",
+        "Fischeier"
+      ],
+      "explanation": "Neben anderen Wirbellosen sammelt er häufig Ameisen vom Boden.",
+      "didYouKnow": "Im Flug zeigt der Northern Flicker einen großen weißen Fleck auf seinem Hinterteil.",
+      "imageCaption": "Goldspecht"
+    },
+    {
+      "id": "birds-127",
+      "animal": "Tölpel",
+      "prompt": "Wie begrenzt der Basstölpel die Auswirkungen von Stößen beim Tauchen?",
+      "options": [
+        "Anpassungen des Schädels und des Gewebes absorbieren einen Teil des Schocks",
+        "Es bläst eine Lufttasche in seinem Schnabel auf",
+        "Es entfaltet seine Beine wie ein Fallschirm",
+        "Unter Wasser hält es seine Flügel weit geöffnet"
+      ],
+      "explanation": "Anatomische Anpassungen tragen dazu bei, die Wirkung seiner schnellen Tauchgänge zu unterstützen.",
+      "didYouKnow": "Basstölpel nisten in kompakten Kolonien, oft auf Küstenvorsprüngen.",
+      "imageCaption": "Tölpel"
+    },
+    {
+      "id": "birds-128",
+      "animal": "Stockente",
+      "prompt": "Wie gelangt die Stockente an Nahrung unter der Wasseroberfläche?",
+      "options": [
+        "Er neigt die Vorderseite seines Körpers, während er die Rückseite über Wasser hält",
+        "Es taucht systematisch in große Tiefen",
+        "Mit seinen Flügeln gräbt er das Ufer ein",
+        "Es saugt Wasser mit einem Schlauch im Schnabel"
+      ],
+      "explanation": "Die Ente kann mit Kopf und Hals tauchen, um im seichten Wasser den Boden zu erreichen.",
+      "didYouKnow": "Das Stockentenmännchen verändert nach der Brutzeit sein Gefieder und nimmt vorübergehend ein dezenteres Aussehen an.",
+      "imageCaption": "Stockente"
+    },
+    {
+      "id": "birds-129",
+      "animal": "Dreizehenmöwe",
+      "prompt": "Welchen Nistplatz wählen Dreizehenmöwen häufig?",
+      "options": [
+        "Ein schmaler Felsvorsprung an der Küste",
+        "Ein tiefer Bau auf einer Wiese",
+        "Eine Unterwasserhöhle",
+        "Ein hohler Stamm im Herzen eines Waldes"
+      ],
+      "explanation": "Es nistet in Kolonien auf den Felsvorsprüngen von Meeresklippen.",
+      "didYouKnow": "Nach der Brutzeit verbringt die Dreizehenmöwe einen Großteil ihrer Zeit im Meer.",
+      "imageCaption": "Dreizehenmöwe"
+    },
+    {
+      "id": "birds-130",
+      "animal": "Zwergtaucher",
+      "prompt": "Welche Art von Nest bauen Zwergtaucher oft?",
+      "options": [
+        "Eine schwimmende Pflanzenplattform",
+        "Eine trockene Felshöhle",
+        "Eine Tasse, die oben auf einem Baum steht",
+        "Ein in einer Düne gegrabener Bau"
+      ],
+      "explanation": "Es baut ein schwimmendes Nest zwischen Wasserpflanzen.",
+      "didYouKnow": "Während der Ausstellung kann es sein, dass der Zwergtaucher seine Federn hebt und laute Rufe von sich gibt.",
+      "imageCaption": "Zwergtaucher"
+    },
+    {
+      "id": "birds-131",
+      "animal": "Felsentaube",
+      "prompt": "Zu welcher Familie gehört der Dodo, wie die Felsentaube?",
+      "options": [
+        "An die Taubenfamilie",
+        "An die Pinguinfamilie",
+        "An die Fasanenfamilie",
+        "An die Albatros-Familie"
+      ],
+      "explanation": "Der Dodo und die Felsentaube gehören beide zur Familie der Columbidae.",
+      "didYouKnow": "Tauben füttern ihre Küken mit reichhaltigem Futter, das im Kropf produziert wird und Kropfmilch genannt wird.",
+      "imageCaption": "Felsentaube"
+    },
+    {
+      "id": "birds-132",
+      "animal": "Carolina-Sittich",
+      "prompt": "Was geschah mit dem Carolinasittich, der einst im Osten der USA gefunden wurde?",
+      "options": [
+        "Es starb zu Beginn des 20. Jahrhunderts aus",
+        "Sie wurde nach Europa eingeführt und gedeiht dort",
+        "Sie wurde ein Seevogel",
+        "Sie wanderte in die Antarktis aus"
+      ],
+      "explanation": "Die Zerstörung und Verfolgung von Lebensräumen trugen zum Aussterben dieser Art bei.",
+      "didYouKnow": "Der Karolinasittich lebte oft in lauten Gruppen und ernährte sich von Samen und Früchten.",
+      "imageCaption": "Carolina-Sittich"
+    },
+    {
+      "id": "birds-133",
+      "animal": "Gelbhaubenkakadu",
+      "prompt": "Welches visuelle Signal kann der Gelbhaubenkakadu mit seinem Kopf zeigen?",
+      "options": [
+        "Er erhebt seinen Federkamm",
+        "Er ändert die Farbe seiner Beine",
+        "Er lässt seine Schwanzfedern blitzen",
+        "Es wirft farbigen Staub aus"
+      ],
+      "explanation": "Der Kamm kann bei Aufregung oder sozialen Interaktionen ansteigen.",
+      "didYouKnow": "Der Kakadu nutzt seine Füße, um Nahrung zu halten und zu manipulieren.",
+      "imageCaption": "Gelbhaubenkakadu"
+    },
+    {
+      "id": "birds-134",
+      "animal": "Nymphensittich",
+      "prompt": "Was kann der bewegliche Kamm des Nymphensittichs ausdrücken?",
+      "options": [
+        "Ihr Grad an Aufmerksamkeit oder Aufregung",
+        "Die Tiefe des Wassers unter ihr",
+        "Die genaue Temperatur seines Nestes",
+        "Die Anzahl der Samen, die sie gegessen hat"
+      ],
+      "explanation": "Der Kamm hebt oder senkt sich je nach Aufmerksamkeit und emotionalem Zustand des Vogels.",
+      "didYouKnow": "Der Nymphensittich stammt aus Australien.",
+      "imageCaption": "Nymphensittich"
+    },
+    {
+      "id": "birds-135",
+      "animal": "Swainson-Lori",
+      "prompt": "Nach welcher Ressource suchen Swainson-Loris in blühenden Eukalyptusbäumen?",
+      "options": [
+        "Nektar und Pollen",
+        "Larven nur unter der Rinde",
+        "Fischen Sie in Baumhöhlen",
+        "Zapfensamen"
+      ],
+      "explanation": "Eukalyptusblüten liefern Nektar und Pollen, die von Loris verzehrt werden.",
+      "didYouKnow": "Der Swainson-Lori stammt aus Ostaustralien.",
+      "imageCaption": "Swainson-Lori"
+    },
+    {
+      "id": "birds-136",
+      "animal": "Graupapagei",
+      "prompt": "Welche Stimmlernfähigkeit wurde bei einigen Graupapageien beobachtet?",
+      "options": [
+        "Ordnen Sie bestimmte Geräusche Objekten oder Situationen zu",
+        "Verstehe alle Sätze wie ein Mensch",
+        "Wörter produzieren, ohne sie jemals zu hören",
+        "Singen Sie nur unter Wasser"
+      ],
+      "explanation": "Studien an bestimmten Personen zeigen die Fähigkeit, Assoziationen zwischen Geräuschen und Objekten zu lernen.",
+      "didYouKnow": "In freier Wildbahn frisst er vor allem Früchte und Samen.",
+      "imageCaption": "Graupapagei"
+    },
+    {
+      "id": "birds-137",
+      "animal": "Kakapo",
+      "prompt": "Warum sind Kakapos besonders anfällig für eingeschleppte Raubtiere?",
+      "options": [
+        "Es fliegt nicht und hat sich mit wenigen terrestrischen Raubtieren entwickelt",
+        "Er kann die Alarmrufe nicht hören",
+        "Es nistet ausschließlich im Wasser",
+        "Es ändert jede Nacht seine Farbe"
+      ],
+      "explanation": "Das historische Fehlen räuberischer Säugetiere in Neuseeland begünstigte einen flugunfähigen Landvogel.",
+      "didYouKnow": "Der Kakapo ernährt sich von verschiedenen Pflanzenteilen, darunter Blättern, Samen und Früchten.",
+      "imageCaption": "Kakapo"
+    },
+    {
+      "id": "birds-138",
+      "animal": "Graugans",
+      "prompt": "Warum weidet die Graugans häufig an Land?",
+      "options": [
+        "Kräuter und andere Pflanzen sind ein wichtiger Bestandteil seiner Ernährung",
+        "Sie sucht dort nur nach Fisch.",
+        "Sie sammelt Nektar vom Boden",
+        "Es jagt Insekten unter der Rinde"
+      ],
+      "explanation": "Graugänse fressen häufig Gras und andere Land- oder Wasserpflanzen.",
+      "didYouKnow": "Die Graugans ist der wilde Vorfahre vieler Hausgänserassen.",
+      "imageCaption": "Graugans"
+    },
+    {
+      "id": "birds-139",
+      "animal": "Brauner Pelikan",
+      "prompt": "Wie fangen Braunpelikane häufig Fische in der Nähe der Oberfläche?",
+      "options": [
+        "Er taucht im Sturzflug aus der Luft ab",
+        "Er geht nach unten und packt sie mit seinen Pfoten",
+        "Es filtert Plankton an der Oberfläche",
+        "Es gräbt Höhlen unter Wasser"
+      ],
+      "explanation": "Es taucht ab, um Fische in der Nähe der Oberfläche zu fangen, und hält sie dann mit seinem Beutel kurz fest.",
+      "didYouKnow": "Der Braunpelikan brütet in Kolonien, oft auf Inseln oder an Küstenstandorten.",
+      "imageCaption": "Brauner Pelikan"
+    },
+    {
+      "id": "birds-140",
+      "animal": "Löffler",
+      "prompt": "In welchem ​​Gewässer sucht der Löffler häufig nach seiner Beute?",
+      "options": [
+        "Im flachen Wasser",
+        "In der Tiefsee",
+        "In den eisigen Strömen",
+        "Nur in temporären Wüstenbecken"
+      ],
+      "explanation": "Er schwenkt seinen Schnabel im seichten Wasser, um kleine Tiere zu fangen.",
+      "didYouKnow": "Der Löffler kann in Kolonien in Bäumen oder im Schilf nisten.",
+      "imageCaption": "Löffler"
+    },
+    {
+      "id": "birds-141",
+      "animal": "Blässhuhn",
+      "prompt": "Welches Erkennungszeichen hat das Blässhuhn über seinem Schnabel?",
+      "options": [
+        "Ein weißes Frontabzeichen",
+        "Ein gelbes Wappen",
+        "Ein langer roter Anhang",
+        "Ein geiler Helm"
+      ],
+      "explanation": "Der weiße Stirnfleck ist ein Bereich nackter Haut über dem Schnabel.",
+      "didYouKnow": "Das Blässhuhn schwimmt und taucht, um nach Nahrung zu suchen.",
+      "imageCaption": "Blässhuhn"
+    },
+    {
+      "id": "birds-142",
+      "animal": "Uferschwalbe",
+      "prompt": "Wo gräbt die Uferschwalbe normalerweise ihre Nistgalerie?",
+      "options": [
+        "In einer Bank oder Wand aus sandigem Boden",
+        "In einem lebenden Koffer",
+        "Unter der Oberfläche eines Sees",
+        "In einer Muschelhöhle"
+      ],
+      "explanation": "Es gräbt einen Tunnel in die weichen Wände von Ufern oder Steinbrüchen.",
+      "didYouKnow": "Die Uferschwalbe überwintert hauptsächlich in Afrika südlich der Sahara.",
+      "imageCaption": "Uferschwalbe"
+    },
+    {
+      "id": "birds-143",
+      "animal": "Kuhreiher",
+      "prompt": "Warum halten sich Kuhreiher oft in der Nähe von Nutztieren auf?",
+      "options": [
+        "Tiere stören Insekten, die sie fangen können",
+        "Es ernährt sich ausschließlich von Rindermilch.",
+        "Die Hörner dienen ihm als Brutstange",
+        "Das Vieh bringt ihm Fisch"
+      ],
+      "explanation": "Die Bewegung des Viehs bringt manchmal Insekten und kleine Beutetiere zum Vorschein, die für den Reiher zugänglich sind.",
+      "didYouKnow": "Der Kuhreiher kann in Kolonien auf Bäumen nisten, manchmal auch zusammen mit anderen Arten.",
+      "imageCaption": "Kuhreiher"
+    },
+    {
+      "id": "birds-144",
+      "animal": "Kragenhuhn",
+      "prompt": "Wie kann sich das Auerhuhn durch Pulverschnee fortbewegen?",
+      "options": [
+        "Sie kann in den Schnee springen, um Schutz zu suchen.",
+        "Sie schwimmt mit ihren Flügeln unter dem Schnee",
+        "Mit seinem Schnabel gräbt es einen Tunnel",
+        "Es hängt mit seinem Schwanz an Ästen"
+      ],
+      "explanation": "Das Auerhuhn kann sich im Pulverschnee vergraben, um sich vor der Kälte zu schützen.",
+      "didYouKnow": "Das männliche Haselhuhn erzeugt ein rollendes Geräusch, indem es seine Flügel schnell vibriert.",
+      "imageCaption": "Kragenhuhn"
+    },
+    {
+      "id": "birds-145",
+      "animal": "Alpenschneehuhn",
+      "prompt": "Wie passt das Schneehuhn sein Gefieder den Jahreszeiten an?",
+      "options": [
+        "Im Winter wird es heller und im Sommer brauner",
+        "Im Frühling wird es immer rot",
+        "Im Winter verliert er alle seine Federn",
+        "Es ändert jeden Tag seine Farbe"
+      ],
+      "explanation": "Der jahreszeitliche Wechsel des Gefieders verbessert seine Tarnung je nach Farbe der Landschaft.",
+      "didYouKnow": "Während der Zurschaustellung kann das männliche Schneehuhn schreien und jagen.",
+      "imageCaption": "Alpenschneehuhn"
+    },
+    {
+      "id": "birds-146",
+      "animal": "Rötlicher Steinwälzer",
+      "prompt": "Was macht der Steinwälzer mit den kleinen Kieselsteinen vom Ufer?",
+      "options": [
+        "Er dreht sie um, um versteckte Beute zu entdecken",
+        "Er verschluckt sie, um daraus eine Muschel zu machen",
+        "Er wirft sie, um Fische zu fangen",
+        "Er klebt sie auf seine Flügel, um besser fliegen zu können"
+      ],
+      "explanation": "Es dreht Steine und Trümmer um, um darunter versteckte Wirbellose zu finden.",
+      "didYouKnow": "Der Steinwälzer brütet in arktischen und subarktischen Regionen.",
+      "imageCaption": "Rötlicher Steinwälzer"
+    },
+    {
+      "id": "birds-147",
+      "animal": "Bekassine",
+      "prompt": "Wie hilft die Schnabelspitze einer Bekassine bei der Nahrungsaufnahme?",
+      "options": [
+        "Es erkennt Beute im Schlamm",
+        "Es erzeugt ein Licht, das Insekten anlockt",
+        "Sie bricht die Rinde der Bäume",
+        "Es misst den Salzgehalt der Luft"
+      ],
+      "explanation": "Rezeptoren an der Spitze des Schnabels helfen ihm, Beute zu erkennen, wenn er den Schlamm sondiert.",
+      "didYouKnow": "Während der Präsentation kann die männliche Bekassine mit ihren Schwanzfedern ein vibrierendes Geräusch erzeugen, das „Zittern“ genannt wird.",
+      "imageCaption": "Bekassine"
+    },
+    {
+      "id": "birds-148",
+      "animal": "Karminspint",
+      "prompt": "Warum bauen Karminbienenfresser ihre Nester an Flussufern?",
+      "options": [
+        "Der weiche Boden ermöglicht das Graben von Nistgalerien",
+        "Die Banken produzieren Nektar",
+        "Sie filtern Fische in Höhlen",
+        "Sie vermeiden es, Eier legen zu müssen"
+      ],
+      "explanation": "Paare graben Tunnel in Ufern oder Klippen aus weicher Erde.",
+      "didYouKnow": "Der Karminbienenfresser hat ein sehr leuchtend rosarotes Gefieder und einen kontrastierenden Kopf.",
+      "imageCaption": "Karminspint"
+    },
+    {
+      "id": "birds-149",
+      "animal": "Gürtelfischer",
+      "prompt": "Wo nistet der Amerikanische Eisvogel oft?",
+      "options": [
+        "In einem Tunnel, der in eine Bank gegraben wurde",
+        "In einem Nest, das im Schilf hängt",
+        "In einer Unterwasserhöhle",
+        "In einem hohlen Baum fernab von Wasser"
+      ],
+      "explanation": "Es gräbt oft eine Nistgalerie in einem Sandufer in der Nähe von Wasser.",
+      "didYouKnow": "Der amerikanische Eisvogel hat einen gekräuselten Kamm und gibt harte Rufe von sich.",
+      "imageCaption": "Gürtelfischer"
+    },
+    {
+      "id": "birds-150",
+      "animal": "Prachtfregattvogel",
+      "prompt": "Warum vermeidet der Superfregattvogel im Allgemeinen das Tauchen ins Wasser?",
+      "options": [
+        "Sein Gefieder eignet sich nicht gut für längeres Eintauchen.",
+        "Sie kann den Fisch nicht sehen",
+        "Sie hat keine Flugfedern.",
+        "Im Flug kann es seinen Schnabel nicht öffnen."
+      ],
+      "explanation": "Fregattvögel haben ein weniger wasserabweisendes Gefieder als viele Tauchvögel und erbeuten Nahrung daher meist an der Oberfläche.",
+      "didYouKnow": "Bei der Balz bläst das Männchen seinen leuchtend roten Kehlsack auf.",
+      "imageCaption": "Prachtfregattvogel"
+    },
+    {
+      "id": "birds-151",
+      "animal": "Thermometerhuhn",
+      "prompt": "Wie hält Lathams Megapode seine Eier warm?",
+      "options": [
+        "Er begräbt sie in einem Hügel verwesender Pflanzen",
+        "Er trägt sie im Flug unter seinen Flügeln",
+        "Es baut ein schwimmendes Nest über einer heißen Quelle",
+        "Er vertraut sie einem anderen Vogel an"
+      ],
+      "explanation": "Die durch die Zersetzung der Vegetation entstehende Hitze brütet die Eier im Hügel aus.",
+      "didYouKnow": "Der Latham-Megapode stammt aus Ostaustralien.",
+      "imageCaption": "Thermometerhuhn"
+    },
+    {
+      "id": "birds-152",
+      "animal": "Tölpel",
+      "prompt": "Welche Farbe kennzeichnet das Ei des Tölpels?",
+      "options": [
+        "Hellblau",
+        "Hellgrün",
+        "Rot gefleckt",
+        "Glänzendes Schwarz"
+      ],
+      "explanation": "Das Ei ist blassblau und sein Aussehen hängt teilweise mit seiner kalkhaltigen Schale zusammen.",
+      "didYouKnow": "Basstölpel nisten in Kolonien auf Klippen und Meeresinseln.",
+      "imageCaption": "Tölpel"
+    },
+    {
+      "id": "birds-153",
+      "animal": "Königspinguin",
+      "prompt": "Wie behält der Königspinguin sein Ei während der Brutzeit?",
+      "options": [
+        "Auf seinen Füßen unter einer Hautfalte",
+        "In einem Nest aus Zweigen",
+        "In einer im Eis gegrabenen Höhle",
+        "In einer Tasche unter seinem Schnabel"
+      ],
+      "explanation": "Das Ei ruht auf den Füßen und unter einer Bauchfalte, die es vom kalten Boden isoliert.",
+      "didYouKnow": "Das Küken trägt dicke braune Daunen, bevor es sein erwachsenes Gefieder anzieht.",
+      "imageCaption": "Königspinguin"
+    },
+    {
+      "id": "birds-154",
+      "animal": "Adeliepinguin",
+      "prompt": "Welches Material sammelt der Adeliepinguin, um sein Nest zu bauen?",
+      "options": [
+        "Kleine Kieselsteine",
+        "Unter Wasser gewebte Algen",
+        "Nadelzweige",
+        "Schlamm formte sich zu einem Turm"
+      ],
+      "explanation": "Normalerweise baut er eine kleine Plattform aus Steinen, um die Eier aufzuziehen.",
+      "didYouKnow": "Nach dem Schlüpfen können sich junge Adéliepinguine in Kinderkrippen zusammenschließen, während die Erwachsenen fressen.",
+      "imageCaption": "Adeliepinguin"
+    },
+    {
+      "id": "birds-155",
+      "animal": "Atlantiksturmtaucher",
+      "prompt": "Warum kehrt der Englische Sturmtaucher oft nach Einbruch der Dunkelheit in seine Kolonie zurück?",
+      "options": [
+        "Dies kann die Gefährdung durch Raubtiere in der Nähe von Höhlen verringern",
+        "Er kann den Tag nicht sehen",
+        "Höhlen sind nur um Mitternacht geöffnet",
+        "Der Mond erwärmt die Eier"
+      ],
+      "explanation": "Eine nächtliche Rückkehr kann das Risiko verringern, von Raubtieren in der Umgebung der Kolonie entdeckt zu werden.",
+      "didYouKnow": "Der Englische Sturmtaucher unternimmt lange Wanderreisen zwischen seinen Brut- und Überwinterungsgebieten.",
+      "imageCaption": "Atlantiksturmtaucher"
+    },
+    {
+      "id": "birds-156",
+      "animal": "Trottellumme",
+      "prompt": "Welche Hypothese wurde aufgestellt, um die konische Form des Trottellummen-Eis zu erklären?",
+      "options": [
+        "Sie könnte begrenzen, wie weit ein Ei auf einem Felsvorsprung rollt.",
+        "Dadurch könnte das Ei zum Meer schwimmen",
+        "Es würde dem Küken helfen, früher zu fliegen",
+        "Sie würde das Ei mit seiner Spitze an der Klippe befestigen"
+      ],
+      "explanation": "Das ist eine vorgeschlagene Erklärung für die Eiform; wie wichtig dieser Effekt ist, bleibt umstritten.",
+      "didYouKnow": "Trottellummen brüten dicht gedrängt auf schmalen Felsvorsprüngen und Klippen.",
+      "imageCaption": "Trottellumme"
+    },
+    {
+      "id": "birds-157",
+      "animal": "Wanderalbatros",
+      "prompt": "Wie viele Eier legt der Wanderalbatros normalerweise pro Brutversuch?",
+      "options": [
+        "Nur einer",
+        "Zwei",
+        "Vier",
+        "Ein Dutzend"
+      ],
+      "explanation": "Wie viele große Albatrosse zieht er im Allgemeinen nur ein Küken pro Versuch groß.",
+      "didYouKnow": "Der Wanderalbatros nutzt seinen Geruchssinn, um Nahrungsressourcen im Meer zu finden.",
+      "imageCaption": "Wanderalbatros"
+    },
+    {
+      "id": "birds-158",
+      "animal": "Hervorragende Fregatte",
+      "prompt": "Wie kommt der Superfregattvogel manchmal an Beute, ohne selbst zu fischen?",
+      "options": [
+        "Indem sie einen anderen Vogel verfolgt, bis dieser seine Beute fallen lässt oder hervorwürgt.",
+        "Sie nimmt Fische aus Schildkrötennestern",
+        "Es filtert Plankton im Kielwasser von Schiffen",
+        "Sie wartet darauf, dass Fische an einen Strand springen"
+      ],
+      "explanation": "Fregattvögel zwingen manchmal andere Seevögel, ihre Beute herauszugeben; dieses Verhalten heißt Kleptoparasitismus.",
+      "didYouKnow": "Ihre sehr langen Flügel helfen ihnen, über dem offenen Meer zu segeln.",
+      "imageCaption": "Hervorragende Fregatte"
+    },
+    {
+      "id": "birds-159",
+      "animal": "Höckerschwan",
+      "prompt": "Wie gelangt der Höckerschwan im flachen Wasser zu Pflanzen unter der Wasseroberfläche?",
+      "options": [
+        "Es senkt seinen langen Hals, während es über Wasser bleibt",
+        "Es taucht vollständig auf den Grund",
+        "Es filtert Pflanzen mit Barten",
+        "Er läuft mit seinen Flügeln unter Wasser"
+      ],
+      "explanation": "Sein langer Hals ermöglicht es ihm, untergetauchte Pflanzen zu erreichen, ohne seinen gesamten Körper unterzutauchen.",
+      "didYouKnow": "Der ausgewachsene Höckerschwan hat an der Basis seines orangefarbenen Schnabels eine schwarze Beule.",
+      "imageCaption": "Höckerschwan"
+    },
+    {
+      "id": "birds-160",
+      "animal": "Nashornvogel",
+      "prompt": "Wie schützt der Nashornvogel seine Nesthöhle?",
+      "options": [
+        "Das Weibchen verschließt sich in der Höhle; ein schmaler Spalt bleibt, durch den das Männchen Futter reicht.",
+        "Er baut ein Steintor",
+        "Es füllt den Hohlraum mit Wasser",
+        "Er legt die Eier in ein hängendes Nest"
+      ],
+      "explanation": "Das Weibchen bleibt in der Bruthöhle, deren Eingang mit Schlamm und anderem Material bis auf einen schmalen Fütterungsspalt verschlossen wird.",
+      "didYouKnow": "Der Helm ist hohl und wird von einem netzartigen Gerüst aus Knochen und Keratin gestützt.",
+      "imageCaption": "Nashornvogel"
+    },
+    {
+      "id": "birds-161",
+      "animal": "Eichelfressender Specht",
+      "prompt": "Wie verteilt der eichelfressende Specht häufig die von ihm gelagerten Eicheln?",
+      "options": [
+        "Er steckt sie in unterschiedlich große Löcher, je nach Durchmesser",
+        "Er begräbt sie alle in einem Bau",
+        "Er steckt sie unter seine Flügel",
+        "Er legt sie ins Wasser, um sie frisch zu halten"
+      ],
+      "explanation": "Die Aufbewahrungslöcher können unterschiedlich groß sein, um Eicheln unterschiedlicher Größe aufzunehmen.",
+      "didYouKnow": "Der eichelfressende Specht lebt oft in Familienverbänden, die bei der Verteidigung ihres Reviers zusammenarbeiten.",
+      "imageCaption": "Eichelfressender Specht"
+    },
+    {
+      "id": "birds-162",
+      "animal": "Gelbbauchspecht",
+      "prompt": "Welches Tier kann von den Saftlöchern des Gelbbauchspechts profitieren?",
+      "options": [
+        "Kolibris",
+        "Pinguine",
+        "Geier",
+        "Sturmtaucher"
+      ],
+      "explanation": "Kolibris können kommen und den Saft trinken, der aus den Lochreihen fließt.",
+      "didYouKnow": "Nördliche Populationen des Gelbbauchspechts wandern im Winter nach Süden.",
+      "imageCaption": "Gelbbauchspecht"
+    },
+    {
+      "id": "birds-163",
+      "animal": "Mehlschwalbe",
+      "prompt": "Wo nistet die Mehlschwalbe oft?",
+      "options": [
+        "Unter einem Gesims oder einer Traufe",
+        "In einem Bankbau",
+        "In einer Unterwasserhöhle",
+        "Auf einer Plattform aus Ästen am Boden"
+      ],
+      "explanation": "Es befestigt sein Schlammnest unter der Kante eines Gebäudes oder einer Felswand.",
+      "didYouKnow": "Die Mehlschwalbe ist im Flug an ihrem weißen Hinterteil zu erkennen, der im Kontrast zu ihrem dunklen Rücken steht.",
+      "imageCaption": "Mehlschwalbe"
+    },
+    {
+      "id": "birds-164",
+      "animal": "Gemeiner Kranich",
+      "prompt": "Welches Zugverhalten zeigt der Kranich?",
+      "options": [
+        "Oft versammelt er sich in Gruppen, bevor er in sein Winterquartier aufbricht.",
+        "Sie schwimmt über die Ozeane",
+        "Sie bleibt das ganze Jahr über immer im selben Sumpf",
+        "Sie wandert unter dem Schnee"
+      ],
+      "explanation": "Kraniche versammeln sich und wandern zwischen ihren Brut- und Überwinterungsgebieten.",
+      "didYouKnow": "Kraniche bilden oft Paare, die über mehrere Saisons zusammen bleiben.",
+      "imageCaption": "Gemeiner Kranich"
+    },
+    {
+      "id": "birds-165",
+      "animal": "Wiedehopf",
+      "prompt": "Welche spezifische chemische Abwehr ist mit dem Wiedehopfnest verbunden?",
+      "options": [
+        "Jungtiere und Weibchen können ein stinkendes Sekret produzieren",
+        "Das Nest ist mit Schlangengift überzogen",
+        "Eier setzen Chlor frei",
+        "Das Männchen versprüht giftiges Harz"
+      ],
+      "explanation": "Das Weibchen und die Küken können ein duftendes Sekret produzieren, das wahrscheinlich dazu beiträgt, bestimmte Raubtiere abzuschrecken.",
+      "didYouKnow": "Der Wiedehopf kann seinen Kamm fächerförmig anheben, wenn er aufmerksam oder aufgeregt ist.",
+      "imageCaption": "Wiedehopf"
+    },
+    {
+      "id": "birds-166",
+      "animal": "Kuckuck",
+      "prompt": "Welche Art von Lautäußerung gibt das Graukuckucksweibchen typischerweise von sich?",
+      "options": [
+        "Ein schneller, lauter Ruf, der sich vom Gesang des Männchens unterscheidet",
+        "Ein Trommeln auf den Zweigen",
+        "Ein Schrei nur unter Wasser",
+        "Ein langes Gurren, das dem einer Taube ähnelt"
+      ],
+      "explanation": "Das Weibchen gibt einen schnellen, lauten Ruf von sich, der sich vom Zweitonmuster des Männchens unterscheidet.",
+      "didYouKnow": "Der Graue Kuckuck wandert nach Afrika, um die schlechte Jahreszeit zu überstehen.",
+      "imageCaption": "Kuckuck"
+    },
+    {
+      "id": "birds-167",
+      "animal": "Mehlschwalbe",
+      "prompt": "Welche Form hat das Schlammnest der Mehlschwalbe oft?",
+      "options": [
+        "Ein fast geschlossener Schlammnapf mit einer kleinen Öffnung.",
+        "Eine offene Tasse, die unter einem Ast befestigt ist",
+        "Ein tiefer Tunnel, der in eine Bank gegraben wurde",
+        "Eine schwimmende Schilfplattform"
+      ],
+      "explanation": "Die Mehlschwalbe baut aus Schlammkügelchen ein gewölbtes Nest mit einer kleinen Öffnung.",
+      "didYouKnow": "Mehlschwalben brüten oft in Kolonien unter Dachvorsprüngen.",
+      "imageCaption": "Mehlschwalbe"
+    },
+    {
+      "id": "birds-168",
+      "animal": "Europäischer Bienenfresser",
+      "prompt": "Wo baut der Bienenfresser normalerweise sein Nest?",
+      "options": [
+        "Am Ende einer in eine Bank oder Böschung gegrabenen Galerie",
+        "In einem Nest, das unter einem Ast hängt",
+        "Am Boden eines mit Wasser gefüllten Kofferraums",
+        "In einer aus Zweigen gebauten Klippenhöhle"
+      ],
+      "explanation": "Das Paar gräbt einen Nisttunnel in weichem Boden.",
+      "didYouKnow": "Der Europäische Bienenfresser verlässt Europa im Herbst und überwintert in Afrika.",
+      "imageCaption": "Europäischer Bienenfresser"
+    },
+    {
+      "id": "birds-169",
+      "animal": "Schwarzer Mauersegler",
+      "prompt": "Wie kommt der Mauersegler oft zur Ruhe?",
+      "options": [
+        "Es haftet an einer vertikalen Fläche",
+        "Es sitzt auf einem dünnen horizontalen Ast",
+        "Es befestigt sich mit dem Schwanz an einem Faden",
+        "Es hängt unter Wasser"
+      ],
+      "explanation": "Seine kurzen Beine und Krallen ermöglichen es ihm, sich an senkrechten Flächen festzuhalten.",
+      "didYouKnow": "Der Mauersegler verbringt den Winter in Afrika, nachdem er in Europa gebrütet hat.",
+      "imageCaption": "Schwarzer Mauersegler"
+    },
+    {
+      "id": "birds-170",
+      "animal": "Wasseramsel",
+      "prompt": "Welche Umgebung ist für den Wasseramsel besonders wichtig?",
+      "options": [
+        "Klare und schnelle Wasserstraßen",
+        "Küstendünen ohne Wasser",
+        "Tropische Baumkronenwälder",
+        "Trockene Getreidefelder"
+      ],
+      "explanation": "Es ist auf Flüsse und Bäche angewiesen, in denen es seine Wasserbeute findet.",
+      "didYouKnow": "Man erkennt die Wasseramsel an ihrem weißen Bauch, der im Kontrast zu ihrem braunen Gefieder steht.",
+      "imageCaption": "Wasseramsel"
+    },
+    {
+      "id": "birds-171",
+      "animal": "Nördlicher Kardinal",
+      "prompt": "Welches Merkmal des Schnabels hilft dem nördlichen Kardinal, Samen zu fressen?",
+      "options": [
+        "Ein kurzer, konischer Schnabel",
+        "Ein sehr langer und gebogener Schnabel",
+        "Ein spachtelförmiger Schnabel",
+        "Ein gekreuzter Schnabel mit entgegengesetzten Spitzen"
+      ],
+      "explanation": "Sein robuster konischer Schnabel eignet sich zum Handhaben und Schälen von Samen.",
+      "didYouKnow": "Der nördliche Kardinal baut ein schalenförmiges Nest, das normalerweise in einem Strauch oder kleinen Baum platziert wird.",
+      "imageCaption": "Nördlicher Kardinal"
+    },
+    {
+      "id": "birds-172",
+      "animal": "Braune Kiwi",
+      "prompt": "Warum ist das Ei der Kiwi im Vergleich zur Größe des Weibchens bemerkenswert?",
+      "options": [
+        "Es stellt einen außergewöhnlich großen Teil seiner Körpermasse dar",
+        "Es ist das kleinste Ei unter den Vögeln",
+        "Es enthält kein Gelb",
+        "Es wird unter Wasser verlegt"
+      ],
+      "explanation": "Das Ei der Kiwi ist im Verhältnis zur Körpergröße des Weibchens sehr groß.",
+      "didYouKnow": "Die Braune Kiwi ist hauptsächlich nachtaktiv.",
+      "imageCaption": "Braune Kiwi"
+    },
+    {
+      "id": "birds-173",
+      "animal": "Behelmter Kasuar",
+      "prompt": "Welche Rolle kann der Kasuar nach dem Verzehr einer Waldfrucht spielen?",
+      "options": [
+        "Transportieren und deponieren Sie Ihre Samen woanders",
+        "Algen bestäuben",
+        "Verhindern Sie das Keimen der Samen, indem Sie sie alle vergraben",
+        "Verwandeln Sie Früchte in Nektar"
+      ],
+      "explanation": "Verschluckte Samen können das Verdauungssystem passieren und sich in einiger Entfernung ablagern.",
+      "didYouKnow": "Der Kasuar hat bunte Kehllappen am Hals, die je nach Art variieren.",
+      "imageCaption": "Behelmter Kasuar"
+    },
+    {
+      "id": "birds-174",
+      "animal": "Felsentaube",
+      "prompt": "Welche Wildform der Felsentaube ist für die städtische Bevölkerung verantwortlich?",
+      "options": [
+        "Eine Art, die natürlicherweise auf Klippen nistet",
+        "Ein Sumpfvogel, der im Schilf nistet",
+        "Ein arktischer Hochseemigrant",
+        "Ein tropischer Waldpapagei"
+      ],
+      "explanation": "Die wilden Felsen nisten auf Klippen und die Gebäude weisen ähnliche Felsvorsprünge auf.",
+      "didYouKnow": "Tauben füttern ihre Jungen mit „Erntemilch“, einem nährstoffreichen Sekret, das von beiden Elternteilen produziert wird.",
+      "imageCaption": "Felsentaube"
+    },
+    {
+      "id": "birds-175",
+      "animal": "Steinadler",
+      "prompt": "Was macht ein Steinadler oft mit einem Nest, das in früheren Saisons genutzt wurde?",
+      "options": [
+        "Er kann es wiederverwenden und vergrößern",
+        "Er trägt ihn zu einer anderen Klippe",
+        "Er bedeckt es immer mit Wasser",
+        "Er ersetzt es durch einen Bau"
+      ],
+      "explanation": "Ein Paar kann seinen Nistplatz über mehrere Jahre hinweg wiederverwenden und erweitern.",
+      "didYouKnow": "Die Beine des Steinadlers sind bis zu den Fingern befedert.",
+      "imageCaption": "Steinadler"
+    },
+    {
+      "id": "birds-176",
+      "animal": "Sekretärvogel",
+      "prompt": "Wie fängt die Sekretärin oft Schlangen?",
+      "options": [
+        "Er schlägt sie mit seinen langen Beinen",
+        "Er fängt sie mit einer Tasche unter seinem Schnabel",
+        "Er lockt sie mit einem Netz aus Federn an",
+        "Er jagt sie unter Wasser"
+      ],
+      "explanation": "Der Sekretär geht zu Fuß auf die Jagd und kann seine Beute mit seinen langen Beinen angreifen.",
+      "didYouKnow": "Es baut ein großes Nest in einem Baum oder Strauch.",
+      "imageCaption": "Sekretärvogel"
+    },
+    {
+      "id": "birds-177",
+      "animal": "Tukan Toco",
+      "prompt": "Warum erscheint der Schnabel des Riesentukans massiv, bleibt aber relativ leicht?",
+      "options": [
+        "Im Inneren befindet sich ein leichtes Netz aus knöchernen Streben.",
+        "Es besteht aus verdichteten Federn",
+        "Es wird durch eine Außentasche mit Luft gefüllt",
+        "Es wird jede Saison durch eine Muschel ersetzt"
+      ],
+      "explanation": "Das Innere des Tukan-Schnabels ist durch ein gitterartiges Gerüst gestützt; so ist er groß, ohne massiv und schwer zu sein.",
+      "didYouKnow": "Der Riesentukan ist die größte Tukanart.",
+      "imageCaption": "Tukan Toco"
+    },
+    {
+      "id": "birds-178",
+      "animal": "Hoazin",
+      "prompt": "Welche Besonderheit haben junge Hoazins an ihren Flügeln?",
+      "options": [
+        "Krallen, die ihnen beim Klettern in der Vegetation helfen",
+        "Membranen, die es ihnen ermöglichen, wie Enten zu schwimmen",
+        "Wasserdichte Federn, die eine Tasche bilden",
+        "Gegenüberliegende Finger greifen nach Fisch"
+      ],
+      "explanation": "Die Jungen benutzen Flügelklauen, um auf Äste zu klettern, wenn sie sich durch die Vegetation bewegen.",
+      "didYouKnow": "Der Hoazin lebt in den Auenwäldern, die an die Wasserstraßen des Amazonas und des Orinoco grenzen.",
+      "imageCaption": "Hoazin"
+    },
+    {
+      "id": "birds-179",
+      "animal": "Schuhschnabel",
+      "prompt": "Wo nistet der Schuhschnabel normalerweise?",
+      "options": [
+        "Auf einer Vegetationsplattform in einem Sumpf",
+        "In einer Meeresklippenhöhle",
+        "In einem Bau unter den Dünen",
+        "In einem Nest, das an einem trockenen Waldbaum hängt"
+      ],
+      "explanation": "Es baut sein Nest auf dem Boden, in der Vegetation der Sumpfgebiete, in denen es lebt.",
+      "didYouKnow": "Der Name Schuhschnabel bezieht sich auf die charakteristische Form seines massiven Schnabels.",
+      "imageCaption": "Schuhschnabel"
+    },
+    {
+      "id": "birds-180",
+      "animal": "Jungfernkranich",
+      "prompt": "Wo überwintert der Prachtkranich nach der Brut in Zentralasien häufig?",
+      "options": [
+        "In Südasien",
+        "In der Antarktis",
+        "Auf den Karibischen Inseln",
+        "In den borealen Wäldern Kanadas"
+      ],
+      "explanation": "Es wandert nach Südasien, um dort zu überwintern, nachdem es in den Steppen Zentralasiens nistet.",
+      "didYouKnow": "Männliche und weibliche Prachtkraniche haben ein sehr ähnliches Gefieder.",
+      "imageCaption": "Jungfernkranich"
+    },
+    {
+      "id": "birds-181",
+      "animal": "Nashornvogel",
+      "prompt": "Aus welchem ​​Material besteht die Helmscheide des Nashornvogels hauptsächlich?",
+      "options": [
+        "Keratin",
+        "Chitin",
+        "Silizium",
+        "Nackter Knorpel"
+      ],
+      "explanation": "Die Hornscheide, die den Helm bedeckt, besteht wie die des Schnabels aus Keratin. Der Helm entwickelt sich, während der Vogel wächst.",
+      "didYouKnow": "Der Nashornvogel lebt in den tropischen Wäldern von Borneo, Sumatra und der Malaiischen Halbinsel.",
+      "imageCaption": "Nashornvogel"
+    },
+    {
+      "id": "birds-182",
+      "animal": "Orangebauchsittich",
+      "prompt": "Zwischen welchen Regionen wandert der Orangebauchsittich?",
+      "options": [
+        "Tasmanien und Südaustralien",
+        "Die Arktis und Antarktis",
+        "Europa und Westafrika",
+        "Japan und Sibirien"
+      ],
+      "explanation": "Es brütet in Tasmanien und wandert dann in die Winterquartiere auf dem australischen Kontinent.",
+      "didYouKnow": "Der Wildbestand ist sehr klein und Gegenstand von Naturschutzbemühungen.",
+      "imageCaption": "Orangebauchsittich"
+    },
+    {
+      "id": "birds-183",
+      "animal": "Victoria gekrönte Taube",
+      "prompt": "Welche sichtbare Struktur zeichnet die Victoria-Kronentaube aus?",
+      "options": [
+        "Ein großes Wappen aus durchbrochenen blauen Federn",
+        "Ein geiler Helm am Schnabel",
+        "Eine erweiterbare Tasche unter dem Hals",
+        "Ein Zug aus Augenflecken"
+      ],
+      "explanation": "Sein blauer Kamm besteht aus zarten, spitzenartigen Federn.",
+      "didYouKnow": "Die Victoria-Kronentaube ist eine der größten lebenden Taubenarten.",
+      "imageCaption": "Victoria gekrönte Taube"
+    },
+    {
+      "id": "birds-184",
+      "animal": "Weißkopfseeadler",
+      "prompt": "Welche Nahrung ist eine wichtige Ressource für den Weißkopfseeadler?",
+      "options": [
+        "Der Fisch",
+        "Nur Schilfsamen",
+        "Klippenflechten",
+        "Blumennektar"
+      ],
+      "explanation": "Er fängt oft Fische, obwohl seine Nahrung auch andere Beutetiere und Kadaver umfasst.",
+      "didYouKnow": "Beim Weißkopfseeadler erscheint nach einigen Jahren der weiße Kopf mit dem erwachsenen Gefieder.",
+      "imageCaption": "Weißkopfseeadler"
+    },
+    {
+      "id": "birds-185",
+      "animal": "Harpyienadler",
+      "prompt": "Warum sind die relativ kurzen Flügel des Harpyienadlers im Wald nützlich?",
+      "options": [
+        "Sie erleichtern das Manövrieren zwischen Bäumen",
+        "Sie ermöglichen das Schwimmen unter Wasser",
+        "Sie erhöhen die Geschwindigkeit auf hoher See",
+        "Sie verhindern jegliches Gleiten"
+      ],
+      "explanation": "Kürzere, breitere Flügel erleichtern das Wenden in dichter Vegetation.",
+      "didYouKnow": "Der Harpyienadler baut ein großes Nest im Blätterdach hoher Bäume.",
+      "imageCaption": "Harpyienadler"
+    },
+    {
+      "id": "birds-186",
+      "animal": "Riesensturmvogel",
+      "prompt": "Welche Rolle spielt der Südliche Riesensturmvogel manchmal in der Nähe von Meereskolonien?",
+      "options": [
+        "Verbrauchen Sie Kadaver und andere verfügbare Ressourcen",
+        "Korallenriffe bauen",
+        "Filtern Sie Salz aus Strömungen",
+        "Meeresbodenalgen bestäuben"
+      ],
+      "explanation": "Es fungiert als opportunistischer Räuber und Aasfresser in Meeresökosystemen.",
+      "didYouKnow": "Der Riesensturmvogel ist der größte Vertreter der Sturmvögel.",
+      "imageCaption": "Riesensturmvogel"
+    },
+    {
+      "id": "birds-187",
+      "animal": "Mönchsgeier",
+      "prompt": "Wie erkennt der Mönchsgeier oft einen Kadaver?",
+      "options": [
+        "Durch die Beobachtung anderer Aasfresser und dank seines Sehvermögens",
+        "Nur durch einen außergewöhnlichen Geruchssinn",
+        "Hören Sie, wie die Samen fallen",
+        "Indem man unter den Kadavern gräbt"
+      ],
+      "explanation": "Es verlässt sich weitgehend auf die Sicht und kann Vögel erkennen, die einen Kadaver gefunden haben.",
+      "didYouKnow": "Der Mönchsgeier kann thermische Aufwinde nutzen, um mit geringem Kraftaufwand zu gleiten.",
+      "imageCaption": "Mönchsgeier"
+    },
+    {
+      "id": "birds-188",
+      "animal": "Schreiseeadler",
+      "prompt": "Welche Ressource erbeutet der Adler hauptsächlich?",
+      "options": [
+        "Fische nahe der Wasseroberfläche.",
+        "Unterirdische Wurzeln",
+        "Nur Grassamen",
+        "Insekten in den Stämmen"
+      ],
+      "explanation": "Der Schreiseeadler fängt Fische oft, indem er im Sturzflug nahe der Oberfläche zugreift.",
+      "didYouKnow": "Sein klarer, weithin hörbarer Ruf ist an afrikanischen Seen und Flüssen zu hören.",
+      "imageCaption": "Schreiseeadler"
+    },
+    {
+      "id": "birds-189",
+      "animal": "Sandregenpfeifer",
+      "prompt": "Wie verhält sich das Regenpfeiferküken kurz nach dem Schlüpfen?",
+      "options": [
+        "Es kann kurz nach dem Schlüpfen laufen und selbst nach Nahrung suchen.",
+        "Es bleibt mehrere Monate lang in einer Höhle gefüttert",
+        "Er fliegt sofort Richtung Meer",
+        "Seine erste Woche verbringt er unter Wasser"
+      ],
+      "explanation": "Sandregenpfeifer sind Nestflüchter: Die Küken verlassen bald das Bodennest und suchen kleine Beute, während die Altvögel sie bewachen.",
+      "didYouKnow": "Altvögel lenken Feinde manchmal mit einer Flügelverletzungs-Darstellung vom Nest oder den Küken ab.",
+      "imageCaption": "Sandregenpfeifer"
+    },
+    {
+      "id": "birds-190",
+      "animal": "Thorshühnchen",
+      "prompt": "Wie konzentriert der Rothals-Phalarope manchmal kleine Beutetiere an der Oberfläche?",
+      "options": [
+        "Es dreht sich schnell im Wasser",
+        "Er baut einen Damm aus Federn",
+        "Er bläst heiße Luft in den Schlamm",
+        "Er schlägt mit seinen Flügeln auf den Fisch ein"
+      ],
+      "explanation": "Durch die Rotation entstehen Wirbel, die kleine Organismen in ihre Reichweite bringen können.",
+      "didYouKnow": "Bei diesem Phalarope sind die Weibchen leuchtender gefärbt als die Männchen und letztere sorgen für die Brutzeit.",
+      "imageCaption": "Thorshühnchen"
+    },
+    {
+      "id": "birds-191",
+      "animal": "Blauscheitelmotmot",
+      "prompt": "Welchen Zweck kann die Pendelbewegung des Schwanzes bei bestimmten Motmots erfüllen?",
+      "options": [
+        "Um einen Alarmzustand oder eine Interaktion zu melden",
+        "Um die Eier unter dem Nest abzukühlen",
+        "Um Fische unter Wasser anzulocken",
+        "Um den Vogel rückwärts zu treiben"
+      ],
+      "explanation": "Die Schwanzbewegung kann insbesondere im Alarmkontext als sichtbares Signal dienen.",
+      "didYouKnow": "Das Blaubrauenmotmot gräbt sein Nest oft am Boden eines Tunnels am Flussufer.",
+      "imageCaption": "Blauscheitelmotmot"
+    },
+    {
+      "id": "birds-192",
+      "animal": "Eleganter Trogon",
+      "prompt": "Wie sind die Finger des eleganten Trogons angeordnet?",
+      "options": [
+        "Zwei vorwärts und zwei rückwärts",
+        "Drei vorwärts und einer rückwärts",
+        "Alle vorwärts",
+        "Alles zurück"
+      ],
+      "explanation": "Diese als Heterodaktylus bezeichnete Anordnung hilft dem Trogon, die Zweige zu greifen.",
+      "didYouKnow": "Trogone können je nach Art in natürlichen Höhlen oder in alten Termitenhügeln nisten.",
+      "imageCaption": "Eleganter Trogon"
+    },
+    {
+      "id": "birds-193",
+      "animal": "Hervorragender Leiervogel",
+      "prompt": "Warum heißt der Superb Leiervogel so?",
+      "options": [
+        "Der entfaltete Schwanz des Männchens erinnert an die Form einer Leier",
+        "Sein Gesang ähnelt lediglich dem Klang eines Saiteninstruments",
+        "Es nistet ausschließlich in Bäumen, die Lyren genannt werden.",
+        "Es hat einen leierförmigen Schnabel."
+      ],
+      "explanation": "Die langen Schwanzfedern des Männchens bilden beim Zurschaustellen eine leierartige Silhouette.",
+      "didYouKnow": "Der Leiervogel ist in Australien endemisch und lebt in feuchten, gemäßigten Wäldern.",
+      "imageCaption": "Hervorragender Leiervogel"
+    },
+    {
+      "id": "birds-194",
+      "animal": "Dorfweber",
+      "prompt": "Warum hängen die geflochtenen Nester der Weber oft an Ästen?",
+      "options": [
+        "Durch die Aufhängung wird der Zugang für bestimmte Landräuber erschwert",
+        "Dadurch können die Eier schwimmen",
+        "Es gibt dem Nest Zugang zu Saft",
+        "Es verhindert, dass Eltern ausgehen"
+      ],
+      "explanation": "Hängende Nester können den Zugang für einige vom Boden aufsteigende Raubtiere einschränken.",
+      "didYouKnow": "Das Männchen des Gendarmenwebers zeigt während der Brutzeit ein leuchtend gelbes Gefieder.",
+      "imageCaption": "Dorfweber"
+    },
+    {
+      "id": "birds-195",
+      "animal": "Siedelweber",
+      "prompt": "Aus welchem ​​Material baut der Sozialrepublikaner vor allem sein großes kollektives Nest?",
+      "options": [
+        "Trockenes Gras und Zweige",
+        "Muscheln und Sand",
+        "Nur Schlamm und frische Blätter",
+        "Säugetierfedern"
+      ],
+      "explanation": "Die kollektive Struktur besteht hauptsächlich aus trockenen Pflanzenmaterialien.",
+      "didYouKnow": "Der soziale Republikaner lebt in den trockenen Gebieten des südlichen Afrikas.",
+      "imageCaption": "Siedelweber"
+    },
+    {
+      "id": "birds-196",
+      "animal": "Fischadler",
+      "prompt": "Wie helfen die Krallen eines Fischadlers dabei, einen rutschigen Fisch festzuhalten?",
+      "options": [
+        "Grobe Unebenheiten und Polster verbessern den Grip",
+        "Sie scheiden einen Kleber aus",
+        "Sie wickeln den Fisch in eine Membran",
+        "Sie tragen Saugnäpfe"
+      ],
+      "explanation": "Die rauen Oberflächen der Finger helfen dabei, die Beute festzuhalten.",
+      "didYouKnow": "Der Fischadler richtet sein Revier oft auf einer hohen Stütze in der Nähe eines Gewässers ein.",
+      "imageCaption": "Fischadler"
+    },
+    {
+      "id": "birds-197",
+      "animal": "Rabe",
+      "prompt": "Wie kann ein Rabe eine hartschalige Nuss knacken?",
+      "options": [
+        "Indem Sie es auf eine widerstandsfähige Oberfläche fallen lassen",
+        "Durch Auflösen in Wasser",
+        "Indem Sie es mit den Zähnen kauen",
+        "Indem man es an einer Feder reibt"
+      ],
+      "explanation": "Wenn Sie auf eine harte Oberfläche fallen, kann die Schale zerbrechen und die Mutter zugänglich machen.",
+      "didYouKnow": "Der Kolkrabe bildet oft dauerhafte Paarbindungen und verteidigt ein Nistgebiet.",
+      "imageCaption": "Rabe"
+    },
+    {
+      "id": "birds-198",
+      "animal": "Kuckuck",
+      "prompt": "Warum wacht das Graukuckucksweibchen manchmal über das Nest eines Wirts?",
+      "options": [
+        "Den Moment zu wählen, in dem sie dort ihr Ei legen kann",
+        "Dem Gastelternteil beibringen, ein Nest zu bauen",
+        "Zur Aufbewahrung von Raupen",
+        "Um die Migration von Wirtsküken zu verhindern"
+      ],
+      "explanation": "Das Weibchen muss ein aktives Nest finden, dessen Legestadium zum Ausbrüten seines Eies geeignet ist.",
+      "didYouKnow": "Der Graue Kuckuck frisst vor allem Raupen, darunter bestimmte haarige Arten, die von anderen Vögeln wenig geschätzt werden.",
+      "imageCaption": "Kuckuck"
+    },
+    {
+      "id": "birds-199",
+      "animal": "Kaiserpinguin",
+      "prompt": "Welche Rolle spielt die Ansammlung von Kaiserpinguinen bei Winterstürmen?",
+      "options": [
+        "Es reduziert die individuelle Belastung durch Wind und Kälte",
+        "Es ermöglicht die gemeinsame Nutzung von Eiern zwischen Gruppen",
+        "Es lockt Fische unter dem Eis an",
+        "Es beschleunigt die Schneeschmelze"
+      ],
+      "explanation": "Eng zusammengedrängte Individuen verringern die der Kälte ausgesetzte Oberfläche.",
+      "didYouKnow": "Der Kaiserpinguin taucht unter der Eisscholle, um Fische und Tintenfische zu fangen.",
+      "imageCaption": "Kaiserpinguin"
+    },
+    {
+      "id": "birds-200",
+      "animal": "Küstenseeschwalbe",
+      "prompt": "Welchen Lebensraum nutzen Küstenseeschwalben häufig zum Nisten?",
+      "options": [
+        "Küstengebiete oder arktische Inseln",
+        "Tropische Baumkronenwälder",
+        "Wüstenklippen ohne Wasser",
+        "Süßwasserhöhlen"
+      ],
+      "explanation": "Es nistet in arktischen Regionen, oft in Küstennähe oder auf Inseln.",
+      "didYouKnow": "Die Küstenseeschwalbe kann trotz ihrer geringen Größe mehrere Jahrzehnte leben.",
+      "imageCaption": "Küstenseeschwalbe"
+    }
+  ]
+}

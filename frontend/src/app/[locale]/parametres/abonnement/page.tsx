@@ -75,6 +75,7 @@ export default function AbonnementPage() {
           <li className="flex items-start gap-2"><span className="text-emerald-600 dark:text-emerald-400 mt-0.5">✓</span>{t('subscription.benefitAnimals')}</li>
           <li className="flex items-start gap-2"><span className="text-emerald-600 dark:text-emerald-400 mt-0.5">✓</span>{t('subscription.benefitHealth')}</li>
           <li className="flex items-start gap-2"><span className="text-emerald-600 dark:text-emerald-400 mt-0.5">✓</span>{t('subscription.benefitQR')}</li>
+          <li className="flex items-start gap-2"><span className="text-emerald-600 dark:text-emerald-400 mt-0.5">✓</span>{t('subscription.benefitHabitat')}</li>
         </ul>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div className="rounded-2xl border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 p-6 flex flex-col">

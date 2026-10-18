@@ -8,6 +8,8 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   async headers() {
     return [
+      { source: '/models/habitat/:path*', headers: [{ key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=604800' }] },
+      { source: '/textures/habitat/:path*', headers: [{ key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=604800' }] },
       {
         source: '/(.*)',
         headers: [
@@ -31,7 +33,8 @@ const nextConfig: NextConfig = {
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: blob: https:",
               "font-src 'self' data:",
-              "connect-src 'self' https: http://localhost:3001 http://127.0.0.1:3001",
+              // Embedded GLB textures are decoded through local blob URLs.
+              "connect-src 'self' blob: https: http://localhost:3001 http://127.0.0.1:3001",
               "frame-ancestors 'none'",
               "base-uri 'self'",
               "form-action 'self'",

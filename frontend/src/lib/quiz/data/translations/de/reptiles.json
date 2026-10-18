@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "208a7dca817da6505c0117c85ffb87fb4acd510a63a3dd39e86c8fb01766b854",
+  "locale": "de",
+  "questions": [
+    {
+      "id": "reptiles-001",
+      "animal": "Reptilien",
+      "prompt": "Welches Merkmal unterscheidet Reptilien von Säugetieren hinsichtlich ihrer Haut?",
+      "options": [
+        "Sie ist mit keratinisierten Federn bedeckt",
+        "Sie ist mit Haaren und Talgdrüsen bedeckt",
+        "Sie ist nackt und durchlässig",
+        "Sie ist mit Schuppen oder Hornplatten bedeckt"
+      ],
+      "explanation": "Die Haut von Reptilien ist im Allgemeinen mit Schuppen oder Platten bedeckt, die reich an Keratin sind und den Wasserverlust begrenzen.",
+      "didYouKnow": "Die meisten Reptilien haben ein Herz mit drei Kammern; Eine Ausnahme bilden Krokodile mit einem vierkammerigen Herzen.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-002",
+      "animal": "Reptilien",
+      "prompt": "Wie regulieren die meisten Reptilien ihre Körpertemperatur?",
+      "options": [
+        "Nutzung externer Wärmequellen",
+        "Durch die Aufrechterhaltung einer nahezu konstanten Temperatur dank des Stoffwechsels",
+        "Durch die Erzeugung konstanter Hitze durch Frösteln",
+        "Durch Abkühlung des Körpers durch starkes Schwitzen"
+      ],
+      "explanation": "Die meisten sind ektotherm: Ihre Temperatur hängt weitgehend von der Umgebung und Verhaltensweisen wie Sonneneinstrahlung oder Schattensuche ab.",
+      "didYouKnow": "Die Befruchtung findet bei Reptilien im Körper des Weibchens statt.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-003",
+      "animal": "Reptilien",
+      "prompt": "Welche Art von Ei half Reptilien, sich außerhalb des Wassers zu vermehren?",
+      "options": [
+        "Eine Eizelle, deren Embryo direkt von einer komplexen Plazenta abhängt",
+        "Ein Ei ohne Amnion, dessen Embryo sich im offenen Wasser entwickelt",
+        "Ein hartschaliges Ei, das jeglichen Gasaustausch verhindert",
+        "Ein durch Membranen geschütztes Fruchtwasserei"
+      ],
+      "explanation": "Die Membranen der Fruchtwasserei schützen den Embryo und schaffen eine innere flüssige Umgebung, die eine Entwicklung an Land ermöglicht.",
+      "didYouKnow": "Die meisten Reptilien haben ein Herz mit drei Kammern; Eine Ausnahme bilden Krokodile.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-004",
+      "animal": "Reptilien",
+      "prompt": "Warum häuten Reptilien?",
+      "options": [
+        "Um die Krallen bei jedem Wachstumszyklus zu erneuern",
+        "Zur Entfernung einer zu dicken Hautschicht",
+        "Um zu klein gewordene Skelettknochen zu ersetzen",
+        "Um eine äußere Schicht zu erneuern, die nicht mitwächst"
+      ],
+      "explanation": "Die Hornschicht der Haut nutzt sich ab und dehnt sich nicht wie das darunter liegende Gewebe. Die Mauser ermöglicht seine Erneuerung.",
+      "didYouKnow": "Reptilien wachsen in Perioden und können sich daher im Laufe ihres Lebens mehrmals häuten.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-005",
+      "animal": "Reptilien",
+      "prompt": "Welche Rolle spielt bei vielen Schlangen vor allem die gespaltene Zunge?",
+      "options": [
+        "Erkennen Sie Schallschwingungen vom Boden",
+        "Transportieren Sie Geruchspartikel zum vomeronasalen Organ",
+        "Probieren Sie Lebensmittel, die sich bereits in Ihrem Mund befinden",
+        "Luftfeuchtigkeit direkt messen"
+      ],
+      "explanation": "Die Zunge sammelt Moleküle aus der Luft und lagert sie im vomeronasalen Organ ab, das an der Geruchsanalyse beteiligt ist.",
+      "didYouKnow": "Bei Schlangen befindet sich das vomeronasale Organ im Gaumen.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-006",
+      "animal": "Schlangen",
+      "prompt": "Wie öffnen Schlangen ihr Maul, um große Beute zu verschlingen?",
+      "options": [
+        "Die Knochen auf beiden Seiten des Kiefers und mehrere Knochen des Schädels sind durch bewegliche Gelenke verbunden",
+        "Der Unterkiefer verrenkt sich und kehrt nach einer Mahlzeit wieder an seinen Platz zurück",
+        "Die beiden Hälften des Unterkiefers verschmelzen und bewegen sich als Ganzes auseinander",
+        "Der Schädel trennt sich von der Wirbelsäule, um der Beute den Durchgang zu ermöglichen"
+      ],
+      "explanation": "Die beiden Seiten des Unterkiefers sind vorne nicht verwachsen; Flexible Bänder und bewegliche Gelenke ermöglichen es dem Maul, sich um die Beute herum auszudehnen.",
+      "didYouKnow": "Schlangen haben keine äußeren Gehörmuscheln.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-007",
+      "animal": "Schlangen",
+      "prompt": "Welchen Zweck hat das Zickzackmuster auf dem Rücken vieler europäischer Vipern?",
+      "options": [
+        "Um ihre Silhouette optisch aufzulockern und zu tarnen",
+        "Mit einem hellen Kontrast Beute anlocken",
+        "Beachten Sie das Vorhandensein eines Giftes, das für Menschen immer noch gefährlich ist",
+        "Um den anderen Vipern eine Mauserperiode anzukündigen"
+      ],
+      "explanation": "Das kontrastierende Muster kann dazu beitragen, dass die Viper mit der Vegetation oder abgefallenen Blättern harmoniert. sein Aussehen variiert je nach Art.",
+      "didYouKnow": "Auch in den nördlichen Regionen Europas kommt die Peliasotter vor.",
+      "imageCaption": "Peliadenviper"
+    },
+    {
+      "id": "reptiles-008",
+      "animal": "Chamäleons",
+      "prompt": "Welchen Zweck hat der Farbwechsel bei Chamäleons?",
+      "options": [
+        "Um die Farbe der Schuppen an jede Art von Licht anzupassen",
+        "Nur um im Hintergrund zu verschwinden und Raubtieren zu entkommen",
+        "Um soziale Interaktionen auszudrücken, die nichts mit der Temperatur zu tun haben",
+        "Um ihre Reaktion auf die Umgebung, insbesondere auf Hitze, zu kommunizieren und anzupassen"
+      ],
+      "explanation": "Farbveränderungen können an sozialen Interaktionen und der Thermoregulation beteiligt sein; Sie dienen nicht nur der Tarnung.",
+      "didYouKnow": "Chamäleons haben Füße, deren gegenüberliegende Zehen die Äste festhalten.",
+      "imageCaption": "Pantherchamäleon"
+    },
+    {
+      "id": "reptiles-009",
+      "animal": "Geckos",
+      "prompt": "Wie klettern manche Geckos auf glatte Oberflächen?",
+      "options": [
+        "Dank Saugnäpfen, die unter jedem Zeh ein Vakuum erzeugen",
+        "Mit Millionen mikroskopischer Strukturen unter ihren Fingern",
+        "Dank eines klebrigen Sekrets, das sich auf der Oberfläche ablagert",
+        "Dank Krallen, die sich an den Poren des Trägers festklammern"
+      ],
+      "explanation": "Die Lamellen der Finger tragen mikroskopisch kleine Borsten, die Näherungswechselwirkungen mit der Oberfläche herstellen.",
+      "didYouKnow": "Einige Geckos können bei sozialen Interaktionen Schreie oder Klickgeräusche von sich geben.",
+      "imageCaption": "Gecko tokay, Vertreter der Geckos"
+    },
+    {
+      "id": "reptiles-010",
+      "animal": "Geckos",
+      "prompt": "Was ist das Besondere an den Augen vieler nachtaktiver Geckos?",
+      "options": [
+        "Eine Pupille, die sich im Licht zu vertikalen Schlitzen zusammenzieht",
+        "Eine feste Iris, die das Licht blockiert, ohne ihre Form zu verändern",
+        "Eine runde Pupille, die den ganzen Tag über gleich groß bleibt",
+        "Eine horizontale Pupille, die sich bei hellem Sonnenlicht erweitert"
+      ],
+      "explanation": "Bei vielen nachtaktiven Geckos wird die Pupille bei hellem Licht zu einem schmalen Schlitz; Viele Arten haben keine beweglichen Augenlider.",
+      "didYouKnow": "Augenlidlose Geckos reinigen ihre Augen mit der Zunge.",
+      "imageCaption": "Gecko tokay, Vertreter der Geckos"
+    },
+    {
+      "id": "reptiles-011",
+      "animal": "Eidechsen",
+      "prompt": "Welcher Abwehrmechanismus wird bei manchen Eidechsen als kaudale Autotomie bezeichnet?",
+      "options": [
+        "Der unfreiwillige Verlust eines Beins nach einer Verletzung",
+        "Den Schwanz mit der Außenhaut häuten",
+        "Der freiwillige Verlust eines Teils des Schwanzes",
+        "Brechen des Schwanzes während der Zucht"
+      ],
+      "explanation": "Manche Eidechsen können einen Teil ihres Schwanzes abtrennen, wenn ein Raubtier sie packt; Restbewegungen können seine Aufmerksamkeit ablenken.",
+      "didYouKnow": "Manche Eidechsen speichern einen Teil ihrer Energiereserven im Schwanz.",
+      "imageCaption": "Stumpfeidechse, Beispiel einer Eidechse"
+    },
+    {
+      "id": "reptiles-012",
+      "animal": "Eidechsen",
+      "prompt": "Welche Rolle spielen Eidechsen häufig in Ökosystemen?",
+      "options": [
+        "Sie fressen die gleichen Pflanzen wie Pflanzenfresser und werden niemals gejagt",
+        "Sie verbreiten immer Samen, ohne Tiere zu fressen",
+        "Sie stehen ausschließlich an der Spitze der Nahrungskette",
+        "Sie fressen Wirbellose und dienen selbst als Beute"
+      ],
+      "explanation": "Viele Eidechsen fressen Insekten oder andere Kleintiere und werden wiederum von Vögeln, Schlangen und Säugetieren gefressen.",
+      "didYouKnow": "Einige Echsenarten fressen auch Früchte oder Nektar.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-013",
+      "animal": "Schildkröten",
+      "prompt": "Was ist ein Schildkrötenpanzer?",
+      "options": [
+        "Zu einer Hornschale auf dem Rücken, die nichts mit dem Skelett zu tun hat",
+        "Eine in das Skelett integrierte Knochenstruktur",
+        "Mit einer Außenhülle aus abnehmbaren Platten",
+        "Zu einer Schicht verdickter Haut, die die Muskeln bedeckt"
+      ],
+      "explanation": "Der Schildkrötenpanzer ist in das Skelett integriert und enthält knöcherne Elemente; die Schildkröte kann ihn nicht verlassen.",
+      "didYouKnow": "Die sichtbaren Platten auf vielen Schildkrötenpanzern sind Hornschilde.",
+      "imageCaption": "Hermannsschildkröte, Beispiel einer Landschildkröte"
+    },
+    {
+      "id": "reptiles-014",
+      "animal": "Schildkröten",
+      "prompt": "Wie heißt der ventrale Teil des Panzers einer Schildkröte?",
+      "options": [
+        "Der Rückenpanzer",
+        "Das Plastron",
+        "Die Panzerbrücke",
+        "Ein Hornschild"
+      ],
+      "explanation": "Der Panzer besteht aus einem dorsalen Teil, dem Rücken und einem ventralen Teil, dem sogenannten Plastron.",
+      "didYouKnow": "Bei Dosenschildkröten ermöglicht ein Scharnier im Plastron das Schließen des Panzers.",
+      "imageCaption": "Hermannsschildkröte, Beispiel einer Landschildkröte"
+    },
+    {
+      "id": "reptiles-015",
+      "animal": "Meeresschildkröten",
+      "prompt": "Welches Phänomen hilft Meeresschildkröten, in ihre Geburtsregion zurückzukehren, um Eier zu legen?",
+      "options": [
+        "Exklusive Überwachung der Süßwasserströmungen zum Strand",
+        "Die Nutzung von Umweltreizen, einschließlich des Erdmagnetfelds",
+        "Sich an die Reise erinnern, die sie mit ihrer Mutter gemacht haben",
+        "Orientierung nur durch den Geruch ihres Geburtsortes"
+      ],
+      "explanation": "Meeresschildkröten nutzen mehrere Navigationshinweise; Untersuchungen zeigen, dass sie Informationen im Zusammenhang mit dem Erdmagnetfeld wahrnehmen.",
+      "didYouKnow": "Nach dem Schlüpfen kehren junge Meeresschildkröten ohne direkte elterliche Fürsorge ins Meer zurück.",
+      "imageCaption": "Grüne Schildkröte (Beispiel einer Meeresschildkröte)"
+    },
+    {
+      "id": "reptiles-016",
+      "animal": "Meeresschildkröten",
+      "prompt": "Warum kann künstliches Küstenlicht junge Meeresschildkröten gefährden?",
+      "options": [
+        "Es reduziert den Salzgehalt des Wassers in der Nähe beleuchteter Strände",
+        "Es verhindert, dass die Eier tagsüber ausreichend Wärme erhalten",
+        "Es kann sie desorientieren, wenn sie nach dem Schlüpfen das Meer erreichen.",
+        "Dadurch wird der Sand zum Schlüpfen zu kompakt"
+      ],
+      "explanation": "Neugeborene orientieren sich am natürlich hellen Horizont; Künstliches Licht kann sie ins Landesinnere locken.",
+      "didYouKnow": "Erwachsene Meeresschildkröten kehren an die Strände zurück, um ihre Nester zu graben.",
+      "imageCaption": "Grüne Schildkröte (Beispiel einer Meeresschildkröte)"
+    },
+    {
+      "id": "reptiles-017",
+      "animal": "Krokodile",
+      "prompt": "Wo befinden sich Augen und Nasenlöcher von Krokodilen, wenn sie fast vollständig unter Wasser schwimmen?",
+      "options": [
+        "Unter dem Unterkiefer",
+        "An den Seiten des Bauches",
+        "Am oberen Teil des Kopfes",
+        "Am Ende des Schwanzes"
+      ],
+      "explanation": "Die Platzierung der Augen und Nasenlöcher auf der Oberseite des Schädels ermöglicht es uns, zu sehen und zu atmen, ohne dem Körper ausgesetzt zu sein.",
+      "didYouKnow": "Ventile können die Nasenlöcher und Ohren von Krokodilen unter Wasser verschließen.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-018",
+      "animal": "Krokodile",
+      "prompt": "Welchen Sinn hat die stimmliche Kommunikation bei Krokodilen?",
+      "options": [
+        "Sie interveniert insbesondere zwischen Eltern und Jugendlichen",
+        "Es hilft Krokodilen, Beute durch Echoortung zu lokalisieren",
+        "Es wird nur von Männern verwendet, um Partner anzulocken.",
+        "Es ersetzt visuelle Anrufe zwischen Personen"
+      ],
+      "explanation": "Krokodile erzeugen verschiedene Geräusche; Die Jungen können im Ei laute Laute aussprechen und ihre Mutter beim Schlüpfen rufen.",
+      "didYouKnow": "Krokodile sind ektotherm und nehmen oft ein Sonnenbad, um ihren Körper zu wärmen.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-019",
+      "animal": "Alligatoren",
+      "prompt": "Alligatoren gehören zu welcher großen zoologischen Gruppe?",
+      "options": [
+        "Krokodile",
+        "Die Schildkröten",
+        "Die Schuppenflechte",
+        "Rhynchocephali"
+      ],
+      "explanation": "Alligatoren, Kaimane, Krokodile und Gaviale sind Krokodile, eine Gruppe von Archosaurier-Reptilien.",
+      "didYouKnow": "Unter den heutigen Großgruppen sind Vögel die nächsten lebenden Verwandten der Krokodile.",
+      "imageCaption": "Amerikanischer Alligator"
+    },
+    {
+      "id": "reptiles-020",
+      "animal": "Gharials",
+      "prompt": "Welche Schnauzenform ist charakteristisch für den Gangesgavial?",
+      "options": [
+        "Eine kurze und sehr robuste Schnauze",
+        "Eine sehr lange und schmale Schnauze",
+        "Eine abgeflachte, schaufelförmige Schnauze",
+        "Eine breite, abgerundete Schnauze"
+      ],
+      "explanation": "Der Gavial hat eine längliche, schmale Schnauze, die für den Fischfang in Flüssen geeignet ist.",
+      "didYouKnow": "Das erwachsene Männchen hat am Ende der Schnauze eine Wucherung, die Ghara genannt wird.",
+      "imageCaption": "Gavial des Ganges"
+    },
+    {
+      "id": "reptiles-021",
+      "animal": "Landschildkröten",
+      "prompt": "Welche Anpassung hilft der Galapagos-Schildkröte, höhere Vegetation zu erreichen?",
+      "options": [
+        "Verlängerte Hinterbeine, die zum Springen geeignet sind",
+        "Ein abgeflachter Schwanz, der sie durch das Wasser treibt",
+        "Ein Hals und ein Panzer, dessen Form je nach Lebensraum variiert",
+        "Ein schmaler Schnabel, der Wasserpflanzen filtert"
+      ],
+      "explanation": "Bei einigen Riesenschildkröten erleichtern ein sattelförmiger Panzer und ein langer Hals den Zugang zu höheren Pflanzen.",
+      "didYouKnow": "Galapagos-Riesenschildkröten können nach dem Verzehr von Früchten Samen verteilen.",
+      "imageCaption": "Galapagos-Riesenschildkröte"
+    },
+    {
+      "id": "reptiles-022",
+      "animal": "Alligatorschildkröte",
+      "prompt": "Wie lockt die Alligator-Schnappschildkröte (Macrochelys temminckii) bestimmte Wasserbeutetiere an?",
+      "options": [
+        "Es filtert kleine Beutetiere mit Kiemenlamellen",
+        "Sie wedelt mit dem Schwanz, um einen verwundeten Fisch nachzuahmen",
+        "Sie wackelt mit einem wurmähnlichen Fortsatz hinten in ihrem Mund",
+        "Es streckt seine Zunge aus dem Wasser, um Fische zu fangen"
+      ],
+      "explanation": "Die Alligator-Schnappschildkröte kann mit geöffnetem Maul bewegungslos bleiben und mit einem wurmartigen Zungenfortsatz wackeln, um Beute anzulocken.",
+      "didYouKnow": "Die Alligator-Schnappschildkröte ist in den Flusseinzugsgebieten im Südosten der USA endemisch.",
+      "imageCaption": "Alligator-Schnappschildkröte (Macrochelys temminckii)"
+    },
+    {
+      "id": "reptiles-023",
+      "animal": "Meeresschildkröten",
+      "prompt": "Welche Nahrung ist ein wichtiger Bestandteil der Ernährung einer Lederschildkröte?",
+      "options": [
+        "Quallen und andere gallertartige Organismen",
+        "Algen und Seegras",
+        "Bodenkrebse und Weichtiere",
+        "Schwämme und Hartkorallen"
+      ],
+      "explanation": "Die Lederschildkröte frisst hauptsächlich Quallen und andere gallertartige Beute; Plastiktüten können damit verwechselt werden.",
+      "didYouKnow": "Die Lederschildkröte ist die einzige Meeresschildkröte ohne starren, mit großen Schuppen bedeckten Knochenpanzer.",
+      "imageCaption": "Lederschildkröte (Dermochelys coriacea)"
+    },
+    {
+      "id": "reptiles-024",
+      "animal": "Meeresschildkröten",
+      "prompt": "Welchen Zweck haben die Salzdrüsen in Augennähe bei Meeresschildkröten?",
+      "options": [
+        "Um Schleim zu produzieren, der das Auge vor Sand schützt",
+        "Um stickstoffhaltige Abfallstoffe aus dem Blut zu entfernen",
+        "Zur Beseitigung überschüssiger absorbierter Salze",
+        "Um Ihre Augen unter Wasser feucht zu halten"
+      ],
+      "explanation": "Diese Drüsen scheiden eine konzentrierte Salzlösung aus, die Meeresschildkröten hilft, den Wasserhaushalt in einer salzigen Umgebung aufrechtzuerhalten.",
+      "didYouKnow": "Meeresschildkröten müssen an die Oberfläche kommen, um mit der Lunge zu atmen.",
+      "imageCaption": "Grüne Schildkröte (Beispiel einer Meeresschildkröte)"
+    },
+    {
+      "id": "reptiles-025",
+      "animal": "Warane",
+      "prompt": "Welcher Sinn hilft dem Komodowaran, Gerüche aus der Ferne wahrzunehmen?",
+      "options": [
+        "Die Wahrnehmung von Vibrationen durch die Knochen seiner Beine",
+        "Erkennung von Gerüchen durch Antennen an der Schnauze",
+        "Erkennung von Molekülen durch die Zunge und das vomeronasale Organ",
+        "Infrarotsicht wird nur durch seine Augen ermöglicht"
+      ],
+      "explanation": "Wie andere Eidechsen sammelt der Komodowaran mit seiner Zunge Geruchspartikel und analysiert sie über das Vomeronasalorgan.",
+      "didYouKnow": "Der Komodowaran ist die größte bekannte lebende Eidechse.",
+      "imageCaption": "Komodowaran"
+    },
+    {
+      "id": "reptiles-026",
+      "animal": "Meeresleguane",
+      "prompt": "Welche Nahrungsressource nutzt der Galapagos-Meeresleguan?",
+      "options": [
+        "Von Riffen gesammelte Schwämme",
+        "Fische fängt er an der Oberfläche",
+        "Seegras, das er am Strand entwurzelt",
+        "Algen, die er im Meer weidet"
+      ],
+      "explanation": "Der Meeresleguan ernährt sich von Algen, die er beim Tauchen in den Küstengewässern der Galapagosinseln abweidet.",
+      "didYouKnow": "Der Meerechse wärmt sich nach seinen Tauchgängen in kaltem Wasser oft in der Sonne.",
+      "imageCaption": "Galapagos-Meeresleguan"
+    },
+    {
+      "id": "reptiles-027",
+      "animal": "Grüne Basilisken",
+      "prompt": "Warum wird der grüne Basilisk Jesus-Christus-Eidechse genannt?",
+      "options": [
+        "Es bewegt sich mit Schwimmhäuten auf dem Wasser fort.",
+        "Er geht nur auf dem Grund von Bächen",
+        "Es kann kurzzeitig auf der Wasseroberfläche laufen",
+        "Er taucht mehrere Minuten lang in Apnoe, ohne zu schwimmen"
+      ],
+      "explanation": "Seine langen Hinterbeine und Zehensäume ermöglichen es ihm, vor dem Schwimmen kurz auf dem Wasser zu laufen.",
+      "didYouKnow": "Grüner Basilikum kommt in Gebieten Mittelamerikas vor, oft in der Nähe von Wasserstraßen.",
+      "imageCaption": "Grünes Basilikum"
+    },
+    {
+      "id": "reptiles-028",
+      "animal": "Anole",
+      "prompt": "Welchen Zweck hat die bunte Wamme, die männliche Anolisen zeigen?",
+      "options": [
+        "Einschüchterung durch Erweiterung des Brustkorbs",
+        "Visuelle Kommunikation, insbesondere territorial",
+        "Thermoregulierung durch Wärmeaustausch mit Luft",
+        "Taktile Erkennung von Beute im Boden"
+      ],
+      "explanation": "Die Wamme, eine Verlängerung der Haut unter der Kehle, wird bei Präsentationen oder Interaktionen mit anderen Personen angezeigt.",
+      "didYouKnow": "Manche Anolen können ihren Schwanz abtrennen, wenn ein Raubtier sie packt.",
+      "imageCaption": "Grüne Anolis"
+    },
+    {
+      "id": "reptiles-029",
+      "animal": "Kragenechse",
+      "prompt": "Wie kann die Kragenechse schnell über offenes Gelände entkommen?",
+      "options": [
+        "Läuft kurz auf den Hinterbeinen",
+        "Durch das Schweben dank einer Membran, die von ihren Rippen getragen wird",
+        "Beim Schwimmen mit abgeflachtem Schwanz",
+        "Indem er mit den Vorderbeinen gräbt, ohne den Boden zu verlassen"
+      ],
+      "explanation": "Die Kragenechse kann bei der Flucht über offenes Gelände auf den Hinterbeinen laufen.",
+      "didYouKnow": "Die Kragenechse lebt im Norden Australiens und im Süden Neuguineas.",
+      "imageCaption": "Rüschenechse"
+    },
+    {
+      "id": "reptiles-030",
+      "animal": "Gehörnte Eidechsen",
+      "prompt": "Welche Abwehr ist bei manchen Hornechsenarten bekannt?",
+      "options": [
+        "Beißende Raubtiere mit giftigen Reißzähnen",
+        "Versprühen von Blut aus Gefäßen in der Nähe der Augen",
+        "Ziehen Sie scharfe Rippen um den Kopf herum",
+        "Reizender Schleim wird durch Drüsen in der Haut ausgeschieden"
+      ],
+      "explanation": "Einige Arten können Blut aus der Augenregion ausstoßen, ein Abwehrverhalten, das sich gegen bestimmte Raubtiere richtet.",
+      "didYouKnow": "Gehörnte Eidechsen ernähren sich oft von Ameisen.",
+      "imageCaption": "Texas-gehörnte Eidechse"
+    },
+    {
+      "id": "reptiles-031",
+      "animal": "Skinke",
+      "prompt": "Was ist eine häufige Anpassung grabender Skinke?",
+      "options": [
+        "Ein abgeflachter Kopf und Schwimmhäute an den Füßen",
+        "Ein kurzer Körper und eine lange Rückenflosse",
+        "Ein verlängerter Körper und manchmal reduzierte Gliedmaßen",
+        "Ein kompakter Körper und vergrößerte Gliedmaßen zum Graben"
+      ],
+      "explanation": "Skinke, die unter der Erde leben, haben oft einen länglichen Körper und verkürzte Gliedmaßen, was die Fortbewegung durch den Boden erleichtert.",
+      "didYouKnow": "Einige Skinkarten haben durchsichtige untere Augenlider.",
+      "imageCaption": "Sandskink, ein wühlender Skink"
+    },
+    {
+      "id": "reptiles-032",
+      "animal": "Beinlose Eidechsen",
+      "prompt": "Welcher Hinweis unterscheidet oft eine beinlose Eidechse von einer Schlange?",
+      "options": [
+        "Das Vorhandensein großer Bauchschuppen",
+        "Das Vorhandensein beweglicher Augenlider oder Ohröffnungen",
+        "Die längliche Form des Körpers",
+        "Die gespaltene Zunge"
+      ],
+      "explanation": "Einige beinlose Eidechsen behalten im Gegensatz zu Schlangen bewegliche Augenlider und äußere Ohröffnungen.",
+      "didYouKnow": "Bei einem Angriff kann die Blindschleiche ihren Schwanz verlieren.",
+      "imageCaption": "Brittle Orvet, eine beinlose Eidechse"
+    },
+    {
+      "id": "reptiles-033",
+      "animal": "Blindschleichen",
+      "prompt": "Was ist die übliche Ernährung der Blindschleiche?",
+      "options": [
+        "Fisch und Schalentiere",
+        "Fluginsekten und Spinnen",
+        "Vogeleier und kleine Säugetiere",
+        "Schnecken und Würmer"
+      ],
+      "explanation": "Die Blindschleiche, eine beinlose Eidechse, frisst hauptsächlich kleine Wirbellose wie Schnecken und Würmer.",
+      "didYouKnow": "Die Blindschleiche hat glatte, glänzende Schuppen.",
+      "imageCaption": "Zerbrechlicher Orvet"
+    },
+    {
+      "id": "reptiles-034",
+      "animal": "Reptilien",
+      "prompt": "Wie nennt man die Form der Fortpflanzung, bei der sich Eier nach dem Legen außerhalb des mütterlichen Körpers entwickeln?",
+      "options": [
+        "Viviparität",
+        "Oviparität",
+        "Parthenogenese",
+        "Embryonale Diapause"
+      ],
+      "explanation": "Unter Oviparität versteht man die Art der Fortpflanzung, bei der das Weibchen Eier legt, bevor die Embryonalentwicklung abgeschlossen ist.",
+      "didYouKnow": "Reptilienhaut enthält eine äußere Schicht, die reich an Keratin ist.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-035",
+      "animal": "Schlangen",
+      "prompt": "Wie erkennen Schlangen Bodenvibrationen?",
+      "options": [
+        "Sie nehmen Vibrationen nur mit der Zunge wahr",
+        "Sie erkennen Geräusche mithilfe des sichtbaren äußeren Trommelfells",
+        "Sie nehmen Vibrationen mit Sinneshärchen auf der Haut wahr",
+        "Schwingungen werden über den Körper und die Kieferknochen auf das Innenohr übertragen"
+      ],
+      "explanation": "Schlangen haben keine äußeren Ohren, aber Vibrationen vom Substrat können über den Schädel und den Kiefer ihr Innenohr erreichen.",
+      "didYouKnow": "Schlangen haben keine äußeren Gehörmuscheln.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-036",
+      "animal": "Grubenottern",
+      "prompt": "Wozu dienen die hitzeempfindlichen Grübchen vieler Vipern?",
+      "options": [
+        "Um hochfrequente Geräusche unter Wasser einzufangen",
+        "Zur Messung der auf den Kiefer übertragenen Bodenvibrationen",
+        "Zur Identifizierung von Geruchsmolekülen, die in der Luft transportiert werden",
+        "Zur Erkennung der von heißen Objekten ausgehenden Infrarotstrahlung"
+      ],
+      "explanation": "Grübchenorgane erkennen kleine Unterschiede in der Wärmestrahlung und können dabei helfen, heiße Beute zu lokalisieren.",
+      "didYouKnow": "Vipern gehören zur Gruppe der Schlangen, die Viperiden genannt werden.",
+      "imageCaption": "Westliche Klapperschlange, eine Grübchenotter"
+    },
+    {
+      "id": "reptiles-037",
+      "animal": "Boas",
+      "prompt": "Wie tötet eine Boa normalerweise Beute, die sie gepackt hat?",
+      "options": [
+        "Indem sie sich um die Beute windet und sie zusammendrückt, wodurch deren Blutkreislauf rasch beeinträchtigt wird",
+        "Indem sie die Beute langsam ausschließlich durch das Blockieren der Atemwege erstickt",
+        "Indem sie mit spezialisierten Giftzähnen Gift injiziert",
+        "Indem sie die Beute unter Wasser hält, bis sie ertrinkt"
+      ],
+      "explanation": "Die Umschlingung übt Druck aus, der den venösen Rückfluss und den Blutkreislauf der Beute stark beeinträchtigt; sie wird rasch bewegungsunfähig.",
+      "didYouKnow": "Boas haben einen sehr beweglichen Kiefer, der es ihnen ermöglicht, Beute im Ganzen zu verschlingen.",
+      "imageCaption": "Boa constrictor"
+    },
+    {
+      "id": "reptiles-038",
+      "animal": "Pythons",
+      "prompt": "Welche Fortpflanzungsmerkmale sind bei Pythons üblich?",
+      "options": [
+        "Eier legen",
+        "Fortpflanzung ohne Befruchtung durch ein Männchen",
+        "Unterirdisch platzierte Schutzkokons",
+        "Die Geburt lebender Jungtiere nach innerer Entwicklung"
+      ],
+      "explanation": "Pythons sind eierlegende Schlangen; Einige Arten bewachen oder bebrüten ihre Eier, einige können sie durch Muskelkontraktionen erwärmen.",
+      "didYouKnow": "Pythons haben hitzeempfindliche Grübchen um ihre Lippen.",
+      "imageCaption": "Burma-Python"
+    },
+    {
+      "id": "reptiles-039",
+      "animal": "Kobras",
+      "prompt": "Warum streckt die Kobra ihre Kapuze aus?",
+      "options": [
+        "Um beim Drohen oder Anzeigen größer zu erscheinen",
+        "Um Beute einzuschüchtern, bevor man sie fängt",
+        "Um von der Luft getragene Gerüche besser einzufangen",
+        "Zur Vergrößerung der der Sonne ausgesetzten Hautoberfläche"
+      ],
+      "explanation": "Die Kapuze entsteht durch die Verlängerung der Halsrippen und trägt zu einer warnenden oder einschüchternden Haltung bei.",
+      "didYouKnow": "Kobras haben an der Vorderseite ihres Mauls festsitzende Reißzähne.",
+      "imageCaption": "Indische Kobra"
+    },
+    {
+      "id": "reptiles-040",
+      "animal": "Seeschlangen",
+      "prompt": "Wie atmen Seeschlangen?",
+      "options": [
+        "Mit einer permanenten Lufttasche unter der Waage",
+        "Mit Lungen an die Oberfläche kommen",
+        "Durch Hautdiffusion ohne Luftaufnahme",
+        "Mit Kiemen, die gelösten Sauerstoff extrahieren"
+      ],
+      "explanation": "Auch wenn sie an das Leben im Meer angepasst sind, atmen Seeschlangen Luft mit der Lunge und müssen an die Oberfläche kommen.",
+      "didYouKnow": "Der abgeflachte Schwanz von Seeschlangen dient als Paddel.",
+      "imageCaption": "Gestreiftes Stricken, eine Seeschlange"
+    },
+    {
+      "id": "reptiles-041",
+      "animal": "Seeschlangen",
+      "prompt": "Welche Schwanzform hilft vielen Seeschlangen beim Schwimmen?",
+      "options": [
+        "Ein seitlich abgeflachter Schwanz wie ein Paddel",
+        "Ein langer, zylindrischer Schwanz, der als Ruder dient",
+        "Ein vertikal abgeflachter Schwanz wie eine Flosse",
+        "Ein sehr kurzes Heck, das den Luftwiderstand reduziert"
+      ],
+      "explanation": "Der seitlich zusammengedrückte Schwanz unterstützt den Vortrieb im Wasser, während der gewellte Körper das Schwimmen leitet.",
+      "didYouKnow": "Seeschlangen atmen mit der Lunge und müssen an die Oberfläche kommen.",
+      "imageCaption": "Gestreiftes Stricken, eine Seeschlange"
+    },
+    {
+      "id": "reptiles-042",
+      "animal": "Schlangen",
+      "prompt": "Welchen Zweck hat das bei bestimmten Schlangen beobachtete Thanatose-Verhalten?",
+      "options": [
+        "Den Tod vortäuschen, um ein Raubtier abzuschrecken",
+        "Um dich durch einen Farbwechsel schwerer zu erkennen",
+        "Beute durch Nachahmung ihrer Bewegungen anlocken",
+        "Zum Abkühlen, wenn die Luft zu heiß ist"
+      ],
+      "explanation": "Thanatose besteht darin, unbeweglich zu bleiben und den Tod vorzutäuschen; es kann das Interesse bestimmter Raubtiere verringern.",
+      "didYouKnow": "Die Ringelnatter trägt oft ein durchsichtiges Halsband hinter dem Kopf.",
+      "imageCaption": "Ringelnatter"
+    },
+    {
+      "id": "reptiles-043",
+      "animal": "Ringelnattern",
+      "prompt": "Welche Art von Beute fressen Ringelnattern häufig?",
+      "options": [
+        "Fische und ihre Eier",
+        "Wasserinsekten und Larven",
+        "Kleine Säugetiere, die in Höhlen leben",
+        "Amphibien, insbesondere Frösche"
+      ],
+      "explanation": "Die Ringelnatter hält sich häufig in Feuchtgebieten auf und ernährt sich vor allem von Amphibien und manchmal auch von Fischen.",
+      "didYouKnow": "Für den Menschen ist es im Allgemeinen ungefährlich.",
+      "imageCaption": "Ringelnatter"
+    },
+    {
+      "id": "reptiles-044",
+      "animal": "Vipern",
+      "prompt": "Was bewirken Vipernzähne?",
+      "options": [
+        "Sie injizieren Verdauungsspeichel ohne Gift",
+        "Sie injizieren Gift in Beutetiere oder gebissene Tiere",
+        "Sie dienen dazu, Beute festzuhalten, ohne sie zu verletzen",
+        "Sie leiten Gerüche zum vomeronasalen Organ"
+      ],
+      "explanation": "Vipern haben spezielle Fangzähne, die mit Giftdrüsen verbunden sind; Sie können sie im Ruhezustand zum Gaumen hin falten.",
+      "didYouKnow": "Viele Vipern bringen lebende Junge zur Welt, anstatt Eier zu legen.",
+      "imageCaption": "Peliadenviper"
+    },
+    {
+      "id": "reptiles-045",
+      "animal": "Giftige Schlangen",
+      "prompt": "Welche ökologische Rolle spielt Gift oft bei Schlangen, die es besitzen?",
+      "options": [
+        "Machen Sie Eier widerstandsfähiger gegen Austrocknung",
+        "Beute leichter bewegungsunfähig machen oder verdauen",
+        "Lassen Sie unter Wasser atmen",
+        "Regulieren Sie direkt die Körpertemperatur"
+      ],
+      "explanation": "Gift kann dabei helfen, Beutetiere bewegungsunfähig zu machen und enthält Moleküle, die deren Verdauung initiieren. es wird auch zur Verteidigung verwendet.",
+      "didYouKnow": "Schlangen sammeln mit ihrer gespaltenen Zunge Geruchsmoleküle.",
+      "imageCaption": "Peliad-Viper, eine giftige Schlange"
+    },
+    {
+      "id": "reptiles-046",
+      "animal": "Schlangen",
+      "prompt": "Warum verschlucken manche Schlangen ihre Beute mit dem Kopf voran?",
+      "options": [
+        "Das Gewebe der Beute ist um den Kopf herum weicher",
+        "Schlangen können ihr Maul in diese Richtung weiter öffnen",
+        "Die Gliedmaßen und Schuppen der Beute falten sich leichter in diese Richtung",
+        "Bei dieser Ausrichtung lösen sich die Knochen der Beute schneller auf"
+      ],
+      "explanation": "Das Verschlucken der Beute mit dem Kopf voran reduziert das Hängenbleiben ihrer Gliedmaßen, Federn oder Schuppen beim Vordringen durch die Kehle.",
+      "didYouKnow": "Bei vielen Schlangen sammelt die gespaltene Zunge Geruchsmoleküle.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-047",
+      "animal": "Reptilien",
+      "prompt": "Welches Organ ermöglicht Reptilien die Luftatmung?",
+      "options": [
+        "Die äußeren Luftsäcke",
+        "Die Luftröhren",
+        "Die Lunge",
+        "Die Kiemen"
+      ],
+      "explanation": "Reptilien atmen Luft mit der Lunge; Wasserlebewesen müssen im Allgemeinen an die Oberfläche zurückkehren, um Luft zu schnappen.",
+      "didYouKnow": "Bei Reptilien ist die Kloake eine häufige Öffnung zum Verdauungs-, Harn- und Fortpflanzungssystem.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-048",
+      "animal": "Reptilien",
+      "prompt": "Welche Stickstoffabfälle scheiden Landreptilien häufig in pastöser oder kristalliner Form aus?",
+      "options": [
+        "Gelöstes Kohlendioxid",
+        "Ammoniak in reichlicher Lösung",
+        "Sehr verdünnter Harnstoff",
+        "Harnsäure"
+      ],
+      "explanation": "Viele Reptilien scheiden Stickstoff in Form von Harnsäure aus, was dazu beiträgt, den Wasserverlust im Vergleich zu sehr verdünntem Urin zu begrenzen.",
+      "didYouKnow": "Reptilien haben eine gemeinsame Öffnung, die Kloake genannt wird.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-049",
+      "animal": "Reptilien",
+      "prompt": "Wie nutzen Reptilien häufig Sonnenlicht zur Thermoregulierung?",
+      "options": [
+        "Sie wechseln sich in der Sonne ab und ziehen sich in den Schatten zurück",
+        "Durch andauerndes Frösteln erzeugen sie Wärme",
+        "Sie schwitzen, um Wärme abzuleiten",
+        "Dank ihres Stoffwechsels halten sie die Temperatur konstant"
+      ],
+      "explanation": "Reptilien können ihre Körpertemperatur anpassen, indem sie wärmere oder kühlere Mikrohabitate wählen.",
+      "didYouKnow": "Krokodile sind die einzigen lebenden Reptilien mit einem Herz mit vier Kammern.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-050",
+      "animal": "Reptilien",
+      "prompt": "Welchen Einfluss kann die Inkubationstemperatur auf bestimmte Schildkröten haben?",
+      "options": [
+        "Es kann das Geschlecht von Neugeborenen beeinflussen",
+        "Es bestimmt direkt die Farbe der erwachsenen Schale",
+        "Es bestimmt die zukünftige Lebensdauer des Embryos",
+        "Es reguliert immer die Erwachsenengröße jedes Kleinen"
+      ],
+      "explanation": "Bei mehreren Schildkröten- und anderen Reptilienarten beeinflusst die Temperatur während einer sensiblen Brutzeit das Geschlecht der Jungen.",
+      "didYouKnow": "Meeresschildkröten können weite Strecken zwischen Nahrungs- und Nistplätzen zurücklegen.",
+      "imageCaption": "Bemalte Schildkröte, Beispiel einer thermoabhängigen Geschlechtsschildkröte"
+    },
+    {
+      "id": "reptiles-051",
+      "animal": "Schildkröten",
+      "prompt": "Wie verbringen manche Süßwasserschildkröten den Winter unter dem Eis?",
+      "options": [
+        "Sie atmen mit Kiemen, die bis ins Erwachsenenalter funktionsfähig bleiben",
+        "Sie schwimmen ständig unter dem Eis, um Wärme zu erzeugen",
+        "Sie wandern über Flüsse in tropische Gebiete",
+        "Sie bleiben unten und verlangsamen ihren Stoffwechsel deutlich"
+      ],
+      "explanation": "Einige Wasserschildkröten geraten in die Brumation und können einen Teil der Gase über stark vaskularisierte Oberflächen, insbesondere in der Kloake, austauschen.",
+      "didYouKnow": "Einige Süßwasserschildkröten können ihre Aktivität im Winter stark reduzieren.",
+      "imageCaption": "Florida-Schmuckschildkröte, Süßwasserschildkröte"
+    },
+    {
+      "id": "reptiles-052",
+      "animal": "Schildkröten",
+      "prompt": "Welchen Zweck hat der einziehbare Hals vieler Schildkröten?",
+      "options": [
+        "Zum Schutz des Kopfes, indem man ihn unter die Schale bringt",
+        "Den Körper in den Schlamm stoßen",
+        "Zum Filtern von Sedimenten mit der Schnauze",
+        "Den Hals strecken, um entfernte Pflanzen zu erreichen"
+      ],
+      "explanation": "Durch das Zurückziehen des Halses können viele Schildkröten ihren Kopf schützen. Die Art und Weise, wie sich die Halsfalten bilden, unterscheidet sich zwischen den Abstammungslinien.",
+      "didYouKnow": "Manche Dosenschildkröten verschließen ihr Plastron mit einem Scharnier.",
+      "imageCaption": "Hermannsschildkröte, Beispiel einer Landschildkröte"
+    },
+    {
+      "id": "reptiles-053",
+      "animal": "Seitenhalsschildkröten",
+      "prompt": "Wie zieht eine Halswender-Schildkröte ihren Kopf ein?",
+      "options": [
+        "Sie biegt den Hals zu einem vertikalen S und schiebt ihn zwischen die Schultern",
+        "Sie biegt den Hals nach hinten unter den Panzerrand",
+        "Sie zieht den Kopf ein, ohne den Hals zu bewegen",
+        "Sie biegt den Hals waagerecht zur Seite unter den Panzerrand"
+      ],
+      "explanation": "Pleurodires falten ihren Hals seitlich unter den Rand des Panzers, im Gegensatz zu Schildkröten, die ihn vertikal falten.",
+      "didYouKnow": "Seitenhalsschildkröten sind hauptsächlich in den tropischen Regionen der südlichen Hemisphäre vertreten.",
+      "imageCaption": "Langhalsschildkröte (Seitenhalsschildkröte)"
+    },
+    {
+      "id": "reptiles-054",
+      "animal": "Meeresschildkröten",
+      "prompt": "Welche Struktur ersetzt die Beine von Meeresschildkröten zum Schwimmen?",
+      "options": [
+        "Gebogene Krallen zum Festhalten am Boden",
+        "In Flossen verwandelte Gliedmaßen",
+        "Verlängerte Finger, die teilweise durch ein Gurtband verbunden sind",
+        "Hinterbeine länger als die Vorderbeine"
+      ],
+      "explanation": "Die Vorderbeine von Meeresschildkröten sind in kräftige Flossen verwandelt, während die Hinterbeine bei der Führung helfen.",
+      "didYouKnow": "Meeresschildkröten legen ihre Eier an Stränden oberhalb der Gezeitenlinie ab.",
+      "imageCaption": "Grüne Schildkröte, Beispiel einer Meeresschildkröte"
+    },
+    {
+      "id": "reptiles-055",
+      "animal": "Meeresschildkröten",
+      "prompt": "Welches Verhalten zeigen junge Meeresschildkröten, nachdem sie das Meer erreicht haben?",
+      "options": [
+        "Sie schwimmen aktiv aufs Meer hinaus",
+        "Sie bleiben bis zum Erwachsenenalter in der Nähe des Nestes gruppiert",
+        "Sie lassen sich ohne Schwimmen ans Ufer treiben",
+        "Sie tauchen in den Unterwassersand ein, um Schutz zu suchen"
+      ],
+      "explanation": "Nachdem sie das Meer erreicht haben, schwimmen die Jungtiere aktiv ins Meer hinaus, eine Zeitspanne, die oft als rasendes Schwimmen beschrieben wird.",
+      "didYouKnow": "Neugeborene Meeresschildkröten orientieren sich anhand von Lichtsignalen am Horizont.",
+      "imageCaption": "Grüne Schildkröte, Beispiel einer Meeresschildkröte"
+    },
+    {
+      "id": "reptiles-056",
+      "animal": "Karettschildkröten",
+      "prompt": "Wovon ernähren sich Karettschildkröten häufig an Riffen?",
+      "options": [
+        "Meeresschwämme",
+        "Quallen und andere gallertartige Tiere",
+        "Seegras",
+        "Schwebealgen"
+      ],
+      "explanation": "Die Karettschildkröte frisst häufig Schwämme, was sie zu einem wichtigen Nahrungsspezialisten für Korallenriffe macht.",
+      "didYouKnow": "Die Karettschildkröte ist an ihren überlappenden Panzerschilden zu erkennen.",
+      "imageCaption": "Echte Karettschildkröte"
+    },
+    {
+      "id": "reptiles-057",
+      "animal": "Grüne Schildkröten",
+      "prompt": "Welche Ernährungsumstellung kommt bei Grünen Meeresschildkröten im Laufe ihres Wachstums häufig vor?",
+      "options": [
+        "Die Jungen fressen Quallen, die Erwachsenen fressen Schalentiere.",
+        "Die Ernährung erfolgt in jedem Alter ausschließlich fleischfressend",
+        "Die Jungen sind Allesfresser und die Erwachsenen werden hauptsächlich Pflanzenfresser",
+        "Die Jungen sind Pflanzenfresser, die Erwachsenen werden zu Fischfressern"
+      ],
+      "explanation": "Jungtiere können eine Vielzahl tierischer und pflanzlicher Beute fressen, während sich Erwachsene hauptsächlich von Seegras und Algen ernähren.",
+      "didYouKnow": "Die ausgewachsene Grüne Meeresschildkröte weidet oft auf Seegraswiesen.",
+      "imageCaption": "grüne Schildkröte"
+    },
+    {
+      "id": "reptiles-058",
+      "animal": "Lederschildkröten",
+      "prompt": "Was unterscheidet den Panzer der Lederschildkröte von dem vieler anderer Schildkröten?",
+      "options": [
+        "Es ist geschmeidig und mit ledriger Haut bedeckt.",
+        "Es besteht nur aus Knorpel ohne Knochenelemente",
+        "Es besteht aus beweglichen Platten, die sich zum Schwimmen öffnen lassen",
+        "Es ist mit großen Hornschilden bedeckt, die denen grüner Schildkröten ähneln."
+      ],
+      "explanation": "Die Lederschildkröte hat einen Panzer ohne die für viele Schildkröten typischen großen Hornschuppen, mit ledriger Haut über einer knöchernen Struktur.",
+      "didYouKnow": "Die Lederschildkröte ist die einzige lebende Art in ihrer Familie Dermochelyidae.",
+      "imageCaption": "Lederschildkröte"
+    },
+    {
+      "id": "reptiles-059",
+      "animal": "Landschildkröten",
+      "prompt": "Warum haben Schildkröten oft starke Beine?",
+      "options": [
+        "Sie enden mit Saugnäpfen zum Klettern auf Bäume",
+        "Sie tragen das Körpergewicht und ermöglichen das Gehen auf dem Boden",
+        "Sie werden zu Flossen abgeflacht, um im Sand zu graben",
+        "Sie breiten sich seitlich aus, um schnell schwimmen zu können"
+      ],
+      "explanation": "Schildkröten bewegen sich auf ihren dicken, kräftigen Gliedmaßen, die ihren Körper und die Fortbewegung auf dem Land unterstützen.",
+      "didYouKnow": "Landschildkröten haben keine Zähne und benutzen zum Schneiden von Nahrung einen Hornschnabel.",
+      "imageCaption": "Hermannsschildkröte, Beispiel einer Landschildkröte"
+    },
+    {
+      "id": "reptiles-060",
+      "animal": "Schildkröten",
+      "prompt": "Welche Hornschuppen sind auf den Panzern vieler Schildkröten zu sehen?",
+      "options": [
+        "Rillen, die die knöchernen Elemente bedecken",
+        "Separate Knochenplatten, die die Wirbel ersetzen",
+        "Flecken pigmentierter Haut ohne Stratum Corneum",
+        "Weiche, abnehmbare Schuppen unter der Schale"
+      ],
+      "explanation": "Scutes sind Keratinplatten, die bei vielen Arten die Knochenschale bedecken, ihr Vorkommen variiert jedoch zwischen den Gruppen.",
+      "didYouKnow": "Die Panzerschuppen oder Rillen sind Hornplatten, die den Knochen bedecken.",
+      "imageCaption": "Hermannsschildkröte, Beispiel einer Landschildkröte"
+    },
+    {
+      "id": "reptiles-061",
+      "animal": "Krokodile",
+      "prompt": "Wie kann man oft den Unterschied zwischen einem Krokodil und einem Alligator erkennen, wenn das Maul geschlossen ist?",
+      "options": [
+        "Alligatoren schließen ihr Maul, indem sie ihre Kiefer auseinander halten",
+        "Bei Alligatoren ragen die unteren Zähne immer aus der Schnauze heraus",
+        "Krokodile haben Zähne nur am Oberkiefer",
+        "Bei vielen Krokodilen bleibt ein großer unterer Zahn sichtbar"
+      ],
+      "explanation": "Bei vielen Krokodilen ist der vierte Zahn im Unterkiefer bei geschlossenem Maul sichtbar; Bei Alligatoren ist es im Allgemeinen verborgen.",
+      "didYouKnow": "Krokodile haben einen knöchernen sekundären Gaumen.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-062",
+      "animal": "Krokodile",
+      "prompt": "Was bewirkt die Klappe unten im Maul eines Krokodils?",
+      "options": [
+        "Damit die Zunge hinten im Mund fixiert bleibt",
+        "Um zu verhindern, dass Beute an Land aus dem Maul entweicht",
+        "Um die Atemwege beim Eintauchen vom Wasser zu isolieren",
+        "Zum Verschließen des Speiseröhrengangs während der Luftatmung"
+      ],
+      "explanation": "Der sekundäre Gaumen und die Gaumenklappe ermöglichen es dem Krokodil, die Atemwege isoliert zu halten, wenn es seine Beute im Wasser hält.",
+      "didYouKnow": "Krokodile können ihre Nasenlöcher schließen, wenn sie unter Wasser sind.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-063",
+      "animal": "Krokodile",
+      "prompt": "Welches Sinnesorgan befindet sich in kleinen Rezeptoren auf der Oberfläche der Schnauze von Krokodilen?",
+      "options": [
+        "Organe, die das Erdmagnetfeld wahrnehmen",
+        "Drüsen, die den Salzgehalt des Blutes messen",
+        "Rezeptoren, die empfindlich auf Druck und Wasserbewegungen reagieren",
+        "Rezeptoren, die nur gelöste Gerüche erkennen"
+      ],
+      "explanation": "Die Hautsinnesorgane von Krokodilen nehmen Druckveränderungen und Bewegungen im Wasser wahr.",
+      "didYouKnow": "Krokodile haben ein Herz mit vier Kammern.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-064",
+      "animal": "Alligatoren",
+      "prompt": "In welchen Lebensräumen kommen amerikanische Alligatoren am häufigsten vor?",
+      "options": [
+        "Die Gebirgsflüsse Zentralasiens",
+        "Süßwasserfeuchtgebiete im Südosten der Vereinigten Staaten",
+        "Die großen kalten Seen im Norden Kanadas",
+        "Salzige Küstenmündungen der Pazifikinseln"
+      ],
+      "explanation": "Der Amerikanische Alligator bewohnt Sumpfgebiete, Flüsse und andere Feuchtgebiete, vor allem im Südosten der USA.",
+      "didYouKnow": "Der amerikanische Alligator baut ein Vegetationsnest, um seine Eier abzulegen.",
+      "imageCaption": "Amerikanischer Alligator"
+    },
+    {
+      "id": "reptiles-065",
+      "animal": "Krokodile",
+      "prompt": "Welches elterliche Verhalten wird bei vielen Krokodilen beobachtet?",
+      "options": [
+        "Erwachsene tragen Eier unter Bauchschuppen",
+        "Das Weibchen kann Neugeborene im Maul zum Wasser tragen",
+        "Beide Eltern kauen Essen für die Kleinen",
+        "Das Männchen ernährt die Jungen mit einem aus der Haut produzierten Sekret"
+      ],
+      "explanation": "Bei vielen Krokodilen schützt das Weibchen das Nest und kann die Neugeborenen behutsam zum Wasser im Maul transportieren.",
+      "didYouKnow": "Die Weibchen einiger Krokodilarten tragen ihre Neugeborenen zum Wasser.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-066",
+      "animal": "Krokodile",
+      "prompt": "Was machen Krokodile mit ihrer Nickhaut, wenn sie unter Wasser sind?",
+      "options": [
+        "Mit diesem zusätzlichen Augenlid schützen sie ihre Augen",
+        "Sie verschließen damit ihre Nasenlöcher",
+        "Sie nutzen es, um Fische zu fangen",
+        "Sie blasen es auf, um Geräusche zu erzeugen"
+      ],
+      "explanation": "Die Nickhaut kann das Auge bedecken und es unter Wasser schützen. Es unterscheidet sich von den beiden äußeren Augenlidern.",
+      "didYouKnow": "Die Nickhaut ist ein durchscheinendes Augenlid, das das Auge schützt.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-067",
+      "animal": "Krokodile",
+      "prompt": "Wie heißt die Bewegung, mit der ein Krokodil Beute zieht, indem es sich gegen sich selbst wendet?",
+      "options": [
+        "Wellenförmiges Schwimmen",
+        "Der kurvenreiche Tauchgang",
+        "Seitliches Gehen",
+        "Die Rolle des Todes"
+      ],
+      "explanation": "Der Todeswurf ist eine schnelle Rotation, die dazu dient, erbeutete Beute aus dem Gleichgewicht zu bringen oder zu zerstückeln.",
+      "didYouKnow": "Das Herz von Krokodilen besteht aus vier Kammern.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-068",
+      "animal": "Krokodile",
+      "prompt": "Welcher Unterschied hilft, Krokodile von Eidechsen zu unterscheiden?",
+      "options": [
+        "Krokodile haben zwei getrennte Herzen in ihrem Brustkorb.",
+        "Krokodile haben vierkammerige Herzen",
+        "Alle Reptilien haben ein Herz mit vier Kammern",
+        "Eidechsen haben ein Herz mit vier Kammern und Krokodile haben ein Herz mit drei Kammern."
+      ],
+      "explanation": "Krokodile haben ein Herz mit vier Kammern, eine Eigenschaft, die sie mit Vögeln und Säugetieren teilen.",
+      "didYouKnow": "Krokodile bewachen ihre Eier und können Jungtiere im Maul tragen.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-069",
+      "animal": "Krokodile",
+      "prompt": "Welche ökologische Rolle können Krokodile in Feuchtgebieten spielen?",
+      "options": [
+        "Zersetzer, die abgestorbene Blätter verdauen",
+        "Bestäuber, die Wasserpflanzen düngen",
+        "Pflanzenfresser, die Grasland durch Beweidung erhalten",
+        "Raubtiere, die Beutepopulationen und das Ökosystem beeinflussen"
+      ],
+      "explanation": "Als Top-Raubtiere können sie die Häufigkeit und das Verhalten ihrer Beute verändern und zur Struktur des Ökosystems beitragen.",
+      "didYouKnow": "Krokodile können mithilfe von Rezeptoren in ihrer Haut leichte Wasserbewegungen wahrnehmen.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-070",
+      "animal": "Kaimane",
+      "prompt": "Zu welcher Familie gehören Kaimane?",
+      "options": [
+        "Zu den Gavialiden, mit den Gavials",
+        "Zur Familie Alligatoridae, zu der auch die Alligatoren gehören",
+        "Mit Squamaten, mit Waranen",
+        "Zu Crocodylidae, mit echten Krokodilen"
+      ],
+      "explanation": "Kaimane sind Krokodile aus der Familie der Alligatoridae, die in Mittel- und Südamerika beheimatet sind.",
+      "didYouKnow": "Im Amazonas- und Orinoco-Becken leben mehrere Kaimanarten.",
+      "imageCaption": "Brillenkaiman"
+    },
+    {
+      "id": "reptiles-071",
+      "animal": "Gharials",
+      "prompt": "Warum sind Gaviale besonders auf Wasserstraßen angewiesen?",
+      "options": [
+        "Seine kräftigen Beine ermöglichen es ihm, terrestrische Beute zu verfolgen",
+        "Sein Körper und seine Schnauze sind für die Fischjagd im Wasser geeignet",
+        "Seine Nasenlöcher sind an das Tiefseetauchen angepasst",
+        "Seine kurze Schnauze wird zum Zerkleinern von Wasserpflanzen verwendet."
+      ],
+      "explanation": "Der Gavial ist ein sehr aquatisches Krokodil, das auf den Fischfang in großen Flüssen spezialisiert ist.",
+      "didYouKnow": "Das Männchen des Gangesgavials hat am Ende der Schnauze eine Schwellung namens Ghara.",
+      "imageCaption": "Gavial des Ganges"
+    },
+    {
+      "id": "reptiles-072",
+      "animal": "Krokodile",
+      "prompt": "Was fressen junge Krokodile hauptsächlich, wenn sie schlüpfen?",
+      "options": [
+        "Algen, die sie am Wasserrand abgrasen",
+        "Kleine Wirbellose und zugängliche Tiere",
+        "Beute so groß wie Erwachsene",
+        "Milch wird von der Mutter nach dem Schlüpfen bereitgestellt"
+      ],
+      "explanation": "Junge Krokodile fangen kleine Beutetiere wie Insekten und andere Kleintiere, bevor sie größere Beutetiere angreifen können.",
+      "didYouKnow": "Krokodile haben einen knöchernen sekundären Gaumen.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-073",
+      "animal": "Krokodile",
+      "prompt": "Welche Struktur hilft Krokodilen, effizient zu schwimmen?",
+      "options": [
+        "Vorderbeine verwandelten sich in Flossen",
+        "Seitliche Bewegungen des Halses, die den Körper ziehen",
+        "Ein muskulöser Schwanz, der einen Großteil des Vortriebs liefert",
+        "Schwimmhäute, die den ganzen Schub alleine erzeugen"
+      ],
+      "explanation": "Der kräftige, seitlich zusammengedrückte Schwanz treibt das Krokodil durch das Wasser; Mitglieder tragen zur Richtung und Stabilität bei.",
+      "didYouKnow": "Krokodile haben kräftige Schwänze, die den Wasserantrieb unterstützen.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-074",
+      "animal": "Krokodile",
+      "prompt": "Wie hören Krokodile unter Wasser?",
+      "options": [
+        "Ihre Zähne fungieren als externe Hörantennen",
+        "Sie hören nur Geräusche, die über die Luft übertragen werden",
+        "Geschützte Hörstrukturen können Schallschwingungen übertragen",
+        "Ihre Nasenlöcher nehmen Schallwellen auf, nicht ihre Ohren"
+      ],
+      "explanation": "Die Gehöröffnungen können durch Falten verschlossen werden und die Vibrationen gelangen über das Gewebe und den Schädel zum Hörgerät.",
+      "didYouKnow": "Krokodile können beim Tauchen ihre Ohren schließen.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-075",
+      "animal": "Sphenodon",
+      "prompt": "Zu welcher Lebensgruppe gehört der Sphenodon, auch Tuatara genannt?",
+      "options": [
+        "In den Testudines, wie die Schildkröten",
+        "Rhynchocephali, verschieden von Eidechsen",
+        "Für Squamates, wie Schlangen und Eidechsen",
+        "Für Krokodile wie Gaviale"
+      ],
+      "explanation": "Die Tuatara ist der einzige aktuelle Vertreter der Rhynchocephali, einer von den Squamaten verschiedenen Abstammungslinie, zu der Eidechsen und Schlangen gehören.",
+      "didYouKnow": "Die Tuatara kann bei kühleren Temperaturen leben als viele Reptilien.",
+      "imageCaption": "Tuatara (Sphenodon)"
+    },
+    {
+      "id": "reptiles-076",
+      "animal": "Sphenodon",
+      "prompt": "Welche besondere Struktur wird bei jungen Tuatara manchmal als drittes Auge bezeichnet?",
+      "options": [
+        "Das Scheitelauge, ein Sinnesorgan, das sich oben auf dem Kopf befindet",
+        "Ein zusätzliches Paar beweglicher Augen hinter den Ohren",
+        "Ein freigelegtes Riechorgan oben am Schädel",
+        "Ein transparentes drittes Augenlid, das beide Augen verschließt"
+      ],
+      "explanation": "Die Tuatara hat ein mittleres Scheitelauge, das besonders bei Jungtieren sichtbar ist; es wird während der Entwicklung abgedeckt.",
+      "didYouKnow": "Die Tuatara kann sehr lange leben und erreicht erst spät ihre Reife.",
+      "imageCaption": "Tuatara (Sphenodon)"
+    },
+    {
+      "id": "reptiles-077",
+      "animal": "Sphenodon",
+      "prompt": "Für welches Klima ist die Tuatara besonders geeignet?",
+      "options": [
+        "Ein kühles gemäßigtes Klima, bei dem Aktivitäten bei niedrigen Temperaturen möglich sind",
+        "Ein feuchtes tropisches Klima mit konstant hohen Temperaturen",
+        "Eine trockene Wüste, in der die Temperaturen oft über denen tropischer Reptilien liegen",
+        "Ein polares Klima, in dem Erwachsene unter dem Eis aktiv bleiben"
+      ],
+      "explanation": "Die Tuatara kann im Einklang mit dem gemäßigten Klima Neuseelands auch bei kühleren Temperaturen aktiv bleiben als die meisten Reptilien.",
+      "didYouKnow": "Die Tuatara ist in Neuseeland endemisch.",
+      "imageCaption": "Tuatara (Sphenodon)"
+    },
+    {
+      "id": "reptiles-078",
+      "animal": "Sphenodon",
+      "prompt": "Wie schnell entwickeln sich Tuatara-Eier?",
+      "options": [
+        "Die Inkubationszeit dieses Reptils ist außergewöhnlich lang",
+        "Die Embryonalentwicklung setzt erst nach mehreren Jahren wieder ein",
+        "Die Eier werden vom Weibchen in ihrem Körper ausgebrütet",
+        "Einige Tage nach dem Legen schlüpfen die Eier"
+      ],
+      "explanation": "Tuatara-Eier haben eine sehr lange Inkubationszeit, die je nach Bedingungen mehrere Monate dauert.",
+      "didYouKnow": "Tuataras graben oft Höhlen, die auch von Seevögeln genutzt werden können.",
+      "imageCaption": "Tuatara (Sphenodon)"
+    },
+    {
+      "id": "reptiles-079",
+      "animal": "Sphenodon",
+      "prompt": "Welche Art von Zähnen hat die Tuatara?",
+      "options": [
+        "Hohle Zähne, die mit Giftdrüsen verbunden sind",
+        "Zwei Reihen oberer Zähne, die eine untere Reihe überlappen",
+        "Eine einzelne Reihe oberer Zähne, die zwischen zwei unteren Reihen passt",
+        "Ein geiler Schnabel ohne Zähne am Kiefer"
+      ],
+      "explanation": "Die oberen Zähne der Tuatara haben zwei funktionelle Reihen, denen eine Reihe unterer Zähne gegenübersteht.",
+      "didYouKnow": "Der Tuatara ist der einzige lebende Vertreter der Ordnung Rhynchocephali.",
+      "imageCaption": "Tuatara (Sphenodon)"
+    },
+    {
+      "id": "reptiles-080",
+      "animal": "Sphenodon",
+      "prompt": "Mit welchen Vögeln teilt die Tuatara auf manchen Inseln manchmal ihren Bau?",
+      "options": [
+        "Brutvögel",
+        "Albatrosse, die Nester in Höhlen bauen",
+        "Pinguine brüten auf Inseln",
+        "Kiwis, die in Bäumen leben"
+      ],
+      "explanation": "Auf einigen neuseeländischen Inseln können Tuataras in Höhlen in der Nähe von Sturmvogelkolonien leben.",
+      "didYouKnow": "Die Tuatara teilt ihre Inselhöhlen manchmal mit Sturmvögeln.",
+      "imageCaption": "Tuatara (Sphenodon)"
+    },
+    {
+      "id": "reptiles-081",
+      "animal": "Chamäleons",
+      "prompt": "Wie fangen Chamäleons oft Insekten?",
+      "options": [
+        "Mit schnell vorspringender Zunge und veredelter Klebefläche",
+        "Mit klebrigen Fingern, die Insekten aus der Ferne fangen",
+        "Durch das Projizieren eines zähflüssigen Speichels auf die Beute",
+        "Mit Kiefern mit langen Zähnen, die Insekten greifen"
+      ],
+      "explanation": "Die Zunge des Chamäleons kann schnell herausragen; Sein Klebeende greift nach der Beute, bevor es zurück in den Mund gebracht wird.",
+      "didYouKnow": "Chamäleons können ihre beiden Augen unabhängig voneinander ausrichten.",
+      "imageCaption": "Pantherchamäleon"
+    },
+    {
+      "id": "reptiles-082",
+      "animal": "Chamäleons",
+      "prompt": "Warum sind die Augen von Chamäleons bemerkenswert?",
+      "options": [
+        "Sie können jedes Auge unabhängig voneinander ausrichten",
+        "Sie sind fixiert und der gesamte Kopf dreht sich, um die Landschaft abzutasten",
+        "Sie werden frontal platziert, um eine dauerhafte binokulare Sicht zu ermöglichen",
+        "Sie blicken immer in die gleiche Richtung und konvergieren nie"
+      ],
+      "explanation": "Die Augen von Chamäleons können sich unabhängig voneinander bewegen, wodurch sie ein weites Sichtfeld haben. Anschließend koordinieren sie ihren Blick, um zu zielen.",
+      "didYouKnow": "Einige Chamäleonarten tragen einen Helm oder Hautwülste auf dem Kopf.",
+      "imageCaption": "Pantherchamäleon"
+    },
+    {
+      "id": "reptiles-083",
+      "animal": "Chamäleons",
+      "prompt": "Welche Fußanpassung hilft Chamäleons, sich an Ästen festzuhalten?",
+      "options": [
+        "Krallen, die sich unter die Haut zurückziehen",
+        "Klebepads ähnlich denen von Geckos",
+        "Die Finger sind zu gegenüberliegenden Zangen zusammengefasst",
+        "Lange Finger, die in einem breiten Geflecht vereint sind"
+      ],
+      "explanation": "Die Finger sind in gegensätzlichen Bündeln gruppiert, die die Äste fest umklammern.",
+      "didYouKnow": "Chamäleons fangen Insekten oft mit einer schnell hervorstehenden Zunge.",
+      "imageCaption": "Pantherchamäleon"
+    },
+    {
+      "id": "reptiles-084",
+      "animal": "Chamäleons",
+      "prompt": "Wozu nutzen Chamäleons ihre Greifschwänze?",
+      "options": [
+        "Sie treibt das Chamäleon beim Schwimmen an",
+        "Sie dient dazu, Eier während der Eiablage zu tragen",
+        "Sie hilft dem Chamäleon beim Laufen auf dem Boden, das Gleichgewicht zu halten",
+        "Sie hilft ihm, sich an Ästen festzuhalten"
+      ],
+      "explanation": "Der Greifschwanz kann sich um einen Ast wickeln und bei Baumbewegungen Halt bieten.",
+      "didYouKnow": "Chamäleons können ihre Augen unabhängig voneinander bewegen.",
+      "imageCaption": "Pantherchamäleon"
+    },
+    {
+      "id": "reptiles-085",
+      "animal": "Chamäleons",
+      "prompt": "Wo gibt es die größte Vielfalt an Chamäleons?",
+      "options": [
+        "Auf Madagaskar",
+        "In Zentralasien",
+        "Auf den Karibischen Inseln",
+        "Nur im südlichen Afrika"
+      ],
+      "explanation": "Madagaskar ist die Heimat einer sehr großen Vielfalt an Chamäleons, darunter viele endemische Arten.",
+      "didYouKnow": "Die Zunge des Chamäleons kann schnell vorgeschoben werden, um Beute zu greifen.",
+      "imageCaption": "Pantherchamäleon"
+    },
+    {
+      "id": "reptiles-086",
+      "animal": "Geckos",
+      "prompt": "Welche Geräusche machen manche Geckos?",
+      "options": [
+        "Schreien oder Klicken wird in der Kommunikation verwendet",
+        "Lautäußerungen sind nur unter Wasser möglich",
+        "Geräusche, die nur durch das Reiben ihrer Pfoten entstehen",
+        "Schallrufe zur Echolokalisierung von Beutetieren"
+      ],
+      "explanation": "Einige Geckos sind in der Lage, Laute zu schreien, zu klickern oder zu schnappen, insbesondere im Zusammenhang mit sozialen Interaktionen.",
+      "didYouKnow": "Tokay-Geckos sind für ihre lauten Lautäußerungen bekannt.",
+      "imageCaption": "Tokay-Gecko"
+    },
+    {
+      "id": "reptiles-087",
+      "animal": "Geckos",
+      "prompt": "Was machen die Augen des Tokay-Geckos, wenn er seine Hornhaut reinigt?",
+      "options": [
+        "Es nimmt die Augen heraus, um sie im Wasser zu reinigen",
+        "Es leckt sie mit der Zunge",
+        "Es blinzelt mit beweglichen Augenlidern",
+        "Es reibt die Augen an Ästen"
+      ],
+      "explanation": "Geckos ohne bewegliche Augenlider reinigen die Augenoberfläche mit der Zunge.",
+      "didYouKnow": "Der Tokay-Gecko stammt aus Südostasien.",
+      "imageCaption": "Tokay-Gecko"
+    },
+    {
+      "id": "reptiles-088",
+      "animal": "Haubengecko",
+      "prompt": "Was passiert mit dem Schwanz eines Haubengeckos nach der Autotomie?",
+      "options": [
+        "Sie wächst nicht nach",
+        "Bei jeder Häutung wird es komplett neu aufgebaut",
+        "Es teilt sich immer in zwei neue Schwänze",
+        "Es wird durch einen starren knöchernen Anhang ersetzt"
+      ],
+      "explanation": "Im Gegensatz zu vielen Eidechsen regeneriert der Haubengecko seinen Schwanz nicht, nachdem er ihn verloren hat. Ein Individuum ohne Schwanz kann dennoch sein Leben fortsetzen.",
+      "didYouKnow": "Der Haubengecko stammt aus Neukaledonien.",
+      "imageCaption": "Haubengecko"
+    },
+    {
+      "id": "reptiles-089",
+      "animal": "Geckos",
+      "prompt": "Warum haben viele nachtaktive Geckos große Augen?",
+      "options": [
+        "Sie erleichtern die Sicht unter trübem Wasser",
+        "Sie erkennen Infrarotstrahlen, die von Beutetieren ausgesendet werden",
+        "Sie erweitern das Gesichtsfeld in der Mittagssonne",
+        "Sie sammeln mehr Licht in der Dunkelheit"
+      ],
+      "explanation": "Große Augen können helfen, das schwache Licht in der Nacht einzufangen, obwohl die Sehfähigkeiten je nach Art unterschiedlich sind.",
+      "didYouKnow": "Manche Geckos können ihren Schwanz abtrennen, wenn ein Raubtier sie packt.",
+      "imageCaption": "Gecko tokay, Vertreter der Geckos"
+    },
+    {
+      "id": "reptiles-090",
+      "animal": "Geckos",
+      "prompt": "Wie lautet der gebräuchliche Name Haubengecko?",
+      "options": [
+        "Ein grabender Gecko, dessen Rücken einen durchgehenden Knochenkamm trägt",
+        "Ein Wassergecko mit Rückenflosse",
+        "Ein Wüstengecko mit einer Halskrause",
+        "Ein Baumgecko mit Reliefs über den Augen und entlang des Rückens"
+      ],
+      "explanation": "Der Haubengecko ist eine Baumechse aus Neukaledonien, erkennbar an den Hautfalten, die seine Augen und seinen Rücken begrenzen.",
+      "didYouKnow": "Der Haubengecko hat kleine Beulen über seinen Augen und entlang seines Rückens.",
+      "imageCaption": "Haubengecko"
+    },
+    {
+      "id": "reptiles-091",
+      "animal": "Uromastyx",
+      "prompt": "Wovon ernähren sich viele Uromastyx hauptsächlich?",
+      "options": [
+        "Pflanzen wie Blätter, Blüten und Samen",
+        "In Teichen gefangene Fische und Schalentiere",
+        "Von Säugetieren, die sie durch Zusammenschnüren töten",
+        "Nektar saugte von der Unterseite der Blüten"
+      ],
+      "explanation": "Uromastyx sind hauptsächlich Pflanzenfresser und fressen verschiedene Pflanzenteile.",
+      "didYouKnow": "Uromastyxe leben in trockenen Regionen Afrikas und Asiens.",
+      "imageCaption": "Wüsten-Uromastyx"
+    },
+    {
+      "id": "reptiles-092",
+      "animal": "Leopardgecko",
+      "prompt": "Welchen Zweck hat der dicke Schwanz des Leopardgeckos?",
+      "options": [
+        "Zur Speicherung von Energiereserven in Form von Fett",
+        "Gift in seine Beute injizieren",
+        "Wellenförmiges Schwimmen in den Gewässern",
+        "Durch Reiben am Boden Warntöne erzeugen"
+      ],
+      "explanation": "Der Leopardgecko speichert einen Teil seiner Energiereserven in seinem Schwanz.",
+      "didYouKnow": "Der Leopardgecko hat im Gegensatz zu vielen anderen Geckos bewegliche Augenlider.",
+      "imageCaption": "Leopardgecko"
+    },
+    {
+      "id": "reptiles-093",
+      "animal": "Eidechsen",
+      "prompt": "Welches Phänomen wird bei einigen Eidechsenarten beobachtet?",
+      "options": [
+        "Fortpflanzung, bei der sich die Embryonen ohne Befruchtung durch einen Mann entwickeln",
+        "Lebendgeburt nach Inkubation im mütterlichen Körper",
+        "Innere Befruchtung, gefolgt von der Eiablage",
+        "Die Teilung eines Individuums in zwei erwachsene Tiere"
+      ],
+      "explanation": "Parthenogenese ermöglicht es einem Weibchen, ohne Befruchtung Nachkommen zu zeugen; es kommt in bestimmten Abstammungslinien von Echsen vor.",
+      "didYouKnow": "Manche Eidechsen können ihren Schwanz abtrennen, um ein Raubtier abzulenken.",
+      "imageCaption": "Wüstenpeitschenschwanzechse, parthenogenetische Art"
+    },
+    {
+      "id": "reptiles-094",
+      "animal": "Eidechsen",
+      "prompt": "Welche Rolle könnte der Schwanz bei einer Baumechse spielen?",
+      "options": [
+        "Graben Sie den Boden um und rühren Sie den Sand auf",
+        "Halten Sie beim Bewegen das Gleichgewicht",
+        "Greifen Sie Ihre Beute zwischen den Greifschuppen",
+        "Regulieren Sie die Temperatur, indem Sie Wärme ableiten"
+      ],
+      "explanation": "Bei Eidechsen, die sich durch Äste bewegen, kann der Schwanz beim Gleichgewicht und der Bewegungskontrolle helfen.",
+      "didYouKnow": "Einige Baumechsen haben vergrößerte Zehen, die den Halt verbessern.",
+      "imageCaption": "Grüne Anolis, Baumechse"
+    },
+    {
+      "id": "reptiles-095",
+      "animal": "Eidechsen",
+      "prompt": "Welchen Zweck hat die Kloake bei Reptilien?",
+      "options": [
+        "Während eines Tauchgangs Luft aus der Lunge ausstoßen",
+        "Zur dauerhaften Trennung der Harnwege vom Verdauungstrakt",
+        "Um von der Zunge übertragene Gerüche aufzunehmen",
+        "Abfall entsorgen und an der Fortpflanzung teilnehmen"
+      ],
+      "explanation": "Die Kloake ist bei Reptilien eine häufige Öffnung zum Verdauungs-, Harn- und Fortpflanzungssystem.",
+      "didYouKnow": "Bei den Weibchen ist die Kloake während der Eiablage an der Eiablage beteiligt.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-096",
+      "animal": "Eidechsen",
+      "prompt": "Welcher Unterschied in den Gliedmaßen unterscheidet Eidechsen von vielen Schlangen?",
+      "options": [
+        "Alle Eidechsen haben vier gut entwickelte Gliedmaßen",
+        "Eidechsen haben Flossen statt Gliedmaßen",
+        "Schlangen haben funktionelle Hinterbeine",
+        "Viele Eidechsen haben vier Gliedmaßen, aber einige haben sie reduziert oder verloren"
+      ],
+      "explanation": "Die meisten Eidechsen haben vier Gliedmaßen, aber die Abstammungslinien haben sich zu reduzierten oder fehlenden Gliedmaßen entwickelt.",
+      "didYouKnow": "Einige beinlose Eidechsen behalten bewegliche Augenlider und Ohröffnungen.",
+      "imageCaption": "Stumpfeidechse, Beispiel einer Eidechse"
+    },
+    {
+      "id": "reptiles-097",
+      "animal": "Eidechsen",
+      "prompt": "Warum haben manche Wüstenechsen blasse Farben?",
+      "options": [
+        "Helle Farbe ist immer ein Signal für Toxizität",
+        "Eine dunkle Färbung verhindert eine Überhitzung in der Sonne",
+        "Die helle Farbe garantiert Tarnung auf jeder Art von Sand",
+        "Helle Farbtöne können mehr Sonnenstrahlung reflektieren"
+      ],
+      "explanation": "Eine hellere Färbung kann in bestimmten Umgebungen die Wärmeabsorption verringern, obwohl Tarnung und andere Funktionen je nach Kontext variieren.",
+      "didYouKnow": "Blasse Eidechsen können sich gut in die sandigen Untergründe ihres Lebensraums einfügen.",
+      "imageCaption": "Wüsten-Uromastyx, Eidechse trockener Umgebungen"
+    },
+    {
+      "id": "reptiles-098",
+      "animal": "Eidechsen",
+      "prompt": "Wie vermeiden Grabechsen häufig das Austrocknen?",
+      "options": [
+        "Sie halten sich in Höhlen oder unter feuchtem Boden auf",
+        "Sie werden nur mittags aktiviert, wenn die Luftfeuchtigkeit minimal ist",
+        "Sie ersetzen ihre Schuppen durch durchlässige Haut",
+        "Sie produzieren sehr verdünnten Urin, der den Körper kühlt"
+      ],
+      "explanation": "Der Boden und die Höhlen sorgen für ein stabileres und feuchteres Mikroklima als die Oberfläche, wodurch der Wasserverlust begrenzt wird.",
+      "didYouKnow": "Grabendeidechsen haben oft längliche Körper, die sich gut durch den Boden bewegen können.",
+      "imageCaption": "Sandskink, Grabeidechse"
+    },
+    {
+      "id": "reptiles-099",
+      "animal": "Eidechsen",
+      "prompt": "Zu welcher Hauptgruppe gehören Leguane und Anolen?",
+      "options": [
+        "An die Leguane",
+        "Bei den Testudines",
+        "Zu den Krokodilen",
+        "Zu den Rhynchocephalen"
+      ],
+      "explanation": "Leguane und Anolen gehören zu den Leguanen, einer großen Gruppe von Echsen; In modernen Klassifikationen werden sie verschiedenen Familien zugeordnet.",
+      "didYouKnow": "Anolisen kommunizieren insbesondere über eine farbige Wamme.",
+      "imageCaption": "Grüne Anolis, die Leguane und Anolis darstellt"
+    },
+    {
+      "id": "reptiles-100",
+      "animal": "Eidechsen",
+      "prompt": "Warum sind Inselechsen möglicherweise besonders anfällig für eingeführte Arten?",
+      "options": [
+        "Inselreptilien sind nicht in der Lage, Beute zu erkennen",
+        "Inseln verhindern die Fortpflanzung von Reptilien in Gefangenschaft",
+        "Inselarten können sich nicht in der Vegetation verstecken",
+        "Ihre Populationen entwickelten sich manchmal ohne bestimmte terrestrische Raubtiere"
+      ],
+      "explanation": "Die Einführung von Raubtieren wie Ratten oder Katzen kann starke Auswirkungen auf Inselpopulationen haben, die sich nicht gemeinsam mit ihnen entwickelt haben.",
+      "didYouKnow": "Inselechsen können endemisch sein und ein kleines geografisches Gebiet besiedeln.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-101",
+      "animal": "Schlangen",
+      "prompt": "Welche Bewegung ermöglicht es der Schlange, sich auf unebenem Boden fortzubewegen, indem sie sich auf unebenen Oberflächen abstützt?",
+      "options": [
+        "Seitliche Wellung",
+        "Akkordeon-Fortbewegung",
+        "Geradlinigkeit",
+        "Loop-Fortbewegung"
+      ],
+      "explanation": "Bei der Akkordeonbewegung fixiert die Schlange einen Teil ihres Körpers, faltet und streckt dann den Rest, um sich in einem engen Raum oder auf einer unregelmäßigen Unterlage fortzubewegen.",
+      "didYouKnow": "Schlangen können sich auch durch seitliche Wellenbewegungen auf offenem Boden fortbewegen.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-102",
+      "animal": "Schlangen",
+      "prompt": "Wie bewegt sich eine Schlange wellenförmig durch einen offenen Korridor?",
+      "options": [
+        "Es spannt die Bauchmuskeln an, um sich in einer geraden Linie vorwärts zu bewegen",
+        "Es bewegt seine Haut unabhängig von seinem Skelett",
+        "Mit den Rundungen seines Körpers drückt es seitlich gegen den Boden",
+        "Es wird von verkümmerten Gliedmaßen getragen"
+      ],
+      "explanation": "Bei seitlichen Wellen stützen sich die Rundungen des Körpers auf den Unebenheiten ab und erzeugen einen Vorwärtsschub.",
+      "didYouKnow": "Schlangen können je nach Gelände verschiedene Fortbewegungsarten nutzen.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-103",
+      "animal": "Baumschlangen",
+      "prompt": "Wie stabilisieren manche Baumschlangen ihren Fortschritt auf einem Ast?",
+      "options": [
+        "Sie drücken ihren Bauch gegen den Ast und bewegen sich in Wellen fort, ohne sich darum zu schlingen.",
+        "Sie wickeln ihren Greifschwanz um die Stütze und bewegen den Rest des Körpers",
+        "Sie bilden Schleifen um den Ast, um ihr Gewicht zu tragen und sich vorwärts zu bewegen",
+        "Sie heben ihren Körper an, indem sie sich auf seitliche Hautfalten stützen"
+      ],
+      "explanation": "Baumschlangen können einen Teil ihres Körpers um Äste wickeln, um sich zu verankern, während sie den Rest bewegen.",
+      "didYouKnow": "Einige Baumschlangen haben einen Greifschwanz, der ihnen hilft, sich zu verankern.",
+      "imageCaption": "Grüner Baumpython"
+    },
+    {
+      "id": "reptiles-104",
+      "animal": "Schlangen",
+      "prompt": "Welchen Zweck hat der transparente Fleck, der das Auge vieler Schlangen bedeckt?",
+      "options": [
+        "Es handelt sich um ein bewegliches Augenlid, das das Auge verschließt",
+        "Es filtert Geruchspartikel in Richtung Gaumen",
+        "Es verstärkt die vom Schädel empfangenen Schallschwingungen",
+        "Es schützt das Auge und ist Teil der Skala, die Brillenglas genannt wird."
+      ],
+      "explanation": "Das Spektakel ist eine transparente Skala, die das Auge bedeckt; es erneuert sich während der Mauser.",
+      "didYouKnow": "Boas und Pythons machen ihre Beute im Allgemeinen durch Zusammenschnüren bewegungsunfähig.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-105",
+      "animal": "Schlangen",
+      "prompt": "Wie werden die Zähne von Schlangen erneuert?",
+      "options": [
+        "Sie werden nur einmal beim Übergang ins Erwachsenenalter ersetzt",
+        "Sie werden im Laufe des Lebens kontinuierlich ersetzt, unabhängig von der Hautablösung",
+        "Nur die Giftzähne werden ersetzt, die anderen Zähne bleiben lebenslang erhalten",
+        "Verlorene Zähne wachsen bei erwachsenen Schlangen nicht nach"
+      ],
+      "explanation": "Schlangen ersetzen ihre Zähne im Laufe ihres Lebens kontinuierlich; Diese Erneuerung wird nicht durch Hautablösung ausgelöst.",
+      "didYouKnow": "Schlangen verschlingen ihre Beute im Ganzen mit ihrem ausziehbaren Maul und Rachen.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-106",
+      "animal": "Schlangen",
+      "prompt": "Welches Lungenmerkmal kommt bei Schlangen häufig vor?",
+      "options": [
+        "Die rechte Lunge ist normalerweise erweitert, während die linke verkleinert ist oder fehlt",
+        "Beide Lungenflügel sind mit funktionsfähigen Kiemen verbunden",
+        "Der linke Lungenflügel ist immer noch der einzige funktionsfähige Lungenflügel",
+        "Erwachsene Schlangen atmen nur durch ihre Haut"
+      ],
+      "explanation": "Bei vielen Schlangen ist die rechte Lunge am weitesten entwickelt und die linke ist reduziert oder fehlt, was mit ihrem langgestreckten Körper übereinstimmt.",
+      "didYouKnow": "Schlangen haben keine äußeren Gehörmuscheln.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-107",
+      "animal": "Klapperschlangen",
+      "prompt": "Welches Element erzeugt den charakteristischen Klang einer Klapperschlangenglocke?",
+      "options": [
+        "Lebendige Schuppen an den Seiten",
+        "Am Ende des Schwanzes sind Keratinsegmente verschachtelt",
+        "Kleine bewegliche Knochen im Hals",
+        "Aus den Nasenlöchern werden Luftblasen ausgestoßen"
+      ],
+      "explanation": "Die Klapperschlange lässt ihren Schwanz vibrieren; Die hohlen Keratinsegmente an seiner Spitze kollidieren und erzeugen das Warngeräusch.",
+      "didYouKnow": "Klapperschlangen fügen ihrer Glocke während der Häutung neue Segmente hinzu.",
+      "imageCaption": "Westliche Klapperschlange"
+    },
+    {
+      "id": "reptiles-108",
+      "animal": "Schlangen",
+      "prompt": "Wozu dient die vollständige Häutung einer Schlange?",
+      "options": [
+        "Ersetzen des Skelettknorpels",
+        "Beseitigen Sie die vorherige Häutung durch Verdauung",
+        "Zähne und tiefe Hautschicht erneuern",
+        "Sie erneuert die äußere Hautschicht und die durchsichtige Schuppe über dem Auge"
+      ],
+      "explanation": "Bei der vollständigen Häutung wird die äußere Hautschicht erneuert, einschließlich der durchsichtigen Schuppe über dem Auge.",
+      "didYouKnow": "Schlangen nehmen Geruchsmoleküle mit ihrer gespaltenen Zunge wahr.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-109",
+      "animal": "Schlangen",
+      "prompt": "Zu welcher Gruppe gehören Boas und Pythons in der Schlangenklassifikation?",
+      "options": [
+        "Zu Echsen und Amphisbenen innerhalb der Squamates",
+        "Zu Schildkröten und Krokodilen",
+        "Zu Schlangen mit Vorderzähnen, wie Vipern",
+        "Zu unterschiedlichen Abstammungslinien der Vorderzahnschlangen"
+      ],
+      "explanation": "Boas und Pythons gehören zur Abstammungslinie der Würgeschlangen und unterscheiden sich von Vipern und vielen Elapiden.",
+      "didYouKnow": "Boas und Pythons sind ungiftige Schlangen, die ihre Beute durch Zusammenschnüren töten.",
+      "imageCaption": "Boa constrictor, Vertreter der Boas"
+    },
+    {
+      "id": "reptiles-110",
+      "animal": "Schlangen",
+      "prompt": "Welcher Teil des Skeletts ermöglicht es Schlangen, wellenförmige Bewegungen auszuführen?",
+      "options": [
+        "Eine große Anzahl gegliederter Wirbel und Rippen",
+        "Knochenflossen wiederholen sich entlang des Körpers",
+        "Knorpelige Bandscheiben ohne Wirbelknochen",
+        "Eine kleine Anzahl verwachsener Wirbel und unbeweglicher Rippen"
+      ],
+      "explanation": "Schlangen haben zahlreiche Wirbel mit zugehörigen beweglichen Rippen, die eine große Flexibilität des Rumpfes ermöglichen.",
+      "didYouKnow": "Schlangen haben keine äußeren Gehörmuscheln.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-111",
+      "animal": "Schlangen",
+      "prompt": "Warum bewegt sich das Herz einer Schlange möglicherweise leicht in ihrem Körper?",
+      "options": [
+        "Es ist nicht wie bei Säugetieren fixiert und passt sich der Länge des Körpers an",
+        "Es liegt frei im Hohlraum und bewegt sich bei jedem Atemzug",
+        "Bei jeder Häutung bewegt es sich in Richtung Schädel",
+        "Es befindet sich in der Nähe der Kloake, um die Eiablage zu erleichtern"
+      ],
+      "explanation": "Das Herz von Schlangen ist innerhalb der Körperhöhle beweglich, was für einen sehr langgestreckten Körper und die Aufnahme großer Beutetiere hilfreich ist.",
+      "didYouKnow": "Bei vielen Schlangen ist die linke Lunge verkleinert oder fehlt.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-112",
+      "animal": "Schlangen",
+      "prompt": "Warum kann sich das Verdauungssystem einer Schlange nach einer großen Mahlzeit anpassen?",
+      "options": [
+        "Die Verdauung wird vom Darm in die Lunge verlagert",
+        "Alle Verdauungsorgane stellen für mehrere Tage ihre Tätigkeit ein",
+        "Der Darm wird durch einen provisorischen Magen ersetzt",
+        "Einige Organe nehmen vorübergehend deutlich an Aktivität und Größe zu"
+      ],
+      "explanation": "Nach einer großen Mahlzeit erhöht sich der Verdauungsstoffwechsel der Schlange und bestimmte Organe erfahren eine erhöhte Aktivität, bevor sie in den Ruhezustand zurückkehren.",
+      "didYouKnow": "Schlangen haben keine beweglichen Augenlider; Eine transparente Skala schützt jedes Auge.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-113",
+      "animal": "Speikobras",
+      "prompt": "Auf welches Ziel zielen Speikobras ab, wenn sie ihr Gift zur Verteidigung ausstoßen?",
+      "options": [
+        "Die Augen des Angreifers",
+        "Die Beine sollen sie aus der Ferne ruhig stellen",
+        "Ohren stören das Gehör",
+        "Der Boden soll eine Geruchsbarriere schaffen"
+      ],
+      "explanation": "Die Giftprojektion zielt hauptsächlich auf die Augen und stellt eine Abwehr dar. Er unterscheidet sich vom Biss, der insbesondere zur Bekämpfung von Beutetieren eingesetzt wird.",
+      "didYouKnow": "Das Gift der Speikobras kann starke Schmerzen verursachen, wenn es in die Augen gelangt.",
+      "imageCaption": "Indochina-Speikobra"
+    },
+    {
+      "id": "reptiles-114",
+      "animal": "Schlangen",
+      "prompt": "Welche Rolle spielen Giftdrüsen bei Giftschlangen?",
+      "options": [
+        "Produzieren Sie Speichel, der die Beute schmiert",
+        "Machen Sie die Haken, die in den Kiefer hineinwachsen",
+        "Produzieren und speichern Sie ein Sekret, das während des Bisses verwendet wird",
+        "Filtern Sie nach jedem Biss das Gift aus dem Blut"
+      ],
+      "explanation": "Die Giftdrüsen produzieren ein Sekret, das über Kanäle zu den Fangzähnen oder speziellen Zähnen geleitet wird.",
+      "didYouKnow": "Schlangen nutzen ihr Gift manchmal zu Verteidigungszwecken.",
+      "imageCaption": "Indische Kobra, Giftschlange"
+    },
+    {
+      "id": "reptiles-115",
+      "animal": "Schlangen",
+      "prompt": "Welche Schlangen haben oft feststehende Reißzähne vor dem Maul?",
+      "options": [
+        "Die Vipern, die ihre Reißzähne zum Palast beugen",
+        "Boas, deren Haken sich über den Kiefer falten",
+        "Viele Elapiden wie Kobras",
+        "Pythons, deren Reißzähne Gift injizieren"
+      ],
+      "explanation": "Viele Elapiden, insbesondere Kobras, haben feste Vorderzähne; andere Giftschlangen haben andere Konfigurationen.",
+      "didYouKnow": "Mambas und Korallenschlangen sind ebenfalls Elapiden.",
+      "imageCaption": "Indische Kobra, ein Elapid mit festen vorderen Haken"
+    },
+    {
+      "id": "reptiles-116",
+      "animal": "Gebänderte Seeschlangen",
+      "prompt": "Wo legen die Weibchen der gebänderten Seeschlange ihre Eier ab?",
+      "options": [
+        "An Land, an geschützten Stellen",
+        "Unter Wasser, in Riffhöhlen",
+        "Im offenen Meer, in schwimmenden Algennestern",
+        "In Höhlen, die am Grund von Flüssen gegraben wurden"
+      ],
+      "explanation": "Der Streifenstrick jagt auf See, kehrt aber zur Eiablage an Land zurück.",
+      "didYouKnow": "Seekraits leben in Meeresumgebungen und können dank ihres abgeflachten Schwanzes effizient schwimmen.",
+      "imageCaption": "Gestreifter Strick (Marine Krait)"
+    },
+    {
+      "id": "reptiles-117",
+      "animal": "Schlangen",
+      "prompt": "Welches Verhalten kann einer Schlange helfen, nach einer Mahlzeit Energie zu sparen?",
+      "options": [
+        "Erhöhen Sie ihre Aktivität, um die Darmpassage zu beschleunigen",
+        "Unterbrechungsfreies Heizen in der Sonne, auch bei Überhitzung",
+        "Häuten, um die Zersetzung der Beute zu beschleunigen",
+        "Bleiben Sie während der Verdauung relativ ruhig"
+      ],
+      "explanation": "Nach dem Verzehr von Beute reduzieren viele Schlangen ihre Bewegungen und widmen ihre Energie der Verdauung.",
+      "didYouKnow": "Schlangen haben keine äußeren Gehörmuscheln.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-118",
+      "animal": "Eierfressende Schlangen",
+      "prompt": "Wie öffnen und schlucken afrikanische Schlangen der Gattung Dasypeltis Eier?",
+      "options": [
+        "Reliefs ihrer Wirbel drücken auf das Ei in der Speiseröhre",
+        "Sie zerdrücken es mit Backenzähnen",
+        "Sie lösen es mit sehr saurem Speichel im Mund auf",
+        "Sie durchbohren seinen Panzer mit einem giftigen Haken"
+      ],
+      "explanation": "Knochenvorsprünge der Wirbel tragen dazu bei, die Schale in der Speiseröhre aufzubrechen. Der Inhalt wird verschluckt und die komprimierte Hülle kann erbrochen werden.",
+      "didYouKnow": "Schlangen der Gattung Dasypeltis sind auf den Verzehr von Vogeleiern spezialisiert.",
+      "imageCaption": "Eierfressende Schlange (Dasypeltis scabra)"
+    },
+    {
+      "id": "reptiles-119",
+      "animal": "Schlangen",
+      "prompt": "Wie kommen Schlangen in gemäßigten Regionen oft durch den Winter?",
+      "options": [
+        "In einem Tierheim beginnen sie zu brummen und verlangsamen ihre Aktivität",
+        "Sie entwickeln sich bis zum Frühjahr in Eiern",
+        "Sie bleiben das ganze Jahr über aktiv, indem sie ihre Temperatur durch Frösteln regulieren",
+        "Sie wandern systematisch in tropische Regionen"
+      ],
+      "explanation": "Unter Brumation versteht man eine Zeit reduzierter Aktivität bei Reptilien, die bei niedrigen Temperaturen häufig in einem geschützten Refugium verbracht wird.",
+      "didYouKnow": "Einige Schlangen versammeln sich in gemeinsamen Winterunterkünften.",
+      "imageCaption": "Peliad-Viper, Schlange der gemäßigten Regionen"
+    },
+    {
+      "id": "reptiles-120",
+      "animal": "Schlangen",
+      "prompt": "Warum könnte sich eine Schlange im Ruhezustand zu einer Spirale zusammenrollen?",
+      "options": [
+        "Die Haltung richtet die Schlange auf, um Beute besser erkennen zu können",
+        "Durch das Aufrollen wird der Druck der Nahrung im Magen verringert",
+        "Eine kompakte Haltung kann helfen, Wärme zu sparen und den Körper zu schützen",
+        "Durch die Haltung kann der Schwanz im Gefahrenfall abgenommen werden"
+      ],
+      "explanation": "Eine gebeugte Haltung reduziert die exponierte Oberfläche und schützt einen Teil des Körpers; sein Interesse hängt von den Umständen ab.",
+      "didYouKnow": "Schlangen sammeln mit ihrer gespaltenen Zunge Geruchsmoleküle.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-121",
+      "animal": "Pythons",
+      "prompt": "Wie können manche Pythonweibchen ihr Gelege erwärmen?",
+      "options": [
+        "Durch wiederholte Muskelkontraktionen",
+        "Durch die Produktion von heißem Gift",
+        "Indem man die Eier mit Flossen auffächert",
+        "Indem sie ihre Haut in pelzigen, isolierenden Stoff verwandeln"
+      ],
+      "explanation": "Bei einigen Arten erzeugen Muskelkontraktionen beim Brüten Wärme. Dies bleibt ein besonderes Phänomen bei im Wesentlichen ektothermen Tieren.",
+      "didYouKnow": "Weibliche Pythons können während der Brutzeit ihre Körper um Eier wickeln.",
+      "imageCaption": "Burma-Python"
+    },
+    {
+      "id": "reptiles-122",
+      "animal": "Reptilien",
+      "prompt": "Was ist der Unterschied zwischen Ektothermie und der Unfähigkeit, die Temperatur zu regulieren?",
+      "options": [
+        "Das bedeutet, dass das Tier seine Temperatur durch kein Verhalten ändern kann.",
+        "Dies bedeutet, dass die Wärme hauptsächlich aus externen Quellen stammt, das Tier seine Temperatur jedoch durch sein Verhalten anpassen kann",
+        "Das bedeutet, dass die Körpertemperatur immer gleich der Lufttemperatur bleibt",
+        "Das bedeutet, dass das Tier genügend Stoffwechselwärme produziert, um eine konstante Temperatur aufrechtzuerhalten"
+      ],
+      "explanation": "Ein ektothermes Reptil kann seine Temperatur teilweise durch sein Verhalten steuern, auch wenn es auf externe Wärmequellen angewiesen ist.",
+      "didYouKnow": "Ektotherme Reptilien können dennoch durch ihr Verhalten ihre Temperatur anpassen.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-123",
+      "animal": "Reptilien",
+      "prompt": "Welche Membran umgibt die Höhle, in der sich der Embryo im Fruchtwasser befindet?",
+      "options": [
+        "Der Dottersack",
+        "Das Amnion",
+        "Der Allantoid",
+        "Das Chorion"
+      ],
+      "explanation": "Das Amnion ist eine Membran, die den Embryo in einer flüssigen Umgebung umgibt, ein grundlegendes Merkmal der Amnionreproduktion.",
+      "didYouKnow": "Die Befruchtung findet bei Reptilien im Körper des Weibchens statt.",
+      "imageCaption": "Bartagame, Beispiel eines Reptils"
+    },
+    {
+      "id": "reptiles-124",
+      "animal": "Reptilien",
+      "prompt": "Welchen Zweck hat der Dottersack des Reptilienembryos?",
+      "options": [
+        "Um den Embryo vor mechanischen Stößen zu schützen",
+        "Bereitstellung von Nährstoffreserven für die Entwicklung",
+        "Um einen Gasaustausch mit der Außenluft zu ermöglichen",
+        "Um stickstoffhaltige Abfälle aus dem Embryo zu entfernen"
+      ],
+      "explanation": "Der Dottersack enthält oder ist mit dem Dotter verbunden, einer Nährstoffreserve, die der Embryo während seiner Entwicklung nutzt.",
+      "didYouKnow": "Reptilien-Eierschalen ermöglichen den Gasaustausch mit der Umgebung.",
+      "imageCaption": "Bartagame, Beispiel eines Reptils"
+    },
+    {
+      "id": "reptiles-125",
+      "animal": "Reptilien",
+      "prompt": "Welche Art der Düngung verwenden Reptilien?",
+      "options": [
+        "Befruchtung der Eier nach dem Legen",
+        "Parthenogenese bei allen Arten",
+        "Innere Befruchtung",
+        "Externe Düngung im Wasser"
+      ],
+      "explanation": "Reptilien haben eine innere Befruchtung; Durch die Paarung können sich Gameten vor der Eiablage oder Embryonalentwicklung treffen.",
+      "didYouKnow": "Bei modernen Reptilien kommt es häufig zu innerer Befruchtung.",
+      "imageCaption": "Bartagame, Beispiel eines Reptils"
+    },
+    {
+      "id": "reptiles-126",
+      "animal": "Reptilieneier",
+      "prompt": "Welche Funktion hat die Allantois im amniotischen Ei eines Reptils?",
+      "options": [
+        "Den Embryo mit einer schützenden Flüssigkeit umgeben",
+        "Um den Embryo mit seinen wichtigsten Nährstoffreserven zu versorgen",
+        "Zur Bildung der äußeren Kalkschale",
+        "Um embryonale Abfälle zu lagern und am Gasaustausch teilzunehmen"
+      ],
+      "explanation": "Das Allantoid speichert embryonale Abfälle und beteiligt sich am Gasaustausch über die Eimembranen.",
+      "didYouKnow": "Reptilienhaut ist reich an Keratin und begrenzt den Wasserverlust.",
+      "imageCaption": "Bartagame, Beispiel eines Reptils"
+    },
+    {
+      "id": "reptiles-127",
+      "animal": "Weichschildkröten",
+      "prompt": "Welche Struktur der Nase ermöglicht es einer Weichschildkröte zu atmen, während sie weitgehend vergraben bleibt?",
+      "options": [
+        "Eine verlängerte Schnauze in einer kleinen Röhre",
+        "Ein gebogener Hakenschnabel",
+        "Eine aufblasbare Tasche unter dem Hals",
+        "Ein knöcherner Kamm über den Augen"
+      ],
+      "explanation": "Die röhrenförmige Schnauze kann die Oberfläche erreichen, während die Schildkröte unten verborgen bleibt. Sie atmet weiterhin Luft mit ihrer Lunge.",
+      "didYouKnow": "Weichschildkröten haben einen abgeflachten, flexiblen Panzer.",
+      "imageCaption": "Weichschildkröte"
+    },
+    {
+      "id": "reptiles-128",
+      "animal": "Reptilien",
+      "prompt": "Welchen Einfluss kann Feuchtigkeit auf die Entwicklung eines Reptilieneis haben?",
+      "options": [
+        "Sie allein bestimmt das Geschlecht aller Reptilien",
+        "Es steuert die im Eigelb enthaltene Nährstoffversorgung",
+        "Es verhindert, dass der Embryo Gase mit der Umgebung austauscht",
+        "Es beeinflusst den Wasseraustausch und kann das Überleben des Embryos beeinträchtigen"
+      ],
+      "explanation": "Eier tauschen Wasser mit ihrer Umgebung aus; Unzureichende Luftfeuchtigkeit kann den Embryo gefährden.",
+      "didYouKnow": "Die Befruchtung bei Reptilien erfolgt intern.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-129",
+      "animal": "Reptilien",
+      "prompt": "Warum behalten manche Reptilienweibchen ihre Eier, nachdem sie Eier gelegt haben?",
+      "options": [
+        "Durch Bewachung kann das Risiko von Raub oder Austrocknung verringert werden",
+        "Durch die Bewachung können die Eier das Nest verlassen, um sich zu ernähren",
+        "Die Anwesenheit des Elterntiers sorgt dafür, dass alle Eier die gleiche Temperatur haben",
+        "Der Wächter bringt Nahrung durch die Schale zu den Embryonen"
+      ],
+      "explanation": "Nestschutz, der insbesondere bei mehreren Krokodilen und Pythons beobachtet wird, kann Eier vor Fressfeinden und bestimmten ungünstigen Bedingungen schützen.",
+      "didYouKnow": "Die Haut von Reptilien ist mit Schuppen oder Hornplatten bedeckt.",
+      "imageCaption": "Pelias-Viper, Beispiel eines Reptils, das seine Embryonen behält"
+    },
+    {
+      "id": "reptiles-130",
+      "animal": "Reptilien",
+      "prompt": "Welcher Begriff bezieht sich auf die Fortpflanzung, bei der Junge lebend zur Welt kommen, nachdem sie sich im mütterlichen Fortpflanzungstrakt entwickelt haben?",
+      "options": [
+        "Oviparität",
+        "Parthenogenese",
+        "Embryonale Diapause",
+        "Viviparität"
+      ],
+      "explanation": "Unter Viviparität versteht man die Entwicklung von Embryonen im mütterlichen Körper bis zur Geburt; Die Formen der embryonalen Ernährung variieren je nach Reptil.",
+      "didYouKnow": "Reptilien sind ektotherm und können die Sonne zum Wärmen nutzen.",
+      "imageCaption": "Peliad-Viper, Schlange, die lebende Junge zur Welt bringt"
+    },
+    {
+      "id": "reptiles-131",
+      "animal": "Leistenkrokodil",
+      "prompt": "Welches Krokodil ist besonders dafür bekannt, weite Strecken auf dem Meer zurückzulegen?",
+      "options": [
+        "Das Leistenkrokodil, Crocodylus porosus",
+        "Der chinesische Alligator",
+        "Cuviers Zwergkaiman",
+        "Der Gangesgavial"
+      ],
+      "explanation": "Das Salzwasserkrokodil verträgt Salzwasser und kann lange Küsten- oder Seereisen unternehmen, wobei es manchmal Strömungen ausnutzt.",
+      "didYouKnow": "Das Salzwasserkrokodil ist die größte lebende Krokodilart.",
+      "imageCaption": "Meereskrokodil"
+    },
+    {
+      "id": "reptiles-132",
+      "animal": "Reptilien",
+      "prompt": "Welche potenziellen Auswirkungen hat die globale Erwärmung auf Populationen temperaturabhängiger Schildkröten?",
+      "options": [
+        "Es kann das Geschlechterverhältnis in bestimmten Nestern aus dem Gleichgewicht bringen",
+        "Dadurch können die Jungen das Nest nicht verlassen",
+        "Es verhindert jede innere Befruchtung bei Erwachsenen",
+        "Es verwandelt erwachsene Weibchen nach und nach in Männchen"
+      ],
+      "explanation": "Höhere Inkubationstemperaturen können das Geschlechterverhältnis bei temperaturabhängigen Arten verändern, mit möglichen Folgen für die Fortpflanzung.",
+      "didYouKnow": "Reptilienhaut enthält eine äußere Schicht, die reich an Keratin ist.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-133",
+      "animal": "Reptilien",
+      "prompt": "Welchen Zweck hat die Diapause bei manchen Reptilienembryonen?",
+      "options": [
+        "Um die Entwicklung bis zum Schlüpfen zu beschleunigen",
+        "Um zu verhindern, dass der Embryo sein Eigelb verzehrt",
+        "Um die Entwicklung vorübergehend zu unterbrechen, bevor sie wieder aufgenommen wird",
+        "Zur Erhöhung der Körpertemperatur der Frau"
+      ],
+      "explanation": "Diapause ist ein vorübergehender Stillstand oder eine Verlangsamung der Embryonalentwicklung, die die Geburt mit günstigen Bedingungen synchronisieren kann.",
+      "didYouKnow": "Die Kloake ist eine gemeinsame Öffnung zum Verdauungs-, Harn- und Fortpflanzungssystem von Reptilien.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-134",
+      "animal": "Amerikanisches Krokodil",
+      "prompt": "Welches Spitzkrokodil hält sich auch in Brackgewässern und Küstengebieten auf?",
+      "options": [
+        "Das amerikanische Krokodil",
+        "Der amerikanische Alligator",
+        "Der Brillenkaiman",
+        "Cuviers Zwergkaiman"
+      ],
+      "explanation": "Das amerikanische Krokodil nutzt in einem Teil seines Verbreitungsgebiets Küsten-, Flussmündungs- und Brackwasserlebensräume.",
+      "didYouKnow": "Das amerikanische Krokodil verträgt Brackwasser und hält sich häufig in Küstengebieten auf.",
+      "imageCaption": "Amerikanisches Krokodil"
+    },
+    {
+      "id": "reptiles-135",
+      "animal": "Reptilien",
+      "prompt": "Warum sind die Jungtiere vieler Reptilien in der Lage, sich schnell selbst zu versorgen?",
+      "options": [
+        "Sie werden als Larven geboren, die sich im Wasser verwandeln",
+        "Nach dem Schlüpfen werden sie mit Milch gefüttert",
+        "Sie müssen im Nest bleiben, bis sie fliegen können",
+        "Sie schlüpfen in einer bereits funktionsfähigen Miniaturform"
+      ],
+      "explanation": "Die meisten Reptilien schlüpfen als kleine, erwachsenenähnliche Individuen ohne obligatorische Larvenmetamorphose.",
+      "didYouKnow": "Bei vielen Reptilien erhalten Neugeborene keine längere elterliche Fürsorge.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-136",
+      "animal": "Reptilien",
+      "prompt": "Was ist Brumation bei Reptilien?",
+      "options": [
+        "Eine Periode saisonaler Verlangsamung der Aktivität",
+        "Eine Phase der Wanderung in Richtung Laichgebiete",
+        "Ein Stillstand der Embryonalentwicklung vor dem Legen",
+        "Eine beschleunigte Mauser, die alle Schuppen erneuert"
+      ],
+      "explanation": "Unter Brumation versteht man eine Phase verminderter Aktivität bei Reptilien, die oft mit Kälte einhergeht und mit einem Abfall des Stoffwechsels einhergeht.",
+      "didYouKnow": "Reptilienschuppen schützen ihre Haut vor Abrieb.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-137",
+      "animal": "Reptilien",
+      "prompt": "Warum müssen Reptilien bei gemäßigten Temperaturen oft aktiv bleiben?",
+      "options": [
+        "Ihre Verdauung und Bewegungen hängen von ihrer Körpertemperatur ab",
+        "Ihre Muskeln sind bis zu einer bestimmten Temperatur inaktiv",
+        "Ihr Herz hört immer auf zu schlagen, wenn es kühl ist",
+        "Ihre Lungen funktionieren nur während der heißen Jahreszeit"
+      ],
+      "explanation": "Physiologische Prozesse bei Reptilien, einschließlich Muskelaktivität und Verdauung, variieren mit der Körpertemperatur.",
+      "didYouKnow": "Die schuppige Haut von Reptilien begrenzt den Wasserverlust.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-138",
+      "animal": "Reptilien",
+      "prompt": "Welche Strategie hilft einem Wüstenreptil, Dehydrierung während des Tages zu vermeiden?",
+      "options": [
+        "Bleiben Sie während der kühlen Stunden in einem warmen Unterschlupf und setzen Sie sich dann mitten am Tag der Sonne aus",
+        "Setzen Sie sich mittags der Sonne aus, um den Wasserverlust durch Verdunstung zu beschleunigen",
+        "Erhöhen Sie die Atemverdunstung, um das Blut abzukühlen",
+        "Suchen Sie in heißen Zeiten Zuflucht in einem Bau und seien Sie in kühleren Zeiten aktiv"
+      ],
+      "explanation": "Die Nutzung eines kühlen Unterschlupfs und Aktivitäten in der Dämmerung oder in der Nacht helfen vielen Wüstenreptilien, Wasserverlust und Überhitzung zu begrenzen.",
+      "didYouKnow": "Viele Wüstenreptilien sind im Morgengrauen, in der Abenddämmerung oder in der Nacht am aktivsten.",
+      "imageCaption": "Wüsten-Uromastyx"
+    },
+    {
+      "id": "reptiles-139",
+      "animal": "Reptilien",
+      "prompt": "Welchen Nutzen bietet keratinisierte Haut vielen Landreptilien?",
+      "options": [
+        "Es erhöht den Luftaustausch durch die Haut",
+        "Es verhindert den Wasserverlust durch die Atmung",
+        "Es ermöglicht eine direkte Wasseraufnahme durch die Schuppen",
+        "Es begrenzt den Wasserverlust über die Körperoberfläche"
+      ],
+      "explanation": "Die keratinreiche Außenschicht bildet eine Barriere, die die Austrocknung der Luft reduziert.",
+      "didYouKnow": "Keratinisierte Haut schützt Landreptilien vor Abrieb.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-140",
+      "animal": "Reptilien",
+      "prompt": "Welchen Sinn haben große Bauchschuppen bei Schlangen?",
+      "options": [
+        "Sie nehmen die Wärme vom Boden schneller auf als die Rückseite",
+        "Während der Fortbewegung stützen sie sich am Boden ab",
+        "Sie schützen den Bauch vor Raubtierbissen",
+        "Sie dienen der Sammlung von Geruchsmolekülen"
+      ],
+      "explanation": "Die großen Bauchschuppen greifen die Unregelmäßigkeiten des Untergrunds und tragen zum Fortschreiten der Schlange bei.",
+      "didYouKnow": "Schlangen haben keine äußeren Gehörmuscheln.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-141",
+      "animal": "Reptilien",
+      "prompt": "Warum legen Reptilien ihre Eier oft an einem geschützten Ort ab?",
+      "options": [
+        "Um sicherzustellen, dass die Eier während der Inkubation unter Wasser bleiben",
+        "Um die Embryonen vor jeglichem Gasaustausch zu schützen",
+        "Um die Exposition gegenüber Raubtieren und Umweltschwankungen zu begrenzen",
+        "Damit das Weibchen die Eier unter seinem Körper ausbrüten kann"
+      ],
+      "explanation": "Die Wahl eines geschützten Nestes kann Raubtiere reduzieren und dazu beitragen, geeignete Luftfeuchtigkeits- und Temperaturbedingungen aufrechtzuerhalten.",
+      "didYouKnow": "Einige Reptilien wählen Nistplätze, deren Boden das Ausbrüten der Eier erleichtert.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-142",
+      "animal": "Gavial des Ganges",
+      "prompt": "Was bedeutet das Ghara des erwachsenen männlichen Gavials?",
+      "options": [
+        "Eine Flosse am Ende des Schwanzes",
+        "Ein rundlicher Wuchs am Ende der Schnauze",
+        "Eine knöcherne Plakette am Hals",
+        "Eine erweiterbare Tasche unter dem Bauch"
+      ],
+      "explanation": "Der Ghara ist ein abgerundeter Auswuchs, der am Ende der Schnauze erwachsener männlicher Gavials getragen wird.",
+      "didYouKnow": "Der Gavial des männlichen Gavials ist eine Wucherung am Ende seiner Schnauze.",
+      "imageCaption": "Gavial des Ganges"
+    },
+    {
+      "id": "reptiles-143",
+      "animal": "Reptilien",
+      "prompt": "Welcher Mechanismus ermöglicht es den Lungen vieler Reptilien, die Luft zu erneuern?",
+      "options": [
+        "Durch Schlagen der Gliedmaßen wird Luft in die Lunge gesaugt",
+        "Von der Zunge erzeugte Druckschwankungen",
+        "Kontraktionen der Haut, die die Lunge komprimieren",
+        "Bewegungen des Brustkorbs und der Atemmuskulatur"
+      ],
+      "explanation": "Reptilien belüften ihre Lungen im Allgemeinen durch Bewegungen der Rippen und der damit verbundenen Muskeln, wobei es zwischen den Gruppen Unterschiede gibt.",
+      "didYouKnow": "Schuppentiere erneuern regelmäßig die äußere Hautschicht.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-144",
+      "animal": "Reptilien",
+      "prompt": "Warum atmen Schildkröten nicht, indem sie ihre Rippen aufblasen wie eine Eidechse?",
+      "options": [
+        "Sie haben kein Zwerchfell wie Säugetiere",
+        "Sie haben innere Kiemen, die die Lunge verschließen",
+        "Ihre Schale verhindert jede Bewegung der Atemmuskulatur",
+        "Ihre Rippen sind in die Schale integriert und weichen nicht frei aus"
+      ],
+      "explanation": "Da die Rippen der Schildkröten mit dem Panzer verwachsen sind, nutzen sie spezielle Muskeln, um ihre Lungen zu belüften.",
+      "didYouKnow": "Heutige Schildkröten haben keine Zähne und einen geilen Schnabel.",
+      "imageCaption": "Hermanns Schildkröte"
+    },
+    {
+      "id": "reptiles-145",
+      "animal": "Reptilien",
+      "prompt": "Welchen Einfluss hat das Tauchen auf die Bewegung mancher Wasserschildkröten?",
+      "options": [
+        "Während des Tauchens hört die Blutzirkulation auf",
+        "Die Lunge füllt sich mit Wasser, um Gase auszutauschen",
+        "Die Herzfrequenz kann sich verlangsamen, um Sauerstoff zu sparen",
+        "Das Herz beschleunigt sich, um gespeicherten Sauerstoff schneller zu verbrauchen"
+      ],
+      "explanation": "Wie andere tauchende Wirbeltiere können Wasserschildkröten während eines Tauchgangs ihre Herzfrequenz verlangsamen und den Sauerstoff neu verteilen.",
+      "didYouKnow": "Der Panzer von Schildkröten besteht aus knöchernen Elementen, die in das Skelett integriert sind.",
+      "imageCaption": "Florida-Schmuckschildkröte, Wasserschildkröte"
+    },
+    {
+      "id": "reptiles-146",
+      "animal": "Reptilien",
+      "prompt": "Welche Rolle spielen Nasenlöcher bei schwimmenden Krokodilen?",
+      "options": [
+        "Sie filtern das Salz aus dem aufgenommenen Wasser",
+        "Sie halten die Augen während eines Tauchgangs offen",
+        "Sie erkennen die Bewegungen der Beute im Wasser",
+        "Sie ermöglichen Krokodilen das Atmen, während sie fast vollständig untergetaucht bleiben"
+      ],
+      "explanation": "Die Nasenlöcher oben an der Schnauze bleiben über dem Wasser, wenn das Krokodil schwimmt, sodass es diskret atmen kann.",
+      "didYouKnow": "Nasenlöcher oben an der Schnauze ermöglichen es Krokodilen, im Tiefflug zu atmen.",
+      "imageCaption": "Nilkrokodil"
+    },
+    {
+      "id": "reptiles-147",
+      "animal": "Krokodile",
+      "prompt": "Was sind Krokodilosteoderme?",
+      "options": [
+        "In die Haut eingebettete Knochen unter den Schuppen",
+        "Mit jeder Häutung abnehmbare Keratinplatten",
+        "Im Gaumen untergebrachte Ersatzzähne",
+        "Sinnesorgane rund um die Nasenlöcher"
+      ],
+      "explanation": "Osteoderme sind knöcherne Elemente, die in die Dermis integriert sind und unter den Schuppen vieler Krokodile vorkommen.",
+      "didYouKnow": "Krokodile haben wie Vögel ein Herz mit vier Kammern.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-148",
+      "animal": "Draco fliegende Eidechse",
+      "prompt": "Welche Struktur ermöglicht es der Flugechse Draco, zwischen Bäumen zu gleiten?",
+      "options": [
+        "Ein abgeflachter Schwanz, der wie ein Flügel wirkt",
+        "Eine Membran, die von sehr langen Fingern getragen wird",
+        "Eine Hautmembran, die von verlängerten Rippen getragen wird",
+        "Federn an den Seiten"
+      ],
+      "explanation": "Die Gattung Draco nutzt ein Patagium, eine von länglichen Rippen getragene Hautmembran, um von einem Baum zum anderen zu gleiten.",
+      "didYouKnow": "Eidechsen der Gattung Draco leben in den tropischen Wäldern Süd- und Südostasiens.",
+      "imageCaption": "Draco fliegende Eidechse"
+    },
+    {
+      "id": "reptiles-149",
+      "animal": "Reptilien",
+      "prompt": "Welche Rolle könnte die Warnfärbung bei manchen Reptilien spielen?",
+      "options": [
+        "Locken Sie Beute an, indem Sie deren Nahrung nachahmen",
+        "Zeigen Sie Artgenossen die Körpertemperatur an",
+        "Tarnen Sie das Tier in dunklen Umgebungen",
+        "Melden Sie Raubtieren Verteidigung oder Toxizität"
+      ],
+      "explanation": "Helle oder kontrastierende Farben können als Warnsignal dienen, ihre Funktion hängt jedoch von der Art und dem Kontext ab.",
+      "didYouKnow": "Bei einigen Reptilienarten sind leuchtende Warnfarben zu sehen.",
+      "imageCaption": "Gila Monster, Beispiel für Warnfärbung"
+    },
+    {
+      "id": "reptiles-150",
+      "animal": "Reptilien",
+      "prompt": "Warum sind Reptilien-Tarnmuster oft unregelmäßig?",
+      "options": [
+        "Sie machen das Tier in allen Lebensräumen unsichtbar",
+        "Sie können die Körperkontur in einer komplexen Umgebung durchbrechen",
+        "Sie reflektieren Licht, um Raubtiere zu warnen",
+        "Sie erzeugen Muster, die Partner aus der Ferne anziehen"
+      ],
+      "explanation": "Unregelmäßige Muster können die Wahrnehmung der Umrisse eines Tieres stören und es schwieriger machen, es in seinem Lebensraum zu erkennen.",
+      "didYouKnow": "Landreptilien haben eine schuppige Haut, die reich an Keratin ist.",
+      "imageCaption": "Texas-gehörnte Eidechse"
+    },
+    {
+      "id": "reptiles-151",
+      "animal": "Reptilien",
+      "prompt": "Was stellt eine große Bedrohung für Reptilien dar, die in Feuchtgebieten leben?",
+      "options": [
+        "Entwässerung und Zerstörung ihres Lebensraums",
+        "Zunehmende Pflanzenbedeckung rund um Teiche",
+        "Die Bildung neuer Mäander in Wasserläufen",
+        "Der saisonale Rückgang des Teichspiegels"
+      ],
+      "explanation": "Durch Entwässerung, Verschmutzung und Fragmentierung von Feuchtgebieten entfallen für viele Reptilien Nahrungs-, Nist- und Unterschlupfmöglichkeiten.",
+      "didYouKnow": "Vom Verschwinden der Feuchtgebiete sind vor allem Krokodile und Süßwasserschildkröten betroffen.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-152",
+      "animal": "Reptilien",
+      "prompt": "Wie wirkt sich die Fragmentierung des Lebensraums auf Reptilienpopulationen aus?",
+      "options": [
+        "Es schafft Nistplätze, ohne Territorien zu fragmentieren",
+        "Es bringt Populationen zusammen und steigert stets den genetischen Austausch",
+        "Es betrifft nur Arten, die in Bäumen leben",
+        "Es isoliert Populationen und reduziert die Bewegung zwischen Lebensräumen"
+      ],
+      "explanation": "Straßen und bebaute Gebiete können Populationen trennen, den Zugang zu Brutstätten einschränken und den genetischen Austausch verringern.",
+      "didYouKnow": "Inselechsen können in einem begrenzten geografischen Verbreitungsgebiet endemisch sein.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-153",
+      "animal": "Meeresschildkröten",
+      "prompt": "Warum sind Meeresschildkröten durch unbeabsichtigten Fang mit Fanggeräten bedroht?",
+      "options": [
+        "Sie verhindern, dass Schildkröten an ihren Geburtsstrand zurückkehren",
+        "Sie können Salz aus Meerwasser entfernen",
+        "Sie können zu Verletzungen oder zum Ertrinken führen",
+        "Sie bauen die Eierschale vor dem Legen ab"
+      ],
+      "explanation": "Schildkröten, die sich versehentlich in Netzen oder Haken verfangen, können verletzt werden oder ertrinken, wenn sie nicht zum Atmen aufstehen können.",
+      "didYouKnow": "Die Lederschildkröte ernährt sich hauptsächlich von Quallen und anderen gallertartigen Organismen.",
+      "imageCaption": "Grüne Schildkröte, Beispiel einer Meeresschildkröte"
+    },
+    {
+      "id": "reptiles-154",
+      "animal": "Meeresschildkröten",
+      "prompt": "Welche Gefahr stellt Plastikmüll für Meeresschildkröten dar?",
+      "options": [
+        "Sie bieten Nistmaterial für erwachsene Schildkröten",
+        "Sie verringern die Verletzungsgefahr durch Netze",
+        "Sie können verschluckt werden oder zu Verwicklungen führen",
+        "Sie erhöhen die Menge an Quallen, die Schildkröten zur Verfügung stehen"
+      ],
+      "explanation": "Schildkröten können Müll verschlucken, den sie für Beute halten, oder sich in weggeworfenen Leinen und Netzen verfangen.",
+      "didYouKnow": "Meeresschildkröten scheiden überschüssiges Salz durch spezielle Drüsen in der Nähe ihrer Augen aus.",
+      "imageCaption": "Grüne Schildkröte, Beispiel einer Meeresschildkröte"
+    },
+    {
+      "id": "reptiles-155",
+      "animal": "Landschildkröten",
+      "prompt": "Warum kann der illegale Handel mit Schildkröten dazu führen, dass einige Populationen schnell zurückgehen?",
+      "options": [
+        "Erwachsene Schildkröten können sich nur einmal fortpflanzen",
+        "Schildkröten legen am Ende ihres Lebens nur ein Ei",
+        "Schildkrötenpopulationen können von Forschern nicht verfolgt werden",
+        "Schildkröten wachsen oft langsam und werden spät erwachsen"
+      ],
+      "explanation": "Langsames Wachstum, späte Reife und manchmal ein schlechtes Überleben der Jungtiere machen viele Schildkröten anfällig für Überfischung.",
+      "didYouKnow": "Der Panzer der Schildkröten ist in ihr Skelett integriert.",
+      "imageCaption": "Hermannsschildkröte, Beispiel einer Landschildkröte"
+    },
+    {
+      "id": "reptiles-156",
+      "animal": "Reptilien",
+      "prompt": "Welche Auswirkungen kann eine Straße auf Schlangen und Eidechsen haben?",
+      "options": [
+        "Es kann seine Beute nur nachts unterdrücken",
+        "Es stört nur Baumreptilien",
+        "Es kann zu direkter Sterblichkeit führen und ihren Lebensraum fragmentieren",
+        "Es kann Schlangenhaut durchlässiger machen"
+      ],
+      "explanation": "Reptilien, die eine Straße überqueren, laufen Gefahr, angefahren zu werden, und die Infrastruktur kann Lebensräume trennen und die Bewegung einschränken.",
+      "didYouKnow": "Schlangen nehmen Geruchsmoleküle mit ihrer gespaltenen Zunge wahr.",
+      "imageCaption": "Bartagame, ein Beispiel für ein Reptil"
+    },
+    {
+      "id": "reptiles-157",
+      "animal": "Reptilien",
+      "prompt": "Warum könnten invasive gebietsfremde Arten eine Bedrohung für Inselreptilien darstellen?",
+      "options": [
+        "Sie verbessern stets die genetische Vielfalt der lokalen Populationen",
+        "Sie können keine Reptilieneier essen",
+        "Sie können zu neuen Raubtieren oder Konkurrenten werden",
+        "Sie können auf den Inseln nicht überleben"
+      ],
+      "explanation": "Eingeschleppte Säugetiere können älter sein als Eier und junge Reptilien oder mit einheimischen Arten um Ressourcen konkurrieren.",
+      "didYouKnow": "Reptilien haben eine schuppige Haut, die reich an Keratin ist.",
+      "imageCaption": "Galapagos-Meeresleguan, Inselreptil"
+    },
+    {
+      "id": "reptiles-158",
+      "animal": "Krokodile",
+      "prompt": "Welcher historische Druck hat dazu geführt, dass einige Krokodilpopulationen stark zurückgegangen sind?",
+      "options": [
+        "Jagd auf ihr Fell und Verlust des Lebensraums",
+        "Raub durch erwachsene Vögel",
+        "Natürlicher Wettbewerb zwischen Individuen derselben Art",
+        "Saisonaler Rückgang der Beute in Flüssen"
+      ],
+      "explanation": "Die kommerzielle Jagd und die Umgestaltung von Feuchtgebieten haben zu einem starken Rückgang mehrerer Krokodilarten geführt.",
+      "didYouKnow": "Krokodile bauen je nach Art Vegetationsnester oder graben Nester.",
+      "imageCaption": "Nilkrokodil"
+    },
+    {
+      "id": "reptiles-159",
+      "animal": "Dornteufel (Moloch)",
+      "prompt": "Wie leitet der Dornteufel das auf seiner Haut gesammelte Wasser zum Maul?",
+      "options": [
+        "Feine Rinnen zwischen den Schuppen leiten das Wasser",
+        "Durch Drüsen, die Wasser aus seinen Beinen pumpen",
+        "Durch eine Tasche im Schwanz",
+        "Durch hohle Haare, die Wasser bis zur Schnauze aufsaugen"
+      ],
+      "explanation": "Furchen zwischen den Schuppen des Molochs können durch Kapillarwirkung Wasser von seiner Haut in sein Maul transportieren.",
+      "didYouKnow": "Der Gehörnte Teufel kann sich tarnen, indem er in seinem trockenen Lebensraum bewegungslos bleibt.",
+      "imageCaption": "Gehörnter Teufel (Moloch horridus)"
+    },
+    {
+      "id": "reptiles-160",
+      "animal": "Reptilien",
+      "prompt": "Warum ist die Erhaltung von Nistplätzen für Schildkröten so wichtig?",
+      "options": [
+        "Die Eier können nur schlüpfen, wenn die Mutter am Strand bleibt",
+        "Eier hängen von den örtlichen Bodenbedingungen, der Luftfeuchtigkeit und der Temperatur ab",
+        "Die Eiablageplätze bestimmen die Ernährung von Erwachsenen",
+        "Erwachsene können nur in der Nähe eines Waldes Eier legen"
+      ],
+      "explanation": "Der Bruterfolg hängt von den Eigenschaften des Standorts ab, während die Zerstörung von Stränden oder Ufern den Zugang zu Nestern verhindern kann.",
+      "didYouKnow": "Meeresschildkröten atmen mit der Lunge und müssen an die Oberfläche kommen.",
+      "imageCaption": "Grüne Schildkröte, Meeresschildkröte"
+    },
+    {
+      "id": "reptiles-161",
+      "animal": "Kragenechse",
+      "prompt": "Was macht die Kragenechse, wenn sie ihre große Hautfalte spreizt?",
+      "options": [
+        "Er öffnet einen Kragen um den Kopf, um imposanter zu wirken",
+        "Zum Gleiten nutzt es eine Membran zwischen seinen Beinen",
+        "Es bläst eine Tasche unter dem Hals auf, um Luft zu speichern",
+        "Er glättet eine Reihe Dornen an seinem Schwanz"
+      ],
+      "explanation": "Die Kragenechse öffnet beim Zurschaustellen oder Drohen die faltige Haut um ihren Hals, wodurch ihre Silhouette optisch vergrößert wird.",
+      "didYouKnow": "Die Kragenechse stammt aus Nordaustralien und Süd-Neuguinea.",
+      "imageCaption": "Rüschenechse"
+    },
+    {
+      "id": "reptiles-162",
+      "animal": "Reptilien",
+      "prompt": "Warum kann das Sammeln wilder Reptilien für Haustiere problematisch sein?",
+      "options": [
+        "Es betrifft nur in Gefangenschaft gezüchtete Arten",
+        "Es kann natürliche Populationen dezimieren und ihre Struktur zerstören",
+        "Es verbessert immer die genetische Vielfalt wilder Populationen",
+        "Dadurch werden die gesammelten Individuen besser an die natürliche Umgebung angepasst"
+      ],
+      "explanation": "Nicht nachhaltige Ernten können dazu führen, dass zu viele Individuen entfernt werden, insbesondere bei brütenden Erwachsenen oder Arten mit begrenzten Verbreitungsgebieten.",
+      "didYouKnow": "Reptilien vermehren sich durch innere Befruchtung.",
+      "imageCaption": "Hermannsschildkröte, Beispiel eines für den Handel gesammelten Reptils"
+    },
+    {
+      "id": "reptiles-163",
+      "animal": "Blauzungenskink",
+      "prompt": "Welches visuelle Signal kann der Blauzungenskink einem Raubtier zeigen?",
+      "options": [
+        "Eine leuchtend blaue Zunge",
+        "Ein roter Kragen wurde um den Hals gelegt",
+        "Ein Paar große Augenflecken auf den Flügeln",
+        "Eine gelbe Wamme unter der Kehle"
+      ],
+      "explanation": "Der Blauzungenskink kann in einer Abwehrhaltung sein Maul öffnen und seine lebende Zunge entblößen.",
+      "didYouKnow": "Der Blauzungenskink ist Allesfresser und frisst Pflanzen und Kleintiere.",
+      "imageCaption": "Blauzungenskink"
+    },
+    {
+      "id": "reptiles-164",
+      "animal": "Reptilien",
+      "prompt": "Wie helfen Schildkröten manchmal bei der Samenverbreitung?",
+      "options": [
+        "Sie können Früchte essen und die Samen dann in ihrem Kot ablegen.",
+        "Sie tragen die Samen an ihrer Schale, ohne sie zu verschlucken",
+        "Sie vergraben alle Samen in ihren Nestern",
+        "Sie bestäuben die Früchte, bevor sie sie verzehren"
+      ],
+      "explanation": "Schildkröten, die Früchte fressen, können Samen verschlucken und mit sich herumtragen, bevor sie sie an anderer Stelle wieder ausscheiden.",
+      "didYouKnow": "Der Panzer von Schildkröten besteht aus knöchernen Elementen, die mit dem Skelett verschweißt sind.",
+      "imageCaption": "Galapagos-Riesenschildkröte, Beispiel einer Samen verbreitenden Schildkröte"
+    },
+    {
+      "id": "reptiles-165",
+      "animal": "Reptilien",
+      "prompt": "Welchen ökologischen Dienst erbringen manche Schlangen in Agrarlandschaften?",
+      "options": [
+        "Sie können die Nagetierpopulationen begrenzen",
+        "Sie düngen den Boden direkt, indem sie die Wurzeln verdauen",
+        "Sie bestäuben Getreidepflanzen",
+        "Sie beseitigen alle Schädlingsarten ohne Nebenwirkungen"
+      ],
+      "explanation": "Schlangen, die Nagetiere fressen, können zur Regulierung ihrer Populationen beitragen, allerdings hängt ihr Einfluss von der Art und der Umgebung ab.",
+      "didYouKnow": "Schlangen haben keine beweglichen Augenlider; Eine transparente Skala schützt ihre Augen.",
+      "imageCaption": "Kornnatter, Beispiel einer Schlange"
+    },
+    {
+      "id": "reptiles-166",
+      "animal": "Sandskink (Scincus)",
+      "prompt": "Wie bewegen sich Sandskinke durch losen Sand?",
+      "options": [
+        "Es gräbt sich unter den Sand und bewegt sich vorwärts, wobei es seinen Körper wellenartig bewegt, als würde es im Untergrund schwimmen.",
+        "Es gräbt, indem es mit seinen Gliedmaßen den Sand nach hinten schiebt",
+        "Es bewegt sich unter dem Sand fort und bewegt seinen Körper, als würde es im Untergrund schwimmen.",
+        "Es gräbt eine Galerie durch abwechselnde Bewegungen seiner Vorderbeine"
+      ],
+      "explanation": "Der Sandskink kann sich durch wellenförmige Körperbewegungen unter lockerem Sand eingraben und fortschreiten.",
+      "didYouKnow": "Der Sandskink lebt in trockenen Regionen Nordafrikas und des Nahen Ostens.",
+      "imageCaption": "Sandskink"
+    },
+    {
+      "id": "reptiles-167",
+      "animal": "Schweinsnasenschildkröte",
+      "prompt": "Welche Süßwasserschildkröte hat eine fleischige, schweineähnliche Schnauze?",
+      "options": [
+        "Carettochelys insculpta",
+        "Hermanns Schildkröte",
+        "Die Lederschildkröte",
+        "Die Karettschildkröte"
+      ],
+      "explanation": "Die Schweinsnasenschildkröte lebt in den Süßgewässern Nordaustraliens und Südneuguineas. Ihre Nasenlöcher sitzen an der Spitze ihrer charakteristischen Schnauze.",
+      "didYouKnow": "Die Schweinsschildkröte hat paddelförmige Vorderbeine.",
+      "imageCaption": "Schweinsnasenschildkröte"
+    },
+    {
+      "id": "reptiles-168",
+      "animal": "Reptilien",
+      "prompt": "Welche evolutionäre Beziehung besteht zwischen Krokodilen und Vögeln?",
+      "options": [
+        "Vögel stammen von den heutigen Krokodilen ab",
+        "Sie gehören beide zu den Archosauriern",
+        "Vögel und Krokodile haben keinen gemeinsamen Vorfahren",
+        "Krokodile gehören wie Schlangen zu den Squamaten"
+      ],
+      "explanation": "Krokodile und Vögel sind die beiden aktuellen Hauptlinien der Archosaurier und haben einen alten gemeinsamen Vorfahren.",
+      "didYouKnow": "Krokodile bauen Nester und beschützen manchmal die Jungen um sie herum, wenn diese schlüpfen.",
+      "imageCaption": "Nilkrokodil, Vertreter der Krokodile"
+    },
+    {
+      "id": "reptiles-169",
+      "animal": "Gila-Krustenechse",
+      "prompt": "Wo speichert das Gila-Monster einen Teil seiner Energiereserven?",
+      "options": [
+        "In einer Tasche unter der Kehle",
+        "In den Vorderbeinen",
+        "Unter den Schuppen seines Rückens",
+        "In ihrem dicken Schwanz"
+      ],
+      "explanation": "Die Gila-Krustenechse speichert Fett in ihrem Schwanz und kann so Zeiten mit knappem Nahrungsangebot überstehen.",
+      "didYouKnow": "Das Gila-Monster ist eine der wenigen giftigen Eidechsen.",
+      "imageCaption": "Gila-Monster"
+    },
+    {
+      "id": "reptiles-170",
+      "animal": "Reptilien",
+      "prompt": "Zu welcher aktuellen Gruppe gehören Schlangen und Eidechsen?",
+      "options": [
+        "Die Testudines",
+        "Die Rhynchocephali",
+        "Die Krokodile",
+        "Die Squamates"
+      ],
+      "explanation": "Zu den Squamaten zählen Schlangen, Eidechsen und Amphibien.",
+      "didYouKnow": "Schlangen sammeln mit ihrer gespaltenen Zunge Geruchsmoleküle.",
+      "imageCaption": "Grüne Anolise, eine Squamate"
+    },
+    {
+      "id": "reptiles-171",
+      "animal": "schwarzer Kaiman",
+      "prompt": "In welcher Großregion kommt der Schwarze Kaiman natürlicherweise vor?",
+      "options": [
+        "Das Amazonasbecken",
+        "Das Nilbecken",
+        "Nur Sümpfe in Florida",
+        "Die Flüsse Nordaustraliens"
+      ],
+      "explanation": "Der Schwarze Kaiman, Melanosuchus niger, ist ein großes Krokodil aus Südamerika, das insbesondere mit den Gewässern des Amazonas in Verbindung gebracht wird.",
+      "didYouKnow": "Der Schwarze Kaiman ist der größte lebende Kaiman.",
+      "imageCaption": "schwarzer Kaiman"
+    },
+    {
+      "id": "reptiles-172",
+      "animal": "Reptilien",
+      "prompt": "Zu welcher Reptiliengruppe gehören Schildkröten?",
+      "options": [
+        "Die Rhynchocephali",
+        "Die Krokodile",
+        "Die Testudines",
+        "Die Squamates"
+      ],
+      "explanation": "Die Testudines sind die Ordnung, die Land-, Süßwasser- und Meeresschildkröten vereint.",
+      "didYouKnow": "Zu den existierenden Schildkröten zählen Meeres-, Süßwasser- und Landschildkröten.",
+      "imageCaption": "Hermannsschildkröte, Beispiel einer Landschildkröte"
+    },
+    {
+      "id": "reptiles-173",
+      "animal": "Reptilien",
+      "prompt": "Welches Zahnmerkmal fehlt modernen Schildkröten häufig?",
+      "options": [
+        "Choanae, die die Nasenlöcher mit dem Mund verbinden",
+        "Eine mobile Sprache",
+        "Knochige Kiefer",
+        "Zähne; Sie haben einen keratinisierten Schnabel"
+      ],
+      "explanation": "Heutige Schildkröten haben keine Zähne; Ihre Kiefer sind mit einem Hornschnabel bedeckt, der Nahrung schneidet oder zermahlt.",
+      "didYouKnow": "Meeresschildkröten schwimmen mit Flossen im Meer.",
+      "imageCaption": "Hermanns Schildkröte"
+    },
+    {
+      "id": "reptiles-174",
+      "animal": "Schildkröten",
+      "prompt": "Was bezeichnet der Begriff „Rückenpanzer“ bei einer Schildkröte?",
+      "options": [
+        "Den ventralen Teil des Panzers",
+        "Den seitlichen Rand der Hornschilde",
+        "Den dorsalen Teil des Panzers",
+        "Die knöcherne Basis des Schnabels"
+      ],
+      "explanation": "Der Rückenpanzer ist der dorsale Teil des Schildkrötenpanzers; das Plastron bildet die Bauchseite.",
+      "didYouKnow": "Bei Schildkröten bildet das Plastron die ventrale Seite des Panzers.",
+      "imageCaption": "Hermanns Schildkröte"
+    },
+    {
+      "id": "reptiles-175",
+      "animal": "Schildkröten",
+      "prompt": "Wie treiben sich Meeresschildkröten hauptsächlich fort?",
+      "options": [
+        "Durch abwechselnde Bewegungen ihrer Hinterbeine",
+        "Durch eine seitliche Bewegung ihres Schwanzes",
+        "Durch Schlagen ihrer Vorderflossen",
+        "Indem sie ihren gesamten Körper wie eine Schlange bewegen"
+      ],
+      "explanation": "Die vorderen Flossen sorgen für den größten Teil des Vortriebs; Die Hinterhand hilft, das Tier zu lenken und zu stabilisieren.",
+      "didYouKnow": "Meeresschildkröten scheiden überschüssiges Salz durch spezielle Drüsen in der Nähe ihrer Augen aus.",
+      "imageCaption": "grüne Schildkröte"
+    },
+    {
+      "id": "reptiles-176",
+      "animal": "Meeresschildkröten",
+      "prompt": "Welche Aktion ist für eine weibliche Meeresschildkröte nach dem Laichen wichtig?",
+      "options": [
+        "Bewegen Sie die Eier bei jeder Flut an einen wärmeren Ort",
+        "Decken Sie die Eier ab und bleiben Sie dann im Nest, bis sie schlüpfen",
+        "Tragen Sie die Eier unter der Schale, bis sie schlüpfen",
+        "Kehren Sie zum Meer zurück und lassen Sie die Eier im Sand brüten"
+      ],
+      "explanation": "Nach der Eiablage deckt das Weibchen oft das Nest ab und geht; Embryonen entwickeln sich bis zum Schlüpfen ohne direkte Pflege.",
+      "didYouKnow": "Meeresschildkröten nutzen magnetische und visuelle Hinweise, um sich zu orientieren.",
+      "imageCaption": "Grüne Schildkröte, Beispiel einer Meeresschildkröte"
+    },
+    {
+      "id": "reptiles-177",
+      "animal": "Meeresschildkröten",
+      "prompt": "Was machen Jungtiere, wenn sie aus einem Nest am Strand schlüpfen?",
+      "options": [
+        "Sie folgen den Erwachsenen zu einem Futterplatz",
+        "Sie ziehen in der Regel Richtung Meer",
+        "Sie graben sich bis zur nächsten Saison am Strand ein",
+        "Sie warten darauf, dass das Weibchen sie im Maul trägt"
+      ],
+      "explanation": "Junge Jungtiere schlüpfen oft gemeinsam und machen sich auf den Weg zum Meer, indem sie Licht und visuelle Hinweise vom Horizont nutzen.",
+      "didYouKnow": "Meeresschildkröten haben Drüsen in der Nähe ihrer Augen, die überschüssiges Salz entfernen.",
+      "imageCaption": "Grüne Schildkröte, Beispiel einer Meeresschildkröte"
+    },
+    {
+      "id": "reptiles-178",
+      "animal": "Meeresschildkröten",
+      "prompt": "Welchen Lebensraum nutzen ausgewachsene Grüne Meeresschildkröten häufig zur Nahrungsaufnahme?",
+      "options": [
+        "Terrestrische Strandgräser",
+        "Riffschwämme und Weichkorallen",
+        "Seegraswiesen und algenreiche Flächen",
+        "Tiefseequalle"
+      ],
+      "explanation": "Viele ausgewachsene Suppenschildkröten grasen in flachen Küstengewässern auf Seegras oder Algen.",
+      "didYouKnow": "Die Grüne Meeresschildkröte ist die größte der hartschaligen Meeresschildkröten.",
+      "imageCaption": "grüne Schildkröte"
+    },
+    {
+      "id": "reptiles-179",
+      "animal": "Schildkröten",
+      "prompt": "Welches Merkmal unterscheidet eine Wasserschildkröte häufig von einer Landschildkröte?",
+      "options": [
+        "Funktionierende Kiemen bei Erwachsenen",
+        "Zum Schwimmen geeignete Schwimmhäute oder Flossen",
+        "Ein flacheres Gehäuse bei allen Wasserlebewesen",
+        "Ein Brustharnisch ist immer auf eine einzige Platte reduziert"
+      ],
+      "explanation": "Wasserschildkröten haben oft Schwimmhäute oder Flossen, während Landschildkröten kräftige Gliedmaßen zum Gehen haben.",
+      "didYouKnow": "Heutige Schildkröten haben keine Zähne und einen keratinisierten Schnabel.",
+      "imageCaption": "Florida-Schmuckschildkröte, Beispiel einer Wasserschildkröte"
+    },
+    {
+      "id": "reptiles-180",
+      "animal": "Schildkröten",
+      "prompt": "Welche Informationen kann die Form eines Schildkrötenpanzers liefern?",
+      "options": [
+        "Es kann mit dem Lebensraum und der Lebensweise der Art in Zusammenhang gebracht werden",
+        "Es ermöglicht die Bestimmung der Temperatur des ursprünglichen Nestes",
+        "Es zeigt das Geschlecht ohne Unterschiede zwischen den Arten",
+        "Es gibt immer das genaue Alter in Jahren an"
+      ],
+      "explanation": "Die Panzerform kann ökologische Anpassungen widerspiegeln, beispielsweise die hydrodynamische Form bei Wasserlebewesen.",
+      "didYouKnow": "Heutige Schildkröten haben keine Zähne und einen keratinisierten Schnabel.",
+      "imageCaption": "Hermannsschildkröte, Beispiel einer Landschildkröte"
+    },
+    {
+      "id": "reptiles-181",
+      "animal": "Gopherschildkröte",
+      "prompt": "Welchen Unterschlupf gräbt die Gopher-Schildkröte in sandigen Böden?",
+      "options": [
+        "Ein tiefer Bau, der auch anderen Tieren als Unterschlupf dienen kann",
+        "Eine Unterwasserhöhle im Schlamm",
+        "Ein Nest, das in den Zweigen hängt",
+        "Eine Galerie, die ausschließlich der Aufbewahrung von Blättern dient"
+      ],
+      "explanation": "Die Gopher-Schildkröte gräbt große Höhlen in den Boden; Diese Schutzhütten dienen auch anderen Arten.",
+      "didYouKnow": "Die Gopher-Schildkröte ernährt sich von Pflanzen, darunter Blättern, Blüten und Früchten.",
+      "imageCaption": "Gopher-Schildkröte"
+    },
+    {
+      "id": "reptiles-182",
+      "animal": "Reptilien",
+      "prompt": "Warum kann Umwelt-DNA bei der Erkennung von Wasserreptilien helfen?",
+      "options": [
+        "Reptilien erzeugen im Wasser ein erkennbares Lichtsignal",
+        "Im Wasser verbleibende DNA-Spuren können deren Anwesenheit verraten",
+        "Aufgelöste DNA ermöglicht die Berechnung des Durchschnittsalters von Personen",
+        "Die Methode ermöglicht es, die Bewegungen jedes Einzelnen zu beobachten"
+      ],
+      "explanation": "Tiere hinterlassen Zellen und DNA-Fragmente in ihrer Umgebung; Ihr Nachweis kann auf das Vorhandensein einer Art in einem Gewässer hinweisen.",
+      "didYouKnow": "Wasserschildkröten müssen an die Oberfläche kommen, um Luft zu atmen.",
+      "imageCaption": "Florida-Schmuckschildkröte, Wasserreptil"
+    },
+    {
+      "id": "reptiles-183",
+      "animal": "Fliegender Gecko",
+      "prompt": "Welche Anpassung ermöglicht es manchen Fluggeckos, von einem Stamm zum anderen zu gleiten?",
+      "options": [
+        "Seitliche Hautfalten und Membranen zwischen den Gliedmaßen vergrößern die Auflagefläche",
+        "Verlängerte Rippen entfalten auf jeder Seite des Rumpfes ein Patagium",
+        "Als Fallschirm dient eine zwischen Hinterbeinen und Schwanz gespannte Membran",
+        "Starre Schuppen breiten sich entlang des Rückens aus und bilden Flügel"
+      ],
+      "explanation": "Einige fliegende Geckos legen Hautfalten an den Seiten und zwischen den Gliedmaßen aus, um ihren Fall zu verlangsamen und zu kontrollieren.",
+      "didYouKnow": "Der Kuhl-Fluggecko stammt aus Südostasien.",
+      "imageCaption": "Kuhls fliegender Gecko"
+    },
+    {
+      "id": "reptiles-184",
+      "animal": "Reptilien",
+      "prompt": "Wie gefährlich kann Feuer in Reptilienlebensräumen sein?",
+      "options": [
+        "Es betrifft nur Eier und niemals erwachsene Tiere",
+        "Es kann Personen mit eingeschränkter Mobilität direkt töten und Unterkünfte zerstören.",
+        "Es verbessert immer die Keimung von Pflanzen, von denen sich Reptilien ernähren",
+        "Es lässt eher Raubtiere verschwinden als Lebensräume"
+      ],
+      "explanation": "Heftige oder zu häufige Brände können die Vegetation, Schutzräume und Nistplätze zerstören und Tiere töten, die nicht entkommen können.",
+      "didYouKnow": "Reptilien haben eine schuppige Haut, die den Wasserverlust begrenzt.",
+      "imageCaption": "Hermannsschildkröte, Beispiel eines Landreptiliens"
+    },
+    {
+      "id": "reptiles-185",
+      "animal": "Lederschildkröte",
+      "prompt": "Welche Anpassung hilft der Lederschildkröte, den Wärmeverlust durch ihre Flossen zu begrenzen?",
+      "options": [
+        "Gegenstrom-Wärmeaustausch zwischen Blutgefäßen",
+        "Isolierende Federn unter den Schuppen",
+        "Ein dauerhafter Verschluss jeglicher Zirkulation in den Flossen",
+        "Drüsen, die heißes Wasser absondern"
+      ],
+      "explanation": "Gefäße, die Blut in entgegengesetzte Richtungen transportieren, helfen dabei, Wärme zu übertragen, bevor sie an Wasser verloren geht. Seine große Größe trägt auch zur Wärmespeicherung bei.",
+      "didYouKnow": "Die Lederschildkröte ernährt sich hauptsächlich von Quallen und anderen gallertartigen Organismen.",
+      "imageCaption": "Lederschildkröte"
+    },
+    {
+      "id": "reptiles-186",
+      "animal": "Reptilien",
+      "prompt": "Welche Maßnahme verringert die Auswirkungen verlassener Netze auf Wasserreptilien?",
+      "options": [
+        "Beleuchten Sie die Ausrüstung nur bei Flut",
+        "Erhöhen Sie die Maschenweite der Netze in Laichgebieten",
+        "Bewegen Sie die Netze zu den Futterbetten",
+        "Entfernen Sie Geisterausrüstung und begrenzen Sie deren Verlust auf See"
+      ],
+      "explanation": "Verlorene oder zurückgelassene Fanggeräte können weiterhin Tiere fangen; Ihre Genesung und ein besseres Management verringern dieses Risiko.",
+      "didYouKnow": "Wasserreptilien wie Schildkröten müssen zum Atmen an die Oberfläche kommen.",
+      "imageCaption": "Grüne Schildkröte, Beispiel eines Wasserreptiliens, das durch verlassene Netze bedroht ist"
+    },
+    {
+      "id": "reptiles-187",
+      "animal": "Reptilien",
+      "prompt": "Warum kann eine gefährdete Reptilienart von der Erhaltungszucht profitieren?",
+      "options": [
+        "Es ermöglicht die Freilassung von Personen, ohne dass ihre Anpassung beurteilt werden muss",
+        "Es garantiert den Erhalt der genetischen Vielfalt ohne Management",
+        "Es kann die Bevölkerung unterstützen, sofern es mit einem wissenschaftlichen Naturschutzplan verknüpft ist",
+        "Es ersetzt nachhaltig den Schutz natürlicher Lebensräume"
+      ],
+      "explanation": "Erhaltungszucht kann zu Erhaltungszielen beitragen, muss jedoch gut gemanagt und durch Lebensraumschutz und genetische Überwachung begleitet werden.",
+      "didYouKnow": "Reptilien sind ektotherm und hängen weitgehend von der Umgebungstemperatur ab.",
+      "imageCaption": "Tuatara, geschützte Arten, die Naturschutzprogrammen unterliegen"
+    },
+    {
+      "id": "reptiles-188",
+      "animal": "Wüstenschildkröte",
+      "prompt": "Wo kann die Wüstenschildkröte einen Wasservorrat speichern?",
+      "options": [
+        "In ihrer Harnblase",
+        "In Beuteln unter der Schale",
+        "In den Hohlräumen seiner Beinknochen",
+        "In einer Hauttasche hinter dem Kopf"
+      ],
+      "explanation": "Die Wüstenschildkröte kann Wasser in ihrer Blase speichern und bei Trockenheit wieder aufnehmen.",
+      "didYouKnow": "Die Wüstenschildkröte stammt aus dem Südwesten Nordamerikas.",
+      "imageCaption": "Wüstenschildkröte"
+    },
+    {
+      "id": "reptiles-189",
+      "animal": "Sidewinder-Klapperschlange",
+      "prompt": "Welche Bewegungsart hilft dem Sidewinder, auf Sand voranzukommen?",
+      "options": [
+        "Akkordeon-Fortbewegung",
+        "Seitliche Welligkeit beim Anlehnen an Felsen",
+        "Seitliche Fortbewegung durch Anheben aufeinanderfolgender Körperschlingen",
+        "Fortschritt durch Flossenschläge"
+      ],
+      "explanation": "Der Sidewinder bewegt sich durch seitliche Fortbewegung vorwärts: Mehrere Körperschleifen berühren den Sand, während sich der Rest vorwärts bewegt.",
+      "didYouKnow": "Gehörnte Klapperschlangen haben wärmeempfindliche Grübchen zwischen Auge und Nasenloch.",
+      "imageCaption": "Gehörnte Klapperschlange (Sidewinder)"
+    },
+    {
+      "id": "reptiles-190",
+      "animal": "Chuckwalla",
+      "prompt": "Wie kann sich der Chuckwalla in einer Felsspalte schützen?",
+      "options": [
+        "Es wird flacher und verändert seine Farbe, um mit dem Stein zu verschmelzen",
+        "Es bläht seinen Körper auf, um sich in der Felsspalte zu verkeilen",
+        "Er spritzt Blut aus seinen Augen",
+        "Er entfaltet einen Kragen um seinen Hals"
+      ],
+      "explanation": "Der Chuckwalla kann in einer Felsspalte Zuflucht suchen und seinen Körper aufblasen, sodass er sich nur schwer herausziehen lässt.",
+      "didYouKnow": "Der Chuckwalla ernährt sich hauptsächlich von Blättern, Blüten und anderen Pflanzen.",
+      "imageCaption": "Chuckwalla"
+    },
+    {
+      "id": "reptiles-191",
+      "animal": "Mata-Mata-Schildkröte",
+      "prompt": "Wie fängt die Mata-Mata-Schildkröte oft einen Fisch?",
+      "options": [
+        "Es öffnet schnell das Maul und vergrößert das Volumen der Mundhöhle, indem es den Fisch zusammen mit dem Wasser ansaugt",
+        "Es projiziert eine klebrige Zunge, die am Fisch haftet und ihn dann zurück in sein Maul führt",
+        "Mit der Zungenspitze lockt es den Fisch an und packt ihn dann mit dem Maul.",
+        "Es drückt den Fisch mit einer Strömung, die durch die Bewegungen der Flossen erzeugt wird, in Richtung Kehle"
+      ],
+      "explanation": "Die Mata Mata kann plötzlich ihr großes Maul öffnen und in der Nähe befindliche Wasserbeute einsaugen.",
+      "didYouKnow": "Die Mata-Mata-Schildkröte ist im Amazonas- und Orinoco-Becken beheimatet.",
+      "imageCaption": "Mata-Mata-Schildkröte"
+    },
+    {
+      "id": "reptiles-192",
+      "animal": "bemalte Schildkröte",
+      "prompt": "Wie hilft der Panzer der bemalten Schildkröte, mit der Milchsäureansammlung in einem sauerstoffarmen Winter zurechtzukommen?",
+      "options": [
+        "Seine Mineralien helfen, den Säuregehalt zu puffern",
+        "Es filtert das Blut wie eine zusätzliche Niere",
+        "Es wandelt Milchsäure in Sauerstoff um",
+        "Durch seine Rillen stößt es die gesamte Milchsäure aus."
+      ],
+      "explanation": "Schale und Knochen sind an der Pufferung von Säuren beteiligt und können einen Teil des Laktats speichern. Diese Anpassung geht mit einer erheblichen Verlangsamung des Stoffwechsels einher.",
+      "didYouKnow": "Die bemalte Schildkröte hat oft rote oder gelbe Markierungen auf Kopf und Gliedmaßen.",
+      "imageCaption": "bemalte Schildkröte"
+    },
+    {
+      "id": "reptiles-193",
+      "animal": "Dosenschildkröte",
+      "prompt": "Welchen Teil des Panzers kann die Dosenschildkröte mit einem Scharnier schließen?",
+      "options": [
+        "Das Plastron",
+        "Der Rückenpanzer",
+        "Die Panzerbrücke",
+        "Ein Hornschild"
+      ],
+      "explanation": "Bei Dosenschildkröten ermöglicht ein Scharnier im Plastron das Anheben der Teile zum Schutz des Körpers.",
+      "didYouKnow": "Dosenschildkröten sind nordamerikanische Landschildkröten.",
+      "imageCaption": "Carolina-Dosenschildkröte"
+    },
+    {
+      "id": "reptiles-194",
+      "animal": "Pfannkuchenschildkröte",
+      "prompt": "Welche Besonderheit hilft der Pfannkuchenschildkröte, sich in Felsspalten zu verstecken?",
+      "options": [
+        "Ein flacher, flexibler Panzer kann sich leicht verformen und durch schmale Spalten passen",
+        "Ein hoher, gewölbter Panzer verkeilt sich im Felsen",
+        "Ein bewegliches Plastron öffnet sich, damit die Schildkröte durch den Spalt passt",
+        "Ein starrer, stromlinienförmiger Panzer hilft ihr, durch unter Wasser liegende Spalten zu schwimmen"
+      ],
+      "explanation": "Der abgeflachte Panzer ist flexibler als der vieler anderer Schildkröten und ermöglicht es ihr, in Felsspalten zu schlüpfen.",
+      "didYouKnow": "Die Pfannkuchenschildkröte ist in Ostafrika heimisch.",
+      "imageCaption": "Pfannkuchenschildkröte"
+    },
+    {
+      "id": "reptiles-195",
+      "animal": "Texas-gehörnte Eidechse",
+      "prompt": "Welche Beute ist ein wichtiger Bestandteil der Ernährung der Texas-Hornechse?",
+      "options": [
+        "Ernteameisen",
+        "Qualle",
+        "Flussfisch",
+        "Krokodileier"
+      ],
+      "explanation": "Die Texas-Hornechse frisst häufig Ernteameisen, die sie vom Boden fängt.",
+      "didYouKnow": "Die Texas-Hornechse kann Blut aus Gefäßen in der Nähe ihrer Augen versprühen.",
+      "imageCaption": "Texas-gehörnte Eidechse"
+    },
+    {
+      "id": "reptiles-196",
+      "animal": "Fliegende Schlange",
+      "prompt": "Wie kann die fliegende Schlange der Gattung Chrysopelea zwischen Bäumen schweben?",
+      "options": [
+        "Es flacht seinen Körper ab und macht ihn während seiner Flugbahn wellenförmig",
+        "Es schlägt mit den Flügeln, die unter seinen Schuppen verborgen sind",
+        "Es entfaltet ein Patagium, das von verlängerten Rippen getragen wird",
+        "Es treibt sich selbst an, indem es sein Heck wie einen Propeller vibrieren lässt."
+      ],
+      "explanation": "Flugschlangen der Gattung Chrysopelea glätten ihren Körper und bewegen sich in der Luft, sodass sie zwischen Bäumen gleiten können.",
+      "didYouKnow": "Schlangen der Gattung Chrysopelea sind in Süd- und Südostasien beheimatet.",
+      "imageCaption": "Fliegende Schlange des Himmels"
+    },
+    {
+      "id": "reptiles-197",
+      "animal": "Fidschi-Bänderleguan",
+      "prompt": "Wo lebt der Fidschi-Bänderleguan natürlicherweise?",
+      "options": [
+        "Auf den Fidschi-Inseln",
+        "Auf den Galapagos-Inseln",
+        "In den Wäldern Madagaskars",
+        "In den Feuchtgebieten des Jangtse-Flussbeckens"
+      ],
+      "explanation": "Der Fidschi-Bänderleguan ist eine im Fidschi-Archipel beheimatete Art.",
+      "didYouKnow": "Der Fidschi-Bänderleguan ist stark vom Verlust seines Lebensraums bedroht.",
+      "imageCaption": "Fidschi-Bänderleguan"
+    },
+    {
+      "id": "reptiles-198",
+      "animal": "Amerikanischer Alligator",
+      "prompt": "Was bezeichnet der Begriff „Alligatorloch“ in den Everglades?",
+      "options": [
+        "Eine von einem Alligator gegrabene und gepflegte Senke, die in der Trockenzeit Wasser speichern kann",
+        "Ein Bau, den eine Schildkröte zur Eiablage gegraben hat",
+        "Eine natürliche Höhle, die nur von Salzwasserkrokodilen genutzt wird",
+        "Ein hängendes Nest aus Zweigen und Blättern"
+      ],
+      "explanation": "Alligatoren können in Feuchtgebieten Vertiefungen graben; Diese halten manchmal Wasser zurück, wenn der Pegel sinkt.",
+      "didYouKnow": "Amerikanische Alligatoren bauen Vegetationsnester, um ihre Eier abzulegen.",
+      "imageCaption": "Amerikanischer Alligator"
+    },
+    {
+      "id": "reptiles-199",
+      "animal": "Kalifornische Königsschlange",
+      "prompt": "Wovon ernähren sich Kalifornische Königsschlangen neben kleinen Säugetieren häufig?",
+      "options": [
+        "Andere Schlangen",
+        "Große Blätter und reife Früchte",
+        "Blumennektar",
+        "Quallen und kleine Krebstiere"
+      ],
+      "explanation": "Die Kalifornische Königsnatter ist ein opportunistisches Raubtier, das andere Schlangen fressen kann.",
+      "didYouKnow": "Die Kalifornische Königsnatter verträgt das Gift bestimmter Grubenottern, insbesondere Klapperschlangen.",
+      "imageCaption": "Kalifornische Königsschlange"
+    },
+    {
+      "id": "reptiles-200",
+      "animal": "Chinesischer Alligator",
+      "prompt": "In welchem großen Flussgebiet lebt der Chinesische Alligator natürlicherweise?",
+      "options": [
+        "In den Feuchtgebieten des Amazonasbeckens",
+        "Im Ganges- und Brahmaputra-Becken",
+        "In den Flussmündungen Nordaustraliens",
+        "Im unteren Jangtse-Becken"
+      ],
+      "explanation": "Der Chinesische Alligator ist im Osten Chinas beheimatet, insbesondere in den Feuchtgebieten des unteren Jangtse-Flussbeckens.",
+      "didYouKnow": "Der chinesische Alligator ist kleiner als der amerikanische Alligator.",
+      "imageCaption": "Chinesischer Alligator"
+    }
+  ]
+}

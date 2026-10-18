@@ -1,0 +1,35 @@
+[
+  {
+    "asset": "Ground037",
+    "source": "https://ambientcg.com/a/Ground037",
+    "download": "https://ambientcg.com/get?file=Ground037_1K-JPG.zip",
+    "archiveSha256": "4e69db2b7251b1736fa70fe6fe4ab80d64bd220117dd5dd4c7caaead51c2574e",
+    "license": "CC0-1.0",
+    "local": "forest.webp",
+    "bytes": 467128,
+    "sha256": "b3c401819a145245c0474e09b0efe2a386091ea1259e42419362ad7779eefa4c",
+    "changes": "Color map converted to 1024px WebP, quality 82."
+  },
+  {
+    "asset": "Ground054",
+    "source": "https://ambientcg.com/a/Ground054",
+    "download": "https://ambientcg.com/get?file=Ground054_1K-JPG.zip",
+    "archiveSha256": "b325ec2f167dce95a0fabc61a2104641288cf20915419578c3efdb46200c563e",
+    "license": "CC0-1.0",
+    "local": "sand.webp",
+    "bytes": 228742,
+    "sha256": "54fc19e5329060f0d865b0ceb46b65693eb93e46c48b95f3cb7a27c0d20f0fde",
+    "changes": "Color map converted to 1024px WebP, quality 82."
+  },
+  {
+    "asset": "Gravel001",
+    "source": "https://ambientcg.com/a/Gravel001",
+    "download": "https://ambientcg.com/get?file=Gravel001_1K-JPG.zip",
+    "archiveSha256": "1a00ed0714502fd4dbc88f91dd46823e170a07e1331e15ff2711d69e9610e53b",
+    "license": "CC0-1.0",
+    "local": "gravel.webp",
+    "bytes": 266936,
+    "sha256": "73c5f6a8f2856cb6e18a1fabf910e3ec7489d9f731a2c33d076f9c0e2d306feb",
+    "changes": "Color map converted to 1024px WebP, quality 82."
+  }
+]

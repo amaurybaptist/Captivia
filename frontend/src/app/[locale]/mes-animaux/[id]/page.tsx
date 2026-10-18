@@ -7,6 +7,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { api, type Animal, type Medication, type VetAppointment, type AnimalMeasurement, type Vaccination, type BreedingRecord, type SpeciesRoutineTemplate } from '@/lib/api';
 import WeightChart from '@/components/WeightChart';
 import Link from 'next/link';
+import { matchProfile } from '@/lib/habitat/planner';
 
 interface Routine {
   id: string;
@@ -1497,6 +1498,14 @@ export default function AnimalDetailPage({
               </div>
             </div>
             <div className="flex items-center gap-2 flex-wrap">
+              {species && matchProfile(species.canonicalName || species.scientificName) && (
+                <Link
+                  href={`/${resolvedParams?.locale || 'fr'}/guide?animal=${encodeURIComponent(animal.id)}`}
+                  className="px-4 py-2 bg-emerald-700 hover:bg-emerald-800 text-white rounded-lg font-medium transition-colors"
+                >
+                  {t('common.designHabitat')} <span className="text-xs opacity-90">· Premium</span>
+                </Link>
+              )}
               <button
                 type="button"
                 onClick={() => setShowEditAnimalModal(true)}

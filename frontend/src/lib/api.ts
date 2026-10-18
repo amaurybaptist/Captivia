@@ -2,23 +2,19 @@
 const DEFAULT_API = 'http://localhost:3001';
 const BACKEND_PORT = '3001';
 
-function getApiBase(): string {
-  // Depuis un autre appareil (ex. téléphone sur le même Wi‑Fi), utiliser la même IP que le frontend
+export function getApiBase(): string {
+  const configured = process.env.NEXT_PUBLIC_API_URL?.trim();
+  if (configured) {
+    try {
+      const parsed = new URL(configured);
+      if (parsed.protocol === 'https:' || parsed.protocol === 'http:') return configured.replace(/\/$/, '');
+    } catch { /* Use the local development address below if configuration is malformed. */ }
+  }
   if (typeof window !== 'undefined') {
     const host = window.location.hostname;
-    if (host !== 'localhost' && host !== '127.0.0.1') {
-      return `http://${host}:${BACKEND_PORT}`;
-    }
+    if (host !== 'localhost' && host !== '127.0.0.1') return `${window.location.protocol}//${host}:${BACKEND_PORT}`;
   }
-  const raw = process.env.NEXT_PUBLIC_API_URL || DEFAULT_API;
-  const base = (typeof raw === 'string' ? raw : '').trim() || DEFAULT_API;
-  if (!/^https?:\/\//i.test(base)) return DEFAULT_API;
-  try {
-    new URL(base);
-    return base;
-  } catch {
-    return DEFAULT_API;
-  }
+  return DEFAULT_API;
 }
 const API_URL = getApiBase();
 

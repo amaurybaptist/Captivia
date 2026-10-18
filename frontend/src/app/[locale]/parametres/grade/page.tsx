@@ -1,11 +1,13 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import Link from 'next/link';
+import Image from 'next/image';
 import { api } from '@/lib/api';
+import { getNotificationTimeZone, snoozeReminder } from '@/lib/push-notifications';
 
 const BADGE_IMAGES: Record<string, string> = {
   bronze: '/badges/bronze.svg',
@@ -38,6 +40,7 @@ type NotificationEvent = {
   type: string;
   label: string | null;
   scheduledAt: string;
+  snoozedUntil?: string | null;
   status: string;
   pointsAwarded: number;
   routineId?: string;
@@ -49,6 +52,7 @@ export default function GradePage() {
   const { user, token, isLoading: authLoading } = useAuth();
   const [grade, setGrade] = useState<GradeData | null>(DEFAULT_GRADE);
   const [events, setEvents] = useState<NotificationEvent[]>([]);
+  const [reminderTimeZone, setReminderTimeZone] = useState('Europe/Brussels');
   const [loading, setLoading] = useState(true);
   const [actionId, setActionId] = useState<string | null>(null);
   const [deletingId, setDeletingId] = useState<string | null>(null);
@@ -60,21 +64,16 @@ export default function GradePage() {
     }
   }, [user, authLoading, router]);
 
-  useEffect(() => {
-    if (user && token) {
-      loadData();
-    }
-  }, [user, token]);
-
-  const loadData = async () => {
+  const loadData = useCallback(async () => {
     if (!token) return;
     setLoading(true);
     try {
-      const today = new Date().toISOString().slice(0, 10);
-      const [gradeRes, eventsRes] = await Promise.all([
+      const [gradeRes, eventsRes, zone] = await Promise.all([
         api.getGrade(token),
-        api.getNotificationEvents(token, today, true),
+        api.getNotificationEvents(token),
+        getNotificationTimeZone(token),
       ]);
+      setReminderTimeZone(zone);
       setGrade(gradeRes?.points != null ? gradeRes : null);
       setEvents(Array.isArray(eventsRes) ? eventsRes : []);
     } catch (e) {
@@ -82,7 +81,10 @@ export default function GradePage() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [token]);
+
+  useEffect(() => { if (user && token) void loadData(); }, [user, token, loadData]);
+
 
   const handleMark = async (eventId: string, status: 'done' | 'skipped') => {
     if (!token) return;
@@ -124,16 +126,7 @@ export default function GradePage() {
 
   const displayGrade = grade ?? DEFAULT_GRADE;
   const gradeLabelKey = displayGrade.grade ? `grade.${displayGrade.grade}` : '';
-  const gradeLabel = gradeLabelKey ? t(gradeLabelKey as any) : displayGrade.grade;
-
-  /** Couleur de la barre selon le pourcentage acquis (0→rouge/ambre, 50→jaune, 75→vert clair, 100→vert) */
-  const progressBarColor = (pct: number) => {
-    if (pct >= 75) return 'from-emerald-500 to-emerald-600 dark:from-emerald-500 dark:to-emerald-400';
-    if (pct >= 50) return 'from-lime-500 to-emerald-500 dark:from-lime-400 dark:to-emerald-500';
-    if (pct >= 25) return 'from-amber-400 to-lime-500 dark:from-amber-400 dark:to-lime-400';
-    return 'from-amber-500 to-amber-400 dark:from-amber-500 dark:to-amber-400';
-  };
-  const progressPercent = Math.max(0, Math.min(100, displayGrade.progressPercent ?? 0));
+  const gradeLabel = gradeLabelKey ? t(gradeLabelKey) : displayGrade.grade;
 
   if (authLoading || loading) {
     return (
@@ -157,6 +150,7 @@ export default function GradePage() {
           <span className="text-gray-800 dark:text-white">{t('grade.title')}</span>
         </nav>
 
+        <Link href="/agenda" className="inline-flex mb-4 text-emerald-700 dark:text-emerald-300 underline">Ouvrir le calendrier des soins →</Link>
         <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 dark:text-white mb-6">
           {t('grade.title')}
         </h1>
@@ -171,7 +165,9 @@ export default function GradePage() {
           )}
           <div className="flex flex-col sm:flex-row items-center gap-6">
             <div className="shrink-0 relative w-28 h-28 flex items-center justify-center">
-              <img
+              <Image
+                width={112}
+                height={112}
                 src={BADGE_IMAGES[displayGrade.grade] || BADGE_IMAGES.bronze}
                 alt=""
                 className="w-24 h-24 sm:w-28 sm:h-28 object-contain absolute inset-0 m-auto"
@@ -191,7 +187,9 @@ export default function GradePage() {
             </div>
             <div className="flex-1 w-full min-w-0 text-center sm:text-left">
               <p className="text-2xl font-bold text-gray-800 dark:text-white capitalize flex items-center justify-center sm:justify-start gap-2">
-                <img
+                <Image
+                width={112}
+                height={112}
                   src={BADGE_IMAGES[displayGrade.grade] || BADGE_IMAGES.bronze}
                   alt=""
                   className="w-8 h-8 object-contain shrink-0"
@@ -211,7 +209,7 @@ export default function GradePage() {
               <>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
                   {displayGrade.points} / {displayGrade.points - displayGrade.pointsInCurrent + displayGrade.pointsNeededForNext}{' '}
-                  {t('grade.points')} → {t(`grade.${displayGrade.nextGrade}` as any)}
+                  {t('grade.points')} → {t(`grade.${displayGrade.nextGrade}`)}
                 </p>
                 <div
                   className="w-full h-6 rounded-full overflow-hidden bg-gray-200 dark:bg-gray-700 border border-gray-300 dark:border-gray-600"
@@ -235,7 +233,7 @@ export default function GradePage() {
             ) : (
               <>
                 <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-                  {displayGrade.points} {t('grade.points')} — {t(`grade.${displayGrade.grade}` as any)} max
+                  {displayGrade.points} {t('grade.points')} — {t(`grade.${displayGrade.grade}`)} max
                 </p>
                 <div
                   className="w-full h-6 rounded-full overflow-hidden bg-gray-200 dark:bg-gray-700 border border-gray-300 dark:border-gray-600"
@@ -271,6 +269,7 @@ export default function GradePage() {
               {events.map((ev) => (
                 <li
                   key={ev.id}
+                  id={`reminder-${ev.id}`}
                   className="flex flex-wrap items-center justify-between gap-3 p-4 rounded-lg border border-gray-200 dark:border-gray-600 bg-gray-50/50 dark:bg-gray-700/30"
                 >
                   <div className="min-w-0">
@@ -278,9 +277,10 @@ export default function GradePage() {
                       {ev.label || ev.type}
                     </p>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      {new Date(ev.scheduledAt).toLocaleTimeString(undefined, {
+                      {new Date(ev.snoozedUntil || ev.scheduledAt).toLocaleTimeString(undefined, {
                         hour: '2-digit',
                         minute: '2-digit',
+                        timeZone: reminderTimeZone,
                       })}
                     </p>
                   </div>
@@ -296,6 +296,19 @@ export default function GradePage() {
                           {ev.routineId
                             ? t('grade.markDoneRoutine')
                             : t('grade.markDoneNotification')}
+                        </button>
+                        <button type="button" disabled={actionId === ev.id}
+                          onClick={async () => {
+                            if (!token) return;
+                            setActionId(ev.id); setGradeError(null);
+                            try {
+                              const updated = await snoozeReminder(token, ev.id);
+                              setEvents(prev => prev.map(item => item.id === ev.id ? { ...item, ...updated } : item));
+                            } catch { setGradeError(t('notifications.reminderError')); }
+                            finally { setActionId(null); }
+                          }}
+                          className="px-4 py-2 border rounded-lg dark:text-white disabled:opacity-50">
+                          {t('notifications.snoozeAction')}
                         </button>
                         <button
                           type="button"

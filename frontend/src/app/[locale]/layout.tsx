@@ -18,6 +18,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  manifest: '/manifest.webmanifest',
+  appleWebApp: { capable: true, title: 'Captivia', statusBarStyle: 'default' },
+  icons: { apple: '/apple-touch-icon.png', icon: '/icon.png' },
   title: 'Captivia – Le guide de la faune',
   description:
     'Plateforme complète, pédagogique et bienveillante qui accompagne les propriétaires d\'animaux domestiques et NAC au quotidien',

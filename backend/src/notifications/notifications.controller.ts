@@ -1,5 +1,6 @@
 import {
   Controller,
+  HttpCode,
   Get,
   Post,
   Patch,
@@ -16,7 +17,10 @@ import {
 } from '@nestjs/swagger';
 import { NotificationsService } from './notifications.service';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
-import { PushSubscriptionDto, UnsubscribePushDto } from './dto/push-subscription.dto';
+import {
+  PushSubscriptionDto,
+  UnsubscribePushDto,
+} from './dto/push-subscription.dto';
 import { UpdateNotificationPreferencesDto } from './dto/notification-preferences.dto';
 
 @ApiTags('notifications')
@@ -26,6 +30,11 @@ import { UpdateNotificationPreferencesDto } from './dto/notification-preferences
 export class NotificationsController {
   constructor(private readonly notificationsService: NotificationsService) {}
 
+  @Get('notification-capabilities')
+  getCapabilities() {
+    return this.notificationsService.getCapabilities();
+  }
+
   @Post('push-subscriptions')
   @ApiOperation({
     summary: 'Subscribe to push notifications',
@@ -34,7 +43,7 @@ export class NotificationsController {
   @ApiResponse({ status: 201, description: 'Subscription created' })
   @ApiResponse({ status: 401, description: 'Unauthorized' })
   async subscribe(
-    @Request() req,
+    @Request() req: { user: { id: string } },
     @Body() dto: PushSubscriptionDto,
   ) {
     return this.notificationsService.subscribeToPush(req.user.id, dto);
@@ -47,7 +56,10 @@ export class NotificationsController {
   })
   @ApiResponse({ status: 200, description: 'Subscription removed' })
   @ApiResponse({ status: 401, description: 'Unauthorized' })
-  async unsubscribe(@Request() req, @Body() dto: UnsubscribePushDto) {
+  async unsubscribe(
+    @Request() req: { user: { id: string } },
+    @Body() dto: UnsubscribePushDto,
+  ) {
     return this.notificationsService.unsubscribeFromPush(
       req.user.id,
       dto.endpoint,
@@ -61,8 +73,11 @@ export class NotificationsController {
   })
   @ApiResponse({ status: 200, description: 'Subscriptions list' })
   @ApiResponse({ status: 401, description: 'Unauthorized' })
-  async getSubscriptions(@Request() req) {
-    return this.notificationsService.getUserSubscriptions(req.user.id);
+  async getSubscriptions(@Request() req: { user: { id: string } }) {
+    const subscriptions = await this.notificationsService.getUserSubscriptions(
+      req.user.id,
+    );
+    return subscriptions.map(({ id, endpoint }) => ({ id, endpoint }));
   }
 
   @Get('notification-preferences')
@@ -72,7 +87,7 @@ export class NotificationsController {
   })
   @ApiResponse({ status: 200, description: 'Notification preferences' })
   @ApiResponse({ status: 401, description: 'Unauthorized' })
-  async getPreferences(@Request() req) {
+  async getPreferences(@Request() req: { user: { id: string } }) {
     return this.notificationsService.getNotificationPreferences(req.user.id);
   }
 
@@ -84,7 +99,7 @@ export class NotificationsController {
   @ApiResponse({ status: 200, description: 'Preferences updated' })
   @ApiResponse({ status: 401, description: 'Unauthorized' })
   async updatePreferences(
-    @Request() req,
+    @Request() req: { user: { id: string } },
     @Body() dto: UpdateNotificationPreferencesDto,
   ) {
     return this.notificationsService.updateNotificationPreferences(
@@ -94,17 +109,14 @@ export class NotificationsController {
   }
 
   @Post('test-notification')
+  @HttpCode(200)
   @ApiOperation({
     summary: 'Send test notification',
-    description: 'Send a test push notification to current user',
+    description: 'Send a test reminder using the current delivery channels',
   })
   @ApiResponse({ status: 200, description: 'Test notification sent' })
   @ApiResponse({ status: 401, description: 'Unauthorized' })
-  async sendTestNotification(@Request() req) {
-    return this.notificationsService.sendNotification(req.user.id, {
-      title: 'Test Captivia',
-      body: 'Ceci est une notification de test',
-      icon: '/icon.png',
-    });
+  async sendTestNotification(@Request() req: { user: { id: string } }) {
+    return this.notificationsService.sendTestNotification(req.user.id);
   }
 }

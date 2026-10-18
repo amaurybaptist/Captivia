@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "f73d2fa614b144ab422070e253ea9d319bf07fe9bb00f11624b72666973debf7",
+  "locale": "es",
+  "questions": [
+    {
+      "id": "birds-001",
+      "animal": "águila real",
+      "prompt": "¿Cuáles son los principales propósitos de las amplias alas del águila real?",
+      "options": [
+        "Planear aprovechando las corrientes ascendentes",
+        "Acelerar batiendo rápidamente entre la maleza.",
+        "Nadar empujando el agua",
+        "Cavar la tierra en un abanico."
+      ],
+      "explanation": "Sus alas anchas le permiten recorrer grandes territorios planeando y ahorrar energía.",
+      "didYouKnow": "Las águilas reales pueden reutilizar y ampliar el mismo nido durante varias temporadas de cría.",
+      "imageCaption": "águila real"
+    },
+    {
+      "id": "birds-002",
+      "animal": "Albatros errante",
+      "prompt": "¿Qué mecanismo de vuelo permite al albatros errante aprovechar los vientos sobre las olas?",
+      "options": [
+        "Alterna fases de ascenso y descenso para aprovechar las variaciones del viento.",
+        "Flota contra el viento, batiendo sus alas rápidamente.",
+        "Gira continuamente en columnas de aire cálido sobre la tierra.",
+        "Bate constantemente sus alas para moverse a la misma altura sobre el agua."
+      ],
+      "explanation": "El vuelo dinámico del albatros aprovecha las diferencias en la velocidad del viento a distintas alturas sobre las olas, lo que le permite viajar largas distancias con pocos golpes.",
+      "didYouKnow": "Los albatros regresan a las islas para reproducirse.",
+      "imageCaption": "Albatros errante"
+    },
+    {
+      "id": "birds-003",
+      "animal": "pingüino emperador",
+      "prompt": "¿Cómo protege el pingüino emperador su huevo del contacto con el hielo?",
+      "options": [
+        "Mantiene el huevo sobre sus patas, bajo un pliegue de piel con plumas.",
+        "Lo coloca en un nido excavado en el hielo.",
+        "Lo mete entre piedras calentadas al sol.",
+        "Lo lleva en el pico mientras nada."
+      ],
+      "explanation": "Así, el progenitor evita que el huevo toque el hielo: lo sostiene sobre las patas bajo un pliegue de piel emplumada.",
+      "didYouKnow": "Ambos progenitores se turnan para incubar, aunque el macho realiza la mayor parte durante el invierno antártico.",
+      "imageCaption": "pingüino emperador"
+    },
+    {
+      "id": "birds-004",
+      "animal": "avestruz",
+      "prompt": "¿Cuál es el principal modo de movimiento del avestruz?",
+      "options": [
+        "Correr",
+        "El vuelo batido",
+        "Nadando bajo el hielo",
+        "Deslizándose desde los acantilados"
+      ],
+      "explanation": "El avestruz no vuela y sus largas patas están adaptadas para correr rápidamente.",
+      "didYouKnow": "El avestruz tiene dos dedos en cada pata, a diferencia de la mayoría de las aves, que tienen cuatro.",
+      "imageCaption": "avestruz"
+    },
+    {
+      "id": "birds-005",
+      "animal": "El colibrí de Anna",
+      "prompt": "¿Qué propiedad del aleteo ayuda al colibrí de Anna a flotar?",
+      "options": [
+        "Genera sustentación tanto en el aleteo descendente como en el ascendente.",
+        "Sólo produce elevación en el camino de regreso y luego deja que el pájaro descienda ligeramente.",
+        "Bloquea las alas durante cada ciclo y utiliza principalmente corrientes de aire.",
+        "Alterna un ritmo potente con una larga fase de deslizamiento."
+      ],
+      "explanation": "Los colibríes generan sustentación en ambas fases del aleteo, lo que les permite mantenerse frente a una flor.",
+      "didYouKnow": "El colibrí de Anna puede entrar en torpor en noches frías y reducir temporalmente su gasto energético.",
+      "imageCaption": "El colibrí de Anna"
+    },
+    {
+      "id": "birds-006",
+      "animal": "Pico picapinos",
+      "prompt": "¿Cuál es el propósito común del tamborileo del pájaro carpintero moteado sobre un tronco?",
+      "options": [
+        "Para comunicarse con otros pájaros carpinteros, a menudo sobre el territorio.",
+        "Para sondear la profundidad del agua.",
+        "Para atraer peces cerca del banco.",
+        "Secando tus plumas después de la lluvia"
+      ],
+      "explanation": "El tamborileo es una señal sonora que se usa especialmente en las interacciones territoriales.",
+      "didYouKnow": "Las plumas rígidas de la cola le sirven de apoyo al trepar por los troncos.",
+      "imageCaption": "Pico picapinos"
+    },
+    {
+      "id": "birds-007",
+      "animal": "flamenco",
+      "prompt": "¿Cómo obtiene el flamenco gran parte de su alimento?",
+      "options": [
+        "Filtrando pequeños organismos del agua y el barro.",
+        "Atravesando peces desde una percha.",
+        "Desgranando semillas con su pico cruzado",
+        "Capturando insectos mientras flota"
+      ],
+      "explanation": "Las láminas de su pico retienen pequeños crustáceos, algas y otros organismos.",
+      "didYouKnow": "Los carotenoides presentes en ciertos alimentos contribuyen al color rosado de su plumaje.",
+      "imageCaption": "flamenco"
+    },
+    {
+      "id": "birds-008",
+      "animal": "Cárabo",
+      "prompt": "¿Cómo ayuda la asimetría de las orejas del cárabo a localizar presas escondidas?",
+      "options": [
+        "Las pequeñas diferencias de tiempo e intensidad entre los oídos proporcionan información sobre la dirección del sonido.",
+        "Sólo amplifica los sonidos agudos emitidos por la presa.",
+        "Transforma los sonidos en señales visuales cuando hay poca luz.",
+        "Bloquea los sonidos provenientes del suelo para aislar los de las ramas."
+      ],
+      "explanation": "La posición y asimetría de las orejas ayudan al búho a comparar los sonidos recibidos de cada lado y estimar de dónde viene la presa.",
+      "didYouKnow": "Como otros búhos, regurgita bolitas que contienen restos de presas no digeridas.",
+      "imageCaption": "Cárabo"
+    },
+    {
+      "id": "birds-009",
+      "animal": "Golondrina común",
+      "prompt": "¿Por qué las golondrinas migran a zonas más cálidas en invierno?",
+      "options": [
+        "Para encontrar más insectos voladores disponibles",
+        "Para encontrar cavidades en árboles sin nieve.",
+        "Para evitar toda lluvia y viento.",
+        "Para poner huevos en suelos más secos."
+      ],
+      "explanation": "La migración lo lleva a regiones donde los insectos de los que se alimenta siguen siendo accesibles.",
+      "didYouKnow": "Captura la mayoría de sus presas en vuelo.",
+      "imageCaption": "Golondrina común"
+    },
+    {
+      "id": "birds-010",
+      "animal": "Pato real",
+      "prompt": "¿Cuál es el propósito de la membrana entre los dedos del ánade real?",
+      "options": [
+        "Para aumentar el empuje de sus piernas en el agua.",
+        "Para aferrarse a troncos lisos",
+        "Cavar cavidades para anidar",
+        "Para agarrar semillas de las ramas"
+      ],
+      "explanation": "Las correas aumentan la superficie que empuja el agua cuando el pato nada.",
+      "didYouKnow": "El ánade real es el antepasado de muchas razas de patos domésticos.",
+      "imageCaption": "Pato real"
+    },
+    {
+      "id": "birds-011",
+      "animal": "pelícano blanco",
+      "prompt": "¿Para qué sirve la bolsa expandible en el pico del pelícano?",
+      "options": [
+        "Para capturar peces temporalmente",
+        "Para almacenar aire durante el vuelo.",
+        "Para transportar huevos de forma sostenible",
+        "Para filtrar la sal del agua de mar."
+      ],
+      "explanation": "La bolsa funciona como una red temporal para pescar peces en el agua.",
+      "didYouKnow": "Los pelícanos suelen anidar en colonias, a veces en islas o sitios costeros.",
+      "imageCaption": "pelícano blanco"
+    },
+    {
+      "id": "birds-012",
+      "animal": "cigüeña blanca",
+      "prompt": "¿Cómo ahorra energía la cigüeña blanca durante parte de su migración?",
+      "options": [
+        "Planeando sobre tierra en corrientes ascendentes de aire cálido.",
+        "Mientras nadaba en las corrientes del mar",
+        "Cavando refugios para descansar en vuelo",
+        "Batiendo constantemente tus alas a máxima velocidad."
+      ],
+      "explanation": "Las corrientes térmicas permiten a la cigüeña ganar altura y después planear con menos aleteos.",
+      "didYouKnow": "Las cigüeñas blancas suelen anidar en estructuras humanas, como tejados y plataformas.",
+      "imageCaption": "cigüeña blanca"
+    },
+    {
+      "id": "birds-013",
+      "animal": "Martín pescador europeo",
+      "prompt": "¿Cómo suele pescar el martín pescador europeo un pez pequeño?",
+      "options": [
+        "Se zambulle desde una percha tras localizar al pez.",
+        "Filtra el barro con sus patas.",
+        "Él pesca peces en los árboles.",
+        "Lo persigue bajo el agua mientras nada durante mucho tiempo."
+      ],
+      "explanation": "El martín pescador observa el agua desde una percha y luego se zambulle para capturar a su presa.",
+      "didYouKnow": "Excava un túnel de nidificación en una ribera u otro talud de tierra.",
+      "imageCaption": "Martín pescador europeo"
+    },
+    {
+      "id": "birds-014",
+      "animal": "Graja",
+      "prompt": "¿Qué capacidad se ha observado en varias especies de córvidos?",
+      "options": [
+        "Usar o modificar objetos para acceder a los alimentos.",
+        "Producir leche para sus polluelos.",
+        "Respira bajo el agua gracias a sus plumas",
+        "Cultivar semillas en cavidades."
+      ],
+      "explanation": "Los córvidos a veces utilizan herramientas para alcanzar alimentos a los que de otro modo sería difícil acceder.",
+      "didYouKnow": "La familia de los córvidos incluye cuervos, grajos y arrendajos.",
+      "imageCaption": "Graja"
+    },
+    {
+      "id": "birds-015",
+      "animal": "Arrendajo euroasiático",
+      "prompt": "¿Qué papel puede jugar el arrendajo del roble en la regeneración forestal?",
+      "options": [
+        "Esparce las bellotas que ha escondido",
+        "Polinizar los robles bebiendo su savia",
+        "Cavando cavidades donde germinan las bellotas bajo el agua",
+        "Evitar que las bellotas caigan de los árboles"
+      ],
+      "explanation": "Las bellotas olvidadas en sus escondites pueden germinar lejos del árbol padre.",
+      "didYouKnow": "El arrendajo roble tiene una mancha azul rayada en el ala, claramente visible en su plumaje marrón.",
+      "imageCaption": "Arrendajo euroasiático"
+    },
+    {
+      "id": "birds-016",
+      "animal": "Carbonero común",
+      "prompt": "¿Dónde suelen buscar los carboneros grandes insectos pequeños?",
+      "options": [
+        "En las grietas y debajo de las hojas",
+        "En el fondo de lagos profundos",
+        "En las madrigueras de grandes mamíferos.",
+        "Bajo la arena de las playas"
+      ],
+      "explanation": "Explora las ramas y el follaje en busca de pequeños invertebrados.",
+      "didYouKnow": "También frecuenta fácilmente los comederos en invierno.",
+      "imageCaption": "Carbonero común"
+    },
+    {
+      "id": "birds-017",
+      "animal": "Petirrojo europeo",
+      "prompt": "¿Por qué a veces el petirrojo sigue a una persona que está dando vueltas a la tierra?",
+      "options": [
+        "El suelo perturbado puede revelar gusanos y otros invertebrados",
+        "El sonido de la pala atrae a los peces a la superficie.",
+        "Él cosecha las semillas sembradas por las herramientas.",
+        "Utiliza la pala para construir su nido."
+      ],
+      "explanation": "Trabajar la tierra a veces hace accesibles pequeñas presas escondidas en la tierra.",
+      "didYouKnow": "El petirrojo suele defender su territorio frente a sus pares.",
+      "imageCaption": "Petirrojo europeo"
+    },
+    {
+      "id": "birds-018",
+      "animal": "lechuza",
+      "prompt": "¿Qué estructura ayuda a la lechuza a captar sonidos?",
+      "options": [
+        "Su disco facial, que dirige los sonidos a los oídos.",
+        "Una cresta que vibra como una antena",
+        "Una membrana transparente en el pico.",
+        "Plumas rígidas debajo de las piernas."
+      ],
+      "explanation": "La forma del disco facial ayuda a canalizar los sonidos hacia sus oídos.",
+      "didYouKnow": "Su vuelo es silencioso gracias a la particular estructura de sus plumas.",
+      "imageCaption": "lechuza"
+    },
+    {
+      "id": "birds-019",
+      "animal": "Halcón peregrino",
+      "prompt": "¿Qué táctica de caza es famosa en el halcón peregrino?",
+      "options": [
+        "Zambúllete rápidamente desde el aire para interceptar un pájaro.",
+        "Persigue a tus presas durante mucho tiempo bajo el agua.",
+        "Construye una trampa con ramitas.",
+        "Caza rodeando a tus presas en grupos en el suelo."
+      ],
+      "explanation": "El halcón peregrino puede lanzarse en picado desde el aire para interceptar aves en vuelo.",
+      "didYouKnow": "Anida en acantilados y, a veces, en edificios altos de la ciudad.",
+      "imageCaption": "Halcón peregrino"
+    },
+    {
+      "id": "birds-020",
+      "animal": "Busardo ratonero",
+      "prompt": "¿Qué presas captura comúnmente el ratonero común en paisajes abiertos?",
+      "options": [
+        "Pequeños mamíferos como los ratones de campo.",
+        "Medusas y pequeños crustáceos",
+        "Néctar recogido de las flores.",
+        "Semillas extraídas de los conos."
+      ],
+      "explanation": "Su dieta es oportunista, pero los pequeños mamíferos suelen constituir presas importantes.",
+      "didYouKnow": "Puede flotar en círculos sobre su territorio.",
+      "imageCaption": "Busardo ratonero"
+    },
+    {
+      "id": "birds-021",
+      "animal": "Buitre Leonado",
+      "prompt": "¿Qué papel ecológico cumple el buitre leonado?",
+      "options": [
+        "Consumir cadáveres y acelerar su reciclaje",
+        "Esparce bellotas escondiéndolas",
+        "Limpieza de escamas de peces vivos",
+        "Polinizar flores de acantilado"
+      ],
+      "explanation": "Al consumir cadáveres, se contribuye al reciclaje de materia orgánica.",
+      "didYouKnow": "El buitre leonado puede aprovechar las corrientes ascendentes para planear sin batir continuamente las alas.",
+      "imageCaption": "Buitre Leonado"
+    },
+    {
+      "id": "birds-022",
+      "animal": "Garceta pequeña",
+      "prompt": "¿Cómo suelen capturar presas las garcetas pequeñas en aguas poco profundas?",
+      "options": [
+        "Ella observa o revuelve el agua para sacar a la presa.",
+        "Ella atrapa insectos con una red.",
+        "Ella se lanza desde una gran altura.",
+        "Cava una madriguera para atrapar peces."
+      ],
+      "explanation": "Caza peces e invertebrados en humedales poco profundos.",
+      "didYouKnow": "Sus dedos amarillos contrastan con sus patas oscuras.",
+      "imageCaption": "Garceta pequeña"
+    },
+    {
+      "id": "birds-023",
+      "animal": "garza real",
+      "prompt": "¿Cómo suele pescar la garza real?",
+      "options": [
+        "Permanece inmóvil y rápidamente lanza su pico.",
+        "Filtra el agua con lamas.",
+        "Chupa el pez con sus plumas.",
+        "Lo rodea con su cuello antes de agarrarlo."
+      ],
+      "explanation": "La garza suele cazar al acecho y rápidamente atrapa peces con el pico.",
+      "didYouKnow": "También puede buscar presas en los campos, lejos del agua.",
+      "imageCaption": "garza real"
+    },
+    {
+      "id": "birds-024",
+      "animal": "grúa común",
+      "prompt": "¿Para qué se pueden utilizar los bailes de grullas comunes?",
+      "options": [
+        "Interacciones sociales y exhibiciones de cortejo.",
+        "Para construir una presa de barro",
+        "Alimentar peces adultos",
+        "Para hacer flotar el nido"
+      ],
+      "explanation": "Los saltos y movimientos de las alas forman parte de las exhibiciones e interacciones sociales de las grullas.",
+      "didYouKnow": "Las grullas comunes suelen formar parejas duraderas.",
+      "imageCaption": "grúa común"
+    },
+    {
+      "id": "birds-025",
+      "animal": "Pavo real",
+      "prompt": "¿Cuál es el propósito principal de la larga cola del pavo real macho?",
+      "options": [
+        "en el cortejo",
+        "cavar una madriguera",
+        "Para flotar sobre el mar",
+        "Para regular tu temperatura mientras nadas"
+      ],
+      "explanation": "El macho muestra sus coloridas plumas durante exhibiciones destinadas a sus parejas.",
+      "didYouKnow": "El pavo real azul se alimenta en el suelo de una variedad de alimentos, incluidas semillas, frutas y animales pequeños.",
+      "imageCaption": "Pavo real"
+    },
+    {
+      "id": "birds-026",
+      "animal": "avestruz",
+      "prompt": "¿Quién suele participar en la incubación de huevos de avestruz durante la noche?",
+      "options": [
+        "El macho.",
+        "la hembra sola",
+        "Ambos padres uno al lado del otro",
+        "Otro macho del grupo."
+      ],
+      "explanation": "El macho suele incubar de noche, mientras que la hembra lo hace principalmente durante el día.",
+      "didYouKnow": "Los polluelos de avestruz pueden abandonar el nido poco después de nacer.",
+      "imageCaption": "avestruz"
+    },
+    {
+      "id": "birds-027",
+      "animal": "paloma bravía",
+      "prompt": "¿Qué pistas puede combinar una paloma para encontrar su palomar?",
+      "options": [
+        "Señales y pistas visuales relacionadas con el sol o el campo magnético.",
+        "Sólo los aromas de las flores.",
+        "Las huellas dejadas por sus pares",
+        "Ultrasonidos emitidos por los edificios."
+      ],
+      "explanation": "La orientación de las palomas puede movilizar varias señales ambientales en lugar de una sola.",
+      "didYouKnow": "Las palomas urbanas descienden de las palomas bravías domesticadas.",
+      "imageCaption": "paloma bravía"
+    },
+    {
+      "id": "birds-028",
+      "animal": "Tórtola turca",
+      "prompt": "¿De qué se alimenta principalmente la paloma turca?",
+      "options": [
+        "De semillas",
+        "medusas",
+        "Madera viva",
+        "moluscos marinos"
+      ],
+      "explanation": "Consume principalmente semillas y suele frecuentar zonas habitadas.",
+      "didYouKnow": "Su collar negro en la nuca ayuda a reconocerla.",
+      "imageCaption": "Tórtola turca"
+    },
+    {
+      "id": "birds-029",
+      "animal": "Avefría",
+      "prompt": "¿Cómo puede la avefría alejar a un depredador de su nido?",
+      "options": [
+        "Simulando el comportamiento de lesión",
+        "Tirando piedras con el pico",
+        "Cubriendo los huevos con plumas luminosas.",
+        "Llamando a un mamífero depredador"
+      ],
+      "explanation": "Un adulto puede desviar la atención del nido con una exhibición de distracción.",
+      "didYouKnow": "Frecuenta a menudo prados y campos húmedos.",
+      "imageCaption": "Avefría"
+    },
+    {
+      "id": "birds-030",
+      "animal": "correlimos común",
+      "prompt": "¿Cuál es el propósito del pico del correlimos cuando busca comida en el barro?",
+      "options": [
+        "Sondeando el sustrato para encontrar pequeños invertebrados.",
+        "Para romper nueces duras",
+        "Para llevar a tus polluelos en vuelo",
+        "Para filtrar las algas del aire."
+      ],
+      "explanation": "Su pico explora el barro donde se esconden los pequeños animales.",
+      "didYouKnow": "Durante la migración, el correlimos común puede reunirse en grandes grupos en las marismas.",
+      "imageCaption": "correlimos común"
+    },
+    {
+      "id": "birds-031",
+      "animal": "ostrero",
+      "prompt": "¿Cómo abre el ostrero ciertas presas sin cáscara?",
+      "options": [
+        "Usando su robusto pico para abrirlos o sondearlos.",
+        "Disolviendo el caparazón con veneno.",
+        "Rompiendo el caparazón con sus alas",
+        "Tragando piedras para abrirlo en el buche."
+      ],
+      "explanation": "Su pico permite abrir moluscos o buscar gusanos, según la técnica utilizada.",
+      "didYouKnow": "El ostrero tiene un pico largo de color rojo anaranjado y patas del mismo color.",
+      "imageCaption": "ostrero"
+    },
+    {
+      "id": "birds-032",
+      "animal": "Avoceta de varios colores",
+      "prompt": "¿Cómo suele capturar presas pequeñas la avoceta de varios colores?",
+      "options": [
+        "Se desplaza por aguas poco profundas con su pico curvado hacia arriba.",
+        "Se sumerge a grandes profundidades desde el aire.",
+        "Ella cava los baúles con sus patas.",
+        "Atrapa insectos con la lengua pegajosa."
+      ],
+      "explanation": "Mueve su pico en aguas poco profundas para capturar pequeños invertebrados.",
+      "didYouKnow": "La avoceta de varios colores construye su nido en una pequeña depresión en el suelo, a menudo cerca de una zona húmeda.",
+      "imageCaption": "Avoceta de varios colores"
+    },
+    {
+      "id": "birds-033",
+      "animal": "Gaviota reidora",
+      "prompt": "¿Por qué las gaviotas reidoras cambian a menudo de zona de alimentación?",
+      "options": [
+        "Explota recursos variados dependiendo de su disponibilidad.",
+        "Siempre depende de una sola especie de pez.",
+        "Ella sólo puede comer durante la marea alta.",
+        "Se alimenta únicamente de semillas de caña."
+      ],
+      "explanation": "Esta especie oportunista busca alimento tanto en el agua como en la tierra.",
+      "didYouKnow": "Su capuchón marrón aparece especialmente durante la época reproductiva.",
+      "imageCaption": "Gaviota reidora"
+    },
+    {
+      "id": "birds-034",
+      "animal": "Gaviota argéntea",
+      "prompt": "¿Qué comportamiento podría utilizar una gaviota argéntea para abrir un caparazón?",
+      "options": [
+        "Dejándola caer sobre una superficie dura.",
+        "Cúbrelo en la arena",
+        "Frótalo contra una pluma.",
+        "Déjalo flotar hasta que se abra."
+      ],
+      "explanation": "Algunas gaviotas dejan caer presas con concha sobre un suelo duro para romperla.",
+      "didYouKnow": "Las gaviotas argénteas pueden beber agua dulce y salada; sus glándulas de sal eliminan el exceso de sal.",
+      "imageCaption": "Gaviota argéntea"
+    },
+    {
+      "id": "birds-035",
+      "animal": "charrán ártico",
+      "prompt": "¿Entre qué regiones migran frecuentemente los charranes árticos?",
+      "options": [
+        "El Ártico y la Antártida",
+        "Los Alpes y los Pirineos",
+        "El Mediterráneo y el Mar Negro",
+        "El Sahara y la selva amazónica"
+      ],
+      "explanation": "Migra entre las zonas de reproducción del Ártico y las zonas de no reproducción de la Antártida.",
+      "didYouKnow": "El charrán ártico suele anidar en el suelo, cerca de las costas o en islas.",
+      "imageCaption": "charrán ártico"
+    },
+    {
+      "id": "birds-036",
+      "animal": "Frailecillo atlántico",
+      "prompt": "¿Cómo es que a veces los frailecillos transportan varios peces?",
+      "options": [
+        "Los sostiene sobre su pico.",
+        "Los guarda en el bolsillo del vientre.",
+        "Los une a sus patas.",
+        "Los almacena en las plumas de su cola."
+      ],
+      "explanation": "Las asperezas en el pico ayudan al frailecillo a mantener varios peces pequeños.",
+      "didYouKnow": "A menudo cava su madriguera de cría en suelos blandos.",
+      "imageCaption": "Frailecillo atlántico"
+    },
+    {
+      "id": "birds-037",
+      "animal": "Cormorán moñudo",
+      "prompt": "¿Por qué el cormorán se sumerge bajo el agua?",
+      "options": [
+        "para perseguir peces",
+        "Para recolectar polen de plantas acuáticas.",
+        "Respirar en una cueva sumergida",
+        "Para construir su nido en el fondo del mar"
+      ],
+      "explanation": "Sus patas palmeadas lo impulsan cuando persigue peces bajo la superficie.",
+      "didYouKnow": "Sus dedos palmeados le ayudan a impulsarse bajo el agua.",
+      "imageCaption": "Cormorán moñudo"
+    },
+    {
+      "id": "birds-038",
+      "animal": "alcatraz",
+      "prompt": "¿Cómo suelen pescar los alcatraces?",
+      "options": [
+        "Bucear en el mar desde el aire",
+        "Filtrando el barro con su pico",
+        "Construyendo nidos bajo el agua",
+        "Mientras pescaba con una ramita"
+      ],
+      "explanation": "Ve peces y luego se sumerge en el agua para atraparlos.",
+      "didYouKnow": "Los alcatraces suelen reproducirse en colonias muy densas en acantilados o islotes.",
+      "imageCaption": "alcatraz"
+    },
+    {
+      "id": "birds-039",
+      "animal": "Alca común",
+      "prompt": "¿Cuáles son los principales propósitos de las alas del pingüino Torda bajo el agua?",
+      "options": [
+        "Para impulsarse bajo el agua al nadar.",
+        "Cavando agujeros en el hielo",
+        "Para filtrar plancton",
+        "para llevar los huevos"
+      ],
+      "explanation": "Las alas cortas y rígidas del alca común funcionan como aletas cuando bucea.",
+      "didYouKnow": "El alca común pertenece a la familia de los álcidos y cría en las costas del Atlántico norte.",
+      "imageCaption": "Alca común"
+    },
+    {
+      "id": "birds-040",
+      "animal": "somormujo lavanco",
+      "prompt": "¿Cómo transporta a veces a sus polluelos el somormujo lavanco?",
+      "options": [
+        "En su espalda, entre sus plumas",
+        "En un bolsillo de su pico",
+        "Aferrándose a sus alas en vuelo",
+        "Debajo de sus patas mientras nada"
+      ],
+      "explanation": "Los somormujos jóvenes pueden viajar a lomos de uno de sus padres nadadores.",
+      "didYouKnow": "Sus patas traseras le ayudan a nadar, pero le dificultan caminar.",
+      "imageCaption": "somormujo lavanco"
+    },
+    {
+      "id": "birds-041",
+      "animal": "focha",
+      "prompt": "¿Qué característica suele distinguir a las fochas de muchos patos?",
+      "options": [
+        "Sus dedos lobulados en lugar de membranas anchas.",
+        "Su pico curvado como el de un ave rapaz.",
+        "Branquias escondidas debajo de las alas.",
+        "Una cola prensil"
+      ],
+      "explanation": "Los lóbulos de piel de sus dedos le ayudan a nadar y caminar sobre la vegetación húmeda.",
+      "didYouKnow": "Su pico y frente blancos son visibles desde lejos.",
+      "imageCaption": "focha"
+    },
+    {
+      "id": "birds-042",
+      "animal": "Martín pescador europeo",
+      "prompt": "¿Por qué el martín pescador debe tener en cuenta la refracción al bucear?",
+      "options": [
+        "La luz cambia la apariencia de la posición de la presa cuando pasa por el agua.",
+        "Debe ver en total oscuridad.",
+        "Él ve los peces a través de las rocas.",
+        "Localiza presas por ecolocalización."
+      ],
+      "explanation": "La transición del aire al agua desvía la luz, lo que cambia la imagen de la presa.",
+      "didYouKnow": "Varias especies de martines pescadores también cazan presas terrestres.",
+      "imageCaption": "Martín pescador europeo"
+    },
+    {
+      "id": "birds-043",
+      "animal": "abejaruco europeo",
+      "prompt": "¿Cómo suele deshacerse el abejaruco europeo de la picadura de una abeja capturada?",
+      "options": [
+        "Golpea o frota al insecto contra una percha.",
+        "Lo sopla hasta que cae el aguijón.",
+        "Lo sumerge en agua salada.",
+        "Le pide a otro pájaro que se lo lleve."
+      ],
+      "explanation": "Puede frotar el insecto contra un soporte antes de tragarlo.",
+      "didYouKnow": "El abejaruco europeo migra al África subsahariana para pasar el invierno.",
+      "imageCaption": "abejaruco europeo"
+    },
+    {
+      "id": "birds-044",
+      "animal": "Rodillo europeo",
+      "prompt": "¿Dónde suele anidar la carraca europea?",
+      "options": [
+        "En una cavidad, a veces un viejo agujero de árbol.",
+        "En una telaraña",
+        "Bajo el agua entre raíces",
+        "En un nido flotante de juncos"
+      ],
+      "explanation": "Utiliza cavidades naturales o cavidades excavadas por otras especies para reproducirse.",
+      "didYouKnow": "Con frecuencia caza desde una posición abierta.",
+      "imageCaption": "Rodillo europeo"
+    },
+    {
+      "id": "birds-045",
+      "animal": "Abubilla",
+      "prompt": "¿Cómo suelen encontrar las abubillas insectos en el suelo?",
+      "options": [
+        "Sondea el sustrato con su largo pico.",
+        "Filtra el agua con su plumaje.",
+        "Ella cava con sus alas",
+        "Ella usa ecolocalización"
+      ],
+      "explanation": "Clava el pico en la tierra o en las hojas muertas para buscar invertebrados.",
+      "didYouKnow": "Su cresta se puede desplegar cuando está excitada o en exhibición.",
+      "imageCaption": "Abubilla"
+    },
+    {
+      "id": "birds-046",
+      "animal": "Cuco común",
+      "prompt": "¿Qué estrategia reproductiva caracteriza al cuco gris?",
+      "options": [
+        "A menudo pone huevos en el nido de otra especie.",
+        "Siempre cría una gran colonia solo.",
+        "Pone sus huevos sin nido en los árboles.",
+        "Alimenta a polluelos de otras especies bajo el agua."
+      ],
+      "explanation": "El cuco gris practica el parasitismo de cría: los huéspedes incuban sus huevos y a menudo crían a sus crías.",
+      "didYouKnow": "El cuco gris adulto consume especialmente orugas, incluidas las de especie peluda.",
+      "imageCaption": "Cuco común"
+    },
+    {
+      "id": "birds-047",
+      "animal": "oropéndola europea",
+      "prompt": "¿Qué tipo de nido suele construir el oropéndola europeo?",
+      "options": [
+        "Una taza colgada en el tenedor de ramas.",
+        "Una madriguera en una duna",
+        "Una cavidad llena de agua.",
+        "Un nido flotante atado a un pez."
+      ],
+      "explanation": "La hembra teje un nido en forma de copa, a menudo suspendido entre ramas.",
+      "didYouKnow": "El macho de color amarillo brillante puede resultar difícil de ver en el follaje.",
+      "imageCaption": "oropéndola europea"
+    },
+    {
+      "id": "birds-048",
+      "animal": "Mirlo",
+      "prompt": "¿Cómo suelen buscar gusanos los mirlos?",
+      "options": [
+        "Busca el suelo observando y escuchando",
+        "Se sumerge debajo de las hojas para chuparlas.",
+        "Utiliza ultrasonido",
+        "Sigue las raíces con el pico cerrado."
+      ],
+      "explanation": "Busca en el suelo y puede detectar a sus presas a través de sus sentidos y observación.",
+      "didYouKnow": "Puede utilizar una piedra a modo de yunque para romper ciertos caracoles.",
+      "imageCaption": "Mirlo"
+    },
+    {
+      "id": "birds-049",
+      "animal": "Zorzal Común",
+      "prompt": "¿Por qué el zorzal a veces golpea a un caracol contra una piedra?",
+      "options": [
+        "Para romper su caparazón y acceder al cuerpo.",
+        "Para secar la cáscara",
+        "para atraer peces",
+        "Para decorar tu nido"
+      ],
+      "explanation": "A veces utiliza una piedra a modo de yunque para abrir ciertos caracoles.",
+      "didYouKnow": "El zorzal común produce un canto variado, que a menudo se escucha al comienzo de la temporada de reproducción.",
+      "imageCaption": "Zorzal Común"
+    },
+    {
+      "id": "birds-050",
+      "animal": "Estornino europeo",
+      "prompt": "¿Cómo coordinan los estorninos sus vuelos en grupos grandes?",
+      "options": [
+        "Cada pájaro ajusta sus movimientos en función de sus vecinos",
+        "Un líder da órdenes a todo el rebaño.",
+        "Los pájaros están conectados por hilos invisibles.",
+        "Sólo siguen el campo gravitacional."
+      ],
+      "explanation": "Los cambios de dirección surgen de reacciones rápidas entre personas cercanas.",
+      "didYouKnow": "Los estorninos también se reúnen en dormideros comunes al anochecer.",
+      "imageCaption": "Estornino europeo"
+    },
+    {
+      "id": "birds-051",
+      "animal": "Cardenal del Norte",
+      "prompt": "¿Qué diferencia de plumaje distingue generalmente los sexos del cardenal del norte?",
+      "options": [
+        "El macho es de color rojo brillante y la hembra más pardusco.",
+        "La hembra es de color rojo brillante y el macho completamente marrón.",
+        "El macho es blanco y la hembra negra.",
+        "Ambos sexos son siempre iguales."
+      ],
+      "explanation": "El macho es de color rojo brillante, mientras que la hembra es mayormente de color marrón con detalles en rojo.",
+      "didYouKnow": "Las cardenales también cantan, a diferencia de las hembras de muchos pájaros cantores de zonas templadas.",
+      "imageCaption": "Cardenal del Norte"
+    },
+    {
+      "id": "birds-052",
+      "animal": "Sinsonte norteño",
+      "prompt": "¿Por qué el ruiseñor políglota tiene este nombre?",
+      "options": [
+        "Imita los cantos y gritos de otras especies.",
+        "Produce sonidos bajo el agua.",
+        "Tiene varias siringes independientes.",
+        "Sólo canta a dúo."
+      ],
+      "explanation": "A menudo incorpora en su canto sonidos que escuchan otras aves.",
+      "didYouKnow": "Las manchas blancas en sus alas se hacen visibles cuando se aleja volando.",
+      "imageCaption": "Sinsonte norteño"
+    },
+    {
+      "id": "birds-053",
+      "animal": "Magnífico pájaro lira",
+      "prompt": "¿Qué facultad vocal es notable en el soberbio pájaro lira?",
+      "options": [
+        "Imita una amplia variedad de sonidos escuchados.",
+        "Canta bajo el agua sin respirar",
+        "Producir ultrasonido para cazar.",
+        "Habla con oraciones humanas entendidas."
+      ],
+      "explanation": "Puede imitar los cantos de otras aves y sonidos de su entorno.",
+      "didYouKnow": "La cola del macho se abre en abanico durante la exhibición.",
+      "imageCaption": "Magnífico pájaro lira"
+    },
+    {
+      "id": "birds-054",
+      "animal": "Cálao rinoceronte",
+      "prompt": "¿Qué papel podría desempeñar el casco del cálao rinoceronte?",
+      "options": [
+        "Participa en el eco de convocatorias y desfiles.",
+        "Sirve como bolsillo para llevar pollitos.",
+        "Filtrar agua de lluvia",
+        "Permitir respirar bajo tierra."
+      ],
+      "explanation": "El casco hueco puede influir en la resonancia de las vocalizaciones y participa en las presentaciones.",
+      "didYouKnow": "Durante la anidación, la hembra permanece en la cavidad con una abertura reducida.",
+      "imageCaption": "Cálao rinoceronte"
+    },
+    {
+      "id": "birds-055",
+      "animal": "toco tucán",
+      "prompt": "¿Cómo podría contribuir el gran pico del tucán toco a su termorregulación?",
+      "options": [
+        "Participando en intercambios de calor con el medio ambiente.",
+        "Al almacenar agua caliente",
+        "Creando una corriente de aire a través de la vibración.",
+        "Cubriendo sus ojos del sol"
+      ],
+      "explanation": "El pico ricamente vascularizado puede ayudar a disipar el calor cuando varía el flujo sanguíneo.",
+      "didYouKnow": "Como muchas aves trepadoras, el tucán tiene dos dedos apuntando hacia adelante y dos hacia atrás.",
+      "imageCaption": "toco tucán"
+    },
+    {
+      "id": "birds-056",
+      "animal": "periquito",
+      "prompt": "¿Cómo responden a menudo los periquitos salvajes a la lluvia en zonas áridas?",
+      "options": [
+        "Se trasladan a zonas donde hay agua y semillas disponibles.",
+        "Se entierran en la arena hasta la estación seca.",
+        "Todos migran hacia las costas.",
+        "Dejan de alimentarse durante varias semanas."
+      ],
+      "explanation": "Su nomadismo los lleva hacia recursos temporales que aparecen después de las lluvias.",
+      "didYouKnow": "Anidan en cavidades, particularmente en árboles.",
+      "imageCaption": "periquito"
+    },
+    {
+      "id": "birds-057",
+      "animal": "Kakapo",
+      "prompt": "¿Qué característica distingue al kakapo de la mayoría de los loros?",
+      "options": [
+        "Es nocturno y no puede volar.",
+        "Vive exclusivamente en el mar.",
+        "tiene branquias",
+        "Migra cada invierno a la Antártida."
+      ],
+      "explanation": "El kakapo es un loro terrestre, nocturno y no volador.",
+      "didYouKnow": "Los kakapos machos producen llamadas fuertes y graves para atraer a sus parejas desde sus arenas de exhibición.",
+      "imageCaption": "Kakapo"
+    },
+    {
+      "id": "birds-058",
+      "animal": "Kiwi marrón",
+      "prompt": "¿Cómo localiza a menudo el kiwi los invertebrados en la basura del suelo?",
+      "options": [
+        "Gracias a sus fosas nasales ubicadas cerca del final del pico.",
+        "Con vibrisas debajo de las alas.",
+        "Al detectar la luz infrarroja de sus huevos.",
+        "Escuchando crecer las raíces"
+      ],
+      "explanation": "Sus fosas nasales terminales y su sentido del olfato le ayudan a encontrar presas en el suelo.",
+      "didYouKnow": "Los kiwis ponen huevos que son muy grandes en relación con su cuerpo.",
+      "imageCaption": "Kiwi marrón"
+    },
+    {
+      "id": "birds-059",
+      "animal": "Casuario con casco",
+      "prompt": "¿Cuál es el hábitat principal del casuario de casco?",
+      "options": [
+        "Los bosques tropicales de Nueva Guinea y el noreste de Australia.",
+        "Témpanos de hielo antárticos",
+        "Desiertos de gran altitud",
+        "Arrecifes de coral"
+      ],
+      "explanation": "Vive en bosques tropicales donde consume frutos caídos.",
+      "didYouKnow": "El casuario tiene áreas de piel desnuda de colores brillantes en el cuello, especialmente azul y rojo.",
+      "imageCaption": "Casuario con casco"
+    },
+    {
+      "id": "birds-060",
+      "animal": "emú",
+      "prompt": "¿Qué color suelen tener los huevos de emú?",
+      "options": [
+        "verde oscuro",
+        "azul pálido",
+        "Blanco manchado de rojo",
+        "Amarillo brillante"
+      ],
+      "explanation": "La cáscara de los huevos de emú es de un característico color verde oscuro.",
+      "didYouKnow": "El macho suele ser el que se encarga de la crianza.",
+      "imageCaption": "emú"
+    },
+    {
+      "id": "birds-061",
+      "animal": "Hoazin",
+      "prompt": "¿Cómo digiere el hoazin una gran cantidad de hojas?",
+      "options": [
+        "Por fermentación microbiana en una parte agrandada del esófago.",
+        "Con una molleja llena de pescado",
+        "Al tragar piedras calientes",
+        "Transformando las hojas en néctar."
+      ],
+      "explanation": "La fermentación microbiana en su buche y esófago ayuda a descomponer las plantas.",
+      "didYouKnow": "El hoazin vive en los bosques ribereños y las llanuras aluviales de las cuencas del Amazonas y del Orinoco.",
+      "imageCaption": "Hoazin"
+    },
+    {
+      "id": "birds-062",
+      "animal": "Cacatúa negra de cola roja",
+      "prompt": "¿Con qué suele abrir la cacatúa negra de cola roja los frutos leñosos?",
+      "options": [
+        "Su poderoso pico",
+        "Sus pies palmeados",
+        "Un bolsillo ampliable debajo del pico.",
+        "Una garra ubicada en su cuello."
+      ],
+      "explanation": "Su pico robusto le permite descascarar semillas y frutos resistentes.",
+      "didYouKnow": "Las hembras y los machos tienen diferentes marcas de plumaje.",
+      "imageCaption": "Cacatúa negra de cola roja"
+    },
+    {
+      "id": "birds-063",
+      "animal": "lorito arcoiris",
+      "prompt": "¿Cómo se adapta la lengua del lorito arcoíris al néctar?",
+      "options": [
+        "Su extremo tiene papilas en forma de cepillo.",
+        "Es hueco como una pajita rígida.",
+        "Está dividido en cuatro picos.",
+        "Lleva anzuelos para pescar."
+      ],
+      "explanation": "Las papilas gustativas de su lengua recogen el néctar y el polen de las flores.",
+      "didYouKnow": "Los loritos arcoiris se ven a menudo en grupos ruidosos en los árboles.",
+      "imageCaption": "lorito arcoiris"
+    },
+    {
+      "id": "birds-064",
+      "animal": "Guacamayo jacinto",
+      "prompt": "¿Qué alimento puede romper el guacamayo jacinto con su poderoso pico?",
+      "options": [
+        "nueces de palma",
+        "huevos de tortuga gigante",
+        "Conchas de arrecife",
+        "piedras volcánicas"
+      ],
+      "explanation": "Su poderoso pico abre nueces y semillas de palma muy duras.",
+      "didYouKnow": "El guacamayo jacinto anida en cavidades de árboles grandes, particularmente palmeras.",
+      "imageCaption": "Guacamayo jacinto"
+    },
+    {
+      "id": "birds-065",
+      "animal": "loro eclectus",
+      "prompt": "¿Qué diferencia de color existe entre los sexos del loro eclectus?",
+      "options": [
+        "El macho es verde y la hembra mayoritariamente roja y azul.",
+        "El macho es azul y la hembra blanca.",
+        "Ambos sexos son completamente negros.",
+        "La hembra es verde y el macho rojo."
+      ],
+      "explanation": "El dimorfismo es marcado: el macho es verde, mientras que la hembra es roja y azul.",
+      "didYouKnow": "El loro eclectus anida en una cavidad alta, donde la hembra a veces defiende el acceso contra otras hembras.",
+      "imageCaption": "loro eclectus"
+    },
+    {
+      "id": "birds-066",
+      "animal": "Inseparable de Fischer",
+      "prompt": "¿Cómo transporta a veces el Agapornis Fischer materiales para su nido?",
+      "options": [
+        "Lo atrapa en las plumas de su grupa.",
+        "Lo lleva en un bolsillo debajo de la lengua.",
+        "Lo ata con un hilo que produce.",
+        "Lo lleva con los dedos de atrás."
+      ],
+      "explanation": "Puede llevar tiras de plantas pegadas en las plumas de la grupa.",
+      "didYouKnow": "El agapornis de Fischer es originario del este de África.",
+      "imageCaption": "Inseparable de Fischer"
+    },
+    {
+      "id": "birds-067",
+      "animal": "picozapato",
+      "prompt": "¿Cómo suelen capturar los picozapatos a sus presas en las marismas?",
+      "options": [
+        "Él permanece alerta y luego ataca rápidamente.",
+        "Persigue peces a largas distancias en vuelo.",
+        "Filtra plancton mientras nadas.",
+        "Cava una madriguera en cada marea"
+      ],
+      "explanation": "Caza en aguas poco profundas y captura rápidamente peces o anfibios.",
+      "didYouKnow": "Sus dedos grandes distribuyen su peso y le ayudan a desplazarse sobre la vegetación pantanosa.",
+      "imageCaption": "picozapato"
+    },
+    {
+      "id": "birds-068",
+      "animal": "ibis escarlata",
+      "prompt": "¿Qué contribuye al color rojo del ibis escarlata?",
+      "options": [
+        "Carotenoides presentes en tu dieta",
+        "La luz del sol que tiñe sus plumas.",
+        "Un polvo rojo que se aplica todos los días.",
+        "El hierro de su sangre que corre por las plumas."
+      ],
+      "explanation": "Los carotenoides de ciertos mariscos consumidos contribuyen a la pigmentación de sus plumas.",
+      "didYouKnow": "Los ibis escarlatas a menudo se reúnen en grupos para descansar y moverse entre los sitios de alimentación.",
+      "imageCaption": "ibis escarlata"
+    },
+    {
+      "id": "birds-069",
+      "animal": "Espátula",
+      "prompt": "¿Cómo utiliza la espátula su pico aplanado?",
+      "options": [
+        "Lo barre por el agua para detectar y capturar presas pequeñas.",
+        "Ella cava en la madera dura",
+        "Corta los tallos como tijeras.",
+        "Ella pica a los peces para llevarlos."
+      ],
+      "explanation": "El sensible pico en forma de espátula le permite capturar pequeños animales acuáticos.",
+      "didYouKnow": "La espátula puede anidar en colonias en árboles o cañaverales.",
+      "imageCaption": "Espátula"
+    },
+    {
+      "id": "birds-070",
+      "animal": "Ganso con cabeza de barra",
+      "prompt": "¿Qué adaptación ayuda al ganso con cabeza de barra a volar a altitudes muy elevadas?",
+      "options": [
+        "Una hemoglobina que capta oxígeno eficazmente cuando escasea.",
+        "Hemoglobina reemplazada por hemocianina.",
+        "Hemoglobina cuya afinidad por el oxígeno disminuye drásticamente.",
+        "Ausencia de hemoglobina en los glóbulos rojos."
+      ],
+      "explanation": "La hemoglobina del ánsar indio está adaptada para captar oxígeno con eficacia en el aire enrarecido.",
+      "didYouKnow": "El ánsar indio migra entre Asia central y meridional atravesando el Himalaya.",
+      "imageCaption": "Ganso con cabeza de barra"
+    },
+    {
+      "id": "birds-071",
+      "animal": "Cigüeñuela común",
+      "prompt": "¿Qué adaptación ayuda a la cigüeñuela a buscar alimento en las marismas?",
+      "options": [
+        "Sus largas patas le permiten caminar en aguas poco profundas.",
+        "Sus patas cortas le ayudan a cavar rocas.",
+        "Sus alas palmeadas filtran el barro",
+        "Sus garras se anclan a los peces."
+      ],
+      "explanation": "Sus largas patas le dan acceso a sus presas en aguas poco profundas.",
+      "didYouKnow": "La cigüeñuela anida en el suelo en zonas húmedas, a menudo en pequeñas colonias.",
+      "imageCaption": "Cigüeñuela común"
+    },
+    {
+      "id": "birds-072",
+      "animal": "Jacana de cola larga",
+      "prompt": "¿Cómo se mueve la jacana sobre las plantas acuáticas flotantes?",
+      "options": [
+        "Con sus largos dedos que distribuyen su peso",
+        "Con ventosas debajo de las alas.",
+        "Corriendo directamente sobre el agua.",
+        "Usando hojas como raquetas"
+      ],
+      "explanation": "Sus larguísimos dedos distribuyen su peso sobre la vegetación flotante.",
+      "didYouKnow": "En muchas jacanas, el macho asume gran parte de la incubación.",
+      "imageCaption": "Jacana de cola larga"
+    },
+    {
+      "id": "birds-073",
+      "animal": "Aguja colipinta",
+      "prompt": "¿Qué migración es notable en algunos Agujas Rufo?",
+      "options": [
+        "Un vuelo de larga distancia entre Alaska y Nueva Zelanda",
+        "Una migración diaria entre dos árboles vecinos.",
+        "Un viaje submarino de un continente a otro",
+        "Viajar solo a pie"
+      ],
+      "explanation": "Algunas poblaciones realizan vuelos muy largos y sin escalas entre Alaska y Nueva Zelanda.",
+      "didYouKnow": "En el plumaje nupcial, la parte inferior de la aguja rojiza adquiere un tono rojizo característico.",
+      "imageCaption": "Aguja colipinta"
+    },
+    {
+      "id": "birds-074",
+      "animal": "paloma bravía",
+      "prompt": "¿Qué tipo de sitio utiliza naturalmente la paloma bravía para anidar?",
+      "options": [
+        "Cavidades y repisas de acantilados.",
+        "Plataformas flotantes de caña",
+        "Madrigueras en los prados",
+        "Ramas delgadas en la cima de los árboles."
+      ],
+      "explanation": "La roca salvaje anida especialmente en acantilados, cuyas cornisas se asemejan a ciertos bordes de edificios.",
+      "didYouKnow": "El plumaje de la paloma bravía suele tener dos barras oscuras en las alas.",
+      "imageCaption": "paloma bravía"
+    },
+    {
+      "id": "birds-075",
+      "animal": "Mirlo acuático europeo",
+      "prompt": "¿Cómo se alimentan los mirlos en los ríos?",
+      "options": [
+        "Camina o nada bajo el agua para buscar invertebrados.",
+        "Se cierne sobre las olas para filtrar el plancton.",
+        "Cava nidos bajo el barro",
+        "Sólo captura insectos en el cielo."
+      ],
+      "explanation": "Se sumerge y se desplaza hasta el fondo de los cursos de agua para buscar larvas y otros invertebrados.",
+      "didYouKnow": "El cazo se puede reconocer en particular por su pecho blanco claramente visible.",
+      "imageCaption": "Mirlo acuático europeo"
+    },
+    {
+      "id": "birds-076",
+      "animal": "Curruca capirotada",
+      "prompt": "¿Qué cambio migratorio está afectando a determinadas poblaciones de currucas currucas europeas?",
+      "options": [
+        "A veces pasan el invierno en Europa occidental en lugar de en el sur.",
+        "Cruzan el Atlántico nadando",
+        "Sólo migran al norte en otoño.",
+        "Pasan el invierno bajo el hielo."
+      ],
+      "explanation": "Algunas poblaciones han cambiado su destino invernal y permanecen en Europa Occidental.",
+      "didYouKnow": "En esta especie, el macho lleva un gorro negro mientras que el de la hembra es parduzco.",
+      "imageCaption": "Curruca capirotada"
+    },
+    {
+      "id": "birds-077",
+      "animal": "herrerillo azul",
+      "prompt": "¿Cómo llega a veces el herrerillo común a los insectos debajo de una rama?",
+      "options": [
+        "Ella cuelga boca abajo",
+        "Ella usa una red para balancearse",
+        "Ella cava un túnel en la rama.",
+        "Ella chupa insectos por la nariz."
+      ],
+      "explanation": "Sus ágiles patas le permiten explorar diferentes lados de las ramas.",
+      "didYouKnow": "Ella felizmente usa cajas nido con cavidades.",
+      "imageCaption": "herrerillo azul"
+    },
+    {
+      "id": "birds-078",
+      "animal": "Chochín común",
+      "prompt": "¿Por qué el reyezuelo busca entre montones de ramas?",
+      "options": [
+        "Para encontrar pequeños invertebrados.",
+        "Para recolectar plumas de pavo real",
+        "Para pescar peces escondidos",
+        "Para colocar directamente en madera"
+      ],
+      "explanation": "Los espacios desordenados albergan pequeñas presas que busca activamente.",
+      "didYouKnow": "A pesar de su pequeño tamaño, su canto es potente.",
+      "imageCaption": "Chochín común"
+    },
+    {
+      "id": "birds-079",
+      "animal": "Piquituerto común",
+      "prompt": "¿Cómo abre el piquituerto rojo las escamas del cono?",
+      "options": [
+        "Con las puntas cruzadas de su pico",
+        "Inyectando ácido con la lengua.",
+        "Rompiendo el cono contra las rocas",
+        "Calentándolo bajo sus alas"
+      ],
+      "explanation": "Sus mandíbulas cruzadas extienden las escamas para extraer las semillas.",
+      "didYouKnow": "En el piquituerto rojo, el macho adulto suele ser rojizo y la hembra más bien verdoso o amarillento.",
+      "imageCaption": "Piquituerto común"
+    },
+    {
+      "id": "birds-080",
+      "animal": "pájaro carpintero verde",
+      "prompt": "¿Por qué los pájaros carpinteros verdes visitan con frecuencia el césped?",
+      "options": [
+        "para buscar hormigas",
+        "Beber néctar de hierba",
+        "Para meditar en la hierba",
+        "Para pescar peces de estanque"
+      ],
+      "explanation": "Las hormigas y sus larvas constituyen una parte importante de su dieta.",
+      "didYouKnow": "El pájaro carpintero verde excava su nido en la madera de los árboles.",
+      "imageCaption": "pájaro carpintero verde"
+    },
+    {
+      "id": "birds-081",
+      "animal": "Cuervo",
+      "prompt": "¿Cómo aprovecha el cuervo común las térmicas en las montañas?",
+      "options": [
+        "Planea aprovechando las corrientes ascendentes de montaña.",
+        "Filtra semillas sobre los bosques.",
+        "Crea burbujas que atraen a sus presas.",
+        "Cava su nido en la corriente de aire."
+      ],
+      "explanation": "Los cuervos grandes pueden aprovechar el aire ascendente para ganar altura y luego planear.",
+      "didYouKnow": "Se sabe que juegan en el aire y a veces realizan giros.",
+      "imageCaption": "Cuervo"
+    },
+    {
+      "id": "birds-082",
+      "animal": "urraca",
+      "prompt": "¿Qué puede hacer la urraca cuando encuentra abundante alimento?",
+      "options": [
+        "Ocultarlo para encontrarlo más tarde",
+        "Transformarlo en néctar",
+        "Colócalo en el nido de otra especie.",
+        "Entiérralo siempre en el mismo lugar."
+      ],
+      "explanation": "Las urracas pueden almacenar comida y recordar muchos lugares.",
+      "didYouKnow": "La urraca pertenece a la familia Corvidae.",
+      "imageCaption": "urraca"
+    },
+    {
+      "id": "birds-083",
+      "animal": "Kea",
+      "prompt": "¿Qué comportamiento exploratorio está asociado con kea?",
+      "options": [
+        "Manipular objetos con el pico y las patas.",
+        "construir presas de lodo",
+        "Pescar tirando piedras",
+        "Esconde tus huevos en nidos de termitas"
+      ],
+      "explanation": "El kea es conocido por su curiosidad y su capacidad para manipular objetos.",
+      "didYouKnow": "Vive en las regiones montañosas de Nueva Zelanda.",
+      "imageCaption": "Kea"
+    },
+    {
+      "id": "birds-084",
+      "animal": "Tinamú elegante",
+      "prompt": "¿Dónde suele construir su nido el elegante tinamú?",
+      "options": [
+        "En una pequeña depresión en el suelo",
+        "En una cavidad submarina",
+        "En la cima de un acantilado desnudo",
+        "En un bolsillo de plumas de los padres"
+      ],
+      "explanation": "Los tinamús generalmente anidan en el suelo y esconden sus huevos entre la vegetación.",
+      "didYouKnow": "El plumaje del elegante tinamú se mezcla con las hojas y la hierba del suelo.",
+      "imageCaption": "Tinamú elegante"
+    },
+    {
+      "id": "birds-085",
+      "animal": "Tejedor común",
+      "prompt": "¿Cómo construye su nido el tejedor?",
+      "options": [
+        "Trenzando fibras vegetales",
+        "Pegando arena con saliva",
+        "Cavando una cavidad en la roca.",
+        "Atando solo telarañas"
+      ],
+      "explanation": "Entrelaza hierbas u hojas para formar una estructura colgante.",
+      "didYouKnow": "En muchas aves tejedoras, el macho viste un plumaje nupcial de color amarillo brillante y contrastante.",
+      "imageCaption": "Tejedor común"
+    },
+    {
+      "id": "birds-086",
+      "animal": "Tejedor sociable",
+      "prompt": "¿Por qué son notables los nidos socialrepublicanos?",
+      "options": [
+        "Forman grandes estructuras colectivas ocupadas por varias parejas.",
+        "Están enteramente construidos bajo el agua.",
+        "Cuelga de las alas de los adultos.",
+        "Están construidos únicamente con espinas de pescado."
+      ],
+      "explanation": "Las colonias construyen una gran estructura de nido bajo un techo común.",
+      "didYouKnow": "El socialrepublicano construye sus nidos colectivos en las regiones secas del sur de África.",
+      "imageCaption": "Tejedor sociable"
+    },
+    {
+      "id": "birds-087",
+      "animal": "Vencejo común",
+      "prompt": "¿Cómo pasa el Black Swift gran parte de su vida?",
+      "options": [
+        "en vuelo",
+        "En el fondo de los ríos",
+        "En madrigueras de roedores",
+        "En las ramas mientras camina"
+      ],
+      "explanation": "Se alimenta, bebe y en ocasiones recoge material en vuelo, pasando mucho tiempo en el aire.",
+      "didYouKnow": "El vencejo negro pega con su saliva los materiales de su nido en las cavidades de edificios o acantilados.",
+      "imageCaption": "Vencejo común"
+    },
+    {
+      "id": "birds-088",
+      "animal": "chotacabras europeo",
+      "prompt": "¿Por qué el chotacabras europeo es más activo al anochecer y de noche?",
+      "options": [
+        "Caza insectos nocturnos o crepusculares.",
+        "Evita la luz porque no puede ver el día.",
+        "Sólo medita en la oscuridad",
+        "Se alimenta de setas que salen por la noche."
+      ],
+      "explanation": "Su actividad coincide con la disponibilidad de insectos voladores al atardecer y por la noche.",
+      "didYouKnow": "Su plumaje críptico hace que sea difícil de detectar cuando está posado en el suelo.",
+      "imageCaption": "chotacabras europeo"
+    },
+    {
+      "id": "birds-089",
+      "animal": "Reinita amarilla",
+      "prompt": "¿Dónde suelen anidar las reinitas amarillas?",
+      "options": [
+        "En arbustos cerca del agua o humedales",
+        "En profundas cavernas de piedra caliza",
+        "Bajo el hielo polar",
+        "En madrigueras del desierto"
+      ],
+      "explanation": "A menudo anida en arbustos a lo largo de cursos de agua o humedales.",
+      "didYouKnow": "El macho generalmente tiene vetas rojizas en el pecho amarillo.",
+      "imageCaption": "Reinita amarilla"
+    },
+    {
+      "id": "birds-090",
+      "animal": "Ave del paraíso soberbia",
+      "prompt": "¿Cuál es el propósito de las plumas ornamentales del macho durante su exhibición?",
+      "options": [
+        "Presentar señales visuales a los socios.",
+        "Para aislar el nido bajo el agua.",
+        "Filtrar las semillas en el suelo.",
+        "Para llevar a los más pequeños en vuelo"
+      ],
+      "explanation": "El macho exhibe sus plumas en un alarde que participa en la elección de pareja.",
+      "didYouKnow": "La hembra de esta magnífica ave del paraíso construye ella sola un nido ahuecado en un árbol.",
+      "imageCaption": "Ave del paraíso soberbia"
+    },
+    {
+      "id": "birds-091",
+      "animal": "Carpintero de bellota",
+      "prompt": "¿Por qué el pájaro carpintero que come bellotas perfora agujeros en árboles o postes?",
+      "options": [
+        "Para guardar bellotas",
+        "Para cultivar hongos comestibles",
+        "Atrapar insectos a distancia.",
+        "Para recoger agua de lluvia únicamente"
+      ],
+      "explanation": "Crea graneros de almacenamiento insertando bellotas en cavidades.",
+      "didYouKnow": "El pájaro carpintero bellotero vive en grupos familiares que cooperan para defender su territorio.",
+      "imageCaption": "Carpintero de bellota"
+    },
+    {
+      "id": "birds-092",
+      "animal": "pájaro carpintero de tres dedos",
+      "prompt": "¿Cuántos dedos tiene cada pie en el pájaro carpintero de tres dedos?",
+      "options": [
+        "tres",
+        "dos",
+        "cuatro",
+        "cinco"
+      ],
+      "explanation": "Como su nombre indica, tiene tres dedos en cada pie.",
+      "didYouKnow": "A menudo busca insectos en árboles muertos o debilitados.",
+      "imageCaption": "pájaro carpintero de tres dedos"
+    },
+    {
+      "id": "birds-093",
+      "animal": "Críalo europeo",
+      "prompt": "¿Qué especie cría con frecuencia al arrendajo cuco joven en determinadas zonas?",
+      "options": [
+        "la urraca",
+        "el pingüino emperador",
+        "el flamenco rosa",
+        "el albatros"
+      ],
+      "explanation": "El arrendajo cuco parasita los nidos de urracas en determinadas regiones.",
+      "didYouKnow": "El arrendajo cuco generalmente abandona sus zonas de reproducción para pasar el invierno más al sur.",
+      "imageCaption": "Críalo europeo"
+    },
+    {
+      "id": "birds-094",
+      "animal": "Ani de pico liso",
+      "prompt": "¿Qué organización de anidación puede adoptar el Ani pico liso?",
+      "options": [
+        "Varias parejas pueden compartir un nido colectivo.",
+        "Cada individuo anida bajo el agua.",
+        "El pez incuba sus huevos.",
+        "El grupo construye un nido colgado de cada rama."
+      ],
+      "explanation": "Los grupos pueden construir un nido común donde varias hembras ponen huevos.",
+      "didYouKnow": "El Ani de pico liso puede asociarse con otros individuos para buscar insectos en los pastos.",
+      "imageCaption": "Ani de pico liso"
+    },
+    {
+      "id": "birds-095",
+      "animal": "Paloma coronada victoria",
+      "prompt": "¿Cómo busca comida la paloma coronada de Victoria?",
+      "options": [
+        "Picoteando frutas y semillas en el suelo del bosque",
+        "Mientras persigue peces bajo el agua",
+        "Filtrando el néctar con sus alas.",
+        "Cavando nidos en acantilados"
+      ],
+      "explanation": "Busca en el suelo frutos y semillas caídos en el bosque.",
+      "didYouKnow": "Su gran cresta azul está formada por delicadas plumas.",
+      "imageCaption": "Paloma coronada victoria"
+    },
+    {
+      "id": "birds-096",
+      "animal": "Dodo",
+      "prompt": "¿Qué presiones contribuyeron a la extinción del dodo en Mauricio?",
+      "options": [
+        "Caza y especies introducidas",
+        "Una migración a la Antártida",
+        "Una transformación en mamífero.",
+        "Incapacidad para comer fruta."
+      ],
+      "explanation": "La caza y los cambios provocados por el hombre, incluidos los animales introducidos, contribuyeron a su desaparición.",
+      "didYouKnow": "El dodo era endémico de Mauricio, en el Océano Índico.",
+      "imageCaption": "Dodo"
+    },
+    {
+      "id": "birds-097",
+      "animal": "paloma migratoria",
+      "prompt": "¿Qué impacto ha tenido la caza comercial intensiva sobre la paloma migratoria?",
+      "options": [
+        "La especie se extinguió a principios del siglo XX.",
+        "Ella desarrolló alas más largas.",
+        "Ella dejó América para Asia",
+        "Ella se convirtió en ave marina"
+      ],
+      "explanation": "La caza a gran escala y la destrucción de su hábitat provocaron su desaparición.",
+      "didYouKnow": "Antes de su declive, la paloma migratoria formaba concentraciones históricas de millones de individuos.",
+      "imageCaption": "paloma migratoria"
+    },
+    {
+      "id": "birds-098",
+      "animal": "Guacamayo de Spix",
+      "prompt": "¿Por qué el guacamayo de Spix es un ejemplo de conservación compleja?",
+      "options": [
+        "Ha desaparecido de la naturaleza y los programas están intentando reintroducirlo.",
+        "Sólo vive en ciudades europeas.",
+        "No puede reproducirse en cautiverio.",
+        "Todavía tiene una población silvestre muy abundante."
+      ],
+      "explanation": "En Brasil se han liberado aves criadas en cautiverio como parte de los esfuerzos de reintroducción.",
+      "didYouKnow": "Su hábitat natural es la caatinga, un ambiente seco en el noreste de Brasil.",
+      "imageCaption": "Guacamayo de Spix"
+    },
+    {
+      "id": "birds-099",
+      "animal": "Cacatúa de palma negra",
+      "prompt": "¿Para qué sirve el palo que puede fabricar la cacatúa de palma negra?",
+      "options": [
+        "Tocar un soporte durante un desfile.",
+        "Para pescar en un hoyo",
+        "Cavando una cavidad para el nido",
+        "Para filtrar semillas del suelo."
+      ],
+      "explanation": "Algunos machos fabrican un palo y lo usan para producir un sonido de tamborileo.",
+      "didYouKnow": "Tiene una gran mancha roja desnuda en la mejilla.",
+      "imageCaption": "Cacatúa de palma negra"
+    },
+    {
+      "id": "birds-100",
+      "animal": "Galah",
+      "prompt": "¿Qué tipo de alimento suele comer la Cacatúa Rosalbin?",
+      "options": [
+        "Semillas y cereales",
+        "plancton exclusivamente",
+        "pez de arrecife",
+        "Solo hojas de coníferas"
+      ],
+      "explanation": "Se alimenta principalmente de semillas y plantas, a veces en zonas agrícolas.",
+      "didYouKnow": "Su plumaje rosado y gris es muy distintivo.",
+      "imageCaption": "Galah"
+    },
+    {
+      "id": "birds-101",
+      "animal": "Ganso común",
+      "prompt": "¿Por qué los gansos grises a veces vuelan en formación de V?",
+      "options": [
+        "Los pájaros seguidores pueden aprovechar las corrientes de aire creadas por el que tiene delante",
+        "La forma permite transportar el nido.",
+        "La V impide que los pájaros vean a los depredadores",
+        "El entrenamiento reduce el peso del ala"
+      ],
+      "explanation": "La estela de un pájaro puede proporcionar un impulso adicional al seguidor y reducir su esfuerzo.",
+      "didYouKnow": "El ánsar común tiene el pico anaranjado y las patas rosadas, características de su apariencia.",
+      "imageCaption": "Ganso común"
+    },
+    {
+      "id": "birds-102",
+      "animal": "Búho nival",
+      "prompt": "¿Cómo detectan a veces los búhos nivales los topillos bajo la nieve?",
+      "options": [
+        "Escuchar sus movimientos y luego sumergirse en la nieve.",
+        "Ver directamente a través de la nieve",
+        "Al detectar sus colores ultravioleta",
+        "Cavando con sus alas antes de escuchar"
+      ],
+      "explanation": "Su agudo oído le ayuda a localizar pequeños mamíferos escondidos bajo una capa de nieve.",
+      "didYouKnow": "Su plumaje ligero ayuda a camuflarse en paisajes nevados.",
+      "imageCaption": "Búho nival"
+    },
+    {
+      "id": "birds-103",
+      "animal": "Aguja colipinta",
+      "prompt": "¿Cómo le ayuda a alimentarse el largo pico de la aguja carpintera rufa?",
+      "options": [
+        "Sondeando el barro para encontrar invertebrados",
+        "Rompiendo los huesos de la fruta",
+        "Filtrando plancton en pleno vuelo",
+        "Cavando cavidades en los árboles."
+      ],
+      "explanation": "Sondea el barro y la tierra húmeda con su pico para encontrar gusanos y otros invertebrados.",
+      "didYouKnow": "Algunas poblaciones vuelan sin escalas entre Alaska y Nueva Zelanda.",
+      "imageCaption": "Aguja colipinta"
+    },
+    {
+      "id": "birds-104",
+      "animal": "grúa común",
+      "prompt": "¿Qué característica de la tráquea de la grulla común contribuye a la resonancia de sus llamados?",
+      "options": [
+        "Está alargado y enrollado dentro del esternón.",
+        "Se divide en varias ramas paralelas en el cuello.",
+        "Forma un saco externo debajo de la piel de la garganta.",
+        "Pasa por las cavidades del pico antes de llegar a los pulmones."
+      ],
+      "explanation": "La tráquea muy larga y enrollada de la grulla común contribuye a la resonancia de sus llamadas, que llegan lejos.",
+      "didYouKnow": "Las grullas comunes también realizan danzas que implican saltos y movimientos de alas.",
+      "imageCaption": "grúa común"
+    },
+    {
+      "id": "birds-105",
+      "animal": "cigüeña blanca",
+      "prompt": "¿Qué comportamiento de anidación puede exhibir la cigüeña blanca?",
+      "options": [
+        "Reutilizar y ampliar un nido de un año para otro",
+        "Cava una madriguera en un banco todos los años.",
+        "Cuelga su nido debajo de ramas delgadas.",
+        "Pon huevos en el suelo sin nido."
+      ],
+      "explanation": "Una pareja puede reutilizar y ampliar una plataforma de anidación durante varias temporadas.",
+      "didYouKnow": "En los adultos, el pico y las patas de la cigüeña blanca son rojos, mientras que las jóvenes son más apagadas.",
+      "imageCaption": "cigüeña blanca"
+    },
+    {
+      "id": "birds-106",
+      "animal": "Mirlo acuático europeo",
+      "prompt": "¿Dónde suele instalar su nido el cazo?",
+      "options": [
+        "En una cavidad o rincón cerca de un curso de agua.",
+        "En un nido flotando en alta mar",
+        "En una madriguera seca en medio de un campo",
+        "En una cornisa del desierto lejos del agua"
+      ],
+      "explanation": "Anida cerca de ríos, en cavidades de riberas, rocas o estructuras humanas.",
+      "didYouKnow": "El cazo tiene un gran babero blanco que contrasta con su lomo oscuro.",
+      "imageCaption": "Mirlo acuático europeo"
+    },
+    {
+      "id": "birds-107",
+      "animal": "somormujo lavanco",
+      "prompt": "¿Qué gesto forma parte del cortejo del somormujo lavanco?",
+      "options": [
+        "Los socios se encuentran frente a frente en el agua presentando plantas.",
+        "Golpearon el fondo del lago con el pico.",
+        "Construyen una plataforma de piedra en la orilla",
+        "Se sumergen juntos hasta el fondo y se quedan allí."
+      ],
+      "explanation": "La exhibición del somormujo lavanco incluye una exhibición sincronizada de plantas entre compañeros.",
+      "didYouKnow": "Las patas del somormujo lavanco, ubicadas muy detrás del cuerpo, están adaptadas para nadar.",
+      "imageCaption": "somormujo lavanco"
+    },
+    {
+      "id": "birds-108",
+      "animal": "paloma torcaz",
+      "prompt": "¿Qué comportamiento utiliza la paloma torcaz durante su exhibición aérea?",
+      "options": [
+        "Se eleva mientras bate sus alas y luego vuelve a bajar mientras se desliza.",
+        "Se sumerge bajo el agua y sale cerca del nido.",
+        "Hace girar una ramita en su pico.",
+        "Agita sus alas mientras camina por el suelo."
+      ],
+      "explanation": "El macho realiza vuelos de exhibición con ascenso, aleteo y luego planeo descendente.",
+      "didYouKnow": "Su nido suele ser una simple plataforma de ramitas.",
+      "imageCaption": "paloma torcaz"
+    },
+    {
+      "id": "birds-109",
+      "animal": "becada",
+      "prompt": "¿Cómo ayuda el plumaje de la becada a evitar ser detectada?",
+      "options": [
+        "Sus patrones marrones se fusionan con las hojas muertas.",
+        "Sus plumas reflejan los rayos ultravioleta hacia los depredadores.",
+        "Su plumaje se vuelve transparente a la sombra.",
+        "Sus alas imitan flores de colores."
+      ],
+      "explanation": "Sus tonos marrones y ocres proporcionan un eficaz camuflaje en la hojarasca del bosque.",
+      "didYouKnow": "Sus ojos situados en lo alto de su cabeza le dan un amplio campo de visión.",
+      "imageCaption": "becada"
+    },
+    {
+      "id": "birds-110",
+      "animal": "Avoceta de varios colores",
+      "prompt": "¿Qué hábitat suele utilizar la avoceta de Pied para alimentarse?",
+      "options": [
+        "Lagunas y marismas poco profundas",
+        "Bosques densos de coníferas",
+        "Acantilados nevados",
+        "Ríos de montaña profundos"
+      ],
+      "explanation": "Busca sus presas en lagunas y otros humedales poco profundos.",
+      "didYouKnow": "Los polluelos de avoceta son precoces y pueden moverse poco después de nacer.",
+      "imageCaption": "Avoceta de varios colores"
+    },
+    {
+      "id": "birds-111",
+      "animal": "Arrendajo azul",
+      "prompt": "¿Qué efecto pueden tener los gritos de alarma del arrendajo azul en un bosque?",
+      "options": [
+        "Advierten a otros animales de la presencia de un depredador",
+        "Atraen peces a la orilla",
+        "Le dicen a las plantas la dirección del viento",
+        "Sacan insectos del suelo"
+      ],
+      "explanation": "Sus llamados pueden indicar peligro y ser escuchados por otras aves.",
+      "didYouKnow": "El arrendajo azul puede esconder semillas y bellotas y luego olvidar algunas de sus reservas.",
+      "imageCaption": "Arrendajo azul"
+    },
+    {
+      "id": "birds-112",
+      "animal": "Cernícalo común",
+      "prompt": "¿Cómo detecta a menudo el cernícalo común un campañol en un campo?",
+      "options": [
+        "Se queda quieto mirando al viento mientras escanea el suelo.",
+        "Se sumerge bajo tierra para escuchar.",
+        "Filtra la hierba con su pico.",
+        "Él todavía está esperando en una madriguera."
+      ],
+      "explanation": "Flotar le permite inspeccionar el terreno antes de abalanzarse sobre su presa.",
+      "didYouKnow": "El cernícalo macho y hembra tienen diferentes patrones de plumaje.",
+      "imageCaption": "Cernícalo común"
+    },
+    {
+      "id": "birds-113",
+      "animal": "Flamenco menor",
+      "prompt": "¿Cómo captura el flamenco menor los diminutos organismos de los que se alimenta?",
+      "options": [
+        "Filtra el agua con las hojas de su pico.",
+        "Los atraviesa con sus garras.",
+        "Los atrapa en una red",
+        "Los extrae de los baúles con la lengua."
+      ],
+      "explanation": "Las láminas de su pico retienen pequeñas algas y crustáceos cuando el agua fluye.",
+      "didYouKnow": "El flamenco menor puede formar enormes colonias reproductoras en los lagos salados de África.",
+      "imageCaption": "Flamenco menor"
+    },
+    {
+      "id": "birds-114",
+      "animal": "Golondrina común",
+      "prompt": "¿Cómo construye la golondrina común su nido bajo un refugio?",
+      "options": [
+        "Forma bolitas de barro mezcladas con fibras vegetales.",
+        "Ella cava un túnel en la piedra.",
+        "Ella trenza hojas de palma",
+        "Ella pega conchas con néctar."
+      ],
+      "explanation": "La golondrina común une pequeñas bolitas de barro y refuerza el nido con fibras vegetales.",
+      "didYouKnow": "A menudo captura insectos sobre campos abiertos y masas de agua.",
+      "imageCaption": "Golondrina común"
+    },
+    {
+      "id": "birds-115",
+      "animal": "pájaro carpintero negro",
+      "prompt": "¿Qué consecuencias pueden tener las cavidades excavadas por el pájaro carpintero negro en un bosque?",
+      "options": [
+        "Otros animales pueden reutilizarlos para anidar.",
+        "Impiden que crezcan los árboles vecinos.",
+        "Siempre se convierten en depósitos de agua.",
+        "Sólo atraen a los peces."
+      ],
+      "explanation": "Las especies que no pueden cavar sus propias cavidades pueden utilizar las del pájaro carpintero negro.",
+      "didYouKnow": "El pájaro carpintero negro es el pájaro carpintero más grande de Europa.",
+      "imageCaption": "pájaro carpintero negro"
+    },
+    {
+      "id": "birds-116",
+      "animal": "Cóndor de California",
+      "prompt": "¿Qué amenaza de municiones afecta al cóndor de California?",
+      "options": [
+        "Ingestión de fragmentos de plomo en cadáveres.",
+        "El enredo de sus alas en cazamariposas",
+        "Contaminación de su plumaje por la sal marina.",
+        "Perder las garras al entrar en contacto con el acero."
+      ],
+      "explanation": "Los fragmentos de munición de plomo presentes en los cadáveres pueden envenenar a los cóndores.",
+      "didYouKnow": "El cóndor de California tiene una envergadura que puede acercarse a los tres metros.",
+      "imageCaption": "Cóndor de California"
+    },
+    {
+      "id": "birds-117",
+      "animal": "águila pescadora",
+      "prompt": "¿Por qué el águila pescadora suele llevar la cabeza de un pez hacia adelante?",
+      "options": [
+        "Esta orientación reduce la resistencia del aire.",
+        "Evita que el pescado se enfríe",
+        "Ella ayuda al águila pescadora a bucear de nuevo.",
+        "Te permite alimentar a los polluelos en vuelo."
+      ],
+      "explanation": "Orientar el pez en la dirección de vuelo reduce su resistencia aerodinámica.",
+      "didYouKnow": "El águila pescadora a veces reutiliza una zona de nidificación construida en años anteriores.",
+      "imageCaption": "águila pescadora"
+    },
+    {
+      "id": "birds-118",
+      "animal": "garza real",
+      "prompt": "¿Por qué la garza real a veces reposiciona un pez antes de tragarlo?",
+      "options": [
+        "Orientarlo de cabeza y facilitarle la deglución.",
+        "Secarlo al sol.",
+        "Quitarle las escamas con una piedra",
+        "Para enfriarlo antes de transportarlo"
+      ],
+      "explanation": "Tragar la presa primero de cabeza ayuda a evitar que sus aletas se atasquen en la garganta.",
+      "didYouKnow": "La garza real lleva largas plumas ornamentales en la cabeza y el cuello durante la reproducción.",
+      "imageCaption": "garza real"
+    },
+    {
+      "id": "birds-119",
+      "animal": "Polla de agua",
+      "prompt": "¿Cómo puede moverse la polla de agua a través de la vegetación de ribera?",
+      "options": [
+        "Con sus largos dedos que distribuyen su peso",
+        "Con una membrana que actúa como una ventosa.",
+        "Aferrándose con su pico ganchudo",
+        "Usando su cola como pie"
+      ],
+      "explanation": "Sus largos dedos le ayudan a caminar sobre las plantas y suelos blandos de las orillas.",
+      "didYouKnow": "Puede bucear brevemente para escapar del peligro.",
+      "imageCaption": "Polla de agua"
+    },
+    {
+      "id": "birds-120",
+      "animal": "Turaco violeta",
+      "prompt": "¿Qué característica química tiene el pigmento rojo turacina de los turacos?",
+      "options": [
+        "Contiene cobre",
+        "Está formado por clorofila.",
+        "Es producido por la sangre de las plantas.",
+        "Contiene cristales de sal."
+      ],
+      "explanation": "La turacina, un pigmento rojo específico de los turacos, contiene cobre.",
+      "didYouKnow": "Los turacos son aves arbóreas africanas que consumen especialmente frutas.",
+      "imageCaption": "Turaco violeta"
+    },
+    {
+      "id": "birds-121",
+      "animal": "Chupasavia de vientre amarillo",
+      "prompt": "¿A qué familia pertenece el pájaro carpintero de vientre amarillo?",
+      "options": [
+        "a los picos",
+        "a las golondrinas",
+        "A las aves rapaces nocturnas",
+        "A las aves playeras"
+      ],
+      "explanation": "El pájaro carpintero de vientre amarillo es miembro de la familia de los pájaros carpinteros.",
+      "didYouKnow": "Anida en una cavidad que excava en un árbol.",
+      "imageCaption": "Chupasavia de vientre amarillo"
+    },
+    {
+      "id": "birds-122",
+      "animal": "Ganso con cabeza de barra",
+      "prompt": "¿Qué desafío fisiológico enfrenta el ganso con cabeza de barra durante sus travesías por el Himalaya?",
+      "options": [
+        "Volar en aire pobre en oxígeno a gran altura",
+        "Nadar en el agua salada de los pasos.",
+        "Calor tropical duradero en la cumbre",
+        "Moviéndose sobre acantilados sin alas"
+      ],
+      "explanation": "Atraviesa pasos elevados donde la presión y la disponibilidad de oxígeno son bajas.",
+      "didYouKnow": "Las bandas negras que marcan la cabeza del ganso con cabeza de barra hacen que sea fácil de reconocer.",
+      "imageCaption": "Ganso con cabeza de barra"
+    },
+    {
+      "id": "birds-123",
+      "animal": "Cálao con casco",
+      "prompt": "¿Por qué el cálao de casco está particularmente amenazado por la caza furtiva?",
+      "options": [
+        "Su sólido casco es buscado para escultura.",
+        "Sus plumas se utilizan para fabricar redes de pesca.",
+        "Sus huevos se utilizan como piedras preciosas.",
+        "Su pico se vende como instrumento musical."
+      ],
+      "explanation": "El casco de queratina es codiciado para esculpir, lo que ha provocado una fuerte presión de caza.",
+      "didYouKnow": "El cálao de casco depende de los bosques tropicales del sudeste asiático, algunos de los cuales están fragmentados.",
+      "imageCaption": "Cálao con casco"
+    },
+    {
+      "id": "birds-124",
+      "animal": "Aura gallipavo",
+      "prompt": "¿Qué sentido ayuda particularmente a los buitres a encontrar cadáveres escondidos?",
+      "options": [
+        "El sentido del olfato",
+        "Detección por ultrasonido",
+        "El toque de las plumas de la cola.",
+        "Visión submarina"
+      ],
+      "explanation": "Su agudo sentido del olfato le permite detectar el olor de los cadáveres bajo la cubierta vegetal.",
+      "didYouKnow": "La cabeza roja desnuda del buitre es un rasgo distintivo de la especie.",
+      "imageCaption": "Aura gallipavo"
+    },
+    {
+      "id": "birds-125",
+      "animal": "Milano real",
+      "prompt": "¿Cómo ayuda la cola bifurcada del milano real en su vuelo?",
+      "options": [
+        "Mejora su maniobrabilidad",
+        "ella almacena comida",
+        "Sirve como gancho para colgar en las ramas.",
+        "Ella enfría su sangre"
+      ],
+      "explanation": "Su cola bifurcada le permite ajustar con precisión su dirección durante el deslizamiento.",
+      "didYouKnow": "El milano real se encuentra en gran parte de Europa, con poblaciones tanto residentes como migratorias.",
+      "imageCaption": "Milano real"
+    },
+    {
+      "id": "birds-126",
+      "animal": "Carpintero escapulario",
+      "prompt": "¿Qué alimento busca a menudo el Parpadeo Norteño en el suelo?",
+      "options": [
+        "hormigas",
+        "medusas",
+        "néctar de bambú",
+        "huevos de pescado"
+      ],
+      "explanation": "Con frecuencia recolecta hormigas del suelo, además de otros invertebrados.",
+      "didYouKnow": "En vuelo, el parpadeo norteño muestra una gran mancha blanca en la grupa.",
+      "imageCaption": "Carpintero escapulario"
+    },
+    {
+      "id": "birds-127",
+      "animal": "alcatraz",
+      "prompt": "¿Cómo limita el alcatraz los efectos del impacto al bucear?",
+      "options": [
+        "Las adaptaciones del cráneo y los tejidos absorben parte del impacto.",
+        "Infla una bolsa de aire en su pico.",
+        "Despliega sus patas como un paracaídas.",
+        "Mantiene sus alas bien abiertas bajo el agua."
+      ],
+      "explanation": "Las adaptaciones anatómicas ayudan a soportar el impacto de sus rápidas inmersiones.",
+      "didYouKnow": "Los alcatraces anidan en colonias compactas, a menudo en las cornisas costeras.",
+      "imageCaption": "alcatraz"
+    },
+    {
+      "id": "birds-128",
+      "animal": "Pato real",
+      "prompt": "¿Cómo llega el ánade real hasta el alimento debajo de la superficie?",
+      "options": [
+        "Inclina la parte delantera de su cuerpo mientras mantiene la parte trasera a flote.",
+        "Se sumerge sistemáticamente a grandes profundidades.",
+        "Cava el banco con sus alas.",
+        "Chupa agua con un tubo en el pico."
+      ],
+      "explanation": "El pato puede sumergirse con la cabeza y el cuello para llegar al fondo en aguas poco profundas.",
+      "didYouKnow": "El ánade real macho cambia de plumaje tras la reproducción y adquiere temporalmente un aspecto más discreto.",
+      "imageCaption": "Pato real"
+    },
+    {
+      "id": "birds-129",
+      "animal": "Gaviota tridáctila",
+      "prompt": "¿Qué sitio suelen elegir las gaviotas para anidar?",
+      "options": [
+        "Un estrecho acantilado costero",
+        "Una madriguera profunda en un prado",
+        "Una cavidad submarina",
+        "Un tronco hueco en el corazón de un bosque."
+      ],
+      "explanation": "Anida en colonias en las cornisas de los acantilados marítimos.",
+      "didYouKnow": "Después de reproducirse, la gaviota pasa gran parte de su tiempo en alta mar.",
+      "imageCaption": "Gaviota tridáctila"
+    },
+    {
+      "id": "birds-130",
+      "animal": "Zampullín chico",
+      "prompt": "¿Qué tipo de nido suelen construir los zampullines?",
+      "options": [
+        "Una plataforma vegetal flotante",
+        "Una cavidad de roca seca",
+        "Una taza colocada en lo alto de un árbol.",
+        "Una madriguera excavada en una duna"
+      ],
+      "explanation": "Construye un nido flotante entre plantas acuáticas.",
+      "didYouKnow": "Durante la exhibición, el zampullín chico puede levantar sus plumas y producir fuertes llamados.",
+      "imageCaption": "Zampullín chico"
+    },
+    {
+      "id": "birds-131",
+      "animal": "paloma bravía",
+      "prompt": "¿A qué familia pertenece el dodo, al igual que la paloma bravía?",
+      "options": [
+        "A la familia de las palomas",
+        "A la familia de los pingüinos",
+        "A la familia del faisán",
+        "A la familia albatros"
+      ],
+      "explanation": "El dodo y la paloma bravía pertenecen a la familia Columbidae.",
+      "didYouKnow": "Las palomas alimentan a sus polluelos con un rico alimento producido en el buche, llamado leche de buche.",
+      "imageCaption": "paloma bravía"
+    },
+    {
+      "id": "birds-132",
+      "animal": "Periquito de Carolina",
+      "prompt": "¿Qué pasó con el periquito de Carolina, que alguna vez se encontró en el este de Estados Unidos?",
+      "options": [
+        "Se extinguió a principios del siglo XX.",
+        "Fue introducido en Europa y prospera allí.",
+        "Ella se convirtió en ave marina",
+        "Ella emigró a la Antártida."
+      ],
+      "explanation": "La destrucción y persecución del hábitat contribuyeron a la extinción de esta especie.",
+      "didYouKnow": "El periquito de Carolina solía vivir en grupos ruidosos y se alimentaba de semillas y frutos.",
+      "imageCaption": "Periquito de Carolina"
+    },
+    {
+      "id": "birds-133",
+      "animal": "Cacatúa de cresta amarilla",
+      "prompt": "¿Qué señal visual puede mostrar la cacatúa de cresta azufrada con su cabeza?",
+      "options": [
+        "Él levanta su cresta de plumas",
+        "Le cambia el color de las piernas.",
+        "Muestra las plumas de su cola",
+        "Tira polvo de colores."
+      ],
+      "explanation": "La cresta puede elevarse durante la emoción o las interacciones sociales.",
+      "didYouKnow": "La cacatúa usa sus patas para sostener y manipular la comida.",
+      "imageCaption": "Cacatúa de cresta amarilla"
+    },
+    {
+      "id": "birds-134",
+      "animal": "Cacatúa ninfa",
+      "prompt": "¿Qué puede expresar la cresta móvil de la cacatúa?",
+      "options": [
+        "Su nivel de atención o entusiasmo.",
+        "La profundidad del agua debajo de ella.",
+        "La temperatura exacta de su nido.",
+        "La cantidad de semillas que comió."
+      ],
+      "explanation": "La cresta sube o baja según la atención y el estado emocional del ave.",
+      "didYouKnow": "La cacatúa es originaria de Australia.",
+      "imageCaption": "Cacatúa ninfa"
+    },
+    {
+      "id": "birds-135",
+      "animal": "lorito de swainson",
+      "prompt": "¿Qué recurso buscan los loritos de Swainson en los eucaliptos en flor?",
+      "options": [
+        "Néctar y polen",
+        "Larvas sólo debajo de la corteza.",
+        "Peces en huecos de árboles",
+        "Semillas de cono"
+      ],
+      "explanation": "Las flores de eucalipto proporcionan néctar y polen que consumen los loritos.",
+      "didYouKnow": "El lorito de Swainson es originario del este de Australia.",
+      "imageCaption": "lorito de swainson"
+    },
+    {
+      "id": "birds-136",
+      "animal": "loro gris africano",
+      "prompt": "¿Qué capacidad de aprendizaje vocal se ha observado en algunos loros grises africanos?",
+      "options": [
+        "Asociar determinados sonidos con objetos o situaciones.",
+        "Entiende todas las frases como un humano.",
+        "Producir palabras sin siquiera escucharlas.",
+        "Canta solo bajo el agua"
+      ],
+      "explanation": "Los estudios en ciertos individuos muestran una capacidad para aprender asociaciones entre sonidos y objetos.",
+      "didYouKnow": "En estado salvaje, consume especialmente frutos y semillas.",
+      "imageCaption": "loro gris africano"
+    },
+    {
+      "id": "birds-137",
+      "animal": "Kakapo",
+      "prompt": "¿Por qué los kakapo son particularmente vulnerables a los mamíferos depredadores introducidos?",
+      "options": [
+        "No vuela y evolucionó con pocos depredadores terrestres.",
+        "No puede oír los gritos de alarma.",
+        "Anida exclusivamente en agua.",
+        "Cambia de color cada noche."
+      ],
+      "explanation": "La ausencia histórica de mamíferos depredadores en Nueva Zelanda favoreció a un ave terrestre no voladora.",
+      "didYouKnow": "El kakapo se alimenta de diversas partes de las plantas, incluidas hojas, semillas y frutos.",
+      "imageCaption": "Kakapo"
+    },
+    {
+      "id": "birds-138",
+      "animal": "Ganso común",
+      "prompt": "¿Por qué el ánsar común pasta con frecuencia en la tierra?",
+      "options": [
+        "Las hierbas y otras plantas constituyen una parte importante de su dieta.",
+        "Allí sólo busca peces.",
+        "Ella recoge néctar del suelo.",
+        "Caza insectos debajo de la corteza."
+      ],
+      "explanation": "Los gansos grises a menudo consumen pasto y otras plantas terrestres o acuáticas.",
+      "didYouKnow": "El Graylag Goose es el ancestro salvaje de muchas razas de gansos domésticos.",
+      "imageCaption": "Ganso común"
+    },
+    {
+      "id": "birds-139",
+      "animal": "Pelícano pardo",
+      "prompt": "¿Cómo suelen pescar los pelícanos pardos cerca de la superficie?",
+      "options": [
+        "Se lanza desde el aire en picado.",
+        "Camina hasta el fondo y los agarra con sus patas.",
+        "Filtra el plancton en la superficie.",
+        "Cava madrigueras bajo el agua."
+      ],
+      "explanation": "Se zambulle para atrapar peces cerca de la superficie y luego usa su bolsa para retenerlos brevemente.",
+      "didYouKnow": "El pelícano pardo se reproduce en colonias, a menudo en islas o sitios costeros.",
+      "imageCaption": "Pelícano pardo"
+    },
+    {
+      "id": "birds-140",
+      "animal": "Espátula",
+      "prompt": "¿En qué tipo de agua suele buscar la espátula a su presa?",
+      "options": [
+        "en aguas poco profundas",
+        "en las profundidades del mar",
+        "En los torrentes helados",
+        "Sólo en piscinas temporales del desierto."
+      ],
+      "explanation": "Mueve su pico en aguas poco profundas para capturar animales pequeños.",
+      "didYouKnow": "La espátula puede anidar en colonias en árboles o juncos.",
+      "imageCaption": "Espátula"
+    },
+    {
+      "id": "birds-141",
+      "animal": "focha",
+      "prompt": "¿Qué signo distintivo tiene la focha encima del pico?",
+      "options": [
+        "Una insignia frontal blanca",
+        "Una cresta amarilla",
+        "Un largo apéndice rojo",
+        "Un casco cachondo"
+      ],
+      "explanation": "La mancha blanca en la frente es un área de piel desnuda encima del pico.",
+      "didYouKnow": "La focha nada y se zambulle en busca de comida.",
+      "imageCaption": "focha"
+    },
+    {
+      "id": "birds-142",
+      "animal": "Avión zapador",
+      "prompt": "¿Dónde suele cavar la golondrina bancaria su galería de anidación?",
+      "options": [
+        "En un banco o pared de suelo arenoso",
+        "En un baúl viviente",
+        "Bajo la superficie de un lago",
+        "En una cavidad de concha"
+      ],
+      "explanation": "Cava un túnel en las paredes blandas de bancos o canteras.",
+      "didYouKnow": "La golondrina de banco pasa el invierno principalmente en el África subsahariana.",
+      "imageCaption": "Avión zapador"
+    },
+    {
+      "id": "birds-143",
+      "animal": "Garceta Bueyera",
+      "prompt": "¿Por qué las garcetas bueyeras suelen pasar el rato cerca del ganado?",
+      "options": [
+        "Los animales molestan a los insectos que pueden capturar.",
+        "Se alimenta exclusivamente de leche de vaca.",
+        "Utiliza los cuernos como percha para anidar.",
+        "El ganado le trae pescado."
+      ],
+      "explanation": "El movimiento del ganado a veces saca a la luz insectos y pequeñas presas accesibles a la garza.",
+      "didYouKnow": "La garceta bueyera puede anidar en colonias en los árboles, a veces con otras especies.",
+      "imageCaption": "Garceta Bueyera"
+    },
+    {
+      "id": "birds-144",
+      "animal": "Grévol encapuchado",
+      "prompt": "¿Cómo puede moverse el urogallo a través de la nieve en polvo?",
+      "options": [
+        "Puede sumergirse en la nieve en busca de refugio.",
+        "Ella nada bajo la nieve con sus alas.",
+        "Cava un túnel con su pico.",
+        "Se cuelga de las ramas por la cola."
+      ],
+      "explanation": "El urogallo puede enterrarse en la nieve polvo para protegerse del frío.",
+      "didYouKnow": "El urogallo macho produce un sonido rodante al hacer vibrar rápidamente sus alas.",
+      "imageCaption": "Grévol encapuchado"
+    },
+    {
+      "id": "birds-145",
+      "animal": "Lagópodo alpino",
+      "prompt": "¿Cómo adapta la perdiz blanca su plumaje a las estaciones?",
+      "options": [
+        "Se vuelve más claro en invierno y más marrón en verano.",
+        "Siempre se pone rojo en primavera.",
+        "Pierde todas sus plumas en invierno.",
+        "Cambia de color todos los días."
+      ],
+      "explanation": "El cambio estacional de plumaje mejora su camuflaje según el color del paisaje.",
+      "didYouKnow": "Durante la exhibición, la perdiz macho puede gritar y perseguir.",
+      "imageCaption": "Lagópodo alpino"
+    },
+    {
+      "id": "birds-146",
+      "animal": "Vuelvopiedra rubicundo",
+      "prompt": "¿Qué hace Ruddy Turnstone con los pequeños guijarros de la orilla?",
+      "options": [
+        "Les da la vuelta para descubrir presas escondidas.",
+        "Se los traga para hacer una concha.",
+        "Los tira para pescar",
+        "Se las pega en las alas para volar mejor."
+      ],
+      "explanation": "Revuelve piedras y escombros para encontrar invertebrados escondidos debajo.",
+      "didYouKnow": "El Ruddy Turnstone se reproduce en regiones árticas y subárticas.",
+      "imageCaption": "Vuelvopiedra rubicundo"
+    },
+    {
+      "id": "birds-147",
+      "animal": "Agachadiza común",
+      "prompt": "¿Cómo le ayuda la punta del pico de una agachadiza a alimentarse?",
+      "options": [
+        "Detecta presas en el barro",
+        "Produce una luz que atrae a los insectos.",
+        "Ella rompe la corteza de los árboles.",
+        "Mide la salinidad del aire."
+      ],
+      "explanation": "Los receptores en la punta del pico le ayudan a detectar presas cuando explora el barro.",
+      "didYouKnow": "Mientras se exhibe, la agachadiza macho puede producir un sonido vibratorio llamado \"vibración\" con las plumas de su cola.",
+      "imageCaption": "Agachadiza común"
+    },
+    {
+      "id": "birds-148",
+      "animal": "Abejaruco carmín",
+      "prompt": "¿Por qué los abejarucos carmín cavan sus nidos en las orillas de los ríos?",
+      "options": [
+        "El suelo blando permite cavar galerías de nidificación.",
+        "Los bancos producen néctar.",
+        "Filtran peces en madrigueras",
+        "Evitan tener que poner huevos"
+      ],
+      "explanation": "Las parejas cavan túneles en bancos o acantilados de tierra blanda.",
+      "didYouKnow": "El abejaruco carmín tiene un plumaje rojo rosado muy brillante y una cabeza contrastante.",
+      "imageCaption": "Abejaruco carmín"
+    },
+    {
+      "id": "birds-149",
+      "animal": "Martín pescador norteamericano",
+      "prompt": "¿Dónde suele anidar el martín pescador americano?",
+      "options": [
+        "En un túnel excavado en un banco",
+        "En un nido colgado de los juncos",
+        "En una cavidad submarina",
+        "En un árbol hueco lejos del agua"
+      ],
+      "explanation": "A menudo cava una galería para anidar en un banco de arena cerca del agua.",
+      "didYouKnow": "El martín pescador americano tiene una cresta erizada y produce gritos ásperos.",
+      "imageCaption": "Martín pescador norteamericano"
+    },
+    {
+      "id": "birds-150",
+      "animal": "Fragata magnífica",
+      "prompt": "¿Por qué la fragata magnífica generalmente evita sumergirse en el agua?",
+      "options": [
+        "Su plumaje no está bien adaptado a permanecer mucho tiempo sumergida.",
+        "Ella no puede ver el pez",
+        "No tiene plumas de vuelo.",
+        "No puede abrir el pico en vuelo."
+      ],
+      "explanation": "El plumaje de las fragatas es menos impermeable que el de muchas aves buceadoras, por lo que suelen capturar presas en la superficie.",
+      "didYouKnow": "Durante el cortejo, el macho infla una bolsa roja en la garganta.",
+      "imageCaption": "Fragata magnífica"
+    },
+    {
+      "id": "birds-151",
+      "animal": "Talégalo de Latham",
+      "prompt": "¿Cómo mantiene calientes sus huevos el megapodo de Latham?",
+      "options": [
+        "Los entierra en un montículo de plantas en descomposición.",
+        "Los lleva bajo sus alas en vuelo.",
+        "Construye un nido flotante sobre una fuente termal.",
+        "Se los confía a otro pájaro"
+      ],
+      "explanation": "El calor producido por la vegetación en descomposición incuba los huevos en el montículo.",
+      "didYouKnow": "El megapodo Latham es originario del este de Australia.",
+      "imageCaption": "Talégalo de Latham"
+    },
+    {
+      "id": "birds-152",
+      "animal": "alcatraz",
+      "prompt": "¿Qué color caracteriza el huevo del alcatraz?",
+      "options": [
+        "azul pálido",
+        "verde brillante",
+        "rojo manchado",
+        "negro brillante"
+      ],
+      "explanation": "El huevo es de color azul pálido y su apariencia está en parte ligada a su cáscara calcárea.",
+      "didYouKnow": "Los alcatraces anidan en colonias en acantilados e islotes marinos.",
+      "imageCaption": "alcatraz"
+    },
+    {
+      "id": "birds-153",
+      "animal": "pingüino rey",
+      "prompt": "¿Cómo mantiene el pingüino rey su huevo durante la incubación?",
+      "options": [
+        "De pie bajo un pliegue de piel",
+        "En un nido de ramitas",
+        "En una cavidad excavada en el hielo",
+        "En un bolsillo debajo de su pico"
+      ],
+      "explanation": "El huevo reposa sobre los pies y bajo un pliegue abdominal que lo aísla del frío suelo.",
+      "didYouKnow": "El polluelo presenta una espesa pelusa marrón antes de adoptar su plumaje adulto.",
+      "imageCaption": "pingüino rey"
+    },
+    {
+      "id": "birds-154",
+      "animal": "pingüino Adelia",
+      "prompt": "¿Qué material reúne el pingüino Adelia para formar su nido?",
+      "options": [
+        "pequeños guijarros",
+        "Algas tejidas bajo el agua",
+        "Ramas de coníferas",
+        "Barro en forma de torre"
+      ],
+      "explanation": "Suele construir una pequeña plataforma de piedras para criar los huevos.",
+      "didYouKnow": "Después de nacer, los pingüinos Adelia jóvenes pueden agruparse en guarderías mientras los adultos se alimentan.",
+      "imageCaption": "pingüino Adelia"
+    },
+    {
+      "id": "birds-155",
+      "animal": "Pardela pichoneta",
+      "prompt": "¿Por qué la pardela inglesa suele regresar a su colonia después del anochecer?",
+      "options": [
+        "Esto puede reducir su exposición a los depredadores cerca de las madrigueras.",
+        "Él no puede ver el día",
+        "Las madrigueras sólo abren a medianoche",
+        "La luna calienta los huevos."
+      ],
+      "explanation": "Regresar de noche puede reducir el riesgo de ser descubierto por depredadores alrededor de la colonia.",
+      "didYouKnow": "La pardela inglesa realiza largos viajes migratorios entre sus zonas de cría e invernada.",
+      "imageCaption": "Pardela pichoneta"
+    },
+    {
+      "id": "birds-156",
+      "animal": "Arao común",
+      "prompt": "¿Qué hipótesis se ha planteado para explicar la forma cónica del huevo del arao?",
+      "options": [
+        "Podría limitar cuánto rueda el huevo por una cornisa.",
+        "Permitiría que el huevo flotara hasta el mar.",
+        "Ayudaría al pollito a volar antes",
+        "Ella fijaría el huevo al acantilado por su punta."
+      ],
+      "explanation": "Es una hipótesis para explicar la forma del huevo del arao; la importancia de ese efecto sigue debatiéndose.",
+      "didYouKnow": "Los araos comunes crían en colonias densas sobre estrechas cornisas y acantilados marinos.",
+      "imageCaption": "Arao común"
+    },
+    {
+      "id": "birds-157",
+      "animal": "Albatros errante",
+      "prompt": "¿Cuántos huevos suele poner el albatros errante por intento de reproducción?",
+      "options": [
+        "solo uno",
+        "dos",
+        "cuatro",
+        "una docena"
+      ],
+      "explanation": "Como muchos albatros grandes, generalmente cría sólo un polluelo por intento.",
+      "didYouKnow": "El albatros errante utiliza su sentido del olfato para encontrar recursos alimenticios en el mar.",
+      "imageCaption": "Albatros errante"
+    },
+    {
+      "id": "birds-158",
+      "animal": "Magnífica fragata",
+      "prompt": "¿Cómo consigue a veces la fragata magnífica obtener presas sin pescar?",
+      "options": [
+        "Persiguiendo a otra ave hasta que suelta o regurgita el alimento.",
+        "Ella saca peces de los nidos de tortugas.",
+        "Filtra plancton tras los barcos",
+        "Ella espera que los peces salten en la playa."
+      ],
+      "explanation": "A veces las fragatas obligan a otras aves marinas a entregar su comida; este comportamiento se llama cleptoparasitismo.",
+      "didYouKnow": "Sus alas muy largas les permiten planear sobre el océano abierto.",
+      "imageCaption": "Magnífica fragata"
+    },
+    {
+      "id": "birds-159",
+      "animal": "Cisne vulgar",
+      "prompt": "¿Cómo llega el cisne mudo a las plantas que se encuentran debajo de la superficie en aguas poco profundas?",
+      "options": [
+        "Inclina su largo cuello mientras permanece a flote.",
+        "Se sumerge completamente hasta el fondo.",
+        "Filtra plantas con barbas.",
+        "Camina bajo el agua con sus alas."
+      ],
+      "explanation": "Su largo cuello le permite llegar a las plantas sumergidas sin sumergir todo su cuerpo.",
+      "didYouKnow": "El cisne mudo adulto tiene una protuberancia negra en la base de su pico naranja.",
+      "imageCaption": "Cisne vulgar"
+    },
+    {
+      "id": "birds-160",
+      "animal": "Cálao rinoceronte",
+      "prompt": "¿Cómo protege el cálao rinoceronte la cavidad de su nido?",
+      "options": [
+        "La hembra queda dentro y sella la cavidad, dejando una pequeña abertura por la que el macho pasa alimento.",
+        "Él construye una puerta de piedra",
+        "Llena la cavidad con agua.",
+        "Coloca los huevos en un nido colgante."
+      ],
+      "explanation": "La hembra permanece en el nido mientras la entrada se cierra con barro y otros materiales, dejando una estrecha ranura para recibir alimento.",
+      "didYouKnow": "El casco es hueco y está sostenido por una red de estructuras óseas y queratina.",
+      "imageCaption": "Cálao rinoceronte"
+    },
+    {
+      "id": "birds-161",
+      "animal": "Pájaro carpintero que come bellotas",
+      "prompt": "¿Cómo suele distribuir el pájaro carpintero bellota las bellotas que almacena?",
+      "options": [
+        "Los coloca en agujeros de distintos tamaños según su diámetro.",
+        "Los entierra a todos en una madriguera.",
+        "Los mete debajo de sus alas",
+        "Los coloca en agua para mantenerlos frescos."
+      ],
+      "explanation": "Los orificios de almacenamiento pueden tener diferentes tamaños para contener bellotas de distintos tamaños.",
+      "didYouKnow": "El pájaro carpintero que se alimenta de bellotas suele vivir en grupos familiares que cooperan para defender su territorio.",
+      "imageCaption": "Pájaro carpintero que come bellotas"
+    },
+    {
+      "id": "birds-162",
+      "animal": "Pájaro carpintero de vientre amarillo",
+      "prompt": "¿Qué animal puede beneficiarse de los agujeros de savia que hace el pájaro carpintero de vientre amarillo?",
+      "options": [
+        "Colibríes",
+        "pingüinos",
+        "buitres",
+        "pardelas"
+      ],
+      "explanation": "Los colibríes pueden venir y beber la savia que fluye de las hileras de agujeros.",
+      "didYouKnow": "Las poblaciones del norte del pájaro carpintero de vientre amarillo migran hacia el sur en invierno.",
+      "imageCaption": "Pájaro carpintero de vientre amarillo"
+    },
+    {
+      "id": "birds-163",
+      "animal": "Avión común",
+      "prompt": "¿Dónde suele anidar el avión común?",
+      "options": [
+        "Debajo de una cornisa o alero",
+        "En una madriguera del banco",
+        "En una cavidad submarina",
+        "Sobre una plataforma de ramas en el suelo"
+      ],
+      "explanation": "Fija su nido de barro debajo del borde de un edificio o de una pared de roca.",
+      "didYouKnow": "El avión común se puede reconocer en vuelo por su grupa blanca que contrasta con su lomo oscuro.",
+      "imageCaption": "Avión común"
+    },
+    {
+      "id": "birds-164",
+      "animal": "grúa común",
+      "prompt": "¿Qué comportamiento migratorio presenta la grulla común?",
+      "options": [
+        "A menudo se reúne en grupos antes de partir hacia sus cuarteles de invierno.",
+        "Ella nada a través de los océanos",
+        "Ella siempre permanece en el mismo pantano todo el año.",
+        "Ella migra bajo la nieve"
+      ],
+      "explanation": "Las grullas comunes se congregan y migran entre sus lugares de reproducción e invernada.",
+      "didYouKnow": "Las grullas comunes suelen formar parejas que permanecen juntas durante varias temporadas.",
+      "imageCaption": "grúa común"
+    },
+    {
+      "id": "birds-165",
+      "animal": "Abubilla",
+      "prompt": "¿Qué defensa química específica está asociada con el nido de abubilla?",
+      "options": [
+        "Las crías y las hembras pueden producir una secreción maloliente.",
+        "El nido está cubierto de veneno de serpiente.",
+        "Los huevos liberan cloro.",
+        "El macho rocía resina tóxica."
+      ],
+      "explanation": "La hembra y los polluelos pueden producir una secreción olorosa que probablemente ayude a disuadir a ciertos depredadores.",
+      "didYouKnow": "La abubilla puede levantar su cresta en forma de abanico cuando está atenta o excitada.",
+      "imageCaption": "Abubilla"
+    },
+    {
+      "id": "birds-166",
+      "animal": "Cuco común",
+      "prompt": "¿Qué tipo de vocalización suele hacer la hembra del cuco gris?",
+      "options": [
+        "Un llamado rápido y fuerte distinto del canto del macho.",
+        "Un tamborileo en las ramas",
+        "Un grito solo bajo el agua",
+        "Un largo arrullo idéntico al de una paloma."
+      ],
+      "explanation": "La hembra emite un llamado rápido y fuerte, diferente al patrón de dos notas del macho.",
+      "didYouKnow": "El cuco gris migra a África para pasar la mala estación.",
+      "imageCaption": "Cuco común"
+    },
+    {
+      "id": "birds-167",
+      "animal": "Avión común",
+      "prompt": "¿Qué forma suele tener el nido de barro del avión común?",
+      "options": [
+        "Una copa de barro casi cerrada con una pequeña entrada.",
+        "Una copa abierta fijada debajo de una rama.",
+        "Un túnel profundo excavado en un banco",
+        "Una plataforma de caña flotante"
+      ],
+      "explanation": "El avión común construye un nido abovedado con bolitas de barro y deja una abertura pequeña.",
+      "didYouKnow": "Los aviones comunes suelen anidar en colonias bajo los aleros de edificios.",
+      "imageCaption": "Avión común"
+    },
+    {
+      "id": "birds-168",
+      "animal": "abejaruco europeo",
+      "prompt": "¿Dónde suele colocar su nido el abejaruco europeo?",
+      "options": [
+        "Al final de una galería excavada en un banco o terraplén",
+        "En un nido colgado debajo de una rama",
+        "En el fondo de un baúl lleno de agua.",
+        "En una cavidad de acantilado construida con ramitas"
+      ],
+      "explanation": "La pareja cava un túnel para anidar en suelo blando.",
+      "didYouKnow": "El abejaruco europeo abandona Europa en otoño y pasa el invierno en África.",
+      "imageCaption": "abejaruco europeo"
+    },
+    {
+      "id": "birds-169",
+      "animal": "Vencejo negro",
+      "prompt": "¿Cómo suele descansar el vencejo negro?",
+      "options": [
+        "Se adhiere a una superficie vertical.",
+        "Se asienta sobre una delgada rama horizontal.",
+        "Se une por la cola a un hilo.",
+        "Se cuelga bajo el agua"
+      ],
+      "explanation": "Sus patas cortas y garras le permiten aferrarse a superficies verticales.",
+      "didYouKnow": "El vencejo negro pasa el invierno en África después de reproducirse en Europa.",
+      "imageCaption": "Vencejo negro"
+    },
+    {
+      "id": "birds-170",
+      "animal": "cazo",
+      "prompt": "¿Qué entorno es particularmente importante para el cazo?",
+      "options": [
+        "Vías navegables claras y rápidas",
+        "Dunas costeras sin agua",
+        "Bosques tropicales de dosel",
+        "Campos de cereales secos"
+      ],
+      "explanation": "Depende de ríos y arroyos donde encuentra sus presas acuáticas.",
+      "didYouKnow": "El cazo se puede reconocer por su plastrón blanco que contrasta con su plumaje marrón.",
+      "imageCaption": "cazo"
+    },
+    {
+      "id": "birds-171",
+      "animal": "Cardenal del Norte",
+      "prompt": "¿Qué característica del pico ayuda al cardenal del norte a comer semillas?",
+      "options": [
+        "Un pico corto y cónico.",
+        "Un pico muy largo y curvo.",
+        "Un pico en forma de espátula",
+        "Un pico cruzado con puntas opuestas."
+      ],
+      "explanation": "Su robusto pico cónico es adecuado para manipular y descascarar semillas.",
+      "didYouKnow": "El cardenal del norte construye un nido ahuecado, generalmente colocado en un arbusto o árbol pequeño.",
+      "imageCaption": "Cardenal del Norte"
+    },
+    {
+      "id": "birds-172",
+      "animal": "Kiwi marrón",
+      "prompt": "¿Por qué el óvulo del kiwi es tan notable comparado con el tamaño de la hembra?",
+      "options": [
+        "Representa una porción excepcionalmente grande de su masa corporal.",
+        "Es el huevo más pequeño entre las aves.",
+        "No contiene amarillo",
+        "Está puesto bajo el agua."
+      ],
+      "explanation": "El huevo del kiwi es muy grande en relación con el tamaño del cuerpo de la hembra.",
+      "didYouKnow": "El kiwi marrón está activo principalmente por la noche.",
+      "imageCaption": "Kiwi marrón"
+    },
+    {
+      "id": "birds-173",
+      "animal": "Casuario con casco",
+      "prompt": "¿Qué papel puede jugar el casuario después de comer una fruta del bosque?",
+      "options": [
+        "Transporta y deposita tus semillas en otro lugar",
+        "Polinizar algas",
+        "Evite que las semillas germinen enterrándolas todas.",
+        "Transforma la fruta en néctar"
+      ],
+      "explanation": "Las semillas ingeridas pueden pasar a través de su sistema digestivo y depositarse a distancia.",
+      "didYouKnow": "El casuario tiene barbas de colores en el cuello, que varían según la especie.",
+      "imageCaption": "Casuario con casco"
+    },
+    {
+      "id": "birds-174",
+      "animal": "paloma bravía",
+      "prompt": "¿Qué forma de vida salvaje de la paloma bravía es responsable de las poblaciones urbanas?",
+      "options": [
+        "Una especie que nidifica de forma natural en los acantilados",
+        "Un pájaro de los pantanos que anida en los juncos.",
+        "Un migrante ártico de alta mar",
+        "Un loro del bosque tropical"
+      ],
+      "explanation": "La roca salvaje anidaba en acantilados y los edificios ofrecen repisas similares.",
+      "didYouKnow": "Las palomas alimentan a sus crías con “leche de cosecha”, una secreción nutritiva producida por ambos padres.",
+      "imageCaption": "paloma bravía"
+    },
+    {
+      "id": "birds-175",
+      "animal": "águila real",
+      "prompt": "¿Qué suele hacer un águila real con un nido utilizado en temporadas anteriores?",
+      "options": [
+        "Puede reutilizarlo y ampliarlo.",
+        "Lo lleva a otro acantilado.",
+        "Siempre lo cubre con agua.",
+        "Lo reemplaza con una madriguera."
+      ],
+      "explanation": "Una pareja puede reutilizar y ampliar su zona de anidación durante varios años.",
+      "didYouKnow": "Las patas del águila real están emplumadas hasta los dedos.",
+      "imageCaption": "águila real"
+    },
+    {
+      "id": "birds-176",
+      "animal": "Secretario",
+      "prompt": "¿Cómo suele cazar serpientes la secretaria?",
+      "options": [
+        "Los golpea con sus largas piernas.",
+        "Los atrapa con un bolsillo debajo del pico.",
+        "Los atrae con una red de plumas.",
+        "Los persigue bajo el agua."
+      ],
+      "explanation": "El secretario caza a pie y puede golpear a su presa con sus largas patas.",
+      "didYouKnow": "Construye un gran nido en un árbol o arbusto.",
+      "imageCaption": "Secretario"
+    },
+    {
+      "id": "birds-177",
+      "animal": "toco tucán",
+      "prompt": "¿Por qué el pico del tucán toco parece enorme pero sigue siendo relativamente ligero?",
+      "options": [
+        "Su interior contiene una red ligera de soportes óseos.",
+        "Está formado por plumas compactadas.",
+        "Se llena de aire a través de un bolsillo externo.",
+        "Se reemplaza por una concha cada temporada."
+      ],
+      "explanation": "El pico está sostenido por dentro por una estructura reticular, de modo que es grande sin ser macizo y pesado.",
+      "didYouKnow": "El tucán toco es la especie de tucán de mayor tamaño.",
+      "imageCaption": "toco tucán"
+    },
+    {
+      "id": "birds-178",
+      "animal": "Hoazin",
+      "prompt": "¿Qué peculiaridad tienen los jóvenes hoazins en sus alas?",
+      "options": [
+        "Garras que les ayudan a trepar por la vegetación.",
+        "Membranas que les permiten nadar como patos",
+        "Plumas impermeables que forman una bolsa.",
+        "Dedos opuestos agarrando el pescado"
+      ],
+      "explanation": "Los jóvenes usan garras en las alas para trepar a las ramas cuando se mueven entre la vegetación.",
+      "didYouKnow": "El hoazin vive en los bosques de llanuras aluviales que bordean los cursos de agua del Amazonas y el Orinoco.",
+      "imageCaption": "Hoazin"
+    },
+    {
+      "id": "birds-179",
+      "animal": "picozapato",
+      "prompt": "¿Dónde suele anidar el picozapato?",
+      "options": [
+        "Sobre una plataforma de vegetación en un pantano.",
+        "En la cavidad de un acantilado marino",
+        "En una madriguera excavada bajo las dunas",
+        "En un nido colgado de un árbol del bosque seco"
+      ],
+      "explanation": "Construye su nido en el suelo, en la vegetación de las marismas donde vive.",
+      "didYouKnow": "El nombre picozapato se refiere a la forma característica de su enorme pico.",
+      "imageCaption": "picozapato"
+    },
+    {
+      "id": "birds-180",
+      "animal": "Grulla damisela",
+      "prompt": "¿Dónde suele pasar el invierno la grulla damisela después de reproducirse en Asia Central?",
+      "options": [
+        "En el sur de Asia",
+        "en la antártida",
+        "En las islas del caribe",
+        "En los bosques boreales de Canadá"
+      ],
+      "explanation": "Migra al sur de Asia para pasar el invierno después de anidar en las estepas de Asia central.",
+      "didYouKnow": "Las grullas damisela macho y hembra tienen un plumaje muy similar.",
+      "imageCaption": "Grulla damisela"
+    },
+    {
+      "id": "birds-181",
+      "animal": "Cálao rinoceronte",
+      "prompt": "¿De qué material está hecha principalmente la funda del casco del cálao rinoceronte?",
+      "options": [
+        "queratina",
+        "quitina",
+        "sílice",
+        "cartílago desnudo"
+      ],
+      "explanation": "La vaina córnea que recubre el casco está hecha de queratina, al igual que la del pico. El casco se desarrolla a medida que el pájaro crece.",
+      "didYouKnow": "El cálao rinoceronte habita en los bosques tropicales de Borneo, Sumatra y la península malaya.",
+      "imageCaption": "Cálao rinoceronte"
+    },
+    {
+      "id": "birds-182",
+      "animal": "Periquito de vientre naranja",
+      "prompt": "¿Entre qué regiones migra el periquito de vientre naranja?",
+      "options": [
+        "Tasmania y Australia del Sur",
+        "El Ártico y la Antártida",
+        "Europa y África occidental",
+        "Japón y Siberia"
+      ],
+      "explanation": "Se reproduce en Tasmania y luego migra a sus cuarteles de invierno en el continente australiano.",
+      "didYouKnow": "Su población silvestre es muy pequeña y es objeto de esfuerzos de conservación.",
+      "imageCaption": "Periquito de vientre naranja"
+    },
+    {
+      "id": "birds-183",
+      "animal": "Paloma coronada victoria",
+      "prompt": "¿Qué estructura visible distingue a la paloma coronada Victoria?",
+      "options": [
+        "Una gran cresta de plumas azules caladas.",
+        "Un casco cachondo en el pico.",
+        "Un bolsillo expandible debajo del cuello.",
+        "Un tren formado por manchas oculares."
+      ],
+      "explanation": "Su cresta azul está formada por delicadas plumas que parecen encajes.",
+      "didYouKnow": "La paloma coronada Victoria es una de las especies de palomas vivas más grandes.",
+      "imageCaption": "Paloma coronada victoria"
+    },
+    {
+      "id": "birds-184",
+      "animal": "águila calva",
+      "prompt": "¿Qué alimento es un recurso importante para el águila calva?",
+      "options": [
+        "el pez",
+        "Solo semillas de caña",
+        "Líquenes de acantilado",
+        "néctar de flores"
+      ],
+      "explanation": "A menudo captura peces, aunque su dieta también incluye otras presas y cadáveres.",
+      "didYouKnow": "En el águila calva, la cabeza blanca aparece con el plumaje adulto, después de varios años.",
+      "imageCaption": "águila calva"
+    },
+    {
+      "id": "birds-185",
+      "animal": "águila arpía",
+      "prompt": "¿Por qué son útiles las alas relativamente cortas del águila arpía en el bosque?",
+      "options": [
+        "Facilitan las maniobras entre árboles",
+        "Te permiten nadar bajo el agua.",
+        "Aumentan la velocidad en alta mar",
+        "Impiden cualquier deslizamiento"
+      ],
+      "explanation": "Las alas más cortas y anchas facilitan el giro entre la vegetación densa.",
+      "didYouKnow": "El águila arpía construye un gran nido en las copas de los árboles altos.",
+      "imageCaption": "águila arpía"
+    },
+    {
+      "id": "birds-186",
+      "animal": "petrel gigante",
+      "prompt": "¿Qué papel desempeña a veces el petrel gigante austral en las colonias marinas?",
+      "options": [
+        "Consumir cadáveres y otros recursos disponibles.",
+        "Construir arrecifes de coral",
+        "Filtrar la sal de las corrientes.",
+        "Polinizar las algas del fondo marino."
+      ],
+      "explanation": "Actúa como depredador oportunista y carroñero en los ecosistemas marinos.",
+      "didYouKnow": "El petrel gigante es el mayor representante de los petreles.",
+      "imageCaption": "petrel gigante"
+    },
+    {
+      "id": "birds-187",
+      "animal": "Buitre negro",
+      "prompt": "¿Cómo suele detectar el buitre negro un cadáver?",
+      "options": [
+        "Al observar a otros carroñeros y gracias a su vista.",
+        "Sólo por un sentido del olfato excepcional.",
+        "Escuchando caer las semillas",
+        "Cavando debajo de los cadáveres"
+      ],
+      "explanation": "Depende en gran medida de la vista y puede detectar aves que han encontrado un cadáver.",
+      "didYouKnow": "El buitre negro puede aprovechar las corrientes térmicas ascendentes para planear con poco esfuerzo.",
+      "imageCaption": "Buitre negro"
+    },
+    {
+      "id": "birds-188",
+      "animal": "Águila pescadora africana",
+      "prompt": "¿Qué recurso captura principalmente el águila real?",
+      "options": [
+        "Peces cerca de la superficie del agua.",
+        "Raíces subterráneas",
+        "Solo semillas de pasto",
+        "Insectos en los baúles."
+      ],
+      "explanation": "El águila pescadora africana suele atrapar peces al abalanzarse sobre ellos cerca de la superficie.",
+      "didYouKnow": "Su llamada clara y potente se oye a menudo junto a lagos y ríos africanos.",
+      "imageCaption": "Águila pescadora africana"
+    },
+    {
+      "id": "birds-189",
+      "animal": "Chorlitejo grande",
+      "prompt": "¿Cómo se comporta el polluelo de chorlito poco después de nacer?",
+      "options": [
+        "Puede caminar y buscar alimento poco después de nacer.",
+        "Permanece alimentado en una cavidad durante varios meses.",
+        "Inmediatamente vuela hacia el mar.",
+        "Pasa su primera semana bajo el agua"
+      ],
+      "explanation": "Los polluelos del chorlitejo grande son precoces: dejan pronto el nido en el suelo para buscar pequeñas presas, mientras los adultos los vigilan.",
+      "didYouKnow": "Los adultos pueden fingir tener un ala herida para alejar a los depredadores del nido o de los polluelos.",
+      "imageCaption": "Chorlitejo grande"
+    },
+    {
+      "id": "birds-190",
+      "animal": "Falaropo picofino",
+      "prompt": "¿Cómo concentra a veces el falaropo de cuello rojo pequeñas presas en la superficie?",
+      "options": [
+        "Gira rápidamente en el agua.",
+        "Él construye una presa de plumas",
+        "Sopla aire caliente en el barro.",
+        "Golpea al pez con sus alas."
+      ],
+      "explanation": "La rotación crea remolinos que pueden poner pequeños organismos a su alcance.",
+      "didYouKnow": "En este falaropo, las hembras tienen colores más brillantes que los machos y estos últimos aseguran la incubación.",
+      "imageCaption": "Falaropo picofino"
+    },
+    {
+      "id": "birds-191",
+      "animal": "Momoto de corona azul",
+      "prompt": "¿Para qué puede servir el movimiento pendular de la cola en ciertos momotos?",
+      "options": [
+        "Para reportar un estado de alerta o una interacción",
+        "Para enfriar los huevos debajo del nido.",
+        "Para atraer peces bajo el agua",
+        "Para impulsar al pájaro hacia atrás."
+      ],
+      "explanation": "El movimiento de la cola puede servir como señal visible, particularmente en un contexto de alerta.",
+      "didYouKnow": "El momoto de ceja azul suele cavar su nido en el fondo de un túnel en la orilla de un río.",
+      "imageCaption": "Momoto de corona azul"
+    },
+    {
+      "id": "birds-192",
+      "animal": "Trogón elegante",
+      "prompt": "¿Cómo están dispuestos los dedos del elegante trogón?",
+      "options": [
+        "Dos adelante y dos atrás",
+        "Tres adelante y uno atrás",
+        "Todos adelante",
+        "Todos de vuelta"
+      ],
+      "explanation": "Esta disposición, llamada heterodáctilo, ayuda al trogón a agarrar las ramas.",
+      "didYouKnow": "Los trogones pueden anidar en cavidades naturales o en antiguos termiteros, según la especie.",
+      "imageCaption": "Trogón elegante"
+    },
+    {
+      "id": "birds-193",
+      "animal": "Magnífico pájaro lira",
+      "prompt": "¿Por qué el magnífico pájaro lira se llama así?",
+      "options": [
+        "La cola del macho desplegada evoca la forma de una lira.",
+        "Su canto se asemeja únicamente al sonido de un instrumento de cuerda.",
+        "Anida exclusivamente en árboles llamados liras.",
+        "Tiene un pico en forma de lira."
+      ],
+      "explanation": "Las largas plumas de la cola del macho forman una silueta parecida a una lira durante la exhibición.",
+      "didYouKnow": "El pájaro lira es endémico de Australia y vive en bosques templados húmedos.",
+      "imageCaption": "Magnífico pájaro lira"
+    },
+    {
+      "id": "birds-194",
+      "animal": "Tejedor común",
+      "prompt": "¿Por qué los nidos tejidos por los tejedores suelen colgar de las ramas?",
+      "options": [
+        "La suspensión dificulta el acceso de determinados depredadores terrestres",
+        "Permite que los huevos floten.",
+        "Le da al nido acceso a la savia.",
+        "Impide que los padres salgan"
+      ],
+      "explanation": "Los nidos suspendidos pueden limitar el acceso de algunos depredadores que trepan desde el suelo.",
+      "didYouKnow": "El macho del gendarme tejedor muestra un plumaje de color amarillo brillante durante la temporada de reproducción.",
+      "imageCaption": "Tejedor común"
+    },
+    {
+      "id": "birds-195",
+      "animal": "Tejedor sociable",
+      "prompt": "¿Qué material utiliza principalmente el socialrepublicano para construir su gran nido colectivo?",
+      "options": [
+        "Hierba seca y ramitas",
+        "Conchas de mar y arena",
+        "Solo barro y hojas frescas.",
+        "Plumas de mamíferos"
+      ],
+      "explanation": "La estructura colectiva está compuesta principalmente por materiales vegetales secos.",
+      "didYouKnow": "El social republicano vive en los ambientes secos del sur de África.",
+      "imageCaption": "Tejedor sociable"
+    },
+    {
+      "id": "birds-196",
+      "animal": "águila pescadora",
+      "prompt": "¿Cómo ayudan las garras del águila pescadora a sujetar a un pez resbaladizo?",
+      "options": [
+        "Los golpes y las almohadillas ásperos mejoran el agarre",
+        "Secretan un pegamento",
+        "Envuelven el pescado en una membrana.",
+        "Llevan ventosas"
+      ],
+      "explanation": "Las superficies rugosas de los dedos ayudan a sujetar firmemente a la presa.",
+      "didYouKnow": "El águila pescadora suele establecer su zona en un soporte alto, cerca de una masa de agua.",
+      "imageCaption": "águila pescadora"
+    },
+    {
+      "id": "birds-197",
+      "animal": "Cuervo",
+      "prompt": "¿Cómo puede un cuervo romper una nuez de cáscara dura?",
+      "options": [
+        "Dejándolo caer sobre una superficie resistente.",
+        "Disolviéndolo en agua",
+        "Masticándolo con los dientes",
+        "Frotándolo contra una pluma"
+      ],
+      "explanation": "Caer sobre una superficie dura puede romper la cáscara y hacer que la nuez sea accesible.",
+      "didYouKnow": "El cuervo común a menudo forma vínculos de pareja duraderos y defiende un territorio de anidación.",
+      "imageCaption": "Cuervo"
+    },
+    {
+      "id": "birds-198",
+      "animal": "Cuco común",
+      "prompt": "¿Por qué la hembra del cuco gris a veces vigila el nido de su huésped?",
+      "options": [
+        "Para elegir el momento en el que podrá poner allí su huevo.",
+        "Enseñar al padre anfitrión a construir un nido.",
+        "Para almacenar orugas",
+        "Para evitar que los pollitos anfitriones migren"
+      ],
+      "explanation": "La hembra debe localizar un nido activo cuya etapa de puesta sea adecuada para incubar su huevo.",
+      "didYouKnow": "El cuco gris consume principalmente orugas, incluidas determinadas especies peludas poco apreciadas por otras aves.",
+      "imageCaption": "Cuco común"
+    },
+    {
+      "id": "birds-199",
+      "animal": "pingüino emperador",
+      "prompt": "¿Qué papel juega la agregación de pingüinos emperador durante las tormentas invernales?",
+      "options": [
+        "Reduce la exposición individual al viento y al frío.",
+        "Permite compartir huevos entre grupos.",
+        "Atrae peces bajo el hielo.",
+        "Acelera el derretimiento de la nieve."
+      ],
+      "explanation": "Los individuos agrupados muy juntos reducen la superficie expuesta a condiciones de frío.",
+      "didYouKnow": "El pingüino emperador se zambulle para pescar peces y calamares bajo el témpano de hielo.",
+      "imageCaption": "pingüino emperador"
+    },
+    {
+      "id": "birds-200",
+      "animal": "charrán ártico",
+      "prompt": "¿Qué hábitat suelen utilizar los charranes árticos para anidar?",
+      "options": [
+        "Zonas costeras o islas árticas",
+        "Bosques tropicales de dosel",
+        "Acantilados del desierto sin agua",
+        "Cuevas de agua dulce"
+      ],
+      "explanation": "Anida en regiones árticas, a menudo cerca de costas o islas.",
+      "didYouKnow": "El charrán ártico puede vivir varias décadas, a pesar de su pequeño tamaño.",
+      "imageCaption": "charrán ártico"
+    }
+  ]
+}

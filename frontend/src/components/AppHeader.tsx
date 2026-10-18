@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { usePathname } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import { LanguageSelector } from '@/components/LanguageSelector';
-import { ArrowRight, Home, Leaf, LogIn, LogOut, Menu, PawPrint, Settings2, ShoppingBag, X } from 'lucide-react';
+import { ArrowRight, CalendarDays, Box, Gamepad2, Home, Leaf, LogIn, LogOut, Menu, PawPrint, Settings2, ShoppingBag, X } from 'lucide-react';
 import Link from 'next/link';
 
 export function AppHeader() {
@@ -39,6 +39,16 @@ export function AppHeader() {
           >
             <Home size={16} strokeWidth={2.2} aria-hidden="true" />
             <span>{t('common.home')}</span>
+          </Link>
+          <Link href="/agenda" className={navLinkClass(pathname?.includes('/agenda') ?? false)} aria-current={pathname?.includes('/agenda') ? 'page' : undefined}><CalendarDays size={16} aria-hidden="true"/><span>{t('common.careAgenda')}</span></Link>
+          <Link href="/jeu" className={navLinkClass(pathname?.includes('/jeu') ?? false)} aria-current={pathname?.includes('/jeu') ? 'page' : undefined}><Gamepad2 size={16} aria-hidden="true"/><span>{t('common.animalGame')}</span></Link>
+          <Link
+            href="/guide"
+            className={navLinkClass(pathname?.includes('/guide') ?? false)}
+            aria-current={pathname?.includes('/guide') ? 'page' : undefined}
+          >
+            <Box size={16} strokeWidth={2.2} aria-hidden="true" />
+            <span>{t('common.habitatGuide')}<small className="captivia-premium-label">Premium</small></span>
           </Link>
           <Link
             href="/magasin"
@@ -126,6 +136,16 @@ export function AppHeader() {
             <Link href="/" className={mobileLinkClass(isHome)} onClick={closeMobileMenu}>
               <Home size={17} aria-hidden="true" />
               <span>{t('common.home')}</span>
+            </Link>
+            <Link href="/agenda" className={mobileLinkClass(pathname?.includes('/agenda') ?? false)} onClick={closeMobileMenu}><CalendarDays size={17} aria-hidden="true"/><span>{t('common.careAgenda')}</span></Link>
+            <Link href="/jeu" className={mobileLinkClass(pathname?.includes('/jeu') ?? false)} onClick={closeMobileMenu}><Gamepad2 size={17} aria-hidden="true"/><span>{t('common.animalGame')}</span></Link>
+            <Link
+              href="/guide"
+              className={mobileLinkClass(pathname?.includes('/guide') ?? false)}
+              onClick={closeMobileMenu}
+            >
+              <Box size={17} aria-hidden="true" />
+              <span>{t('common.habitatGuide')}<small className="captivia-premium-label">Premium</small></span>
             </Link>
             <Link
               href="/magasin"

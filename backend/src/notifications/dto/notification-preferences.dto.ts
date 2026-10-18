@@ -1,14 +1,28 @@
-import { IsIn, IsInt, IsObject, IsOptional, Max, Min } from 'class-validator';
+import {
+  IsIn,
+  IsInt,
+  IsObject,
+  IsOptional,
+  Max,
+  Min,
+  IsString,
+  MaxLength,
+} from 'class-validator';
 
 export class UpdateNotificationPreferencesDto {
+  @IsOptional()
+  @IsString()
+  @MaxLength(100)
+  timeZone?: string;
+
   @IsOptional()
   @IsIn(['push', 'email', 'both'])
   deliveryChannel?: 'push' | 'email' | 'both';
 
   @IsOptional()
   @IsInt()
-  @Min(0)
-  @Max(1440)
+  @Min(5)
+  @Max(120)
   snooze?: number;
 
   @IsOptional()
@@ -21,5 +35,5 @@ export class UpdateNotificationPreferencesDto {
 
   @IsOptional()
   @IsObject()
-  schedule?: any;
+  schedule?: { start: string; end: string };
 }

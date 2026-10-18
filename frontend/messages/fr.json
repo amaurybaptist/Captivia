@@ -267,7 +267,11 @@
     "search": "Rechercher",
     "settings": "Paramètres",
     "shop": "Magasin",
-    "species": "Espèces"
+    "species": "Espèces",
+    "habitatGuide": "Guide 3D",
+    "designHabitat": "Concevoir son habitat",
+    "careAgenda": "Agenda",
+    "animalGame": "Jeu"
   },
   "disclaimers": {
     "affiliate": "Lien affilié",
@@ -373,7 +377,25 @@
     "weekDay3": "Mercredi",
     "weekDay4": "Jeudi",
     "weekDay5": "Vendredi",
-    "weekDay6": "Samedi"
+    "weekDay6": "Samedi",
+    "pushUnsupported": "Ce navigateur ne prend pas en charge les notifications push. Sur iPhone, ouvrez Captivia depuis son icône ajoutée à l’écran d’accueil.",
+    "pushUnavailable": "Les notifications push sont temporairement indisponibles. Vos rappels restent visibles dans l’application.",
+    "pushEnabled": "Notifications actives sur ce navigateur.",
+    "enablePush": "Activer les notifications",
+    "disablePush": "Désactiver sur ce navigateur",
+    "sendTest": "Envoyer un test",
+    "testSent": "Notification envoyée.",
+    "testPartial": "Certaines notifications n’ont pas pu être envoyées.",
+    "noRecipient": "Aucun destinataire actif. Activez les notifications sur un appareil.",
+    "testFailed": "La notification de test n’a pas pu être envoyée.",
+    "timeZone": "Fuseau horaire",
+    "deliveryWindow": "Heures autorisées pour les envois",
+    "windowStart": "Début des envois",
+    "windowEnd": "Fin des envois",
+    "channelsUnavailable": "Certains modes de réception sont temporairement indisponibles. Vos rappels restent visibles dans l’application.",
+    "snoozeAction": "Reporter",
+    "snoozeDone": "Rappel reporté.",
+    "reminderError": "Impossible de mettre à jour le rappel."
   },
   "premiumLock": {
     "goPremium": "Voir l'abonnement Premium",
@@ -513,6 +535,7 @@
     "subscribeSuccess": "Abonnement activé. Vous avez maintenant accès à toutes les fonctionnalités Premium.",
     "subtitle": "Débloquez tous les avantages Captivia",
     "title": "Abonnement Premium",
-    "yearly": "Annuel"
+    "yearly": "Annuel",
+    "benefitHabitat": "Concepteur d’habitat 2D et 3D : aménagements personnalisés, projets sauvegardés et exports"
   }
 }
