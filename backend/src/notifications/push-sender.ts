@@ -196,18 +196,19 @@ export class WebPushSender implements PushSender {
           result.failed++;
           return;
         }
+        const validKeys = { p256dh: keys.p256dh, auth: keys.auth };
         try {
-          const send = () => withDeadline(
+          const send = async () => { await withDeadline(
             webPush.sendNotification(
               {
                 endpoint: sub.endpoint,
-                keys: { p256dh: keys.p256dh, auth: keys.auth },
+                keys: validKeys,
               },
               body,
               options,
             ),
             PUSH_REQUEST_TIMEOUT_MS,
-          );
+          ); };
           const context = payload.delivery;
           const sent = context && this.deliveries
             ? await this.deliveries.send(context.eventId, context.version, `push:${sub.id}`, send, context.now)

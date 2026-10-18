@@ -86,14 +86,6 @@ export class NotificationsService {
 
   async sendTestNotification(userId: string) {
     const prefs = await this.getNotificationPreferences(userId);
-    const capabilities = this.getCapabilities();
-    if (
-      (prefs.deliveryChannel !== 'email' && !capabilities.push) ||
-      (prefs.deliveryChannel !== 'push' && !capabilities.email)
-    )
-      throw new ServiceUnavailableException(
-        'Un canal de réception est indisponible.',
-      );
     const payload = {
       title: 'Test Captivia',
       body: 'Vos notifications Captivia sont opérationnelles.',

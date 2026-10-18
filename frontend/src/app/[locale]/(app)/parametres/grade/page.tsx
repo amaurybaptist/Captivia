@@ -134,7 +134,7 @@ export default function GradePage() {
       const event = await snoozeReminder(token, id);
       setEvents((previous) => previous.map((value) => value.id === id ? { ...value, snoozedUntil: event.snoozedUntil } : value));
     } catch (error) {
-      setGradeError(t(errorKey(error, { fallback: 'grade.updateError' })));
+      setGradeError(t(errorKey(error, { fallback: 'notifications.saveError' })));
     } finally { setActionId(null); }
   };
 
@@ -321,7 +321,7 @@ export default function GradePage() {
                           {t('grade.markSkipped')}
                         </Button>
                         <Button size="sm" variant="quiet" disabled={actionId === ev.id} onClick={() => void handleSnooze(ev.id)}>
-                          {t('grade.snoozeAction')}
+                          {t('notifications.snoozeAction')}
                         </Button>
                       </>
                     ) : null}

@@ -111,10 +111,7 @@ export class NotificationsController {
   @ApiResponse({ status: 201, description: '{ sent: boolean }' })
   @ApiResponse({ status: 401, description: 'Unauthorized' })
   async sendTestNotification(@Request() req: { user: { id: string } }) {
-    return this.notificationsService.sendNotification(req.user.id, {
-      title: 'Test Captivia',
-      body: 'Ceci est une notification de test',
-      icon: '/icons/icon-192.png',
-    });
+    const result = await this.notificationsService.sendTestNotification(req.user.id);
+    return { sent: result.sent > 0 };
   }
 }

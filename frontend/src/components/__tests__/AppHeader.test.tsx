@@ -48,7 +48,7 @@ describe('AppHeader', () => {
     const labels = within(nav)
       .getAllByRole('link')
       .map((a) => a.textContent);
-    expect(labels).toEqual(['nav.species', 'common.shop', 'nav.transparency']);
+    expect(labels).toEqual(['nav.species', 'common.animalGame', 'common.habitatGuide', 'common.shop', 'nav.transparency']);
 
     expect(screen.getByRole('link', { name: 'common.login' })).toHaveAttribute('href', '/login');
     expect(screen.getByRole('link', { name: 'common.register' })).toHaveAttribute('href', '/register');
@@ -65,7 +65,7 @@ describe('AppHeader', () => {
     const labels = within(nav)
       .getAllByRole('link')
       .map((a) => a.textContent);
-    expect(labels).toEqual(['nav.species', 'common.shop', 'common.myAnimals', 'nav.agenda', 'nav.transparency']);
+    expect(labels).toEqual(['nav.species', 'common.animalGame', 'common.habitatGuide', 'common.shop', 'common.myAnimals', 'nav.agenda', 'nav.transparency']);
 
     const account = screen.getByRole('link', { name: 'common.settings' });
     expect(account).toHaveAttribute('href', '/parametres');

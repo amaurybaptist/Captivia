@@ -54,6 +54,8 @@ export default function ParametresPage() {
   const initials = user.email ? user.email.slice(0, 2).toUpperCase() : <CircleUserRound className="size-5" strokeWidth={1.5} />;
 
   const entries: SettingsEntry[] = [
+    { href: '/parametres/notifications/avance', title: t('settings.notificationsTitle'), description: t('notifications.timeZone') },
+    { href: '/parametres/grade/rapports', title: t('grade.remindersToday'), description: t('notifications.snoozeHint') },
     { href: '/guide', title: t('common.habitatGuide'), description: t('common.designHabitat') },
     { href: '/jeu', title: t('common.animalGame'), description: t('common.animalGame') },
     { href: '/parametres/compte', title: t('settings.accountTitle'), description: t('settings.accountDescription') },

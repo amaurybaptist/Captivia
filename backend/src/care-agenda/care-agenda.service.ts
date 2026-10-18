@@ -24,7 +24,7 @@ export class CareAgendaService {
     animalId?: string,
   ) {
     const settings = await this.prisma.user.findUnique({
-      where: { userId },
+      where: { id: userId },
       select: { timezone: true },
     });
     const timeZone = settings?.timezone || DEFAULT_TIME_ZONE;

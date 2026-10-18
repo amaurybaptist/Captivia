@@ -23,6 +23,8 @@ jobs:
         run: |
           npm --prefix backend install --package-lock-only --ignore-scripts
           npm --prefix frontend install --package-lock-only --ignore-scripts
+          npm --prefix backend audit fix --package-lock-only --ignore-scripts --audit-level=high
+          npm --prefix frontend audit fix --package-lock-only --ignore-scripts --audit-level=high
       - name: Save regenerated locks on the synchronization branch
         run: |
           git config user.name 'github-actions[bot]'
