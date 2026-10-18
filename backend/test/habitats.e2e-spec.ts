@@ -124,7 +124,9 @@ describe('Habitats — HTTP/JWT/PostgreSQL réel isolé', () => {
   afterEach(async () => {
     if (prisma) {
       await prisma.user.deleteMany({
-        where: { id: { in: [a?.id, b?.id].filter((id): id is string => !!id) } },
+        where: {
+          id: { in: [a?.id, b?.id].filter((id): id is string => !!id) },
+        },
       });
     }
   });
@@ -213,7 +215,10 @@ describe('Habitats — HTTP/JWT/PostgreSQL réel isolé', () => {
     expect(restored.body).toHaveLength(1);
   });
   it('conserve l’accès des opérateurs selon la règle Premium existante', async () => {
-    await prisma.user.update({ where: { id: b.id }, data: { isPremium: false, role: 'OPERATOR' } });
+    await prisma.user.update({
+      where: { id: b.id },
+      data: { isPremium: false, role: 'OPERATOR' },
+    });
     await request(app.getHttpServer() as Server)
       .get(api)
       .set('Authorization', auth(tokenB))

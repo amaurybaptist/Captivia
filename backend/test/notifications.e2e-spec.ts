@@ -20,8 +20,17 @@ const grade = new GradeService(prisma, new RoutinesService(prisma));
 const delivery = new NotificationDeliveryService(prisma);
 const mail = new MailService();
 const scheduler = () => {
-  const dispatcher = new PushDispatcher(new WebPushSender(prisma, delivery), new NativePushSender(prisma, null, delivery));
-  return new NotificationsSchedulerService(prisma, grade, mail, dispatcher, delivery);
+  const dispatcher = new PushDispatcher(
+    new WebPushSender(prisma, delivery),
+    new NativePushSender(prisma, null, delivery),
+  );
+  return new NotificationsSchedulerService(
+    prisma,
+    grade,
+    mail,
+    dispatcher,
+    delivery,
+  );
 };
 const speciesId = 2147483001;
 const anchor = new Date('2026-01-01T12:00:00Z');
@@ -46,7 +55,20 @@ beforeAll(async () => {
   });
 });
 beforeEach(async () => {
-  jest.useFakeTimers({ doNotFake: ['nextTick', 'setImmediate', 'clearImmediate', 'setTimeout', 'clearTimeout', 'setInterval', 'clearInterval', 'hrtime', 'performance', 'queueMicrotask'] });
+  jest.useFakeTimers({
+    doNotFake: [
+      'nextTick',
+      'setImmediate',
+      'clearImmediate',
+      'setTimeout',
+      'clearTimeout',
+      'setInterval',
+      'clearInterval',
+      'hrtime',
+      'performance',
+      'queueMicrotask',
+    ],
+  });
   jest.setSystemTime(now);
   jest.clearAllMocks();
   process.env.VAPID_PUBLIC_KEY = keys.publicKey;
@@ -126,7 +148,9 @@ describe('Rappels et livraisons — PostgreSQL réel isolé', () => {
     });
     expect(await grade.setEventStatus(userId, first.id, 'done')).toBeNull();
     expect(await grade.deleteEvent(userId, first.id)).toBe(false);
-    expect(await grade.getOrCreateTodayEvents(userId, '2026-10-17', true)).toHaveLength(1);
+    expect(
+      await grade.getOrCreateTodayEvents(userId, '2026-10-17', true),
+    ).toHaveLength(1);
     expect(
       (await prisma.user.findUniqueOrThrow({ where: { id: userId } })).points,
     ).toBe(2);
@@ -198,13 +222,8 @@ describe('Rappels et livraisons — PostgreSQL réel isolé', () => {
   });
   it('envoie une seule fois même avec deux workers et plusieurs passages', async () => {
     await subscribe();
-    await Promise.all([
-      scheduler().runOnce(now),
-      scheduler().runOnce(now),
-    ]);
-    await scheduler().runOnce(
-      new Date(now.getTime() + 30000),
-    );
+    await Promise.all([scheduler().runOnce(now), scheduler().runOnce(now)]);
+    await scheduler().runOnce(new Date(now.getTime() + 30000));
     expect(webPush.sendNotification).toHaveBeenCalledTimes(1);
     expect(
       await prisma.notificationDelivery.count({
@@ -225,17 +244,11 @@ describe('Rappels et livraisons — PostgreSQL réel isolé', () => {
     } finally {
       clock.mockRestore();
     }
-    await worker.runOnce(
-      new Date(now.getTime() + 10 * 60000),
-    );
+    await worker.runOnce(new Date(now.getTime() + 10 * 60000));
     expect(webPush.sendNotification).toHaveBeenCalledTimes(1);
-    await worker.runOnce(
-      new Date(now.getTime() + 15 * 60000),
-    );
+    await worker.runOnce(new Date(now.getTime() + 15 * 60000));
     expect(webPush.sendNotification).toHaveBeenCalledTimes(2);
-    await worker.runOnce(
-      new Date(now.getTime() + 16 * 60000),
-    );
+    await worker.runOnce(new Date(now.getTime() + 16 * 60000));
     expect(webPush.sendNotification).toHaveBeenCalledTimes(2);
   });
   it('réessaie un échec temporaire après son délai sans renvoyer les envois réussis', async () => {
@@ -245,13 +258,9 @@ describe('Rappels et livraisons — PostgreSQL réel isolé', () => {
       .mockRejectedValueOnce({ statusCode: 503 });
     const worker = scheduler();
     await worker.runOnce(now);
-    await worker.runOnce(
-      new Date(now.getTime() + 30000),
-    );
+    await worker.runOnce(new Date(now.getTime() + 30000));
     expect(webPush.sendNotification).toHaveBeenCalledTimes(1);
-    await worker.runOnce(
-      new Date(now.getTime() + 61000),
-    );
+    await worker.runOnce(new Date(now.getTime() + 61000));
     expect(webPush.sendNotification).toHaveBeenCalledTimes(2);
   });
   it('n’envoie pas un rappel supprimé, terminé ou explicitement désactivé par son libellé', async () => {
@@ -296,21 +305,15 @@ describe('Rappels et livraisons — PostgreSQL réel isolé', () => {
     } finally {
       clock.mockRestore();
     }
-    await worker.runOnce(
-      new Date(now.getTime() + 119 * 60000),
-    );
+    await worker.runOnce(new Date(now.getTime() + 119 * 60000));
     expect(webPush.sendNotification).toHaveBeenCalledTimes(1);
-    await worker.runOnce(
-      new Date(now.getTime() + 120 * 60000),
-    );
+    await worker.runOnce(new Date(now.getTime() + 120 * 60000));
     expect(webPush.sendNotification).toHaveBeenCalledTimes(2);
   });
   it('respecte les minutes exactes et la plage horaire de réception', async () => {
     await subscribe();
     const worker = scheduler();
-    await worker.runOnce(
-      new Date(now.getTime() - 1000),
-    );
+    await worker.runOnce(new Date(now.getTime() - 1000));
     expect(webPush.sendNotification).not.toHaveBeenCalled();
     await prisma.notificationPreference.update({
       where: { userId },
@@ -350,9 +353,7 @@ describe('Rappels et livraisons — PostgreSQL réel isolé', () => {
     const worker = scheduler();
     await worker.runOnce(now);
     expect(webPush.sendNotification).toHaveBeenCalledTimes(2);
-    await worker.runOnce(
-      new Date(now.getTime() + 61000),
-    );
+    await worker.runOnce(new Date(now.getTime() + 61000));
     expect(webPush.sendNotification).toHaveBeenCalledTimes(3);
   });
   it('le canal email utilise l’adresse du propriétaire et ne déclenche aucun push', async () => {

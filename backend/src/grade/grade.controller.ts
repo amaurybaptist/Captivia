@@ -69,7 +69,11 @@ export class GradeController {
     @Param('id') id: string,
     @Body() body: SnoozeEventDto,
   ) {
-    const event = await this.gradeService.snoozeEvent(req.user.id, id, body.minutes);
+    const event = await this.gradeService.snoozeEvent(
+      req.user.id,
+      id,
+      body.minutes,
+    );
     if (!event) throw new NotFoundException('Notification event not found');
     return event;
   }

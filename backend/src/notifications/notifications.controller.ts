@@ -30,7 +30,9 @@ export class NotificationsController {
   constructor(private readonly notificationsService: NotificationsService) {}
 
   @Get('notification-capabilities')
-  getCapabilities() { return this.notificationsService.getCapabilities(); }
+  getCapabilities() {
+    return this.notificationsService.getCapabilities();
+  }
 
   @Post('push-subscriptions')
   @ApiOperation({
@@ -111,7 +113,9 @@ export class NotificationsController {
   @ApiResponse({ status: 201, description: '{ sent: boolean }' })
   @ApiResponse({ status: 401, description: 'Unauthorized' })
   async sendTestNotification(@Request() req: { user: { id: string } }) {
-    const result = await this.notificationsService.sendTestNotification(req.user.id);
+    const result = await this.notificationsService.sendTestNotification(
+      req.user.id,
+    );
     return { sent: result.sent > 0 };
   }
 }

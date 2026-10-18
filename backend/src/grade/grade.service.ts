@@ -171,20 +171,50 @@ export class GradeService {
 
     // Reconcile the current sources without deleting pending or delivered occurrences.
     // A refresh must retain ids, snoozes, delivery claims and completion points.
-    const candidates = await this.buildCandidateEvents(userId, day, timeZone, locale);
-      const present = new Set(events.map((event) => `${event.sourceKey}:${event.scheduledAt.toISOString()}`));
-      const missing = candidates.filter((event) => !present.has(`${event.sourceKey}:${new Date(event.scheduledAt).toISOString()}`));
-      const budget = Math.max(0, MAX_EVENTS_PER_DAY - events.length);
-      if (missing.length && budget > 0) {
-        await this.prisma.notificationEvent.createMany({ data: missing.slice(0, budget), skipDuplicates: true });
-      }
-      events = await this.prisma.notificationEvent.findMany({
-        where: dayWhere, orderBy: { scheduledAt: 'asc' }, take: MAX_EVENTS_PER_DAY * 2,
+    const candidates = await this.buildCandidateEvents(
+      userId,
+      day,
+      timeZone,
+      locale,
+    );
+    const present = new Set(
+      events.map(
+        (event) => `${event.sourceKey}:${event.scheduledAt.toISOString()}`,
+      ),
+    );
+    const missing = candidates.filter(
+      (event) =>
+        !present.has(
+          `${event.sourceKey}:${new Date(event.scheduledAt).toISOString()}`,
+        ),
+    );
+    const budget = Math.max(0, MAX_EVENTS_PER_DAY - events.length);
+    if (missing.length && budget > 0) {
+      await this.prisma.notificationEvent.createMany({
+        data: missing.slice(0, budget),
+        skipDuplicates: true,
       });
-      const current = new Set(candidates.map((event) => `${event.sourceKey}:${new Date(event.scheduledAt).toISOString()}`));
-      // Hidden occurrences remain in the DB so re-enabling a routine cannot award points twice.
-      events = events.filter((event) => !event.sourceKey || current.has(`${event.sourceKey}:${event.scheduledAt.toISOString()}`));
-    events = events.filter((event) => event.status !== 'dismissed' && event.status !== 'obsolete');
+    }
+    events = await this.prisma.notificationEvent.findMany({
+      where: dayWhere,
+      orderBy: { scheduledAt: 'asc' },
+      take: MAX_EVENTS_PER_DAY * 2,
+    });
+    const current = new Set(
+      candidates.map(
+        (event) =>
+          `${event.sourceKey}:${new Date(event.scheduledAt).toISOString()}`,
+      ),
+    );
+    // Hidden occurrences remain in the DB so re-enabling a routine cannot award points twice.
+    events = events.filter(
+      (event) =>
+        !event.sourceKey ||
+        current.has(`${event.sourceKey}:${event.scheduledAt.toISOString()}`),
+    );
+    events = events.filter(
+      (event) => event.status !== 'dismissed' && event.status !== 'obsolete',
+    );
 
     return events.map((e) => ({
       id: e.id,
@@ -503,16 +533,25 @@ export class GradeService {
       },
     });
     if (!result.count) return null;
-    const event = await this.prisma.notificationEvent.findUniqueOrThrow({ where: { id: eventId } });
-    return { ...event, scheduledAt: event.scheduledAt.toISOString(), snoozedUntil: event.snoozedUntil?.toISOString() ?? null };
+    const event = await this.prisma.notificationEvent.findUniqueOrThrow({
+      where: { id: eventId },
+    });
+    return {
+      ...event,
+      scheduledAt: event.scheduledAt.toISOString(),
+      snoozedUntil: event.snoozedUntil?.toISOString() ?? null,
+    };
   }
-
 
   async deleteEvent(userId: string, eventId: string): Promise<boolean> {
     // Un événement déjà « fait » n'est pas supprimable : supprimer puis régénérer (refresh)
     // permettrait de le refaire et de recréditer ses points indéfiniment.
     const deleted = await this.prisma.notificationEvent.updateMany({
-      where: { id: eventId, userId, status: { notIn: ['done', 'dismissed', 'obsolete'] } },
+      where: {
+        id: eventId,
+        userId,
+        status: { notIn: ['done', 'dismissed', 'obsolete'] },
+      },
       data: { status: 'dismissed' },
     });
     return deleted.count > 0;

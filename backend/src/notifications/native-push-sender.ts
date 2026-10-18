@@ -250,14 +250,23 @@ export class NativePushSender {
           if (context && this.deliveries) {
             const local = emptyDelivery();
             try {
-              const sent = await this.deliveries.send(context.eventId, context.version, `native:${device.id}`, async () => {
-                await this.sendOne(client, device, payload, nowMs, local);
-                if (local.failed) throw new Error('Native push delivery failed');
-              }, context.now);
+              const sent = await this.deliveries.send(
+                context.eventId,
+                context.version,
+                `native:${device.id}`,
+                async () => {
+                  await this.sendOne(client, device, payload, nowMs, local);
+                  if (local.failed)
+                    throw new Error('Native push delivery failed');
+                },
+                context.now,
+              );
               if (sent && !local.removed) result.sent++;
               else if (!sent) result.failed++;
               result.removed += local.removed;
-            } catch { result.failed++; }
+            } catch {
+              result.failed++;
+            }
           } else {
             await this.sendOne(client, device, payload, nowMs, result);
           }

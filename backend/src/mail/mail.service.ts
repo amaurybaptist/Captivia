@@ -51,7 +51,9 @@ export class MailService {
         host,
         port: parseInt(process.env.MAIL_PORT || '587', 10),
         secure: process.env.MAIL_SECURE === 'true',
-        requireTLS: process.env.MAIL_REQUIRE_TLS !== 'false' && process.env.NODE_ENV === 'production',
+        requireTLS:
+          process.env.MAIL_REQUIRE_TLS !== 'false' &&
+          process.env.NODE_ENV === 'production',
         connectionTimeout: 10000,
         greetingTimeout: 10000,
         socketTimeout: 15000,

@@ -399,14 +399,19 @@ describe('Notification events hardening (W0-07)', () => {
         (e) => e.routineId === routineId,
       )!.id;
       const notifiedAt = new Date();
-      await prisma.notificationEvent.update({ where: { id: pendingId }, data: { notifiedAt, deliveryVersion: 1 } });
+      await prisma.notificationEvent.update({
+        where: { id: pendingId },
+        data: { notifiedAt, deliveryVersion: 1 },
+      });
       const second = await getEvents(`?date=${today}&refresh=true`).expect(200);
       const regenerated = bodyOf<EventBody[]>(second).find(
         (e) => e.routineId === routineId,
       )!;
       expect(regenerated.status).toBe('pending');
       expect(regenerated.id).toBe(pendingId);
-      const stored = await prisma.notificationEvent.findUniqueOrThrow({ where: { id: pendingId } });
+      const stored = await prisma.notificationEvent.findUniqueOrThrow({
+        where: { id: pendingId },
+      });
       expect(stored.notifiedAt?.getTime()).toBe(notifiedAt.getTime());
       expect(stored.deliveryVersion).toBe(1);
     });

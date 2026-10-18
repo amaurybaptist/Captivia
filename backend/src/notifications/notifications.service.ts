@@ -104,7 +104,8 @@ export class NotificationsService {
         select: { email: true },
       });
       try {
-        if (!user.email) throw new BadRequestException('An email address is required');
+        if (!user.email)
+          throw new BadRequestException('An email address is required');
         await this.sendEmail(user.email, payload);
         sent++;
       } catch {
@@ -248,8 +249,12 @@ export class NotificationsService {
     data: UpdateNotificationPreferencesDto,
   ) {
     if (data.timeZone !== undefined) {
-      if (!validTimeZone(data.timeZone)) throw new BadRequestException('Invalid time zone');
-      await this.prisma.user.update({ where: { id: userId }, data: { timezone: data.timeZone } });
+      if (!validTimeZone(data.timeZone))
+        throw new BadRequestException('Invalid time zone');
+      await this.prisma.user.update({
+        where: { id: userId },
+        data: { timezone: data.timeZone },
+      });
     }
     const existing = await this.getNotificationPreferences(userId);
 

@@ -579,10 +579,16 @@ describeDb('NotificationsSchedulerService (Prisma réel)', () => {
   it('does not mark a simulated email as delivered', async () => {
     const user = await createUser('email');
     const event = await createDueEvent(user.id);
-    sendCareReminder.mockResolvedValueOnce({ sent: true, simulated: true, attempts: 1 });
+    sendCareReminder.mockResolvedValueOnce({
+      sent: true,
+      simulated: true,
+      attempts: 1,
+    });
     await scheduler.runOnce(NOW);
     expect(mailsTo(user.email)).toHaveLength(1);
-    const row = await prisma.notificationEvent.findUniqueOrThrow({ where: { id: event.id } });
+    const row = await prisma.notificationEvent.findUniqueOrThrow({
+      where: { id: event.id },
+    });
     expect(row.notifiedAt).toBeNull();
   });
 
@@ -594,7 +600,8 @@ describeDb('NotificationsSchedulerService (Prisma réel)', () => {
     const previous = {
       NODE_ENV: process.env.NODE_ENV,
       REMINDERS_ENABLED: process.env.REMINDERS_ENABLED,
-      NOTIFICATIONS_SCHEDULER_ENABLED: process.env.NOTIFICATIONS_SCHEDULER_ENABLED,
+      NOTIFICATIONS_SCHEDULER_ENABLED:
+        process.env.NOTIFICATIONS_SCHEDULER_ENABLED,
     };
     try {
       process.env.NODE_ENV = 'development';

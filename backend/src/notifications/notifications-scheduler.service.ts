@@ -288,9 +288,32 @@ export class NotificationsSchedulerService {
         status: 'pending',
         notifiedAt: null,
         OR: [
-          { snoozedUntil: null, scheduledAt: { gt: new Date(now.getTime() - REMINDER_WINDOW_MS), lte: now } },
-          { snoozedUntil: { gt: new Date(now.getTime() - 60 * 60_000), lte: now } },
-          { deliveries: { some: { sentAt: null, attempts: { lt: 5 }, nextAttemptAt: { lte: now } } }, scheduledAt: { gt: new Date(now.getTime() - 60 * 60_000), lte: now } },
+          {
+            snoozedUntil: null,
+            scheduledAt: {
+              gt: new Date(now.getTime() - REMINDER_WINDOW_MS),
+              lte: now,
+            },
+          },
+          {
+            snoozedUntil: {
+              gt: new Date(now.getTime() - 60 * 60_000),
+              lte: now,
+            },
+          },
+          {
+            deliveries: {
+              some: {
+                sentAt: null,
+                attempts: { lt: 5 },
+                nextAttemptAt: { lte: now },
+              },
+            },
+            scheduledAt: {
+              gt: new Date(now.getTime() - 60 * 60_000),
+              lte: now,
+            },
+          },
         ],
       },
       orderBy: { scheduledAt: 'asc' },
@@ -303,7 +326,10 @@ export class NotificationsSchedulerService {
     const stale = candidates.filter((ev) => !scheduled.includes(ev));
     const due = scheduled.filter((event) => {
       const preferences = event.user.notificationPreferences[0];
-      return isTypeEnabled(preferences?.types, event.type) && insideDeliveryWindow(preferences?.schedule, now, event.user.timezone);
+      return (
+        isTypeEnabled(preferences?.types, event.type) &&
+        insideDeliveryWindow(preferences?.schedule, now, event.user.timezone)
+      );
     });
     if (stale.length > 0) {
       await tx.notificationEvent.deleteMany({
@@ -359,7 +385,11 @@ export class NotificationsSchedulerService {
             : { emailed: false, pushed: false };
         if (delivered.emailed) result.emailed++;
         if (delivered.pushed) result.pushed++;
-        if (!('retry' in delivered && delivered.retry) && (delivered.emailed || delivered.pushed)) continue;
+        if (
+          !('retry' in delivered && delivered.retry) &&
+          (delivered.emailed || delivered.pushed)
+        )
+          continue;
 
         // Aucun canal n'a abouti : on libère la réservation (si elle est toujours la nôtre)
         // pour retenter au prochain tick, tant que l'événement reste dans la fenêtre de 10 min.
@@ -399,47 +429,55 @@ export class NotificationsSchedulerService {
     let retry = false;
 
     if (recipient && (channel === 'email' || channel === 'both')) {
-      const send = () => this.mailService
-        .sendCareReminder(recipient, ev.user.locale, {
-          label,
-          animalName: ev.animal?.name,
-          scheduledAt: ev.scheduledAt,
-          timezone: ev.user.timezone,
-          appUrl,
-        })
-        .then((res) => {
-          if (!res.sent || res.simulated) throw new Error('Reminder email not accepted');
-        });
-      emailed = await (this.deliveries
-        ? this.deliveries.send(ev.id, ev.deliveryVersion, 'email', send, now)
-        : send().then(() => true)).catch(() => false);
+      const send = () =>
+        this.mailService
+          .sendCareReminder(recipient, ev.user.locale, {
+            label,
+            animalName: ev.animal?.name,
+            scheduledAt: ev.scheduledAt,
+            timezone: ev.user.timezone,
+            appUrl,
+          })
+          .then((res) => {
+            if (!res.sent || res.simulated)
+              throw new Error('Reminder email not accepted');
+          });
+      emailed = await (
+        this.deliveries
+          ? this.deliveries.send(ev.id, ev.deliveryVersion, 'email', send, now)
+          : send().then(() => true)
+      ).catch(() => false);
       retry = !emailed;
     }
 
     if (channel === 'push' || channel === 'both') {
       const localReminder = localReminderFor(ev, ev.user.timezone);
       const payload = {
-          title: label,
-          body: ev.animal?.name ?? label,
-          data: {
-            eventId: ev.id,
-            type: ev.type,
-            animalId: ev.animalId,
-            // Préfixe de locale pour l'URL ouverte au clic (sw.js : notificationclick).
-            locale: ev.user.locale,
-          },
-          // Push natif : pas d'envoi à un téléphone qui a déjà programmé CE rappel, à CET
-          // instant, en local (W6-07) ; jamais pour un RDV (J-N, 08:00) ni un vaccin.
-          ...(localReminder ? { localReminder } : {}),
-          nativeDeadline,
-          delivery: { eventId: ev.id, version: ev.deliveryVersion, now },
-        };
+        title: label,
+        body: ev.animal?.name ?? label,
+        data: {
+          eventId: ev.id,
+          type: ev.type,
+          animalId: ev.animalId,
+          // Préfixe de locale pour l'URL ouverte au clic (sw.js : notificationclick).
+          locale: ev.user.locale,
+        },
+        // Push natif : pas d'envoi à un téléphone qui a déjà programmé CE rappel, à CET
+        // instant, en local (W6-07) ; jamais pour un RDV (J-N, 08:00) ni un vaccin.
+        ...(localReminder ? { localReminder } : {}),
+        nativeDeadline,
+        delivery: { eventId: ev.id, version: ev.deliveryVersion, now },
+      };
       if (this.pushSender.deliver) {
-        const result = await this.pushSender.deliver(ev.userId, payload).catch(() => ({ sent: 0, failed: 1, covered: 0 }));
+        const result = await this.pushSender
+          .deliver(ev.userId, payload)
+          .catch(() => ({ sent: 0, failed: 1, covered: 0 }));
         pushed = result.sent + (result.covered ?? 0) > 0;
         retry = retry || result.failed > 0;
       } else {
-        pushed = await this.pushSender.sendToUser(ev.userId, payload).catch(() => false);
+        pushed = await this.pushSender
+          .sendToUser(ev.userId, payload)
+          .catch(() => false);
       }
     }
     return { emailed, pushed, retry };

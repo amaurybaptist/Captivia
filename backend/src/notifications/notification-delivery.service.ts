@@ -27,7 +27,10 @@ export class NotificationDeliveryService {
         nextAttemptAt: { lte: now },
         OR: [{ leaseUntil: null }, { leaseUntil: { lt: now } }],
       },
-      data: { leaseUntil: new Date(now.getTime() + 300_000), attempts: { increment: 1 } },
+      data: {
+        leaseUntil: new Date(now.getTime() + 300_000),
+        attempts: { increment: 1 },
+      },
     });
     if (!claimed.count) return false;
     const event = await this.prisma.notificationEvent.findFirst({
@@ -35,14 +38,16 @@ export class NotificationDeliveryService {
     });
     if (!event) {
       await this.prisma.notificationDelivery.update({
-        where: { id: delivery.id }, data: { leaseUntil: null },
+        where: { id: delivery.id },
+        data: { leaseUntil: null },
       });
       return false;
     }
     try {
       await work();
       await this.prisma.notificationDelivery.update({
-        where: { id: delivery.id }, data: { sentAt: now, leaseUntil: null },
+        where: { id: delivery.id },
+        data: { sentAt: now, leaseUntil: null },
       });
       return true;
     } catch (error) {
@@ -50,7 +55,9 @@ export class NotificationDeliveryService {
         where: { id: delivery.id },
         data: {
           leaseUntil: null,
-          nextAttemptAt: new Date(now.getTime() + Math.min(15, 2 ** delivery.attempts) * 60_000),
+          nextAttemptAt: new Date(
+            now.getTime() + Math.min(15, 2 ** delivery.attempts) * 60_000,
+          ),
         },
       });
       throw error;

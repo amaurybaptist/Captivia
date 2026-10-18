@@ -46,7 +46,10 @@ export interface LocalReminderRef {
 /** Envoi de notifications push pour un utilisateur. Renvoie true si au moins un envoi a abouti. */
 export interface PushSender {
   sendToUser(userId: string, payload: PushReminderPayload): Promise<boolean>;
-  deliver?(userId: string, payload: PushReminderPayload): Promise<PushDeliveryResult>;
+  deliver?(
+    userId: string,
+    payload: PushReminderPayload,
+  ): Promise<PushDeliveryResult>;
 }
 
 export const PUSH_SENDER = Symbol('PUSH_SENDER');
@@ -198,21 +201,30 @@ export class WebPushSender implements PushSender {
         }
         const validKeys = { p256dh: keys.p256dh, auth: keys.auth };
         try {
-          const send = async () => { await withDeadline(
-            webPush.sendNotification(
-              {
-                endpoint: sub.endpoint,
-                keys: validKeys,
-              },
-              body,
-              options,
-            ),
-            PUSH_REQUEST_TIMEOUT_MS,
-          ); };
+          const send = async () => {
+            await withDeadline(
+              webPush.sendNotification(
+                {
+                  endpoint: sub.endpoint,
+                  keys: validKeys,
+                },
+                body,
+                options,
+              ),
+              PUSH_REQUEST_TIMEOUT_MS,
+            );
+          };
           const context = payload.delivery;
-          const sent = context && this.deliveries
-            ? await this.deliveries.send(context.eventId, context.version, `push:${sub.id}`, send, context.now)
-            : (await send(), true);
+          const sent =
+            context && this.deliveries
+              ? await this.deliveries.send(
+                  context.eventId,
+                  context.version,
+                  `push:${sub.id}`,
+                  send,
+                  context.now,
+                )
+              : (await send(), true);
           if (sent) result.sent++;
           else result.failed++;
         } catch (error) {
