@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "5fcebf8349c12ad53db8bf82985f3d92ffd5cb3db039edea0cc80e450a3f8ad3",
+  "locale": "en",
+  "questions": [
+    {
+      "id": "mammals-001",
+      "animal": "Dog",
+      "prompt": "Which sense particularly helps a dog follow a scent trail?",
+      "options": [
+        "The sense of smell",
+        "Color vision",
+        "The taste of salt",
+        "Echolocation"
+      ],
+      "explanation": "Dogs have a very keen sense of smell and can distinguish many odors.",
+      "didYouKnow": "The dog also has a third eyelid which protects and moistens the eye.",
+      "imageCaption": "Domestic dog"
+    },
+    {
+      "id": "mammals-002",
+      "animal": "Domestic cat",
+      "prompt": "What are cat vibrissae mainly used for?",
+      "options": [
+        "To detect obstacles and nearby air movements",
+        "To regulate your temperature",
+        "To taste the food",
+        "To produce sounds"
+      ],
+      "explanation": "Vibrissae are sensory hairs connected to nerve receptors.",
+      "didYouKnow": "Cats also communicate through postures, smells and vocalizations.",
+      "imageCaption": "Domestic cat"
+    },
+    {
+      "id": "mammals-003",
+      "animal": "Horse",
+      "prompt": "What is the horse's fast three-beat gait called?",
+      "options": [
+        "The gallop",
+        "The trot",
+        "The step",
+        "The Amble"
+      ],
+      "explanation": "The gallop is a rapid gait whose supports follow one another according to a characteristic rhythm.",
+      "didYouKnow": "The horse can sleep standing up thanks to a mechanism that stabilizes its limbs.",
+      "imageCaption": "Domestic horse"
+    },
+    {
+      "id": "mammals-004",
+      "animal": "Cow",
+      "prompt": "How many compartments does a cattle stomach have?",
+      "options": [
+        "Four",
+        "A",
+        "Two",
+        "Six"
+      ],
+      "explanation": "The digestive system of cattle includes the rumen, reticulum, omasum and abomasum.",
+      "didYouKnow": "Cattle chew the cud by regurgitating part of their food to re-chew it.",
+      "imageCaption": "Domestic cattle"
+    },
+    {
+      "id": "mammals-005",
+      "animal": "Sheep",
+      "prompt": "What role does wool play in sheep?",
+      "options": [
+        "It insulates the body",
+        "It is used to fly",
+        "She produces milk",
+        "It replaces the hooves"
+      ],
+      "explanation": "Wool forms an insulating layer which helps limit heat exchange.",
+      "didYouKnow": "Sheep have excellent peripheral vision due to the lateral position of their eyes.",
+      "imageCaption": "Domestic sheep"
+    },
+    {
+      "id": "mammals-006",
+      "animal": "Goat",
+      "prompt": "What adaptation helps the mountain goat move over rocks?",
+      "options": [
+        "Adherent and split hooves",
+        "Webbed feet",
+        "A prehensile tail",
+        "Retractable claws"
+      ],
+      "explanation": "The goats' cloven, flexible hooves grip uneven rock surfaces.",
+      "didYouKnow": "Goats often live in social groups called herds.",
+      "imageCaption": "Domestic goat"
+    },
+    {
+      "id": "mammals-007",
+      "animal": "Pig",
+      "prompt": "What behavior does a pig often use when foraging?",
+      "options": [
+        "Searching the ground with its snout",
+        "Digging with its horns",
+        "Filtering water with your teeth",
+        "Hunting in flight"
+      ],
+      "explanation": "The pig's robust snout allows it to move the ground and find food.",
+      "didYouKnow": "Pigs are social animals capable of learning tasks.",
+      "imageCaption": "domestic pig"
+    },
+    {
+      "id": "mammals-008",
+      "animal": "Rabbit",
+      "prompt": "What are the rabbit's long ears for?",
+      "options": [
+        "Track sounds and help dissipate heat",
+        "To breathe underwater",
+        "Digging burrows",
+        "To store food"
+      ],
+      "explanation": "Mobile ears pick up sounds and contribute to thermoregulation.",
+      "didYouKnow": "Rabbit teeth grow continuously and are worn down as they chew.",
+      "imageCaption": "European rabbit"
+    },
+    {
+      "id": "mammals-009",
+      "animal": "Mouse",
+      "prompt": "Why do mouse incisors have to wear down regularly?",
+      "options": [
+        "They continually grow",
+        "They are replaced every week",
+        "They are used to filter water",
+        "They are hollow"
+      ],
+      "explanation": "Rodents' incisors grow throughout their lives and wear out as they gnaw.",
+      "didYouKnow": "The whiskers help the mouse move in the dark.",
+      "imageCaption": "House mouse"
+    },
+    {
+      "id": "mammals-010",
+      "animal": "Brown rat",
+      "prompt": "How do rats often communicate in frequencies inaudible to humans?",
+      "options": [
+        "By ultrasound",
+        "By infrasound only",
+        "By flashes of light",
+        "By vibrations of the tail"
+      ],
+      "explanation": "Rats emit ultrasonic vocalizations, especially during social interactions.",
+      "didYouKnow": "Rats can learn complex routes and remember places.",
+      "imageCaption": "Brown rat"
+    },
+    {
+      "id": "mammals-011",
+      "animal": "Hamster",
+      "prompt": "Where does a hamster often carry food?",
+      "options": [
+        "In his pouches",
+        "In his ears",
+        "Under his claws",
+        "In his tail"
+      ],
+      "explanation": "The cheek pouches are expandable pockets that allow the hamster to carry food.",
+      "didYouKnow": "Hamsters are most active at dusk or at night.",
+      "imageCaption": "Syrian hamster"
+    },
+    {
+      "id": "mammals-012",
+      "animal": "red squirrel",
+      "prompt": "Why does squirrel sometimes bury seeds?",
+      "options": [
+        "To build up food reserves",
+        "To grow trees immediately",
+        "To mark your territory with urine",
+        "To attract predators"
+      ],
+      "explanation": "The squirrel hides seeds that it can find later, even if it forgets some.",
+      "didYouKnow": "The red squirrel also uses its bushy tail to keep its balance in trees.",
+      "imageCaption": "red squirrel"
+    },
+    {
+      "id": "mammals-013",
+      "animal": "Beaver",
+      "prompt": "What structure do beavers sometimes build to slow down a stream?",
+      "options": [
+        "A dam of branches and mud",
+        "A nest of leaves in the trees",
+        "An ice tunnel",
+        "A sand dike only"
+      ],
+      "explanation": "Beavers use branches, mud and other materials to build dams.",
+      "didYouKnow": "Its powerful incisors continually grow and gnaw the wood.",
+      "imageCaption": "European beaver"
+    },
+    {
+      "id": "mammals-014",
+      "animal": "Sea otter",
+      "prompt": "How do sea otters sometimes crack shells?",
+      "options": [
+        "With a tool, like a stone",
+        "With his horns",
+        "By exposing them to the sun",
+        "By hitting them with his rear fins"
+      ],
+      "explanation": "The sea otter can use a stone as an anvil to open certain shells.",
+      "didYouKnow": "Its dense coat traps air and contributes to its insulation.",
+      "imageCaption": "Sea otter"
+    },
+    {
+      "id": "mammals-015",
+      "animal": "European badger",
+      "prompt": "What shelter does the European badger often use?",
+      "options": [
+        "An underground sett (burrow) called a badger sett",
+        "A floating nest",
+        "A cavity in the clouds",
+        "A termite mound"
+      ],
+      "explanation": "The badger often lives in a network of underground galleries and chambers.",
+      "didYouKnow": "It is especially active at dusk and night.",
+      "imageCaption": "European badger"
+    },
+    {
+      "id": "mammals-016",
+      "animal": "European hedgehog",
+      "prompt": "What mechanism does the hedgehog use when faced with danger?",
+      "options": [
+        "He curls up into a ball",
+        "It projects its quills",
+        "It changes color",
+        "He flies away"
+      ],
+      "explanation": "By contracting its muscles, the hedgehog exposes its quills and protects its vulnerable parts.",
+      "didYouKnow": "The European hedgehog is mainly active at night.",
+      "imageCaption": "European hedgehog"
+    },
+    {
+      "id": "mammals-017",
+      "animal": "Mole",
+      "prompt": "What part of the body does the mole use effectively for digging?",
+      "options": [
+        "Its large and powerful front legs",
+        "His webbed ears",
+        "Its shovel-shaped tail only",
+        "His back teeth"
+      ],
+      "explanation": "The forelimbs of the mole are adapted to moving earth.",
+      "didYouKnow": "The mole locates its prey in the ground using tactile and olfactory senses.",
+      "imageCaption": "European mole"
+    },
+    {
+      "id": "mammals-018",
+      "animal": "Pipistrelle bat",
+      "prompt": "How do many bats spot obstacles in the dark?",
+      "options": [
+        "By echolocation",
+        "By infrared",
+        "Using the magnetic field only",
+        "With ultraviolet vision"
+      ],
+      "explanation": "They emit sounds and interpret their echoes to locate objects.",
+      "didYouKnow": "Bats are the only mammals capable of sustained active flight.",
+      "imageCaption": "Common pipistrelle"
+    },
+    {
+      "id": "mammals-019",
+      "animal": "Fruit bat",
+      "prompt": "What does a large fruit flying fox mainly feed on?",
+      "options": [
+        "Fruit and nectar",
+        "Fish only",
+        "Leaves of grass",
+        "Small mammals exclusively"
+      ],
+      "explanation": "Fruit flying foxes consume fruits and can carry seeds.",
+      "didYouKnow": "Fruit bats often rest upside down, hanging by their feet.",
+      "imageCaption": "Egyptian fruit bat"
+    },
+    {
+      "id": "mammals-020",
+      "animal": "platypus",
+      "prompt": "What particular trait characterizes the platypus among mammals?",
+      "options": [
+        "He lays eggs",
+        "He has feathers",
+        "He has six legs",
+        "It breathes through gills"
+      ],
+      "explanation": "The platypus is a monotreme: females lay eggs.",
+      "didYouKnow": "The male has a venomous sting on its hind legs.",
+      "imageCaption": "platypus"
+    },
+    {
+      "id": "mammals-021",
+      "animal": "Echidna",
+      "prompt": "How does the female echidna feed her young after hatching?",
+      "options": [
+        "She secretes milk which the little one licks",
+        "She regurgitates insects",
+        "She brings him pollen",
+        "She breastfeeds him with external breasts"
+      ],
+      "explanation": "Monotremes produce milk, but do not have nipples; milk is secreted on the skin.",
+      "didYouKnow": "The echidna feeds mainly on ants and termites.",
+      "imageCaption": "Short-beaked Echidna"
+    },
+    {
+      "id": "mammals-022",
+      "animal": "Red Kangaroo",
+      "prompt": "Where does the young kangaroo complete a significant portion of its development?",
+      "options": [
+        "In its mother's pouch",
+        "In a nest on the ground",
+        "In a shell",
+        "In a gallery dug by the father"
+      ],
+      "explanation": "The young marsupial is born very underdeveloped and continues its growth in the pouch.",
+      "didYouKnow": "Kangaroos move efficiently by hopping.",
+      "imageCaption": "Red Kangaroo"
+    },
+    {
+      "id": "mammals-023",
+      "animal": "Koala",
+      "prompt": "What is the koala's main food?",
+      "options": [
+        "Eucalyptus leaves",
+        "Seafood",
+        "Cactus roots",
+        "Pine seeds"
+      ],
+      "explanation": "The koala specializes in eating eucalyptus leaves.",
+      "didYouKnow": "The koala has powerful claws that help it climb trees.",
+      "imageCaption": "Koala"
+    },
+    {
+      "id": "mammals-024",
+      "animal": "Wombats",
+      "prompt": "What shape do wombat feces have?",
+      "options": [
+        "cubes",
+        "Perfect spheres",
+        "Flat ribbons",
+        "Hollow spirals"
+      ],
+      "explanation": "The wombat's cubic feces are linked to the shape and elasticity of its intestine.",
+      "didYouKnow": "The wombat can run quickly over short distances.",
+      "imageCaption": "Common Wombat"
+    },
+    {
+      "id": "mammals-025",
+      "animal": "Tasmanian Devil",
+      "prompt": "What type of food does the Tasmanian Devil frequently eat?",
+      "options": [
+        "Carcasses and small prey",
+        "Nectar only",
+        "wood",
+        "Filtered algae"
+      ],
+      "explanation": "The Tasmanian devil is an opportunistic carnivore that also eats carrion.",
+      "didYouKnow": "It has a powerful jaw for its size.",
+      "imageCaption": "Tasmanian Devil"
+    },
+    {
+      "id": "mammals-026",
+      "animal": "Virginia Opossum",
+      "prompt": "What can the Virginia opossum do when extremely frightened?",
+      "options": [
+        "Adopt reflex immobility",
+        "Throwing thorns",
+        "Produce venom in its tail",
+        "Turn your skin into bark"
+      ],
+      "explanation": "This involuntary immobility can be accompanied by a posture giving the impression that the animal is dead.",
+      "didYouKnow": "The opossum is a marsupial from North America.",
+      "imageCaption": "Virginia Opossum"
+    },
+    {
+      "id": "mammals-027",
+      "animal": "Lion",
+      "prompt": "What role do lionesses often play in collective hunting?",
+      "options": [
+        "They coordinate the approach and capture of prey",
+        "They build dams",
+        "They dig deep burrows",
+        "They attract fish by echolocation"
+      ],
+      "explanation": "Lionesses often hunt in groups, which can help capture large prey.",
+      "didYouKnow": "A group of lions is called a pride.",
+      "imageCaption": "Lion"
+    },
+    {
+      "id": "mammals-028",
+      "animal": "Tiger",
+      "prompt": "What purpose do tiger stripes serve in its habitat?",
+      "options": [
+        "To visually break up your silhouette",
+        "To attract prey by light",
+        "To regulate blood flow",
+        "To indicate a precise age"
+      ],
+      "explanation": "The stripes contribute to camouflage in grasses and shadows.",
+      "didYouKnow": "The stripe pattern is unique to each tiger.",
+      "imageCaption": "Tiger"
+    },
+    {
+      "id": "mammals-029",
+      "animal": "Leopard",
+      "prompt": "Where does the leopard sometimes place its prey?",
+      "options": [
+        "In a tree",
+        "At the bottom of a lake",
+        "In a termite mound",
+        "On a glacier"
+      ],
+      "explanation": "The leopard can hoist prey into a tree to keep it safe from other predators.",
+      "didYouKnow": "Its rosettes help it camouflage itself in varied environments.",
+      "imageCaption": "Leopard"
+    },
+    {
+      "id": "mammals-030",
+      "animal": "Cheetah",
+      "prompt": "What adaptation helps the cheetah accelerate quickly?",
+      "options": [
+        "A very flexible spine",
+        "Membranous wings",
+        "Webbed feet",
+        "A light shell"
+      ],
+      "explanation": "Its flexible spine contributes to the amplitude of its strides during running.",
+      "didYouKnow": "The cheetah's claws are partially non-retractable and improve its grip.",
+      "imageCaption": "Cheetah"
+    },
+    {
+      "id": "mammals-031",
+      "animal": "Gray Wolf",
+      "prompt": "How does a wolf pack often plan its movements?",
+      "options": [
+        "Through social interactions and signals",
+        "By a leader chosen by daily combat",
+        "By written olfactory maps",
+        "By screams only underwater"
+      ],
+      "explanation": "Wolves coordinate their activities with postures, scents and vocalizations.",
+      "didYouKnow": "Howling helps wolves communicate over long distances.",
+      "imageCaption": "Gray Wolf"
+    },
+    {
+      "id": "mammals-032",
+      "animal": "Red fox",
+      "prompt": "How can the red fox spot a small rodent under the snow?",
+      "options": [
+        "By listening to its movements and jumping on it",
+        "By always digging a circular tunnel",
+        "Using infrared vision",
+        "By smelling its footprint in the wind only"
+      ],
+      "explanation": "The fox combines its keen hearing and its ability to localize sounds to spot hidden prey.",
+      "didYouKnow": "The red fox may also use its bushy tail as a blanket when resting.",
+      "imageCaption": "Red fox"
+    },
+    {
+      "id": "mammals-033",
+      "animal": "Polar bear",
+      "prompt": "What property helps polar bear fur insulate its body?",
+      "options": [
+        "It retains an insulating layer of air",
+        "It is made of hollow feathers",
+        "It produces its heat thanks to a pigment",
+        "She is covered in blue oil"
+      ],
+      "explanation": "The dense fur traps air and limits heat loss.",
+      "didYouKnow": "The polar bear's skin is black.",
+      "imageCaption": "Polar bear"
+    },
+    {
+      "id": "mammals-034",
+      "animal": "brown bear",
+      "prompt": "How does the brown bear survive the winter period in certain cold regions?",
+      "options": [
+        "By slowing down your activity and living on reserves",
+        "Always migrating towards the tropics",
+        "Breathing under the ice",
+        "By feeding exclusively on snow"
+      ],
+      "explanation": "In cold regions, the brown bear spends the winter in a den and uses its fat reserves.",
+      "didYouKnow": "The brown bear can be active day or night depending on the season and available resources.",
+      "imageCaption": "brown bear"
+    },
+    {
+      "id": "mammals-035",
+      "animal": "Giant panda",
+      "prompt": "Which element makes up the majority of the giant panda's diet?",
+      "options": [
+        "Bamboo",
+        "The fish",
+        "Termites",
+        "Eucalyptus leaves"
+      ],
+      "explanation": "The giant panda mainly consumes bamboo, even though it belongs to the order of carnivores.",
+      "didYouKnow": "The panda's \"thumb\" is a modified wrist bone that helps grip stalks.",
+      "imageCaption": "Giant panda"
+    },
+    {
+      "id": "mammals-036",
+      "animal": "Red panda",
+      "prompt": "What is the red panda's main diet?",
+      "options": [
+        "Bamboo",
+        "Large herbivores",
+        "Marine crustaceans",
+        "Cactus seeds only"
+      ],
+      "explanation": "The red panda eats mainly bamboo, with fruits, eggs and small animals depending on the occasion.",
+      "didYouKnow": "The red panda is not closely related to the giant panda.",
+      "imageCaption": "Red panda"
+    },
+    {
+      "id": "mammals-037",
+      "animal": "African Elephant",
+      "prompt": "What is the main purpose of the elephant’s trunk?",
+      "options": [
+        "To grasp, smell and suck water",
+        "Breathing underwater for hours",
+        "To dig without using tusks",
+        "To filter pollen"
+      ],
+      "explanation": "The proboscis joins the nose and upper lip and is used for many tasks.",
+      "didYouKnow": "Elephants can maintain lasting social bonds within their group.",
+      "imageCaption": "African savannah elephant"
+    },
+    {
+      "id": "mammals-038",
+      "animal": "Asian Elephant",
+      "prompt": "What trait often distinguishes the Asian elephant from the African elephant?",
+      "options": [
+        "Their ears are generally smaller",
+        "He has no trunk",
+        "He only lives in the desert",
+        "Its tusks grow on females of all populations"
+      ],
+      "explanation": "Asian elephants generally have smaller ears than their African cousins.",
+      "didYouKnow": "Asian elephants live in several types of forests and grasslands.",
+      "imageCaption": "Asian Elephant"
+    },
+    {
+      "id": "mammals-039",
+      "animal": "White Rhinoceros",
+      "prompt": "What does the white rhino mainly eat?",
+      "options": [
+        "Grass",
+        "Bamboo",
+        "fish",
+        "Nectar"
+      ],
+      "explanation": "The white rhino is a large grazer that feeds mainly on grasses.",
+      "didYouKnow": "Its wide square lip is suitable for gripping grass close to the ground.",
+      "imageCaption": "White Rhinoceros"
+    },
+    {
+      "id": "mammals-040",
+      "animal": "Hippopotamus",
+      "prompt": "Where does the hippo spend most of the day?",
+      "options": [
+        "In water or mud",
+        "In the trees",
+        "Under the desert sand",
+        "In mountain caves"
+      ],
+      "explanation": "The hippopotamus often remains submerged or covered in mud during the day to protect itself from the sun.",
+      "didYouKnow": "The hippopotamus can close its nostrils and ears when submerged.",
+      "imageCaption": "Common hippopotamus"
+    },
+    {
+      "id": "mammals-041",
+      "animal": "Giraffe",
+      "prompt": "What mechanism helps the giraffe buffer the variations in blood pressure in its head when it raises or lowers its neck?",
+      "options": [
+        "A network of small vessels and valves regulate pressure variations.",
+        "A second heart placed at the base of the skull increases blood flow.",
+        "Sinuses in the neck bones store blood when the head is lowered.",
+        "A constantly slow heart rate prevents any variation in pressure."
+      ],
+      "explanation": "The giraffe has a carotid network and valves that limit pressure variations when the head changes height.",
+      "didYouKnow": "Its prehensile tongue helps it grasp leaves between the thorns.",
+      "imageCaption": "Giraffe"
+    },
+    {
+      "id": "mammals-042",
+      "animal": "Plains Zebra",
+      "prompt": "What might the zebra's stripes contribute to in particular?",
+      "options": [
+        "To reduce attacks from biting flies",
+        "To make the animal invisible to lions",
+        "To cool the blood by evaporation",
+        "To create water reserves"
+      ],
+      "explanation": "Studies indicate that stripes can hinder the approach and landing of some biting insects.",
+      "didYouKnow": "The plains zebra belongs to the genus Equus, which also includes horses and donkeys.",
+      "imageCaption": "Plains Zebra"
+    },
+    {
+      "id": "mammals-043",
+      "animal": "Camel",
+      "prompt": "How does the camel use the fat from its hump?",
+      "options": [
+        "As an energy reserve",
+        "As a liquid water reservoir",
+        "As respiratory organ",
+        "As protection against sand only"
+      ],
+      "explanation": "The hump contains fat, which the body can use for energy.",
+      "didYouKnow": "Camels have oval-shaped red blood cells, a useful feature during variations in hydration.",
+      "imageCaption": "Dromedary"
+    },
+    {
+      "id": "mammals-044",
+      "animal": "Dromedary",
+      "prompt": "How many humps does the dromedary normally have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "None"
+      ],
+      "explanation": "The dromedary is distinguished from the Bactrian camel by its unique hump.",
+      "didYouKnow": "After a period without drinking, the camel can quickly absorb a large quantity of water.",
+      "imageCaption": "Dromedary"
+    },
+    {
+      "id": "mammals-045",
+      "animal": "Bactrian camel",
+      "prompt": "How many humps does the Bactrian camel have?",
+      "options": [
+        "Two",
+        "A",
+        "Three",
+        "None"
+      ],
+      "explanation": "The Bactrian camel has two humps containing fat reserves.",
+      "didYouKnow": "Its thick fur helps it endure the cold winters of inland regions of Asia.",
+      "imageCaption": "Bactrian camel"
+    },
+    {
+      "id": "mammals-046",
+      "animal": "American Bison",
+      "prompt": "In what season do American bison have their thickest fur?",
+      "options": [
+        "In winter",
+        "In the heart of summer",
+        "Only during migration",
+        "After the spring moult"
+      ],
+      "explanation": "The bison develops a thick winter fleece that insulates it from the cold.",
+      "didYouKnow": "It sometimes scratches the ground with its horns and hooves.",
+      "imageCaption": "American Bison"
+    },
+    {
+      "id": "mammals-047",
+      "animal": "Saiga antelope",
+      "prompt": "What is the particular purpose of the saiga's enlarged nose in the steppes?",
+      "options": [
+        "It filters dust and conditions the inspired air.",
+        "It especially increases the perception of bass sounds in large spaces.",
+        "It serves to retain water in plants before it reaches the stomach.",
+        "It allows you to dig the soil to reach deep roots."
+      ],
+      "explanation": "The saiga's enlarged nose helps filter dust and warm or cool the air depending on conditions.",
+      "didYouKnow": "The saiga makes seasonal migrations in the steppes.",
+      "imageCaption": "Saiga"
+    },
+    {
+      "id": "mammals-048",
+      "animal": "Mouflon",
+      "prompt": "What are the horns of male mouflon used for in certain confrontations?",
+      "options": [
+        "To push each other and compete with other males",
+        "Digging burrows",
+        "To filter the water",
+        "To regulate the temperature by evaporation"
+      ],
+      "explanation": "Males may clash their horns during social competitions.",
+      "didYouKnow": "Mouflons have excellent peripheral vision thanks to the lateral position of their eyes.",
+      "imageCaption": "Mouflon"
+    },
+    {
+      "id": "mammals-049",
+      "animal": "Red deer",
+      "prompt": "What happens to red deer antlers every year?",
+      "options": [
+        "They fall then grow back",
+        "They remain unchanged throughout their lives",
+        "They are made of keratin and never grow back",
+        "They become feathers in winter"
+      ],
+      "explanation": "Deer antlers are shed periodically and grow back during the annual cycle.",
+      "didYouKnow": "As they grow, the antlers are covered in a skin called velvet.",
+      "imageCaption": "Red deer"
+    },
+    {
+      "id": "mammals-050",
+      "animal": "Moose",
+      "prompt": "How do moose often get to aquatic plants?",
+      "options": [
+        "It grazes in shallow water",
+        "It dives with gills",
+        "He grabs them with his antlers like pliers",
+        "He digs them up while flying"
+      ],
+      "explanation": "Moose may feed on aquatic plants when entering shallow water.",
+      "didYouKnow": "The moose is the largest living deer.",
+      "imageCaption": "Moose"
+    },
+    {
+      "id": "mammals-051",
+      "animal": "Reindeer",
+      "prompt": "What modification of the reindeer's hoof improves its grip on hard winter ground?",
+      "options": [
+        "The pads retract and the hard edge of the hoof becomes more in contact with the ground.",
+        "The pads expand to form a large, flexible surface.",
+        "The two fingers of the hoof weld into a single plate.",
+        "A membrane between the fingers increases grip on ice."
+      ],
+      "explanation": "In winter, the pads retract and the hard edge of the hoof provides better grip on hard snow or ice.",
+      "didYouKnow": "Reindeer can travel long distances during seasonal migrations.",
+      "imageCaption": "Reindeer"
+    },
+    {
+      "id": "mammals-052",
+      "animal": "Boar",
+      "prompt": "How do wild boars often find roots in the ground?",
+      "options": [
+        "Digging with his snout",
+        "By digging with only its tusks",
+        "Striking the ground with its front hooves",
+        "Using his canines like a shovel"
+      ],
+      "explanation": "The wild boar uses its powerful snout to turn over the earth and search for food.",
+      "didYouKnow": "Boars often have light bands that fade as they grow.",
+      "imageCaption": "Boar"
+    },
+    {
+      "id": "mammals-053",
+      "animal": "Bottlenose dolphin",
+      "prompt": "How do dolphins often locate prey underwater?",
+      "options": [
+        "By echolocation",
+        "By smell in the air only",
+        "By ultrasound reflected only by plants",
+        "By vibrations transmitted by the rear fins"
+      ],
+      "explanation": "The dolphin makes clicks and analyzes the echoes to locate objects and prey.",
+      "didYouKnow": "Dolphins breathe air at the surface through their blowhole.",
+      "imageCaption": "Bottlenose dolphin"
+    },
+    {
+      "id": "mammals-054",
+      "animal": "Orca",
+      "prompt": "Why might orca populations have different diets?",
+      "options": [
+        "They develop hunting traditions and specialize on different prey.",
+        "All populations eat the same mix of fish and mammals, regardless of region.",
+        "The diet depends solely on the body size of each individual.",
+        "Orcas change diet randomly, unrelated to their group or habitat."
+      ],
+      "explanation": "Orca groups can socially transmit distinct hunting techniques and dietary preferences.",
+      "didYouKnow": "Orca groups have distinct vocalizations and social habits.",
+      "imageCaption": "Orca"
+    },
+    {
+      "id": "mammals-055",
+      "animal": "Blue whale",
+      "prompt": "How do blue whales catch krill?",
+      "options": [
+        "By filtering the water using its baleen plates",
+        "By sucking in through its gills",
+        "Biting the krill one by one with teeth",
+        "By catching it with its fins"
+      ],
+      "explanation": "The baleen traps small prey when the whale expels water from its mouth.",
+      "didYouKnow": "The blue whale is the largest known animal to have lived on Earth.",
+      "imageCaption": "Blue whale"
+    },
+    {
+      "id": "mammals-056",
+      "animal": "Humpback whale",
+      "prompt": "What does the humpback whale do during engulfment feeding?",
+      "options": [
+        "It opens its mouth wide, engulfs water and retains prey with its baleen plates.",
+        "It filters the water by swimming with its mouth half open without swallowing it.",
+        "It sucks up sediment from the bottom then releases it through the vents.",
+        "It captures each fish individually with its pectoral fins."
+      ],
+      "explanation": "The extensible ventral furrows allow the whale to engulf a large mass of water, then expelled through the baleen plates.",
+      "didYouKnow": "Humpback whales are known for their complex songs, especially among breeding males.",
+      "imageCaption": "Humpback whale"
+    },
+    {
+      "id": "mammals-057",
+      "animal": "sperm whale",
+      "prompt": "Which prey group is a frequent target of the sperm whale's deep dives?",
+      "options": [
+        "Cephalopods, especially squid.",
+        "Small surface fish, such as sardines.",
+        "Crustaceans attached to shallow reefs.",
+        "Seals resting on the ice."
+      ],
+      "explanation": "The sperm whale dives deep to hunt squid and other cephalopods.",
+      "didYouKnow": "It produces powerful clicks which contribute to its echolocation.",
+      "imageCaption": "sperm whale"
+    },
+    {
+      "id": "mammals-058",
+      "animal": "Narwhal",
+      "prompt": "What tooth does the narwhal's tusk mainly come from?",
+      "options": [
+        "From an upper canine, generally the left in males.",
+        "A lower incisor that grows forward.",
+        "A bony growth covered in keratin on the forehead.",
+        "A calcified dewlap that detaches from the jaw."
+      ],
+      "explanation": "The tusk is an elongated upper canine that crosses the lip; it develops most often in males.",
+      "didYouKnow": "Narwhals live in Arctic waters and often travel in groups.",
+      "imageCaption": "Narwhal"
+    },
+    {
+      "id": "mammals-059",
+      "animal": "Beluga",
+      "prompt": "What role does the beluga's soft melon play in echolocation?",
+      "options": [
+        "It helps to focus and direct the sounds emitted.",
+        "It only amplifies sounds received by the ears.",
+        "It transforms clicks into vibrations transmitted by the fins.",
+        "It stores sounds in the form of resonance to play them back later."
+      ],
+      "explanation": "The melon is a fatty structure that helps direct sounds used for echolocation.",
+      "didYouKnow": "The beluga can produce a wide variety of sounds, hence its nickname “sea canary”.",
+      "imageCaption": "Beluga"
+    },
+    {
+      "id": "mammals-060",
+      "animal": "Harbor seal",
+      "prompt": "How do harbor seals move on land?",
+      "options": [
+        "Undulating and pushing with his body",
+        "Walking on four legs under his belly",
+        "Jumping on just one fin",
+        "By crawling thanks to prehensile legs"
+      ],
+      "explanation": "True seals cannot turn their rear flippers under the body to walk.",
+      "didYouKnow": "In the water, their rear fins provide much of the propulsion.",
+      "imageCaption": "Harbor seal"
+    },
+    {
+      "id": "mammals-061",
+      "animal": "California sea lion",
+      "prompt": "What joint allows a sea lion to move on land better than a real seal?",
+      "options": [
+        "It can rotate its hind fins under its body.",
+        "It uses its front flippers as legs and keeps the rear flippers fixed.",
+        "It folds its rear flippers along its back and crawls on its belly.",
+        "It rotates its front flippers under its body to walk."
+      ],
+      "explanation": "Sea lions can turn their rear flippers under the body and lean on them to advance on land.",
+      "didYouKnow": "California sea lions are capable of learning complex behaviors.",
+      "imageCaption": "California sea lion"
+    },
+    {
+      "id": "mammals-062",
+      "animal": "Walrus",
+      "prompt": "What are the walrus's long tusks for?",
+      "options": [
+        "To help get up on the ice and during interactions",
+        "To crack the shells like a nutcracker",
+        "Digging the snow to breathe",
+        "To filter fish"
+      ],
+      "explanation": "The walrus can use its tusks to pull itself up onto ice and into social confrontations.",
+      "didYouKnow": "Walrus often form large aggregations on ice or shorelines.",
+      "imageCaption": "Walrus"
+    },
+    {
+      "id": "mammals-063",
+      "animal": "Manatee",
+      "prompt": "What does the manatee mainly eat?",
+      "options": [
+        "Aquatic plants",
+        "fish",
+        "Seals",
+        "Corals"
+      ],
+      "explanation": "The manatee is a herbivore that grazes on aquatic plants.",
+      "didYouKnow": "It comes to the surface to breathe air.",
+      "imageCaption": "Caribbean manatee"
+    },
+    {
+      "id": "mammals-064",
+      "animal": "Dugong",
+      "prompt": "What type of habitat does the dugong frequent to feed?",
+      "options": [
+        "Underwater meadows",
+        "Coniferous forests",
+        "Rocky deserts",
+        "Deep ice floes"
+      ],
+      "explanation": "The dugong grazes on seagrass beds in shallow coastal waters.",
+      "didYouKnow": "It belongs to the order of sirenians, like the manatees.",
+      "imageCaption": "Dugong"
+    },
+    {
+      "id": "mammals-065",
+      "animal": "Giant Anteater",
+      "prompt": "How does the giant anteater capture ants and termites?",
+      "options": [
+        "With its long sticky tongue",
+        "With his sharp teeth",
+        "By filtering them through his ears",
+        "With a belly pocket"
+      ],
+      "explanation": "Its long, sticky tongue allows it to quickly grab insects from nests.",
+      "didYouKnow": "The giant anteater has no teeth.",
+      "imageCaption": "Giant Anteater"
+    },
+    {
+      "id": "mammals-066",
+      "animal": "Pangolin",
+      "prompt": "What are pangolin scales made of?",
+      "options": [
+        "Keratin",
+        "Calcium like bones",
+        "Chitin",
+        "Cartilage"
+      ],
+      "explanation": "Pangolin scales are made of keratin, like human nails.",
+      "didYouKnow": "The pangolin is the only living mammal whose body is largely covered in keratin scales.",
+      "imageCaption": "Temminck's pangolin"
+    },
+    {
+      "id": "mammals-067",
+      "animal": "Nine-banded armadillo",
+      "prompt": "How can the nine-banded armadillo sometimes cross a river?",
+      "options": [
+        "It can float by inflating its digestive tract with air or walk on the bottom while holding its breath.",
+        "It swims only by beating its shell like a paddle.",
+        "It clings to aquatic plants with its tail and lets itself be pulled by the current.",
+        "It stores water in its shell and expels it to move forward."
+      ],
+      "explanation": "The armadillo can gulp air to float or, in narrower waterways, walk underwater while holding its breath.",
+      "didYouKnow": "The nine-banded armadillo can cross water by floating or walking on the bottom.",
+      "imageCaption": "Nine-banded armadillo"
+    },
+    {
+      "id": "mammals-068",
+      "animal": "Three-toed sloth",
+      "prompt": "How does the sloth typically move through the canopy?",
+      "options": [
+        "By clinging to the branches with its long claws",
+        "Jumping from tree to tree",
+        "By digging galleries",
+        "Swimming between the trees"
+      ],
+      "explanation": "Its long, curved claws allow it to cling to branches.",
+      "didYouKnow": "Three-toed sloths have several extra cervical vertebrae that give them great head mobility.",
+      "imageCaption": "Brown-throated sloth"
+    },
+    {
+      "id": "mammals-069",
+      "animal": "Gorilla",
+      "prompt": "What does the Western Lowland Gorilla mainly eat?",
+      "options": [
+        "Plants, including leaves and fruits",
+        "Sea fish",
+        "Insects exclusively",
+        "Bamboo only"
+      ],
+      "explanation": "Gorillas are mainly herbivores and consume leaves, stems and fruits depending on their habitat.",
+      "didYouKnow": "Gorillas often build a resting nest with plants every evening.",
+      "imageCaption": "Western lowland gorilla"
+    },
+    {
+      "id": "mammals-070",
+      "animal": "Chimpanzee",
+      "prompt": "What tool does a chimpanzee often use to extract termites from a tunnel?",
+      "options": [
+        "A leafy twig that it introduces into the nest like a probe.",
+        "A stone that he rolls into the nest to get the termites out.",
+        "A sheet folded into a funnel to filter termites from water.",
+        "A thorny stem that it throws at the nest from the branches."
+      ],
+      "explanation": "Chimpanzees can prepare a twig by removing its leaves and then pass it through a termite gallery.",
+      "didYouKnow": "Chimpanzees live in communities where individuals can separate and then reunite.",
+      "imageCaption": "Common chimpanzee"
+    },
+    {
+      "id": "mammals-071",
+      "animal": "Bonobo",
+      "prompt": "What social characteristic often plays an important role in bonobo communities?",
+      "options": [
+        "Alliances and close bonds between adult females.",
+        "Related males always form the dominant nucleus and exclude females.",
+        "Each adult lives alone and only joins the group to reproduce.",
+        "A single female permanently controls all the group's resources."
+      ],
+      "explanation": "Females who have joined a new community can form important social bonds, contributing to group cohesion.",
+      "didYouKnow": "Bonobos live naturally in the forests of the Democratic Republic of Congo.",
+      "imageCaption": "Bonobo"
+    },
+    {
+      "id": "mammals-072",
+      "animal": "Bornean orangutan",
+      "prompt": "How does the orangutan move especially in the forest?",
+      "options": [
+        "Climbing and swinging in the trees",
+        "When running long distances on the ground",
+        "By digging tunnels",
+        "Hovering between the branches"
+      ],
+      "explanation": "Its long arms and prehensile hands help it move through the canopy.",
+      "didYouKnow": "The orangutan often builds a new nest in trees to sleep in.",
+      "imageCaption": "Bornean orangutan"
+    },
+    {
+      "id": "mammals-073",
+      "animal": "White-handed Gibbon",
+      "prompt": "What locomotion characterizes gibbons?",
+      "options": [
+        "Brachiation, swinging with the arms",
+        "Fin-powered jumping",
+        "Walking on the knuckles only",
+        "The gliding"
+      ],
+      "explanation": "Gibbons swing from branch to branch using their long arms.",
+      "didYouKnow": "Their songs are used to communicate and signal the occupation of a territory.",
+      "imageCaption": "White-handed Gibbon"
+    },
+    {
+      "id": "mammals-074",
+      "animal": "Japanese macaque",
+      "prompt": "How does the Japanese macaque survive cold winters in certain areas?",
+      "options": [
+        "He sometimes uses hot springs",
+        "It hibernates under the snow for six months",
+        "It grows white fur instantly",
+        "It always migrates to the tropics"
+      ],
+      "explanation": "In some populations, Japanese macaques bathe in hot springs to keep warm.",
+      "didYouKnow": "Japanese macaques eat a variety of foods, including fruits, seeds and small animals.",
+      "imageCaption": "Japanese macaque"
+    },
+    {
+      "id": "mammals-075",
+      "animal": "Hamadryas Baboon",
+      "prompt": "What varied diet can the baboon eat?",
+      "options": [
+        "Fruits, seeds and small animals",
+        "Bamboo exclusively",
+        "Krill and algae",
+        "Wood only"
+      ],
+      "explanation": "The baboon is omnivorous and consumes food available in its environment.",
+      "didYouKnow": "Hamadrya baboons live in societies structured on several levels.",
+      "imageCaption": "Hamadryas Baboon"
+    },
+    {
+      "id": "mammals-076",
+      "animal": "ring-tailed lemur",
+      "prompt": "What behavior helps ring-tailed lemurs warm up in the morning?",
+      "options": [
+        "They expose themselves to the sun",
+        "They dig an icy burrow",
+        "They immerse themselves in the water",
+        "They puff out their cheeks"
+      ],
+      "explanation": "Ring-tailed lemurs can sit facing the sun to warm their bodies.",
+      "didYouKnow": "Ring-tailed lemurs live naturally in Madagascar.",
+      "imageCaption": "ring-tailed lemur"
+    },
+    {
+      "id": "mammals-077",
+      "animal": "Philippine tarsier",
+      "prompt": "What adaptation helps the tarsier see at night?",
+      "options": [
+        "His very big eyes",
+        "A reflective membrane on the tail",
+        "Sensitive antennas",
+        "Infrared vision"
+      ],
+      "explanation": "The tarsier's large eyes capture a lot of light during its nocturnal activity.",
+      "didYouKnow": "The tarsier can turn its head very widely to observe its surroundings.",
+      "imageCaption": "Philippine tarsier"
+    },
+    {
+      "id": "mammals-078",
+      "animal": "Alpine Marmot",
+      "prompt": "What does the Alpine marmot do during the winter?",
+      "options": [
+        "She hibernates in a burrow",
+        "She migrates to Africa",
+        "She hunts under the ice",
+        "She lives in the trees"
+      ],
+      "explanation": "The groundhog spends the cold months hibernating in a burrow, with reduced bodily activity.",
+      "didYouKnow": "Marmots make alarm whistles when they spot danger.",
+      "imageCaption": "Alpine Marmot"
+    },
+    {
+      "id": "mammals-079",
+      "animal": "Chinchilla",
+      "prompt": "Why is the chinchilla’s coat particularly dense?",
+      "options": [
+        "It helps to insulate it in a cool and dry environment",
+        "It is used for swimming in the sea",
+        "It repels predators with electricity",
+        "It is used to fly"
+      ],
+      "explanation": "A very large number of hairs grow in each follicle, which forms a dense coat.",
+      "didYouKnow": "Chinchillas have large ears that help dissipate heat.",
+      "imageCaption": "Long-tailed chinchilla"
+    },
+    {
+      "id": "mammals-080",
+      "animal": "Capybara",
+      "prompt": "What is the largest living rodent?",
+      "options": [
+        "The capybara",
+        "The beaver",
+        "The porcupine",
+        "The mara"
+      ],
+      "explanation": "The capybara is the largest rodent today.",
+      "didYouKnow": "Its partially webbed feet help it swim.",
+      "imageCaption": "Capybara"
+    },
+    {
+      "id": "mammals-081",
+      "animal": "American porcupine",
+      "prompt": "What are porcupine quills?",
+      "options": [
+        "Modified hairs with barbs",
+        "Bone spines attached to the skeleton",
+        "Loose teeth",
+        "Flat keratin scales"
+      ],
+      "explanation": "Quills are modified hairs that can break off and latch onto a predator.",
+      "didYouKnow": "The porcupine is a rodent that often climbs trees.",
+      "imageCaption": "North American porcupine"
+    },
+    {
+      "id": "mammals-082",
+      "animal": "American Pika",
+      "prompt": "Where does the American pika often store plants harvested for the winter?",
+      "options": [
+        "In haystacks",
+        "In a belly pocket",
+        "In a hanging nest",
+        "In shells"
+      ],
+      "explanation": "The pika dries and stacks plants to build up food reserves.",
+      "didYouKnow": "The American pika communicates through cries, particularly to signal danger.",
+      "imageCaption": "American Pika"
+    },
+    {
+      "id": "mammals-083",
+      "animal": "Gray whale",
+      "prompt": "How do gray whales often catch prey living in sediments?",
+      "options": [
+        "It sucks up the sediment then filters out the small animals with its baleen.",
+        "It sweeps the surface of the water with its baleen to filter out the krill.",
+        "She chases fish in open water then grabs them with her teeth.",
+        "It digs the bottom with its fins and swallows the sediment without filtering it."
+      ],
+      "explanation": "Gray whales can feed on the bottom by sucking up sediment and retaining prey in their baleen plates.",
+      "didYouKnow": "The gray whale carries out long seasonal migrations.",
+      "imageCaption": "Gray whale"
+    },
+    {
+      "id": "mammals-084",
+      "animal": "Bowhead whale",
+      "prompt": "How does the bowhead benefit from its baleen plates?",
+      "options": [
+        "They filter small prey from the water",
+        "They break the ice",
+        "They produce clicks",
+        "They store oxygen"
+      ],
+      "explanation": "Bowhead whales filter zooplankton and other small prey using long baleen plates.",
+      "didYouKnow": "Bowhead whales are among the longest-lived mammals.",
+      "imageCaption": "Bowhead whale"
+    },
+    {
+      "id": "mammals-085",
+      "animal": "Fin whale",
+      "prompt": "What feeding mechanism characterizes whales, including the fin whale?",
+      "options": [
+        "The engulfment of water and prey followed by filtration by the baleen plates.",
+        "Scraping the seabed with baleen to suck up crustaceans.",
+        "Catching prey one by one with a sticky tongue.",
+        "Continuous filtering of water through the mouth without engulfment phase."
+      ],
+      "explanation": "The ventral furrows deploy during engulfment, then the water comes out through the baleen plates which hold the prey.",
+      "didYouKnow": "The fin whale is one of the largest cetaceans.",
+      "imageCaption": "Fin whale"
+    },
+    {
+      "id": "mammals-086",
+      "animal": "Amazon pink dolphin",
+      "prompt": "In which network of habitats does the Amazonian pink dolphin find food and shelter?",
+      "options": [
+        "Amazonian rivers and their seasonal flooded forests.",
+        "Salty estuaries and coastal reefs of the Atlantic.",
+        "Cold mountain rivers of the Orinoco basin only.",
+        "The deep, isolated lakes of the Andes."
+      ],
+      "explanation": "The boto frequents Amazonian rivers and can move into flooded forest areas.",
+      "didYouKnow": "Its neck is more mobile than that of many marine dolphins.",
+      "imageCaption": "Amazon pink dolphin"
+    },
+    {
+      "id": "mammals-087",
+      "animal": "Harbor porpoise",
+      "prompt": "What characteristic helps distinguish a porpoise from a dolphin?",
+      "options": [
+        "Its muzzle is generally less elongated",
+        "It has gills",
+        "It only lives in fresh water",
+        "It has visible hind legs"
+      ],
+      "explanation": "The harbor porpoise has a more rounded head and a less prominent snout than many dolphins.",
+      "didYouKnow": "The harbor porpoise lives in the coastal and temperate waters of the North Atlantic and neighboring seas.",
+      "imageCaption": "Harbor porpoise"
+    },
+    {
+      "id": "mammals-088",
+      "animal": "Southern elephant seal",
+      "prompt": "What is the main purpose of the male elephant seal's trunk during breeding interactions?",
+      "options": [
+        "To amplify his vocalizations.",
+        "To filter the water to capture the krill.",
+        "To store air to extend dives.",
+        "To guide females to feeding sites by smell."
+      ],
+      "explanation": "The male's trunk amplifies the sounds used during interactions and confrontations.",
+      "didYouKnow": "The species can dive to great depths to search for prey.",
+      "imageCaption": "Southern elephant seal"
+    },
+    {
+      "id": "mammals-089",
+      "animal": "Leopard seal",
+      "prompt": "What type of prey does the leopard seal hunt?",
+      "options": [
+        "Krill, fish and sometimes penguins",
+        "Aquatic plants only",
+        "Land snails only",
+        "Dead trees"
+      ],
+      "explanation": "The leopard seal is a predator that eats fish, krill and other animals.",
+      "didYouKnow": "The leopard seal is mainly present around Antarctica.",
+      "imageCaption": "Leopard seal"
+    },
+    {
+      "id": "mammals-090",
+      "animal": "Fur seal",
+      "prompt": "What role does fur seal fur play?",
+      "options": [
+        "It traps insulating air close to the skin",
+        "It is used to breathe underwater",
+        "It replaces the fins",
+        "She stores eggs"
+      ],
+      "explanation": "The dense undercoat retains a layer of air which contributes to thermal insulation.",
+      "didYouKnow": "Fur seals spend part of their lives at sea and breed on land.",
+      "imageCaption": "Northern Fur Seal"
+    },
+    {
+      "id": "mammals-091",
+      "animal": "Emperor penguin",
+      "prompt": "Why do emperor penguins cluster together in a tight circle?",
+      "options": [
+        "To reduce heat loss",
+        "To catch fish on land",
+        "To hatch eggs underwater",
+        "To avoid molting"
+      ],
+      "explanation": "Hugging together helps penguins limit their exposure to wind and cold.",
+      "didYouKnow": "Emperor penguins sometimes move in groups between their resting areas and feeding sites.",
+      "imageCaption": "Emperor penguin"
+    },
+    {
+      "id": "mammals-092",
+      "animal": "Spotted hyena",
+      "prompt": "What role do spotted hyenas play in the ecosystem?",
+      "options": [
+        "They also hunt and consume carcasses",
+        "They only eat plants",
+        "They pollinate most trees",
+        "They filter plankton"
+      ],
+      "explanation": "Spotted hyenas actively hunt and also feed on carrion.",
+      "didYouKnow": "In spotted hyenas, females generally dominate males in the social hierarchy.",
+      "imageCaption": "Spotted hyena"
+    },
+    {
+      "id": "mammals-093",
+      "animal": "Meerkat",
+      "prompt": "What can the different alarm calls of meerkats indicate?",
+      "options": [
+        "The type of danger spotted, for example an aerial or terrestrial predator.",
+        "The exact direction of the burrow where the group must take refuge.",
+        "The rank of each individual in the group hierarchy.",
+        "The amount of food available under the leaves."
+      ],
+      "explanation": "Meerkats emit distinct alarm calls depending on the danger detected.",
+      "didYouKnow": "Meerkats live in groups and can help feed the young in the group.",
+      "imageCaption": "Meerkat"
+    },
+    {
+      "id": "mammals-094",
+      "animal": "Fennec",
+      "prompt": "What are the big ears of the fennec fox for?",
+      "options": [
+        "To dissipate heat and capture sounds",
+        "To store water",
+        "To propel yourself through the sand",
+        "To protect your eyes from thorns"
+      ],
+      "explanation": "Large ears contribute to heat loss and provide keen hearing.",
+      "didYouKnow": "The fennec fox digs burrows where it rests during the hottest hours.",
+      "imageCaption": "Fennec"
+    },
+    {
+      "id": "mammals-095",
+      "animal": "Dwarf mongoose",
+      "prompt": "How do some dwarf mongooses find insects in the ground?",
+      "options": [
+        "Digging under the leaves and in the cracks",
+        "By filtering the water with baleen",
+        "Digging with wood",
+        "Leaping above the trees"
+      ],
+      "explanation": "Mongooses search for invertebrates and other small prey in their environment.",
+      "didYouKnow": "They often live in social groups.",
+      "imageCaption": "Dwarf mongoose"
+    },
+    {
+      "id": "mammals-096",
+      "animal": "African civet",
+      "prompt": "Which sense is particularly useful to the civet in finding food at night?",
+      "options": [
+        "The sense of smell",
+        "Color vision",
+        "Ultrasound perception only",
+        "The touch of its antlers"
+      ],
+      "explanation": "Smell helps the nocturnal civet detect food and odors left by other animals.",
+      "didYouKnow": "The African civet sometimes marks its territory with odorous secretions.",
+      "imageCaption": "African civet"
+    },
+    {
+      "id": "mammals-097",
+      "animal": "Common genet",
+      "prompt": "What does its long tail help the genet do when it climbs?",
+      "options": [
+        "To keep balance",
+        "To breathe underwater",
+        "To break the seeds",
+        "To carry your little ones in a pocket"
+      ],
+      "explanation": "The genet's long tail serves as a balancer during arboreal movements.",
+      "didYouKnow": "The genet is a small, agile nocturnal carnivore.",
+      "imageCaption": "Common genet"
+    },
+    {
+      "id": "mammals-098",
+      "animal": "Puma",
+      "prompt": "How does the mountain lion typically kill medium-sized prey?",
+      "options": [
+        "Grabbing her with his paws and biting her neck",
+        "By choking him with his tail",
+        "By throwing thorns at him",
+        "By paralyzing it with ultrasound"
+      ],
+      "explanation": "The puma is a predatory feline that captures its prey with its powerful limbs and teeth.",
+      "didYouKnow": "The puma has different regional names, including cougar and mountain lion.",
+      "imageCaption": "Puma"
+    },
+    {
+      "id": "mammals-099",
+      "animal": "Jaguar",
+      "prompt": "What adaptation helps the jaguar live in tropical rainforests?",
+      "options": [
+        "It swims well and sometimes hunts near water",
+        "He can't get his fur wet",
+        "It feeds only on seeds",
+        "He breathes underwater"
+      ],
+      "explanation": "The jaguar is comfortable in the water and can hunt aquatic or riverine prey.",
+      "didYouKnow": "The jaguar often has spots in the center of its rosettes, unlike the leopard.",
+      "imageCaption": "Jaguar"
+    },
+    {
+      "id": "mammals-100",
+      "animal": "Boreal Lynx",
+      "prompt": "What adaptation helps the boreal lynx move on snow?",
+      "options": [
+        "Its large legs distribute its weight",
+        "Its feet are webbed for paddling",
+        "Its cloven hooves grip the ice",
+        "Its prehensile tail pulls it forward"
+      ],
+      "explanation": "The wide legs of the boreal lynx distribute its weight on the snow.",
+      "didYouKnow": "The black brushes on the tips of the boreal lynx's ears are another distinctive feature.",
+      "imageCaption": "Boreal Lynx"
+    },
+    {
+      "id": "mammals-101",
+      "animal": "Caracal",
+      "prompt": "What strategy does the caracal use to seize birds in flight?",
+      "options": [
+        "It makes a quick vertical leap and catches them with its paws.",
+        "It hovers above them for a long time before striking them with its wings.",
+        "He lures them to the ground by imitating their calls.",
+        "It climbs trees and grabs them during their nighttime rest."
+      ],
+      "explanation": "The caracal can leap high from the ground to seize birds, sometimes several in a single jump.",
+      "didYouKnow": "The black brushes on his ears are particularly visible.",
+      "imageCaption": "Caracal"
+    },
+    {
+      "id": "mammals-102",
+      "animal": "Fishing cat",
+      "prompt": "What feature of the fishing cat's legs helps it move in shallow water?",
+      "options": [
+        "A partial webbing between the fingers makes swimming easier.",
+        "Fully retractable claws serve as hooks underwater.",
+        "Its hind legs are transformed into flippers, like those of seals.",
+        "Stiff hairs on the bottom of its feet prevent it from slipping on rocks."
+      ],
+      "explanation": "The fishing cat has a partial web that helps it move in aquatic environments.",
+      "didYouKnow": "The fishing cat feeds in particular on fish and other aquatic animals.",
+      "imageCaption": "Fishing cat"
+    },
+    {
+      "id": "mammals-103",
+      "animal": "Maned Wolf",
+      "prompt": "What South American fruit makes up a notable part of the maned wolf's diet?",
+      "options": [
+        "The fruit of the lobeira.",
+        "The fruit of the baobab, especially present in the African savannahs.",
+        "The fruit of the pandanus, typical of the forests of Southeast Asia.",
+        "The fruit of the nopal, mainly consumed in the North American deserts."
+      ],
+      "explanation": "Lobeira, also called wolf fruit, is one of the plant foods consumed by the maned wolf.",
+      "didYouKnow": "Its long legs help it move through tall grass.",
+      "imageCaption": "Maned Wolf"
+    },
+    {
+      "id": "mammals-104",
+      "animal": "Raccoon dog",
+      "prompt": "What family does the raccoon dog belong to?",
+      "options": [
+        "To the canid family (Canidae)",
+        "To the felines",
+        "To the ursids",
+        "To marsupials"
+      ],
+      "explanation": "Despite its name and appearance, the raccoon dog is a member of the Canidae family.",
+      "didYouKnow": "It is native to East Asia and has been introduced to parts of Europe.",
+      "imageCaption": "Raccoon dog"
+    },
+    {
+      "id": "mammals-105",
+      "animal": "Red panda",
+      "prompt": "Which zoological family does the red panda belong to?",
+      "options": [
+        "To the Ailuridae family (Ailuridae).",
+        "To the Ursidae family, with bears.",
+        "To the family Procyonidae, with raccoons.",
+        "To the Mustelidae family, with otters and weasels."
+      ],
+      "explanation": "The red panda is the only living species in its family, the Ailuridae.",
+      "didYouKnow": "Like the giant panda, it has a modified wrist bone that helps grip bamboo.",
+      "imageCaption": "Red panda"
+    },
+    {
+      "id": "mammals-106",
+      "animal": "Okapi",
+      "prompt": "Who is the okapi's closest living relative?",
+      "options": [
+        "The giraffe; both species belong to the family Giraffidae.",
+        "The zebra, in the Equidae family.",
+        "The rhinoceros, in the family Rhinocerotidae.",
+        "Kudu, in the Bovidae family."
+      ],
+      "explanation": "The okapi and the giraffe are the two living species of the Giraffidae family.",
+      "didYouKnow": "The stripes on the okapi's legs probably help the cubs follow their mother in the forest.",
+      "imageCaption": "Okapi"
+    },
+    {
+      "id": "mammals-107",
+      "animal": "Malaysian tapir",
+      "prompt": "What is the purpose of the tapir's short, prehensile snout?",
+      "options": [
+        "To grab leaves and fruits",
+        "To dig deep burrows",
+        "To pump water into the lungs",
+        "To hit predators"
+      ],
+      "explanation": "The tapir uses its flexible snout to grab plants.",
+      "didYouKnow": "The adult's black and white pattern helps camouflage it in the shadows of the forest.",
+      "imageCaption": "Malaysian tapir"
+    },
+    {
+      "id": "mammals-108",
+      "animal": "Silky Anteater",
+      "prompt": "Where does the silky anteater often spend its time?",
+      "options": [
+        "In the trees",
+        "At the bottom of the ocean",
+        "In the snowy plains",
+        "In beaver burrows"
+      ],
+      "explanation": "This small arboreal anteater moves through the trees and looks for insects.",
+      "didYouKnow": "The silky anteater feeds mainly on tree-dwelling ants.",
+      "imageCaption": "Silky Anteater"
+    },
+    {
+      "id": "mammals-109",
+      "animal": "Collared Peccary",
+      "prompt": "What is a trait of the collared peccary?",
+      "options": [
+        "It often lives in groups",
+        "He lays eggs",
+        "It is an arboreal marsupial",
+        "It filters plankton"
+      ],
+      "explanation": "The peccary is a gregarious mammal that often travels in groups.",
+      "didYouKnow": "The collared peccary has canines that can touch when the mouth is closed.",
+      "imageCaption": "Collared Peccary"
+    },
+    {
+      "id": "mammals-110",
+      "animal": "White-lipped peccary",
+      "prompt": "What purpose can there be in moving white-lipped peccaries in large groups?",
+      "options": [
+        "To make it more difficult for a predator to approach and to protect individuals.",
+        "To reduce dietary needs by sharing a single food source.",
+        "To isolate the young from the group so that they feed alone.",
+        "To maintain a constant body temperature in tropical forests."
+      ],
+      "explanation": "Large groups can deter some predators and provide collective defense.",
+      "didYouKnow": "White-lipped peccaries feed on fruits, seeds and other plant matter.",
+      "imageCaption": "White-lipped peccary"
+    },
+    {
+      "id": "mammals-111",
+      "animal": "Alpaca",
+      "prompt": "Why do humans often breed alpacas?",
+      "options": [
+        "For their soft fiber",
+        "For their venom",
+        "For their eggs",
+        "For their scales"
+      ],
+      "explanation": "Alpaca is raised in particular for its fiber, harvested during shearing.",
+      "didYouKnow": "It is native to the Andes and grazes on plants.",
+      "imageCaption": "Alpaca"
+    },
+    {
+      "id": "mammals-112",
+      "animal": "Lama",
+      "prompt": "What behavior can the llama adopt when it feels threatened or annoyed?",
+      "options": [
+        "Spit",
+        "Throwing his horns",
+        "Spreading wings",
+        "Emit a jet of ink"
+      ],
+      "explanation": "The llama may spit out saliva or regurgitated contents in certain defensive situations.",
+      "didYouKnow": "Llamas are used as pack animals in the Andean regions.",
+      "imageCaption": "Lama"
+    },
+    {
+      "id": "mammals-113",
+      "animal": "Guanaco",
+      "prompt": "What domestic species is the guanaco the wild ancestor of?",
+      "options": [
+        "The llama",
+        "The alpaca",
+        "The goat",
+        "The yak"
+      ],
+      "explanation": "The wild guanaco is considered the ancestor of the domestic llama.",
+      "didYouKnow": "It lives in the open and arid environments of South America.",
+      "imageCaption": "Guanaco"
+    },
+    {
+      "id": "mammals-114",
+      "animal": "Vicuna",
+      "prompt": "What product can be harvested from the vicuña by capture, shearing then release?",
+      "options": [
+        "Its very fine fiber.",
+        "Her milk, collected daily without separating the little one.",
+        "Its subcutaneous fat, used as a natural insulator.",
+        "Its antlers, which grow back after being cut."
+      ],
+      "explanation": "The vicuña is captured and sheared during supervised practices, then released; its fiber is highly sought after.",
+      "didYouKnow": "It lives at altitude in the Andes.",
+      "imageCaption": "Vicuna"
+    },
+    {
+      "id": "mammals-115",
+      "animal": "African buffalo",
+      "prompt": "How can the African buffalo defend itself against a predator?",
+      "options": [
+        "By banding together and using its horns",
+        "Hiding in the trees",
+        "By projecting quills",
+        "By breathing underwater"
+      ],
+      "explanation": "Buffaloes can form cohesive groups and face certain predators together.",
+      "didYouKnow": "The African buffalo feeds mainly on grasses.",
+      "imageCaption": "African buffalo"
+    },
+    {
+      "id": "mammals-116",
+      "animal": "Musk ox",
+      "prompt": "What feature helps muskoxen survive the Arctic cold?",
+      "options": [
+        "An insulating undercoat called qiviut",
+        "A layer of feathers",
+        "Thermal gills",
+        "A hump of water"
+      ],
+      "explanation": "The qiviut, a very fine undercoat, provides effective insulation against the cold.",
+      "didYouKnow": "Muskox live in herds in Arctic regions.",
+      "imageCaption": "Musk ox"
+    },
+    {
+      "id": "mammals-117",
+      "animal": "Yak",
+      "prompt": "What physiological challenge do the yak’s adaptations help it overcome at high altitude?",
+      "options": [
+        "The low oxygen partial pressure of rarefied air.",
+        "High concentrations of salt in pasture water.",
+        "High oxygen pressure in hot valleys.",
+        "The depletion of carbon dioxide in frozen soils."
+      ],
+      "explanation": "The yak exhibits respiratory and circulatory adaptations that support oxygen delivery in oxygen-poor air.",
+      "didYouKnow": "His long fleece protects him from the cold and the wind.",
+      "imageCaption": "Domestic yak"
+    },
+    {
+      "id": "mammals-118",
+      "animal": "Gaur",
+      "prompt": "What is the gaur?",
+      "options": [
+        "A large wild bovine from Asia",
+        "A big African cat",
+        "A marsupial from Australia",
+        "A freshwater cetacean"
+      ],
+      "explanation": "The gaur is a wild bovine living in the forests of South and Southeast Asia.",
+      "didYouKnow": "The gaur has a generally dark brown coat, with often lighter limbs.",
+      "imageCaption": "Gaur"
+    },
+    {
+      "id": "mammals-119",
+      "animal": "Banteng",
+      "prompt": "Which family does the banteng belong to?",
+      "options": [
+        "To the bovines",
+        "To deer",
+        "To camelids",
+        "To pigs"
+      ],
+      "explanation": "The banteng is a wild bovine related to other species of the Bos genus.",
+      "didYouKnow": "It lives in the forests and grasslands of Southeast Asia.",
+      "imageCaption": "Banteng"
+    },
+    {
+      "id": "mammals-120",
+      "animal": "Addax",
+      "prompt": "How does the addax limit its water needs in a desert environment?",
+      "options": [
+        "It reduces its water loss and also obtains moisture from the plants consumed.",
+        "Every day he drinks water stored in pockets under his skin.",
+        "It absorbs moisture from the sand through the hooves at night.",
+        "He sweats profusely during the day to cool his body."
+      ],
+      "explanation": "The addax can limit its water loss and obtain part of its needs from the plants it eats.",
+      "didYouKnow": "Its large hooves help it walk on sand.",
+      "imageCaption": "Addax"
+    },
+    {
+      "id": "mammals-121",
+      "animal": "Scimitar-horned Oryx",
+      "prompt": "How can the scimitar-horned oryx limit water loss during extreme heat?",
+      "options": [
+        "He tolerates a rise in his body temperature before sweating.",
+        "He sweats more as soon as the outside temperature increases.",
+        "It releases excess heat by constantly panting in the shade.",
+        "It circulates water from its stomach to its horns to cool it."
+      ],
+      "explanation": "This tolerance delays the need for sweating and helps save water.",
+      "didYouKnow": "Scimitar-horned oryxes have long horns in both males and females.",
+      "imageCaption": "Scimitar-horned Oryx"
+    },
+    {
+      "id": "mammals-122",
+      "animal": "Bongo",
+      "prompt": "What camouflage helps the bongo in the forest?",
+      "options": [
+        "Its vertical stripes",
+        "Light spots that change color",
+        "A transparent shell",
+        "Completely white fur"
+      ],
+      "explanation": "The bongo's stripes help to break its silhouette in the shadows of the forest.",
+      "didYouKnow": "The bongo is a large forest antelope.",
+      "imageCaption": "Bongo"
+    },
+    {
+      "id": "mammals-123",
+      "animal": "Greater Kudu",
+      "prompt": "What are the spiral horns of male kudu used for?",
+      "options": [
+        "Clashes and intimidation between males",
+        "To climb trees",
+        "To filter seeds",
+        "Digging wells"
+      ],
+      "explanation": "Males use their large spiral horns in competitions and demonstrations.",
+      "didYouKnow": "The greater kudu is an antelope that lives in the savannahs and wooded areas of Africa.",
+      "imageCaption": "Greater kudu"
+    },
+    {
+      "id": "mammals-124",
+      "animal": "Springbok",
+      "prompt": "What spectacular behavior can the springbok exhibit?",
+      "options": [
+        "Stiff leaps called pronking",
+        "Rolls in the water",
+        "Glides",
+        "Extended dives"
+      ],
+      "explanation": "The springbok sometimes performs stiff leaps, a behavior called pronking.",
+      "didYouKnow": "It can live in dry regions by consuming plants rich in water.",
+      "imageCaption": "Springbok"
+    },
+    {
+      "id": "mammals-125",
+      "animal": "Impala",
+      "prompt": "What body adaptation allows the impala to perform high jumps?",
+      "options": [
+        "Long powerful legs",
+        "Membranes between the fingers",
+        "A prehensile tail",
+        "Shoulders articulated like wings"
+      ],
+      "explanation": "The impala's long legs allow for powerful acceleration and leaps.",
+      "didYouKnow": "Impalas can leap over obstacles when fleeing a predator.",
+      "imageCaption": "Impala"
+    },
+    {
+      "id": "mammals-126",
+      "animal": "Thomson's gazelle",
+      "prompt": "How does Thomson’s gazelle often react to the presence of a predator?",
+      "options": [
+        "She accelerates and jumps to escape",
+        "She rolls in the mud to hide",
+        "She climbs trees",
+        "She remains motionless underwater"
+      ],
+      "explanation": "The gazelle relies on its speed and changes of direction to escape.",
+      "didYouKnow": "Thomson's gazelle consumes grasses and other plants.",
+      "imageCaption": "Thomson's gazelle"
+    },
+    {
+      "id": "mammals-127",
+      "animal": "Saola",
+      "prompt": "In which cross-border mountain range does the saola, described by science in the 1990s, live?",
+      "options": [
+        "The Annamite mountain range, between Laos and Vietnam.",
+        "The Himalayan range, between Nepal and Bhutan.",
+        "The Cardamom Mountains, between Thailand and Cambodia.",
+        "The Atlas range, between Morocco and Algeria."
+      ],
+      "explanation": "The saola lives in the forests of the Annamites, a mountainous region shared by Laos and Vietnam.",
+      "didYouKnow": "The saola has two parallel horns, present in both males and females.",
+      "imageCaption": "Saola"
+    },
+    {
+      "id": "mammals-128",
+      "animal": "Giant panda",
+      "prompt": "What role does the bamboo reserve play in giant panda conservation?",
+      "options": [
+        "It protects its habitat and food resources",
+        "It replaces parental care",
+        "She teaches pandas to hibernate",
+        "It transforms zoos into forests"
+      ],
+      "explanation": "Protected areas preserve bamboo forests necessary for the panda to eat.",
+      "didYouKnow": "The giant panda spends much of the day feeding and resting.",
+      "imageCaption": "Giant panda"
+    },
+    {
+      "id": "mammals-129",
+      "animal": "Vaquita",
+      "prompt": "In what part of the Gulf of California does the vaquita survive?",
+      "options": [
+        "In its northern part.",
+        "In the southern part, near the mouth of the gulf.",
+        "In the Gulf of Mexico, off the coast of Texas.",
+        "In the Gulf of Alaska, off the Aleutian Islands."
+      ],
+      "explanation": "The vaquita is endemic to the northern Gulf of California, Mexico.",
+      "didYouKnow": "Gillnets are the main threat to this species.",
+      "imageCaption": "Vaquita"
+    },
+    {
+      "id": "mammals-130",
+      "animal": "North Atlantic right whale",
+      "prompt": "What direct threats particularly affect the North Atlantic right whale?",
+      "options": [
+        "Collisions with vessels and entanglement in fishing gear.",
+        "Hunting for ivory and poisoning by terrestrial bait.",
+        "Drift nets used only in rivers.",
+        "The loss of mangrove forests where it builds its nest."
+      ],
+      "explanation": "Collisions with ships and fishing gear that wrap around the body are among its main threats.",
+      "didYouKnow": "The North Atlantic right whale feeds by filtering small crustaceans with its baleen plates.",
+      "imageCaption": "North Atlantic right whale"
+    },
+    {
+      "id": "mammals-131",
+      "animal": "Sunda Pangolin",
+      "prompt": "What human pressure is particularly serious for pangolins?",
+      "options": [
+        "Poaching for their scales and meat.",
+        "Accidental catches in pelagic trawls.",
+        "Collecting their fur to make clothing.",
+        "Sport hunting for their antlers."
+      ],
+      "explanation": "Pangolins are heavily targeted by the illegal trade in their scales and meat.",
+      "didYouKnow": "The pangolin is mainly active at night.",
+      "imageCaption": "Sunda Pangolin"
+    },
+    {
+      "id": "mammals-132",
+      "animal": "Javan Rhinoceros",
+      "prompt": "What pressures have strongly contributed to the decline of the Javan rhino?",
+      "options": [
+        "Habitat loss and poaching.",
+        "Food competition with elephant seals.",
+        "The disappearance of boreal forests and the melting of the sea ice.",
+        "Captures for the fur trade."
+      ],
+      "explanation": "Javan rhinos' low numbers and shrinking habitat make them vulnerable to poaching and disturbance.",
+      "didYouKnow": "The horn of the Javan rhino is made of keratin, like hair and nails.",
+      "imageCaption": "Javan Rhinoceros"
+    },
+    {
+      "id": "mammals-133",
+      "animal": "Saiga",
+      "prompt": "What factor triggered the massive saiga mortality episode in 2015?",
+      "options": [
+        "A bacterial infection favored by particular environmental conditions.",
+        "A volcanic eruption that covered the steppes with ash.",
+        "A drought which eliminated all the plants consumed by the herds.",
+        "A viral disease transmitted only by wolves."
+      ],
+      "explanation": "In 2015, Pasteurella multocida infection caused mass mortality; weather conditions contributed to the episode.",
+      "didYouKnow": "Saigas often give birth in the spring, sometimes with twin births.",
+      "imageCaption": "Saiga antelope"
+    },
+    {
+      "id": "mammals-134",
+      "animal": "African Elephant",
+      "prompt": "Why does ivory poaching threaten elephants?",
+      "options": [
+        "The tusks are living incisors sought by traffickers",
+        "The tusks are horns that fall off every year",
+        "Ivory is their main food",
+        "Their tusks are used to breathe"
+      ],
+      "explanation": "The tusks are teeth that grow and the ivory trade encourages their poaching.",
+      "didYouKnow": "Elephants replace their molars several times during their lives.",
+      "imageCaption": "African savannah elephant"
+    },
+    {
+      "id": "mammals-135",
+      "animal": "Gray Wolf",
+      "prompt": "What ecological role can large predators like wolves play?",
+      "options": [
+        "Influence prey populations and their behaviors",
+        "Produce ocean plankton",
+        "Pollinate meadow flowers",
+        "Create the seasons"
+      ],
+      "explanation": "Predators can modify the abundance and behavior of prey, with effects on ecosystems.",
+      "didYouKnow": "Wolves often live in family groups whose members cooperate to raise the young.",
+      "imageCaption": "Gray Wolf"
+    },
+    {
+      "id": "mammals-136",
+      "animal": "Insectivorous bat",
+      "prompt": "What ecological service do many insectivorous bats provide?",
+      "options": [
+        "They consume many insects",
+        "They fertilize the oceans with their baleen plates",
+        "They cut down trees to make dams",
+        "They pollinate all plants"
+      ],
+      "explanation": "Insectivorous bats eat large quantities of insects and help regulate them.",
+      "didYouKnow": "Insectivorous bats often use echolocation to spot their prey in flight.",
+      "imageCaption": "Common pipistrelle"
+    },
+    {
+      "id": "mammals-137",
+      "animal": "Nectar-eating bat",
+      "prompt": "How do nectar-eating bats contribute to ecosystems?",
+      "options": [
+        "By pollinating flowers",
+        "By scattering shells",
+        "By fertilizing the soil with horns",
+        "By filtering plankton"
+      ],
+      "explanation": "As they visit flowers to drink nectar, they carry pollen between plants.",
+      "didYouKnow": "Nectar-eating bats often rest upside down in sheltered roosts.",
+      "imageCaption": "Long-nosed bat"
+    },
+    {
+      "id": "mammals-138",
+      "animal": "Fruit bat",
+      "prompt": "What role do fruit bats often play?",
+      "options": [
+        "They disperse seeds",
+        "They build dams",
+        "They hunt whales",
+        "They break down rocks"
+      ],
+      "explanation": "By eating fruit and moving around, they disperse the seeds to new sites.",
+      "didYouKnow": "Many fruit bats rely heavily on their sight and smell to find their food.",
+      "imageCaption": "Egyptian fruit bat"
+    },
+    {
+      "id": "mammals-139",
+      "animal": "African Elephant",
+      "prompt": "How can elephants contribute to seed dispersal?",
+      "options": [
+        "By carrying seeds through their digestive tract",
+        "By throwing them with their trunk only",
+        "By carrying them on their defenses",
+        "By sticking them to their ears"
+      ],
+      "explanation": "Swallowed seeds may be deposited in feces far from the parent plant.",
+      "didYouKnow": "Elephant movements can open passages in the vegetation.",
+      "imageCaption": "African savannah elephant"
+    },
+    {
+      "id": "mammals-140",
+      "animal": "Dolphin",
+      "prompt": "How do dolphins breathe?",
+      "options": [
+        "With lungs through a vent on the surface",
+        "With gills underwater",
+        "By their skin like amphibians",
+        "By their fins"
+      ],
+      "explanation": "Dolphins come to the surface to breathe air through their blowhole.",
+      "didYouKnow": "Dolphins also use whistles and gestures to communicate with each other.",
+      "imageCaption": "Bottlenose dolphin"
+    },
+    {
+      "id": "mammals-141",
+      "animal": "Whale",
+      "prompt": "Why do whales come to the surface periodically?",
+      "options": [
+        "To breathe air with their lungs",
+        "To replace their gills",
+        "To lay eggs",
+        "To warm their blood in the sun"
+      ],
+      "explanation": "Whales are air-breathing mammals that must come to the surface.",
+      "didYouKnow": "Baleen whales have baleen plates that hold small prey in the water.",
+      "imageCaption": "Blue whale"
+    },
+    {
+      "id": "mammals-142",
+      "animal": "Mammal",
+      "prompt": "What trait characterizes mammals?",
+      "options": [
+        "Females produce milk to feed their young",
+        "They all lay eggs",
+        "All have visible hair as adults",
+        "All live on dry land"
+      ],
+      "explanation": "Milk production by the mammary glands is a key trait of mammals.",
+      "didYouKnow": "Some mammals, such as cetaceans, have lost almost all of their visible fur.",
+      "imageCaption": "Human, example illustrating the question about mammals."
+    },
+    {
+      "id": "mammals-143",
+      "animal": "Mammal",
+      "prompt": "What type of skin covers the bodies of most mammals at some point in their lives?",
+      "options": [
+        "Hairs",
+        "Feathers",
+        "Mineral scales",
+        "A shell"
+      ],
+      "explanation": "Hair is a characteristic of mammals, although it may be reduced or absent in adults.",
+      "didYouKnow": "Mammalian hairs may be associated with sensory receptors, such as vibrissae.",
+      "imageCaption": "Domestic dog, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-144",
+      "animal": "Wombats",
+      "prompt": "What part of the wombat's body can protect the entrance to its burrow?",
+      "options": [
+        "Its thick and reinforced hindquarters",
+        "Its elongated and flexible muzzle",
+        "Its large and mobile ears",
+        "Its long and prehensile tail"
+      ],
+      "explanation": "The thick skin and cartilage on its hindquarters protect the wombat when it blocks a narrow passage.",
+      "didYouKnow": "The wombat is most active at dusk and at night.",
+      "imageCaption": "Common Wombat"
+    },
+    {
+      "id": "mammals-145",
+      "animal": "Marsupial",
+      "prompt": "How do many marsupials give birth to their young?",
+      "options": [
+        "After a short gestation, with a very poorly developed baby",
+        "After two years of gestation, with a totally independent little one",
+        "By laying hard-shelled eggs",
+        "By giving birth in water only"
+      ],
+      "explanation": "In many marsupials, the young are born very immature and continue developing while attached to a teat, often inside a pouch.",
+      "didYouKnow": "Marsupials include very different animals, such as kangaroos, koalas, wombats and opossums.",
+      "imageCaption": "Red Kangaroo"
+    },
+    {
+      "id": "mammals-146",
+      "animal": "Naked mole rat",
+      "prompt": "What social organization makes the naked mole rat eusocial?",
+      "options": [
+        "A colony where one female primarily breeds and the other individuals participate in the tasks.",
+        "Monogamous pairs that leave the colony to raise each litter separately.",
+        "A temporary hierarchy that changes after each seasonal migration.",
+        "A group of hunters dominated by a male who feeds all the adults alone."
+      ],
+      "explanation": "Colonies have concentrated reproduction in one female, while other individuals contribute to maintenance and defense.",
+      "didYouKnow": "The naked mole rat has large incisors that can dig without filling its mouth with dirt.",
+      "imageCaption": "Naked mole rat"
+    },
+    {
+      "id": "mammals-147",
+      "animal": "Carnivorous",
+      "prompt": "To which taxonomic order does the giant panda belong, despite its diet mainly consisting of bamboo?",
+      "options": [
+        "To the order of Carnivora.",
+        "To the order of Rodents, such as beavers and squirrels.",
+        "To the order of Primates, such as monkeys and lemurs.",
+        "To the order Artiodactyls, like deer and cattle."
+      ],
+      "explanation": "The giant panda belongs to the order Carnivora, although its diet is dominated by bamboo.",
+      "didYouKnow": "The giant panda is a species of bear native to the mountainous forests of China.",
+      "imageCaption": "Giant panda, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-148",
+      "animal": "Cetacean",
+      "prompt": "Which group includes whales, dolphins and porpoises?",
+      "options": [
+        "Cetaceans",
+        "Pinnipeds",
+        "The sirenians",
+        "Ungulates"
+      ],
+      "explanation": "Whales, dolphins and porpoises belong to the order cetaceans.",
+      "didYouKnow": "Cetaceans descend from terrestrial mammal ancestors.",
+      "imageCaption": "Bottlenose dolphin, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-149",
+      "animal": "Pinniped",
+      "prompt": "Which group of animals makes up the pinniped group?",
+      "options": [
+        "Seals, sea lions and walruses.",
+        "Whales, dolphins and porpoises.",
+        "Otters, badgers and skunks.",
+        "Manatees, dugongs and elephant seals."
+      ],
+      "explanation": "Pinnipeds include true seals, sea lions and walruses.",
+      "didYouKnow": "In pinnipeds, the front and rear flippers contribute differently to propulsion depending on the group.",
+      "imageCaption": "Walrus, an example illustrating the question about mammals."
+    },
+    {
+      "id": "mammals-150",
+      "animal": "Sirenian",
+      "prompt": "Which families of current animals belong to the order Sirenians?",
+      "options": [
+        "Manatees and dugongs.",
+        "Seals and sea lions.",
+        "Whales and dolphins.",
+        "Otters and beavers."
+      ],
+      "explanation": "Extant sirenians include manatees and dugongs.",
+      "didYouKnow": "These aquatic mammals are herbivores.",
+      "imageCaption": "Caribbean manatee, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-151",
+      "animal": "Primates",
+      "prompt": "What trait is common among primates?",
+      "options": [
+        "Hands capable of grasping with movable fingers",
+        "Filtering baleen",
+        "Cloven hooves",
+        "A ventral pouch in all species"
+      ],
+      "explanation": "Many primates have prehensile hands adapted for manipulation or climbing.",
+      "didYouKnow": "Primates include lemurs, monkeys and great apes.",
+      "imageCaption": "Common chimpanzee, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-152",
+      "animal": "Ungulate",
+      "prompt": "What are ungulate hooves?",
+      "options": [
+        "Modified nails that cover the tips of the fingers",
+        "To displaced teeth on the feet",
+        "To keratin scales on the back",
+        "With hollow leg bones"
+      ],
+      "explanation": "A hoof is a keratinized structure that covers the end of a finger or several fingers.",
+      "didYouKnow": "Ungulates include mammals with very diverse lifestyles.",
+      "imageCaption": "Domestic horse, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-153",
+      "animal": "Marine mammal",
+      "prompt": "Why do marine mammals need to conserve body heat?",
+      "options": [
+        "Water conducts heat more efficiently than air",
+        "Water does not contain oxygen",
+        "Their blood only circulates in the tail",
+        "Their skin is always free of fat"
+      ],
+      "explanation": "Heat is lost quickly in water; fat and other adaptations help with insulation.",
+      "didYouKnow": "Marine mammals include cetaceans, pinnipeds and sirenians.",
+      "imageCaption": "Humpback whale, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-154",
+      "animal": "Dolphin",
+      "prompt": "How are baby dolphins fed by their mothers?",
+      "options": [
+        "They suckle the milk",
+        "They filter plankton with gills",
+        "They eat leaves chewed by adults",
+        "They absorb nutrients through the skin"
+      ],
+      "explanation": "Females nurse their young with energy-rich milk.",
+      "didYouKnow": "Mothers can accompany their babies as they swim to the surface to breathe.",
+      "imageCaption": "Bottlenose dolphin"
+    },
+    {
+      "id": "mammals-155",
+      "animal": "Dolphin",
+      "prompt": "How does uni-hemispheric sleep help some dolphins breathe while resting?",
+      "options": [
+        "One cerebral hemisphere remains sufficiently active while the other rests.",
+        "The two hemispheres fall asleep together as a reflex opens the vent.",
+        "The brain switches entirely between sleep and wakefulness with each breath.",
+        "The dolphin goes into deep sleep underwater and only comes back up when it wakes up."
+      ],
+      "explanation": "This form of sleep allows the dolphin to maintain partial alertness and come up for air.",
+      "didYouKnow": "Experiments have shown that bottlenose dolphins can use a mirror to examine markings on their bodies.",
+      "imageCaption": "Bottlenose dolphin"
+    },
+    {
+      "id": "mammals-156",
+      "animal": "Mammal",
+      "prompt": "How do mammals typically maintain a stable body temperature?",
+      "options": [
+        "By their metabolism and thermal regulation mechanisms",
+        "By absorbing only heat from the ground",
+        "By all changing color depending on the temperature",
+        "By stopping their blood circulation"
+      ],
+      "explanation": "Mammals are endotherms and use physiological and behavioral mechanisms to regulate their temperature.",
+      "didYouKnow": "Mammals generally have a four-chambered heart.",
+      "imageCaption": "Polar bear, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-157",
+      "animal": "platypus",
+      "prompt": "What happens to the webbing of the platypus's front legs when it walks?",
+      "options": [
+        "The webbing folds back to uncover the claws.",
+        "It folds forward and covers the claws.",
+        "It tenses more to distribute the weight on the ground.",
+        "It wraps around the hind legs to stabilize walking."
+      ],
+      "explanation": "The webbing is useful for swimming; on the ground, it folds up to leave the claws available for digging.",
+      "didYouKnow": "The male platypus has a venomous sting on each hind leg.",
+      "imageCaption": "platypus"
+    },
+    {
+      "id": "mammals-158",
+      "animal": "Mammal",
+      "prompt": "What is the purpose of the diaphragm in many mammals?",
+      "options": [
+        "To participate in the ventilation of the lungs",
+        "To digest cellulose in the rumen",
+        "To produce ultrasonic sounds",
+        "To circulate the milk"
+      ],
+      "explanation": "The diaphragm is a muscle that contributes to respiratory movements.",
+      "didYouKnow": "Most mammals have lungs made up of small gas exchange units called alveoli.",
+      "imageCaption": "Domestic dog, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-159",
+      "animal": "Mammal",
+      "prompt": "How does smell contribute to communication in many mammals?",
+      "options": [
+        "Odors can signal presence, territory or reproductive state",
+        "Smells always replace vision",
+        "Smells only serve to cool the body",
+        "Odors are produced by bones"
+      ],
+      "explanation": "Odorous substances can transmit information between individuals.",
+      "didYouKnow": "In mammals, the three ossicles of the middle ear are the hammer, anvil and stirrup.",
+      "imageCaption": "Gray wolf, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-160",
+      "animal": "Mammal",
+      "prompt": "What does the term “hibernation” mean?",
+      "options": [
+        "A prolonged state of reduced activity and metabolism",
+        "An annual migration towards the poles",
+        "A few hours of normal sleep",
+        "A period during which the animal no longer breathes"
+      ],
+      "explanation": "Hibernation involves a sharp drop in energy expenditure and body temperature.",
+      "didYouKnow": "Mammals live in a wide variety of environments, from deserts to polar oceans.",
+      "imageCaption": "Alpine marmot, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-161",
+      "animal": "Mammal",
+      "prompt": "Why do some mammals migrate seasonally?",
+      "options": [
+        "To track food resources or favorable conditions",
+        "To avoid growing",
+        "To replace their skeleton",
+        "To prevent reproduction"
+      ],
+      "explanation": "Migration can make it possible to track food, breeding sites or climatic conditions.",
+      "didYouKnow": "Mammals occupy terrestrial, aquatic and, for bats, aerial habitats.",
+      "imageCaption": "Caribou, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-162",
+      "animal": "Mammal",
+      "prompt": "How can a nocturnal mammal detect a very faint sound?",
+      "options": [
+        "Thanks to sensitive hearing and movable ears in some species",
+        "With its vibrissae only",
+        "By measuring starlight",
+        "By the baleen"
+      ],
+      "explanation": "Fine hearing allows certain mammals to locate prey or dangers in the dark.",
+      "didYouKnow": "In mammals, the lower jaw consists of a single bone on each side.",
+      "imageCaption": "Common pipistrelle, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-163",
+      "animal": "Mammal",
+      "prompt": "What is an example of parental care in many mammals?",
+      "options": [
+        "Breastfeed and protect your little ones",
+        "Always abandon the little ones at birth",
+        "Building a nest with feathers",
+        "Hatch eggs for life"
+      ],
+      "explanation": "Parental care in mammals often includes nursing, protection, and learning.",
+      "didYouKnow": "The dentition of many mammals includes incisors, canines, premolars and molars.",
+      "imageCaption": "African elephant, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-164",
+      "animal": "Mammal",
+      "prompt": "What is a possible effect of habitat fragmentation?",
+      "options": [
+        "It isolates populations and limits their movements",
+        "It always increases genetic diversity",
+        "It makes roads invisible to animals",
+        "It eliminates invasive species"
+      ],
+      "explanation": "Fragmentation separates habitats and can reduce exchanges between populations.",
+      "didYouKnow": "Mammals occupy environments ranging from deserts to tropical forests and oceans.",
+      "imageCaption": "Giant panda, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-165",
+      "animal": "Mammal",
+      "prompt": "What means helps protect a migratory species crossing multiple countries?",
+      "options": [
+        "Cooperation between countries on habitats and threats",
+        "A continuous fence on all borders",
+        "The removal of its resting sites",
+        "The ban on scientific observations"
+      ],
+      "explanation": "Migratory species often depend on habitats and protection measures spread across several countries.",
+      "didYouKnow": "Some mammal migrations follow seasonal routes between breeding and feeding areas.",
+      "imageCaption": "Humpback whale, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-166",
+      "animal": "Mammal",
+      "prompt": "Why does tracking data help protect endangered mammals?",
+      "options": [
+        "They show population trends and important areas",
+        "They completely replace habitat protection",
+        "They are used to domesticate all species",
+        "They avoid any illness"
+      ],
+      "explanation": "Monitoring provides information on the size of populations, their distribution and the evolution of threats.",
+      "didYouKnow": "Genetic analyzes can help estimate links between mammal populations.",
+      "imageCaption": "Giant panda, example illustrating the question on mammals."
+    },
+    {
+      "id": "mammals-167",
+      "animal": "Moose",
+      "prompt": "What trait helps moose walk in deep snow?",
+      "options": [
+        "Her long legs",
+        "Its webbed feet",
+        "Its prehensile tail",
+        "Its membranous wings"
+      ],
+      "explanation": "Its long legs help it cross snow and dense vegetation.",
+      "didYouKnow": "The moose is the largest living deer.",
+      "imageCaption": "Moose"
+    },
+    {
+      "id": "mammals-168",
+      "animal": "Boreal Lynx",
+      "prompt": "What distinctive feature ends at the end of the boreal lynx's short tail?",
+      "options": [
+        "A black tip of fur",
+        "A white fan-shaped tuft",
+        "A ring of red hairs",
+        "A long, completely white end"
+      ],
+      "explanation": "The boreal lynx has a short tail ending in a black tip.",
+      "didYouKnow": "The boreal lynx's coat generally becomes thicker and lighter in winter.",
+      "imageCaption": "Boreal Lynx"
+    },
+    {
+      "id": "mammals-169",
+      "animal": "Reindeer",
+      "prompt": "In which deer do females often have antlers?",
+      "options": [
+        "The reindeer",
+        "The red deer",
+        "The deer",
+        "The moose"
+      ],
+      "explanation": "Among reindeer, females generally have antlers, unlike most other deer.",
+      "didYouKnow": "Reindeer have a keen sense of smell which helps them locate food under the snow.",
+      "imageCaption": "Reindeer"
+    },
+    {
+      "id": "mammals-170",
+      "animal": "platypus",
+      "prompt": "What signal does the platypus detect with the electroreceptors in its beak?",
+      "options": [
+        "The weak electric fields produced by prey.",
+        "Variations in the Earth's magnetic field produced by currents.",
+        "Changes in water pressure created by tides.",
+        "Dissolved chemical compounds released by aquatic plants."
+      ],
+      "explanation": "Electroreceptors in the beak help the platypus spot electrical signals from prey underwater.",
+      "didYouKnow": "The male platypus has a venomous sting on its hind legs.",
+      "imageCaption": "platypus"
+    },
+    {
+      "id": "mammals-171",
+      "animal": "Echidna",
+      "prompt": "What food does the echidna look for most?",
+      "options": [
+        "Ants and termites",
+        "Bamboo and leaves",
+        "Fish and shellfish",
+        "Seeds and nuts"
+      ],
+      "explanation": "The echidna feeds mainly on ants and termites which it picks up with its tongue.",
+      "didYouKnow": "The echidna lays an egg, which is incubated in a temporary pouch of the female.",
+      "imageCaption": "Short-beaked Echidna"
+    },
+    {
+      "id": "mammals-172",
+      "animal": "Wombats",
+      "prompt": "What are the wombat's strong claws for?",
+      "options": [
+        "To dig his burrow",
+        "To climb trees",
+        "To catch fish",
+        "To tear tall leaves"
+      ],
+      "explanation": "Its strong claws and powerful limbs move the earth to dig.",
+      "didYouKnow": "The wombat is a marsupial native to Australia.",
+      "imageCaption": "Common Wombat"
+    },
+    {
+      "id": "mammals-173",
+      "animal": "Bottlenose dolphin",
+      "prompt": "Where does the dolphin breathe when it comes to the surface?",
+      "options": [
+        "Through its blowhole",
+        "By its gills",
+        "By its fins",
+        "Through its skin pores"
+      ],
+      "explanation": "The blowhole connects to the lungs and opens briefly at the surface.",
+      "didYouKnow": "Dolphins communicate with each other with whistles and other sounds.",
+      "imageCaption": "Bottlenose dolphin"
+    },
+    {
+      "id": "mammals-174",
+      "animal": "Blue whale",
+      "prompt": "What structure is deployed when the blue whale engulfs water with its prey?",
+      "options": [
+        "The extensible ventral furrows of the throat.",
+        "The dewlaps, which elongate to form a pocket under the jaw.",
+        "The pectoral fins, which separate to widen the mouth.",
+        "The folds located on the upper side of the tail."
+      ],
+      "explanation": "The ventral furrows stretch during engulfment, then water is expelled through the baleen plates.",
+      "didYouKnow": "Blue whales emit low-frequency calls that can travel great distances in the ocean.",
+      "imageCaption": "Blue whale"
+    },
+    {
+      "id": "mammals-175",
+      "animal": "Walrus",
+      "prompt": "What is the main role of walrus vibrissae?",
+      "options": [
+        "Spot molluscs on the seabed",
+        "Measuring air temperature",
+        "Filter plankton",
+        "Grasp the ice like claws"
+      ],
+      "explanation": "Its tactile vibrissae help it detect prey in sediments.",
+      "didYouKnow": "The walrus has a thick layer of blubber under its skin which insulates it in cold water.",
+      "imageCaption": "Walrus"
+    },
+    {
+      "id": "mammals-176",
+      "animal": "Koala",
+      "prompt": "What feature of koala footprints was particularly surprising to researchers?",
+      "options": [
+        "Their skin ridges form patterns that resemble human fingerprints.",
+        "They are composed of small, separate pads without ridges.",
+        "They are identical to those of other arboreal marsupials.",
+        "They have horny scales arranged in a spiral."
+      ],
+      "explanation": "Koala prints have skin ridges that look very similar to human prints to the naked eye.",
+      "didYouKnow": "The young koala passes from its mother's milk to a substance called pap, which helps it digest leaves.",
+      "imageCaption": "Koala"
+    },
+    {
+      "id": "mammals-177",
+      "animal": "Red Kangaroo",
+      "prompt": "How can a female red kangaroo temporarily suspend the development of an embryo?",
+      "options": [
+        "By diapause at the blastocyst stage.",
+        "By stopping the growth of a child already born and breastfed.",
+        "By keeping the embryo in an external envelope until the following season.",
+        "By interrupting gestation when the temperature drops, without restarting afterwards."
+      ],
+      "explanation": "After the birth of a young, the development of another embryo may be suspended at the blastocyst stage.",
+      "didYouKnow": "A female kangaroo can breastfeed young of different ages with milk of suitable composition.",
+      "imageCaption": "Red Kangaroo"
+    },
+    {
+      "id": "mammals-178",
+      "animal": "Gorilla",
+      "prompt": "What does the term “silverback” mean?",
+      "options": [
+        "An adult male with silver-gray hair on its back",
+        "A young gorilla born with light fur",
+        "An elderly female with silvery fur",
+        "A gorilla of a distinct species"
+      ],
+      "explanation": "The back hairs of adult males turn silvery gray when mature.",
+      "didYouKnow": "Gorillas mainly consume plants, including leaves, stems and fruits.",
+      "imageCaption": "Western lowland gorilla"
+    },
+    {
+      "id": "mammals-179",
+      "animal": "Chimpanzee",
+      "prompt": "How do chimpanzees open certain nuts using tools?",
+      "options": [
+        "They place the nut on an anvil and hit it with a hammer",
+        "They pierce the shell with a twig then suck out the contents",
+        "They soak the nut in water to dissolve its shell",
+        "They rub it between two leaves until it opens"
+      ],
+      "explanation": "In some communities, chimpanzees use a stone or piece of wood as a hammer and a hard support as an anvil.",
+      "didYouKnow": "Chimpanzees live in communities that change in size and composition.",
+      "imageCaption": "Common chimpanzee"
+    },
+    {
+      "id": "mammals-180",
+      "animal": "Capybara",
+      "prompt": "Why does the capybara re-ingest certain soft feces?",
+      "options": [
+        "To recover nutrients produced by fermentation in its hindgut.",
+        "To reintroduce bacteria into its stomach, like a ruminant.",
+        "To eliminate salt accumulated after swimming in fresh water.",
+        "To sharpen your incisors by rubbing them against fibers."
+      ],
+      "explanation": "This caecotrophy makes it possible to recover part of the nutrients resulting from plant fermentation.",
+      "didYouKnow": "The capybara is an excellent swimmer and can stay submerged for several minutes.",
+      "imageCaption": "Capybara"
+    },
+    {
+      "id": "mammals-181",
+      "animal": "Three-toed sloth",
+      "prompt": "What defecation behavior often characterizes the three-toed sloth?",
+      "options": [
+        "He periodically goes down to the ground to defecate",
+        "It drops its droppings from the canopy while gliding",
+        "He digs a permanent latrine in a trunk",
+        "He only defecates in a stream"
+      ],
+      "explanation": "The three-toed sloth regularly descends to the ground to defecate; frequency varies between individuals and conditions.",
+      "didYouKnow": "Algae and small invertebrates can live in the fur of the three-toed sloth.",
+      "imageCaption": "Brown-throated sloth"
+    },
+    {
+      "id": "mammals-182",
+      "animal": "Pangolin",
+      "prompt": "How does the pangolin capture ants and termites despite lacking teeth?",
+      "options": [
+        "With its long sticky tongue",
+        "By sucking insects through its scales",
+        "By filtering out insects with baleen",
+        "Grinding them with horny plates in his mouth"
+      ],
+      "explanation": "The pangolin projects its long tongue coated with sticky saliva into insect nests.",
+      "didYouKnow": "Some species of pangolins climb trees and use their tails to hold on to branches.",
+      "imageCaption": "Temminck's pangolin"
+    },
+    {
+      "id": "mammals-183",
+      "animal": "Sea otter",
+      "prompt": "Why does the sea otter's pup easily float to the surface?",
+      "options": [
+        "Its very dense coat retains a lot of air",
+        "His bones are hollow like those of a bird",
+        "A skin pocket inflated with air surrounds his stomach",
+        "Its fins contain gas chambers"
+      ],
+      "explanation": "The baby's very dense coat traps air and makes it very buoyant before it learns to dive.",
+      "didYouKnow": "The sea otter can use a stone as an anvil to open certain shells.",
+      "imageCaption": "Sea otter"
+    },
+    {
+      "id": "mammals-184",
+      "animal": "Egyptian fruit bat",
+      "prompt": "How can the Egyptian flying fox find its way in an almost dark cave?",
+      "options": [
+        "She makes clicks with her tongue and analyzes the echoes.",
+        "She emits ultrasound from her wings and follows their vibrations.",
+        "She perceives the infrared heat of the cave walls.",
+        "It only uses the magnetic fields of the rock."
+      ],
+      "explanation": "Rousettus aegyptiacus produces tongue clicks and uses their echoes to move in the dark.",
+      "didYouKnow": "The Egyptian fruit bat often congregates in large colonies in caves.",
+      "imageCaption": "Egyptian fruit bat"
+    },
+    {
+      "id": "mammals-185",
+      "animal": "Beaver",
+      "prompt": "How do beavers often keep water from entering their nostrils when they dive?",
+      "options": [
+        "It closes nasal valves",
+        "He blocks his nostrils with mud",
+        "He continually exhales through his nose",
+        "It covers its muzzle with a membrane of fur"
+      ],
+      "explanation": "Valves can close the beaver's nostrils during diving and limit water entry.",
+      "didYouKnow": "Beaver incisors are orange due to iron-containing pigments in their enamel.",
+      "imageCaption": "European beaver"
+    },
+    {
+      "id": "mammals-186",
+      "animal": "European hedgehog",
+      "prompt": "What food makes up an important part of the European hedgehog's diet?",
+      "options": [
+        "Invertebrates, such as beetles and earthworms",
+        "Conifer seeds and shelled nuts",
+        "Fish caught in rivers",
+        "Leaves and shoots grazed on trees"
+      ],
+      "explanation": "The European hedgehog is insectivorous in the broad sense and consumes many invertebrates, notably beetles and earthworms.",
+      "didYouKnow": "The European hedgehog often curls up into a ball when threatened.",
+      "imageCaption": "European hedgehog"
+    },
+    {
+      "id": "mammals-187",
+      "animal": "red squirrel",
+      "prompt": "How can the bushy tail help the red squirrel when jumping?",
+      "options": [
+        "It helps him direct his body and slow his fall",
+        "It allows it to cling to branches like a hand",
+        "It produces a sticky substance that attaches its legs",
+        "It serves as a rudder to swim underwater."
+      ],
+      "explanation": "The tail contributes to balance and trajectory adjustments; it can also help slow a fall.",
+      "didYouKnow": "The red squirrel's tail also helps provide cover and retain heat while resting.",
+      "imageCaption": "red squirrel"
+    },
+    {
+      "id": "mammals-188",
+      "animal": "Elephant",
+      "prompt": "How do the elephant's large ears contribute to its thermoregulation?",
+      "options": [
+        "Their network of blood vessels helps dissipate heat",
+        "They store water then release it by evaporation",
+        "They produce an insulating layer of fat in summer",
+        "They direct air directly to the lungs"
+      ],
+      "explanation": "Blood circulating near the surface of the ears can lose heat, and the flapping of the ears promotes exchange with air.",
+      "didYouKnow": "Elephants can communicate with low-pitched sounds that travel long distances.",
+      "imageCaption": "African savannah elephant"
+    },
+    {
+      "id": "mammals-189",
+      "animal": "Plains Zebra",
+      "prompt": "What can researchers use a zebra’s stripe patterns for?",
+      "options": [
+        "To distinguish individuals thanks to their particular pattern",
+        "To determine with certainty his exact age",
+        "Know which way the wind blows",
+        "To measure your body temperature"
+      ],
+      "explanation": "The arrangement of stripes varies between individuals and can be used to recognize zebras in field studies.",
+      "didYouKnow": "Plains zebras often live in social groups consisting of one male and several females.",
+      "imageCaption": "Plains Zebra"
+    },
+    {
+      "id": "mammals-190",
+      "animal": "Beluga",
+      "prompt": "What particularity of the beluga's cervical vertebrae allows its neck to remain mobile?",
+      "options": [
+        "They are not merged with each other.",
+        "They are fused into a single bone that rotates in the skull.",
+        "They are replaced by soft cartilage without bony vertebrae.",
+        "They are directly connected to the jaw bones."
+      ],
+      "explanation": "Unlike many cetaceans, the beluga's cervical vertebrae remain relatively mobile.",
+      "didYouKnow": "The beluga loses part of its surface layer of skin during a seasonal molt.",
+      "imageCaption": "Beluga"
+    },
+    {
+      "id": "mammals-191",
+      "animal": "Japanese macaque",
+      "prompt": "How is dominance rank often passed down in Japanese macaques?",
+      "options": [
+        "Young females generally inherit a rank close to that of their mother.",
+        "Young males always inherit their father's rank.",
+        "Rank depends solely on age, without relation to family.",
+        "Each individual obtains a new rank after an annual migration."
+      ],
+      "explanation": "Dominance relationships are often organized into maternal lines, and young females inherit their mother's rank.",
+      "didYouKnow": "Japanese macaques use various calls to communicate within the group.",
+      "imageCaption": "Japanese macaque"
+    },
+    {
+      "id": "mammals-192",
+      "animal": "American Pika",
+      "prompt": "What does the American pika do during the winter?",
+      "options": [
+        "He remains active and consumes plants that he has stored",
+        "It migrates every fall to tropical forests",
+        "It hibernates in a deep burrow until spring",
+        "It feeds exclusively on roots that it digs up under the snow."
+      ],
+      "explanation": "The American pika does not hibernate; it survives the winter by remaining active under the snow and consuming plant provisions harvested during the summer.",
+      "didYouKnow": "The American pika belongs to the order of lagomorphs, like hares and rabbits.",
+      "imageCaption": "American Pika"
+    },
+    {
+      "id": "mammals-193",
+      "animal": "Cheetah",
+      "prompt": "What is the purpose of the cheetah's long tail during a chase?",
+      "options": [
+        "To stabilize your body during turns",
+        "To seize prey",
+        "To store energy",
+        "Please report your exact age"
+      ],
+      "explanation": "The tail acts like a pendulum and helps to quickly change direction.",
+      "didYouKnow": "Dark markings run down from the cheetah's eyes toward the sides of the snout.",
+      "imageCaption": "Cheetah"
+    },
+    {
+      "id": "mammals-194",
+      "animal": "Elephant seal",
+      "prompt": "What physiological reserves support the elephant seal's long dives?",
+      "options": [
+        "Oxygen stored in the blood and muscles.",
+        "Air retained in pockets under the fins.",
+        "Oxygen absorbed directly through the skin during diving.",
+        "Air stored in the trunk before immersion."
+      ],
+      "explanation": "The elephant seal has large reserves of oxygen in the blood and muscles, in particular thanks to myoglobin.",
+      "didYouKnow": "The male elephant seal has a trunk which amplifies its vocalizations.",
+      "imageCaption": "Southern elephant seal"
+    },
+    {
+      "id": "mammals-195",
+      "animal": "Common pipistrelle",
+      "prompt": "What mechanism allows the common pipistrelle to reduce its energy expenditure during cold periods?",
+      "options": [
+        "Episodes of torpor, often in a winter shelter.",
+        "A continuous rise in body temperature which accelerates digestion.",
+        "A daily migration towards warmer regions.",
+        "A long period of activity without food, without metabolic reduction."
+      ],
+      "explanation": "Torpor temporarily reduces metabolism when cold and lack of insects limit resources.",
+      "didYouKnow": "The common pipistrelle uses echolocation calls to detect prey in the dark.",
+      "imageCaption": "Common pipistrelle"
+    },
+    {
+      "id": "mammals-196",
+      "animal": "Amazon pink dolphin",
+      "prompt": "What skeletal feature helps the pink dolphin turn its head?",
+      "options": [
+        "His cervical vertebrae remain relatively mobile",
+        "Its skull pivots on an additional joint",
+        "Its front flippers are connected directly to the pelvis",
+        "Its ribs are separated into two mobile rows"
+      ],
+      "explanation": "The pink dolphin's neck vertebrae are less fused than in many marine dolphins, giving it better head mobility.",
+      "didYouKnow": "The Amazonian pink dolphin uses echolocation to locate its prey in often murky waters.",
+      "imageCaption": "Amazon pink dolphin"
+    },
+    {
+      "id": "mammals-197",
+      "animal": "Bactrian camel",
+      "prompt": "What structure protects the Bactrian camel's eyes from sand?",
+      "options": [
+        "A translucent third eyelid",
+        "A membrane of skin that covers its ears",
+        "Eyelashes that close like rigid shutters",
+        "A horny scale placed on the pupil"
+      ],
+      "explanation": "Like other camelids, the camel has a translucent nictitating membrane that protects and moistens the eye while allowing light to pass through.",
+      "didYouKnow": "The Bactrian camel has two humps where it stores fat.",
+      "imageCaption": "Bactrian camel"
+    },
+    {
+      "id": "mammals-198",
+      "animal": "Giant panda",
+      "prompt": "What feature of the giant panda's digestive system is surprising given its diet?",
+      "options": [
+        "It retains a carnivorous digestive tract, not very specialized for digesting cellulose.",
+        "It has several stomachs comparable to those of ruminants",
+        "It digests bamboo through fermentation in a pocket in its stomach",
+        "It transforms cellulose into sugar in its salivary glands"
+      ],
+      "explanation": "Despite its diet dominated by bamboo, the giant panda has a relatively simple carnivorous digestive system and obtains a limited portion of nutrients from cellulose.",
+      "didYouKnow": "At birth, the giant panda cub is tiny, blind and almost hairless.",
+      "imageCaption": "Giant panda"
+    },
+    {
+      "id": "mammals-199",
+      "animal": "Vaquita",
+      "prompt": "What size characteristic distinguishes the vaquita among extant cetaceans?",
+      "options": [
+        "It is the smallest living cetacean, around 1.5 meters as an adult.",
+        "It is the largest living dolphin, often exceeding 8 meters",
+        "It is the only cetacean whose newborn measures less than 20 centimeters",
+        "It is the only porpoise that exceeds the size of a killer whale"
+      ],
+      "explanation": "The vaquita is the smallest living cetacean; adults generally measure around 1.5 meters.",
+      "didYouKnow": "The vaquita is a porpoise, and not a dolphin in the strict sense.",
+      "imageCaption": "Vaquita"
+    },
+    {
+      "id": "mammals-200",
+      "animal": "Walrus",
+      "prompt": "How do walruses often extract flesh from the bivalves they eat?",
+      "options": [
+        "It sucks soft tissue out of the shell",
+        "It systematically crushes the shells with its tusks",
+        "He opens the shells by hitting them against the ice",
+        "It filters bivalves through baleen"
+      ],
+      "explanation": "The walrus can create strong suction with its mouth to extract meat from clams and other bivalves.",
+      "didYouKnow": "The walrus may rest on the ice or on land in large gatherings.",
+      "imageCaption": "Walrus"
+    }
+  ]
+}

@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "f73d2fa614b144ab422070e253ea9d319bf07fe9bb00f11624b72666973debf7",
+  "locale": "en",
+  "questions": [
+    {
+      "id": "birds-001",
+      "animal": "Golden Eagle",
+      "prompt": "What are the main purposes of the golden eagle's broad wings?",
+      "options": [
+        "To soar on rising air currents",
+        "To accelerate by beating quickly in the undergrowth",
+        "To swim by pushing the water",
+        "To dig the ground in a fan"
+      ],
+      "explanation": "Its broad wings let it glide over large areas while conserving energy.",
+      "didYouKnow": "Golden eagles may reuse and enlarge the same nest over several breeding seasons.",
+      "imageCaption": "Golden Eagle"
+    },
+    {
+      "id": "birds-002",
+      "animal": "Wandering Albatross",
+      "prompt": "What flight mechanism allows the wandering albatross to exploit the winds above the waves?",
+      "options": [
+        "It alternates phases of ascent and descent to take advantage of variations in the wind.",
+        "It hovers into the wind, flapping its wings rapidly.",
+        "It continually rotates in columns of warm air above land.",
+        "It constantly beats its wings to move at the same height above the water."
+      ],
+      "explanation": "The albatross' dynamic flight exploits differences in wind speed at various heights above the waves, allowing it to travel long distances with few beats.",
+      "didYouKnow": "Albatrosses return to islands to breed.",
+      "imageCaption": "Wandering Albatross"
+    },
+    {
+      "id": "birds-003",
+      "animal": "Emperor penguin",
+      "prompt": "How does the emperor penguin protect its egg from contact with ice?",
+      "options": [
+        "It balances the egg on its feet beneath a brood patch.",
+        "He places it in a nest dug in the ice",
+        "He wedges it between stones heated in the sun",
+        "He carries it in his beak while swimming"
+      ],
+      "explanation": "The parent keeps the egg off the ice by supporting it on its feet beneath a feathered skin fold.",
+      "didYouKnow": "Both parents take turns incubating, although the male performs most incubation during the Antarctic winter.",
+      "imageCaption": "Emperor penguin"
+    },
+    {
+      "id": "birds-004",
+      "animal": "Ostrich",
+      "prompt": "What is the ostrich’s main mode of movement?",
+      "options": [
+        "Running",
+        "The beaten flight",
+        "Swimming under the ice",
+        "Gliding from the cliffs"
+      ],
+      "explanation": "An ostrich is flightless, and its long legs are adapted for fast running.",
+      "didYouKnow": "An ostrich has two toes on each foot, unlike most birds, which have four.",
+      "imageCaption": "Ostrich"
+    },
+    {
+      "id": "birds-005",
+      "animal": "Anna's Hummingbird",
+      "prompt": "What property of wing flapping helps Anna's hummingbird hover?",
+      "options": [
+        "It generates lift on both the downstroke and the upstroke.",
+        "It only produces lift on the way back, then lets the bird descend slightly.",
+        "It locks the wings during each cycle and mainly uses air currents.",
+        "It alternates a powerful beat with a long gliding phase."
+      ],
+      "explanation": "Hummingbirds generate lift during both halves of the wingbeat, helping them hover in front of a flower.",
+      "didYouKnow": "Anna’s hummingbird can enter torpor on cold nights, temporarily lowering its energy use.",
+      "imageCaption": "Anna's Hummingbird"
+    },
+    {
+      "id": "birds-006",
+      "animal": "Great Spotted Woodpecker",
+      "prompt": "What is the common purpose of the great spotted woodpecker's drumming on a trunk?",
+      "options": [
+        "To communicate with other woodpeckers, often about territory.",
+        "To probe the depth of the water",
+        "To attract fish near the bank",
+        "Drying your feathers after the rain"
+      ],
+      "explanation": "Drumming is a loud signal used especially during territorial interactions.",
+      "didYouKnow": "Its stiff tail feathers help brace it against tree trunks as it climbs.",
+      "imageCaption": "Great Spotted Woodpecker"
+    },
+    {
+      "id": "birds-007",
+      "animal": "Flamingo",
+      "prompt": "How does the flamingo get much of its food?",
+      "options": [
+        "By filtering small organisms from water and mud",
+        "By spearing fish from a perch",
+        "Shelling seeds with its crossed beak",
+        "By capturing insects while hovering"
+      ],
+      "explanation": "The blades of its beak retain small crustaceans, algae and other organisms.",
+      "didYouKnow": "Carotenoids in certain foods contribute to the pink color of its plumage.",
+      "imageCaption": "Flamingo"
+    },
+    {
+      "id": "birds-008",
+      "animal": "Tawny Owl",
+      "prompt": "How does the asymmetry of the tawny owl's ears help locate hidden prey?",
+      "options": [
+        "The small differences in time and intensity between the ears provide information on the direction of the sound.",
+        "It only amplifies high-pitched sounds emitted by prey.",
+        "It transforms sounds into visual cues when the light is low.",
+        "It blocks sounds coming from the ground to isolate those from the branches."
+      ],
+      "explanation": "The position and asymmetry of the ears help the owl compare sounds received from each side and estimate where prey is coming from.",
+      "didYouKnow": "Like other owls, it regurgitates pellets containing undigested remains of prey.",
+      "imageCaption": "Tawny Owl"
+    },
+    {
+      "id": "birds-009",
+      "animal": "Barn Swallow",
+      "prompt": "Why do barn swallows migrate to warmer areas in winter?",
+      "options": [
+        "To find more available flying insects",
+        "To find tree cavities without snow",
+        "To avoid all rain and wind",
+        "To lay eggs in drier soils"
+      ],
+      "explanation": "Migration takes it to regions where the insects on which it feeds remain accessible.",
+      "didYouKnow": "It captures most of its prey in flight.",
+      "imageCaption": "Barn Swallow"
+    },
+    {
+      "id": "birds-010",
+      "animal": "Mallard duck",
+      "prompt": "What is the purpose of the membrane between the mallard's toes?",
+      "options": [
+        "To increase the thrust of its legs in the water",
+        "To cling to smooth trunks",
+        "Digging nesting cavities",
+        "To grab seeds from branches"
+      ],
+      "explanation": "Webbing increases the surface area that pushes water when the duck swims.",
+      "didYouKnow": "The mallard is the ancestor of many breeds of domestic ducks.",
+      "imageCaption": "Mallard duck"
+    },
+    {
+      "id": "birds-011",
+      "animal": "White Pelican",
+      "prompt": "What is the expandable pouch on the pelican's beak for?",
+      "options": [
+        "To temporarily capture fish",
+        "To store air during flight",
+        "To transport eggs sustainably",
+        "To filter salt from sea water"
+      ],
+      "explanation": "The bag functions as a temporary net to catch fish in the water.",
+      "didYouKnow": "Pelicans often nest in colonies, sometimes on islands or coastal sites.",
+      "imageCaption": "White Pelican"
+    },
+    {
+      "id": "birds-012",
+      "animal": "White Stork",
+      "prompt": "How does the white stork save energy during part of its migration?",
+      "options": [
+        "By gliding on rising columns of warm air over land.",
+        "While swimming in the sea currents",
+        "By digging shelters to rest in flight",
+        "By constantly flapping your wings at maximum speed"
+      ],
+      "explanation": "Thermals help the stork gain height, after which it can glide with fewer wingbeats.",
+      "didYouKnow": "White storks often nest on human-made structures such as rooftops and platforms.",
+      "imageCaption": "White Stork"
+    },
+    {
+      "id": "birds-013",
+      "animal": "European kingfisher",
+      "prompt": "How does the European kingfisher often catch a small fish?",
+      "options": [
+        "It dives from a perch after spotting the fish.",
+        "It filters the mud with its paws",
+        "He catches fish in the trees",
+        "He chases him underwater while swimming for a long time"
+      ],
+      "explanation": "The kingfisher watches the water from a perch, then dives to seize its prey.",
+      "didYouKnow": "It excavates a nesting tunnel in a riverbank or other earthen bank.",
+      "imageCaption": "European kingfisher"
+    },
+    {
+      "id": "birds-014",
+      "animal": "Rook",
+      "prompt": "What ability has been observed in several species of corvids?",
+      "options": [
+        "Use or modify objects to access food",
+        "Produce milk for their chicks",
+        "Breathe underwater thanks to their feathers",
+        "Growing seeds in cavities"
+      ],
+      "explanation": "Corvids sometimes use tools to reach food that is otherwise difficult to access.",
+      "didYouKnow": "The corvid family includes ravens, crows and jays.",
+      "imageCaption": "Rook"
+    },
+    {
+      "id": "birds-015",
+      "animal": "Eurasian jay",
+      "prompt": "What role can the oak jay play in forest regeneration?",
+      "options": [
+        "Scatter acorns that he has hidden",
+        "Pollinate oak trees by drinking their sap",
+        "Digging cavities where acorns germinate underwater",
+        "Prevent acorns from falling from trees"
+      ],
+      "explanation": "Acorns forgotten in its hiding places can germinate far from the parent tree.",
+      "didYouKnow": "The oak jay has a striped blue patch on the wing, clearly visible in its brown plumage.",
+      "imageCaption": "Eurasian jay"
+    },
+    {
+      "id": "birds-016",
+      "animal": "Great tit",
+      "prompt": "Where do great tits often look for small insects?",
+      "options": [
+        "In the cracks and under the leaves",
+        "At the bottom of deep lakes",
+        "In the burrows of large mammals",
+        "Under the sand of the beaches"
+      ],
+      "explanation": "She explores the branches and foliage in search of small invertebrates.",
+      "didYouKnow": "She also readily frequents feeders in winter.",
+      "imageCaption": "Great tit"
+    },
+    {
+      "id": "birds-017",
+      "animal": "European robin",
+      "prompt": "Why does the robin sometimes follow a person who is turning over the earth?",
+      "options": [
+        "Disturbed soil can reveal worms and other invertebrates",
+        "The sound of the shovel attracts fish to the surface",
+        "He harvests the seeds sown by the tools",
+        "He uses the shovel to build his nest"
+      ],
+      "explanation": "Working the soil sometimes makes small prey hidden in the earth accessible.",
+      "didYouKnow": "The robin often defends its territory against its peers.",
+      "imageCaption": "European robin"
+    },
+    {
+      "id": "birds-018",
+      "animal": "barn owl",
+      "prompt": "What structure helps the barn owl pick up sounds?",
+      "options": [
+        "Its facial disc, which directs sounds to the ears",
+        "A crest that vibrates like an antenna",
+        "A transparent membrane on the beak",
+        "Stiff feathers under the legs"
+      ],
+      "explanation": "The shape of the facial disc helps channel sounds to their ears.",
+      "didYouKnow": "Its flight is silent thanks to the particular structure of its feathers.",
+      "imageCaption": "barn owl"
+    },
+    {
+      "id": "birds-019",
+      "animal": "Peregrine Falcon",
+      "prompt": "What hunting tactic is famous in the peregrine falcon?",
+      "options": [
+        "Dive quickly from the air to intercept a bird",
+        "Pursue prey for a long time underwater",
+        "Build a trap with twigs",
+        "Hunt by surrounding your prey in groups on the ground"
+      ],
+      "explanation": "The peregrine falcon can swoop from the air to intercept birds in flight.",
+      "didYouKnow": "It nests on cliffs and sometimes on tall buildings in town.",
+      "imageCaption": "Peregrine Falcon"
+    },
+    {
+      "id": "birds-020",
+      "animal": "Common buzzard",
+      "prompt": "What prey does the Common Buzzard commonly capture in open landscapes?",
+      "options": [
+        "Small mammals like voles",
+        "Jellyfish and small crustaceans",
+        "Nectar collected from flowers",
+        "Seeds extracted from the cones"
+      ],
+      "explanation": "Its diet is opportunistic, but small mammals often constitute important prey.",
+      "didYouKnow": "It can hover in circles above its territory.",
+      "imageCaption": "Common buzzard"
+    },
+    {
+      "id": "birds-021",
+      "animal": "Griffon Vulture",
+      "prompt": "What ecological role does the griffon vulture fulfill?",
+      "options": [
+        "Consume carcasses and accelerate their recycling",
+        "Scatter acorns by hiding them",
+        "Cleaning Live Fish Scales",
+        "Pollinate cliff flowers"
+      ],
+      "explanation": "By consuming carcasses, it contributes to the recycling of organic matter.",
+      "didYouKnow": "The griffon vulture can take advantage of updrafts to glide without continually flapping its wings.",
+      "imageCaption": "Griffon Vulture"
+    },
+    {
+      "id": "birds-022",
+      "animal": "Little Egret",
+      "prompt": "How do little egrets often capture prey in shallow water?",
+      "options": [
+        "She watches or stirs the water to bring out prey",
+        "She catches insects with a web",
+        "She dives from a great height",
+        "It digs a burrow to trap fish."
+      ],
+      "explanation": "It hunts fish and invertebrates in shallow wetlands.",
+      "didYouKnow": "Its yellow fingers contrast with its dark paws.",
+      "imageCaption": "Little Egret"
+    },
+    {
+      "id": "birds-023",
+      "animal": "Gray Heron",
+      "prompt": "How does the gray heron often catch a fish?",
+      "options": [
+        "It remains motionless then quickly launches its beak",
+        "It filters the water with slats",
+        "It sucks the fish with its feathers",
+        "He surrounds it with his neck before grabbing it"
+      ],
+      "explanation": "The heron often hunts while lying in wait and quickly grabs fish with its beak.",
+      "didYouKnow": "It can also look for prey in fields, far from water.",
+      "imageCaption": "Gray Heron"
+    },
+    {
+      "id": "birds-024",
+      "animal": "Common crane",
+      "prompt": "What can common crane dances be used for?",
+      "options": [
+        "Social interactions and courtship displays.",
+        "To build a mud dam",
+        "Feeding adults fish",
+        "To make the nest float"
+      ],
+      "explanation": "Jumps and wing movements are part of cranes’ social displays and interactions.",
+      "didYouKnow": "Common cranes form long-lasting pair bonds.",
+      "imageCaption": "Common crane"
+    },
+    {
+      "id": "birds-025",
+      "animal": "Indian peafowl",
+      "prompt": "What is the main purpose of the male peacock's long tail?",
+      "options": [
+        "At the courtship",
+        "To dig a burrow",
+        "To hover above the sea",
+        "To regulate your temperature while swimming"
+      ],
+      "explanation": "The male displays his colorful feathers during displays intended for partners.",
+      "didYouKnow": "The blue peacock feeds on the ground on a variety of foods, including seeds, fruits and small animals.",
+      "imageCaption": "Indian peafowl"
+    },
+    {
+      "id": "birds-026",
+      "animal": "Ostrich",
+      "prompt": "Who usually participates in incubating ostrich eggs overnight?",
+      "options": [
+        "The male.",
+        "The female alone",
+        "Both parents side by side",
+        "Another male in the group"
+      ],
+      "explanation": "The male usually incubates at night, while the female does most of the daytime incubation.",
+      "didYouKnow": "Ostrich chicks can leave the nest soon after hatching.",
+      "imageCaption": "Ostrich"
+    },
+    {
+      "id": "birds-027",
+      "animal": "Rock pigeon",
+      "prompt": "What clues can a pigeon combine to find its loft?",
+      "options": [
+        "Visual cues and clues related to the sun or magnetic field",
+        "The scents of flowers only",
+        "The footprints left by its peers",
+        "Ultrasounds emitted by buildings"
+      ],
+      "explanation": "The orientation of pigeons can mobilize several environmental cues rather than a single cue.",
+      "didYouKnow": "Urban pigeons are descended from domesticated rock pigeons.",
+      "imageCaption": "Rock pigeon"
+    },
+    {
+      "id": "birds-028",
+      "animal": "Eurasian collared dove",
+      "prompt": "What does the Turkish dove mainly feed on?",
+      "options": [
+        "From seeds",
+        "Jellyfish",
+        "Living wood",
+        "Marine molluscs"
+      ],
+      "explanation": "It mainly consumes seeds and often frequents inhabited areas.",
+      "didYouKnow": "Her black collar on the back of her neck helps to recognize her.",
+      "imageCaption": "Eurasian collared dove"
+    },
+    {
+      "id": "birds-029",
+      "animal": "Lapwing",
+      "prompt": "How can the Northern Lapwing lure a predator away from its nest?",
+      "options": [
+        "By simulating injury behavior",
+        "By throwing stones with its beak",
+        "By covering the eggs with luminous feathers",
+        "By calling a predatory mammal"
+      ],
+      "explanation": "An adult can attract attention away from the nest with a diversionary display.",
+      "didYouKnow": "It often frequents wet meadows and fields.",
+      "imageCaption": "Lapwing"
+    },
+    {
+      "id": "birds-030",
+      "animal": "Dunlin",
+      "prompt": "What is the purpose of the sandpiper's beak when it searches for food in the mud?",
+      "options": [
+        "Probing the substrate to find small invertebrates",
+        "To crack hard nuts",
+        "To carry your chicks in flight",
+        "To filter algae from the air"
+      ],
+      "explanation": "Its beak explores the mud where small animals hide.",
+      "didYouKnow": "During migration, the dunlin can gather in large groups on mudflats.",
+      "imageCaption": "Dunlin"
+    },
+    {
+      "id": "birds-031",
+      "animal": "Oystercatcher",
+      "prompt": "How does the oystercatcher open certain shelled prey?",
+      "options": [
+        "Using its sturdy beak to open or probe them",
+        "By dissolving the shell with venom",
+        "By breaking the shell with its wings",
+        "By swallowing stones to open it in the crop"
+      ],
+      "explanation": "Its beak allows you to open molluscs or look for worms, depending on the technique used.",
+      "didYouKnow": "The oystercatcher has a long orange-red beak and legs of the same color.",
+      "imageCaption": "Oystercatcher"
+    },
+    {
+      "id": "birds-032",
+      "animal": "Pied Avocet",
+      "prompt": "How does the Pied Avocet often capture small prey?",
+      "options": [
+        "It sweeps across shallow water with its upwardly curved beak.",
+        "She dives to great depths from the air",
+        "She digs the trunks with her paws",
+        "She catches insects with a sticky tongue"
+      ],
+      "explanation": "It moves its bill in shallow water to capture small invertebrates.",
+      "didYouKnow": "The Pied Avocet builds its nest in a small depression on the ground, often near a damp area.",
+      "imageCaption": "Pied Avocet"
+    },
+    {
+      "id": "birds-033",
+      "animal": "Black-headed Gull",
+      "prompt": "Why do black-headed gulls often change feeding areas?",
+      "options": [
+        "It exploits varied resources depending on their availability",
+        "It always depends on a single species of fish",
+        "She can only eat at high tide",
+        "It feeds only on reed seeds."
+      ],
+      "explanation": "This opportunistic species searches for food on water as well as on land.",
+      "didYouKnow": "Its brown hood appears especially during the breeding season.",
+      "imageCaption": "Black-headed Gull"
+    },
+    {
+      "id": "birds-034",
+      "animal": "Herring gull",
+      "prompt": "What behavior might a herring gull use to open a shell?",
+      "options": [
+        "By dropping it onto a hard surface.",
+        "Cover it in the sand",
+        "Rub it against a feather",
+        "Float it until it opens"
+      ],
+      "explanation": "Some gulls drop hard-shelled prey onto hard ground to crack it open.",
+      "didYouKnow": "Herring gulls can drink both fresh water and seawater; salt glands help them excrete excess salt.",
+      "imageCaption": "Herring gull"
+    },
+    {
+      "id": "birds-035",
+      "animal": "Arctic tern",
+      "prompt": "Between which regions do Arctic terns often migrate?",
+      "options": [
+        "The Arctic and Antarctica",
+        "The Alps and the Pyrenees",
+        "The Mediterranean and the Black Sea",
+        "The Sahara and the Amazon forest"
+      ],
+      "explanation": "It migrates between Arctic breeding areas and Antarctic non-breeding areas.",
+      "didYouKnow": "The Arctic tern often nests on the ground, near coasts or on islands.",
+      "imageCaption": "Arctic tern"
+    },
+    {
+      "id": "birds-036",
+      "animal": "Atlantic puffin",
+      "prompt": "How do puffins sometimes carry multiple fish?",
+      "options": [
+        "He holds them across his beak",
+        "He stores them in a belly pocket",
+        "He attaches them to his paws",
+        "It stores them in its tail feathers"
+      ],
+      "explanation": "Roughnesses in the beak help the puffin maintain several small fish.",
+      "didYouKnow": "It often digs its breeding burrow in soft soil.",
+      "imageCaption": "Atlantic puffin"
+    },
+    {
+      "id": "birds-037",
+      "animal": "European shag",
+      "prompt": "Why does the shag dive underwater?",
+      "options": [
+        "To pursue fish",
+        "To collect pollen from aquatic plants",
+        "To breathe in a submerged cave",
+        "To build its nest at the bottom of the sea"
+      ],
+      "explanation": "Its webbed feet propel it when it pursues fish beneath the surface.",
+      "didYouKnow": "Its webbed fingers help it propel itself underwater.",
+      "imageCaption": "European shag"
+    },
+    {
+      "id": "birds-038",
+      "animal": "Northern gannet",
+      "prompt": "How do gannets often catch fish?",
+      "options": [
+        "Diving into the sea from the air",
+        "By filtering the mud with its beak",
+        "By building nests underwater",
+        "While fishing with a twig"
+      ],
+      "explanation": "He spots fish then dives into the water to catch them.",
+      "didYouKnow": "Gannets often breed in very dense colonies on cliffs or islets.",
+      "imageCaption": "Northern gannet"
+    },
+    {
+      "id": "birds-039",
+      "animal": "Razorbill",
+      "prompt": "What are the main purposes of the Torda penguin's wings underwater?",
+      "options": [
+        "To propel itself underwater while swimming.",
+        "Digging holes in the ice",
+        "To filter plankton",
+        "To carry the eggs"
+      ],
+      "explanation": "A razorbill’s short, stiff wings act like flippers when it dives.",
+      "didYouKnow": "Razorbills are members of the auk family and breed on North Atlantic coasts.",
+      "imageCaption": "Razorbill"
+    },
+    {
+      "id": "birds-040",
+      "animal": "Great crested grebe",
+      "prompt": "How does the great crested grebe sometimes transport its chicks?",
+      "options": [
+        "On its back, among its feathers",
+        "In a pocket of his beak",
+        "Clinging to its wings in flight",
+        "Under his paws while swimming"
+      ],
+      "explanation": "Young grebes may ride on the back of a swimming parent.",
+      "didYouKnow": "Its rearward paws help it swim, but make walking clumsy.",
+      "imageCaption": "Great crested grebe"
+    },
+    {
+      "id": "birds-041",
+      "animal": "Coot",
+      "prompt": "What characteristic often distinguishes coots from many ducks?",
+      "options": [
+        "Its lobed fingers rather than broad webbing",
+        "Its beak curved like that of a bird of prey",
+        "Gills hidden under the wings",
+        "A prehensile tail"
+      ],
+      "explanation": "The lobes of skin on its fingers help with swimming and walking on wet vegetation.",
+      "didYouKnow": "Its white beak and forehead are visible from afar.",
+      "imageCaption": "Coot"
+    },
+    {
+      "id": "birds-042",
+      "animal": "European kingfisher",
+      "prompt": "Why does the kingfisher have to take refraction into account when diving?",
+      "options": [
+        "Light changes the appearance of prey position as it passes through water",
+        "He must see in total darkness",
+        "He sees the fish through the rocks",
+        "It locates prey by echolocation"
+      ],
+      "explanation": "The transition from air to water deflects light, which shifts the image of the prey.",
+      "didYouKnow": "Several species of kingfishers also hunt terrestrial prey.",
+      "imageCaption": "European kingfisher"
+    },
+    {
+      "id": "birds-043",
+      "animal": "European bee-eater",
+      "prompt": "How does the European bee-eater often dispose of the sting of a captured bee?",
+      "options": [
+        "It hits or rubs the insect against a perch",
+        "He blows on it until the stinger falls",
+        "He immerses it in salt water",
+        "He asks another bird to take it away"
+      ],
+      "explanation": "It may rub the insect against a support before swallowing it.",
+      "didYouKnow": "The European bee-eater migrates to sub-Saharan Africa to spend the winter.",
+      "imageCaption": "European bee-eater"
+    },
+    {
+      "id": "birds-044",
+      "animal": "European Roller",
+      "prompt": "Where does the European Roller often nest?",
+      "options": [
+        "In a cavity, sometimes an old tree hole",
+        "In a spider's web",
+        "Underwater between roots",
+        "In a floating nest of reeds"
+      ],
+      "explanation": "It uses natural cavities or cavities dug by other species to reproduce.",
+      "didYouKnow": "It frequently hunts from an open perch.",
+      "imageCaption": "European Roller"
+    },
+    {
+      "id": "birds-045",
+      "animal": "Hoopoe",
+      "prompt": "How do hoopoes often find insects in the soil?",
+      "options": [
+        "It probes the substrate with its long beak",
+        "It filters the water with its plumage",
+        "She digs with her wings",
+        "She uses echolocation"
+      ],
+      "explanation": "It digs its beak into the earth or dead leaves to search for invertebrates.",
+      "didYouKnow": "Its crest can be fanned out when excited or in display.",
+      "imageCaption": "Hoopoe"
+    },
+    {
+      "id": "birds-046",
+      "animal": "Common cuckoo",
+      "prompt": "What reproductive strategy characterizes the gray cuckoo?",
+      "options": [
+        "It often lays eggs in the nest of another species",
+        "He always raises a large colony alone",
+        "It lays its eggs without a nest in trees.",
+        "It feeds chicks of other species underwater"
+      ],
+      "explanation": "The gray cuckoo practices brood parasitism: hosts incubate its egg and often raise the young.",
+      "didYouKnow": "The adult gray cuckoo consumes caterpillars in particular, including hairy species.",
+      "imageCaption": "Common cuckoo"
+    },
+    {
+      "id": "birds-047",
+      "animal": "European oriole",
+      "prompt": "What type of nest does the European oriole often build?",
+      "options": [
+        "A cup hanging in the fork of branches",
+        "A burrow in a dune",
+        "A cavity filled with water",
+        "A floating nest attached to a fish"
+      ],
+      "explanation": "The female weaves a cup-shaped nest, often suspended between branches.",
+      "didYouKnow": "The bright yellow male can be difficult to see in the foliage.",
+      "imageCaption": "European oriole"
+    },
+    {
+      "id": "birds-048",
+      "animal": "Common blackbird",
+      "prompt": "How do blackbirds often search for worms?",
+      "options": [
+        "He searches the ground observing and listening",
+        "It dives under the leaves to suck them up",
+        "It uses ultrasound",
+        "It follows the roots with its beak closed"
+      ],
+      "explanation": "It searches on the ground and can detect its prey through its senses and observation.",
+      "didYouKnow": "He can use a stone as an anvil to break certain snails.",
+      "imageCaption": "Common blackbird"
+    },
+    {
+      "id": "birds-049",
+      "animal": "Song Thrush",
+      "prompt": "Why does the song thrush sometimes hit a snail against a stone?",
+      "options": [
+        "To break its shell and access the body",
+        "To dry the shell",
+        "To attract fish",
+        "To decorate your nest"
+      ],
+      "explanation": "She sometimes uses a stone as an anvil to open certain snails.",
+      "didYouKnow": "The song thrush produces a varied song, often heard early in the breeding season.",
+      "imageCaption": "Song Thrush"
+    },
+    {
+      "id": "birds-050",
+      "animal": "European starling",
+      "prompt": "How do starlings coordinate their large group flights?",
+      "options": [
+        "Each bird adjusts its movements depending on its neighbors",
+        "A leader gives orders to the whole flock",
+        "Birds are connected by invisible threads",
+        "They only follow the gravitational field"
+      ],
+      "explanation": "Changes in direction emerge from rapid reactions between close individuals.",
+      "didYouKnow": "Starlings also gather in common roosts at dusk.",
+      "imageCaption": "European starling"
+    },
+    {
+      "id": "birds-051",
+      "animal": "Northern Cardinal",
+      "prompt": "What difference in plumage generally distinguishes the sexes of the northern cardinal?",
+      "options": [
+        "The male is bright red and the female more brownish",
+        "The female is bright red and the male entirely brown.",
+        "The male is white and the female black",
+        "Both sexes are always the same"
+      ],
+      "explanation": "The male is bright red, while the female is mostly brownish with red accents.",
+      "didYouKnow": "Female cardinals also sing, unlike the females of many temperate songbirds.",
+      "imageCaption": "Northern Cardinal"
+    },
+    {
+      "id": "birds-052",
+      "animal": "Northern mockingbird",
+      "prompt": "Why does the polyglot mockingbird have this name?",
+      "options": [
+        "It imitates the songs and cries of other species",
+        "It produces sounds underwater",
+        "It has several independent syrinxes",
+        "He only sings in duets"
+      ],
+      "explanation": "It often incorporates sounds heard in other birds into its song.",
+      "didYouKnow": "White spots on its wings become visible when it flies away.",
+      "imageCaption": "Northern mockingbird"
+    },
+    {
+      "id": "birds-053",
+      "animal": "Superb lyrebird",
+      "prompt": "What vocal faculty is remarkable in the superb lyrebird?",
+      "options": [
+        "Imitate a wide variety of sounds heard",
+        "Sing underwater without breathing",
+        "Produce ultrasound to hunt",
+        "Speak with understood human sentences"
+      ],
+      "explanation": "It can imitate the songs of other birds and sounds from its environment.",
+      "didYouKnow": "The male's tail fan out during display.",
+      "imageCaption": "Superb lyrebird"
+    },
+    {
+      "id": "birds-054",
+      "animal": "Rhinoceros hornbill",
+      "prompt": "What role might the rhinoceros hornbill's helmet play?",
+      "options": [
+        "Participate in the echoing of calls and parades",
+        "Serve as a pocket to carry chicks",
+        "Filter rainwater",
+        "Allow breathing under the ground"
+      ],
+      "explanation": "The hollow helmet can influence the resonance of vocalizations and is involved in displays.",
+      "didYouKnow": "During nesting, the female remains in the cavity with a reduced opening.",
+      "imageCaption": "Rhinoceros hornbill"
+    },
+    {
+      "id": "birds-055",
+      "animal": "Toucan toco",
+      "prompt": "How might the toco toucan's large beak contribute to its thermoregulation?",
+      "options": [
+        "By participating in heat exchanges with the environment",
+        "By storing hot water",
+        "By creating a current of air through vibration",
+        "Covering his eyes from the sun"
+      ],
+      "explanation": "The richly vascularized beak may help dissipate heat when blood flow varies.",
+      "didYouKnow": "Like many climbing birds, the toucan has two toes pointing forward and two pointing backwards.",
+      "imageCaption": "Toucan toco"
+    },
+    {
+      "id": "birds-056",
+      "animal": "Budgerigar",
+      "prompt": "How do wild budgerigars often respond to rain in arid areas?",
+      "options": [
+        "They move to areas where water and seeds become available",
+        "They bury themselves in the sand until the dry season",
+        "They all migrate towards the coasts",
+        "They stop feeding for several weeks"
+      ],
+      "explanation": "Their nomadism takes them towards temporary resources that appear after the rains.",
+      "didYouKnow": "They nest in cavities, particularly in trees.",
+      "imageCaption": "Budgerigar"
+    },
+    {
+      "id": "birds-057",
+      "animal": "Kakapo",
+      "prompt": "What characteristic sets the kakapo apart from most parrots?",
+      "options": [
+        "It is nocturnal and unable to fly",
+        "It lives exclusively at sea",
+        "It has gills",
+        "It migrates every winter to Antarctica"
+      ],
+      "explanation": "The kakapo is a terrestrial, nocturnal, flightless parrot.",
+      "didYouKnow": "Male kakapos produce loud, low-pitched calls to attract mates from their display arenas.",
+      "imageCaption": "Kakapo"
+    },
+    {
+      "id": "birds-058",
+      "animal": "Brown Kiwi",
+      "prompt": "How do kiwi often locate invertebrates in soil litter?",
+      "options": [
+        "Thanks to its nostrils located near the end of the beak",
+        "With vibrissae under the wings",
+        "By detecting infrared light from its eggs",
+        "Listening to the roots grow"
+      ],
+      "explanation": "Its terminal nostrils and sense of smell help it find prey in the ground.",
+      "didYouKnow": "Kiwis lay eggs that are very large in relation to their bodies.",
+      "imageCaption": "Brown Kiwi"
+    },
+    {
+      "id": "birds-059",
+      "animal": "Helmeted Cassowary",
+      "prompt": "What is the main habitat of the Helmeted Cassowary?",
+      "options": [
+        "The tropical forests of New Guinea and northeast Australia",
+        "Antarctic ice floes",
+        "High altitude deserts",
+        "Coral reefs"
+      ],
+      "explanation": "It lives in tropical forests where it consumes fallen fruits.",
+      "didYouKnow": "The cassowary has brightly colored areas of bare skin on its neck, notably blue and red.",
+      "imageCaption": "Helmeted Cassowary"
+    },
+    {
+      "id": "birds-060",
+      "animal": "Emu",
+      "prompt": "What color do emu eggs usually have?",
+      "options": [
+        "Dark green",
+        "Pale blue",
+        "White spotted with red",
+        "Bright yellow"
+      ],
+      "explanation": "The shell of emu eggs is a characteristic dark green.",
+      "didYouKnow": "The male usually does the brooding.",
+      "imageCaption": "Emu"
+    },
+    {
+      "id": "birds-061",
+      "animal": "Hoazin",
+      "prompt": "How does the hoazin digest a large amount of leaves?",
+      "options": [
+        "By microbial fermentation in an enlarged part of the esophagus",
+        "With a gizzard full of fish",
+        "By swallowing heated stones",
+        "By transforming the leaves into nectar"
+      ],
+      "explanation": "Microbial fermentation in its crop and esophagus helps break down plants.",
+      "didYouKnow": "The hoazin lives in the riparian forests and floodplains of the Amazon and Orinoco basins.",
+      "imageCaption": "Hoazin"
+    },
+    {
+      "id": "birds-062",
+      "animal": "Red-tailed black cockatoo",
+      "prompt": "What does the red-tailed black cockatoo often open woody fruits with?",
+      "options": [
+        "Its powerful beak",
+        "Its webbed feet",
+        "An expandable pocket under the spout",
+        "A claw located on its neck"
+      ],
+      "explanation": "Its robust beak allows it to shell resistant seeds and fruits.",
+      "didYouKnow": "Females and males have different plumage markings.",
+      "imageCaption": "Red-tailed black cockatoo"
+    },
+    {
+      "id": "birds-063",
+      "animal": "Rainbow lorikeet",
+      "prompt": "How is the rainbow lorikeet's tongue adapted for nectar?",
+      "options": [
+        "Its end bears brush-shaped papillae",
+        "It is hollow like a rigid straw",
+        "It is divided into four beaks",
+        "She carries hooks to catch fish"
+      ],
+      "explanation": "The taste buds on its tongue collect nectar and pollen from flowers.",
+      "didYouKnow": "Rainbow lorikeets are often seen in noisy groups in trees.",
+      "imageCaption": "Rainbow lorikeet"
+    },
+    {
+      "id": "birds-064",
+      "animal": "Hyacinth macaw",
+      "prompt": "What food can the hyacinth macaw break with its powerful beak?",
+      "options": [
+        "Palm nuts",
+        "Giant turtle eggs",
+        "Reef shells",
+        "Volcanic stones"
+      ],
+      "explanation": "Its powerful beak opens very hard nuts and palm seeds.",
+      "didYouKnow": "The hyacinth macaw nests in cavities of large trees, particularly palm trees.",
+      "imageCaption": "Hyacinth macaw"
+    },
+    {
+      "id": "birds-065",
+      "animal": "Eclectus parrot",
+      "prompt": "What color difference exists between the sexes of the eclectus parrot?",
+      "options": [
+        "The male is green and the female mostly red and blue",
+        "The male is blue and the female white",
+        "Both sexes are entirely black",
+        "The female is green and the male red"
+      ],
+      "explanation": "The dimorphism is marked: the male is green, while the female is red and blue.",
+      "didYouKnow": "The eclectus parrot nests in a high cavity, where the female sometimes defends access against other females.",
+      "imageCaption": "Eclectus parrot"
+    },
+    {
+      "id": "birds-066",
+      "animal": "Fischer's lovebird",
+      "prompt": "How does a Fischer's Lovebird sometimes transport materials for its nest?",
+      "options": [
+        "He traps it in the feathers of his rump",
+        "He carries it in a pocket under his tongue",
+        "He ties it with a thread that he produces",
+        "He carries it with his back fingers"
+      ],
+      "explanation": "It can carry plant strips stuck in the rump feathers.",
+      "didYouKnow": "Fischer’s lovebird is native to East Africa.",
+      "imageCaption": "Fischer's lovebird"
+    },
+    {
+      "id": "birds-067",
+      "animal": "Shoebill",
+      "prompt": "How do shoebills often capture their prey in marshes?",
+      "options": [
+        "He stays on the lookout then strikes quickly",
+        "It pursues fish over long distances in flight",
+        "It filters plankton while swimming",
+        "It digs a burrow at each tide"
+      ],
+      "explanation": "It hunts in shallow water and quickly seizes fish or amphibians.",
+      "didYouKnow": "Its large toes distribute its weight and help it move over marshy vegetation.",
+      "imageCaption": "Shoebill"
+    },
+    {
+      "id": "birds-068",
+      "animal": "Scarlet Ibis",
+      "prompt": "What contributes to the red color of the scarlet ibis?",
+      "options": [
+        "Carotenoids present in your diet",
+        "The sunlight that dyes its feathers",
+        "A red dust that he applies every day",
+        "The iron of his blood that runs through the feathers"
+      ],
+      "explanation": "The carotenoids of certain consumed shellfish contribute to the pigmentation of its feathers.",
+      "didYouKnow": "Scarlet ibises often gather in groups to rest and move between feeding sites.",
+      "imageCaption": "Scarlet Ibis"
+    },
+    {
+      "id": "birds-069",
+      "animal": "Spoonbill",
+      "prompt": "How does the spoonbill use its flattened bill?",
+      "options": [
+        "She sweeps it through the water to detect and capture small prey",
+        "She digs into the hardwood",
+        "It cuts the stems like shears",
+        "She stings the fish to carry them"
+      ],
+      "explanation": "The sensitive spatula-shaped bill allows it to capture small aquatic animals.",
+      "didYouKnow": "The spoonbill can nest in colonies in trees or reed beds.",
+      "imageCaption": "Spoonbill"
+    },
+    {
+      "id": "birds-070",
+      "animal": "Bar-headed goose",
+      "prompt": "What adaptation helps the bar-headed goose fly at very high altitudes?",
+      "options": [
+        "Hemoglobin that binds oxygen efficiently at low oxygen levels.",
+        "Hemoglobin replaced by hemocyanin",
+        "Hemoglobin whose affinity for oxygen decreases sharply",
+        "An absence of hemoglobin in red blood cells"
+      ],
+      "explanation": "The bar-headed goose has hemoglobin adapted to take up oxygen effectively in thin air.",
+      "didYouKnow": "Bar-headed geese migrate across the Himalayas between Central Asia and South Asia.",
+      "imageCaption": "Bar-headed goose"
+    },
+    {
+      "id": "birds-071",
+      "animal": "Black-winged stilt",
+      "prompt": "What adaptation helps the white stilt forage in marshes?",
+      "options": [
+        "Its long legs allow it to walk in shallow water.",
+        "Its short legs help it dig rocks",
+        "Its webbed wings filter the mud",
+        "Its claws anchor themselves to fish"
+      ],
+      "explanation": "Its long legs give it access to prey in shallow water.",
+      "didYouKnow": "The white stilt nests on the ground in wet areas, often in small colonies.",
+      "imageCaption": "Black-winged stilt"
+    },
+    {
+      "id": "birds-072",
+      "animal": "Long-tailed Jacana",
+      "prompt": "How does jacana move on floating aquatic plants?",
+      "options": [
+        "With his long fingers that distribute his weight",
+        "With suction cups under the wings",
+        "By running directly on the water",
+        "Using leaves as rackets"
+      ],
+      "explanation": "Its very long fingers distribute its weight on the floating vegetation.",
+      "didYouKnow": "In many jacanas, the male assumes a large part of the incubation.",
+      "imageCaption": "Long-tailed Jacana"
+    },
+    {
+      "id": "birds-073",
+      "animal": "Bar-tailed godwit",
+      "prompt": "What migration is notable in some Rufous Godwits?",
+      "options": [
+        "A long-distance flight between Alaska and New Zealand",
+        "A daily migration between two neighboring trees",
+        "An underwater journey from one continent to another",
+        "Traveling only on foot"
+      ],
+      "explanation": "Some populations make very long non-stop flights between Alaska and New Zealand.",
+      "didYouKnow": "In breeding plumage, the underside of the Rufous Godwit takes on a characteristic rufous hue.",
+      "imageCaption": "Bar-tailed godwit"
+    },
+    {
+      "id": "birds-074",
+      "animal": "Rock pigeon",
+      "prompt": "What type of site does the wild rock pigeon naturally use for nesting?",
+      "options": [
+        "Cliff cavities and ledges",
+        "Floating reed platforms",
+        "Burrows in the meadows",
+        "Thin branches at the top of trees"
+      ],
+      "explanation": "The wild rock nests in particular on cliffs, whose cornices resemble certain building edges.",
+      "didYouKnow": "The plumage of the wild rock pigeon often has two dark bars on the wings.",
+      "imageCaption": "Rock pigeon"
+    },
+    {
+      "id": "birds-075",
+      "animal": "White-throated dipper",
+      "prompt": "How do Dippers feed in rivers?",
+      "options": [
+        "It walks or swims underwater to look for invertebrates",
+        "It hovers above the waves to filter plankton",
+        "It digs nests under the mud",
+        "It only captures insects in the sky"
+      ],
+      "explanation": "It dives and moves to the bottom of waterways to search for larvae and other invertebrates.",
+      "didYouKnow": "The dipper can be recognized in particular by its clearly visible white breast.",
+      "imageCaption": "White-throated dipper"
+    },
+    {
+      "id": "birds-076",
+      "animal": "Eurasian blackcap",
+      "prompt": "What migratory change is affecting certain populations of European blackcaps?",
+      "options": [
+        "They sometimes winter in Western Europe rather than in the South",
+        "They cross the Atlantic by swimming",
+        "They only migrate north in autumn",
+        "They spend the winter under the ice"
+      ],
+      "explanation": "Some populations have changed their winter destination and remain in Western Europe.",
+      "didYouKnow": "In this species, the male wears a black cap while that of the female is brownish.",
+      "imageCaption": "Eurasian blackcap"
+    },
+    {
+      "id": "birds-077",
+      "animal": "Blue tit",
+      "prompt": "How does the blue tit sometimes get to insects under a branch?",
+      "options": [
+        "She hangs upside down",
+        "She uses a web to swing",
+        "She digs a tunnel in the branch",
+        "She sucks insects through her nostrils"
+      ],
+      "explanation": "Its agile legs allow it to explore different sides of the branches.",
+      "didYouKnow": "She happily uses cavity nest boxes.",
+      "imageCaption": "Blue tit"
+    },
+    {
+      "id": "birds-078",
+      "animal": "Eurasian wren",
+      "prompt": "Why does the wren search through piles of branches?",
+      "options": [
+        "To find small invertebrates",
+        "To collect peacock feathers",
+        "To catch hidden fish",
+        "To lay directly in wood"
+      ],
+      "explanation": "Cluttered spaces harbor small prey that it actively seeks out.",
+      "didYouKnow": "Despite its small size, its song is powerful.",
+      "imageCaption": "Eurasian wren"
+    },
+    {
+      "id": "birds-079",
+      "animal": "Red Crossbill",
+      "prompt": "How does the Red Crossbill open the cone scales?",
+      "options": [
+        "With the crossed tips of its beak",
+        "By injecting acid with his tongue",
+        "By breaking the cone against the rocks",
+        "By warming him under his wings"
+      ],
+      "explanation": "Its crossed mandibles spread the scales to extract the seeds.",
+      "didYouKnow": "In the Red Crossbill, the adult male is often reddish and the female rather greenish or yellowish.",
+      "imageCaption": "Red Crossbill"
+    },
+    {
+      "id": "birds-080",
+      "animal": "Green Woodpecker",
+      "prompt": "Why do green woodpeckers often visit lawns?",
+      "options": [
+        "To search for ants",
+        "To drink grass nectar",
+        "To brood in the grass",
+        "To catch pond fish"
+      ],
+      "explanation": "Ants and their larvae constitute an important part of its diet.",
+      "didYouKnow": "The green woodpecker digs its nesting cavity in the wood of trees.",
+      "imageCaption": "Green Woodpecker"
+    },
+    {
+      "id": "birds-081",
+      "animal": "Raven",
+      "prompt": "How does the common raven exploit thermals in the mountains?",
+      "options": [
+        "It glides on mountain updrafts to conserve energy.",
+        "It filters seeds above the forests",
+        "It creates bubbles that attract its prey",
+        "It digs its nest in the air current"
+      ],
+      "explanation": "Ravens can use rising air to gain height and then glide.",
+      "didYouKnow": "Ravens are known to play in the air, sometimes performing rolls.",
+      "imageCaption": "Raven"
+    },
+    {
+      "id": "birds-082",
+      "animal": "Magpie",
+      "prompt": "What can the magpie do when it finds abundant food?",
+      "options": [
+        "Hide it to find it later",
+        "Transform it into nectar",
+        "Place it in the nest of another species",
+        "Always bury it in the same place"
+      ],
+      "explanation": "Magpies can cache food and remember many locations.",
+      "didYouKnow": "The magpie belongs to the corvidae family.",
+      "imageCaption": "Magpie"
+    },
+    {
+      "id": "birds-083",
+      "animal": "Kea",
+      "prompt": "What exploratory behavior is associated with kea?",
+      "options": [
+        "Manipulate objects with their beak and paws",
+        "Build mud dams",
+        "Fishing by throwing stones",
+        "Hide your eggs in termite nests"
+      ],
+      "explanation": "The kea is known for its curiosity and its ability to manipulate objects.",
+      "didYouKnow": "It lives in the mountainous regions of New Zealand.",
+      "imageCaption": "Kea"
+    },
+    {
+      "id": "birds-084",
+      "animal": "Elegant Tinamou",
+      "prompt": "Where does the elegant tinamou usually build its nest?",
+      "options": [
+        "In a small depression on the ground",
+        "In an underwater cavity",
+        "At the top of a bare cliff",
+        "In a pocket of parent's feathers"
+      ],
+      "explanation": "Tinamous generally nest on the ground and hide their eggs in vegetation.",
+      "didYouKnow": "The plumage of the elegant tinamou blends in with the leaves and grasses on the ground.",
+      "imageCaption": "Elegant Tinamou"
+    },
+    {
+      "id": "birds-085",
+      "animal": "Village weaver",
+      "prompt": "How does the male weaver build his nest?",
+      "options": [
+        "By braiding plant fibers",
+        "By sticking sand with saliva",
+        "By digging a cavity in the rock",
+        "By tying only cobwebs"
+      ],
+      "explanation": "It interweaves grasses or leaves to form a hanging structure.",
+      "didYouKnow": "In many weaverbirds, the male wears bright, contrasting yellow breeding plumage.",
+      "imageCaption": "Village weaver"
+    },
+    {
+      "id": "birds-086",
+      "animal": "Sociable weaver",
+      "prompt": "Why are Social Republican nests notable?",
+      "options": [
+        "They form large collective structures occupied by several couples",
+        "They are entirely built underwater",
+        "They hang on the wings of adults",
+        "They are built only with fish bones"
+      ],
+      "explanation": "Colonies build a large nest structure under a common roof.",
+      "didYouKnow": "The social republican builds its collective nests in the dry regions of southern Africa.",
+      "imageCaption": "Sociable weaver"
+    },
+    {
+      "id": "birds-087",
+      "animal": "Common swift",
+      "prompt": "How does the Black Swift spend much of its life?",
+      "options": [
+        "In flight",
+        "At the bottom of the rivers",
+        "In rodent burrows",
+        "On the branches while walking"
+      ],
+      "explanation": "It feeds, drinks and sometimes collects material in flight, spending a lot of time in the air.",
+      "didYouKnow": "The black swift sticks the materials of its nest with its saliva into the cavities of buildings or cliffs.",
+      "imageCaption": "Common swift"
+    },
+    {
+      "id": "birds-088",
+      "animal": "European nightjar",
+      "prompt": "Why is the European Nightjar most active at dusk and night?",
+      "options": [
+        "It hunts nocturnal or twilight insects",
+        "He avoids the light because he cannot see the day",
+        "It only broods in the dark",
+        "It feeds on mushrooms that come out at night"
+      ],
+      "explanation": "Its activity coincides with the availability of flying insects in the evening and at night.",
+      "didYouKnow": "Its cryptic plumage makes it difficult to spot when perched on the ground.",
+      "imageCaption": "European nightjar"
+    },
+    {
+      "id": "birds-089",
+      "animal": "Yellow warbler",
+      "prompt": "Where do yellow warblers often nest?",
+      "options": [
+        "In shrubs near water or wetlands",
+        "In deep limestone caverns",
+        "Under the polar ice",
+        "In desert burrows"
+      ],
+      "explanation": "It often nests in shrubs along waterways or wetlands.",
+      "didYouKnow": "The male generally has reddish streaks on the yellow breast.",
+      "imageCaption": "Yellow warbler"
+    },
+    {
+      "id": "birds-090",
+      "animal": "Superb bird of paradise",
+      "prompt": "What is the purpose of the male's ornamental feathers during his display?",
+      "options": [
+        "To present visual signals to partners",
+        "To insulate the nest underwater",
+        "To filter the seeds into the soil",
+        "To carry the little ones in flight"
+      ],
+      "explanation": "The male displays his feathers in a display which participates in the choice of mate.",
+      "didYouKnow": "The female of the superb bird of paradise builds a cupped nest in a tree on her own.",
+      "imageCaption": "Superb bird of paradise"
+    },
+    {
+      "id": "birds-091",
+      "animal": "Acorn woodpecker",
+      "prompt": "Why does the acorn-eating woodpecker drill holes in trees or posts?",
+      "options": [
+        "To store acorns",
+        "To grow edible mushrooms",
+        "To trap insects from a distance",
+        "To collect rainwater only"
+      ],
+      "explanation": "It creates storage granaries by inserting acorns into cavities.",
+      "didYouKnow": "The acorn-eating woodpecker lives in family groups that cooperate to defend their territory.",
+      "imageCaption": "Acorn woodpecker"
+    },
+    {
+      "id": "birds-092",
+      "animal": "Eurasian three-toed woodpecker",
+      "prompt": "How many toes does each foot have in the three-toed woodpecker?",
+      "options": [
+        "Three",
+        "Two",
+        "Four",
+        "Five"
+      ],
+      "explanation": "As its name suggests, it has three toes on each foot.",
+      "didYouKnow": "It often searches for insects in dead or weakened trees.",
+      "imageCaption": "Eurasian three-toed woodpecker"
+    },
+    {
+      "id": "birds-093",
+      "animal": "Great spotted cuckoo",
+      "prompt": "Which species frequently breeds the young cuckoo jay in certain areas?",
+      "options": [
+        "The magpie",
+        "The emperor penguin",
+        "The pink flamingo",
+        "The albatross"
+      ],
+      "explanation": "The cuckoo jay parasitizes magpie nests in certain regions.",
+      "didYouKnow": "The cuckoo jay generally leaves its breeding grounds to winter further south.",
+      "imageCaption": "Great spotted cuckoo"
+    },
+    {
+      "id": "birds-094",
+      "animal": "Smooth-billed Ani",
+      "prompt": "What nesting organization can the Smooth-billed Ani adopt?",
+      "options": [
+        "Several pairs can share a collective nest",
+        "Each individual nests underwater",
+        "The fish incubates its eggs",
+        "The group builds a nest hanging from each branch"
+      ],
+      "explanation": "Groups can build a common nest where several females lay eggs.",
+      "didYouKnow": "The Smooth-billed Ani may associate with other individuals to search for insects in pastures.",
+      "imageCaption": "Smooth-billed Ani"
+    },
+    {
+      "id": "birds-095",
+      "animal": "Victoria crowned pigeon",
+      "prompt": "How does the Victoria crowned pigeon forage for food?",
+      "options": [
+        "Pecking at fruits and seeds on the forest floor",
+        "While chasing fish underwater",
+        "By filtering the nectar with its wings",
+        "By digging nests in cliffs"
+      ],
+      "explanation": "He searches the ground for fallen fruits and seeds in the forest.",
+      "didYouKnow": "Its large blue crest is made up of delicate feathers.",
+      "imageCaption": "Victoria crowned pigeon"
+    },
+    {
+      "id": "birds-096",
+      "animal": "Dodo",
+      "prompt": "What pressures contributed to the extinction of the dodo in Mauritius?",
+      "options": [
+        "Hunting and introduced species",
+        "A migration to Antarctica",
+        "A transformation into a mammal",
+        "An inability to eat fruit"
+      ],
+      "explanation": "Hunting and changes caused by humans, including introduced animals, contributed to its disappearance.",
+      "didYouKnow": "The dodo was endemic to Mauritius, in the Indian Ocean.",
+      "imageCaption": "Dodo"
+    },
+    {
+      "id": "birds-097",
+      "animal": "Migratory pigeon",
+      "prompt": "What impact has intensive commercial hunting had on the migratory pigeon?",
+      "options": [
+        "The species became extinct at the beginning of the 20th century",
+        "She developed longer wings",
+        "She left America for Asia",
+        "She became a seabird"
+      ],
+      "explanation": "Large-scale hunting and habitat destruction led to its disappearance.",
+      "didYouKnow": "Before its decline, the migratory pigeon formed historic gatherings numbering millions of individuals.",
+      "imageCaption": "Migratory pigeon"
+    },
+    {
+      "id": "birds-098",
+      "animal": "Spix's Macaw",
+      "prompt": "Why is the Spix’s Macaw an example of complex conservation?",
+      "options": [
+        "It has disappeared from the wild and programs are trying to reintroduce it",
+        "It only lives in European cities",
+        "It cannot breed in captivity",
+        "It still has a very abundant wild population"
+      ],
+      "explanation": "Captive-bred birds have been released in Brazil as part of reintroduction efforts.",
+      "didYouKnow": "Its natural habitat is the caatinga, a dry environment in northeastern Brazil.",
+      "imageCaption": "Spix's Macaw"
+    },
+    {
+      "id": "birds-099",
+      "animal": "Black Palm Cockatoo",
+      "prompt": "What is the purpose of the stick that the black palm cockatoo can make?",
+      "options": [
+        "To drum on a support during a parade",
+        "To catch fish in a hole",
+        "Digging a nest cavity",
+        "To filter seeds from the soil"
+      ],
+      "explanation": "Some males fashion a stick and use it to produce a display drumming sound.",
+      "didYouKnow": "He has a large bare red patch on his cheek.",
+      "imageCaption": "Black Palm Cockatoo"
+    },
+    {
+      "id": "birds-100",
+      "animal": "Galah",
+      "prompt": "What type of food does the Rosalbin Cockatoo often eat?",
+      "options": [
+        "Seeds and cereals",
+        "Plankton exclusively",
+        "Reef fish",
+        "Coniferous leaves only"
+      ],
+      "explanation": "It mainly eats seeds and plants, sometimes in agricultural areas.",
+      "didYouKnow": "Its pink and gray plumage is very distinctive.",
+      "imageCaption": "Galah"
+    },
+    {
+      "id": "birds-101",
+      "animal": "Greylag goose",
+      "prompt": "Why do greylag geese sometimes fly in a V formation?",
+      "options": [
+        "Follower birds can take advantage of the air currents created by the one in front of them",
+        "The shape allows the nest to be transported",
+        "The V prevents birds from seeing predators",
+        "Training reduces wing weight"
+      ],
+      "explanation": "A bird's wake can provide additional lift to the follower and reduce their effort.",
+      "didYouKnow": "The Greylag Goose has an orange beak and pinkish legs, characteristic of its appearance.",
+      "imageCaption": "Greylag goose"
+    },
+    {
+      "id": "birds-102",
+      "animal": "Snowy Owl",
+      "prompt": "How do snowy owls sometimes spot voles under the snow?",
+      "options": [
+        "Listening to their movements then diving into the snow",
+        "Seeing straight through the snow",
+        "By detecting their ultraviolet colors",
+        "By digging with its wings before listening"
+      ],
+      "explanation": "Its keen hearing helps it locate small mammals hidden under a layer of snow.",
+      "didYouKnow": "Its light plumage helps with camouflage in snowy landscapes.",
+      "imageCaption": "Snowy Owl"
+    },
+    {
+      "id": "birds-103",
+      "animal": "Bar-tailed godwit",
+      "prompt": "How does the Rufous Godwit’s long bill help it feed?",
+      "options": [
+        "By probing the mud to find invertebrates",
+        "By breaking the fruit stones",
+        "By filtering plankton in mid-flight",
+        "By digging cavities in trees"
+      ],
+      "explanation": "It probes mud and damp soil with its bill to find worms and other invertebrates.",
+      "didYouKnow": "Some populations fly non-stop between Alaska and New Zealand.",
+      "imageCaption": "Bar-tailed godwit"
+    },
+    {
+      "id": "birds-104",
+      "animal": "Common crane",
+      "prompt": "What feature of the common crane's trachea contributes to the resonance of its calls?",
+      "options": [
+        "It is elongated and coiled inside the sternum.",
+        "It divides into several parallel branches in the neck.",
+        "It forms an external sac under the skin of the throat.",
+        "It passes through the cavities of the beak before reaching the lungs."
+      ],
+      "explanation": "The very long and coiled trachea of ​​the common crane contributes to the resonance of its calls, which carry far.",
+      "didYouKnow": "Common cranes also perform dances involving jumps and wing movements.",
+      "imageCaption": "Common crane"
+    },
+    {
+      "id": "birds-105",
+      "animal": "White Stork",
+      "prompt": "What nesting behavior can the white stork exhibit?",
+      "options": [
+        "Reuse and enlarge a nest from one year to the next",
+        "Dig a burrow in a bank every year",
+        "Hang its nest under thin branches",
+        "Lay eggs on the ground without a nest"
+      ],
+      "explanation": "A pair can reuse and expand a nesting platform for several seasons.",
+      "didYouKnow": "In adults, the white stork's beak and legs are red, while young ones are duller.",
+      "imageCaption": "White Stork"
+    },
+    {
+      "id": "birds-106",
+      "animal": "White-throated dipper",
+      "prompt": "Where does the Dipper often set up its nest?",
+      "options": [
+        "In a cavity or nook near a watercourse",
+        "In a nest floating offshore",
+        "In a dry burrow in the middle of a field",
+        "On a desert ledge far from the water"
+      ],
+      "explanation": "It nests near rivers, in bank cavities, rocks or human structures.",
+      "didYouKnow": "The dipper has a large white bib which contrasts with its dark back.",
+      "imageCaption": "White-throated dipper"
+    },
+    {
+      "id": "birds-107",
+      "animal": "Great crested grebe",
+      "prompt": "What gesture is part of the great crested grebe's courtship display?",
+      "options": [
+        "The partners stand face to face on the water presenting plants",
+        "They hit the bottom of the lake with their beak",
+        "They build a stone platform on the shore",
+        "They dive to the bottom together and stay there"
+      ],
+      "explanation": "The great crested grebe's display includes a synchronized display of plants between partners.",
+      "didYouKnow": "The legs of the great crested grebe, located far behind the body, are adapted for swimming.",
+      "imageCaption": "Great crested grebe"
+    },
+    {
+      "id": "birds-108",
+      "animal": "Wood pigeon",
+      "prompt": "What behavior does the wood pigeon use during its aerial display?",
+      "options": [
+        "It rises while flapping its wings then comes back down while gliding",
+        "It dives underwater and comes out near the nest",
+        "He twirls a twig in his beak",
+        "It flaps its wings while walking on the ground"
+      ],
+      "explanation": "The male performs display flights with rising, wing beating and then descending glide.",
+      "didYouKnow": "Its nest is often a simple platform of twigs.",
+      "imageCaption": "Wood pigeon"
+    },
+    {
+      "id": "birds-109",
+      "animal": "Eurasian woodcock",
+      "prompt": "How does the woodcock’s plumage help it avoid detection?",
+      "options": [
+        "Its brown patterns merge with the dead leaves",
+        "Its feathers reflect ultraviolet rays towards predators",
+        "Its plumage becomes transparent in the shade",
+        "Its wings imitate colorful flowers"
+      ],
+      "explanation": "Its brown and ocher tones provide effective camouflage in forest litter.",
+      "didYouKnow": "Its eyes set high on its head give it a wide field of vision.",
+      "imageCaption": "Eurasian woodcock"
+    },
+    {
+      "id": "birds-110",
+      "animal": "Pied Avocet",
+      "prompt": "What habitat does Pied Avocet often use for feeding?",
+      "options": [
+        "Lagoons and shallow marshes",
+        "Dense coniferous forests",
+        "Snowy cliffs",
+        "Deep mountain rivers"
+      ],
+      "explanation": "It seeks its prey in lagoons and other shallow wetlands.",
+      "didYouKnow": "Avocet chicks are precocial and may move around shortly after hatching.",
+      "imageCaption": "Pied Avocet"
+    },
+    {
+      "id": "birds-111",
+      "animal": "Blue Jay",
+      "prompt": "What effect can the alarm calls of the blue jay have in a wood?",
+      "options": [
+        "They warn other animals of the presence of a predator",
+        "They attract fish to the shore",
+        "They tell plants the direction of the wind",
+        "They bring insects out of the ground"
+      ],
+      "explanation": "Its calls can signal danger and be heard by other birds.",
+      "didYouKnow": "The blue jay may hide seeds and acorns, then forget some of its reserves.",
+      "imageCaption": "Blue Jay"
+    },
+    {
+      "id": "birds-112",
+      "animal": "Common Kestrel",
+      "prompt": "How does the common kestrel often spot a vole in a field?",
+      "options": [
+        "He stands still facing the wind while scanning the ground",
+        "He dives underground to listen",
+        "It filters the grass with its beak",
+        "He's still waiting in a burrow"
+      ],
+      "explanation": "Hovering allows it to inspect terrain before swooping down on prey.",
+      "didYouKnow": "The male and female kestrel have different plumage patterns.",
+      "imageCaption": "Common Kestrel"
+    },
+    {
+      "id": "birds-113",
+      "animal": "Lesser flamingo",
+      "prompt": "How does the lesser flamingo capture the tiny organisms it feeds on?",
+      "options": [
+        "It filters water with the blades of its beak",
+        "He spears them with his claws",
+        "He catches them in a web",
+        "He extracts them from the trunks with his tongue"
+      ],
+      "explanation": "The blades of its bill retain small algae and crustaceans when the water flows.",
+      "didYouKnow": "The lesser flamingo can form huge breeding colonies on the salt lakes of Africa.",
+      "imageCaption": "Lesser flamingo"
+    },
+    {
+      "id": "birds-114",
+      "animal": "Barn Swallow",
+      "prompt": "How does the barn swallow build its nest under a shelter?",
+      "options": [
+        "It builds the nest from mud pellets mixed with plant fibers.",
+        "She digs a tunnel in the stone",
+        "She braids palm leaves",
+        "She glues shells with nectar"
+      ],
+      "explanation": "The barn swallow forms small mud pellets and reinforces the nest with plant fibers.",
+      "didYouKnow": "Barn swallows often forage for insects over open fields and water.",
+      "imageCaption": "Barn Swallow"
+    },
+    {
+      "id": "birds-115",
+      "animal": "Black woodpecker",
+      "prompt": "What consequence can the cavities dug by the black woodpecker have in a forest?",
+      "options": [
+        "Other animals can reuse them for nesting",
+        "They prevent neighboring trees from growing",
+        "They always become water reservoirs",
+        "They only attract fish"
+      ],
+      "explanation": "Species unable to dig their own cavities can use those of the black woodpecker.",
+      "didYouKnow": "The black woodpecker is the largest woodpecker in Europe.",
+      "imageCaption": "Black woodpecker"
+    },
+    {
+      "id": "birds-116",
+      "animal": "California Condor",
+      "prompt": "What munitions threat affects the California condor?",
+      "options": [
+        "Ingestion of lead fragments in carcasses",
+        "The entanglement of its wings in butterfly nets",
+        "Contamination of its plumage by sea salt",
+        "Losing one's claws upon contact with steel"
+      ],
+      "explanation": "Fragments of lead ammunition present in carcasses can poison condors.",
+      "didYouKnow": "The California condor has a wingspan that can approach three meters.",
+      "imageCaption": "California Condor"
+    },
+    {
+      "id": "birds-117",
+      "animal": "Osprey",
+      "prompt": "Why does the osprey often carry a fish head forward?",
+      "options": [
+        "This orientation reduces air resistance",
+        "It prevents the fish from getting cold",
+        "She helps the osprey to dive again",
+        "It allows you to feed the chicks in flight"
+      ],
+      "explanation": "Orienting the fish in the direction of flight reduces its aerodynamic drag.",
+      "didYouKnow": "The osprey sometimes reuse a nesting area built in previous years.",
+      "imageCaption": "Osprey"
+    },
+    {
+      "id": "birds-118",
+      "animal": "Gray Heron",
+      "prompt": "Why does the gray heron sometimes reposition a fish before swallowing it?",
+      "options": [
+        "To orient him head first and facilitate swallowing",
+        "To dry it in the sun",
+        "To remove its scales with a stone",
+        "To cool it before transporting it"
+      ],
+      "explanation": "Swallowing the prey head first helps prevent its fins from getting stuck in the throat.",
+      "didYouKnow": "The gray heron wears long ornamental feathers on its head and neck during breeding.",
+      "imageCaption": "Gray Heron"
+    },
+    {
+      "id": "birds-119",
+      "animal": "Common moorhen",
+      "prompt": "How can the moorhen move across riverbank vegetation?",
+      "options": [
+        "With his long fingers that distribute his weight",
+        "With a membrane that acts like a suction cup",
+        "By clinging with its hooked beak",
+        "Using his tail as a foot"
+      ],
+      "explanation": "Its long fingers help it walk on the plants and soft soils of the banks.",
+      "didYouKnow": "She can dive briefly to escape danger.",
+      "imageCaption": "Common moorhen"
+    },
+    {
+      "id": "birds-120",
+      "animal": "Violet turaco",
+      "prompt": "What chemical characteristic does the turacin red pigment of turacos have?",
+      "options": [
+        "It contains copper",
+        "It is made up of chlorophyll",
+        "It is produced by the blood of plants",
+        "It contains salt crystals"
+      ],
+      "explanation": "Turacin, a red pigment specific to turacos, contains copper.",
+      "didYouKnow": "Turacos are African arboreal birds that consume fruits in particular.",
+      "imageCaption": "Violet turaco"
+    },
+    {
+      "id": "birds-121",
+      "animal": "Yellow-bellied sapsucker",
+      "prompt": "What family does the yellow-bellied woodpecker belong to?",
+      "options": [
+        "To the peaks",
+        "To the swallows",
+        "To nocturnal birds of prey",
+        "To the shorebirds"
+      ],
+      "explanation": "The yellow-bellied woodpecker is a member of the woodpecker family.",
+      "didYouKnow": "It nests in a cavity that it digs in a tree.",
+      "imageCaption": "Yellow-bellied sapsucker"
+    },
+    {
+      "id": "birds-122",
+      "animal": "Bar-headed goose",
+      "prompt": "What physiological challenge does the bar-headed goose face during its Himalayan passages?",
+      "options": [
+        "Flying in oxygen-poor air at high altitude",
+        "Swim in the salt water of the passes",
+        "Enduring tropical heat at the summit",
+        "Moving on cliffs without wings"
+      ],
+      "explanation": "It crosses high passes where pressure and oxygen availability are low.",
+      "didYouKnow": "The black bands that mark the head of the bar-headed goose make it easy to recognize.",
+      "imageCaption": "Bar-headed goose"
+    },
+    {
+      "id": "birds-123",
+      "animal": "Helmeted hornbill",
+      "prompt": "Why is the helmeted hornbill particularly threatened by poaching?",
+      "options": [
+        "His solid helmet is sought after for sculpture",
+        "Its feathers are used to make fishing nets.",
+        "Its eggs are used as precious stones",
+        "Its beak is sold as a musical instrument"
+      ],
+      "explanation": "The keratin helmet is coveted for sculpting, which has led to heavy hunting pressure.",
+      "didYouKnow": "The helmeted hornbill depends on the tropical forests of Southeast Asia, some of which are fragmented.",
+      "imageCaption": "Helmeted hornbill"
+    },
+    {
+      "id": "birds-124",
+      "animal": "turkey vulture",
+      "prompt": "Which sense particularly helps turkey vultures find hidden carcasses?",
+      "options": [
+        "The sense of smell",
+        "Ultrasound detection",
+        "The touch of tail feathers",
+        "Underwater vision"
+      ],
+      "explanation": "Its keen sense of smell allows it to detect the smell of carcasses under plant cover.",
+      "didYouKnow": "The turkey vulture's bare red head is a distinctive feature of the species.",
+      "imageCaption": "turkey vulture"
+    },
+    {
+      "id": "birds-125",
+      "animal": "Red kite",
+      "prompt": "How does the red kite's forked tail aid its flight?",
+      "options": [
+        "It improves its maneuverability",
+        "She stores food",
+        "It serves as a hook to hang on the branches",
+        "She cools his blood"
+      ],
+      "explanation": "Its forked tail allows it to finely adjust its direction during gliding.",
+      "didYouKnow": "The red kite is found across much of Europe, with both resident and migratory populations.",
+      "imageCaption": "Red kite"
+    },
+    {
+      "id": "birds-126",
+      "animal": "Northern flicker",
+      "prompt": "What food does the Northern Flicker often forage for on the ground?",
+      "options": [
+        "Ants",
+        "Jellyfish",
+        "Bamboo nectar",
+        "Fish eggs"
+      ],
+      "explanation": "It frequently collects ants from the ground, in addition to other invertebrates.",
+      "didYouKnow": "In flight, the Northern Flicker shows a large white patch on its rump.",
+      "imageCaption": "Northern flicker"
+    },
+    {
+      "id": "birds-127",
+      "animal": "Gannet",
+      "prompt": "How does the gannet limit the effects of impact when diving?",
+      "options": [
+        "Adaptations of the skull and tissues absorb part of the shock",
+        "It inflates an air pocket in its beak",
+        "It deploys its legs like a parachute",
+        "It keeps its wings wide open underwater"
+      ],
+      "explanation": "Anatomical adaptations help support the impact of its rapid dives.",
+      "didYouKnow": "Gannets nest in compact colonies, often on coastal ledges.",
+      "imageCaption": "Gannet"
+    },
+    {
+      "id": "birds-128",
+      "animal": "Mallard duck",
+      "prompt": "How does the dabbling mallard reach food below the surface?",
+      "options": [
+        "He tilts the front of his body while keeping the rear afloat",
+        "It systematically dives to great depths",
+        "He digs the bank with his wings",
+        "It sucks water with a tube in its beak"
+      ],
+      "explanation": "The duck can dive with its head and neck to reach the bottom in shallow water.",
+      "didYouKnow": "The male mallard changes its plumage after breeding and temporarily takes on a more discreet appearance.",
+      "imageCaption": "Mallard duck"
+    },
+    {
+      "id": "birds-129",
+      "animal": "Black-legged kittiwake",
+      "prompt": "What site do kittiwakes often choose for nesting?",
+      "options": [
+        "A narrow coastal cliff ledge",
+        "A deep burrow in a meadow",
+        "An underwater cavity",
+        "A hollow trunk in the heart of a forest"
+      ],
+      "explanation": "It nests in colonies on the ledges of maritime cliffs.",
+      "didYouKnow": "After breeding, the kittiwake spends a large part of its time offshore.",
+      "imageCaption": "Black-legged kittiwake"
+    },
+    {
+      "id": "birds-130",
+      "animal": "Little grebe",
+      "prompt": "What type of nest do little grebes often build?",
+      "options": [
+        "A floating plant platform",
+        "A dry rock cavity",
+        "A cup placed at the top of a tree",
+        "A burrow dug in a dune"
+      ],
+      "explanation": "It builds a floating nest among aquatic plants.",
+      "didYouKnow": "During display, the little grebe may raise its feathers and produce loud calls.",
+      "imageCaption": "Little grebe"
+    },
+    {
+      "id": "birds-131",
+      "animal": "Rock pigeon",
+      "prompt": "Which family does the dodo belong to, like the rock pigeon?",
+      "options": [
+        "To the pigeon family",
+        "To the penguin family",
+        "To the pheasant family",
+        "To the albatross family"
+      ],
+      "explanation": "The dodo and the rock pigeon both belong to the family Columbidae.",
+      "didYouKnow": "Pigeons feed their chicks a rich food produced in the crop, called crop milk.",
+      "imageCaption": "Rock pigeon"
+    },
+    {
+      "id": "birds-132",
+      "animal": "Carolina parakeet",
+      "prompt": "What happened to the Carolina parakeet, once found in the eastern United States?",
+      "options": [
+        "It died out at the beginning of the 20th century",
+        "It was introduced to Europe and thrives there",
+        "She became a seabird",
+        "She migrated to Antarctica"
+      ],
+      "explanation": "Habitat destruction and persecution contributed to the extinction of this species.",
+      "didYouKnow": "The Carolina parakeet often lived in noisy groups and fed on seeds and fruits.",
+      "imageCaption": "Carolina parakeet"
+    },
+    {
+      "id": "birds-133",
+      "animal": "Sulphur-crested cockatoo",
+      "prompt": "What visual signal can the sulphur-crested cockatoo show with its head?",
+      "options": [
+        "He raises his crest of feathers",
+        "He changes the color of his legs",
+        "He flashes his tail feathers",
+        "It throws out colored dust"
+      ],
+      "explanation": "The crest may rise during excitement or social interactions.",
+      "didYouKnow": "The cockatoo uses its feet to hold and manipulate food.",
+      "imageCaption": "Sulphur-crested cockatoo"
+    },
+    {
+      "id": "birds-134",
+      "animal": "Cockatiel",
+      "prompt": "What can the cockatiel's movable crest express?",
+      "options": [
+        "Their level of attention or excitement",
+        "The depth of the water beneath her",
+        "The exact temperature of its nest",
+        "The number of seeds she ate"
+      ],
+      "explanation": "The crest rises or lowers depending on the attention and emotional state of the bird.",
+      "didYouKnow": "The cockatiel is native to Australia.",
+      "imageCaption": "Cockatiel"
+    },
+    {
+      "id": "birds-135",
+      "animal": "Swainson's lorikeet",
+      "prompt": "What resource do Swainson's lorikeets look for in flowering eucalyptus trees?",
+      "options": [
+        "Nectar and pollen",
+        "Larvae under the bark only",
+        "Fish in tree hollows",
+        "Cone seeds"
+      ],
+      "explanation": "Eucalyptus flowers provide nectar and pollen consumed by lorikeets.",
+      "didYouKnow": "The Swainson's lorikeet is native to eastern Australia.",
+      "imageCaption": "Swainson's lorikeet"
+    },
+    {
+      "id": "birds-136",
+      "animal": "African gray parrot",
+      "prompt": "What vocal learning ability has been observed in some African gray parrots?",
+      "options": [
+        "Associate certain sounds with objects or situations",
+        "Understand all sentences like a human",
+        "Producing words without ever hearing them",
+        "Sing only underwater"
+      ],
+      "explanation": "Studies in certain individuals show an ability to learn associations between sounds and objects.",
+      "didYouKnow": "In the wild, it consumes fruits and seeds in particular.",
+      "imageCaption": "African gray parrot"
+    },
+    {
+      "id": "birds-137",
+      "animal": "Kakapo",
+      "prompt": "Why are kakapo particularly vulnerable to introduced predatory mammals?",
+      "options": [
+        "It does not fly and evolved with few terrestrial predators",
+        "He cannot hear the cries of alarm",
+        "It nests exclusively in water",
+        "It changes color every night"
+      ],
+      "explanation": "The historical absence of predatory mammals in New Zealand favored a flightless land bird.",
+      "didYouKnow": "The kakapo feeds on various plant parts, including leaves, seeds and fruits.",
+      "imageCaption": "Kakapo"
+    },
+    {
+      "id": "birds-138",
+      "animal": "Greylag goose",
+      "prompt": "Why do the Greylag Goose frequently graze on land?",
+      "options": [
+        "Herbs and other plants constitute an important part of its diet",
+        "She only looks for fish there.",
+        "She collects nectar from the ground",
+        "It hunts insects under the bark"
+      ],
+      "explanation": "Greylag geese often consume grass and other terrestrial or aquatic plants.",
+      "didYouKnow": "The Greylag Goose is the wild ancestor of many breeds of domestic geese.",
+      "imageCaption": "Greylag goose"
+    },
+    {
+      "id": "birds-139",
+      "animal": "Brown Pelican",
+      "prompt": "How do brown pelicans often catch fish near the surface?",
+      "options": [
+        "He dives from the air in a dive",
+        "He walks to the bottom and grabs them with his paws",
+        "It filters plankton on the surface",
+        "It digs burrows underwater"
+      ],
+      "explanation": "It dives to grab fish near the surface and then uses its pouch to hold them briefly.",
+      "didYouKnow": "The brown pelican breeds in colonies, often on islands or in coastal sites.",
+      "imageCaption": "Brown Pelican"
+    },
+    {
+      "id": "birds-140",
+      "animal": "Spoonbill",
+      "prompt": "In what type of water does the spoonbill often search for its prey?",
+      "options": [
+        "In shallow water",
+        "In the deep sea",
+        "In the icy torrents",
+        "In temporary desert pools only"
+      ],
+      "explanation": "It sweeps its bill in shallow water to capture small animals.",
+      "didYouKnow": "The spoonbill can nest in colonies in trees or reeds.",
+      "imageCaption": "Spoonbill"
+    },
+    {
+      "id": "birds-141",
+      "animal": "Coot",
+      "prompt": "What distinctive sign does the coot have above its beak?",
+      "options": [
+        "A white frontal badge",
+        "A yellow crest",
+        "A long red appendage",
+        "A horny helmet"
+      ],
+      "explanation": "The white forehead patch is an area of bare skin above the bill.",
+      "didYouKnow": "The coot swims and dives to look for food.",
+      "imageCaption": "Coot"
+    },
+    {
+      "id": "birds-142",
+      "animal": "Bank swallow",
+      "prompt": "Where does the Bank Swallow typically dig its nesting gallery?",
+      "options": [
+        "In a bank or wall of sandy soil",
+        "In a living trunk",
+        "Under the surface of a lake",
+        "In a shell cavity"
+      ],
+      "explanation": "It digs a tunnel in the soft walls of banks or quarries.",
+      "didYouKnow": "The bank swallow winters mainly in sub-Saharan Africa.",
+      "imageCaption": "Bank swallow"
+    },
+    {
+      "id": "birds-143",
+      "animal": "Cattle Egret",
+      "prompt": "Why do cattle egrets often hang out near livestock?",
+      "options": [
+        "Animals disturb insects that they can capture",
+        "It feeds exclusively on cattle milk.",
+        "It uses the horns as a nesting perch",
+        "The cattle bring him fish"
+      ],
+      "explanation": "The movement of livestock sometimes brings out insects and small prey accessible to the heron.",
+      "didYouKnow": "The cattle egret can nest in colonies in trees, sometimes with other species.",
+      "imageCaption": "Cattle Egret"
+    },
+    {
+      "id": "birds-144",
+      "animal": "Ruffed grouse",
+      "prompt": "How can the wood grouse move through powder snow?",
+      "options": [
+        "She can dive into the snow for shelter.",
+        "She swims under the snow with her wings",
+        "It digs a tunnel with its beak",
+        "It hangs from branches by its tail"
+      ],
+      "explanation": "The grouse can bury itself in powder snow to protect itself from the cold.",
+      "didYouKnow": "The male hazel grouse produces a rolling sound by rapidly vibrating its wings.",
+      "imageCaption": "Ruffed grouse"
+    },
+    {
+      "id": "birds-145",
+      "animal": "Rock ptarmigan",
+      "prompt": "How does the rock ptarmigan adapt its plumage to the seasons?",
+      "options": [
+        "It becomes lighter in winter and browner in summer",
+        "It always turns red in spring",
+        "He loses all his feathers in winter",
+        "It changes color every day"
+      ],
+      "explanation": "The seasonal change in plumage improves its camouflage depending on the color of the landscape.",
+      "didYouKnow": "During the display, the male ptarmigan may make cries and chase.",
+      "imageCaption": "Rock ptarmigan"
+    },
+    {
+      "id": "birds-146",
+      "animal": "Ruddy Turnstone",
+      "prompt": "What does the Ruddy Turnstone do with the small pebbles from the shore?",
+      "options": [
+        "He turns them over to discover hidden prey",
+        "He swallows them to make a shell",
+        "He throws them to catch fish",
+        "He sticks them on his wings to fly better"
+      ],
+      "explanation": "It turns over stones and debris to find invertebrates hidden underneath.",
+      "didYouKnow": "The Ruddy Turnstone breeds in arctic and subarctic regions.",
+      "imageCaption": "Ruddy Turnstone"
+    },
+    {
+      "id": "birds-147",
+      "animal": "Common snipe",
+      "prompt": "How does the tip of a snipe’s beak help it feed?",
+      "options": [
+        "It detects prey in the mud",
+        "It produces a light that attracts insects",
+        "She breaks the bark of the trees",
+        "It measures the salinity of the air"
+      ],
+      "explanation": "Receptors at the tip of the bill help it detect prey when it probes the mud.",
+      "didYouKnow": "While displaying, the male snipe may produce a vibrating sound called “quavering” with its tail feathers.",
+      "imageCaption": "Common snipe"
+    },
+    {
+      "id": "birds-148",
+      "animal": "Carmine bee-eater",
+      "prompt": "Why do carmine bee-eaters dig their nests in riverbanks?",
+      "options": [
+        "The soft soil makes it possible to dig nesting galleries",
+        "The banks produce nectar",
+        "They filter fish into burrows",
+        "They avoid having to lay eggs"
+      ],
+      "explanation": "Pairs dig tunnels in banks or soft earth cliffs.",
+      "didYouKnow": "The carmine bee-eater has very bright pinkish-red plumage and a contrasting head.",
+      "imageCaption": "Carmine bee-eater"
+    },
+    {
+      "id": "birds-149",
+      "animal": "Belted kingfisher",
+      "prompt": "Where does the American kingfisher often nest?",
+      "options": [
+        "In a tunnel dug in a bank",
+        "In a nest hanging from the reeds",
+        "In an underwater cavity",
+        "In a hollow tree far from water"
+      ],
+      "explanation": "It often digs a nesting gallery in a sandy bank near water.",
+      "didYouKnow": "The American kingfisher has a ruffled crest and produces harsh calls.",
+      "imageCaption": "Belted kingfisher"
+    },
+    {
+      "id": "birds-150",
+      "animal": "Magnificent frigatebird",
+      "prompt": "Why does the Superb Frigatebird generally avoid diving into water?",
+      "options": [
+        "Its plumage is not well suited to prolonged immersion.",
+        "She can't see the fish",
+        "She does not have flight feathers.",
+        "It cannot open its beak in flight."
+      ],
+      "explanation": "Unlike many diving seabirds, frigatebirds have plumage that is less water-resistant, so they usually seize prey at the surface.",
+      "didYouKnow": "A male displays by inflating a bright red throat pouch.",
+      "imageCaption": "Magnificent frigatebird"
+    },
+    {
+      "id": "birds-151",
+      "animal": "Malleefowl",
+      "prompt": "How does Latham's megapode keep its eggs warm?",
+      "options": [
+        "He buries them in a mound of decomposing plants",
+        "He carries them under his wings in flight",
+        "It builds a floating nest above a hot spring",
+        "He entrusts them to another bird"
+      ],
+      "explanation": "The heat produced by decomposing vegetation incubates the eggs in the mound.",
+      "didYouKnow": "The Latham megapode is native to eastern Australia.",
+      "imageCaption": "Malleefowl"
+    },
+    {
+      "id": "birds-152",
+      "animal": "Gannet",
+      "prompt": "What color characterizes the gannet's egg?",
+      "options": [
+        "Pale blue",
+        "Bright green",
+        "Spotted red",
+        "Glossy black"
+      ],
+      "explanation": "The egg is pale blue, and its appearance is partly linked to its calcareous shell.",
+      "didYouKnow": "Gannets nest in colonies on cliffs and sea islets.",
+      "imageCaption": "Gannet"
+    },
+    {
+      "id": "birds-153",
+      "animal": "King penguin",
+      "prompt": "How does the king penguin maintain its egg during incubation?",
+      "options": [
+        "On his feet under a fold of skin",
+        "In a nest of twigs",
+        "In a cavity dug in the ice",
+        "In a pocket under its beak"
+      ],
+      "explanation": "The egg rests on the feet and under an abdominal fold which insulates it from the cold ground.",
+      "didYouKnow": "The chick wears thick brown down before putting on its adult plumage.",
+      "imageCaption": "King penguin"
+    },
+    {
+      "id": "birds-154",
+      "animal": "Adélie penguin",
+      "prompt": "What material does the Adélie penguin gather to form its nest?",
+      "options": [
+        "Small pebbles",
+        "Algae woven underwater",
+        "Conifer branches",
+        "Mud shaped into a tower"
+      ],
+      "explanation": "He usually builds a small platform of stones to raise the eggs.",
+      "didYouKnow": "After hatching, young Adélie penguins may group together in crèches while the adults feed.",
+      "imageCaption": "Adélie penguin"
+    },
+    {
+      "id": "birds-155",
+      "animal": "Manx shearwater",
+      "prompt": "Why does the English Shearwater often return to its colony after dark?",
+      "options": [
+        "This can reduce its exposure to predators near burrows",
+        "He can't see the day",
+        "Burrows only open at midnight",
+        "The moon warms the eggs"
+      ],
+      "explanation": "Returning at night can reduce the risk of being spotted by predators around the colony.",
+      "didYouKnow": "The English shearwater makes long migratory journeys between its breeding and wintering areas.",
+      "imageCaption": "Manx shearwater"
+    },
+    {
+      "id": "birds-156",
+      "animal": "Common guillemot",
+      "prompt": "What hypothesis has been put forward to explain the conical shape of the guillemot's egg?",
+      "options": [
+        "It may limit how far an egg rolls on a ledge.",
+        "It would allow the egg to float to the sea",
+        "It would help the chick to fly sooner",
+        "She would fix the egg to the cliff by its tip"
+      ],
+      "explanation": "This is one proposed explanation for the guillemot egg’s shape; the importance of the effect remains debated.",
+      "didYouKnow": "Common guillemots nest in dense colonies on narrow sea cliffs and ledges.",
+      "imageCaption": "Common guillemot"
+    },
+    {
+      "id": "birds-157",
+      "animal": "Wandering Albatross",
+      "prompt": "How many eggs does the wandering albatross typically lay per breeding attempt?",
+      "options": [
+        "Only one",
+        "Two",
+        "Four",
+        "A dozen"
+      ],
+      "explanation": "Like many large albatrosses, it generally raises only one chick per attempt.",
+      "didYouKnow": "The wandering albatross uses its sense of smell to find food resources at sea.",
+      "imageCaption": "Wandering Albatross"
+    },
+    {
+      "id": "birds-158",
+      "animal": "Superb frigate",
+      "prompt": "How does the Superb Frigatebird sometimes obtain prey without fishing itself?",
+      "options": [
+        "By chasing another bird until it releases or regurgitates its food.",
+        "She takes fish from turtle nests",
+        "It filters plankton in the wake of ships",
+        "She waits for fish to jump on a beach"
+      ],
+      "explanation": "Frigatebirds sometimes force other seabirds to surrender food, a behavior called kleptoparasitism.",
+      "didYouKnow": "Their exceptionally long wings help them soar over the open ocean.",
+      "imageCaption": "Superb frigate"
+    },
+    {
+      "id": "birds-159",
+      "animal": "Mute swan",
+      "prompt": "How does the mute swan reach plants below the surface in shallow water?",
+      "options": [
+        "It dips its long neck while remaining afloat",
+        "It dives completely to the bottom",
+        "It filters plants with baleen",
+        "He walks underwater with his wings"
+      ],
+      "explanation": "Its long neck allows it to reach submerged plants without submerging its entire body.",
+      "didYouKnow": "The adult mute swan has a black bump at the base of its orange beak.",
+      "imageCaption": "Mute swan"
+    },
+    {
+      "id": "birds-160",
+      "animal": "Rhinoceros hornbill",
+      "prompt": "How does the rhinoceros hornbill protect its nest cavity?",
+      "options": [
+        "The female seals herself inside, leaving a narrow opening through which the male passes food.",
+        "He builds a stone gate",
+        "It fills the cavity with water",
+        "He places the eggs in a hanging nest"
+      ],
+      "explanation": "In this species, the female remains in the nest cavity while the entrance is sealed with mud and other material, leaving a small feeding slit.",
+      "didYouKnow": "The casque is a hollow structure supported by a network of bone and keratin.",
+      "imageCaption": "Rhinoceros hornbill"
+    },
+    {
+      "id": "birds-161",
+      "animal": "Acorn-eating woodpecker",
+      "prompt": "How does the acorn-eating woodpecker often distribute the acorns it stores?",
+      "options": [
+        "He places them in holes of varying sizes depending on their diameter",
+        "He buries them all in one burrow",
+        "He sticks them under his wings",
+        "He places them in water to keep them fresh"
+      ],
+      "explanation": "The storage holes can have different sizes to hold acorns of varying sizes.",
+      "didYouKnow": "The acorn-eating woodpecker often lives in family groups that cooperate to defend their territory.",
+      "imageCaption": "Acorn-eating woodpecker"
+    },
+    {
+      "id": "birds-162",
+      "animal": "Yellow-bellied woodpecker",
+      "prompt": "What animal can benefit from the sap holes made by the yellow-bellied woodpecker?",
+      "options": [
+        "Hummingbirds",
+        "Penguins",
+        "Vultures",
+        "Shearwaters"
+      ],
+      "explanation": "Hummingbirds may come and drink the sap that flows from the rows of holes.",
+      "didYouKnow": "Northern populations of the yellow-bellied woodpecker migrate south in winter.",
+      "imageCaption": "Yellow-bellied woodpecker"
+    },
+    {
+      "id": "birds-163",
+      "animal": "Common house martin",
+      "prompt": "Where does the house martin often nest?",
+      "options": [
+        "Under a cornice or eaves",
+        "In a bank burrow",
+        "In an underwater cavity",
+        "On a platform of branches on the ground"
+      ],
+      "explanation": "It fixes its mud nest under the edge of a building or a rock wall.",
+      "didYouKnow": "The house martin can be recognized in flight by its white rump contrasting with its dark back.",
+      "imageCaption": "Common house martin"
+    },
+    {
+      "id": "birds-164",
+      "animal": "Common crane",
+      "prompt": "What migration behavior does the common crane exhibit?",
+      "options": [
+        "It often gathers in groups before leaving for its winter quarters.",
+        "She swims across the oceans",
+        "She always stays in the same marsh all year round",
+        "She migrates under the snow"
+      ],
+      "explanation": "Common cranes congregate and migrate between their breeding and wintering sites.",
+      "didYouKnow": "Common cranes often form pairs that stay together over several seasons.",
+      "imageCaption": "Common crane"
+    },
+    {
+      "id": "birds-165",
+      "animal": "Hoopoe",
+      "prompt": "What specific chemical defense is associated with the hoopoe nest?",
+      "options": [
+        "Young and females may produce a smelly secretion",
+        "The nest is coated with snake venom",
+        "Eggs release chlorine",
+        "The male sprays toxic resin"
+      ],
+      "explanation": "The female and chicks can produce an odorous secretion which probably helps to deter certain predators.",
+      "didYouKnow": "The hoopoe may raise its crest into a fan shape when it is attentive or excited.",
+      "imageCaption": "Hoopoe"
+    },
+    {
+      "id": "birds-166",
+      "animal": "Common cuckoo",
+      "prompt": "What type of vocalization does the female gray cuckoo typically make?",
+      "options": [
+        "A rapid, loud call distinct from the male's song",
+        "A drumming on the branches",
+        "A cry only underwater",
+        "A long cooing sound identical to that of a pigeon"
+      ],
+      "explanation": "The female emits a rapid, loud call, different from the two-note pattern of the male.",
+      "didYouKnow": "The gray cuckoo migrates to Africa to get through the bad season.",
+      "imageCaption": "Common cuckoo"
+    },
+    {
+      "id": "birds-167",
+      "animal": "Common house martin",
+      "prompt": "What shape does the house martin's mud nest often have?",
+      "options": [
+        "A nearly closed mud cup with a small entrance.",
+        "An open cup fixed under a branch",
+        "A deep tunnel dug into a bank",
+        "A floating reed platform"
+      ],
+      "explanation": "The house martin builds a domed nest from mud pellets, leaving a small opening.",
+      "didYouKnow": "House martins often nest in colonies beneath the eaves of buildings.",
+      "imageCaption": "Common house martin"
+    },
+    {
+      "id": "birds-168",
+      "animal": "European bee-eater",
+      "prompt": "Where does the European bee-eater usually place its nest?",
+      "options": [
+        "At the end of a gallery dug in a bank or embankment",
+        "In a nest hanging under a branch",
+        "At the bottom of a trunk filled with water",
+        "In a cliff cavity built with twigs"
+      ],
+      "explanation": "The pair digs a nesting tunnel in soft soil.",
+      "didYouKnow": "The European bee-eater leaves Europe in the fall and winters in Africa.",
+      "imageCaption": "European bee-eater"
+    },
+    {
+      "id": "birds-169",
+      "animal": "Black Swift",
+      "prompt": "How does the Black Swift often settle down to rest?",
+      "options": [
+        "It clings to a vertical surface",
+        "It sits on a thin horizontal branch",
+        "It attaches itself by the tail to a thread",
+        "It hangs underwater"
+      ],
+      "explanation": "Its short legs and claws allow it to cling to vertical surfaces.",
+      "didYouKnow": "The black swift spends the winter in Africa after breeding in Europe.",
+      "imageCaption": "Black Swift"
+    },
+    {
+      "id": "birds-170",
+      "animal": "Dipper",
+      "prompt": "Which environment is particularly important for the dipper?",
+      "options": [
+        "Clear and fast waterways",
+        "Coastal dunes without water",
+        "Tropical canopy forests",
+        "Dry grain fields"
+      ],
+      "explanation": "It depends on rivers and streams where it finds its aquatic prey.",
+      "didYouKnow": "The dipper can be recognized by its white plastron which contrasts with its brown plumage.",
+      "imageCaption": "Dipper"
+    },
+    {
+      "id": "birds-171",
+      "animal": "Northern Cardinal",
+      "prompt": "What beak feature helps the northern cardinal eat seeds?",
+      "options": [
+        "A short, conical beak",
+        "A very long and curved beak",
+        "A spatula-shaped beak",
+        "A crossed beak with opposite points"
+      ],
+      "explanation": "Its robust conical beak is suitable for handling and shelling seeds.",
+      "didYouKnow": "The northern cardinal builds a cupped nest, usually placed in a shrub or small tree.",
+      "imageCaption": "Northern Cardinal"
+    },
+    {
+      "id": "birds-172",
+      "animal": "Brown Kiwi",
+      "prompt": "Why is the kiwi's egg remarkable compared to the size of the female?",
+      "options": [
+        "It represents an exceptionally large portion of its body mass",
+        "It is the smallest egg among birds",
+        "It does not contain yellow",
+        "It is laid underwater"
+      ],
+      "explanation": "The kiwi's egg is very large relative to the size of the female's body.",
+      "didYouKnow": "The brown kiwi is mainly active at night.",
+      "imageCaption": "Brown Kiwi"
+    },
+    {
+      "id": "birds-173",
+      "animal": "Helmeted Cassowary",
+      "prompt": "What role can the cassowary play after eating a forest fruit?",
+      "options": [
+        "Transport and deposit your seeds elsewhere",
+        "Pollinate seaweed",
+        "Prevent seeds from germinating by burying them all",
+        "Transform fruit into nectar"
+      ],
+      "explanation": "Swallowed seeds can pass through its digestive system and be deposited at a distance.",
+      "didYouKnow": "The cassowary has colorful wattles on its neck, which vary depending on the species.",
+      "imageCaption": "Helmeted Cassowary"
+    },
+    {
+      "id": "birds-174",
+      "animal": "Rock pigeon",
+      "prompt": "What wild life form of the rock pigeon is responsible for urban populations?",
+      "options": [
+        "A species that naturally nests on cliffs",
+        "A marsh bird that nests in the reeds",
+        "A high-seas Arctic migrant",
+        "A tropical forest parrot"
+      ],
+      "explanation": "The wild rock nested on cliffs, and the buildings offer similar ledges.",
+      "didYouKnow": "Pigeons feed their young with “crop milk,” a nutritious secretion produced by both parents.",
+      "imageCaption": "Rock pigeon"
+    },
+    {
+      "id": "birds-175",
+      "animal": "Golden Eagle",
+      "prompt": "What does a golden eagle often do with a nest used in previous seasons?",
+      "options": [
+        "He can reuse it and enlarge it",
+        "He carries him to another cliff",
+        "He always covers it with water",
+        "He replaces it with a burrow"
+      ],
+      "explanation": "A couple can reuse and expand their nesting area for several years.",
+      "didYouKnow": "The legs of the golden eagle are feathered down to the fingers.",
+      "imageCaption": "Golden Eagle"
+    },
+    {
+      "id": "birds-176",
+      "animal": "Secretarybird",
+      "prompt": "How does the secretary often catch snakes?",
+      "options": [
+        "He hits them with his long legs",
+        "He catches them with a pocket under his beak",
+        "He attracts them with a net of feathers",
+        "He chases them underwater"
+      ],
+      "explanation": "The secretary hunts on foot and can strike its prey with its long legs.",
+      "didYouKnow": "It builds a large nest in a tree or shrub.",
+      "imageCaption": "Secretarybird"
+    },
+    {
+      "id": "birds-177",
+      "animal": "Toucan toco",
+      "prompt": "Why does the toco toucan's beak appear massive but remain relatively light?",
+      "options": [
+        "Its interior contains a lightweight network of bony struts.",
+        "It is made up of compacted feathers",
+        "It is filled with air through an external pocket",
+        "It is replaced by a shell each season"
+      ],
+      "explanation": "The toucan’s bill is supported internally by a lattice-like structure, making it large without being solid and heavy.",
+      "didYouKnow": "The toco toucan is the largest toucan species.",
+      "imageCaption": "Toucan toco"
+    },
+    {
+      "id": "birds-178",
+      "animal": "Hoazin",
+      "prompt": "What peculiarity do young hoazins have on their wings?",
+      "options": [
+        "Claws that help them climb vegetation",
+        "Membranes that allow them to swim like ducks",
+        "Waterproof feathers that form a bag",
+        "Opposing fingers gripping fish"
+      ],
+      "explanation": "The young use wing claws to climb branches when moving through vegetation.",
+      "didYouKnow": "The hoazin lives in the floodplain forests bordering the waterways of the Amazon and the Orinoco.",
+      "imageCaption": "Hoazin"
+    },
+    {
+      "id": "birds-179",
+      "animal": "Shoebill",
+      "prompt": "Where does the Shoebill typically nest?",
+      "options": [
+        "On a vegetation platform in a marsh",
+        "In a sea cliff cavity",
+        "In a burrow dug under the dunes",
+        "In a nest hanging from a dry forest tree"
+      ],
+      "explanation": "It builds its nest on the ground, in the vegetation of the marshes where it lives.",
+      "didYouKnow": "The name shoebill refers to the characteristic shape of its massive bill.",
+      "imageCaption": "Shoebill"
+    },
+    {
+      "id": "birds-180",
+      "animal": "Demoiselle crane",
+      "prompt": "Where does the demoiselle crane often spend the winter after breeding in Central Asia?",
+      "options": [
+        "In South Asia",
+        "In Antarctica",
+        "In the Caribbean Islands",
+        "In the boreal forests of Canada"
+      ],
+      "explanation": "It migrates to South Asia to winter after nesting in the steppes of Central Asia.",
+      "didYouKnow": "Male and female demoiselle cranes have very similar plumage.",
+      "imageCaption": "Demoiselle crane"
+    },
+    {
+      "id": "birds-181",
+      "animal": "Rhinoceros hornbill",
+      "prompt": "What material is the rhinoceros hornbill's helmet sheath primarily made of?",
+      "options": [
+        "Keratin",
+        "Chitin",
+        "Silica",
+        "Bare cartilage"
+      ],
+      "explanation": "The horny sheath that covers the helmet is made of keratin, like that of the beak. The helmet develops as the bird grows.",
+      "didYouKnow": "The rhinoceros hornbill inhabits the tropical forests of Borneo, Sumatra and the Malay Peninsula.",
+      "imageCaption": "Rhinoceros hornbill"
+    },
+    {
+      "id": "birds-182",
+      "animal": "Orange-bellied parakeet",
+      "prompt": "Between which regions does the orange-bellied parakeet migrate?",
+      "options": [
+        "Tasmania and South Australia",
+        "The Arctic and Antarctica",
+        "Europe and West Africa",
+        "Japan and Siberia"
+      ],
+      "explanation": "It breeds in Tasmania then migrates to winter quarters on the Australian continent.",
+      "didYouKnow": "Its wild population is very small and is the subject of conservation efforts.",
+      "imageCaption": "Orange-bellied parakeet"
+    },
+    {
+      "id": "birds-183",
+      "animal": "Victoria crowned pigeon",
+      "prompt": "What visible structure distinguishes the Victoria crowned pigeon?",
+      "options": [
+        "A large crest of openwork blue feathers",
+        "A horny helmet on the beak",
+        "An expandable pocket under the throat",
+        "A train made up of eyespots"
+      ],
+      "explanation": "Its blue crest is made up of delicate, lace-like feathers.",
+      "didYouKnow": "The Victoria crowned pigeon is one of the largest living pigeon species.",
+      "imageCaption": "Victoria crowned pigeon"
+    },
+    {
+      "id": "birds-184",
+      "animal": "Bald Eagle",
+      "prompt": "What food is an important resource for the bald eagle?",
+      "options": [
+        "The fish",
+        "Reed seeds only",
+        "Cliff lichens",
+        "Flower nectar"
+      ],
+      "explanation": "It often catches fish, although its diet also includes other prey and carcasses.",
+      "didYouKnow": "In the bald eagle, the white head appears with the adult plumage, after several years.",
+      "imageCaption": "Bald Eagle"
+    },
+    {
+      "id": "birds-185",
+      "animal": "Harpy Eagle",
+      "prompt": "Why are the relatively short wings of the harpy eagle useful in the forest?",
+      "options": [
+        "They make it easier to maneuver between trees",
+        "They allow you to swim underwater",
+        "They increase speed on the high seas",
+        "They prevent any gliding"
+      ],
+      "explanation": "Shorter, wider wings make turning in dense vegetation easier.",
+      "didYouKnow": "The harpy eagle builds a large nest in the canopy of tall trees.",
+      "imageCaption": "Harpy Eagle"
+    },
+    {
+      "id": "birds-186",
+      "animal": "Southern giant petrel",
+      "prompt": "What role does the southern giant petrel sometimes play around marine colonies?",
+      "options": [
+        "Consume carcasses and other available resources",
+        "Build coral reefs",
+        "Filter salt from currents",
+        "Pollinate seafloor algae"
+      ],
+      "explanation": "It acts as an opportunistic predator and scavenger in marine ecosystems.",
+      "didYouKnow": "The giant petrel is the largest representative of the petrels.",
+      "imageCaption": "Southern giant petrel"
+    },
+    {
+      "id": "birds-187",
+      "animal": "American black vulture",
+      "prompt": "How does black vulture often spot a carcass?",
+      "options": [
+        "By observing other scavengers and thanks to his eyesight",
+        "Only by an exceptional sense of smell",
+        "Listening to the seeds fall",
+        "By digging under the carcasses"
+      ],
+      "explanation": "It relies largely on sight and can spot birds that have found a carcass.",
+      "didYouKnow": "The black vulture can exploit thermal updrafts to glide with little effort.",
+      "imageCaption": "American black vulture"
+    },
+    {
+      "id": "birds-188",
+      "animal": "African fish eagle",
+      "prompt": "What resource does the eagle eagle primarily capture?",
+      "options": [
+        "Fish near the water’s surface.",
+        "Underground roots",
+        "Grass seeds only",
+        "Insects in the trunks"
+      ],
+      "explanation": "The African fish eagle often catches fish by swooping down and seizing them near the surface.",
+      "didYouKnow": "Its clear, ringing call is often heard near African lakes and rivers.",
+      "imageCaption": "African fish eagle"
+    },
+    {
+      "id": "birds-189",
+      "animal": "Common ringed plover",
+      "prompt": "How does the Plover chick behave shortly after hatching?",
+      "options": [
+        "It can walk and forage soon after hatching.",
+        "It remains fed in a cavity for several months",
+        "He immediately flies towards the sea",
+        "He spends his first week underwater"
+      ],
+      "explanation": "Ringed plover chicks are precocial: they leave the ground nest and search for small prey soon after hatching, while adults guard them.",
+      "didYouKnow": "Adult ringed plovers often use a broken-wing display to draw predators away from their nest or chicks.",
+      "imageCaption": "Common ringed plover"
+    },
+    {
+      "id": "birds-190",
+      "animal": "Red-necked phalarope",
+      "prompt": "How does the red-necked phalarope sometimes concentrate small prey on the surface?",
+      "options": [
+        "It spins quickly in the water",
+        "He builds a dam of feathers",
+        "He blows hot air into the mud",
+        "He hits the fish with his wings"
+      ],
+      "explanation": "The rotation creates swirls that can bring small organisms within its reach.",
+      "didYouKnow": "In this phalarope, the females are more brightly colored than the males and the latter ensure incubation.",
+      "imageCaption": "Red-necked phalarope"
+    },
+    {
+      "id": "birds-191",
+      "animal": "Blue-crowned motmot",
+      "prompt": "What purpose can the pendulum movement of the tail serve in certain motmots?",
+      "options": [
+        "To report a state of alert or an interaction",
+        "To cool the eggs under the nest",
+        "To attract fish underwater",
+        "To propel the bird backwards"
+      ],
+      "explanation": "The tail movement can serve as a visible signal, particularly in an alert context.",
+      "didYouKnow": "The blue-browed motmot often digs its nest at the bottom of a tunnel in a riverbank.",
+      "imageCaption": "Blue-crowned motmot"
+    },
+    {
+      "id": "birds-192",
+      "animal": "Elegant Trogon",
+      "prompt": "How are the elegant trogon's fingers arranged?",
+      "options": [
+        "Two forward and two backward",
+        "Three forwards and one backwards",
+        "All forward",
+        "All back"
+      ],
+      "explanation": "This arrangement, called heterodactyl, helps the trogon to grasp the branches.",
+      "didYouKnow": "Trogons can nest in natural cavities or in old termite mounds depending on the species.",
+      "imageCaption": "Elegant Trogon"
+    },
+    {
+      "id": "birds-193",
+      "animal": "Superb lyrebird",
+      "prompt": "Why is the Superb Lyrebird named like that?",
+      "options": [
+        "The tail of the male deployed evokes the shape of a lyre",
+        "Its song resembles the sound of a stringed instrument only",
+        "It nests exclusively in trees called lyres.",
+        "It has a lyre-shaped beak."
+      ],
+      "explanation": "The male's long tail feathers form a lyre-like silhouette during display.",
+      "didYouKnow": "The lyrebird is endemic to Australia and lives in humid temperate forests.",
+      "imageCaption": "Superb lyrebird"
+    },
+    {
+      "id": "birds-194",
+      "animal": "Village weaver",
+      "prompt": "Why do the weaver's woven nests often hang from branches?",
+      "options": [
+        "Suspension makes access more difficult for certain terrestrial predators",
+        "It allows the eggs to float",
+        "It gives the nest access to sap",
+        "It prevents parents from going out"
+      ],
+      "explanation": "Suspended nests can limit access for some predators that climb from the ground.",
+      "didYouKnow": "The male of the gendarme weaver displays bright yellow plumage during the breeding season.",
+      "imageCaption": "Village weaver"
+    },
+    {
+      "id": "birds-195",
+      "animal": "Sociable weaver",
+      "prompt": "What material does the social republican primarily use to build his large collective nest?",
+      "options": [
+        "Dry grass and twigs",
+        "Sea shells and sand",
+        "Mud and fresh leaves only",
+        "Mammal feathers"
+      ],
+      "explanation": "The collective structure is mainly composed of dry plant materials.",
+      "didYouKnow": "The social republican lives in the dry environments of southern Africa.",
+      "imageCaption": "Sociable weaver"
+    },
+    {
+      "id": "birds-196",
+      "animal": "Osprey",
+      "prompt": "How do osprey's claws help hold a slippery fish?",
+      "options": [
+        "Rough bumps and pads improve grip",
+        "They secrete a glue",
+        "They wrap the fish in a membrane",
+        "They wear suction cups"
+      ],
+      "explanation": "The rough surfaces of the fingers help hold the prey firmly.",
+      "didYouKnow": "The osprey often establishes its area on a high support, close to a body of water.",
+      "imageCaption": "Osprey"
+    },
+    {
+      "id": "birds-197",
+      "animal": "Raven",
+      "prompt": "How can a raven crack a hard-shelled nut?",
+      "options": [
+        "By dropping it on a resistant surface",
+        "By dissolving it in water",
+        "By chewing it with your teeth",
+        "By rubbing it against a feather"
+      ],
+      "explanation": "Falling onto a hard surface can break the shell and make the nut accessible.",
+      "didYouKnow": "The common raven often forms lasting pair bonds and defends a nesting territory.",
+      "imageCaption": "Raven"
+    },
+    {
+      "id": "birds-198",
+      "animal": "Common cuckoo",
+      "prompt": "Why does the female gray cuckoo sometimes watch over a host's nest?",
+      "options": [
+        "To choose the moment when she can lay her egg there",
+        "To teach the host parent to build a nest",
+        "To store caterpillars",
+        "To prevent host chicks from migrating"
+      ],
+      "explanation": "The female must locate an active nest whose laying stage is suitable for incubating her egg.",
+      "didYouKnow": "The gray cuckoo notably consumes caterpillars, including certain hairy species that are little appreciated by other birds.",
+      "imageCaption": "Common cuckoo"
+    },
+    {
+      "id": "birds-199",
+      "animal": "Emperor penguin",
+      "prompt": "What role does emperor penguin aggregation play during winter storms?",
+      "options": [
+        "It reduces individual exposure to wind and cold",
+        "It allows eggs to be shared between groups",
+        "It attracts fish under the ice",
+        "It accelerates the melting of snow"
+      ],
+      "explanation": "Individuals packed closely together reduce the surface area exposed to cold conditions.",
+      "didYouKnow": "The emperor penguin dives to catch fish and squid under the ice floe.",
+      "imageCaption": "Emperor penguin"
+    },
+    {
+      "id": "birds-200",
+      "animal": "Arctic tern",
+      "prompt": "What habitat do Arctic terns often use for nesting?",
+      "options": [
+        "Coastal areas or Arctic islands",
+        "Tropical canopy forests",
+        "Desert cliffs without water",
+        "Freshwater caves"
+      ],
+      "explanation": "It nests in arctic regions, often near coasts or on islands.",
+      "didYouKnow": "The Arctic tern can live for several decades, despite its small size.",
+      "imageCaption": "Arctic tern"
+    }
+  ]
+}

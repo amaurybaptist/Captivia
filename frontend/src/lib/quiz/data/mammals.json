@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "mammals-001",
+    "animal": "Chien",
+    "prompt": "Quel sens aide particulièrement un chien à suivre une piste odorante ?",
+    "options": [
+      "L’odorat",
+      "La vision des couleurs",
+      "Le goût du sel",
+      "L’écholocation"
+    ],
+    "answer": 0,
+    "explanation": "Les chiens possèdent un odorat très développé et peuvent distinguer de nombreuses odeurs.",
+    "didYouKnow": "Le chien dispose aussi d’une troisième paupière qui protège et humidifie l’œil.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-002",
+    "animal": "Chat domestique",
+    "prompt": "À quoi servent surtout les vibrisses du chat ?",
+    "options": [
+      "À détecter les obstacles et les mouvements d’air proches",
+      "À réguler sa température",
+      "À goûter les aliments",
+      "À produire des sons"
+    ],
+    "answer": 0,
+    "explanation": "Les vibrisses sont des poils sensoriels reliés à des récepteurs nerveux.",
+    "didYouKnow": "Les chats communiquent aussi par des postures, des odeurs et des vocalisations.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-003",
+    "animal": "Cheval",
+    "prompt": "Comment appelle-t-on l’allure rapide à trois temps du cheval ?",
+    "options": [
+      "Le galop",
+      "Le trot",
+      "Le pas",
+      "L’amble"
+    ],
+    "answer": 0,
+    "explanation": "Le galop est une allure rapide dont les appuis se succèdent selon un rythme caractéristique.",
+    "didYouKnow": "Le cheval peut dormir debout grâce à un mécanisme qui stabilise ses membres.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-004",
+    "animal": "Vache",
+    "prompt": "Combien de compartiments possède l’estomac d’un bovin ?",
+    "options": [
+      "Quatre",
+      "Un",
+      "Deux",
+      "Six"
+    ],
+    "answer": 0,
+    "explanation": "Le système digestif des bovins comprend le rumen, le réticulum, l’omasum et l’abomasum.",
+    "didYouKnow": "Les bovins ruminent en régurgitant une partie de leur nourriture pour la remastiquer.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-005",
+    "animal": "Mouton",
+    "prompt": "Quel rôle joue la laine chez le mouton ?",
+    "options": [
+      "Elle isole le corps",
+      "Elle sert à voler",
+      "Elle produit du lait",
+      "Elle remplace les sabots"
+    ],
+    "answer": 0,
+    "explanation": "La laine forme une couche isolante qui aide à limiter les échanges thermiques.",
+    "didYouKnow": "Les moutons ont une excellente vision périphérique grâce à la position latérale de leurs yeux.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-006",
+    "animal": "Chèvre",
+    "prompt": "Quelle adaptation aide la chèvre de montagne à se déplacer sur les rochers ?",
+    "options": [
+      "Des sabots adhérents et fendus",
+      "Des pattes palmées",
+      "Une queue préhensile",
+      "Des griffes rétractiles"
+    ],
+    "answer": 0,
+    "explanation": "Les sabots fendus et souples des chèvres agrippent des surfaces rocheuses irrégulières.",
+    "didYouKnow": "Les chèvres vivent souvent en groupes sociaux appelés troupeaux.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-007",
+    "animal": "Cochon",
+    "prompt": "Quel comportement le cochon utilise-t-il souvent pour chercher sa nourriture ?",
+    "options": [
+      "Fouiller le sol avec son groin",
+      "Creuser avec ses cornes",
+      "Filtrer l’eau avec ses dents",
+      "Chasser en vol"
+    ],
+    "answer": 0,
+    "explanation": "Le groin robuste du cochon lui permet de remuer le sol et d’y trouver des aliments.",
+    "didYouKnow": "Les cochons sont des animaux sociaux capables d’apprendre des tâches.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-008",
+    "animal": "Lapin",
+    "prompt": "À quoi servent les longues oreilles du lapin ?",
+    "options": [
+      "À repérer les sons et aider à dissiper la chaleur",
+      "À respirer sous l’eau",
+      "À creuser des terriers",
+      "À stocker de la nourriture"
+    ],
+    "answer": 0,
+    "explanation": "Les oreilles mobiles captent les sons et contribuent à la thermorégulation.",
+    "didYouKnow": "Les dents du lapin poussent continuellement et s’usent en mâchant.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-009",
+    "animal": "Souris",
+    "prompt": "Pourquoi les incisives de la souris doivent-elles s’user régulièrement ?",
+    "options": [
+      "Elles poussent continuellement",
+      "Elles sont remplacées chaque semaine",
+      "Elles servent à filtrer l’eau",
+      "Elles sont creuses"
+    ],
+    "answer": 0,
+    "explanation": "Les incisives des rongeurs poussent toute leur vie et s’usent en rongeant.",
+    "didYouKnow": "Les moustaches aident la souris à se déplacer dans l’obscurité.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-010",
+    "animal": "Rat brun",
+    "prompt": "Comment les rats communiquent-ils souvent dans des fréquences inaudibles pour l’humain ?",
+    "options": [
+      "Par des ultrasons",
+      "Par des infrasons uniquement",
+      "Par des éclairs lumineux",
+      "Par des vibrations de la queue"
+    ],
+    "answer": 0,
+    "explanation": "Les rats émettent des vocalisations ultrasonores, notamment dans les interactions sociales.",
+    "didYouKnow": "Les rats peuvent apprendre des trajets complexes et se souvenir de lieux.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-011",
+    "animal": "Hamster",
+    "prompt": "Où un hamster transporte-t-il souvent de la nourriture ?",
+    "options": [
+      "Dans ses abajoues",
+      "Dans ses oreilles",
+      "Sous ses griffes",
+      "Dans sa queue"
+    ],
+    "answer": 0,
+    "explanation": "Les abajoues sont des poches extensibles qui permettent au hamster de transporter des aliments.",
+    "didYouKnow": "Les hamsters sont surtout actifs au crépuscule ou la nuit.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-012",
+    "animal": "Écureuil roux",
+    "prompt": "Pourquoi l’écureuil enterre-t-il parfois des graines ?",
+    "options": [
+      "Pour constituer des réserves alimentaires",
+      "Pour faire pousser des arbres immédiatement",
+      "Pour marquer son territoire avec de l’urine",
+      "Pour attirer les prédateurs"
+    ],
+    "answer": 0,
+    "explanation": "L’écureuil cache des graines qu’il pourra retrouver plus tard, même s’il en oublie certaines.",
+    "didYouKnow": "L’écureuil roux utilise aussi sa queue touffue pour garder l’équilibre dans les arbres.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-013",
+    "animal": "Castor",
+    "prompt": "Quelle structure le castor construit-il parfois pour ralentir un cours d’eau ?",
+    "options": [
+      "Un barrage de branches et de boue",
+      "Un nid de feuilles dans les arbres",
+      "Un tunnel de glace",
+      "Une digue de sable uniquement"
+    ],
+    "answer": 0,
+    "explanation": "Le castor utilise des branches, de la boue et d’autres matériaux pour construire des barrages.",
+    "didYouKnow": "Ses incisives puissantes grandissent continuellement et rongent le bois.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-014",
+    "animal": "Loutre de mer",
+    "prompt": "Comment la loutre de mer casse-t-elle parfois les coquilles ?",
+    "options": [
+      "Avec un outil, comme une pierre",
+      "Avec ses cornes",
+      "En les exposant au soleil",
+      "En les frappant avec ses nageoires arrière"
+    ],
+    "answer": 0,
+    "explanation": "La loutre de mer peut utiliser une pierre comme enclume pour ouvrir certains coquillages.",
+    "didYouKnow": "Son pelage dense emprisonne de l’air et contribue à son isolation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-015",
+    "animal": "Blaireau européen",
+    "prompt": "Quel abri le blaireau européen utilise-t-il souvent ?",
+    "options": [
+      "Un terrier appelé blaireautière",
+      "Un nid flottant",
+      "Une cavité dans les nuages",
+      "Une termitière"
+    ],
+    "answer": 0,
+    "explanation": "Le blaireau vit souvent dans un réseau de galeries et de chambres souterraines.",
+    "didYouKnow": "Il est surtout actif au crépuscule et la nuit.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-016",
+    "animal": "Hérisson européen",
+    "prompt": "Quel mécanisme le hérisson emploie-t-il face à un danger ?",
+    "options": [
+      "Il se met en boule",
+      "Il projette ses piquants",
+      "Il change de couleur",
+      "Il s’envole"
+    ],
+    "answer": 0,
+    "explanation": "En contractant ses muscles, le hérisson expose ses piquants et protège ses parties vulnérables.",
+    "didYouKnow": "Le hérisson européen est surtout actif la nuit.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-017",
+    "animal": "Taupe",
+    "prompt": "Quelle partie du corps la taupe utilise-t-elle efficacement pour creuser ?",
+    "options": [
+      "Ses pattes antérieures larges et puissantes",
+      "Ses oreilles palmées",
+      "Sa queue en forme de pelle uniquement",
+      "Ses dents arrière"
+    ],
+    "answer": 0,
+    "explanation": "Les membres antérieurs de la taupe sont adaptés au déplacement de terre.",
+    "didYouKnow": "La taupe repère ses proies dans le sol grâce à des sens tactiles et olfactifs.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-018",
+    "animal": "Chauve-souris pipistrelle",
+    "prompt": "Comment beaucoup de chauves-souris repèrent-elles des obstacles dans l’obscurité ?",
+    "options": [
+      "Par écholocation",
+      "Par infrarouge",
+      "En utilisant le champ magnétique uniquement",
+      "Grâce à une vision ultraviolette"
+    ],
+    "answer": 0,
+    "explanation": "Elles émettent des sons et interprètent leurs échos pour localiser des objets.",
+    "didYouKnow": "Les chauves-souris sont les seuls mammifères capables d’un vol actif soutenu.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-019",
+    "animal": "Roussette",
+    "prompt": "De quoi se nourrit principalement une grande roussette frugivore ?",
+    "options": [
+      "De fruits et de nectar",
+      "De poissons uniquement",
+      "De feuilles d’herbe",
+      "De petits mammifères exclusivement"
+    ],
+    "answer": 0,
+    "explanation": "Les roussettes frugivores consomment des fruits et peuvent transporter des graines.",
+    "didYouKnow": "Les roussettes se reposent souvent la tête en bas, suspendues par leurs pieds.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-020",
+    "animal": "Ornithorynque",
+    "prompt": "Quel trait particulier caractérise l’ornithorynque parmi les mammifères ?",
+    "options": [
+      "Il pond des œufs",
+      "Il possède des plumes",
+      "Il a six pattes",
+      "Il respire par des branchies"
+    ],
+    "answer": 0,
+    "explanation": "L’ornithorynque est un monotrème : les femelles pondent des œufs.",
+    "didYouKnow": "Le mâle possède un aiguillon venimeux sur les pattes arrière.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-021",
+    "animal": "Échidné",
+    "prompt": "Comment la femelle échidné nourrit-elle son petit après l’éclosion ?",
+    "options": [
+      "Elle sécrète du lait que le petit lèche",
+      "Elle régurgite des insectes",
+      "Elle lui apporte du pollen",
+      "Elle l’allaite avec des mamelles externes"
+    ],
+    "answer": 0,
+    "explanation": "Les monotrèmes produisent du lait, mais n’ont pas de mamelons ; le lait est sécrété sur la peau.",
+    "didYouKnow": "L’échidné se nourrit surtout de fourmis et de termites.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-022",
+    "animal": "Kangourou roux",
+    "prompt": "Où le jeune kangourou termine-t-il une partie importante de son développement ?",
+    "options": [
+      "Dans la poche maternelle",
+      "Dans un nid au sol",
+      "Dans une coquille",
+      "Dans une galerie creusée par le père"
+    ],
+    "answer": 0,
+    "explanation": "Le jeune marsupial naît très peu développé et poursuit sa croissance dans la poche.",
+    "didYouKnow": "Les kangourous se déplacent efficacement par bonds.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-023",
+    "animal": "Koala",
+    "prompt": "Quelle est la nourriture principale du koala ?",
+    "options": [
+      "Les feuilles d’eucalyptus",
+      "Les fruits de mer",
+      "Les racines de cactus",
+      "Les graines de pin"
+    ],
+    "answer": 0,
+    "explanation": "Le koala est spécialisé dans la consommation de feuilles d’eucalyptus.",
+    "didYouKnow": "Le koala possède des griffes puissantes qui l’aident à grimper aux arbres.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-024",
+    "animal": "Wombat",
+    "prompt": "Quelle forme ont les excréments du wombat ?",
+    "options": [
+      "Des cubes",
+      "Des sphères parfaites",
+      "Des rubans plats",
+      "Des spirales creuses"
+    ],
+    "answer": 0,
+    "explanation": "Les excréments cubiques du wombat sont liés à la forme et à l’élasticité de son intestin.",
+    "didYouKnow": "Le wombat peut courir rapidement sur de courtes distances.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-025",
+    "animal": "Diable de Tasmanie",
+    "prompt": "Quel type de nourriture le diable de Tasmanie consomme-t-il fréquemment ?",
+    "options": [
+      "Des carcasses et de petites proies",
+      "Du nectar uniquement",
+      "Du bois",
+      "Des algues filtrées"
+    ],
+    "answer": 0,
+    "explanation": "Le diable de Tasmanie est un carnivore opportuniste qui mange aussi des charognes.",
+    "didYouKnow": "Il possède une mâchoire puissante pour sa taille.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-026",
+    "animal": "Opossum de Virginie",
+    "prompt": "Que peut faire l’opossum de Virginie lorsqu’il est extrêmement effrayé ?",
+    "options": [
+      "Adopter une immobilité réflexe",
+      "Projeter des épines",
+      "Produire un venin dans sa queue",
+      "Changer sa peau en écorce"
+    ],
+    "answer": 0,
+    "explanation": "Cette immobilité involontaire peut s’accompagner d’une posture donnant l’impression que l’animal est mort.",
+    "didYouKnow": "L’opossum est un marsupial d’Amérique du Nord.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-027",
+    "animal": "Lion",
+    "prompt": "Quel rôle les lionnes jouent-elles souvent dans la chasse collective ?",
+    "options": [
+      "Elles coordonnent l’approche et la capture des proies",
+      "Elles construisent des barrages",
+      "Elles creusent des terriers profonds",
+      "Elles attirent les poissons par écholocation"
+    ],
+    "answer": 0,
+    "explanation": "Les lionnes chassent souvent en groupe, ce qui peut aider à capturer de grandes proies.",
+    "didYouKnow": "Un groupe de lions est appelé une troupe.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-028",
+    "animal": "Tigre",
+    "prompt": "À quoi servent les rayures du tigre dans son habitat ?",
+    "options": [
+      "À briser visuellement sa silhouette",
+      "À attirer ses proies par lumière",
+      "À réguler le débit sanguin",
+      "À signaler un âge précis"
+    ],
+    "answer": 0,
+    "explanation": "Les rayures contribuent au camouflage dans les herbes et les ombres.",
+    "didYouKnow": "Le motif de rayures est propre à chaque tigre.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-029",
+    "animal": "Léopard",
+    "prompt": "Où le léopard place-t-il parfois sa proie ?",
+    "options": [
+      "Dans un arbre",
+      "Au fond d’un lac",
+      "Dans une termitière",
+      "Sur un glacier"
+    ],
+    "answer": 0,
+    "explanation": "Le léopard peut hisser une proie dans un arbre pour la garder à l’abri d’autres prédateurs.",
+    "didYouKnow": "Ses rosettes l’aident à se camoufler dans des milieux variés.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-030",
+    "animal": "Guépard",
+    "prompt": "Quelle adaptation aide le guépard à accélérer rapidement ?",
+    "options": [
+      "Une colonne vertébrale très flexible",
+      "Des ailes membraneuses",
+      "Des pattes palmées",
+      "Une carapace légère"
+    ],
+    "answer": 0,
+    "explanation": "Sa colonne flexible contribue à l’amplitude de ses foulées pendant la course.",
+    "didYouKnow": "Les griffes du guépard sont partiellement non rétractiles et améliorent son adhérence.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-031",
+    "animal": "Loup gris",
+    "prompt": "Comment une meute de loups organise-t-elle souvent ses déplacements ?",
+    "options": [
+      "Par des interactions et des signaux sociaux",
+      "Par un chef choisi par combat quotidien",
+      "Par des cartes olfactives écrites",
+      "Par des cris uniquement sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Les loups coordonnent leurs activités avec des postures, des odeurs et des vocalisations.",
+    "didYouKnow": "Le hurlement aide les loups à communiquer sur de longues distances.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-032",
+    "animal": "Renard roux",
+    "prompt": "Comment le renard roux peut-il repérer un petit rongeur sous la neige ?",
+    "options": [
+      "En écoutant ses mouvements et en bondissant dessus",
+      "En creusant toujours un tunnel circulaire",
+      "En utilisant une vision infrarouge",
+      "En flairant son empreinte dans le vent uniquement"
+    ],
+    "answer": 0,
+    "explanation": "Le renard combine son ouïe fine et sa capacité à localiser les sons pour repérer une proie cachée.",
+    "didYouKnow": "Le renard roux peut aussi utiliser sa queue touffue comme couverture lorsqu’il se repose.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-033",
+    "animal": "Ours polaire",
+    "prompt": "Quelle propriété aide la fourrure de l’ours polaire à isoler son corps ?",
+    "options": [
+      "Elle retient une couche d’air isolante",
+      "Elle est composée de plumes creuses",
+      "Elle produit sa chaleur grâce à un pigment",
+      "Elle est couverte d’huile bleue"
+    ],
+    "answer": 0,
+    "explanation": "La fourrure dense emprisonne de l’air et limite les pertes de chaleur.",
+    "didYouKnow": "La peau de l’ours polaire est noire.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-034",
+    "animal": "Ours brun",
+    "prompt": "Comment l’ours brun survit-il à la période hivernale dans certaines régions froides ?",
+    "options": [
+      "En ralentissant son activité et en vivant de réserves",
+      "En migrant toujours vers les tropiques",
+      "En respirant sous la glace",
+      "En se nourrissant exclusivement de neige"
+    ],
+    "answer": 0,
+    "explanation": "Dans les régions froides, l’ours brun passe l’hiver dans une tanière et utilise ses réserves de graisse.",
+    "didYouKnow": "L’ours brun peut être actif de jour comme de nuit selon la saison et les ressources disponibles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-035",
+    "animal": "Panda géant",
+    "prompt": "Quel élément compose la plus grande part du régime du panda géant ?",
+    "options": [
+      "Le bambou",
+      "Le poisson",
+      "Les termites",
+      "Les feuilles d’eucalyptus"
+    ],
+    "answer": 0,
+    "explanation": "Le panda géant consomme principalement du bambou, même s’il appartient à l’ordre des carnivores.",
+    "didYouKnow": "Le « pouce » du panda est un os du poignet modifié qui aide à saisir les tiges.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-036",
+    "animal": "Panda roux",
+    "prompt": "Quel est le régime principal du panda roux ?",
+    "options": [
+      "Le bambou",
+      "Les grands herbivores",
+      "Les crustacés marins",
+      "Les graines de cactus uniquement"
+    ],
+    "answer": 0,
+    "explanation": "Le panda roux mange surtout du bambou, avec des fruits, des œufs et de petits animaux selon l’occasion.",
+    "didYouKnow": "Le panda roux n’est pas étroitement apparenté au panda géant.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-037",
+    "animal": "Éléphant d’Afrique",
+    "prompt": "À quoi sert principalement la trompe de l’éléphant ?",
+    "options": [
+      "À saisir, sentir et aspirer de l’eau",
+      "À respirer sous l’eau pendant des heures",
+      "À creuser sans utiliser les défenses",
+      "À filtrer le pollen"
+    ],
+    "answer": 0,
+    "explanation": "La trompe réunit le nez et la lèvre supérieure et sert à de nombreuses tâches.",
+    "didYouKnow": "Les éléphants peuvent maintenir des liens sociaux durables au sein de leur groupe.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-038",
+    "animal": "Éléphant d’Asie",
+    "prompt": "Quel trait distingue souvent l’éléphant d’Asie de l’éléphant d’Afrique ?",
+    "options": [
+      "Ses oreilles sont généralement plus petites",
+      "Il n’a pas de trompe",
+      "Il vit uniquement dans le désert",
+      "Ses défenses poussent sur les femelles de toutes les populations"
+    ],
+    "answer": 0,
+    "explanation": "Les éléphants d’Asie ont en général des oreilles plus petites que leurs cousins africains.",
+    "didYouKnow": "Les éléphants d’Asie vivent dans plusieurs types de forêts et de prairies.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-039",
+    "animal": "Rhinocéros blanc",
+    "prompt": "Que mange principalement le rhinocéros blanc ?",
+    "options": [
+      "De l’herbe",
+      "Du bambou",
+      "Des poissons",
+      "Du nectar"
+    ],
+    "answer": 0,
+    "explanation": "Le rhinocéros blanc est un grand brouteur qui se nourrit principalement d’herbes.",
+    "didYouKnow": "Sa large lèvre carrée est adaptée à la prise d’herbe près du sol.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-040",
+    "animal": "Hippopotame",
+    "prompt": "Où l’hippopotame passe-t-il une grande partie de la journée ?",
+    "options": [
+      "Dans l’eau ou la boue",
+      "Dans les arbres",
+      "Sous le sable du désert",
+      "Dans des grottes de montagne"
+    ],
+    "answer": 0,
+    "explanation": "L’hippopotame reste souvent immergé ou couvert de boue pendant la journée pour se protéger du soleil.",
+    "didYouKnow": "L’hippopotame peut fermer ses narines et ses oreilles lorsqu’il est immergé.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-041",
+    "animal": "Girafe",
+    "prompt": "Quel mécanisme aide la girafe à amortir les variations de pression sanguine dans sa tête lorsqu’elle lève ou baisse le cou?",
+    "options": [
+      "Un réseau de petits vaisseaux et des valves régulent les variations de pression.",
+      "Un second cœur placé à la base du crâne augmente le débit sanguin.",
+      "Des sinus dans les os du cou stockent le sang lorsque la tête est basse.",
+      "Un rythme cardiaque constamment lent empêche toute variation de pression."
+    ],
+    "answer": 0,
+    "explanation": "La girafe possède un réseau carotidien et des valves qui limitent les variations de pression lorsque la tête change de hauteur.",
+    "didYouKnow": "Sa langue préhensile l’aide à saisir des feuilles entre les épines.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-042",
+    "animal": "Zèbre des plaines",
+    "prompt": "À quoi les rayures du zèbre pourraient-elles notamment contribuer ?",
+    "options": [
+      "À réduire les attaques des mouches piqueuses",
+      "À rendre l’animal invisible aux lions",
+      "À refroidir le sang par évaporation",
+      "À créer des réserves d’eau"
+    ],
+    "answer": 0,
+    "explanation": "Des études indiquent que les rayures peuvent gêner l’approche et l’atterrissage de certains insectes piqueurs.",
+    "didYouKnow": "Le zèbre des plaines appartient au genre Equus, qui comprend aussi les chevaux et les ânes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-043",
+    "animal": "Chameau",
+    "prompt": "Comment le chameau utilise-t-il la graisse de sa bosse ?",
+    "options": [
+      "Comme réserve d’énergie",
+      "Comme réservoir d’eau liquide",
+      "Comme organe respiratoire",
+      "Comme protection contre le sable uniquement"
+    ],
+    "answer": 0,
+    "explanation": "La bosse contient de la graisse, que le corps peut utiliser comme source d’énergie.",
+    "didYouKnow": "Les chameaux ont des globules rouges de forme ovale, une particularité utile lors des variations d’hydratation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-044",
+    "animal": "Dromadaire",
+    "prompt": "Combien de bosses porte normalement le dromadaire ?",
+    "options": [
+      "Une",
+      "Deux",
+      "Trois",
+      "Aucune"
+    ],
+    "answer": 0,
+    "explanation": "Le dromadaire se distingue du chameau de Bactriane par sa bosse unique.",
+    "didYouKnow": "Après une période sans boire, le dromadaire peut absorber rapidement une grande quantité d’eau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-045",
+    "animal": "Chameau de Bactriane",
+    "prompt": "Combien de bosses porte le chameau de Bactriane ?",
+    "options": [
+      "Deux",
+      "Une",
+      "Trois",
+      "Aucune"
+    ],
+    "answer": 0,
+    "explanation": "Le chameau de Bactriane possède deux bosses contenant des réserves graisseuses.",
+    "didYouKnow": "Sa fourrure épaisse l’aide à supporter les hivers froids des régions intérieures d’Asie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-046",
+    "animal": "Bison d’Amérique",
+    "prompt": "À quelle saison le bison d’Amérique porte-t-il sa fourrure la plus épaisse ?",
+    "options": [
+      "En hiver",
+      "Au cœur de l’été",
+      "Uniquement pendant la migration",
+      "Après la mue du printemps"
+    ],
+    "answer": 0,
+    "explanation": "Le bison développe une épaisse toison hivernale qui l’isole du froid.",
+    "didYouKnow": "Il gratte parfois le sol avec ses cornes et ses sabots.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-047",
+    "animal": "Antilope saïga",
+    "prompt": "À quoi sert notamment le nez élargi du saïga dans les steppes?",
+    "options": [
+      "Il filtre la poussière et conditionne l’air inspiré.",
+      "Il augmente surtout la perception des sons graves dans les grands espaces.",
+      "Il sert à retenir l’eau des plantes avant qu’elle n’atteigne l’estomac.",
+      "Il permet de creuser le sol pour atteindre des racines profondes."
+    ],
+    "answer": 0,
+    "explanation": "Le nez élargi du saïga aide à filtrer la poussière et à réchauffer ou refroidir l’air selon les conditions.",
+    "didYouKnow": "Le saïga effectue des migrations saisonnières dans les steppes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-048",
+    "animal": "Mouflon",
+    "prompt": "À quoi servent les cornes du mouflon mâle lors de certains affrontements ?",
+    "options": [
+      "À se pousser et rivaliser avec d’autres mâles",
+      "À creuser des terriers",
+      "À filtrer l’eau",
+      "À réguler la température par évaporation"
+    ],
+    "answer": 0,
+    "explanation": "Les mâles peuvent entrechoquer leurs cornes lors de compétitions sociales.",
+    "didYouKnow": "Les mouflons possèdent une excellente vision périphérique grâce à la position latérale de leurs yeux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-049",
+    "animal": "Cerf élaphe",
+    "prompt": "Que se passe-t-il chaque année avec les bois du cerf élaphe ?",
+    "options": [
+      "Ils tombent puis repoussent",
+      "Ils restent toute la vie sans changement",
+      "Ils sont faits de kératine et ne repoussent jamais",
+      "Ils deviennent des plumes en hiver"
+    ],
+    "answer": 0,
+    "explanation": "Les bois des cerfs sont perdus périodiquement et repoussent au cours du cycle annuel.",
+    "didYouKnow": "Pendant leur croissance, les bois sont recouverts d’une peau appelée velours.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-050",
+    "animal": "Élan",
+    "prompt": "Comment l’élan atteint-il souvent les plantes aquatiques ?",
+    "options": [
+      "Il broute dans l’eau peu profonde",
+      "Il plonge avec des branchies",
+      "Il les attrape avec ses bois comme une pince",
+      "Il les déterre en volant"
+    ],
+    "answer": 0,
+    "explanation": "L’élan peut se nourrir de plantes aquatiques en entrant dans des eaux peu profondes.",
+    "didYouKnow": "L’élan est le plus grand cervidé vivant.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-051",
+    "animal": "Renne",
+    "prompt": "Quelle modification du sabot du renne améliore sa prise sur un sol hivernal dur?",
+    "options": [
+      "Les coussinets se rétractent et le bord dur du sabot devient davantage en contact avec le sol.",
+      "Les coussinets s’élargissent pour former une large surface souple.",
+      "Les deux doigts du sabot se soudent en une seule plaque.",
+      "Une membrane entre les doigts augmente l’adhérence sur la glace."
+    ],
+    "answer": 0,
+    "explanation": "En hiver, les coussinets se rétractent et le bord dur du sabot offre une meilleure prise sur la neige dure ou la glace.",
+    "didYouKnow": "Les rennes peuvent parcourir de longues distances lors de migrations saisonnières.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-052",
+    "animal": "Sanglier",
+    "prompt": "Comment le sanglier trouve-t-il souvent des racines dans le sol ?",
+    "options": [
+      "En fouillant avec son groin",
+      "En creusant avec ses défenses uniquement",
+      "En frappant le sol avec ses sabots avant",
+      "En utilisant ses canines comme une pelle"
+    ],
+    "answer": 0,
+    "explanation": "Le sanglier utilise son groin puissant pour retourner la terre et chercher des aliments.",
+    "didYouKnow": "Les marcassins présentent souvent des bandes claires qui s’estompent en grandissant.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-053",
+    "animal": "Dauphin à gros nez",
+    "prompt": "Comment le dauphin localise-t-il souvent des proies sous l’eau ?",
+    "options": [
+      "Par écholocation",
+      "Par l’odorat dans l’air uniquement",
+      "Par des ultrasons réfléchis uniquement par les plantes",
+      "Par des vibrations transmises par les nageoires arrière"
+    ],
+    "answer": 0,
+    "explanation": "Le dauphin émet des clics et analyse les échos pour repérer des objets et des proies.",
+    "didYouKnow": "Les dauphins respirent de l’air à la surface par leur évent.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-054",
+    "animal": "Orque",
+    "prompt": "Pourquoi les populations d’orques peuvent-elles avoir des régimes alimentaires différents?",
+    "options": [
+      "Elles développent des traditions de chasse et se spécialisent sur des proies différentes.",
+      "Toutes les populations mangent le même mélange de poissons et de mammifères, quelle que soit la région.",
+      "Le régime dépend uniquement de la taille corporelle de chaque individu.",
+      "Les orques changent de régime au hasard, sans lien avec leur groupe ou leur habitat."
+    ],
+    "answer": 0,
+    "explanation": "Les groupes d’orques peuvent transmettre socialement des techniques de chasse et des préférences alimentaires distinctes.",
+    "didYouKnow": "Les groupes d’orques ont des vocalisations et des habitudes sociales distinctes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-055",
+    "animal": "Baleine bleue",
+    "prompt": "Comment la baleine bleue capture-t-elle le krill ?",
+    "options": [
+      "En filtrant l’eau grâce à ses fanons",
+      "En aspirant par ses branchies",
+      "En mordant le krill un par un avec des dents",
+      "En l’attrapant avec ses nageoires"
+    ],
+    "answer": 0,
+    "explanation": "Les fanons retiennent les petites proies quand la baleine expulse l’eau de sa bouche.",
+    "didYouKnow": "La baleine bleue est le plus grand animal connu ayant vécu sur Terre.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-056",
+    "animal": "Baleine à bosse",
+    "prompt": "Lors d’une alimentation par engouffrement, que fait la baleine à bosse?",
+    "options": [
+      "Elle ouvre largement la bouche, engloutit de l’eau et retient les proies avec ses fanons.",
+      "Elle filtre l’eau en nageant la bouche entrouverte sans l’engouffrer.",
+      "Elle aspire les sédiments du fond puis les rejette par les évents.",
+      "Elle capture chaque poisson individuellement avec ses nageoires pectorales."
+    ],
+    "answer": 0,
+    "explanation": "Les sillons ventraux extensibles permettent à la baleine d’engouffrer une grande masse d’eau, ensuite expulsée à travers les fanons.",
+    "didYouKnow": "Les baleines à bosse sont connues pour leurs chants complexes, surtout chez les mâles en période de reproduction.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-057",
+    "animal": "Cachalot",
+    "prompt": "Quel groupe de proies constitue une cible fréquente des plongées profondes du cachalot?",
+    "options": [
+      "Les céphalopodes, notamment les calmars.",
+      "Les petits poissons de surface, comme les sardines.",
+      "Les crustacés fixés aux récifs peu profonds.",
+      "Les phoques qui se reposent sur la glace."
+    ],
+    "answer": 0,
+    "explanation": "Le cachalot plonge en profondeur pour chasser des calmars et d’autres céphalopodes.",
+    "didYouKnow": "Il produit des clics puissants qui participent à son écholocation.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-058",
+    "animal": "Narval",
+    "prompt": "De quelle dent provient principalement la défense du narval?",
+    "options": [
+      "D’une canine supérieure, généralement la gauche chez le mâle.",
+      "D’une incisive inférieure qui pousse vers l’avant.",
+      "D’une excroissance osseuse recouverte de kératine sur le front.",
+      "D’un fanon calcifié qui se détache de la mâchoire."
+    ],
+    "answer": 0,
+    "explanation": "La défense est une canine supérieure allongée qui traverse la lèvre; elle se développe le plus souvent chez le mâle.",
+    "didYouKnow": "Le narval vit dans les eaux arctiques et se déplace souvent en groupes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-059",
+    "animal": "Béluga",
+    "prompt": "Quel rôle le melon souple du béluga joue-t-il dans l’écholocation?",
+    "options": [
+      "Il aide à focaliser et orienter les sons émis.",
+      "Il amplifie uniquement les sons reçus par les oreilles.",
+      "Il transforme les clics en vibrations transmises par les nageoires.",
+      "Il stocke les sons sous forme de résonance pour les restituer plus tard."
+    ],
+    "answer": 0,
+    "explanation": "Le melon est une structure graisseuse qui contribue à diriger les sons utilisés pour l’écholocation.",
+    "didYouKnow": "Le béluga peut produire une grande diversité de sons, d’où son surnom de « canari des mers ».",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-060",
+    "animal": "Phoque commun",
+    "prompt": "Comment le phoque commun se déplace-t-il sur la terre ferme ?",
+    "options": [
+      "En ondulant et en se poussant avec son corps",
+      "En marchant sur quatre pattes sous son ventre",
+      "En sautant sur une seule nageoire",
+      "En rampant grâce à des pattes préhensiles"
+    ],
+    "answer": 0,
+    "explanation": "Les phoques véritables ne peuvent pas tourner leurs nageoires arrière sous le corps pour marcher.",
+    "didYouKnow": "Dans l’eau, leurs nageoires arrière assurent une grande partie de la propulsion.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-061",
+    "animal": "Otarie de Californie",
+    "prompt": "Quelle articulation permet à une otarie de mieux se déplacer à terre qu’un phoque véritable?",
+    "options": [
+      "Elle peut faire pivoter ses nageoires postérieures sous son corps.",
+      "Elle utilise ses nageoires antérieures comme des pattes et garde les nageoires arrière fixes.",
+      "Elle replie ses nageoires arrière le long de son dos et rampe sur le ventre.",
+      "Elle fait pivoter ses nageoires antérieures sous son corps pour marcher."
+    ],
+    "answer": 0,
+    "explanation": "Les otaries peuvent tourner leurs nageoires arrière sous le corps et s’appuyer dessus pour avancer à terre.",
+    "didYouKnow": "Les otaries de Californie sont capables d’apprendre des comportements complexes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-062",
+    "animal": "Morse",
+    "prompt": "À quoi servent les longues défenses du morse ?",
+    "options": [
+      "À aider à se hisser sur la glace et lors des interactions",
+      "À casser les coquilles comme un casse-noix",
+      "À creuser la neige pour respirer",
+      "À filtrer les poissons"
+    ],
+    "answer": 0,
+    "explanation": "Le morse peut utiliser ses défenses pour se hisser sur la glace et dans des confrontations sociales.",
+    "didYouKnow": "Le morse forme souvent des rassemblements importants sur la glace ou les rivages.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-063",
+    "animal": "Lamantin",
+    "prompt": "Que mange principalement le lamantin ?",
+    "options": [
+      "Des plantes aquatiques",
+      "Des poissons",
+      "Des phoques",
+      "Des coraux"
+    ],
+    "answer": 0,
+    "explanation": "Le lamantin est un herbivore qui broute des plantes aquatiques.",
+    "didYouKnow": "Il remonte à la surface pour respirer de l’air.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-064",
+    "animal": "Dugong",
+    "prompt": "Quel type d’habitat le dugong fréquente-t-il pour se nourrir ?",
+    "options": [
+      "Les prairies sous-marines",
+      "Les forêts de conifères",
+      "Les déserts rocheux",
+      "Les banquises profondes"
+    ],
+    "answer": 0,
+    "explanation": "Le dugong broute des herbiers marins dans les eaux côtières peu profondes.",
+    "didYouKnow": "Il appartient à l’ordre des siréniens, comme les lamantins.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-065",
+    "animal": "Fourmilier géant",
+    "prompt": "Comment le fourmilier géant capture-t-il les fourmis et les termites ?",
+    "options": [
+      "Avec sa longue langue collante",
+      "Avec ses dents pointues",
+      "En les filtrant à travers ses oreilles",
+      "Avec une poche ventrale"
+    ],
+    "answer": 0,
+    "explanation": "Sa langue longue et collante lui permet de saisir rapidement des insectes dans les nids.",
+    "didYouKnow": "Le fourmilier géant n’a pas de dents.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-066",
+    "animal": "Pangolin",
+    "prompt": "De quoi sont faites les écailles du pangolin ?",
+    "options": [
+      "De kératine",
+      "De calcium comme les os",
+      "De chitine",
+      "De cartilage"
+    ],
+    "answer": 0,
+    "explanation": "Les écailles du pangolin sont faites de kératine, comme les ongles humains.",
+    "didYouKnow": "Le pangolin est le seul mammifère vivant dont le corps est largement couvert d’écailles kératiniques.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-067",
+    "animal": "Tatou à neuf bandes",
+    "prompt": "Comment le tatou à neuf bandes peut-il parfois traverser une rivière?",
+    "options": [
+      "Il peut flotter en gonflant son tube digestif d’air ou marcher au fond en retenant sa respiration.",
+      "Il nage uniquement en battant sa carapace comme une pagaie.",
+      "Il s’accroche aux plantes aquatiques avec sa queue et se laisse tirer par le courant.",
+      "Il emmagasine de l’eau dans sa carapace et l’expulse pour avancer."
+    ],
+    "answer": 0,
+    "explanation": "Le tatou peut avaler de l’air pour flotter ou, dans des cours d’eau plus étroits, marcher sous l’eau en retenant son souffle.",
+    "didYouKnow": "Le tatou à neuf bandes peut traverser l’eau en flottant ou en marchant au fond.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-068",
+    "animal": "Paresseux à trois doigts",
+    "prompt": "Comment le paresseux se déplace-t-il généralement dans la canopée ?",
+    "options": [
+      "En s’accrochant aux branches avec ses longues griffes",
+      "En sautant d’arbre en arbre",
+      "En creusant des galeries",
+      "En nageant entre les arbres"
+    ],
+    "answer": 0,
+    "explanation": "Ses longues griffes recourbées lui permettent de s’agripper aux branches.",
+    "didYouKnow": "Les paresseux à trois doigts ont plusieurs vertèbres cervicales supplémentaires qui leur donnent une grande mobilité de la tête.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-069",
+    "animal": "Gorille",
+    "prompt": "Que mange principalement le gorille des plaines occidentales ?",
+    "options": [
+      "Des végétaux, notamment des feuilles et des fruits",
+      "Des poissons de mer",
+      "Des insectes exclusivement",
+      "Du bambou uniquement"
+    ],
+    "answer": 0,
+    "explanation": "Les gorilles sont principalement herbivores et consomment feuilles, tiges et fruits selon leur habitat.",
+    "didYouKnow": "Les gorilles construisent souvent chaque soir un nid de repos avec des végétaux.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-070",
+    "animal": "Chimpanzé",
+    "prompt": "Quel outil un chimpanzé utilise-t-il souvent pour extraire des termites d’une galerie?",
+    "options": [
+      "Une brindille effeuillée qu’il introduit dans le nid comme une sonde.",
+      "Une pierre qu’il roule dans le nid pour faire sortir les termites.",
+      "Une feuille pliée en entonnoir pour filtrer les termites de l’eau.",
+      "Une tige épineuse qu’il lance sur le nid depuis les branches."
+    ],
+    "answer": 0,
+    "explanation": "Les chimpanzés peuvent préparer une brindille en la débarrassant de ses feuilles puis la passer dans une galerie de termites.",
+    "didYouKnow": "Les chimpanzés vivent dans des communautés où les individus peuvent se séparer puis se retrouver.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-071",
+    "animal": "Bonobo",
+    "prompt": "Quelle caractéristique sociale joue souvent un rôle important dans les communautés de bonobos?",
+    "options": [
+      "Les alliances et les liens étroits entre femelles adultes.",
+      "Les mâles apparentés forment toujours le noyau dominant et excluent les femelles.",
+      "Chaque adulte vit seul et ne rejoint le groupe que pour se reproduire.",
+      "Une femelle unique contrôle durablement toutes les ressources du groupe."
+    ],
+    "answer": 0,
+    "explanation": "Les femelles qui ont rejoint une nouvelle communauté peuvent former des liens sociaux importants, contribuant à la cohésion du groupe.",
+    "didYouKnow": "Les bonobos vivent naturellement dans les forêts de la République démocratique du Congo.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-072",
+    "animal": "Orang-outan de Bornéo",
+    "prompt": "Comment l’orang-outan se déplace-t-il surtout dans la forêt ?",
+    "options": [
+      "En grimpant et en se balançant dans les arbres",
+      "En courant sur de longues distances au sol",
+      "En creusant des tunnels",
+      "En planant entre les branches"
+    ],
+    "answer": 0,
+    "explanation": "Ses longs bras et ses mains préhensiles l’aident à se déplacer dans la canopée.",
+    "didYouKnow": "L’orang-outan construit souvent un nouveau nid dans les arbres pour dormir.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-073",
+    "animal": "Gibbon à mains blanches",
+    "prompt": "Quelle locomotion caractérise les gibbons ?",
+    "options": [
+      "La brachiation, en se balançant avec les bras",
+      "Le saut à propulsion par nageoires",
+      "La marche sur les phalanges uniquement",
+      "Le vol plané"
+    ],
+    "answer": 0,
+    "explanation": "Les gibbons se balancent de branche en branche grâce à leurs longs bras.",
+    "didYouKnow": "Leurs chants servent à communiquer et à signaler l’occupation d’un territoire.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-074",
+    "animal": "Macaque japonais",
+    "prompt": "Comment le macaque japonais survit-il aux hivers froids dans certaines régions ?",
+    "options": [
+      "Il utilise parfois des sources chaudes",
+      "Il hiberne sous la neige durant six mois",
+      "Il fait pousser une fourrure blanche instantanément",
+      "Il migre toujours vers les tropiques"
+    ],
+    "answer": 0,
+    "explanation": "Dans certaines populations, des macaques japonais se baignent dans des sources chaudes pour se réchauffer.",
+    "didYouKnow": "Les macaques japonais se nourrissent d’aliments variés, notamment de fruits, de graines et de petits animaux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-075",
+    "animal": "Babouin hamadryas",
+    "prompt": "Quel régime alimentaire varié le babouin peut-il adopter ?",
+    "options": [
+      "Des fruits, graines et petits animaux",
+      "Du bambou exclusivement",
+      "Du krill et des algues",
+      "Du bois uniquement"
+    ],
+    "answer": 0,
+    "explanation": "Le babouin est omnivore et consomme des aliments disponibles dans son milieu.",
+    "didYouKnow": "Les babouins hamadryas vivent dans des sociétés structurées en plusieurs niveaux.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-076",
+    "animal": "Lémur catta",
+    "prompt": "Quel comportement aide les lémurs catta à se réchauffer le matin ?",
+    "options": [
+      "Ils s’exposent au soleil",
+      "Ils creusent un terrier glacé",
+      "Ils s’immergent dans l’eau",
+      "Ils gonflent leurs joues"
+    ],
+    "answer": 0,
+    "explanation": "Les lémurs catta peuvent s’asseoir face au soleil pour réchauffer leur corps.",
+    "didYouKnow": "Les lémurs catta vivent naturellement à Madagascar.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-077",
+    "animal": "Tarsier des Philippines",
+    "prompt": "Quelle adaptation aide le tarsier à voir la nuit ?",
+    "options": [
+      "Ses très grands yeux",
+      "Une membrane réfléchissante sur la queue",
+      "Des antennes sensibles",
+      "Une vision infrarouge"
+    ],
+    "answer": 0,
+    "explanation": "Les grands yeux du tarsier captent beaucoup de lumière dans son activité nocturne.",
+    "didYouKnow": "Le tarsier peut tourner sa tête très largement pour observer son environnement.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-078",
+    "animal": "Marmotte des Alpes",
+    "prompt": "Que fait la marmotte des Alpes durant l’hiver ?",
+    "options": [
+      "Elle hiberne dans un terrier",
+      "Elle migre vers l’Afrique",
+      "Elle chasse sous la glace",
+      "Elle vit dans les arbres"
+    ],
+    "answer": 0,
+    "explanation": "La marmotte passe les mois froids en hibernation dans un terrier, avec une activité corporelle réduite.",
+    "didYouKnow": "Les marmottes émettent des sifflements d’alarme lorsqu’elles repèrent un danger.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-079",
+    "animal": "Chinchilla",
+    "prompt": "Pourquoi le pelage du chinchilla est-il particulièrement dense ?",
+    "options": [
+      "Il aide à l’isoler dans un milieu frais et sec",
+      "Il sert à nager en mer",
+      "Il repousse les prédateurs par électricité",
+      "Il sert à voler"
+    ],
+    "answer": 0,
+    "explanation": "Un très grand nombre de poils pousse dans chaque follicule, ce qui forme un pelage dense.",
+    "didYouKnow": "Le chinchilla possède de grandes oreilles qui contribuent à évacuer la chaleur.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-080",
+    "animal": "Capybara",
+    "prompt": "Quel est le plus grand rongeur vivant ?",
+    "options": [
+      "Le capybara",
+      "Le castor",
+      "Le porc-épic",
+      "Le mara"
+    ],
+    "answer": 0,
+    "explanation": "Le capybara est le plus grand rongeur actuel.",
+    "didYouKnow": "Ses pieds partiellement palmés l’aident à nager.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-081",
+    "animal": "Porc-épic d’Amérique",
+    "prompt": "Que sont les piquants du porc-épic ?",
+    "options": [
+      "Des poils modifiés munis de barbes",
+      "Des épines osseuses fixées au squelette",
+      "Des dents détachées",
+      "Des écailles de kératine plates"
+    ],
+    "answer": 0,
+    "explanation": "Les piquants sont des poils modifiés qui peuvent se détacher et s’accrocher à un prédateur.",
+    "didYouKnow": "Le porc-épic est un rongeur qui grimpe souvent dans les arbres.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-082",
+    "animal": "Pika américain",
+    "prompt": "Où le pika américain stocke-t-il souvent les plantes récoltées pour l’hiver ?",
+    "options": [
+      "Dans des meules de foin",
+      "Dans une poche ventrale",
+      "Dans un nid suspendu",
+      "Dans des coquilles"
+    ],
+    "answer": 0,
+    "explanation": "Le pika sèche et empile des plantes pour constituer des réserves alimentaires.",
+    "didYouKnow": "Le pika américain communique par des cris, notamment pour signaler un danger.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-083",
+    "animal": "Baleine grise",
+    "prompt": "Comment la baleine grise capture-t-elle souvent des proies vivant dans les sédiments?",
+    "options": [
+      "Elle aspire le sédiment puis en filtre les petits animaux avec ses fanons.",
+      "Elle balaie la surface de l’eau avec ses fanons pour filtrer le krill.",
+      "Elle poursuit les poissons en pleine eau puis les saisit avec ses dents.",
+      "Elle creuse le fond avec ses nageoires et avale les sédiments sans les filtrer."
+    ],
+    "answer": 0,
+    "explanation": "La baleine grise peut se nourrir sur le fond en aspirant des sédiments et en retenant les proies dans ses fanons.",
+    "didYouKnow": "La baleine grise effectue de longues migrations saisonnières.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-084",
+    "animal": "Baleine boréale",
+    "prompt": "Quel avantage la baleine boréale tire-t-elle de ses fanons ?",
+    "options": [
+      "Ils filtrent de petites proies de l’eau",
+      "Ils cassent la glace",
+      "Ils produisent des clics",
+      "Ils stockent l’oxygène"
+    ],
+    "answer": 0,
+    "explanation": "La baleine boréale filtre le zooplancton et d’autres petites proies à l’aide de longs fanons.",
+    "didYouKnow": "Les baleines boréales comptent parmi les mammifères qui vivent le plus longtemps.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-085",
+    "animal": "Rorqual commun",
+    "prompt": "Quel mécanisme d’alimentation caractérise les rorquals, dont le rorqual commun?",
+    "options": [
+      "L’engouffrement d’eau et de proies suivi d’une filtration par les fanons.",
+      "Le raclage du fond marin avec les fanons pour aspirer les crustacés.",
+      "La capture de proies une à une avec une langue collante.",
+      "Le filtrage continu de l’eau à travers la bouche sans phase d’engouffrement."
+    ],
+    "answer": 0,
+    "explanation": "Les sillons ventraux se déploient pendant l’engouffrement, puis l’eau ressort à travers les fanons qui retiennent les proies.",
+    "didYouKnow": "Le rorqual commun est l’un des plus grands cétacés.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-086",
+    "animal": "Dauphin rose d’Amazonie",
+    "prompt": "Dans quel réseau d’habitats le dauphin rose d’Amazonie trouve-t-il nourriture et abri?",
+    "options": [
+      "Les rivières amazoniennes et leurs forêts inondées saisonnières.",
+      "Les estuaires salés et les récifs côtiers de l’Atlantique.",
+      "Les rivières de montagne froides du bassin de l’Orénoque uniquement.",
+      "Les lacs profonds isolés des Andes."
+    ],
+    "answer": 0,
+    "explanation": "Le boto fréquente les rivières d’Amazonie et peut se déplacer dans des zones forestières inondées.",
+    "didYouKnow": "Son cou est plus mobile que celui de nombreux dauphins marins.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-087",
+    "animal": "Marsouin commun",
+    "prompt": "Quelle caractéristique aide à distinguer un marsouin d’un dauphin ?",
+    "options": [
+      "Son museau est généralement moins allongé",
+      "Il possède des branchies",
+      "Il vit uniquement en eau douce",
+      "Il a des pattes arrière visibles"
+    ],
+    "answer": 0,
+    "explanation": "Le marsouin commun a une tête plus arrondie et un museau moins proéminent que beaucoup de dauphins.",
+    "didYouKnow": "Le marsouin commun vit dans les eaux côtières et tempérées de l’Atlantique Nord et des mers voisines.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-088",
+    "animal": "Éléphant de mer du Sud",
+    "prompt": "À quoi sert surtout la trompe du mâle éléphant de mer pendant les interactions de reproduction?",
+    "options": [
+      "À amplifier ses vocalisations.",
+      "À filtrer l’eau pour capturer le krill.",
+      "À stocker de l’air pour prolonger les plongées.",
+      "À guider les femelles vers les sites d’alimentation par l’odorat."
+    ],
+    "answer": 0,
+    "explanation": "La trompe du mâle amplifie les sons utilisés lors des interactions et des confrontations.",
+    "didYouKnow": "L’espèce peut plonger à grande profondeur pour chercher des proies.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-089",
+    "animal": "Phoque léopard",
+    "prompt": "Quel type de proie le phoque léopard chasse-t-il ?",
+    "options": [
+      "Du krill, des poissons et parfois des manchots",
+      "Des plantes aquatiques uniquement",
+      "Des escargots terrestres seulement",
+      "Des arbres morts"
+    ],
+    "answer": 0,
+    "explanation": "Le phoque léopard est un prédateur qui mange des poissons, du krill et d’autres animaux.",
+    "didYouKnow": "Le phoque léopard est surtout présent autour de l’Antarctique.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-090",
+    "animal": "Otarie à fourrure",
+    "prompt": "Quel rôle joue la fourrure de l’otarie à fourrure ?",
+    "options": [
+      "Elle emprisonne de l’air isolant près de la peau",
+      "Elle sert à respirer sous l’eau",
+      "Elle remplace les nageoires",
+      "Elle stocke des œufs"
+    ],
+    "answer": 0,
+    "explanation": "Le sous-poil dense retient une couche d’air qui contribue à l’isolation thermique.",
+    "didYouKnow": "Les otaries à fourrure passent une partie de leur vie en mer et se reproduisent à terre.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-091",
+    "animal": "Manchot empereur",
+    "prompt": "Pourquoi les manchots empereurs se regroupent-ils en cercle serré ?",
+    "options": [
+      "Pour réduire les pertes de chaleur",
+      "Pour attraper des poissons à terre",
+      "Pour couver des œufs sous l’eau",
+      "Pour éviter de muer"
+    ],
+    "answer": 0,
+    "explanation": "Se serrer les uns contre les autres aide les manchots à limiter leur exposition au vent et au froid.",
+    "didYouKnow": "Les manchots empereurs se déplacent parfois en groupe entre leurs zones de repos et leurs sites d’alimentation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-092",
+    "animal": "Hyène tachetée",
+    "prompt": "Quel rôle les hyènes tachetées jouent-elles dans l’écosystème ?",
+    "options": [
+      "Elles chassent et consomment aussi des carcasses",
+      "Elles ne mangent que des plantes",
+      "Elles pollinisent la plupart des arbres",
+      "Elles filtrent le plancton"
+    ],
+    "answer": 0,
+    "explanation": "Les hyènes tachetées chassent activement et se nourrissent également de charognes.",
+    "didYouKnow": "Chez les hyènes tachetées, les femelles dominent généralement les mâles dans la hiérarchie sociale.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-093",
+    "animal": "Suricate",
+    "prompt": "Que peuvent indiquer les différents cris d’alarme des suricates?",
+    "options": [
+      "Le type de danger repéré, par exemple un prédateur aérien ou terrestre.",
+      "La direction exacte du terrier où le groupe doit se réfugier.",
+      "Le rang de chaque individu dans la hiérarchie du groupe.",
+      "La quantité de nourriture disponible sous les feuilles."
+    ],
+    "answer": 0,
+    "explanation": "Les suricates émettent des cris d’alarme distincts selon le danger détecté.",
+    "didYouKnow": "Les suricates vivent en groupes et peuvent aider à nourrir les jeunes du groupe.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-094",
+    "animal": "Fennec",
+    "prompt": "À quoi servent les grandes oreilles du fennec ?",
+    "options": [
+      "À dissiper la chaleur et capter les sons",
+      "À stocker de l’eau",
+      "À se propulser dans le sable",
+      "À protéger ses yeux des épines"
+    ],
+    "answer": 0,
+    "explanation": "Les grandes oreilles contribuent à la perte de chaleur et offrent une ouïe fine.",
+    "didYouKnow": "Le fennec creuse des terriers où il se repose pendant les heures les plus chaudes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-095",
+    "animal": "Mangouste naine",
+    "prompt": "Comment certaines mangoustes naines trouvent-elles des insectes dans le sol ?",
+    "options": [
+      "En fouillant sous les feuilles et dans les fissures",
+      "En filtrant l’eau avec des fanons",
+      "En creusant avec des bois",
+      "En bondissant au-dessus des arbres"
+    ],
+    "answer": 0,
+    "explanation": "Les mangoustes recherchent des invertébrés et d’autres petites proies dans leur environnement.",
+    "didYouKnow": "Elles vivent souvent en groupes sociaux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-096",
+    "animal": "Civette africaine",
+    "prompt": "Quel sens est particulièrement utile à la civette pour trouver des aliments la nuit ?",
+    "options": [
+      "L’odorat",
+      "La vision des couleurs",
+      "La perception des ultrasons uniquement",
+      "Le toucher de ses bois"
+    ],
+    "answer": 0,
+    "explanation": "L’odorat aide la civette nocturne à détecter des aliments et des odeurs laissées par d’autres animaux.",
+    "didYouKnow": "La civette africaine marque parfois son territoire avec des sécrétions odorantes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-097",
+    "animal": "Genette commune",
+    "prompt": "À quoi sa longue queue aide-t-elle la genette lorsqu’elle grimpe ?",
+    "options": [
+      "À garder l’équilibre",
+      "À respirer sous l’eau",
+      "À casser les graines",
+      "À transporter ses petits dans une poche"
+    ],
+    "answer": 0,
+    "explanation": "La longue queue de la genette sert de balancier lors des déplacements arboricoles.",
+    "didYouKnow": "La genette est un petit carnivore nocturne agile.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-098",
+    "animal": "Puma",
+    "prompt": "Comment le puma tue-t-il généralement une proie de taille moyenne ?",
+    "options": [
+      "En la saisissant avec ses pattes et en mordant le cou",
+      "En l’étouffant avec sa queue",
+      "En lui lançant des épines",
+      "En la paralysant par ultrasons"
+    ],
+    "answer": 0,
+    "explanation": "Le puma est un félin prédateur qui capture sa proie avec ses membres puissants et ses dents.",
+    "didYouKnow": "Le puma porte différents noms régionaux, dont cougar et lion de montagne.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-099",
+    "animal": "Jaguar",
+    "prompt": "Quelle adaptation aide le jaguar à vivre dans des forêts tropicales humides ?",
+    "options": [
+      "Il nage bien et chasse parfois près de l’eau",
+      "Il ne peut pas mouiller sa fourrure",
+      "Il se nourrit uniquement de graines",
+      "Il respire sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Le jaguar est à l’aise dans l’eau et peut chasser des proies aquatiques ou riveraines.",
+    "didYouKnow": "Le jaguar possède souvent des taches au centre de ses rosettes, contrairement au léopard.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-100",
+    "animal": "Lynx boréal",
+    "prompt": "Quelle adaptation aide le lynx boréal à se déplacer sur la neige ?",
+    "options": [
+      "Ses larges pattes répartissent son poids",
+      "Ses pattes sont palmées pour pagayer",
+      "Ses sabots fendus agrippent la glace",
+      "Sa queue préhensile le tire en avant"
+    ],
+    "answer": 0,
+    "explanation": "Les pattes larges du lynx boréal répartissent son poids sur la neige.",
+    "didYouKnow": "Les pinceaux noirs au bout des oreilles du lynx boréal sont un autre trait distinctif.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-101",
+    "animal": "Caracal",
+    "prompt": "Quelle stratégie le caracal emploie-t-il pour saisir des oiseaux en vol?",
+    "options": [
+      "Il effectue un bond vertical rapide et les attrape avec ses pattes.",
+      "Il plane longuement au-dessus d’eux avant de les frapper de ses ailes.",
+      "Il les attire vers le sol en imitant leurs appels.",
+      "Il grimpe dans les arbres et les saisit pendant leur repos nocturne."
+    ],
+    "answer": 0,
+    "explanation": "Le caracal peut bondir haut depuis le sol pour saisir des oiseaux, parfois plusieurs dans un même saut.",
+    "didYouKnow": "Les pinceaux noirs de ses oreilles sont particulièrement visibles.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-102",
+    "animal": "Chat pêcheur",
+    "prompt": "Quelle caractéristique des pattes du chat pêcheur aide ses déplacements dans l’eau peu profonde?",
+    "options": [
+      "Une palmure partielle entre les doigts facilite la nage.",
+      "Des griffes entièrement rétractiles lui servent de crochets sous l’eau.",
+      "Ses pattes arrière sont transformées en nageoires, comme celles des phoques.",
+      "Des poils raides sous ses pieds l’empêchent de glisser sur les rochers."
+    ],
+    "answer": 0,
+    "explanation": "Le chat pêcheur possède une palmure partielle qui l’aide à se déplacer dans les milieux aquatiques.",
+    "didYouKnow": "Le chat pêcheur se nourrit notamment de poissons et d’autres animaux aquatiques.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-103",
+    "animal": "Loup à crinière",
+    "prompt": "Quel fruit sud-américain constitue une part notable du régime du loup à crinière?",
+    "options": [
+      "Le fruit du lobeira.",
+      "Le fruit du baobab, surtout présent dans les savanes africaines.",
+      "Le fruit du pandanus, typique des forêts d’Asie du Sud-Est.",
+      "Le fruit du nopal, principalement consommé dans les déserts nord-américains."
+    ],
+    "answer": 0,
+    "explanation": "Le lobeira, aussi appelé fruit du loup, fait partie des aliments végétaux consommés par le loup à crinière.",
+    "didYouKnow": "Ses longues pattes l’aident à se déplacer dans les hautes herbes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-104",
+    "animal": "Chien viverrin",
+    "prompt": "À quelle famille appartient le chien viverrin ?",
+    "options": [
+      "Aux canidés",
+      "Aux félidés",
+      "Aux ursidés",
+      "Aux marsupiaux"
+    ],
+    "answer": 0,
+    "explanation": "Malgré son nom et son apparence, le chien viverrin est un membre de la famille des canidés.",
+    "didYouKnow": "Il est originaire d’Asie de l’Est et a été introduit dans certaines régions d’Europe.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-105",
+    "animal": "Panda roux",
+    "prompt": "À quelle famille zoologique appartient le panda roux?",
+    "options": [
+      "À la famille des Ailuridés (Ailuridae).",
+      "À la famille des Ursidés, avec les ours.",
+      "À la famille des Procyonidés, avec les ratons laveurs.",
+      "À la famille des Mustélidés, avec les loutres et les belettes."
+    ],
+    "answer": 0,
+    "explanation": "Le panda roux est l’unique espèce vivante de sa famille, les Ailuridés.",
+    "didYouKnow": "Comme le panda géant, il possède un os du poignet modifié qui aide à saisir le bambou.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-106",
+    "animal": "Okapi",
+    "prompt": "Quel est le plus proche parent vivant de l’okapi?",
+    "options": [
+      "La girafe; les deux espèces appartiennent à la famille des Giraffidés.",
+      "Le zèbre, dans la famille des Équidés.",
+      "Le rhinocéros, dans la famille des Rhinocérotidés.",
+      "Le koudou, dans la famille des Bovidés."
+    ],
+    "answer": 0,
+    "explanation": "L’okapi et la girafe sont les deux espèces vivantes de la famille des Giraffidés.",
+    "didYouKnow": "Les rayures sur les jambes de l’okapi aident probablement les petits à suivre leur mère en forêt.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-107",
+    "animal": "Tapir de Malaisie",
+    "prompt": "À quoi sert le museau court et préhensile du tapir ?",
+    "options": [
+      "À saisir des feuilles et des fruits",
+      "À creuser des terriers profonds",
+      "À pomper l’eau dans les poumons",
+      "À frapper les prédateurs"
+    ],
+    "answer": 0,
+    "explanation": "Le tapir utilise son museau souple pour saisir des végétaux.",
+    "didYouKnow": "Le motif noir et blanc de l’adulte aide à le camoufler dans les ombres de la forêt.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-108",
+    "animal": "Fourmilier soyeux",
+    "prompt": "Où le fourmilier soyeux passe-t-il souvent son temps ?",
+    "options": [
+      "Dans les arbres",
+      "Au fond de l’océan",
+      "Dans les plaines enneigées",
+      "Dans les terriers de castors"
+    ],
+    "answer": 0,
+    "explanation": "Ce petit fourmilier arboricole se déplace dans les arbres et cherche des insectes.",
+    "didYouKnow": "Le fourmilier soyeux se nourrit surtout de fourmis arboricoles.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-109",
+    "animal": "Pécari à collier",
+    "prompt": "Quel est un trait du pécari à collier ?",
+    "options": [
+      "Il vit souvent en groupes",
+      "Il pond des œufs",
+      "Il est un marsupial arboricole",
+      "Il filtre le plancton"
+    ],
+    "answer": 0,
+    "explanation": "Le pécari est un mammifère grégaire qui se déplace souvent en groupe.",
+    "didYouKnow": "Le pécari à collier possède des canines qui peuvent se toucher lorsque la bouche est fermée.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-110",
+    "animal": "Pécari à lèvres blanches",
+    "prompt": "À quoi peut servir le déplacement en grand groupe des pécaris à lèvres blanches?",
+    "options": [
+      "À rendre plus difficile l’approche d’un prédateur et à protéger les individus.",
+      "À réduire les besoins alimentaires en partageant une seule source de nourriture.",
+      "À isoler les jeunes du groupe pour qu’ils se nourrissent seuls.",
+      "À maintenir une température corporelle constante dans les forêts tropicales."
+    ],
+    "answer": 0,
+    "explanation": "Les grands groupes peuvent décourager certains prédateurs et offrir une défense collective.",
+    "didYouKnow": "Les pécaris à lèvres blanches se nourrissent de fruits, de graines et d’autres matières végétales.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-111",
+    "animal": "Alpaga",
+    "prompt": "Pourquoi les humains élèvent-ils souvent des alpagas ?",
+    "options": [
+      "Pour leur fibre douce",
+      "Pour leur venin",
+      "Pour leurs œufs",
+      "Pour leurs écailles"
+    ],
+    "answer": 0,
+    "explanation": "L’alpaga est élevé notamment pour sa fibre, récoltée lors de la tonte.",
+    "didYouKnow": "Il est originaire des Andes et broute des végétaux.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-112",
+    "animal": "Lama",
+    "prompt": "Quel comportement le lama peut-il adopter lorsqu’il se sent menacé ou agacé ?",
+    "options": [
+      "Cracher",
+      "Lancer ses cornes",
+      "Déployer des ailes",
+      "Émettre un jet d’encre"
+    ],
+    "answer": 0,
+    "explanation": "Le lama peut cracher de la salive ou du contenu régurgité dans certaines situations de défense.",
+    "didYouKnow": "Les lamas sont utilisés comme animaux de bât dans les régions andines.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-113",
+    "animal": "Guanaco",
+    "prompt": "De quelle espèce domestique le guanaco est-il l’ancêtre sauvage ?",
+    "options": [
+      "Le lama",
+      "L’alpaga",
+      "La chèvre",
+      "Le yak"
+    ],
+    "answer": 0,
+    "explanation": "Le guanaco sauvage est considéré comme l’ancêtre du lama domestique.",
+    "didYouKnow": "Il vit dans les milieux ouverts et arides d’Amérique du Sud.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-114",
+    "animal": "Vigogne",
+    "prompt": "Quel produit peut être récolté chez la vigogne par capture, tonte puis remise en liberté?",
+    "options": [
+      "Sa fibre très fine.",
+      "Son lait, recueilli quotidiennement sans séparer le petit.",
+      "Sa graisse sous-cutanée, utilisée comme isolant naturel.",
+      "Ses bois, qui repoussent après avoir été coupés."
+    ],
+    "answer": 0,
+    "explanation": "La vigogne est capturée et tondue lors de pratiques encadrées, puis relâchée; sa fibre est très recherchée.",
+    "didYouKnow": "Elle vit en altitude dans les Andes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-115",
+    "animal": "Buffle d’Afrique",
+    "prompt": "Comment le buffle d’Afrique peut-il se défendre contre un prédateur ?",
+    "options": [
+      "En se regroupant et en utilisant ses cornes",
+      "En se cachant dans les arbres",
+      "En projetant des piquants",
+      "En respirant sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Les buffles peuvent former des groupes cohésifs et affronter ensemble certains prédateurs.",
+    "didYouKnow": "Le buffle d’Afrique se nourrit principalement d’herbes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-116",
+    "animal": "Bœuf musqué",
+    "prompt": "Quelle particularité aide le bœuf musqué à survivre au froid arctique ?",
+    "options": [
+      "Un sous-poil isolant appelé qiviut",
+      "Une couche de plumes",
+      "Des branchies thermiques",
+      "Une bosse d’eau"
+    ],
+    "answer": 0,
+    "explanation": "Le qiviut, sous-poil très fin, fournit une isolation efficace contre le froid.",
+    "didYouKnow": "Le bœuf musqué vit en troupeaux dans les régions arctiques.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-117",
+    "animal": "Yak",
+    "prompt": "Quel défi physiologique les adaptations du yak l’aident-elles à relever en haute altitude?",
+    "options": [
+      "La faible pression partielle en oxygène de l’air raréfié.",
+      "Les fortes concentrations de sel dans l’eau des pâturages.",
+      "La pression élevée de l’oxygène dans les vallées chaudes.",
+      "La raréfaction du dioxyde de carbone dans les sols gelés."
+    ],
+    "answer": 0,
+    "explanation": "Le yak présente des adaptations respiratoires et circulatoires qui soutiennent l’apport en oxygène dans l’air pauvre en oxygène.",
+    "didYouKnow": "Sa longue toison le protège du froid et du vent.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-118",
+    "animal": "Gaur",
+    "prompt": "Quel est le gaur ?",
+    "options": [
+      "Un grand bovin sauvage d’Asie",
+      "Un grand félin africain",
+      "Un marsupial d’Australie",
+      "Un cétacé d’eau douce"
+    ],
+    "answer": 0,
+    "explanation": "Le gaur est un bovin sauvage vivant dans les forêts d’Asie du Sud et du Sud-Est.",
+    "didYouKnow": "Le gaur a une robe généralement brun foncé, avec des membres souvent plus clairs.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-119",
+    "animal": "Banteng",
+    "prompt": "À quelle famille appartient le banteng ?",
+    "options": [
+      "Aux bovins",
+      "Aux cervidés",
+      "Aux camélidés",
+      "Aux porcs"
+    ],
+    "answer": 0,
+    "explanation": "Le banteng est un bovin sauvage apparenté aux autres espèces du genre Bos.",
+    "didYouKnow": "Il vit dans les forêts et les prairies d’Asie du Sud-Est.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-120",
+    "animal": "Addax",
+    "prompt": "Comment l’addax limite-t-il ses besoins en eau dans un milieu désertique?",
+    "options": [
+      "Il réduit ses pertes d’eau et obtient aussi de l’humidité des végétaux consommés.",
+      "Il boit chaque jour l’eau stockée dans des poches sous sa peau.",
+      "Il absorbe l’humidité du sable par les sabots pendant la nuit.",
+      "Il transpire abondamment le jour pour refroidir son corps."
+    ],
+    "answer": 0,
+    "explanation": "L’addax peut limiter ses pertes d’eau et tirer une partie de ses besoins des plantes qu’il mange.",
+    "didYouKnow": "Ses larges sabots l’aident à marcher sur le sable.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-121",
+    "animal": "Oryx algazelle",
+    "prompt": "Comment l’oryx algazelle peut-il limiter la perte d’eau lors des fortes chaleurs?",
+    "options": [
+      "Il tolère une hausse de sa température corporelle avant de transpirer.",
+      "Il transpire davantage dès que la température extérieure augmente.",
+      "Il évacue l’excès de chaleur en haletant constamment à l’ombre.",
+      "Il fait circuler l’eau de son estomac vers ses cornes pour la refroidir."
+    ],
+    "answer": 0,
+    "explanation": "Cette tolérance retarde le recours à la transpiration et aide à économiser l’eau.",
+    "didYouKnow": "Les oryx algazelles possèdent de longues cornes chez les mâles comme chez les femelles.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-122",
+    "animal": "Bongo",
+    "prompt": "Quel camouflage aide le bongo dans la forêt ?",
+    "options": [
+      "Ses rayures verticales",
+      "Des taches lumineuses qui changent de couleur",
+      "Une carapace transparente",
+      "Une fourrure entièrement blanche"
+    ],
+    "answer": 0,
+    "explanation": "Les rayures du bongo contribuent à briser sa silhouette dans les ombres de la forêt.",
+    "didYouKnow": "Le bongo est une grande antilope forestière.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-123",
+    "animal": "Koudou majeur",
+    "prompt": "À quoi servent les cornes spiralées du koudou mâle ?",
+    "options": [
+      "Aux affrontements et à l’intimidation entre mâles",
+      "À grimper aux arbres",
+      "À filtrer des graines",
+      "À creuser des puits"
+    ],
+    "answer": 0,
+    "explanation": "Les mâles utilisent leurs grandes cornes spiralées lors de compétitions et de démonstrations.",
+    "didYouKnow": "Le koudou majeur est une antilope qui vit dans les savanes et les zones boisées d’Afrique.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-124",
+    "animal": "Springbok",
+    "prompt": "Quel comportement spectaculaire le springbok peut-il montrer ?",
+    "options": [
+      "Des bonds raides appelés pronking",
+      "Des roulades dans l’eau",
+      "Des vols planés",
+      "Des plongées prolongées"
+    ],
+    "answer": 0,
+    "explanation": "Le springbok effectue parfois des bonds raides, comportement appelé pronking.",
+    "didYouKnow": "Il peut vivre dans des régions sèches en consommant des végétaux riches en eau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-125",
+    "animal": "Impala",
+    "prompt": "Quelle adaptation du corps permet à l’impala d’effectuer des bonds élevés ?",
+    "options": [
+      "De longues pattes puissantes",
+      "Des membranes entre les doigts",
+      "Une queue préhensile",
+      "Des épaules articulées en ailes"
+    ],
+    "answer": 0,
+    "explanation": "Les longues pattes de l’impala permettent des accélérations et des bonds puissants.",
+    "didYouKnow": "Les impalas peuvent bondir par-dessus des obstacles lorsqu’ils fuient un prédateur.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-126",
+    "animal": "Gazelle de Thomson",
+    "prompt": "Comment la gazelle de Thomson réagit-elle souvent à la présence d’un prédateur ?",
+    "options": [
+      "Elle accélère et effectue des bonds pour s’échapper",
+      "Elle se roule dans la boue pour se cacher",
+      "Elle grimpe aux arbres",
+      "Elle reste immobile sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "La gazelle s’appuie sur sa vitesse et ses changements de direction pour fuir.",
+    "didYouKnow": "La gazelle de Thomson consomme des herbes et d’autres végétaux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-127",
+    "animal": "Saola",
+    "prompt": "Dans quelle chaîne montagneuse transfrontalière vit le saola, décrit par la science dans les années 1990?",
+    "options": [
+      "La cordillère annamitique, entre le Laos et le Vietnam.",
+      "La chaîne de l’Himalaya, entre le Népal et le Bhoutan.",
+      "Les monts Cardamomes, entre la Thaïlande et le Cambodge.",
+      "La chaîne de l’Atlas, entre le Maroc et l’Algérie."
+    ],
+    "answer": 0,
+    "explanation": "Le saola vit dans les forêts des Annamites, région montagneuse partagée par le Laos et le Vietnam.",
+    "didYouKnow": "Le saola possède deux cornes parallèles, présentes chez les mâles comme chez les femelles.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-128",
+    "animal": "Panda géant",
+    "prompt": "Quel rôle joue la réserve de bambou dans la conservation du panda géant ?",
+    "options": [
+      "Elle protège son habitat et ses ressources alimentaires",
+      "Elle remplace les soins parentaux",
+      "Elle apprend aux pandas à hiberner",
+      "Elle transforme des zoos en forêts"
+    ],
+    "answer": 0,
+    "explanation": "Les aires protégées préservent des forêts de bambou nécessaires à l’alimentation du panda.",
+    "didYouKnow": "Le panda géant passe une grande partie de la journée à se nourrir et à se reposer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-129",
+    "animal": "Vaquita",
+    "prompt": "Dans quelle partie du golfe de Californie subsiste la vaquita?",
+    "options": [
+      "Dans sa partie nord.",
+      "Dans la partie sud, près de l’embouchure du golfe.",
+      "Dans le golfe du Mexique, au large du Texas.",
+      "Dans le golfe d’Alaska, au large des îles Aléoutiennes."
+    ],
+    "answer": 0,
+    "explanation": "La vaquita est endémique du nord du golfe de Californie, au Mexique.",
+    "didYouKnow": "Les filets maillants sont la principale menace pour cette espèce.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-130",
+    "animal": "Baleine noire de l’Atlantique Nord",
+    "prompt": "Quelles menaces directes affectent particulièrement la baleine noire de l’Atlantique Nord?",
+    "options": [
+      "Les collisions avec les navires et l’enchevêtrement dans les engins de pêche.",
+      "La chasse pour l’ivoire et l’empoisonnement par des appâts terrestres.",
+      "Les filets de dérive utilisés uniquement dans les rivières.",
+      "La perte de forêts de mangrove où elle construit son nid."
+    ],
+    "answer": 0,
+    "explanation": "Les collisions avec les navires et les engins de pêche qui s’enroulent autour du corps figurent parmi ses principales menaces.",
+    "didYouKnow": "La baleine noire de l’Atlantique Nord se nourrit en filtrant de petits crustacés avec ses fanons.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-131",
+    "animal": "Pangolin de Sunda",
+    "prompt": "Quelle pression humaine est particulièrement grave pour les pangolins?",
+    "options": [
+      "Le braconnage pour leurs écailles et leur viande.",
+      "Les captures accidentelles dans les chaluts pélagiques.",
+      "La collecte de leur fourrure pour fabriquer des vêtements.",
+      "La chasse sportive destinée à leurs bois."
+    ],
+    "answer": 0,
+    "explanation": "Les pangolins sont fortement ciblés par le commerce illégal de leurs écailles et de leur viande.",
+    "didYouKnow": "Le pangolin est principalement actif la nuit.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-132",
+    "animal": "Rhinocéros de Java",
+    "prompt": "Quelles pressions ont fortement contribué au déclin du rhinocéros de Java?",
+    "options": [
+      "La perte d’habitat et le braconnage.",
+      "La concurrence alimentaire avec les éléphants de mer.",
+      "La disparition des forêts boréales et la fonte de la banquise.",
+      "Les captures pour le commerce de leur fourrure."
+    ],
+    "answer": 0,
+    "explanation": "Le faible nombre de rhinocéros de Java et la réduction de leur habitat les rendent vulnérables au braconnage et aux perturbations.",
+    "didYouKnow": "La corne du rhinocéros de Java est constituée de kératine, comme les cheveux et les ongles.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-133",
+    "animal": "Saïga",
+    "prompt": "Quel facteur a déclenché l’épisode de mortalité massive des saïgas en 2015?",
+    "options": [
+      "Une infection bactérienne favorisée par des conditions environnementales particulières.",
+      "Une éruption volcanique qui a recouvert les steppes de cendres.",
+      "Une sécheresse qui a éliminé toutes les plantes consommées par les troupeaux.",
+      "Une maladie virale transmise uniquement par les loups."
+    ],
+    "answer": 0,
+    "explanation": "En 2015, une infection à Pasteurella multocida a provoqué une mortalité massive; les conditions météorologiques ont contribué à l’épisode.",
+    "didYouKnow": "Les saïgas mettent bas souvent au printemps, parfois avec des naissances gémellaires.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-134",
+    "animal": "Éléphant d’Afrique",
+    "prompt": "Pourquoi le braconnage de l’ivoire menace-t-il les éléphants ?",
+    "options": [
+      "Les défenses sont des incisives vivantes recherchées par les trafiquants",
+      "Les défenses sont des cornes qui tombent chaque année",
+      "L’ivoire est leur principale nourriture",
+      "Les défenses leur servent à respirer"
+    ],
+    "answer": 0,
+    "explanation": "Les défenses sont des dents qui grandissent et le commerce de l’ivoire favorise leur braconnage.",
+    "didYouKnow": "Les éléphants remplacent leurs molaires plusieurs fois au cours de leur vie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-135",
+    "animal": "Loup gris",
+    "prompt": "Quel rôle écologique les grands prédateurs comme le loup peuvent-ils jouer ?",
+    "options": [
+      "Influencer les populations de proies et leurs comportements",
+      "Produire le plancton océanique",
+      "Polliniser les fleurs de prairie",
+      "Créer les saisons"
+    ],
+    "answer": 0,
+    "explanation": "Les prédateurs peuvent modifier l’abondance et le comportement des proies, avec des effets sur les écosystèmes.",
+    "didYouKnow": "Les loups vivent souvent en groupes familiaux dont les membres coopèrent pour élever les jeunes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-136",
+    "animal": "Chauve-souris insectivore",
+    "prompt": "Quel service écologique rendent beaucoup de chauves-souris insectivores ?",
+    "options": [
+      "Elles consomment de nombreux insectes",
+      "Elles fertilisent les océans par leurs fanons",
+      "Elles coupent les arbres pour faire des barrages",
+      "Elles pollinisent toutes les plantes"
+    ],
+    "answer": 0,
+    "explanation": "Les chauves-souris insectivores mangent de grandes quantités d’insectes et participent à leur régulation.",
+    "didYouKnow": "Les chauves-souris insectivores utilisent souvent l’écholocation pour repérer leurs proies en vol.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-137",
+    "animal": "Chauve-souris nectarivore",
+    "prompt": "Comment les chauves-souris nectarivores contribuent-elles aux écosystèmes ?",
+    "options": [
+      "En pollinisant des fleurs",
+      "En dispersant des coquilles",
+      "En fertilisant les sols avec des cornes",
+      "En filtrant le plancton"
+    ],
+    "answer": 0,
+    "explanation": "En visitant les fleurs pour boire du nectar, elles transportent du pollen entre les plantes.",
+    "didYouKnow": "Les chauves-souris nectarivores se reposent souvent la tête en bas dans des gîtes abrités.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-138",
+    "animal": "Chauve-souris frugivore",
+    "prompt": "Quel rôle les chauves-souris frugivores jouent-elles souvent ?",
+    "options": [
+      "Elles dispersent des graines",
+      "Elles construisent des barrages",
+      "Elles chassent les baleines",
+      "Elles décomposent les roches"
+    ],
+    "answer": 0,
+    "explanation": "En mangeant des fruits et en se déplaçant, elles dispersent les graines dans de nouveaux sites.",
+    "didYouKnow": "Beaucoup de chauves-souris frugivores s’appuient fortement sur leur vue et leur odorat pour trouver leur nourriture.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-139",
+    "animal": "Éléphant d’Afrique",
+    "prompt": "Comment les éléphants peuvent-ils contribuer à la dispersion de graines ?",
+    "options": [
+      "En transportant des graines dans leur tube digestif",
+      "En les lançant avec leur trompe uniquement",
+      "En les portant sur leurs défenses",
+      "En les collant à leurs oreilles"
+    ],
+    "answer": 0,
+    "explanation": "Les graines avalées peuvent être déposées dans les excréments loin de la plante mère.",
+    "didYouKnow": "Les déplacements des éléphants peuvent ouvrir des passages dans la végétation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-140",
+    "animal": "Dauphin",
+    "prompt": "Comment les dauphins respirent-ils ?",
+    "options": [
+      "Avec des poumons par un évent à la surface",
+      "Avec des branchies sous l’eau",
+      "Par leur peau comme les amphibiens",
+      "Par leurs nageoires"
+    ],
+    "answer": 0,
+    "explanation": "Les dauphins remontent à la surface pour respirer de l’air par leur évent.",
+    "didYouKnow": "Les dauphins utilisent aussi des sifflements et des gestes pour communiquer entre eux.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-141",
+    "animal": "Baleine",
+    "prompt": "Pourquoi les baleines remontent-elles périodiquement à la surface ?",
+    "options": [
+      "Pour respirer de l’air avec leurs poumons",
+      "Pour remplacer leurs branchies",
+      "Pour pondre des œufs",
+      "Pour réchauffer leur sang au soleil"
+    ],
+    "answer": 0,
+    "explanation": "Les baleines sont des mammifères qui respirent l’air et doivent remonter à la surface.",
+    "didYouKnow": "Les baleines à fanons possèdent des plaques de fanons qui retiennent de petites proies dans l’eau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-142",
+    "animal": "Mammifère",
+    "prompt": "Quel trait caractérise les mammifères ?",
+    "options": [
+      "Les femelles produisent du lait pour nourrir les petits",
+      "Tous pondent des œufs",
+      "Tous ont des poils visibles à l’âge adulte",
+      "Tous vivent sur la terre ferme"
+    ],
+    "answer": 0,
+    "explanation": "La production de lait par les glandes mammaires est un trait clé des mammifères.",
+    "didYouKnow": "Certains mammifères, comme les cétacés, ont perdu presque tout leur pelage visible.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-143",
+    "animal": "Mammifère",
+    "prompt": "Quel type de peau recouvre le corps de la plupart des mammifères à un moment de leur vie ?",
+    "options": [
+      "Des poils",
+      "Des plumes",
+      "Des écailles minérales",
+      "Une coquille"
+    ],
+    "answer": 0,
+    "explanation": "Les poils sont une caractéristique des mammifères, même s’ils peuvent être réduits ou absents chez l’adulte.",
+    "didYouKnow": "Les poils des mammifères peuvent être associés à des récepteurs sensoriels, comme les vibrisses.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-144",
+    "animal": "Wombat",
+    "prompt": "Quelle partie du corps du wombat peut protéger l’entrée de son terrier ?",
+    "options": [
+      "Son arrière-train épais et renforcé",
+      "Son museau allongé et flexible",
+      "Ses oreilles larges et mobiles",
+      "Sa queue longue et préhensile"
+    ],
+    "answer": 0,
+    "explanation": "La peau et le cartilage épais de son arrière-train protègent le wombat lorsqu’il bloque un passage étroit.",
+    "didYouKnow": "Le wombat est surtout actif au crépuscule et la nuit.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-145",
+    "animal": "Marsupial",
+    "prompt": "Comment beaucoup de marsupiaux mettent-ils au monde leurs petits ?",
+    "options": [
+      "Après une courte gestation, avec un petit très peu développé",
+      "Après deux ans de gestation, avec un petit totalement indépendant",
+      "En pondant des œufs à coquille dure",
+      "En donnant naissance dans l’eau uniquement"
+    ],
+    "answer": 0,
+    "explanation": "Chez beaucoup de marsupiaux, le jeune naît très immature et poursuit son développement en s’attachant à une tétine, souvent dans une poche.",
+    "didYouKnow": "Les marsupiaux comprennent des animaux très différents, comme les kangourous, les koalas, les wombats et les opossums.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-146",
+    "animal": "Rat-taupe nu",
+    "prompt": "Quelle organisation sociale rend le rat-taupe nu eusocial?",
+    "options": [
+      "Une colonie où une femelle se reproduit principalement et où les autres individus participent aux tâches.",
+      "Des couples monogames qui quittent la colonie pour élever chaque portée séparément.",
+      "Une hiérarchie temporaire qui change après chaque migration saisonnière.",
+      "Un groupe de chasseurs dominé par un mâle qui nourrit seul tous les adultes."
+    ],
+    "answer": 0,
+    "explanation": "Les colonies ont une reproduction concentrée chez une femelle, tandis que d’autres individus contribuent à l’entretien et à la défense.",
+    "didYouKnow": "Le rat-taupe nu possède de grandes incisives qui peuvent creuser sans que sa bouche se remplisse de terre.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-147",
+    "animal": "Carnivore",
+    "prompt": "À quel ordre taxonomique appartient le panda géant, malgré son régime surtout composé de bambou?",
+    "options": [
+      "À l’ordre des Carnivores.",
+      "À l’ordre des Rongeurs, comme les castors et les écureuils.",
+      "À l’ordre des Primates, comme les singes et les lémuriens.",
+      "À l’ordre des Artiodactyles, comme les cerfs et les bovins."
+    ],
+    "answer": 0,
+    "explanation": "Le panda géant appartient à l’ordre des Carnivores, même si son alimentation est dominée par le bambou.",
+    "didYouKnow": "Le panda géant est une espèce d’ours originaire des forêts montagneuses de Chine.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-148",
+    "animal": "Cétacé",
+    "prompt": "Quel groupe comprend les baleines, les dauphins et les marsouins ?",
+    "options": [
+      "Les cétacés",
+      "Les pinnipèdes",
+      "Les siréniens",
+      "Les ongulés"
+    ],
+    "answer": 0,
+    "explanation": "Les baleines, dauphins et marsouins appartiennent à l’ordre des cétacés.",
+    "didYouKnow": "Les cétacés descendent d’ancêtres mammifères terrestres.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-149",
+    "animal": "Pinnipède",
+    "prompt": "Quel ensemble d’animaux forme le groupe des pinnipèdes?",
+    "options": [
+      "Les phoques, les otaries et les morses.",
+      "Les baleines, les dauphins et les marsouins.",
+      "Les loutres, les blaireaux et les mouffettes.",
+      "Les lamantins, les dugongs et les éléphants de mer."
+    ],
+    "answer": 0,
+    "explanation": "Les pinnipèdes regroupent les phoques véritables, les otaries et les morses.",
+    "didYouKnow": "Chez les pinnipèdes, les nageoires antérieures et postérieures contribuent différemment à la propulsion selon le groupe.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-150",
+    "animal": "Sirénien",
+    "prompt": "Quelles familles d’animaux actuels appartiennent à l’ordre des siréniens?",
+    "options": [
+      "Les lamantins et les dugongs.",
+      "Les phoques et les otaries.",
+      "Les baleines et les dauphins.",
+      "Les loutres et les castors."
+    ],
+    "answer": 0,
+    "explanation": "Les siréniens actuels comprennent les lamantins et les dugongs.",
+    "didYouKnow": "Ces mammifères aquatiques sont herbivores.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-151",
+    "animal": "Primates",
+    "prompt": "Quel trait est fréquent chez les primates ?",
+    "options": [
+      "Des mains capables de saisir avec des doigts mobiles",
+      "Des fanons filtrants",
+      "Des sabots fendus",
+      "Une poche ventrale chez toutes les espèces"
+    ],
+    "answer": 0,
+    "explanation": "De nombreux primates possèdent des mains préhensiles adaptées à la manipulation ou à l’escalade.",
+    "didYouKnow": "Les primates comprennent les lémuriens, les singes et les grands singes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-152",
+    "animal": "Ongulé",
+    "prompt": "À quoi correspondent les sabots des ongulés ?",
+    "options": [
+      "À des ongles modifiés qui recouvrent l’extrémité des doigts",
+      "À des dents déplacées aux pieds",
+      "À des écailles de kératine sur le dos",
+      "À des os creux des pattes"
+    ],
+    "answer": 0,
+    "explanation": "Un sabot est une structure kératinisée qui recouvre l’extrémité d’un doigt ou de plusieurs doigts.",
+    "didYouKnow": "Les ongulés regroupent des mammifères aux modes de vie très divers.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-153",
+    "animal": "Mammifère marin",
+    "prompt": "Pourquoi les mammifères marins doivent-ils conserver leur chaleur corporelle ?",
+    "options": [
+      "L’eau conduit la chaleur plus efficacement que l’air",
+      "L’eau ne contient pas d’oxygène",
+      "Leur sang ne circule que dans la queue",
+      "Leur peau est toujours dépourvue de graisse"
+    ],
+    "answer": 0,
+    "explanation": "La chaleur se perd rapidement dans l’eau ; la graisse et d’autres adaptations aident à l’isolation.",
+    "didYouKnow": "Les mammifères marins comprennent des cétacés, des pinnipèdes et des siréniens.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-154",
+    "animal": "Dauphin",
+    "prompt": "Comment les petits dauphins sont-ils nourris par leur mère ?",
+    "options": [
+      "Ils tètent le lait",
+      "Ils filtrent du plancton avec des branchies",
+      "Ils mangent des feuilles mâchées par les adultes",
+      "Ils absorbent des nutriments par la peau"
+    ],
+    "answer": 0,
+    "explanation": "Les femelles allaitent leurs petits avec du lait riche en énergie.",
+    "didYouKnow": "Les mères peuvent accompagner leur petit lorsqu’il nage à la surface pour respirer.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-155",
+    "animal": "Dauphin",
+    "prompt": "Comment le sommeil uni-hémisphérique aide-t-il certains dauphins à respirer pendant leur repos?",
+    "options": [
+      "Un hémisphère cérébral reste suffisamment actif pendant que l’autre se repose.",
+      "Les deux hémisphères s’endorment ensemble tandis qu’un réflexe ouvre l’évent.",
+      "Le cerveau bascule entièrement entre sommeil et éveil à chaque respiration.",
+      "Le dauphin passe au sommeil profond sous l’eau et remonte seulement au réveil."
+    ],
+    "answer": 0,
+    "explanation": "Cette forme de sommeil permet au dauphin de maintenir une vigilance partielle et de remonter respirer.",
+    "didYouKnow": "Des expériences ont montré que des grands dauphins peuvent utiliser un miroir pour examiner des marques sur leur corps.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-156",
+    "animal": "Mammifère",
+    "prompt": "Comment les mammifères maintiennent-ils généralement une température corporelle stable ?",
+    "options": [
+      "Par leur métabolisme et des mécanismes de régulation thermique",
+      "En absorbant uniquement la chaleur du sol",
+      "En changeant tous de couleur selon la température",
+      "En arrêtant leur circulation sanguine"
+    ],
+    "answer": 0,
+    "explanation": "Les mammifères sont endothermes et utilisent des mécanismes physiologiques et comportementaux pour réguler leur température.",
+    "didYouKnow": "Les mammifères possèdent généralement un cœur à quatre cavités.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-157",
+    "animal": "Ornithorynque",
+    "prompt": "Que devient la palmure des pattes avant de l’ornithorynque lorsqu’il marche?",
+    "options": [
+      "Elle se replie vers l’arrière pour dégager les griffes.",
+      "Elle se replie vers l’avant et recouvre les griffes.",
+      "Elle se tend davantage pour répartir le poids sur le sol.",
+      "Elle s’enroule autour des pattes arrière pour stabiliser la marche."
+    ],
+    "answer": 0,
+    "explanation": "La palmure est utile pour nager; à terre, elle se replie afin de laisser les griffes disponibles pour creuser.",
+    "didYouKnow": "Le mâle ornithorynque possède un aiguillon venimeux sur chaque patte arrière.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-158",
+    "animal": "Mammifère",
+    "prompt": "À quoi sert le diaphragme chez de nombreux mammifères ?",
+    "options": [
+      "À participer à la ventilation des poumons",
+      "À digérer la cellulose dans le rumen",
+      "À produire des sons ultrasonores",
+      "À faire circuler le lait"
+    ],
+    "answer": 0,
+    "explanation": "Le diaphragme est un muscle qui contribue aux mouvements respiratoires.",
+    "didYouKnow": "La plupart des mammifères ont des poumons constitués de petites unités d’échange gazeux appelées alvéoles.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-159",
+    "animal": "Mammifère",
+    "prompt": "Comment l’odorat contribue-t-il à la communication de nombreux mammifères ?",
+    "options": [
+      "Des odeurs peuvent signaler présence, territoire ou état reproducteur",
+      "Les odeurs remplacent toujours la vision",
+      "Les odeurs servent uniquement à refroidir le corps",
+      "Les odeurs sont produites par les os"
+    ],
+    "answer": 0,
+    "explanation": "Des substances odorantes peuvent transmettre des informations entre individus.",
+    "didYouKnow": "Chez les mammifères, les trois osselets de l’oreille moyenne sont le marteau, l’enclume et l’étrier.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-160",
+    "animal": "Mammifère",
+    "prompt": "Que signifie le terme « hibernation » ?",
+    "options": [
+      "Un état prolongé de réduction de l’activité et du métabolisme",
+      "Une migration annuelle vers les pôles",
+      "Un sommeil normal de quelques heures",
+      "Une période durant laquelle l’animal ne respire plus"
+    ],
+    "answer": 0,
+    "explanation": "L’hibernation comporte une forte baisse de la dépense énergétique et de la température corporelle.",
+    "didYouKnow": "Les mammifères vivent dans des milieux très variés, des déserts aux océans polaires.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-161",
+    "animal": "Mammifère",
+    "prompt": "Pourquoi certains mammifères migrent-ils selon les saisons ?",
+    "options": [
+      "Pour suivre des ressources alimentaires ou des conditions favorables",
+      "Pour éviter de grandir",
+      "Pour remplacer leur squelette",
+      "Pour empêcher la reproduction"
+    ],
+    "answer": 0,
+    "explanation": "La migration peut permettre de suivre nourriture, sites de reproduction ou conditions climatiques.",
+    "didYouKnow": "Les mammifères occupent des habitats terrestres, aquatiques et, pour les chauves-souris, aériens.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-162",
+    "animal": "Mammifère",
+    "prompt": "Comment un mammifère nocturne peut-il détecter un son très faible ?",
+    "options": [
+      "Grâce à une audition sensible et à des oreilles mobiles chez certaines espèces",
+      "Avec ses vibrisses uniquement",
+      "En mesurant la lumière des étoiles",
+      "Par les fanons"
+    ],
+    "answer": 0,
+    "explanation": "Une audition fine permet à certains mammifères de localiser des proies ou des dangers dans l’obscurité.",
+    "didYouKnow": "Chez les mammifères, la mâchoire inférieure est constituée d’un seul os de chaque côté.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-163",
+    "animal": "Mammifère",
+    "prompt": "Quel est un exemple de soin parental chez de nombreux mammifères ?",
+    "options": [
+      "Allaiter et protéger les petits",
+      "Abandonner toujours les petits dès la naissance",
+      "Construire un nid avec des plumes",
+      "Couver des œufs pendant toute la vie"
+    ],
+    "answer": 0,
+    "explanation": "Les soins parentaux chez les mammifères incluent souvent l’allaitement, la protection et l’apprentissage.",
+    "didYouKnow": "La dentition de nombreux mammifères comprend incisives, canines, prémolaires et molaires.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-164",
+    "animal": "Mammifère",
+    "prompt": "Quel est un effet possible de la fragmentation de l’habitat ?",
+    "options": [
+      "Elle isole des populations et limite leurs déplacements",
+      "Elle augmente toujours la diversité génétique",
+      "Elle rend les routes invisibles aux animaux",
+      "Elle supprime les espèces invasives"
+    ],
+    "answer": 0,
+    "explanation": "La fragmentation sépare les habitats et peut réduire les échanges entre populations.",
+    "didYouKnow": "Les mammifères occupent des milieux allant des déserts aux forêts tropicales et aux océans.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-165",
+    "animal": "Mammifère",
+    "prompt": "Quel moyen aide à protéger une espèce migratrice traversant plusieurs pays ?",
+    "options": [
+      "La coopération entre pays sur les habitats et les menaces",
+      "Une clôture continue sur toutes les frontières",
+      "La suppression de ses sites de repos",
+      "L’interdiction des observations scientifiques"
+    ],
+    "answer": 0,
+    "explanation": "Les espèces migratrices dépendent souvent d’habitats et de mesures de protection répartis dans plusieurs pays.",
+    "didYouKnow": "Certaines migrations de mammifères suivent des itinéraires saisonniers entre des zones de reproduction et d’alimentation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-166",
+    "animal": "Mammifère",
+    "prompt": "Pourquoi les données de suivi aident-elles à protéger les mammifères menacés ?",
+    "options": [
+      "Elles montrent les tendances des populations et les zones importantes",
+      "Elles remplacent entièrement la protection de l’habitat",
+      "Elles servent à domestique toutes les espèces",
+      "Elles évitent toute maladie"
+    ],
+    "answer": 0,
+    "explanation": "Le suivi renseigne sur la taille des populations, leur répartition et l’évolution des menaces.",
+    "didYouKnow": "Les analyses génétiques peuvent aider à estimer les liens entre populations de mammifères.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-167",
+    "animal": "Élan",
+    "prompt": "Quel trait aide l’élan à marcher dans la neige profonde ?",
+    "options": [
+      "Ses longues jambes",
+      "Ses pattes palmées",
+      "Sa queue préhensile",
+      "Ses ailes membraneuses"
+    ],
+    "answer": 0,
+    "explanation": "Ses longues jambes l’aident à franchir neige et végétation dense.",
+    "didYouKnow": "L’élan est le plus grand cervidé vivant.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-168",
+    "animal": "Lynx boréal",
+    "prompt": "Quel signe distinctif termine la courte queue du lynx boréal ?",
+    "options": [
+      "Un manchon de poils noirs",
+      "Une touffe blanche en forme d’éventail",
+      "Un anneau de poils roux",
+      "Une extrémité longue et entièrement blanche"
+    ],
+    "answer": 0,
+    "explanation": "La queue courte du lynx boréal se termine par une pointe noire, appelée manchon.",
+    "didYouKnow": "Le pelage du lynx boréal devient généralement plus épais et plus clair en hiver.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-169",
+    "animal": "Renne",
+    "prompt": "Chez quel cervidé les femelles portent-elles souvent des bois ?",
+    "options": [
+      "Le renne",
+      "Le cerf élaphe",
+      "Le chevreuil",
+      "L’élan"
+    ],
+    "answer": 0,
+    "explanation": "Chez les rennes, les femelles portent généralement des bois, contrairement à la plupart des autres cervidés.",
+    "didYouKnow": "Le renne possède un odorat développé qui l’aide à repérer la nourriture sous la neige.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-170",
+    "animal": "Ornithorynque",
+    "prompt": "Quel signal l’ornithorynque détecte-t-il avec les électrorécepteurs de son bec?",
+    "options": [
+      "Les faibles champs électriques produits par les proies.",
+      "Les variations du champ magnétique terrestre produites par les courants.",
+      "Les changements de pression de l’eau créés par les marées.",
+      "Les composés chimiques dissous libérés par les plantes aquatiques."
+    ],
+    "answer": 0,
+    "explanation": "Les électrorécepteurs du bec aident l’ornithorynque à repérer les signaux électriques de proies sous l’eau.",
+    "didYouKnow": "Le mâle ornithorynque possède un aiguillon venimeux sur les pattes arrière.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-171",
+    "animal": "Échidné",
+    "prompt": "Quelle nourriture l’échidné recherche-t-il surtout ?",
+    "options": [
+      "Fourmis et termites",
+      "Bambou et feuilles",
+      "Poissons et crustacés",
+      "Graines et noix"
+    ],
+    "answer": 0,
+    "explanation": "L’échidné se nourrit surtout de fourmis et de termites qu’il prélève avec sa langue.",
+    "didYouKnow": "L’échidné pond un œuf, qui est incubé dans une poche temporaire de la femelle.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-172",
+    "animal": "Wombat",
+    "prompt": "À quoi servent les griffes robustes du wombat ?",
+    "options": [
+      "À creuser son terrier",
+      "À grimper aux arbres",
+      "À attraper des poissons",
+      "À déchirer des feuilles hautes"
+    ],
+    "answer": 0,
+    "explanation": "Ses fortes griffes et ses membres puissants déplacent la terre pour creuser.",
+    "didYouKnow": "Le wombat est un marsupial originaire d’Australie.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "mammals-173",
+    "animal": "Dauphin à gros nez",
+    "prompt": "Par où le dauphin respire-t-il lorsqu’il remonte à la surface ?",
+    "options": [
+      "Par son évent",
+      "Par ses branchies",
+      "Par ses nageoires",
+      "Par ses pores cutanés"
+    ],
+    "answer": 0,
+    "explanation": "L’évent est relié aux poumons et s’ouvre brièvement à la surface.",
+    "didYouKnow": "Les dauphins communiquent entre eux avec des sifflements et d’autres sons.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-174",
+    "animal": "Baleine bleue",
+    "prompt": "Quelle structure se déploie lorsque la baleine bleue engouffre de l’eau avec ses proies?",
+    "options": [
+      "Les sillons ventraux extensibles de la gorge.",
+      "Les fanons, qui s’allongent pour former une poche sous la mâchoire.",
+      "Les nageoires pectorales, qui se séparent pour élargir la bouche.",
+      "Les plis situés sur la face supérieure de la queue."
+    ],
+    "answer": 0,
+    "explanation": "Les sillons ventraux s’étirent pendant l’engouffrement, puis l’eau est expulsée à travers les fanons.",
+    "didYouKnow": "La baleine bleue émet des appels de basse fréquence qui peuvent se propager sur de grandes distances dans l’océan.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-175",
+    "animal": "Morse",
+    "prompt": "Quel est le rôle principal des vibrisses du morse ?",
+    "options": [
+      "Repérer des mollusques sur le fond marin",
+      "Mesurer la température de l’air",
+      "Filtrer le plancton",
+      "Saisir la glace comme des griffes"
+    ],
+    "answer": 0,
+    "explanation": "Ses vibrisses tactiles l’aident à détecter des proies dans les sédiments.",
+    "didYouKnow": "Le morse possède une épaisse couche de graisse sous la peau qui l’isole dans l’eau froide.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-176",
+    "animal": "Koala",
+    "prompt": "Quelle caractéristique des empreintes de koala a été particulièrement surprenante aux chercheurs?",
+    "options": [
+      "Leurs crêtes cutanées forment des motifs qui ressemblent à des empreintes digitales humaines.",
+      "Elles sont composées de petits coussinets séparés sans crêtes.",
+      "Elles sont identiques à celles des autres marsupiaux arboricoles.",
+      "Elles portent des écailles cornées disposées en spirale."
+    ],
+    "answer": 0,
+    "explanation": "Les empreintes de koala présentent des crêtes cutanées très semblables, à l’œil nu, aux empreintes humaines.",
+    "didYouKnow": "Le jeune koala passe du lait maternel à une substance appelée pap, qui l’aide à digérer les feuilles.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-177",
+    "animal": "Kangourou roux",
+    "prompt": "Comment une femelle kangourou roux peut-elle suspendre temporairement le développement d’un embryon?",
+    "options": [
+      "Par une diapause au stade de blastocyste.",
+      "En arrêtant la croissance d’un petit déjà né et allaité.",
+      "En conservant l’embryon dans une enveloppe externe jusqu’à la saison suivante.",
+      "En interrompant la gestation lorsque la température baisse, sans reprendre ensuite."
+    ],
+    "answer": 0,
+    "explanation": "Après la naissance d’un petit, le développement d’un autre embryon peut être suspendu au stade de blastocyste.",
+    "didYouKnow": "Une femelle kangourou peut allaiter des jeunes d’âges différents avec un lait de composition adaptée.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-178",
+    "animal": "Gorille",
+    "prompt": "Que signifie l’expression « dos argenté » ?",
+    "options": [
+      "Un mâle adulte dont le dos porte des poils gris argenté",
+      "Un jeune gorille né avec une fourrure claire",
+      "Une femelle âgée au pelage argenté",
+      "Un gorille d’une espèce distincte"
+    ],
+    "answer": 0,
+    "explanation": "Les poils du dos des mâles adultes deviennent gris argenté à maturité.",
+    "didYouKnow": "Les gorilles consomment surtout des végétaux, notamment des feuilles, des tiges et des fruits.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-179",
+    "animal": "Chimpanzé",
+    "prompt": "Comment des chimpanzés ouvrent-ils certaines noix à l’aide d’outils ?",
+    "options": [
+      "Ils posent la noix sur une enclume et la frappent avec un marteau",
+      "Ils percent la coque avec une brindille puis aspirent le contenu",
+      "Ils font tremper la noix dans l’eau pour dissoudre sa coque",
+      "Ils la frottent entre deux feuilles jusqu’à l’ouvrir"
+    ],
+    "answer": 0,
+    "explanation": "Dans certaines communautés, les chimpanzés utilisent une pierre ou un morceau de bois comme marteau et un support dur comme enclume.",
+    "didYouKnow": "Les chimpanzés vivent dans des communautés dont la taille et la composition évoluent.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-180",
+    "animal": "Capybara",
+    "prompt": "Pourquoi le capybara réingère-t-il certaines fèces molles?",
+    "options": [
+      "Pour récupérer des nutriments produits par la fermentation dans son intestin postérieur.",
+      "Pour réintroduire des bactéries dans son estomac, comme un ruminant.",
+      "Pour éliminer le sel accumulé après avoir nagé en eau douce.",
+      "Pour aiguiser ses incisives en les frottant contre des fibres."
+    ],
+    "answer": 0,
+    "explanation": "Cette cæcotrophie permet de récupérer une partie des nutriments issus de la fermentation végétale.",
+    "didYouKnow": "Le capybara est un excellent nageur et peut rester immergé plusieurs minutes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-181",
+    "animal": "Paresseux à trois doigts",
+    "prompt": "Quel comportement de défécation caractérise souvent le paresseux à trois doigts ?",
+    "options": [
+      "Il descend périodiquement au sol pour déféquer",
+      "Il laisse tomber ses excréments depuis la canopée en vol plané",
+      "Il creuse une latrine permanente dans un tronc",
+      "Il défèque uniquement dans un cours d’eau"
+    ],
+    "answer": 0,
+    "explanation": "Le paresseux à trois doigts descend régulièrement au sol pour déféquer; la fréquence varie selon les individus et les conditions.",
+    "didYouKnow": "Des algues et de petits invertébrés peuvent vivre dans le pelage du paresseux à trois doigts.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-182",
+    "animal": "Pangolin",
+    "prompt": "Comment le pangolin capture-t-il les fourmis et les termites malgré l’absence de dents ?",
+    "options": [
+      "Avec sa longue langue collante",
+      "En aspirant les insectes à travers ses écailles",
+      "En filtrant les insectes avec des fanons",
+      "En les broyant avec des plaques cornées dans sa bouche"
+    ],
+    "answer": 0,
+    "explanation": "Le pangolin projette sa longue langue enduite de salive collante dans les nids d’insectes.",
+    "didYouKnow": "Certaines espèces de pangolins grimpent aux arbres et utilisent leur queue pour s’agripper aux branches.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-183",
+    "animal": "Loutre de mer",
+    "prompt": "Pourquoi le petit de la loutre de mer flotte-t-il facilement à la surface ?",
+    "options": [
+      "Son pelage très dense retient beaucoup d’air",
+      "Ses os sont creux comme ceux d’un oiseau",
+      "Une poche cutanée gonflée d’air entoure son ventre",
+      "Ses nageoires contiennent des chambres de gaz"
+    ],
+    "answer": 0,
+    "explanation": "Le pelage très dense du petit emprisonne de l’air et le rend très flottant avant qu’il apprenne à plonger.",
+    "didYouKnow": "La loutre de mer peut utiliser une pierre comme enclume pour ouvrir certains coquillages.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-184",
+    "animal": "Roussette d’Égypte",
+    "prompt": "Comment la roussette d’Égypte peut-elle s’orienter dans une grotte presque obscure?",
+    "options": [
+      "Elle émet des clics avec sa langue et analyse les échos.",
+      "Elle émet des ultrasons avec ses ailes et suit leurs vibrations.",
+      "Elle perçoit la chaleur infrarouge des parois de la grotte.",
+      "Elle utilise uniquement les champs magnétiques de la roche."
+    ],
+    "answer": 0,
+    "explanation": "Rousettus aegyptiacus produit des clics de langue et utilise leurs échos pour se déplacer dans l’obscurité.",
+    "didYouKnow": "La roussette d’Égypte se rassemble souvent en grandes colonies dans des grottes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-185",
+    "animal": "Castor",
+    "prompt": "Comment le castor empêche-t-il souvent l’eau d’entrer dans ses narines lorsqu’il plonge ?",
+    "options": [
+      "Il ferme des valves nasales",
+      "Il se bouche les narines avec de la boue",
+      "Il expire continuellement par le nez",
+      "Il recouvre son museau d’une membrane de fourrure"
+    ],
+    "answer": 0,
+    "explanation": "Des valves peuvent fermer les narines du castor pendant la plongée et limiter l’entrée d’eau.",
+    "didYouKnow": "Les incisives du castor sont orange en raison de pigments contenant du fer dans leur émail.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-186",
+    "animal": "Hérisson européen",
+    "prompt": "Quelle nourriture constitue une part importante du régime du hérisson européen ?",
+    "options": [
+      "Des invertébrés, comme des coléoptères et des vers de terre",
+      "Des graines de conifères et des noix décortiquées",
+      "Des poissons capturés dans les rivières",
+      "Des feuilles et des pousses broutées dans les arbres"
+    ],
+    "answer": 0,
+    "explanation": "Le hérisson européen est insectivore au sens large et consomme de nombreux invertébrés, notamment des coléoptères et des vers de terre.",
+    "didYouKnow": "Le hérisson européen se met souvent en boule lorsqu’il est menacé.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-187",
+    "animal": "Écureuil roux",
+    "prompt": "Comment la queue touffue peut-elle aider l’écureuil roux lors d’un saut ?",
+    "options": [
+      "Elle l’aide à diriger son corps et à freiner sa chute",
+      "Elle lui permet de s’accrocher aux branches comme une main",
+      "Elle produit une substance collante qui fixe ses pattes",
+      "Elle lui sert de gouvernail pour nager sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "La queue contribue à l’équilibre et aux ajustements de trajectoire; elle peut aussi aider à ralentir une chute.",
+    "didYouKnow": "La queue de l’écureuil roux aide aussi à se couvrir et à conserver la chaleur pendant le repos.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-188",
+    "animal": "Éléphant",
+    "prompt": "Comment les grandes oreilles de l’éléphant contribuent-elles à sa thermorégulation ?",
+    "options": [
+      "Leur réseau de vaisseaux sanguins aide à dissiper la chaleur",
+      "Elles emmagasinent l’eau puis la libèrent par évaporation",
+      "Elles produisent une couche isolante de graisse en été",
+      "Elles dirigent l’air directement vers les poumons"
+    ],
+    "answer": 0,
+    "explanation": "Le sang circulant près de la surface des oreilles peut perdre de la chaleur, et le battement des oreilles favorise les échanges avec l’air.",
+    "didYouKnow": "Les éléphants peuvent communiquer avec des sons graves qui parcourent de longues distances.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-189",
+    "animal": "Zèbre des plaines",
+    "prompt": "À quoi les chercheurs peuvent-ils utiliser les motifs de rayures d’un zèbre ?",
+    "options": [
+      "À distinguer les individus grâce à leur motif particulier",
+      "À déterminer avec certitude son âge exact",
+      "À savoir dans quel sens souffle le vent",
+      "À mesurer la température de son corps"
+    ],
+    "answer": 0,
+    "explanation": "La disposition des rayures varie d’un individu à l’autre et peut servir à reconnaître les zèbres dans des études de terrain.",
+    "didYouKnow": "Les zèbres des plaines vivent souvent en groupes sociaux constitués d’un mâle et de plusieurs femelles.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-190",
+    "animal": "Béluga",
+    "prompt": "Quelle particularité des vertèbres cervicales du béluga permet à son cou de rester mobile?",
+    "options": [
+      "Elles ne sont pas fusionnées entre elles.",
+      "Elles sont fusionnées en un seul os qui pivote dans le crâne.",
+      "Elles sont remplacées par du cartilage souple sans vertèbres osseuses.",
+      "Elles sont reliées directement aux os de la mâchoire."
+    ],
+    "answer": 0,
+    "explanation": "Contrairement à de nombreux cétacés, les vertèbres cervicales du béluga restent relativement mobiles.",
+    "didYouKnow": "Le béluga perd une partie de sa couche superficielle de peau lors d’une mue saisonnière.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-191",
+    "animal": "Macaque japonais",
+    "prompt": "Comment le rang de dominance se transmet-il souvent chez les macaques japonais?",
+    "options": [
+      "Les jeunes femelles héritent généralement d’un rang proche de celui de leur mère.",
+      "Les jeunes mâles héritent toujours du rang de leur père.",
+      "Le rang dépend uniquement de l’âge, sans relation avec la famille.",
+      "Chaque individu obtient un rang nouveau après une migration annuelle."
+    ],
+    "answer": 0,
+    "explanation": "Les relations de dominance sont souvent organisées en lignées maternelles, et les jeunes femelles héritent du rang de leur mère.",
+    "didYouKnow": "Les macaques japonais utilisent des cris variés pour communiquer au sein du groupe.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-192",
+    "animal": "Pika américain",
+    "prompt": "Que fait le pika américain pendant l’hiver ?",
+    "options": [
+      "Il reste actif et consomme des plantes qu’il a mises en réserve",
+      "Il migre chaque automne vers des forêts tropicales",
+      "Il hiberne dans un terrier profond jusqu’au printemps",
+      "Il se nourrit exclusivement de racines qu’il déterre sous la neige"
+    ],
+    "answer": 0,
+    "explanation": "Le pika américain n’hiberne pas; il survit à l’hiver en restant actif sous la neige et en consommant des provisions végétales récoltées pendant la belle saison.",
+    "didYouKnow": "Le pika américain appartient à l’ordre des lagomorphes, comme les lièvres et les lapins.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-193",
+    "animal": "Guépard",
+    "prompt": "À quoi sert la longue queue du guépard pendant une poursuite ?",
+    "options": [
+      "À stabiliser son corps lors des virages",
+      "À saisir les proies",
+      "À stocker de l’énergie",
+      "À signaler son âge exact"
+    ],
+    "answer": 0,
+    "explanation": "La queue agit comme un balancier et aide à changer rapidement de direction.",
+    "didYouKnow": "Des marques sombres descendent des yeux du guépard vers les côtés du museau.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-194",
+    "animal": "Éléphant de mer",
+    "prompt": "Quelles réserves physiologiques soutiennent les longues plongées de l’éléphant de mer?",
+    "options": [
+      "L’oxygène stocké dans le sang et les muscles.",
+      "L’air retenu dans des poches sous les nageoires.",
+      "L’oxygène absorbé directement par la peau pendant la plongée.",
+      "L’air stocké dans la trompe avant l’immersion."
+    ],
+    "answer": 0,
+    "explanation": "L’éléphant de mer possède de grandes réserves d’oxygène dans le sang et les muscles, notamment grâce à la myoglobine.",
+    "didYouKnow": "L’éléphant de mer mâle possède une trompe qui amplifie ses vocalisations.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-195",
+    "animal": "Pipistrelle commune",
+    "prompt": "Quel mécanisme permet à la pipistrelle commune de diminuer sa dépense énergétique durant les périodes froides?",
+    "options": [
+      "Des épisodes de torpeur, souvent dans un gîte hivernal.",
+      "Une hausse continue de la température corporelle qui accélère la digestion.",
+      "Une migration quotidienne vers des régions plus chaudes.",
+      "Une longue période d’activité sans alimentation, sans réduction métabolique."
+    ],
+    "answer": 0,
+    "explanation": "La torpeur réduit temporairement le métabolisme lorsque le froid et le manque d’insectes limitent les ressources.",
+    "didYouKnow": "La pipistrelle commune utilise des cris d’écholocation pour détecter ses proies dans l’obscurité.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-196",
+    "animal": "Dauphin rose d’Amazonie",
+    "prompt": "Quelle particularité du squelette aide le dauphin rose à tourner la tête ?",
+    "options": [
+      "Ses vertèbres cervicales restent relativement mobiles",
+      "Son crâne pivote sur une articulation supplémentaire",
+      "Ses nageoires avant sont reliées directement au bassin",
+      "Ses côtes sont séparées en deux rangées mobiles"
+    ],
+    "answer": 0,
+    "explanation": "Les vertèbres du cou du dauphin rose sont moins fusionnées que chez beaucoup de dauphins marins, ce qui lui donne une meilleure mobilité de la tête.",
+    "didYouKnow": "Le dauphin rose d’Amazonie utilise l’écholocation pour repérer ses proies dans des eaux souvent troubles.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "mammals-197",
+    "animal": "Chameau de Bactriane",
+    "prompt": "Quelle structure protège les yeux du chameau de Bactriane contre le sable ?",
+    "options": [
+      "Une troisième paupière translucide",
+      "Une membrane de peau qui couvre ses oreilles",
+      "Des cils qui se ferment comme des volets rigides",
+      "Une écaille cornée posée sur la pupille"
+    ],
+    "answer": 0,
+    "explanation": "Comme d’autres camélidés, le chameau possède une membrane nictitante translucide qui protège et humidifie l’œil tout en laissant passer la lumière.",
+    "didYouKnow": "Le chameau de Bactriane possède deux bosses où il stocke de la graisse.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-198",
+    "animal": "Panda géant",
+    "prompt": "Quelle particularité du système digestif du panda géant est surprenante au regard de son régime ?",
+    "options": [
+      "Il conserve un tube digestif de carnivore, peu spécialisé pour digérer la cellulose",
+      "Il possède plusieurs estomacs comparables à ceux des ruminants",
+      "Il digère le bambou grâce à une fermentation dans une poche de son estomac",
+      "Il transforme la cellulose en sucre dans ses glandes salivaires"
+    ],
+    "answer": 0,
+    "explanation": "Malgré son régime dominé par le bambou, le panda géant a un appareil digestif relativement simple de carnivore et tire une part limitée des nutriments de la cellulose.",
+    "didYouKnow": "À la naissance, le petit panda géant est minuscule, aveugle et presque dépourvu de poils.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-199",
+    "animal": "Vaquita",
+    "prompt": "Quelle caractéristique de taille distingue la vaquita parmi les cétacés actuels ?",
+    "options": [
+      "C’est le plus petit cétacé vivant, autour de 1,5 mètre à l’âge adulte",
+      "C’est le plus grand dauphin vivant, dépassant souvent 8 mètres",
+      "C’est le seul cétacé dont le nouveau-né mesure moins de 20 centimètres",
+      "C’est le seul marsouin qui dépasse la taille d’un épaulard"
+    ],
+    "answer": 0,
+    "explanation": "La vaquita est le plus petit cétacé vivant; les adultes mesurent généralement autour de 1,5 mètre.",
+    "didYouKnow": "La vaquita est un marsouin, et non un dauphin au sens strict.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "mammals-200",
+    "animal": "Morse",
+    "prompt": "Comment le morse extrait-il souvent la chair des bivalves qu’il mange ?",
+    "options": [
+      "Il aspire les tissus mous hors de la coquille",
+      "Il broie systématiquement les coquilles avec ses défenses",
+      "Il ouvre les coquilles en les frappant contre la glace",
+      "Il filtre les bivalves à travers des fanons"
+    ],
+    "answer": 0,
+    "explanation": "Le morse peut créer une forte succion avec sa bouche pour extraire la chair des palourdes et d’autres bivalves.",
+    "didYouKnow": "Le morse peut se reposer sur la glace ou à terre en grands rassemblements.",
+    "difficulty": "medium"
+  }
+]

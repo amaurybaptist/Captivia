@@ -1,0 +1,1206 @@
+{
+  "locale": "en",
+  "sourceSha256": "5ba58c0c2f0eaffc99878e312fec9bcf2419356ed02db5feefc1b9f287257069",
+  "animals": [
+    {
+      "id": "photo-001",
+      "animal": "Platypus",
+      "recognition": "Broad, flat bill, fur-covered body, and flattened tail.",
+      "didYouKnow": "Young platypuses have teeth that they lose as they grow; adults grind food with horny plates."
+    },
+    {
+      "id": "photo-002",
+      "animal": "Short-beaked Echidna",
+      "recognition": "A narrow snout protrudes from a back covered in quills.",
+      "didYouKnow": "Its body temperature is generally lower than that of many placental mammals."
+    },
+    {
+      "id": "photo-003",
+      "animal": "Common Wombat",
+      "recognition": "Stocky body, small rounded ears and sturdy legs.",
+      "didYouKnow": "His incisors continue to grow, which compensates for their wear when he cuts tough plants."
+    },
+    {
+      "id": "photo-004",
+      "animal": "Tasmanian Devil",
+      "recognition": "Black fur, large head and often a white mark on the chest.",
+      "didYouKnow": "A devil can store fat reserves in its tail; a thick tail can therefore testify to its body condition."
+    },
+    {
+      "id": "photo-005",
+      "animal": "Virginia Opossum",
+      "recognition": "Clear, pointed muzzle, almost bare ears and a long, scaly tail.",
+      "didYouKnow": "The first digit of its rear legs is opposable and without a claw, which makes gripping easier."
+    },
+    {
+      "id": "photo-006",
+      "animal": "Saiga",
+      "recognition": "Its swollen nose forms a short, very recognizable trunk.",
+      "didYouKnow": "Its coat becomes denser and paler in winter, then shorter and tawnier in summer."
+    },
+    {
+      "id": "photo-007",
+      "animal": "Narwhal",
+      "recognition": "Small spotted cetacean, some individuals of which carry a long twisted tusk.",
+      "didYouKnow": "The defense spirals to the left; rare individuals have two tusks."
+    },
+    {
+      "id": "photo-008",
+      "animal": "Dugong",
+      "recognition": "Muzzle turned downwards and caudal fin notched.",
+      "didYouKnow": "Dugongs can communicate using short sounds, especially between a mother and her young."
+    },
+    {
+      "id": "photo-009",
+      "animal": "Temminck's pangolin",
+      "recognition": "Large overlapping scales and a long, thick tail.",
+      "didYouKnow": "Its stomach contains horny structures which help grind food which it swallows without chewing it."
+    },
+    {
+      "id": "photo-010",
+      "animal": "Nine-banded armadillo",
+      "recognition": "Carapace articulated in bands and elongated snout.",
+      "didYouKnow": "Litters of this species are usually made up of four genetically identical young, from the same embryo."
+    },
+    {
+      "id": "photo-011",
+      "animal": "Giant Anteater",
+      "recognition": "Very long snout, dark stripe on the flank and bushy tail.",
+      "didYouKnow": "Its body temperature is relatively low for a mammal of this size, which reduces its energy needs."
+    },
+    {
+      "id": "photo-012",
+      "animal": "White-handed Gibbon",
+      "recognition": "Very long arms and light border around the face.",
+      "didYouKnow": "Males and females can have light or dark coats: color alone cannot therefore determine sex."
+    },
+    {
+      "id": "photo-013",
+      "animal": "Philippine tarsier",
+      "recognition": "Very large, forward-facing eyes and long, thin extremities.",
+      "didYouKnow": "It also communicates by ultrasound, at frequencies that the human ear cannot perceive."
+    },
+    {
+      "id": "photo-014",
+      "animal": "Brown-throated sloth",
+      "recognition": "Rounded face with dark mask and long limbs ending in claws.",
+      "didYouKnow": "Its body temperature can vary throughout the day, unlike that of many other mammals."
+    },
+    {
+      "id": "photo-015",
+      "animal": "Capybara",
+      "recognition": "Large rodent with a massive snout, with eyes set high on its head.",
+      "didYouKnow": "Its incisors grow continuously, like those of other rodents, and wear away while grazing."
+    },
+    {
+      "id": "photo-016",
+      "animal": "Long-tailed chinchilla",
+      "recognition": "Large round ears, very dense fur and bushy tail.",
+      "didYouKnow": "A female has two uterine horns and can give birth to babies already covered in hair."
+    },
+    {
+      "id": "photo-017",
+      "animal": "American porcupine",
+      "recognition": "Heavy silhouette with quills mixed into the coat.",
+      "didYouKnow": "Its teeth are orange because of iron-containing pigments in the enamel."
+    },
+    {
+      "id": "photo-018",
+      "animal": "American Pika",
+      "recognition": "Small lagomorph with rounded ears, without a long visible tail.",
+      "didYouKnow": "He harvests plants and dries them in small piles to build up reserves consumed during the bad season."
+    },
+    {
+      "id": "photo-019",
+      "animal": "Lesser long-nosed bat",
+      "recognition": "Bat with an elongated snout and a small nasal leaf.",
+      "didYouKnow": "Its tongue can extend to reach the nectar at the bottom of the flowers and its passage contributes to their pollination."
+    },
+    {
+      "id": "photo-020",
+      "animal": "Leopard seal",
+      "recognition": "Elongated head, wide mouth and often spotted throat.",
+      "didYouKnow": "Its molars have several points that can hold small prey when water is expelled from the mouth."
+    },
+    {
+      "id": "photo-021",
+      "animal": "Southern elephant seal",
+      "recognition": "Very large seal; the adult male has a swollen nose.",
+      "didYouKnow": "The renewal of the skin is accompanied by extensive loss of old hair and epidermis."
+    },
+    {
+      "id": "photo-022",
+      "animal": "Northern fur seal",
+      "recognition": "Small head, external ears and thick dark fur.",
+      "didYouKnow": "During their feeding excursions, females can travel great distances before returning to nurse their young."
+    },
+    {
+      "id": "photo-023",
+      "animal": "Fennec",
+      "recognition": "Small light fox with oversized ears.",
+      "didYouKnow": "The soles of its feet are covered with hairs which improve its support on the sand and insulate it from the hot ground."
+    },
+    {
+      "id": "photo-024",
+      "animal": "Dwarf mongoose",
+      "recognition": "Small mongoose with short head and speckled brown fur.",
+      "didYouKnow": "Members of a group may groom their peers, a behavior that maintains social bonds."
+    },
+    {
+      "id": "photo-025",
+      "animal": "Common genet",
+      "recognition": "Slender spotted body and very long ringed tail.",
+      "didYouKnow": "Its collective latrines can be installed on rocks or other high points."
+    },
+    {
+      "id": "photo-026",
+      "animal": "African civet",
+      "recognition": "Black mask around the eyes and large spots on a robust body.",
+      "didYouKnow": "It disperses the seeds of certain fruits that it consumes, thus contributing to the renewal of vegetation."
+    },
+    {
+      "id": "photo-027",
+      "animal": "Caracal",
+      "recognition": "Plain fawn coat and long black tufts at the tips of the ears.",
+      "didYouKnow": "It has pads and plantar hair which favor a silent approach to its prey."
+    },
+    {
+      "id": "photo-028",
+      "animal": "Fishing cat",
+      "recognition": "Stocky cat, small ears and grayish coat marked with spots and lines.",
+      "didYouKnow": "The dense underside of its coat helps limit direct contact of water with the skin."
+    },
+    {
+      "id": "photo-029",
+      "animal": "Maned Wolf",
+      "recognition": "Very long black legs and red coat with a dark mane.",
+      "didYouKnow": "Its young are born with a much darker coat than that of adults."
+    },
+    {
+      "id": "photo-030",
+      "animal": "Raccoon dog",
+      "recognition": "Short-legged canid with a dark facial mask.",
+      "didYouKnow": "Pairs can participate together in raising the young, with the male in particular guarding the litter."
+    },
+    {
+      "id": "photo-031",
+      "animal": "Okapi",
+      "recognition": "Dark brown body, giraffe-like head and white stripes on the limbs.",
+      "didYouKnow": "The young can remain hidden for a long time in a roosting site while their mother feeds elsewhere."
+    },
+    {
+      "id": "photo-032",
+      "animal": "Malaysian tapir",
+      "recognition": "Short trunk and wide white saddle contrasting with the black front and rear.",
+      "didYouKnow": "Its young have light stripes and spots that gradually disappear as they grow."
+    },
+    {
+      "id": "photo-033",
+      "animal": "Silky Anteater",
+      "recognition": "Tiny arboreal anteater with golden fur and a short snout.",
+      "didYouKnow": "It often rests curled up, with the muzzle and limbs protected under the tail."
+    },
+    {
+      "id": "photo-034",
+      "animal": "Collared Peccary",
+      "recognition": "Dark body, suiform muzzle and light band around the shoulders.",
+      "didYouKnow": "It has a dorsal gland whose odorous secretions participate in recognition between members of the group."
+    },
+    {
+      "id": "photo-035",
+      "animal": "Guanaco",
+      "recognition": "Camelid with a tawny back, light belly and gray face.",
+      "didYouKnow": "It can live at high altitudes and its blood cells, like those of other camelids, are oval."
+    },
+    {
+      "id": "photo-036",
+      "animal": "Vicuna",
+      "recognition": "Small, slender camelid with a light chest and fine tawny fleece.",
+      "didYouKnow": "Its lower incisors show prolonged growth adapted to grazing on abrasive plants."
+    },
+    {
+      "id": "photo-037",
+      "animal": "Musk ox",
+      "recognition": "Long fleece descending on the sides and horns curved downwards then upwards.",
+      "didYouKnow": "Its undercoat, called qiviut, falls naturally during the spring moult."
+    },
+    {
+      "id": "photo-038",
+      "animal": "Gaur",
+      "recognition": "Large dark wild bovine, strong hump on the shoulders and light bottoms of the legs.",
+      "didYouKnow": "Females can live in groups while some large adult males spend more time alone."
+    },
+    {
+      "id": "photo-039",
+      "animal": "Banteng",
+      "recognition": "Wild bovine with white lower legs and a light area on the rump.",
+      "didYouKnow": "Females are generally reddish brown, while many adult males become very dark."
+    },
+    {
+      "id": "photo-040",
+      "animal": "Addax",
+      "recognition": "Pale antelope with long twisted horns and contrasting facial mask.",
+      "didYouKnow": "Its coat lightens during the warm season and becomes darker and fuller during the cold season."
+    },
+    {
+      "id": "photo-041",
+      "animal": "Scimitar-horned oryx",
+      "recognition": "Very light body, red neck and long horns curved backwards.",
+      "didYouKnow": "Reintroduction programmes have restored populations in Chad, where the species had disappeared from the wild."
+    },
+    {
+      "id": "photo-042",
+      "animal": "Bongo",
+      "recognition": "Large red antelope covered with thin vertical white bands.",
+      "didYouKnow": "Both males and females have spiral horns; those of males are generally more massive."
+    },
+    {
+      "id": "photo-043",
+      "animal": "Greater kudu",
+      "recognition": "Gray or brown coat striped with white and very large ears.",
+      "didYouKnow": "Males may make a loud bark when alarmed."
+    },
+    {
+      "id": "photo-044",
+      "animal": "Saola",
+      "recognition": "Brown bovid with light facial markings and two long, nearly parallel horns.",
+      "didYouKnow": "It was scientifically described in the 1990s based on discoveries made in the Annamite chain."
+    },
+    {
+      "id": "photo-045",
+      "animal": "Naked mole rat",
+      "recognition": "Almost bare skin, small eyes and incisors protruding from the lips.",
+      "didYouKnow": "Workers can move forward or backward in the narrow galleries of their colony."
+    },
+    {
+      "id": "photo-046",
+      "animal": "Rhinoceros hornbill",
+      "recognition": "Large yellow-orange bill topped with a curved helmet.",
+      "didYouKnow": "The male and female can be distinguished notably by the color of the iris in adults."
+    },
+    {
+      "id": "photo-047",
+      "animal": "Superb lyrebird",
+      "recognition": "Brown ground bird; the male has a long tail with lyre-shaped feathers.",
+      "didYouKnow": "As it stirs up litter to forage, it displaces large quantities of plant matter and soil."
+    },
+    {
+      "id": "photo-048",
+      "animal": "Southern cassowary",
+      "recognition": "Large black bird with blue neck, red wattles and helmet on its head.",
+      "didYouKnow": "Its eggs are greenish, an unusual color among large land birds."
+    },
+    {
+      "id": "photo-049",
+      "animal": "Hoazin",
+      "recognition": "Head with blue skin and bristly crest above a brown body.",
+      "didYouKnow": "Its large digestive system reduces the space available for certain flight muscles, which contributes to its limited aerial capabilities."
+    },
+    {
+      "id": "photo-050",
+      "animal": "Eclectus parrot",
+      "recognition": "The male is green with an orange beak; the female is mainly red and blue-purple.",
+      "didYouKnow": "Its fleshy tongue helps it handle food, especially the fruits it eats from trees."
+    },
+    {
+      "id": "photo-051",
+      "animal": "Shoebill",
+      "recognition": "Large gray wading bird with a massive, hoof-shaped bill.",
+      "didYouKnow": "It may produce an audible bill clicking sound during certain interactions at the nest."
+    },
+    {
+      "id": "photo-052",
+      "animal": "Scarlet Ibis",
+      "recognition": "Bright red plumage and long, thin, downward-curved bill.",
+      "didYouKnow": "Its young have a gray-brown plumage at first; the red coloring develops with age and diet."
+    },
+    {
+      "id": "photo-053",
+      "animal": "Eurasian spoonbill",
+      "recognition": "White plumage and black beak widened at the tip.",
+      "didYouKnow": "Juveniles often have black tips to the large wing feathers, less visible in adults."
+    },
+    {
+      "id": "photo-054",
+      "animal": "Long-tailed Jacana",
+      "recognition": "Very long fingers and, in breeding plumage, a stretched tail.",
+      "didYouKnow": "Its very long fingers distribute its weight over floating vegetation, allowing it to explore unstable surfaces."
+    },
+    {
+      "id": "photo-055",
+      "animal": "White-throated dipper",
+      "recognition": "Small dark brown bird with a large white plastron.",
+      "didYouKnow": "A membrane protects its eyes when it explores the water to look for food."
+    },
+    {
+      "id": "photo-056",
+      "animal": "Red Crossbill",
+      "recognition": "The two ends of the beak cross each other instead of meeting normally.",
+      "didYouKnow": "Some individuals have their beak crossed to the left, others to the right."
+    },
+    {
+      "id": "photo-057",
+      "animal": "Kea",
+      "recognition": "Olive green mountain parrot with narrow, curved beak.",
+      "didYouKnow": "Young people have yellowish areas around the beak that fade as they age."
+    },
+    {
+      "id": "photo-058",
+      "animal": "Village weaver",
+      "recognition": "Little yellow bird; the breeding male has a black head.",
+      "didYouKnow": "Females may examine several nests before accepting a partner and their work."
+    },
+    {
+      "id": "photo-059",
+      "animal": "Sociable weaver",
+      "recognition": "Small brown passerine bird with scaly back and black bib.",
+      "didYouKnow": "The interior chambers of a large collective nest dampen temperature variations more than the peripheral chambers."
+    },
+    {
+      "id": "photo-060",
+      "animal": "Superb bird of paradise",
+      "recognition": "The male is mostly black with blue-green iridescent areas.",
+      "didYouKnow": "The iridescent hue depends on the angle at which the light hits the feather structures."
+    },
+    {
+      "id": "photo-061",
+      "animal": "Acorn woodpecker",
+      "recognition": "Contrasting face, red cap and light iris.",
+      "didYouKnow": "He digs storage holes in trunks whose dimensions hold the acorns; a dry glans can be transferred to a more fitted hole."
+    },
+    {
+      "id": "photo-062",
+      "animal": "Brown Kiwi",
+      "recognition": "Bird without visible tail, filamentous brown plumage and very long, thin beak.",
+      "didYouKnow": "The kiwi's nostrils are located near the tip of the beak, an unusual position among birds."
+    },
+    {
+      "id": "photo-063",
+      "animal": "Victoria crowned pigeon",
+      "recognition": "Large blue-gray pigeon wearing a delicately fringed fan-shaped crest.",
+      "didYouKnow": "The parents feed the young with a nutritious secretion from the crop, like other pigeons."
+    },
+    {
+      "id": "photo-064",
+      "animal": "Violet turaco",
+      "recognition": "Dark purple plumage, yellow forehead and red crown.",
+      "didYouKnow": "It can swallow fruits then reject or disperse their seeds, promoting their dissemination."
+    },
+    {
+      "id": "photo-065",
+      "animal": "California Condor",
+      "recognition": "Huge dark vulture with large white patches under the wings.",
+      "didYouKnow": "A pair usually produces only one egg at a time and invests a long time in caring for the young."
+    },
+    {
+      "id": "photo-066",
+      "animal": "Australian brush-turkey",
+      "recognition": "Black bird with bare red head and yellow wattle.",
+      "didYouKnow": "The male adjusts the layer of material in his brood mound to change the temperature."
+    },
+    {
+      "id": "photo-067",
+      "animal": "Demoiselle crane",
+      "recognition": "Gray crane with a black throat and long white feathers behind its eyes.",
+      "didYouKnow": "Its migrations can lead it to cross very high reliefs while taking advantage of favorable atmospheric conditions."
+    },
+    {
+      "id": "photo-068",
+      "animal": "Harpy Eagle",
+      "recognition": "Massive eagle with gray crested and very strong legs.",
+      "didYouKnow": "The female is significantly heavier than the male, which contributes to differences in the prey they can carry."
+    },
+    {
+      "id": "photo-069",
+      "animal": "Turquoise-browed motmot",
+      "recognition": "Turquoise blue eyebrows and long tail ending in two paddles.",
+      "didYouKnow": "The racket shape of the tail appears when some of the fragile feather barbs become detached."
+    },
+    {
+      "id": "photo-070",
+      "animal": "Kakapo",
+      "recognition": "Large speckled green parrot with a rounded face reminiscent of an owl.",
+      "didYouKnow": "Its activity is mainly nocturnal and it can give off a characteristic musky or fruity odor."
+    },
+    {
+      "id": "photo-071",
+      "animal": "Black Palm Cockatoo",
+      "recognition": "Large dark cockatoo with strong crest and bare red cheek.",
+      "didYouKnow": "Some males use a stick to strike a hollow support, producing a rhythm during their displays."
+    },
+    {
+      "id": "photo-072",
+      "animal": "Helmeted hornbill",
+      "recognition": "Bare neck and thick helmet in front of the beak.",
+      "didYouKnow": "Its call includes a series of notes that accelerates and ends with a sound reminiscent of laughter."
+    },
+    {
+      "id": "photo-073",
+      "animal": "Secretarybird",
+      "recognition": "Bird of prey with very long legs and black feathers erect behind the head.",
+      "didYouKnow": "Its elongated feathers on the back of its head have earned it names evoking the ancient writing quills of secretaries."
+    },
+    {
+      "id": "photo-074",
+      "animal": "Elegant Trogon",
+      "recognition": "Short and broad bill, green back and red belly in the male.",
+      "didYouKnow": "Its feet have a rare arrangement of the toes: the first and second toes are turned backwards."
+    },
+    {
+      "id": "photo-075",
+      "animal": "Elegant Tinamou",
+      "recognition": "Speckled terrestrial bird with a fine erect crest.",
+      "didYouKnow": "Several females can lay eggs in the same nest with a male incubating."
+    },
+    {
+      "id": "photo-076",
+      "animal": "European bee-eater",
+      "recognition": "Bright mix of yellow, blue and reddish brown, with a slightly curved bill.",
+      "didYouKnow": "It digs a nesting tunnel in a wall of loose earth, often within a colony."
+    },
+    {
+      "id": "photo-077",
+      "animal": "European roller",
+      "recognition": "Turquoise blue plumage contrasting with a brown back.",
+      "didYouKnow": "It happily uses cavities already available for nesting, rather than digging them itself."
+    },
+    {
+      "id": "photo-078",
+      "animal": "Hoopoe",
+      "recognition": "Orange crest with black tips and wings striped with white and black.",
+      "didYouKnow": "The young can defend themselves at the nest by throwing excrement towards an intruder."
+    },
+    {
+      "id": "photo-079",
+      "animal": "Atlantic puffin",
+      "recognition": "Black and white body, light face and large, colorful bill in breeding season.",
+      "didYouKnow": "The color and apparent shape of the bill change outside of the breeding season after the loss of some external structures."
+    },
+    {
+      "id": "photo-080",
+      "animal": "European shag",
+      "recognition": "Dark, slender seabird with a thin bill, sometimes a small crest.",
+      "didYouKnow": "Its chicks are born almost naked and depend for a long time on the warmth and food intake of the parents."
+    },
+    {
+      "id": "photo-081",
+      "animal": "Razorbill",
+      "recognition": "Black and white seabird with a thick, compressed bill, barred with white in adults.",
+      "didYouKnow": "The female generally lays only one egg per season, directly on a ledge or in a rocky crevice."
+    },
+    {
+      "id": "photo-082",
+      "animal": "European nightjar",
+      "recognition": "Finely marbled gray-brown plumage and very large mouth opening.",
+      "didYouKnow": "Males may produce wing clicks during certain displays."
+    },
+    {
+      "id": "photo-083",
+      "animal": "Red-necked phalarope",
+      "recognition": "Small swimming shorebird with a fine beak; in breeding plumage, the neck is rufous.",
+      "didYouKnow": "It can turn on itself on the surface of the water to create a current that brings small prey closer to its beak."
+    },
+    {
+      "id": "photo-084",
+      "animal": "Bar-tailed godwit",
+      "recognition": "Long, slightly raised bill and long shorebird legs.",
+      "didYouKnow": "Its body can modify the size of certain organs before a long migration, in particular its reserves and its digestive system."
+    },
+    {
+      "id": "photo-085",
+      "animal": "Orange-bellied parakeet",
+      "recognition": "Small green parakeet with an orange spot on its belly.",
+      "didYouKnow": "It breeds in Tasmania and crosses Bass Strait to reach its Australian wintering grounds."
+    },
+    {
+      "id": "photo-086",
+      "animal": "Galah",
+      "recognition": "Pink breast, gray back and short light crest.",
+      "didYouKnow": "He can hang upside down and perform aerial games or slides on supports."
+    },
+    {
+      "id": "photo-087",
+      "animal": "Spix's Macaw",
+      "recognition": "Small blue macaw with a paler blue-gray head.",
+      "didYouKnow": "Conservation programs have retained individuals in captivity after it disappeared from its known wild range."
+    },
+    {
+      "id": "photo-088",
+      "animal": "Great crested grebe",
+      "recognition": "Long neck, thin bill and colorful ruff in breeding plumage.",
+      "didYouKnow": "The young can be carried on the back of a parent, between the wing feathers."
+    },
+    {
+      "id": "photo-089",
+      "animal": "Magnificent frigatebird",
+      "recognition": "Dark seabird with long, angular wings and a deeply forked tail.",
+      "didYouKnow": "The growth and dependence of the young can be very long for a seabird of its size."
+    },
+    {
+      "id": "photo-090",
+      "animal": "Turkey vulture",
+      "recognition": "Large dusky vulture with bare turkey head in adult.",
+      "didYouKnow": "It lets its paws cool by soiling them with liquid droppings, a mechanism called urohidrosis."
+    },
+    {
+      "id": "photo-091",
+      "animal": "Gharial of the Ganges",
+      "recognition": "Extremely long and narrow muzzle, furnished with numerous fine teeth.",
+      "didYouKnow": "Females lay their eggs in the sand on the banks and monitor the nesting area."
+    },
+    {
+      "id": "photo-092",
+      "animal": "Mata mata turtle",
+      "recognition": "Broad, flattened head edged with fringes, long neck and rough carapace.",
+      "didYouKnow": "It spends a lot of time motionless on the bottom and raises its tubular nose towards the surface to breathe."
+    },
+    {
+      "id": "photo-093",
+      "animal": "Pig-nosed turtle",
+      "recognition": "Fleshy upturned nose and limbs transformed into paddles.",
+      "didYouKnow": "Although it lives in fresh water, its females lay their eggs in sandy banks above water."
+    },
+    {
+      "id": "photo-094",
+      "animal": "Pancake turtle",
+      "recognition": "Very flattened shell which allows it to slip into crevices.",
+      "didYouKnow": "It can move with unusual agility for a land turtle and climb rocky surfaces."
+    },
+    {
+      "id": "photo-095",
+      "animal": "Tuatara",
+      "recognition": "Gray-brown reptile body with a crest of small spines on its back.",
+      "didYouKnow": "The teeth of the lower jaw close between two upper rows, a very particular arrangement."
+    },
+    {
+      "id": "photo-096",
+      "animal": "Thorny devil",
+      "recognition": "Small stocky lizard entirely covered in spines.",
+      "didYouKnow": "A false spiny head located behind its neck can be presented to a predator when it lowers its real head."
+    },
+    {
+      "id": "photo-097",
+      "animal": "Frilled lizard",
+      "recognition": "A large membrane may expand around the neck.",
+      "didYouKnow": "He spends much of his time in the trees, although his defensive runs on the ground are famous."
+    },
+    {
+      "id": "photo-098",
+      "animal": "Blue-tongued skink",
+      "recognition": "Massive lizard with small legs and a large blue tongue.",
+      "didYouKnow": "Its young are born alive, rather than hatching outside of a laid egg."
+    },
+    {
+      "id": "photo-099",
+      "animal": "California King Snake",
+      "recognition": "Smooth body often with very contrasting black and light bands.",
+      "didYouKnow": "It can consume other snakes and is resistant to certain venoms of its prey, without being invulnerable to all venoms."
+    },
+    {
+      "id": "photo-100",
+      "animal": "Kuhl's flying gecko",
+      "recognition": "Fringed body contours and broad expansions around the limbs and tail.",
+      "didYouKnow": "Its marbled coloring and irregular contours soften its silhouette against the bark."
+    },
+    {
+      "id": "photo-101",
+      "animal": "Sidewinder rattlesnake",
+      "recognition": "Small scales erect above the eyes and a stocky viperid body.",
+      "didYouKnow": "Its lateral movement reduces prolonged contact of certain parts of the body with hot sand."
+    },
+    {
+      "id": "photo-102",
+      "animal": "Chuckwalla",
+      "recognition": "Robust lizard with broad belly and wrinkled skin.",
+      "didYouKnow": "It can inflate its body when in a rock fissure, making it difficult to extract."
+    },
+    {
+      "id": "photo-103",
+      "animal": "Fiji Banded Iguana",
+      "recognition": "Bright green body; the male has broad light bands.",
+      "didYouKnow": "The female digs a nest on the ground to bury her eggs, which incubate for a relatively long time."
+    },
+    {
+      "id": "photo-104",
+      "animal": "Texas Horned Lizard",
+      "recognition": "Flattened, stocky body with a crown of thorns on the head.",
+      "didYouKnow": "When it feels threatened, it can flatten its body and direct its spines towards the attacker."
+    },
+    {
+      "id": "photo-105",
+      "animal": "Gila monster",
+      "recognition": "Bumpy skin forming a black and orange-pink pattern.",
+      "didYouKnow": "Much of its energy reserves are stored as fat in its tail."
+    },
+    {
+      "id": "photo-106",
+      "animal": "Marine Iguana",
+      "recognition": "Dark iguana with short snout, strong crest and long compressed tail.",
+      "didYouKnow": "Its powerful claws allow it to anchor itself on rocks exposed to swells."
+    },
+    {
+      "id": "photo-107",
+      "animal": "Gopher tortoise",
+      "recognition": "Moderately domed land turtle with broad burrowing forelimbs.",
+      "didYouKnow": "Its burrows also serve as refuges for many other animal species."
+    },
+    {
+      "id": "photo-108",
+      "animal": "Long-necked turtle",
+      "recognition": "Very elongated neck that the turtle folds to the side.",
+      "didYouKnow": "It can travel distances on land between different water sources when conditions change."
+    },
+    {
+      "id": "photo-109",
+      "animal": "Egg-eating snake",
+      "recognition": "Fine snake with keeled scales and variable brown pattern.",
+      "didYouKnow": "It can rub certain scales against each other to produce a defensive noise."
+    },
+    {
+      "id": "photo-110",
+      "animal": "Paradise flying snake",
+      "recognition": "Slender tree snake often marked with green, black and red.",
+      "didYouKnow": "It mainly hunts small arboreal vertebrates, notably lizards."
+    },
+    {
+      "id": "photo-111",
+      "animal": "Banded sea kraits",
+      "recognition": "Dark rings on a light body and flattened paddle-shaped tail.",
+      "didYouKnow": "Males are generally smaller than females, which is accompanied by differences in the prey exploited."
+    },
+    {
+      "id": "photo-112",
+      "animal": "Green Python",
+      "recognition": "Green python often installed in loops on a branch.",
+      "didYouKnow": "Its young can be yellow or reddish before acquiring the green coloring of adults."
+    },
+    {
+      "id": "photo-113",
+      "animal": "Sand Skink",
+      "recognition": "Smooth, tapered body, small legs and wedge-shaped muzzle.",
+      "didYouKnow": "Its eyelids protect the eyes from grains of sand as it moves beneath the surface."
+    },
+    {
+      "id": "photo-114",
+      "animal": "Spiny trionyx",
+      "recognition": "Flat, flexible shell with an elongated nose.",
+      "didYouKnow": "Adult males are generally much smaller than females."
+    },
+    {
+      "id": "photo-115",
+      "animal": "Leatherback turtle",
+      "recognition": "Dark carapace without large scales, covered with long keels.",
+      "didYouKnow": "Rearward-directed structures line its esophagus and facilitate retention of slippery prey."
+    },
+    {
+      "id": "photo-116",
+      "animal": "Alligator turtle",
+      "recognition": "Massive head, hooked beak and three rows of strong bumps on the carapace.",
+      "didYouKnow": "It breathes air and must regularly reach the surface, despite its very aquatic life."
+    },
+    {
+      "id": "photo-117",
+      "animal": "Green basilisk",
+      "recognition": "Green lizard with large crest on head and back, especially in males.",
+      "didYouKnow": "It is a good swimmer and can take refuge in water when threatened."
+    },
+    {
+      "id": "photo-118",
+      "animal": "Black caiman",
+      "recognition": "Large dark crocodilian with a snout wider than that of the gharial.",
+      "didYouKnow": "Females build a nest from plants and can defend the young after they hatch."
+    },
+    {
+      "id": "photo-119",
+      "animal": "Green anole",
+      "recognition": "Small, slender lizard, often green, with a pink dewlap under the throat.",
+      "didYouKnow": "It can change from green to brown depending on several factors, including temperature and its physiological state."
+    },
+    {
+      "id": "photo-120",
+      "animal": "Slow worm",
+      "recognition": "Elongated body without legs and head indistinguishable from the trunk.",
+      "didYouKnow": "Unlike snakes, it has mobile eyelids that it can close."
+    },
+    {
+      "id": "photo-121",
+      "animal": "Tokay Gecko",
+      "recognition": "Large gray-blue gecko covered with orange spots.",
+      "didYouKnow": "The female sticks her eggs on a support; the shell then hardens and keeps them attached during incubation."
+    },
+    {
+      "id": "photo-122",
+      "animal": "Crested Gecko",
+      "recognition": "Eyelash-like fringes above the eyes and small ridges along the head.",
+      "didYouKnow": "The species was found in New Caledonia in the 1990s after having long been considered extinct."
+    },
+    {
+      "id": "photo-123",
+      "animal": "Egyptian spiny-tailed lizard",
+      "recognition": "Massive lizard whose tail bears rings of strong spines.",
+      "didYouKnow": "Adults mainly consume plants and obtain a significant part of their water from their food."
+    },
+    {
+      "id": "photo-124",
+      "animal": "Desert whiptail lizard",
+      "recognition": "Small, slender lizard with a long tail and light longitudinal lines.",
+      "didYouKnow": "This species comes from an evolutionary history involving the hybridization of ancestral lines."
+    },
+    {
+      "id": "photo-125",
+      "animal": "Chinese alligator",
+      "recognition": "Small alligator with a short snout and marked bony plates.",
+      "didYouKnow": "It spends the cold season sheltered in a burrow and then greatly reduces its activity."
+    },
+    {
+      "id": "photo-126",
+      "animal": "Spotted ratfish",
+      "recognition": "Large head, large eyes and body extending into a very thin tail.",
+      "didYouKnow": "Its teeth are grouped into plates that can crush the hard coverings of certain prey."
+    },
+    {
+      "id": "photo-127",
+      "animal": "Electric eel",
+      "recognition": "Long body with no visible dorsal fin and very extensive anal fin.",
+      "didYouKnow": "Its electrical organs are made up of specialized cells whose discharges can combine."
+    },
+    {
+      "id": "photo-128",
+      "animal": "Pufferfish",
+      "recognition": "Rounded body punctuated with small light spots and short muzzle.",
+      "didYouKnow": "Its fused teeth form plates capable of crushing hard-shelled prey."
+    },
+    {
+      "id": "photo-129",
+      "animal": "Banded archerfish",
+      "recognition": "Compressed silver body with large dark markings on the upper sides.",
+      "didYouKnow": "It compensates for the effects of refraction when targeting prey above the water surface."
+    },
+    {
+      "id": "photo-130",
+      "animal": "Sturgeon",
+      "recognition": "Pointed snout, barbels under the head and rows of bony plates.",
+      "didYouKnow": "Its skeleton remains largely cartilaginous, although it belongs to a lineage of bony fish."
+    },
+    {
+      "id": "photo-131",
+      "animal": "Cave fish",
+      "recognition": "In its cave form, the body is pale and the eyes are very small or absent.",
+      "didYouKnow": "Its lateral line detects water movements and can help it spot obstacles and small prey in the dark."
+    },
+    {
+      "id": "photo-132",
+      "animal": "Coelacanth",
+      "recognition": "Robust scales and paired fins borne on fleshy lobes.",
+      "didYouKnow": "It has a rostral sensory organ which participates in the detection of electrical signals."
+    },
+    {
+      "id": "photo-133",
+      "animal": "Four-eyed fish",
+      "recognition": "Prominent eyes set very high on the head.",
+      "didYouKnow": "The female gives birth to already formed young rather than releasing a clutch of eggs into the water."
+    },
+    {
+      "id": "photo-134",
+      "animal": "Marbled electric ray",
+      "recognition": "Rounded, marbled brown disc and short, thick tail.",
+      "didYouKnow": "Its two electrical organs derive from specialized muscular tissue and are located on either side of the head."
+    },
+    {
+      "id": "photo-135",
+      "animal": "Four-eyed butterflyfish",
+      "recognition": "Light streaked body and large black spot rimmed with white near the rear.",
+      "didYouKnow": "A couple can remain associated for a long time and defend a feeding area on the reef."
+    },
+    {
+      "id": "photo-136",
+      "animal": "Threadfin butterflyfish",
+      "recognition": "White body striped diagonally, yellow rear and black stripe on the eye.",
+      "didYouKnow": "Its small mouth allows it to take food from inaccessible crevices of the reef."
+    },
+    {
+      "id": "photo-137",
+      "animal": "Black Ghost Knifefish",
+      "recognition": "Black blade-like body, light tail marking and long undulating anal fin.",
+      "didYouKnow": "It emits faint electrical signals that help it explore its surroundings in the dark."
+    },
+    {
+      "id": "photo-138",
+      "animal": "Wolffish",
+      "recognition": "Large head with powerful teeth and a long body with a continuous dorsal fin.",
+      "didYouKnow": "Its grinding teeth are renewed, which compensates for the wear caused by the shells of its prey."
+    },
+    {
+      "id": "photo-139",
+      "animal": "Porcupinefish",
+      "recognition": "Large eyes and long spines that can grow up around the body.",
+      "didYouKnow": "At night, it may search for molluscs and crustaceans which it crushes with its sturdy jaws."
+    },
+    {
+      "id": "photo-140",
+      "animal": "Boxfish",
+      "recognition": "Angular body enclosed in armor; the young are yellow with black spots.",
+      "didYouKnow": "Its swimming relies mainly on small fins which allow it to maneuver with precision at low speed."
+    },
+    {
+      "id": "photo-141",
+      "animal": "Batfish",
+      "recognition": "Very flattened body, fins resembling supports and red lips.",
+      "didYouKnow": "It has a retractable lure on its head which helps attract small prey."
+    },
+    {
+      "id": "photo-142",
+      "animal": "Elephantnose fish",
+      "recognition": "A flexible extension of the lower lip forms a small trunk.",
+      "didYouKnow": "It has a relatively large brain for a fish of its size."
+    },
+    {
+      "id": "photo-143",
+      "animal": "Toadfish",
+      "recognition": "Broad, flattened head, large mouth and mottled brown body.",
+      "didYouKnow": "The male produces sounds with his swim bladder during the breeding season."
+    },
+    {
+      "id": "photo-144",
+      "animal": "Soldier fish",
+      "recognition": "Goldfish with very large eyes and a fairly tall body.",
+      "didYouKnow": "It often takes refuge in the shade during the day and becomes more active for feeding at night."
+    },
+    {
+      "id": "photo-145",
+      "animal": "Napoleon wrasse",
+      "recognition": "Large wrasse with thick lips and a swollen forehead in large individuals.",
+      "didYouKnow": "It may sleep in a reef shelter and return regularly to familiar resting areas."
+    },
+    {
+      "id": "photo-146",
+      "animal": "Epaulette shark",
+      "recognition": "Small brown shark with a large dark spot surrounded by light behind each pectoral fin.",
+      "didYouKnow": "It can temporarily withstand very low concentrations of oxygen by modifying its activity and physiological functioning."
+    },
+    {
+      "id": "photo-147",
+      "animal": "Unicornfish",
+      "recognition": "A protuberance may appear on the forehead of adult individuals.",
+      "didYouKnow": "Like other surgeonfish, it bears cutting structures near the base of the tail."
+    },
+    {
+      "id": "photo-148",
+      "animal": "Razorfish",
+      "recognition": "Very compressed and long body, usually held head down.",
+      "didYouKnow": "It can stay near the spines of large sea urchins, which offer it refuge from certain predators."
+    },
+    {
+      "id": "photo-149",
+      "animal": "Green humphead parrotfish",
+      "recognition": "Very high forehead and fused teeth forming a massive beak.",
+      "didYouKnow": "Its bites contribute to sand production by grinding limestone materials from the reef."
+    },
+    {
+      "id": "photo-150",
+      "animal": "Emperor angelfish",
+      "recognition": "Adults wear thin yellow and blue bands and a dark mask.",
+      "didYouKnow": "Juveniles exhibit a pattern of circles and curves very different from adult bands."
+    },
+    {
+      "id": "photo-151",
+      "animal": "Walking catfish",
+      "recognition": "Long dark body, broad barbels and outstretched dorsal and anal fins.",
+      "didYouKnow": "An accessory respiratory organ allows it to exploit oxygen from the air in unfavorable aquatic conditions."
+    },
+    {
+      "id": "photo-152",
+      "animal": "French angelfish",
+      "recognition": "Dark body dotted with scales edged in yellow and light outline around the eye.",
+      "didYouKnow": "Young people can clean other fish by taking small organisms from their skin."
+    },
+    {
+      "id": "photo-153",
+      "animal": "Copperband butterflyfish",
+      "recognition": "Long, thin snout and vertical orange bands on a light body.",
+      "didYouKnow": "Its slim silhouette allows it to maneuver between reef formations where it searches for small invertebrates."
+    },
+    {
+      "id": "photo-154",
+      "animal": "Redcoat squirrelfish",
+      "recognition": "Red body with light longitudinal lines and large eyes.",
+      "didYouKnow": "It can emit sounds involving the structures associated with its swim bladder."
+    },
+    {
+      "id": "photo-155",
+      "animal": "Mudskipper",
+      "recognition": "Eyes placed at the top of the head and pectoral fins serving as supports.",
+      "didYouKnow": "It can keep its eyes moist by retracting them into sockets under the eye sockets."
+    },
+    {
+      "id": "photo-156",
+      "animal": "Crocodile fish",
+      "recognition": "Very flattened head, fringed eyes and marbled coat.",
+      "didYouKnow": "It hunts from a stalk, relying on immobility and camouflage rather than long pursuits."
+    },
+    {
+      "id": "photo-157",
+      "animal": "Ornate ghost pipefish",
+      "recognition": "Starry body with fine extensions and long tubular snout.",
+      "didYouKnow": "The female may carry the eggs in a pouch formed by her pelvic fins."
+    },
+    {
+      "id": "photo-158",
+      "animal": "African lungfish",
+      "recognition": "Elongated body and paired fins reduced to filaments.",
+      "didYouKnow": "When it dries out, it can form a cocoon of mucus in the soil and greatly slow down its metabolism."
+    },
+    {
+      "id": "photo-159",
+      "animal": "Blue Parrotfish",
+      "recognition": "Large fish with a blue body and teeth united in a beak.",
+      "didYouKnow": "It has a grinding apparatus in the pharynx that continues to fragment ingested materials after the bite."
+    },
+    {
+      "id": "photo-160",
+      "animal": "Mandarin fish",
+      "recognition": "Body decorated with sinuous blue, orange and green lines.",
+      "didYouKnow": "Its skin produces mucus which helps protect it and it does not have the scales typical of many fish."
+    },
+    {
+      "id": "photo-161",
+      "animal": "Zebra shark",
+      "recognition": "Very long tail; adults are spotted, unlike striped juveniles.",
+      "didYouKnow": "Adults often spend the day on the bottom and become more active at night."
+    },
+    {
+      "id": "photo-162",
+      "animal": "Spotted eagle ray",
+      "recognition": "Large disc with triangular wings, spotted back and long thin tail.",
+      "didYouKnow": "Its teeth form plates capable of crushing the shells of molluscs and other prey from the bottom."
+    },
+    {
+      "id": "photo-163",
+      "animal": "Banggai cardinal fish",
+      "recognition": "Large fins, vertical black bands and white punctuations.",
+      "didYouKnow": "The male keeps the eggs and then the young in his mouth during part of their development."
+    },
+    {
+      "id": "photo-164",
+      "animal": "Whale shark",
+      "recognition": "Very large shark with a flattened head and a back gridded with light lines and dots.",
+      "didYouKnow": "Each individual has a sufficiently distinctive pattern of spots to contribute to its photographic identification."
+    },
+    {
+      "id": "photo-165",
+      "animal": "Lionfish",
+      "recognition": "Long spines and large striped fins spread like a fan.",
+      "didYouKnow": "It can use its pectoral fins to bring down small prey before sucking it up."
+    },
+    {
+      "id": "photo-166",
+      "animal": "Eight-spotted jewel beetle",
+      "recognition": "Small beetle with blue metallic reflections and yellow spots.",
+      "didYouKnow": "Its metallic highlights come largely from the way its cuticle structures interact with light."
+    },
+    {
+      "id": "photo-167",
+      "animal": "Acorn weevil",
+      "recognition": "Brown beetle with a very long and thin rostrum.",
+      "didYouKnow": "The female pierces an acorn to deposit an egg; the larva then continues its development inside."
+    },
+    {
+      "id": "photo-168",
+      "animal": "Rosalia longicorn",
+      "recognition": "Gray-blue longhorn beetle with black spots and very elongated antennae.",
+      "didYouKnow": "Its larval development in the wood can last several years before the emergence of the adult."
+    },
+    {
+      "id": "photo-169",
+      "animal": "Great diving beetle",
+      "recognition": "Large dark oval beetle surrounded by a light border.",
+      "didYouKnow": "Its flattened, bristle-fringed hind legs function like oars."
+    },
+    {
+      "id": "photo-170",
+      "animal": "Philippine leaf insect",
+      "recognition": "Very flattened body whose expansions resemble a leaf.",
+      "didYouKnow": "Newly hatched young may have a very different coloring from the green of older individuals."
+    },
+    {
+      "id": "photo-171",
+      "animal": "Water scorpion",
+      "recognition": "Flattened brown body, ravishing front legs and long tube at the back.",
+      "didYouKnow": "The tube visible at the end of the abdomen is used for breathing in contact with air, and not for stinging."
+    },
+    {
+      "id": "photo-172",
+      "animal": "Common mole cricket",
+      "recognition": "Velvety brown body and front legs enlarged like shovels.",
+      "didYouKnow": "The male uses an underground gallery as an amplifier for his song."
+    },
+    {
+      "id": "photo-173",
+      "animal": "Orchid bee",
+      "recognition": "Compact body with bright metallic coloring.",
+      "didYouKnow": "The odorous molecules collected by the males form a mixture which intervenes in their reproductive signals."
+    },
+    {
+      "id": "photo-174",
+      "animal": "Asian weaver ant",
+      "recognition": "Slender ant with long legs; its coloring may vary depending on the population.",
+      "didYouKnow": "Workers can connect their bodies to pull the edges of distant leaves together."
+    },
+    {
+      "id": "photo-175",
+      "animal": "Bombardier beetle",
+      "recognition": "Small beetle with dark elytra and an orange head and thorax.",
+      "didYouKnow": "The substances of its chemical defense are stored then mixed in a specialized device before expulsion."
+    },
+    {
+      "id": "photo-176",
+      "animal": "Madagascar hissing cockroach",
+      "recognition": "Large dark cockroach without functional wings and a rounded thorax.",
+      "didYouKnow": "The female keeps the eggs in her body until they hatch, then gives birth to young live cockroaches."
+    },
+    {
+      "id": "photo-177",
+      "animal": "Whirligig beetle",
+      "recognition": "Small, shiny oval beetle that circles rapidly on the surface of the water.",
+      "didYouKnow": "Its short antennas detect surface disturbances produced around it."
+    },
+    {
+      "id": "photo-178",
+      "animal": "Green drake mayfly",
+      "recognition": "Wings erect at rest and long filaments at the end of the abdomen.",
+      "didYouKnow": "Its larvae can dig into the sediments and thus participate in the rearrangement of the bottom of watercourses."
+    },
+    {
+      "id": "photo-179",
+      "animal": "Red admiral",
+      "recognition": "Dark wings barred with red-orange and punctuated with white at the tips.",
+      "didYouKnow": "It can feed on very ripe fruits and sap, in addition to flower nectar."
+    },
+    {
+      "id": "photo-180",
+      "animal": "Peacock Mantis Shrimp",
+      "recognition": "Very colorful crustacean with pedunculated eyes and massive front appendages.",
+      "didYouKnow": "His blow can create a cavitation bubble; the collapse of this bubble adds a disturbance to that of the initial shock."
+    },
+    {
+      "id": "photo-181",
+      "animal": "Chambered nautilus",
+      "recognition": "Light spiral shell with brown bands and numerous tentacles without suckers.",
+      "didYouKnow": "It expels water through an adjustable siphon, which allows it to propel itself and direct its movements."
+    },
+    {
+      "id": "photo-182",
+      "animal": "Anna’s nudibranch",
+      "recognition": "Blue marine slug with black lines and yellow-orange border.",
+      "didYouKnow": "It feeds on marine sponges from which it takes tissue using its oral apparatus."
+    },
+    {
+      "id": "photo-183",
+      "animal": "Zebra crab",
+      "recognition": "Small light crab covered with very contrasting dark bands.",
+      "didYouKnow": "Its legs have adaptations that help it cling between the spines of sea urchins."
+    },
+    {
+      "id": "photo-184",
+      "animal": "Boxer crab",
+      "recognition": "Small crab with geometric patterns, sometimes carrying an anemone in each claw.",
+      "didYouKnow": "Its very specialized claws become less adapted to certain classic dietary manipulations of other crabs."
+    },
+    {
+      "id": "photo-185",
+      "animal": "Dead man’s fingers coral",
+      "recognition": "Orange or light fleshy colony divided into finger-like lobes.",
+      "didYouKnow": "Each small polyp in the colony bears eight feathery tentacles that capture food particles."
+    },
+    {
+      "id": "photo-186",
+      "animal": "Mediterranean feather star",
+      "recognition": "Numerous feathery arms radiating around a small central disc.",
+      "didYouKnow": "She can move by crawling with her appendages and sometimes swim using her arm movements."
+    },
+    {
+      "id": "photo-187",
+      "animal": "Emerald Elysia",
+      "recognition": "Green slug whose lateral expansions give a leaf shape.",
+      "didYouKnow": "The young must consume a particular algae to acquire the chloroplasts responsible for part of their green color."
+    },
+    {
+      "id": "photo-188",
+      "animal": "Christmas tree worm",
+      "recognition": "Two colored spiral crowns protrude from a tube attached to the substrate.",
+      "didYouKnow": "It can very quickly retract its crowns into its tube when a shadow or a disturbance announces danger."
+    },
+    {
+      "id": "photo-189",
+      "animal": "Bearded fireworm",
+      "recognition": "Segmented worm with white tufts on the sides.",
+      "didYouKnow": "Its bristles can become detached from the skin of an animal that touches it and cause significant irritation."
+    },
+    {
+      "id": "photo-190",
+      "animal": "Olm",
+      "recognition": "Pale elongated salamander with small legs and external gills.",
+      "didYouKnow": "Its life cycle is slow and individuals can live for several decades in favorable conditions."
+    },
+    {
+      "id": "photo-191",
+      "animal": "Pipa from Suriname",
+      "recognition": "Very flattened toad with a triangular head and rough brownish skin.",
+      "didYouKnow": "The fingers of its front paws carry small sensory branches useful for exploring the bottom."
+    },
+    {
+      "id": "photo-192",
+      "animal": "Fleischmann's Glass Frog",
+      "recognition": "Small green frog with fingers equipped with discs and a translucent ventral surface.",
+      "didYouKnow": "Its disc-shaped fingers help it to hold on to leaves in humid vegetation."
+    },
+    {
+      "id": "photo-193",
+      "animal": "Taita caecilian",
+      "recognition": "Legless amphibian with a ringed body reminiscent of a worm.",
+      "didYouKnow": "It lives mainly buried in the ground, where it searches for small invertebrates."
+    },
+    {
+      "id": "photo-194",
+      "animal": "Rowell’s velvet worm",
+      "recognition": "Elongated velvety body with many pairs of small fleshy legs.",
+      "didYouKnow": "In this Australian species, the young are born alive, while other onychophores lay eggs."
+    },
+    {
+      "id": "photo-195",
+      "animal": "American horseshoe crab",
+      "recognition": "Domed horseshoe carapace and long caudal tip.",
+      "didYouKnow": "The tail serves in particular as a lever to turn itself right side up when turned over."
+    },
+    {
+      "id": "photo-196",
+      "animal": "Wasp spider",
+      "recognition": "Abdomen of the female striped yellow, black and white.",
+      "didYouKnow": "The female wraps her eggs in a silk cocoon which can spend the bad season in the vegetation."
+    },
+    {
+      "id": "photo-197",
+      "animal": "Diving bell spider",
+      "recognition": "Brown spider whose body can appear silver underwater.",
+      "didYouKnow": "Its hairs retain a layer of air around the abdomen when it dives."
+    },
+    {
+      "id": "photo-198",
+      "animal": "Wallace's Flying Frog",
+      "recognition": "Green frog with very long, widely webbed fingers.",
+      "didYouKnow": "Its clutches develop in moss nests associated with vegetation above the water."
+    },
+    {
+      "id": "photo-199",
+      "animal": "Japanese giant salamander",
+      "recognition": "Very large amphibian with a flattened head and strongly wrinkled dark skin.",
+      "didYouKnow": "A male can guard a nesting cavity and fan the eggs through the movements of his tail."
+    },
+    {
+      "id": "photo-200",
+      "animal": "Stag beetle",
+      "recognition": "The male has large branched mandibles reminiscent of antlers.",
+      "didYouKnow": "Females have mandibles that are shorter than those of large males, but capable of pinching effectively."
+    }
+  ]
+}

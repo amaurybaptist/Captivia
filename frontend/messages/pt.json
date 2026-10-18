@@ -267,7 +267,11 @@
     "search": "Pesquisar",
     "settings": "Configurações",
     "shop": "Magasin",
-    "species": "Espécies"
+    "species": "Espécies",
+    "habitatGuide": "Guia 3D",
+    "designHabitat": "Criar o seu habitat",
+    "careAgenda": "Agenda",
+    "animalGame": "Jogo"
   },
   "disclaimers": {
     "affiliate": "Link de afiliado",
@@ -373,7 +377,25 @@
     "weekDay3": "Quarta",
     "weekDay4": "Quinta",
     "weekDay5": "Sexta",
-    "weekDay6": "Sábado"
+    "weekDay6": "Sábado",
+    "pushUnsupported": "Este navegador não suporta notificações push. No iPhone, abra o Captivia pelo ícone adicionado ao ecrã principal.",
+    "pushUnavailable": "As notificações push estão temporariamente indisponíveis. Os lembretes continuam visíveis na aplicação.",
+    "pushEnabled": "Notificações ativas neste navegador.",
+    "enablePush": "Ativar notificações",
+    "disablePush": "Desativar neste navegador",
+    "sendTest": "Enviar um teste",
+    "testSent": "Notificação enviada.",
+    "testPartial": "Algumas notificações não puderam ser enviadas.",
+    "noRecipient": "Nenhum destinatário ativo. Ative as notificações num dispositivo.",
+    "testFailed": "Não foi possível enviar a notificação de teste.",
+    "timeZone": "Fuso horário",
+    "deliveryWindow": "Horário permitido para envios",
+    "windowStart": "Início dos envios",
+    "windowEnd": "Fim dos envios",
+    "channelsUnavailable": "Alguns modos de receção estão temporariamente indisponíveis. Os lembretes continuam visíveis na aplicação.",
+    "snoozeAction": "Adiar",
+    "snoozeDone": "Lembrete adiado.",
+    "reminderError": "Não foi possível atualizar o lembrete."
   },
   "premiumLock": {
     "goPremium": "Voir l'abonnement Premium",
@@ -513,6 +535,7 @@
     "subscribeSuccess": "Abonnement activé. Vous avez maintenant accès à toutes les fonctionnalités Premium.",
     "subtitle": "Débloquez tous les avantages Captivia",
     "title": "Abonnement Premium",
-    "yearly": "Annuel"
+    "yearly": "Annuel",
+    "benefitHabitat": "Conceção de habitats 2D e 3D: disposições personalizadas, projetos guardados e exportações"
   }
 }

@@ -1,0 +1,1002 @@
+{
+  "mammals-001": {
+    "subject": "Chien domestique",
+    "query": "Canis lupus familiaris",
+    "caption": "Chien domestique"
+  },
+  "mammals-002": {
+    "subject": "Chat domestique",
+    "query": "Felis catus",
+    "caption": "Chat domestique"
+  },
+  "mammals-003": {
+    "subject": "Cheval domestique",
+    "query": "Equus ferus caballus",
+    "caption": "Cheval domestique"
+  },
+  "mammals-004": {
+    "subject": "Bovin domestique",
+    "query": "Bos taurus",
+    "caption": "Bovin domestique"
+  },
+  "mammals-005": {
+    "subject": "Mouton domestique",
+    "query": "Ovis aries",
+    "caption": "Mouton domestique"
+  },
+  "mammals-006": {
+    "subject": "Chèvre domestique",
+    "query": "Capra hircus",
+    "caption": "Chèvre domestique"
+  },
+  "mammals-007": {
+    "subject": "Cochon domestique",
+    "query": "Sus scrofa domesticus",
+    "caption": "Cochon domestique"
+  },
+  "mammals-008": {
+    "subject": "Lapin européen",
+    "query": "Oryctolagus cuniculus",
+    "caption": "Lapin européen"
+  },
+  "mammals-009": {
+    "subject": "Souris domestique",
+    "query": "Mus musculus",
+    "caption": "Souris domestique"
+  },
+  "mammals-010": {
+    "subject": "Rat brun",
+    "query": "Rattus norvegicus",
+    "caption": "Rat brun"
+  },
+  "mammals-011": {
+    "subject": "Hamster syrien",
+    "query": "Mesocricetus auratus",
+    "caption": "Hamster syrien"
+  },
+  "mammals-012": {
+    "subject": "Écureuil roux",
+    "query": "Sciurus vulgaris",
+    "caption": "Écureuil roux"
+  },
+  "mammals-013": {
+    "subject": "Castor d’Europe",
+    "query": "Castor fiber",
+    "caption": "Castor d’Europe"
+  },
+  "mammals-014": {
+    "subject": "Loutre de mer",
+    "query": "Enhydra lutris",
+    "caption": "Loutre de mer"
+  },
+  "mammals-015": {
+    "subject": "Blaireau européen",
+    "query": "Meles meles",
+    "caption": "Blaireau européen"
+  },
+  "mammals-016": {
+    "subject": "Hérisson européen",
+    "query": "Erinaceus europaeus",
+    "caption": "Hérisson européen"
+  },
+  "mammals-017": {
+    "subject": "Taupe d’Europe",
+    "query": "Talpa europaea",
+    "caption": "Taupe d’Europe"
+  },
+  "mammals-018": {
+    "subject": "Pipistrelle commune",
+    "query": "Pipistrellus pipistrellus",
+    "caption": "Pipistrelle commune"
+  },
+  "mammals-019": {
+    "subject": "Roussette d’Égypte",
+    "query": "Rousettus aegyptiacus",
+    "caption": "Roussette d’Égypte"
+  },
+  "mammals-020": {
+    "subject": "Ornithorynque",
+    "query": "Ornithorhynchus anatinus",
+    "caption": "Ornithorynque"
+  },
+  "mammals-021": {
+    "subject": "Échidné à nez court",
+    "query": "Tachyglossus aculeatus",
+    "caption": "Échidné à nez court"
+  },
+  "mammals-022": {
+    "subject": "Kangourou roux",
+    "query": "Osphranter rufus",
+    "caption": "Kangourou roux"
+  },
+  "mammals-023": {
+    "subject": "Koala",
+    "query": "Phascolarctos cinereus",
+    "caption": "Koala"
+  },
+  "mammals-024": {
+    "subject": "Wombat commun",
+    "query": "Vombatus ursinus",
+    "caption": "Wombat commun"
+  },
+  "mammals-025": {
+    "subject": "Diable de Tasmanie",
+    "query": "Sarcophilus harrisii",
+    "caption": "Diable de Tasmanie"
+  },
+  "mammals-026": {
+    "subject": "Opossum de Virginie",
+    "query": "Didelphis virginiana",
+    "caption": "Opossum de Virginie"
+  },
+  "mammals-027": {
+    "subject": "Lion",
+    "query": "Panthera leo",
+    "caption": "Lion"
+  },
+  "mammals-028": {
+    "subject": "Tigre",
+    "query": "Panthera tigris",
+    "caption": "Tigre"
+  },
+  "mammals-029": {
+    "subject": "Léopard",
+    "query": "Panthera pardus",
+    "caption": "Léopard"
+  },
+  "mammals-030": {
+    "subject": "Guépard",
+    "query": "Acinonyx jubatus",
+    "caption": "Guépard"
+  },
+  "mammals-031": {
+    "subject": "Loup gris",
+    "query": "Canis lupus",
+    "caption": "Loup gris"
+  },
+  "mammals-032": {
+    "subject": "Renard roux",
+    "query": "Vulpes vulpes",
+    "caption": "Renard roux"
+  },
+  "mammals-033": {
+    "subject": "Ours polaire",
+    "query": "Ursus maritimus",
+    "caption": "Ours polaire"
+  },
+  "mammals-034": {
+    "subject": "Ours brun",
+    "query": "Ursus arctos",
+    "caption": "Ours brun"
+  },
+  "mammals-035": {
+    "subject": "Panda géant",
+    "query": "Ailuropoda melanoleuca",
+    "caption": "Panda géant"
+  },
+  "mammals-036": {
+    "subject": "Panda roux",
+    "query": "Ailurus fulgens",
+    "caption": "Panda roux"
+  },
+  "mammals-037": {
+    "subject": "Éléphant de savane d’Afrique",
+    "query": "Loxodonta africana",
+    "caption": "Éléphant de savane d’Afrique"
+  },
+  "mammals-038": {
+    "subject": "Éléphant d’Asie",
+    "query": "Elephas maximus",
+    "caption": "Éléphant d’Asie"
+  },
+  "mammals-039": {
+    "subject": "Rhinocéros blanc",
+    "query": "Ceratotherium simum",
+    "caption": "Rhinocéros blanc"
+  },
+  "mammals-040": {
+    "subject": "Hippopotame commun",
+    "query": "Hippopotamus amphibius",
+    "caption": "Hippopotame commun"
+  },
+  "mammals-041": {
+    "subject": "Girafe",
+    "query": "Giraffa camelopardalis",
+    "caption": "Girafe"
+  },
+  "mammals-042": {
+    "subject": "Zèbre des plaines",
+    "query": "Equus quagga",
+    "caption": "Zèbre des plaines"
+  },
+  "mammals-043": {
+    "subject": "Dromadaire",
+    "query": "Camelus dromedarius",
+    "caption": "Dromadaire"
+  },
+  "mammals-044": {
+    "subject": "Dromadaire",
+    "query": "Camelus dromedarius",
+    "caption": "Dromadaire"
+  },
+  "mammals-045": {
+    "subject": "Chameau de Bactriane",
+    "query": "Camelus bactrianus",
+    "caption": "Chameau de Bactriane"
+  },
+  "mammals-046": {
+    "subject": "Bison d’Amérique",
+    "query": "Bison bison",
+    "caption": "Bison d’Amérique"
+  },
+  "mammals-047": {
+    "subject": "Saïga",
+    "query": "Saiga tatarica",
+    "caption": "Saïga"
+  },
+  "mammals-048": {
+    "subject": "Mouflon",
+    "query": "Ovis gmelini",
+    "caption": "Mouflon"
+  },
+  "mammals-049": {
+    "subject": "Cerf élaphe",
+    "query": "Cervus elaphus",
+    "caption": "Cerf élaphe"
+  },
+  "mammals-050": {
+    "subject": "Élan",
+    "query": "Alces alces",
+    "caption": "Élan"
+  },
+  "mammals-051": {
+    "subject": "Renne",
+    "query": "Rangifer tarandus",
+    "caption": "Renne"
+  },
+  "mammals-052": {
+    "subject": "Sanglier",
+    "query": "Sus scrofa",
+    "caption": "Sanglier"
+  },
+  "mammals-053": {
+    "subject": "Grand dauphin",
+    "query": "Tursiops truncatus",
+    "caption": "Grand dauphin"
+  },
+  "mammals-054": {
+    "subject": "Orque",
+    "query": "Orcinus orca",
+    "caption": "Orque"
+  },
+  "mammals-055": {
+    "subject": "Baleine bleue",
+    "query": "Balaenoptera musculus",
+    "caption": "Baleine bleue"
+  },
+  "mammals-056": {
+    "subject": "Baleine à bosse",
+    "query": "Megaptera novaeangliae",
+    "caption": "Baleine à bosse"
+  },
+  "mammals-057": {
+    "subject": "Cachalot",
+    "query": "Physeter macrocephalus",
+    "caption": "Cachalot"
+  },
+  "mammals-058": {
+    "subject": "Narval",
+    "query": "Monodon monoceros",
+    "caption": "Narval"
+  },
+  "mammals-059": {
+    "subject": "Béluga",
+    "query": "Delphinapterus leucas",
+    "caption": "Béluga"
+  },
+  "mammals-060": {
+    "subject": "Phoque commun",
+    "query": "Phoca vitulina",
+    "caption": "Phoque commun"
+  },
+  "mammals-061": {
+    "subject": "Otarie de Californie",
+    "query": "Zalophus californianus",
+    "caption": "Otarie de Californie"
+  },
+  "mammals-062": {
+    "subject": "Morse",
+    "query": "Odobenus rosmarus",
+    "caption": "Morse"
+  },
+  "mammals-063": {
+    "subject": "Lamantin des Caraïbes",
+    "query": "Trichechus manatus",
+    "caption": "Lamantin des Caraïbes"
+  },
+  "mammals-064": {
+    "subject": "Dugong",
+    "query": "Dugong dugon",
+    "caption": "Dugong"
+  },
+  "mammals-065": {
+    "subject": "Fourmilier géant",
+    "query": "Myrmecophaga tridactyla",
+    "caption": "Fourmilier géant"
+  },
+  "mammals-066": {
+    "subject": "Pangolin de Temminck",
+    "query": "Smutsia temminckii",
+    "caption": "Pangolin de Temminck"
+  },
+  "mammals-067": {
+    "subject": "Tatou à neuf bandes",
+    "query": "Dasypus novemcinctus",
+    "caption": "Tatou à neuf bandes"
+  },
+  "mammals-068": {
+    "subject": "Paresseux à gorge brune",
+    "query": "Bradypus variegatus",
+    "caption": "Paresseux à gorge brune"
+  },
+  "mammals-069": {
+    "subject": "Gorille des plaines occidentales",
+    "query": "Gorilla gorilla gorilla",
+    "caption": "Gorille des plaines occidentales"
+  },
+  "mammals-070": {
+    "subject": "Chimpanzé commun",
+    "query": "Pan troglodytes",
+    "caption": "Chimpanzé commun"
+  },
+  "mammals-071": {
+    "subject": "Bonobo",
+    "query": "Pan paniscus",
+    "caption": "Bonobo"
+  },
+  "mammals-072": {
+    "subject": "Orang-outan de Bornéo",
+    "query": "Pongo pygmaeus",
+    "caption": "Orang-outan de Bornéo"
+  },
+  "mammals-073": {
+    "subject": "Gibbon à mains blanches",
+    "query": "Hylobates lar",
+    "caption": "Gibbon à mains blanches"
+  },
+  "mammals-074": {
+    "subject": "Macaque japonais",
+    "query": "Macaca fuscata",
+    "caption": "Macaque japonais"
+  },
+  "mammals-075": {
+    "subject": "Babouin hamadryas",
+    "query": "Papio hamadryas",
+    "caption": "Babouin hamadryas"
+  },
+  "mammals-076": {
+    "subject": "Lémur catta",
+    "query": "Lemur catta",
+    "caption": "Lémur catta"
+  },
+  "mammals-077": {
+    "subject": "Tarsier des Philippines",
+    "query": "Carlito syrichta",
+    "caption": "Tarsier des Philippines"
+  },
+  "mammals-078": {
+    "subject": "Marmotte des Alpes",
+    "query": "Marmota marmota",
+    "caption": "Marmotte des Alpes"
+  },
+  "mammals-079": {
+    "subject": "Chinchilla à longue queue",
+    "query": "Chinchilla lanigera",
+    "caption": "Chinchilla à longue queue"
+  },
+  "mammals-080": {
+    "subject": "Capybara",
+    "query": "Hydrochoerus hydrochaeris",
+    "caption": "Capybara"
+  },
+  "mammals-081": {
+    "subject": "Porc-épic d’Amérique du Nord",
+    "query": "Erethizon dorsatum",
+    "caption": "Porc-épic d’Amérique du Nord"
+  },
+  "mammals-082": {
+    "subject": "Pika américain",
+    "query": "Ochotona princeps",
+    "caption": "Pika américain"
+  },
+  "mammals-083": {
+    "subject": "Baleine grise",
+    "query": "Eschrichtius robustus",
+    "caption": "Baleine grise"
+  },
+  "mammals-084": {
+    "subject": "Baleine boréale",
+    "query": "Balaena mysticetus",
+    "caption": "Baleine boréale"
+  },
+  "mammals-085": {
+    "subject": "Rorqual commun",
+    "query": "Balaenoptera physalus",
+    "caption": "Rorqual commun"
+  },
+  "mammals-086": {
+    "subject": "Dauphin rose d’Amazonie",
+    "query": "Inia geoffrensis",
+    "caption": "Dauphin rose d’Amazonie"
+  },
+  "mammals-087": {
+    "subject": "Marsouin commun",
+    "query": "Phocoena phocoena",
+    "caption": "Marsouin commun"
+  },
+  "mammals-088": {
+    "subject": "Éléphant de mer du Sud",
+    "query": "Mirounga leonina",
+    "caption": "Éléphant de mer du Sud"
+  },
+  "mammals-089": {
+    "subject": "Phoque léopard",
+    "query": "Hydrurga leptonyx",
+    "caption": "Phoque léopard"
+  },
+  "mammals-090": {
+    "subject": "Otarie à fourrure du Nord",
+    "query": "Callorhinus ursinus",
+    "caption": "Otarie à fourrure du Nord"
+  },
+  "mammals-091": {
+    "subject": "Manchot empereur",
+    "query": "Aptenodytes forsteri",
+    "caption": "Manchot empereur"
+  },
+  "mammals-092": {
+    "subject": "Hyène tachetée",
+    "query": "Crocuta crocuta",
+    "caption": "Hyène tachetée"
+  },
+  "mammals-093": {
+    "subject": "Suricate",
+    "query": "Suricata suricatta",
+    "caption": "Suricate"
+  },
+  "mammals-094": {
+    "subject": "Fennec",
+    "query": "Vulpes zerda",
+    "caption": "Fennec"
+  },
+  "mammals-095": {
+    "subject": "Mangouste naine",
+    "query": "Helogale parvula",
+    "caption": "Mangouste naine"
+  },
+  "mammals-096": {
+    "subject": "Civette africaine",
+    "query": "Civettictis civetta",
+    "caption": "Civette africaine"
+  },
+  "mammals-097": {
+    "subject": "Genette commune",
+    "query": "Genetta genetta",
+    "caption": "Genette commune"
+  },
+  "mammals-098": {
+    "subject": "Puma",
+    "query": "Puma concolor",
+    "caption": "Puma"
+  },
+  "mammals-099": {
+    "subject": "Jaguar",
+    "query": "Panthera onca",
+    "caption": "Jaguar"
+  },
+  "mammals-100": {
+    "subject": "Lynx boréal",
+    "query": "Lynx lynx",
+    "caption": "Lynx boréal"
+  },
+  "mammals-101": {
+    "subject": "Caracal",
+    "query": "Caracal caracal",
+    "caption": "Caracal"
+  },
+  "mammals-102": {
+    "subject": "Chat pêcheur",
+    "query": "Prionailurus viverrinus",
+    "caption": "Chat pêcheur"
+  },
+  "mammals-103": {
+    "subject": "Loup à crinière",
+    "query": "Chrysocyon brachyurus",
+    "caption": "Loup à crinière"
+  },
+  "mammals-104": {
+    "subject": "Chien viverrin",
+    "query": "Nyctereutes procyonoides",
+    "caption": "Chien viverrin"
+  },
+  "mammals-105": {
+    "subject": "Panda roux",
+    "query": "Ailurus fulgens",
+    "caption": "Panda roux"
+  },
+  "mammals-106": {
+    "subject": "Okapi",
+    "query": "Okapia johnstoni",
+    "caption": "Okapi"
+  },
+  "mammals-107": {
+    "subject": "Tapir de Malaisie",
+    "query": "Tapirus indicus",
+    "caption": "Tapir de Malaisie"
+  },
+  "mammals-108": {
+    "subject": "Fourmilier soyeux",
+    "query": "Cyclopes didactylus",
+    "caption": "Fourmilier soyeux"
+  },
+  "mammals-109": {
+    "subject": "Pécari à collier",
+    "query": "Dicotyles tajacu",
+    "caption": "Pécari à collier"
+  },
+  "mammals-110": {
+    "subject": "Pécari à lèvres blanches",
+    "query": "Tayassu pecari",
+    "caption": "Pécari à lèvres blanches"
+  },
+  "mammals-111": {
+    "subject": "Alpaga",
+    "query": "Vicugna pacos",
+    "caption": "Alpaga"
+  },
+  "mammals-112": {
+    "subject": "Lama",
+    "query": "Lama glama",
+    "caption": "Lama"
+  },
+  "mammals-113": {
+    "subject": "Guanaco",
+    "query": "Lama guanicoe",
+    "caption": "Guanaco"
+  },
+  "mammals-114": {
+    "subject": "Vigogne",
+    "query": "Vicugna vicugna",
+    "caption": "Vigogne"
+  },
+  "mammals-115": {
+    "subject": "Buffle d’Afrique",
+    "query": "Syncerus caffer",
+    "caption": "Buffle d’Afrique"
+  },
+  "mammals-116": {
+    "subject": "Bœuf musqué",
+    "query": "Ovibos moschatus",
+    "caption": "Bœuf musqué"
+  },
+  "mammals-117": {
+    "subject": "Yak domestique",
+    "query": "Bos grunniens",
+    "caption": "Yak domestique"
+  },
+  "mammals-118": {
+    "subject": "Gaur",
+    "query": "Bos gaurus",
+    "caption": "Gaur"
+  },
+  "mammals-119": {
+    "subject": "Banteng",
+    "query": "Bos javanicus",
+    "caption": "Banteng"
+  },
+  "mammals-120": {
+    "subject": "Addax",
+    "query": "Addax nasomaculatus",
+    "caption": "Addax"
+  },
+  "mammals-121": {
+    "subject": "Oryx algazelle",
+    "query": "Oryx dammah",
+    "caption": "Oryx algazelle"
+  },
+  "mammals-122": {
+    "subject": "Bongo",
+    "query": "Tragelaphus eurycerus",
+    "caption": "Bongo"
+  },
+  "mammals-123": {
+    "subject": "Grand koudou",
+    "query": "Tragelaphus strepsiceros",
+    "caption": "Grand koudou"
+  },
+  "mammals-124": {
+    "subject": "Springbok",
+    "query": "Antidorcas marsupialis",
+    "caption": "Springbok"
+  },
+  "mammals-125": {
+    "subject": "Impala",
+    "query": "Aepyceros melampus",
+    "caption": "Impala"
+  },
+  "mammals-126": {
+    "subject": "Gazelle de Thomson",
+    "query": "Eudorcas thomsonii",
+    "caption": "Gazelle de Thomson"
+  },
+  "mammals-127": {
+    "subject": "Saola",
+    "query": "Pseudoryx nghetinhensis",
+    "caption": "Saola"
+  },
+  "mammals-128": {
+    "subject": "Panda géant",
+    "query": "Ailuropoda melanoleuca",
+    "caption": "Panda géant"
+  },
+  "mammals-129": {
+    "subject": "Vaquita",
+    "query": "Phocoena sinus",
+    "caption": "Vaquita"
+  },
+  "mammals-130": {
+    "subject": "Baleine noire de l’Atlantique Nord",
+    "query": "Eubalaena glacialis",
+    "caption": "Baleine noire de l’Atlantique Nord"
+  },
+  "mammals-131": {
+    "subject": "Pangolin de Sunda",
+    "query": "Manis javanica",
+    "caption": "Pangolin de Sunda"
+  },
+  "mammals-132": {
+    "subject": "Rhinocéros de Java",
+    "query": "Rhinoceros sondaicus",
+    "caption": "Rhinocéros de Java"
+  },
+  "mammals-133": {
+    "subject": "Chien domestique",
+    "query": "Canis lupus familiaris",
+    "caption": "Chien domestique"
+  },
+  "mammals-134": {
+    "subject": "Éléphant de savane d’Afrique",
+    "query": "Loxodonta africana",
+    "caption": "Éléphant de savane d’Afrique"
+  },
+  "mammals-135": {
+    "subject": "Loup gris",
+    "query": "Canis lupus",
+    "caption": "Loup gris"
+  },
+  "mammals-136": {
+    "subject": "Pipistrelle commune",
+    "query": "Pipistrellus pipistrellus",
+    "caption": "Pipistrelle commune"
+  },
+  "mammals-137": {
+    "subject": "Chauve-souris à long nez",
+    "query": "Leptonycteris yerbabuenae",
+    "caption": "Chauve-souris à long nez"
+  },
+  "mammals-138": {
+    "subject": "Roussette d’Égypte",
+    "query": "Rousettus aegyptiacus",
+    "caption": "Roussette d’Égypte"
+  },
+  "mammals-139": {
+    "subject": "Éléphant de savane d’Afrique",
+    "query": "Loxodonta africana",
+    "caption": "Éléphant de savane d’Afrique"
+  },
+  "mammals-140": {
+    "subject": "Grand dauphin",
+    "query": "Tursiops truncatus",
+    "caption": "Grand dauphin"
+  },
+  "mammals-141": {
+    "subject": "Baleine bleue",
+    "query": "Balaenoptera musculus",
+    "caption": "Baleine bleue"
+  },
+  "mammals-142": {
+    "subject": "Humain",
+    "query": "Homo sapiens",
+    "caption": "Humain, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-143": {
+    "subject": "Chien domestique",
+    "query": "Canis lupus familiaris",
+    "caption": "Chien domestique, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-144": {
+    "subject": "Wombat commun",
+    "query": "Vombatus ursinus",
+    "caption": "Wombat commun"
+  },
+  "mammals-145": {
+    "subject": "Kangourou roux",
+    "query": "Osphranter rufus",
+    "caption": "Kangourou roux"
+  },
+  "mammals-146": {
+    "subject": "Rat-taupe nu",
+    "query": "Heterocephalus glaber",
+    "caption": "Rat-taupe nu"
+  },
+  "mammals-147": {
+    "subject": "Panda géant",
+    "query": "Ailuropoda melanoleuca",
+    "caption": "Panda géant, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-148": {
+    "subject": "Grand dauphin",
+    "query": "Tursiops truncatus",
+    "caption": "Grand dauphin, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-149": {
+    "subject": "Morse",
+    "query": "Odobenus rosmarus",
+    "caption": "Morse, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-150": {
+    "subject": "Lamantin des Caraïbes",
+    "query": "Trichechus manatus",
+    "caption": "Lamantin des Caraïbes, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-151": {
+    "subject": "Chimpanzé commun",
+    "query": "Pan troglodytes",
+    "caption": "Chimpanzé commun, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-152": {
+    "subject": "Cheval domestique",
+    "query": "Equus ferus caballus",
+    "caption": "Cheval domestique, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-153": {
+    "subject": "Baleine à bosse",
+    "query": "Megaptera novaeangliae",
+    "caption": "Baleine à bosse, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-154": {
+    "subject": "Chien domestique",
+    "query": "Canis lupus familiaris",
+    "caption": "Chien domestique"
+  },
+  "mammals-155": {
+    "subject": "Grand dauphin",
+    "query": "Tursiops truncatus",
+    "caption": "Grand dauphin"
+  },
+  "mammals-156": {
+    "subject": "Ours polaire",
+    "query": "Ursus maritimus",
+    "caption": "Ours polaire, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-157": {
+    "subject": "Ornithorynque",
+    "query": "Ornithorhynchus anatinus",
+    "caption": "Ornithorynque"
+  },
+  "mammals-158": {
+    "subject": "Chien domestique",
+    "query": "Canis lupus familiaris",
+    "caption": "Chien domestique, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-159": {
+    "subject": "Loup gris",
+    "query": "Canis lupus",
+    "caption": "Loup gris, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-160": {
+    "subject": "Marmotte des Alpes",
+    "query": "Marmota marmota",
+    "caption": "Marmotte des Alpes, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-161": {
+    "subject": "Caribou",
+    "query": "Rangifer tarandus",
+    "caption": "Caribou, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-162": {
+    "subject": "Pipistrelle commune",
+    "query": "Pipistrellus pipistrellus",
+    "caption": "Pipistrelle commune, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-163": {
+    "subject": "Éléphant d’Afrique",
+    "query": "Loxodonta africana",
+    "caption": "Éléphant d’Afrique, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-164": {
+    "subject": "Panda géant",
+    "query": "Ailuropoda melanoleuca",
+    "caption": "Panda géant, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-165": {
+    "subject": "Baleine à bosse",
+    "query": "Megaptera novaeangliae",
+    "caption": "Baleine à bosse, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-166": {
+    "subject": "Panda géant",
+    "query": "Ailuropoda melanoleuca",
+    "caption": "Panda géant, exemple illustrant la question sur les mammifères."
+  },
+  "mammals-167": {
+    "subject": "Élan",
+    "query": "Alces alces",
+    "caption": "Élan"
+  },
+  "mammals-168": {
+    "subject": "Lynx boréal",
+    "query": "Lynx lynx",
+    "caption": "Lynx boréal"
+  },
+  "mammals-169": {
+    "subject": "Renne",
+    "query": "Rangifer tarandus",
+    "caption": "Renne"
+  },
+  "mammals-170": {
+    "subject": "Ornithorynque",
+    "query": "Ornithorhynchus anatinus",
+    "caption": "Ornithorynque"
+  },
+  "mammals-171": {
+    "subject": "Échidné à nez court",
+    "query": "Tachyglossus aculeatus",
+    "caption": "Échidné à nez court"
+  },
+  "mammals-172": {
+    "subject": "Wombat commun",
+    "query": "Vombatus ursinus",
+    "caption": "Wombat commun"
+  },
+  "mammals-173": {
+    "subject": "Grand dauphin",
+    "query": "Tursiops truncatus",
+    "caption": "Grand dauphin"
+  },
+  "mammals-174": {
+    "subject": "Baleine bleue",
+    "query": "Balaenoptera musculus",
+    "caption": "Baleine bleue"
+  },
+  "mammals-175": {
+    "subject": "Morse",
+    "query": "Odobenus rosmarus",
+    "caption": "Morse"
+  },
+  "mammals-176": {
+    "subject": "Koala",
+    "query": "Phascolarctos cinereus",
+    "caption": "Koala"
+  },
+  "mammals-177": {
+    "subject": "Kangourou roux",
+    "query": "Osphranter rufus",
+    "caption": "Kangourou roux"
+  },
+  "mammals-178": {
+    "subject": "Gorille des plaines occidentales",
+    "query": "Gorilla gorilla gorilla",
+    "caption": "Gorille des plaines occidentales"
+  },
+  "mammals-179": {
+    "subject": "Chimpanzé commun",
+    "query": "Pan troglodytes",
+    "caption": "Chimpanzé commun"
+  },
+  "mammals-180": {
+    "subject": "Capybara",
+    "query": "Hydrochoerus hydrochaeris",
+    "caption": "Capybara"
+  },
+  "mammals-181": {
+    "subject": "Paresseux à gorge brune",
+    "query": "Bradypus variegatus",
+    "caption": "Paresseux à gorge brune"
+  },
+  "mammals-182": {
+    "subject": "Pangolin de Temminck",
+    "query": "Smutsia temminckii",
+    "caption": "Pangolin de Temminck"
+  },
+  "mammals-183": {
+    "subject": "Loutre de mer",
+    "query": "Enhydra lutris",
+    "caption": "Loutre de mer"
+  },
+  "mammals-184": {
+    "subject": "Roussette d’Égypte",
+    "query": "Rousettus aegyptiacus",
+    "caption": "Roussette d’Égypte"
+  },
+  "mammals-185": {
+    "subject": "Castor d’Europe",
+    "query": "Castor fiber",
+    "caption": "Castor d’Europe"
+  },
+  "mammals-186": {
+    "subject": "Hérisson européen",
+    "query": "Erinaceus europaeus",
+    "caption": "Hérisson européen"
+  },
+  "mammals-187": {
+    "subject": "Écureuil roux",
+    "query": "Sciurus vulgaris",
+    "caption": "Écureuil roux"
+  },
+  "mammals-188": {
+    "subject": "Éléphant de savane d’Afrique",
+    "query": "Loxodonta africana",
+    "caption": "Éléphant de savane d’Afrique"
+  },
+  "mammals-189": {
+    "subject": "Zèbre des plaines",
+    "query": "Equus quagga",
+    "caption": "Zèbre des plaines"
+  },
+  "mammals-190": {
+    "subject": "Béluga",
+    "query": "Delphinapterus leucas",
+    "caption": "Béluga"
+  },
+  "mammals-191": {
+    "subject": "Macaque japonais",
+    "query": "Macaca fuscata",
+    "caption": "Macaque japonais"
+  },
+  "mammals-192": {
+    "subject": "Pika américain",
+    "query": "Ochotona princeps",
+    "caption": "Pika américain"
+  },
+  "mammals-193": {
+    "subject": "Guépard",
+    "query": "Acinonyx jubatus",
+    "caption": "Guépard"
+  },
+  "mammals-194": {
+    "subject": "Éléphant de mer du Sud",
+    "query": "Mirounga leonina",
+    "caption": "Éléphant de mer du Sud"
+  },
+  "mammals-195": {
+    "subject": "Pipistrelle commune",
+    "query": "Pipistrellus pipistrellus",
+    "caption": "Pipistrelle commune"
+  },
+  "mammals-196": {
+    "subject": "Dauphin rose d’Amazonie",
+    "query": "Inia geoffrensis",
+    "caption": "Dauphin rose d’Amazonie"
+  },
+  "mammals-197": {
+    "subject": "Chameau de Bactriane",
+    "query": "Camelus bactrianus",
+    "caption": "Chameau de Bactriane"
+  },
+  "mammals-198": {
+    "subject": "Panda géant",
+    "query": "Ailuropoda melanoleuca",
+    "caption": "Panda géant"
+  },
+  "mammals-199": {
+    "subject": "Vaquita",
+    "query": "Phocoena sinus",
+    "caption": "Vaquita"
+  },
+  "mammals-200": {
+    "subject": "Morse",
+    "query": "Odobenus rosmarus",
+    "caption": "Morse"
+  }
+}

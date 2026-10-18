@@ -20,7 +20,7 @@ export class PushSubscriptionKeysDto {
 export class PushSubscriptionDto {
   @IsString()
   @IsNotEmpty()
-  @MaxLength(500)
+  @MaxLength(2048)
   endpoint: string;
 
   @IsObject()
@@ -32,6 +32,6 @@ export class PushSubscriptionDto {
 export class UnsubscribePushDto {
   @IsString()
   @IsNotEmpty()
-  @MaxLength(500)
+  @MaxLength(2048)
   endpoint: string;
 }

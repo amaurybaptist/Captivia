@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "birds-001",
+    "animal": "Aigle royal",
+    "prompt": "À quoi servent principalement les larges ailes de l’aigle royal ?",
+    "options": [
+      "À planer en utilisant les courants d’air",
+      "À accélérer en battant rapidement dans les sous-bois",
+      "À nager en poussant l’eau",
+      "À creuser le sol en éventail"
+    ],
+    "answer": 0,
+    "explanation": "Ses larges ailes lui permettent de planer et de prospecter de vastes territoires en économisant ses battements.",
+    "didYouKnow": "L’aigle royal peut nicher sur une falaise ou dans un grand arbre.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-002",
+    "animal": "Albatros hurleur",
+    "prompt": "Quel mécanisme de vol permet à l’albatros hurleur d’exploiter les vents au-dessus des vagues ?",
+    "options": [
+      "Il alterne des phases de montée et de descente pour tirer parti des variations du vent.",
+      "Il reste en vol stationnaire face au vent en battant rapidement des ailes.",
+      "Il tourne continuellement dans des colonnes d’air chaud au-dessus des terres.",
+      "Il bat constamment des ailes pour avancer à la même hauteur au-dessus de l’eau."
+    ],
+    "answer": 0,
+    "explanation": "Le vol dynamique de l’albatros exploite les différences de vitesse du vent à diverses hauteurs au-dessus des vagues, ce qui lui permet de parcourir de longues distances avec peu de battements.",
+    "didYouKnow": "Les albatros reviennent sur des îles pour se reproduire.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-003",
+    "animal": "Manchot empereur",
+    "prompt": "Comment le manchot empereur protège-t-il son œuf du contact avec la glace ?",
+    "options": [
+      "Il le pose sur ses pieds sous un repli de peau",
+      "Il le place dans un nid creusé dans la glace",
+      "Il le cale entre des pierres chauffées au soleil",
+      "Il le porte dans son bec pendant la nage"
+    ],
+    "answer": 0,
+    "explanation": "Les pieds et le repli ventral isolent l’œuf du sol glacé durant l’incubation.",
+    "didYouKnow": "Le manchot empereur est le plus grand manchot vivant.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-004",
+    "animal": "Autruche",
+    "prompt": "Quel est le principal mode de déplacement de l’autruche ?",
+    "options": [
+      "La course",
+      "Le vol battu",
+      "La nage sous la glace",
+      "Le vol plané depuis les falaises"
+    ],
+    "answer": 0,
+    "explanation": "L’autruche ne vole pas, mais ses longues pattes sont adaptées à la course rapide.",
+    "didYouKnow": "C’est le plus grand oiseau vivant.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-005",
+    "animal": "Colibri d’Anna",
+    "prompt": "Quelle propriété du battement d’ailes aide le colibri d’Anna à rester en vol stationnaire ?",
+    "options": [
+      "Il produit de la portance pendant les battements descendants et remontants.",
+      "Il ne produit de la portance qu’au retour, puis laisse l’oiseau descendre légèrement.",
+      "Il verrouille les ailes pendant chaque cycle et utilise surtout les courants d’air.",
+      "Il alterne un battement puissant avec une longue phase de plané."
+    ],
+    "answer": 0,
+    "explanation": "Les colibris génèrent de la portance pendant les deux phases du battement d’ailes, ce qui leur permet de se maintenir sur place devant une fleur.",
+    "didYouKnow": "Le colibri d’Anna peut entrer en torpeur pendant les nuits froides afin de réduire temporairement ses dépenses énergétiques.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-006",
+    "animal": "Pic épeiche",
+    "prompt": "À quoi sert souvent le tambourinage du pic épeiche sur un tronc ?",
+    "options": [
+      "À communiquer et marquer sa présence",
+      "À sonder la profondeur de l’eau",
+      "À attirer des poissons près de la berge",
+      "À sécher ses plumes après la pluie"
+    ],
+    "answer": 0,
+    "explanation": "Le tambourinage est un signal sonore utilisé notamment dans les interactions territoriales.",
+    "didYouKnow": "Sa langue longue et collante aide à capturer les insectes dans le bois.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-007",
+    "animal": "Flamant rose",
+    "prompt": "Comment le flamant rose obtient-il une grande partie de sa nourriture ?",
+    "options": [
+      "En filtrant de petits organismes dans l’eau et la vase",
+      "En harponnant des poissons depuis un perchoir",
+      "En décortiquant des graines avec son bec croisé",
+      "En capturant des insectes pendant un vol stationnaire"
+    ],
+    "answer": 0,
+    "explanation": "Les lamelles de son bec retiennent de petits crustacés, algues et autres organismes.",
+    "didYouKnow": "Les caroténoïdes de certains aliments contribuent à la couleur rose de son plumage.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-008",
+    "animal": "Chouette hulotte",
+    "prompt": "Comment l’asymétrie des oreilles de la chouette hulotte aide-t-elle à localiser une proie cachée ?",
+    "options": [
+      "Les petits écarts de temps et d’intensité entre les oreilles renseignent sur la direction du son.",
+      "Elle amplifie uniquement les sons aigus émis par les proies.",
+      "Elle transforme les sons en repères visuels lorsque la lumière est faible.",
+      "Elle bloque les sons venant du sol pour isoler ceux des branches."
+    ],
+    "answer": 0,
+    "explanation": "La position et l’asymétrie des oreilles aident la chouette à comparer les sons reçus de chaque côté et à estimer d’où vient une proie.",
+    "didYouKnow": "Comme d’autres chouettes, elle régurgite des pelotes contenant des restes de proies non digérés.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-009",
+    "animal": "Hirondelle rustique",
+    "prompt": "Pourquoi l’hirondelle rustique migre-t-elle vers des régions plus chaudes en hiver ?",
+    "options": [
+      "Pour trouver des insectes volants plus disponibles",
+      "Pour trouver des cavités d’arbres sans neige",
+      "Pour éviter toute pluie et tout vent",
+      "Pour pondre dans des sols plus secs"
+    ],
+    "answer": 0,
+    "explanation": "La migration l’amène vers des régions où les insectes dont elle se nourrit restent accessibles.",
+    "didYouKnow": "Elle capture la plupart de ses proies en vol.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-010",
+    "animal": "Canard colvert",
+    "prompt": "À quoi sert la membrane entre les doigts du colvert ?",
+    "options": [
+      "À augmenter la poussée de ses pattes dans l’eau",
+      "À s’agripper aux troncs lisses",
+      "À creuser des cavités de nidification",
+      "À saisir des graines sur les branches"
+    ],
+    "answer": 0,
+    "explanation": "La palmure augmente la surface qui pousse l’eau lorsque le canard nage.",
+    "didYouKnow": "Le colvert est l’ancêtre de nombreuses races de canards domestiques.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-011",
+    "animal": "Pélican blanc",
+    "prompt": "À quoi sert la poche extensible du bec du pélican ?",
+    "options": [
+      "À capturer temporairement des poissons",
+      "À stocker de l’air pendant le vol",
+      "À transporter durablement les œufs",
+      "À filtrer le sel de l’eau de mer"
+    ],
+    "answer": 0,
+    "explanation": "La poche fonctionne comme un filet temporaire pour saisir des poissons dans l’eau.",
+    "didYouKnow": "Les pélicans nichent souvent en colonies, parfois sur des îles ou des sites côtiers.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-012",
+    "animal": "Cigogne blanche",
+    "prompt": "Comment la cigogne blanche économise-t-elle de l’énergie pendant une partie de sa migration ?",
+    "options": [
+      "En planant sur les courants thermiques au-dessus des terres",
+      "En nageant dans les courants marins",
+      "En creusant des abris pour se reposer en vol",
+      "En battant constamment des ailes à vitesse maximale"
+    ],
+    "answer": 0,
+    "explanation": "Les ascendances d’air chaud lui permettent de gagner de l’altitude et de planer.",
+    "didYouKnow": "La cigogne blanche peut se rafraîchir en déféquant sur ses pattes, dont l’évaporation aide à dissiper la chaleur.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-013",
+    "animal": "Martin-pêcheur d’Europe",
+    "prompt": "Comment le martin-pêcheur d’Europe capture-t-il souvent un petit poisson ?",
+    "options": [
+      "Il plonge depuis un perchoir après l’avoir repéré",
+      "Il filtre la vase avec ses pattes",
+      "Il attrape le poisson dans les arbres",
+      "Il le poursuit sous l’eau en nageant longtemps"
+    ],
+    "answer": 0,
+    "explanation": "Il observe l’eau depuis un perchoir puis plonge rapidement pour saisir sa proie.",
+    "didYouKnow": "Le martin-pêcheur creuse généralement une galerie de nidification dans une berge.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-014",
+    "animal": "Corbeau freux",
+    "prompt": "Quelle aptitude a été observée chez plusieurs espèces de corvidés ?",
+    "options": [
+      "Utiliser ou modifier des objets pour accéder à de la nourriture",
+      "Produire du lait pour leurs oisillons",
+      "Respirer sous l’eau grâce à leurs plumes",
+      "Cultiver des graines dans des cavités"
+    ],
+    "answer": 0,
+    "explanation": "Des corvidés utilisent parfois des outils pour atteindre des aliments autrement difficiles d’accès.",
+    "didYouKnow": "La famille des corvidés comprend notamment les corbeaux, les corneilles et les geais.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-015",
+    "animal": "Geai des chênes",
+    "prompt": "Quel rôle le geai des chênes peut-il jouer dans la régénération des forêts ?",
+    "options": [
+      "Disperser des glands qu’il a cachés",
+      "Polliniser les chênes en buvant leur sève",
+      "Creuser des cavités où les glands germent sous l’eau",
+      "Empêcher les glands de tomber des arbres"
+    ],
+    "answer": 0,
+    "explanation": "Les glands oubliés dans ses cachettes peuvent germer loin de l’arbre parent.",
+    "didYouKnow": "Le geai des chênes possède une tache bleue rayée sur l’aile, bien visible dans son plumage brun.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-016",
+    "animal": "Mésange charbonnière",
+    "prompt": "Où la mésange charbonnière cherche-t-elle souvent de petits insectes ?",
+    "options": [
+      "Dans les fissures et sous les feuilles",
+      "Au fond des lacs profonds",
+      "Dans les terriers de grands mammifères",
+      "Sous le sable des plages"
+    ],
+    "answer": 0,
+    "explanation": "Elle explore les branches et le feuillage à la recherche de petits invertébrés.",
+    "didYouKnow": "Elle fréquente aussi volontiers les mangeoires en hiver.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-017",
+    "animal": "Rouge-gorge familier",
+    "prompt": "Pourquoi le rouge-gorge suit-il parfois une personne qui retourne la terre ?",
+    "options": [
+      "Le sol remué peut révéler des vers et d’autres invertébrés",
+      "Le bruit de la pelle attire les poissons vers la surface",
+      "Il récolte les graines semées par les outils",
+      "Il utilise la pelle pour construire son nid"
+    ],
+    "answer": 0,
+    "explanation": "Le travail du sol rend parfois accessibles de petites proies cachées dans la terre.",
+    "didYouKnow": "Le rouge-gorge défend souvent son territoire contre ses congénères.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-018",
+    "animal": "Chouette effraie",
+    "prompt": "Quelle structure aide la chouette effraie à capter les sons ?",
+    "options": [
+      "Son disque facial, qui dirige les sons vers les oreilles",
+      "Une huppe qui vibre comme une antenne",
+      "Une membrane transparente sur le bec",
+      "Des plumes rigides sous les pattes"
+    ],
+    "answer": 0,
+    "explanation": "La forme du disque facial contribue à canaliser les sons vers ses oreilles.",
+    "didYouKnow": "Son vol est silencieux grâce à la structure particulière de ses plumes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-019",
+    "animal": "Faucon pèlerin",
+    "prompt": "Quelle tactique de chasse est célèbre chez le faucon pèlerin ?",
+    "options": [
+      "Plonger rapidement depuis les airs pour intercepter un oiseau",
+      "Poursuivre longuement une proie sous l’eau",
+      "Construire un piège avec des brindilles",
+      "Chasser en encerclant sa proie en groupe au sol"
+    ],
+    "answer": 0,
+    "explanation": "Le faucon pèlerin peut piquer depuis les airs pour intercepter des oiseaux en vol.",
+    "didYouKnow": "Il niche sur des falaises et parfois sur de hauts bâtiments en ville.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-020",
+    "animal": "Buse variable",
+    "prompt": "Quelle proie la buse variable capture-t-elle fréquemment dans les paysages ouverts ?",
+    "options": [
+      "De petits mammifères comme les campagnols",
+      "Des méduses et petits crustacés",
+      "Du nectar récolté dans les fleurs",
+      "Des graines extraites des cônes"
+    ],
+    "answer": 0,
+    "explanation": "Son régime est opportuniste, mais les petits mammifères constituent souvent des proies importantes.",
+    "didYouKnow": "Elle peut planer en cercles au-dessus de son territoire.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-021",
+    "animal": "Vautour fauve",
+    "prompt": "Quel rôle écologique le vautour fauve remplit-il ?",
+    "options": [
+      "Consommer des carcasses et accélérer leur recyclage",
+      "Disperser des glands en les cachant",
+      "Nettoyer les écailles de poissons vivants",
+      "Polliniser les fleurs des falaises"
+    ],
+    "answer": 0,
+    "explanation": "En consommant des carcasses, il participe au recyclage de la matière organique.",
+    "didYouKnow": "Le vautour fauve peut profiter des courants ascendants pour planer sans battre continuellement des ailes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-022",
+    "animal": "Aigrette garzette",
+    "prompt": "Comment l’aigrette garzette capture-t-elle souvent des proies dans l’eau peu profonde ?",
+    "options": [
+      "Elle guette ou remue l’eau pour faire sortir des proies",
+      "Elle attrape des insectes avec une toile",
+      "Elle plonge depuis une grande hauteur",
+      "Elle creuse un terrier pour y piéger des poissons"
+    ],
+    "answer": 0,
+    "explanation": "Elle chasse poissons et invertébrés dans les zones humides peu profondes.",
+    "didYouKnow": "Ses doigts jaunes contrastent avec ses pattes sombres.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-023",
+    "animal": "Héron cendré",
+    "prompt": "Comment le héron cendré capture-t-il souvent un poisson ?",
+    "options": [
+      "Il reste immobile puis lance rapidement son bec",
+      "Il filtre l’eau avec des lamelles",
+      "Il aspire le poisson avec ses plumes",
+      "Il l’entoure avec son cou avant de le saisir"
+    ],
+    "answer": 0,
+    "explanation": "Le héron chasse souvent à l’affût et saisit rapidement les poissons avec son bec.",
+    "didYouKnow": "Il peut aussi chercher des proies dans les champs, loin de l’eau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-024",
+    "animal": "Grue cendrée",
+    "prompt": "À quoi peuvent servir les danses de la grue cendrée ?",
+    "options": [
+      "Aux interactions sociales et à la parade",
+      "À construire un barrage de boue",
+      "À nourrir les adultes avec des poissons",
+      "À faire flotter le nid"
+    ],
+    "answer": 0,
+    "explanation": "Les sauts et mouvements d’ailes font partie des interactions et parades des grues.",
+    "didYouKnow": "Leurs cris portent loin grâce à leur trachée allongée et enroulée.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-025",
+    "animal": "Paon bleu",
+    "prompt": "À quoi sert surtout la longue traîne du paon mâle ?",
+    "options": [
+      "À la parade nuptiale",
+      "À creuser un terrier",
+      "À planer au-dessus de la mer",
+      "À réguler sa température en nageant"
+    ],
+    "answer": 0,
+    "explanation": "Le mâle déploie ses plumes colorées lors de parades destinées aux partenaires.",
+    "didYouKnow": "Le paon bleu se nourrit au sol d’une variété d’aliments, dont des graines, des fruits et de petits animaux.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-026",
+    "animal": "Autruche",
+    "prompt": "Qui participe généralement à l’incubation des œufs d’autruche pendant la nuit ?",
+    "options": [
+      "Le mâle",
+      "La femelle seule",
+      "Les deux parents côte à côte",
+      "Un autre mâle du groupe"
+    ],
+    "answer": 0,
+    "explanation": "Le mâle couve la nuit, tandis que la femelle couve surtout le jour.",
+    "didYouKnow": "Les œufs d’autruche sont les plus grands parmi les oiseaux vivants.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-027",
+    "animal": "Pigeon biset",
+    "prompt": "Quels indices un pigeon peut-il combiner pour retrouver son pigeonnier ?",
+    "options": [
+      "Des repères visuels et des indices liés au soleil ou au champ magnétique",
+      "Les odeurs de fleurs uniquement",
+      "Les empreintes laissées par ses congénères",
+      "Les ultrasons émis par les bâtiments"
+    ],
+    "answer": 0,
+    "explanation": "L’orientation des pigeons peut mobiliser plusieurs repères environnementaux plutôt qu’un seul indice.",
+    "didYouKnow": "Les pigeons urbains descendent de pigeons domestiques issus du biset.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-028",
+    "animal": "Tourterelle turque",
+    "prompt": "De quoi la tourterelle turque se nourrit-elle principalement ?",
+    "options": [
+      "De graines",
+      "De méduses",
+      "De bois vivant",
+      "De mollusques marins"
+    ],
+    "answer": 0,
+    "explanation": "Elle consomme surtout des graines et fréquente souvent les espaces habités.",
+    "didYouKnow": "Son collier noir à l’arrière du cou aide à la reconnaître.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-029",
+    "animal": "Vanneau huppé",
+    "prompt": "Comment le vanneau huppé peut-il détourner un prédateur de son nid ?",
+    "options": [
+      "En simulant un comportement de blessure",
+      "En lançant des pierres avec son bec",
+      "En couvrant les œufs de plumes lumineuses",
+      "En appelant un mammifère prédateur"
+    ],
+    "answer": 0,
+    "explanation": "Un adulte peut attirer l’attention loin du nid par une parade de diversion.",
+    "didYouKnow": "Il fréquente souvent les prairies humides et les champs.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-030",
+    "animal": "Bécasseau variable",
+    "prompt": "À quoi sert le bec du bécasseau lorsqu’il cherche sa nourriture dans la vase ?",
+    "options": [
+      "À sonder le substrat pour trouver de petits invertébrés",
+      "À casser des noix dures",
+      "À porter ses poussins en vol",
+      "À filtrer les algues de l’air"
+    ],
+    "answer": 0,
+    "explanation": "Son bec explore la vase où se cachent de petits animaux.",
+    "didYouKnow": "Pendant la migration, le bécasseau variable peut se rassembler en groupes nombreux sur les vasières.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-031",
+    "animal": "Huîtrier pie",
+    "prompt": "Comment l’huîtrier pie ouvre-t-il certaines proies à coquille ?",
+    "options": [
+      "En utilisant son bec robuste pour les ouvrir ou les sonder",
+      "En dissolvant la coquille avec du venin",
+      "En brisant la coquille avec ses ailes",
+      "En avalant des pierres pour l’ouvrir dans le jabot"
+    ],
+    "answer": 0,
+    "explanation": "Son bec permet d’ouvrir des mollusques ou de chercher des vers, selon la technique employée.",
+    "didYouKnow": "L’huîtrier pie a un long bec rouge orangé et des pattes de la même couleur.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-032",
+    "animal": "Avocette élégante",
+    "prompt": "Comment l’avocette élégante capture-t-elle souvent de petites proies ?",
+    "options": [
+      "Elle balaie l’eau peu profonde avec son bec recourbé vers le haut",
+      "Elle plonge à grande profondeur depuis les airs",
+      "Elle creuse les troncs avec ses pattes",
+      "Elle attrape les insectes avec une langue collante"
+    ],
+    "answer": 0,
+    "explanation": "Elle déplace son bec dans l’eau peu profonde pour capturer de petits invertébrés.",
+    "didYouKnow": "L’avocette élégante aménage son nid dans une petite dépression au sol, souvent près d’une zone humide.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-033",
+    "animal": "Mouette rieuse",
+    "prompt": "Pourquoi la mouette rieuse change-t-elle souvent de zones d’alimentation ?",
+    "options": [
+      "Elle exploite des ressources variées selon leur disponibilité",
+      "Elle dépend toujours d’une seule espèce de poisson",
+      "Elle ne peut manger qu’à marée haute",
+      "Elle se nourrit uniquement de graines de roseaux"
+    ],
+    "answer": 0,
+    "explanation": "Cette espèce opportuniste cherche de la nourriture sur l’eau comme sur la terre.",
+    "didYouKnow": "Son capuchon brun apparaît surtout pendant la saison de reproduction.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-034",
+    "animal": "Goéland argenté",
+    "prompt": "Quel comportement le goéland argenté peut-il utiliser pour ouvrir un coquillage ?",
+    "options": [
+      "Le laisser tomber sur une surface dure",
+      "Le couver dans le sable",
+      "Le frotter contre une plume",
+      "Le faire flotter jusqu’à ce qu’il s’ouvre"
+    ],
+    "answer": 0,
+    "explanation": "Il peut lâcher certains coquillages sur un sol dur pour briser leur coquille.",
+    "didYouKnow": "Son régime opportuniste comprend des ressources du littoral et de l’intérieur des terres.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-035",
+    "animal": "Sterne arctique",
+    "prompt": "Entre quelles régions la sterne arctique migre-t-elle souvent ?",
+    "options": [
+      "L’Arctique et l’Antarctique",
+      "Les Alpes et les Pyrénées",
+      "La Méditerranée et la mer Noire",
+      "Le Sahara et la forêt amazonienne"
+    ],
+    "answer": 0,
+    "explanation": "Elle migre entre les zones de reproduction arctiques et les zones non reproductrices antarctiques.",
+    "didYouKnow": "La sterne arctique niche souvent au sol, près des côtes ou sur des îles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-036",
+    "animal": "Macareux moine",
+    "prompt": "Comment le macareux moine transporte-t-il parfois plusieurs poissons ?",
+    "options": [
+      "Il les maintient en travers de son bec",
+      "Il les range dans une poche ventrale",
+      "Il les attache à ses pattes",
+      "Il les stocke dans les plumes de sa queue"
+    ],
+    "answer": 0,
+    "explanation": "Des aspérités dans le bec aident le macareux à maintenir plusieurs petits poissons.",
+    "didYouKnow": "Il creuse souvent son terrier de reproduction dans un sol meuble.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-037",
+    "animal": "Cormoran huppé",
+    "prompt": "Pourquoi le cormoran huppé plonge-t-il sous l’eau ?",
+    "options": [
+      "Pour poursuivre des poissons",
+      "Pour récolter le pollen des plantes aquatiques",
+      "Pour respirer dans une grotte immergée",
+      "Pour construire son nid au fond de la mer"
+    ],
+    "answer": 0,
+    "explanation": "Ses pieds palmés le propulsent lorsqu’il poursuit des poissons sous la surface.",
+    "didYouKnow": "Ses doigts palmés l’aident à se propulser sous l’eau.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-038",
+    "animal": "Fou de Bassan",
+    "prompt": "Comment le fou de Bassan capture-t-il souvent des poissons ?",
+    "options": [
+      "En plongeant dans la mer depuis les airs",
+      "En filtrant la vase avec son bec",
+      "En construisant des nids sous l’eau",
+      "En pêchant avec une brindille"
+    ],
+    "answer": 0,
+    "explanation": "Il repère des poissons puis plonge dans l’eau pour les attraper.",
+    "didYouKnow": "Les fous de Bassan se reproduisent souvent en colonies très denses sur des falaises ou des îlots.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-039",
+    "animal": "Pingouin torda",
+    "prompt": "À quoi servent principalement les ailes du pingouin torda sous l’eau ?",
+    "options": [
+      "À se propulser en nageant",
+      "À creuser des trous dans la glace",
+      "À filtrer le plancton",
+      "À porter les œufs"
+    ],
+    "answer": 0,
+    "explanation": "Ses ailes courtes et rigides fonctionnent comme des nageoires pendant la plongée.",
+    "didYouKnow": "Le pingouin torda vit dans l’Atlantique Nord, contrairement aux manchots de l’hémisphère Sud.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-040",
+    "animal": "Grèbe huppé",
+    "prompt": "Comment le grèbe huppé transporte-t-il parfois ses poussins ?",
+    "options": [
+      "Sur son dos, parmi ses plumes",
+      "Dans une poche de son bec",
+      "Accrochés à ses ailes en vol",
+      "Sous ses pattes en nageant"
+    ],
+    "answer": 0,
+    "explanation": "Les jeunes grèbes peuvent monter sur le dos d’un parent qui nage.",
+    "didYouKnow": "Ses pattes placées vers l’arrière l’aident à nager, mais rendent la marche maladroite.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-041",
+    "animal": "Foulque macroule",
+    "prompt": "Quelle caractéristique distingue souvent la foulque macroule de nombreux canards ?",
+    "options": [
+      "Ses doigts lobés plutôt qu’une large palmure",
+      "Son bec courbé comme celui d’un rapace",
+      "Des branchies cachées sous les ailes",
+      "Une queue préhensile"
+    ],
+    "answer": 0,
+    "explanation": "Les lobes de peau sur ses doigts aident à nager et à marcher sur la végétation humide.",
+    "didYouKnow": "Son bec et son front blancs sont visibles de loin.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-042",
+    "animal": "Martin-pêcheur d’Europe",
+    "prompt": "Pourquoi le martin-pêcheur doit-il tenir compte de la réfraction lorsqu’il plonge ?",
+    "options": [
+      "La lumière change l’apparence de la position des proies en passant dans l’eau",
+      "Il doit voir dans le noir total",
+      "Il voit les poissons à travers les rochers",
+      "Il repère les proies par écholocation"
+    ],
+    "answer": 0,
+    "explanation": "Le passage de l’air à l’eau dévie la lumière, ce qui décale l’image de la proie.",
+    "didYouKnow": "Plusieurs espèces de martins-pêcheurs chassent aussi des proies terrestres.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-043",
+    "animal": "Guêpier d’Europe",
+    "prompt": "Comment le guêpier d’Europe se débarrasse-t-il souvent du dard d’une abeille capturée ?",
+    "options": [
+      "Il frappe ou frotte l’insecte contre un perchoir",
+      "Il souffle dessus jusqu’à faire tomber le dard",
+      "Il l’immerge dans l’eau salée",
+      "Il demande à un autre oiseau de le retirer"
+    ],
+    "answer": 0,
+    "explanation": "Il peut frotter l’insecte contre un support avant de l’avaler.",
+    "didYouKnow": "Le guêpier d’Europe migre vers l’Afrique subsaharienne pour y passer l’hiver.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-044",
+    "animal": "Rollier d’Europe",
+    "prompt": "Où le rollier d’Europe établit-il souvent son nid ?",
+    "options": [
+      "Dans une cavité, parfois un ancien trou d’arbre",
+      "Dans une toile d’araignée",
+      "Sous l’eau entre des racines",
+      "Dans un nid flottant de roseaux"
+    ],
+    "answer": 0,
+    "explanation": "Il utilise des cavités naturelles ou creusées par d’autres espèces pour se reproduire.",
+    "didYouKnow": "Il chasse fréquemment depuis un perchoir dégagé.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-045",
+    "animal": "Huppe fasciée",
+    "prompt": "Comment la huppe fasciée trouve-t-elle souvent des insectes dans le sol ?",
+    "options": [
+      "Elle sonde le substrat avec son long bec",
+      "Elle filtre l’eau avec son plumage",
+      "Elle creuse avec ses ailes",
+      "Elle utilise l’écholocation"
+    ],
+    "answer": 0,
+    "explanation": "Elle enfonce son bec dans la terre ou les feuilles mortes pour rechercher des invertébrés.",
+    "didYouKnow": "Sa huppe peut se déployer lorsqu’elle est excitée ou en parade.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-046",
+    "animal": "Coucou gris",
+    "prompt": "Quelle stratégie reproductive caractérise le coucou gris ?",
+    "options": [
+      "Il pond souvent dans le nid d’une autre espèce",
+      "Il élève toujours seul une grande colonie",
+      "Il dépose ses œufs sans nid dans les arbres",
+      "Il nourrit les poussins d’autres espèces sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Le coucou gris pratique le parasitisme de couvée : des hôtes incubent son œuf et élèvent souvent le jeune.",
+    "didYouKnow": "Le coucou gris adulte consomme notamment des chenilles, y compris des espèces velues.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-047",
+    "animal": "Loriot d’Europe",
+    "prompt": "Quel type de nid le loriot d’Europe construit-il souvent ?",
+    "options": [
+      "Une coupe suspendue dans la fourche de branches",
+      "Un terrier dans une dune",
+      "Une cavité remplie d’eau",
+      "Un nid flottant attaché à un poisson"
+    ],
+    "answer": 0,
+    "explanation": "La femelle tisse un nid en forme de coupe, souvent suspendu entre des branches.",
+    "didYouKnow": "Le mâle jaune vif peut être difficile à observer dans le feuillage.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-048",
+    "animal": "Merle noir",
+    "prompt": "Comment le merle noir cherche-t-il souvent des vers ?",
+    "options": [
+      "Il fouille le sol en observant et en écoutant",
+      "Il plonge sous les feuilles pour les aspirer",
+      "Il utilise des ultrasons",
+      "Il suit les racines avec le bec fermé"
+    ],
+    "answer": 0,
+    "explanation": "Il cherche au sol et peut détecter ses proies par ses sens et l’observation.",
+    "didYouKnow": "Il peut utiliser une pierre comme enclume pour casser certains escargots.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-049",
+    "animal": "Grive musicienne",
+    "prompt": "Pourquoi la grive musicienne frappe-t-elle parfois un escargot contre une pierre ?",
+    "options": [
+      "Pour casser sa coquille et accéder au corps",
+      "Pour faire sécher la coquille",
+      "Pour attirer les poissons",
+      "Pour décorer son nid"
+    ],
+    "answer": 0,
+    "explanation": "Elle utilise parfois une pierre comme enclume pour ouvrir certains escargots.",
+    "didYouKnow": "La grive musicienne produit un chant varié, souvent entendu au début de la saison de reproduction.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-050",
+    "animal": "Étourneau sansonnet",
+    "prompt": "Comment les étourneaux coordonnent-ils leurs grands vols en groupe ?",
+    "options": [
+      "Chaque oiseau ajuste ses mouvements en fonction de ses voisins",
+      "Un chef donne des ordres à toute la volée",
+      "Les oiseaux sont reliés par des fils invisibles",
+      "Ils suivent uniquement le champ gravitationnel"
+    ],
+    "answer": 0,
+    "explanation": "Les changements de direction émergent des réactions rapides entre individus proches.",
+    "didYouKnow": "Les étourneaux se rassemblent aussi en dortoirs communs à la tombée du jour.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-051",
+    "animal": "Cardinal rouge",
+    "prompt": "Quelle différence de plumage distingue généralement les sexes du cardinal rouge ?",
+    "options": [
+      "Le mâle est rouge vif et la femelle plus brunâtre",
+      "La femelle est rouge vif et le mâle entièrement brun",
+      "Le mâle est blanc et la femelle noire",
+      "Les deux sexes sont toujours identiques"
+    ],
+    "answer": 0,
+    "explanation": "Le mâle est rouge vif, tandis que la femelle est surtout brunâtre avec des touches rouges.",
+    "didYouKnow": "Les femelles cardinales chantent aussi, contrairement aux femelles de nombreux oiseaux chanteurs tempérés.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-052",
+    "animal": "Moqueur polyglotte",
+    "prompt": "Pourquoi le moqueur polyglotte porte-t-il ce nom ?",
+    "options": [
+      "Il imite les chants et cris d’autres espèces",
+      "Il produit des sons sous l’eau",
+      "Il possède plusieurs syrinx indépendantes",
+      "Il chante uniquement en duo"
+    ],
+    "answer": 0,
+    "explanation": "Il incorpore souvent à son chant des sons entendus chez d’autres oiseaux.",
+    "didYouKnow": "Des taches blanches sur ses ailes deviennent visibles lorsqu’il s’envole.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-053",
+    "animal": "Oiseau-lyre superbe",
+    "prompt": "Quelle faculté vocale est remarquable chez l’oiseau-lyre superbe ?",
+    "options": [
+      "Imiter une grande variété de sons entendus",
+      "Chanter sous l’eau sans respirer",
+      "Produire des ultrasons pour chasser",
+      "Parler avec des phrases humaines comprises"
+    ],
+    "answer": 0,
+    "explanation": "Il peut imiter les chants d’autres oiseaux et des sons de son environnement.",
+    "didYouKnow": "La queue du mâle se déploie en éventail pendant la parade.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-054",
+    "animal": "Calao rhinocéros",
+    "prompt": "Quel rôle le casque du calao rhinocéros peut-il jouer ?",
+    "options": [
+      "Participer à la résonance des appels et aux parades",
+      "Servir de poche pour transporter les poussins",
+      "Filtrer l’eau de pluie",
+      "Permettre de respirer sous le sol"
+    ],
+    "answer": 0,
+    "explanation": "Le casque creux peut influencer la résonance des vocalisations et intervient dans les parades.",
+    "didYouKnow": "Pendant la nidification, la femelle reste dans la cavité avec une ouverture réduite.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-055",
+    "animal": "Toucan toco",
+    "prompt": "Comment le grand bec du toucan toco peut-il contribuer à sa thermorégulation ?",
+    "options": [
+      "En participant aux échanges de chaleur avec l’environnement",
+      "En stockant de l’eau chaude",
+      "En créant un courant d’air par vibration",
+      "En couvrant ses yeux du soleil"
+    ],
+    "answer": 0,
+    "explanation": "Le bec richement vascularisé peut contribuer à dissiper la chaleur lorsque le flux sanguin varie.",
+    "didYouKnow": "Comme beaucoup d’oiseaux grimpeurs, le toucan a deux doigts dirigés vers l’avant et deux vers l’arrière.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-056",
+    "animal": "Perruche ondulée",
+    "prompt": "Comment les perruches ondulées sauvages réagissent-elles souvent aux pluies dans les zones arides ?",
+    "options": [
+      "Elles se déplacent vers les zones où eau et graines deviennent disponibles",
+      "Elles s’enfouissent dans le sable jusqu’à la saison sèche",
+      "Elles migrent toutes vers les côtes",
+      "Elles cessent de se nourrir pendant plusieurs semaines"
+    ],
+    "answer": 0,
+    "explanation": "Leur nomadisme les amène vers les ressources temporaires qui apparaissent après les pluies.",
+    "didYouKnow": "Elles nichent dans des cavités, notamment dans les arbres.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-057",
+    "animal": "Kakapo",
+    "prompt": "Quelle caractéristique distingue le kakapo de la plupart des perroquets ?",
+    "options": [
+      "Il est nocturne et incapable de voler",
+      "Il vit exclusivement en mer",
+      "Il possède des branchies",
+      "Il migre chaque hiver vers l’Antarctique"
+    ],
+    "answer": 0,
+    "explanation": "Le kakapo est un perroquet terrestre, nocturne et incapable de voler.",
+    "didYouKnow": "Les mâles kakapos produisent de puissants appels graves pour attirer des partenaires depuis leurs arènes de parade.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-058",
+    "animal": "Kiwi brun",
+    "prompt": "Comment le kiwi localise-t-il souvent des invertébrés dans la litière du sol ?",
+    "options": [
+      "Grâce à ses narines situées près de l’extrémité du bec",
+      "Avec des vibrisses sous les ailes",
+      "En détectant la lumière infrarouge de ses œufs",
+      "En écoutant les racines pousser"
+    ],
+    "answer": 0,
+    "explanation": "Ses narines terminales et son odorat l’aident à trouver des proies dans le sol.",
+    "didYouKnow": "Les kiwis pondent des œufs très grands par rapport à leur corps.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-059",
+    "animal": "Casoar à casque",
+    "prompt": "Quel est l’habitat principal du casoar à casque ?",
+    "options": [
+      "Les forêts tropicales de Nouvelle-Guinée et du nord-est de l’Australie",
+      "Les banquises antarctiques",
+      "Les déserts de haute altitude",
+      "Les récifs coralliens"
+    ],
+    "answer": 0,
+    "explanation": "Il vit dans les forêts tropicales où il consomme notamment des fruits tombés.",
+    "didYouKnow": "Le casoar porte sur le cou des zones de peau nue vivement colorées, notamment bleues et rouges.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-060",
+    "animal": "Émeu",
+    "prompt": "Quelle couleur ont généralement les œufs d’émeu ?",
+    "options": [
+      "Vert foncé",
+      "Bleu pâle",
+      "Blanc tacheté de rouge",
+      "Jaune vif"
+    ],
+    "answer": 0,
+    "explanation": "La coquille des œufs d’émeu est d’un vert foncé caractéristique.",
+    "didYouKnow": "Le mâle assure habituellement la couvaison.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-061",
+    "animal": "Hoazin",
+    "prompt": "Comment le hoazin digère-t-il une grande quantité de feuilles ?",
+    "options": [
+      "Par fermentation microbienne dans une partie élargie de l’œsophage",
+      "Avec un gésier rempli de poissons",
+      "En avalant des pierres chauffées",
+      "En transformant les feuilles en nectar"
+    ],
+    "answer": 0,
+    "explanation": "La fermentation microbienne dans son jabot et son œsophage aide à dégrader les végétaux.",
+    "didYouKnow": "Le hoazin vit dans les forêts riveraines et les plaines inondables des bassins de l’Amazone et de l’Orénoque.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-062",
+    "animal": "Cacatoès noir à queue rouge",
+    "prompt": "Avec quoi le cacatoès noir à queue rouge ouvre-t-il souvent les fruits ligneux ?",
+    "options": [
+      "Son bec puissant",
+      "Ses pattes palmées",
+      "Une poche extensible sous le bec",
+      "Une griffe située sur son cou"
+    ],
+    "answer": 0,
+    "explanation": "Son bec robuste lui permet de décortiquer des graines et fruits résistants.",
+    "didYouKnow": "Les femelles et les mâles présentent des marques de plumage différentes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-063",
+    "animal": "Loriquet arc-en-ciel",
+    "prompt": "Comment la langue du loriquet arc-en-ciel est-elle adaptée au nectar ?",
+    "options": [
+      "Son extrémité porte des papilles en forme de brosse",
+      "Elle est creuse comme une paille rigide",
+      "Elle se divise en quatre becs",
+      "Elle porte des crochets pour attraper des poissons"
+    ],
+    "answer": 0,
+    "explanation": "Les papilles de sa langue recueillent le nectar et le pollen des fleurs.",
+    "didYouKnow": "Les loriquets arc-en-ciel sont souvent observés en groupes bruyants dans les arbres.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-064",
+    "animal": "Ara hyacinthe",
+    "prompt": "Quel aliment l’ara hyacinthe peut-il casser avec son bec puissant ?",
+    "options": [
+      "Des noix de palmiers",
+      "Des œufs de tortue géants",
+      "Des coquilles de récifs",
+      "Des pierres volcaniques"
+    ],
+    "answer": 0,
+    "explanation": "Son bec puissant ouvre des noix et graines de palmier très dures.",
+    "didYouKnow": "L’ara hyacinthe niche dans des cavités de grands arbres, notamment des palmiers.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-065",
+    "animal": "Perroquet éclectus",
+    "prompt": "Quelle différence de couleur existe entre les sexes du perroquet éclectus ?",
+    "options": [
+      "Le mâle est vert et la femelle surtout rouge et bleue",
+      "Le mâle est bleu et la femelle blanche",
+      "Les deux sexes sont entièrement noirs",
+      "La femelle est verte et le mâle rouge"
+    ],
+    "answer": 0,
+    "explanation": "Le dimorphisme est marqué : le mâle est vert, tandis que la femelle est rouge et bleue.",
+    "didYouKnow": "Le perroquet éclectus niche dans une cavité élevée, où la femelle défend parfois l’accès contre d’autres femelles.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-066",
+    "animal": "Inséparable de Fischer",
+    "prompt": "Comment un inséparable de Fischer transporte-t-il parfois du matériel pour son nid ?",
+    "options": [
+      "Il le coince dans les plumes de son croupion",
+      "Il le porte dans une poche sous la langue",
+      "Il l’attache avec un fil qu’il produit",
+      "Il le transporte avec ses doigts arrière"
+    ],
+    "answer": 0,
+    "explanation": "Il peut transporter des bandes végétales coincées dans les plumes du croupion.",
+    "didYouKnow": "L’inséparable de Fischer est originaire d’Afrique de l’Est.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-067",
+    "animal": "Bec-en-sabot",
+    "prompt": "Comment le bec-en-sabot capture-t-il souvent ses proies dans les marais ?",
+    "options": [
+      "Il reste à l’affût puis frappe rapidement",
+      "Il poursuit les poissons sur de longues distances en vol",
+      "Il filtre le plancton en nageant",
+      "Il creuse un terrier à chaque marée"
+    ],
+    "answer": 0,
+    "explanation": "Il chasse à l’affût dans les eaux peu profondes et saisit rapidement poissons ou amphibiens.",
+    "didYouKnow": "Ses grands doigts répartissent son poids et l’aident à se déplacer sur la végétation marécageuse.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-068",
+    "animal": "Ibis rouge",
+    "prompt": "Qu’est-ce qui contribue à la couleur rouge de l’ibis rouge ?",
+    "options": [
+      "Des caroténoïdes présents dans son alimentation",
+      "La lumière du soleil qui teint ses plumes",
+      "Une poussière rouge qu’il applique chaque jour",
+      "Le fer de son sang qui traverse les plumes"
+    ],
+    "answer": 0,
+    "explanation": "Les caroténoïdes de certains crustacés consommés contribuent à la pigmentation de ses plumes.",
+    "didYouKnow": "L’ibis rouge se rassemble souvent en groupes pour se reposer et se déplacer entre ses sites d’alimentation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-069",
+    "animal": "Spatule blanche",
+    "prompt": "Comment la spatule blanche utilise-t-elle son bec aplati ?",
+    "options": [
+      "Elle le balaie dans l’eau pour détecter et capturer de petites proies",
+      "Elle creuse le bois dur",
+      "Elle coupe les tiges comme une cisaille",
+      "Elle pique les poissons pour les porter"
+    ],
+    "answer": 0,
+    "explanation": "Le bec sensible en forme de spatule lui permet de capturer de petits animaux aquatiques.",
+    "didYouKnow": "La spatule blanche peut nicher en colonie dans les arbres ou les roselières.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-070",
+    "animal": "Oie à tête barrée",
+    "options": [
+      "Une hémoglobine ayant une forte affinité pour l’oxygène",
+      "Une hémoglobine remplacée par de l’hémocyanine",
+      "Une hémoglobine dont l’affinité pour l’oxygène diminue fortement",
+      "Une absence d’hémoglobine dans les globules rouges"
+    ],
+    "answer": 0,
+    "explanation": "Son hémoglobine capte efficacement l’oxygène, ce qui contribue à ses performances en air raréfié.",
+    "didYouKnow": "Les bandes sombres de sa tête sont un signe distinctif de cette oie.",
+    "prompt": "Quelle adaptation aide l’oie à tête barrée à voler à très haute altitude ?",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-071",
+    "animal": "Échasse blanche",
+    "prompt": "Quelle adaptation aide l’échasse blanche à se nourrir dans les marais ?",
+    "options": [
+      "Ses longues pattes lui permettent de marcher en eau peu profonde",
+      "Ses pattes courtes l’aident à creuser les rochers",
+      "Ses ailes palmées filtrent la vase",
+      "Ses griffes s’ancrent aux poissons"
+    ],
+    "answer": 0,
+    "explanation": "Ses longues pattes lui donnent accès à des proies dans les eaux peu profondes.",
+    "didYouKnow": "L’échasse blanche niche au sol dans les zones humides, souvent en petites colonies.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-072",
+    "animal": "Jacana à longue queue",
+    "prompt": "Comment le jacana se déplace-t-il sur les plantes aquatiques flottantes ?",
+    "options": [
+      "Avec ses longs doigts qui répartissent son poids",
+      "Avec des ventouses sous les ailes",
+      "En courant directement sur l’eau",
+      "En utilisant des feuilles comme raquettes"
+    ],
+    "answer": 0,
+    "explanation": "Ses doigts très longs répartissent son poids sur la végétation flottante.",
+    "didYouKnow": "Chez plusieurs jacanas, le mâle assume une grande part de l’incubation.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-073",
+    "animal": "Barge rousse",
+    "prompt": "Quelle migration est remarquable chez certaines barges rousses ?",
+    "options": [
+      "Un vol au long cours entre l’Alaska et la Nouvelle-Zélande",
+      "Une migration quotidienne entre deux arbres voisins",
+      "Un trajet sous-marin d’un continent à l’autre",
+      "Un déplacement uniquement à pied"
+    ],
+    "answer": 0,
+    "explanation": "Certaines populations effectuent de très longs vols sans escale entre l’Alaska et la Nouvelle-Zélande.",
+    "didYouKnow": "En plumage nuptial, le dessous de la barge rousse prend une teinte rousse caractéristique.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-074",
+    "animal": "Pigeon biset",
+    "prompt": "Quel type de site le pigeon biset sauvage utilise-t-il naturellement pour nicher ?",
+    "options": [
+      "Des cavités et corniches de falaises",
+      "Des plateformes flottantes de roseaux",
+      "Des terriers dans les prairies",
+      "Des branches fines au sommet des arbres"
+    ],
+    "answer": 0,
+    "explanation": "Le biset sauvage niche notamment sur des falaises, dont les corniches ressemblent à certains rebords de bâtiments.",
+    "didYouKnow": "Le plumage du pigeon biset sauvage présente souvent deux barres sombres sur les ailes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-075",
+    "animal": "Cincle plongeur",
+    "prompt": "Comment le cincle plongeur se nourrit-il dans les rivières ?",
+    "options": [
+      "Il marche ou nage sous l’eau pour chercher des invertébrés",
+      "Il plane au-dessus des vagues pour filtrer le plancton",
+      "Il creuse des nids sous la vase",
+      "Il capture uniquement des insectes en plein ciel"
+    ],
+    "answer": 0,
+    "explanation": "Il plonge et se déplace au fond des cours d’eau pour chercher des larves et d’autres invertébrés.",
+    "didYouKnow": "Le cincle plongeur se reconnaît notamment à sa poitrine blanche bien visible.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-076",
+    "animal": "Fauvette à tête noire",
+    "prompt": "Quel changement migratoire concerne certaines populations de fauvettes à tête noire d’Europe ?",
+    "options": [
+      "Elles hivernent parfois en Europe occidentale plutôt qu’au sud",
+      "Elles traversent l’Atlantique en nageant",
+      "Elles migrent uniquement vers le nord en automne",
+      "Elles passent l’hiver sous la glace"
+    ],
+    "answer": 0,
+    "explanation": "Certaines populations ont modifié leur destination hivernale et restent en Europe occidentale.",
+    "didYouKnow": "Chez cette espèce, le mâle porte une calotte noire tandis que celle de la femelle est brunâtre.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-077",
+    "animal": "Mésange bleue",
+    "prompt": "Comment la mésange bleue atteint-elle parfois des insectes sous une branche ?",
+    "options": [
+      "Elle se suspend la tête en bas",
+      "Elle utilise une toile pour se balancer",
+      "Elle creuse un tunnel dans la branche",
+      "Elle aspire les insectes par les narines"
+    ],
+    "answer": 0,
+    "explanation": "Ses pattes agiles lui permettent d’explorer différentes faces des rameaux.",
+    "didYouKnow": "Elle utilise volontiers les nichoirs à cavité.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-078",
+    "animal": "Troglodyte mignon",
+    "prompt": "Pourquoi le troglodyte mignon fouille-t-il les amas de branches ?",
+    "options": [
+      "Pour y trouver de petits invertébrés",
+      "Pour récolter des plumes de paon",
+      "Pour pêcher des poissons cachés",
+      "Pour pondre directement dans le bois"
+    ],
+    "answer": 0,
+    "explanation": "Les espaces encombrés abritent de petites proies qu’il recherche activement.",
+    "didYouKnow": "Malgré sa petite taille, son chant est puissant.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-079",
+    "animal": "Bec-croisé des sapins",
+    "prompt": "Comment le bec-croisé des sapins ouvre-t-il les écailles des cônes ?",
+    "options": [
+      "Avec les pointes croisées de son bec",
+      "En injectant de l’acide avec sa langue",
+      "En cassant le cône contre les rochers",
+      "En le réchauffant sous ses ailes"
+    ],
+    "answer": 0,
+    "explanation": "Ses mandibules croisées écartent les écailles afin d’extraire les graines.",
+    "didYouKnow": "Chez le bec-croisé des sapins, le mâle adulte est souvent rougeâtre et la femelle plutôt verdâtre ou jaunâtre.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-080",
+    "animal": "Pic vert",
+    "prompt": "Pourquoi le pic vert visite-t-il souvent les pelouses ?",
+    "options": [
+      "Pour rechercher des fourmis",
+      "Pour boire le nectar des graminées",
+      "Pour couver dans l’herbe",
+      "Pour attraper des poissons de mare"
+    ],
+    "answer": 0,
+    "explanation": "Les fourmis et leurs larves constituent une part importante de son alimentation.",
+    "didYouKnow": "Le pic vert creuse sa cavité de nidification dans le bois des arbres.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-081",
+    "animal": "Grand corbeau",
+    "prompt": "Comment le grand corbeau exploite-t-il les ascendances dans les montagnes ?",
+    "options": [
+      "Il plane pour économiser de l’énergie",
+      "Il filtre des graines au-dessus des forêts",
+      "Il crée des bulles qui attirent ses proies",
+      "Il creuse son nid dans le courant d’air"
+    ],
+    "answer": 0,
+    "explanation": "Ses ailes puissantes lui permettent d’utiliser les courants ascendants pour planer.",
+    "didYouKnow": "Il peut pratiquer des jeux aériens, notamment des roulades.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-082",
+    "animal": "Pie bavarde",
+    "prompt": "Que peut faire la pie bavarde quand elle trouve une nourriture abondante ?",
+    "options": [
+      "La cacher pour la retrouver plus tard",
+      "La transformer en nectar",
+      "La placer dans le nid d’une autre espèce",
+      "L’enterrer toujours au même endroit"
+    ],
+    "answer": 0,
+    "explanation": "Les pies peuvent mettre des aliments en cache et se souvenir de nombreux emplacements.",
+    "didYouKnow": "La pie appartient à la famille des corvidés.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-083",
+    "animal": "Kéa",
+    "prompt": "Quel comportement exploratoire est associé au kéa ?",
+    "options": [
+      "Manipuler des objets avec son bec et ses pattes",
+      "Construire des barrages de boue",
+      "Pêcher en lançant des pierres",
+      "Cacher ses œufs dans des nids de termites"
+    ],
+    "answer": 0,
+    "explanation": "Le kéa est connu pour sa curiosité et sa capacité à manipuler des objets.",
+    "didYouKnow": "Il vit dans les régions montagneuses de Nouvelle-Zélande.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-084",
+    "animal": "Tinamou élégant",
+    "prompt": "Où le tinamou élégant construit-il généralement son nid ?",
+    "options": [
+      "Dans une petite dépression au sol",
+      "Dans une cavité sous l’eau",
+      "Au sommet d’une falaise nue",
+      "Dans une poche de plumes du parent"
+    ],
+    "answer": 0,
+    "explanation": "Les tinamous nichent généralement au sol et dissimulent leurs œufs dans la végétation.",
+    "didYouKnow": "Le plumage du tinamou élégant se confond avec les feuilles et les herbes du sol.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-085",
+    "animal": "Tisserin gendarme",
+    "prompt": "Comment le tisserin mâle construit-il son nid ?",
+    "options": [
+      "En tressant des fibres végétales",
+      "En collant du sable avec de la salive",
+      "En creusant une cavité dans la roche",
+      "En nouant uniquement des toiles d’araignée"
+    ],
+    "answer": 0,
+    "explanation": "Il entrelace des herbes ou des feuilles pour former une structure suspendue.",
+    "didYouKnow": "Chez plusieurs tisserins, le mâle porte un plumage nuptial jaune vif et contrasté.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-086",
+    "animal": "Républicain social",
+    "prompt": "Pourquoi les nids du républicain social sont-ils remarquables ?",
+    "options": [
+      "Ils forment de grandes structures collectives occupées par plusieurs couples",
+      "Ils sont entièrement construits sous l’eau",
+      "Ils sont suspendus aux ailes des adultes",
+      "Ils sont bâtis uniquement avec des os de poissons"
+    ],
+    "answer": 0,
+    "explanation": "Les colonies construisent une grande structure de nids sous un toit commun.",
+    "didYouKnow": "Le républicain social construit ses nids collectifs dans les régions sèches d’Afrique australe.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-087",
+    "animal": "Martinet noir",
+    "prompt": "Comment le martinet noir passe-t-il une grande partie de sa vie ?",
+    "options": [
+      "En vol",
+      "Au fond des rivières",
+      "Dans les terriers de rongeurs",
+      "Sur les branches en marchant"
+    ],
+    "answer": 0,
+    "explanation": "Il se nourrit, boit et collecte parfois du matériel en vol, passant beaucoup de temps dans les airs.",
+    "didYouKnow": "Le martinet noir colle avec sa salive les matériaux de son nid dans des cavités de bâtiments ou de falaises.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-088",
+    "animal": "Engoulevent d’Europe",
+    "prompt": "Pourquoi l’engoulevent d’Europe est-il surtout actif au crépuscule et la nuit ?",
+    "options": [
+      "Il chasse des insectes nocturnes ou crépusculaires",
+      "Il évite la lumière car il ne voit pas le jour",
+      "Il couve uniquement dans l’obscurité",
+      "Il se nourrit de champignons qui sortent la nuit"
+    ],
+    "answer": 0,
+    "explanation": "Son activité coïncide avec la disponibilité d’insectes volants le soir et la nuit.",
+    "didYouKnow": "Son plumage cryptique le rend difficile à repérer lorsqu’il est posé au sol.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-089",
+    "animal": "Paruline jaune",
+    "prompt": "Dans quel milieu la paruline jaune installe-t-elle souvent son nid ?",
+    "options": [
+      "Dans des arbustes près de l’eau ou de milieux humides",
+      "Dans des cavernes calcaires profondes",
+      "Sous les glaces polaires",
+      "Dans des terriers désertiques"
+    ],
+    "answer": 0,
+    "explanation": "Elle niche souvent dans des arbustes le long des cours d’eau ou des zones humides.",
+    "didYouKnow": "Le mâle porte généralement des stries rousses sur la poitrine jaune.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-090",
+    "animal": "Oiseau de paradis superbe",
+    "prompt": "À quoi servent les plumes ornementales du mâle pendant sa parade ?",
+    "options": [
+      "À présenter des signaux visuels aux partenaires",
+      "À isoler le nid sous l’eau",
+      "À filtrer les graines dans le sol",
+      "À porter les petits en vol"
+    ],
+    "answer": 0,
+    "explanation": "Le mâle déploie ses plumes dans une parade qui participe au choix du partenaire.",
+    "didYouKnow": "La femelle de l’oiseau de paradis superbe construit seule un nid en coupe dans un arbre.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-091",
+    "animal": "Pic glandivore",
+    "prompt": "Pourquoi le pic glandivore perce-t-il des trous dans des arbres ou des poteaux ?",
+    "options": [
+      "Pour y stocker des glands",
+      "Pour y faire pousser des champignons comestibles",
+      "Pour piéger les insectes à distance",
+      "Pour recueillir uniquement l’eau de pluie"
+    ],
+    "answer": 0,
+    "explanation": "Il crée des greniers de stockage en insérant des glands dans des cavités.",
+    "didYouKnow": "Le pic glandivore vit en groupes familiaux qui coopèrent pour défendre leur territoire.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-092",
+    "animal": "Pic tridactyle",
+    "prompt": "Combien de doigts possède chaque pied chez le pic tridactyle ?",
+    "options": [
+      "Trois",
+      "Deux",
+      "Quatre",
+      "Cinq"
+    ],
+    "answer": 0,
+    "explanation": "Comme son nom l’indique, il a trois doigts à chaque pied.",
+    "didYouKnow": "Il recherche souvent des insectes dans les arbres morts ou affaiblis.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-093",
+    "animal": "Coucou geai",
+    "prompt": "Quelle espèce élève fréquemment le jeune coucou geai dans certaines régions ?",
+    "options": [
+      "La pie",
+      "Le manchot empereur",
+      "Le flamant rose",
+      "L’albatros"
+    ],
+    "answer": 0,
+    "explanation": "Le coucou geai parasite notamment les nids de pies dans certaines régions.",
+    "didYouKnow": "Le coucou geai quitte généralement ses zones de reproduction pour hiverner plus au sud.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-094",
+    "animal": "Ani à bec lisse",
+    "prompt": "Quelle organisation de nidification l’ani à bec lisse peut-il adopter ?",
+    "options": [
+      "Plusieurs couples peuvent partager un nid collectif",
+      "Chaque individu niche sous l’eau",
+      "Les poissons couvent ses œufs",
+      "Le groupe construit un nid suspendu à chaque branche"
+    ],
+    "answer": 0,
+    "explanation": "Des groupes peuvent construire un nid commun où plusieurs femelles pondent.",
+    "didYouKnow": "L’ani à bec lisse peut s’associer à d’autres individus pour rechercher des insectes dans les pâturages.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-095",
+    "animal": "Pigeon couronné de Victoria",
+    "prompt": "Comment le pigeon couronné de Victoria cherche-t-il sa nourriture ?",
+    "options": [
+      "En picorant fruits et graines au sol forestier",
+      "En chassant des poissons sous l’eau",
+      "En filtrant le nectar avec ses ailes",
+      "En creusant des nids dans des falaises"
+    ],
+    "answer": 0,
+    "explanation": "Il recherche au sol des fruits tombés et des graines dans la forêt.",
+    "didYouKnow": "Sa grande huppe bleue est formée de plumes délicates.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-096",
+    "animal": "Dodo",
+    "prompt": "Quelles pressions ont contribué à l’extinction du dodo à l’île Maurice ?",
+    "options": [
+      "La chasse et les espèces introduites",
+      "Une migration vers l’Antarctique",
+      "Une transformation en mammifère",
+      "Une incapacité à manger des fruits"
+    ],
+    "answer": 0,
+    "explanation": "La chasse et les changements provoqués par les humains, dont des animaux introduits, ont participé à sa disparition.",
+    "didYouKnow": "Le dodo était endémique de l’île Maurice, dans l’océan Indien.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-097",
+    "animal": "Pigeon migrateur",
+    "prompt": "Quelle conséquence la chasse commerciale intensive a-t-elle eue sur le pigeon migrateur ?",
+    "options": [
+      "L’espèce s’est éteinte au début du XXe siècle",
+      "Elle a développé des ailes plus longues",
+      "Elle a quitté l’Amérique pour l’Asie",
+      "Elle est devenue un oiseau marin"
+    ],
+    "answer": 0,
+    "explanation": "La chasse à grande échelle et la destruction des habitats ont conduit à sa disparition.",
+    "didYouKnow": "Avant son déclin, le pigeon migrateur formait des rassemblements historiques comptant des millions d’individus.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-098",
+    "animal": "Ara de Spix",
+    "prompt": "Pourquoi l’ara de Spix est-il un exemple de conservation complexe ?",
+    "options": [
+      "Il a disparu de la nature et des programmes tentent de le réintroduire",
+      "Il vit uniquement dans les villes européennes",
+      "Il ne peut pas se reproduire en captivité",
+      "Il possède encore une population sauvage très abondante"
+    ],
+    "answer": 0,
+    "explanation": "Des oiseaux élevés en captivité ont été relâchés au Brésil dans le cadre d’efforts de réintroduction.",
+    "didYouKnow": "Son habitat naturel est la caatinga, un milieu sec du nord-est brésilien.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-099",
+    "animal": "Cacatoès noir des palmiers",
+    "prompt": "À quoi sert le bâton que le cacatoès noir des palmiers peut fabriquer ?",
+    "options": [
+      "À tambouriner sur un support pendant une parade",
+      "À pêcher des poissons dans un trou",
+      "À creuser une cavité de nid",
+      "À filtrer des graines du sol"
+    ],
+    "answer": 0,
+    "explanation": "Certains mâles façonnent un bâton et l’utilisent pour produire un tambourinement de parade.",
+    "didYouKnow": "Il possède une grande tache rouge nue sur la joue.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-100",
+    "animal": "Cacatoès rosalbin",
+    "prompt": "Quel type de nourriture le cacatoès rosalbin consomme-t-il souvent ?",
+    "options": [
+      "Des graines et des céréales",
+      "Du plancton exclusivement",
+      "Des poissons des récifs",
+      "Des feuilles de conifères uniquement"
+    ],
+    "answer": 0,
+    "explanation": "Il mange surtout des graines et végétaux, parfois dans les zones agricoles.",
+    "didYouKnow": "Son plumage rose et gris est très distinctif.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-101",
+    "animal": "Oie cendrée",
+    "prompt": "Pourquoi les oies cendrées volent-elles parfois en formation de V ?",
+    "options": [
+      "Les oiseaux suiveurs peuvent profiter des courants d’air créés par celui qui les précède",
+      "La forme permet de transporter le nid",
+      "Le V empêche les oiseaux de voir les prédateurs",
+      "La formation réduit le poids des ailes"
+    ],
+    "answer": 0,
+    "explanation": "Le sillage d’un oiseau peut fournir une portance supplémentaire à celui qui suit et réduire son effort.",
+    "didYouKnow": "L’oie cendrée a un bec orange et des pattes rosées, caractéristiques de son apparence.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-102",
+    "animal": "Harfang des neiges",
+    "prompt": "Comment le harfang des neiges repère-t-il parfois des campagnols sous la neige ?",
+    "options": [
+      "En écoutant leurs mouvements puis en plongeant dans la neige",
+      "En voyant directement à travers la neige",
+      "En détectant leurs couleurs ultraviolettes",
+      "En creusant avec ses ailes avant d’écouter"
+    ],
+    "answer": 0,
+    "explanation": "Son ouïe fine l’aide à localiser de petits mammifères cachés sous une couche de neige.",
+    "didYouKnow": "Son plumage clair aide au camouflage dans les paysages enneigés.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-103",
+    "animal": "Barge rousse",
+    "prompt": "Comment le long bec de la barge rousse l’aide-t-il à se nourrir ?",
+    "options": [
+      "En sondant la vase pour y trouver des invertébrés",
+      "En cassant les noyaux de fruits",
+      "En filtrant le plancton en plein vol",
+      "En creusant des cavités dans les arbres"
+    ],
+    "answer": 0,
+    "explanation": "Elle sonde la vase et les sols humides avec son bec pour trouver des vers et d’autres invertébrés.",
+    "didYouKnow": "Certaines populations effectuent un vol sans escale entre l’Alaska et la Nouvelle-Zélande.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-104",
+    "animal": "Grue cendrée",
+    "prompt": "Quelle particularité de la trachée de la grue cendrée contribue à la résonance de ses cris ?",
+    "options": [
+      "Elle est allongée et enroulée à l’intérieur du sternum.",
+      "Elle se divise en plusieurs branches parallèles dans le cou.",
+      "Elle forme un sac externe sous la peau de la gorge.",
+      "Elle traverse les cavités du bec avant de rejoindre les poumons."
+    ],
+    "answer": 0,
+    "explanation": "La trachée très longue et enroulée de la grue cendrée contribue à la résonance de ses appels, qui portent loin.",
+    "didYouKnow": "Les grues cendrées effectuent également des danses faites de sauts et de mouvements d’ailes.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-105",
+    "animal": "Cigogne blanche",
+    "prompt": "Quel comportement de nidification la cigogne blanche peut-elle montrer ?",
+    "options": [
+      "Réutiliser et agrandir un nid d’une année à l’autre",
+      "Creuser chaque année un terrier dans une berge",
+      "Suspendre son nid sous les branches fines",
+      "Pondre ses œufs sur le sol sans nid"
+    ],
+    "answer": 0,
+    "explanation": "Un couple peut réutiliser et agrandir une plateforme de nidification pendant plusieurs saisons.",
+    "didYouKnow": "Chez l’adulte, le bec et les pattes de la cigogne blanche sont rouges, tandis que les jeunes sont plus ternes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "birds-106",
+    "animal": "Cincle plongeur",
+    "prompt": "Où le cincle plongeur installe-t-il souvent son nid ?",
+    "options": [
+      "Dans une cavité ou un recoin près d’un cours d’eau",
+      "Dans un nid flottant au large",
+      "Dans un terrier sec au milieu d’un champ",
+      "Sur une corniche désertique éloignée de l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Il niche près des rivières, dans des cavités de berge, de rocher ou de structures humaines.",
+    "didYouKnow": "Le cincle plongeur possède une large bavette blanche qui contraste avec son dos sombre.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-107",
+    "animal": "Grèbe huppé",
+    "prompt": "Quel geste fait partie de la parade nuptiale du grèbe huppé ?",
+    "options": [
+      "Les partenaires se dressent face à face sur l’eau en présentant des végétaux",
+      "Ils frappent le fond du lac avec leur bec",
+      "Ils construisent une plateforme de pierres sur la rive",
+      "Ils plongent ensemble jusqu’au fond et y restent"
+    ],
+    "answer": 0,
+    "explanation": "La parade du grèbe huppé comprend une présentation synchronisée de végétaux entre partenaires.",
+    "didYouKnow": "Les pattes du grèbe huppé, situées loin derrière le corps, sont adaptées à la nage.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-108",
+    "animal": "Pigeon ramier",
+    "prompt": "Quel comportement le pigeon ramier utilise-t-il pendant sa parade aérienne ?",
+    "options": [
+      "Il monte en battant des ailes puis redescend en planant",
+      "Il plonge sous l’eau et ressort près du nid",
+      "Il fait tournoyer une brindille dans son bec",
+      "Il bat des ailes en marchant sur le sol"
+    ],
+    "answer": 0,
+    "explanation": "Le mâle effectue des vols de parade avec montée, battements d’ailes puis glissade descendante.",
+    "didYouKnow": "Son nid est souvent une plateforme simple de brindilles.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-109",
+    "animal": "Bécasse des bois",
+    "prompt": "Comment le plumage de la bécasse des bois l’aide-t-il à éviter d’être repérée ?",
+    "options": [
+      "Ses motifs bruns se confondent avec les feuilles mortes",
+      "Ses plumes reflètent les ultraviolets vers les prédateurs",
+      "Son plumage devient transparent à l’ombre",
+      "Ses ailes imitent les fleurs colorées"
+    ],
+    "answer": 0,
+    "explanation": "Ses tons bruns et ocres lui procurent un camouflage efficace dans la litière forestière.",
+    "didYouKnow": "Ses yeux placés haut sur la tête lui donnent un large champ de vision.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-110",
+    "animal": "Avocette élégante",
+    "prompt": "Quel habitat l’avocette élégante utilise-t-elle souvent pour se nourrir ?",
+    "options": [
+      "Les lagunes et marais peu profonds",
+      "Les forêts de conifères denses",
+      "Les falaises enneigées",
+      "Les rivières de montagne profondes"
+    ],
+    "answer": 0,
+    "explanation": "Elle cherche ses proies dans les lagunes et autres milieux humides peu profonds.",
+    "didYouKnow": "Les poussins d’avocette sont nidifuges et peuvent se déplacer peu après l’éclosion.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-111",
+    "animal": "Geai bleu",
+    "prompt": "Quel effet les cris d’alarme du geai bleu peuvent-ils avoir dans un bois ?",
+    "options": [
+      "Ils avertissent d’autres animaux de la présence d’un prédateur",
+      "Ils attirent les poissons vers la rive",
+      "Ils indiquent aux plantes la direction du vent",
+      "Ils font sortir les insectes du sol"
+    ],
+    "answer": 0,
+    "explanation": "Ses cris peuvent signaler un danger et être entendus par d’autres oiseaux.",
+    "didYouKnow": "Le geai bleu peut cacher des graines et des glands, puis oublier certaines de ses réserves.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-112",
+    "animal": "Faucon crécerelle",
+    "prompt": "Comment le faucon crécerelle repère-t-il souvent un campagnol dans un champ ?",
+    "options": [
+      "Il fait du surplace face au vent en scrutant le sol",
+      "Il plonge sous la terre pour écouter",
+      "Il filtre l’herbe avec son bec",
+      "Il attend toujours dans un terrier"
+    ],
+    "answer": 0,
+    "explanation": "Le vol stationnaire lui permet d’inspecter un terrain avant de fondre sur une proie.",
+    "didYouKnow": "Le mâle et la femelle du faucon crécerelle présentent des motifs de plumage différents.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-113",
+    "animal": "Flamant nain",
+    "prompt": "Comment le flamant nain capture-t-il les minuscules organismes dont il se nourrit ?",
+    "options": [
+      "Il filtre l’eau avec les lamelles de son bec",
+      "Il les harponne avec ses griffes",
+      "Il les attrape dans une toile",
+      "Il les extrait des troncs avec sa langue"
+    ],
+    "answer": 0,
+    "explanation": "Les lamelles de son bec retiennent de petites algues et de petits crustacés lorsque l’eau s’écoule.",
+    "didYouKnow": "Le flamant nain peut former d’immenses colonies de reproduction sur les lacs salés d’Afrique.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-114",
+    "animal": "Hirondelle rustique",
+    "prompt": "Comment l’hirondelle rustique construit-elle son nid sous un abri ?",
+    "options": [
+      "Elle façonne des boulettes de boue mêlées à des fibres",
+      "Elle creuse un tunnel dans la pierre",
+      "Elle tresse des feuilles de palmier",
+      "Elle colle des coquilles avec du nectar"
+    ],
+    "answer": 0,
+    "explanation": "Elle assemble de petites boulettes de boue et les renforce avec des fibres végétales.",
+    "didYouKnow": "Elle capture les insectes en vol.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-115",
+    "animal": "Pic noir",
+    "prompt": "Quelle conséquence les cavités creusées par le pic noir peuvent-elles avoir dans une forêt ?",
+    "options": [
+      "D’autres animaux peuvent les réutiliser pour nicher",
+      "Elles empêchent les arbres voisins de pousser",
+      "Elles deviennent toujours des réservoirs d’eau",
+      "Elles attirent uniquement des poissons"
+    ],
+    "answer": 0,
+    "explanation": "Des espèces incapables de creuser leur propre cavité peuvent utiliser celles du pic noir.",
+    "didYouKnow": "Le pic noir est le plus grand pic d’Europe.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-116",
+    "animal": "Condor de Californie",
+    "prompt": "Quelle menace liée aux munitions touche le condor de Californie ?",
+    "options": [
+      "L’ingestion de fragments de plomb dans des carcasses",
+      "L’emmêlement de ses ailes dans des filets à papillons",
+      "La contamination de son plumage par du sel marin",
+      "La perte de ses serres au contact de l’acier"
+    ],
+    "answer": 0,
+    "explanation": "Des fragments de munitions au plomb présents dans les carcasses peuvent intoxiquer les condors.",
+    "didYouKnow": "Le condor de Californie possède une envergure pouvant approcher trois mètres.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-117",
+    "animal": "Balbuzard pêcheur",
+    "prompt": "Pourquoi le balbuzard transporte-t-il souvent un poisson tête vers l’avant ?",
+    "options": [
+      "Cette orientation réduit la résistance de l’air",
+      "Elle empêche le poisson de refroidir",
+      "Elle aide le balbuzard à plonger de nouveau",
+      "Elle permet de nourrir les poussins en vol"
+    ],
+    "answer": 0,
+    "explanation": "Orienter le poisson dans le sens du vol réduit sa traînée aérodynamique.",
+    "didYouKnow": "Le balbuzard réutilise parfois une aire de nidification construite les années précédentes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-118",
+    "animal": "Héron cendré",
+    "prompt": "Pourquoi le héron cendré repositionne-t-il parfois un poisson avant de l’avaler ?",
+    "options": [
+      "Pour l’orienter tête la première et faciliter la déglutition",
+      "Pour le faire sécher au soleil",
+      "Pour retirer ses écailles avec une pierre",
+      "Pour le refroidir avant de le transporter"
+    ],
+    "answer": 0,
+    "explanation": "Avaler la proie tête la première aide à éviter que ses nageoires se coincent dans la gorge.",
+    "didYouKnow": "Le héron cendré porte de longues plumes ornementales sur la tête et le cou pendant la reproduction.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-119",
+    "animal": "Poule d’eau",
+    "prompt": "Comment la poule d’eau peut-elle se déplacer sur la végétation des berges ?",
+    "options": [
+      "Avec ses longs doigts qui répartissent son poids",
+      "Avec une membrane qui agit comme une ventouse",
+      "En s’accrochant avec son bec crochu",
+      "En utilisant sa queue comme un pied"
+    ],
+    "answer": 0,
+    "explanation": "Ses doigts longs l’aident à marcher sur les plantes et les sols mous des berges.",
+    "didYouKnow": "Elle peut plonger brièvement pour échapper à un danger.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-120",
+    "animal": "Tauraco violet",
+    "prompt": "Quelle particularité chimique possède le pigment rouge turacine des turacos ?",
+    "options": [
+      "Il contient du cuivre",
+      "Il est constitué de chlorophylle",
+      "Il est produit par le sang des plantes",
+      "Il contient des cristaux de sel"
+    ],
+    "answer": 0,
+    "explanation": "La turacine, pigment rouge propre aux turacos, contient du cuivre.",
+    "didYouKnow": "Les turacos sont des oiseaux arboricoles africains qui consomment notamment des fruits.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-121",
+    "animal": "Pic à ventre jaune",
+    "prompt": "À quelle famille appartient le pic à ventre jaune ?",
+    "options": [
+      "Aux pics",
+      "Aux hirondelles",
+      "Aux rapaces nocturnes",
+      "Aux oiseaux de rivage"
+    ],
+    "answer": 0,
+    "explanation": "Le pic à ventre jaune est un membre de la famille des pics.",
+    "didYouKnow": "Il niche dans une cavité qu’il creuse dans un arbre.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-122",
+    "animal": "Oie à tête barrée",
+    "prompt": "Quel défi physiologique l’oie à tête barrée relève-t-elle lors de ses passages himalayens ?",
+    "options": [
+      "Voler dans un air pauvre en oxygène à haute altitude",
+      "Nager dans l’eau salée des cols",
+      "Supporter une chaleur tropicale au sommet",
+      "Se déplacer sur les falaises sans ailes"
+    ],
+    "answer": 0,
+    "explanation": "Elle traverse des cols élevés où la pression et la disponibilité en oxygène sont faibles.",
+    "didYouKnow": "Les bandes noires qui marquent la tête de l’oie à tête barrée permettent de la reconnaître facilement.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-123",
+    "animal": "Calao à casque",
+    "prompt": "Pourquoi le calao à casque est-il particulièrement menacé par le braconnage ?",
+    "options": [
+      "Son casque solide est recherché pour la sculpture",
+      "Ses plumes servent à fabriquer des filets de pêche",
+      "Ses œufs sont utilisés comme pierres précieuses",
+      "Son bec est vendu comme instrument de musique"
+    ],
+    "answer": 0,
+    "explanation": "Le casque en kératine est convoité pour la sculpture, ce qui a entraîné une forte pression de chasse.",
+    "didYouKnow": "Le calao à casque dépend des forêts tropicales d’Asie du Sud-Est, dont certaines sont fragmentées.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-124",
+    "animal": "Urubu à tête rouge",
+    "prompt": "Quel sens aide particulièrement l’urubu à tête rouge à trouver des carcasses cachées ?",
+    "options": [
+      "L’odorat",
+      "La détection des ultrasons",
+      "Le toucher des plumes de queue",
+      "La vision sous-marine"
+    ],
+    "answer": 0,
+    "explanation": "Son odorat développé lui permet de repérer l’odeur de carcasses sous le couvert végétal.",
+    "didYouKnow": "La tête nue rouge de l’urubu à tête rouge est un trait distinctif de l’espèce.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-125",
+    "animal": "Milan royal",
+    "prompt": "Comment la queue fourchue du milan royal contribue-t-elle à son vol ?",
+    "options": [
+      "Elle améliore sa manœuvrabilité",
+      "Elle stocke la nourriture",
+      "Elle sert de crochet pour s’accrocher aux branches",
+      "Elle refroidit son sang"
+    ],
+    "answer": 0,
+    "explanation": "Sa queue fourchue lui permet d’ajuster finement sa direction pendant le vol plané.",
+    "didYouKnow": "Le milan royal se rencontre dans une grande partie de l’Europe, avec des populations résidentes et migratrices.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-126",
+    "animal": "Pic flamboyant",
+    "prompt": "Quelle nourriture le pic flamboyant cherche-t-il souvent au sol ?",
+    "options": [
+      "Des fourmis",
+      "Des méduses",
+      "Du nectar de bambou",
+      "Des œufs de poissons"
+    ],
+    "answer": 0,
+    "explanation": "Il récolte fréquemment des fourmis sur le sol, en plus d’autres invertébrés.",
+    "didYouKnow": "En vol, le pic flamboyant montre une large tache blanche sur le croupion.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-127",
+    "animal": "Fou de Bassan",
+    "prompt": "Comment le fou de Bassan limite-t-il les effets de l’impact lorsqu’il plonge ?",
+    "options": [
+      "Des adaptations du crâne et des tissus absorbent une partie du choc",
+      "Il gonfle une poche d’air dans son bec",
+      "Il déploie ses pattes comme un parachute",
+      "Il garde ses ailes grandes ouvertes sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Des adaptations anatomiques contribuent à supporter l’impact de ses plongeons rapides.",
+    "didYouKnow": "Les fous de Bassan nichent en colonies compactes, souvent sur des corniches littorales.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-128",
+    "animal": "Canard colvert",
+    "prompt": "Comment le colvert barboteur atteint-il des aliments sous la surface ?",
+    "options": [
+      "Il bascule l’avant de son corps tout en gardant l’arrière à flot",
+      "Il plonge systématiquement à grande profondeur",
+      "Il creuse la berge avec ses ailes",
+      "Il aspire l’eau avec un tube dans son bec"
+    ],
+    "answer": 0,
+    "explanation": "Le canard peut plonger la tête et le cou pour atteindre le fond en eau peu profonde.",
+    "didYouKnow": "Le mâle colvert change de plumage après la reproduction et prend temporairement une apparence plus discrète.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-129",
+    "animal": "Mouette tridactyle",
+    "prompt": "Quel site la mouette tridactyle choisit-elle souvent pour nicher ?",
+    "options": [
+      "Une étroite corniche de falaise côtière",
+      "Un terrier profond dans une prairie",
+      "Une cavité sous-marine",
+      "Un tronc creux au cœur d’une forêt"
+    ],
+    "answer": 0,
+    "explanation": "Elle niche en colonies sur des corniches de falaises maritimes.",
+    "didYouKnow": "Après la reproduction, la mouette tridactyle passe une grande partie de son temps au large.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-130",
+    "animal": "Grèbe castagneux",
+    "prompt": "Quel type de nid le grèbe castagneux construit-il souvent ?",
+    "options": [
+      "Une plateforme flottante de végétaux",
+      "Une cavité rocheuse sèche",
+      "Une coupe placée au sommet d’un arbre",
+      "Un terrier creusé dans une dune"
+    ],
+    "answer": 0,
+    "explanation": "Il construit un nid flottant parmi les plantes aquatiques.",
+    "didYouKnow": "Pendant la parade, le grèbe castagneux peut dresser ses plumes et produire des appels sonores.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-131",
+    "animal": "Pigeon biset",
+    "prompt": "À quelle famille appartient le dodo, comme le pigeon biset ?",
+    "options": [
+      "À la famille des pigeons",
+      "À la famille des manchots",
+      "À la famille des faisans",
+      "À la famille des albatros"
+    ],
+    "answer": 0,
+    "explanation": "Le dodo et le pigeon biset appartiennent tous deux à la famille des Columbidés.",
+    "didYouKnow": "Les pigeons nourrissent leurs poussins avec un aliment riche produit dans le jabot, appelé lait de jabot.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-132",
+    "animal": "Perruche de Caroline",
+    "prompt": "Qu’est-il arrivé à la perruche de Caroline, autrefois présente dans l’est des États-Unis ?",
+    "options": [
+      "Elle s’est éteinte au début du XXe siècle",
+      "Elle a été introduite en Europe et y prospère",
+      "Elle est devenue un oiseau marin",
+      "Elle a migré vers l’Antarctique"
+    ],
+    "answer": 0,
+    "explanation": "La destruction des habitats et la persécution ont contribué à l’extinction de cette espèce.",
+    "didYouKnow": "La perruche de Caroline vivait souvent en groupes bruyants et se nourrissait notamment de graines et de fruits.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-133",
+    "animal": "Cacatoès à huppe jaune",
+    "prompt": "Quel signal visuel le cacatoès à huppe jaune peut-il montrer avec sa tête ?",
+    "options": [
+      "Il dresse sa huppe de plumes",
+      "Il change la couleur de ses pattes",
+      "Il fait clignoter ses plumes de queue",
+      "Il projette une poussière colorée"
+    ],
+    "answer": 0,
+    "explanation": "La huppe peut se dresser lors d’une excitation ou d’interactions sociales.",
+    "didYouKnow": "Le cacatoès utilise ses pieds pour tenir et manipuler la nourriture.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-134",
+    "animal": "Perruche calopsitte",
+    "prompt": "Que peut exprimer la huppe mobile de la calopsitte ?",
+    "options": [
+      "Son niveau d’attention ou d’excitation",
+      "La profondeur de l’eau sous elle",
+      "La température exacte de son nid",
+      "Le nombre de graines qu’elle a mangées"
+    ],
+    "answer": 0,
+    "explanation": "La huppe se dresse ou s’abaisse selon l’attention et l’état émotionnel de l’oiseau.",
+    "didYouKnow": "La calopsitte est originaire d’Australie.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-135",
+    "animal": "Loriquet de Swainson",
+    "prompt": "Quelle ressource les loriquets de Swainson recherchent-ils dans les eucalyptus en fleurs ?",
+    "options": [
+      "Le nectar et le pollen",
+      "Les larves sous l’écorce uniquement",
+      "Les poissons dans les creux d’arbres",
+      "Les graines de cônes"
+    ],
+    "answer": 0,
+    "explanation": "Les fleurs d’eucalyptus fournissent nectar et pollen consommés par les loriquets.",
+    "didYouKnow": "Le loriquet de Swainson est originaire de l’est de l’Australie.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-136",
+    "animal": "Perroquet gris d’Afrique",
+    "prompt": "Quelle aptitude d’apprentissage vocal a été observée chez certains perroquets gris d’Afrique ?",
+    "options": [
+      "Associer certains sons à des objets ou situations",
+      "Comprendre toutes les phrases comme un humain",
+      "Produire des mots sans jamais les entendre",
+      "Chanter uniquement sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Des études chez certains individus montrent une capacité à apprendre des associations entre sons et objets.",
+    "didYouKnow": "Dans la nature, il consomme notamment des fruits et des graines.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-137",
+    "animal": "Kakapo",
+    "prompt": "Pourquoi le kakapo est-il particulièrement vulnérable aux mammifères prédateurs introduits ?",
+    "options": [
+      "Il ne vole pas et a évolué avec peu de prédateurs terrestres",
+      "Il ne peut pas entendre les cris d’alarme",
+      "Il niche exclusivement dans l’eau",
+      "Il change de couleur chaque nuit"
+    ],
+    "answer": 0,
+    "explanation": "L’absence historique de mammifères prédateurs en Nouvelle-Zélande a favorisé un oiseau terrestre incapable de voler.",
+    "didYouKnow": "Le kakapo se nourrit de diverses parties de plantes, notamment de feuilles, de graines et de fruits.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-138",
+    "animal": "Oie cendrée",
+    "prompt": "Pourquoi l’oie cendrée broute-t-elle fréquemment sur les terres ?",
+    "options": [
+      "Les herbes et autres végétaux constituent une part importante de son alimentation",
+      "Elle y recherche uniquement des poissons",
+      "Elle récolte du nectar dans le sol",
+      "Elle chasse des insectes sous l’écorce"
+    ],
+    "answer": 0,
+    "explanation": "Les oies cendrées consomment souvent de l’herbe et d’autres plantes terrestres ou aquatiques.",
+    "didYouKnow": "L’oie cendrée est l’ancêtre sauvage de nombreuses races d’oies domestiques.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-139",
+    "animal": "Pélican brun",
+    "prompt": "Comment le pélican brun capture-t-il souvent des poissons près de la surface ?",
+    "options": [
+      "Il plonge depuis les airs en piqué",
+      "Il marche au fond et les saisit avec ses pattes",
+      "Il filtre le plancton à la surface",
+      "Il creuse des terriers sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Il plonge pour saisir des poissons près de la surface puis utilise sa poche pour les retenir brièvement.",
+    "didYouKnow": "Le pélican brun se reproduit en colonies, souvent sur des îles ou dans des sites côtiers.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-140",
+    "animal": "Spatule blanche",
+    "prompt": "Dans quel type d’eau la spatule blanche cherche-t-elle souvent ses proies ?",
+    "options": [
+      "Dans des eaux peu profondes",
+      "Dans les grands fonds marins",
+      "Dans les torrents glacés",
+      "Dans les mares temporaires du désert uniquement"
+    ],
+    "answer": 0,
+    "explanation": "Elle balaie son bec dans des eaux peu profondes pour capturer de petits animaux.",
+    "didYouKnow": "La spatule blanche peut nicher en colonies dans les arbres ou les roseaux.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-141",
+    "animal": "Foulque macroule",
+    "prompt": "Quel signe distinctif porte la foulque macroule au-dessus du bec ?",
+    "options": [
+      "Un écusson frontal blanc",
+      "Une huppe jaune",
+      "Un long appendice rouge",
+      "Un casque corné"
+    ],
+    "answer": 0,
+    "explanation": "L’écusson frontal blanc est une zone de peau nue située au-dessus du bec.",
+    "didYouKnow": "La foulque macroule nage et plonge pour chercher sa nourriture.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-142",
+    "animal": "Hirondelle de rivage",
+    "prompt": "Où l’hirondelle de rivage creuse-t-elle généralement sa galerie de nidification ?",
+    "options": [
+      "Dans une berge ou une paroi de sol sablonneux",
+      "Dans un tronc vivant",
+      "Sous la surface d’un lac",
+      "Dans une cavité de coquillage"
+    ],
+    "answer": 0,
+    "explanation": "Elle creuse un tunnel dans les parois meubles des berges ou des carrières.",
+    "didYouKnow": "L’hirondelle de rivage hiverne principalement en Afrique subsaharienne.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-143",
+    "animal": "Héron garde-bœufs",
+    "prompt": "Pourquoi le héron garde-bœufs se tient-il souvent près du bétail ?",
+    "options": [
+      "Les animaux dérangent des insectes qu’il peut capturer",
+      "Il se nourrit exclusivement du lait des bovins",
+      "Il utilise les cornes comme perchoir de nidification",
+      "Le bétail lui apporte des poissons"
+    ],
+    "answer": 0,
+    "explanation": "Le déplacement du bétail fait parfois surgir des insectes et petites proies accessibles au héron.",
+    "didYouKnow": "Le héron garde-bœufs peut nicher en colonie dans des arbres, parfois avec d’autres espèces.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-144",
+    "animal": "Gélinotte des bois",
+    "prompt": "Comment la gélinotte des bois peut-elle se déplacer dans la neige poudreuse ?",
+    "options": [
+      "Elle peut plonger dans la neige pour s’y abriter",
+      "Elle nage sous la neige avec ses ailes",
+      "Elle creuse un tunnel avec son bec",
+      "Elle se suspend aux branches par sa queue"
+    ],
+    "answer": 0,
+    "explanation": "La gélinotte peut s’enfouir dans la neige poudreuse pour se protéger du froid.",
+    "didYouKnow": "Le mâle de gélinotte des bois produit un roulement sonore en faisant vibrer rapidement ses ailes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-145",
+    "animal": "Lagopède alpin",
+    "prompt": "Comment le lagopède alpin adapte-t-il son plumage aux saisons ?",
+    "options": [
+      "Il devient plus clair en hiver et plus brun en été",
+      "Il devient toujours rouge au printemps",
+      "Il perd toutes ses plumes en hiver",
+      "Il change de couleur chaque jour"
+    ],
+    "answer": 0,
+    "explanation": "Le changement saisonnier de plumage améliore son camouflage selon la couleur du paysage.",
+    "didYouKnow": "Pendant la parade, le lagopède mâle peut émettre des cris et effectuer des poursuites.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-146",
+    "animal": "Tournepierre à collier",
+    "prompt": "Que fait le tournepierre à collier avec les petits cailloux du rivage ?",
+    "options": [
+      "Il les retourne pour découvrir des proies cachées",
+      "Il les avale pour fabriquer une coquille",
+      "Il les lance pour pêcher les poissons",
+      "Il les colle sur ses ailes pour mieux voler"
+    ],
+    "answer": 0,
+    "explanation": "Il retourne pierres et débris afin de trouver des invertébrés dissimulés dessous.",
+    "didYouKnow": "Le tournepierre à collier se reproduit dans les régions arctiques et subarctiques.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-147",
+    "animal": "Bécassine des marais",
+    "prompt": "Comment l’extrémité du bec de la bécassine l’aide-t-elle à se nourrir ?",
+    "options": [
+      "Elle détecte des proies dans la vase",
+      "Elle produit une lumière qui attire les insectes",
+      "Elle casse l’écorce des arbres",
+      "Elle mesure la salinité de l’air"
+    ],
+    "answer": 0,
+    "explanation": "Des récepteurs à l’extrémité du bec l’aident à détecter des proies lorsqu’elle sonde la vase.",
+    "didYouKnow": "En parade, le mâle de bécassine peut produire un son vibrant appelé « chevrotement » avec les plumes de sa queue.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-148",
+    "animal": "Guêpier carmin",
+    "prompt": "Pourquoi les guêpiers carmins creusent-ils leurs nids dans les berges ?",
+    "options": [
+      "Le sol meuble permet de creuser des galeries de nidification",
+      "Les berges produisent du nectar",
+      "Ils filtrent les poissons dans les terriers",
+      "Ils évitent d’avoir à pondre des œufs"
+    ],
+    "answer": 0,
+    "explanation": "Les couples creusent des tunnels dans les berges ou les falaises de terre tendre.",
+    "didYouKnow": "Le guêpier carmin arbore un plumage rouge rosé très vif et une tête contrastée.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-149",
+    "animal": "Martin-pêcheur d’Amérique",
+    "prompt": "Où le martin-pêcheur d’Amérique installe-t-il souvent son nid ?",
+    "options": [
+      "Dans un tunnel creusé dans une berge",
+      "Dans un nid suspendu aux roseaux",
+      "Dans une cavité sous-marine",
+      "Dans un arbre creux loin de l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Il creuse souvent une galerie de nidification dans une berge sablonneuse près de l’eau.",
+    "didYouKnow": "Le martin-pêcheur d’Amérique porte une huppe ébouriffée et produit des cris rauques.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-150",
+    "animal": "Frégate superbe",
+    "prompt": "Pourquoi la frégate superbe évite-t-elle généralement de plonger dans l’eau ?",
+    "options": [
+      "Son plumage se mouille facilement et convient mal à une immersion prolongée",
+      "Elle ne peut pas voir les poissons",
+      "Elle ne possède pas de plumes de vol",
+      "Elle ne peut pas ouvrir son bec en vol"
+    ],
+    "answer": 0,
+    "explanation": "Son plumage peu imperméable la rend moins adaptée aux plongeons que d’autres oiseaux marins.",
+    "didYouKnow": "Pendant la parade, le mâle gonfle une poche rouge de peau située sur sa gorge.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-151",
+    "animal": "Mégapode de Latham",
+    "prompt": "Comment le mégapode de Latham maintient-il ses œufs au chaud ?",
+    "options": [
+      "Il les enfouit dans un monticule de végétaux en décomposition",
+      "Il les porte sous ses ailes en vol",
+      "Il construit un nid flottant au-dessus d’une source chaude",
+      "Il les confie à un autre oiseau"
+    ],
+    "answer": 0,
+    "explanation": "La chaleur produite par la décomposition de la végétation incube les œufs dans le monticule.",
+    "didYouKnow": "Le mégapode de Latham est originaire de l’est de l’Australie.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-152",
+    "animal": "Fou de Bassan",
+    "prompt": "Quelle couleur caractérise l’œuf du fou de Bassan ?",
+    "options": [
+      "Bleu pâle",
+      "Vert vif",
+      "Rouge tacheté",
+      "Noir brillant"
+    ],
+    "answer": 0,
+    "explanation": "L’œuf est bleu pâle, et son apparence est en partie liée à sa coquille calcaire.",
+    "didYouKnow": "Les fous de Bassan nichent en colonies sur des falaises et des îlots marins.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-153",
+    "animal": "Manchot royal",
+    "prompt": "Comment le manchot royal maintient-il son œuf pendant l’incubation ?",
+    "options": [
+      "Sur ses pieds sous un repli de peau",
+      "Dans un nid de brindilles",
+      "Dans une cavité creusée dans la glace",
+      "Dans une poche sous son bec"
+    ],
+    "answer": 0,
+    "explanation": "L’œuf repose sur les pieds et sous un repli abdominal qui l’isole du sol froid.",
+    "didYouKnow": "Le poussin porte un épais duvet brun avant de revêtir son plumage adulte.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-154",
+    "animal": "Manchot Adélie",
+    "prompt": "Quel matériau le manchot Adélie rassemble-t-il pour former son nid ?",
+    "options": [
+      "De petits cailloux",
+      "Des algues tissées sous l’eau",
+      "Des branches de conifères",
+      "De la boue façonnée en tour"
+    ],
+    "answer": 0,
+    "explanation": "Il construit généralement une petite plateforme de pierres pour surélever les œufs.",
+    "didYouKnow": "Après l’éclosion, les jeunes manchots Adélie peuvent se regrouper en crèches pendant que les adultes se nourrissent.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-155",
+    "animal": "Puffin des Anglais",
+    "prompt": "Pourquoi le puffin des Anglais revient-il souvent à sa colonie après la tombée de la nuit ?",
+    "options": [
+      "Cela peut réduire son exposition à des prédateurs près des terriers",
+      "Il ne peut pas voir le jour",
+      "Les terriers ne s’ouvrent qu’à minuit",
+      "La lune réchauffe les œufs"
+    ],
+    "answer": 0,
+    "explanation": "Le retour nocturne peut diminuer le risque d’être repéré par des prédateurs autour de la colonie.",
+    "didYouKnow": "Le puffin des Anglais effectue de longs déplacements migratoires entre ses zones de reproduction et d’hivernage.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-156",
+    "animal": "Guillemot de Troïl",
+    "prompt": "Quelle hypothèse a été avancée pour expliquer la forme conique de l’œuf du guillemot de Troïl ?",
+    "options": [
+      "Elle limiterait le roulement de l’œuf sur une corniche",
+      "Elle permettrait à l’œuf de flotter jusqu’à la mer",
+      "Elle aiderait le poussin à voler plus tôt",
+      "Elle fixerait l’œuf à la falaise par sa pointe"
+    ],
+    "answer": 0,
+    "explanation": "On a proposé que cette forme limite le trajet de l’œuf s’il roule, mais l’importance de cet effet est discutée.",
+    "didYouKnow": "Le guillemot de Troïl capture des poissons en poursuivant ses proies sous l’eau.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-157",
+    "animal": "Albatros hurleur",
+    "prompt": "Combien d’œufs l’albatros hurleur pond-il généralement par tentative de reproduction ?",
+    "options": [
+      "Un seul",
+      "Deux",
+      "Quatre",
+      "Une douzaine"
+    ],
+    "answer": 0,
+    "explanation": "Comme plusieurs grands albatros, il élève généralement un seul poussin par tentative.",
+    "didYouKnow": "L’albatros hurleur utilise son odorat pour retrouver des ressources alimentaires en mer.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-158",
+    "animal": "Frégate superbe",
+    "prompt": "Comment la frégate superbe obtient-elle parfois une proie sans pêcher elle-même ?",
+    "options": [
+      "Elle harcèle un autre oiseau jusqu’à ce qu’il lâche sa nourriture",
+      "Elle prend les poissons dans les nids de tortues",
+      "Elle filtre le plancton dans le sillage des navires",
+      "Elle attend que les poissons sautent sur une plage"
+    ],
+    "answer": 0,
+    "explanation": "Elle peut poursuivre un oiseau porteur d’une proie et le pousser à la régurgiter.",
+    "didYouKnow": "Ses longues ailes étroites sont adaptées au vol plané au-dessus de l’océan.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-159",
+    "animal": "Cygne tuberculé",
+    "prompt": "Comment le cygne tuberculé atteint-il les plantes sous la surface dans l’eau peu profonde ?",
+    "options": [
+      "Il plonge son long cou tout en restant à flot",
+      "Il plonge entièrement jusqu’au fond",
+      "Il filtre les plantes avec des fanons",
+      "Il marche sous l’eau avec ses ailes"
+    ],
+    "answer": 0,
+    "explanation": "Son long cou lui permet d’atteindre les végétaux immergés sans plonger tout son corps.",
+    "didYouKnow": "Le cygne tuberculé adulte porte une bosse noire à la base de son bec orange.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-160",
+    "animal": "Calao rhinocéros",
+    "prompt": "Comment le calao rhinocéros protège-t-il sa cavité de nidification ?",
+    "options": [
+      "La femelle reste dans la cavité et l’ouverture est réduite",
+      "Il construit une porte en pierre",
+      "Il remplit la cavité d’eau",
+      "Il place les œufs dans un nid suspendu"
+    ],
+    "answer": 0,
+    "explanation": "La femelle se mure presque dans la cavité, ne laissant qu’une ouverture étroite pour recevoir la nourriture.",
+    "didYouKnow": "Le calao rhinocéros vit notamment à Bornéo, Sumatra et dans la péninsule malaise.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-161",
+    "animal": "Pic glandivore",
+    "prompt": "Comment le pic glandivore répartit-il souvent les glands qu’il met en réserve ?",
+    "options": [
+      "Il les place dans des trous de tailles variées selon leur diamètre",
+      "Il les enterre tous dans un seul terrier",
+      "Il les colle sous ses ailes",
+      "Il les dépose dans l’eau pour les garder fraîches"
+    ],
+    "answer": 0,
+    "explanation": "Les trous de stockage peuvent avoir différentes tailles afin de retenir des glands de dimensions variées.",
+    "didYouKnow": "Le pic glandivore vit souvent en groupes familiaux qui coopèrent pour défendre leur territoire.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-162",
+    "animal": "Pic à ventre jaune",
+    "prompt": "Quel animal peut profiter des trous de sève percés par le pic à ventre jaune ?",
+    "options": [
+      "Des colibris",
+      "Des manchots",
+      "Des vautours",
+      "Des puffins"
+    ],
+    "answer": 0,
+    "explanation": "Des colibris peuvent venir boire la sève qui s’écoule des rangées de trous.",
+    "didYouKnow": "Les populations nordiques du pic à ventre jaune migrent vers le sud en hiver.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-163",
+    "animal": "Hirondelle de fenêtre",
+    "prompt": "Où l’hirondelle de fenêtre installe-t-elle souvent son nid ?",
+    "options": [
+      "Sous une corniche ou un avant-toit",
+      "Dans un terrier de berge",
+      "Dans une cavité sous-marine",
+      "Sur une plateforme de branches au sol"
+    ],
+    "answer": 0,
+    "explanation": "Elle fixe son nid de boue sous un rebord de bâtiment ou une paroi rocheuse.",
+    "didYouKnow": "L’hirondelle de fenêtre se reconnaît en vol à son croupion blanc contrastant avec son dos sombre.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-164",
+    "animal": "Grue cendrée",
+    "prompt": "Quel comportement de migration montre la grue cendrée ?",
+    "options": [
+      "Elle se rassemble souvent en groupes avant de partir vers ses quartiers d’hiver",
+      "Elle traverse les océans en nageant",
+      "Elle reste toujours dans le même marais toute l’année",
+      "Elle migre sous la neige"
+    ],
+    "answer": 0,
+    "explanation": "Les grues cendrées se rassemblent et migrent entre leurs sites de reproduction et d’hivernage.",
+    "didYouKnow": "Les grues cendrées forment souvent des couples qui restent ensemble sur plusieurs saisons.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-165",
+    "animal": "Huppe fasciée",
+    "prompt": "Quelle défense chimique particulière est associée au nid de la huppe fasciée ?",
+    "options": [
+      "Les jeunes et la femelle peuvent produire une sécrétion malodorante",
+      "Le nid est enduit de venin de serpent",
+      "Les œufs dégagent du chlore",
+      "Le mâle pulvérise de la résine toxique"
+    ],
+    "answer": 0,
+    "explanation": "La femelle et les poussins peuvent produire une sécrétion odorante qui contribue probablement à décourager certains prédateurs.",
+    "didYouKnow": "La huppe fasciée peut dresser sa huppe en éventail lorsqu’elle est attentive ou excitée.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-166",
+    "animal": "Coucou gris",
+    "prompt": "Quel type de vocalisation émet typiquement la femelle coucou gris ?",
+    "options": [
+      "Un appel rapide et sonore distinct du chant du mâle",
+      "Un tambourinement sur les branches",
+      "Un cri uniquement sous l’eau",
+      "Un long roucoulement identique à celui du pigeon"
+    ],
+    "answer": 0,
+    "explanation": "La femelle émet un appel rapide et sonore, différent du motif à deux notes du mâle.",
+    "didYouKnow": "Le coucou gris migre vers l’Afrique pour passer la mauvaise saison.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-167",
+    "animal": "Hirondelle de fenêtre",
+    "prompt": "Quelle forme a souvent le nid de boue de l’hirondelle de fenêtre ?",
+    "options": [
+      "Une coupe presque fermée avec une petite entrée",
+      "Une coupe ouverte fixée sous une branche",
+      "Un tunnel profond creusé dans une berge",
+      "Une plateforme flottante de roseaux"
+    ],
+    "answer": 0,
+    "explanation": "Elle assemble des boulettes de boue en une structure presque fermée, munie d’une petite ouverture.",
+    "didYouKnow": "L’hirondelle de fenêtre possède un croupion blanc très visible en vol.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-168",
+    "animal": "Guêpier d’Europe",
+    "prompt": "Où le guêpier d’Europe place-t-il généralement son nid ?",
+    "options": [
+      "Au bout d’une galerie creusée dans une berge ou un talus",
+      "Dans un nid suspendu sous une branche",
+      "Au fond d’un tronc rempli d’eau",
+      "Dans une cavité de falaise construite avec des brindilles"
+    ],
+    "answer": 0,
+    "explanation": "Le couple creuse un tunnel de nidification dans un sol meuble.",
+    "didYouKnow": "Le guêpier d’Europe quitte l’Europe à l’automne et hiverne en Afrique.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-169",
+    "animal": "Martinet noir",
+    "prompt": "Comment le martinet noir se fixe-t-il souvent pour se reposer ?",
+    "options": [
+      "Il s’agrippe à une surface verticale",
+      "Il s’assoit sur une branche horizontale fine",
+      "Il s’attache par la queue à un fil",
+      "Il se suspend sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Ses pattes courtes et ses griffes lui permettent de s’accrocher à des surfaces verticales.",
+    "didYouKnow": "Le martinet noir passe l’hiver en Afrique après sa reproduction en Europe.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-170",
+    "animal": "Cincle plongeur",
+    "prompt": "Quel milieu est particulièrement important pour le cincle plongeur ?",
+    "options": [
+      "Les cours d’eau clairs et rapides",
+      "Les dunes côtières sans eau",
+      "Les forêts tropicales de canopée",
+      "Les champs de céréales secs"
+    ],
+    "answer": 0,
+    "explanation": "Il dépend des rivières et ruisseaux où il trouve ses proies aquatiques.",
+    "didYouKnow": "Le cincle plongeur se reconnaît à son plastron blanc qui tranche avec son plumage brun.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-171",
+    "animal": "Cardinal rouge",
+    "prompt": "Quelle caractéristique du bec aide le cardinal rouge à manger des graines ?",
+    "options": [
+      "Un bec court et conique",
+      "Un bec très long et courbé",
+      "Un bec en forme de spatule",
+      "Un bec croisé aux pointes opposées"
+    ],
+    "answer": 0,
+    "explanation": "Son bec conique robuste est adapté à la manipulation et à la décortication des graines.",
+    "didYouKnow": "Le cardinal rouge construit un nid en coupe, généralement placé dans un arbuste ou un petit arbre.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-172",
+    "animal": "Kiwi brun",
+    "prompt": "Pourquoi l’œuf du kiwi est-il remarquable par rapport à la taille de la femelle ?",
+    "options": [
+      "Il représente une part exceptionnellement grande de sa masse corporelle",
+      "Il est le plus petit œuf parmi les oiseaux",
+      "Il ne contient pas de jaune",
+      "Il est pondu sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "L’œuf du kiwi est très grand relativement à la taille du corps de la femelle.",
+    "didYouKnow": "Le kiwi brun est principalement actif la nuit.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-173",
+    "animal": "Casoar à casque",
+    "prompt": "Quel rôle le casoar peut-il jouer après avoir mangé un fruit forestier ?",
+    "options": [
+      "Transporter et déposer ses graines ailleurs",
+      "Polliniser les algues marines",
+      "Empêcher les graines de germer en les enterrant toutes",
+      "Transformer les fruits en nectar"
+    ],
+    "answer": 0,
+    "explanation": "Les graines avalées peuvent traverser son système digestif et être déposées à distance.",
+    "didYouKnow": "Le casoar porte des caroncules colorées sur le cou, qui varient selon l’espèce.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-174",
+    "animal": "Pigeon biset",
+    "prompt": "Quelle forme de vie sauvage du pigeon biset est à l’origine des populations urbaines ?",
+    "options": [
+      "Une espèce qui niche naturellement sur les falaises",
+      "Un oiseau des marais qui niche dans les roseaux",
+      "Un migrateur arctique de haute mer",
+      "Un perroquet des forêts tropicales"
+    ],
+    "answer": 0,
+    "explanation": "Le biset sauvage nichait sur des falaises, et les bâtiments offrent des corniches semblables.",
+    "didYouKnow": "Les pigeons nourrissent leurs petits avec du « lait de jabot », sécrétion nutritive produite par les deux parents.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-175",
+    "animal": "Aigle royal",
+    "prompt": "Que fait souvent l’aigle royal avec un nid utilisé lors de saisons précédentes ?",
+    "options": [
+      "Il peut le réutiliser et l’agrandir",
+      "Il le transporte vers une autre falaise",
+      "Il le recouvre toujours d’eau",
+      "Il le remplace par un terrier"
+    ],
+    "answer": 0,
+    "explanation": "Un couple peut réutiliser et agrandir son aire de nidification pendant plusieurs années.",
+    "didYouKnow": "Les pattes de l’aigle royal sont emplumées jusqu’aux doigts.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-176",
+    "animal": "Secrétaire",
+    "prompt": "Comment le secrétaire capture-t-il souvent des serpents ?",
+    "options": [
+      "Il les frappe avec ses longues pattes",
+      "Il les attrape avec une poche sous le bec",
+      "Il les attire avec un filet de plumes",
+      "Il les poursuit sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Le secrétaire chasse à pied et peut frapper ses proies avec ses longues pattes.",
+    "didYouKnow": "Il construit un grand nid dans un arbre ou un arbuste.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-177",
+    "animal": "Toucan toco",
+    "prompt": "Pourquoi le bec du toucan toco paraît-il massif mais reste relativement léger ?",
+    "options": [
+      "Sa structure interne est faite de travées creuses",
+      "Il est composé de plumes compactées",
+      "Il est rempli d’air par une poche externe",
+      "Il est remplacé par une coquille chaque saison"
+    ],
+    "answer": 0,
+    "explanation": "Le bec contient une structure interne en travées qui combine volume et légèreté.",
+    "didYouKnow": "Le toucan toco vit dans des régions boisées et ouvertes du centre et de l’est de l’Amérique du Sud.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-178",
+    "animal": "Hoazin",
+    "prompt": "Quelle particularité les jeunes hoazins possèdent-ils aux ailes ?",
+    "options": [
+      "Des griffes qui les aident à grimper dans la végétation",
+      "Des membranes qui leur permettent de nager comme des canards",
+      "Des plumes imperméables qui forment un sac",
+      "Des doigts opposés qui saisissent les poissons"
+    ],
+    "answer": 0,
+    "explanation": "Les jeunes utilisent des griffes aux ailes pour grimper dans les branches lorsqu’ils se déplacent dans la végétation.",
+    "didYouKnow": "Le hoazin vit dans les forêts inondables bordant les cours d’eau d’Amazonie et de l’Orénoque.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-179",
+    "animal": "Bec-en-sabot",
+    "prompt": "Où le bec-en-sabot installe-t-il généralement son nid ?",
+    "options": [
+      "Sur une plateforme de végétation dans un marais",
+      "Dans une cavité de falaise marine",
+      "Dans un terrier creusé sous les dunes",
+      "Dans un nid suspendu à un arbre de forêt sèche"
+    ],
+    "answer": 0,
+    "explanation": "Il construit son nid au sol, dans la végétation des marais où il vit.",
+    "didYouKnow": "Le nom de bec-en-sabot fait référence à la forme caractéristique de son bec massif.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-180",
+    "animal": "Grue demoiselle",
+    "prompt": "Où la grue demoiselle passe-t-elle souvent l’hiver après sa reproduction en Asie centrale ?",
+    "options": [
+      "En Asie du Sud",
+      "En Antarctique",
+      "Dans les îles des Caraïbes",
+      "Dans les forêts boréales du Canada"
+    ],
+    "answer": 0,
+    "explanation": "Elle migre vers l’Asie du Sud pour hiverner après avoir niché dans les steppes d’Asie centrale.",
+    "didYouKnow": "Les grues demoiselles mâles et femelles ont un plumage très semblable.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-181",
+    "animal": "Calao rhinocéros",
+    "prompt": "De quelle matière est principalement constituée la gaine du casque du calao rhinocéros ?",
+    "options": [
+      "De kératine",
+      "De chitine",
+      "De silice",
+      "De cartilage nu"
+    ],
+    "answer": 0,
+    "explanation": "La gaine cornée qui recouvre le casque est constituée de kératine, comme celle du bec. Le casque se développe avec la croissance de l’oiseau.",
+    "didYouKnow": "Le calao rhinocéros habite les forêts tropicales de Bornéo, Sumatra et de la péninsule malaise.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-182",
+    "animal": "Perruche à ventre orange",
+    "prompt": "Entre quelles régions la perruche à ventre orange effectue-t-elle sa migration ?",
+    "options": [
+      "La Tasmanie et le sud de l’Australie",
+      "L’Arctique et l’Antarctique",
+      "L’Europe et l’Afrique de l’Ouest",
+      "Le Japon et la Sibérie"
+    ],
+    "answer": 0,
+    "explanation": "Elle se reproduit en Tasmanie puis migre vers des quartiers d’hiver sur le continent australien.",
+    "didYouKnow": "Sa population sauvage est très réduite et fait l’objet d’efforts de conservation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-183",
+    "animal": "Pigeon couronné de Victoria",
+    "prompt": "Quelle structure visible distingue le pigeon couronné de Victoria ?",
+    "options": [
+      "Une grande huppe de plumes bleues ajourées",
+      "Un casque corné sur le bec",
+      "Une poche extensible sous la gorge",
+      "Une traîne composée d’ocelles"
+    ],
+    "answer": 0,
+    "explanation": "Sa huppe bleue est formée de plumes délicates en forme de dentelle.",
+    "didYouKnow": "Le pigeon couronné de Victoria est l’une des plus grandes espèces de pigeons vivantes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-184",
+    "animal": "Pygargue à tête blanche",
+    "prompt": "Quel aliment constitue une ressource importante pour le pygargue à tête blanche ?",
+    "options": [
+      "Les poissons",
+      "Les graines de roseaux uniquement",
+      "Les lichens de falaise",
+      "Le nectar des fleurs"
+    ],
+    "answer": 0,
+    "explanation": "Il capture souvent des poissons, même si son régime comprend aussi d’autres proies et des carcasses.",
+    "didYouKnow": "Chez le pygargue à tête blanche, la tête blanche apparaît avec le plumage adulte, après plusieurs années.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-185",
+    "animal": "Aigle harpie",
+    "prompt": "Pourquoi les ailes relativement courtes de l’aigle harpie sont-elles utiles en forêt ?",
+    "options": [
+      "Elles facilitent les manœuvres entre les arbres",
+      "Elles permettent de nager sous l’eau",
+      "Elles augmentent la vitesse en haute mer",
+      "Elles empêchent tout vol plané"
+    ],
+    "answer": 0,
+    "explanation": "Des ailes plus courtes et larges facilitent les virages dans la végétation dense.",
+    "didYouKnow": "L’aigle harpie construit un nid volumineux dans la canopée de grands arbres.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-186",
+    "animal": "Pétrel géant",
+    "prompt": "Quel rôle le pétrel géant remplit-il parfois autour des colonies marines ?",
+    "options": [
+      "Consommer des carcasses et d’autres ressources disponibles",
+      "Construire des récifs de corail",
+      "Filtrer le sel des courants",
+      "Polliniser les algues du fond marin"
+    ],
+    "answer": 0,
+    "explanation": "Il agit comme prédateur opportuniste et charognard dans les écosystèmes marins.",
+    "didYouKnow": "Le pétrel géant est le plus grand représentant des pétrels.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-187",
+    "animal": "Urubu noir",
+    "prompt": "Comment l’urubu noir repère-t-il souvent une carcasse ?",
+    "options": [
+      "En observant d’autres charognards et grâce à sa vue",
+      "Uniquement par un odorat exceptionnel",
+      "En écoutant les graines tomber",
+      "En creusant sous les carcasses"
+    ],
+    "answer": 0,
+    "explanation": "Il se fie largement à la vue et peut repérer les oiseaux qui ont trouvé une carcasse.",
+    "didYouKnow": "L’urubu noir peut exploiter les ascendances thermiques pour planer avec peu d’effort.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-188",
+    "animal": "Pygargue vocifère",
+    "prompt": "Quelle ressource le pygargue vocifère capture-t-il principalement ?",
+    "options": [
+      "Des poissons près de la surface",
+      "Des racines souterraines",
+      "Des graines de graminées uniquement",
+      "Des insectes dans les troncs"
+    ],
+    "answer": 0,
+    "explanation": "Il pêche souvent en saisissant des poissons près de la surface de l’eau.",
+    "didYouKnow": "Le pygargue vocifère est connu pour son cri puissant et caractéristique.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-189",
+    "animal": "Grand gravelot",
+    "prompt": "Comment le poussin du grand gravelot se comporte-t-il peu après l’éclosion ?",
+    "options": [
+      "Il peut marcher et chercher sa nourriture sous la surveillance des adultes",
+      "Il reste nourri dans une cavité pendant plusieurs mois",
+      "Il vole immédiatement vers la mer",
+      "Il passe sa première semaine sous l’eau"
+    ],
+    "answer": 0,
+    "explanation": "Les poussins sont précoces et peuvent quitter le nid au sol pour chercher de petites proies.",
+    "didYouKnow": "Le grand gravelot hiverne sur des littoraux et des zones humides dans différentes régions tempérées.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-190",
+    "animal": "Phalarope à bec étroit",
+    "prompt": "Comment le phalarope à bec étroit concentre-t-il parfois de petites proies à la surface ?",
+    "options": [
+      "Il tourne rapidement sur lui-même dans l’eau",
+      "Il construit un barrage de plumes",
+      "Il souffle de l’air chaud dans la vase",
+      "Il tape sur les poissons avec ses ailes"
+    ],
+    "answer": 0,
+    "explanation": "La rotation crée des remous qui peuvent faire remonter de petits organismes à sa portée.",
+    "didYouKnow": "Chez ce phalarope, les femelles sont plus vivement colorées que les mâles et ceux-ci assurent l’incubation.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-191",
+    "animal": "Motmot à sourcils bleus",
+    "prompt": "À quoi peut servir le mouvement pendulaire de la queue chez certains motmots ?",
+    "options": [
+      "À signaler un état d’alerte ou une interaction",
+      "À refroidir les œufs sous le nid",
+      "À attirer des poissons sous l’eau",
+      "À propulser l’oiseau en marche arrière"
+    ],
+    "answer": 0,
+    "explanation": "Le mouvement de queue peut servir de signal visible, notamment en contexte d’alerte.",
+    "didYouKnow": "Le motmot à sourcils bleus creuse souvent son nid au fond d’un tunnel dans une berge.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-192",
+    "animal": "Trogon élégant",
+    "prompt": "Comment les doigts du trogon élégant sont-ils disposés ?",
+    "options": [
+      "Deux vers l’avant et deux vers l’arrière",
+      "Trois vers l’avant et un vers l’arrière",
+      "Tous vers l’avant",
+      "Tous vers l’arrière"
+    ],
+    "answer": 0,
+    "explanation": "Cette disposition, dite hétérodactyle, aide le trogon à saisir les branches.",
+    "didYouKnow": "Les trogons peuvent nicher dans des cavités naturelles ou dans d’anciennes termitières selon l’espèce.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-193",
+    "animal": "Oiseau-lyre superbe",
+    "prompt": "Pourquoi l’oiseau-lyre superbe est-il nommé ainsi ?",
+    "options": [
+      "La queue du mâle déployée évoque la forme d’une lyre",
+      "Son chant ressemble au bruit d’un instrument à cordes uniquement",
+      "Il niche exclusivement dans les arbres appelés lyres",
+      "Il possède un bec en forme de lyre"
+    ],
+    "answer": 0,
+    "explanation": "Les longues plumes de queue du mâle forment une silhouette rappelant une lyre pendant la parade.",
+    "didYouKnow": "L’oiseau-lyre est endémique de l’Australie et vit dans des forêts tempérées humides.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-194",
+    "animal": "Tisserin gendarme",
+    "prompt": "Pourquoi les nids tissés du tisserin pendent-ils souvent aux branches ?",
+    "options": [
+      "La suspension rend l’accès plus difficile à certains prédateurs terrestres",
+      "Elle permet aux œufs de flotter",
+      "Elle donne au nid accès à la sève",
+      "Elle empêche les parents de sortir"
+    ],
+    "answer": 0,
+    "explanation": "Les nids suspendus peuvent limiter l’accès de certains prédateurs qui grimpent depuis le sol.",
+    "didYouKnow": "Le mâle du tisserin gendarme arbore un plumage jaune vif pendant la période de reproduction.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-195",
+    "animal": "Républicain social",
+    "prompt": "Quel matériau le républicain social utilise-t-il principalement pour construire son grand nid collectif ?",
+    "options": [
+      "Des herbes sèches et des brindilles",
+      "Des coquilles marines et du sable",
+      "De la boue et des feuilles fraîches uniquement",
+      "Des plumes de mammifères"
+    ],
+    "answer": 0,
+    "explanation": "La structure collective est principalement composée de matériaux végétaux secs.",
+    "didYouKnow": "Le républicain social vit dans des milieux secs d’Afrique australe.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-196",
+    "animal": "Balbuzard pêcheur",
+    "prompt": "Comment les serres du balbuzard aident-elles à retenir un poisson glissant ?",
+    "options": [
+      "Des aspérités et coussinets rugueux améliorent l’adhérence",
+      "Elles sécrètent une colle",
+      "Elles enveloppent le poisson dans une membrane",
+      "Elles portent des ventouses"
+    ],
+    "answer": 0,
+    "explanation": "Les surfaces rugueuses des doigts aident à maintenir fermement la proie.",
+    "didYouKnow": "Le balbuzard installe souvent son aire sur un support élevé, proche d’un plan d’eau.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-197",
+    "animal": "Grand corbeau",
+    "prompt": "Comment un grand corbeau peut-il casser une noix à coque dure ?",
+    "options": [
+      "En la laissant tomber sur une surface résistante",
+      "En la dissolvant dans l’eau",
+      "En la mâchant avec des dents",
+      "En la frottant contre une plume"
+    ],
+    "answer": 0,
+    "explanation": "La chute sur une surface dure peut briser la coque et rendre la noix accessible.",
+    "didYouKnow": "Le grand corbeau forme souvent des liens de couple durables et défend un territoire de nidification.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-198",
+    "animal": "Coucou gris",
+    "prompt": "Pourquoi la femelle coucou gris surveille-t-elle parfois un nid d’hôte ?",
+    "options": [
+      "Pour choisir le moment où elle pourra y déposer son œuf",
+      "Pour apprendre au parent hôte à construire un nid",
+      "Pour y stocker des chenilles",
+      "Pour empêcher les poussins hôtes de migrer"
+    ],
+    "answer": 0,
+    "explanation": "La femelle doit repérer un nid actif dont le stade de ponte convient à l’incubation de son œuf.",
+    "didYouKnow": "Le coucou gris consomme notamment des chenilles, y compris certaines espèces velues peu appréciées d’autres oiseaux.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "birds-199",
+    "animal": "Manchot empereur",
+    "prompt": "Quel rôle joue le regroupement des manchots empereurs pendant les tempêtes hivernales ?",
+    "options": [
+      "Il réduit l’exposition individuelle au vent et au froid",
+      "Il permet de partager les œufs entre les groupes",
+      "Il attire les poissons sous la glace",
+      "Il accélère la fonte de la neige"
+    ],
+    "answer": 0,
+    "explanation": "Les individus serrés les uns contre les autres réduisent la surface exposée aux conditions froides.",
+    "didYouKnow": "Le manchot empereur plonge pour capturer des poissons et des calmars sous la banquise.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "birds-200",
+    "animal": "Sterne arctique",
+    "prompt": "Quel habitat la sterne arctique utilise-t-elle souvent pour nicher ?",
+    "options": [
+      "Des zones côtières ou des îles de l’Arctique",
+      "Les forêts tropicales de canopée",
+      "Les falaises désertiques sans eau",
+      "Les grottes d’eau douce"
+    ],
+    "answer": 0,
+    "explanation": "Elle niche dans les régions arctiques, souvent près des côtes ou sur des îles.",
+    "didYouKnow": "La sterne arctique peut vivre plusieurs décennies, malgré sa petite taille.",
+    "difficulty": "medium"
+  }
+]

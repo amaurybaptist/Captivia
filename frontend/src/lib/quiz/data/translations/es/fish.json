@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "72298cf964a9f29277068df74da238d23e560d0a70bb654fccbc95400a9546f6",
+  "locale": "es",
+  "questions": [
+    {
+      "id": "fish-001",
+      "animal": "tiburón ballena",
+      "prompt": "¿De qué se alimentan principalmente los tiburones ballena?",
+      "options": [
+        "Plancton filtrado en agua",
+        "Algas pastoreadas en arrecifes",
+        "Moluscos extraídos de la arena.",
+        "Grandes mamíferos marinos"
+      ],
+      "explanation": "Filtra plancton y pequeños organismos haciendo pasar agua por la boca y las branquias.",
+      "didYouKnow": "Su piel tiene pequeños dentículos dérmicos que reducen el arrastre.",
+      "imageCaption": "tiburón ballena"
+    },
+    {
+      "id": "fish-002",
+      "animal": "tiburón peregrino",
+      "prompt": "¿Qué recurso filtra el tiburón peregrino al nadar con la boca abierta?",
+      "options": [
+        "zooplancton",
+        "pastos marinos",
+        "pez adulto",
+        "Sedimentos ricos en gusanos."
+      ],
+      "explanation": "Sus branquiespinas contienen pequeños organismos planctónicos mientras el agua escapa a través de las hendiduras branquiales.",
+      "didYouKnow": "Puede alcanzar un tamaño muy grande, sólo superado por el tiburón ballena.",
+      "imageCaption": "tiburón peregrino"
+    },
+    {
+      "id": "fish-003",
+      "animal": "Tiburón nodriza",
+      "prompt": "¿Qué mecanismo permite al tiburón nodriza ventilar sus branquias sin nadar hacia adelante?",
+      "options": [
+        "Bombea agua por la boca y luego la pasa por las branquias.",
+        "Debe nadar hacia adelante para forzar el agua a través de las branquias.",
+        "Chupa agua a través de los espiráculos y la expulsa por la boca.",
+        "Ventila sus branquias abriendo y cerrando sus cubiertas como un teleósteo."
+      ],
+      "explanation": "La ventilación oral introduce agua por la boca y la hace circular por las branquias, incluso cuando el tiburón permanece sentado.",
+      "didYouKnow": "El tiburón nodriza caza principalmente peces e invertebrados que viven cerca del fondo durante la noche.",
+      "imageCaption": "Tiburón nodriza"
+    },
+    {
+      "id": "fish-004",
+      "animal": "tiburón martillo",
+      "prompt": "¿Qué receptores en la cabeza del tiburón martillo detectan campos eléctricos débiles de sus presas?",
+      "options": [
+        "Los bulbos de Lorenzini",
+        "Neuromastos de la línea lateral",
+        "Células olfativas en las fosas nasales.",
+        "Células fotorreceptoras de la retina."
+      ],
+      "explanation": "Las ampollas de Lorenzini son electrorreceptores; su distribución en la cabeza agrandada ayuda al tiburón a localizar presas enterradas.",
+      "didYouKnow": "La cabeza agrandada también le proporciona un amplio campo de visión hacia abajo.",
+      "imageCaption": "tiburón martillo"
+    },
+    {
+      "id": "fish-005",
+      "animal": "tiburón zorro",
+      "prompt": "¿Cómo suele utilizar el tiburón zorro su larga cola para cazar?",
+      "options": [
+        "Azota el agua para desorientar a los peces en cardúmenes.",
+        "Cava madrigueras en la arena",
+        "Filtra el plancton superficial.",
+        "Lleva sus huevos a los arrecifes."
+      ],
+      "explanation": "El lóbulo superior alargado de su cola golpea el agua y puede aturdir a los peces carnada.",
+      "didYouKnow": "Los embriones de varias especies se alimentan de óvulos no fertilizados en el útero.",
+      "imageCaption": "tiburón zorro"
+    },
+    {
+      "id": "fish-006",
+      "animal": "Tiburón toro",
+      "prompt": "¿Qué ajuste fisiológico permite al tiburón toro pasar del agua salada al agua dulce?",
+      "options": [
+        "Ajusta el equilibrio hídrico e iónico según la salinidad.",
+        "Mantiene la misma concentración de urea y bebe más agua dulce.",
+        "Rechaza todos sus iones a través de los riñones sin modificar la ventilación branquial.",
+        "Reduce la entrada de agua cerrando los espiráculos."
+      ],
+      "explanation": "El tiburón toro ajusta el equilibrio hídrico e iónico de su cuerpo cuando cambia la salinidad.",
+      "didYouKnow": "Como otros tiburones, reemplaza continuamente sus dientes a lo largo de su vida.",
+      "imageCaption": "Tiburón toro"
+    },
+    {
+      "id": "fish-007",
+      "animal": "mantarraya",
+      "prompt": "¿Cómo recolecta plancton la mantarraya?",
+      "options": [
+        "Sus lóbulos cefálicos dirigen el agua hacia su boca.",
+        "Lo roza con dientes en forma de pico.",
+        "Ella lo captura con un aguijón en la cola.",
+        "Ella lo recoge en madrigueras"
+      ],
+      "explanation": "Los lóbulos cefálicos canalizan el agua cargada de plancton hacia la boca y las estructuras filtrantes.",
+      "didYouKnow": "Las mantarrayas no tienen espina caudal.",
+      "imageCaption": "mantarraya"
+    },
+    {
+      "id": "fish-008",
+      "animal": "Raya eléctrica",
+      "prompt": "¿Qué células especializadas producen la descarga eléctrica de un rayo torpedo?",
+      "options": [
+        "Electrocitos organizados en sus órganos eléctricos.",
+        "Neuronas motoras de las aletas pectorales.",
+        "Células sensoriales de la línea lateral.",
+        "Células musculares aisladas activadas aleatoriamente."
+      ],
+      "explanation": "Los electrocitos son células derivadas de células musculares; su activación coordinada produce una descarga.",
+      "didYouKnow": "La raya torpedo suele vivir descansando o enterrada en el fondo marino.",
+      "imageCaption": "Raya eléctrica"
+    },
+    {
+      "id": "fish-009",
+      "animal": "Raya con aguijón",
+      "prompt": "¿Cuál es la función principal del aguijón de una raya?",
+      "options": [
+        "Para defenderse de una amenaza",
+        "Para filtrar plancton",
+        "Para atraer a una pareja con luz.",
+        "Para cavar una madriguera profunda"
+      ],
+      "explanation": "La picadura de la cola es una defensa, que se utiliza a menudo si la raya es pisoteada o atrapada.",
+      "didYouKnow": "La raya generalmente intenta escapar cuando tiene la oportunidad.",
+      "imageCaption": "Raya con aguijón"
+    },
+    {
+      "id": "fish-010",
+      "animal": "Pez sierra",
+      "prompt": "¿A qué grupo pertenece el pez sierra a pesar de su rostro dentado?",
+      "options": [
+        "Con radios cartilaginosos",
+        "Pez óseo de arrecife",
+        "A los mamíferos marinos",
+        "Con esturión de agua dulce"
+      ],
+      "explanation": "El pez sierra es una raya: sus hendiduras branquiales se encuentran debajo de su cuerpo aplanado.",
+      "didYouKnow": "Los peces sierra son rayas cuyas hendiduras branquiales se encuentran en el lado ventral.",
+      "imageCaption": "Pez sierra"
+    },
+    {
+      "id": "fish-011",
+      "animal": "quimera",
+      "prompt": "¿De qué material está hecho principalmente el esqueleto de una quimera?",
+      "options": [
+        "cartílago",
+        "madera calcificada",
+        "quitina",
+        "Placas completamente óseas"
+      ],
+      "explanation": "Las quimeras son peces cartilaginosos, como los tiburones y las rayas.",
+      "didYouKnow": "Muchos viven en profundidad y ponen cápsulas de huevos.",
+      "imageCaption": "quimera"
+    },
+    {
+      "id": "fish-012",
+      "animal": "Esturión",
+      "prompt": "¿Qué característica del esqueleto del esturión es notable?",
+      "options": [
+        "Sigue siendo en gran parte cartilaginoso.",
+        "esta hecho de quitina",
+        "Incluye costillas externas visibles.",
+        "Está formado por tejido vegetal mineralizado."
+      ],
+      "explanation": "A pesar de pertenecer a peces óseos, su esqueleto es mayoritariamente cartilaginoso y persiste su cordón dorsal.",
+      "didYouKnow": "Los huevos de esturión se utilizan tradicionalmente para el caviar.",
+      "imageCaption": "Esturión"
+    },
+    {
+      "id": "fish-013",
+      "animal": "anguila europea",
+      "prompt": "¿Adónde migran las anguilas europeas adultas para desovar?",
+      "options": [
+        "Hacia el Mar de los Sargazos",
+        "Hacia el Mar Báltico",
+        "Hacia el lago Baikal",
+        "Hacia el Mar Rojo"
+      ],
+      "explanation": "Después de crecer en aguas continentales, los adultos plateados cruzan el Atlántico para llegar a su zona de reproducción.",
+      "didYouKnow": "Las anguilas jóvenes se convierten en angulas transparentes cuando llegan cerca de la costa.",
+      "imageCaption": "anguila europea"
+    },
+    {
+      "id": "fish-014",
+      "animal": "anguila electrica",
+      "prompt": "¿Cómo localiza la anguila eléctrica un obstáculo mediante electrolocalización activa?",
+      "options": [
+        "Emite un campo eléctrico débil y detecta sus perturbaciones.",
+        "Emite ultrasonidos y analiza su eco.",
+        "Sólo detecta campos eléctricos producidos por la presa.",
+        "Mide las vibraciones del agua con sus fosas nasales."
+      ],
+      "explanation": "Los objetos cercanos interrumpen el campo eléctrico emitido por la anguila; receptores especializados detectan estas deformaciones.",
+      "didYouKnow": "Debe subir a la superficie para respirar aire atmosférico.",
+      "imageCaption": "anguila electrica"
+    },
+    {
+      "id": "fish-015",
+      "animal": "anguila morena",
+      "prompt": "¿Cómo atrae la morena a su presa hacia su garganta?",
+      "options": [
+        "Con un segundo par de mandíbulas faríngeas.",
+        "Con ventosa situada en la cola",
+        "Proyectando un chorro de agua",
+        "Con barbillas que envuelven a la presa."
+      ],
+      "explanation": "Sus mandíbulas faríngeas avanzan hacia la garganta, atrapan a la presa y la atraen hacia el esófago.",
+      "didYouKnow": "Sus fosas nasales se utilizan principalmente para detectar olores, no para respirar.",
+      "imageCaption": "anguila morena"
+    },
+    {
+      "id": "fish-016",
+      "animal": "pez payaso",
+      "prompt": "¿Qué padre lleva los huevos fertilizados en el pez payaso?",
+      "options": [
+        "Ninguno: los huevos se ponen sobre un sustrato.",
+        "El macho en una bolsa ventral.",
+        "La hembra en su boca",
+        "Ambos padres en un bolsillo compartido"
+      ],
+      "explanation": "El pez payaso pone huevos en un sustrato cerca de su anémona y los padres protegen el desove.",
+      "didYouKnow": "En un grupo, el individuo más grande suele ser la hembra reproductora.",
+      "imageCaption": "pez payaso"
+    },
+    {
+      "id": "fish-017",
+      "animal": "caballito de mar",
+      "prompt": "¿Qué padre lleva los embriones en una bolsa en los caballitos de mar?",
+      "options": [
+        "el macho",
+        "la hembra",
+        "Ambos padres se turnan",
+        "Ninguno: los huevos se desplazan libremente"
+      ],
+      "explanation": "La hembra transfiere sus huevos a la bolsa de cría del macho, donde se desarrollan.",
+      "didYouKnow": "Los caballitos de mar nadan en posición vertical y avanzan utilizando su aleta dorsal.",
+      "imageCaption": "caballito de mar"
+    },
+    {
+      "id": "fish-018",
+      "animal": "pez león",
+      "prompt": "¿Para qué se utiliza la columna vertebral del pez león?",
+      "options": [
+        "Para disuadir a los depredadores con su veneno",
+        "Producir luz para atraer presas.",
+        "Para filtrar plancton",
+        "Para cavar en los arrecifes"
+      ],
+      "explanation": "Las espinas venenosas constituyen una defensa; el pez captura a su presa con la boca.",
+      "didYouKnow": "Las espinas dorsales del pez león están conectadas a glándulas venenosas.",
+      "imageCaption": "pez león"
+    },
+    {
+      "id": "fish-019",
+      "animal": "pez globo",
+      "prompt": "¿Cómo aumenta rápidamente su volumen el pez globo cuando se ve amenazado?",
+      "options": [
+        "el traga agua",
+        "Infla sus aletas con aire.",
+        "Libera burbujas de sus branquias.",
+        "Despliega placas óseas debajo de la piel."
+      ],
+      "explanation": "Traga agua y distiende su cuerpo, haciéndole más difícil tragar.",
+      "didYouKnow": "La tetrodotoxina, presente en determinadas especies, puede resultar peligrosa para los depredadores.",
+      "imageCaption": "pez globo"
+    },
+    {
+      "id": "fish-020",
+      "animal": "Pez arquero",
+      "prompt": "¿Cómo derriba el pez arquero un insecto sobre el agua?",
+      "options": [
+        "Proyecta un chorro de agua preciso",
+        "Salta y lo golpea con la cola.",
+        "Lo atrae con una luz.",
+        "Lanza una burbuja que lo aprisiona."
+      ],
+      "explanation": "Comprime el agua en su boca y dirige un chorro hacia la presa aérea.",
+      "didYouKnow": "Vive en aguas salobres y dulces de manglares y estuarios de Asia.",
+      "imageCaption": "Pez arquero"
+    },
+    {
+      "id": "fish-021",
+      "animal": "pez volador",
+      "prompt": "¿Qué aletas permiten a los peces voladores deslizarse sobre las olas?",
+      "options": [
+        "Sus aletas pectorales agrandadas",
+        "Sus aletas dorsales transformadas en alas.",
+        "Sus aletas pélvicas filamentosas",
+        "Sus branquias extendidas"
+      ],
+      "explanation": "Después de acelerar bajo el agua, sus grandes aletas pectorales le sirven como superficies de apoyo.",
+      "didYouKnow": "Flota brevemente y no bate sus alas como un pájaro.",
+      "imageCaption": "pez volador"
+    },
+    {
+      "id": "fish-022",
+      "animal": "Atún rojo",
+      "prompt": "¿Qué disposición vascular ayuda al atún rojo a retener el calor producido por sus músculos?",
+      "options": [
+        "Las redes vasculares a contracorriente recuperan calor de la sangre",
+        "Una capa de grasa bloquea completamente la pérdida de calor.",
+        "La sangre fluye en la misma dirección en los vasos adyacentes.",
+        "La vejiga natatoria transmite calor a los músculos."
+      ],
+      "explanation": "Los intercambiadores de contracorriente transfieren parte del calor de la sangre venosa a la sangre arterial y limitan su pérdida a través de las branquias.",
+      "didYouKnow": "El atún rojo realiza largas migraciones oceánicas entre las zonas de alimentación y reproducción.",
+      "imageCaption": "Atún rojo"
+    },
+    {
+      "id": "fish-023",
+      "animal": "Lucio",
+      "prompt": "¿Qué estrategia de caza emplean frecuentemente los lucios?",
+      "options": [
+        "La emboscada en la vegetación acuática",
+        "Filtración de plancton en aguas abiertas.",
+        "Cavando un nido en el barro",
+        "Persiguiendo bancos de arena en alta mar"
+      ],
+      "explanation": "Su cuerpo alargado y su camuflaje le permiten emerger rápidamente de su escondite.",
+      "didYouKnow": "Sus dientes en ángulo hacia atrás sostienen a la presa capturada.",
+      "imageCaption": "Lucio"
+    },
+    {
+      "id": "fish-024",
+      "animal": "Salmón",
+      "prompt": "¿Qué sentido ayuda al salmón a encontrar el camino de regreso a su corriente de origen?",
+      "options": [
+        "olfato",
+        "Detección de infrasonidos aéreos.",
+        "Solo visión de estrellas",
+        "El sabor de la sal en sus escamas."
+      ],
+      "explanation": "Memoriza pistas químicas de su curso de agua nativo y las reconoce a su regreso.",
+      "didYouKnow": "Los salmones jóvenes suelen pasar parte de su crecimiento en los ríos antes de migrar.",
+      "imageCaption": "Salmón"
+    },
+    {
+      "id": "fish-025",
+      "animal": "Pez sol azul (Lepomis macrochirus)",
+      "prompt": "¿Qué progenitor suele vigilar el nido y abanicar los huevos del pez sol azul?",
+      "options": [
+        "El macho",
+        "La hembra",
+        "Ambos progenitores solo por la noche",
+        "Ninguno"
+      ],
+      "explanation": "El macho defiende el nido y agita sus aletas para hacer circular el agua sobre los huevos.",
+      "didYouKnow": "El nido suele ser una depresión circular en un fondo poco profundo.",
+      "imageCaption": "Pez sol azul (Lepomis macrochirus)"
+    },
+    {
+      "id": "fish-026",
+      "animal": "bagre",
+      "prompt": "¿Qué tipo de información pueden detectar las barbillas de un bagre cuando explora el fondo?",
+      "options": [
+        "Contactos y productos químicos disueltos.",
+        "Campos magnéticos y ultrasonido.",
+        "Solo temperatura y luz ultravioleta.",
+        "Variaciones de salinidad a largas distancias."
+      ],
+      "explanation": "Las barbillas llevan receptores táctiles y gustativos, útiles para localizar alimentos en aguas turbias.",
+      "didYouKnow": "Muchas especies de bagre carecen de las escamas típicas de otros peces óseos.",
+      "imageCaption": "bagre"
+    },
+    {
+      "id": "fish-027",
+      "animal": "Corydoras",
+      "prompt": "¿Cómo completan algunas Corydoras el intercambio de gases cuando el agua tiene poco oxígeno?",
+      "options": [
+        "Tragan aire y absorben parte del oxígeno en el intestino.",
+        "Tragan aire y el oxígeno se difunde principalmente en la vejiga natatoria.",
+        "Ventilan las branquias más rápidamente cuando nadan cerca de la superficie.",
+        "Absorben el oxígeno atmosférico principalmente a través de la piel."
+      ],
+      "explanation": "Algunas Corydoras suben para tragar aire; parte del oxígeno atraviesa la pared intestinal, además de las branquias.",
+      "didYouKnow": "Sus placas óseas protegen el cuerpo debajo de la piel.",
+      "imageCaption": "Corydoras"
+    },
+    {
+      "id": "fish-028",
+      "animal": "pez loro",
+      "prompt": "¿Cuál es la función del pico del pez loro?",
+      "options": [
+        "Quitar las algas de rocas y corales.",
+        "Plancton filtrado con barbas.",
+        "Inyectar veneno en corales",
+        "Cavar túneles en rocas"
+      ],
+      "explanation": "Sus dientes fusionados forman un pico adaptado a pastar sobre el sustrato.",
+      "didYouKnow": "El material de coral triturado contribuye a la arena de algunas playas.",
+      "imageCaption": "pez loro"
+    },
+    {
+      "id": "fish-029",
+      "animal": "Camarón gobio y pistola",
+      "prompt": "¿Cómo ayuda el gobio al camarón casi ciego?",
+      "options": [
+        "Hace guardia y señala el peligro con un movimiento de cola.",
+        "El camarón detecta depredadores y madrigueras de gobios.",
+        "El gobio alimenta al camarón con algas",
+        "Intercambian señales luminosas."
+      ],
+      "explanation": "El camarón mantiene la madriguera mientras el gobio guarda la entrada.",
+      "didYouKnow": "El contacto entre los dos animales mantiene su coordinación.",
+      "imageCaption": "Camarón gobio y pistola"
+    },
+    {
+      "id": "fish-030",
+      "animal": "Pez luna (Mola)",
+      "prompt": "¿Por qué a veces el pez luna se calienta cerca de la superficie después de una inmersión?",
+      "options": [
+        "El calor solar calienta tu cuerpo antes de una nueva inmersión",
+        "La luz de la luna calienta sus branquias",
+        "Absorbe el calor de la arena enterrándose",
+        "La fermentación de sus alimentos produce calor."
+      ],
+      "explanation": "La superficie cálida ayuda a compensar el enfriamiento de las inmersiones profundas.",
+      "didYouKnow": "El pez luna es el pez óseo más pesado que se conoce.",
+      "imageCaption": "Pez luna (Mola)"
+    },
+    {
+      "id": "fish-031",
+      "animal": "salmón rojo",
+      "prompt": "¿Qué cambio de color suele acompañar al desove del salmón rojo?",
+      "options": [
+        "El cuerpo se vuelve rojo y la cabeza verdosa.",
+        "El cuerpo se vuelve plateado y la cabeza azul.",
+        "Las aletas se vuelven negras sin cambio de cuerpo",
+        "La espalda se vuelve blanca y el vientre amarillo."
+      ],
+      "explanation": "Los cambios genéticos hacen que la librea reproductiva sea muy visible.",
+      "didYouKnow": "El salmón rojo joven puede crecer en un lago antes de llegar al mar.",
+      "imageCaption": "salmón rojo"
+    },
+    {
+      "id": "fish-032",
+      "animal": "pez de las cavernas",
+      "prompt": "¿Qué sentido ayuda a los peces de las cavernas a detectar el movimiento en la oscuridad?",
+      "options": [
+        "la linea lateral",
+        "Visión ultravioleta",
+        "Audiencia aérea",
+        "Detección por infrarrojos"
+      ],
+      "explanation": "Sus receptores detectan movimientos y vibraciones del agua alrededor de los peces.",
+      "didYouKnow": "Las poblaciones de superficie de esta especie tienen ojos funcionales y una pigmentación más pronunciada.",
+      "imageCaption": "pez de las cavernas"
+    },
+    {
+      "id": "fish-033",
+      "animal": "pez payaso",
+      "prompt": "¿Qué cambio social puede ocurrir cuando desaparece la hembra dominante del pez payaso?",
+      "options": [
+        "El macho reproductor puede convertirse en hembra.",
+        "La hembra se convierte en macho y el grupo se dispersa.",
+        "Todos los miembros se vuelven femeninos.",
+        "El grupo no puede reemplazar a la mujer."
+      ],
+      "explanation": "En el pez payaso, el sexo cambia según la jerarquía del grupo.",
+      "didYouKnow": "El individuo más grande del grupo es generalmente la hembra.",
+      "imageCaption": "pez payaso"
+    },
+    {
+      "id": "fish-034",
+      "animal": "pez loro",
+      "prompt": "¿Cómo puede el pastoreo de peces loro ayudar a los corales?",
+      "options": [
+        "Elimina algas que compiten con los corales jóvenes.",
+        "Fertiliza algas con veneno.",
+        "Destruye los arrecifes para liberar la arena.",
+        "Repele los corales cubriéndolos de moco."
+      ],
+      "explanation": "El pastoreo libera áreas donde pueden asentarse las larvas de coral.",
+      "didYouKnow": "Sus picos también pueden triturar carbonato de calcio.",
+      "imageCaption": "pez loro"
+    },
+    {
+      "id": "fish-035",
+      "animal": "Tilapia",
+      "prompt": "¿Qué padre incuba huevos en la boca en muchas tilapias?",
+      "options": [
+        "Un padre, a menudo la hembra, según la especie.",
+        "El macho, que guarda los huevos en una hoja.",
+        "El macho, que lleva los huevos en una bolsa.",
+        "Sin padres, los huevos siguen flotando"
+      ],
+      "explanation": "La incubación bucal protege los huevos de los depredadores y las perturbaciones.",
+      "didYouKnow": "En la tilapia, ambos padres pueden participar en el cuidado según la especie.",
+      "imageCaption": "Tilapia"
+    },
+    {
+      "id": "fish-036",
+      "animal": "carpa común",
+      "prompt": "¿Cómo suelen encontrar las carpas su alimento en el barro?",
+      "options": [
+        "Busca el fondo con sus barbillas sensoriales.",
+        "Filtra el agua con sus barbillas.",
+        "Atrapa insectos sobre el agua.",
+        "Caza usando un señuelo luminoso."
+      ],
+      "explanation": "Las barbillas le ayudan a localizar alimentos e invertebrados en el sedimento.",
+      "didYouKnow": "La carpa común puede remover el fondo mientras excava, lo que resuspende las partículas.",
+      "imageCaption": "carpa común"
+    },
+    {
+      "id": "fish-037",
+      "animal": "pez cebra",
+      "prompt": "¿Por qué se utiliza el pez cebra para estudiar el desarrollo de los vertebrados?",
+      "options": [
+        "Sus embriones transparentes se desarrollan fuera del cuerpo.",
+        "Produce una concha calcárea alrededor de su cuerpo.",
+        "Cambia de sexo para adoptar la anémona",
+        "Está cubierto de escamas venenosas."
+      ],
+      "explanation": "La transparencia permite observar el desarrollo de los órganos en vivo.",
+      "didYouKnow": "Es una especie de agua dulce originaria del sur de Asia.",
+      "imageCaption": "pez cebra"
+    },
+    {
+      "id": "fish-038",
+      "animal": "Pez luchador siamés",
+      "prompt": "¿Cómo construye su nido el macho del pez luchador siamés?",
+      "options": [
+        "Reúne burbujas en la superficie",
+        "Hace que las algas compitan mejor",
+        "Impide que se asienten larvas de coral",
+        "Produce toxinas contra los corales"
+      ],
+      "explanation": "El macho crea un nido de burbujas y protege los huevos y luego los alevines.",
+      "didYouKnow": "El luchador siamés puede respirar aire gracias a un órgano laberíntico accesorio.",
+      "imageCaption": "Pez luchador siamés"
+    },
+    {
+      "id": "fish-039",
+      "animal": "Gurami",
+      "prompt": "¿Qué órgano permite al gurami absorber oxígeno del aire?",
+      "options": [
+        "El órgano laberíntico",
+        "El padre los lleva en una bolsa ventral en todas las especies.",
+        "Ambos padres los incuban en sus branquias.",
+        "Sin padres: los óvulos quedan desprotegidos"
+      ],
+      "explanation": "Este órgano respiratorio accesorio complementa el uso de las branquias.",
+      "didYouKnow": "El órgano laberíntico permite a los guramis utilizar el oxígeno del aire.",
+      "imageCaption": "Gurami"
+    },
+    {
+      "id": "fish-040",
+      "animal": "pez pulmonado africano",
+      "prompt": "Durante la estivación, ¿cómo limita el pez pulmonado africano la pérdida de agua cuando su hábitat se seca?",
+      "options": [
+        "Excava, forma un capullo mucoso y reduce su metabolismo.",
+        "Excava sin capullo y mantiene su metabolismo habitual.",
+        "Permanece en la superficie y ralentiza la respiración branquial.",
+        "Secreta un capullo pero permanece activo en el agua residual."
+      ],
+      "explanation": "El pez pulmonado se esconde en el barro y forma un capullo mucoso; su actividad metabólica disminuye hasta que regresan las condiciones favorables.",
+      "didYouKnow": "Los peces pulmonados pertenecen a peces con aletas carnosas, como los celacantos.",
+      "imageCaption": "pez pulmonado africano"
+    },
+    {
+      "id": "fish-041",
+      "animal": "celacanto",
+      "prompt": "¿Por qué se describe al celacanto como un pez de aletas carnosas?",
+      "options": [
+        "Sus aletas emparejadas están sostenidas por lóbulos musculosos.",
+        "Construye una capa mineral.",
+        "Cuelga de una rama fuera del agua.",
+        "Migra en una madriguera marina."
+      ],
+      "explanation": "Sus aletas contienen estructuras óseas y musculares internas.",
+      "didYouKnow": "El celacanto es un sarcopterigio, pariente lejano cercano de los tetrápodos.",
+      "imageCaption": "celacanto"
+    },
+    {
+      "id": "fish-042",
+      "animal": "Esturión",
+      "prompt": "¿Por qué las represas amenazan al esturión migratorio?",
+      "options": [
+        "Pueden bloquear el acceso a las zonas de desove río arriba",
+        "Sus aletas están sostenidas por plumas.",
+        "Sus aletas son membranas simples sin esqueleto interno.",
+        "Pertenece a los reptiles acuáticos."
+      ],
+      "explanation": "Muchas especies viajan río arriba para reproducirse.",
+      "didYouKnow": "Los esturiones se encuentran entre los peces de agua dulce más grandes.",
+      "imageCaption": "Esturión"
+    },
+    {
+      "id": "fish-043",
+      "animal": "pez espátula americano",
+      "prompt": "¿Cómo obtiene parte de su alimento el pez espátula americano?",
+      "options": [
+        "Filtra el zooplancton nadando con la boca abierta",
+        "Bloquean las corrientes oceánicas",
+        "Aumentan el acceso a zonas de desove",
+        "Transforman al esturión en un pez sedentario"
+      ],
+      "explanation": "Sus branquiespinas retienen pequeños organismos planctónicos.",
+      "didYouKnow": "El pez espátula americano es originario de la cuenca del río Mississippi.",
+      "imageCaption": "Pez espátula americano"
+    },
+    {
+      "id": "fish-044",
+      "animal": "pez payaso",
+      "prompt": "¿Cómo evita generalmente el pez payaso activar las células urticantes de su anémona huésped?",
+      "options": [
+        "Se aclimata a la composición del moco de anémona.",
+        "Segrega una mucosidad completamente impermeable que impide cualquier contacto.",
+        "Activa los nematocistos a distancia antes de refugiarse en la anémona",
+        "Tiene una piel gruesa que resiste todas las picaduras."
+      ],
+      "explanation": "La aclimatación de su moco superficial limita el reconocimiento del pez como presa por parte de determinadas anémonas.",
+      "didYouKnow": "Los peces payaso viven en grupos jerárquicos donde la hembra reproductora suele ser la más grande.",
+      "imageCaption": "pez payaso"
+    },
+    {
+      "id": "fish-045",
+      "animal": "tiburón azul",
+      "prompt": "¿Qué camuflaje ayuda al tiburón azul en el océano?",
+      "options": [
+        "Una espalda azul y un vientre claro.",
+        "El moco le permite comerse la anémona.",
+        "Es naturalmente insensible a cualquier toxina.",
+        "La anémona nunca tiene células urticantes."
+      ],
+      "explanation": "La espalda se funde con el agua oscura vista desde arriba y el vientre con la superficie luminosa vista desde abajo.",
+      "didYouKnow": "Es una especie pelágica que recorre largas distancias.",
+      "imageCaption": "tiburón azul"
+    },
+    {
+      "id": "fish-046",
+      "animal": "tiburón limón",
+      "prompt": "¿Por qué los manglares son importantes para los jóvenes tiburones limón?",
+      "options": [
+        "Les ofrecen guarderías tuteladas",
+        "Aletas transparentes como el cristal.",
+        "Una concha ósea completa",
+        "branquias externas fluorescentes"
+      ],
+      "explanation": "Las raíces proporcionan a los juveniles escondites y recursos alimentarios.",
+      "didYouKnow": "Los tiburones limón adultos pueden regresar al área donde nacieron.",
+      "imageCaption": "tiburón limón"
+    },
+    {
+      "id": "fish-047",
+      "animal": "Pez pelágico plateado",
+      "prompt": "¿Cuál es el propósito del brillo plateado de muchos peces pelágicos?",
+      "options": [
+        "Para reducir su contraste en el agua.",
+        "Un vientre azul y una espalda blanca.",
+        "Rayas negras que reflejan la luz.",
+        "Piel transparente sin pigmentos."
+      ],
+      "explanation": "La superficie reflectante les ayuda a camuflarse con la luz ambiental.",
+      "didYouKnow": "Muchos bancos de peces tienen lados plateados.",
+      "imageCaption": "Pez pelágico plateado"
+    },
+    {
+      "id": "fish-048",
+      "animal": "pez de cuatro ojos",
+      "prompt": "¿Cómo controla el pez de cuatro ojos el aire y el agua simultáneamente?",
+      "options": [
+        "Cada ojo está dividido en dos zonas ópticas.",
+        "Cada ojo sólo ve bajo el agua.",
+        "Tiene dos pares de ojos independientes.",
+        "La visión aérea la proporcionan sus aletas."
+      ],
+      "explanation": "Las áreas superior e inferior de cada ojo están adaptadas para la visión en el aire y bajo el agua.",
+      "didYouKnow": "El pez de cuatro ojos frecuenta las aguas salobres de manglares y estuarios.",
+      "imageCaption": "pez de cuatro ojos"
+    },
+    {
+      "id": "fish-049",
+      "animal": "pez payaso",
+      "prompt": "¿Qué beneficio obtiene a veces la anémona de su pez payaso?",
+      "options": [
+        "El pez ahuyenta a ciertos intrusos y aporta nutrientes",
+        "Limpia la anémona de su esqueleto.",
+        "Le proporciona un estímulo defensivo.",
+        "Le da luz por bioluminiscencia."
+      ],
+      "explanation": "El pez defiende a la anémona y sus movimientos pueden mejorar la circulación del agua.",
+      "didYouKnow": "Los peces payaso son hermafroditas protándros: el macho dominante puede convertirse en hembra.",
+      "imageCaption": "pez payaso"
+    },
+    {
+      "id": "fish-050",
+      "animal": "Pez fantasma",
+      "prompt": "¿Cómo escapa el pez fantasma a la detección?",
+      "options": [
+        "Imita las algas flotantes entre las que vive.",
+        "Su cola se cierne sobre el agua.",
+        "Se camufla con mocos transparentes.",
+        "Todavía vive en agua dulce."
+      ],
+      "explanation": "Su silueta y colorido se asemejan a plantas a la deriva.",
+      "didYouKnow": "Su boca tubular succiona pequeños crustáceos y otras presas diminutas.",
+      "imageCaption": "Pez fantasma"
+    },
+    {
+      "id": "fish-051",
+      "animal": "pez luna del sur",
+      "prompt": "¿Cómo pueden los peces luna eliminar los parásitos de su piel?",
+      "options": [
+        "Se encuentra cerca de la superficie donde las aves marinas lo limpian.",
+        "Produce un chorro de agua.",
+        "Filtra plancton con barbas.",
+        "Almacena aire en un bolsillo."
+      ],
+      "explanation": "Las aves marinas a veces picotean parásitos externos en su cuerpo.",
+      "didYouKnow": "El pez luna puede sumergirse profundamente para alimentarse antes de regresar para calentarse.",
+      "imageCaption": "pez luna del sur"
+    },
+    {
+      "id": "fish-052",
+      "animal": "Pez hacha",
+      "prompt": "¿Por qué el vientre del pez hacha es plateado?",
+      "options": [
+        "Refleja la luz débil y camufla su silueta vista desde abajo.",
+        "Absorbe oxígeno a través de su piel.",
+        "Absorbe plancton con barbas.",
+        "Tiene una bolsa de aire para flotar."
+      ],
+      "explanation": "El reflejo reduce el contraste con la luz procedente de la superficie.",
+      "didYouKnow": "Sus ojos dirigidos hacia arriba detectan presas arriba.",
+      "imageCaption": "Pez hacha plateado"
+    },
+    {
+      "id": "fish-053",
+      "animal": "Rape abisal",
+      "prompt": "En ciertos rapes abisales, ¿qué le sucede al macho después de unirse a una hembra?",
+      "options": [
+        "Puede fusionarse permanentemente con la hembra y compartir su circulación.",
+        "Queda un macho libre que guarda solo los huevos.",
+        "Se adhiere temporalmente y luego se desprende después del desove.",
+        "Se convierte en hembra antes de aparearse con una segunda hembra."
+      ],
+      "explanation": "En varios rapes abisales, el macho enano se adhiere a la hembra y puede fusionarse con ella, asegurando el acceso a parejas en un vasto entorno.",
+      "didYouKnow": "En varias especies, la hembra tiene un apéndice luminoso cerca de la boca.",
+      "imageCaption": "Rape abisal (ejemplo: melanocete de Johnson)"
+    },
+    {
+      "id": "fish-054",
+      "animal": "draco antártico",
+      "prompt": "¿Cómo limitan las proteínas anticongelantes del draco rayado el daño causado por el frío?",
+      "options": [
+        "Se adhieren a los cristales y ralentizan su crecimiento.",
+        "Bajan el punto de congelación aumentando mucho la salinidad de la sangre.",
+        "Promueven la formación de cristales alejados de los tejidos sensibles.",
+        "Aíslan térmicamente los órganos sin actuar sobre el hielo"
+      ],
+      "explanation": "Estas proteínas se unen a las superficies de pequeños cristales e impiden su crecimiento en los fluidos corporales.",
+      "didYouKnow": "Algunas especies antárticas también tienen poca o ninguna hemoglobina en la sangre.",
+      "imageCaption": "draco antártico"
+    },
+    {
+      "id": "fish-055",
+      "animal": "Tetra cavernícola",
+      "prompt": "¿Qué cambio en el ritmo diario se ha observado en los tetras cavernícolas?",
+      "options": [
+        "Duermen menos que las formas que habitan en la superficie.",
+        "Sólo se activan durante las noches de luna llena.",
+        "Hibernan cada invierno en cuevas.",
+        "Migran a la superficie todos los días."
+      ],
+      "explanation": "Algunas poblaciones de cuevas de Astyanax mexicanus muestran una duración del sueño reducida en comparación con las poblaciones de superficie.",
+      "didYouKnow": "Las formas de las cuevas y de la superficie todavía pueden reproducirse entre sí.",
+      "imageCaption": "Tetra cavernícola"
+    },
+    {
+      "id": "fish-056",
+      "animal": "bagre eléctrico",
+      "prompt": "¿Qué hace la descarga del bagre eléctrico africano?",
+      "options": [
+        "Para aturdir a una presa o disuadir una amenaza.",
+        "Liberando veneno a través de los dientes.",
+        "Al producir un chorro de agua",
+        "Inmovilizando a su presa en moco."
+      ],
+      "explanation": "Un órgano eléctrico especializado produce una fuerte descarga defensiva o de caza.",
+      "didYouKnow": "Sus barbillas sensoriales exploran el fondo y le ayudan a localizar comida.",
+      "imageCaption": "bagre eléctrico"
+    },
+    {
+      "id": "fish-057",
+      "animal": "Pez nariz de elefante",
+      "prompt": "¿Qué principio permite al pez elefante utilizar la electrolocalización en aguas turbias?",
+      "options": [
+        "Emite un campo eléctrico débil y detecta sus deformaciones mediante receptores cutáneos.",
+        "Emite ultrasonidos y sigue su eco en el barro.",
+        "Sólo detecta el campo eléctrico de la presa.",
+        "Utiliza la línea lateral para medir la luz reflejada."
+      ],
+      "explanation": "El pez elefante emite débiles señales eléctricas; Los objetos modifican el campo recibido por sus electrorreceptores cutáneos.",
+      "didYouKnow": "Su hocico flexible ayuda al pez elefante a buscar en el fondo.",
+      "imageCaption": "Pez nariz de elefante"
+    },
+    {
+      "id": "fish-058",
+      "animal": "Pez cuchillo fantasma negro",
+      "prompt": "¿Cómo detecta el pez cuchillo fantasma negro un objeto con su débil campo eléctrico?",
+      "options": [
+        "Los electrorreceptores cutáneos detectan deformaciones del campo que emite",
+        "Las células olfativas detectan electricidad disuelta en agua",
+        "Los fotorreceptores miden la sombra proyectada por el objeto.",
+        "Los otolitos transforman el campo eléctrico en sonido"
+      ],
+      "explanation": "El pez emite un campo eléctrico débil y detecta, mediante electrorreceptores, cómo los objetos lo perturban.",
+      "didYouKnow": "Su larga aleta anal ondulante le permite nadar hacia adelante y hacia atrás.",
+      "imageCaption": "Pez cuchillo fantasma negro"
+    },
+    {
+      "id": "fish-059",
+      "animal": "Pez lobo",
+      "prompt": "¿Cómo comen los peces lobo mariscos y erizos de mar?",
+      "options": [
+        "Los aplasta con fuertes mandíbulas y dientes.",
+        "Tragándose las conchas enteras",
+        "Filtrando plancton",
+        "Con una picadura venenosa"
+      ],
+      "explanation": "Sus dientes están adaptados a presas bentónicas de caparazón duro.",
+      "didYouKnow": "Varios peces lobo viven en las frías aguas del Atlántico norte.",
+      "imageCaption": "Pez lobo"
+    },
+    {
+      "id": "fish-060",
+      "animal": "Pez cabeza de serpiente",
+      "prompt": "¿Qué órgano accesorio permite a algunas cabezas de serpiente complementar la respiración branquial con aire?",
+      "options": [
+        "Estructuras suprabranquiales vascularizadas",
+        "Una vejiga natatoria conectada a los pulmones.",
+        "Espiráculos detrás de los ojos.",
+        "Sacos de aire conectados a las aletas pectorales."
+      ],
+      "explanation": "En muchos Channa, las estructuras suprabranquiales vascularizadas permiten el uso de oxígeno del aire atmosférico.",
+      "didYouKnow": "Ciertas especies de cabezas de serpiente introducidas fuera de su área de distribución nativa pueden volverse invasoras.",
+      "imageCaption": "Cabeza de serpiente rayada"
+    },
+    {
+      "id": "fish-061",
+      "animal": "Pez erizo",
+      "prompt": "¿Qué ocurre cuando se infla un pez erizo?",
+      "options": [
+        "Sus espinas se levantan y dificultan la deglución.",
+        "Despliega una vela dorsal para planear.",
+        "Libera espinas desprendibles.",
+        "Excava sin tragar agua."
+      ],
+      "explanation": "El agua tragada aumenta su volumen y tensa sus espinas defensivas.",
+      "didYouKnow": "Sus espinas no están conectadas a ningún aparato venenoso.",
+      "imageCaption": "Pez erizo"
+    },
+    {
+      "id": "fish-062",
+      "animal": "pez cofre",
+      "prompt": "¿Qué estructura protege el cuerpo del pez cofre?",
+      "options": [
+        "Un caparazón de placas óseas soldadas.",
+        "Una bolsa de moco seco.",
+        "Básculas móviles reforzadas",
+        "Piel cubierta de pelo"
+      ],
+      "explanation": "Las placas protegen el tronco, mientras que las aletas permanecen móviles.",
+      "didYouKnow": "Algunas especies de pez cofre secretan toxinas cuando están estresadas.",
+      "imageCaption": "Pez cofre amarillo"
+    },
+    {
+      "id": "fish-063",
+      "animal": "pez de cuatro ojos",
+      "prompt": "¿Cómo da a luz a sus crías el pez de cuatro ojos?",
+      "options": [
+        "Da a luz a crías vivas después del desarrollo interno.",
+        "Pone huevos flotantes en grandes cardúmenes.",
+        "El macho lleva los embriones en una bolsa.",
+        "Los huevos eclosionan en un nido de burbujas."
+      ],
+      "explanation": "Los Anableps son vivíparos: la fecundación es interna y las hembras dan a luz a crías ya desarrolladas.",
+      "didYouKnow": "Cada hembra tiene un tracto reproductivo adaptado a un lado del cuerpo del macho, lo que hace que el apareamiento sea direccional.",
+      "imageCaption": "pez de cuatro ojos"
+    },
+    {
+      "id": "fish-064",
+      "animal": "Pez pipa",
+      "prompt": "¿Qué postura ayuda a los peces pipa a esconderse entre las praderas marinas?",
+      "options": [
+        "Está casi vertical, con la cabeza hacia arriba.",
+        "Se entierra en la arena",
+        "Se infla para imitar una burbuja.",
+        "Nada en una escuela en alta mar"
+      ],
+      "explanation": "Su cuerpo esbelto se asemeja a los tallos entre los que se mueve.",
+      "didYouKnow": "Las agujas de mar son parientes cercanos de los caballitos de mar.",
+      "imageCaption": "Pez pipa"
+    },
+    {
+      "id": "fish-065",
+      "animal": "Pez fantasma",
+      "prompt": "En el pez fantasma, ¿qué padre porta los huevos durante el desarrollo?",
+      "options": [
+        "La hembra, entre sus aletas pélvicas agrandadas.",
+        "El macho, en una bolsa ventral como en el caballito de mar.",
+        "Ambos padres, en sus branquias.",
+        "Ninguno: los huevos siempre se encuentran dispersos en aguas abiertas."
+      ],
+      "explanation": "En Solenostomus paradoxus, la hembra lleva los huevos entre sus aletas pélvicas modificadas.",
+      "didYouKnow": "El camuflaje del pez fantasma le permite mezclarse con las algas flotantes.",
+      "imageCaption": "Pez fantasma"
+    },
+    {
+      "id": "fish-066",
+      "animal": "pez lima",
+      "prompt": "¿Cómo se ancla el pez lima en una grieta para escapar de un depredador?",
+      "options": [
+        "Él bloquea su primera columna vertebral.",
+        "Infla su barriga para flotar.",
+        "Está electrificado para adherirse a la roca.",
+        "Pega la boca al sustrato."
+      ],
+      "explanation": "Una segunda espina bloquea la primera en posición erguida.",
+      "didYouKnow": "La primera columna vertebral del pez lima puede estar bloqueada por una segunda columna.",
+      "imageCaption": "pez lima"
+    },
+    {
+      "id": "fish-067",
+      "animal": "pez murciélago",
+      "prompt": "¿Cómo se mueven los peces murciélago en el fondo?",
+      "options": [
+        "Se sostiene sobre sus aletas a modo de patas.",
+        "Ondula sus aletas pectorales.",
+        "Él flota fuera del agua.",
+        "Se impulsa mediante una cola bifurcada."
+      ],
+      "explanation": "Sus aletas pectorales y pélvicas sirven para arrastrarse sobre el sustrato.",
+      "didYouKnow": "Los juveniles de algunas especies se parecen a hojas muertas flotantes.",
+      "imageCaption": "pez murciélago"
+    },
+    {
+      "id": "fish-068",
+      "animal": "Pez sapo",
+      "prompt": "¿Qué estructura sirve como resonador para los llamados graves del pez sapo macho?",
+      "options": [
+        "La vejiga natatoria vibrada por músculos especializados.",
+        "Dientes faríngeos frotados entre sí.",
+        "Las cubiertas golpearon contra las branquias.",
+        "Aletas pectorales frotadas sobre el sustrato."
+      ],
+      "explanation": "Músculos especializados hacen vibrar la vejiga natatoria, lo que amplifica los sonidos producidos durante las vocalizaciones.",
+      "didYouKnow": "El pez sapo suele frecuentar aguas costeras poco profundas.",
+      "imageCaption": "Pez sapo"
+    },
+    {
+      "id": "fish-069",
+      "animal": "Pez piloto",
+      "prompt": "¿Qué ventaja obtiene a veces el pez piloto de su proximidad a un tiburón?",
+      "options": [
+        "Se beneficia de los restos de comida y de una relativa protección.",
+        "Se lleva en la bolsa del tiburón.",
+        "Filtra el plancton gracias al huésped.",
+        "Sólo puede vivir en agua dulce."
+      ],
+      "explanation": "Puede alimentarse de restos o parásitos mientras nada cerca de un huésped grande.",
+      "didYouKnow": "El pez piloto también puede moverse y alimentarse sin tiburón.",
+      "imageCaption": "Pez piloto"
+    },
+    {
+      "id": "fish-070",
+      "animal": "pez ardilla",
+      "prompt": "¿Por qué son útiles los grandes ojos del pez ardilla?",
+      "options": [
+        "Captan más luz durante las salidas nocturnas",
+        "Chupan aire de la superficie.",
+        "Detectan campos eléctricos",
+        "Filtran partículas de comida"
+      ],
+      "explanation": "Esta adaptación le ayuda a detectar presas cuando hay poca luz.",
+      "didYouKnow": "A menudo se esconde en grietas durante el día.",
+      "imageCaption": "pez ardilla"
+    },
+    {
+      "id": "fish-071",
+      "animal": "pez soldado",
+      "prompt": "¿Cuándo suelen buscar alimento los peces soldado?",
+      "options": [
+        "Por la noche",
+        "Sólo se alimenta durante el día.",
+        "Migra hacia los manglares",
+        "Guarda huevos en la boca."
+      ],
+      "explanation": "Sale después del atardecer para cazar pequeños crustáceos y zooplancton.",
+      "didYouKnow": "El pez soldado puede producir sonidos haciendo vibrar su vejiga natatoria.",
+      "imageCaption": "pez soldado"
+    },
+    {
+      "id": "fish-072",
+      "animal": "Lábrido cabeza de oveja",
+      "prompt": "¿Qué cambio reproductivo puede ocurrir en el lábrido cabeza de oveja?",
+      "options": [
+        "Una hembra puede convertirse en macho",
+        "El macho se convierte en hembra cada temporada",
+        "Los sexos siempre permanecen separados",
+        "La especie nunca cambia de sexo"
+      ],
+      "explanation": "En esta especie, algunos individuos cambian de sexo durante su vida.",
+      "didYouKnow": "Los machos grandes suelen defender territorios de reproducción.",
+      "imageCaption": "Lábrido cabeza de oveja"
+    },
+    {
+      "id": "fish-073",
+      "animal": "Pez napoleón",
+      "prompt": "¿De qué se alimenta principalmente el pez napoleón adulto?",
+      "options": [
+        "De moluscos y crustáceos con caparazón",
+        "De plancton filtrado en aguas abiertas",
+        "Solo de algas",
+        "De grandes mamíferos marinos"
+      ],
+      "explanation": "El pez napoleón consume moluscos y crustáceos; las estrellas corona de espinas pueden ser presas ocasionales, pero no constituyen su alimento principal.",
+      "didYouKnow": "El pez napoleón es el lábrido vivo más grande y crece lentamente.",
+      "imageCaption": "Pez napoleón"
+    },
+    {
+      "id": "fish-074",
+      "animal": "pescado mandarín",
+      "prompt": "¿Qué defensa química utiliza el pez mandarín?",
+      "options": [
+        "Moco cutáneo que desalienta a ciertos depredadores",
+        "Tiene un esqueleto cartilaginoso.",
+        "Es venenoso al tacto.",
+        "Vive exclusivamente en agua dulce."
+      ],
+      "explanation": "Las sustancias presentes en su moco hacen que el pescado sea poco apetecible.",
+      "didYouKnow": "El pez mandarín muestra colores brillantes producidos por células pigmentarias.",
+      "imageCaption": "pescado mandarín"
+    },
+    {
+      "id": "fish-075",
+      "animal": "pez mariposa",
+      "prompt": "¿Qué tipo de alimento suelen picotear los peces mariposa en las grietas?",
+      "options": [
+        "Pólipos de coral y pequeños invertebrados.",
+        "Algas pastadas en el arrecife",
+        "Huevos puestos en plantas.",
+        "Peces atraídos por un chorro de agua."
+      ],
+      "explanation": "Su fino hocico le permite alcanzar presas escondidas en el arrecife.",
+      "didYouKnow": "Un punto ocular cerca de la cola puede distraer la atención de su ojo real.",
+      "imageCaption": "pez mariposa"
+    },
+    {
+      "id": "fish-076",
+      "animal": "Pez mariposa de cuatro ojos",
+      "prompt": "¿Cuál es el propósito de la mancha en forma de ojo cerca de la cola en algunos peces mariposa?",
+      "options": [
+        "Puede desviar el ataque de un depredador desde su cabeza.",
+        "Indica la profundidad del agua.",
+        "Se utiliza para filtrar presas.",
+        "Produce una descarga eléctrica."
+      ],
+      "explanation": "Una mancha ocular confunde la orientación del pez y puede atraer el ataque hacia atrás.",
+      "didYouKnow": "Una barra oscura a menudo cruza el ojo verdadero.",
+      "imageCaption": "Pez mariposa de cuatro ojos"
+    },
+    {
+      "id": "fish-077",
+      "animal": "Raya leopardo",
+      "prompt": "¿Qué patrón te ayuda a reconocer la raya leopardo?",
+      "options": [
+        "Manchas oscuras en la espalda clara.",
+        "Rayas verticales claras sobre una espalda oscura.",
+        "Un caparazón de placas óseas.",
+        "Una aleta caudal en forma de hoz"
+      ],
+      "explanation": "Sus manchas le dan su nombre común y ayudan a romper su contorno con el fondo.",
+      "didYouKnow": "La raya águila frecuenta fondos arenosos y bahías costeras.",
+      "imageCaption": "Raya leopardo"
+    },
+    {
+      "id": "fish-078",
+      "animal": "tiburón cebra",
+      "prompt": "¿Cómo cambia la librea del tiburón cebra entre joven y adulto?",
+      "options": [
+        "El joven rayado se mancha a medida que crece.",
+        "La cría manchada se vuelve rayada.",
+        "El vestido sigue siendo el mismo a cualquier edad.",
+        "El joven es plateado y luego se vuelve azul sólido."
+      ],
+      "explanation": "Los juveniles rayados adquieren un pelaje manchado cuando son adultos.",
+      "didYouKnow": "Los juveniles tienen bandas contrastantes, mientras que los adultos tienen manchas.",
+      "imageCaption": "tiburón cebra"
+    },
+    {
+      "id": "fish-079",
+      "animal": "tiburón charretera",
+      "prompt": "¿Cómo puede el tiburón charretera tolerar la hipoxia en un arrecife aislado durante la marea baja?",
+      "options": [
+        "Reduce su actividad metabólica y su consumo de oxígeno.",
+        "Acelera su natación para aumentar el flujo de agua sobre las branquias.",
+        "Respira aire gracias a un órgano suprabranquial.",
+        "Cierra sus branquias y reemplaza permanentemente los intercambios con la piel."
+      ],
+      "explanation": "El tiburón charretera tolera episodios de hipoxia reduciendo su actividad metabólica y manteniendo sus funciones vitales.",
+      "didYouKnow": "Sus aletas pectorales y pélvicas también le permiten avanzar por el arrecife durante la marea baja.",
+      "imageCaption": "tiburón charretera"
+    },
+    {
+      "id": "fish-080",
+      "animal": "Pez sierra de dientes pequeños",
+      "prompt": "¿Por qué la nariz del pez sierra podría hacerlo vulnerable a las redes?",
+      "options": [
+        "Sus dientes laterales pueden enredarse en él.",
+        "Su tribuna filtra el plancton en el agua.",
+        "Sus aletas forman una red de captura.",
+        "Excava y abandona su tribuna"
+      ],
+      "explanation": "El apéndice dentado se engancha fácilmente en los aparejos de pesca y puede dañar al animal.",
+      "didYouKnow": "El pez sierra es una raya y tiene hendiduras branquiales en la parte inferior de su cuerpo.",
+      "imageCaption": "Pez sierra de dientes pequeños"
+    },
+    {
+      "id": "fish-081",
+      "animal": "Tiburón de Groenlandia",
+      "prompt": "¿En qué parte del tiburón de Groenlandia midieron los investigadores el radiocarbono para estimar su edad?",
+      "options": [
+        "El núcleo del cristalino del ojo.",
+        "Anillos de crecimiento de escala",
+        "Rayas de crecimiento de las aletas",
+        "Bandas de crecimiento de las vértebras."
+      ],
+      "explanation": "Se utilizó radiocarbono del núcleo de la lente para estimar la edad de los tiburones de Groenlandia, una especie de crecimiento lento.",
+      "didYouKnow": "El tiburón de Groenlandia es uno de los tiburones más grandes que viven en las frías aguas del Atlántico Norte.",
+      "imageCaption": "Tiburón de Groenlandia"
+    },
+    {
+      "id": "fish-082",
+      "animal": "tiburón azul",
+      "prompt": "¿Qué rasgo ayuda al tiburón azul a mezclarse con el océano?",
+      "options": [
+        "Su espalda azul y su vientre claro.",
+        "Una espalda blanca y un vientre azul.",
+        "Rayas rojas por todo el cuerpo.",
+        "Piel transparente sin pigmentos."
+      ],
+      "explanation": "El dorso oscuro se funde con el agua profunda vista desde arriba y el vientre claro con la superficie vista desde abajo.",
+      "didYouKnow": "El tiburón azul recorre largas distancias en alta mar.",
+      "imageCaption": "tiburón azul"
+    },
+    {
+      "id": "fish-083",
+      "animal": "Pez draco",
+      "prompt": "¿Cómo se compensa la ausencia de hemoglobina en muchos dracos antárticos?",
+      "options": [
+        "El oxígeno permanece disuelto en plasma frío, con circulación de alto flujo.",
+        "La hemoglobina transparente reemplaza a la hemoglobina ordinaria",
+        "Las branquias convierten el dióxido de carbono en oxígeno.",
+        "Los peces utilizan los pulmones durante las inmersiones"
+      ],
+      "explanation": "El frío aumenta la solubilidad del oxígeno en el plasma; el gran volumen sanguíneo y el alto gasto cardíaco favorecen su transporte.",
+      "didYouKnow": "Las proteínas anticongelantes que se encuentran en muchas especies retardan el crecimiento de cristales en sus fluidos.",
+      "imageCaption": "Pez draco"
+    },
+    {
+      "id": "fish-084",
+      "animal": "Pez con vejiga natatoria",
+      "prompt": "¿Cuál es la función principal de la vejiga natatoria en muchos peces óseos?",
+      "options": [
+        "Ajustar la flotabilidad",
+        "Produce un shock para aturdir a la presa.",
+        "Reemplazo de branquias durante una inmersión.",
+        "Detectar olores transportados por el agua."
+      ],
+      "explanation": "El gas de la vejiga ayuda al pez a mantenerse a una profundidad determinada con poco esfuerzo.",
+      "didYouKnow": "Los tiburones compensan su flotabilidad con un hígado grande y rico en aceite.",
+      "imageCaption": "Pez con vejiga natatoria (ejemplo: pez dorado)"
+    },
+    {
+      "id": "fish-085",
+      "animal": "Pez con línea lateral",
+      "prompt": "¿Qué detecta la línea lateral de un pez?",
+      "options": [
+        "Los movimientos y vibraciones del agua.",
+        "Variaciones de salinidad",
+        "Los sonidos que hacen los barcos.",
+        "Solo luz ultravioleta"
+      ],
+      "explanation": "Sus receptores sensoriales perciben variaciones de presión alrededor del cuerpo.",
+      "didYouKnow": "Los receptores de esta línea sensorial están dispuestos a lo largo de los costados y la cabeza.",
+      "imageCaption": "Pez con línea lateral (ejemplo: pez cebra)"
+    },
+    {
+      "id": "fish-086",
+      "animal": "peces marinos",
+      "prompt": "¿Qué toman las branquias de un pez del agua?",
+      "options": [
+        "Oxígeno disuelto",
+        "Temperatura del agua",
+        "Corrientes de marea",
+        "La cantidad de sal disuelta"
+      ],
+      "explanation": "Las branquias transfieren oxígeno gaseoso disuelto en agua a la sangre.",
+      "didYouKnow": "Las branquias también ayudan a eliminar el dióxido de carbono.",
+      "imageCaption": "Peces marinos (ejemplo: pez payaso ocelado)"
+    },
+    {
+      "id": "fish-087",
+      "animal": "pez óseo",
+      "prompt": "¿Qué estructura suele cubrir las branquias de los peces óseos?",
+      "options": [
+        "la portada",
+        "la boca",
+        "la aleta caudal",
+        "la vejiga natatoria"
+      ],
+      "explanation": "Esta parte ósea protege las branquias y participa en la ventilación.",
+      "didYouKnow": "El opérculo protege las branquias y ayuda a hacer circular el agua en los peces óseos.",
+      "imageCaption": "Pez óseo (ejemplo: carpa común)"
+    },
+    {
+      "id": "fish-088",
+      "animal": "pez cartilaginoso",
+      "prompt": "¿De qué están hechos principalmente los esqueletos de tiburones y rayas?",
+      "options": [
+        "cartílago",
+        "quitina",
+        "Calcio puro sin cartílago",
+        "Sólo del tejido muscular"
+      ],
+      "explanation": "Estos peces tienen un esqueleto predominantemente cartilaginoso, aunque algunas zonas están mineralizadas.",
+      "didYouKnow": "Los dentículos dérmicos suelen dar a la piel del tiburón una textura áspera.",
+      "imageCaption": "Pez cartilaginoso (ejemplo: gran tiburón blanco)"
+    },
+    {
+      "id": "fish-089",
+      "animal": "Pez de aletas radiadas",
+      "prompt": "¿Qué grupo incluye la mayoría de las especies de peces actuales?",
+      "options": [
+        "Pez con aletas radiadas",
+        "Pez con aletas lobuladas",
+        "mamíferos marinos",
+        "Invertebrados con aletas"
+      ],
+      "explanation": "Los actinopterygii son el grupo de peces más diverso.",
+      "didYouKnow": "Las aletas de los actinopterigios están sostenidas por finos rayos.",
+      "imageCaption": "Pez de aletas radiadas (ejemplo: pez cebra)"
+    },
+    {
+      "id": "fish-090",
+      "animal": "Pez de aletas lobuladas",
+      "prompt": "¿Qué grupo incluye los celacantos y los peces pulmonados?",
+      "options": [
+        "Peces de aletas lobuladas",
+        "Peces de aletas radiadas",
+        "Rayas con esqueleto cartilaginoso",
+        "Anfibios adultos"
+      ],
+      "explanation": "Los sarcopterygii tienen aletas emparejadas sostenidas por lóbulos musculares.",
+      "didYouKnow": "Los tetrápodos descienden de ancestros pertenecientes al linaje de los peces de aletas carnosas.",
+      "imageCaption": "Pez de aletas lobuladas (ejemplo: celacanto)"
+    },
+    {
+      "id": "fish-091",
+      "animal": "Peces de agua dulce",
+      "prompt": "¿Por qué un pez de agua dulce tiene que excretar orina abundante y diluida?",
+      "options": [
+        "El agua entra por ósmosis mientras que los iones tienden a difundirse hacia el exterior.",
+        "La sal entra por ósmosis y el agua sale continuamente del cuerpo.",
+        "Las branquias eliminan el agua mientras retienen la urea.",
+        "El pez bebe agua de mar y debe expulsar el exceso de sodio."
+      ],
+      "explanation": "El agua dulce está menos concentrada que los fluidos corporales: el agua entra por ósmosis, mientras que los peces recogen iones y excretan el exceso de agua.",
+      "didYouKnow": "En muchos peces óseos de agua dulce, la vejiga natatoria también ayuda a controlar la flotabilidad.",
+      "imageCaption": "Peces de agua dulce (ejemplo: carpa común)"
+    },
+    {
+      "id": "fish-092",
+      "animal": "peces marinos",
+      "prompt": "¿Cómo compensan muchos peces marinos óseos la pérdida de agua en un ambiente salado?",
+      "options": [
+        "Beben agua de mar y eliminan el exceso de iones a través de las branquias.",
+        "Absorben agua a través de la piel y retienen todas las sales.",
+        "Beben poco y excretan orina muy diluida.",
+        "Eliminan las sales sólo a través de las aletas."
+      ],
+      "explanation": "Beber agua de mar compensa las pérdidas; Las células branquiales excretan principalmente el exceso de iones.",
+      "didYouKnow": "Los tiburones marinos compensan la sal con una estrategia osmótica diferente a la de los peces óseos.",
+      "imageCaption": "Peces marinos (ejemplo: pez payaso ocelado)"
+    },
+    {
+      "id": "fish-093",
+      "animal": "peces costeros",
+      "prompt": "¿Qué aporta una pradera marina a muchas especies de peces?",
+      "options": [
+        "Refugio, presas y áreas de crecimiento.",
+        "Un refugio sólo para peces adultos",
+        "Un lugar de desove reservado para los tiburones",
+        "Una zona sin presas"
+      ],
+      "explanation": "Las hojas frenan el agua y albergan pequeños invertebrados que alimentan a los peces.",
+      "didYouKnow": "Las praderas marinas también almacenan carbono en sus sedimentos.",
+      "imageCaption": "Peces costeros (ejemplo: gobio negro)"
+    },
+    {
+      "id": "fish-094",
+      "animal": "peces migratorios",
+      "prompt": "¿Qué obstáculo humano puede interrumpir la migración de los peces en los ríos?",
+      "options": [
+        "Una presa sin paso efectivo",
+        "un pase de pescado",
+        "Un arrecife artificial",
+        "Una zona de desove en el mar"
+      ],
+      "explanation": "En ocasiones, las represas bloquean el acceso a las zonas de desove o a los hábitats de alimentación.",
+      "didYouKnow": "Los pasos de pesca pueden restablecer parte de la continuidad de los ríos.",
+      "imageCaption": "Peces migratorios (ejemplo: salmón del Atlántico)"
+    },
+    {
+      "id": "fish-095",
+      "animal": "Pez anádromo",
+      "prompt": "¿Qué significa que un pez sea anádromo?",
+      "options": [
+        "Crece principalmente en el mar y se reproduce en agua dulce.",
+        "Crece en ríos y desova en el mar.",
+        "Nunca deja agua dulce.",
+        "Vive en el mar y desova en las playas."
+      ],
+      "explanation": "El salmón es un ejemplo de especies que migran del mar a los ríos para desovar.",
+      "didYouKnow": "El salmón es un ejemplo bien conocido de pez anádromo.",
+      "imageCaption": "Pez anádromo (ejemplo: salmón del Atlántico)"
+    },
+    {
+      "id": "fish-096",
+      "animal": "Peces catádromos",
+      "prompt": "¿Cuál es la dirección de la migración reproductiva de una anguila catádroma?",
+      "options": [
+        "Crece en agua dulce y luego migra al mar para reproducirse.",
+        "Crece en el mar y luego sube a los ríos para desovar.",
+        "Ella permanece toda su vida en un estero.",
+        "Nace en el mar y se reproduce en lagos."
+      ],
+      "explanation": "Las anguilas de agua dulce regresan al océano para desovar después de su crecimiento continental.",
+      "didYouKnow": "Las anguilas europeas crecen en agua dulce y luego se reproducen en el mar.",
+      "imageCaption": "Peces catádromos (ejemplo: anguila europea)"
+    },
+    {
+      "id": "fish-097",
+      "animal": "Peces demersales",
+      "prompt": "¿Dónde vive principalmente un pez demersal?",
+      "options": [
+        "cerca del fondo del mar",
+        "En la copa de los árboles",
+        "Solo en aguas abiertas cerca de la superficie.",
+        "En madrigueras excavadas en la orilla"
+      ],
+      "explanation": "Las especies demersales viven encima o en contacto con el fondo y pueden nadar libremente.",
+      "didYouKnow": "Los peces demersales pueden vivir en fondos rocosos, arenosos o fangosos.",
+      "imageCaption": "Pescado demersal (ejemplo: lenguado común)"
+    },
+    {
+      "id": "fish-098",
+      "animal": "Pez filtrador",
+      "prompt": "¿Qué estructuras branquiales retienen partículas de alimento en muchos peces que se alimentan por filtración?",
+      "options": [
+        "Las branquiespinas de los arcos branquiales",
+        "Electrorreceptores de las aletas pectorales",
+        "Los dientes faríngeos de la garganta.",
+        "Barbillas táctiles alrededor de la boca."
+      ],
+      "explanation": "Las branquiespinas forman una superficie filtrante que retiene a las presas pequeñas mientras el agua circula por las branquias.",
+      "didYouKnow": "El tiburón ballena y el tiburón peregrino son grandes peces que se alimentan por filtración.",
+      "imageCaption": "Pez filtrador (ejemplo: tiburón ballena)"
+    },
+    {
+      "id": "fish-099",
+      "animal": "pescado plano",
+      "prompt": "Durante la metamorfosis de un rodaballo, ¿qué proceso sitúa los dos ojos en la parte superior?",
+      "options": [
+        "Un ojo migra a través de la cabeza durante la metamorfosis.",
+        "Ambos ojos migran juntos hacia el lado dorsal.",
+        "Se pierde un ojo y luego se regenera en el otro lado.",
+        "El cráneo gira sin mover los ojos."
+      ],
+      "explanation": "En los peces planos, la metamorfosis provoca la migración del ojo y una reorganización asimétrica de la cabeza.",
+      "didYouKnow": "El lado del rodaballo que mira hacia abajo suele ser más pálido que su lado superior.",
+      "imageCaption": "Pescado plano (ejemplo: solla europea)"
+    },
+    {
+      "id": "fish-100",
+      "animal": "Lenguado común",
+      "prompt": "¿Cómo localiza el lenguado común las presas enterradas en el sedimento?",
+      "options": [
+        "Utiliza sus sentidos químicos y sus fosas nasales cerca del fondo.",
+        "Localiza presas con oído aéreo.",
+        "Succiona el plancton hacia la superficie.",
+        "Detecta campos eléctricos por bombillas."
+      ],
+      "explanation": "El lenguado busca gusanos y pequeños invertebrados sobre o dentro del sustrato.",
+      "didYouKnow": "La suela descansa sobre un lado, con ambos ojos mirando hacia arriba.",
+      "imageCaption": "Lenguado común"
+    },
+    {
+      "id": "fish-101",
+      "animal": "pez unicornio",
+      "prompt": "¿Cuál es la protuberancia frontal del pez unicornio?",
+      "options": [
+        "A una extensión ósea del cráneo.",
+        "Una aleta dorsal transformada en señuelo",
+        "Un parche córneo en la cola.",
+        "Un órgano luminoso debajo del mentón."
+      ],
+      "explanation": "El “cuerno” es una protuberancia ósea, cuyo tamaño varía según la especie y la edad.",
+      "didYouKnow": "El pez unicornio pertenece a la familia de los peces cirujanos.",
+      "imageCaption": "pez unicornio"
+    },
+    {
+      "id": "fish-102",
+      "animal": "Exocet",
+      "prompt": "¿Qué aleta está particularmente desarrollada en muchos peces voladores?",
+      "options": [
+        "la aleta pectoral",
+        "la caudal",
+        "la columna vertebral",
+        "las barbillas"
+      ],
+      "explanation": "Los pectorales agrandados forman superficies de apoyo durante el deslizamiento.",
+      "didYouKnow": "Los exocets pueden flotar sobre el agua sin batir sus alas.",
+      "imageCaption": "Exocet"
+    },
+    {
+      "id": "fish-103",
+      "animal": "Pez navaja",
+      "prompt": "¿Cómo se camuflan los peces navaja entre las praderas marinas?",
+      "options": [
+        "A menudo nada verticalmente, con la cabeza hacia abajo.",
+        "Nada horizontalmente imitando a un pez plano.",
+        "Se entierra en la arena",
+        "Forma un disco adhesivo."
+      ],
+      "explanation": "Su delgada silueta se asemeja a las hojas de algas marinas entre las que se encuentra.",
+      "didYouKnow": "Los peces navaja suelen vivir en grupos y consumir pequeños organismos planctónicos.",
+      "imageCaption": "Pez navaja"
+    },
+    {
+      "id": "fish-104",
+      "animal": "Pez loro jorobado",
+      "prompt": "¿Qué material produce el pez loro jorobado mientras pasta en el arrecife?",
+      "options": [
+        "Arena fina de coral",
+        "plancton filtrado",
+        "conchas enteras",
+        "moco protector"
+      ],
+      "explanation": "Ingiere y tritura el material calcáreo, que rechaza en forma de sedimento.",
+      "didYouKnow": "El pez loro jorobado es uno de los peces loro más grandes.",
+      "imageCaption": "Pez loro jorobado"
+    },
+    {
+      "id": "fish-105",
+      "animal": "Pez ángel emperador",
+      "prompt": "¿Cómo cambia el pelaje del pez ángel emperador con la edad?",
+      "options": [
+        "El patrón circular juvenil se vuelve rayado en el adulto",
+        "El patrón adulto en círculos se vuelve rayado en los jóvenes.",
+        "Ambos estadios tienen la misma vestimenta",
+        "Las crías tienen manchas y luego el adulto se vuelve completamente negro."
+      ],
+      "explanation": "La librea juvenil es muy diferente a la del adulto.",
+      "didYouKnow": "Las dos libreas alguna vez fueron tomadas para dos especies diferentes.",
+      "imageCaption": "Pez ángel emperador"
+    },
+    {
+      "id": "fish-106",
+      "animal": "Pez cirujano azul",
+      "prompt": "¿Cuál es el propósito de la columna cerca de la cola del pez cirujano?",
+      "options": [
+        "Para defenderte",
+        "Atraer hembras con feromonas",
+        "Para filtrar plancton",
+        "Para aferrarse a las algas"
+      ],
+      "explanation": "Esta espina afilada puede levantarse contra un oponente.",
+      "didYouKnow": "Los peces cirujanos suelen alimentarse de algas en los arrecifes.",
+      "imageCaption": "Pez cirujano azul"
+    },
+    {
+      "id": "fish-107",
+      "animal": "damisela",
+      "prompt": "¿Cómo mantienen algunas mujeres su alimentación?",
+      "options": [
+        "Cultivan y defienden parcelas de algas",
+        "Defienden una madriguera de camarones",
+        "Filtran larvas al agua.",
+        "Mantienen los huevos en la boca."
+      ],
+      "explanation": "Expulsan a los herbívoros competidores de sus jardines de algas.",
+      "didYouKnow": "Los jardines de algas caballitos del diablo pueden cambiar la comunidad de arrecifes.",
+      "imageCaption": "damisela"
+    },
+    {
+      "id": "fish-108",
+      "animal": "Lábrido limpiador",
+      "prompt": "¿Qué contraste describe correctamente la dieta de un pez limpiador en una estación de limpieza?",
+      "options": [
+        "Muestra principalmente ectoparásitos y, a veces, moco, no tejido necrótico.",
+        "Consume principalmente escamas muertas y tejidos necróticos.",
+        "Se alimenta de algas branquiales y rara vez come parásitos.",
+        "Se alimenta principalmente de los huevos que ponen en la piel del pez cliente."
+      ],
+      "explanation": "Los lábridos limpiadores capturan principalmente parásitos externos y también consumen mucosidad de la piel; Esta no es una dieta de tejido muerto.",
+      "didYouKnow": "Los peces clientes frecuentan estaciones de limpieza periódicas en el arrecife.",
+      "imageCaption": "Lábrido limpiador"
+    },
+    {
+      "id": "fish-109",
+      "animal": "draco antártico",
+      "prompt": "¿Cómo transportan oxígeno determinadas especies de peces de hielo a pesar de la ausencia de hemoglobina?",
+      "options": [
+        "El oxígeno permanece disuelto en el plasma frío y circula a altos caudales.",
+        "Los glóbulos rojos contienen hemoglobina transparente.",
+        "Las branquias convierten el nitrógeno disuelto en oxígeno.",
+        "La vejiga natatoria libera oxígeno directamente a los músculos."
+      ],
+      "explanation": "Sin hemoglobina, el oxígeno se transporta disuelto en el plasma; el agua fría y las adaptaciones circulatorias compensan parcialmente esta limitación.",
+      "didYouKnow": "Los corazones y vasos del draco rayado pueden ser más grandes que los de peces relacionados.",
+      "imageCaption": "draco antártico"
+    },
+    {
+      "id": "fish-110",
+      "animal": "Bagre caminador",
+      "prompt": "¿Cómo permiten los órganos suprabranquiales de Clarias respirar aire?",
+      "options": [
+        "Las superficies suprabranquiales vascularizadas ponen el aire inspirado en contacto con la sangre.",
+        "Las cámaras suprabranquiales almacenan aire sin intercambiarlo con la sangre.",
+        "Una vejiga natatoria cerrada difunde el aire hacia las branquias.",
+        "Los espiráculos atraen aire hacia los arcos branquiales."
+      ],
+      "explanation": "Los órganos suprabranquiales son estructuras respiratorias accesorias vascularizadas donde el oxígeno del aire puede difundirse hacia la sangre.",
+      "didYouKnow": "Puede moverse brevemente sobre suelo húmedo entre aguas vecinas.",
+      "imageCaption": "Bagre caminador"
+    },
+    {
+      "id": "fish-111",
+      "animal": "Pez cabeza de serpiente rayada",
+      "prompt": "¿Cómo protegen sus crías los adultos del pez cabeza de serpiente rayada?",
+      "options": [
+        "Defienden una zona donde están los huevos y los alevines",
+        "El macho incuba los huevos en una bolsa",
+        "Fijan la puesta a sus aletas",
+        "Abandonan los huevos en un nido de burbujas"
+      ],
+      "explanation": "En Channa striata, los adultos defienden los huevos y los alevines contra los depredadores.",
+      "didYouKnow": "Las cabezas de serpiente rayadas suelen cazar en aguas dulces poco profundas.",
+      "imageCaption": "Pez cabeza de serpiente rayada"
+    },
+    {
+      "id": "fish-112",
+      "animal": "bagre del mekong",
+      "prompt": "¿Qué amenaza afecta al bagre gigante del Mekong?",
+      "options": [
+        "La pesca y las represas que perturban sus migraciones",
+        "Contaminación lumínica y turismo",
+        "Perdiendo sus escalas",
+        "Acidificación del aire"
+      ],
+      "explanation": "Esta especie migratoria se ve afectada tanto por la explotación como por la fragmentación del río.",
+      "didYouKnow": "Es uno de los peces de agua dulce más grandes que se conocen.",
+      "imageCaption": "bagre del mekong"
+    },
+    {
+      "id": "fish-113",
+      "animal": "Bagre de cabeza plana",
+      "prompt": "¿En qué zona caza principalmente el bagre de cabeza plana?",
+      "options": [
+        "Cerca del fondo",
+        "En la copa de los árboles",
+        "En aguas abiertas en la superficie.",
+        "En hojas flotantes"
+      ],
+      "explanation": "Es un depredador bentónico que busca peces e invertebrados en el sustrato.",
+      "didYouKnow": "Su cabeza ancha y aplanada le da su nombre común.",
+      "imageCaption": "Bagre de cabeza plana"
+    },
+    {
+      "id": "fish-114",
+      "animal": "Pez luchador siamés",
+      "prompt": "¿Qué hace el macho luchador cuando se cae un huevo del nido de burbujas?",
+      "options": [
+        "Lo recoge con la boca y lo devuelve al nido.",
+        "Lo entierra en la arena en el fondo.",
+        "Lo lleva en sus aletas pectorales",
+        "Abandona el nido para construir un nuevo bolsillo."
+      ],
+      "explanation": "El macho Betta splendens a menudo recoge los huevos que se le caen y los devuelve al nido de burbujas.",
+      "didYouKnow": "El luchador tiene un órgano laberíntico que le permite respirar aire en la superficie.",
+      "imageCaption": "Pez luchador siamés"
+    },
+    {
+      "id": "fish-115",
+      "animal": "pez globo",
+      "prompt": "¿Por qué es peligroso comer algunas especies de pez globo?",
+      "options": [
+        "Algunas telas pueden contener tetrodotoxina.",
+        "Un veneno inyectado por sus espinas.",
+        "Un moco luminoso",
+        "Una descarga eléctrica"
+      ],
+      "explanation": "Esta neurotoxina puede provocar una parálisis severa y su presencia depende de la especie y el tejido.",
+      "didYouKnow": "En varias especies, la toxina está asociada con bacterias o alimentos.",
+      "imageCaption": "pez globo"
+    },
+    {
+      "id": "fish-116",
+      "animal": "pez mariposa",
+      "prompt": "¿Por qué podría ser útil un punto con forma de ojo cerca de la cola?",
+      "options": [
+        "Puede desviar un ataque desde su cabeza.",
+        "Se utiliza para respirar.",
+        "Atrae pareja por bioluminiscencia.",
+        "Se utiliza para transportar huevos."
+      ],
+      "explanation": "Este punto ocular hace que la orientación del pez sea menos obvia para un depredador.",
+      "didYouKnow": "Una banda oscura cerca del ojo verdadero también puede oscurecerlo.",
+      "imageCaption": "pez mariposa"
+    },
+    {
+      "id": "fish-117",
+      "animal": "Tiburón duende",
+      "prompt": "¿Cómo captura el tiburón duende a sus presas dentro del alcance de su boca?",
+      "options": [
+        "Rápidamente proyecta sus mandíbulas hacia adelante.",
+        "Se desprende los dientes para arrojárselos a la presa.",
+        "Abre sus espiráculos y succiona la presa desde el fondo.",
+        "Produce una descarga eléctrica con su ampolla de Lorenzini."
+      ],
+      "explanation": "Sus protuberantes mandíbulas se mueven hacia adelante rápidamente para agarrar a sus presas, una adaptación notable en este tiburón de aguas profundas.",
+      "didYouKnow": "Su piel rosada se debe a los vasos visibles debajo de la piel poco pigmentada.",
+      "imageCaption": "Tiburón duende"
+    },
+    {
+      "id": "fish-118",
+      "animal": "Tiburón megaboca",
+      "prompt": "¿Cómo se alimenta el tiburón megaboca?",
+      "options": [
+        "Filtra plancton y organismos pequeños",
+        "Caza presas con sus grandes dientes",
+        "Pasta algas del fondo",
+        "Lleva los huevos sobre el lomo"
+      ],
+      "explanation": "Pasa agua a través de sus estructuras filtrantes y retiene presas diminutas.",
+      "didYouKnow": "Esta especie sólo fue descrita en el siglo XX.",
+      "imageCaption": "Tiburón megaboca"
+    },
+    {
+      "id": "fish-119",
+      "animal": "tiburón charretera",
+      "prompt": "¿Cómo protegen las hembras de tiburón charretera a sus embriones?",
+      "options": [
+        "Deposita cápsulas de huevos en grietas del arrecife.",
+        "Lleva los huevos en una bolsa en el vientre.",
+        "Ella incuba los embriones en su boca.",
+        "Ella los une a sus aletas pectorales."
+      ],
+      "explanation": "El tiburón charretera es ovíparo; sus cápsulas de huevos se depositan en refugios en el arrecife.",
+      "didYouKnow": "El tiburón charretera puede avanzar por el arrecife apoyándose en sus aletas.",
+      "imageCaption": "tiburón charretera"
+    },
+    {
+      "id": "fish-120",
+      "animal": "pez víbora",
+      "prompt": "¿Para qué sirven los largos dientes del pez víbora?",
+      "options": [
+        "Para retener presas capturadas",
+        "Atraer presas con un señuelo.",
+        "Para defenderse con una descarga",
+        "cavando madrigueras"
+      ],
+      "explanation": "Sus dientes curvos impiden que el pescado capturado salga de su boca.",
+      "didYouKnow": "El pez víbora vive en aguas profundas donde la luz es escasa.",
+      "imageCaption": "pez víbora"
+    },
+    {
+      "id": "fish-121",
+      "animal": "pez linterna",
+      "prompt": "¿Por qué muchos peces linterna nadan hacia la superficie por la noche?",
+      "options": [
+        "Siguen la migración vertical del zooplancton.",
+        "Siguen a las sardinas hasta el fondo.",
+        "Evitan a los depredadores migrando a la superficie.",
+        "Ponen sus huevos en plancton."
+      ],
+      "explanation": "El zooplancton sale por la noche para alimentarse y los peces lo siguen.",
+      "didYouKnow": "Las migraciones verticales diarias mueven una inmensa biomasa oceánica.",
+      "imageCaption": "Pez linterna ártico"
+    },
+    {
+      "id": "fish-122",
+      "animal": "Pez saltarín del fango",
+      "prompt": "¿Cómo mantiene el Periophthalmus sus branquias funcionales cuando está fuera del agua?",
+      "options": [
+        "Mantiene agua en sus cámaras branquiales y mantiene húmedas las superficies respiratorias.",
+        "Cierra las branquias y respira únicamente a través de escamas secas.",
+        "Reemplaza el agua de las branquias con aire en la vejiga pulmonar.",
+        "Mantiene las branquias secas y absorbe oxígeno del barro."
+      ],
+      "explanation": "El perioftalmo retiene agua en sus cámaras branquiales y mantiene húmedas sus superficies respiratorias.",
+      "didYouKnow": "Sus ojos saltones pueden moverse de forma independiente y controlar el aire y el agua.",
+      "imageCaption": "Pez saltarín del fango (ejemplo: Periophthalmus argentilineatus)"
+    },
+    {
+      "id": "fish-123",
+      "animal": "bagre eléctrico",
+      "prompt": "¿Cómo producen una descarga los órganos eléctricos del bagre eléctrico?",
+      "options": [
+        "La activación coordinada de electrocitos produce una diferencia de potencial.",
+        "La fricción de la balanza genera una carga estática.",
+        "Las bacterias luminosas liberan corriente en el agua",
+        "La vejiga natatoria amplifica las señales de la línea lateral"
+      ],
+      "explanation": "Los electrocitos se activan de forma coordinada; su apilamiento permite producir una descarga eléctrica.",
+      "didYouKnow": "Sus barbillas sensoriales le ayudan a localizar comida en aguas turbias.",
+      "imageCaption": "bagre eléctrico"
+    },
+    {
+      "id": "fish-124",
+      "animal": "agallas azules",
+      "prompt": "¿Qué signo distintivo se encuentra en el opérculo de las agallas azules?",
+      "options": [
+        "Una mancha oscura en forma de colgajo detrás del ojo.",
+        "Una barba larga debajo de la barbilla.",
+        "Una raya roja continua en la cola.",
+        "Una hilera de dientes visibles en el exterior de la boca."
+      ],
+      "explanation": "La agalla azul tiene una característica mancha oscura en el borde posterior de su cubierta.",
+      "didYouKnow": "Los machos reproductores pueden mostrar colores más intensos.",
+      "imageCaption": "agallas azules"
+    },
+    {
+      "id": "fish-125",
+      "animal": "Pez arquero",
+      "prompt": "¿Qué fenómeno óptico debe compensar el pez arquero cuando apunta a presas aéreas?",
+      "options": [
+        "Refracción de la luz en la superficie.",
+        "difracción de sonido",
+        "Pensando en las escalas",
+        "La dispersión de la sal."
+      ],
+      "explanation": "El cambio de dirección de la luz en la interfaz agua-aire cambia la imagen aparente del objetivo.",
+      "didYouKnow": "El pez arquero puede ajustar su tiro con experiencia y apuntar a objetivos en movimiento.",
+      "imageCaption": "Pez arquero"
+    },
+    {
+      "id": "fish-126",
+      "animal": "Pez arquero",
+      "prompt": "¿Cómo aprende el pez arquero a mejorar su precisión?",
+      "options": [
+        "Ajustando su tiro después de observar los resultados.",
+        "Repitiendo el disparo en el mismo ángulo sin mirar.",
+        "Nadando hacia el objetivo",
+        "Golpeando al insecto con su cola."
+      ],
+      "explanation": "Puede corregir su ángulo según la posición aparente y real del objetivo.",
+      "didYouKnow": "El pez arquero utiliza su boca como tubo para dirigir el chorro.",
+      "imageCaption": "Pez arquero"
+    },
+    {
+      "id": "fish-127",
+      "animal": "pez luna",
+      "prompt": "¿Por qué a veces los peces luna se sumergen profundamente y luego regresan cerca de la superficie?",
+      "options": [
+        "Para alimentarse profundamente y luego calentarse en la superficie.",
+        "Para desovar en un arrecife poco profundo",
+        "Respirar aire atmosférico.",
+        "Esconderse en los manglares"
+      ],
+      "explanation": "Puede alimentarse de presas profundas y luego absorber el calor solar.",
+      "didYouKnow": "El pez luna es el pez óseo más pesado que se conoce.",
+      "imageCaption": "pez luna"
+    },
+    {
+      "id": "fish-128",
+      "animal": "pez cofre",
+      "prompt": "¿Por qué el pez cofre puede maniobrar sin doblar significativamente su trompa?",
+      "options": [
+        "Sus aletas proporcionan la mayor parte de la propulsión alrededor de un caparazón rígido.",
+        "Impulsa su cuerpo agitando una cola muy flexible.",
+        "Utiliza chorros de agua que expulsa de sus branquias.",
+        "Se arrastra con aletas transformadas en patas articuladas."
+      ],
+      "explanation": "La carcasa rígida limita la flexión del cuerpo; las aletas pectoral, dorsal y anal proporcionan propulsión y maniobra.",
+      "didYouKnow": "Placas óseas soldadas protegen el tronco del pez cofre.",
+      "imageCaption": "Pez cofre amarillo"
+    },
+    {
+      "id": "fish-129",
+      "animal": "Tiburón nodriza leonado",
+      "prompt": "¿Cómo respira el tiburón nodriza leonado cuando descansa en una cavidad?",
+      "options": [
+        "Bombea activamente agua sobre sus branquias.",
+        "Se mueve continuamente a alta velocidad.",
+        "Él respira a través de los pulmones.",
+        "Absorbe oxígeno a través de la piel."
+      ],
+      "explanation": "La ventilación bucal le permite permanecer quieto sin depender únicamente de nadar hacia adelante.",
+      "didYouKnow": "El tiburón nodriza leonado caza principalmente de noche cerca del fondo.",
+      "imageCaption": "Tiburón nodriza leonado"
+    },
+    {
+      "id": "fish-130",
+      "animal": "tiburón mako",
+      "prompt": "¿Qué adaptación hace que el tiburón mako sea particularmente rápido?",
+      "options": [
+        "Un cuerpo estilizado combinado con una musculatura potente.",
+        "Aletas pectorales agrandadas",
+        "Una vejiga natatoria gigante",
+        "púas sensoriales"
+      ],
+      "explanation": "Su forma hidrodinámica y su potente cola favorecen una rápida aceleración.",
+      "didYouKnow": "El tiburón mako puede saltar fuera del agua cuando persigue a su presa.",
+      "imageCaption": "tiburón mako"
+    },
+    {
+      "id": "fish-131",
+      "animal": "Tiburón sierra",
+      "prompt": "¿Qué carácter de la tribuna te permite distinguir un tiburón sierra de un pez sierra?",
+      "options": [
+        "Las púas sensoriales del tiburón sierra",
+        "Electrorreceptores de pez sierra",
+        "Las hendiduras branquiales dorsales del tiburón sierra.",
+        "Las aletas pectorales fusionadas del pez sierra."
+      ],
+      "explanation": "Los tiburones sierra tienen barbillas debajo del rostro, a diferencia del pez sierra.",
+      "didYouKnow": "El tiburón sierra es un pez cartilaginoso con rostro dentado.",
+      "imageCaption": "Tiburón sierra"
+    },
+    {
+      "id": "fish-132",
+      "animal": "pez loro",
+      "prompt": "¿Qué beneficio aporta el capullo mucoso nocturno a determinados peces loro?",
+      "options": [
+        "Puede atenuar las señales olfativas y molestar a ciertos parásitos.",
+        "Reduce especialmente la pérdida de agua cuando los peces están fuera del arrecife.",
+        "Protege las aletas del roce con el coral.",
+        "Envuelve los huevos durante su incubación."
+      ],
+      "explanation": "El moco forma una envoltura alrededor del pez en reposo; podría reducir las señales olfativas y molestar a ciertos parásitos.",
+      "didYouKnow": "El pez loro jorobado puede moler el carbonato de coral hasta convertirlo en arena.",
+      "imageCaption": "pez loro"
+    },
+    {
+      "id": "fish-133",
+      "animal": "pez luna",
+      "prompt": "¿Cómo se ven los peces luna jóvenes antes de adoptar su forma adulta?",
+      "options": [
+        "A un pez pequeño y globular con muchas espinas.",
+        "A una anguila larga y sin aletas",
+        "A un rayo aplanado con un aguijón.",
+        "A un pez aerodinámico con una tribuna larga"
+      ],
+      "explanation": "Los peces luna juveniles son pequeños y espinosos; su silueta cambia mucho con el crecimiento.",
+      "didYouKnow": "El pez luna adulto tiene una cola reducida llamada clavus.",
+      "imageCaption": "pez luna"
+    },
+    {
+      "id": "fish-134",
+      "animal": "pez loro",
+      "prompt": "¿Qué papel juegan los peces loro en los arrecifes de coral?",
+      "options": [
+        "Se alimentan de algas que podrían competir con los corales.",
+        "Filtran zooplancton",
+        "Se alimentan exclusivamente de medusas.",
+        "Cazan grandes mamíferos."
+      ],
+      "explanation": "El pastoreo limita la cobertura de algas y libera espacio para los corales.",
+      "didYouKnow": "El pico del pez loro muele el material de coral hasta convertirlo en arena.",
+      "imageCaption": "pez loro"
+    },
+    {
+      "id": "fish-135",
+      "animal": "pez mariposa",
+      "prompt": "¿Por qué la presencia de determinados peces mariposa puede proporcionar información sobre el estado de un arrecife?",
+      "options": [
+        "Varias especies dependen de los corales vivos como recurso alimentario",
+        "Todas las especies sólo viven en aguas sin corales.",
+        "Su color cambia directamente con la acidez del agua.",
+        "Producen sustancias que miden el crecimiento de los corales."
+      ],
+      "explanation": "La abundancia de determinadas especies sigue la de sus corales presa, lo que puede proporcionar un índice ecológico, sin sustituir una medición directa.",
+      "didYouKnow": "El fino hocico del pez mariposa les permite picotear las grietas.",
+      "imageCaption": "pez mariposa"
+    },
+    {
+      "id": "fish-136",
+      "animal": "tiburón blanco",
+      "prompt": "¿Cómo puede el gran tiburón blanco mantener sus músculos relativamente calientes?",
+      "options": [
+        "Por intercambio de calor a contracorriente.",
+        "Sólo con una capa exterior de grasa.",
+        "Manteniendo aire en tus pulmones",
+        "Gracias a una vejiga natatoria calentada"
+      ],
+      "explanation": "Redes de vasos recuperan parte del calor producido por los músculos.",
+      "didYouKnow": "El gran tiburón blanco recupera parte del calor de sus músculos mediante redes vasculares.",
+      "imageCaption": "tiburón blanco"
+    },
+    {
+      "id": "fish-137",
+      "animal": "tiburón ballena",
+      "prompt": "¿Cómo dan a luz los tiburones ballena a sus crías?",
+      "options": [
+        "Los embriones se desarrollan en la madre y las crías nacen vivas.",
+        "Los padres depositan cápsulas de huevos en el arrecife",
+        "El macho incuba los huevos en su boca.",
+        "Las larvas eclosionan directamente del plancton."
+      ],
+      "explanation": "El tiburón ballena es un vivíparo aplacentario: los embriones se desarrollan en la madre antes del nacimiento de crías vivas.",
+      "didYouKnow": "El tiburón ballena es el pez vivo más grande que se conoce.",
+      "imageCaption": "tiburón ballena"
+    },
+    {
+      "id": "fish-138",
+      "animal": "tiburón zorro",
+      "prompt": "¿Qué fenómeno reproductivo llamado oofagia se ha observado en los tiburones zorro?",
+      "options": [
+        "Los embriones consumen óvulos no fertilizados en el útero.",
+        "Los embriones consumen sólo la yema de su propio huevo.",
+        "Las hembras ponen cápsulas que los embriones dejan antes de eclosionar.",
+        "Los embriones reciben sus nutrientes a través de la placenta materna."
+      ],
+      "explanation": "En los tiburones zorro, los embriones pueden consumir huevos no fertilizados durante el desarrollo intrauterino.",
+      "didYouKnow": "El largo lóbulo superior de la cola del tiburón zorro puede golpear y aturdir a los bancos de peces.",
+      "imageCaption": "tiburón zorro"
+    },
+    {
+      "id": "fish-139",
+      "animal": "Raya torpedo",
+      "prompt": "¿Cómo dan a luz las rayas torpedo a sus crías?",
+      "options": [
+        "Los embriones se desarrollan en la madre, que da a luz a crías vivas.",
+        "Depositan cápsulas de huevos sobre algas",
+        "El macho incuba los huevos en su boca.",
+        "Los huevos flotan libremente sobre la superficie hasta que eclosionan."
+      ],
+      "explanation": "Los torpedos son vivíparos aplacentarios: los embriones se desarrollan en el útero y las hembras dan a luz crías vivas.",
+      "didYouKnow": "Las crías de rayos torpedo pueden producir descargas eléctricas débiles.",
+      "imageCaption": "Raya torpedo"
+    },
+    {
+      "id": "fish-140",
+      "animal": "Raya con aguijón",
+      "prompt": "¿Qué abertura permite una raya enterrada que entre agua antes de pasar por las branquias?",
+      "options": [
+        "Los espiráculos ubicados en el lado dorsal, detrás de los ojos.",
+        "Hendiduras branquiales ventrales, que chupan arena.",
+        "Las fosas nasales situadas al final del hocico.",
+        "Poros eléctricos distribuidos en las aletas."
+      ],
+      "explanation": "Los espiráculos permiten que el agua entre desde arriba cuando la boca está cerca de la arena; luego pasa a través de las branquias.",
+      "didYouKnow": "Luego, el agua sale a través de las hendiduras branquiales ubicadas debajo del cuerpo.",
+      "imageCaption": "Raya con aguijón"
+    },
+    {
+      "id": "fish-141",
+      "animal": "Pez sierra",
+      "prompt": "¿Cómo detecta la tribuna del pez sierra presas escondidas?",
+      "options": [
+        "Lleva receptores sensibles a los campos eléctricos.",
+        "Los identifican por su color",
+        "Los atraen con burbujas",
+        "Los detectan sólo con el oído"
+      ],
+      "explanation": "Estos electrorreceptores detectan señales de presas enterradas en el sustrato.",
+      "didYouKnow": "El pez sierra es una raya, no un tiburón.",
+      "imageCaption": "Pez sierra"
+    },
+    {
+      "id": "fish-142",
+      "animal": "anguila morena",
+      "prompt": "¿Por qué la morena suele abrir la boca cuando está parada?",
+      "options": [
+        "Hacer circular agua sobre sus branquias.",
+        "Para filtrar plancton",
+        "para llevar huevos",
+        "Para impulsarte por la ondulación"
+      ],
+      "explanation": "Abrir y cerrar la boca contribuye a su ventilación.",
+      "didYouKnow": "Las mandíbulas faríngeas de la morena agarran a sus presas y las atraen hacia la garganta.",
+      "imageCaption": "anguila morena"
+    },
+    {
+      "id": "fish-143",
+      "animal": "caballito de mar",
+      "prompt": "¿Cuál es el propósito de la cola prensil del caballito de mar?",
+      "options": [
+        "Para aferrarse a las hierbas y los corales",
+        "El individuo más pequeño es siempre femenino.",
+        "El sexo depende de la temperatura del agua.",
+        "Todos los individuos son mujeres."
+      ],
+      "explanation": "La cola rizada estabiliza al animal en la corriente y lo mantiene cerca de su hábitat.",
+      "didYouKnow": "El caballito de mar nada en posición erguida.",
+      "imageCaption": "caballito de mar"
+    },
+    {
+      "id": "fish-144",
+      "animal": "pez payaso",
+      "prompt": "¿Dónde vive naturalmente el pez payaso ocelado?",
+      "options": [
+        "En el Pacífico Indo-Occidental",
+        "Sólo en el Mar Caribe",
+        "En el Atlántico norte templado",
+        "En los lagos del este de África"
+      ],
+      "explanation": "Amphiprion ocellaris es originario de las aguas tropicales del Pacífico Indo-Occidental.",
+      "didYouKnow": "El pez payaso ocelado vive con determinadas anémonas que le proporcionan refugio.",
+      "imageCaption": "pez payaso"
+    },
+    {
+      "id": "fish-145",
+      "animal": "anguila europea",
+      "prompt": "¿Cómo llegan las anguilas jóvenes a los ríos después de la deriva del océano?",
+      "options": [
+        "Se transforman en anguilas y luego ascienden por las aguas costeras.",
+        "Para golpear bancos de peces",
+        "Para asentarse en las rocas",
+        "cavando madrigueras"
+      ],
+      "explanation": "Los leptocéfalos emergen del océano y se convierten en angulas transparentes cerca de la costa.",
+      "didYouKnow": "Las anguilas europeas adultas migran al Mar de los Sargazos para desovar.",
+      "imageCaption": "anguila europea"
+    },
+    {
+      "id": "fish-146",
+      "animal": "Pez espátula americano",
+      "prompt": "¿Cuál es el propósito del largo hocico del pez espátula americano?",
+      "options": [
+        "Detectar presas utilizando sus receptores sensoriales.",
+        "Se reproducen en lagos",
+        "Se reproducen en el mar",
+        "Ponen huevos en los manglares"
+      ],
+      "explanation": "El hocico aplanado es rico en receptores que detectan organismos en aguas turbias.",
+      "didYouKnow": "Sus branquiespinas filtran el zooplancton en el agua.",
+      "imageCaption": "Pez espátula americano"
+    },
+    {
+      "id": "fish-147",
+      "animal": "Esturión",
+      "prompt": "¿Por qué es esencial la protección de las zonas de desove del esturión migratorio?",
+      "options": [
+        "Los adultos remontan los ríos para desovar en hábitats adecuados.",
+        "Toman el aire en la superficie.",
+        "Se convierten en agua salada sin transformación.",
+        "Dejan de respirar en el río."
+      ],
+      "explanation": "La fragmentación de los ríos puede impedir el acceso a las zonas de reproducción.",
+      "didYouKnow": "Varias especies de esturión están amenazadas por la pesca y la pérdida de hábitat.",
+      "imageCaption": "Esturión"
+    },
+    {
+      "id": "fish-148",
+      "animal": "Salmón",
+      "prompt": "¿Qué cambios en la smoltificación preparan a un salmón joven para pasar del agua dulce al mar?",
+      "options": [
+        "Los ajustes de los transportadores de iones branquiales acompañan al comportamiento migratorio.",
+        "Los pulmones crecen y reemplazan las branquias.",
+        "Las escamas se convierten en placas óseas impermeables.",
+        "La reproducción pasa del mar a los ríos"
+      ],
+      "explanation": "La esmoltificación modifica notablemente la capacidad de las branquias para regular los iones y acompaña el comportamiento migratorio hacia el mar.",
+      "didYouKnow": "Los salmones jóvenes suelen desplazarse río abajo en primavera.",
+      "imageCaption": "Salmón"
+    },
+    {
+      "id": "fish-149",
+      "animal": "trucha arcoiris",
+      "prompt": "¿Cómo se llama la forma migratoria marina de la trucha arco iris?",
+      "options": [
+        "la trucha arcoiris",
+        "Pez dorado",
+        "carpa cruciana plateada",
+        "Koi marino salvaje"
+      ],
+      "explanation": "Crece en el mar y luego regresa al agua dulce para desovar.",
+      "didYouKnow": "Otras truchas arcoíris permanecen en el río toda su vida.",
+      "imageCaption": "trucha arcoiris"
+    },
+    {
+      "id": "fish-150",
+      "animal": "carpa koi",
+      "prompt": "¿De qué especie doméstica es una variedad la carpa koi?",
+      "options": [
+        "carpa común",
+        "Huevos puestos sobre algas",
+        "Un nido de burbujas construido por el macho.",
+        "Un embrague custodiado por ambos padres."
+      ],
+      "explanation": "Los koi son formas seleccionadas de carpa común, criadas por sus patrones coloridos.",
+      "didYouKnow": "La carpa puede aprender a reconocer a las personas y las rutinas de alimentación.",
+      "imageCaption": "carpa koi"
+    },
+    {
+      "id": "fish-151",
+      "animal": "Pez cardenal de Banggai",
+      "prompt": "¿En qué tipo de refugio suele pasar el cardenal de Banggai?",
+      "options": [
+        "Entre las espinas de los erizos de mar diademados o cerca de las anémonas",
+        "En los nidos excavados por los tiburones",
+        "Alta mar sin refugio",
+        "Sólo en conchas vacías"
+      ],
+      "explanation": "Estas estructuras brindan refugio a las personas y a sus jóvenes.",
+      "didYouKnow": "El cardenal de Banggaï es endémico de una región restringida de Indonesia y está amenazado por su recolección.",
+      "imageCaption": "Pez cardenal de Banggai"
+    },
+    {
+      "id": "fish-152",
+      "animal": "Pez globo enano",
+      "prompt": "¿Por qué las placas dentales fusionadas de los tetrodones siguen siendo funcionales a pesar de su crecimiento?",
+      "options": [
+        "El borde de los platos se desgasta con los alimentos duros.",
+        "Los platos se caen y se vuelven a colocar después de cada comida.",
+        "Su crecimiento se detiene una vez que la mandíbula es adulta.",
+        "Se desprende una capa de cartílago para acortar las placas."
+      ],
+      "explanation": "Las placas dentales crecen continuamente y sus bordes se desgastan durante la alimentación, manteniendo su capacidad de triturar.",
+      "didYouKnow": "Los tetrodones pertenecen al grupo de los peces globo.",
+      "imageCaption": "Pez globo enano"
+    },
+    {
+      "id": "fish-153",
+      "animal": "perca europea",
+      "prompt": "¿Qué patrón oscuro es típico de la perca europea?",
+      "options": [
+        "Rayas verticales en los costados.",
+        "Manchas en filas horizontales.",
+        "Un cuerpo unido sin patrones",
+        "Un claro patrón en espiral"
+      ],
+      "explanation": "Estas bandas contrastan con las aletas, a menudo rojizas.",
+      "didYouKnow": "La perca europea consume invertebrados y luego más peces pequeños a medida que crece.",
+      "imageCaption": "perca europea"
+    },
+    {
+      "id": "fish-154",
+      "animal": "Lucioperca",
+      "prompt": "¿Qué ventaja le dan a la lucioperca sus ojos adaptados a la poca luz?",
+      "options": [
+        "Facilitan la caza al anochecer y en aguas turbias.",
+        "Son aptos para la visión bajo la luz solar directa.",
+        "Sólo se utilizan para encontrar socios.",
+        "Ayudan a identificar olores."
+      ],
+      "explanation": "Su visión funciona bien cuando la luz es limitada.",
+      "didYouKnow": "La lucioperca es un depredador de agua dulce de la familia de las percas.",
+      "imageCaption": "Lucioperca"
+    },
+    {
+      "id": "fish-155",
+      "animal": "trucha ártica",
+      "prompt": "¿En qué entornos está especialmente adaptada la trucha ártica?",
+      "options": [
+        "A las frías aguas árticas y lagos alpinos.",
+        "A las cálidas lagunas tropicales",
+        "A ríos muy calientes del desierto",
+        "A arrecifes poco profundos"
+      ],
+      "explanation": "Habita en regiones del norte y en ciertos lagos fríos de montaña.",
+      "didYouKnow": "Las poblaciones lacustres aisladas de char pueden presentar diferentes formas.",
+      "imageCaption": "trucha ártica"
+    },
+    {
+      "id": "fish-156",
+      "animal": "Tímalo común",
+      "prompt": "¿Qué aleta es especialmente alta en el tímalo común?",
+      "options": [
+        "la aleta dorsal",
+        "la aleta caudal",
+        "aletas pélvicas",
+        "branquias externas"
+      ],
+      "explanation": "La dorsal alta es una característica distintiva, particularmente visible en los machos.",
+      "didYouKnow": "El tímalo común suele habitar ríos fríos con corriente moderada.",
+      "imageCaption": "Tímalo común"
+    },
+    {
+      "id": "fish-157",
+      "animal": "Salón del mosquetón",
+      "prompt": "¿Qué carácter anatómico se utiliza a menudo para distinguir el muskellunge del lucio del norte?",
+      "options": [
+        "El número de poros sensoriales debajo de la mandíbula.",
+        "La presencia de una aleta adiposa.",
+        "El número de barbillas alrededor de la boca.",
+        "La posición de la línea lateral en la espalda."
+      ],
+      "explanation": "El recuento de poros mandibulares es un criterio de identificación útil, junto con otros caracteres morfológicos.",
+      "didYouKnow": "El muskellunge puede superar en tamaño al lucio común.",
+      "imageCaption": "Salón del mosquetón"
+    },
+    {
+      "id": "fish-158",
+      "animal": "lobina negra",
+      "prompt": "Cuando es atrapada por succión, ¿qué atrae a la presa a la boca de la lubina?",
+      "options": [
+        "La rápida expansión de la cavidad bucal crea una entrada de agua.",
+        "Al cerrar las cubiertas se expulsa el agua hacia la presa.",
+        "La vejiga natatoria atrae a la presa hacia la garganta.",
+        "Los dientes atrapan a la presa antes de que se abra la boca."
+      ],
+      "explanation": "El descenso del suelo de la boca y la rápida expansión de la boca crean una presión más baja que impulsa el agua y las presas.",
+      "didYouKnow": "El macho suele cuidar el nido y los primeros alevines.",
+      "imageCaption": "lobina negra"
+    },
+    {
+      "id": "fish-159",
+      "animal": "Lobina de boca pequeña",
+      "prompt": "¿Qué hábitat frecuenta a menudo la lobina de boca pequeña?",
+      "options": [
+        "Aguas rocosas, frescas y bien oxigenadas",
+        "Marismas salobres calientes",
+        "Arrecifes de coral",
+        "Aguas estancadas tropicales"
+      ],
+      "explanation": "A menudo se asocia con ríos y lagos con fondos rocosos.",
+      "didYouKnow": "El macho de la lobina de boca pequeña protege los huevos y los alevines en el nido.",
+      "imageCaption": "Lobina de boca pequeña"
+    },
+    {
+      "id": "fish-160",
+      "animal": "bagre europeo",
+      "prompt": "¿Dónde son particularmente abundantes los receptores gustativos del bagre europeo?",
+      "options": [
+        "En las barbillas y ampliamente distribuido en la piel.",
+        "Sólo en la lengua, detrás de los dientes.",
+        "En las aletas dorsales, sin receptores en la cabeza.",
+        "En las branquiespinas, dentro de las branquias."
+      ],
+      "explanation": "En el bagre, las papilas gustativas se encuentran en las barbillas y en grandes áreas de la piel.",
+      "didYouKnow": "El bagre europeo es más activo al anochecer y por la noche.",
+      "imageCaption": "bagre europeo"
+    },
+    {
+      "id": "fish-161",
+      "animal": "Pez ángel francés",
+      "prompt": "¿Qué papel pueden desempeñar a veces los juveniles del pez ángel francés?",
+      "options": [
+        "Limpian parásitos de peces más grandes",
+        "Mantienen los huevos en la boca.",
+        "Construyen un capullo de burbujas.",
+        "Incuban los huevos en una bolsa."
+      ],
+      "explanation": "Los individuos jóvenes aprovechan este comportamiento para alimentarse de parásitos.",
+      "didYouKnow": "Los adultos suelen vivir en parejas territoriales en los arrecifes.",
+      "imageCaption": "Pez ángel francés"
+    },
+    {
+      "id": "fish-162",
+      "animal": "Pez cocodrilo",
+      "prompt": "¿Dónde suelen esperar los peces cocodrilo a sus presas?",
+      "options": [
+        "Emboscada en un fondo arenoso o fangoso",
+        "Colgando boca abajo",
+        "Cavando una madriguera con los dientes",
+        "Imitando una hoja flotante."
+      ],
+      "explanation": "Su camuflaje le permite permanecer casi invisible hasta que pasa su presa.",
+      "didYouKnow": "Sus ojos saltones pueden permanecer apuntando hacia arriba cuando el pez está enterrado.",
+      "imageCaption": "Pez cocodrilo"
+    },
+    {
+      "id": "fish-163",
+      "animal": "Pez halcón",
+      "prompt": "¿Cómo se mantiene el pez halcón en una percha de coral?",
+      "options": [
+        "Se apoya en sus robustas aletas pectorales.",
+        "Él se esconde completamente",
+        "Se fija con una ventosa bucal.",
+        "Se cierne sobre el arrecife"
+      ],
+      "explanation": "Estas aletas le ayudan a estabilizarse en una rama de coral mientras observa.",
+      "didYouKnow": "El pez halcón salta desde su percha para capturar animales pequeños.",
+      "imageCaption": "Pez halcón"
+    },
+    {
+      "id": "fish-164",
+      "animal": "Pez con boca orientada hacia arriba",
+      "prompt": "¿Qué tipo de alimento puede agarrar fácilmente un pez con la boca mirando hacia arriba?",
+      "options": [
+        "Insectos en la superficie del agua.",
+        "Presa que vive en la arena",
+        "Plancton en alta mar",
+        "Algas adheridas a los corales."
+      ],
+      "explanation": "La orientación de su boca se adapta a las presas que flotan o caen a la superficie.",
+      "didYouKnow": "La posición de la boca suele dar una pista sobre el patrón de alimentación.",
+      "imageCaption": "Pez con boca orientada hacia arriba (ejemplo: pez arquero)"
+    },
+    {
+      "id": "fish-165",
+      "animal": "Pez de boca ínfera",
+      "prompt": "¿Para qué tipo de alimentación suele ser adecuada una boca colocada debajo de la cabeza?",
+      "options": [
+        "Buscando comida en el fondo",
+        "La boca colocada al frente.",
+        "La boca ubicada en la espalda.",
+        "La boca retraída detrás de los ojos."
+      ],
+      "explanation": "Esta posición facilita el pastoreo o la excavación del sustrato.",
+      "didYouKnow": "Los bagres y los esturiones suelen tener la boca inferior.",
+      "imageCaption": "Pez de boca ínfera (ejemplo: pleco común)"
+    },
+    {
+      "id": "fish-166",
+      "animal": "Pez de boca terminal",
+      "prompt": "¿Dónde se encuentra la boca terminal de un pez?",
+      "options": [
+        "En el extremo frontal de la cabeza",
+        "Para filtrar medusas",
+        "Para triturar mariscos",
+        "Para chupar peces grandes"
+      ],
+      "explanation": "Le permite capturar presas ubicadas directamente frente al pez.",
+      "didYouKnow": "La boca terminal es común entre los nadadores que cazan en aguas abiertas.",
+      "imageCaption": "Pez de boca terminal (ejemplo: pez payaso de tres bandas)"
+    },
+    {
+      "id": "fish-167",
+      "animal": "Pez mariposa de cobre",
+      "prompt": "¿Por qué el pez mariposa tiene el hocico delgado?",
+      "options": [
+        "A picotear presas escondidas en las grietas del arrecife.",
+        "Sólo caza al mediodía.",
+        "Vive exclusivamente en ríos.",
+        "Pasa la noche en los manglares."
+      ],
+      "explanation": "Su boca estrecha alcanza pequeños organismos entre estructuras coralinas.",
+      "didYouKnow": "Muchos peces mariposa viven en parejas territoriales.",
+      "imageCaption": "Pez mariposa de cobre"
+    },
+    {
+      "id": "fish-168",
+      "animal": "pez ardilla",
+      "prompt": "¿Dónde se esconden los peces ardilla durante el día?",
+      "options": [
+        "En las grietas del arrecife",
+        "Su espalda oscura se funde con las profundidades.",
+        "Produce luz ventral.",
+        "Se esconde en los lechos de hierba."
+      ],
+      "explanation": "A menudo permanece escondido durante el día y sale a buscar comida por la noche.",
+      "didYouKnow": "Los peces ardilla tienen ojos grandes adaptados a la poca luz.",
+      "imageCaption": "pez ardilla"
+    },
+    {
+      "id": "fish-169",
+      "animal": "pez hacha",
+      "prompt": "¿Cómo escapa el pez hacha a la detección desde abajo?",
+      "options": [
+        "Su vientre plateado refleja la luz de la superficie.",
+        "Se esconden en los manglares",
+        "Tienen branquias externas",
+        "Viven en escuelas en mar abierto."
+      ],
+      "explanation": "El reflejo reduce su contraste para un depredador debajo de él.",
+      "didYouKnow": "Sus ojos hacia arriba ven figuras sobre él.",
+      "imageCaption": "pez hacha"
+    },
+    {
+      "id": "fish-170",
+      "animal": "Pez sol de agua dulce",
+      "prompt": "¿Dónde suelen construir sus nidos los peces luna machos?",
+      "options": [
+        "En una depresión poco profunda en el sustrato.",
+        "En una cavidad de coral",
+        "En conchas flotantes",
+        "En el bolsillo del vientre"
+      ],
+      "explanation": "El macho limpia un área y la protege mientras se desarrollan los huevos.",
+      "didYouKnow": "Varios peces luna defienden su desove.",
+      "imageCaption": "Pez sol de agua dulce"
+    },
+    {
+      "id": "fish-171",
+      "animal": "Pez loro azul",
+      "prompt": "¿En qué gran región se encuentra naturalmente el pez loro azul?",
+      "options": [
+        "En las aguas tropicales del Atlántico occidental y el Caribe.",
+        "En los lagos de agua dulce de Asia Central",
+        "En las aguas polares de la Antártida",
+        "En el Mar Báltico y el Mar del Norte"
+      ],
+      "explanation": "Scarus coeruleus está presente en los arrecifes tropicales del Atlántico occidental, particularmente en el Caribe.",
+      "didYouKnow": "El pez loro azul joven puede tener una librea diferente a la de los adultos.",
+      "imageCaption": "Pez loro azul"
+    },
+    {
+      "id": "fish-172",
+      "animal": "Pez cirujano de vela",
+      "prompt": "¿Qué podría indicar la exhibición de la gran aleta dorsal del pez cirujano de vela?",
+      "options": [
+        "Una exhibición o amenaza durante una interacción social.",
+        "La dirección de un banco de plancton",
+        "La presencia de un nido en la arena.",
+        "La inminencia del desove en aguas abiertas."
+      ],
+      "explanation": "La aleta desplegada acentúa la silueta del pez y participa en exhibiciones sociales o territoriales.",
+      "didYouKnow": "Los peces cirujanos suelen alimentarse de algas en los arrecifes.",
+      "imageCaption": "Pez cirujano de vela"
+    },
+    {
+      "id": "fish-173",
+      "animal": "pez de arrecife",
+      "prompt": "¿Por qué los peces de arrecife explotan diferentes microhábitats?",
+      "options": [
+        "Esto reduce la competencia por los mismos recursos.",
+        "Todos ocupan el mismo nivel del arrecife.",
+        "Prohiben cualquier depredación",
+        "Se alimentan exclusivamente de coral."
+      ],
+      "explanation": "Las grietas, las superficies de coral y los lechos de pastos marinos ofrecen nichos distintos.",
+      "didYouKnow": "La complejidad estructural de los arrecifes contribuye a su alta diversidad.",
+      "imageCaption": "Peces de arrecife (ejemplo: pez mariposa de aletas reticuladas)"
+    },
+    {
+      "id": "fish-174",
+      "animal": "Bagre de cola roja",
+      "prompt": "¿Qué detalle del color te ayuda a reconocer el bagre de cola roja?",
+      "options": [
+        "Una aleta caudal de color rojo anaranjado.",
+        "Una mancha azul en la parte superior de la cabeza.",
+        "Bandas negras verticales en los laterales.",
+        "Aletas pectorales transparentes"
+      ],
+      "explanation": "La aleta caudal de color rojo anaranjado es un signo visual sorprendente de Phractocephalus hemioliopterus.",
+      "didYouKnow": "Phractocephalus hemioliopterus es originario de las cuencas del Amazonas y del Orinoco.",
+      "imageCaption": "Bagre de cola roja"
+    },
+    {
+      "id": "fish-175",
+      "animal": "Piraña de vientre rojo",
+      "prompt": "¿Qué afirmación describe mejor la dieta de las pirañas de vientre rojo?",
+      "options": [
+        "Varía dependiendo de la especie, edad y recursos disponibles.",
+        "Cazan exclusivamente mamíferos grandes.",
+        "Solo comen algas",
+        "Filtran plancton durante todo el año"
+      ],
+      "explanation": "Las pirañas consumen pescado y otras materias animales; No todos son cazadores de animales grandes.",
+      "didYouKnow": "Las pirañas de vientre rojo suelen vivir en grupos, lo que puede mejorar su estado de alerta ante los depredadores.",
+      "imageCaption": "Piraña de vientre rojo"
+    },
+    {
+      "id": "fish-176",
+      "animal": "pez globo",
+      "prompt": "¿Qué estructura ayuda al pez globo a triturar los mariscos?",
+      "options": [
+        "Sus dientes fusionados forman un pico.",
+        "Filtrar branquiespinas",
+        "Una lengua pegajosa que rompe conchas.",
+        "Una tribuna dentada"
+      ],
+      "explanation": "La robusta boquilla tritura los alimentos duros y se desgasta durante la alimentación.",
+      "didYouKnow": "Los dientes fusionados de los tetrodones crecen continuamente.",
+      "imageCaption": "pez globo"
+    },
+    {
+      "id": "fish-177",
+      "animal": "pez cardenal",
+      "prompt": "¿Cómo protege el cardenal banggaï su nidada?",
+      "options": [
+        "Mantiene los huevos en la boca.",
+        "La hembra guarda los huevos en una bolsa.",
+        "Ambos padres los llevan en una aleta.",
+        "Construyen un nido flotante"
+      ],
+      "explanation": "Esta incubación oral protege los huevos hasta que eclosionan.",
+      "didYouKnow": "El cardenal banggaï vive de forma natural en una zona restringida de Indonesia.",
+      "imageCaption": "pez cardenal"
+    },
+    {
+      "id": "fish-178",
+      "animal": "Pez arquero",
+      "prompt": "¿Cómo produce el pez arquero un chorro capaz de sacar a su presa del agua?",
+      "options": [
+        "Forma un canal con su boca y empuja el agua con su lengua.",
+        "Cierra los párpados para enviar un chorro a través de las branquias.",
+        "Expulsa agua de su vejiga natatoria a través de sus fosas nasales.",
+        "Hace vibrar su aleta caudal para proyectar gotas."
+      ],
+      "explanation": "La boca forma un canal de disparo y la lengua ayuda a acelerar el chorro dirigido hacia la presa.",
+      "didYouKnow": "El pez arquero puede corregir su puntería con experiencia y apuntar a presas en movimiento.",
+      "imageCaption": "Pez arquero"
+    },
+    {
+      "id": "fish-179",
+      "animal": "pez payaso",
+      "prompt": "¿Por qué el pez payaso tiene relación con una anémona?",
+      "options": [
+        "La anémona sirve de refugio contra muchos depredadores.",
+        "Le proporciona una fuente de alimento.",
+        "Le permite respirar aire.",
+        "Ella pone sus huevos en su estómago."
+      ],
+      "explanation": "Los peces tolerados por la anémona pueden esconderse entre sus tentáculos urticantes.",
+      "didYouKnow": "El pez payaso puede defender su anémona de los peces que se la comen.",
+      "imageCaption": "pez payaso"
+    },
+    {
+      "id": "fish-180",
+      "animal": "pez león",
+      "prompt": "¿Qué origen explica la presencia del pez león en el Atlántico occidental?",
+      "options": [
+        "Introducciones humanas fuera de su zona del Indo-Pacífico",
+        "Una migración natural desde el Mediterráneo",
+        "Transporte por corrientes polares",
+        "Expansión por cambio de color."
+      ],
+      "explanation": "Los individuos escapados o liberados ayudaron a establecer poblaciones invasoras.",
+      "didYouKnow": "El pez león puede reducir la abundancia de pequeños peces nativos de arrecife.",
+      "imageCaption": "pez león"
+    },
+    {
+      "id": "fish-181",
+      "animal": "caballito de mar",
+      "prompt": "¿Cómo se mueve el caballito de mar en el agua?",
+      "options": [
+        "Nada en posición vertical, batiendo rápidamente su pequeña aleta dorsal.",
+        "Nada horizontalmente mientras agita la cola.",
+        "Avanza con rápidos movimientos de la cola.",
+        "Camina con sus aletas pélvicas."
+      ],
+      "explanation": "La aleta dorsal proporciona la mayor parte de su propulsión, con la ayuda de las pectorales para la dirección.",
+      "didYouKnow": "La cola prensil del caballito de mar se utiliza para agarrar, no para propulsarse.",
+      "imageCaption": "caballito de mar"
+    },
+    {
+      "id": "fish-182",
+      "animal": "pez luna",
+      "prompt": "¿Qué estructura reemplaza a la clásica aleta caudal del pez luna?",
+      "options": [
+        "El clavus, un margen redondeado en la parte posterior del cuerpo.",
+        "Una aleta caudal bifurcada",
+        "Una gran aleta en forma de abanico.",
+        "Una cola prensil"
+      ],
+      "explanation": "La clavus resulta del acortamiento de la parte posterior del cuerpo.",
+      "didYouKnow": "El pez luna se impulsa principalmente con sus aletas dorsal y anal.",
+      "imageCaption": "pez luna"
+    },
+    {
+      "id": "fish-183",
+      "animal": "carpa común",
+      "prompt": "¿Dónde se encuentran los dientes faríngeos de la carpa y contra qué estructura muelen los alimentos?",
+      "options": [
+        "En la garganta, donde presionan la comida contra una almohadilla dura.",
+        "En las mandíbulas, donde perforan a la presa antes de ingerirla.",
+        "En las branquiespinas, donde filtran las semillas.",
+        "En el esófago, contra la pared de la vejiga natatoria."
+      ],
+      "explanation": "Las carpas no tienen dientes visibles en las mandíbulas; Los dientes faríngeos muelen los alimentos contra una almohadilla especializada.",
+      "didYouKnow": "La carpa común tiene pequeñas barbillas alrededor de la boca.",
+      "imageCaption": "carpa común"
+    },
+    {
+      "id": "fish-184",
+      "animal": "Pez pipa",
+      "prompt": "¿Qué extremidad lleva los huevos en múltiples peces pipa?",
+      "options": [
+        "El macho, en una zona de incubadora o en una bolsa.",
+        "La hembra, en una bolsa ventral.",
+        "Ambos padres, en la boca.",
+        "La hembra, sobre sus aletas."
+      ],
+      "explanation": "Allí la hembra pone los huevos, que el macho protege durante su desarrollo.",
+      "didYouKnow": "Las agujas de mar están relacionadas con los caballitos de mar.",
+      "imageCaption": "Pez pipa"
+    },
+    {
+      "id": "fish-185",
+      "animal": "pez loro",
+      "prompt": "¿Qué término describe el cambio de sexo observado en muchos peces loro?",
+      "options": [
+        "Protoginia, donde algunas hembras se convierten en machos.",
+        "Protandry, donde los machos se convierten en hembras.",
+        "Gonochoria, donde cada individuo cambia de sexo varias veces.",
+        "Partenogénesis, donde las hembras producen clones."
+      ],
+      "explanation": "Muchos peces loro son protóginos: algunos individuos comienzan su vida como hembras y luego se convierten en machos.",
+      "didYouKnow": "El pico del pez loro les permite pastar en el sustrato del arrecife.",
+      "imageCaption": "pez loro"
+    },
+    {
+      "id": "fish-186",
+      "animal": "anguila europea",
+      "prompt": "¿Cómo son los leptocéfalos, las larvas de anguila?",
+      "options": [
+        "Son transparentes y aplanados como una sábana.",
+        "Son opacos y esféricos.",
+        "Parecen diminutas anguilas marrones.",
+        "Tienen una concha calcificada."
+      ],
+      "explanation": "Esta forma larvaria flota en el océano antes de transformarse en angulas cerca de la costa.",
+      "didYouKnow": "Los leptocéfalos son muy diferentes de las anguilas adultas.",
+      "imageCaption": "anguila europea"
+    },
+    {
+      "id": "fish-187",
+      "animal": "Salmón",
+      "prompt": "¿Cómo se llama una estrategia en la que un salmón del Pacífico sólo se reproduce una vez antes de morir?",
+      "options": [
+        "Semelparidad",
+        "iteroparidad",
+        "protoginia",
+        "Viviparidad"
+      ],
+      "explanation": "Muchos salmones del Pacífico son semolparos; la reproducción moviliza fuertemente sus reservas y es seguida por su muerte.",
+      "didYouKnow": "El salmón del Atlántico puede sobrevivir y desovar varias veces.",
+      "imageCaption": "Salmón"
+    },
+    {
+      "id": "fish-188",
+      "animal": "Salmón",
+      "prompt": "¿Qué significa la carrera del salmón?",
+      "options": [
+        "El movimiento de los adultos río arriba para llegar a sus zonas de desove.",
+        "Migración de adultos aguas abajo",
+        "El movimiento de los jóvenes hacia una ría",
+        "Peces nadando hacia el fondo del mar"
+      ],
+      "explanation": "Los adultos viajan río arriba desde el mar para poner huevos.",
+      "didYouKnow": "Río abajo significa el viaje río abajo del salmón joven.",
+      "imageCaption": "Salmón"
+    },
+    {
+      "id": "fish-189",
+      "animal": "pez linterna",
+      "prompt": "¿Qué zona del océano frecuentan con frecuencia los peces linterna?",
+      "options": [
+        "La zona mesopelágica, donde la luz es muy débil.",
+        "La zona costera iluminada por el sol.",
+        "arrecifes poco profundos",
+        "Aguas costeras templadas"
+      ],
+      "explanation": "Esta zona intermedia alberga grandes poblaciones que migran verticalmente todos los días.",
+      "didYouKnow": "Los peces linterna son presas importantes para muchos depredadores marinos.",
+      "imageCaption": "Pez linterna ártico"
+    },
+    {
+      "id": "fish-190",
+      "animal": "draco antártico",
+      "prompt": "¿Por qué el agua de la Antártida puede contener mucho oxígeno disuelto?",
+      "options": [
+        "La solubilidad del gas aumenta cuando el agua está fría.",
+        "La salinidad del agua.",
+        "Luz solar directa",
+        "El número de peces presentes."
+      ],
+      "explanation": "El agua fría puede contener más oxígeno en solución que el agua caliente.",
+      "didYouKnow": "Algunas especies antárticas tienen proteínas anticongelantes en sus fluidos corporales.",
+      "imageCaption": "draco antártico"
+    },
+    {
+      "id": "fish-191",
+      "animal": "pescado plano",
+      "prompt": "¿Cómo puede esconderse un pez plano en un fondo arenoso?",
+      "options": [
+        "Se entierra parcialmente arrojando arena con sus aletas.",
+        "Infla su cuerpo para parecer una roca.",
+        "Fija su barriga al sustrato con una ventosa.",
+        "Produce una nube opaca de moco."
+      ],
+      "explanation": "Muchos peces planos mueven sus aletas para cubrir sus cuerpos con arena mientras mantienen sus ojos expuestos.",
+      "didYouKnow": "La pigmentación de la superficie superior de muchos peces planos puede adaptarse al sustrato.",
+      "imageCaption": "Pescado plano (ejemplo: solla europea)"
+    },
+    {
+      "id": "fish-192",
+      "animal": "Pez limpiador",
+      "prompt": "¿Qué postura suele adoptar un pez cliente en una estación de limpieza?",
+      "options": [
+        "Permanece quieto y expone partes del cuerpo",
+        "Abre la boca y nada rápidamente",
+        "Se tumba de lado y se entierra",
+        "Cambia de color a rojo"
+      ],
+      "explanation": "Esta postura permite al limpiador acceder a la piel, las aletas o las branquias.",
+      "didYouKnow": "Las estaciones de limpieza son frecuentadas por clientes de diferentes especies.",
+      "imageCaption": "Lábrido limpiador común"
+    },
+    {
+      "id": "fish-193",
+      "animal": "bagre",
+      "prompt": "¿Qué característica de la piel es común a muchos bagres?",
+      "options": [
+        "Ella está desnuda, sin escamas típicas.",
+        "Ella siempre usa escamas placoides.",
+        "Está cubierto de parches de coral.",
+        "Es reemplazado por una carcasa rígida."
+      ],
+      "explanation": "En muchos Siluriformes, la piel no presenta las escamas típicas de muchos otros peces óseos, aunque existen excepciones.",
+      "didYouKnow": "Algunas familias de bagre tienen placas óseas protectoras.",
+      "imageCaption": "bagre"
+    },
+    {
+      "id": "fish-194",
+      "animal": "pez mariposa",
+      "prompt": "¿Para qué puede servir una franja oscura que atraviesa el ojo de un pez mariposa?",
+      "options": [
+        "Para ocultar la posición del ojo.",
+        "Atraer a una hembra con destellos de luz.",
+        "Para proteger las branquias de los sedimentos.",
+        "Para recibir sonidos bajo el agua"
+      ],
+      "explanation": "El patrón reduce la visibilidad del ojo y puede impedir que un depredador apunte a la cabeza.",
+      "didYouKnow": "Un punto ocular cerca de la cola puede confundir la orientación de un depredador.",
+      "imageCaption": "pez mariposa"
+    },
+    {
+      "id": "fish-195",
+      "animal": "Peces de manglar",
+      "prompt": "¿Cómo cambian las raíces de los manglares el agua cerca de la costa?",
+      "options": [
+        "Ralentizan la corriente y atrapan sedimentos",
+        "Para absorber nutrientes",
+        "para almacenar huevos",
+        "Para fijar a las rocas"
+      ],
+      "explanation": "La red de raíces reduce la energía de las olas y retiene partículas.",
+      "didYouKnow": "Los manglares proporcionan viveros para muchas especies costeras.",
+      "imageCaption": "Peces de manglar (ejemplo: perioftalmo plateado)"
+    },
+    {
+      "id": "fish-196",
+      "animal": "pez de rio",
+      "prompt": "¿Por qué los huecos en un lecho de grava bien oxigenado favorecen el desarrollo de huevos de salmón?",
+      "options": [
+        "El agua circula entre los guijarros y lleva oxígeno a los huevos enterrados.",
+        "La grava produce oxígeno mediante la fotosíntesis debajo del fondo.",
+        "Los guijarros bloquean la circulación del agua y retienen el calor.",
+        "Los huevos absorben oxígeno directamente a través de los cálculos."
+      ],
+      "explanation": "La porosidad de la grava permite la circulación del agua que renueva el oxígeno alrededor de los huevos; Los sedimentos finos pueden tapar estos espacios.",
+      "didYouKnow": "Las represas pueden interrumpir las migraciones reproductivas de los peces de río.",
+      "imageCaption": "Pescado de río (ejemplo: trucha marrón)"
+    },
+    {
+      "id": "fish-197",
+      "animal": "tiburón",
+      "prompt": "¿Cuál es el papel del hígado rico en aceite en muchos tiburones?",
+      "options": [
+        "Contribuye a su flotabilidad y almacena energía.",
+        "Filtra plancton",
+        "Produce veneno",
+        "Controla la salinidad del agua."
+      ],
+      "explanation": "Los aceites son menos densos que el agua y ayudan a compensar el peso corporal.",
+      "didYouKnow": "Los tiburones no tienen vejiga natatoria.",
+      "imageCaption": "Tiburón (ejemplo: gran tiburón blanco)"
+    },
+    {
+      "id": "fish-198",
+      "animal": "peces marinos",
+      "prompt": "¿Cómo mejora la contracorriente entre agua y sangre la extracción de oxígeno en las branquias?",
+      "options": [
+        "Mantiene un gradiente de concentración a lo largo de toda la longitud de las laminillas.",
+        "Hace circular la sangre en la misma dirección que el agua para igualar las concentraciones.",
+        "Concentra todo el oxígeno en la entrada de las branquias y luego cierra las laminillas.",
+        "Convierte el dióxido de carbono en oxígeno utilizando glóbulos rojos."
+      ],
+      "explanation": "En flujos opuestos, el agua mantiene una concentración de oxígeno más alta que la sangre adyacente a lo largo de las laminillas.",
+      "didYouKnow": "Las cubiertas branquiales de los peces óseos protegen las branquias y ayudan a hacer circular el agua.",
+      "imageCaption": "Peces marinos (ejemplo: pez payaso ocelado)"
+    },
+    {
+      "id": "fish-199",
+      "animal": "Pez con vejiga natatoria",
+      "prompt": "¿Qué conducto caracteriza a un pez fisostoma y conecta su vejiga natatoria con el tracto digestivo?",
+      "options": [
+        "El conducto neumático",
+        "El conducto endolinfático",
+        "El conducto de Wolff",
+        "El canal opercular"
+      ],
+      "explanation": "En los peces fisóstomos, el conducto neumático conecta la vejiga natatoria con el esófago y permite el intercambio de gases con el tubo digestivo.",
+      "didYouKnow": "En los peces fisóstomos, el conducto neumático conecta la vejiga natatoria con el esófago.",
+      "imageCaption": "Pez con vejiga natatoria (ejemplo: pez dorado)"
+    },
+    {
+      "id": "fish-200",
+      "animal": "Pez con vejiga natatoria",
+      "prompt": "¿Cómo aumenta un pez fisoclisto la cantidad de gas en su vejiga natatoria a profundidad?",
+      "options": [
+        "Una glándula de gas transfiere gases de la sangre a la vejiga",
+        "Un conducto neumático permite que entre aire tragado desde el esófago",
+        "Una zona de reabsorción añade gas desde el intestino",
+        "Los riñones filtran el oxígeno disuelto y lo envían a la vejiga"
+      ],
+      "explanation": "La glándula de gas acidifica localmente la sangre y favorece el paso de gas a la vejiga, lo que ayuda a mantener la flotabilidad.",
+      "didYouKnow": "En algunas especies, la vejiga natatoria también contribuye a la audición.",
+      "imageCaption": "Pez con vejiga natatoria (ejemplo: pez dorado)"
+    }
+  ]
+}

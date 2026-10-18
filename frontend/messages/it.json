@@ -267,7 +267,11 @@
     "search": "Cerca",
     "settings": "Impostazioni",
     "shop": "Magasin",
-    "species": "Specie"
+    "species": "Specie",
+    "habitatGuide": "Guida 3D",
+    "designHabitat": "Progetta il suo habitat",
+    "careAgenda": "Calendario",
+    "animalGame": "Gioco"
   },
   "disclaimers": {
     "affiliate": "Link affiliato",
@@ -373,7 +377,25 @@
     "weekDay3": "Mercoledì",
     "weekDay4": "Giovedì",
     "weekDay5": "Venerdì",
-    "weekDay6": "Sabato"
+    "weekDay6": "Sabato",
+    "pushUnsupported": "Questo browser non supporta le notifiche push. Su iPhone, apri Captivia dall’icona aggiunta alla schermata Home.",
+    "pushUnavailable": "Le notifiche push sono temporaneamente non disponibili. I promemoria restano visibili nell’app.",
+    "pushEnabled": "Notifiche attive in questo browser.",
+    "enablePush": "Attiva notifiche",
+    "disablePush": "Disattiva in questo browser",
+    "sendTest": "Invia una prova",
+    "testSent": "Notifica inviata.",
+    "testPartial": "Alcune notifiche non sono state inviate.",
+    "noRecipient": "Nessun destinatario attivo. Attiva le notifiche su un dispositivo.",
+    "testFailed": "Impossibile inviare la notifica di prova.",
+    "timeZone": "Fuso orario",
+    "deliveryWindow": "Orari consentiti per gli invii",
+    "windowStart": "Inizio degli invii",
+    "windowEnd": "Fine degli invii",
+    "channelsUnavailable": "Alcune modalità di ricezione sono temporaneamente non disponibili. I promemoria restano visibili nell’app.",
+    "snoozeAction": "Posticipa",
+    "snoozeDone": "Promemoria posticipato.",
+    "reminderError": "Impossibile aggiornare il promemoria."
   },
   "premiumLock": {
     "goPremium": "Voir l'abonnement Premium",
@@ -513,6 +535,7 @@
     "subscribeSuccess": "Abonnement activé. Vous avez maintenant accès à toutes les fonctionnalités Premium.",
     "subtitle": "Débloquez tous les avantages Captivia",
     "title": "Abonnement Premium",
-    "yearly": "Annuel"
+    "yearly": "Annuel",
+    "benefitHabitat": "Progettazione habitat 2D e 3D: allestimenti personalizzati, progetti salvati ed esportazioni"
   }
 }

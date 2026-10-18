@@ -1,0 +1,32 @@
+{
+  "birds": {
+    "easy": 75,
+    "hard": 40,
+    "medium": 85
+  },
+  "reptiles": {
+    "easy": 69,
+    "medium": 91,
+    "hard": 40
+  },
+  "insects": {
+    "easy": 69,
+    "hard": 60,
+    "medium": 71
+  },
+  "fish": {
+    "easy": 76,
+    "hard": 40,
+    "medium": 84
+  },
+  "mammals": {
+    "easy": 80,
+    "hard": 50,
+    "medium": 70
+  },
+  "unusual": {
+    "easy": 61,
+    "hard": 59,
+    "medium": 80
+  }
+}

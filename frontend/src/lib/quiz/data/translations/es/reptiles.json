@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "208a7dca817da6505c0117c85ffb87fb4acd510a63a3dd39e86c8fb01766b854",
+  "locale": "es",
+  "questions": [
+    {
+      "id": "reptiles-001",
+      "animal": "reptiles",
+      "prompt": "¿Qué característica distingue a los reptiles de los mamíferos en cuanto a su piel?",
+      "options": [
+        "Está cubierta de plumas queratinizadas",
+        "Está cubierta de pelo y glándulas sebáceas",
+        "Es desnuda y permeable",
+        "Está cubierta de escamas o placas córneas"
+      ],
+      "explanation": "La piel de los reptiles generalmente está cubierta de escamas o placas ricas en queratina, que limitan la pérdida de agua.",
+      "didYouKnow": "La mayoría de los reptiles tienen un corazón de tres cámaras; los cocodrilos son una excepción con un corazón de cuatro cámaras.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-002",
+      "animal": "reptiles",
+      "prompt": "¿Cómo regulan la temperatura corporal la mayoría de los reptiles?",
+      "options": [
+        "Usar fuentes de calor externas",
+        "Manteniendo una temperatura casi constante gracias al metabolismo.",
+        "Produciendo calor constante a través de los escalofríos.",
+        "Enfriando el cuerpo mediante sudoración profusa."
+      ],
+      "explanation": "La mayoría son ectotérmicos: su temperatura depende en gran medida del entorno y de comportamientos como la exposición al sol o la búsqueda de sombra.",
+      "didYouKnow": "La fertilización en los reptiles se produce dentro del cuerpo de la hembra.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-003",
+      "animal": "reptiles",
+      "prompt": "¿Qué tipo de huevo ayudó a los reptiles a reproducirse fuera del agua?",
+      "options": [
+        "Un óvulo cuyo embrión depende directamente de una placenta compleja",
+        "Un huevo sin amnios cuyo embrión se desarrolla en aguas abiertas.",
+        "Un huevo de cáscara dura que impide cualquier intercambio gaseoso.",
+        "Un óvulo amniótico protegido por membranas."
+      ],
+      "explanation": "Las membranas del óvulo amniótico protegen al embrión y crean un ambiente líquido interno, permitiendo su desarrollo en tierra.",
+      "didYouKnow": "La mayoría de los reptiles tienen un corazón de tres cámaras; los cocodrilos son una excepción.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-004",
+      "animal": "reptiles",
+      "prompt": "¿Por qué mudan los reptiles?",
+      "options": [
+        "Renovar las garras con cada ciclo de crecimiento.",
+        "Para eliminar una capa de piel que se ha vuelto demasiado gruesa.",
+        "Reemplazar huesos esqueléticos que se han vuelto demasiado pequeños",
+        "Para renovar una capa exterior que no crece con ellos"
+      ],
+      "explanation": "El estrato córneo de la piel se desgasta y no se estira como los tejidos subyacentes; la muda permite su renovación.",
+      "didYouKnow": "Los reptiles crecen en períodos y, por lo tanto, pueden mudar varias veces durante su vida.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-005",
+      "animal": "reptiles",
+      "prompt": "¿Qué papel desempeña principalmente la lengua bífida en muchas serpientes?",
+      "options": [
+        "Detectar vibraciones sonoras del suelo.",
+        "Transportar partículas olorosas al órgano vomeronasal.",
+        "Pruebe los alimentos que ya tiene en la boca.",
+        "Mida directamente la humedad del aire"
+      ],
+      "explanation": "La lengua recoge moléculas del aire y las deposita en el órgano vomeronasal, que participa en el análisis de los olores.",
+      "didYouKnow": "En las serpientes, el órgano vomeronasal se encuentra en el paladar.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-006",
+      "animal": "serpientes",
+      "prompt": "¿Cómo abren las serpientes la boca para tragar presas grandes?",
+      "options": [
+        "Los huesos de ambos lados de la mandíbula y varios huesos del cráneo están conectados por articulaciones móviles.",
+        "La mandíbula inferior se disloca y luego vuelve a su lugar después de una comida.",
+        "Las dos mitades de la mandíbula inferior se fusionan y separan como un todo.",
+        "El cráneo se separa de la columna para permitir el paso de las presas."
+      ],
+      "explanation": "Los dos lados de la mandíbula inferior no están fusionados en la parte delantera; Los ligamentos flexibles y las articulaciones móviles permiten que la boca se expanda alrededor de la presa.",
+      "didYouKnow": "Las serpientes no tienen pabellones auditivos externos.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-007",
+      "animal": "serpientes",
+      "prompt": "¿Cuál es el propósito del patrón en zigzag visible en el lomo de muchas víboras europeas?",
+      "options": [
+        "Para romper visualmente su silueta y camuflarlos.",
+        "Para atraer presas con un contraste brillante.",
+        "Nótese la presencia de un veneno que aún es peligroso para los humanos",
+        "Para anunciar un período de muda a las demás víboras."
+      ],
+      "explanation": "El patrón contrastante puede ayudar a la víbora a mezclarse con la vegetación o las hojas caídas; su apariencia varía según la especie.",
+      "didYouKnow": "La víbora pelíada está presente incluso en las regiones del norte de Europa.",
+      "imageCaption": "Víbora pelíada"
+    },
+    {
+      "id": "reptiles-008",
+      "animal": "Camaleones",
+      "prompt": "¿Cuál es el propósito del cambio de color en los camaleones?",
+      "options": [
+        "Adaptar el color de las escalas a cada tipo de luz.",
+        "Sólo para mezclarse con el fondo para escapar de los depredadores.",
+        "Para expresar interacciones sociales no relacionadas con la temperatura.",
+        "Comunicarse y ajustar su respuesta al medio ambiente, particularmente al calor."
+      ],
+      "explanation": "Los cambios de color pueden estar involucrados en las interacciones sociales y la termorregulación; no son sólo para camuflarse.",
+      "didYouKnow": "Los camaleones tienen pies cuyos dedos opuestos forman un agarre alrededor de las ramas.",
+      "imageCaption": "Camaleón pantera"
+    },
+    {
+      "id": "reptiles-009",
+      "animal": "Gecos",
+      "prompt": "¿Cómo trepan algunos geckos por superficies lisas?",
+      "options": [
+        "Gracias a las ventosas que crean un vacío debajo de cada dedo.",
+        "Con millones de estructuras microscópicas bajo sus dedos.",
+        "Gracias a una secreción pegajosa depositada en la superficie.",
+        "Gracias a unas garras que se adhieren a los poros del soporte."
+      ],
+      "explanation": "Las laminillas de los dedos llevan cerdas microscópicas que establecen interacciones de proximidad con la superficie.",
+      "didYouKnow": "Algunos geckos pueden producir gritos o chasquidos durante las interacciones sociales.",
+      "imageCaption": "Gecko tokay, representante de los geckos"
+    },
+    {
+      "id": "reptiles-010",
+      "animal": "Gecos",
+      "prompt": "¿Qué tienen de especial los ojos de muchos gecos nocturnos?",
+      "options": [
+        "Una pupila que se contrae formando rendijas verticales en la luz.",
+        "Un iris fijo que bloquea la luz sin cambiar de forma.",
+        "Una pupila redonda que permanece del mismo tamaño todo el día.",
+        "Una pupila horizontal que se ensancha a la luz del sol."
+      ],
+      "explanation": "En muchos geckos nocturnos, la pupila se convierte en una rendija estrecha cuando hay luz brillante; Muchas especies no tienen párpados móviles.",
+      "didYouKnow": "Los gecos sin párpados se limpian los ojos con la lengua.",
+      "imageCaption": "Gecko tokay, representante de los geckos"
+    },
+    {
+      "id": "reptiles-011",
+      "animal": "lagartos",
+      "prompt": "¿Qué mecanismo defensivo se llama autotomía caudal en algunos lagartos?",
+      "options": [
+        "La pérdida involuntaria de una pierna tras una lesión.",
+        "Mudando la cola con la piel exterior.",
+        "La pérdida voluntaria de parte de la cola.",
+        "Rotura de la cola durante la reproducción."
+      ],
+      "explanation": "Algunas lagartijas pueden desprender parte de su cola cuando un depredador las agarra; el movimiento residual puede distraer su atención.",
+      "didYouKnow": "Algunos lagartos almacenan parte de sus reservas de energía en la cola.",
+      "imageCaption": "Lagarto tocón, ejemplo de lagarto."
+    },
+    {
+      "id": "reptiles-012",
+      "animal": "lagartos",
+      "prompt": "¿Qué papel suelen desempeñar los lagartos en los ecosistemas?",
+      "options": [
+        "Consumen las mismas plantas que los herbívoros y nunca son cazados.",
+        "Siempre dispersan semillas sin consumir animales.",
+        "Ocupan exclusivamente la cima de las cadenas alimentarias.",
+        "Consumen invertebrados y ellos mismos sirven de presa."
+      ],
+      "explanation": "Muchos lagartos comen insectos u otros animales pequeños y, a su vez, son consumidos por aves, serpientes y mamíferos.",
+      "didYouKnow": "Algunas especies de lagartos también consumen frutas o néctar.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-013",
+      "animal": "Tortugas",
+      "prompt": "¿Qué es el caparazón de una tortuga?",
+      "options": [
+        "A un caparazón córneo colocado sobre su espalda sin relación con el esqueleto.",
+        "Una estructura ósea integrada en el esqueleto.",
+        "Con envolvente exterior formada por placas desmontables.",
+        "A una capa de piel engrosada que cubre los músculos."
+      ],
+      "explanation": "El caparazón de la tortuga está integrado en su esqueleto y contiene elementos óseos; el animal no puede salir de él.",
+      "didYouKnow": "Las placas visibles de muchos caparazones de tortuga son escudos córneos.",
+      "imageCaption": "La tortuga de Hermann, ejemplo de tortuga"
+    },
+    {
+      "id": "reptiles-014",
+      "animal": "Tortugas",
+      "prompt": "¿Cómo se llama la parte ventral del caparazón de una tortuga?",
+      "options": [
+        "El espaldar",
+        "El plastrón",
+        "El puente del caparazón",
+        "Un escudo córneo"
+      ],
+      "explanation": "El caparazón incluye una parte dorsal, el dorso y una parte ventral llamada plastrón.",
+      "didYouKnow": "En las tortugas de caja, una bisagra en el plastrón permite cerrar el caparazón.",
+      "imageCaption": "La tortuga de Hermann, ejemplo de tortuga"
+    },
+    {
+      "id": "reptiles-015",
+      "animal": "tortugas marinas",
+      "prompt": "¿Qué fenómeno ayuda a las tortugas marinas a regresar a su región de nacimiento para desovar?",
+      "options": [
+        "Monitoreo exclusivo de corrientes de agua dulce hacia la playa.",
+        "El uso de señales ambientales, incluido el campo magnético de la Tierra.",
+        "Memorizando el viaje realizado con su madre",
+        "Orientación sólo gracias al olor de su lugar de nacimiento."
+      ],
+      "explanation": "Las tortugas marinas utilizan varias señales de navegación; Las investigaciones muestran que perciben información relacionada con el campo magnético terrestre.",
+      "didYouKnow": "Después de nacer, las tortugas marinas jóvenes regresan al océano sin el cuidado directo de sus padres.",
+      "imageCaption": "Tortuga verde (ejemplo de tortuga marina)"
+    },
+    {
+      "id": "reptiles-016",
+      "animal": "tortugas marinas",
+      "prompt": "¿Por qué la luz artificial costera puede poner en peligro a las tortugas marinas jóvenes?",
+      "options": [
+        "Reduce la salinidad del agua cerca de playas iluminadas",
+        "Impide que los huevos reciban suficiente calor durante el día.",
+        "Puede desorientarlos cuando llegan al mar después de eclosionar.",
+        "Hace que la arena sea demasiado compacta para incubar."
+      ],
+      "explanation": "Los recién nacidos se orientan hacia el horizonte naturalmente luminoso; las luces artificiales pueden atraerlos hacia el interior.",
+      "didYouKnow": "Las tortugas marinas adultas regresan a las playas para cavar sus nidos.",
+      "imageCaption": "Tortuga verde (ejemplo de tortuga marina)"
+    },
+    {
+      "id": "reptiles-017",
+      "animal": "cocodrilos",
+      "prompt": "¿Dónde se encuentran los ojos y las fosas nasales de los cocodrilos cuando flotan casi completamente sumergidos?",
+      "options": [
+        "Debajo de la mandíbula inferior",
+        "A los lados del estómago",
+        "En la parte superior de la cabeza",
+        "Al final de la cola"
+      ],
+      "explanation": "La ubicación de los ojos y las fosas nasales en la parte superior del cráneo nos permite ver y respirar con poca exposición del cuerpo.",
+      "didYouKnow": "Las válvulas pueden cerrar las fosas nasales y los oídos de los cocodrilos bajo el agua.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-018",
+      "animal": "cocodrilos",
+      "prompt": "¿Cuál es el objetivo de la comunicación vocal en los cocodrilos?",
+      "options": [
+        "Interviene en particular entre los padres y los jóvenes.",
+        "Ayuda a los cocodrilos a localizar presas mediante ecolocalización.",
+        "Sólo lo utilizan los machos para atraer parejas.",
+        "Reemplaza las llamadas visuales entre individuos."
+      ],
+      "explanation": "Los cocodrilos producen varios sonidos; las crías pueden vocalizar en el huevo y llamar a su madre en el momento de la eclosión.",
+      "didYouKnow": "Los cocodrilos son ectotérmicos y suelen tomar el sol para calentar sus cuerpos.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-019",
+      "animal": "caimanes",
+      "prompt": "¿En qué grupo zoológico principal se encuentran los caimanes?",
+      "options": [
+        "cocodrilos",
+        "las tortugas",
+        "los escamosos",
+        "Rhynchocephali"
+      ],
+      "explanation": "Los caimanes, caimanes, cocodrilos y gaviales son cocodrilos, un grupo de reptiles arcosaurios.",
+      "didYouKnow": "Las aves son los parientes vivos más cercanos de los cocodrilos entre los principales grupos actuales.",
+      "imageCaption": "caimán americano"
+    },
+    {
+      "id": "reptiles-020",
+      "animal": "Gaviales",
+      "prompt": "¿Qué forma de hocico caracteriza al gavial del Ganges?",
+      "options": [
+        "Un hocico corto y muy robusto.",
+        "Un hocico muy largo y estrecho.",
+        "Un hocico aplanado en forma de pala.",
+        "Un hocico ancho y redondeado."
+      ],
+      "explanation": "El gavial tiene un hocico alargado y estrecho adaptado a pescar en los ríos.",
+      "didYouKnow": "El macho adulto tiene un crecimiento al final del hocico llamado ghara.",
+      "imageCaption": "Gavial del Ganges"
+    },
+    {
+      "id": "reptiles-021",
+      "animal": "tortugas terrestres",
+      "prompt": "¿Qué adaptación ayuda a la tortuga de Galápagos a alcanzar la vegetación más alta?",
+      "options": [
+        "Patas traseras alargadas aptas para saltar.",
+        "Una cola aplanada que los impulsa a través del agua.",
+        "Un cuello y un caparazón cuya forma varía según el hábitat.",
+        "Un pico estrecho que filtra las plantas acuáticas."
+      ],
+      "explanation": "En algunas tortugas gigantes, un caparazón en forma de silla de montar y un cuello largo facilitan el acceso a plantas más altas.",
+      "didYouKnow": "Las tortugas gigantes de Galápagos pueden dispersar semillas después de comer fruta.",
+      "imageCaption": "Tortuga gigante de Galápagos"
+    },
+    {
+      "id": "reptiles-022",
+      "animal": "tortuga caimán",
+      "prompt": "¿Cómo atrae la tortuga caimán (Macrochelys temminckii) a ciertas presas acuáticas?",
+      "options": [
+        "Filtra presas pequeñas con laminillas branquiales.",
+        "Agita la cola para imitar a un pez herido.",
+        "Ella mueve un apéndice parecido a un gusano en la parte posterior de su boca.",
+        "Saca la lengua del agua para coger peces."
+      ],
+      "explanation": "La tortuga mordedora caimán puede permanecer inmóvil con la boca abierta y mover un apéndice lingual parecido a un gusano para atraer a sus presas.",
+      "didYouKnow": "La tortuga mordedora caimán es endémica de las cuencas fluviales del sureste de Estados Unidos.",
+      "imageCaption": "Tortuga mordedora caimán (Macrochelys temminckii)"
+    },
+    {
+      "id": "reptiles-023",
+      "animal": "tortugas marinas",
+      "prompt": "¿Qué alimento constituye una parte importante de la dieta de una tortuga laúd?",
+      "options": [
+        "Medusas y otros organismos gelatinosos.",
+        "Algas y pastos marinos",
+        "Crustáceos y moluscos de fondo.",
+        "Esponjas y corales duros"
+      ],
+      "explanation": "La tortuga laúd consume principalmente medusas y otras presas gelatinosas; Las bolsas de plástico se pueden confundir con ellos.",
+      "didYouKnow": "La tortuga laúd es la única tortuga marina sin un caparazón óseo rígido cubierto de grandes escamas.",
+      "imageCaption": "Tortuga laúd (Dermochelys coriacea)"
+    },
+    {
+      "id": "reptiles-024",
+      "animal": "tortugas marinas",
+      "prompt": "¿Cuál es el propósito de las glándulas salinas cerca de los ojos en las tortugas marinas?",
+      "options": [
+        "Para producir moco que protege el ojo de la arena.",
+        "Para eliminar los desechos nitrogenados de la sangre.",
+        "Para eliminar el exceso de sales absorbidas.",
+        "Para mantener los ojos húmedos bajo el agua."
+      ],
+      "explanation": "Estas glándulas excretan una solución salina concentrada, que ayuda a las tortugas marinas a mantener el equilibrio hídrico en un ambiente salado.",
+      "didYouKnow": "Las tortugas marinas deben salir a la superficie para respirar con los pulmones.",
+      "imageCaption": "Tortuga verde (ejemplo de tortuga marina)"
+    },
+    {
+      "id": "reptiles-025",
+      "animal": "Varanos",
+      "prompt": "¿Qué sentido ayuda al dragón de Komodo a detectar los olores a distancia?",
+      "options": [
+        "La percepción de vibraciones por los huesos de sus piernas.",
+        "Detección de olores mediante antenas en el hocico.",
+        "Detección de moléculas por su lengua y órgano vomeronasal.",
+        "Visión infrarroja proporcionada sólo por sus ojos."
+      ],
+      "explanation": "Como otros lagartos, el dragón de Komodo recoge partículas de olor con su lengua y las analiza a través del órgano vomeronasal.",
+      "didYouKnow": "El dragón de Komodo es el lagarto vivo más grande que se conoce.",
+      "imageCaption": "dragón de komodo"
+    },
+    {
+      "id": "reptiles-026",
+      "animal": "iguanas marinas",
+      "prompt": "¿Qué recurso alimentario explota la iguana marina de Galápagos?",
+      "options": [
+        "Esponjas recolectadas de arrecifes.",
+        "Peces que pesca en la superficie.",
+        "Algas marinas que arranca en la playa.",
+        "Algas que pasta en el mar"
+      ],
+      "explanation": "La iguana marina se alimenta de algas, que pasta mientras bucea en las aguas costeras de Galápagos.",
+      "didYouKnow": "La iguana marina a menudo se calienta al sol después de sumergirse en aguas frías.",
+      "imageCaption": "Iguana marina de galápagos"
+    },
+    {
+      "id": "reptiles-027",
+      "animal": "Basiliscos verdes",
+      "prompt": "¿Por qué al basilisco verde se le llama lagarto Jesucristo?",
+      "options": [
+        "Se mueve sobre el agua mediante patas palmeadas.",
+        "Sólo camina sobre el fondo de los arroyos.",
+        "Puede correr brevemente sobre la superficie del agua.",
+        "Se sumerge en apnea durante varios minutos sin nadar."
+      ],
+      "explanation": "Sus largas patas traseras y los flecos de sus dedos le permiten correr sobre el agua durante un breve periodo de tiempo antes de nadar.",
+      "didYouKnow": "La albahaca verde vive en zonas de Centroamérica, a menudo cerca de vías fluviales.",
+      "imageCaption": "albahaca verde"
+    },
+    {
+      "id": "reptiles-028",
+      "animal": "anole",
+      "prompt": "¿Cuál es el propósito de la colorida papada que muestran los anolis macho?",
+      "options": [
+        "Intimidación por expansión de la caja torácica.",
+        "Comunicación visual, particularmente territorial.",
+        "Termorregulación por intercambio de calor con aire.",
+        "Detección táctil de presas en el suelo."
+      ],
+      "explanation": "La papada, una extensión de la piel debajo de la garganta, se muestra durante exhibiciones o interacciones con otros individuos.",
+      "didYouKnow": "Algunos anolis pueden desprenderse la cola cuando un depredador los agarra.",
+      "imageCaption": "anole verde"
+    },
+    {
+      "id": "reptiles-029",
+      "animal": "Lagarto de gorguera",
+      "prompt": "¿Cómo puede el lagarto con volantes escapar rápidamente por campo abierto?",
+      "options": [
+        "Corriendo brevemente sobre sus patas traseras.",
+        "Flotando gracias a una membrana sostenida por sus nervaduras",
+        "Al nadar usando una cola aplanada.",
+        "Excavando con las patas delanteras sin levantarse del suelo."
+      ],
+      "explanation": "El lagarto con volantes puede correr sobre sus patas traseras cuando huye por terreno abierto.",
+      "didYouKnow": "El lagarto con volantes vive en el norte de Australia y el sur de Nueva Guinea.",
+      "imageCaption": "Lagarto con volantes"
+    },
+    {
+      "id": "reptiles-030",
+      "animal": "Lagartos cornudos",
+      "prompt": "¿Qué defensa se conoce en algunas especies de lagartos cornudos?",
+      "options": [
+        "Depredadores que muerden con colmillos venenosos",
+        "Rociar sangre de los vasos cerca de los ojos.",
+        "Extender las costillas afiladas alrededor de la cabeza.",
+        "Expulsar moco irritante a través de glándulas en la piel."
+      ],
+      "explanation": "Algunas especies pueden expulsar sangre de la región de los ojos, un comportamiento defensivo dirigido contra ciertos depredadores.",
+      "didYouKnow": "Los lagartos cornudos suelen alimentarse de hormigas.",
+      "imageCaption": "Lagarto cornudo de Texas"
+    },
+    {
+      "id": "reptiles-031",
+      "animal": "Eslizones",
+      "prompt": "¿Cuál es una adaptación común de los eslizones excavadores?",
+      "options": [
+        "Una cabeza aplanada y pies palmeados.",
+        "Un cuerpo corto y una aleta dorsal larga.",
+        "Un cuerpo alargado y a veces extremidades reducidas.",
+        "Un cuerpo compacto y extremidades agrandadas para cavar."
+      ],
+      "explanation": "Los eslizones que viven bajo tierra a menudo tienen cuerpos alargados y extremidades reducidas, lo que les facilita moverse por el suelo.",
+      "didYouKnow": "Algunas especies de eslizones tienen párpados inferiores transparentes.",
+      "imageCaption": "Eslizón de arena, un eslizón excavador"
+    },
+    {
+      "id": "reptiles-032",
+      "animal": "Lagartos sin patas",
+      "prompt": "¿Qué pista suele distinguir a un lagarto sin patas de una serpiente?",
+      "options": [
+        "La presencia de grandes escamas ventrales.",
+        "La presencia de párpados móviles o aberturas para las orejas.",
+        "La forma alargada del cuerpo.",
+        "la lengua bifurcada"
+      ],
+      "explanation": "Algunos lagartos sin patas conservan los párpados móviles y las aberturas para las orejas externas, a diferencia de las serpientes.",
+      "didYouKnow": "El gusano lento puede perder la cola cuando es atacado.",
+      "imageCaption": "Brittle Orvet, un lagarto sin patas"
+    },
+    {
+      "id": "reptiles-033",
+      "animal": "Luciones",
+      "prompt": "¿Cuál es la dieta común del gusano lento?",
+      "options": [
+        "Pescados y mariscos",
+        "Insectos voladores y arañas.",
+        "Huevos de aves y pequeños mamíferos.",
+        "Babosas y gusanos"
+      ],
+      "explanation": "La lombriz lenta, que es un lagarto sin patas, se alimenta principalmente de pequeños invertebrados como babosas y gusanos.",
+      "didYouKnow": "La lombriz lenta tiene escamas suaves y brillantes.",
+      "imageCaption": "Orvet frágil"
+    },
+    {
+      "id": "reptiles-034",
+      "animal": "reptiles",
+      "prompt": "¿Cómo se llama la forma de reproducción en la que los huevos se desarrollan fuera del cuerpo materno después de la puesta?",
+      "options": [
+        "Viviparidad",
+        "Oviparidad",
+        "partenogénesis",
+        "diapausa embrionaria"
+      ],
+      "explanation": "La oviparidad es el modo de reproducción en el que la hembra pone huevos antes de que se complete el desarrollo embrionario.",
+      "didYouKnow": "La piel de reptil incluye una capa exterior rica en queratina.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-035",
+      "animal": "serpientes",
+      "prompt": "¿Cómo detectan las serpientes las vibraciones del suelo?",
+      "options": [
+        "Perciben vibraciones sólo con la lengua.",
+        "Detectan sonidos mediante tímpanos externos visibles",
+        "Detectan vibraciones con pelos sensoriales en la piel.",
+        "Las vibraciones se transmiten a través del cuerpo y la mandíbula hasta el oído interno."
+      ],
+      "explanation": "Las serpientes no tienen oídos externos, pero las vibraciones del sustrato pueden llegar al oído interno a través del cráneo y la mandíbula.",
+      "didYouKnow": "Las serpientes no tienen pabellones auditivos externos.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-036",
+      "animal": "Víboras de foseta",
+      "prompt": "¿Para qué se utilizan los hoyuelos sensibles al calor de muchas víboras?",
+      "options": [
+        "Para capturar sonidos de alta frecuencia bajo el agua.",
+        "Para medir las vibraciones del suelo transmitidas a la mandíbula.",
+        "Identificar moléculas olorosas transportadas por el aire.",
+        "Para detectar la radiación infrarroja emitida por objetos calientes."
+      ],
+      "explanation": "Los órganos con hoyuelos detectan pequeñas diferencias en la radiación térmica y pueden ayudar a localizar presas calientes.",
+      "didYouKnow": "Las víboras pertenecen al grupo de serpientes llamadas vipéridas.",
+      "imageCaption": "Serpiente de cascabel occidental, una víbora con hoyuelos"
+    },
+    {
+      "id": "reptiles-037",
+      "animal": "boas",
+      "prompt": "¿Cómo suele matar una boa a la presa que ha atrapado?",
+      "options": [
+        "La aprieta con sus anillos, lo que altera rápidamente la circulación sanguínea de la presa",
+        "La asfixia lentamente bloqueando únicamente sus vías respiratorias",
+        "Le inyecta veneno con colmillos especializados",
+        "La mantiene bajo el agua hasta que se ahoga"
+      ],
+      "explanation": "La constricción ejerce presión y dificulta mucho el retorno venoso y la circulación sanguínea de la presa; la inmovilización es rápida.",
+      "didYouKnow": "Las boas tienen una mandíbula muy móvil que les permite tragar presas enteras.",
+      "imageCaption": "boa constrictora"
+    },
+    {
+      "id": "reptiles-038",
+      "animal": "pitones",
+      "prompt": "¿Qué característica reproductiva es común en las pitones?",
+      "options": [
+        "poniendo huevos",
+        "Reproducción sin fertilización por un macho.",
+        "Protegiendo capullos colocados bajo tierra",
+        "El nacimiento de crías vivas después del desarrollo interno."
+      ],
+      "explanation": "Las pitones son serpientes ovíparas; varias especies guardan o incuban sus huevos, pudiendo algunas calentarlos mediante contracciones musculares.",
+      "didYouKnow": "Las pitones tienen hoyuelos sensibles al calor alrededor de los labios.",
+      "imageCaption": "pitón birmana"
+    },
+    {
+      "id": "reptiles-039",
+      "animal": "cobras",
+      "prompt": "¿Por qué la cobra extiende su capuchón?",
+      "options": [
+        "Para parecer más grande al amenazar o mostrar",
+        "Intimidar a la presa antes de atraparla.",
+        "Para capturar mejor los olores transportados por el aire.",
+        "Para aumentar la superficie de la piel expuesta al sol."
+      ],
+      "explanation": "La capucha está formada por la extensión de las costillas del cuello y contribuye a una postura de advertencia o intimidación.",
+      "didYouKnow": "Las cobras tienen colmillos fijos en la parte delantera de la boca.",
+      "imageCaption": "cobra india"
+    },
+    {
+      "id": "reptiles-040",
+      "animal": "serpientes marinas",
+      "prompt": "¿Cómo respiran las serpientes marinas?",
+      "options": [
+        "Con una bolsa de aire permanente debajo de la báscula.",
+        "Con pulmones, saliendo a la superficie.",
+        "Por difusión cutánea sin aspiración de aire.",
+        "Con branquias que extraen el oxígeno disuelto."
+      ],
+      "explanation": "Incluso adaptadas a la vida marina, las serpientes marinas respiran aire con los pulmones y deben salir a la superficie.",
+      "didYouKnow": "La cola aplanada de las serpientes marinas sirve como remo.",
+      "imageCaption": "Tejido a rayas, una serpiente marina."
+    },
+    {
+      "id": "reptiles-041",
+      "animal": "serpientes marinas",
+      "prompt": "¿Qué forma de cola ayuda a nadar a muchas serpientes marinas?",
+      "options": [
+        "Una cola aplanada lateralmente como una paleta.",
+        "Una cola larga y cilíndrica que sirve como timón.",
+        "Una cola aplanada verticalmente como una aleta.",
+        "Una cola muy corta que reduce la resistencia."
+      ],
+      "explanation": "La cola comprimida a los lados ayuda a la propulsión en el agua, mientras que el cuerpo ondulado guía la natación.",
+      "didYouKnow": "Las serpientes marinas respiran con pulmones y deben salir a la superficie.",
+      "imageCaption": "Tejido a rayas, una serpiente marina."
+    },
+    {
+      "id": "reptiles-042",
+      "animal": "serpientes",
+      "prompt": "¿Cuál es el propósito del comportamiento de tanatosis observado en ciertas serpientes?",
+      "options": [
+        "Fingir la muerte para disuadir a un depredador.",
+        "Para hacerte más difícil de detectar cambiando de color",
+        "Atraer presas imitando sus movimientos.",
+        "Para refrescarse cuando el aire está demasiado caliente."
+      ],
+      "explanation": "La tanatosis consiste en permanecer inmóvil y fingir la muerte; puede reducir el interés de ciertos depredadores.",
+      "didYouKnow": "La culebra suele llevar un collar transparente detrás de la cabeza.",
+      "imageCaption": "culebra"
+    },
+    {
+      "id": "reptiles-043",
+      "animal": "Culebras de collar",
+      "prompt": "¿Qué tipo de presas suelen consumir las culebras?",
+      "options": [
+        "Pescado y sus huevos",
+        "Insectos acuáticos y larvas.",
+        "Pequeños mamíferos que viven en madrigueras.",
+        "Anfibios, especialmente ranas."
+      ],
+      "explanation": "La culebra frecuenta los humedales y se alimenta en particular de anfibios y, a veces, de peces.",
+      "didYouKnow": "Generalmente es inofensivo para los humanos.",
+      "imageCaption": "culebra"
+    },
+    {
+      "id": "reptiles-044",
+      "animal": "Víboras",
+      "prompt": "¿Qué hacen los colmillos de las víboras?",
+      "options": [
+        "Inyectan saliva digestiva sin veneno",
+        "Inyectan veneno a una presa o a un animal mordido.",
+        "Se utilizan para sujetar a las presas sin hacerles daño.",
+        "Conducen olores al órgano vomeronasal."
+      ],
+      "explanation": "Las víboras tienen colmillos especializados conectados a glándulas venenosas; pueden plegarlos hacia el paladar cuando están en reposo.",
+      "didYouKnow": "Muchas víboras dan a luz crías vivas en lugar de poner huevos.",
+      "imageCaption": "Víbora pelíada"
+    },
+    {
+      "id": "reptiles-045",
+      "animal": "serpientes venenosas",
+      "prompt": "¿Qué papel ecológico suele desempeñar el veneno en las serpientes que lo poseen?",
+      "options": [
+        "Hacer que los huevos sean más resistentes a la desecación",
+        "Inmovilizar o digerir presas más fácilmente",
+        "Permitirte respirar bajo el agua.",
+        "Regular directamente la temperatura corporal."
+      ],
+      "explanation": "El veneno puede ayudar a inmovilizar a la presa y contiene moléculas que inician su digestión; también se utiliza para la defensa.",
+      "didYouKnow": "Las serpientes recolectan moléculas olorosas con sus lenguas bífidas.",
+      "imageCaption": "Víbora peliada, una serpiente venenosa"
+    },
+    {
+      "id": "reptiles-046",
+      "animal": "serpientes",
+      "prompt": "¿Por qué algunas serpientes se tragan a sus presas primero con la cabeza?",
+      "options": [
+        "Los tejidos de las presas son más suaves alrededor de la cabeza.",
+        "Las serpientes pueden abrir más la boca en esta dirección.",
+        "Las extremidades y escamas de la presa se pliegan más fácilmente en esta dirección.",
+        "Los huesos de la presa se disuelven más rápidamente cuando se orienta así."
+      ],
+      "explanation": "Tragar la presa de cabeza reduce el enganche de sus extremidades, plumas o escamas a medida que avanza por la garganta.",
+      "didYouKnow": "En muchas serpientes, la lengua bífida recoge moléculas de olor.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-047",
+      "animal": "reptiles",
+      "prompt": "¿Qué órgano permite a los reptiles realizar la respiración aérea?",
+      "options": [
+        "Los sacos aéreos externos",
+        "las tráqueas",
+        "los pulmones",
+        "las branquias"
+      ],
+      "explanation": "Los reptiles respiran aire con los pulmones; las especies acuáticas generalmente deben regresar a la superficie para tomar aire.",
+      "didYouKnow": "En los reptiles, la cloaca es una apertura común a los sistemas digestivo, urinario y reproductivo.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-048",
+      "animal": "reptiles",
+      "prompt": "¿Qué residuos de nitrógeno suelen excretar los reptiles terrestres en forma pastosa o cristalina?",
+      "options": [
+        "Dióxido de carbono disuelto",
+        "Amoníaco en abundante solución.",
+        "Urea muy diluida",
+        "ácido úrico"
+      ],
+      "explanation": "Muchos reptiles excretan nitrógeno en forma de ácido úrico, lo que ayuda a limitar la pérdida de agua en comparación con la orina muy diluida.",
+      "didYouKnow": "Los reptiles tienen una abertura común llamada cloaca.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-049",
+      "animal": "reptiles",
+      "prompt": "¿Cómo suelen utilizar los reptiles la luz solar para termorregularse?",
+      "options": [
+        "Alternan la exposición al sol y el retiro a la sombra.",
+        "Producen calor mediante escalofríos continuos.",
+        "Sudan para disipar el calor.",
+        "Mantienen una temperatura constante gracias a su metabolismo."
+      ],
+      "explanation": "Los reptiles pueden ajustar su temperatura corporal eligiendo microhábitats más cálidos o más fríos.",
+      "didYouKnow": "Los cocodrilos son los únicos reptiles vivos con un corazón de cuatro cámaras.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-050",
+      "animal": "reptiles",
+      "prompt": "¿Qué efecto puede tener la temperatura de incubación en determinadas tortugas?",
+      "options": [
+        "Puede influir en el sexo de los recién nacidos.",
+        "Determina directamente el color del caparazón adulto.",
+        "Determina la vida futura del embrión.",
+        "Siempre regula la talla adulta de cada pequeño."
+      ],
+      "explanation": "En varias especies de tortugas y otros reptiles, la temperatura durante un período sensible de incubación influye en el sexo de las crías.",
+      "didYouKnow": "Las tortugas marinas pueden viajar largas distancias entre las zonas de alimentación y de anidación.",
+      "imageCaption": "Tortuga pintada, ejemplo de tortuga sexual termodependiente"
+    },
+    {
+      "id": "reptiles-051",
+      "animal": "Tortugas",
+      "prompt": "¿Cómo pasan el invierno bajo el hielo algunas tortugas de agua dulce?",
+      "options": [
+        "Respiran con branquias que siguen siendo funcionales hasta la edad adulta.",
+        "Nadan continuamente bajo el hielo para producir calor.",
+        "Migran por ríos a zonas tropicales.",
+        "Se quedan en el fondo y ralentizan mucho su metabolismo."
+      ],
+      "explanation": "Algunas tortugas acuáticas entran en brumación y pueden intercambiar parte de los gases a través de superficies muy vascularizadas, particularmente en la cloaca.",
+      "didYouKnow": "Algunas tortugas de agua dulce pueden reducir considerablemente su actividad durante el invierno.",
+      "imageCaption": "Tortuga deslizante de Florida, tortuga de agua dulce"
+    },
+    {
+      "id": "reptiles-052",
+      "animal": "Tortugas",
+      "prompt": "¿Cuál es la finalidad del cuello retráctil en muchas tortugas?",
+      "options": [
+        "Para proteger la cabeza colocándola debajo del caparazón.",
+        "Empujar el cuerpo al barro.",
+        "Filtrar sedimentos con el bozal.",
+        "Estirar el cuello para alcanzar plantas lejanas."
+      ],
+      "explanation": "La retracción del cuello permite a muchas tortugas proteger su cabeza; la forma en que se pliega el cuello difiere entre linajes.",
+      "didYouKnow": "Algunas tortugas de caja cierran su plastrón con una bisagra.",
+      "imageCaption": "La tortuga de Hermann, ejemplo de tortuga"
+    },
+    {
+      "id": "reptiles-053",
+      "animal": "Tortugas de cuello lateral",
+      "prompt": "¿Cómo retrae la cabeza una tortuga de cuello lateral?",
+      "options": [
+        "Dobla el cuello en forma de S vertical y lo desliza entre los hombros",
+        "Dobla el cuello hacia atrás bajo el borde del caparazón",
+        "Retrae la cabeza sin mover el cuello",
+        "Dobla el cuello horizontalmente hacia un lado bajo el borde del caparazón"
+      ],
+      "explanation": "Los pleurodires doblan su cuello lateralmente debajo del borde del caparazón, a diferencia de las tortugas que lo pliegan verticalmente.",
+      "didYouKnow": "Las tortugas de cuello lateral están representadas principalmente en las regiones tropicales del hemisferio sur.",
+      "imageCaption": "Tortuga de cuello largo (tortuga de cuello lateral)"
+    },
+    {
+      "id": "reptiles-054",
+      "animal": "tortugas marinas",
+      "prompt": "¿Qué estructura reemplaza las patas de las tortugas marinas para nadar?",
+      "options": [
+        "Garras curvas para aferrarse al fondo.",
+        "Extremidades transformadas en aletas.",
+        "Dedos alargados conectados por una membrana parcial.",
+        "Patas traseras más largas que las delanteras."
+      ],
+      "explanation": "Las extremidades delanteras de las tortugas marinas se transforman en poderosas aletas, mientras que las traseras ayudan a guiarse.",
+      "didYouKnow": "Las tortugas marinas ponen sus huevos en playas por encima de la línea de marea.",
+      "imageCaption": "Tortuga verde, ejemplo de tortuga marina"
+    },
+    {
+      "id": "reptiles-055",
+      "animal": "tortugas marinas",
+      "prompt": "¿Qué comportamiento exhiben las crías de tortugas marinas después de llegar al océano?",
+      "options": [
+        "Nadan activamente mar adentro.",
+        "Permanecen agrupados cerca del nido hasta la edad adulta.",
+        "Se dejaron llevar sin nadar hasta la orilla",
+        "Se sumergen en la arena submarina en busca de refugio."
+      ],
+      "explanation": "Después de llegar al mar, las crías nadan activamente mar adentro, un período que a menudo se describe como natación frenética.",
+      "didYouKnow": "Las tortugas marinas recién nacidas se orientan utilizando señales luminosas del horizonte.",
+      "imageCaption": "Tortuga verde, ejemplo de tortuga marina"
+    },
+    {
+      "id": "reptiles-056",
+      "animal": "tortugas carey",
+      "prompt": "¿De qué se alimentan habitualmente las tortugas carey en los arrecifes?",
+      "options": [
+        "esponjas marinas",
+        "Medusas y otros animales gelatinosos.",
+        "pastos marinos",
+        "Algas flotantes"
+      ],
+      "explanation": "La tortuga carey consume esponjas con frecuencia, lo que la convierte en un importante especialista en alimentos de los arrecifes de coral.",
+      "didYouKnow": "La tortuga carey es reconocible por sus escudos de caparazón superpuestos.",
+      "imageCaption": "tortuga carey"
+    },
+    {
+      "id": "reptiles-057",
+      "animal": "tortugas verdes",
+      "prompt": "¿Qué cambio dietético ocurre frecuentemente en las tortugas marinas verdes a medida que crecen?",
+      "options": [
+        "Las crías comen medusas y luego los adultos comen mariscos.",
+        "La dieta sigue siendo exclusivamente carnívora en todas las edades.",
+        "Los jóvenes son más omnívoros y los adultos se vuelven principalmente herbívoros.",
+        "Los jóvenes son herbívoros y los adultos se vuelven piscívoros."
+      ],
+      "explanation": "Los juveniles pueden consumir una variedad de presas animales y vegetales, mientras que los adultos se alimentan principalmente de pastos marinos y algas.",
+      "didYouKnow": "La tortuga verde adulta a menudo pasta en praderas marinas.",
+      "imageCaption": "tortuga verde"
+    },
+    {
+      "id": "reptiles-058",
+      "animal": "Tortugas laúd",
+      "prompt": "¿Qué distingue el caparazón de la tortuga laúd del de muchas otras tortugas?",
+      "options": [
+        "Es flexible y está cubierto de piel coriácea.",
+        "Está formado únicamente por cartílago sin elementos óseos.",
+        "Está formado por placas móviles que se abren para nadar.",
+        "Está cubierto de grandes escudos córneos como los de las tortugas verdes."
+      ],
+      "explanation": "La tortuga laúd tiene un caparazón sin las grandes escamas córneas típicas de muchas tortugas, con una piel coriácea sobre una estructura ósea.",
+      "didYouKnow": "La tortuga laúd es la única especie viva de su familia, Dermochelyidae.",
+      "imageCaption": "tortuga laúd"
+    },
+    {
+      "id": "reptiles-059",
+      "animal": "tortugas terrestres",
+      "prompt": "¿Por qué las tortugas suelen tener patas fuertes?",
+      "options": [
+        "Terminan con ventosas para trepar a los árboles",
+        "Llevan el peso del cuerpo y permiten caminar sobre el suelo.",
+        "Se aplanan en aletas para excavar en la arena.",
+        "Se extienden lateralmente para nadar rápido."
+      ],
+      "explanation": "Las tortugas se mueven sobre sus extremidades gruesas y robustas, adaptadas para soportar su cuerpo y su locomoción terrestre.",
+      "didYouKnow": "Las tortugas no tienen dientes y usan un pico córneo para cortar la comida.",
+      "imageCaption": "La tortuga de Hermann, ejemplo de tortuga"
+    },
+    {
+      "id": "reptiles-060",
+      "animal": "Tortugas",
+      "prompt": "¿Cuáles son las escamas córneas que se ven en los caparazones de muchas tortugas?",
+      "options": [
+        "Escudos que cubren los elementos óseos.",
+        "Placas óseas separadas que reemplazan a las vértebras.",
+        "Parches de piel pigmentada sin estrato córneo",
+        "Escamas suaves y desmontables debajo del caparazón."
+      ],
+      "explanation": "Los escudos son placas de queratina que cubren la capa ósea en muchas especies, pero su presencia varía entre grupos.",
+      "didYouKnow": "Las escamas del caparazón, o escudos, son placas córneas que recubren el hueso.",
+      "imageCaption": "La tortuga de Hermann, ejemplo de tortuga"
+    },
+    {
+      "id": "reptiles-061",
+      "animal": "cocodrilos",
+      "prompt": "¿Cómo se puede diferenciar entre un cocodrilo y un caimán cuando la boca está cerrada?",
+      "options": [
+        "Los caimanes cierran la boca manteniendo las mandíbulas separadas.",
+        "En los caimanes, los dientes inferiores siempre sobresalen del hocico.",
+        "Los cocodrilos tienen dientes sólo en la mandíbula superior.",
+        "En muchos cocodrilos, queda visible un gran diente inferior."
+      ],
+      "explanation": "En muchos cocodrilos, el cuarto diente de la mandíbula inferior es visible cuando la boca está cerrada; en los caimanes, generalmente está oculto.",
+      "didYouKnow": "Los cocodrilos tienen un paladar secundario óseo.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-062",
+      "animal": "cocodrilos",
+      "prompt": "¿Qué hace la válvula en el fondo de la boca de los cocodrilos?",
+      "options": [
+        "Para mantener la lengua fija en la parte posterior de la boca.",
+        "Para evitar que las presas se escapen de la boca en tierra.",
+        "Para aislar el tracto respiratorio del agua durante la inmersión.",
+        "Cerrar el conducto esofágico durante la respiración aérea."
+      ],
+      "explanation": "El paladar secundario y la válvula palatina permiten al cocodrilo mantener las vías respiratorias aisladas cuando mantiene a su presa en el agua.",
+      "didYouKnow": "Los cocodrilos pueden cerrar las fosas nasales cuando están sumergidos.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-063",
+      "animal": "cocodrilos",
+      "prompt": "¿Qué órgano sensorial se encuentra en pequeños receptores en la superficie del hocico de los cocodrilos?",
+      "options": [
+        "Órganos que perciben el campo magnético terrestre.",
+        "Glándulas que miden la salinidad de la sangre.",
+        "Receptores sensibles a la presión y a los movimientos del agua.",
+        "Receptores que sólo detectan olores disueltos"
+      ],
+      "explanation": "Los órganos sensoriales tegumentarios de los cocodrilos perciben cambios de presión y movimientos en el agua.",
+      "didYouKnow": "Los cocodrilos tienen un corazón de cuatro cámaras.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-064",
+      "animal": "caimanes",
+      "prompt": "¿En qué tipo de hábitat se encuentran principalmente los caimanes americanos?",
+      "options": [
+        "Los ríos montañosos de Asia Central",
+        "Humedales de agua dulce del sureste de Estados Unidos",
+        "Los grandes lagos fríos del norte de Canadá",
+        "Estuarios costeros salados de las islas del Pacífico"
+      ],
+      "explanation": "El caimán americano habita en pantanos, ríos y otros humedales, principalmente en el sureste de Estados Unidos.",
+      "didYouKnow": "El caimán americano construye un nido entre la vegetación para poner sus huevos.",
+      "imageCaption": "caimán americano"
+    },
+    {
+      "id": "reptiles-065",
+      "animal": "cocodrilos",
+      "prompt": "¿Qué comportamiento parental se observa en muchos cocodrilos?",
+      "options": [
+        "Los adultos llevan huevos debajo de las escamas del vientre.",
+        "La hembra puede llevar a los recién nacidos en la boca al agua.",
+        "Ambos padres mastican la comida de los más pequeños.",
+        "El macho alimenta a las crías con una secreción producida por la piel."
+      ],
+      "explanation": "En muchos cocodrilos, la hembra protege el nido y puede transportar con delicadeza a los recién nacidos hasta el agua que lleva en la boca.",
+      "didYouKnow": "Las hembras de varios cocodrilos llevan a sus recién nacidos al agua.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-066",
+      "animal": "cocodrilos",
+      "prompt": "¿Qué hacen los cocodrilos con su membrana nictitante cuando se sumergen?",
+      "options": [
+        "Protegen sus ojos con este párpado extra",
+        "Cierran sus fosas nasales con él.",
+        "Lo despliegan para pescar",
+        "Lo inflan para producir sonidos."
+      ],
+      "explanation": "La membrana nictitante puede cubrir el ojo y protegerlo bajo el agua. Se distingue de los dos párpados exteriores.",
+      "didYouKnow": "La membrana nictitante es un párpado translúcido que protege el ojo.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-067",
+      "animal": "cocodrilos",
+      "prompt": "¿Cómo se llama el movimiento con el que un cocodrilo arrastra a su presa girándose sobre sí mismo?",
+      "options": [
+        "natación ondulante",
+        "La inmersión retorcida",
+        "Caminata lateral",
+        "El rollo de la muerte"
+      ],
+      "explanation": "La tirada mortal es una rotación rápida que se utiliza para desequilibrar o desmembrar a la presa capturada.",
+      "didYouKnow": "El corazón de los cocodrilos tiene cuatro cámaras.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-068",
+      "animal": "cocodrilos",
+      "prompt": "¿Qué diferencia ayuda a distinguir a los cocodrilos de los lagartos?",
+      "options": [
+        "Los cocodrilos tienen dos corazones separados en el tórax.",
+        "Los cocodrilos tienen corazones de cuatro cámaras.",
+        "Todos los reptiles tienen un corazón de cuatro cámaras.",
+        "Los lagartos tienen corazones de cuatro cámaras y los cocodrilos tienen corazones de tres cámaras."
+      ],
+      "explanation": "Los cocodrilos tienen un corazón de cuatro cámaras, característica que comparten las aves y los mamíferos.",
+      "didYouKnow": "Los cocodrilos protegen sus huevos y pueden llevar a las crías en la boca.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-069",
+      "animal": "cocodrilos",
+      "prompt": "¿Qué papel ecológico pueden cumplir los cocodrilos en los humedales?",
+      "options": [
+        "Descomponedores que digieren las hojas muertas.",
+        "Polinizadores que fertilizan las plantas acuáticas.",
+        "Herbívoros que mantienen los pastizales mediante el pastoreo.",
+        "Depredadores que influyen en las poblaciones de presas y el ecosistema."
+      ],
+      "explanation": "Como grandes depredadores, pueden modificar la abundancia y el comportamiento de sus presas y contribuir a la estructura del ecosistema.",
+      "didYouKnow": "Los cocodrilos pueden detectar ligeros movimientos de agua utilizando receptores en su piel.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-070",
+      "animal": "Caimanes",
+      "prompt": "¿A qué familia pertenecen los caimanes?",
+      "options": [
+        "A los gaviálidos, con los gaviales",
+        "A la familia Alligatoridae, junto con los aligátores",
+        "Con escamosos, con lagartos monitores.",
+        "A Crocodylidae, con cocodrilos reales"
+      ],
+      "explanation": "Los caimanes son cocodrilos de la familia Alligatoridae, originarios de Centro y Sudamérica.",
+      "didYouKnow": "Varias especies de caimanes viven en las cuencas del Amazonas y del Orinoco.",
+      "imageCaption": "caimán de anteojos"
+    },
+    {
+      "id": "reptiles-071",
+      "animal": "Gaviales",
+      "prompt": "¿Por qué los gaviales dependen particularmente de las vías fluviales?",
+      "options": [
+        "Sus poderosas patas le permiten perseguir presas terrestres.",
+        "Su cuerpo y hocico están adaptados a la caza acuática de peces.",
+        "Sus fosas nasales están adaptadas al buceo en aguas profundas.",
+        "Su hocico corto se utiliza para triturar plantas acuáticas."
+      ],
+      "explanation": "El gavial es un cocodrilo muy acuático, especializado en capturar peces en grandes ríos.",
+      "didYouKnow": "El macho del gavial del Ganges tiene una hinchazón llamada ghara al final del hocico.",
+      "imageCaption": "Gavial del Ganges"
+    },
+    {
+      "id": "reptiles-072",
+      "animal": "cocodrilos",
+      "prompt": "¿Qué comen principalmente los cocodrilos jóvenes cuando nacen?",
+      "options": [
+        "Algas que pastan en la orilla del agua",
+        "Pequeños invertebrados y animales accesibles.",
+        "Presa tan grande como los adultos.",
+        "Leche proporcionada por su madre después de la eclosión."
+      ],
+      "explanation": "Los cocodrilos jóvenes capturan presas pequeñas, como insectos y otros animales pequeños, antes de que puedan enfrentarse a presas más grandes.",
+      "didYouKnow": "Los cocodrilos tienen un paladar secundario óseo.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-073",
+      "animal": "cocodrilos",
+      "prompt": "¿Qué estructura ayuda a los cocodrilos a nadar eficientemente?",
+      "options": [
+        "Patas delanteras transformadas en aletas.",
+        "Movimientos laterales del cuello que tiran del cuerpo.",
+        "Una cola musculosa que proporciona gran parte de la propulsión.",
+        "Pies palmeados que producen todo el empuje por sí solos."
+      ],
+      "explanation": "La poderosa cola comprimida lateralmente impulsa al cocodrilo a través del agua; Los miembros contribuyen a la dirección y la estabilidad.",
+      "didYouKnow": "Los cocodrilos tienen colas poderosas que ayudan en la propulsión acuática.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-074",
+      "animal": "cocodrilos",
+      "prompt": "¿Cómo oyen los cocodrilos bajo el agua?",
+      "options": [
+        "Sus dientes actúan como antenas auditivas externas.",
+        "Sólo escuchan sonidos transmitidos a través del aire.",
+        "Las estructuras auditivas protegidas pueden transmitir vibraciones sonoras",
+        "Sus fosas nasales captan ondas sonoras en lugar de oídos."
+      ],
+      "explanation": "Las aberturas auditivas se pueden cerrar mediante pliegues y las vibraciones llegan al audífono a través de los tejidos y el cráneo.",
+      "didYouKnow": "Los cocodrilos pueden cerrar los oídos cuando bucean.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-075",
+      "animal": "esfenodonte",
+      "prompt": "¿A qué grupo viviente pertenece el esfenodonte, también llamado tuátara?",
+      "options": [
+        "En los Testudines, como las tortugas.",
+        "Rhynchocephali, distinto de los lagartos",
+        "A los escamosos, como serpientes y lagartos.",
+        "A los cocodrilos, como los gaviales"
+      ],
+      "explanation": "El tuátara es el único representante actual de los Rhynchocephali, un linaje distinto de los escamosos que incluye lagartos y serpientes.",
+      "didYouKnow": "El tuátara puede vivir en temperaturas más frías que muchos reptiles.",
+      "imageCaption": "Tuatara (esfenodonte)"
+    },
+    {
+      "id": "reptiles-076",
+      "animal": "esfenodonte",
+      "prompt": "¿Qué estructura particular a veces se llama el tercer ojo en el joven tuátara?",
+      "options": [
+        "El ojo parietal, un órgano sensorial situado en la parte superior de la cabeza.",
+        "Un par extra de ojos móviles detrás de las orejas.",
+        "Un órgano olfativo expuesto en la parte superior del cráneo.",
+        "Un tercer párpado transparente que cierra ambos ojos."
+      ],
+      "explanation": "El tuátara tiene un ojo parietal mediano, particularmente visible en los juveniles; se cubre durante el desarrollo.",
+      "didYouKnow": "El tuátara puede vivir mucho tiempo y alcanza la madurez tarde.",
+      "imageCaption": "Tuatara (esfenodonte)"
+    },
+    {
+      "id": "reptiles-077",
+      "animal": "esfenodonte",
+      "prompt": "¿Para qué tipo de clima es especialmente adecuado el tuátara?",
+      "options": [
+        "Un clima templado fresco, con actividad posible a bajas temperaturas.",
+        "Un clima tropical húmedo donde las temperaturas son constantemente altas.",
+        "Un desierto árido donde las temperaturas suelen superar las de los reptiles tropicales.",
+        "Un clima polar donde los adultos permanecen activos bajo el hielo"
+      ],
+      "explanation": "El tuátara puede permanecer activo en temperaturas más frías que la mayoría de los reptiles, en consonancia con el clima templado de Nueva Zelanda.",
+      "didYouKnow": "El tuatara es endémico de Nueva Zelanda.",
+      "imageCaption": "Tuatara (esfenodonte)"
+    },
+    {
+      "id": "reptiles-078",
+      "animal": "esfenodonte",
+      "prompt": "¿Cuál es la tasa de desarrollo de los huevos de tuátara?",
+      "options": [
+        "La incubación es excepcionalmente larga en este reptil.",
+        "El desarrollo embrionario sólo se reanuda después de varios años",
+        "Los huevos son incubados por la hembra dentro de su cuerpo.",
+        "Los huevos eclosionan unos días después de la puesta."
+      ],
+      "explanation": "Los huevos de tuátara tienen un período de incubación muy largo, que dura muchos meses dependiendo de las condiciones.",
+      "didYouKnow": "Los tuátaras suelen cavar madrigueras que también pueden ser utilizadas por las aves marinas.",
+      "imageCaption": "Tuatara (esfenodonte)"
+    },
+    {
+      "id": "reptiles-079",
+      "animal": "esfenodonte",
+      "prompt": "¿Qué tipo de dientes tiene el tuátara?",
+      "options": [
+        "Dientes huecos conectados a glándulas venenosas.",
+        "Dos filas de dientes superiores que se superponen a una fila inferior.",
+        "Una sola fila de dientes superiores que encajan entre dos filas inferiores.",
+        "Un pico córneo sin dientes en las mandíbulas."
+      ],
+      "explanation": "Los dientes superiores del tuatara tienen dos filas funcionales contra las cuales se coloca una fila de dientes inferiores.",
+      "didYouKnow": "El tuátara es el único representante vivo del orden Rhynchocephali.",
+      "imageCaption": "Tuatara (esfenodonte)"
+    },
+    {
+      "id": "reptiles-080",
+      "animal": "esfenodonte",
+      "prompt": "¿Con qué aves comparte a veces el tuátara su madriguera en algunas islas?",
+      "options": [
+        "petreles anidando",
+        "Albatros que construyen nidos en madrigueras.",
+        "Pingüinos criando en islas",
+        "Kiwis que viven en los árboles"
+      ],
+      "explanation": "En algunas islas de Nueva Zelanda, los tuátaras pueden vivir en madrigueras cerca de colonias de petreles.",
+      "didYouKnow": "El tuátara a veces comparte sus madrigueras en la isla con petreles.",
+      "imageCaption": "Tuatara (esfenodonte)"
+    },
+    {
+      "id": "reptiles-081",
+      "animal": "Camaleones",
+      "prompt": "¿Cómo suelen atrapar insectos los camaleones?",
+      "options": [
+        "Con lengüeta de rápida proyección y acabado con superficie adhesiva",
+        "Con dedos pegajosos que atrapan insectos a distancia.",
+        "Proyectando una saliva viscosa sobre la presa.",
+        "Con mandíbulas con dientes largos que atrapan insectos."
+      ],
+      "explanation": "La lengua del camaleón puede proyectarse rápidamente; su extremo adhesivo agarra a la presa antes de regresar a la boca.",
+      "didYouKnow": "Los camaleones pueden orientar sus dos ojos de forma independiente.",
+      "imageCaption": "Camaleón pantera"
+    },
+    {
+      "id": "reptiles-082",
+      "animal": "Camaleones",
+      "prompt": "¿Por qué son extraordinarios los ojos de los camaleones?",
+      "options": [
+        "Pueden orientar cada ojo de forma independiente.",
+        "Son fijos y todo el cabezal gira para escanear el paisaje.",
+        "Se colocan frontalmente para una visión binocular permanente.",
+        "Siempre miran en la misma dirección y nunca convergen."
+      ],
+      "explanation": "Los ojos de los camaleones pueden moverse de forma independiente, lo que les proporciona un amplio campo de visión; luego coordinan su mirada para apuntar.",
+      "didYouKnow": "Algunas especies de camaleones usan casco o crestas en la piel de la cabeza.",
+      "imageCaption": "Camaleón pantera"
+    },
+    {
+      "id": "reptiles-083",
+      "animal": "Camaleones",
+      "prompt": "¿Qué adaptación de los pies ayuda a los camaleones a aferrarse a las ramas?",
+      "options": [
+        "Garras que se retraen debajo de la piel.",
+        "Almohadillas adhesivas similares a las de los geckos",
+        "Dedos agrupados en pinzas opuestas.",
+        "Dedos largos unidos en una amplia red."
+      ],
+      "explanation": "Los dedos están agrupados en haces opuestos que forman un fuerte agarre alrededor de las ramas.",
+      "didYouKnow": "Los camaleones suelen capturar insectos con una lengua que se proyecta rápidamente.",
+      "imageCaption": "Camaleón pantera"
+    },
+    {
+      "id": "reptiles-084",
+      "animal": "Camaleones",
+      "prompt": "¿Para qué usan los camaleones sus colas prensiles?",
+      "options": [
+        "La cola impulsa al camaleón cuando nada",
+        "La cola sirve para transportar los huevos durante la puesta",
+        "La cola ayuda al camaleón a mantener el equilibrio cuando corre por el suelo",
+        "La cola le ayuda a sujetarse a las ramas"
+      ],
+      "explanation": "La cola prensil puede enrollarse alrededor de una rama y brindar apoyo durante los movimientos arbóreos.",
+      "didYouKnow": "Los camaleones pueden mover los ojos independientemente unos de otros.",
+      "imageCaption": "Camaleón pantera"
+    },
+    {
+      "id": "reptiles-085",
+      "animal": "Camaleones",
+      "prompt": "¿Dónde se encuentra la mayor diversidad de camaleones?",
+      "options": [
+        "en madagascar",
+        "En Asia Central",
+        "En las islas del caribe",
+        "Sólo en el sur de África"
+      ],
+      "explanation": "Madagascar alberga una gran diversidad de camaleones, incluidas muchas especies endémicas.",
+      "didYouKnow": "La lengua del camaleón puede proyectarse rápidamente para agarrar a su presa.",
+      "imageCaption": "Camaleón pantera"
+    },
+    {
+      "id": "reptiles-086",
+      "animal": "Gecos",
+      "prompt": "¿Qué sonido hacen algunos geckos?",
+      "options": [
+        "Gritar o hacer clic utilizado en la comunicación.",
+        "Las vocalizaciones sólo son posibles bajo el agua.",
+        "Sonidos producidos únicamente por el roce de sus patas.",
+        "Llamadas sonoras utilizadas para ecolocalizar presas."
+      ],
+      "explanation": "Varios geckos son capaces de vocalizar, con gritos, chasquidos o chasquidos vinculados en particular a las interacciones sociales.",
+      "didYouKnow": "Los geckos Tokay son conocidos por sus fuertes vocalizaciones.",
+      "imageCaption": "Geco Tokay"
+    },
+    {
+      "id": "reptiles-087",
+      "animal": "Gecos",
+      "prompt": "¿Qué hacen los ojos del gecko tokay cuando limpia su córnea?",
+      "options": [
+        "Se quita los ojos para limpiarlos con agua",
+        "Se los lame con la lengua",
+        "Parpadea con párpados móviles",
+        "Se frota los ojos contra las ramas"
+      ],
+      "explanation": "Los gecos sin párpados móviles limpian la superficie del ojo con la lengua.",
+      "didYouKnow": "El gecko tokay es originario del sudeste asiático.",
+      "imageCaption": "Geco Tokay"
+    },
+    {
+      "id": "reptiles-088",
+      "animal": "Geco crestado",
+      "prompt": "¿Qué le sucede a la cola de un gecko con cresta después de la autotomía?",
+      "options": [
+        "No vuelve a crecer",
+        "Se reconstruye completamente con cada muda.",
+        "Siempre se divide en dos nuevas colas.",
+        "Es reemplazado por un apéndice óseo rígido."
+      ],
+      "explanation": "A diferencia de muchos lagartos, el gecko crestado no regenera su cola después de perderla. Un individuo sin cola puede, no obstante, continuar con su vida.",
+      "didYouKnow": "El gecko crestado es originario de Nueva Caledonia.",
+      "imageCaption": "Geco crestado"
+    },
+    {
+      "id": "reptiles-089",
+      "animal": "Gecos",
+      "prompt": "¿Por qué muchos gecos nocturnos tienen ojos grandes?",
+      "options": [
+        "Hacen que sea más fácil ver bajo aguas turbias",
+        "Detectan rayos infrarrojos emitidos por presas",
+        "Amplian el campo visual bajo el sol del mediodía",
+        "Recogen más luz en la oscuridad."
+      ],
+      "explanation": "Los ojos grandes pueden ayudar a captar la poca luz disponible durante la noche, aunque las capacidades visuales varían entre especies.",
+      "didYouKnow": "Algunos gecos pueden desprenderse la cola cuando un depredador los agarra.",
+      "imageCaption": "Gecko tokay, representante de los geckos"
+    },
+    {
+      "id": "reptiles-090",
+      "animal": "Gecos",
+      "prompt": "¿Cuál es el nombre común de gecko crestado?",
+      "options": [
+        "Un gecko excavador cuyo lomo tiene una cresta ósea continua.",
+        "Un gecko acuático con aleta dorsal.",
+        "Un gecko del desierto con una gorguera alrededor del cuello.",
+        "Un gecko arbóreo con relieves sobre los ojos y a lo largo de la espalda."
+      ],
+      "explanation": "El gecko crestado es un lagarto arbóreo de Nueva Caledonia reconocible por las crestas de la piel que bordean los ojos y el lomo.",
+      "didYouKnow": "El gecko con cresta tiene pequeñas protuberancias encima de los ojos y a lo largo de la espalda.",
+      "imageCaption": "Geco crestado"
+    },
+    {
+      "id": "reptiles-091",
+      "animal": "Uromastyx",
+      "prompt": "¿De qué se alimentan principalmente muchos Uromastyx?",
+      "options": [
+        "Plantas, como hojas, flores y semillas.",
+        "Pescados y mariscos capturados en estanques.",
+        "De mamíferos que matan por constricción",
+        "Néctar succionado del fondo de las flores."
+      ],
+      "explanation": "Los Uromastyx son principalmente herbívoros y consumen varias partes de plantas.",
+      "didYouKnow": "Los Uromastyxes viven en regiones áridas de África y Asia.",
+      "imageCaption": "Uromastyx del desierto"
+    },
+    {
+      "id": "reptiles-092",
+      "animal": "Geco leopardo",
+      "prompt": "¿Cuál es el propósito de la gruesa cola del gecko leopardo?",
+      "options": [
+        "Para almacenar reservas de energía en forma de grasa.",
+        "Inyectar veneno a su presa.",
+        "Nadar ondulante en los cursos de agua.",
+        "Para producir sonidos de advertencia frotándolo contra el suelo."
+      ],
+      "explanation": "El gecko leopardo almacena parte de sus reservas de energía en su cola.",
+      "didYouKnow": "El gecko leopardo tiene párpados móviles, a diferencia de muchos geckos.",
+      "imageCaption": "Geco leopardo"
+    },
+    {
+      "id": "reptiles-093",
+      "animal": "lagartos",
+      "prompt": "¿Qué fenómeno se observa la partenogénesis en algunas especies de lagartos?",
+      "options": [
+        "Reproducción donde los embriones se desarrollan sin fertilización por parte de un macho.",
+        "Nacido vivo después de la incubación en el cuerpo materno.",
+        "Fertilización interna seguida de puesta de huevos.",
+        "La división de un individuo en dos animales adultos."
+      ],
+      "explanation": "La partenogénesis permite a una hembra producir descendencia sin fertilización; existe en ciertos linajes de lagartos.",
+      "didYouKnow": "Algunos lagartos pueden desprender la cola para distraer a un depredador.",
+      "imageCaption": "Lagarto cola de látigo del desierto, especie partenogenética"
+    },
+    {
+      "id": "reptiles-094",
+      "animal": "lagartos",
+      "prompt": "¿Qué papel podría jugar la cola en un lagarto arbóreo?",
+      "options": [
+        "Cavar el suelo, removiendo la arena.",
+        "Mantener el equilibrio al moverse.",
+        "Agarrar a la presa entre escamas prensiles",
+        "Regular la temperatura disipando el calor."
+      ],
+      "explanation": "En los lagartos que se mueven a través de las ramas, la cola puede ayudar con el equilibrio y el control del movimiento.",
+      "didYouKnow": "Algunos lagartos arbóreos tienen dedos agrandados que mejoran el agarre.",
+      "imageCaption": "Anole verde, lagarto arbóreo"
+    },
+    {
+      "id": "reptiles-095",
+      "animal": "lagartos",
+      "prompt": "¿Cuál es el propósito de la cloaca en los reptiles?",
+      "options": [
+        "Expulsar el aire de los pulmones durante una inmersión.",
+        "Separar permanentemente el tracto urinario del tracto digestivo.",
+        "Recibir olores transferidos por la lengua.",
+        "Evacuar residuos y participar en la reproducción."
+      ],
+      "explanation": "La cloaca es una abertura común a los sistemas digestivo, urinario y reproductivo de los reptiles.",
+      "didYouKnow": "En las hembras, la cloaca participa en el paso de los huevos durante la puesta.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-096",
+      "animal": "lagartos",
+      "prompt": "¿Qué diferencia en las extremidades distingue a los lagartos de muchas serpientes?",
+      "options": [
+        "Todos los lagartos tienen cuatro extremidades bien desarrolladas.",
+        "Los lagartos tienen aletas en lugar de extremidades.",
+        "Las serpientes tienen extremidades traseras funcionales",
+        "Muchos lagartos tienen cuatro extremidades, pero algunos las han reducido o perdido"
+      ],
+      "explanation": "La mayoría de los lagartos tienen cuatro extremidades, pero los linajes han evolucionado hacia extremidades reducidas o ausentes.",
+      "didYouKnow": "Algunos lagartos sin patas conservan párpados móviles y aberturas para las orejas.",
+      "imageCaption": "Lagarto tocón, ejemplo de lagarto."
+    },
+    {
+      "id": "reptiles-097",
+      "animal": "lagartos",
+      "prompt": "¿Por qué algunos lagartos del desierto tienen colores pálidos?",
+      "options": [
+        "El color de la luz es siempre una señal de toxicidad.",
+        "La coloración oscura evita el sobrecalentamiento al sol.",
+        "El color pálido garantiza camuflaje en cualquier tipo de arena.",
+        "La coloración clara puede reflejar más radiación solar"
+      ],
+      "explanation": "Una coloración más clara puede reducir la absorción de calor en ciertos ambientes, aunque el camuflaje y otras funciones varían según el contexto.",
+      "didYouKnow": "Los lagartos pálidos pueden mezclarse con los sustratos arenosos de su hábitat.",
+      "imageCaption": "Uromastyx del desierto, lagarto de ambientes áridos"
+    },
+    {
+      "id": "reptiles-098",
+      "animal": "lagartos",
+      "prompt": "¿Cómo evitan a menudo secarse los lagartos excavadores?",
+      "options": [
+        "Pasan tiempo en madrigueras o bajo suelo húmedo.",
+        "Sólo se activan al mediodía cuando la humedad es mínima.",
+        "Reemplazan sus escamas con piel permeable.",
+        "Producen orina muy diluida que enfría el cuerpo."
+      ],
+      "explanation": "El suelo y las madrigueras proporcionan un microclima más estable y húmedo que la superficie, lo que limita la pérdida de agua.",
+      "didYouKnow": "Los lagartos excavadores suelen tener cuerpos alargados adaptados para moverse por el suelo.",
+      "imageCaption": "Eslizón de arena, lagarto excavador"
+    },
+    {
+      "id": "reptiles-099",
+      "animal": "lagartos",
+      "prompt": "¿A qué grupo principal pertenecen las iguanas y los anolis?",
+      "options": [
+        "A los iguanianos",
+        "En los Testudines",
+        "A los cocodrilos",
+        "A los rincocéfalos"
+      ],
+      "explanation": "Las iguanas y los anolis forman parte de los iguanos, un gran grupo de lagartos; en las clasificaciones modernas, se ubican en diferentes familias.",
+      "didYouKnow": "Los anolis se comunican en particular mediante una papada coloreada.",
+      "imageCaption": "Anole verde, que representa iguanas y anolis."
+    },
+    {
+      "id": "reptiles-100",
+      "animal": "lagartos",
+      "prompt": "¿Por qué los lagartos isleños podrían ser particularmente vulnerables a las especies introducidas?",
+      "options": [
+        "Los reptiles isleños no pueden reconocer a sus presas.",
+        "Las islas impiden que los reptiles se reproduzcan en cautiverio",
+        "Las especies isleñas no pueden esconderse en la vegetación",
+        "En ocasiones, sus poblaciones evolucionaron sin ciertos depredadores terrestres."
+      ],
+      "explanation": "La introducción de depredadores como ratas o gatos puede afectar fuertemente a las poblaciones insulares que no han coevolucionado con ellos.",
+      "didYouKnow": "Los lagartos isleños pueden ser endémicos y ocupar un área geográfica pequeña.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-101",
+      "animal": "serpientes",
+      "prompt": "¿Qué movimiento le permite a la serpiente avanzar sobre terreno irregular apoyándose en superficies irregulares?",
+      "options": [
+        "ondulación lateral",
+        "locomoción de acordeón",
+        "rectilinealidad",
+        "Locomoción en bucle"
+      ],
+      "explanation": "En la locomoción en acordeón, la serpiente fija una parte de su cuerpo, luego pliega y extiende el resto para avanzar en un espacio estrecho o sobre un soporte irregular.",
+      "didYouKnow": "Las serpientes también pueden avanzar mediante ondulaciones laterales en terreno abierto.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-102",
+      "animal": "serpientes",
+      "prompt": "¿Cómo se mueve una serpiente ondulante por un pasillo abierto?",
+      "options": [
+        "Contrae los músculos del estómago para avanzar en línea recta.",
+        "Mueve su piel independientemente de su esqueleto.",
+        "Se empuja de lado contra el suelo con las curvas de su cuerpo.",
+        "Está sostenido por extremidades vestigiales."
+      ],
+      "explanation": "Durante la ondulación lateral, las curvas del cuerpo se apoyan en las irregularidades y producen un empuje hacia adelante.",
+      "didYouKnow": "Las serpientes pueden utilizar varios modos de locomoción según el terreno.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-103",
+      "animal": "Serpientes de árbol",
+      "prompt": "¿Cómo estabilizan algunas serpientes arborícolas su avance sobre una rama?",
+      "options": [
+        "Presionan su estómago contra la rama y avanzan en ondulaciones sin envolverse en ella.",
+        "Envuelven su cola prensil alrededor del soporte y mueven el resto del cuerpo.",
+        "Forman bucles alrededor de la rama para soportar su peso y avanzar.",
+        "Levantan el cuerpo apoyándose en los pliegues laterales de la piel."
+      ],
+      "explanation": "Las serpientes arbóreas pueden envolver parte de su cuerpo alrededor de las ramas para anclarse mientras mueven el resto.",
+      "didYouKnow": "Algunas serpientes arbóreas tienen una cola prensil que les ayuda a anclarse.",
+      "imageCaption": "Pitón de árbol verde"
+    },
+    {
+      "id": "reptiles-104",
+      "animal": "serpientes",
+      "prompt": "¿Cuál es el propósito del parche transparente que cubre el ojo de muchas serpientes?",
+      "options": [
+        "Constituye un párpado móvil que cierra el ojo.",
+        "Filtra partículas olorosas hacia el paladar.",
+        "Amplifica las vibraciones sonoras que recibe el cráneo.",
+        "Protege el ojo y forma parte de la escala llamada anteojo."
+      ],
+      "explanation": "El espectáculo es una escama transparente que cubre el ojo; se renueva durante la muda.",
+      "didYouKnow": "Las boas y pitones generalmente inmovilizan a sus presas mediante constricción.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-105",
+      "animal": "serpientes",
+      "prompt": "¿Cómo se renuevan los dientes de las serpientes?",
+      "options": [
+        "Sólo se reemplazan una vez durante la transición a la edad adulta.",
+        "Se reemplazan continuamente durante toda la vida, independientemente de la muda de piel.",
+        "Sólo se reemplazan los colmillos venenosos, los demás dientes permanecen de por vida.",
+        "Los dientes perdidos no vuelven a crecer en las serpientes adultas"
+      ],
+      "explanation": "Las serpientes reemplazan sus dientes continuamente durante toda su vida; esta renovación no se desencadena por la muda de la piel.",
+      "didYouKnow": "Las serpientes tragan a sus presas enteras con su boca y garganta expandibles.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-106",
+      "animal": "serpientes",
+      "prompt": "¿Qué característica pulmonar es común en las serpientes?",
+      "options": [
+        "El pulmón derecho suele estar expandido, mientras que el izquierdo está reducido o ausente.",
+        "Ambos pulmones están conectados a branquias funcionales.",
+        "El pulmón izquierdo sigue siendo el único pulmón funcional",
+        "Las serpientes adultas respiran sólo a través de la piel."
+      ],
+      "explanation": "En muchas serpientes, el pulmón derecho está más desarrollado y el izquierdo está reducido o ausente, en consonancia con su cuerpo alargado.",
+      "didYouKnow": "Las serpientes no tienen pabellones auditivos externos.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-107",
+      "animal": "serpientes de cascabel",
+      "prompt": "¿Qué elemento produce el sonido característico del cascabel de una serpiente de cascabel?",
+      "options": [
+        "Escamas vibrantes en los laterales.",
+        "Segmentos de queratina anidados al final de la cola.",
+        "Pequeños huesos móviles en la garganta.",
+        "Burbujas de aire expulsadas por las fosas nasales."
+      ],
+      "explanation": "La serpiente de cascabel hace vibrar su cola; Los segmentos huecos de queratina en su punta chocan y producen el ruido de advertencia.",
+      "didYouKnow": "Las serpientes de cascabel añaden nuevos segmentos a su campana a medida que mudan.",
+      "imageCaption": "Serpiente de cascabel occidental"
+    },
+    {
+      "id": "reptiles-108",
+      "animal": "serpientes",
+      "prompt": "¿Para qué sirve la muda completa de una serpiente?",
+      "options": [
+        "Reemplazo del cartílago esquelético",
+        "Eliminar la muda anterior mediante digestión.",
+        "Renueva los dientes y la capa profunda de la piel.",
+        "Renueva la capa externa de la piel y la escama transparente que cubre el ojo"
+      ],
+      "explanation": "La muda completa renueva la capa externa de la piel, incluida la escama transparente que cubre el ojo.",
+      "didYouKnow": "Las serpientes detectan moléculas olorosas con sus lenguas bífidas.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-109",
+      "animal": "serpientes",
+      "prompt": "¿A qué grupo pertenecen las boas y las pitones en la clasificación de las serpientes?",
+      "options": [
+        "A lagartos y anfisbenos dentro de los Squamates.",
+        "A las tortugas y los cocodrilos.",
+        "A las serpientes con colmillos delanteros, como víboras",
+        "A distintos linajes de serpientes con colmillos frontales"
+      ],
+      "explanation": "Las boas y las pitones pertenecen a linajes de serpientes constrictoras, distintas de las víboras y muchos elápidos.",
+      "didYouKnow": "Las boas y las pitones son serpientes no venenosas que matan a sus presas por constricción.",
+      "imageCaption": "Boa constrictor, representante de las boas"
+    },
+    {
+      "id": "reptiles-110",
+      "animal": "serpientes",
+      "prompt": "¿Qué parte del esqueleto permite a las serpientes realizar movimientos ondulantes?",
+      "options": [
+        "Gran cantidad de vértebras y costillas articuladas.",
+        "Aletas óseas repetidas a lo largo del cuerpo.",
+        "Discos cartilaginosos sin huesos vertebrales.",
+        "Una pequeña cantidad de vértebras fusionadas y costillas inmóviles."
+      ],
+      "explanation": "Las serpientes tienen numerosas vértebras con costillas móviles asociadas, lo que permite una gran flexibilidad del tronco.",
+      "didYouKnow": "Las serpientes no tienen pabellones auditivos externos.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-111",
+      "animal": "serpientes",
+      "prompt": "¿Por qué el corazón de una serpiente podría moverse ligeramente dentro de su cuerpo?",
+      "options": [
+        "No es fijo como en los mamíferos y se adapta al alargamiento del cuerpo.",
+        "Está libre en la cavidad y se mueve con cada respiración.",
+        "Se mueve hacia el cráneo durante cada muda.",
+        "Se encuentra cerca de la cloaca para facilitar la puesta de huevos."
+      ],
+      "explanation": "El corazón de las serpientes es móvil dentro de la cavidad corporal, lo que resulta útil para un cuerpo muy alargado y para la ingestión de presas grandes.",
+      "didYouKnow": "En muchas serpientes, el pulmón izquierdo está reducido o ausente.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-112",
+      "animal": "serpientes",
+      "prompt": "¿Por qué el sistema digestivo de una serpiente puede adaptarse después de una comida abundante?",
+      "options": [
+        "La digestión se traslada de los intestinos a los pulmones.",
+        "Todos los órganos digestivos cesan su actividad durante varios días.",
+        "El intestino es reemplazado por un estómago temporal.",
+        "Algunos órganos aumentan significativamente su actividad y tamaño de forma temporal"
+      ],
+      "explanation": "Después de una comida abundante, el metabolismo digestivo de las serpientes aumenta y ciertos órganos experimentan una mayor actividad antes de volver a su estado de reposo.",
+      "didYouKnow": "Las serpientes no tienen párpados móviles; una escala transparente protege cada ojo.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-113",
+      "animal": "Cobras escupidoras",
+      "prompt": "¿A qué objetivo apuntan las cobras escupidoras cuando proyectan su veneno en defensa?",
+      "options": [
+        "Los ojos del atacante",
+        "Las piernas para inmovilizarlas a distancia.",
+        "Oídos para alterar la audición",
+        "El suelo para crear una barrera olorosa."
+      ],
+      "explanation": "La proyección del veneno se dirige principalmente a los ojos y constituye una defensa. Se distingue del mordisco utilizado en particular para controlar a las presas.",
+      "didYouKnow": "El veneno de las cobras escupidoras puede causar un dolor intenso si llega a los ojos.",
+      "imageCaption": "Cobra escupidora de Indochina"
+    },
+    {
+      "id": "reptiles-114",
+      "animal": "serpientes",
+      "prompt": "¿Cuál es el papel de las glándulas venenosas en las serpientes venenosas?",
+      "options": [
+        "Produce saliva que lubrica a la presa.",
+        "Haz los ganchos que crecen en la mandíbula.",
+        "Producir y almacenar una secreción utilizada durante la picadura.",
+        "Filtrar el veneno de la sangre después de cada bocado."
+      ],
+      "explanation": "Las glándulas venenosas producen una secreción que se conduce a los colmillos o dientes especializados a través de conductos.",
+      "didYouKnow": "Las serpientes a veces usan su veneno con fines defensivos.",
+      "imageCaption": "Cobra india, serpiente venenosa"
+    },
+    {
+      "id": "reptiles-115",
+      "animal": "serpientes",
+      "prompt": "¿Qué serpientes suelen tener colmillos fijos en la parte delantera de la boca?",
+      "options": [
+        "Las víboras, que curvan sus colmillos hacia el palacio.",
+        "Boas, cuyos ganchos se pliegan sobre la mandíbula.",
+        "Muchos elápidos como las cobras.",
+        "Pitones, cuyos colmillos inyectan veneno"
+      ],
+      "explanation": "Muchos elápidos, en particular las cobras, tienen colmillos frontales fijos; Otras serpientes venenosas tienen configuraciones diferentes.",
+      "didYouKnow": "Las mambas y las serpientes coralinas también son elápidos.",
+      "imageCaption": "Cobra india, un elápido con ganchos anteriores fijos"
+    },
+    {
+      "id": "reptiles-116",
+      "animal": "Serpientes marinas bandeadas",
+      "prompt": "¿Dónde ponen sus huevos las hembras de la serpiente marina bandeada?",
+      "options": [
+        "En tierra firme, en lugares protegidos",
+        "Bajo el agua, en cavidades de arrecifes.",
+        "En mar abierto, en nidos flotantes de algas",
+        "En madrigueras excavadas en el fondo de los ríos"
+      ],
+      "explanation": "El tejido rayado caza en el mar pero regresa a tierra para poner sus huevos.",
+      "didYouKnow": "Los kraits marinos viven en ambientes marinos y pueden nadar eficientemente gracias a sus colas aplanadas.",
+      "imageCaption": "Punto a rayas (krait marino)"
+    },
+    {
+      "id": "reptiles-117",
+      "animal": "serpientes",
+      "prompt": "¿Qué comportamiento puede ayudar a una serpiente a ahorrar energía después de una comida?",
+      "options": [
+        "Incrementar su actividad para acelerar el tránsito intestinal.",
+        "Calentar sin interrupción al sol, incluso en caso de sobrecalentamiento",
+        "Muda para acelerar la descomposición de la presa.",
+        "Permanecer relativamente quieto durante la digestión."
+      ],
+      "explanation": "Después de ingerir presas, muchas serpientes reducen sus movimientos y dedican su energía a la digestión.",
+      "didYouKnow": "Las serpientes no tienen pabellones auditivos externos.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-118",
+      "animal": "Serpientes que comen huevos",
+      "prompt": "¿Cómo abren y tragan los huevos las serpientes africanas del género Dasypeltis?",
+      "options": [
+        "Los relieves de sus vértebras presionan el huevo en el esófago.",
+        "Lo aplastan con molares",
+        "Lo disuelven con saliva muy ácida en la boca.",
+        "Perforan su caparazón con un anzuelo venenoso"
+      ],
+      "explanation": "Las proyecciones óseas de las vértebras ayudan a romper el caparazón del esófago. Se traga el contenido y se puede regurgitar la cáscara comprimida.",
+      "didYouKnow": "Las serpientes del género Dasypeltis se especializan en comer huevos de aves.",
+      "imageCaption": "Serpiente come huevos (Dasypeltis scabra)"
+    },
+    {
+      "id": "reptiles-119",
+      "animal": "serpientes",
+      "prompt": "¿Cómo suelen pasar el invierno las serpientes de las regiones templadas?",
+      "options": [
+        "Entran en brumación en un refugio y ralentizan su actividad",
+        "Se desarrollan en huevos hasta la primavera.",
+        "Se mantienen activos todo el año regulando su temperatura tiritando.",
+        "Migran sistemáticamente a regiones tropicales."
+      ],
+      "explanation": "La brumación es un período de actividad reducida en los reptiles, que a menudo pasa en un refugio protegido cuando las temperaturas son bajas.",
+      "didYouKnow": "Algunas serpientes se congregan en refugios invernales comunes.",
+      "imageCaption": "Víbora peliada, serpiente de regiones templadas"
+    },
+    {
+      "id": "reptiles-120",
+      "animal": "serpientes",
+      "prompt": "¿Por qué una serpiente podría enrollarse en espiral cuando descansa?",
+      "options": [
+        "La postura endereza a la serpiente para detectar mejor a sus presas.",
+        "Enrollarse reduce la presión de los alimentos en el estómago.",
+        "La postura compacta puede ayudar a conservar el calor y proteger el cuerpo.",
+        "La postura permite desprender la cola en caso de peligro."
+      ],
+      "explanation": "Una postura acurrucada reduce la superficie expuesta y protege parte del cuerpo; su interés depende de las circunstancias.",
+      "didYouKnow": "Las serpientes recolectan moléculas olorosas con sus lenguas bífidas.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-121",
+      "animal": "pitones",
+      "prompt": "¿Cómo pueden algunas pitones hembras calentar sus puestas de huevos?",
+      "options": [
+        "Mediante contracciones musculares repetidas",
+        "Produciendo veneno caliente",
+        "Abanicando los huevos con aletas.",
+        "Transformando su piel en un tejido aislante peludo."
+      ],
+      "explanation": "En algunas especies, las contracciones musculares producen calor durante la crianza. Este sigue siendo un fenómeno particular en animales esencialmente ectotérmicos.",
+      "didYouKnow": "Las pitones hembras pueden envolver sus cuerpos alrededor de los huevos durante la incubación.",
+      "imageCaption": "pitón birmana"
+    },
+    {
+      "id": "reptiles-122",
+      "animal": "reptiles",
+      "prompt": "¿Cuál es la diferencia entre ectotermia e incapacidad para regular la temperatura?",
+      "options": [
+        "Significa que el animal no puede cambiar su temperatura mediante ningún comportamiento.",
+        "Significa que el calor proviene principalmente de fuentes externas, pero el animal puede ajustar su temperatura por su comportamiento.",
+        "Significa que la temperatura corporal siempre se mantiene igual a la del aire.",
+        "Significa que el animal produce suficiente calor metabólico para mantener una temperatura constante."
+      ],
+      "explanation": "Un reptil ectotérmico puede controlar en parte su temperatura a través de su comportamiento, incluso si depende de fuentes externas de calor.",
+      "didYouKnow": "Sin embargo, los reptiles ectotérmicos pueden ajustar su temperatura mediante su comportamiento.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-123",
+      "animal": "reptiles",
+      "prompt": "¿Qué membrana rodea la cavidad que contiene el embrión en el óvulo amniótico?",
+      "options": [
+        "El saco vitelino",
+        "el amnios",
+        "El alantoide",
+        "el corion"
+      ],
+      "explanation": "El amnios es una membrana que envuelve al embrión en un ambiente líquido, característica fundamental de la reproducción de los amniotas.",
+      "didYouKnow": "La fertilización en los reptiles se produce dentro del cuerpo de la hembra.",
+      "imageCaption": "Dragón barbudo, ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-124",
+      "animal": "reptiles",
+      "prompt": "¿Cuál es el propósito del saco vitelino del embrión reptil?",
+      "options": [
+        "Para proteger al embrión del choque mecánico.",
+        "Proporcionar reservas de nutrientes para el desarrollo.",
+        "Para permitir el intercambio de gases con el aire exterior.",
+        "Para eliminar los desechos nitrogenados del embrión."
+      ],
+      "explanation": "El saco vitelino contiene o está asociado a la yema, una reserva de nutrientes utilizada por el embrión durante su desarrollo.",
+      "didYouKnow": "Las cáscaras de huevos de los reptiles permiten el intercambio de gases con el medio ambiente.",
+      "imageCaption": "Dragón barbudo, ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-125",
+      "animal": "reptiles",
+      "prompt": "¿Qué tipo de fertilización utilizan los reptiles?",
+      "options": [
+        "Fertilización de huevos después de la puesta.",
+        "Partenogénesis en todas las especies.",
+        "Fertilización interna",
+        "Fertilización externa en agua."
+      ],
+      "explanation": "Los reptiles tienen fertilización interna; El apareamiento permite que los gametos se encuentren antes de la puesta de huevos o del desarrollo del embrión.",
+      "didYouKnow": "La fertilización interna es común en los reptiles modernos.",
+      "imageCaption": "Dragón barbudo, ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-126",
+      "animal": "huevos de reptil",
+      "prompt": "¿Qué función cumple el alantoides en el huevo amniótico de un reptil?",
+      "options": [
+        "Rodear al embrión con un líquido protector.",
+        "Proporcionar al embrión sus principales reservas de nutrientes.",
+        "Para formar la capa calcárea exterior.",
+        "Almacenar residuos embrionarios y participar en intercambios gaseosos."
+      ],
+      "explanation": "El alantoide almacena desechos embrionarios y participa en el intercambio de gases a través de las membranas del óvulo.",
+      "didYouKnow": "La piel de los reptiles es rica en queratina y limita la pérdida de agua.",
+      "imageCaption": "Dragón barbudo, ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-127",
+      "animal": "Tortugas de caparazón blando",
+      "prompt": "¿Qué estructura de la nariz permite que una tortuga de caparazón blando respire mientras permanece en gran medida enterrada?",
+      "options": [
+        "Un hocico alargado en un tubo pequeño.",
+        "Un pico de gancho curvo",
+        "Un bolsillo inflable debajo de la garganta.",
+        "Una cresta ósea encima de los ojos."
+      ],
+      "explanation": "El hocico tubular puede llegar a la superficie mientras la tortuga permanece oculta en el fondo. Continúa respirando aire con los pulmones.",
+      "didYouKnow": "Las tortugas de caparazón blando tienen un caparazón aplanado y flexible.",
+      "imageCaption": "Tortuga de caparazón blando"
+    },
+    {
+      "id": "reptiles-128",
+      "animal": "reptiles",
+      "prompt": "¿Qué efecto puede tener la humedad en el desarrollo de un huevo de reptil?",
+      "options": [
+        "Sólo él determina el sexo de todos los reptiles.",
+        "Controla el aporte de nutrientes contenidos en la yema.",
+        "Impide que el embrión intercambie gases con el medio ambiente.",
+        "Influye en el intercambio de agua y puede afectar a la supervivencia del embrión."
+      ],
+      "explanation": "Los huevos intercambian agua con su entorno; Una humedad inadecuada puede comprometer el embrión.",
+      "didYouKnow": "La fertilización en reptiles es interna.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-129",
+      "animal": "reptiles",
+      "prompt": "¿Por qué algunas hembras de reptiles conservan sus huevos después de ponerlos?",
+      "options": [
+        "La protección puede reducir el riesgo de depredación o desecación",
+        "La protección permite que los huevos abandonen el nido para alimentarse.",
+        "La presencia del padre asegura una temperatura idéntica para todos los huevos.",
+        "El guardia lleva alimento a los embriones a través del caparazón."
+      ],
+      "explanation": "La vigilancia de los nidos, observada en particular en varios cocodrilos y pitones, puede proteger los huevos contra los depredadores y ciertas condiciones desfavorables.",
+      "didYouKnow": "La piel de los reptiles está cubierta de escamas o placas córneas.",
+      "imageCaption": "Víbora pelíada, ejemplo de reptil que conserva sus embriones"
+    },
+    {
+      "id": "reptiles-130",
+      "animal": "reptiles",
+      "prompt": "¿Qué término se refiere a la reproducción donde las crías nacen vivas después de desarrollarse en el tracto reproductivo materno?",
+      "options": [
+        "Oviparidad",
+        "partenogénesis",
+        "diapausa embrionaria",
+        "Viviparidad"
+      ],
+      "explanation": "La viviparidad se refiere al desarrollo de los embriones en el cuerpo materno hasta el nacimiento; Las formas de nutrición embrionaria varían entre los reptiles.",
+      "didYouKnow": "Los reptiles son ectotérmicos y pueden utilizar el sol para mantenerse calientes.",
+      "imageCaption": "Víbora pelíada, serpiente que da a luz a crías vivas"
+    },
+    {
+      "id": "reptiles-131",
+      "animal": "Cocodrilo de agua salada",
+      "prompt": "¿Qué cocodrilo es particularmente conocido por viajar grandes distancias en el mar?",
+      "options": [
+        "El cocodrilo de agua salada, Crocodylus porosus",
+        "El caimán chino",
+        "Caimán enano de Cuvier",
+        "El gavial del Ganges"
+      ],
+      "explanation": "El cocodrilo de agua salada tolera el agua salada y puede realizar largos viajes costeros o marinos, aprovechando en ocasiones las corrientes.",
+      "didYouKnow": "El cocodrilo de agua salada es la especie de cocodrilo viva más grande.",
+      "imageCaption": "cocodrilo marino"
+    },
+    {
+      "id": "reptiles-132",
+      "animal": "reptiles",
+      "prompt": "¿Cuál es el efecto potencial del calentamiento global en las poblaciones de tortugas dependientes de la temperatura?",
+      "options": [
+        "Puede desequilibrar la proporción de sexos en determinados nidos.",
+        "Hace que las crías no puedan abandonar el nido.",
+        "Previene cualquier fertilización interna en adultos.",
+        "Transforma gradualmente a las hembras adultas en machos."
+      ],
+      "explanation": "Las temperaturas de incubación más altas pueden alterar la proporción de sexos en especies que dependen de la temperatura, con posibles consecuencias para la reproducción.",
+      "didYouKnow": "La piel de reptil incluye una capa exterior rica en queratina.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-133",
+      "animal": "reptiles",
+      "prompt": "¿Cuál es el propósito de la diapausa en algunos embriones de reptiles?",
+      "options": [
+        "Para acelerar el desarrollo hasta la eclosión.",
+        "Para evitar que el embrión consuma su yema",
+        "Suspender temporalmente el desarrollo antes de que se reanude.",
+        "Para aumentar la temperatura corporal de la mujer."
+      ],
+      "explanation": "La diapausa es una detención o desaceleración temporal del desarrollo embrionario, que puede sincronizar el nacimiento con condiciones favorables.",
+      "didYouKnow": "La cloaca es una apertura común a los sistemas digestivo, urinario y reproductivo de los reptiles.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-134",
+      "animal": "cocodrilo americano",
+      "prompt": "¿Qué cocodrilo americano también frecuenta aguas salobres y zonas costeras?",
+      "options": [
+        "El cocodrilo americano",
+        "El caimán americano",
+        "El caimán de anteojos",
+        "Caimán enano de Cuvier"
+      ],
+      "explanation": "El cocodrilo americano utiliza hábitats costeros, estuarinos y salobres en parte de su área de distribución.",
+      "didYouKnow": "El cocodrilo americano puede tolerar el agua salobre y frecuenta las zonas costeras.",
+      "imageCaption": "cocodrilo americano"
+    },
+    {
+      "id": "reptiles-135",
+      "animal": "reptiles",
+      "prompt": "¿Por qué las crías de muchos reptiles pueden valerse por sí mismas rápidamente?",
+      "options": [
+        "Nacen como larvas que se metamorfosean en el agua.",
+        "Se alimentan con leche después de la eclosión.",
+        "Deben permanecer en el nido hasta que puedan volar.",
+        "Nacen en una forma en miniatura ya funcional."
+      ],
+      "explanation": "La mayoría de los reptiles eclosionan como individuos pequeños, parecidos a adultos, sin una metamorfosis larvaria obligatoria.",
+      "didYouKnow": "En muchos reptiles, los recién nacidos no reciben cuidados parentales prolongados.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-136",
+      "animal": "reptiles",
+      "prompt": "¿Qué es la brumación en los reptiles?",
+      "options": [
+        "Un período de desaceleración estacional de la actividad",
+        "Una fase de migración hacia las zonas de desove",
+        "Una parada del desarrollo embrionario antes de la puesta.",
+        "Una muda acelerada que renueva todas las escamas"
+      ],
+      "explanation": "La brumación es un período de actividad reducida en los reptiles, a menudo relacionado con el frío y acompañado de una caída del metabolismo.",
+      "didYouKnow": "Las escamas de los reptiles protegen su piel de la abrasión.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-137",
+      "animal": "reptiles",
+      "prompt": "¿Por qué los reptiles suelen necesitar permanecer activos en temperaturas moderadas?",
+      "options": [
+        "Su digestión y movimientos dependen de su temperatura corporal.",
+        "Sus músculos están inactivos hasta una temperatura única específica.",
+        "Su corazón siempre deja de latir cuando hace frío.",
+        "Sus pulmones sólo funcionan durante la temporada de calor."
+      ],
+      "explanation": "Los procesos fisiológicos de los reptiles, incluida la actividad muscular y la digestión, varían con la temperatura corporal.",
+      "didYouKnow": "La piel escamosa de los reptiles limita la pérdida de agua.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-138",
+      "animal": "reptiles",
+      "prompt": "¿Qué estrategia ayuda a un reptil del desierto a evitar la deshidratación durante el día?",
+      "options": [
+        "Permanezca en un refugio cálido durante las horas frescas y luego expóngase al sol a mitad del día.",
+        "Exponerse al sol al mediodía para acelerar la pérdida de agua por evaporación",
+        "Aumentar la evaporación respiratoria para enfriar la sangre.",
+        "Refugiarse en una madriguera durante las épocas cálidas y mantenerse activo durante las épocas más frías."
+      ],
+      "explanation": "El uso de refugios frescos y actividades crepusculares o nocturnas ayuda a muchos reptiles del desierto a limitar la pérdida de agua y el sobrecalentamiento.",
+      "didYouKnow": "Muchos reptiles del desierto son más activos al amanecer, al anochecer o por la noche.",
+      "imageCaption": "Uromastyx del desierto"
+    },
+    {
+      "id": "reptiles-139",
+      "animal": "reptiles",
+      "prompt": "¿Qué beneficio aporta la piel queratinizada a muchos reptiles terrestres?",
+      "options": [
+        "Aumenta el intercambio de aire a través de la piel.",
+        "Previene cualquier pérdida de agua a través de la respiración.",
+        "Permite la absorción directa del agua por las escamas.",
+        "Limita la pérdida de agua a través de la superficie del cuerpo."
+      ],
+      "explanation": "La capa exterior rica en queratina proporciona una barrera que reduce la deshidratación en el aire.",
+      "didYouKnow": "La piel queratinizada ayuda a proteger a los reptiles terrestres de la abrasión.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-140",
+      "animal": "reptiles",
+      "prompt": "¿Para qué sirven las grandes escamas ventrales en las serpientes?",
+      "options": [
+        "Absorben el calor del suelo más rápidamente que la espalda.",
+        "Se apoyan en el suelo durante la locomoción.",
+        "Protegen el vientre de las picaduras de depredadores.",
+        "Se utilizan para recolectar moléculas olorosas."
+      ],
+      "explanation": "Las grandes escamas ventrales se agarran a las irregularidades del sustrato y contribuyen a la progresión de la serpiente.",
+      "didYouKnow": "Las serpientes no tienen pabellones auditivos externos.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-141",
+      "animal": "reptiles",
+      "prompt": "¿Por qué los reptiles suelen poner sus huevos en un lugar protegido?",
+      "options": [
+        "Para garantizar que los huevos permanezcan sumergidos durante la incubación.",
+        "Para proteger a los embriones de cualquier intercambio gaseoso.",
+        "Limitar la exposición a los depredadores y a las variaciones ambientales.",
+        "Para permitir que la hembra incube los huevos debajo de su cuerpo."
+      ],
+      "explanation": "Elegir un nido protegido puede reducir la depredación y ayudar a mantener condiciones adecuadas de humedad y temperatura.",
+      "didYouKnow": "Algunos reptiles eligen sitios de anidación donde el suelo facilita la incubación de los huevos.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-142",
+      "animal": "Gavial del Ganges",
+      "prompt": "¿Qué significa el ghara del gavial macho adulto?",
+      "options": [
+        "Una aleta al final de la cola.",
+        "Un crecimiento redondeado al final del hocico.",
+        "Una placa ósea en la garganta.",
+        "Un bolsillo expandible debajo del estómago."
+      ],
+      "explanation": "El ghara es un crecimiento redondeado que se lleva al final del hocico de los gaviales machos adultos.",
+      "didYouKnow": "El gavial del gavial macho es un crecimiento ubicado al final de su hocico.",
+      "imageCaption": "Gavial del Ganges"
+    },
+    {
+      "id": "reptiles-143",
+      "animal": "reptiles",
+      "prompt": "¿Qué mecanismo permite que los pulmones de muchos reptiles renueven el aire?",
+      "options": [
+        "Golpes de las extremidades que atraen aire hacia los pulmones.",
+        "Variaciones de presión producidas por la lengua.",
+        "Contracciones de la piel que comprimen los pulmones.",
+        "Movimientos de la caja torácica y los músculos respiratorios."
+      ],
+      "explanation": "Los reptiles generalmente ventilan sus pulmones mediante movimientos de las costillas y músculos asociados, con variaciones entre grupos.",
+      "didYouKnow": "Los escamosos renuevan periódicamente la capa exterior de su piel.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-144",
+      "animal": "reptiles",
+      "prompt": "¿Por qué las tortugas no respiran inflando sus costillas como un lagarto?",
+      "options": [
+        "No tienen diafragma como los mamíferos.",
+        "Tienen branquias internas que cierran los pulmones.",
+        "Su caparazón impide cualquier movimiento de los músculos respiratorios.",
+        "Sus nervaduras están integradas en el caparazón y no se desvían libremente."
+      ],
+      "explanation": "Las costillas de las tortugas están fusionadas al caparazón, por lo que utilizan músculos especializados para ventilar sus pulmones.",
+      "didYouKnow": "Las tortugas actuales no tienen dientes y tienen un pico córneo.",
+      "imageCaption": "La tortuga de Hermann."
+    },
+    {
+      "id": "reptiles-145",
+      "animal": "reptiles",
+      "prompt": "¿Qué efecto tiene el buceo en el movimiento de algunas tortugas acuáticas?",
+      "options": [
+        "La sangre deja de circular durante el buceo.",
+        "Los pulmones se llenan de agua para intercambiar gases.",
+        "La frecuencia cardíaca puede disminuir para conservar oxígeno.",
+        "El corazón se acelera para consumir más rápidamente el oxígeno almacenado"
+      ],
+      "explanation": "Al igual que otros vertebrados buceadores, las tortugas acuáticas pueden disminuir su ritmo cardíaco y redistribuir el oxígeno durante una inmersión.",
+      "didYouKnow": "El caparazón de las tortugas incluye elementos óseos integrados en el esqueleto.",
+      "imageCaption": "Tortuga deslizante de Florida, tortuga acuática"
+    },
+    {
+      "id": "reptiles-146",
+      "animal": "reptiles",
+      "prompt": "¿Qué papel juegan las fosas nasales en los cocodrilos flotantes?",
+      "options": [
+        "Filtran la sal del agua absorbida.",
+        "Mantienen los ojos abiertos durante una inmersión.",
+        "Detectan los movimientos de presas en el agua",
+        "Les permiten respirar mientras permanecen casi totalmente sumergidos"
+      ],
+      "explanation": "Las fosas nasales en la parte superior del hocico permanecen por encima del agua cuando el cocodrilo flota, lo que le permite respirar discretamente.",
+      "didYouKnow": "Las fosas nasales situadas en la parte superior del hocico permiten a los cocodrilos respirar mientras flotan bajo.",
+      "imageCaption": "cocodrilo del nilo"
+    },
+    {
+      "id": "reptiles-147",
+      "animal": "cocodrilos",
+      "prompt": "¿Qué son los osteodermos cocodrilos?",
+      "options": [
+        "Huesos incrustados en la piel, debajo de las escamas.",
+        "Placas de queratina desmontables con cada muda.",
+        "Dientes de repuesto alojados en el paladar.",
+        "Órganos de los sentidos ubicados alrededor de las fosas nasales."
+      ],
+      "explanation": "Los osteodermos son elementos óseos integrados en la dermis y presentes bajo las escamas de muchos cocodrilos.",
+      "didYouKnow": "Los cocodrilos tienen corazones de cuatro cámaras, como los pájaros.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-148",
+      "animal": "Lagarto volador Draco",
+      "prompt": "¿Qué estructura permite al lagarto volador Draco deslizarse entre los árboles?",
+      "options": [
+        "Una cola aplanada que actúa como un ala.",
+        "Una membrana sostenida por dedos muy largos.",
+        "Una membrana de piel sostenida por costillas alargadas.",
+        "Plumas ubicadas a los lados."
+      ],
+      "explanation": "El género Draco despliega un patagium, una membrana de piel sostenida por costillas alargadas, para deslizarse de un árbol a otro.",
+      "didYouKnow": "Los lagartos del género Draco viven en los bosques tropicales del sur y sudeste de Asia.",
+      "imageCaption": "Lagarto volador Draco"
+    },
+    {
+      "id": "reptiles-149",
+      "animal": "reptiles",
+      "prompt": "¿Qué papel podría desempeñar la coloración de advertencia en algunos reptiles?",
+      "options": [
+        "Atraer presas imitando su comida.",
+        "Indicar la temperatura corporal a sus congéneres.",
+        "Camuflar al animal en ambientes oscuros.",
+        "Informar defensa o toxicidad a los depredadores."
+      ],
+      "explanation": "Los colores brillantes o contrastantes pueden servir como señal de alerta, aunque su función depende de la especie y el contexto.",
+      "didYouKnow": "En algunas especies de reptiles se observan colores brillantes de advertencia.",
+      "imageCaption": "Monstruo de Gila, ejemplo de coloración de advertencia"
+    },
+    {
+      "id": "reptiles-150",
+      "animal": "reptiles",
+      "prompt": "¿Por qué los patrones de camuflaje de los reptiles suelen ser irregulares?",
+      "options": [
+        "Hacen que el animal sea invisible en todos los hábitats.",
+        "Pueden romper el contorno corporal en un entorno complejo.",
+        "Reflejan la luz para advertir a los depredadores",
+        "Producen patrones que atraen socios a distancia."
+      ],
+      "explanation": "Los patrones irregulares pueden alterar la percepción del contorno de un animal y hacerlo más difícil de detectar en su hábitat.",
+      "didYouKnow": "Los reptiles terrestres tienen una piel escamosa rica en queratina.",
+      "imageCaption": "Lagarto cornudo de Texas"
+    },
+    {
+      "id": "reptiles-151",
+      "animal": "reptiles",
+      "prompt": "¿Cuál es una amenaza importante para los reptiles que viven en los humedales?",
+      "options": [
+        "Drenaje y destrucción de su hábitat.",
+        "Aumento de la cobertura vegetal alrededor de los estanques",
+        "La formación de nuevos meandros en los cursos de agua",
+        "La caída estacional de los niveles de los estanques"
+      ],
+      "explanation": "El drenaje, la contaminación y la fragmentación de los humedales eliminan los lugares de alimentación, anidación y refugio de muchos reptiles.",
+      "didYouKnow": "La desaparición de los humedales afecta especialmente a los cocodrilos y a las tortugas de agua dulce.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-152",
+      "animal": "reptiles",
+      "prompt": "¿Cómo afecta la fragmentación del hábitat a las poblaciones de reptiles?",
+      "options": [
+        "Crea sitios de anidación sin fragmentar territorios.",
+        "Reúne poblaciones y siempre aumenta los intercambios genéticos.",
+        "Sólo afecta a especies que viven en árboles.",
+        "Aísla poblaciones y reduce el movimiento entre hábitats."
+      ],
+      "explanation": "Las carreteras y las áreas urbanizadas pueden separar poblaciones, limitar el acceso a los sitios de reproducción y reducir el intercambio genético.",
+      "didYouKnow": "Los lagartos isleños pueden ser endémicos en un área geográfica restringida.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-153",
+      "animal": "tortugas marinas",
+      "prompt": "¿Por qué la captura incidental en artes de pesca amenaza a las tortugas marinas?",
+      "options": [
+        "Impiden que tortugas regresen a su playa natal",
+        "Pueden eliminar la sal del agua de mar.",
+        "Pueden provocar lesiones o ahogamiento.",
+        "Degradan la cáscara del huevo antes de la puesta"
+      ],
+      "explanation": "Las tortugas atrapadas accidentalmente en redes o anzuelos pueden resultar heridas o ahogarse si no pueden levantarse para respirar.",
+      "didYouKnow": "La tortuga laúd se alimenta principalmente de medusas y otros organismos gelatinosos.",
+      "imageCaption": "Tortuga verde, ejemplo de tortuga marina"
+    },
+    {
+      "id": "reptiles-154",
+      "animal": "tortugas marinas",
+      "prompt": "¿Qué riesgo suponen los residuos plásticos para las tortugas marinas?",
+      "options": [
+        "Proporcionan materiales para anidación de tortugas adultas",
+        "Reducen el riesgo de lesiones provocadas por las redes",
+        "Pueden ser ingeridos o provocar enredos.",
+        "Aumentan la cantidad de medusas a disposición de las tortugas"
+      ],
+      "explanation": "Las tortugas pueden tragar basura que confunden con presas o enredarse en líneas y redes desechadas.",
+      "didYouKnow": "Las tortugas marinas eliminan el exceso de sal a través de glándulas especializadas cerca de sus ojos.",
+      "imageCaption": "Tortuga verde, ejemplo de tortuga marina"
+    },
+    {
+      "id": "reptiles-155",
+      "animal": "tortugas terrestres",
+      "prompt": "¿Por qué el comercio ilegal de tortugas puede reducir rápidamente algunas poblaciones?",
+      "options": [
+        "Las tortugas adultas sólo pueden reproducirse una vez",
+        "Las tortugas sólo ponen un huevo al final de su vida",
+        "Los investigadores no pueden rastrear las poblaciones de tortugas",
+        "Las tortugas suelen crecer lentamente y madurar tarde."
+      ],
+      "explanation": "El crecimiento lento, la madurez tardía y, en ocasiones, la escasa supervivencia juvenil hacen que muchas tortugas sean vulnerables a la sobreexplotación.",
+      "didYouKnow": "El caparazón de las tortugas está integrado en su esqueleto.",
+      "imageCaption": "La tortuga de Hermann, ejemplo de tortuga terrestre"
+    },
+    {
+      "id": "reptiles-156",
+      "animal": "reptiles",
+      "prompt": "¿Qué efecto puede tener una carretera sobre las serpientes y los lagartos?",
+      "options": [
+        "Puede reprimir a sus presas sólo durante la noche.",
+        "Sólo molesta a los reptiles arbóreos.",
+        "Puede provocar mortalidad directa y fragmentar su hábitat.",
+        "Puede hacer que la piel de serpiente sea más permeable."
+      ],
+      "explanation": "Los reptiles que cruzan una carretera corren el riesgo de ser atropellados, y la infraestructura puede separar hábitats y limitar el movimiento.",
+      "didYouKnow": "Las serpientes detectan moléculas olorosas con sus lenguas bífidas.",
+      "imageCaption": "Dragón barbudo, un ejemplo de reptil."
+    },
+    {
+      "id": "reptiles-157",
+      "animal": "reptiles",
+      "prompt": "¿Por qué las especies exóticas invasoras podrían amenazar a los reptiles insulares?",
+      "options": [
+        "Siempre mejoran la diversidad genética de las poblaciones locales.",
+        "No pueden comer huevos de reptil.",
+        "Pueden convertirse en nuevos depredadores o competidores.",
+        "No pueden sobrevivir en las islas."
+      ],
+      "explanation": "Los mamíferos introducidos pueden depredar huevos y reptiles jóvenes o competir con especies locales por los recursos.",
+      "didYouKnow": "Los reptiles tienen una piel escamosa rica en queratina.",
+      "imageCaption": "Iguana marina de Galápagos, reptil insular"
+    },
+    {
+      "id": "reptiles-158",
+      "animal": "cocodrilos",
+      "prompt": "¿Qué presión histórica ha reducido drásticamente algunas poblaciones de cocodrilos?",
+      "options": [
+        "Caza por sus pieles y pérdida de hábitat.",
+        "Depredación por aves adultas",
+        "Competencia natural entre individuos de la misma especie.",
+        "Disminución estacional de presas en los ríos"
+      ],
+      "explanation": "La caza comercial y la transformación de los humedales han provocado fuertes disminuciones en varias especies de cocodrilos.",
+      "didYouKnow": "Los cocodrilos construyen nidos vegetales o cavan nidos según la especie.",
+      "imageCaption": "cocodrilo del nilo"
+    },
+    {
+      "id": "reptiles-159",
+      "animal": "Diablo espinoso (Moloch)",
+      "prompt": "¿Cómo conduce el diablo espinoso hacia su boca el agua recogida en la piel?",
+      "options": [
+        "Unos surcos finos entre las escamas guían el agua",
+        "Por glándulas que bombean agua desde sus piernas.",
+        "A través de un bolsillo ubicado en su cola",
+        "Por pelos huecos que succionan agua hasta el hocico."
+      ],
+      "explanation": "Los surcos entre las escamas del Moloch pueden transportar agua desde su piel hasta su boca por acción capilar.",
+      "didYouKnow": "El diablo cornudo puede camuflarse permaneciendo inmóvil en su árido hábitat.",
+      "imageCaption": "Diablo cornudo (Moloch horridus)"
+    },
+    {
+      "id": "reptiles-160",
+      "animal": "reptiles",
+      "prompt": "¿Por qué es esencial preservar los sitios de anidación de las tortugas?",
+      "options": [
+        "Los huevos sólo pueden eclosionar si la madre se queda en la playa",
+        "Los huevos dependen de las condiciones locales del suelo, la humedad y la temperatura.",
+        "Los sitios de puesta de huevos determinan la dieta de los adultos",
+        "Los adultos sólo pueden poner huevos cerca de un bosque."
+      ],
+      "explanation": "El éxito de la incubación depende de las características del sitio, mientras que la destrucción de playas o bancos puede impedir el acceso a los nidos.",
+      "didYouKnow": "Las tortugas marinas respiran con pulmones y deben salir a la superficie.",
+      "imageCaption": "Tortuga verde, tortuga marina"
+    },
+    {
+      "id": "reptiles-161",
+      "animal": "Lagarto de gorguera",
+      "prompt": "¿Qué hace el lagarto con volantes cuando extiende su gran pliegue de piel?",
+      "options": [
+        "Abre un collar alrededor de la cabeza para parecer más imponente.",
+        "Despliega una membrana entre sus piernas para deslizarse.",
+        "Se infla un bolsillo debajo de la garganta para almacenar aire.",
+        "Se endereza una hilera de espinas en la cola."
+      ],
+      "explanation": "El lagarto con volantes abre la piel arrugada alrededor de su cuello cuando se muestra o amenaza, lo que agranda visualmente su silueta.",
+      "didYouKnow": "El lagarto con volantes es originario del norte de Australia y del sur de Nueva Guinea.",
+      "imageCaption": "Lagarto con volantes"
+    },
+    {
+      "id": "reptiles-162",
+      "animal": "reptiles",
+      "prompt": "¿Por qué puede resultar problemático recolectar reptiles salvajes como mascotas?",
+      "options": [
+        "Sólo afecta a las especies criadas en cautividad.",
+        "Puede agotar las poblaciones naturales y alterar su estructura.",
+        "Siempre mejora la diversidad genética de las poblaciones silvestres.",
+        "Hace que los individuos recolectados estén más adaptados a los entornos naturales."
+      ],
+      "explanation": "Las capturas insostenibles pueden eliminar demasiados individuos, en particular adultos reproductores o especies con áreas de distribución restringidas.",
+      "didYouKnow": "Los reptiles se reproducen por fertilización interna.",
+      "imageCaption": "La tortuga de Hermann, ejemplo de reptil recolectado para el comercio"
+    },
+    {
+      "id": "reptiles-163",
+      "animal": "Eslizón de lengua azul",
+      "prompt": "¿Qué señal visual puede mostrarle el eslizón de lengua azul a un depredador?",
+      "options": [
+        "Una lengua azul brillante",
+        "Un collar rojo desplegado alrededor del cuello.",
+        "Un par de grandes manchas oculares en las alas.",
+        "Una papada amarilla debajo de la garganta."
+      ],
+      "explanation": "El eslizón de lengua azul puede abrir la boca y exponer su lengua viva en una postura defensiva.",
+      "didYouKnow": "El eslizón de lengua azul es omnívoro y consume plantas y animales pequeños.",
+      "imageCaption": "Eslizón de lengua azul"
+    },
+    {
+      "id": "reptiles-164",
+      "animal": "reptiles",
+      "prompt": "¿Cómo ayudan a veces las tortugas en la dispersión de semillas?",
+      "options": [
+        "Pueden comer frutos y luego depositar las semillas en sus excrementos.",
+        "Llevan las semillas adheridas a su cáscara sin tragarlas",
+        "Entierran todas las semillas en sus nidos.",
+        "Polinizan los frutos antes de consumirlos."
+      ],
+      "explanation": "Las tortugas que comen frutas pueden tragar semillas y transportarlas antes de excretarlas en otra parte.",
+      "didYouKnow": "El caparazón de las tortugas incluye elementos óseos soldados al esqueleto.",
+      "imageCaption": "Tortuga gigante de Galápagos, ejemplo de tortuga dispersadora de semillas"
+    },
+    {
+      "id": "reptiles-165",
+      "animal": "reptiles",
+      "prompt": "¿Qué servicio ecológico brindan algunas serpientes en paisajes agrícolas?",
+      "options": [
+        "Pueden limitar las poblaciones de roedores",
+        "Fertilizan directamente el suelo al digerir las raíces.",
+        "Polinizan cultivos de cereales.",
+        "Eliminan todas las especies de plagas sin efectos secundarios."
+      ],
+      "explanation": "Las serpientes que se alimentan de roedores pueden ayudar a regular sus poblaciones, aunque su impacto depende de la especie y el entorno.",
+      "didYouKnow": "Las serpientes no tienen párpados móviles; una escama transparente protege sus ojos.",
+      "imageCaption": "Serpiente de maíz, ejemplo de serpiente"
+    },
+    {
+      "id": "reptiles-166",
+      "animal": "Eslizón de arena (Scincus)",
+      "prompt": "¿Cómo se mueven los eslizones de arena a través de la arena suelta?",
+      "options": [
+        "Se esconde bajo la arena y avanza ondulando su cuerpo, como si nadara en el sustrato.",
+        "Excava empujando la arena hacia atrás con sus extremidades.",
+        "Avanza bajo la arena, ondulando su cuerpo, como si nadara en el sustrato.",
+        "Cava una galería alternando movimientos de sus patas delanteras."
+      ],
+      "explanation": "El eslizón de arena puede excavar y progresar bajo la arena suelta mediante movimientos corporales ondulatorios.",
+      "didYouKnow": "El eslizón de arena vive en regiones áridas del norte de África y Oriente Medio.",
+      "imageCaption": "Eslizón de arena"
+    },
+    {
+      "id": "reptiles-167",
+      "animal": "Tortuga nariz de cerdo",
+      "prompt": "¿Qué tortuga de agua dulce tiene un hocico carnoso parecido al de un cerdo?",
+      "options": [
+        "Carettochelys insculpta",
+        "La tortuga de Hermann.",
+        "La tortuga laúd",
+        "La tortuga carey"
+      ],
+      "explanation": "La tortuga nariz de cerdo vive en aguas dulces del norte de Australia y del sur de Nueva Guinea. Sus fosas nasales están en la punta de su característico hocico.",
+      "didYouKnow": "La tortuga nariz de cerdo tiene extremidades anteriores en forma de paleta.",
+      "imageCaption": "Tortuga nariz de cerdo"
+    },
+    {
+      "id": "reptiles-168",
+      "animal": "reptiles",
+      "prompt": "¿Qué relación evolutiva existe entre los cocodrilos y las aves?",
+      "options": [
+        "Las aves descienden de los cocodrilos actuales",
+        "Ambos pertenecen a arcosaurios.",
+        "Las aves y los cocodrilos no tienen un ancestro común",
+        "Los cocodrilos pertenecen a escamados como las serpientes."
+      ],
+      "explanation": "Los cocodrilos y las aves son los dos principales linajes actuales de arcosaurios y comparten un antiguo ancestro común.",
+      "didYouKnow": "Los cocodrilos construyen nidos y, a veces, protegen a las crías que los rodean cuando nacen.",
+      "imageCaption": "Cocodrilo del Nilo, representante de los cocodrilos."
+    },
+    {
+      "id": "reptiles-169",
+      "animal": "Monstruo de Gila",
+      "prompt": "¿Dónde almacena el Monstruo de Gila algunas de sus reservas de energía?",
+      "options": [
+        "En un bolsillo debajo de la garganta",
+        "en las extremidades anteriores",
+        "Bajo las escamas de su espalda",
+        "En su cola gruesa"
+      ],
+      "explanation": "El monstruo de Gila almacena grasa en la cola, lo que le ayuda a superar periodos de escasez de alimento.",
+      "didYouKnow": "El monstruo de Gila es uno de los pocos lagartos venenosos.",
+      "imageCaption": "monstruo de gila"
+    },
+    {
+      "id": "reptiles-170",
+      "animal": "reptiles",
+      "prompt": "¿Qué grupo actual incluye serpientes y lagartos?",
+      "options": [
+        "Los Testudines",
+        "Los Rhynchocephali",
+        "Los cocodrilos",
+        "Los escamados"
+      ],
+      "explanation": "Los escamosos incluyen serpientes, lagartos y anfisbenos.",
+      "didYouKnow": "Las serpientes recolectan moléculas olorosas con sus lenguas bífidas.",
+      "imageCaption": "Anole verde, un escamoso"
+    },
+    {
+      "id": "reptiles-171",
+      "animal": "caimán negro",
+      "prompt": "¿En qué gran región se encuentra naturalmente el caimán negro?",
+      "options": [
+        "La cuenca del Amazonas",
+        "La cuenca del Nilo",
+        "Sólo pantanos de Florida",
+        "Los ríos del norte de Australia"
+      ],
+      "explanation": "El caimán negro, Melanosuchus niger, es un gran cocodrilo originario de América del Sur asociado en particular a los ambientes acuáticos amazónicos.",
+      "didYouKnow": "El caimán negro es el caimán vivo más grande.",
+      "imageCaption": "caimán negro"
+    },
+    {
+      "id": "reptiles-172",
+      "animal": "reptiles",
+      "prompt": "¿Qué grupo de reptiles incluye a las tortugas?",
+      "options": [
+        "Los Rhynchocephali",
+        "Los cocodrilos",
+        "Los Testudines",
+        "Los escamados"
+      ],
+      "explanation": "Los Testudines son el orden que reúne a las tortugas terrestres, de agua dulce y marinas.",
+      "didYouKnow": "Las tortugas existentes incluyen especies marinas, de agua dulce y terrestres.",
+      "imageCaption": "La tortuga de Hermann, ejemplo de tortuga"
+    },
+    {
+      "id": "reptiles-173",
+      "animal": "reptiles",
+      "prompt": "¿Qué rasgo dental suele faltar en las tortugas modernas?",
+      "options": [
+        "Coanas que conectan las fosas nasales con la boca.",
+        "Un lenguaje móvil",
+        "mandíbulas óseas",
+        "Dientes; tienen el pico queratinizado"
+      ],
+      "explanation": "Las tortugas actuales no tienen dientes; sus mandíbulas están cubiertas por un pico córneo que corta o muele los alimentos.",
+      "didYouKnow": "Las tortugas marinas usan aletas para nadar en el mar.",
+      "imageCaption": "La tortuga de Hermann."
+    },
+    {
+      "id": "reptiles-174",
+      "animal": "Tortugas",
+      "prompt": "¿A qué parte de la tortuga se refiere el término «espaldar»?",
+      "options": [
+        "A la parte ventral del caparazón",
+        "Al borde lateral de las placas",
+        "A la parte dorsal del caparazón",
+        "A la base ósea del pico"
+      ],
+      "explanation": "El espaldar es la parte dorsal del caparazón de una tortuga; el plastrón forma la parte ventral.",
+      "didYouKnow": "En las tortugas, el plastrón forma la parte ventral del caparazón.",
+      "imageCaption": "La tortuga de Hermann."
+    },
+    {
+      "id": "reptiles-175",
+      "animal": "Tortugas",
+      "prompt": "¿Cómo se impulsan principalmente las tortugas marinas?",
+      "options": [
+        "Al alternar movimientos de sus patas traseras.",
+        "Por un movimiento lateral de su cola.",
+        "Golpeando sus aletas delanteras",
+        "Ondulando todo su cuerpo como una serpiente."
+      ],
+      "explanation": "Las aletas delanteras proporcionan la mayor parte de la propulsión; los cuartos traseros ayudan a dirigir y estabilizar al animal.",
+      "didYouKnow": "Las tortugas marinas eliminan el exceso de sal a través de glándulas especializadas cerca de sus ojos.",
+      "imageCaption": "tortuga verde"
+    },
+    {
+      "id": "reptiles-176",
+      "animal": "tortugas marinas",
+      "prompt": "¿Qué acción es fundamental para una tortuga marina hembra después del desove?",
+      "options": [
+        "Mueva los huevos a un área más cálida con cada marea.",
+        "Cubra los huevos y luego quédese en el nido hasta que eclosionen.",
+        "Llevar los huevos bajo su cáscara hasta que eclosionen.",
+        "Regreso al mar dejando que los huevos se incuben en la arena."
+      ],
+      "explanation": "Después de poner huevos, la hembra suele cubrir el nido y marcharse; Los embriones se desarrollan sin cuidados directos hasta la eclosión.",
+      "didYouKnow": "Las tortugas marinas utilizan señales magnéticas y visuales para orientarse.",
+      "imageCaption": "Tortuga verde, ejemplo de tortuga marina"
+    },
+    {
+      "id": "reptiles-177",
+      "animal": "tortugas marinas",
+      "prompt": "¿Qué hacen las crías cuando emergen de un nido en la playa?",
+      "options": [
+        "Siguen a los adultos hasta una zona de alimentación.",
+        "Generalmente se dirigen hacia el mar.",
+        "Se esconden en la playa hasta la siguiente temporada.",
+        "Esperan a que la hembra los lleve en la boca."
+      ],
+      "explanation": "Las crías a menudo emergen juntas y se dirigen hacia el océano utilizando señales luminosas y visuales del horizonte.",
+      "didYouKnow": "Las tortugas marinas tienen glándulas cerca de los ojos que eliminan el exceso de sal.",
+      "imageCaption": "Tortuga verde, ejemplo de tortuga marina"
+    },
+    {
+      "id": "reptiles-178",
+      "animal": "tortugas marinas",
+      "prompt": "¿Qué hábitat suelen utilizar las tortugas marinas verdes adultas para alimentarse?",
+      "options": [
+        "Pastos de playa terrestres",
+        "Esponjas de arrecife y corales blandos",
+        "Praderas marinas y zonas ricas en algas",
+        "Medusas de aguas profundas"
+      ],
+      "explanation": "Muchas tortugas verdes adultas pastan en pastos marinos o algas en aguas costeras poco profundas.",
+      "didYouKnow": "La tortuga marina verde es la más grande de las tortugas marinas de caparazón duro.",
+      "imageCaption": "tortuga verde"
+    },
+    {
+      "id": "reptiles-179",
+      "animal": "Tortugas",
+      "prompt": "¿Qué rasgo suele distinguir a una tortuga acuática de una terrestre?",
+      "options": [
+        "Branquias funcionales en adultos.",
+        "Pies palmeados o aletas adecuadas para nadar.",
+        "Una concha más plana en todas las especies acuáticas.",
+        "Una coraza siempre reducida a un solo plato"
+      ],
+      "explanation": "Las tortugas acuáticas suelen tener patas o aletas palmeadas, mientras que las tortugas terrestres tienen extremidades resistentes para caminar.",
+      "didYouKnow": "Las tortugas actuales no tienen dientes y tienen el pico queratinizado.",
+      "imageCaption": "Tortuga deslizadora de Florida, ejemplo de tortuga acuática"
+    },
+    {
+      "id": "reptiles-180",
+      "animal": "Tortugas",
+      "prompt": "¿Qué información puede proporcionar la forma del caparazón de una tortuga?",
+      "options": [
+        "Puede vincularse al hábitat y estilo de vida de la especie.",
+        "Permite determinar la temperatura del nido original.",
+        "Revela sexo sin variación entre especies",
+        "Siempre indica la edad exacta en años."
+      ],
+      "explanation": "La forma del caparazón puede reflejar adaptaciones ecológicas, por ejemplo, la forma hidrodinámica en especies acuáticas.",
+      "didYouKnow": "Las tortugas actuales no tienen dientes y tienen el pico queratinizado.",
+      "imageCaption": "La tortuga de Hermann, ejemplo de tortuga"
+    },
+    {
+      "id": "reptiles-181",
+      "animal": "Tortuga gopher de Florida",
+      "prompt": "¿Qué refugio excava la tortuga tuza en suelos arenosos?",
+      "options": [
+        "Una madriguera profunda que también puede servir de refugio a otros animales.",
+        "Una cavidad submarina en el barro.",
+        "Un nido colgado en las ramas.",
+        "Una galería destinada únicamente a guardar láminas."
+      ],
+      "explanation": "La tortuga tuza cava grandes madrigueras en el suelo; estos refugios también sirven a otras especies.",
+      "didYouKnow": "La tortuga tuza se alimenta de plantas, incluidas hojas, flores y frutos.",
+      "imageCaption": "tortuga de tierra"
+    },
+    {
+      "id": "reptiles-182",
+      "animal": "reptiles",
+      "prompt": "¿Por qué el ADN ambiental puede ayudar a detectar reptiles acuáticos?",
+      "options": [
+        "Los reptiles producen una señal luminosa detectable en el agua",
+        "Los rastros de ADN dejados en el agua pueden revelar su presencia",
+        "El ADN disuelto permite calcular la edad media de los individuos",
+        "El método permite observar los movimientos de cada individuo."
+      ],
+      "explanation": "Los animales dejan células y fragmentos de ADN en su entorno; su detección puede indicar la presencia de una especie en una masa de agua.",
+      "didYouKnow": "Las tortugas acuáticas deben salir a la superficie para respirar aire.",
+      "imageCaption": "Tortuga deslizante de Florida, reptil acuático"
+    },
+    {
+      "id": "reptiles-183",
+      "animal": "Geco volador",
+      "prompt": "¿Qué adaptación permite a algunos geckos voladores deslizarse de un tronco a otro?",
+      "options": [
+        "Los pliegues cutáneos laterales y las membranas entre las extremidades aumentan la superficie de apoyo.",
+        "Las costillas alargadas despliegan un patagio a cada lado del tronco.",
+        "Una membrana estirada entre las extremidades traseras y la cola sirve como paracaídas.",
+        "Escamas rígidas se extienden a lo largo de la espalda y forman alas."
+      ],
+      "explanation": "Algunos geckos voladores despliegan pliegues de piel a los lados y entre las extremidades para frenar y controlar su caída.",
+      "didYouKnow": "El gecko volador de Kuhl es originario del sudeste asiático.",
+      "imageCaption": "El gecko volador de Kuhl"
+    },
+    {
+      "id": "reptiles-184",
+      "animal": "reptiles",
+      "prompt": "¿Qué tan peligroso puede ser el fuego en los hábitats de los reptiles?",
+      "options": [
+        "Sólo afecta a huevos y nunca a adultos.",
+        "Puede matar directamente a personas con poca movilidad y destruir refugios.",
+        "Siempre mejora la germinación de las plantas de las que se alimentan los reptiles.",
+        "Hace desaparecer a los depredadores en lugar de los hábitats."
+      ],
+      "explanation": "Los incendios intensos o demasiado frecuentes pueden destruir la cubierta vegetal, los refugios y los lugares de anidación, y matar a los animales que no pueden escapar.",
+      "didYouKnow": "Los reptiles tienen la piel escamosa lo que limita la pérdida de agua.",
+      "imageCaption": "La tortuga de Hermann, ejemplo de reptil terrestre"
+    },
+    {
+      "id": "reptiles-185",
+      "animal": "tortuga laúd",
+      "prompt": "¿Qué adaptación ayuda a la tortuga laúd a limitar la pérdida de calor a través de sus aletas?",
+      "options": [
+        "Intercambio de calor a contracorriente entre vasos sanguíneos.",
+        "Plumas aislantes debajo de las escamas.",
+        "Un cierre permanente de toda circulación en las aletas.",
+        "Glándulas que secretan agua caliente."
+      ],
+      "explanation": "Los vasos que transportan sangre en direcciones opuestas ayudan a transferir calor antes de que se pierda en agua. Su gran tamaño también contribuye a su retención del calor.",
+      "didYouKnow": "La tortuga laúd se alimenta principalmente de medusas y otros organismos gelatinosos.",
+      "imageCaption": "tortuga laúd"
+    },
+    {
+      "id": "reptiles-186",
+      "animal": "reptiles",
+      "prompt": "¿Qué medida reduce el impacto de las redes abandonadas en los reptiles acuáticos?",
+      "options": [
+        "Ilumina el equipo solo durante la marea.",
+        "Aumentar el tamaño de malla de las redes en las zonas de desove.",
+        "Mueva las redes a las camas de alimentación.",
+        "Eliminar los equipos fantasma y limitar su pérdida en el mar"
+      ],
+      "explanation": "Los aparejos de pesca perdidos o abandonados pueden seguir capturando animales; su recuperación y una mejor gestión reducen este riesgo.",
+      "didYouKnow": "Los reptiles acuáticos como las tortugas deben salir a la superficie para respirar.",
+      "imageCaption": "Tortuga verde, ejemplo de reptil acuático amenazado por redes abandonadas"
+    },
+    {
+      "id": "reptiles-187",
+      "animal": "reptiles",
+      "prompt": "¿Por qué una especie de reptil en peligro de extinción puede beneficiarse de la cría para conservación?",
+      "options": [
+        "Permite liberar individuos sin evaluar su adaptación",
+        "Garantiza el mantenimiento de la diversidad genética sin gestión",
+        "Puede sustentar a la población, siempre que esté vinculado a un plan científico de conservación.",
+        "Sustituye de forma sostenible la protección de los hábitats naturales."
+      ],
+      "explanation": "La cría para la conservación puede contribuir a los objetivos de conservación, pero debe estar bien gestionada y acompañada de protección del hábitat y seguimiento genético.",
+      "didYouKnow": "Los reptiles son ectotérmicos y dependen en gran medida de la temperatura del ambiente.",
+      "imageCaption": "Tuátara, especie protegida sujeta a programas de conservación"
+    },
+    {
+      "id": "reptiles-188",
+      "animal": "tortuga del desierto",
+      "prompt": "¿Dónde puede la tortuga del desierto almacenar agua?",
+      "options": [
+        "En su vejiga urinaria",
+        "En bolsas debajo del caparazón",
+        "En las cavidades de los huesos de sus piernas.",
+        "En un bolsillo de piel detrás de la cabeza."
+      ],
+      "explanation": "La tortuga del desierto puede almacenar agua en su vejiga y reabsorberla cuando las condiciones son secas.",
+      "didYouKnow": "La tortuga del desierto es originaria del suroeste de América del Norte.",
+      "imageCaption": "tortuga del desierto"
+    },
+    {
+      "id": "reptiles-189",
+      "animal": "Serpiente de cascabel sidewinder",
+      "prompt": "¿Qué modo de movimiento ayuda al avance del sidewinder sobre la arena?",
+      "options": [
+        "locomoción de acordeón",
+        "Ondulación lateral al apoyarse en rocas.",
+        "Locomoción lateral levantando sucesivos bucles del cuerpo.",
+        "Progresión por golpes de aleta"
+      ],
+      "explanation": "El sidewinder avanza mediante locomoción lateral: varios bucles del cuerpo tocan la arena mientras el resto avanza.",
+      "didYouKnow": "Las serpientes de cascabel cornudas tienen hoyuelos sensibles al calor entre los ojos y las fosas nasales.",
+      "imageCaption": "Serpiente de cascabel cornuda (sidewinder)"
+    },
+    {
+      "id": "reptiles-190",
+      "animal": "Chuckwalla",
+      "prompt": "¿Cómo puede el chuckwalla protegerse en una grieta de roca?",
+      "options": [
+        "Se aplana y cambia de color para mezclarse con la piedra.",
+        "Infla el cuerpo para quedar encajado en la grieta",
+        "Él rocía sangre de sus ojos.",
+        "Se despliega un collar alrededor del cuello."
+      ],
+      "explanation": "El chuckwalla puede refugiarse en una grieta e inflar el cuerpo para que resulte más difícil sacarlo.",
+      "didYouKnow": "El chuckwalla se alimenta principalmente de hojas, flores y otras plantas.",
+      "imageCaption": "Chuckwalla"
+    },
+    {
+      "id": "reptiles-191",
+      "animal": "tortuga mata mata",
+      "prompt": "¿Cómo suele pescar un pez la tortuga mata mata?",
+      "options": [
+        "Abre rápidamente la boca y aumenta el volumen de la cavidad bucal, succionando el pescado junto con el agua.",
+        "Proyecta una lengua pegajosa que se adhiere al pescado y luego lo devuelve a su boca.",
+        "Utiliza la punta de su lengua para atraer al pez y luego lo atrapa con sus mandíbulas.",
+        "Empuja al pez hacia la garganta con una corriente creada por los movimientos de las aletas."
+      ],
+      "explanation": "La mata mata puede abrir repentinamente su gran boca y succionar presas acuáticas cercanas.",
+      "didYouKnow": "La tortuga mata mata es originaria de las cuencas del Amazonas y del Orinoco.",
+      "imageCaption": "tortuga mata mata"
+    },
+    {
+      "id": "reptiles-192",
+      "animal": "tortuga pintada",
+      "prompt": "¿Cómo ayuda el caparazón a la tortuga pintada a enfrentar la acumulación de ácido láctico durante un invierno con poco oxígeno?",
+      "options": [
+        "Sus minerales ayudan a amortiguar la acidez.",
+        "Filtra la sangre como un riñón extra.",
+        "Transforma el ácido láctico en oxígeno.",
+        "Expulsa todo el ácido láctico a través de sus escudos."
+      ],
+      "explanation": "El caparazón y los huesos ayudan a amortiguar la acidez y pueden almacenar parte del lactato. Esta adaptación va acompañada de una considerable ralentización del metabolismo.",
+      "didYouKnow": "La tortuga pintada suele tener marcas rojas o amarillas en la cabeza y las extremidades.",
+      "imageCaption": "tortuga pintada"
+    },
+    {
+      "id": "reptiles-193",
+      "animal": "tortuga de caja",
+      "prompt": "¿Qué parte del caparazón puede cerrar la tortuga de caja con una bisagra?",
+      "options": [
+        "El plastrón",
+        "El espaldar",
+        "El puente del caparazón",
+        "Un escudo córneo"
+      ],
+      "explanation": "En las tortugas de caja, una bisagra en el plastrón permite elevar sus partes para proteger el cuerpo.",
+      "didYouKnow": "Las tortugas de caja son tortugas terrestres de América del Norte.",
+      "imageCaption": "tortuga de caja carolina"
+    },
+    {
+      "id": "reptiles-194",
+      "animal": "Tortuga panqueque",
+      "prompt": "¿Qué característica ayuda a la tortuga panqueque a esconderse en las grietas de las rocas?",
+      "options": [
+        "Su caparazón aplanado y flexible puede deformarse ligeramente para pasar por grietas estrechas",
+        "Su caparazón alto y abovedado se encaja contra la roca",
+        "Un plastrón articulado se abre para que pueda pasar por una grieta",
+        "Un caparazón rígido e hidrodinámico le permite nadar por grietas sumergidas"
+      ],
+      "explanation": "Su caparazón aplanado es más flexible que el de muchas otras tortugas y le permite deslizarse por grietas rocosas.",
+      "didYouKnow": "La tortuga panqueque es originaria de África oriental.",
+      "imageCaption": "tortuga panqueque"
+    },
+    {
+      "id": "reptiles-195",
+      "animal": "Lagarto cornudo de Texas",
+      "prompt": "¿Qué presa constituye una parte importante de la dieta del lagarto cornudo de Texas?",
+      "options": [
+        "hormigas cosechadoras",
+        "medusas",
+        "pez de rio",
+        "huevos de cocodrilo"
+      ],
+      "explanation": "El lagarto cornudo de Texas consume con frecuencia hormigas recolectoras, que atrapa del suelo.",
+      "didYouKnow": "El lagarto cornudo de Texas puede rociar sangre desde los vasos cercanos a sus ojos.",
+      "imageCaption": "Lagarto cornudo de Texas"
+    },
+    {
+      "id": "reptiles-196",
+      "animal": "serpiente voladora",
+      "prompt": "¿Cómo puede la serpiente voladora del género Chrysopelea volar entre los árboles?",
+      "options": [
+        "Aplana su cuerpo y lo ondula durante su trayectoria aérea.",
+        "Bate sus alas escondidas bajo sus escamas.",
+        "Despliega un patagio sostenido por costillas alargadas.",
+        "Se impulsa haciendo vibrar su cola como una hélice."
+      ],
+      "explanation": "Las serpientes voladoras del género Chrysopelea aplanan sus cuerpos y ondulan en el aire, lo que les permite deslizarse entre los árboles.",
+      "didYouKnow": "Las serpientes del género Chrysopelea son originarias del sur y sudeste de Asia.",
+      "imageCaption": "Serpiente Voladora del Cielo"
+    },
+    {
+      "id": "reptiles-197",
+      "animal": "Iguana anillada de Fiji",
+      "prompt": "¿Dónde vive naturalmente la iguana anillada de Fiji?",
+      "options": [
+        "En las islas Fiyi",
+        "En las Islas Galápagos",
+        "En los bosques de Madagascar",
+        "En los humedales de la cuenca del río Yangtze"
+      ],
+      "explanation": "La iguana anillada de Fiji es una especie nativa del archipiélago de Fiji.",
+      "didYouKnow": "La iguana anillada de Fiji está muy amenazada por la pérdida de hábitat.",
+      "imageCaption": "Iguana anillada de Fiji"
+    },
+    {
+      "id": "reptiles-198",
+      "animal": "caimán americano",
+      "prompt": "¿Qué significa el término «hoyo de aligátor» en los Everglades?",
+      "options": [
+        "Una depresión excavada y mantenida por un caimán que puede retener agua en la estación seca.",
+        "Una madriguera cavada por una tortuga para desovar",
+        "Una cavidad natural utilizada sólo por cocodrilos de agua salada.",
+        "Un nido colgante construido con ramas y hojas."
+      ],
+      "explanation": "Los caimanes pueden cavar depresiones en los humedales; estos a veces retienen agua cuando baja el nivel.",
+      "didYouKnow": "Los caimanes americanos construyen nidos entre la vegetación para poner sus huevos.",
+      "imageCaption": "caimán americano"
+    },
+    {
+      "id": "reptiles-199",
+      "animal": "Serpiente Rey de California",
+      "prompt": "¿De qué se alimentan habitualmente las serpientes reyas de California además de pequeños mamíferos?",
+      "options": [
+        "Otras serpientes",
+        "Hojas grandes y frutos maduros.",
+        "néctar de flores",
+        "Medusas y pequeños crustáceos"
+      ],
+      "explanation": "La serpiente reya de California es un depredador oportunista que puede consumir otras serpientes.",
+      "didYouKnow": "La serpiente real de California tolera el veneno de ciertas víboras, en particular las serpientes de cascabel.",
+      "imageCaption": "Serpiente Rey de California"
+    },
+    {
+      "id": "reptiles-200",
+      "animal": "caimán chino",
+      "prompt": "¿En qué gran cuenca fluvial vive naturalmente el caimán chino?",
+      "options": [
+        "En los humedales de la cuenca del Amazonas",
+        "En la cuenca del Ganges y Brahmaputra",
+        "En los estuarios del norte de Australia",
+        "En la cuenca baja del río Yangtsé"
+      ],
+      "explanation": "El caimán chino es originario del este de China, particularmente de los humedales de la cuenca baja del río Yangtze.",
+      "didYouKnow": "El caimán chino es más pequeño que el caimán americano.",
+      "imageCaption": "caimán chino"
+    }
+  ]
+}

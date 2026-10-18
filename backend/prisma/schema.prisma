@@ -31,6 +31,41 @@ model User {
   notificationPreferences NotificationPreference[]
   notificationEvents      NotificationEvent[]
   passwordResetTokens     PasswordResetToken[]
+  habitatProjects         HabitatProject[]
+  quizRuns                QuizRun[]
+}
+
+
+model QuizRun {
+  id          String           @id @default(uuid())
+  userId      String
+  category    String
+  difficulty  String
+  questionIds String[]
+  score       Int              @default(0)
+  createdAt   DateTime         @default(now()) @db.Timestamptz(3)
+  expiresAt   DateTime         @db.Timestamptz(3)
+  completedAt DateTime?        @db.Timestamptz(3)
+  user        User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  answers     QuizRunAnswer[]
+
+  @@index([userId, category, difficulty, score, completedAt])
+  @@index([expiresAt])
+}
+
+model QuizRunAnswer {
+  id         String   @id @default(uuid())
+  runId      String
+  questionId String
+  position   Int
+  selected   Int
+  correct    Boolean
+  createdAt  DateTime @default(now()) @db.Timestamptz(3)
+  run        QuizRun  @relation(fields: [runId], references: [id], onDelete: Cascade)
+
+  @@unique([runId, questionId])
+  @@unique([runId, position])
+  @@index([runId, position])
 }
 
 model PasswordResetToken {
@@ -84,6 +119,7 @@ model Animal {
   mother         Animal?  @relation("Mother", fields: [motherId], references: [id], onDelete: SetNull)
   childrenFather Animal[] @relation("Father")
   childrenMother Animal[] @relation("Mother")
+  habitatProjects HabitatProject[]
 
   @@index([userId])
   @@index([speciesId])
@@ -292,6 +328,7 @@ model NotificationPreference {
   schedule         Json // { start: "08:00", end: "22:00" } (fenêtre globale)
   snooze           Int      @default(15) // minutes
   deliveryChannel  String   @default("push") // "push" | "email" | "both" — téléphone (push) et/ou email
+  timeZone         String   @default("Europe/Brussels")
   createdAt        DateTime @default(now()) @db.Timestamptz(3)
   updatedAt       DateTime @updatedAt @db.Timestamptz(3)
 
@@ -313,6 +350,9 @@ model NotificationEvent {
   appointmentId  String?  // optionnel : lien vers un RDV vétérinaire (Module A)
   vaccinationId  String?  // optionnel : lien vers un rappel vaccin (Module C)
   animalId       String?  // optionnel : animal concerné
+  occurrenceKey  String?  @unique
+  snoozedUntil   DateTime? @db.Timestamptz(3)
+  deliveryVersion Int     @default(0)
   createdAt      DateTime @default(now()) @db.Timestamptz(3)
   updatedAt      DateTime @updatedAt @db.Timestamptz(3)
 
@@ -323,6 +363,7 @@ model NotificationEvent {
   appointment  VetAppointment? @relation(fields: [appointmentId], references: [id], onDelete: SetNull)
   vaccination  Vaccination?   @relation(fields: [vaccinationId], references: [id], onDelete: SetNull)
   animal       Animal?        @relation(fields: [animalId], references: [id], onDelete: SetNull)
+  deliveries   NotificationDelivery[]
 
   @@index([userId])
   @@index([scheduledAt])
@@ -332,6 +373,22 @@ model NotificationEvent {
   @@index([appointmentId])
   @@index([vaccinationId])
   @@index([userId, status, scheduledAt])
+}
+
+model NotificationDelivery {
+  id            String   @id @default(uuid())
+  eventId       String
+  channel       String
+  version       Int      @default(0)
+  attempts      Int      @default(0)
+  leaseUntil    DateTime? @db.Timestamptz(3)
+  nextAttemptAt DateTime @default(now()) @db.Timestamptz(3)
+  sentAt        DateTime? @db.Timestamptz(3)
+  event         NotificationEvent @relation(fields: [eventId], references: [id], onDelete: Cascade)
+
+  @@unique([eventId, channel, version])
+  @@index([nextAttemptAt])
+  @@index([leaseUntil])
 }
 
 // ============================================
@@ -500,4 +557,21 @@ model AffiliateStore {
   @@index([categories])
   @@index([categories], type: Gin, map: "AffiliateStore_categories_gin_idx")
   @@index([types], type: Gin, map: "AffiliateStore_types_gin_idx")
+}
+
+model HabitatProject {
+  id        String   @id @default(uuid())
+  userId    String
+  animalId  String?
+  name      String
+  snapshot  Json
+  revision  Int      @default(1)
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime @updatedAt @db.Timestamptz(3)
+
+  user   User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  animal Animal? @relation(fields: [animalId], references: [id], onDelete: SetNull)
+
+  @@index([userId, updatedAt])
+  @@index([animalId])
 }

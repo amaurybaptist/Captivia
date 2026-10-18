@@ -1,353 +1,292 @@
-import { Test, TestingModule } from '@nestjs/testing';
-import { NotificationsService } from './notifications.service';
+import { createECDH, randomBytes } from 'crypto';
+import * as webPush from 'web-push';
+import * as nodemailer from 'nodemailer';
 import { PrismaService } from '../prisma/prisma.service';
+import { NotificationsService } from './notifications.service';
 
-describe('NotificationsService', () => {
-  let service: NotificationsService;
-  let prismaService: PrismaService;
-
-  const mockUserId = 'user-id-123';
-  const mockSubscription = {
-    id: 'sub-id-456',
-    userId: mockUserId,
-    endpoint: 'https://push.example.com/endpoint',
-    keys: {
-      p256dh: 'test-key',
-      auth: 'test-auth',
-    },
-    createdAt: new Date(),
-  };
-
-  const mockPreferences = {
-    id: 'pref-id-789',
-    userId: mockUserId,
-    types: {
-      nourrissage: true,
-      nettoyage: true,
-      uvb: true,
-      sante: true,
-    },
-    schedule: {
-      start: '08:00',
-      end: '22:00',
-    },
-    snooze: 15,
-    createdAt: new Date(),
-    updatedAt: new Date(),
-  };
-
-  const mockPrismaService = {
-    pushSubscription: {
-      upsert: jest.fn(),
-      findFirst: jest.fn(),
-      findMany: jest.fn(),
-      delete: jest.fn(),
-    },
-    notificationPreference: {
-      findUnique: jest.fn(),
-      create: jest.fn(),
-      update: jest.fn(),
-    },
-  };
-
-  beforeEach(async () => {
-    const module: TestingModule = await Test.createTestingModule({
-      providers: [
-        NotificationsService,
-        {
-          provide: PrismaService,
-          useValue: mockPrismaService,
+jest.mock('web-push', () => ({
+  ...jest.requireActual<typeof import('web-push')>('web-push'),
+  sendNotification: jest.fn(),
+}));
+jest.mock('nodemailer', () => ({ createTransport: jest.fn() }));
+const sendMail = jest.fn();
+const keys = webPush.generateVAPIDKeys();
+const client = createECDH('prime256v1');
+client.generateKeys();
+const subscription = {
+  id: 'subscription',
+  userId: 'user',
+  endpoint: 'https://fcm.googleapis.com/fcm/send/example',
+  keys: {
+    p256dh: client.getPublicKey().toString('base64url'),
+    auth: randomBytes(16).toString('base64url'),
+  },
+  createdAt: new Date(),
+};
+const prefs = {
+  id: 'pref',
+  userId: 'user',
+  types: { Nourrissage: true },
+  typeSchedules: {},
+  schedule: { start: '08:00', end: '22:00' },
+  snooze: 15,
+  timeZone: 'Europe/Brussels',
+  deliveryChannel: 'push',
+  createdAt: new Date('2026-01-01T00:00:00Z'),
+};
+const prisma = {
+  pushSubscription: {
+    upsert: jest.fn(),
+    findMany: jest.fn(),
+    deleteMany: jest.fn(),
+  },
+  notificationPreference: { upsert: jest.fn(), update: jest.fn() },
+  user: { findUniqueOrThrow: jest.fn() },
+};
+const payload = { title: 'Rappel Captivia', body: 'Nettoyage pour Kiwi' };
+let service: NotificationsService;
+const original = {
+  public: process.env.VAPID_PUBLIC_KEY,
+  private: process.env.VAPID_PRIVATE_KEY,
+  host: process.env.MAIL_HOST,
+  from: process.env.MAIL_FROM,
+};
+beforeEach(() => {
+  jest.clearAllMocks();
+  process.env.VAPID_PUBLIC_KEY = keys.publicKey;
+  process.env.VAPID_PRIVATE_KEY = keys.privateKey;
+  delete process.env.MAIL_HOST;
+  delete process.env.MAIL_FROM;
+  prisma.pushSubscription.findMany.mockResolvedValue([subscription]);
+  prisma.pushSubscription.upsert.mockResolvedValue(subscription);
+  prisma.notificationPreference.upsert.mockResolvedValue(prefs);
+  prisma.notificationPreference.update.mockImplementation(
+    ({ data }: { data: Record<string, unknown> }) =>
+      Promise.resolve({ ...prefs, ...data }),
+  );
+  jest
+    .mocked(webPush.sendNotification)
+    .mockResolvedValue({ statusCode: 201, body: '', headers: {} });
+  jest
+    .mocked(nodemailer.createTransport)
+    .mockReturnValue({ sendMail } as unknown as ReturnType<
+      typeof nodemailer.createTransport
+    >);
+  sendMail.mockResolvedValue({ accepted: ['recipient@example.test'] });
+  service = new NotificationsService(prisma as unknown as PrismaService);
+});
+afterAll(() => {
+  for (const [name, value] of Object.entries({
+    VAPID_PUBLIC_KEY: original.public,
+    VAPID_PRIVATE_KEY: original.private,
+    MAIL_HOST: original.host,
+    MAIL_FROM: original.from,
+  })) {
+    if (value === undefined) delete process.env[name];
+    else process.env[name] = value;
+  }
+});
+describe('Envois réels et préférences', () => {
+  it('appelle Web Push avec une charge JSON et ne compte que les envois acceptés', async () => {
+    expect(await service.sendNotification('user', payload)).toEqual({
+      sent: 1,
+      failed: 0,
+    });
+    expect(webPush.sendNotification).toHaveBeenCalledWith(
+      expect.objectContaining({ endpoint: subscription.endpoint }),
+      JSON.stringify(payload),
+      expect.objectContaining({
+        vapidDetails: {
+          publicKey: keys.publicKey,
+          privateKey: keys.privateKey,
+          subject: process.env.VAPID_SUBJECT || 'mailto:contact@captivia.com',
         },
-      ],
-    }).compile();
-
-    service = module.get<NotificationsService>(NotificationsService);
-    prismaService = module.get<PrismaService>(PrismaService);
-
-    jest.clearAllMocks();
+        timeout: 10000,
+      }),
+    );
   });
-
-  it('should be defined', () => {
-    expect(service).toBeDefined();
+  it('ne prétend pas avoir envoyé si les clés serveur manquent', async () => {
+    delete process.env.VAPID_PRIVATE_KEY;
+    expect(service.getCapabilities().push).toBe(false);
+    await expect(service.sendNotification('user', payload)).rejects.toThrow();
+    expect(webPush.sendNotification).not.toHaveBeenCalled();
   });
-
-  describe('subscribeToPush', () => {
-    it('should create or update push subscription', async () => {
-      const subscriptionData = {
-        endpoint: 'https://push.example.com/endpoint',
-        keys: {
-          p256dh: 'test-key',
-          auth: 'test-auth',
-        },
-      };
-
-      mockPrismaService.pushSubscription.upsert.mockResolvedValue(
-        mockSubscription,
-      );
-
-      const result = await service.subscribeToPush(mockUserId, subscriptionData);
-
-      expect(result).toEqual(mockSubscription);
-      expect(mockPrismaService.pushSubscription.upsert).toHaveBeenCalledWith({
-        where: { endpoint: subscriptionData.endpoint },
-        create: {
-          userId: mockUserId,
-          endpoint: subscriptionData.endpoint,
-          keys: subscriptionData.keys,
-        },
-        update: {
-          keys: subscriptionData.keys,
-        },
+  it('retourne zéro si aucun appareil n’est abonné', async () => {
+    prisma.pushSubscription.findMany.mockResolvedValue([]);
+    expect(await service.sendNotification('user', payload)).toEqual({
+      sent: 0,
+      failed: 0,
+    });
+  });
+  it('supprime les abonnements expirés et les compte en échec', async () => {
+    jest
+      .mocked(webPush.sendNotification)
+      .mockRejectedValue({ statusCode: 410 });
+    expect(await service.sendNotification('user', payload)).toEqual({
+      sent: 0,
+      failed: 1,
+    });
+    expect(prisma.pushSubscription.deleteMany).toHaveBeenCalledWith({
+      where: { id: subscription.id },
+    });
+  });
+  it('conserve un abonnement lors d’une erreur temporaire', async () => {
+    jest
+      .mocked(webPush.sendNotification)
+      .mockRejectedValue({ statusCode: 503 });
+    expect(await service.sendNotification('user', payload)).toEqual({
+      sent: 0,
+      failed: 1,
+    });
+    expect(prisma.pushSubscription.deleteMany).not.toHaveBeenCalled();
+  });
+  it('rattache un appareil au compte actuellement connecté', async () => {
+    await service.subscribeToPush('new-user', {
+      endpoint: subscription.endpoint,
+      keys: subscription.keys,
+    });
+    expect(prisma.pushSubscription.upsert).toHaveBeenCalledWith({
+      where: { endpoint: subscription.endpoint },
+      create: {
+        userId: 'new-user',
+        endpoint: subscription.endpoint,
+        keys: subscription.keys,
+      },
+      update: { userId: 'new-user', keys: subscription.keys },
+    });
+  });
+  it('rejette les endpoints arbitraires et les clés invalides', async () => {
+    await expect(
+      service.subscribeToPush('user', {
+        endpoint: 'https://localhost/private',
+        keys: subscription.keys,
+      }),
+    ).rejects.toThrow();
+    await expect(
+      service.subscribeToPush('user', {
+        endpoint: subscription.endpoint,
+        keys: { p256dh: 'bad', auth: 'bad' },
+      }),
+    ).rejects.toThrow();
+    expect(prisma.pushSubscription.upsert).not.toHaveBeenCalled();
+  });
+  it('envoie le canal email au destinataire sans inclure de HTML interpolé', async () => {
+    process.env.MAIL_HOST = 'smtp.example.test';
+    process.env.MAIL_FROM = 'Captivia <test@example.test>';
+    await service.sendEmail('recipient@example.test', payload);
+    expect(sendMail).toHaveBeenCalledWith({
+      from: process.env.MAIL_FROM,
+      to: 'recipient@example.test',
+      subject: payload.title,
+      text: payload.body,
+    });
+  });
+  it('refuse le canal email quand SMTP n’est pas configuré', async () => {
+    await expect(
+      service.updateNotificationPreferences('user', {
+        deliveryChannel: 'email',
+      }),
+    ).rejects.toThrow();
+    expect(prisma.notificationPreference.update).not.toHaveBeenCalled();
+  });
+  it('ne compte pas comme livré un email refusé par SMTP', async () => {
+    process.env.MAIL_HOST = 'smtp.example.test';
+    process.env.MAIL_FROM = 'test@example.test';
+    sendMail.mockResolvedValue({
+      accepted: [],
+      rejected: ['recipient@example.test'],
+    });
+    await expect(
+      service.sendEmail('recipient@example.test', payload),
+    ).rejects.toThrow();
+  });
+  it('valide le fuseau et les récurrences avant toute sauvegarde', async () => {
+    await expect(
+      service.updateNotificationPreferences('user', { timeZone: 'Mars/Test' }),
+    ).rejects.toThrow();
+    await expect(
+      service.updateNotificationPreferences('user', {
+        typeSchedules: { Test: { time: '99:00', recurrence: 'daily' } },
+      }),
+    ).rejects.toThrow();
+    expect(prisma.notificationPreference.update).not.toHaveBeenCalled();
+  });
+  it('reconnaît les libellés normalisés et la plage horaire locale', async () => {
+    prisma.notificationPreference.upsert.mockResolvedValue({
+      ...prefs,
+      types: { Nettoyage: false },
+    });
+    expect(
+      await service.checkIfShouldNotify(
+        'user',
+        'entretien',
+        new Date('2026-07-02T08:00:00Z'),
+      ),
+    ).toBe(false);
+    expect(
+      await service.checkIfShouldNotify(
+        'user',
+        'controle',
+        new Date('2026-07-02T08:00:00Z'),
+      ),
+    ).toBe(true);
+  });
+  it('rejette les champs explicitement nuls au lieu d’une erreur base de données', async () => {
+    for (const field of [
+      'timeZone',
+      'types',
+      'typeSchedules',
+      'schedule',
+      'snooze',
+      'deliveryChannel',
+    ]) {
+      await expect(
+        service.updateNotificationPreferences('user', {
+          [field]: null,
+        } as Parameters<
+          NotificationsService['updateNotificationPreferences']
+        >[1]),
+      ).rejects.toThrow();
+    }
+    expect(prisma.notificationPreference.update).not.toHaveBeenCalled();
+  });
+  it('rapporte un échec email partiel sans masquer le push déjà accepté', async () => {
+    process.env.MAIL_HOST = 'smtp.example.test';
+    process.env.MAIL_FROM = 'local@example.test';
+    prisma.notificationPreference.upsert.mockResolvedValue({
+      ...prefs,
+      deliveryChannel: 'both',
+    });
+    prisma.user.findUniqueOrThrow.mockResolvedValue({
+      email: 'recipient@example.test',
+    });
+    sendMail.mockRejectedValue(new Error('SMTP unavailable'));
+    expect(await service.sendTestNotification('user')).toEqual({
+      sent: 1,
+      failed: 1,
+    });
+  });
+  it('construit une vraie requête Web Push chiffrée et signée, sans réseau externe', async () => {
+    jest
+      .mocked(webPush.sendNotification)
+      .mockImplementation((subscription, body, options) => {
+        if (typeof body !== 'string')
+          throw new Error('La charge doit être sérialisée en JSON.');
+        const request = webPush.generateRequestDetails(
+          subscription,
+          body,
+          options,
+        );
+        expect(request.headers['Content-Encoding']).toBe('aes128gcm');
+        expect(request.headers.Authorization).toMatch(/^vapid /);
+        if (!Buffer.isBuffer(request.body))
+          throw new Error('Charge push non chiffrée');
+        expect(request.body.includes(Buffer.from(payload.body))).toBe(false);
+        return Promise.resolve({ statusCode: 201, body: '', headers: {} });
       });
-    });
-  });
-
-  describe('unsubscribeFromPush', () => {
-    it('should delete subscription if found', async () => {
-      mockPrismaService.pushSubscription.findFirst.mockResolvedValue(
-        mockSubscription,
-      );
-      mockPrismaService.pushSubscription.delete.mockResolvedValue(
-        mockSubscription,
-      );
-
-      const result = await service.unsubscribeFromPush(
-        mockUserId,
-        mockSubscription.endpoint,
-      );
-
-      expect(result).toEqual({ success: true });
-      expect(mockPrismaService.pushSubscription.delete).toHaveBeenCalledWith({
-        where: { id: mockSubscription.id },
-      });
-    });
-
-    it('should return success even if subscription not found', async () => {
-      mockPrismaService.pushSubscription.findFirst.mockResolvedValue(null);
-
-      const result = await service.unsubscribeFromPush(
-        mockUserId,
-        'invalid-endpoint',
-      );
-
-      expect(result).toEqual({ success: true });
-      expect(mockPrismaService.pushSubscription.delete).not.toHaveBeenCalled();
-    });
-  });
-
-  describe('getUserSubscriptions', () => {
-    it('should return all user subscriptions', async () => {
-      const subscriptions = [mockSubscription];
-      mockPrismaService.pushSubscription.findMany.mockResolvedValue(
-        subscriptions,
-      );
-
-      const result = await service.getUserSubscriptions(mockUserId);
-
-      expect(result).toEqual(subscriptions);
-      expect(mockPrismaService.pushSubscription.findMany).toHaveBeenCalledWith({
-        where: { userId: mockUserId },
-      });
-    });
-  });
-
-  describe('sendNotification', () => {
-    it('should send notification to all user subscriptions', async () => {
-      mockPrismaService.pushSubscription.findMany.mockResolvedValue([
-        mockSubscription,
-      ]);
-
-      const payload = {
-        title: 'Test Notification',
-        body: 'Test message',
-      };
-
-      const result = await service.sendNotification(mockUserId, payload);
-
-      expect(result).toEqual({
-        sent: 1,
-        failed: 0,
-      });
-    });
-
-    it('should handle multiple subscriptions', async () => {
-      mockPrismaService.pushSubscription.findMany.mockResolvedValue([
-        mockSubscription,
-        { ...mockSubscription, id: 'sub-2' },
-        { ...mockSubscription, id: 'sub-3' },
-      ]);
-
-      const payload = {
-        title: 'Test',
-        body: 'Message',
-      };
-
-      const result = await service.sendNotification(mockUserId, payload);
-
-      expect(result.sent).toEqual(3);
-      expect(result.failed).toEqual(0);
-    });
-  });
-
-  describe('getNotificationPreferences', () => {
-    it('should return existing preferences', async () => {
-      mockPrismaService.notificationPreference.findUnique.mockResolvedValue(
-        mockPreferences,
-      );
-
-      const result = await service.getNotificationPreferences(mockUserId);
-
-      expect(result).toEqual(mockPreferences);
-    });
-
-    it('should create default preferences if none exist', async () => {
-      mockPrismaService.notificationPreference.findUnique.mockResolvedValue(
-        null,
-      );
-      mockPrismaService.notificationPreference.create.mockResolvedValue(
-        mockPreferences,
-      );
-
-      const result = await service.getNotificationPreferences(mockUserId);
-
-      expect(result).toEqual(mockPreferences);
-      expect(mockPrismaService.notificationPreference.create).toHaveBeenCalledWith(
-        {
-          data: {
-            userId: mockUserId,
-            types: {
-              nourrissage: true,
-              nettoyage: true,
-              uvb: true,
-              sante: true,
-            },
-            schedule: {
-              start: '08:00',
-              end: '22:00',
-            },
-            snooze: 15,
-            deliveryChannel: 'push',
-          },
-        },
-      );
-    });
-  });
-
-  describe('updateNotificationPreferences', () => {
-    it('should update preferences', async () => {
-      mockPrismaService.notificationPreference.findUnique.mockResolvedValue(
-        mockPreferences,
-      );
-      mockPrismaService.notificationPreference.update.mockResolvedValue({
-        ...mockPreferences,
-        snooze: 30,
-      });
-
-      const updateData = { snooze: 30 };
-
-      const result = await service.updateNotificationPreferences(
-        mockUserId,
-        updateData,
-      );
-
-      expect(result.snooze).toEqual(30);
-      expect(mockPrismaService.notificationPreference.update).toHaveBeenCalledWith(
-        {
-          where: { id: mockPreferences.id },
-          data: updateData,
-        },
-      );
-    });
-
-    it('should create preferences if not exist before updating', async () => {
-      mockPrismaService.notificationPreference.findUnique
-        .mockResolvedValueOnce(null)
-        .mockResolvedValueOnce(mockPreferences);
-      mockPrismaService.notificationPreference.create.mockResolvedValue(
-        mockPreferences,
-      );
-      mockPrismaService.notificationPreference.update.mockResolvedValue(
-        mockPreferences,
-      );
-
-      await service.updateNotificationPreferences(mockUserId, { snooze: 20 });
-
-      expect(mockPrismaService.notificationPreference.create).toHaveBeenCalled();
-    });
-  });
-
-  describe('checkIfShouldNotify', () => {
-    it('should return true if type is enabled and within time window', async () => {
-      // Mock time to be 10:00
-      jest.useFakeTimers();
-      jest.setSystemTime(new Date('2026-02-01T10:00:00'));
-
-      mockPrismaService.notificationPreference.findUnique.mockResolvedValue(
-        mockPreferences,
-      );
-
-      const result = await service.checkIfShouldNotify(
-        mockUserId,
-        'nourrissage',
-      );
-
-      expect(result).toBe(true);
-
-      jest.useRealTimers();
-    });
-
-    it('should return false if type is disabled', async () => {
-      mockPrismaService.notificationPreference.findUnique.mockResolvedValue({
-        ...mockPreferences,
-        types: {
-          nourrissage: false,
-        },
-      });
-
-      const result = await service.checkIfShouldNotify(
-        mockUserId,
-        'nourrissage',
-      );
-
-      expect(result).toBe(false);
-    });
-
-    it('should return false if outside time window (before start)', async () => {
-      // Mock time to be 07:00 (before 08:00 start)
-      jest.useFakeTimers();
-      jest.setSystemTime(new Date('2026-02-01T07:00:00'));
-
-      mockPrismaService.notificationPreference.findUnique.mockResolvedValue(
-        mockPreferences,
-      );
-
-      const result = await service.checkIfShouldNotify(
-        mockUserId,
-        'nourrissage',
-      );
-
-      expect(result).toBe(false);
-
-      jest.useRealTimers();
-    });
-
-    it('should return false if outside time window (after end)', async () => {
-      // Mock time to be 23:00 (after 22:00 end)
-      jest.useFakeTimers();
-      jest.setSystemTime(new Date('2026-02-01T23:00:00'));
-
-      mockPrismaService.notificationPreference.findUnique.mockResolvedValue(
-        mockPreferences,
-      );
-
-      const result = await service.checkIfShouldNotify(
-        mockUserId,
-        'nourrissage',
-      );
-
-      expect(result).toBe(false);
-
-      jest.useRealTimers();
+    expect(await service.sendNotification('user', payload)).toEqual({
+      sent: 1,
+      failed: 0,
     });
   });
 });

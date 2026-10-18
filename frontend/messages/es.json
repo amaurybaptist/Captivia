@@ -267,7 +267,11 @@
     "search": "Buscar",
     "settings": "Configuración",
     "shop": "Magasin",
-    "species": "Especies"
+    "species": "Especies",
+    "habitatGuide": "Guía 3D",
+    "designHabitat": "Diseñar su hábitat",
+    "careAgenda": "Agenda",
+    "animalGame": "Juego"
   },
   "disclaimers": {
     "affiliate": "Enlace de afiliado",
@@ -373,7 +377,25 @@
     "weekDay3": "Miércoles",
     "weekDay4": "Jueves",
     "weekDay5": "Viernes",
-    "weekDay6": "Sábado"
+    "weekDay6": "Sábado",
+    "pushUnsupported": "Este navegador no admite notificaciones push. En iPhone, abre Captivia desde el icono añadido a la pantalla de inicio.",
+    "pushUnavailable": "Las notificaciones push no están disponibles temporalmente. Los recordatorios siguen visibles en la aplicación.",
+    "pushEnabled": "Notificaciones activas en este navegador.",
+    "enablePush": "Activar notificaciones",
+    "disablePush": "Desactivar en este navegador",
+    "sendTest": "Enviar una prueba",
+    "testSent": "Notificación enviada.",
+    "testPartial": "Algunas notificaciones no se pudieron enviar.",
+    "noRecipient": "No hay destinatarios activos. Activa las notificaciones en un dispositivo.",
+    "testFailed": "No se pudo enviar la notificación de prueba.",
+    "timeZone": "Zona horaria",
+    "deliveryWindow": "Horario permitido para los envíos",
+    "windowStart": "Inicio de los envíos",
+    "windowEnd": "Fin de los envíos",
+    "channelsUnavailable": "Algunos métodos de recepción no están disponibles temporalmente. Los recordatorios siguen visibles en la aplicación.",
+    "snoozeAction": "Posponer",
+    "snoozeDone": "Recordatorio pospuesto.",
+    "reminderError": "No se pudo actualizar el recordatorio."
   },
   "premiumLock": {
     "goPremium": "Voir l'abonnement Premium",
@@ -513,6 +535,7 @@
     "subscribeSuccess": "Abonnement activé. Vous avez maintenant accès à toutes les fonctionnalités Premium.",
     "subtitle": "Débloquez tous les avantages Captivia",
     "title": "Abonnement Premium",
-    "yearly": "Annuel"
+    "yearly": "Annuel",
+    "benefitHabitat": "Diseñador de hábitats 2D y 3D: distribuciones personalizadas, proyectos guardados y exportaciones"
   }
 }

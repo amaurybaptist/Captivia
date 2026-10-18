@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "72298cf964a9f29277068df74da238d23e560d0a70bb654fccbc95400a9546f6",
+  "locale": "en",
+  "questions": [
+    {
+      "id": "fish-001",
+      "animal": "Whale shark",
+      "prompt": "What do whale sharks primarily feed on?",
+      "options": [
+        "Plankton filtered into water",
+        "Grazed algae on reefs",
+        "Molluscs extracted from sand",
+        "Large marine mammals"
+      ],
+      "explanation": "It filters plankton and small organisms by passing water through its mouth and over its gills.",
+      "didYouKnow": "Its skin bears small dermal denticles that reduce drag.",
+      "imageCaption": "Whale shark"
+    },
+    {
+      "id": "fish-002",
+      "animal": "Basking shark",
+      "prompt": "What resource does the basking shark filter by swimming with its mouth open?",
+      "options": [
+        "Zooplankton",
+        "Seagrasses",
+        "Adult fish",
+        "Sediments rich in worms"
+      ],
+      "explanation": "Its gill rakers hold tiny planktonic organisms while water escapes through the gill slits.",
+      "didYouKnow": "It can reach a very large size, second only to the whale shark.",
+      "imageCaption": "Basking shark"
+    },
+    {
+      "id": "fish-003",
+      "animal": "Nurse shark",
+      "prompt": "What mechanism allows the nurse shark to ventilate its gills without swimming forward?",
+      "options": [
+        "It pumps water through the mouth then passes it over the gills",
+        "It must swim forward to force water through the gills",
+        "It sucks water through the spiracles and expels it through the mouth",
+        "It ventilates its gills by opening and closing its covers like a teleost"
+      ],
+      "explanation": "Oral ventilation brings water in through the mouth and circulates it over the gills, even when the shark remains seated.",
+      "didYouKnow": "The nurse shark mainly hunts fish and invertebrates living near the bottom at night.",
+      "imageCaption": "Nurse shark"
+    },
+    {
+      "id": "fish-004",
+      "animal": "Hammerhead shark",
+      "prompt": "Which receptors on the hammerhead shark's head detect weak electric fields from prey?",
+      "options": [
+        "Lorenzini's bulbs",
+        "Lateral line neuromasts",
+        "Olfactory cells in the nostrils",
+        "Photoreceptor cells of the retina"
+      ],
+      "explanation": "The ampullae of Lorenzini are electroreceptors; their distribution on the enlarged head helps the shark to locate buried prey.",
+      "didYouKnow": "The enlarged head also gives it a wide field of vision downwards.",
+      "imageCaption": "Hammerhead shark"
+    },
+    {
+      "id": "fish-005",
+      "animal": "thresher shark",
+      "prompt": "How does the thresher shark often use its long tail to hunt?",
+      "options": [
+        "It whips the water to disorient schooling fish",
+        "It digs burrows in the sand",
+        "It filters surface plankton",
+        "It carries its eggs to the reefs"
+      ],
+      "explanation": "The elongated upper lobe of its tail strikes the water and can stun baitfish.",
+      "didYouKnow": "Embryos of several species feed on unfertilized eggs in the uterus.",
+      "imageCaption": "thresher shark"
+    },
+    {
+      "id": "fish-006",
+      "animal": "Bull shark",
+      "prompt": "What physiological adjustment allows the bull shark to move from salt water to fresh water?",
+      "options": [
+        "It adjusts the water and ionic balance according to salinity",
+        "It keeps the same concentration of urea and drinks more fresh water",
+        "It rejects all its ions through the kidneys without modifying gill ventilation",
+        "It reduces the entry of water by closing the spiracles"
+      ],
+      "explanation": "The bull shark adjusts the water and ionic balance of its body when salinity changes.",
+      "didYouKnow": "Like other sharks, it continually replaces its teeth throughout its life.",
+      "imageCaption": "Bull shark"
+    },
+    {
+      "id": "fish-007",
+      "animal": "Manta ray",
+      "prompt": "How does the manta ray collect plankton?",
+      "options": [
+        "Its cephalic lobes direct water towards its mouth",
+        "She grazes on it with beak-like teeth.",
+        "She captures him with a tail stinger",
+        "She picks it up in burrows"
+      ],
+      "explanation": "The cephalic lobes channel plankton-laden water towards the mouth and filtering structures.",
+      "didYouKnow": "Manta rays do not have a caudal spine.",
+      "imageCaption": "Manta ray"
+    },
+    {
+      "id": "fish-008",
+      "animal": "Electric ray",
+      "prompt": "Which specialized cells produce the electrical discharge of a torpedo ray?",
+      "options": [
+        "Electrocytes organized in its electrical organs",
+        "Motor neurons of the pectoral fins",
+        "Lateral line sensory cells",
+        "Isolated muscle cells randomly activated"
+      ],
+      "explanation": "Electrocytes are cells derived from muscle cells; their coordinated activation produces a discharge.",
+      "didYouKnow": "The torpedo ray often lives resting or buried on the seabed.",
+      "imageCaption": "Electric ray"
+    },
+    {
+      "id": "fish-009",
+      "animal": "Stingray",
+      "prompt": "What is the main purpose of the stingray sting?",
+      "options": [
+        "To defend yourself against a threat",
+        "To filter plankton",
+        "To attract a partner with light",
+        "To dig a deep burrow"
+      ],
+      "explanation": "The tail sting is a defense, often used if the ray is trampled or trapped.",
+      "didYouKnow": "The ray generally tries to escape when it has the opportunity.",
+      "imageCaption": "Stingray"
+    },
+    {
+      "id": "fish-010",
+      "animal": "Sawfish",
+      "prompt": "Which group does the sawfish belong to despite its toothed rostrum?",
+      "options": [
+        "With cartilaginous rays",
+        "Bony reef fish",
+        "To marine mammals",
+        "With freshwater sturgeon"
+      ],
+      "explanation": "The sawfish is a ray: its gill slits are located under its flattened body.",
+      "didYouKnow": "Sawfish are rays whose gill slits are on the ventral side.",
+      "imageCaption": "Sawfish"
+    },
+    {
+      "id": "fish-011",
+      "animal": "Chimera",
+      "prompt": "What material is the skeleton of a chimera primarily made of?",
+      "options": [
+        "Cartilage",
+        "Calcified wood",
+        "Chitin",
+        "Fully bony plates"
+      ],
+      "explanation": "Chimaeras are cartilaginous fish, like sharks and rays.",
+      "didYouKnow": "Many live at depth and lay egg capsules.",
+      "imageCaption": "Chimera"
+    },
+    {
+      "id": "fish-012",
+      "animal": "Sturgeon",
+      "prompt": "What feature of the sturgeon skeleton is remarkable?",
+      "options": [
+        "It remains largely cartilaginous",
+        "It is made of chitin",
+        "It includes visible external ribs",
+        "It is made of mineralized plant tissue"
+      ],
+      "explanation": "Despite belonging to bony fish, their skeleton is largely cartilaginous and their dorsal cord persists.",
+      "didYouKnow": "Sturgeon eggs are traditionally used for caviar.",
+      "imageCaption": "Sturgeon"
+    },
+    {
+      "id": "fish-013",
+      "animal": "European eel",
+      "prompt": "Where do adult European eels migrate to spawn?",
+      "options": [
+        "Towards the Sargasso Sea",
+        "Towards the Baltic Sea",
+        "Towards Lake Baikal",
+        "Towards the Red Sea"
+      ],
+      "explanation": "After growing up in continental waters, silvery adults cross the Atlantic to reach their breeding area.",
+      "didYouKnow": "Young eels become transparent glass eels when they arrive near the coast.",
+      "imageCaption": "European eel"
+    },
+    {
+      "id": "fish-014",
+      "animal": "Electric eel",
+      "prompt": "How does the electric eel locate an obstacle using active electrolocation?",
+      "options": [
+        "It emits a weak electric field and detects its disturbances",
+        "It emits ultrasound and analyzes their echo",
+        "It only detects electric fields produced by prey",
+        "She measures the vibrations of the water with her nostrils"
+      ],
+      "explanation": "Nearby objects disrupt the electric field emitted by the eel; specialized receptors detect these deformations.",
+      "didYouKnow": "It must rise to the surface to breathe atmospheric air.",
+      "imageCaption": "Electric eel"
+    },
+    {
+      "id": "fish-015",
+      "animal": "moray eel",
+      "prompt": "How does the moray eel pull prey towards its throat?",
+      "options": [
+        "With a second pair of pharyngeal jaws",
+        "With a suction cup located on the tail",
+        "By projecting a jet of water",
+        "With barbels that wrap around the prey"
+      ],
+      "explanation": "Its pharyngeal jaws advance into the throat, grab the prey and pull it towards the esophagus.",
+      "didYouKnow": "Its nostrils are mainly used to detect odors, not to breathe.",
+      "imageCaption": "moray eel"
+    },
+    {
+      "id": "fish-016",
+      "animal": "Clownfish",
+      "prompt": "Which parent carries the fertilized eggs in clownfish?",
+      "options": [
+        "None: eggs are laid on a substrate",
+        "The male in a ventral pouch",
+        "The female in his mouth",
+        "Both parents in a shared pocket"
+      ],
+      "explanation": "Clownfish lay eggs on a substrate near their anemone and the parents guard the spawn.",
+      "didYouKnow": "In a group, the largest individual is usually the breeding female.",
+      "imageCaption": "Clownfish"
+    },
+    {
+      "id": "fish-017",
+      "animal": "Seahorse",
+      "prompt": "Which parent carries the embryos in a pouch in seahorses?",
+      "options": [
+        "The male",
+        "The female",
+        "Both parents take turns",
+        "None: eggs drift freely"
+      ],
+      "explanation": "The female transfers her eggs to the male's brood pouch, where they develop.",
+      "didYouKnow": "Seahorses swim in a vertical position and move forward using their dorsal fin.",
+      "imageCaption": "Seahorse"
+    },
+    {
+      "id": "fish-018",
+      "animal": "Lionfish",
+      "prompt": "What are the backbones of lionfish used for?",
+      "options": [
+        "To deter predators with their venom",
+        "To produce light to attract prey",
+        "To filter plankton",
+        "To dig in the reefs"
+      ],
+      "explanation": "The venomous thorns constitute a defense; the fish captures its prey with its mouth.",
+      "didYouKnow": "The lionfish's dorsal spines are connected to venom glands.",
+      "imageCaption": "Lionfish"
+    },
+    {
+      "id": "fish-019",
+      "animal": "Pufferfish",
+      "prompt": "How do pufferfish rapidly increase their volume when threatened?",
+      "options": [
+        "He swallows water",
+        "He inflates his fins with air",
+        "It releases bubbles from its gills",
+        "It deploys bony plates under the skin"
+      ],
+      "explanation": "He swallows water and distends his body, making it harder to swallow.",
+      "didYouKnow": "Tetrodotoxin, present in certain species, can be dangerous to predators.",
+      "imageCaption": "Pufferfish"
+    },
+    {
+      "id": "fish-020",
+      "animal": "Archerfish",
+      "prompt": "How does the archerfish knock down an insect above the water?",
+      "options": [
+        "It projects a precise jet of water",
+        "He jumps and hits him with his tail",
+        "He attracts him with a light",
+        "He throws a bubble which imprisons him"
+      ],
+      "explanation": "It compresses the water in its mouth and directs a jet towards the aerial prey.",
+      "didYouKnow": "It lives in brackish and fresh waters of mangroves and estuaries in Asia.",
+      "imageCaption": "Archerfish"
+    },
+    {
+      "id": "fish-021",
+      "animal": "Flying fish",
+      "prompt": "What fins allow the flying fish to glide above the waves?",
+      "options": [
+        "Its enlarged pectoral fins",
+        "Its dorsal fins transformed into wings",
+        "Its filamentous pelvic fins",
+        "Its gills outstretched"
+      ],
+      "explanation": "After accelerating underwater, its large pectoral fins serve as supporting surfaces.",
+      "didYouKnow": "It hovers briefly and does not flap its wings like a bird.",
+      "imageCaption": "Flying fish"
+    },
+    {
+      "id": "fish-022",
+      "animal": "Bluefin tuna",
+      "prompt": "What vascular arrangement helps bluefin tuna retain the heat produced by its muscles?",
+      "options": [
+        "Counter-current vascular networks recover heat from the blood",
+        "A layer of fat completely blocks heat loss",
+        "Blood flows in the same direction in adjacent vessels",
+        "The swim bladder transmits heat to the muscles"
+      ],
+      "explanation": "Counter-current exchangers transfer part of the heat from venous blood to arterial blood and limit its loss through the gills.",
+      "didYouKnow": "Bluefin tuna carry out long ocean migrations between feeding and breeding areas.",
+      "imageCaption": "Bluefin tuna"
+    },
+    {
+      "id": "fish-023",
+      "animal": "Pike",
+      "prompt": "What hunting strategy do pike frequently employ?",
+      "options": [
+        "The ambush in aquatic vegetation",
+        "Filtration of plankton in open water",
+        "Digging a nest in the mud",
+        "Pursuing shoals on the high seas"
+      ],
+      "explanation": "Its elongated body and camouflage allow it to emerge quickly from a hiding place.",
+      "didYouKnow": "Its backward-angled teeth hold captured prey.",
+      "imageCaption": "Pike"
+    },
+    {
+      "id": "fish-024",
+      "animal": "Salmon",
+      "prompt": "Which sense helps salmon find their way back to their home stream?",
+      "options": [
+        "Olfaction",
+        "Detection of aerial infrasound",
+        "Star vision only",
+        "The taste of salt in its scales"
+      ],
+      "explanation": "It memorizes chemical clues from its native watercourse and recognizes them on its return.",
+      "didYouKnow": "Young salmon often spend part of their growth in rivers before migrating.",
+      "imageCaption": "Salmon"
+    },
+    {
+      "id": "fish-025",
+      "animal": "Bluegill (Lepomis macrochirus)",
+      "prompt": "Which parent often guards the nest and fans the eggs in bluegill?",
+      "options": [
+        "The male",
+        "The female",
+        "Both parents only at night",
+        "No parents"
+      ],
+      "explanation": "The male defends the nest and waves his fins to circulate the water above the eggs.",
+      "didYouKnow": "The nest is usually a circular depression in a shallow bottom.",
+      "imageCaption": "Bluegill (Lepomis macrochirus)"
+    },
+    {
+      "id": "fish-026",
+      "animal": "Catfish",
+      "prompt": "What types of information can a catfish's barbels detect when exploring the bottom?",
+      "options": [
+        "Contacts and dissolved chemicals",
+        "Magnetic fields and ultrasound",
+        "Temperature and ultraviolet light only",
+        "Salinity variations over long distances"
+      ],
+      "explanation": "The barbels carry tactile and taste receptors, useful for locating food in murky water.",
+      "didYouKnow": "Many species of catfish lack the typical scales of other bony fish.",
+      "imageCaption": "Catfish"
+    },
+    {
+      "id": "fish-027",
+      "animal": "Corydoras",
+      "prompt": "How do some Corydoras complete gas exchange when the water is low in oxygen?",
+      "options": [
+        "They swallow air and absorb some of the oxygen in the intestine",
+        "They swallow air and oxygen diffuses mainly in the swim bladder",
+        "They vent the gills more quickly when swimming close to the surface",
+        "They absorb atmospheric oxygen mainly through the skin"
+      ],
+      "explanation": "Some Corydoras come up to swallow air; part of the oxygen passes through the intestinal wall, in addition to the gills.",
+      "didYouKnow": "Their bony plates protect the body under the skin.",
+      "imageCaption": "Corydoras"
+    },
+    {
+      "id": "fish-028",
+      "animal": "Parrotfish",
+      "prompt": "What is the role of the parrotfish's beak?",
+      "options": [
+        "Scrape algae off rocks and corals",
+        "Filtering plankton with baleen",
+        "Inject venom into corals",
+        "Digging tunnels in rocks"
+      ],
+      "explanation": "Its fused teeth form a beak adapted to grazing on the substrate.",
+      "didYouKnow": "Crushed coral material contributes to the sand on some beaches.",
+      "imageCaption": "Parrotfish"
+    },
+    {
+      "id": "fish-029",
+      "animal": "Goby and pistol shrimp",
+      "prompt": "How does the goby help the almost blind shrimp?",
+      "options": [
+        "It stands guard and signals danger with a tail movement.",
+        "The shrimp spots predators and the goby burrows",
+        "The goby feeds the shrimp with algae",
+        "They exchange light signals"
+      ],
+      "explanation": "The shrimp maintains the burrow while the goby guards the entrance.",
+      "didYouKnow": "Contact between the two animals maintains their coordination.",
+      "imageCaption": "Goby and pistol shrimp"
+    },
+    {
+      "id": "fish-030",
+      "animal": "Ocean sunfish",
+      "prompt": "Why do sunfish sometimes warm up near the surface after a dive?",
+      "options": [
+        "Solar heat warms your body before a new dive",
+        "The moonlight warms its gills",
+        "It absorbs heat from the sand by burying itself",
+        "The fermentation of its food produces heat"
+      ],
+      "explanation": "The warm surface helps offset the cooling from deep dives.",
+      "didYouKnow": "The sunfish is the heaviest bony fish known.",
+      "imageCaption": "Ocean sunfish"
+    },
+    {
+      "id": "fish-031",
+      "animal": "Sockeye salmon",
+      "prompt": "What color change often accompanies sockeye salmon spawning?",
+      "options": [
+        "The body turns red and the head greenish",
+        "The body turns silver and the head blue",
+        "Fins turn black without body change",
+        "The back becomes white and the belly yellow"
+      ],
+      "explanation": "Breeding changes make the breeding livery very visible.",
+      "didYouKnow": "Young sockeye salmon can grow up in a lake before reaching the sea.",
+      "imageCaption": "Sockeye salmon"
+    },
+    {
+      "id": "fish-032",
+      "animal": "Cave fish",
+      "prompt": "What sense helps cave fish detect movement in the dark?",
+      "options": [
+        "The lateral line",
+        "Ultraviolet vision",
+        "Aerial hearing",
+        "Infrared detection"
+      ],
+      "explanation": "Its receptors detect movements and vibrations of the water around the fish.",
+      "didYouKnow": "Surface populations of this species have functional eyes and more pronounced pigmentation.",
+      "imageCaption": "Cave fish"
+    },
+    {
+      "id": "fish-033",
+      "animal": "Clownfish",
+      "prompt": "What social change can occur after the dominant female clownfish disappears?",
+      "options": [
+        "The breeding male can become female",
+        "The female becomes male then the group disperses",
+        "All members become female",
+        "The group cannot replace the female"
+      ],
+      "explanation": "In clownfish, sex changes depending on the group hierarchy.",
+      "didYouKnow": "The largest individual in the group is generally the female.",
+      "imageCaption": "Clownfish"
+    },
+    {
+      "id": "fish-034",
+      "animal": "Parrotfish",
+      "prompt": "How can parrotfish grazing help corals?",
+      "options": [
+        "It removes algae that compete with young corals",
+        "It fertilizes algae with venom",
+        "It destroys the reefs to release the sand",
+        "It repels corals by covering them with mucus"
+      ],
+      "explanation": "Grazing frees up areas where coral larvae can settle.",
+      "didYouKnow": "Their beaks can also grind calcium carbonate.",
+      "imageCaption": "Parrotfish"
+    },
+    {
+      "id": "fish-035",
+      "animal": "Tilapia",
+      "prompt": "Which parent incubates eggs in its mouth in many tilapia?",
+      "options": [
+        "A parent, often the female depending on the species",
+        "The male, which keeps the eggs on a leaf",
+        "The male, who carries the eggs in a pouch",
+        "No parents, eggs are still floating"
+      ],
+      "explanation": "Mouth incubation protects the eggs from predators and disturbance.",
+      "didYouKnow": "In tilapia, both parents can participate in care depending on the species.",
+      "imageCaption": "Tilapia"
+    },
+    {
+      "id": "fish-036",
+      "animal": "Common carp",
+      "prompt": "How do carp often find their food in the mud?",
+      "options": [
+        "It searches the bottom using its sensory barbels",
+        "It filters the water with its barbels",
+        "It catches insects above the water",
+        "He hunts using a luminous lure"
+      ],
+      "explanation": "The barbels help it locate food and invertebrates in the sediment.",
+      "didYouKnow": "Common carp can stir up the bottom while digging, which resuspends particles.",
+      "imageCaption": "Common carp"
+    },
+    {
+      "id": "fish-037",
+      "animal": "Zebrafish",
+      "prompt": "Why are zebrafish used to study vertebrate development?",
+      "options": [
+        "Its transparent embryos develop outside the body",
+        "It produces a calcareous shell around its body",
+        "He changes sex to adopt the anemone",
+        "It is covered with venomous scales"
+      ],
+      "explanation": "The transparency makes it possible to observe the development of the organs live.",
+      "didYouKnow": "It is a freshwater species native to South Asia.",
+      "imageCaption": "Zebrafish"
+    },
+    {
+      "id": "fish-038",
+      "animal": "Betta fish",
+      "prompt": "How does a male betta fish build its nest?",
+      "options": [
+        "It assembles bubbles on the surface",
+        "They make algae more competitive",
+        "They prevent coral larvae from settling",
+        "They produce toxins against corals"
+      ],
+      "explanation": "The male creates a bubble nest and guards the eggs and then the fry.",
+      "didYouKnow": "The Siamese fighter can breathe air thanks to an accessory labyrinthine organ.",
+      "imageCaption": "Betta fish"
+    },
+    {
+      "id": "fish-039",
+      "animal": "Gourami",
+      "prompt": "Which organ allows the gourami to take in oxygen from the air?",
+      "options": [
+        "The labyrinthine organ",
+        "The father carries them in a ventral pouch in all species",
+        "Both parents incubate them in their gills",
+        "No parents: eggs remain unprotected"
+      ],
+      "explanation": "This accessory respiratory organ complements the use of the gills.",
+      "didYouKnow": "The labyrinthine organ allows gouramis to use oxygen from the air.",
+      "imageCaption": "Gourami"
+    },
+    {
+      "id": "fish-040",
+      "animal": "African lungfish",
+      "prompt": "During aestivation, how does the African lungfish limit water loss when its habitat dries up?",
+      "options": [
+        "It burrows, forms a mucous cocoon and reduces its metabolism",
+        "It burrows without a cocoon and maintains its usual metabolism",
+        "It remains on the surface and slows down its gill respiration",
+        "It secretes a cocoon but remains active in the residual water"
+      ],
+      "explanation": "The lungfish burrows into the mud and forms a mucous cocoon; its metabolic activity decreases until favorable conditions return.",
+      "didYouKnow": "Lungfish belong to fish with fleshy fins, such as coelacanths.",
+      "imageCaption": "African lungfish"
+    },
+    {
+      "id": "fish-041",
+      "animal": "Coelacanth",
+      "prompt": "Why is the coelacanth described as a fleshy-finned fish?",
+      "options": [
+        "Its paired fins are supported by muscular lobes",
+        "It builds a mineral shell",
+        "It hangs on a branch out of the water",
+        "It migrates in a marine burrow"
+      ],
+      "explanation": "Its fins contain internal bony and muscular structures.",
+      "didYouKnow": "The coelacanth is a sarcopterygian, close distant relative of tetrapods.",
+      "imageCaption": "Coelacanth"
+    },
+    {
+      "id": "fish-042",
+      "animal": "Sturgeon",
+      "prompt": "Why do dams threaten migratory sturgeon?",
+      "options": [
+        "They can block access to spawning grounds upstream",
+        "Its fins are supported by feathers",
+        "Its fins are simple membranes without an internal skeleton.",
+        "It belongs to aquatic reptiles"
+      ],
+      "explanation": "Many species travel up rivers to reproduce.",
+      "didYouKnow": "Sturgeons are among the largest freshwater fish.",
+      "imageCaption": "Sturgeon"
+    },
+    {
+      "id": "fish-043",
+      "animal": "American paddlefish",
+      "prompt": "How does the American paddlefish get some of its food?",
+      "options": [
+        "It filters zooplankton by swimming with its mouth open",
+        "They block ocean currents",
+        "They increase access to spawning grounds",
+        "They transform the sturgeon into a sedentary fish"
+      ],
+      "explanation": "Its gill rakers retain small planktonic organisms.",
+      "didYouKnow": "The American paddlefish is native to the Mississippi River Basin.",
+      "imageCaption": "American paddlefish"
+    },
+    {
+      "id": "fish-044",
+      "animal": "Clownfish",
+      "prompt": "How does clownfish generally avoid triggering the stinging cells of its host anemone?",
+      "options": [
+        "It acclimates to the composition of the anemone mucus",
+        "It secretes a completely waterproof mucus which prevents any contact",
+        "It triggers the nematocysts remotely before taking refuge in the anemone",
+        "It has thick skin that resists all bites"
+      ],
+      "explanation": "The acclimation of its surface mucus limits the recognition of the fish as prey by certain anemones.",
+      "didYouKnow": "Clownfish live in hierarchical groups where the breeding female is generally the largest.",
+      "imageCaption": "Clownfish"
+    },
+    {
+      "id": "fish-045",
+      "animal": "Blue shark",
+      "prompt": "What camouflage helps the blue shark in the ocean?",
+      "options": [
+        "A blue back and a light belly",
+        "The mucus allows it to eat the anemone",
+        "It is naturally insensitive to any toxin",
+        "The anemone never has stinging cells"
+      ],
+      "explanation": "The back blends into the dark water seen from above and the belly into the luminous surface seen from below.",
+      "didYouKnow": "It is a pelagic species that travels long distances.",
+      "imageCaption": "Blue shark"
+    },
+    {
+      "id": "fish-046",
+      "animal": "Lemon shark",
+      "prompt": "Why are mangroves important to young lemon sharks?",
+      "options": [
+        "They offer them sheltered nurseries",
+        "Transparent fins like glass",
+        "A complete bony shell",
+        "Fluorescent external gills"
+      ],
+      "explanation": "Roots provide juveniles with hiding places and food resources.",
+      "didYouKnow": "Adult lemon sharks may return to the area where they were born.",
+      "imageCaption": "Lemon shark"
+    },
+    {
+      "id": "fish-047",
+      "animal": "Silvery pelagic fish",
+      "prompt": "What is the purpose of the silvery sheen in many pelagic fish?",
+      "options": [
+        "To reduce their contrast in the water",
+        "A blue belly and a white back",
+        "Black stripes that reflect light",
+        "Transparent skin without pigments"
+      ],
+      "explanation": "The reflective surface helps them blend into ambient light.",
+      "didYouKnow": "Many schooling fish have silvery sides.",
+      "imageCaption": "Silvery pelagic fish"
+    },
+    {
+      "id": "fish-048",
+      "animal": "Four-eyed fish",
+      "prompt": "How does the four-eyed fish monitor the air and water simultaneously?",
+      "options": [
+        "Each eye is divided into two optical zones",
+        "Each eye only sees underwater",
+        "It has two independent pairs of eyes.",
+        "Aerial vision is provided by its fins"
+      ],
+      "explanation": "The upper and lower areas of each eye are adapted for vision in air and underwater.",
+      "didYouKnow": "The four-eyed fish frequents the brackish waters of mangroves and estuaries.",
+      "imageCaption": "Four-eyed fish"
+    },
+    {
+      "id": "fish-049",
+      "animal": "Clownfish",
+      "prompt": "What benefit does the anemone sometimes receive from its clownfish?",
+      "options": [
+        "The fish chases away certain intruders and provides nutrients",
+        "He cleans the anemone from its skeleton",
+        "It provides him with a defensive spur",
+        "It gives it light by bioluminescence"
+      ],
+      "explanation": "The fish defends the anemone and its movements can improve water circulation.",
+      "didYouKnow": "Clownfish are protandrous hermaphrodites: the dominant male can become female.",
+      "imageCaption": "Clownfish"
+    },
+    {
+      "id": "fish-050",
+      "animal": "Ghost fish",
+      "prompt": "How does the ghost fish escape detection?",
+      "options": [
+        "It imitates the floating algae among which it lives",
+        "Its tail hovers above the water",
+        "It camouflages itself with transparent mucus",
+        "It still lives in fresh water"
+      ],
+      "explanation": "Its silhouette and coloring resemble drifting plants.",
+      "didYouKnow": "Its tubular mouth sucks in small crustaceans and other tiny prey.",
+      "imageCaption": "Ghost fish"
+    },
+    {
+      "id": "fish-051",
+      "animal": "Southern sunfish",
+      "prompt": "How can sunfish get parasites removed from their skin?",
+      "options": [
+        "It sits near the surface where seabirds clean it",
+        "It produces a jet of water",
+        "It filters plankton with baleen",
+        "It stores air in a pocket"
+      ],
+      "explanation": "Seabirds sometimes peck external parasites on its body.",
+      "didYouKnow": "Sunfish may dive deep to feed before returning to warm up.",
+      "imageCaption": "Southern sunfish"
+    },
+    {
+      "id": "fish-052",
+      "animal": "Hatchet fish",
+      "prompt": "Why is the hatchetfish's belly silver?",
+      "options": [
+        "It reflects the weak light and camouflages its silhouette seen from below",
+        "It absorbs oxygen through its skin",
+        "It sucks up plankton with baleen",
+        "It has an air pocket to float"
+      ],
+      "explanation": "The reflection reduces the contrast with the light coming from the surface.",
+      "didYouKnow": "Its upward-directed eyes detect prey above.",
+      "imageCaption": "Silver hatchetfish"
+    },
+    {
+      "id": "fish-053",
+      "animal": "Abyssal Anglerfish",
+      "prompt": "In certain abyssal anglerfish, what happens to the male after attaching to a female?",
+      "options": [
+        "It can permanently fuse with the female and share its circulation",
+        "There remains a free male who guards the eggs alone.",
+        "It attaches temporarily then detaches after spawning",
+        "It becomes female before mating with a second female"
+      ],
+      "explanation": "In several abyssal anglerfish, the dwarf male attaches to the female and can fuse with her, ensuring access to partners in a vast environment.",
+      "didYouKnow": "In several species, the female has a luminous appendage near the mouth.",
+      "imageCaption": "Abyssal anglerfish (example: Johnson's melanocete)"
+    },
+    {
+      "id": "fish-054",
+      "animal": "Antarctic icefish",
+      "prompt": "How do the antifreeze proteins in icefish limit cold damage?",
+      "options": [
+        "They attach to crystals and slow their growth",
+        "They lower the freezing point by greatly increasing the salinity of the blood",
+        "They promote the formation of crystals away from sensitive tissues",
+        "They thermally insulate the organs without acting on the ice"
+      ],
+      "explanation": "These proteins bind to the surfaces of small crystals and prevent their growth in body fluids.",
+      "didYouKnow": "Some Antarctic species also have little or no hemoglobin in their blood.",
+      "imageCaption": "Antarctic icefish"
+    },
+    {
+      "id": "fish-055",
+      "animal": "Cave tetra",
+      "prompt": "What change in daily rhythm has been observed in cave-dwelling tetras?",
+      "options": [
+        "They sleep less than surface-dwelling forms",
+        "They only become active during full moon nights",
+        "They hibernate every winter in caves",
+        "They migrate to the surface every day"
+      ],
+      "explanation": "Some cave populations of Astyanax mexicanus show reduced sleep duration compared to surface populations.",
+      "didYouKnow": "Cave and surface shapes can still reproduce with each other.",
+      "imageCaption": "Cave tetra"
+    },
+    {
+      "id": "fish-056",
+      "animal": "Electric catfish",
+      "prompt": "What does the discharge of African electric catfish do?",
+      "options": [
+        "To stun prey or deter a threat",
+        "By releasing venom through the teeth",
+        "By producing a jet of water",
+        "By immobilizing its prey in mucus"
+      ],
+      "explanation": "A specialized electrical organ produces a strong defensive or hunting discharge.",
+      "didYouKnow": "Its sensory barbels explore the bottom and help it locate food.",
+      "imageCaption": "Electric catfish"
+    },
+    {
+      "id": "fish-057",
+      "animal": "Elephantnose fish",
+      "prompt": "How does the elephantnose fish use electrolocation in murky water?",
+      "options": [
+        "It emits a weak electric field and detects its deformations by skin receptors",
+        "It emits ultrasound and follows their echo in the mud",
+        "It only detects the electric field of prey",
+        "It uses the lateral line to measure reflected light"
+      ],
+      "explanation": "The elephant fish emits faint electrical signals; objects modify the field received by its skin electroreceptors.",
+      "didYouKnow": "Its flexible snout helps the elephant fish search the bottom.",
+      "imageCaption": "Elephantnose fish"
+    },
+    {
+      "id": "fish-058",
+      "animal": "Black Ghost Knifefish",
+      "prompt": "How does the black ghost knifefish detect an object with its weak electric field?",
+      "options": [
+        "Skin electroreceptors detect deformations of the field it emits",
+        "Olfactory cells detect electricity dissolved in water",
+        "Photoreceptors measure the shadow cast by the object",
+        "Otoliths transform the electric field into sound"
+      ],
+      "explanation": "The fish emits a weak electric field and detects, using electroreceptors, how objects disturb it.",
+      "didYouKnow": "Its long undulating anal fin allows it to swim forwards and backwards.",
+      "imageCaption": "Black Ghost Knifefish"
+    },
+    {
+      "id": "fish-059",
+      "animal": "Wolffish",
+      "prompt": "How do wolffish eat shellfish and sea urchins?",
+      "options": [
+        "It crushes them with strong jaws and teeth",
+        "By swallowing the shells whole",
+        "By filtering plankton",
+        "With a venomous sting"
+      ],
+      "explanation": "Its teeth are adapted to hard-shelled benthic prey.",
+      "didYouKnow": "Several wolffish live in the cold waters of the North Atlantic.",
+      "imageCaption": "Wolffish"
+    },
+    {
+      "id": "fish-060",
+      "animal": "Snakehead fish",
+      "prompt": "What accessory organ allows some snakeheads to supplement gill respiration with air?",
+      "options": [
+        "Vascularized suprabranchial structures",
+        "A swim bladder connected to the lungs",
+        "Spiracles behind the eyes",
+        "Air sacs connected to the pectoral fins"
+      ],
+      "explanation": "In many Channa, vascularized suprabranchial structures allow the use of oxygen from atmospheric air.",
+      "didYouKnow": "Certain species of snakeheads introduced outside their native range can become invasive.",
+      "imageCaption": "Striped snake head"
+    },
+    {
+      "id": "fish-061",
+      "animal": "Porcupinefish",
+      "prompt": "What happens when porcupine fish inflates?",
+      "options": [
+        "Its thorns stand up and make it more difficult to swallow",
+        "It deploys a dorsal sail to glide",
+        "It releases detachable thorns",
+        "It burrows without swallowing water"
+      ],
+      "explanation": "Swallowed water increases its volume and tightens its defensive spines.",
+      "didYouKnow": "Its spines are not connected to a venomous apparatus.",
+      "imageCaption": "Porcupinefish"
+    },
+    {
+      "id": "fish-062",
+      "animal": "Boxfish",
+      "prompt": "What structure protects the body of the boxfish?",
+      "options": [
+        "A shell of welded bone plates",
+        "A bag of dried mucus",
+        "Reinforced mobile scales",
+        "Skin covered with hair"
+      ],
+      "explanation": "The plates protect the trunk, while the fins remain mobile.",
+      "didYouKnow": "Some species of boxfish secrete toxins when stressed.",
+      "imageCaption": "Yellow Boxfish"
+    },
+    {
+      "id": "fish-063",
+      "animal": "Four-eyed fish",
+      "prompt": "How does the four-eyed fish give birth to its young?",
+      "options": [
+        "It gives birth to live young after internal development",
+        "It lays floating eggs in large schools",
+        "The male carries the embryos in a pouch",
+        "Eggs hatch in a nest of bubbles"
+      ],
+      "explanation": "Anableps are viviparous: fertilization is internal and females give birth to already developed young.",
+      "didYouKnow": "Each female has a reproductive tract suited to one side of the male's body, making mating directional.",
+      "imageCaption": "Four-eyed fish"
+    },
+    {
+      "id": "fish-064",
+      "animal": "Pipefish",
+      "prompt": "What posture helps pipefish hide in seagrass?",
+      "options": [
+        "He stands almost vertical, head upwards",
+        "He buries himself in the sand",
+        "It inflates to imitate a bubble",
+        "It swims in a school offshore"
+      ],
+      "explanation": "Its slender body resembles the stems among which it moves.",
+      "didYouKnow": "Pipefish are close relatives of seahorses.",
+      "imageCaption": "Pipefish"
+    },
+    {
+      "id": "fish-065",
+      "animal": "Ghost fish",
+      "prompt": "In ghostfish, which parent carries the eggs during development?",
+      "options": [
+        "The female, between her enlarged pelvic fins",
+        "The male, in a ventral pocket like in the seahorse",
+        "Both parents, in their gills",
+        "None: eggs are always scattered in open water"
+      ],
+      "explanation": "In Solenostomus paradoxus, the female carries the eggs between her modified pelvic fins.",
+      "didYouKnow": "The ghost fish's camouflage allows it to blend in with floating algae.",
+      "imageCaption": "Ghost fish"
+    },
+    {
+      "id": "fish-066",
+      "animal": "Filefish",
+      "prompt": "How does the filefish anchor itself in a crevice to escape a predator?",
+      "options": [
+        "He locks his first backbone",
+        "He inflates his belly to float",
+        "It is electrified to attach itself to the rock",
+        "It sticks its mouth to the substrate"
+      ],
+      "explanation": "A second thorn blocks the first in an erect position.",
+      "didYouKnow": "The filefish's first backbone may be locked by a second spine.",
+      "imageCaption": "Filefish"
+    },
+    {
+      "id": "fish-067",
+      "animal": "Batfish",
+      "prompt": "How do batfish move on the bottom?",
+      "options": [
+        "It supports itself on its fins like legs.",
+        "It undulates its pectoral fins",
+        "He hovers out of the water",
+        "It propels itself by a forked tail"
+      ],
+      "explanation": "Its pectoral and pelvic fins are used to crawl on the substrate.",
+      "didYouKnow": "Juveniles of some species resemble floating dead leaves.",
+      "imageCaption": "Batfish"
+    },
+    {
+      "id": "fish-068",
+      "animal": "Toadfish",
+      "prompt": "What structure serves as a resonator for the low-pitched calls of the male toadfish?",
+      "options": [
+        "The swim bladder vibrated by specialized muscles",
+        "Pharyngeal teeth rubbed against each other",
+        "The covers struck against the gills",
+        "Pectoral fins rubbed on the substrate"
+      ],
+      "explanation": "Specialized muscles vibrate the swim bladder, which amplifies sounds produced during vocalizations.",
+      "didYouKnow": "Toadfish often frequent shallow coastal waters.",
+      "imageCaption": "Toadfish"
+    },
+    {
+      "id": "fish-069",
+      "animal": "Pilot fish",
+      "prompt": "What advantage does the pilot fish sometimes gain from its proximity to a shark?",
+      "options": [
+        "It benefits from food scraps and relative protection",
+        "It is carried in the shark's pouch",
+        "It filters the plankton thanks to the host",
+        "It can only live in fresh water"
+      ],
+      "explanation": "It may feed on scraps or parasites while swimming near a large host.",
+      "didYouKnow": "The pilot fish can also move and feed without a shark.",
+      "imageCaption": "Pilot fish"
+    },
+    {
+      "id": "fish-070",
+      "animal": "Squirrelfish",
+      "prompt": "Why are the squirrelfish's big eyes useful?",
+      "options": [
+        "They capture more light during nighttime outings",
+        "They suck air from the surface",
+        "They detect electric fields",
+        "They filter food particles"
+      ],
+      "explanation": "This adaptation helps it spot prey when light is low.",
+      "didYouKnow": "It often hides in crevices during the day.",
+      "imageCaption": "Squirrelfish"
+    },
+    {
+      "id": "fish-071",
+      "animal": "Soldier fish",
+      "prompt": "When do soldier fish often forage?",
+      "options": [
+        "At night",
+        "It only feeds during the day",
+        "It migrates towards the mangroves",
+        "He stores eggs in his mouth"
+      ],
+      "explanation": "It comes out after sunset to hunt small crustaceans and zooplankton.",
+      "didYouKnow": "Soldierfish can produce sounds by vibrating their swim bladder.",
+      "imageCaption": "Soldier fish"
+    },
+    {
+      "id": "fish-072",
+      "animal": "Sheepshead wrasse",
+      "prompt": "What reproductive change can occur in the sheepshead wrasse?",
+      "options": [
+        "A female can become male",
+        "The male becomes female every season",
+        "The sexes always remain separate",
+        "The species never changes sex"
+      ],
+      "explanation": "In this species, some individuals change sex during their life.",
+      "didYouKnow": "Large male sheepshead wrasses often defend breeding territories.",
+      "imageCaption": "Sheepshead wrasse"
+    },
+    {
+      "id": "fish-073",
+      "animal": "Napoleon wrasse",
+      "prompt": "What do adult Napoleon wrasses primarily feed on?",
+      "options": [
+        "Molluscs and shelled crustaceans",
+        "Plankton filtered from open water",
+        "Algae only",
+        "Large marine mammals"
+      ],
+      "explanation": "Napoleon wrasses eat molluscs and crustaceans; crown-of-thorns starfish are occasional prey, not their main food.",
+      "didYouKnow": "The Napoleon wrasse is the largest living wrasse and grows slowly.",
+      "imageCaption": "Napoleon wrasse"
+    },
+    {
+      "id": "fish-074",
+      "animal": "Mandarin fish",
+      "prompt": "What chemical defense does mandarin fish use?",
+      "options": [
+        "Skin mucus that discourages certain predators",
+        "It has a cartilaginous skeleton",
+        "It is poisonous to the touch",
+        "It lives exclusively in fresh water"
+      ],
+      "explanation": "Substances present in its mucus make the fish unappetizing.",
+      "didYouKnow": "Mandarin fish display bright colors produced by pigment cells.",
+      "imageCaption": "Mandarin fish"
+    },
+    {
+      "id": "fish-075",
+      "animal": "Butterflyfish",
+      "prompt": "What type of food do butterflyfish often peck from crevices?",
+      "options": [
+        "Coral polyps and small invertebrates",
+        "Seaweed grazed on the reef",
+        "Eggs laid on plants",
+        "Fish attracted by a jet of water"
+      ],
+      "explanation": "Its thin snout allows it to reach prey hidden in the reef.",
+      "didYouKnow": "An eyespot near the tail can distract attention from its actual eye.",
+      "imageCaption": "Butterflyfish"
+    },
+    {
+      "id": "fish-076",
+      "animal": "Four-eyed butterflyfish",
+      "prompt": "What is the purpose of the eye-shaped spot near the tail in some butterflyfish?",
+      "options": [
+        "It can deflect a predator's attack from its head",
+        "It indicates the depth of the water",
+        "It is used to filter prey",
+        "It produces an electric discharge"
+      ],
+      "explanation": "An eyespot confuses the fish's orientation and can attract the attack backwards.",
+      "didYouKnow": "A dark bar often crosses the true eye.",
+      "imageCaption": "Four-eyed butterflyfish"
+    },
+    {
+      "id": "fish-077",
+      "animal": "leopard ray",
+      "prompt": "What pattern helps you recognize the leopard ray?",
+      "options": [
+        "Dark spots on a light back",
+        "Light vertical stripes on a dark back",
+        "A shell of bony plates",
+        "A sickle-shaped caudal fin"
+      ],
+      "explanation": "Its spots give it its common name and help break up its outline against the background.",
+      "didYouKnow": "The eagle ray frequents sandy bottoms and coastal bays.",
+      "imageCaption": "leopard ray"
+    },
+    {
+      "id": "fish-078",
+      "animal": "Zebra shark",
+      "prompt": "How does the livery of the zebra shark change between the young and the adult?",
+      "options": [
+        "The young striped becomes spotted as it grows",
+        "The spotted young becomes striped",
+        "The dress remains the same at any age",
+        "The young is silver then becomes solid blue"
+      ],
+      "explanation": "Striped juveniles acquire a spotted coat as adults.",
+      "didYouKnow": "Juveniles have contrasting bands, while adults have spots.",
+      "imageCaption": "Zebra shark"
+    },
+    {
+      "id": "fish-079",
+      "animal": "Epaulette shark",
+      "prompt": "How can the epaulette shark tolerate hypoxia in an isolated reef at low tide?",
+      "options": [
+        "It reduces its metabolic activity and its oxygen consumption",
+        "It accelerates its swimming to increase the flow of water on the gills",
+        "It breathes air thanks to a suprabranchial organ",
+        "It closes its gills and permanently replaces exchanges with the skin"
+      ],
+      "explanation": "The epaulette shark tolerates episodes of hypoxia by reducing its metabolic activity and maintaining its vital functions.",
+      "didYouKnow": "Its pectoral and pelvic fins also allow it to progress on the reef at low tide.",
+      "imageCaption": "Epaulette shark"
+    },
+    {
+      "id": "fish-080",
+      "animal": "Smalltooth sawfish",
+      "prompt": "Why might the sawfish's nose make it vulnerable to nets?",
+      "options": [
+        "Its side teeth can get tangled in it",
+        "Its rostrum filters plankton in the water",
+        "Its fins form a catching net",
+        "It burrows and abandons its rostrum"
+      ],
+      "explanation": "The toothed appendage easily snags on fishing gear and can injure the animal.",
+      "didYouKnow": "The sawfish is a ray and has gill slits on the underside of its body.",
+      "imageCaption": "Smalltooth sawfish"
+    },
+    {
+      "id": "fish-081",
+      "animal": "Greenland shark",
+      "prompt": "On which part of the Greenland shark did the researchers measure the radiocarbon to estimate its age?",
+      "options": [
+        "The nucleus of the lens of the eye",
+        "Scale growth rings",
+        "Fin growth streaks",
+        "Growth bands of the vertebrae"
+      ],
+      "explanation": "Radiocarbon from the lens nucleus was used to estimate the age of Greenland sharks, a slow-growing species.",
+      "didYouKnow": "The Greenland shark is one of the largest sharks living in the cold waters of the North Atlantic.",
+      "imageCaption": "Greenland shark"
+    },
+    {
+      "id": "fish-082",
+      "animal": "Blue shark",
+      "prompt": "What trait helps the blue shark blend into the ocean?",
+      "options": [
+        "Its blue back and light belly",
+        "A white back and a blue belly",
+        "Red stripes all over the body",
+        "Transparent skin without pigments"
+      ],
+      "explanation": "The dark back merges with the deep water seen from above, and the light belly with the surface seen from below.",
+      "didYouKnow": "The blue shark travels long distances on the high seas.",
+      "imageCaption": "Blue shark"
+    },
+    {
+      "id": "fish-083",
+      "animal": "Icefish",
+      "prompt": "How is the absence of hemoglobin compensated for in many Antarctic icefish?",
+      "options": [
+        "Oxygen remains dissolved in cold plasma, with high flow rate circulation",
+        "Transparent hemoglobin replaces ordinary hemoglobin",
+        "The gills convert carbon dioxide into oxygen",
+        "Fish use lungs during dives"
+      ],
+      "explanation": "Cold increases the solubility of oxygen in plasma; the large blood volume and high cardiac output support its transport.",
+      "didYouKnow": "Antifreeze proteins found in many species slow the growth of crystals in their fluids.",
+      "imageCaption": "Icefish"
+    },
+    {
+      "id": "fish-084",
+      "animal": "Swim bladder fish",
+      "prompt": "What is the primary role of the swim bladder in many bony fishes?",
+      "options": [
+        "Adjust buoyancy",
+        "Produce a shock to stun prey",
+        "Replacing the gills during a dive",
+        "Detect odors carried by water"
+      ],
+      "explanation": "The gas in the bladder helps the fish stay at a given depth with little effort.",
+      "didYouKnow": "Sharks compensate for their buoyancy with a large, oil-rich liver.",
+      "imageCaption": "Swim bladder fish (example: goldfish)"
+    },
+    {
+      "id": "fish-085",
+      "animal": "Fish with a lateral line",
+      "prompt": "What does a fish’s lateral line detect?",
+      "options": [
+        "The movements and vibrations of water",
+        "Salinity variations",
+        "The sounds made by boats",
+        "Ultraviolet light only"
+      ],
+      "explanation": "Its sensory receptors perceive variations in pressure around the body.",
+      "didYouKnow": "The receptors of this sensory line are arranged along the sides and the head.",
+      "imageCaption": "Fish with a lateral line (example: zebrafish)"
+    },
+    {
+      "id": "fish-086",
+      "animal": "Marine fish",
+      "prompt": "What do a fish’s gills take from the water?",
+      "options": [
+        "Dissolved oxygen",
+        "Water temperature",
+        "Tidal currents",
+        "The amount of dissolved salt"
+      ],
+      "explanation": "The gills transfer gaseous oxygen dissolved in water to the blood.",
+      "didYouKnow": "The gills also help eliminate carbon dioxide.",
+      "imageCaption": "Marine fish (example: ocellated clownfish)"
+    },
+    {
+      "id": "fish-087",
+      "animal": "Bony fish",
+      "prompt": "What structure typically covers the gills of bony fish?",
+      "options": [
+        "The cover",
+        "The mouth",
+        "The caudal fin",
+        "The swim bladder"
+      ],
+      "explanation": "This bony part protects the gills and participates in ventilation.",
+      "didYouKnow": "The operculum protects the gills and helps circulate water in bony fish.",
+      "imageCaption": "Bony fish (example: common carp)"
+    },
+    {
+      "id": "fish-088",
+      "animal": "Cartilaginous fish",
+      "prompt": "What are the skeletons of sharks and rays mainly made of?",
+      "options": [
+        "Cartilage",
+        "Chitin",
+        "Pure calcium without cartilage",
+        "From muscle tissue only"
+      ],
+      "explanation": "These fish have a predominantly cartilaginous skeleton, although some areas are mineralized.",
+      "didYouKnow": "Dermal denticles often give shark skin a rough texture.",
+      "imageCaption": "Cartilaginous fish (example: great white shark)"
+    },
+    {
+      "id": "fish-089",
+      "animal": "Ray-finned fish",
+      "prompt": "Which group includes the majority of current fish species?",
+      "options": [
+        "Ray-finned fish",
+        "Lobe-finned fish",
+        "Marine mammals",
+        "Finned invertebrates"
+      ],
+      "explanation": "Actinopterygii are the most diverse group of fish.",
+      "didYouKnow": "The fins of actinopterygians are supported by fine rays.",
+      "imageCaption": "Ray-finned fish (example: zebrafish)"
+    },
+    {
+      "id": "fish-090",
+      "animal": "Lobe-finned fish",
+      "prompt": "Which group includes coelacanths and lungfish?",
+      "options": [
+        "Lobe-finned fish",
+        "Ray-finned fish",
+        "Skates with cartilaginous skeletons",
+        "Adult amphibians"
+      ],
+      "explanation": "Sarcopterygii have paired fins supported by muscular lobes.",
+      "didYouKnow": "Tetrapods descend from ancestors belonging to the lineage of fleshy-finned fish.",
+      "imageCaption": "Lobe-finned fish (example: coelacanth)"
+    },
+    {
+      "id": "fish-091",
+      "animal": "Freshwater fish",
+      "prompt": "Why does a freshwater fish have to excrete copious, dilute urine?",
+      "options": [
+        "Water enters by osmosis while ions tend to diffuse outwards",
+        "Salt enters by osmosis and water continually leaves the body",
+        "Gills remove water while retaining urea",
+        "The fish drinks seawater and must expel excess sodium"
+      ],
+      "explanation": "Fresh water is less concentrated than body fluids: water enters by osmosis, while fish collect ions and excrete excess water.",
+      "didYouKnow": "In many bony freshwater fish, the swim bladder also helps control buoyancy.",
+      "imageCaption": "Freshwater fish (example: common carp)"
+    },
+    {
+      "id": "fish-092",
+      "animal": "Marine fish",
+      "prompt": "How do many bony marine fish compensate for the loss of water to a salty environment?",
+      "options": [
+        "They drink seawater and eliminate excess ions through the gills",
+        "They absorb water through the skin and retain all salts",
+        "They drink little and excrete very dilute urine",
+        "They eliminate salts only through the fins"
+      ],
+      "explanation": "Drinking sea water compensates for losses; gill cells mainly excrete excess ions.",
+      "didYouKnow": "Marine sharks compensate for salt with a different osmotic strategy than bony fish.",
+      "imageCaption": "Marine fish (example: ocellated clownfish)"
+    },
+    {
+      "id": "fish-093",
+      "animal": "Coastal fish",
+      "prompt": "What does a seagrass provide for many species of fish?",
+      "options": [
+        "Shelter, prey and growing areas",
+        "A shelter only for adult fish",
+        "A spawning site reserved for sharks",
+        "An area devoid of prey"
+      ],
+      "explanation": "The leaves slow down the water and host small invertebrates that feed the fish.",
+      "didYouKnow": "Seagrass meadows also store carbon in their sediments.",
+      "imageCaption": "Coastal fish (example: black goby)"
+    },
+    {
+      "id": "fish-094",
+      "animal": "Migratory fish",
+      "prompt": "What human obstacle can interrupt the migration of fish in rivers?",
+      "options": [
+        "A dam without an effective passage",
+        "A fish pass",
+        "An artificial reef",
+        "A spawning area at sea"
+      ],
+      "explanation": "Dams sometimes block access to spawning grounds or feeding habitats.",
+      "didYouKnow": "Fish passes can restore part of the continuity of rivers.",
+      "imageCaption": "Migratory fish (example: Atlantic salmon)"
+    },
+    {
+      "id": "fish-095",
+      "animal": "Anadromous fish",
+      "prompt": "What does it mean when a fish is anadromous?",
+      "options": [
+        "It grows mainly in the sea and reproduces in fresh water.",
+        "It grows in rivers and spawns in the sea",
+        "He never leaves fresh water",
+        "It lives at sea and spawns on beaches"
+      ],
+      "explanation": "Salmon are examples of species that migrate from the sea to rivers to spawn.",
+      "didYouKnow": "Salmon is a well-known example of an anadromous fish.",
+      "imageCaption": "Anadromous fish (example: Atlantic salmon)"
+    },
+    {
+      "id": "fish-096",
+      "animal": "Catadromous fish",
+      "prompt": "What is the direction of reproductive migration of a catadromous eel?",
+      "options": [
+        "It grows in fresh water then migrates to the sea to reproduce",
+        "It grows in the sea then goes up the rivers to spawn",
+        "She stays all her life in an estuary",
+        "It is born at sea and reproduces in lakes."
+      ],
+      "explanation": "Freshwater eels return to the ocean to spawn after their continental growth.",
+      "didYouKnow": "European eels grow in fresh water and then reproduce in the sea.",
+      "imageCaption": "Catadromous fish (example: European eel)"
+    },
+    {
+      "id": "fish-097",
+      "animal": "Demersal fish",
+      "prompt": "Where does a demersal fish mainly live?",
+      "options": [
+        "Near the seabed",
+        "In the tree canopy",
+        "In open water near the surface only",
+        "In burrows dug on the bank"
+      ],
+      "explanation": "Demersal species live above or in contact with the bottom while being able to swim freely.",
+      "didYouKnow": "Demersal fish can live on rocky, sandy or muddy bottoms.",
+      "imageCaption": "Demersal fish (example: common sole)"
+    },
+    {
+      "id": "fish-098",
+      "animal": "Filter-feeding fish",
+      "prompt": "What gill structures retain food particles in many filter-feeding fish?",
+      "options": [
+        "The gill rakers of the gill arches",
+        "Pectoral fin electroreceptors",
+        "The pharyngeal teeth of the throat",
+        "Tactile barbels around the mouth"
+      ],
+      "explanation": "The gill rakers form a filtering surface that retains small prey while water circulates through the gills.",
+      "didYouKnow": "The whale shark and the basking shark are large filter-feeding fish.",
+      "imageCaption": "Filter-feeding fish (example: whale shark)"
+    },
+    {
+      "id": "fish-099",
+      "animal": "Flat fish",
+      "prompt": "During the metamorphosis of a turbot, what process places the two eyes on the upper side?",
+      "options": [
+        "An eye migrates through the head during metamorphosis",
+        "Both eyes migrate together towards the dorsal side",
+        "An eye is lost then regenerated on the other side",
+        "The skull rotates without moving the eyes"
+      ],
+      "explanation": "In flatfish, metamorphosis leads to migration of the eye and an asymmetrical reorganization of the head.",
+      "didYouKnow": "The side of the turbot facing the bottom is often paler than its upper side.",
+      "imageCaption": "Flat fish (example: European plaice)"
+    },
+    {
+      "id": "fish-100",
+      "animal": "Common sole",
+      "prompt": "How does the common sole locate prey buried in sediment?",
+      "options": [
+        "She uses her chemical senses and her nostrils close to the bottom",
+        "It locates prey with aerial hearing",
+        "It sucks the plankton to the surface",
+        "It detects electric fields by light bulbs"
+      ],
+      "explanation": "The sole searches for worms and small invertebrates on or in the substrate.",
+      "didYouKnow": "The sole rests on one side, with both eyes facing upwards.",
+      "imageCaption": "Common sole"
+    },
+    {
+      "id": "fish-101",
+      "animal": "Unicornfish",
+      "prompt": "What is the unicornfish's frontal protuberance?",
+      "options": [
+        "To a bony extension of the skull",
+        "A dorsal fin transformed into a lure",
+        "A horny patch on the tail",
+        "A luminous organ under the chin"
+      ],
+      "explanation": "The “horn” is a bony protuberance, the size of which varies with the species and age.",
+      "didYouKnow": "Unicornfish belong to the surgeonfish family.",
+      "imageCaption": "Unicornfish"
+    },
+    {
+      "id": "fish-102",
+      "animal": "Exocet",
+      "prompt": "Which fin is particularly developed in many flying fish?",
+      "options": [
+        "The pectoral fin",
+        "The caudal",
+        "The backbone",
+        "The barbels"
+      ],
+      "explanation": "The enlarged pectorals form supporting surfaces during gliding.",
+      "didYouKnow": "Exocets can hover above water without flapping their wings.",
+      "imageCaption": "Exocet"
+    },
+    {
+      "id": "fish-103",
+      "animal": "Razorfish",
+      "prompt": "How do razorfish camouflage themselves in seagrass?",
+      "options": [
+        "It often swims vertically, head down",
+        "It swims horizontally imitating a flatfish",
+        "He buries himself in the sand",
+        "It forms an adhesive disk"
+      ],
+      "explanation": "His thin silhouette resembles the leaves of sea grass among which he stands.",
+      "didYouKnow": "Razorfish often live in groups and consume small planktonic organisms.",
+      "imageCaption": "Razorfish"
+    },
+    {
+      "id": "fish-104",
+      "animal": "Humpback parrotfish",
+      "prompt": "What material do humpback parrotfish produce while grazing on the reef?",
+      "options": [
+        "Fine coral sand",
+        "Filtered plankton",
+        "Whole shells",
+        "Protective mucus"
+      ],
+      "explanation": "It ingests and crushes calcareous material, which it rejects in the form of sediment.",
+      "didYouKnow": "The humpback parrotfish is one of the largest parrotfishes.",
+      "imageCaption": "Humpback parrotfish"
+    },
+    {
+      "id": "fish-105",
+      "animal": "Emperor angelfish",
+      "prompt": "How does the emperor angelfish's coat change with age?",
+      "options": [
+        "Juvenile circle pattern becomes striped in adult",
+        "The adult pattern in circles becomes striped in the young",
+        "Both stadiums have the same dress",
+        "The young are spotted then the adult becomes entirely black"
+      ],
+      "explanation": "The juvenile livery is very different from that of the adult.",
+      "didYouKnow": "The two liveries were once taken for two different species.",
+      "imageCaption": "Emperor angelfish"
+    },
+    {
+      "id": "fish-106",
+      "animal": "Blue surgeonfish",
+      "prompt": "What is the purpose of the spine near the tail of the surgeonfish?",
+      "options": [
+        "To defend yourself",
+        "Attracting females with pheromones",
+        "To filter plankton",
+        "To cling to algae"
+      ],
+      "explanation": "This sharp thorn can be raised against an opponent.",
+      "didYouKnow": "Surgeonfish often feed on algae on reefs.",
+      "imageCaption": "Blue surgeonfish"
+    },
+    {
+      "id": "fish-107",
+      "animal": "Damselfish",
+      "prompt": "How do some ladies maintain their food?",
+      "options": [
+        "They cultivate and defend plots of algae",
+        "They defend a shrimp burrow",
+        "They filter larvae into the water",
+        "They keep the eggs in their mouth"
+      ],
+      "explanation": "They chase competing herbivores from their algae gardens.",
+      "didYouKnow": "Damselfly algae gardens can change the reef community.",
+      "imageCaption": "Damselfish"
+    },
+    {
+      "id": "fish-108",
+      "animal": "Cleaner wrasse",
+      "prompt": "Which contrast correctly describes the diet of a cleaner wrasse at a cleaning station?",
+      "options": [
+        "It mainly samples ectoparasites and sometimes mucus, not necrotic tissue",
+        "It mainly consumes dead scales and necrotic tissues",
+        "It grazes on gill algae and rarely eats parasites",
+        "It feeds mainly on the eggs laid on the skin of the client fish"
+      ],
+      "explanation": "Cleaner wrasses mainly take external parasites and also consume skin mucus; This is not a dead tissue diet.",
+      "didYouKnow": "Client fish frequent regular cleaning stations on the reef.",
+      "imageCaption": "Cleaner wrasse"
+    },
+    {
+      "id": "fish-109",
+      "animal": "Antarctic icefish",
+      "prompt": "How do certain species of ice fish transport oxygen despite the absence of hemoglobin?",
+      "options": [
+        "Oxygen remains dissolved in the cold plasma and circulates at high flow rates",
+        "Red blood cells contain transparent hemoglobin",
+        "The gills convert dissolved nitrogen into oxygen",
+        "The swim bladder releases oxygen directly into the muscles"
+      ],
+      "explanation": "Without hemoglobin, oxygen is transported dissolved in plasma; cold water and circulatory adaptations partially compensate for this limitation.",
+      "didYouKnow": "The hearts and vessels of icefish may be larger than in related fish.",
+      "imageCaption": "Antarctic icefish"
+    },
+    {
+      "id": "fish-110",
+      "animal": "Walking catfish",
+      "prompt": "How do the suprabranchial organs of Clarias allow air breathing?",
+      "options": [
+        "Vascularized suprabranchial surfaces bring inspired air into contact with blood",
+        "Suprabranchial chambers store air without exchange with blood",
+        "A closed swim bladder diffuses air towards the gills",
+        "Spiracles draw air towards the branchial arches"
+      ],
+      "explanation": "The suprabranchial organs are vascularized accessory respiratory structures where oxygen from the air can diffuse into the blood.",
+      "didYouKnow": "It can move briefly on moist ground between neighboring waters.",
+      "imageCaption": "Walking catfish"
+    },
+    {
+      "id": "fish-111",
+      "animal": "Striped snakehead",
+      "prompt": "How do adults of the striped snakehead protect their offspring?",
+      "options": [
+        "They keep eggs and fry in a defended area",
+        "The male incubates the eggs in a pouch",
+        "They attach the spawn to their fins",
+        "They abandon the eggs in a nest of bubbles"
+      ],
+      "explanation": "In Channa striata, adults defend the eggs and young fry against predators.",
+      "didYouKnow": "Striped snakeheads often hunt in shallow fresh water.",
+      "imageCaption": "Striped snakehead"
+    },
+    {
+      "id": "fish-112",
+      "animal": "Mekong catfish",
+      "prompt": "What threat affects the Mekong giant catfish?",
+      "options": [
+        "Fishing and the dams that disrupt its migrations",
+        "Light pollution and tourism",
+        "Losing its scales",
+        "Air acidification"
+      ],
+      "explanation": "This migratory species is affected by both harvesting and fragmentation of the river.",
+      "didYouKnow": "It is one of the largest freshwater fish known.",
+      "imageCaption": "Mekong catfish"
+    },
+    {
+      "id": "fish-113",
+      "animal": "Flathead catfish",
+      "prompt": "What area do flathead catfish primarily hunt?",
+      "options": [
+        "Near the bottom",
+        "In the tree canopy",
+        "In open water on the surface",
+        "On floating leaves"
+      ],
+      "explanation": "It is a benthic predator that searches for fish and invertebrates on the substrate.",
+      "didYouKnow": "Its broad, flattened head gives it its common name.",
+      "imageCaption": "Flathead catfish"
+    },
+    {
+      "id": "fish-114",
+      "animal": "Betta fish",
+      "prompt": "What does the fighting male do when an egg falls out of the bubble nest?",
+      "options": [
+        "He picks it up in his mouth and puts it back in the nest.",
+        "He buries it in the sand at the bottom",
+        "It carries it on its pectoral fins",
+        "He abandons the nest to build a new pocket"
+      ],
+      "explanation": "The male Betta splendens often collects dropped eggs and returns them to the bubble nest.",
+      "didYouKnow": "The fighter has a labyrinthine organ that allows him to breathe air on the surface.",
+      "imageCaption": "Betta fish"
+    },
+    {
+      "id": "fish-115",
+      "animal": "Pufferfish",
+      "prompt": "Why are some species of puffer fish dangerous to eat?",
+      "options": [
+        "Some fabrics may contain tetrodotoxin",
+        "A venom injected by its spines",
+        "A luminous mucus",
+        "An electric shock"
+      ],
+      "explanation": "This neurotoxin can cause severe paralysis and its presence depends on the species and tissue.",
+      "didYouKnow": "In several species, the toxin is associated with bacteria or food.",
+      "imageCaption": "Pufferfish"
+    },
+    {
+      "id": "fish-116",
+      "animal": "Butterflyfish",
+      "prompt": "Why might an eye-shaped spot near the tail be useful?",
+      "options": [
+        "She can deflect an attack from her head",
+        "It is used for breathing",
+        "It attracts a partner by bioluminescence",
+        "It is used to carry eggs"
+      ],
+      "explanation": "This eyespot makes the orientation of the fish less obvious to a predator.",
+      "didYouKnow": "A dark band near the true eye can also obscure it.",
+      "imageCaption": "Butterflyfish"
+    },
+    {
+      "id": "fish-117",
+      "animal": "Goblin Shark",
+      "prompt": "How does the goblin shark seize prey within range of its mouth?",
+      "options": [
+        "It quickly projects its jaws forward",
+        "It detaches its teeth to throw them at the prey",
+        "It opens its spiracles and sucks in the prey from the bottom",
+        "It produces an electric discharge with its Lorenzini ampulla"
+      ],
+      "explanation": "Its protrusive jaws move forward quickly to grasp prey, a notable adaptation in this deep-sea shark.",
+      "didYouKnow": "Her pink skin is due to vessels visible under poorly pigmented skin.",
+      "imageCaption": "Goblin Shark"
+    },
+    {
+      "id": "fish-118",
+      "animal": "Megamouth shark",
+      "prompt": "How does the megamouth shark feed?",
+      "options": [
+        "It filters plankton and small organisms",
+        "It hunts prey with its large teeth",
+        "It grazes on algae on the bottom",
+        "It carries its eggs on its back"
+      ],
+      "explanation": "It passes water over its filtering structures and retains tiny prey.",
+      "didYouKnow": "This species was only described in the 20th century.",
+      "imageCaption": "Megamouth shark"
+    },
+    {
+      "id": "fish-119",
+      "animal": "Epaulette shark",
+      "prompt": "How do female epaulette sharks protect their embryos?",
+      "options": [
+        "It deposits egg capsules in crevices of the reef",
+        "She carries the eggs in a belly pouch",
+        "She incubates the embryos in her mouth",
+        "She attaches them to her pectoral fins"
+      ],
+      "explanation": "The epaulette shark is oviparous; its egg capsules are deposited in refuges on the reef.",
+      "didYouKnow": "The epaulette shark can progress on the reef by leaning on its fins.",
+      "imageCaption": "Epaulette shark"
+    },
+    {
+      "id": "fish-120",
+      "animal": "Viperfish",
+      "prompt": "What are the viperfish's long teeth for?",
+      "options": [
+        "To retain captured prey",
+        "To attract prey with a lure",
+        "To defend yourself with a discharge",
+        "Digging burrows"
+      ],
+      "explanation": "Its curved teeth prevent caught fish from coming out of its mouth.",
+      "didYouKnow": "The viperfish lives in deep waters where light is rare.",
+      "imageCaption": "Viperfish"
+    },
+    {
+      "id": "fish-121",
+      "animal": "Lanternfish",
+      "prompt": "Why do many lanternfish swim to the surface at night?",
+      "options": [
+        "They follow the vertical migration of zooplankton",
+        "They follow sardines to the bottom",
+        "They avoid predators by migrating to the surface",
+        "They lay their eggs in plankton"
+      ],
+      "explanation": "The zooplankton come up at night to feed, and the fish follow them.",
+      "didYouKnow": "Daily vertical migrations move immense ocean biomass.",
+      "imageCaption": "Arctic lanternfish"
+    },
+    {
+      "id": "fish-122",
+      "animal": "Mudskipper",
+      "prompt": "How does the periophthalmus maintain its gills functional when it stays out of water?",
+      "options": [
+        "It keeps water in its gill chambers and keeps respiratory surfaces moist",
+        "It closes the gills and breathes only through dry scales",
+        "It replaces gill water with air in a pulmonary bladder",
+        "It keeps the gills dry and absorbs oxygen from the mud"
+      ],
+      "explanation": "The periophthalmus retains water in its gill chambers and keeps its respiratory surfaces moist.",
+      "didYouKnow": "Its protruding eyes can move independently and monitor air and water.",
+      "imageCaption": "Mudskipper (example: silver-lined mudskipper)"
+    },
+    {
+      "id": "fish-123",
+      "animal": "Electric catfish",
+      "prompt": "How do the electrical organs of the electric catfish produce a discharge?",
+      "options": [
+        "Coordinated activation of electrocytes produces a potential difference",
+        "The friction of the scales builds up a static charge",
+        "Luminous bacteria release current in water",
+        "Swim bladder amplifies lateral line signals"
+      ],
+      "explanation": "Electrocytes are activated in a coordinated manner; their stacking makes it possible to produce an electric discharge.",
+      "didYouKnow": "Its sensory barbels help it locate food in murky waters.",
+      "imageCaption": "Electric catfish"
+    },
+    {
+      "id": "fish-124",
+      "animal": "Bluegill",
+      "prompt": "What distinctive sign is found on the bluegill’s operculum?",
+      "options": [
+        "A dark flap-shaped spot behind the eye",
+        "A long beard under the chin",
+        "A continuous red stripe on the tail",
+        "A row of teeth visible on the outside of the mouth"
+      ],
+      "explanation": "The bluegill has a characteristic dark spot on the posterior edge of its cover.",
+      "didYouKnow": "Breeding males may display more intense colors.",
+      "imageCaption": "Bluegill"
+    },
+    {
+      "id": "fish-125",
+      "animal": "Archerfish",
+      "prompt": "What optical phenomenon must the archerfish compensate for when aiming at aerial prey?",
+      "options": [
+        "Refraction of light on the surface",
+        "Sound diffraction",
+        "Thinking about the scales",
+        "The dispersion of salt"
+      ],
+      "explanation": "The change in direction of light at the water-air interface shifts the apparent image of the target.",
+      "didYouKnow": "The archerfish can adjust its shot with experience and aim at moving targets.",
+      "imageCaption": "Archerfish"
+    },
+    {
+      "id": "fish-126",
+      "animal": "Archerfish",
+      "prompt": "How does the archerfish learn to improve its accuracy?",
+      "options": [
+        "By adjusting your shot after observing the results",
+        "By repeating the shot at the same angle without looking",
+        "By swimming to the target",
+        "By hitting the insect with its tail"
+      ],
+      "explanation": "It can correct its angle according to the apparent and real position of the target.",
+      "didYouKnow": "The archerfish uses its mouth as a tube to direct the jet.",
+      "imageCaption": "Archerfish"
+    },
+    {
+      "id": "fish-127",
+      "animal": "Sunfish",
+      "prompt": "Why do sunfish sometimes dive deep and then return near the surface?",
+      "options": [
+        "To feed deep down then warm up on the surface",
+        "To spawn in a shallow reef",
+        "To breathe atmospheric air",
+        "To hide in the mangroves"
+      ],
+      "explanation": "It can feed on deep prey and then absorb solar heat.",
+      "didYouKnow": "The sunfish is the heaviest bony fish known.",
+      "imageCaption": "Sunfish"
+    },
+    {
+      "id": "fish-128",
+      "animal": "Boxfish",
+      "prompt": "Why can the boxfish maneuver without bending its trunk significantly?",
+      "options": [
+        "Its fins provide most of the propulsion around a rigid shell.",
+        "It propels its body by waving a very flexible tail.",
+        "It uses jets of water expelled from its gills",
+        "It crawls with fins transformed into articulated legs"
+      ],
+      "explanation": "The rigid shell limits body flexion; the pectoral, dorsal and anal fins provide propulsion and maneuvering.",
+      "didYouKnow": "Welded bony plates protect the trunk of the boxfish.",
+      "imageCaption": "Yellow Boxfish"
+    },
+    {
+      "id": "fish-129",
+      "animal": "Tawny nurse shark",
+      "prompt": "How does the tawny nurse shark breathe when resting in a cavity?",
+      "options": [
+        "It actively pumps water over its gills",
+        "It moves continuously at high speed",
+        "He breathes through lungs",
+        "It absorbs oxygen through the skin"
+      ],
+      "explanation": "Mouth ventilation allows it to remain still without relying solely on swimming forward.",
+      "didYouKnow": "The tawny nurse shark hunts mainly at night near the bottom.",
+      "imageCaption": "Tawny nurse shark"
+    },
+    {
+      "id": "fish-130",
+      "animal": "Mako shark",
+      "prompt": "What adaptation makes the mako shark particularly fast?",
+      "options": [
+        "A streamlined body combined with powerful musculature",
+        "Enlarged pectoral fins",
+        "A giant swim bladder",
+        "Sensory barbs"
+      ],
+      "explanation": "Its hydrodynamic shape and powerful tail promote rapid acceleration.",
+      "didYouKnow": "The mako shark can leap out of the water when pursuing prey.",
+      "imageCaption": "Mako shark"
+    },
+    {
+      "id": "fish-131",
+      "animal": "Sawshark",
+      "prompt": "What character of the rostrum allows you to distinguish a sawshark from a sawfish?",
+      "options": [
+        "The Sawshark’s Sensory Barbs",
+        "Sawfish electroreceptors",
+        "The dorsal gill slits of the saw shark",
+        "The fused pectoral fins of the sawfish"
+      ],
+      "explanation": "Saw sharks have barbels under their rostrum, unlike sawfish.",
+      "didYouKnow": "The sawshark is a cartilaginous fish with a toothed rostrum.",
+      "imageCaption": "Sawshark"
+    },
+    {
+      "id": "fish-132",
+      "animal": "Parrotfish",
+      "prompt": "What benefit does the nocturnal mucous cocoon bring to certain parrotfish?",
+      "options": [
+        "It can attenuate olfactory signals and annoy certain parasites",
+        "It especially reduces water loss when the fish are out of the reef",
+        "It protects the fins from rubbing against the coral",
+        "It wraps the eggs during their incubation"
+      ],
+      "explanation": "The mucus forms an envelope around the resting fish; it could reduce olfactory signals and annoy certain parasites.",
+      "didYouKnow": "The humpback parrotfish can grind coral carbonate into sand.",
+      "imageCaption": "Parrotfish"
+    },
+    {
+      "id": "fish-133",
+      "animal": "Sunfish",
+      "prompt": "What do young sunfish often look like before they change into their adult form?",
+      "options": [
+        "To a small globular fish with many spines",
+        "To a long, finless eel",
+        "To a flattened ray with a sting",
+        "To a streamlined fish with a long rostrum"
+      ],
+      "explanation": "Juvenile sunfish are small and spiny; their silhouette changes greatly with growth.",
+      "didYouKnow": "The adult sunfish has a reduced tail called a clavus.",
+      "imageCaption": "Sunfish"
+    },
+    {
+      "id": "fish-134",
+      "animal": "Parrotfish",
+      "prompt": "What role do parrotfish play in coral reefs?",
+      "options": [
+        "They graze on algae that could compete with corals",
+        "They filter zooplankton",
+        "They eat exclusively jellyfish",
+        "They hunt large mammals"
+      ],
+      "explanation": "Grazing limits algal cover and frees up space for corals.",
+      "didYouKnow": "The parrotfish's beak grinds coral material into sand.",
+      "imageCaption": "Parrotfish"
+    },
+    {
+      "id": "fish-135",
+      "animal": "Butterflyfish",
+      "prompt": "Why can the presence of certain butterfly fish provide information on the state of a reef?",
+      "options": [
+        "Several species depend on living corals as a food resource",
+        "All species only live in waters without corals",
+        "Their color changes directly with the acidity of the water",
+        "They produce substances that measure coral growth"
+      ],
+      "explanation": "The abundance of certain species follows that of their prey corals, which can provide an ecological index, without replacing a direct measurement.",
+      "didYouKnow": "The thin snout of butterflyfish allows them to peck into crevices.",
+      "imageCaption": "Butterflyfish"
+    },
+    {
+      "id": "fish-136",
+      "animal": "white shark",
+      "prompt": "How can the great white shark keep its muscles relatively warm?",
+      "options": [
+        "By counter-current heat exchange",
+        "With an outer layer of fat only",
+        "By keeping air in your lungs",
+        "Thanks to a heated swim bladder"
+      ],
+      "explanation": "Networks of vessels recover part of the heat produced by the muscles.",
+      "didYouKnow": "The great white shark recovers part of its muscle heat using vascular networks.",
+      "imageCaption": "white shark"
+    },
+    {
+      "id": "fish-137",
+      "animal": "Whale shark",
+      "prompt": "How do whale sharks give birth to their young?",
+      "options": [
+        "Embryos develop in the mother and young are born alive",
+        "Parents deposit egg capsules on the reef",
+        "The male incubates the eggs in his mouth",
+        "Larvae hatch directly from plankton"
+      ],
+      "explanation": "The whale shark is aplacental viviparous: the embryos develop in the mother before the birth of live young.",
+      "didYouKnow": "The whale shark is the largest known living fish.",
+      "imageCaption": "Whale shark"
+    },
+    {
+      "id": "fish-138",
+      "animal": "thresher shark",
+      "prompt": "What reproductive phenomenon called oophagy has been observed in thresher sharks?",
+      "options": [
+        "Embryos consume unfertilized eggs in the uterus",
+        "Embryos consume only the yolk of their own egg",
+        "Females lay capsules which the embryos leave before hatching",
+        "Embryos receive their nutrients through a maternal placenta"
+      ],
+      "explanation": "In thresher sharks, embryos can consume unfertilized eggs during intrauterine development.",
+      "didYouKnow": "The long upper tail lobe of the thresher shark can strike and stun schooling fish.",
+      "imageCaption": "thresher shark"
+    },
+    {
+      "id": "fish-139",
+      "animal": "Torpedo ray",
+      "prompt": "How do torpedo rays give birth to their young?",
+      "options": [
+        "Embryos develop in the mother, who gives birth to live young",
+        "They deposit egg capsules on algae",
+        "The male incubates the eggs in his mouth",
+        "Eggs drift freely on the surface until hatching"
+      ],
+      "explanation": "Torpedoes are aplacental viviparous: the embryos develop in the uterus and the females give birth to live young.",
+      "didYouKnow": "Torpedo ray hatchlings can produce weak electrical discharges.",
+      "imageCaption": "Torpedo ray"
+    },
+    {
+      "id": "fish-140",
+      "animal": "Stingray",
+      "prompt": "What opening does a buried stingray allow water to enter before it passes over the gills?",
+      "options": [
+        "The spiracles located on the dorsal side, behind the eyes",
+        "Ventral gill slits, which suck in sand",
+        "The nostrils placed at the end of the snout",
+        "Electric pores distributed on the fins"
+      ],
+      "explanation": "The spiracles allow water to enter from above when the mouth is close to the sand; it then passes through the gills.",
+      "didYouKnow": "The water then comes out through the gill slits located under the body.",
+      "imageCaption": "Stingray"
+    },
+    {
+      "id": "fish-141",
+      "animal": "Sawfish",
+      "prompt": "How does the sawfish's rostrum detect hidden prey?",
+      "options": [
+        "It carries receptors sensitive to electric fields",
+        "They identify them by their color",
+        "They attract them with bubbles",
+        "They detect them only by hearing"
+      ],
+      "explanation": "These electroreceptors detect signals from prey buried in the substrate.",
+      "didYouKnow": "The sawfish is a ray, not a shark.",
+      "imageCaption": "Sawfish"
+    },
+    {
+      "id": "fish-142",
+      "animal": "moray eel",
+      "prompt": "Why does moray eel often open its mouth when standing still?",
+      "options": [
+        "To circulate water over its gills",
+        "To filter plankton",
+        "To carry eggs",
+        "To propel yourself by undulation"
+      ],
+      "explanation": "Opening and closing the mouth contributes to its ventilation.",
+      "didYouKnow": "The moray eel's pharyngeal jaws grab prey and pull it toward the throat.",
+      "imageCaption": "moray eel"
+    },
+    {
+      "id": "fish-143",
+      "animal": "Seahorse",
+      "prompt": "What is the purpose of the seahorse's prehensile tail?",
+      "options": [
+        "To cling to grasses and corals",
+        "The smallest individual is always female",
+        "Sex depends on water temperature",
+        "All individuals are female"
+      ],
+      "explanation": "The curled tail stabilizes the animal in the current and keeps it close to its habitat.",
+      "didYouKnow": "The seahorse swims in an upright position.",
+      "imageCaption": "Seahorse"
+    },
+    {
+      "id": "fish-144",
+      "animal": "Clownfish",
+      "prompt": "Where do Ocellated Clownfish live naturally?",
+      "options": [
+        "In the Indo-Western Pacific",
+        "In the Caribbean Sea only",
+        "In the temperate North Atlantic",
+        "In the lakes of East Africa"
+      ],
+      "explanation": "Amphiprion ocellaris is native to the tropical waters of the Indo-Western Pacific.",
+      "didYouKnow": "The ocellated clownfish lives with certain anemones which provide it with refuge.",
+      "imageCaption": "Clownfish"
+    },
+    {
+      "id": "fish-145",
+      "animal": "European eel",
+      "prompt": "How do young eels reach rivers after ocean drift?",
+      "options": [
+        "They transform into glass eels then move up the coastal waters",
+        "To hit schools of fish",
+        "To settle on the rocks",
+        "Digging burrows"
+      ],
+      "explanation": "Leptocephali drift from the ocean and become transparent glass eels near the coast.",
+      "didYouKnow": "Adult European eels migrate to the Sargasso Sea to spawn.",
+      "imageCaption": "European eel"
+    },
+    {
+      "id": "fish-146",
+      "animal": "American paddlefish",
+      "prompt": "What is the purpose of the American paddlefish's long snout?",
+      "options": [
+        "To detect prey using its sensory receptors",
+        "They spawn in lakes",
+        "They breed at sea",
+        "They lay eggs in the mangroves"
+      ],
+      "explanation": "The flattened snout is rich in receptors that detect organisms in murky water.",
+      "didYouKnow": "Its gill rakers filter zooplankton into the water.",
+      "imageCaption": "American paddlefish"
+    },
+    {
+      "id": "fish-147",
+      "animal": "Sturgeon",
+      "prompt": "Why is protection of spawning grounds essential for migratory sturgeon?",
+      "options": [
+        "The adults go up the rivers to lay eggs in suitable habitats.",
+        "They take the air on the surface",
+        "They become salt water without transformation",
+        "They stop breathing in the river"
+      ],
+      "explanation": "Fragmentation of rivers can prevent access to breeding areas.",
+      "didYouKnow": "Several species of sturgeon are threatened by fishing and habitat loss.",
+      "imageCaption": "Sturgeon"
+    },
+    {
+      "id": "fish-148",
+      "animal": "Salmon",
+      "prompt": "What changes in smoltification prepare a young salmon to move from fresh water to the sea?",
+      "options": [
+        "Adjustments of branchial ion transporters accompany migratory behavior",
+        "The lungs grow and replace the gills",
+        "The scales become waterproof bony plates",
+        "Reproduction moves from sea to rivers"
+      ],
+      "explanation": "Smoltification notably modifies the capacity of the gills to regulate ions and accompanies migratory behavior towards the sea.",
+      "didYouKnow": "Young salmon often move down rivers in the spring.",
+      "imageCaption": "Salmon"
+    },
+    {
+      "id": "fish-149",
+      "animal": "Rainbow Trout",
+      "prompt": "What is the name of the marine migratory form of rainbow trout?",
+      "options": [
+        "The steelhead",
+        "Goldfish",
+        "Silver crucian carp",
+        "Wild sea koi"
+      ],
+      "explanation": "It grows in the sea then returns to fresh water to spawn.",
+      "didYouKnow": "Other rainbow trout stay in the river their entire lives.",
+      "imageCaption": "Rainbow Trout"
+    },
+    {
+      "id": "fish-150",
+      "animal": "Koi carp",
+      "prompt": "What domestic species is koi carp a variety of?",
+      "options": [
+        "Common carp",
+        "Eggs laid on algae",
+        "A bubble nest built by the male",
+        "A clutch guarded by both parents"
+      ],
+      "explanation": "Koi are selected forms of common carp, bred for their colorful patterns.",
+      "didYouKnow": "Carp can learn to recognize people and feeding routines.",
+      "imageCaption": "Koi carp"
+    },
+    {
+      "id": "fish-151",
+      "animal": "Banggai cardinal fish",
+      "prompt": "What type of shelter does the Banggai cardinalfish often hang out in?",
+      "options": [
+        "Among the spines of diademed sea urchins or near anemones",
+        "In the nests dug by sharks",
+        "Offshore without shelter",
+        "In empty shells only"
+      ],
+      "explanation": "These structures provide shelter to individuals and their young people.",
+      "didYouKnow": "The Banggaï cardinal is endemic to a restricted region of Indonesia and threatened by collection.",
+      "imageCaption": "Banggai cardinal fish"
+    },
+    {
+      "id": "fish-152",
+      "animal": "Dwarf Pufferfish",
+      "prompt": "Why do the fused dental plates of tetrodons remain functional despite their growth?",
+      "options": [
+        "The edge of the plates wears against hard foods",
+        "The plates fall off and are replaced after each meal",
+        "Their growth stops once the jaw is adult",
+        "A layer of cartilage comes off to shorten the plates"
+      ],
+      "explanation": "Dental plates continually grow and their edge wears away during feeding, maintaining their ability to grind.",
+      "didYouKnow": "Tetrodons belong to the group of puffer fish.",
+      "imageCaption": "Dwarf Pufferfish"
+    },
+    {
+      "id": "fish-153",
+      "animal": "European perch",
+      "prompt": "What dark pattern is typical of European perch?",
+      "options": [
+        "Vertical stripes on the sides",
+        "Spots in horizontal rows",
+        "A united body without patterns",
+        "A clear spiral pattern"
+      ],
+      "explanation": "These bands contrast with the often reddish fins.",
+      "didYouKnow": "European perch consume invertebrates and then more small fish as they grow.",
+      "imageCaption": "European perch"
+    },
+    {
+      "id": "fish-154",
+      "animal": "Zander",
+      "prompt": "What advantage do the zander’s eyes, adapted to dim light, provide?",
+      "options": [
+        "They facilitate hunting at dusk and in murky water",
+        "They are suitable for vision in direct sunlight",
+        "They are only used to find partners",
+        "They help identify odors"
+      ],
+      "explanation": "Its vision works well when light is limited.",
+      "didYouKnow": "The zander is a freshwater predator of the perch family.",
+      "imageCaption": "Zander"
+    },
+    {
+      "id": "fish-155",
+      "animal": "Arctic char",
+      "prompt": "In which environments are Arctic char particularly adapted?",
+      "options": [
+        "To cold arctic waters and alpine lakes",
+        "To the warm tropical lagoons",
+        "To very hot desert rivers",
+        "To shallow reefs"
+      ],
+      "explanation": "It inhabits northern regions and certain cold mountain lakes.",
+      "didYouKnow": "Isolated lake populations of char can present different forms.",
+      "imageCaption": "Arctic char"
+    },
+    {
+      "id": "fish-156",
+      "animal": "European grayling",
+      "prompt": "Which fin is particularly tall in the common grayling?",
+      "options": [
+        "The dorsal fin",
+        "The caudal fin",
+        "Pelvic fins",
+        "External gills"
+      ],
+      "explanation": "The high dorsal is a distinctive feature, particularly visible in males.",
+      "didYouKnow": "The common grayling often frequents cool rivers with moderate current.",
+      "imageCaption": "European grayling"
+    },
+    {
+      "id": "fish-157",
+      "animal": "Muskellunge",
+      "prompt": "What anatomical character is often used to distinguish muskellunge from northern pike?",
+      "options": [
+        "The number of sensory pores under the jaw",
+        "The presence of an adipose fin",
+        "The number of barbels around the mouth",
+        "The position of the lateral line on the back"
+      ],
+      "explanation": "The mandibular pore count is a useful identification criterion, along with other morphological characters.",
+      "didYouKnow": "The muskellunge can exceed the common pike in size.",
+      "imageCaption": "Muskellunge"
+    },
+    {
+      "id": "fish-158",
+      "animal": "Largemouth bass",
+      "prompt": "When caught by suction, what draws the prey into the bass's mouth?",
+      "options": [
+        "Rapid expansion of the oral cavity creates an inflow of water",
+        "Closing the covers expels water towards the prey",
+        "The swim bladder attracts the prey towards the throat",
+        "The teeth grab the prey before the mouth opens"
+      ],
+      "explanation": "The lowering of the floor of the mouth and rapid expansion of the mouth creates lower pressure that drives water and prey.",
+      "didYouKnow": "The male often guards the nest and the first fry.",
+      "imageCaption": "Largemouth bass"
+    },
+    {
+      "id": "fish-159",
+      "animal": "Smallmouth bass",
+      "prompt": "What habitat does the smallmouth bass often frequent?",
+      "options": [
+        "Rocky, fresh and well-oxygenated waters",
+        "Hot brackish marshes",
+        "Coral reefs",
+        "Tropical stagnant waters"
+      ],
+      "explanation": "It is often associated with rivers and lakes with rocky bottoms.",
+      "didYouKnow": "The male smallmouth bass protects the eggs and fry in the nest.",
+      "imageCaption": "Smallmouth bass"
+    },
+    {
+      "id": "fish-160",
+      "animal": "European catfish",
+      "prompt": "Where are European catfish taste receptors particularly abundant?",
+      "options": [
+        "On the barbels and widely distributed on the skin",
+        "Only on the tongue, behind the teeth",
+        "In the dorsal fins, without receptors on the head",
+        "On the gill rakers, inside the gills"
+      ],
+      "explanation": "In catfish, taste buds are found on the barbels and over large areas of the skin.",
+      "didYouKnow": "European catfish are most active at dusk and night.",
+      "imageCaption": "European catfish"
+    },
+    {
+      "id": "fish-161",
+      "animal": "French angelfish",
+      "prompt": "What role can juvenile French angelfish sometimes play?",
+      "options": [
+        "They clean parasites from larger fish",
+        "They keep the eggs in their mouth",
+        "They build a cocoon of bubbles",
+        "They incubate the eggs in a pouch"
+      ],
+      "explanation": "Young individuals exploit this behavior to feed on parasites.",
+      "didYouKnow": "Adults often live in territorial pairs on reefs.",
+      "imageCaption": "French angelfish"
+    },
+    {
+      "id": "fish-162",
+      "animal": "Crocodile fish",
+      "prompt": "Where do crocodile fish often wait for their prey?",
+      "options": [
+        "Ambushing on a sandy or muddy bottom",
+        "By hanging upside down",
+        "By digging a burrow with its teeth",
+        "By imitating a floating leaf"
+      ],
+      "explanation": "Its camouflage allows it to remain almost invisible until prey passes by.",
+      "didYouKnow": "Its protruding eyes may remain pointed upwards when the fish is buried.",
+      "imageCaption": "Crocodile fish"
+    },
+    {
+      "id": "fish-163",
+      "animal": "Hawkfish",
+      "prompt": "How does the hawkfish stay on a coral perch?",
+      "options": [
+        "It relies on its robust pectoral fins",
+        "He burrows completely",
+        "It attaches with a mouth suction cup",
+        "It hovers above the reef"
+      ],
+      "explanation": "These fins help it stabilize itself on a coral branch while it watches.",
+      "didYouKnow": "The hawkfish leaps from its perch to capture small animals.",
+      "imageCaption": "Hawkfish"
+    },
+    {
+      "id": "fish-164",
+      "animal": "Fish with an upturned mouth",
+      "prompt": "What type of food can a fish with an upward-facing mouth grab easily?",
+      "options": [
+        "Insects on the surface of the water",
+        "Prey living in the sand",
+        "Plankton offshore",
+        "Algae attached to corals"
+      ],
+      "explanation": "The orientation of its mouth is adapted to prey that floats or falls to the surface.",
+      "didYouKnow": "The position of the mouth often gives a clue to the feeding pattern.",
+      "imageCaption": "Fish with an upturned mouth (example: archerfish)"
+    },
+    {
+      "id": "fish-165",
+      "animal": "Fish with an inferior mouth",
+      "prompt": "What type of feeding is a mouth placed under the head often suited to?",
+      "options": [
+        "Looking for food on the bottom",
+        "The mouth placed at the front",
+        "The mouth located on the back",
+        "The mouth retracted behind the eyes"
+      ],
+      "explanation": "This position facilitates grazing or digging of the substrate.",
+      "didYouKnow": "Catfish and sturgeons often have lower mouths.",
+      "imageCaption": "Fish with an inferior mouth (example: common pleco)"
+    },
+    {
+      "id": "fish-166",
+      "animal": "Fish with a terminal mouth",
+      "prompt": "Where is the terminal mouth of a fish located?",
+      "options": [
+        "At the front end of the head",
+        "To filter jellyfish",
+        "To crush shellfish",
+        "To suck up big fish"
+      ],
+      "explanation": "It allows you to seize prey located directly in front of the fish.",
+      "didYouKnow": "Terminal mouthing is common among swimmers who hunt in open water.",
+      "imageCaption": "Fish with a terminal mouth (example: ocellated clownfish)"
+    },
+    {
+      "id": "fish-167",
+      "animal": "Copper butterflyfish",
+      "prompt": "Why does the butterflyfish have a thin snout?",
+      "options": [
+        "To peck prey hidden in the cracks of the reef",
+        "He only hunts at midday",
+        "It lives exclusively in rivers",
+        "He spends the night in the mangroves"
+      ],
+      "explanation": "Its narrow mouth reaches small organisms between coral structures.",
+      "didYouKnow": "Many butterflyfish live in territorial pairs.",
+      "imageCaption": "Copper butterflyfish"
+    },
+    {
+      "id": "fish-168",
+      "animal": "Squirrelfish",
+      "prompt": "Where do squirrelfish hide during the day?",
+      "options": [
+        "In the crevices of the reef",
+        "Its dark back blends with the depths",
+        "It produces ventral light",
+        "It burrows in the grass beds"
+      ],
+      "explanation": "It often stays hidden during the day and comes out to look for food at night.",
+      "didYouKnow": "Squirrelfish have large eyes adapted to low light.",
+      "imageCaption": "Squirrelfish"
+    },
+    {
+      "id": "fish-169",
+      "animal": "Hatchetfish",
+      "prompt": "How does the hatchetfish escape detection from below?",
+      "options": [
+        "Its silver belly reflects surface light",
+        "They hide in the mangroves",
+        "They have external gills",
+        "They live in schools in the open sea"
+      ],
+      "explanation": "The reflection reduces its contrast for a predator beneath it.",
+      "didYouKnow": "His upward eyes spot figures above him.",
+      "imageCaption": "Hatchetfish"
+    },
+    {
+      "id": "fish-170",
+      "animal": "Freshwater sunfish",
+      "prompt": "Where do male sunfish typically build their nests?",
+      "options": [
+        "In a shallow depression in the substrate",
+        "In a coral cavity",
+        "In floating shells",
+        "In a belly pocket"
+      ],
+      "explanation": "The male cleans an area and guards it while the eggs develop.",
+      "didYouKnow": "Several sunfish defend their spawning.",
+      "imageCaption": "Freshwater sunfish"
+    },
+    {
+      "id": "fish-171",
+      "animal": "Blue Parrotfish",
+      "prompt": "In what large region are blue parrotfish found naturally?",
+      "options": [
+        "In the tropical waters of the Western Atlantic and Caribbean",
+        "In the freshwater lakes of Central Asia",
+        "In the polar waters of Antarctica",
+        "In the Baltic Sea and the North Sea"
+      ],
+      "explanation": "Scarus coeruleus is present in the tropical reefs of the western Atlantic, particularly in the Caribbean.",
+      "didYouKnow": "Young blue parrotfish may have a different livery than adults.",
+      "imageCaption": "Blue Parrotfish"
+    },
+    {
+      "id": "fish-172",
+      "animal": "Sailfin tang",
+      "prompt": "What might the display of the sailfin tang’s large dorsal fin signal?",
+      "options": [
+        "A display or threat during a social interaction",
+        "The direction of a plankton bank",
+        "The presence of a nest in the sand",
+        "The imminence of spawning in open water"
+      ],
+      "explanation": "The deployed fin accentuates the silhouette of the fish and is involved in social or territorial displays.",
+      "didYouKnow": "Surgeonfish often graze on algae on reefs.",
+      "imageCaption": "Sailfin tang"
+    },
+    {
+      "id": "fish-173",
+      "animal": "Reef fish",
+      "prompt": "Why do reef fishes exploit different microhabitats?",
+      "options": [
+        "This reduces competition for the same resources",
+        "They all occupy the same level of the reef",
+        "They prohibit any predation",
+        "They eat exclusively coral"
+      ],
+      "explanation": "Crevices, coral surfaces and seagrass beds offer distinct niches.",
+      "didYouKnow": "The structural complexity of reefs contributes to their high diversity.",
+      "imageCaption": "Reef fish (example: reticulate-finned butterflyfish)"
+    },
+    {
+      "id": "fish-174",
+      "animal": "Red Tail Catfish",
+      "prompt": "What coloring detail helps you recognize redtail catfish?",
+      "options": [
+        "A red-orange caudal fin",
+        "A blue spot on the top of the head",
+        "Vertical black bands on the sides",
+        "Transparent pectoral fins"
+      ],
+      "explanation": "The orange-red caudal fin is a striking visual sign of Phractocephalus hemioliopterus.",
+      "didYouKnow": "Phractocephalus hemioliopterus is native to the Amazon and Orinoco basins.",
+      "imageCaption": "Red Tail Catfish"
+    },
+    {
+      "id": "fish-175",
+      "animal": "Red-bellied Piranha",
+      "prompt": "Which statement best describes the diet of red-bellied piranhas?",
+      "options": [
+        "It varies depending on the species, age and available resources",
+        "They hunt exclusively large mammals",
+        "They only eat algae",
+        "They filter plankton all year round"
+      ],
+      "explanation": "Piranhas consume fish and other animal matter; they are not all hunters of large animals.",
+      "didYouKnow": "Red-bellied piranhas often live in groups, which can improve their alertness to predators.",
+      "imageCaption": "Red-bellied Piranha"
+    },
+    {
+      "id": "fish-176",
+      "animal": "Pufferfish",
+      "prompt": "What structure helps pufferfish crush shellfish?",
+      "options": [
+        "Its teeth fused together form a beak",
+        "Filtering gill rakers",
+        "A sticky tongue that tears shells",
+        "A toothed rostrum"
+      ],
+      "explanation": "The sturdy spout crushes hard foods and wears during feeding.",
+      "didYouKnow": "The fused teeth of tetrodons grow continuously.",
+      "imageCaption": "Pufferfish"
+    },
+    {
+      "id": "fish-177",
+      "animal": "Cardinal fish",
+      "prompt": "How does the male Banggaï cardinal protect his clutch?",
+      "options": [
+        "He keeps the eggs in his mouth",
+        "The female keeps the eggs in a pouch",
+        "Both parents carry them in a fin",
+        "They build a floating nest"
+      ],
+      "explanation": "This oral incubation protects the eggs until they hatch.",
+      "didYouKnow": "The Banggaï cardinal lives naturally in a restricted area of ​​Indonesia.",
+      "imageCaption": "Cardinal fish"
+    },
+    {
+      "id": "fish-178",
+      "animal": "Archerfish",
+      "prompt": "How does the archerfish produce a jet capable of knocking prey out of the water?",
+      "options": [
+        "It shapes a channel with its mouth and pushes the water with its tongue",
+        "It closes its lids to send a jet through the gills",
+        "It expels water from its swim bladder through its nostrils",
+        "It vibrates its caudal fin to project droplets"
+      ],
+      "explanation": "The mouth forms a firing channel and the tongue helps accelerate the jet directed towards the prey.",
+      "didYouKnow": "The archerfish can correct its aim with experience and aim at moving prey.",
+      "imageCaption": "Archerfish"
+    },
+    {
+      "id": "fish-179",
+      "animal": "Clownfish",
+      "prompt": "Why does the clownfish have a relationship with an anemone?",
+      "options": [
+        "The anemone provides refuge from many predators",
+        "It provides him with a source of food",
+        "It allows him to breathe air",
+        "She lays her eggs in her stomach"
+      ],
+      "explanation": "Fish tolerated by the anemone can hide among its stinging tentacles.",
+      "didYouKnow": "Clownfish can defend their anemone against fish that eat it.",
+      "imageCaption": "Clownfish"
+    },
+    {
+      "id": "fish-180",
+      "animal": "Lionfish",
+      "prompt": "What origin explains the presence of lionfish in the western Atlantic?",
+      "options": [
+        "Human introductions outside its Indo-Pacific area",
+        "A natural migration from the Mediterranean",
+        "Transport by polar currents",
+        "Expansion due to color change"
+      ],
+      "explanation": "Escaped or released individuals helped establish invasive populations.",
+      "didYouKnow": "Lionfish can reduce the abundance of small native reef fish.",
+      "imageCaption": "Lionfish"
+    },
+    {
+      "id": "fish-181",
+      "animal": "Seahorse",
+      "prompt": "How does the seahorse move in water?",
+      "options": [
+        "It swims in a vertical position, rapidly flapping its small dorsal fin.",
+        "It swims horizontally while waving its tail.",
+        "It moves forward with rapid tail beats.",
+        "He walks with his pelvic fins"
+      ],
+      "explanation": "The dorsal fin provides most of its propulsion, with help from the pectorals for steering.",
+      "didYouKnow": "The seahorse's prehensile tail is used for gripping, not propelling.",
+      "imageCaption": "Seahorse"
+    },
+    {
+      "id": "fish-182",
+      "animal": "Sunfish",
+      "prompt": "What structure replaces the classic caudal fin of the sunfish?",
+      "options": [
+        "The clavus, a rounded margin at the back of the body",
+        "A forked caudal fin",
+        "A large fan-shaped fin",
+        "A prehensile tail"
+      ],
+      "explanation": "The clavus results from the shortening of the posterior part of the body.",
+      "didYouKnow": "The sunfish propels itself mainly with its dorsal and anal fins.",
+      "imageCaption": "Sunfish"
+    },
+    {
+      "id": "fish-183",
+      "animal": "Common carp",
+      "prompt": "Where are the carp's pharyngeal teeth located and against what structure do they grind food?",
+      "options": [
+        "In the throat, where they press food against a hard pad",
+        "On the jaws, where they pierce prey before ingestion",
+        "On the gill rakers, where they filter the seeds",
+        "In the esophagus, against the wall of the swim bladder"
+      ],
+      "explanation": "Carp do not have visible teeth on the jaws; pharyngeal teeth grind food against a specialized pad.",
+      "didYouKnow": "Common carp have small barbels around their mouths.",
+      "imageCaption": "Common carp"
+    },
+    {
+      "id": "fish-184",
+      "animal": "Pipefish",
+      "prompt": "Which limb carries the eggs in multiple pipefish?",
+      "options": [
+        "The male, on an incubator area or in a pouch",
+        "The female, in a ventral pouch",
+        "Both parents, in the mouth",
+        "The female, on her fins"
+      ],
+      "explanation": "The female lays the eggs there, which the male protects during their development.",
+      "didYouKnow": "Pipefish are related to seahorses.",
+      "imageCaption": "Pipefish"
+    },
+    {
+      "id": "fish-185",
+      "animal": "Parrotfish",
+      "prompt": "What term describes the sex change observed in many parrotfish?",
+      "options": [
+        "Protogyny, where some females become males",
+        "Protandry, where males become females",
+        "Gonochoria, where each individual changes sex several times",
+        "Parthenogenesis, where females produce clones"
+      ],
+      "explanation": "Many parrotfish are protogynous: some individuals begin their lives as females and then become males.",
+      "didYouKnow": "The beak of parrotfish allows them to graze on reef substrate.",
+      "imageCaption": "Parrotfish"
+    },
+    {
+      "id": "fish-186",
+      "animal": "European eel",
+      "prompt": "What do leptocephali, the larvae of eels, look like?",
+      "options": [
+        "They are transparent and flattened like a sheet",
+        "They are opaque and spherical",
+        "They look like tiny brown eels",
+        "They have a calcified shell"
+      ],
+      "explanation": "This larval form drifts in the ocean before transforming into glass eels near the coast.",
+      "didYouKnow": "Leptocephali are very different from adult eels.",
+      "imageCaption": "European eel"
+    },
+    {
+      "id": "fish-187",
+      "animal": "Salmon",
+      "prompt": "What do you call a strategy where a Pacific salmon only reproduces once before dying?",
+      "options": [
+        "Semelparity",
+        "Iteroparity",
+        "Protogyny",
+        "Viviparity"
+      ],
+      "explanation": "Many Pacific salmon are semolparous; reproduction heavily mobilizes their reserves and is followed by their death.",
+      "didYouKnow": "Atlantic salmon can survive and spawn several times.",
+      "imageCaption": "Salmon"
+    },
+    {
+      "id": "fish-188",
+      "animal": "Salmon",
+      "prompt": "What does the salmon run mean?",
+      "options": [
+        "The movement of adults upstream to reach their spawning grounds",
+        "Downstream migration of adults",
+        "The movement of young people towards an estuary",
+        "Fish swimming towards the seabed"
+      ],
+      "explanation": "The adults travel up rivers from the sea to lay eggs.",
+      "didYouKnow": "Downstream means the downstream journey of young salmon.",
+      "imageCaption": "Salmon"
+    },
+    {
+      "id": "fish-189",
+      "animal": "Lanternfish",
+      "prompt": "What ocean area do lanternfish often frequent?",
+      "options": [
+        "The mesopelagic zone, where the light is very weak",
+        "The coastal area lit by the sun",
+        "Shallow reefs",
+        "Temperate coastal waters"
+      ],
+      "explanation": "This intermediate zone is home to large populations that migrate vertically every day.",
+      "didYouKnow": "Lanternfish are important prey for many marine predators.",
+      "imageCaption": "Arctic lanternfish"
+    },
+    {
+      "id": "fish-190",
+      "animal": "Antarctic icefish",
+      "prompt": "Why can Antarctic water contain a lot of dissolved oxygen?",
+      "options": [
+        "Gas solubility increases when water is cold",
+        "The salinity of the water",
+        "Direct sunlight",
+        "The number of fish present"
+      ],
+      "explanation": "Cold water can hold more oxygen in solution than hot water.",
+      "didYouKnow": "Some Antarctic species have antifreeze proteins in their body fluids.",
+      "imageCaption": "Antarctic icefish"
+    },
+    {
+      "id": "fish-191",
+      "animal": "Flat fish",
+      "prompt": "How can a flatfish hide on a sandy bottom?",
+      "options": [
+        "It partially buries itself by throwing sand with its fins.",
+        "It inflates its body to look like a rock",
+        "It attaches its belly to the substrate with a suction cup",
+        "It produces an opaque cloud of mucus"
+      ],
+      "explanation": "Many flatfish flick their fins to cover their bodies with sand while keeping their eyes exposed.",
+      "didYouKnow": "The pigmentation of the upper surface of many flatfish can adjust to the substrate.",
+      "imageCaption": "Flat fish (example: European plaice)"
+    },
+    {
+      "id": "fish-192",
+      "animal": "Cleaner fish",
+      "prompt": "What posture does a client fish often adopt at a cleaning station?",
+      "options": [
+        "He stands still and exposes parts of his body",
+        "The client opens his mouth and swims quickly",
+        "The client lies on his side and burrows",
+        "The client changes color to red"
+      ],
+      "explanation": "This pose allows the cleaner to access the skin, fins or gills.",
+      "didYouKnow": "The cleaning stations are frequented by customers of different species.",
+      "imageCaption": "Common cleaner wrasse"
+    },
+    {
+      "id": "fish-193",
+      "animal": "Catfish",
+      "prompt": "What skin feature is common to many catfish?",
+      "options": [
+        "She is naked, without typical scales",
+        "She always wears placoid scales",
+        "It is covered with coral patches",
+        "It is replaced by a rigid shell"
+      ],
+      "explanation": "In many Siluriformes, the skin does not bear the scales typical of many other bony fishes, although exceptions exist.",
+      "didYouKnow": "Some families of catfish have protective bony plates.",
+      "imageCaption": "Catfish"
+    },
+    {
+      "id": "fish-194",
+      "animal": "Butterflyfish",
+      "prompt": "What purpose can a dark stripe running across a butterflyfish's eye serve?",
+      "options": [
+        "To hide the position of the eye",
+        "To attract a female with flashes of light",
+        "To protect the gills from sediment",
+        "To receive sounds underwater"
+      ],
+      "explanation": "The pattern reduces visibility of the eye and may hinder a predator aiming at the head.",
+      "didYouKnow": "A eyespot near the tail can confuse a predator’s orientation.",
+      "imageCaption": "Butterflyfish"
+    },
+    {
+      "id": "fish-195",
+      "animal": "Mangrove fish",
+      "prompt": "How do mangrove roots change water near shore?",
+      "options": [
+        "They slow down the current and trap sediment",
+        "To absorb nutrients",
+        "To store eggs",
+        "To attach to rocks"
+      ],
+      "explanation": "The root network reduces wave energy and retains particles.",
+      "didYouKnow": "Mangroves provide nurseries for many coastal species.",
+      "imageCaption": "Mangrove fish (example: silver periophthalmus)"
+    },
+    {
+      "id": "fish-196",
+      "animal": "River fish",
+      "prompt": "Why do the gaps in a well-oxygenated gravel bed promote the development of salmon eggs?",
+      "options": [
+        "Water circulates between the pebbles and brings oxygen to the buried eggs.",
+        "Gravel produces oxygen by photosynthesis under the bottom",
+        "The pebbles block the circulation of water and retain heat",
+        "Eggs absorb oxygen directly through stones"
+      ],
+      "explanation": "The porosity of the gravel allows water circulation which renews the oxygen around the eggs; fine sediments can plug these spaces.",
+      "didYouKnow": "River fish can have their reproductive migrations interrupted by dams.",
+      "imageCaption": "River fish (example: brown trout)"
+    },
+    {
+      "id": "fish-197",
+      "animal": "Shark",
+      "prompt": "What is the role of the oil-rich liver in many sharks?",
+      "options": [
+        "It contributes to their buoyancy and stores energy",
+        "It filters plankton",
+        "It produces venom",
+        "It controls the salinity of the water"
+      ],
+      "explanation": "Oils are less dense than water and help offset body weight.",
+      "didYouKnow": "Sharks do not have swim bladders.",
+      "imageCaption": "Shark (example: great white shark)"
+    },
+    {
+      "id": "fish-198",
+      "animal": "Marine fish",
+      "prompt": "How does the countercurrent between water and blood improve the extraction of oxygen in the gills?",
+      "options": [
+        "It maintains a concentration gradient over the entire length of the lamellae",
+        "It circulates the blood in the same direction as the water to equalize the concentrations",
+        "It concentrates all the oxygen at the entrance to the gills then closes the lamellae",
+        "It converts carbon dioxide into oxygen using red blood cells"
+      ],
+      "explanation": "With opposing flows, the water maintains a higher oxygen concentration than the adjacent blood along the lamellae.",
+      "didYouKnow": "The gill covers of bony fish protect the gills and help circulate water.",
+      "imageCaption": "Marine fish (example: ocellated clownfish)"
+    },
+    {
+      "id": "fish-199",
+      "animal": "Fish with a swim bladder",
+      "prompt": "Which conduit characterizes a physostome fish and connects its swim bladder to the digestive tract?",
+      "options": [
+        "The pneumatic duct",
+        "The endolymphatic duct",
+        "The Wolffian duct",
+        "The opercular canal"
+      ],
+      "explanation": "In physostomous fish, the pneumatic duct connects the swim bladder to the esophagus and allows gas exchange with the digestive tract.",
+      "didYouKnow": "In physostomous fish, the pneumatic duct connects the swim bladder to the esophagus.",
+      "imageCaption": "Fish with a swim bladder (example: goldfish)"
+    },
+    {
+      "id": "fish-200",
+      "animal": "Fish with a swim bladder",
+      "prompt": "How does a physoclistous fish increase the amount of gas in its swim bladder at depth?",
+      "options": [
+        "A gas gland transfers gases from the blood to the bladder",
+        "A pneumatic duct lets swallowed air enter from the esophagus",
+        "A resorption area adds gas from the intestine",
+        "The kidneys filter dissolved oxygen and send it to the bladder"
+      ],
+      "explanation": "The gas gland locally acidifies the blood and promotes gas transfer into the bladder, helping the fish maintain buoyancy.",
+      "didYouKnow": "In some species, the swim bladder also contributes to hearing.",
+      "imageCaption": "Fish with a swim bladder (example: goldfish)"
+    }
+  ]
+}

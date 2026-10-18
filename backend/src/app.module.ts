@@ -19,6 +19,8 @@ import { HealthContentModule } from './health-content/health-content.module';
 import { LegislationModule } from './legislation/legislation.module';
 import { FoodModule } from './food/food.module';
 import { EquipmentModule } from './equipment/equipment.module';
+import { CareAgendaModule } from './care-agenda/care-agenda.module';
+import { HabitatsModule } from './habitats/habitats.module';
 import { AnimalsModule } from './animals/animals.module';
 import { RoutinesModule } from './routines/routines.module';
 import { MedicationsModule } from './medications/medications.module';
@@ -31,6 +33,7 @@ import { GradeModule } from './grade/grade.module';
 import { AffiliateModule } from './affiliate/affiliate.module';
 import { SubscriptionModule } from './subscription/subscription.module';
 import { SpeciesRoutinesModule } from './species-routines/species-routines.module';
+import { QuizModule } from './quiz/quiz.module';
 
 const redisEnabled = process.env.REDIS_ENABLED === 'true';
 
@@ -73,8 +76,11 @@ const redisEnabled = process.env.REDIS_ENABLED === 'true';
     EquipmentModule,
     AffiliateModule,
     AnimalsModule,
+    HabitatsModule,
+    CareAgendaModule,
     SubscriptionModule,
     SpeciesRoutinesModule,
+    QuizModule,
     RoutinesModule,
     MedicationsModule,
     VetAppointmentsModule,

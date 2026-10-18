@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "475ce01b588597d021430c6b280c4a9eecbaecc62ebdcf7be4bc4515978b1f4d",
+  "locale": "en",
+  "questions": [
+    {
+      "id": "unusual-001",
+      "animal": "octopus",
+      "prompt": "How many hearts does an octopus have?",
+      "options": [
+        "Only one",
+        "Four",
+        "Two",
+        "Three"
+      ],
+      "explanation": "Two pump blood to the gills and the third to the rest of the body.",
+      "didYouKnow": "Its blue blood contains hemocyanin, a copper molecule that carries oxygen.",
+      "imageCaption": "Octopus vulgaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-002",
+      "animal": "octopus",
+      "prompt": "What respiratory pigment gives octopus blood its blue color?",
+      "options": [
+        "Hemoglobin",
+        "Myoglobin",
+        "Hemocyanin",
+        "Chlorocruorin"
+      ],
+      "explanation": "This copper protein carries oxygen in the blood of octopuses.",
+      "didYouKnow": "In many octopuses, the female guards and ventilates the eggs until they hatch.",
+      "imageCaption": "Octopus vulgaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-003",
+      "animal": "octopus",
+      "prompt": "How much of an octopus’ nervous system is in each of its arms?",
+      "options": [
+        "Tendons connected to the brain",
+        "Ganglia without neurons",
+        "Clusters of neurons",
+        "Articulated ossicles"
+      ],
+      "explanation": "Its arms can locally process sensory information and coordinate movements.",
+      "didYouKnow": "While swimming, the heart that sends blood to the body briefly stops beating; the octopus therefore often moves by crawling.",
+      "imageCaption": "Octopus vulgaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-004",
+      "animal": "octopus",
+      "prompt": "How can an octopus squeeze through a very narrow opening?",
+      "options": [
+        "She retracts her eight arms into a bag",
+        "She unties her arms before passing",
+        "Its body lacks a rigid skeleton",
+        "It deflates its gills to flatten itself"
+      ],
+      "explanation": "Its beak is the hard part which most often limits passage.",
+      "didYouKnow": "Some octopuses can regenerate a lost arm, although regrowth takes time.",
+      "imageCaption": "Octopus vulgaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-005",
+      "animal": "octopus",
+      "prompt": "Which hard organ is often the limit for an octopus to pass through a crack?",
+      "options": [
+        "His coat",
+        "His beak",
+        "His radula",
+        "His eyes"
+      ],
+      "explanation": "The rest of its body is flexible and can compress into tight spaces.",
+      "didYouKnow": "The coconut octopus sometimes carries shells to make a mobile shelter.",
+      "imageCaption": "Octopus vulgaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-006",
+      "animal": "octopus",
+      "prompt": "What skin change helps some octopuses camouflage?",
+      "options": [
+        "They modify color and texture",
+        "She only changes the shape of her pupils",
+        "It only changes brightness",
+        "It secretes a transparent shell"
+      ],
+      "explanation": "Pigment cells and skin muscles allow rapid changes.",
+      "didYouKnow": "Experiments show that some octopuses perceive polarized light.",
+      "imageCaption": "Octopus vulgaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-007",
+      "animal": "onychophora",
+      "prompt": "How does an onychophore often capture a small arthropod?",
+      "options": [
+        "He catches it with a silk web",
+        "He encloses it in a limestone shell",
+        "He stings her with a tail stinger",
+        "It projects a sticky secretion from papillae near the mouth."
+      ],
+      "explanation": "Threads of sticky mucus entangle the prey and immobilize it.",
+      "didYouKnow": "The onychophora's head bears a pair of sensory antennae and small chitinous jaws.",
+      "imageCaption": "Euperipatoides rowelli, an example of onychophore."
+    },
+    {
+      "id": "unusual-008",
+      "animal": "octopus",
+      "prompt": "What do an octopus' suction cups do when it explores an object?",
+      "options": [
+        "To detect chemical signals and touch",
+        "Chewing prey",
+        "To filter plankton",
+        "To propel the animal"
+      ],
+      "explanation": "Suction cups are both grip tools and sensory organs.",
+      "didYouKnow": "The octopus has three hearts, two of which send blood to the gills.",
+      "imageCaption": "Octopus vulgaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-009",
+      "animal": "octopus",
+      "prompt": "How does an octopus expel water quickly to move around?",
+      "options": [
+        "By the arms",
+        "Through a siphon",
+        "By mouth",
+        "Through the gills"
+      ],
+      "explanation": "It directs this jet of water to move forward or change direction.",
+      "didYouKnow": "In many octopuses, the pupil is elongated horizontally.",
+      "imageCaption": "Octopus vulgaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-010",
+      "animal": "nautilus",
+      "prompt": "What advantage does its compartmentalized outer shell give the nautilus?",
+      "options": [
+        "A pocket that stores ink",
+        "A reservoir of venom",
+        "It offers rooms that allow you to adjust your buoyancy",
+        "A swimming organ"
+      ],
+      "explanation": "The nautilus regulates its buoyancy by changing the amount of liquid and gas in the unoccupied chambers of its shell.",
+      "didYouKnow": "Unlike most other cephalopods, the nautilus does not have an ink sac.",
+      "imageCaption": "Nautilus pompilius — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-011",
+      "animal": "nautilus",
+      "prompt": "What structure helps the nautilus adjust its buoyancy in its shell?",
+      "options": [
+        "The tentacles",
+        "A siphuncle",
+        "Chromatophores",
+        "Statocysts"
+      ],
+      "explanation": "This tissue crosses the partitions and participates in the exchange of liquid and gas.",
+      "didYouKnow": "The nautilus is a scavenger and often locates its food using odorous molecules in the water.",
+      "imageCaption": "Nautilus pompilius — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-012",
+      "animal": "cuttlefish",
+      "prompt": "What internal rigid structure helps a cuttlefish control its buoyancy?",
+      "options": [
+        "Cuttlebone",
+        "The gladius",
+        "The siphon",
+        "The radula"
+      ],
+      "explanation": "This porous internal shell allows for buoyancy adjustments.",
+      "didYouKnow": "Cuttlefish can quickly change the patterns and colors of their skin using pigment cells.",
+      "imageCaption": "Sepia officinalis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-013",
+      "animal": "cephalopod",
+      "prompt": "What is the name of the organ that cephalopods use to produce ink?",
+      "options": [
+        "The gills",
+        "The coat",
+        "The ink pocket",
+        "Chromatophores"
+      ],
+      "explanation": "Ink can blur vision or distract a predator while fleeing.",
+      "didYouKnow": "The hard beak of cephalopods is in the center of the circle formed by their arms.",
+      "imageCaption": "Sepia officinalis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-014",
+      "animal": "cuttlefish",
+      "prompt": "What characteristic shape does a cuttlefish's pupil often take?",
+      "options": [
+        "A circle always perfectly round",
+        "A four-pointed cross",
+        "A W shape.",
+        "A straight vertical slit"
+      ],
+      "explanation": "The W-shaped pupil is a common visual characteristic in cuttlefish.",
+      "didYouKnow": "Cuttlefish can also change their appearance to communicate or blend into the background.",
+      "imageCaption": "Sepia officinalis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-015",
+      "animal": "cuttlefish",
+      "prompt": "In which direction can a cuttlefish direct its jet of water?",
+      "options": [
+        "In several directions thanks to its siphon",
+        "Without changing its direction",
+        "Only towards the rear",
+        "Only forward"
+      ],
+      "explanation": "The orientation of the siphon allows it to maneuver with precision.",
+      "didYouKnow": "Many cuttlefish bury themselves in the sand to hide from predators.",
+      "imageCaption": "Sepia officinalis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-016",
+      "animal": "amphibian",
+      "prompt": "In frogs of the genus Oophaga, how do tadpoles sometimes receive food produced by their mother?",
+      "options": [
+        "They eat nutritious eggs laid by the female",
+        "They eat algae that the female grows on the leaves",
+        "The mother brings them prey in a burrow",
+        "They absorb a nutrient secretion through their gills"
+      ],
+      "explanation": "The female lays unfertilized trophic eggs which the tadpoles consume.",
+      "didYouKnow": "Some Oophaga accumulate alkaloids in their skin from their diet.",
+      "imageCaption": "Oophaga pumilio — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-017",
+      "animal": "squid",
+      "prompt": "How are the squid's two catching tentacles different from its eight arms?",
+      "options": [
+        "They are identical to the arms and have gills",
+        "They are longer and carry terminal clubs",
+        "They are shorter than the arms and have gills",
+        "They are fused to the coat"
+      ],
+      "explanation": "The tentacles shoot out to grab the prey, while the arms hold it back.",
+      "didYouKnow": "The squid has a sturdy beak in the center of its arms, which it uses to shred its prey.",
+      "imageCaption": "Doryteuthis pealeii — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-018",
+      "animal": "squid",
+      "prompt": "What is the light produced by the luminous organs of some squid called?",
+      "options": [
+        "Bioluminescence",
+        "Fluorescence",
+        "Phosphorescence",
+        "Reflection of sunlight"
+      ],
+      "explanation": "Light can help with camouflage, communication or attracting prey.",
+      "didYouKnow": "The squid's mantle protects most of its internal organs.",
+      "imageCaption": "Doryteuthis pealeii — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-019",
+      "animal": "squid",
+      "prompt": "How can squid avoid being spotted from below in lit water?",
+      "options": [
+        "By producing a dorsal light directed towards the sky",
+        "By expelling a cloud of ink",
+        "By producing a ventral light which corresponds to the bright background",
+        "Burying in the sand"
+      ],
+      "explanation": "This light camouflage is called counterillumination.",
+      "didYouKnow": "Squid are cephalopod mollusks, like octopuses and cuttlefish.",
+      "imageCaption": "Doryteuthis pealeii — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-020",
+      "animal": "squid",
+      "prompt": "What organ extracts dissolved oxygen from water in many squid?",
+      "options": [
+        "Chromatophores",
+        "The siphon",
+        "The radula",
+        "The gills"
+      ],
+      "explanation": "Water circulates in the mantle cavity and passes over the gills.",
+      "didYouKnow": "The squid has an internal gladius that supports its mantle.",
+      "imageCaption": "Doryteuthis pealeii — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-021",
+      "animal": "jellyfish",
+      "prompt": "Which cells in jellyfish trigger the capture of prey by a microscopic harpoon?",
+      "options": [
+        "Colloblasts",
+        "Choanocytes",
+        "Cnidocytes",
+        "The pedicellariae"
+      ],
+      "explanation": "Cnidocytes are the specialized cells; each may contain a nematocyst, a capsule that ejects a stinging filament.",
+      "didYouKnow": "Jellyfish do not have a central brain; a network of nerve cells coordinates their reactions.",
+      "imageCaption": "Aurelia aurita — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-022",
+      "animal": "Cassiopea jellyfish",
+      "prompt": "Why does the Cassiopea jellyfish often stand upside down on the bottom?",
+      "options": [
+        "To circulate water in gills",
+        "To protect a shell attached to its umbrella",
+        "To expose its symbiotic algae to light.",
+        "To bury his mouth in the sediment"
+      ],
+      "explanation": "This posture places the tissues that host the algae toward the light, which the symbionts need for photosynthesis.",
+      "didYouKnow": "Cassiopea can also capture small prey with its tentacles.",
+      "imageCaption": "Cassiopea xamachana — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-023",
+      "animal": "jellyfish",
+      "prompt": "Which stage attached to the substrate often precedes the jellyfish form in its life cycle?",
+      "options": [
+        "The veliger larva",
+        "The ephyrule",
+        "The polyp",
+        "The swimming planula"
+      ],
+      "explanation": "In many species, the polyp then produces young jellyfish.",
+      "didYouKnow": "The body of jellyfish is made up largely of a gelatinous substance rich in water.",
+      "imageCaption": "Aurelia aurita — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-024",
+      "animal": "jellyfish",
+      "prompt": "What is the name of the young jellyfish released from the polyp in many jellyfish?",
+      "options": [
+        "A planula",
+        "A polyp",
+        "A nematocyst",
+        "An ephyra"
+      ],
+      "explanation": "This juvenile medusa swims freely and grows into an adult jellyfish.",
+      "didYouKnow": "Jellyfish have no bones or hard shells; their body is mainly gelatinous.",
+      "imageCaption": "Aurelia aurita — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-025",
+      "animal": "jellyfish",
+      "prompt": "How does the polyp of some jellyfish produce several young jellyfish?",
+      "options": [
+        "By strobilation",
+        "By budding of tentacles",
+        "By longitudinal division of the jellyfish",
+        "By internal fertilization of polyps"
+      ],
+      "explanation": "The polyp segments into stacked discs, which detach as juvenile medusae called ephyrae.",
+      "didYouKnow": "The bodies of many jellyfish are made up mostly of water and gelatinous tissue.",
+      "imageCaption": "Aurelia aurita — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-026",
+      "animal": "jellyfish",
+      "prompt": "What gelatinous tissue makes up most of a jellyfish's bell?",
+      "options": [
+        "The coenosarc",
+        "The cuticle",
+        "The endoderm",
+        "The mesoglea"
+      ],
+      "explanation": "This material contains a lot of water and is located between the cell layers.",
+      "didYouKnow": "The bell contracts to aid swimming.",
+      "imageCaption": "Aurelia aurita — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-027",
+      "animal": "jellyfish",
+      "prompt": "Which sensory organ helps some jellyfish perceive balance?",
+      "options": [
+        "Statocysts",
+        "Cnidocytes",
+        "Rhopalia lacking statocysts",
+        "Eyespots"
+      ],
+      "explanation": "These gravity-sensitive organs help orient the body.",
+      "didYouKnow": "The bell of many jellyfish contracts to aid in swimming.",
+      "imageCaption": "Aurelia aurita — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-028",
+      "animal": "jellyfish",
+      "prompt": "What structure allows box jellyfish to have particularly sophisticated vision?",
+      "options": [
+        "A complex central brain",
+        "Compound eyes on each tentacle",
+        "Rhopalia bearing several types of eyes",
+        "A single lens per tentacle"
+      ],
+      "explanation": "Rhopalia are sensory structures arranged around the bell; in box jellyfish they contain several types of eyes.",
+      "didYouKnow": "The body of jellyfish is mostly gelatinous and contains a lot of water.",
+      "imageCaption": "Chironex fleckeri — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-029",
+      "animal": "tardigrade",
+      "prompt": "Why do tardigrades remain vulnerable despite their ability to enter cryptobiosis?",
+      "options": [
+        "They remain susceptible to conditions and damage while active",
+        "They tolerate all temperatures once dry",
+        "They continue to feed during cryptobiosis",
+        "They resist all forms of radiation"
+      ],
+      "explanation": "Resistance depends on the species, stage and duration of stress.",
+      "didYouKnow": "The eggs of certain species of tardigrades bear characteristic patterns useful for their identification.",
+      "imageCaption": "Hypsibius exemplaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-030",
+      "animal": "jellyfish",
+      "prompt": "Why doesn’t a jellyfish need a heart like a fish?",
+      "options": [
+        "The exchanges take place by diffusion in his thin body",
+        "Gills that irrigate the entire body",
+        "A network of closed vessels",
+        "A dorsal heart that distributes blood"
+      ],
+      "explanation": "Oxygen and nutrients diffuse into tissues, without a complex circulatory system.",
+      "didYouKnow": "Many jellyfish have a diffuse nerve network rather than a centralized brain.",
+      "imageCaption": "Aurelia aurita — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-031",
+      "animal": "coral",
+      "prompt": "Which microscopic partners often live in the tissues of reef-building corals?",
+      "options": [
+        "Symbiotic dinoflagellate algae",
+        "Sulfur bacteria",
+        "Free diatoms in water",
+        "Filamentous mushrooms"
+      ],
+      "explanation": "They provide compounds resulting from photosynthesis to the coral.",
+      "didYouKnow": "After hatching, the larvae of many corals drift in the water before settling on a support.",
+      "imageCaption": "Acropora millepora — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-032",
+      "animal": "coral",
+      "prompt": "What process can cause heat-stressed coral to bleach?",
+      "options": [
+        "Rapid growth of the skeleton",
+        "The expulsion or loss of its symbiotic algae",
+        "Excessive mucus production",
+        "The multiplication of polyps"
+      ],
+      "explanation": "The coral then loses part of its pigments and its energy supply.",
+      "didYouKnow": "Coral reefs provide shelter and feeding sites for many marine species.",
+      "imageCaption": "Acropora millepora — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-033",
+      "animal": "coral",
+      "prompt": "What is the skeleton of hard corals mainly made of?",
+      "options": [
+        "Calcium phosphate",
+        "Calcium carbonate",
+        "Chitin",
+        "Silica"
+      ],
+      "explanation": "The polyps deposit this material, which can form a reef structure.",
+      "didYouKnow": "Reefs grow slowly and support a great diversity of species.",
+      "imageCaption": "Acropora millepora — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-034",
+      "animal": "coral",
+      "prompt": "What small animal units lay down the skeleton of reef-building corals?",
+      "options": [
+        "Adult jellyfish",
+        "Polyps",
+        "Clownfish",
+        "Planula larvae"
+      ],
+      "explanation": "Each polyp secretes a calcareous cup around its base.",
+      "didYouKnow": "Reef-building corals often live in association with microscopic algae in their tissues.",
+      "imageCaption": "Acropora millepora — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-035",
+      "animal": "coral",
+      "prompt": "How can corals reproduce without fertilization?",
+      "options": [
+        "By fragmentation of the shell",
+        "By gamete division",
+        "By transformation of a polyp into a larva",
+        "By budding of new polyps"
+      ],
+      "explanation": "The polyps resulting from budding often remain connected to the colony.",
+      "didYouKnow": "Coral polyps can retract into their skeleton when disturbed.",
+      "imageCaption": "Acropora millepora — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-036",
+      "animal": "coral",
+      "prompt": "What does the synchronized spawning seen in some coral species mean?",
+      "options": [
+        "Laying a single egg per colony",
+        "Simultaneous release of planula larvae only",
+        "Coordinated release of gametes into water",
+        "The collective construction of a new skeleton"
+      ],
+      "explanation": "This increases the chances of eggs and sperm meeting.",
+      "didYouKnow": "Coral reefs provide food and shelter for many marine species.",
+      "imageCaption": "Acropora millepora — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-037",
+      "animal": "coral",
+      "prompt": "What type of coral forms deep structures without relying on sunlight?",
+      "options": [
+        "Cold water corals",
+        "Tropical building corals",
+        "Surface corals associated with algae",
+        "Lagoon soft corals"
+      ],
+      "explanation": "They feed on particles and plankton captured in the water.",
+      "didYouKnow": "Cold-water corals do not rely on photosynthetic symbiotic algae for food.",
+      "imageCaption": "Desmophyllum pertusum — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-038",
+      "animal": "coral",
+      "prompt": "What is the role of the tentacles of a coral polyp?",
+      "options": [
+        "Capturing small particles and prey",
+        "Moving on the reef",
+        "Pump water into the colony",
+        "Produce the limestone skeleton"
+      ],
+      "explanation": "The tentacles carry stinging cells that help grasp food.",
+      "didYouKnow": "Coral polyps can retract into their skeleton when disturbed.",
+      "imageCaption": "Acropora millepora — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-039",
+      "animal": "coral",
+      "prompt": "What internal structure connects polyps in some coral colonies?",
+      "options": [
+        "Madreporite",
+        "The coenosarc",
+        "The coelom",
+        "The siphuncle"
+      ],
+      "explanation": "This layer of tissue allows the polyps in a colony to stay connected.",
+      "didYouKnow": "Many corals have a single opening that serves as both a mouth and to discharge waste.",
+      "imageCaption": "Acropora millepora — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-040",
+      "animal": "coral",
+      "prompt": "How are soft corals often distinguished from hard corals?",
+      "options": [
+        "They only live in fresh water",
+        "They have a hinged outer shell",
+        "They do not build a large continuous external skeleton",
+        "They have no calcareous structure"
+      ],
+      "explanation": "Instead, they have small calcareous elements called sclerites in their tissues.",
+      "didYouKnow": "Coral reefs are home to many species of fish and invertebrates.",
+      "imageCaption": "Alcyonium digitatum — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-041",
+      "animal": "sponge",
+      "prompt": "What type of cell creates the current of water that passes through a sponge?",
+      "options": [
+        "The colloblast",
+        "The amoebocyte",
+        "The pinacocyte",
+        "The choanocyte"
+      ],
+      "explanation": "Its flagellum sets the water in motion and its collar captures food particles.",
+      "didYouKnow": "Sponges do not have a central nervous system or organs comparable to those of vertebrates.",
+      "imageCaption": "Aplysina aerophoba — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-042",
+      "animal": "sponge",
+      "prompt": "Where does water typically come out of a sponge after it has been filtered?",
+      "options": [
+        "Through the inhaling pores",
+        "By mouth",
+        "By the choanocytes themselves",
+        "By one or more oscules"
+      ],
+      "explanation": "Water enters through many small pores and then exits through these larger openings.",
+      "didYouKnow": "Sponges do not have a central nervous system or organs comparable to those of vertebrates.",
+      "imageCaption": "Aplysina aerophoba — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-043",
+      "animal": "sponge",
+      "prompt": "What material makes up the skeleton of many sponges?",
+      "options": [
+        "Magnesium carbonate only",
+        "Calcium phosphate",
+        "Of chitin alone",
+        "Spicules or spongin fibers"
+      ],
+      "explanation": "Spicules may be calcareous or siliceous, depending on the group.",
+      "didYouKnow": "Sponges circulate water through many small pores in their bodies.",
+      "imageCaption": "Aplysina aerophoba — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-044",
+      "animal": "sponge",
+      "prompt": "What is the role of amoebocytes in a sponge?",
+      "options": [
+        "Produce water currents",
+        "Digest in a stomach",
+        "Transport nutrients and participate in the formation of the skeleton",
+        "Open the oscula"
+      ],
+      "explanation": "These mobile cells move within the internal matrix of the animal.",
+      "didYouKnow": "Sponges don't have real organs; their body is organized around cells with specialized roles.",
+      "imageCaption": "Aplysina aerophoba — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-045",
+      "animal": "sponge",
+      "prompt": "How can a sponge recover after being fragmented?",
+      "options": [
+        "It develops a mouth and an intestine",
+        "It forms an external shell",
+        "Cells can reorganize and reform tissues",
+        "It turns into a swimming larva"
+      ],
+      "explanation": "Regeneration depends on the species and conditions.",
+      "didYouKnow": "Some sponges adjust the flow of water from their canals in response to irritating particles.",
+      "imageCaption": "Aplysina aerophoba — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-046",
+      "animal": "sponge",
+      "prompt": "What type of food does a sponge mostly filter?",
+      "options": [
+        "Intact marine leaves",
+        "big fish",
+        "Bacteria and very small organic particles",
+        "Large live prey only"
+      ],
+      "explanation": "The water current transports these particles to the filter cells.",
+      "didYouKnow": "Some sponges host very rich microbial communities.",
+      "imageCaption": "Aplysina aerophoba — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-047",
+      "animal": "sponge",
+      "prompt": "What skeletal element distinguishes calcareous sponges?",
+      "options": [
+        "Chitin plates",
+        "Silica plates",
+        "Spongin fibers",
+        "Calcium carbonate spicules"
+      ],
+      "explanation": "Their skeleton is composed of calcareous spicules rather than silica.",
+      "didYouKnow": "Calcareous sponges are generally modest in size.",
+      "imageCaption": "Clathrina clathrus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-048",
+      "animal": "Doridian nudibranchs",
+      "prompt": "Which molluscs have species specialized in eating sponges?",
+      "options": [
+        "A fiddler crab",
+        "A cuttlefish",
+        "A crinoid",
+        "Doridian nudibranchs"
+      ],
+      "explanation": "Many nudibranchs consume sponges and can divert their toxins.",
+      "didYouKnow": "Nudibranchs are gastropod molluscs.",
+      "imageCaption": "Chromodoris annae — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-049",
+      "animal": "sponge",
+      "prompt": "Why do some sponges harbor symbiotic bacteria?",
+      "options": [
+        "They provide them with light",
+        "They provide them with a habitat and sometimes receive useful compounds",
+        "They ensure their locomotion",
+        "They replace their choanocytes"
+      ],
+      "explanation": "Microbes may contribute to the chemical defense or metabolism of the sponge.",
+      "didYouKnow": "Sponges do not have a central nervous system; their functions rely on specialized cells.",
+      "imageCaption": "Aplysina aerophoba — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-050",
+      "animal": "sponge",
+      "prompt": "What structure forms the skeleton of some deep-sea glass sponges?",
+      "options": [
+        "A network of silica spicules",
+        "A calcium carbonate shell",
+        "An assembly of chitin plates",
+        "Cellulose fibers"
+      ],
+      "explanation": "Their silica spicule skeleton may remain after the sponge dies.",
+      "didYouKnow": "Glass sponges often live in deep habitats.",
+      "imageCaption": "Euplectella aspergillum — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-051",
+      "animal": "starfish",
+      "prompt": "What hydraulic system operates the tube feet of a starfish?",
+      "options": [
+        "The branched digestive system",
+        "The central nervous system",
+        "The aquifer system",
+        "The closed circulatory system"
+      ],
+      "explanation": "The water circulates in channels and sets the podia in motion.",
+      "didYouKnow": "Some starfish detect light using small eyespots at the ends of their arms.",
+      "imageCaption": "Asterias rubens — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-052",
+      "animal": "starfish",
+      "prompt": "Which porous plate lets water into the aquifer system of a starfish?",
+      "options": [
+        "The siphon",
+        "The oscule",
+        "The digestive tract",
+        "Madreporite"
+      ],
+      "explanation": "This plate filters and regulates the entry of water into the hydraulic system.",
+      "didYouKnow": "Some sea stars can evaginate their stomachs to digest prey outside the body.",
+      "imageCaption": "Asterias rubens — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-053",
+      "animal": "starfish",
+      "prompt": "How can a starfish open a bivalve shell?",
+      "options": [
+        "By grinding it with limestone teeth",
+        "By gradually pulling with its ambulacral feet",
+        "By injecting an acid into the shell",
+        "By piercing it with its quills"
+      ],
+      "explanation": "A small opening is sometimes enough to evaginate its stomach into the shell.",
+      "didYouKnow": "The tips of some starfish arms bear spots that are sensitive to light.",
+      "imageCaption": "Asterias rubens — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-054",
+      "animal": "starfish",
+      "prompt": "What feeding behavior allows some sea stars to digest prey externally?",
+      "options": [
+        "They grate the shell with pedicellariae",
+        "They evaginate their stomach",
+        "They inject enzymes from their feet",
+        "They swallow the prey whole then digest it in the intestine"
+      ],
+      "explanation": "The stomach exits through the mouth and releases digestive enzymes onto the prey.",
+      "didYouKnow": "The tube feet also help the starfish to cling to the substrate and move around.",
+      "imageCaption": "Asterias rubens — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-055",
+      "animal": "starfish",
+      "prompt": "Where is the mouth of a starfish?",
+      "options": [
+        "At the end of an arm",
+        "In the center of the dorsal disc",
+        "On the upper side",
+        "On its underside"
+      ],
+      "explanation": "The oral side is turned towards the substrate when walking.",
+      "didYouKnow": "Some starfish can regenerate a lost arm.",
+      "imageCaption": "Asterias rubens — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-056",
+      "animal": "starfish",
+      "prompt": "What ability helps some starfish restore a lost arm?",
+      "options": [
+        "Molting",
+        "Fission into two equal animals",
+        "The regrowth of a new shell",
+        "Regeneration"
+      ],
+      "explanation": "The speed and extent of regeneration varies depending on the species.",
+      "didYouKnow": "Some starfish have thousands of tube feet under their arms.",
+      "imageCaption": "Asterias rubens — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-057",
+      "animal": "echinoderms",
+      "prompt": "What are the small movable claws found in some starfish and sea urchins called?",
+      "options": [
+        "The pedicellariae",
+        "The podia",
+        "Pinnules",
+        "The pedicels"
+      ],
+      "explanation": "The pedicellariae are small pincers whose role depends on the species; they can contribute to the defense or cleansing of the surface of the body.",
+      "didYouKnow": "In adult echinoderms, the body often presents a symmetry organized around five axes.",
+      "imageCaption": "Asterias rubens — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-058",
+      "animal": "sea urchin",
+      "prompt": "What mineral are the spines of a sea urchin primarily made of?",
+      "options": [
+        "Calcium carbonate",
+        "Chitin",
+        "Silica",
+        "Keratin"
+      ],
+      "explanation": "They are hinged on the rigid test and can be used for defense and movement.",
+      "didYouKnow": "Many sea urchins graze on algae using their chewing apparatus.",
+      "imageCaption": "Paracentrotus lividus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-059",
+      "animal": "sea urchin",
+      "prompt": "What is the name given to the rigid skeleton that bears the spines of the sea urchin?",
+      "options": [
+        "Aristotle's lantern",
+        "The test",
+        "Madreporite",
+        "The coenosarc"
+      ],
+      "explanation": "It is made up of assembled limestone plates.",
+      "didYouKnow": "Many sea urchins graze on algae attached to rocks using their chewing apparatus.",
+      "imageCaption": "Paracentrotus lividus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-060",
+      "animal": "sea urchin",
+      "prompt": "Which masticatory apparatus has five teeth in many sea urchins?",
+      "options": [
+        "The aquifer siphon",
+        "The gastric mill",
+        "The radula",
+        "Aristotle's lantern"
+      ],
+      "explanation": "This complex device scrapes algae and can also dig rock.",
+      "didYouKnow": "Some species of sea urchins dig cavities in the rock, which serve as shelter.",
+      "imageCaption": "Paracentrotus lividus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-061",
+      "animal": "sea urchin",
+      "prompt": "How does a sand dollar carry small particles into its mouth?",
+      "options": [
+        "It catches them with pincers at the end of its quills",
+        "Its podia and cilia transport particles to the underside.",
+        "He sucks them up with a siphon at the edge of the test",
+        "It captures them in a web of mucus projected into the water"
+      ],
+      "explanation": "Podia and cilia move food particles toward the mouth located in the center of the underside.",
+      "didYouKnow": "Sand dollars are flattened sea urchins adapted to life buried in sand.",
+      "imageCaption": "Echinarachnius parma — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-062",
+      "animal": "sea urchin",
+      "prompt": "How can a sea urchin cling to a smooth surface?",
+      "options": [
+        "By cementing his test to the rock",
+        "With its adhesive ambulacral feet",
+        "With the mucus from his test",
+        "With muscular suckers on the quills"
+      ],
+      "explanation": "The podia have ends that secrete adhesive substances.",
+      "didYouKnow": "Many sea urchins graze on algae attached to rocks using their chewing apparatus.",
+      "imageCaption": "Paracentrotus lividus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-063",
+      "animal": "sea cucumber",
+      "prompt": "What can some sea cucumbers do after expelling some of their viscera to defend themselves?",
+      "options": [
+        "Regenerate lost organs",
+        "Form a permanent protective shell",
+        "Transform their arms into digestive organs",
+        "Replace their intestine with an external filter"
+      ],
+      "explanation": "This evisceration sometimes distracts or encumbers a predator.",
+      "didYouKnow": "Many sea cucumbers move slowly using their walking feet and body contractions.",
+      "imageCaption": "Holothuria tubulosa — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-064",
+      "animal": "sea cucumber",
+      "prompt": "How do sea cucumbers contribute to the recycling of marine sediments?",
+      "options": [
+        "They filter algae from plankton",
+        "They dig limestone shells",
+        "They swallow the sediment and digest the organic matter",
+        "They build the reefs"
+      ],
+      "explanation": "The discharged sediment is often reworked and enriched with nutrients.",
+      "didYouKnow": "They are sometimes called “sea worms”, although they are echinoderms.",
+      "imageCaption": "Holothuria tubulosa — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-065",
+      "animal": "sea cucumber",
+      "prompt": "What is the sea cucumber respiratory tree?",
+      "options": [
+        "A lung connected to the mouth",
+        "A comb-shaped external gill",
+        "A filtration tube under the arms",
+        "An internal organ connected to the cloaca for gas exchange"
+      ],
+      "explanation": "Water enters and exits through the cloaca and circulates in this branched organ.",
+      "didYouKnow": "Sea cucumbers are echinoderms, closely related to starfish and sea urchins.",
+      "imageCaption": "Holothuria tubulosa — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-066",
+      "animal": "crinoid",
+      "prompt": "How does a crinoid capture food particles?",
+      "options": [
+        "With teeth at the end of his arms",
+        "By pursuing their prey with a siphon",
+        "With its feathery arms covered with little feet",
+        "By projecting adhesive filaments"
+      ],
+      "explanation": "Sticky feet direct particles toward the mouth.",
+      "didYouKnow": "Crinoids include fixed sea lilies and mobile sea lilies.",
+      "imageCaption": "Metacrinus rotundus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-067",
+      "animal": "crinoid",
+      "prompt": "Which group of echinoderms includes sea lilies?",
+      "options": [
+        "The brittle stars",
+        "Asterias",
+        "Sea cucumbers",
+        "Crinoids"
+      ],
+      "explanation": "Sea lilies are fixed by a stem, while many comatulas can move.",
+      "didYouKnow": "Crinoids feed by filtering suspended particles.",
+      "imageCaption": "Metacrinus rotundus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-068",
+      "animal": "brittle star",
+      "prompt": "How does a brittle star primarily move?",
+      "options": [
+        "When swimming with a tail fin",
+        "Waving her supple arms",
+        "By digging with their central disc",
+        "Crawling with their podia"
+      ],
+      "explanation": "Unlike a starfish, it mainly uses its arms to move forward.",
+      "didYouKnow": "Brittle stars have a central disc clearly separated from their arms.",
+      "imageCaption": "Ophiothrix fragilis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-069",
+      "animal": "brittle star",
+      "prompt": "What character helps distinguish a brittle star from a starfish?",
+      "options": [
+        "Its thin, articulated arms stand out clearly from the central disc",
+        "A central disc without arms",
+        "Very visible sucker podia on each arm",
+        "An outer shell around the disc"
+      ],
+      "explanation": "Brittle stars often move by rowing with these arms.",
+      "didYouKnow": "In brittle stars, the digestive tract generally does not have an anus.",
+      "imageCaption": "Ophiothrix fragilis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-070",
+      "animal": "crab",
+      "prompt": "What phenomenon allows a crab to grow beyond the size of its shell?",
+      "options": [
+        "Regular replacement of your exoskeleton",
+        "Molting",
+        "The fusion of new limestone plates",
+        "The continued growth of its shell"
+      ],
+      "explanation": "He gets rid of his exoskeleton which has become too narrow and forms a new one.",
+      "didYouKnow": "Under its shell, the crab has gills that take in oxygen dissolved in the water.",
+      "imageCaption": "Carcinus maenas — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-071",
+      "animal": "crab",
+      "prompt": "Why is a crab particularly vulnerable after molting?",
+      "options": [
+        "His eyes are blind",
+        "He can't eat for the rest of his life.",
+        "Its gills become detached",
+        "Its new shell is still soft"
+      ],
+      "explanation": "It then hardens by deposition of minerals and other substances.",
+      "didYouKnow": "Like other decapods, the crab has five pairs of legs, the first of which often has claws.",
+      "imageCaption": "Carcinus maenas — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-072",
+      "animal": "crab",
+      "prompt": "What is the name of the empty shell left behind by a crustacean during molting?",
+      "options": [
+        "The exuvia",
+        "The telson",
+        "The byssus",
+        "Madreporite"
+      ],
+      "explanation": "It retains the shape of the animal but no longer contains its body.",
+      "didYouKnow": "The crab's eyes are often carried by movable peduncles.",
+      "imageCaption": "Carcinus maenas — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-073",
+      "animal": "crab",
+      "prompt": "What organ allows some crabs to grind their food in their stomachs?",
+      "options": [
+        "Pectins",
+        "The gastric mill",
+        "Aristotle's lantern",
+        "The siphon"
+      ],
+      "explanation": "Calcified elements of the stomach help to break down food.",
+      "didYouKnow": "The crab breathes thanks to gills protected under its shell.",
+      "imageCaption": "Carcinus maenas — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-074",
+      "animal": "crab",
+      "prompt": "How does the fiddler crab use its large claw?",
+      "options": [
+        "To crush the shells",
+        "To dig a burrow",
+        "To communicate and attract a partner",
+        "To pump water to its gills"
+      ],
+      "explanation": "The male waves the pincers during visible displays above his burrow.",
+      "didYouKnow": "The eyes of the fiddler crab are placed at the end of long peduncles.",
+      "imageCaption": "Afruca tangeri — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-075",
+      "animal": "crab",
+      "prompt": "Which small crab sometimes wears anemones on its claws as a means of defense?",
+      "options": [
+        "The fiddler crab",
+        "The hermit crab",
+        "The pistol shrimp",
+        "The boxer crab"
+      ],
+      "explanation": "The boxer crab holds small anemones in its claws and shakes them when faced with a threat.",
+      "didYouKnow": "Boxer crabs of the genus Lybia are small tropical reef crabs.",
+      "imageCaption": "Lybia tessellata — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-076",
+      "animal": "crab",
+      "prompt": "How can a crab escape a predator that grabs it by its leg?",
+      "options": [
+        "It releases an odorous substance to repel the enemy",
+        "It can detach the grasped paw at an expected breaking point",
+        "He abandons his shell and swims out of reach",
+        "He curls up into a ball under his shell"
+      ],
+      "explanation": "Some crabs practice autotomy: a grasped leg detaches at a natural breaking point, which can allow escape.",
+      "didYouKnow": "The crab takes oxygen from the water with gills housed under the shell.",
+      "imageCaption": "Carcinus maenas — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-077",
+      "animal": "hermit crab",
+      "prompt": "Why does a hermit crab sometimes change its shell?",
+      "options": [
+        "To breathe out of water",
+        "To replace your pliers",
+        "To find shelter adapted to its growth",
+        "To protect her eggs"
+      ],
+      "explanation": "It often occupies empty gastropod shells.",
+      "didYouKnow": "Hermit crabs have two pairs of sensory antennae.",
+      "imageCaption": "Pagurus bernhardus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-078",
+      "animal": "hermit crab",
+      "prompt": "What part of the hermit crab's body is often soft and curled?",
+      "options": [
+        "His stalked eyes",
+        "Its gills",
+        "Its dorsal shell",
+        "His abdomen"
+      ],
+      "explanation": "The abdomen slips into the protective shell it carries.",
+      "didYouKnow": "In the hermit crab, the two claws can have different sizes depending on the species.",
+      "imageCaption": "Pagurus bernhardus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-079",
+      "animal": "cleaner shrimp",
+      "prompt": "What does a cleaner shrimp often signal when it wiggles its long white antennae?",
+      "options": [
+        "Making a clicking sound with pliers",
+        "That she offers her cleaning services to fish",
+        "Move backwards very quickly",
+        "Emit bright light underwater"
+      ],
+      "explanation": "The movements of the white antennae make the cleaner shrimp visible to fish visiting its station.",
+      "didYouKnow": "Cleaner shrimp are decapod crustaceans.",
+      "imageCaption": "Lysmata amboinensis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-080",
+      "animal": "shrimp",
+      "prompt": "Which appendage produces the snap of a pistol shrimp?",
+      "options": [
+        "A fin muscle",
+        "A mantle valve",
+        "A tail muscle",
+        "A specialized clamp that closes very quickly"
+      ],
+      "explanation": "The enlarged clamp closes and causes a jet of water as well as a cavitation bubble.",
+      "didYouKnow": "Some pistol shrimp share their burrow with a goby that watches over the surroundings.",
+      "imageCaption": "Alpheus heterochaelis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-081",
+      "animal": "rotifer",
+      "prompt": "Which muscular apparatus grinds food in many rotifers?",
+      "options": [
+        "The lophophore",
+        "Mastax, which contains hard pieces called trophi.",
+        "Aristotle's lantern",
+        "The gastric mill"
+      ],
+      "explanation": "The mastax is a muscular pharynx that activates the trophi to grind or grasp food.",
+      "didYouKnow": "Some species of rotifers have a rigid outer covering called a lorica.",
+      "imageCaption": "Philodina roseola — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-082",
+      "animal": "onychophora",
+      "prompt": "How do onychophorans move on the ground?",
+      "options": [
+        "They undulate with segmented parapodia",
+        "They propel themselves by pumping water through a siphon",
+        "They advance on pairs of muscular lobopods.",
+        "They slide on a single muscular foot"
+      ],
+      "explanation": "Their numerous short lobopods carry the body above the substrate and allow slow walking.",
+      "didYouKnow": "Onychophorans are also called velvet worms because of their finely velvety skin.",
+      "imageCaption": "Euperipatoides rowelli, an example of onychophore."
+    },
+    {
+      "id": "unusual-083",
+      "animal": "shrimp",
+      "prompt": "How can a mantis shrimp strike so quickly underwater?",
+      "options": [
+        "It releases the energy stored in an elastic mechanism of its appendage",
+        "It contracts its muscles without elastic mechanism",
+        "She vibrates her antennae",
+        "She produces a jet of water with her abdomen"
+      ],
+      "explanation": "The mechanism amplifies the speed of the blow.",
+      "didYouKnow": "Many mantis shrimp live in burrows that they dig or maintain.",
+      "imageCaption": "Odontodactylus scyllarus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-084",
+      "animal": "shrimp",
+      "prompt": "What eye feature of the mantis shrimp is particularly notable?",
+      "options": [
+        "They have many types of photoreceptors",
+        "A vision based on light antennas",
+        "A vision only in black and white",
+        "Vision reduced to motion detection"
+      ],
+      "explanation": "It perceives polarized light and several ranges of colors.",
+      "didYouKnow": "Mantis shrimp belong to the stomatopods, a group distinct from true shrimp.",
+      "imageCaption": "Odontodactylus scyllarus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-085",
+      "animal": "barnacle",
+      "prompt": "Why does a barnacle no longer look like a typical adult crustacean?",
+      "options": [
+        "She is an adult mollusk",
+        "It lives fixed and filters the water with its feathery legs.",
+        "She is a fixed echinoderm",
+        "She is a colonial cnidarian"
+      ],
+      "explanation": "The barnacle is a cirripedal crustacean despite its appearance like a small volcano.",
+      "didYouKnow": "Barnacles filter particles from the water with their feathery cirri.",
+      "imageCaption": "Semibalanus balanoides — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-086",
+      "animal": "barnacle",
+      "prompt": "Which swimming larva precedes the attachment of a barnacle?",
+      "options": [
+        "The pluteus larva",
+        "The cyprid larva",
+        "The planula larva",
+        "The trochophore larva"
+      ],
+      "explanation": "It looks for a surface to attach itself to before transforming.",
+      "didYouKnow": "Adult barnacles are often hermaphrodites and can fertilize their neighbors.",
+      "imageCaption": "Semibalanus balanoides — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-087",
+      "animal": "barnacle",
+      "prompt": "What substance helps some barnacles stick permanently to rocks?",
+      "options": [
+        "A protein cement",
+        "Mucus rich in calcium",
+        "An air-hardened silk protein",
+        "A silk fiber"
+      ],
+      "explanation": "This underwater cement resists waves and immersion.",
+      "didYouKnow": "A barnacle spreads its feathery legs, called cirri, to filter suspended particles.",
+      "imageCaption": "Semibalanus balanoides — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-088",
+      "animal": "woodlice",
+      "prompt": "Which group does the woodlice belong to despite its terrestrial habitat?",
+      "options": [
+        "With molluscs",
+        "With shellfish",
+        "With annelids",
+        "To insects"
+      ],
+      "explanation": "It breathes with structures derived from gills and must keep its surfaces moist.",
+      "didYouKnow": "Some species of woodlice can roll up into a ball when disturbed.",
+      "imageCaption": "Oniscus asellus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-089",
+      "animal": "woodlice",
+      "prompt": "Why do woodlice often seek out damp places?",
+      "options": [
+        "It thus limits water loss and protects its respiratory organs.",
+        "To maintain a stable body temperature",
+        "To avoid visual predators",
+        "To reduce noise when moving"
+      ],
+      "explanation": "Its gill-derived respiratory structures function best in humidity.",
+      "didYouKnow": "Some species can roll into a ball when disturbed.",
+      "imageCaption": "Oniscus asellus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-090",
+      "animal": "axolotl",
+      "prompt": "What part of the body can the axolotl regenerate after injury?",
+      "options": [
+        "Only the lens",
+        "Only skin cells",
+        "Teeth and scales",
+        "Limbs, as well as several tissues and organs"
+      ],
+      "explanation": "Regeneration varies depending on tissue and conditions.",
+      "didYouKnow": "The axolotl is native to the lakes of the Valley of Mexico, notably the Xochimilco system.",
+      "imageCaption": "Ambystoma mexicanum — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-091",
+      "animal": "axolotl",
+      "prompt": "What larval trait does the axolotl often retain into adulthood?",
+      "options": [
+        "Its external gills",
+        "Its pectoral fins",
+        "His external lungs",
+        "Its larval shell"
+      ],
+      "explanation": "This persistence of larval characteristics is called neoteny.",
+      "didYouKnow": "The axolotl can also breathe through its skin and lungs.",
+      "imageCaption": "Ambystoma mexicanum — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-092",
+      "animal": "axolotl",
+      "prompt": "What hormonal mechanism can trigger the metamorphosis of an axolotl?",
+      "options": [
+        "The action of thyroid hormones",
+        "Melatonin",
+        "Adrenaline",
+        "A growth hormone"
+      ],
+      "explanation": "Metamorphosis can be induced experimentally, although it is rare naturally.",
+      "didYouKnow": "The axolotl feeds on small aquatic invertebrates and worms.",
+      "imageCaption": "Ambystoma mexicanum — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-093",
+      "animal": "salamander",
+      "prompt": "How do some lungless salamanders breathe?",
+      "options": [
+        "Through the skin and mucous membrane of the mouth",
+        "By functional lungs",
+        "By adult internal gills",
+        "Through a respiratory tube"
+      ],
+      "explanation": "Gas exchanges then depend on moist skin.",
+      "didYouKnow": "Unlike adult frogs, salamanders generally retain a tail.",
+      "imageCaption": "Plethodon cinereus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-094",
+      "animal": "salamander",
+      "prompt": "What might the skin of some salamanders secrete to deter a predator?",
+      "options": [
+        "Sweet mucus",
+        "Silk fibers",
+        "Bioluminescent light",
+        "Toxic or irritating substances"
+      ],
+      "explanation": "The composition varies from one species to another.",
+      "didYouKnow": "The larvae of many salamanders bear external gills.",
+      "imageCaption": "Salamandra salamandra — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-095",
+      "animal": "salamander",
+      "prompt": "How does the male Japanese giant salamander protect egg laying?",
+      "options": [
+        "He guards the nest and fans the eggs until they hatch.",
+        "He carries the eggs in a pouch under his throat",
+        "It carries the eggs clinging to its legs",
+        "He moves the spawn into his mouth"
+      ],
+      "explanation": "The male remains in the egg-laying cavity and protects the eggs, notably by fanning them with his tail.",
+      "didYouKnow": "The Japanese giant salamander can exceed a meter in length, making it one of the largest amphibians.",
+      "imageCaption": "Andrias japonicus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-096",
+      "animal": "frog",
+      "prompt": "How do some glass frogs become more translucent when resting?",
+      "options": [
+        "By storing a large part of their red blood cells in the liver",
+        "By replacing their red blood cells with transparent cells",
+        "By concentrating their blood in the paws",
+        "By covering their stomach with mucus without pigment"
+      ],
+      "explanation": "At rest, a large portion of their red blood cells leave the visible circulation and are stored in the liver, making the body more translucent.",
+      "didYouKnow": "Some glass frogs lay their eggs on leaves overlooking a stream.",
+      "imageCaption": "Hyalinobatrachium fleischmanni — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-097",
+      "animal": "frog",
+      "prompt": "What is the role of the vocal sac in many male frogs?",
+      "options": [
+        "Storing air to breathe underwater",
+        "Filter the water around the eggs",
+        "Maintain balance while jumping",
+        "Amplify the calling song"
+      ],
+      "explanation": "The sac inflates and resonates during vocalization.",
+      "didYouKnow": "Some frogs carry their eggs or tadpoles on their bodies.",
+      "imageCaption": "Pelophylax ridibundus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-098",
+      "animal": "frog",
+      "prompt": "How do some frogs carry their eggs in a back pouch?",
+      "options": [
+        "Eggs remain in a hard dorsal shell",
+        "Eggs are carried in a vocal sac",
+        "Eggs are attached to the hind legs",
+        "The skin on the back forms an incubator pouch"
+      ],
+      "explanation": "This mode of parental care exists in several groups of frogs.",
+      "didYouKnow": "Adult frogs generally have a three-chambered heart: two atria and a ventricle.",
+      "imageCaption": "Gastrotheca marsupiata — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-099",
+      "animal": "frog",
+      "prompt": "What unusual parental care does the male midwife toad practice?",
+      "options": [
+        "The male keeps the eggs underwater in a nest",
+        "The female carries the eggs in her mouth",
+        "It carries egg strings around its hind legs",
+        "The male sticks the eggs on a leaf"
+      ],
+      "explanation": "It keeps the eggs moist until they hatch.",
+      "didYouKnow": "The midwife toad is native to several regions of Western Europe.",
+      "imageCaption": "Alytes obstetricans — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-100",
+      "animal": "frog",
+      "prompt": "What amphibian can produce a protective foam around its eggs?",
+      "options": [
+        "The eel protea",
+        "The moss frog",
+        "The midwife toad",
+        "The glass frog"
+      ],
+      "explanation": "Moss limits desiccation and can protect eggs from predators.",
+      "didYouKnow": "The hearts of many frogs have two atria and one ventricle.",
+      "imageCaption": "Rhacophorus nigropalmatus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-101",
+      "animal": "frog",
+      "prompt": "How can frogs benefit from laying eggs in a moist moss nest above water?",
+      "options": [
+        "It protects the eggs from certain aquatic predators while keeping them moist",
+        "It allows embryos to breathe in an impermeable shell",
+        "It exempts tadpoles from entering an aquatic environment.",
+        "She exposes the eggs to direct sunlight to accelerate their hatching."
+      ],
+      "explanation": "A moist nest out of water can protect eggs from some aquatic predators; after hatching, the tadpoles fall or are carried into the water.",
+      "didYouKnow": "In many frogs, the heart has two atria and one ventricle.",
+      "imageCaption": "Rhacophorus nigropalmatus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-102",
+      "animal": "Cécile",
+      "prompt": "Which sense is particularly developed in burrowing caecilians?",
+      "options": [
+        "Taste, thanks to a forked tongue",
+        "Smell, aided by sensory tentacles",
+        "Hearing, thanks to external eardrums",
+        "Sight, thanks to eyes directed upwards"
+      ],
+      "explanation": "These small tentacles are located between the eyes and nostrils.",
+      "didYouKnow": "Caecilians are legless amphibians.",
+      "imageCaption": "Ichthyophis glutinosus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-103",
+      "animal": "brachiopod",
+      "prompt": "How do many adult brachiopods attach to the seafloor?",
+      "options": [
+        "With byssus threads secreted by the gills",
+        "With hydraulic tube feet",
+        "With a suction cup formed by the lophophore",
+        "With a fleshy pedicle that comes out between their two valves."
+      ],
+      "explanation": "The pedicle anchors the animal to the substrate without being a locomotion leg.",
+      "didYouKnow": "The lophophore of a brachiopod bears ciliated tentacles that capture food particles.",
+      "imageCaption": "Lingula anatina — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-104",
+      "animal": "Cécile",
+      "prompt": "How does the skin of the young of some caecilians provide them with food?",
+      "options": [
+        "They filter plankton into the water",
+        "They eat unfertilized eggs",
+        "They feed on the nutritious outer layer of maternal skin",
+        "They suckle from the mammary glands"
+      ],
+      "explanation": "This strategy is called dermatotrophy.",
+      "didYouKnow": "In caecilians, fertilization is internal, unlike that of many other amphibians.",
+      "imageCaption": "Boulengerula taitana — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-105",
+      "animal": "newt",
+      "prompt": "What phenomenon allows some newts to regrow parts of their tails?",
+      "options": [
+        "Tissue regeneration",
+        "Replacing a vertebra with a fin",
+        "Growing a new front leg",
+        "Shedding of the skin"
+      ],
+      "explanation": "The tail may reform after injury, depending on the species.",
+      "didYouKnow": "Newts are salamanders that often spend part of the year on land and part in the water.",
+      "imageCaption": "Ichthyosaura alpestris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-106",
+      "animal": "newt",
+      "prompt": "How does the male Alpine newt attract a mate during courtship?",
+      "options": [
+        "With a dorsal crest and tail movements",
+        "Changing color like a chameleon",
+        "By hitting the ground with its paws",
+        "By inflating his vocal bags"
+      ],
+      "explanation": "The bright belly colors also serve as a visual cue.",
+      "didYouKnow": "The alpine newt often spends the winter in a damp terrestrial shelter.",
+      "imageCaption": "Ichthyosaura alpestris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-107",
+      "animal": "protea",
+      "prompt": "Which cave amphibian retains external gills throughout its life?",
+      "options": [
+        "The glass frog",
+        "The spotted protea",
+        "The eel protea",
+        "The alpine newt"
+      ],
+      "explanation": "This amphibian lives in underground waters in the Balkans.",
+      "didYouKnow": "The protean eel lays its eggs in water, often under stones or in cracks.",
+      "imageCaption": "Proteus anguinus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-108",
+      "animal": "protea",
+      "prompt": "How does the eel protea compensate for its reduced vision?",
+      "options": [
+        "It uses infrared vision",
+        "It uses in particular the sense of smell and the perception of vibrations",
+        "It produces light to illuminate caves",
+        "It detects sounds with external eardrums"
+      ],
+      "explanation": "It is adapted to life in dark groundwater.",
+      "didYouKnow": "The protea can survive for a long time on little food.",
+      "imageCaption": "Proteus anguinus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-109",
+      "animal": "pipa",
+      "prompt": "At what stage do Surinamese toad young emerge from the alveoli on the maternal back?",
+      "options": [
+        "Like young frogs already formed",
+        "Like tadpoles with external gills",
+        "In the form of unfertilized eggs",
+        "Like little swimming larvae leaving the back"
+      ],
+      "explanation": "Embryos develop in dorsal cavities and emerge after almost complete metamorphosis.",
+      "didYouKnow": "The Surinamese toad is a fully aquatic amphibian from South America.",
+      "imageCaption": "Pipa pipa — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-110",
+      "animal": "frog",
+      "prompt": "What behavior made the now extinct frogs of the genus Rheobatrachus famous?",
+      "options": [
+        "The male carried the egg strings around his legs",
+        "The female laid nutritious eggs to feed the tadpoles",
+        "The female incubated the young in her stomach then expelled them through her mouth.",
+        "The female carried the eggs in a dorsal pouch"
+      ],
+      "explanation": "The female swallowed fertilized eggs and incubated the embryos in her stomach before expelling the young through her mouth.",
+      "didYouKnow": "Frogs of the genus Rheobatrachus lived in Australia.",
+      "imageCaption": "Rheobatrachus silus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-111",
+      "animal": "spider",
+      "prompt": "How does a spider often detect prey touching its web?",
+      "options": [
+        "By the odors emitted by the prey",
+        "By light signals in the web",
+        "By temperature changes of the wires",
+        "By the vibrations transmitted by the wires"
+      ],
+      "explanation": "The web functions like a sensory network.",
+      "didYouKnow": "Most spiders have eight simple eyes, but some species have fewer.",
+      "imageCaption": "Araneus diadematus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-112",
+      "animal": "spider",
+      "prompt": "Which family of proteins makes up most of spider silk?",
+      "options": [
+        "Collagen",
+        "Spidroins",
+        "Keratin",
+        "Chitin"
+      ],
+      "explanation": "Spidroins are the main structural proteins in the silk produced by spiders.",
+      "didYouKnow": "Most spiders have eight simple eyes, although some species have fewer.",
+      "imageCaption": "Araneus diadematus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-113",
+      "animal": "spider",
+      "prompt": "What is the purpose of the safety silk that a spider leaves behind?",
+      "options": [
+        "To protect moulting only",
+        "To pack prey",
+        "To filter plankton",
+        "To anchor yourself while moving or jumping"
+      ],
+      "explanation": "This trolling line can prevent a fall.",
+      "didYouKnow": "Spiders renew their exoskeleton through successive molts during their growth.",
+      "imageCaption": "Salticus scenicus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-114",
+      "animal": "spider",
+      "prompt": "How can young spiders disperse through the air after hatching?",
+      "options": [
+        "By emitting silk threads that the wind carries",
+        "By opening membranous wings",
+        "By inflating an air pocket under the abdomen",
+        "By letting yourself drift in a bubble of mucus"
+      ],
+      "explanation": "Young spiders release one or more silk threads which are carried away by air currents; this behavior is called ballooning.",
+      "didYouKnow": "Spiders grow by periodically shedding their exoskeleton during a molt.",
+      "imageCaption": "Linyphiidae — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-115",
+      "animal": "Argyronet",
+      "prompt": "How can the argyronete, an aquatic spider, stay underwater for a long time?",
+      "options": [
+        "It maintains an air bell in a submerged canvas",
+        "It uses gills instead of lungs",
+        "It breathes only thanks to its eight legs.",
+        "She does not need oxygen as an adult"
+      ],
+      "explanation": "Argyroneta aquatica transports air from the surface and traps it in a submerged silk bell. This reserve also allows gas exchange with water.",
+      "didYouKnow": "Most spiders have eight simple eyes, although some species have fewer.",
+      "imageCaption": "Argyroneta aquatica — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-116",
+      "animal": "spider",
+      "prompt": "Why do some spiders decorate their webs with a stabilimentum?",
+      "options": [
+        "To trap birds with thick wire",
+        "To store eggs in canvas",
+        "To hide prey under a veil",
+        "This structure can help with camouflage or signaling"
+      ],
+      "explanation": "Several functions are being studied, including spider camouflage and visual signaling. They may vary depending on the species and context.",
+      "didYouKnow": "Some spiders scavenge and eat part of their old web to recycle its proteins.",
+      "imageCaption": "Argiope bruennichi — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-117",
+      "animal": "spider",
+      "prompt": "How can the crab spider move sideways?",
+      "options": [
+        "Its legs are made of suckers",
+        "Its legs are adapted to walking sideways",
+        "She moves with her abdomen",
+        "She walks on water thanks to hydrophobic bristles"
+      ],
+      "explanation": "It often sits on flowers to ambush insects.",
+      "didYouKnow": "Some species slowly change color to blend in with the flower.",
+      "imageCaption": "Misumena vatia — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-118",
+      "animal": "spider",
+      "prompt": "What is the role of the pedipalps in an adult male spider?",
+      "options": [
+        "Detect ground vibrations",
+        "Produce silk",
+        "Chew the prey",
+        "Transfer sperm during mating"
+      ],
+      "explanation": "The pedipalps carry structures that collect and deliver sperm.",
+      "didYouKnow": "The chelicerae of many spiders inject venom that helps immobilize their prey.",
+      "imageCaption": "Araneus diadematus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-119",
+      "animal": "spider",
+      "prompt": "Why does a spider sometimes produce different silk for the egg covering?",
+      "options": [
+        "To protect the male after mating",
+        "To protect the egg sac",
+        "To store venom",
+        "To make a hunting web"
+      ],
+      "explanation": "The silks of the cocoon can provide a strong and insulating covering.",
+      "didYouKnow": "The chelicerae of many spiders inject venom that helps immobilize their prey.",
+      "imageCaption": "Araneus diadematus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-120",
+      "animal": "spider",
+      "prompt": "What does a bolas spider do to attract certain male butterflies?",
+      "options": [
+        "It emits a chemical lure resembling a pheromone",
+        "It produces light to attract males",
+        "She waves a web to imitate a butterfly",
+        "She lays eggs resembling butterflies"
+      ],
+      "explanation": "She then throws a drop of sticky silk on the end of a thread.",
+      "didYouKnow": "Spiders can re-ingest part of their old web and recycle the proteins.",
+      "imageCaption": "Mastophora cornigera — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-121",
+      "animal": "scorpion",
+      "prompt": "Which comb-like appendage helps the scorpion chemically explore the ground?",
+      "options": [
+        "Pectins",
+        "Eyespots",
+        "The telson",
+        "Chelicerae"
+      ],
+      "explanation": "These sensory appendages roam the substrate and inform the scorpion about its texture and chemical signals.",
+      "didYouKnow": "The cuticle of many scorpions fluoresces under ultraviolet light.",
+      "imageCaption": "Pandinus imperator — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-122",
+      "animal": "scorpion",
+      "prompt": "Why doesn't a scorpion always inject the same amount of venom when it stings?",
+      "options": [
+        "It can retain its venom or modulate its quantity",
+        "He always injects an identical dose",
+        "It only produces venom after a molt",
+        "He can only sting once in his life"
+      ],
+      "explanation": "Some scorpions make dry stings or inject a variable quantity depending on the threat and the prey.",
+      "didYouKnow": "Scorpions cut up their prey with their mouthparts before absorbing the liquefied tissues.",
+      "imageCaption": "Pandinus imperator — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-123",
+      "animal": "scorpion",
+      "prompt": "What maternal behavior is common in many scorpions?",
+      "options": [
+        "The mother builds a web for the eggs",
+        "The young ride on their mother's back",
+        "Young people bury themselves under the sand",
+        "The father feeds the little ones with insects"
+      ],
+      "explanation": "They thus remain protected until their first molt.",
+      "didYouKnow": "A scorpion can go a long time without eating, although the length depends on the species and conditions.",
+      "imageCaption": "Pandinus imperator — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-124",
+      "animal": "scorpion",
+      "prompt": "What light often causes the cuticle of many scorpions to glow?",
+      "options": [
+        "Infrared light",
+        "Ultraviolet light",
+        "The red light",
+        "Polarized light"
+      ],
+      "explanation": "Compounds in their fluorescent cuticle emit a visible glow under UV light.",
+      "didYouKnow": "Scorpions capture their prey with their pedipalps before bringing them to their mouths.",
+      "imageCaption": "Pandinus imperator — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-125",
+      "animal": "scorpion",
+      "prompt": "Which part of the scorpion has the stinger?",
+      "options": [
+        "The Telson, at the end of the tail",
+        "The cephalothorax",
+        "The left clamp",
+        "The pedipalp"
+      ],
+      "explanation": "The Telson contains the venom glands and the sting.",
+      "didYouKnow": "Scorpions perform a complex display before mating.",
+      "imageCaption": "Pandinus imperator — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-126",
+      "animal": "pseudoscorpion",
+      "prompt": "How does a pseudoscorpion sometimes move without walking?",
+      "options": [
+        "It swims while waving its claws",
+        "He clings to an insect in phoresis",
+        "He flies with hidden wings",
+        "He lets himself be carried by the wind in a web"
+      ],
+      "explanation": "It benefits from transport without necessarily parasitizing its host.",
+      "didYouKnow": "The pseudoscorpion is a tiny arachnid without a tail.",
+      "imageCaption": "Chelifer cancroides — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-127",
+      "animal": "pseudoscorpion",
+      "prompt": "What structure allows the pseudoscorpion to capture its prey?",
+      "options": [
+        "A stinger at the end of the abdomen",
+        "Claws with venom glands in certain species",
+        "Suction cup legs",
+        "Clamp-shaped chelicerae"
+      ],
+      "explanation": "The venom is delivered by the pincers and not by a caudal stinger.",
+      "didYouKnow": "The pseudoscorpion is a tiny arachnid without a tail.",
+      "imageCaption": "Chelifer cancroides — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-128",
+      "animal": "opilion",
+      "prompt": "Why can an opilion detach a leg when attacked?",
+      "options": [
+        "The paw sometimes continues to move and distracts attention",
+        "She throws ink",
+        "She bites her predator",
+        "She drops her abdomen"
+      ],
+      "explanation": "This autotomy can give the animal a chance to escape.",
+      "didYouKnow": "Unlike spiders, the body of opilions appears fused into a single block.",
+      "imageCaption": "Phalangium opilio — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-129",
+      "animal": "mite",
+      "prompt": "Which microscopic mite normally lives in human hair follicles?",
+      "options": [
+        "Scabies sarcoptus",
+        "Demodex",
+        "The dust mite",
+        "The sheep tick"
+      ],
+      "explanation": "These mites feed on sebum and skin cells.",
+      "didYouKnow": "Demodex mites have elongated bodies and short legs.",
+      "imageCaption": "Demodex folliculorum — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-130",
+      "animal": "mite",
+      "prompt": "How do ticks often locate their hosts in the environment?",
+      "options": [
+        "Listening to their cries",
+        "By spotting the vibrations of the canvases",
+        "By detecting heat, odors and carbon dioxide",
+        "Seeing the colors of their hosts"
+      ],
+      "explanation": "They often wait on vegetation near a passage.",
+      "didYouKnow": "A tick is not an insect, but an arachnid.",
+      "imageCaption": "Ixodes ricinus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-131",
+      "animal": "mite",
+      "prompt": "Which stage of a tick's life cycle has six legs?",
+      "options": [
+        "The adult male",
+        "The larva",
+        "The nymph",
+        "The adult female"
+      ],
+      "explanation": "Nymphs and adults have eight legs.",
+      "didYouKnow": "Ticks breathe through external openings called spiracles.",
+      "imageCaption": "Ixodes ricinus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-132",
+      "animal": "tardigrade",
+      "prompt": "What state of cryptobiosis can a tardigrade enter when drying out?",
+      "options": [
+        "The planula state",
+        "The tun state (also called the barrel state)",
+        "Larval anhydrobiosis",
+        "Strobilation"
+      ],
+      "explanation": "The tardigrade contracts its body into a tun, a compact form associated with cryptobiosis.",
+      "didYouKnow": "A tardigrade has four pairs of short legs ending in claws or discs.",
+      "imageCaption": "Hypsibius exemplaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-133",
+      "animal": "tardigrade",
+      "prompt": "How do some tardigrades limit cell damage during severe dehydration?",
+      "options": [
+        "Protective molecules stabilize certain cellular structures",
+        "They make a mineral shell around the body",
+        "They replace the water in their cells with oil",
+        "They permanently interrupt all cellular activity"
+      ],
+      "explanation": "Depending on the species, specific sugars or proteins help protect cells during desiccation.",
+      "didYouKnow": "In certain species, the female deposits her eggs in the exuvia that she has just left.",
+      "imageCaption": "Hypsibius exemplaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-134",
+      "animal": "tardigrade",
+      "prompt": "With what structures does a tardigrade pierce the cells from which it sucks out the contents?",
+      "options": [
+        "Oral stylets",
+        "Grinding mandibles",
+        "A radula covered in teeth",
+        "Pedipalps with pincers"
+      ],
+      "explanation": "Buccal stylets pierce the walls or tissues before the contents are suctioned through the muscular pharynx.",
+      "didYouKnow": "Tardigrades have four pairs of short legs ending in claws or discs.",
+      "imageCaption": "Hypsibius exemplaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-135",
+      "animal": "tardigrade",
+      "prompt": "Which wetland habitat often supports tardigrades?",
+      "options": [
+        "Mosses and lichens",
+        "The surface of the burning rocks",
+        "Dry dunes",
+        "Bird's nests"
+      ],
+      "explanation": "They live in the film of water that covers these microhabitats.",
+      "didYouKnow": "Depending on the species, a tardigrade may feed on algae, bacteria, fungi or small animals.",
+      "imageCaption": "Hypsibius exemplaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-136",
+      "animal": "tardigrade",
+      "prompt": "What do a tardigrade’s legs do?",
+      "options": [
+        "To cling to the substrate and move",
+        "To propel the animal by beating in the water",
+        "To inject venom into its prey",
+        "Digging a burrow in the sand"
+      ],
+      "explanation": "Tardigrades use their short, clawed legs to grip surfaces and move through the water film of their habitat.",
+      "didYouKnow": "Tardigrades have no lungs or gills; gas exchanges take place across their body surface.",
+      "imageCaption": "Hypsibius exemplaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-137",
+      "animal": "rotifer",
+      "prompt": "What apparent rotating organ helps a rotifer attract food?",
+      "options": [
+        "Rhinophores",
+        "The ciliated crown",
+        "The lophophore",
+        "Parapodia"
+      ],
+      "explanation": "The beating of the cilia creates currents and gives the impression of rotation.",
+      "didYouKnow": "Rotifers are microscopic animals often seen in fresh water.",
+      "imageCaption": "Philodina roseola — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-138",
+      "animal": "rotifer",
+      "prompt": "How can the bdelloid rotifer survive prolonged desiccation?",
+      "options": [
+        "By building a limestone shell",
+        "Burying in the ice",
+        "By entering anhydrobiosis",
+        "By migrating to hot springs"
+      ],
+      "explanation": "It reactivates when water becomes available again.",
+      "didYouKnow": "Bdelloids can recolonize small habitats after transport by wind.",
+      "imageCaption": "Philodina roseola — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-139",
+      "animal": "bryozoan",
+      "prompt": "What does a bryozoan colony often look like?",
+      "options": [
+        "To a tube dug in the sand",
+        "To a mat or crust composed of numerous zooids",
+        "To a single large animal",
+        "To a single shell divided into rooms"
+      ],
+      "explanation": "Each zooid is a small filter-feeding animal housed in a chamber.",
+      "didYouKnow": "Some bryozoan colonies live in fresh water, although most species are marine.",
+      "imageCaption": "Membranipora membranacea — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-140",
+      "animal": "bryozoan",
+      "prompt": "What tentacle structure captures food in a bryozoan?",
+      "options": [
+        "Nematocysts",
+        "The cirri",
+        "The lophophore",
+        "The radula"
+      ],
+      "explanation": "It wears a crown of ciliated tentacles which filter particles.",
+      "didYouKnow": "Bryozoans often live attached to algae, rocks or shells.",
+      "imageCaption": "Membranipora membranacea — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-141",
+      "animal": "brachiopod",
+      "prompt": "What detail often distinguishes the shell of a brachiopod from that of a clam?",
+      "options": [
+        "The left and right valves are symmetrical",
+        "Its two valves are dorsal and ventral rather than left and right",
+        "The valves are spirally wound",
+        "The shell has only one valve"
+      ],
+      "explanation": "The plane of symmetry crosses each valve.",
+      "didYouKnow": "Brachiopods are an ancient marine group still present today.",
+      "imageCaption": "Lingula anatina, an example of a brachiopod."
+    },
+    {
+      "id": "unusual-142",
+      "animal": "freshwater bryozoan",
+      "prompt": "How do some freshwater bryozoans get through an unfavorable period?",
+      "options": [
+        "They lock themselves in an adult shell",
+        "They lay amniotic eggs in the mud",
+        "They produce tough statoblasts that can disperse.",
+        "They turn into jellyfish larvae"
+      ],
+      "explanation": "Statoblasts are protected dormant buds that reestablish a colony when conditions become favorable again.",
+      "didYouKnow": "Colonies of freshwater bryozoans often live attached to plants or submerged wood.",
+      "imageCaption": "Cristatella mucedo — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-143",
+      "animal": "tunicates",
+      "prompt": "Which organ filters water in adult ascidians?",
+      "options": [
+        "A multi-chambered stomach",
+        "A siphon containing external gills",
+        "A pocket filled with stinging cells",
+        "A large perforated pharyngeal pouch"
+      ],
+      "explanation": "Water passes through the gill slits and the particles are retained in the mucus.",
+      "didYouKnow": "Adult ascidians generally remain attached to a support, while their larvae are mobile.",
+      "imageCaption": "Ciona intestinalis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-144",
+      "animal": "tunicates",
+      "prompt": "What trait of ascidian larvae reveals their relationship to vertebrates?",
+      "options": [
+        "A bony skeleton",
+        "External gills",
+        "A dorsal chord",
+        "A segmented shell"
+      ],
+      "explanation": "It generally disappears during metamorphosis towards the fixed adult.",
+      "didYouKnow": "In many colonial ascidians, small individuals share a common tunic.",
+      "imageCaption": "Ciona intestinalis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-145",
+      "animal": "tunicates",
+      "prompt": "Why is the adult ascidian sometimes described as a “spitting” creature?",
+      "options": [
+        "It pumps water through its gills",
+        "It can expel filtered water when disturbed",
+        "She injects ink into the water",
+        "She expels a stinging filament"
+      ],
+      "explanation": "Two siphons allow the entry and exit of water.",
+      "didYouKnow": "The tunic of ascidians contains tunicin, a substance related to cellulose.",
+      "imageCaption": "Ciona intestinalis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-146",
+      "animal": "mold",
+      "prompt": "How do mussels attach to rocks?",
+      "options": [
+        "With silk threads",
+        "With byssus threads",
+        "With mucus secretion",
+        "With suction cups on its valves"
+      ],
+      "explanation": "These tough fibers are secreted by a gland in the foot.",
+      "didYouKnow": "Mussels are bivalve molluscs whose two valves are connected by a hinge.",
+      "imageCaption": "Mytilus edulis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-147",
+      "animal": "mold",
+      "prompt": "Which organs of the mussel sort the captured particles and direct them to the mouth?",
+      "options": [
+        "The siphons",
+        "Choanocytes",
+        "Labial palps",
+        "The pedicellariae"
+      ],
+      "explanation": "The labial palps participate in sorting and transporting particles collected by the gills. They do not transform these particles into nutrients themselves.",
+      "didYouKnow": "Mussels often attach themselves to rocks using strong threads called byssus.",
+      "imageCaption": "Mytilus edulis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-148",
+      "animal": "oyster",
+      "prompt": "What sex change can occur in many oysters?",
+      "options": [
+        "They all change gender each season",
+        "They always remain male",
+        "They reproduce without gametes",
+        "They can change sex during their life"
+      ],
+      "explanation": "Sex depends on species, age and sometimes conditions.",
+      "didYouKnow": "Oysters sometimes form beds that provide habitat for other coastal species.",
+      "imageCaption": "Ostrea edulis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-149",
+      "animal": "marine snail",
+      "prompt": "How does the geographic cone snail immobilize certain prey?",
+      "options": [
+        "By paralyzing the prey with a jet of ink",
+        "By pursuing its prey with tentacles",
+        "By trapping her in a sticky web",
+        "With a radular harpoon containing venom"
+      ],
+      "explanation": "It launches the harpoon from an extendable proboscis.",
+      "didYouKnow": "The shells of many sea cones bear patterns and colors characteristic of the species.",
+      "imageCaption": "Conus geographus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-150",
+      "animal": "nudibranch",
+      "prompt": "What do some nudibranchs store after eating cnidarians?",
+      "options": [
+        "The gills of the prey for breathing",
+        "Chromatophores of the prey to change color",
+        "Nematocysts, the stinging capsules of their prey.",
+        "Whole cnidocytes, living cells of the prey"
+      ],
+      "explanation": "The nudibranchs concerned digest the cells of the prey but divert certain stinging capsules, then housed in cnidosacs.",
+      "didYouKnow": "Nudibranchs often have feathery or branched gills on their backs, the shape of which varies depending on the group.",
+      "imageCaption": "Aeolidia papillosa — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-151",
+      "animal": "sacoglossus sea slug",
+      "prompt": "What can a sacoglossal sea slug do with the chloroplasts from the algae it eats?",
+      "options": [
+        "Store them temporarily in your tissues",
+        "Transform them into stinging cells",
+        "Reject them in the form of spores",
+        "Digest them immediately in the stomach"
+      ],
+      "explanation": "This kleptoplasty allows it to take advantage of photosynthesis for a certain period of time.",
+      "didYouKnow": "In many sea slugs, fertilization occurs after a reciprocal exchange of sperm between partners.",
+      "imageCaption": "Elysia chlorotica — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-152",
+      "animal": "flatworm",
+      "prompt": "How does a planarian rebuild much of its body after a cut?",
+      "options": [
+        "Thanks to symbiotic bacteria",
+        "Thanks to its muscle cells",
+        "Thanks to stem cells called neoblasts",
+        "Through the division of his eyes"
+      ],
+      "explanation": "These cells differentiate to replace missing tissues.",
+      "didYouKnow": "Planarians have a nervous system organized into two longitudinal cords connected at the front.",
+      "imageCaption": "Schmidtea mediterranea — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-153",
+      "animal": "flatworm",
+      "prompt": "What sensory organ allows many planarians to detect light?",
+      "options": [
+        "Rhopalies",
+        "The tentacles",
+        "Eyespots",
+        "Statocysts"
+      ],
+      "explanation": "These simple eyes provide information on the direction of light without forming a detailed image.",
+      "didYouKnow": "Some species of planarians can reproduce by transverse body division.",
+      "imageCaption": "Schmidtea mediterranea — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-154",
+      "animal": "ribbon worm",
+      "prompt": "How does the ribbon worm sometimes project its proboscis to seize prey?",
+      "options": [
+        "He unrolls it from his gills",
+        "He swallows it with his mouth",
+        "He throws it from his foot",
+        "It everts the proboscis out of its body"
+      ],
+      "explanation": "The proboscis may be sticky or equipped with stylets depending on the group.",
+      "didYouKnow": "Nemertes are unsegmented worms, often elongated and flattened.",
+      "imageCaption": "Lineus longissimus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-155",
+      "animal": "polychaete worm",
+      "prompt": "What are the parapodia of polychaete worms used for?",
+      "options": [
+        "Defense with venom",
+        "Locomotion and sometimes gas exchange",
+        "For reproduction only",
+        "Filtration of plankton"
+      ],
+      "explanation": "These lateral appendages often bear bristles.",
+      "didYouKnow": "Polychaetes are a diverse group of marine annelids.",
+      "imageCaption": "Hediste diversicolor — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-156",
+      "animal": "polychaete worm",
+      "prompt": "Which marine worm makes colorful plumes that it shrinks into a tube?",
+      "options": [
+        "The flatworm",
+        "The Christmas tree worm",
+        "The earthworm",
+        "The ribbon worm"
+      ],
+      "explanation": "Its gill plumes are used to breathe and capture particles.",
+      "didYouKnow": "Polychaete worms often carry parapodia along their bodies.",
+      "imageCaption": "Spirobranchus giganteus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-157",
+      "animal": "fire worm",
+      "prompt": "How does the fireworm deter certain predators from touching it?",
+      "options": [
+        "It strikes with a tail stinger",
+        "Its brittle bristles can penetrate the skin and cause irritation.",
+        "It injects venom with fixed fangs",
+        "It releases ink from a pocket"
+      ],
+      "explanation": "The fireworm's white bristles are fragile and can come loose on contact, causing an irritating sensation.",
+      "didYouKnow": "The fireworm is a marine polychaete of the family Amphinomidae.",
+      "imageCaption": "Hermodice carunculata — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-158",
+      "animal": "leech",
+      "prompt": "How does a leech sometimes prevent its prey's blood from clotting?",
+      "options": [
+        "It secretes anticoagulant molecules",
+        "It produces a toxin that destroys red blood cells",
+        "It sucks blood with gills",
+        "It secretes a substance that accelerates clotting"
+      ],
+      "explanation": "Hirudin is a known anticoagulant in certain leeches.",
+      "didYouKnow": "Leeches are annelids whose bodies are flattened and segmented.",
+      "imageCaption": "Hirudo medicinalis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-159",
+      "animal": "leech",
+      "prompt": "How many suckers does a leech typically have?",
+      "options": [
+        "None",
+        "Two",
+        "Six",
+        "Only one"
+      ],
+      "explanation": "The anterior and posterior suction cups help it attach and move.",
+      "didYouKnow": "The segmented body can lengthen and shorten during movement.",
+      "imageCaption": "Hirudo medicinalis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-160",
+      "animal": "earthworm",
+      "prompt": "Which organ of the earthworm grinds swallowed particles with the soil?",
+      "options": [
+        "It filters the blood in its intestine",
+        "It stores soil in its gills",
+        "The gizzard",
+        "It only absorbs intact leaves"
+      ],
+      "explanation": "The muscular gizzard crushes the earth and swallowed organic fragments.",
+      "didYouKnow": "The castings released by earthworms contribute to mixing and aeration of the soil.",
+      "imageCaption": "Lumbricus terrestris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-161",
+      "animal": "earthworm",
+      "prompt": "What is the role of earthworm silks?",
+      "options": [
+        "To catch prey",
+        "To dig the ground by turning like a screw",
+        "To breathe underwater",
+        "Anchor yourself in the ground during progression"
+      ],
+      "explanation": "The bristles cling to the substrate while the muscles move the body.",
+      "didYouKnow": "The earthworm is hermaphrodite, but it generally mates with another individual.",
+      "imageCaption": "Lumbricus terrestris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-162",
+      "animal": "sacoglossus sea slug",
+      "prompt": "Which sea slug can regenerate a body from its head after autotomy?",
+      "options": [
+        "Aplysia californica",
+        "Glaucus atlanticus",
+        "Elysia marginata",
+        "Elysia chlorotica"
+      ],
+      "explanation": "In this species, the head can detach and regenerate a new body; the abandoned body does not regenerate a new head.",
+      "didYouKnow": "Elysia marginata is a sacoglossal sea slug that feeds on algae.",
+      "imageCaption": "Elysia marginata — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-163",
+      "animal": "sea slug",
+      "prompt": "Why do some nudibranchs display very bright colors?",
+      "options": [
+        "To attract algae to their mouth",
+        "To signal that they are fast",
+        "To warn that they are poisonous or unpleasant to eat",
+        "To warn that they can be unpleasant to eat"
+      ],
+      "explanation": "Aposematic coloring may signal chemical defenses.",
+      "didYouKnow": "Rhinophores, sensory tentacles placed on the heads of many nudibranchs, detect chemicals in the water.",
+      "imageCaption": "Chromodoris annae — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-164",
+      "animal": "sea slug",
+      "prompt": "Which sensory organ helps a sea slug detect molecules in water?",
+      "options": [
+        "Pectins",
+        "Rhinophores",
+        "Ambulacral feet",
+        "Eyespots"
+      ],
+      "explanation": "These chemical tentacles are often retractable.",
+      "didYouKnow": "Sea slugs are marine gastropods; despite their common name, they are not worms.",
+      "imageCaption": "Chromodoris annae — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-165",
+      "animal": "sea urchin",
+      "prompt": "What little crab sometimes lives between the spines of a sea urchin?",
+      "options": [
+        "The mantis shrimp",
+        "The hermit crab",
+        "The fiddler crab",
+        "The zebra crab (Zebrida adamsii)"
+      ],
+      "explanation": "It benefits from the protection provided by the quills.",
+      "didYouKnow": "The zebra crab has dark and light bands on its shell, which give it its common name.",
+      "imageCaption": "Zebrida adamsii — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-166",
+      "animal": "fragile star",
+      "prompt": "How can some brittle stars avoid an attack?",
+      "options": [
+        "By abandoning an arm that continues to move",
+        "By expelling its viscera",
+        "By producing an ink jet",
+        "By breaking its central disc in two"
+      ],
+      "explanation": "Losing the arm distracts the predator and the animal can then regenerate it.",
+      "didYouKnow": "Brittle stars are often more active at night.",
+      "imageCaption": "Ophiothrix fragilis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-167",
+      "animal": "horseshoe crab",
+      "prompt": "Why are horseshoe crab eggs an important resource for some migratory birds?",
+      "options": [
+        "They turn into edible algae",
+        "They remain suspended in the water column offshore",
+        "They are carried into nests by adult birds",
+        "They provide abundant food on nesting beaches."
+      ],
+      "explanation": "Horseshoe crabs lay eggs in the sand of intertidal zones; Their eggs feed birds that stop there during their migration.",
+      "didYouKnow": "The blue blood of the horseshoe crab is used in biomedical tests to detect certain bacterial contaminations.",
+      "imageCaption": "Limulus polyphemus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-168",
+      "animal": "horseshoe crab",
+      "prompt": "What appendage does the horseshoe crab use to right itself if it is turned over?",
+      "options": [
+        "Its madreporite",
+        "His telson",
+        "Its chelicerae",
+        "Its gills"
+      ],
+      "explanation": "She uses it as a lever to flip onto her ventral side.",
+      "didYouKnow": "Under the abdomen, the horseshoe crab has gills in the form of superimposed sheets.",
+      "imageCaption": "Limulus polyphemus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-169",
+      "animal": "horseshoe crab",
+      "prompt": "What major lineage do horseshoe crabs belong to?",
+      "options": [
+        "To echinoderms",
+        "With molluscs",
+        "With chelicerates",
+        "With shellfish"
+      ],
+      "explanation": "They are closer to spiders than to true crabs.",
+      "didYouKnow": "The horseshoe crab molts several times before reaching its adult size.",
+      "imageCaption": "Limulus polyphemus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-170",
+      "animal": "nautilus",
+      "prompt": "How does the nautilus protect the opening of its shell when it retracts?",
+      "options": [
+        "It closes a pair of articulated valves",
+        "He blocks the opening with a cloud of ink",
+        "He closes it with his fleshy hood.",
+        "It sticks a patch of hardened mucus to the opening"
+      ],
+      "explanation": "The nautilus folds its tentacles and uses a hood formed by modified tentacles to cover the opening.",
+      "didYouKnow": "The nautilus has numerous tentacles without suction cups.",
+      "imageCaption": "Nautilus pompilius — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-171",
+      "animal": "nautilus",
+      "prompt": "Which sense helps the nautilus locate substances dissolved in water?",
+      "options": [
+        "The vibrissae",
+        "Lens eyes",
+        "Pectins",
+        "The sense of smell, thanks to its olfactory organs"
+      ],
+      "explanation": "The nautilus relies mainly on smell to identify dissolved substances and locate food.",
+      "didYouKnow": "Its eyes detect light, but do not have lenses comparable to those of squid.",
+      "imageCaption": "Nautilus pompilius — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-172",
+      "animal": "nautilus",
+      "prompt": "How does the nautilus capture food with its many appendages?",
+      "options": [
+        "He gathers them around the mouth",
+        "By sucking the prey with the siphon",
+        "With a radula",
+        "With a beak that shoots venom"
+      ],
+      "explanation": "Its suction-less tentacles handle food.",
+      "didYouKnow": "The nautilus lays eggs attached to a support, which can take a long time to hatch.",
+      "imageCaption": "Nautilus pompilius — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-173",
+      "animal": "siphonophore",
+      "prompt": "Why does a siphonophore look like a single animal but still be a colony?",
+      "options": [
+        "Its cells group together after each division",
+        "The colony is made up of several species brought together temporarily",
+        "It is a single animal with many arms",
+        "Its specialized individuals, the zooids, cooperate"
+      ],
+      "explanation": "Some zooids capture food, others reproduce or swim.",
+      "didYouKnow": "Some species of deep-sea siphonophores produce light.",
+      "imageCaption": "Physalia physalis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-174",
+      "animal": "siphonophore",
+      "prompt": "What role do nectophores play in some siphonophores?",
+      "options": [
+        "They carry the reproductive organs",
+        "They produce stinging cells",
+        "They filter prey",
+        "They ensure the propulsion of the colony"
+      ],
+      "explanation": "These specialized zooids contract to move the whole thing forward.",
+      "didYouKnow": "Some siphonophores have zooids specialized in reproduction.",
+      "imageCaption": "Physophora hydrostatica — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-175",
+      "animal": "physalia",
+      "prompt": "What buoyant structure keeps the physalia near the surface?",
+      "options": [
+        "A floating egg sac",
+        "A float filled with gas",
+        "A limestone shell",
+        "A swim bladder"
+      ],
+      "explanation": "The floater is a specialized zooid of the colony.",
+      "didYouKnow": "The stinging tentacles can extend far below the surface.",
+      "imageCaption": "Physalia physalis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-176",
+      "animal": "siphonophore",
+      "prompt": "Which zooid of some siphonophores specializes in capturing and manipulating prey?",
+      "options": [
+        "The dactylozoid.",
+        "The nectophore",
+        "The pneumatophore",
+        "The gonophore"
+      ],
+      "explanation": "Dactylozoids bear capture tentacles; other zooids in the colony provide digestion or propulsion.",
+      "didYouKnow": "Some species of deep-sea siphonophores produce light.",
+      "imageCaption": "Physalia physalis — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-177",
+      "animal": "ctenophore",
+      "prompt": "What produces the iridescent highlights along the body of a ctenophore?",
+      "options": [
+        "Diffraction of light by the rows of cilia, or combs",
+        "Pigment cells that change size",
+        "A layer of symbiotic algae",
+        "Reflection of pigments in tissues"
+      ],
+      "explanation": "External light is diffracted by the rows of cilia, producing rainbow-like reflections. The beating cilia also propel the animal.",
+      "didYouKnow": "Many species of ctenophores are hermaphrodites and release their gametes into the water.",
+      "imageCaption": "Mnemiopsis leidyi — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-178",
+      "animal": "ctenophore",
+      "prompt": "Which sticky cell helps some ctenophores capture their prey?",
+      "options": [
+        "The colloblast",
+        "The nematocyst",
+        "The choanocyte",
+        "The chromatophore"
+      ],
+      "explanation": "These adhesive cells differ from stinging cnidocytes.",
+      "didYouKnow": "Ctenophores are not jellyfish, despite their gelatinous bodies.",
+      "imageCaption": "Pleurobrachia pileus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-179",
+      "animal": "ctenophore",
+      "prompt": "Which sensory organ coordinates the orientation and movement of comb rows in a ctenophore?",
+      "options": [
+        "The nematocyst",
+        "The lophophore",
+        "Madreporite",
+        "The statocyst of the apical organ."
+      ],
+      "explanation": "The statocyst contributes to balance and coordinates the ciliary comb rows that propel the ctenophore.",
+      "didYouKnow": "Some ctenophores produce visible light through bioluminescence.",
+      "imageCaption": "Mnemiopsis leidyi — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-180",
+      "animal": "carnivorous sponge",
+      "prompt": "How do some deep-sea sponges capture small crustaceans?",
+      "options": [
+        "With stinging nematocysts",
+        "By filtering plankton using choanocytes",
+        "With filaments or adhesive hooks",
+        "By secreting a cloud of ink"
+      ],
+      "explanation": "These carnivorous sponges live where filtering enough particles is difficult.",
+      "didYouKnow": "Sponges do not have a central nervous system and their bodies are organized around specialized cells.",
+      "imageCaption": "Chondrocladia lyra — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-181",
+      "animal": "glass sponge",
+      "prompt": "Which animal can live imprisoned as an adult in the glass sponge “Venus’ flower basket”?",
+      "options": [
+        "A fiddler crab",
+        "A couple of small shrimps.",
+        "An adult starfish",
+        "A school of juvenile fish"
+      ],
+      "explanation": "Two shrimp can enter the young sponge and grow there until they can no longer get out through the openings.",
+      "didYouKnow": "The skeleton of Venus' flower basket is formed of silica spicules fused into a network.",
+      "imageCaption": "Euplectella aspergillum — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-182",
+      "animal": "black coral",
+      "prompt": "Why might black coral have a dark appearance?",
+      "options": [
+        "The color of its skeleton contrasts with its light polyps",
+        "It is covered in black chromatophores",
+        "He has no living polyps",
+        "He accumulates ink in his tissues"
+      ],
+      "explanation": "The name refers to the skeleton, not necessarily the color of the living animal.",
+      "didYouKnow": "Black coral polyps capture food particles with their tentacles.",
+      "imageCaption": "Antipathes dichotoma, a representative of black corals."
+    },
+    {
+      "id": "unusual-183",
+      "animal": "black coral",
+      "prompt": "What exceptional longevity has been estimated for some black coral colonies?",
+      "options": [
+        "Several centuries",
+        "A few months",
+        "A few decades",
+        "A few years"
+      ],
+      "explanation": "The slow growth and age of colonies are estimated from their structures.",
+      "didYouKnow": "Black corals belong to the anthozoa group.",
+      "imageCaption": "Antipathes dichotoma, a representative of black corals."
+    },
+    {
+      "id": "unusual-184",
+      "animal": "mushroom coral",
+      "prompt": "How does a solitary mushroom coral sometimes move across the bottom?",
+      "options": [
+        "Using a propellant siphon",
+        "By crawling using his podia",
+        "He may stand up or turn around with his tissues swollen",
+        "By detaching its tentacles and swimming"
+      ],
+      "explanation": "These movements help it emerge from a sediment that is burying it.",
+      "didYouKnow": "Some mushroom corals can reproduce by division of the polyp.",
+      "imageCaption": "Fungia fungites — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-185",
+      "animal": "anemone",
+      "prompt": "How can the clownfish avoid being stung by its anemone?",
+      "options": [
+        "Living in a borrowed shell",
+        "By secreting a neutralizing venom",
+        "By eating the tentacles of his anemone",
+        "Its mucus limits the triggering of stinging cells"
+      ],
+      "explanation": "Protection depends on acclimatization and the species.",
+      "didYouKnow": "Some sea anemones can reproduce by division or budding.",
+      "imageCaption": "Amphiprion ocellaris — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-186",
+      "animal": "anemone",
+      "prompt": "What does a sea anemone do to digest its prey?",
+      "options": [
+        "It expels its prey through the anus",
+        "She crushes it with her teeth",
+        "It digests it on its tentacles without swallowing it.",
+        "It leads it into a gastrovascular cavity"
+      ],
+      "explanation": "Enzymes break down food there before distributing nutrients.",
+      "didYouKnow": "Anemones are cnidarians of the anthozoa group and do not have a jellyfish stage.",
+      "imageCaption": "Actinia equina — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-187",
+      "animal": "anemone",
+      "prompt": "How can an anemone move when it doesn't stay fixed?",
+      "options": [
+        "She crawls slowly with her pedal disc",
+        "She digs with a shell",
+        "She swims by flapping her tentacles",
+        "It is propelled by a siphon"
+      ],
+      "explanation": "Some become detached and can even drift into the water.",
+      "didYouKnow": "Anemones can also reproduce by division or budding.",
+      "imageCaption": "Actinia equina — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-188",
+      "animal": "Cécile",
+      "prompt": "What are the transverse folds that give a caecilian its ringed appearance called?",
+      "options": [
+        "Annuli",
+        "The elytra",
+        "The podia",
+        "The cirri"
+      ],
+      "explanation": "Annuli are transverse skin folds that give the body a ringed appearance; they do not indicate skeletal segmentation.",
+      "didYouKnow": "Some caecilians give birth to live young, while others lay eggs guarded by a parent.",
+      "imageCaption": "Ichthyophis glutinosus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-189",
+      "animal": "bdelloid rotifer",
+      "prompt": "What mode of reproduction is observed in bdelloid rotifers, in which no males have been observed?",
+      "options": [
+        "Reproduction by budding of a colony",
+        "Reproduction without fertilization, by parthenogenesis.",
+        "External fertilization with gametes released into the water",
+        "The division of an adult individual into two halves"
+      ],
+      "explanation": "Bdelloids produce offspring from unfertilized eggs.",
+      "didYouKnow": "Bdelloid rotifers include numerous microscopic species of freshwater and wetlands.",
+      "imageCaption": "Philodina roseola — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-190",
+      "animal": "sea cucumber",
+      "prompt": "How do some sea cucumbers repel a predator with their Cuvierian tubules?",
+      "options": [
+        "They throw detachable limestone quills",
+        "They close their five arms around the predator",
+        "They expel sticky filaments which become entangled around the attacker.",
+        "They shoot a jet of black ink from their mouth"
+      ],
+      "explanation": "Some species project these tubules from their cloaca; they can stick to the predator and deflect its attack.",
+      "didYouKnow": "Sea cucumbers are echinoderms, relatives of starfish and sea urchins.",
+      "imageCaption": "Holothuria forskali — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-191",
+      "animal": "starfish",
+      "prompt": "How do a star's eyespots detect the environment?",
+      "options": [
+        "They detect sounds underwater",
+        "They form a detailed color image",
+        "They perceive light and contrasts",
+        "They measure salinity with lenses"
+      ],
+      "explanation": "They are often found at the end of each arm.",
+      "didYouKnow": "Starfish operate their tube feet through a network of water-filled canals.",
+      "imageCaption": "Asterias rubens — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-192",
+      "animal": "sea urchin",
+      "prompt": "What is the interest of venomous pedicellariae in certain sea urchins?",
+      "options": [
+        "Hang the sea urchin on the seaweed",
+        "Repel small predators or parasites",
+        "Filter the plankton around the test",
+        "Help dig the sand"
+      ],
+      "explanation": "These tiny pincers close on contact with an organism.",
+      "didYouKnow": "Sea urchins have an internal skeleton of calcareous plates called a test.",
+      "imageCaption": "Toxopneustes pileolus — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-193",
+      "animal": "crinoid",
+      "prompt": "How can a comatula move despite looking like a feather?",
+      "options": [
+        "By making their central disk undulate",
+        "She swims with arm movements or crawls with cirri",
+        "By pumping water with their mouth",
+        "Walking with pliers"
+      ],
+      "explanation": "Cirri are small appendages that help the animal grip the substrate.",
+      "didYouKnow": "Comatulae capture suspended particles with their arms covered in small ambulacral feet.",
+      "imageCaption": "Antedon mediterranea — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-194",
+      "animal": "snail",
+      "prompt": "How can the sea hare confuse a predator when disturbed?",
+      "options": [
+        "It releases ink, sometimes accompanied by an opaline secretion",
+        "It releases stinging cells",
+        "It projects a shell of defense",
+        "He expels blue blood"
+      ],
+      "explanation": "Ink and defensive secretions can form a cloud that distracts or disrupts a predator.",
+      "didYouKnow": "Many sea hares do not have a visible outer shell as adults.",
+      "imageCaption": "Aplysia californica — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-195",
+      "animal": "sea hare",
+      "prompt": "What reproductive behavior can form long chains in some sea hares?",
+      "options": [
+        "Adults divide into chains of clones",
+        "The eggs are attached in a chain to the tentacles",
+        "Males carry females in their shells",
+        "Several individuals mate in a line, each of which can play both sexual roles."
+      ],
+      "explanation": "Sea hares are hermaphrodites and can form mating chains.",
+      "didYouKnow": "Sea hares have rhinophores on their heads, often compared to small rabbit ears.",
+      "imageCaption": "Aplysia californica — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-196",
+      "animal": "comb jellyfish",
+      "prompt": "How does a bioluminescent ctenophore sometimes produce light?",
+      "options": [
+        "With her rows of eyelashes",
+        "By pigments absorbed in its food",
+        "By biochemical reactions in its tissues",
+        "Reflecting the sun's rays"
+      ],
+      "explanation": "Bioluminescence can serve as a defense or a signal.",
+      "didYouKnow": "Rainbow highlights from combs are a distinct optical phenomenon.",
+      "imageCaption": "Mnemiopsis leidyi — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-197",
+      "animal": "sponge",
+      "prompt": "How do sponges remove their nitrogenous waste?",
+      "options": [
+        "Using a kidney",
+        "By storing them in a shell",
+        "By a swim bladder",
+        "By diffusion in the water current passing through them"
+      ],
+      "explanation": "The continuous flow evacuates waste and renews dissolved gases.",
+      "didYouKnow": "Some sponges host very rich microbial communities.",
+      "imageCaption": "Aplysina aerophoba — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-198",
+      "animal": "starfish",
+      "prompt": "What symmetry does a starfish larva have before metamorphosis?",
+      "options": [
+        "Helical symmetry",
+        "No body symmetry",
+        "Bilateral symmetry.",
+        "Five-axis radial symmetry"
+      ],
+      "explanation": "The swimming larva has a left and a right side; the radial organization appears during metamorphosis.",
+      "didYouKnow": "Starfish operate their tube feet through an internal network of water-filled canals.",
+      "imageCaption": "Asterias rubens — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-199",
+      "animal": "jellyfish Turritopsis dohrnii",
+      "prompt": "What can the Turritopsis dohrnii jellyfish do after stress or injury?",
+      "options": [
+        "Transform into a coral colony",
+        "Regenerate all species of jellyfish in its environment",
+        "Split into two identical adult jellyfish",
+        "Return from the jellyfish stage to a polyp stage."
+      ],
+      "explanation": "Under certain conditions, it can reorganize its tissues and reverse its life cycle; this does not make her invulnerable or literally immortal.",
+      "didYouKnow": "The bell of Turritopsis dohrnii measures only a few millimeters.",
+      "imageCaption": "Turritopsis dohrnii — representative species of the group mentioned."
+    },
+    {
+      "id": "unusual-200",
+      "animal": "squid",
+      "prompt": "What is the squid’s gladius?",
+      "options": [
+        "A rigid spiral outer shell",
+        "A thin and flexible internal shell",
+        "An external calcareous bone",
+        "A bag of ink"
+      ],
+      "explanation": "It supports the mantle and constitutes a vestige of a shell.",
+      "didYouKnow": "In many squid, the siphon allows propulsion by water jet.",
+      "imageCaption": "Doryteuthis pealeii — representative species of the group mentioned."
+    }
+  ]
+}

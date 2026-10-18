@@ -1,0 +1,1206 @@
+{
+  "locale": "es",
+  "sourceSha256": "5ba58c0c2f0eaffc99878e312fec9bcf2419356ed02db5feefc1b9f287257069",
+  "animals": [
+    {
+      "id": "photo-001",
+      "animal": "Ornitorrinco",
+      "recognition": "Pico ancho y plano, cuerpo cubierto de pelo y cola aplanada.",
+      "didYouKnow": "Los ornitorrincos jóvenes tienen dientes que van perdiendo a medida que crecen; los adultos muelen la comida con platos córneos."
+    },
+    {
+      "id": "photo-002",
+      "animal": "Equidna de pico corto",
+      "recognition": "Un hocico estrecho sobresale de una espalda cubierta de púas.",
+      "didYouKnow": "Su temperatura corporal es generalmente más baja que la de muchos mamíferos placentarios."
+    },
+    {
+      "id": "photo-003",
+      "animal": "Wombat común",
+      "recognition": "Cuerpo rechoncho, orejas pequeñas y redondeadas y patas robustas.",
+      "didYouKnow": "Sus incisivos siguen creciendo, lo que compensa su desgaste cuando corta plantas duras."
+    },
+    {
+      "id": "photo-004",
+      "animal": "Demonio de Tasmania",
+      "recognition": "Pelaje negro, cabeza grande y, a menudo, una marca blanca en el pecho.",
+      "didYouKnow": "Un demonio puede almacenar reservas de grasa en su cola; Por tanto, una cola gruesa puede dar testimonio de su condición corporal."
+    },
+    {
+      "id": "photo-005",
+      "animal": "Zarigüeya de Virginia",
+      "recognition": "Hocico claro y puntiagudo, orejas casi desnudas y cola larga y escamosa.",
+      "didYouKnow": "El primer dedo de sus patas traseras es oponible y sin garra, lo que facilita el agarre."
+    },
+    {
+      "id": "photo-006",
+      "animal": "Saiga",
+      "recognition": "Su nariz hinchada forma un tronco corto y muy reconocible.",
+      "didYouKnow": "Su pelaje se vuelve más denso y pálido en invierno, luego más corto y leonado en verano."
+    },
+    {
+      "id": "photo-007",
+      "animal": "Narval",
+      "recognition": "Pequeño cetáceo moteado, algunos de cuyos individuos portan un colmillo largo y retorcido.",
+      "didYouKnow": "La defensa gira hacia la izquierda; Los individuos raros tienen dos colmillos."
+    },
+    {
+      "id": "photo-008",
+      "animal": "Dugongo",
+      "recognition": "Hocico vuelto hacia abajo y aleta caudal con muescas.",
+      "didYouKnow": "Los dugongos pueden comunicarse mediante sonidos cortos, especialmente entre una madre y sus crías."
+    },
+    {
+      "id": "photo-009",
+      "animal": "Pangolín de temminck",
+      "recognition": "Grandes escamas superpuestas y cola larga y gruesa.",
+      "didYouKnow": "Su estómago contiene estructuras córneas que le ayudan a triturar los alimentos que traga sin masticarlos."
+    },
+    {
+      "id": "photo-010",
+      "animal": "Armadillo de nueve bandas",
+      "recognition": "Caparazón articulado en bandas y hocico alargado.",
+      "didYouKnow": "Las camadas de esta especie suelen estar formadas por cuatro crías genéticamente idénticas, procedentes del mismo embrión."
+    },
+    {
+      "id": "photo-011",
+      "animal": "Oso hormiguero gigante",
+      "recognition": "Hocico muy largo, raya oscura en el flanco y cola tupida.",
+      "didYouKnow": "Su temperatura corporal es relativamente baja para un mamífero de este tamaño, lo que reduce sus necesidades energéticas."
+    },
+    {
+      "id": "photo-012",
+      "animal": "Gibón de manos blancas",
+      "recognition": "Brazos muy largos y borde claro alrededor de la cara.",
+      "didYouKnow": "Los machos y las hembras pueden tener pelajes claros u oscuros: por lo tanto, el color por sí solo no puede determinar el sexo."
+    },
+    {
+      "id": "photo-013",
+      "animal": "Tarsero filipino",
+      "recognition": "Ojos muy grandes, orientados hacia adelante y extremidades largas y delgadas.",
+      "didYouKnow": "También se comunica por ultrasonidos, a frecuencias que el oído humano no puede percibir."
+    },
+    {
+      "id": "photo-014",
+      "animal": "Perezoso de garganta marrón",
+      "recognition": "Cara redondeada con máscara oscura y extremidades largas terminadas en garras.",
+      "didYouKnow": "Su temperatura corporal puede variar a lo largo del día, a diferencia de la de muchos otros mamíferos."
+    },
+    {
+      "id": "photo-015",
+      "animal": "Carpincho",
+      "recognition": "Roedor grande con un hocico enorme y ojos en lo alto de la cabeza.",
+      "didYouKnow": "Sus incisivos crecen continuamente, como los de otros roedores, y se desgastan mientras pastan."
+    },
+    {
+      "id": "photo-016",
+      "animal": "Chinchilla de cola larga",
+      "recognition": "Orejas grandes y redondas, pelaje muy denso y cola tupida.",
+      "didYouKnow": "Una hembra tiene dos cuernos uterinos y puede dar a luz a bebés que ya están cubiertos de pelo."
+    },
+    {
+      "id": "photo-017",
+      "animal": "Puercoespín americano",
+      "recognition": "Silueta pesada con púas mezcladas con el abrigo.",
+      "didYouKnow": "Sus dientes son de color naranja debido a los pigmentos que contienen hierro en el esmalte."
+    },
+    {
+      "id": "photo-018",
+      "animal": "Pika americana",
+      "recognition": "Pequeño lagomorfo con orejas redondeadas, sin cola larga visible.",
+      "didYouKnow": "Cosecha plantas y las seca en pequeños montones para acumular reservas que se consumen durante la mala temporada."
+    },
+    {
+      "id": "photo-019",
+      "animal": "Murciélago magueyero menor",
+      "recognition": "Murciélago de hocico alargado y hoja nasal pequeña.",
+      "didYouKnow": "Su lengua puede extenderse hasta alcanzar el néctar del fondo de las flores y su paso contribuye a su polinización."
+    },
+    {
+      "id": "photo-020",
+      "animal": "Foca leopardo",
+      "recognition": "Cabeza alargada, boca ancha y garganta a menudo manchada.",
+      "didYouKnow": "Sus molares tienen varias puntas que pueden sujetar presas pequeñas cuando expulsan agua de la boca."
+    },
+    {
+      "id": "photo-021",
+      "animal": "Elefante marino del sur",
+      "recognition": "Sello muy grande; el macho adulto tiene la nariz hinchada.",
+      "didYouKnow": "La renovación de la piel va acompañada de una gran pérdida de cabello y epidermis viejos."
+    },
+    {
+      "id": "photo-022",
+      "animal": "Lobo marino del norte",
+      "recognition": "Cabeza pequeña, orejas externas y pelaje espeso y oscuro.",
+      "didYouKnow": "Durante sus excursiones de alimentación, las hembras pueden viajar grandes distancias antes de regresar para amamantar a sus crías."
+    },
+    {
+      "id": "photo-023",
+      "animal": "Fennec",
+      "recognition": "Pequeño zorro claro con orejas de gran tamaño.",
+      "didYouKnow": "Las plantas de sus pies están cubiertas de pelos que mejoran su apoyo sobre la arena y lo aíslan del suelo caliente."
+    },
+    {
+      "id": "photo-024",
+      "animal": "Mangosta enana",
+      "recognition": "Mangosta pequeña con cabeza corta y pelaje marrón moteado.",
+      "didYouKnow": "Los miembros de un grupo pueden preparar a sus compañeros, un comportamiento que mantiene los vínculos sociales."
+    },
+    {
+      "id": "photo-025",
+      "animal": "Gineta común",
+      "recognition": "Cuerpo esbelto y moteado y cola anillada muy larga.",
+      "didYouKnow": "Sus letrinas colectivas pueden instalarse sobre rocas u otros puntos elevados."
+    },
+    {
+      "id": "photo-026",
+      "animal": "Civeta africana",
+      "recognition": "Máscara negra alrededor de los ojos y grandes manchas en un cuerpo robusto.",
+      "didYouKnow": "Dispersa las semillas de ciertos frutos que consume, contribuyendo así a la renovación de la vegetación."
+    },
+    {
+      "id": "photo-027",
+      "animal": "Caracal",
+      "recognition": "Pelaje color leonado liso y largos mechones negros en las puntas de las orejas.",
+      "didYouKnow": "Posee almohadillas y pelos plantares que favorecen un acercamiento silencioso a sus presas."
+    },
+    {
+      "id": "photo-028",
+      "animal": "Gato pescador",
+      "recognition": "Gato rechoncho, orejas pequeñas y pelaje grisáceo marcado con manchas y líneas.",
+      "didYouKnow": "La densa parte inferior de su pelaje ayuda a limitar el contacto directo del agua con la piel."
+    },
+    {
+      "id": "photo-029",
+      "animal": "Lobo de crin",
+      "recognition": "Patas negras muy largas y pelaje rojo con melena oscura.",
+      "didYouKnow": "Sus crías nacen con un pelaje mucho más oscuro que el de los adultos."
+    },
+    {
+      "id": "photo-030",
+      "animal": "Perro mapache",
+      "recognition": "Cánido de patas cortas y máscara facial oscura.",
+      "didYouKnow": "Las parejas pueden participar juntas en la crianza de las crías, y el macho en particular cuida la camada."
+    },
+    {
+      "id": "photo-031",
+      "animal": "Okapi",
+      "recognition": "Cuerpo de color marrón oscuro, cabeza parecida a la de una jirafa y rayas blancas en las extremidades.",
+      "didYouKnow": "Las crías pueden permanecer escondidas durante mucho tiempo en un lugar de descanso mientras su madre se alimenta en otro lugar."
+    },
+    {
+      "id": "photo-032",
+      "animal": "Tapir malasio",
+      "recognition": "Tronco corto y sillín ancho de color blanco que contrasta con el negro delantero y trasero.",
+      "didYouKnow": "Sus crías tienen rayas y manchas claras que van desapareciendo a medida que crecen."
+    },
+    {
+      "id": "photo-033",
+      "animal": "Oso hormiguero sedoso",
+      "recognition": "Pequeño oso hormiguero arbóreo con pelaje dorado y hocico corto.",
+      "didYouKnow": "Suele descansar acurrucado, con el hocico y las extremidades protegidos bajo la cola."
+    },
+    {
+      "id": "photo-034",
+      "animal": "Pecarí de collar",
+      "recognition": "Cuerpo oscuro, hocico uniforme y banda clara alrededor de los hombros.",
+      "didYouKnow": "Posee una glándula dorsal cuyas secreciones olorosas participan en el reconocimiento entre los miembros del grupo."
+    },
+    {
+      "id": "photo-035",
+      "animal": "Guanaco",
+      "recognition": "Camélido de dorso leonado, vientre claro y cara gris.",
+      "didYouKnow": "Puede vivir a gran altura y sus células sanguíneas, como las de otros camélidos, son ovaladas."
+    },
+    {
+      "id": "photo-036",
+      "animal": "Vicuña",
+      "recognition": "Camélido pequeño y esbelto, de pecho claro y fino vellón leonado.",
+      "didYouKnow": "Sus incisivos inferiores muestran un crecimiento prolongado adaptado al pastoreo de plantas abrasivas."
+    },
+    {
+      "id": "photo-037",
+      "animal": "Buey almizclero",
+      "recognition": "Largo vellón que desciende a los lados y cuernos curvados hacia abajo y luego hacia arriba.",
+      "didYouKnow": "Su subpelo, llamado qiviut, cae naturalmente durante la muda de primavera."
+    },
+    {
+      "id": "photo-038",
+      "animal": "Gaur",
+      "recognition": "Bovino salvaje grande y oscuro, fuerte joroba en los hombros y parte inferior de las piernas clara.",
+      "didYouKnow": "Las hembras pueden vivir en grupos, mientras que algunos machos adultos grandes pasan más tiempo solos."
+    },
+    {
+      "id": "photo-039",
+      "animal": "Banteng",
+      "recognition": "Bovino salvaje con patas blancas y una zona clara en la grupa.",
+      "didYouKnow": "Las hembras son generalmente de color marrón rojizo, mientras que muchos machos adultos se vuelven muy oscuros."
+    },
+    {
+      "id": "photo-040",
+      "animal": "Addax",
+      "recognition": "Antílope pálido con cuernos largos y retorcidos y una máscara facial contrastante.",
+      "didYouKnow": "Su pelaje se aclara durante la estación cálida y se vuelve más oscuro y lleno durante la estación fría."
+    },
+    {
+      "id": "photo-041",
+      "animal": "Órice de cuernos de cimitarra",
+      "recognition": "Cuerpo muy ligero, cuello rojo y largos cuernos curvados hacia atrás.",
+      "didYouKnow": "Los programas de reintroducción han permitido restablecer poblaciones en Chad, donde la especie había desaparecido en estado silvestre."
+    },
+    {
+      "id": "photo-042",
+      "animal": "Bongó",
+      "recognition": "Gran antílope rojo cubierto de finas bandas verticales blancas.",
+      "didYouKnow": "Tanto los machos como las hembras tienen cuernos en espiral; los de los machos son generalmente más masivos."
+    },
+    {
+      "id": "photo-043",
+      "animal": "Kudú mayor",
+      "recognition": "Pelaje gris o marrón rayado con orejas blancas y muy grandes.",
+      "didYouKnow": "Los machos pueden emitir un ladrido fuerte cuando se alarman."
+    },
+    {
+      "id": "photo-044",
+      "animal": "Saola",
+      "recognition": "Bóvido marrón con marcas faciales claras y dos cuernos largos casi paralelos.",
+      "didYouKnow": "Fue descrito científicamente en la década de 1990 basándose en los descubrimientos realizados en la cadena Annamita."
+    },
+    {
+      "id": "photo-045",
+      "animal": "Rata topo desnuda",
+      "recognition": "Piel casi desnuda, ojos pequeños y incisivos que sobresalen de los labios.",
+      "didYouKnow": "Los trabajadores pueden avanzar o retroceder en las estrechas galerías de su colonia."
+    },
+    {
+      "id": "photo-046",
+      "animal": "Cálao rinoceronte",
+      "recognition": "Pico grande de color amarillo anaranjado rematado con un casco curvo.",
+      "didYouKnow": "El macho y la hembra se pueden distinguir notablemente por el color del iris en los adultos."
+    },
+    {
+      "id": "photo-047",
+      "animal": "Ave lira soberbia",
+      "recognition": "Pájaro terrestre marrón; el macho tiene una cola larga con plumas en forma de lira.",
+      "didYouKnow": "Al remover la hojarasca para alimentarse, desplaza grandes cantidades de materia vegetal y suelo."
+    },
+    {
+      "id": "photo-048",
+      "animal": "Casuario común",
+      "recognition": "Gran pájaro negro con cuello azul, barbas rojas y casco en la cabeza.",
+      "didYouKnow": "Sus huevos son verdosos, un color inusual entre las aves terrestres de gran tamaño."
+    },
+    {
+      "id": "photo-049",
+      "animal": "Hoazin",
+      "recognition": "Cabeza con piel azul y cresta erizada sobre un cuerpo marrón.",
+      "didYouKnow": "Su gran sistema digestivo reduce el espacio disponible para ciertos músculos de vuelo, lo que contribuye a sus limitadas capacidades aéreas."
+    },
+    {
+      "id": "photo-050",
+      "animal": "Loro eclectus",
+      "recognition": "El macho es verde con pico anaranjado; la hembra es principalmente roja y azul violeta.",
+      "didYouKnow": "Su lengua carnosa le ayuda a manipular los alimentos, especialmente los frutos que come de los árboles."
+    },
+    {
+      "id": "photo-051",
+      "animal": "Picozapato",
+      "recognition": "Gran ave zancuda gris con un enorme pico en forma de pezuña.",
+      "didYouKnow": "Puede producir un chasquido audible del pico durante ciertas interacciones en el nido."
+    },
+    {
+      "id": "photo-052",
+      "animal": "Ibis escarlata",
+      "recognition": "Plumaje rojo brillante y pico largo, delgado y curvado hacia abajo.",
+      "didYouKnow": "Sus crías presentan al principio un plumaje de color marrón grisáceo; la coloración roja se desarrolla con la edad y la dieta."
+    },
+    {
+      "id": "photo-053",
+      "animal": "Espátula común",
+      "recognition": "Plumaje blanco y pico negro ensanchado en la punta.",
+      "didYouKnow": "Los juveniles suelen tener puntas negras en las grandes plumas de las alas, menos visibles en los adultos."
+    },
+    {
+      "id": "photo-054",
+      "animal": "Jacana de cola larga",
+      "recognition": "Dedos muy largos y, en plumaje nupcial, cola estirada.",
+      "didYouKnow": "Sus dedos larguísimos distribuyen su peso sobre la vegetación flotante, lo que le permite explorar superficies inestables."
+    },
+    {
+      "id": "photo-055",
+      "animal": "Mirlo acuático europeo",
+      "recognition": "Pequeño pájaro de color marrón oscuro con un gran plastrón blanco.",
+      "didYouKnow": "Una membrana protege sus ojos cuando explora el agua en busca de alimento."
+    },
+    {
+      "id": "photo-056",
+      "animal": "Piquituerto común",
+      "recognition": "Los dos extremos del pico se cruzan en lugar de encontrarse normalmente.",
+      "didYouKnow": "Algunos individuos tienen el pico cruzado hacia la izquierda, otros hacia la derecha."
+    },
+    {
+      "id": "photo-057",
+      "animal": "Kea",
+      "recognition": "Loro montañés de color verde oliva con pico estrecho y curvo.",
+      "didYouKnow": "Los jóvenes tienen zonas amarillentas alrededor del pico que se van desvaneciendo a medida que envejecen."
+    },
+    {
+      "id": "photo-058",
+      "animal": "Tejedor común",
+      "recognition": "Pajarito amarillo; el macho reproductor tiene la cabeza negra.",
+      "didYouKnow": "Las hembras pueden examinar varios nidos antes de aceptar una pareja y su trabajo."
+    },
+    {
+      "id": "photo-059",
+      "animal": "Tejedor sociable",
+      "recognition": "Pequeño pájaro paseriforme de color marrón con dorso escamoso y babero negro.",
+      "didYouKnow": "Las cámaras interiores de un gran nido colectivo amortiguan las variaciones de temperatura más que las cámaras periféricas."
+    },
+    {
+      "id": "photo-060",
+      "animal": "Ave del paraíso soberbia",
+      "recognition": "El macho es mayoritariamente negro con áreas iridiscentes de color azul verdoso.",
+      "didYouKnow": "El tono iridiscente depende del ángulo en el que la luz incide en las estructuras de las plumas."
+    },
+    {
+      "id": "photo-061",
+      "animal": "Carpintero de bellota",
+      "recognition": "Cara contrastante, gorra roja e iris claro.",
+      "didYouKnow": "Cava agujeros de almacenamiento en baúles cuyas dimensiones contienen las bellotas; un glande seco se puede transferir a un agujero más ajustado."
+    },
+    {
+      "id": "photo-062",
+      "animal": "Kiwi marrón",
+      "recognition": "Ave sin cola visible, plumaje filamentoso de color marrón y pico muy largo y fino.",
+      "didYouKnow": "Las fosas nasales del kiwi están situadas cerca de la punta del pico, una posición inusual entre las aves."
+    },
+    {
+      "id": "photo-063",
+      "animal": "Gura de Victoria",
+      "recognition": "Paloma grande de color gris azulado que lleva una cresta en forma de abanico con delicados flecos.",
+      "didYouKnow": "Los padres alimentan a las crías con una secreción nutritiva del buche, como otras palomas."
+    },
+    {
+      "id": "photo-064",
+      "animal": "Turaco violeta",
+      "recognition": "Plumaje violeta oscuro, frente amarilla y corona roja.",
+      "didYouKnow": "Puede tragar frutos y luego rechazar o dispersar sus semillas, favoreciendo su diseminación."
+    },
+    {
+      "id": "photo-065",
+      "animal": "Cóndor de California",
+      "recognition": "Enorme buitre oscuro con grandes manchas blancas debajo de las alas.",
+      "didYouKnow": "Una pareja suele producir sólo un óvulo a la vez e invierte mucho tiempo en el cuidado de las crías."
+    },
+    {
+      "id": "photo-066",
+      "animal": "Talégalo de Latham",
+      "recognition": "Pájaro negro con cabeza roja desnuda y acacia amarilla.",
+      "didYouKnow": "El macho ajusta la capa de material en su montículo de cría para cambiar la temperatura."
+    },
+    {
+      "id": "photo-067",
+      "animal": "Grulla damisela",
+      "recognition": "Grulla gris con garganta negra y largas plumas blancas detrás de los ojos.",
+      "didYouKnow": "Sus migraciones pueden llevarlo a atravesar relieves muy elevados aprovechando las condiciones atmosféricas favorables."
+    },
+    {
+      "id": "photo-068",
+      "animal": "Águila arpía",
+      "recognition": "Águila enorme con cresta gris y patas muy fuertes.",
+      "didYouKnow": "La hembra es significativamente más pesada que el macho, lo que contribuye a las diferencias en las presas que pueden transportar."
+    },
+    {
+      "id": "photo-069",
+      "animal": "Momoto cejiturquesa",
+      "recognition": "Cejas azul turquesa y cola larga terminada en dos paletas.",
+      "didYouKnow": "La forma de raqueta de la cola aparece cuando algunas de las frágiles púas de las plumas se desprenden."
+    },
+    {
+      "id": "photo-070",
+      "animal": "Kakapo",
+      "recognition": "Loro grande de color verde moteado con cara redondeada que recuerda a un búho.",
+      "didYouKnow": "Su actividad es principalmente nocturna y puede desprender un característico olor almizclado o afrutado."
+    },
+    {
+      "id": "photo-071",
+      "animal": "Cacatúa de palma negra",
+      "recognition": "Cacatúa grande y oscura con cresta fuerte y mejilla roja desnuda.",
+      "didYouKnow": "Algunos machos usan un palo para golpear un soporte hueco, produciendo un ritmo durante sus exhibiciones."
+    },
+    {
+      "id": "photo-072",
+      "animal": "Cálao con casco",
+      "recognition": "Cuello desnudo y casco grueso delante del pico.",
+      "didYouKnow": "Su llamada incluye una serie de notas que se acelera y finaliza con un sonido que recuerda a la risa."
+    },
+    {
+      "id": "photo-073",
+      "animal": "Secretario",
+      "recognition": "Rapaz de patas muy largas y plumas negras erguidas detrás de la cabeza.",
+      "didYouKnow": "Sus plumas alargadas en la parte posterior de su cabeza le han valido nombres que evocan las antiguas plumas de las secretarias."
+    },
+    {
+      "id": "photo-074",
+      "animal": "Trogón elegante",
+      "recognition": "Pico corto y ancho, dorso verde y vientre rojo en el macho.",
+      "didYouKnow": "Sus pies tienen una rara disposición de los dedos: el primer y segundo dedo están girados hacia atrás."
+    },
+    {
+      "id": "photo-075",
+      "animal": "Tinamú elegante",
+      "recognition": "Ave terrestre moteada de fina cresta erecta.",
+      "didYouKnow": "Varias hembras pueden poner huevos en el mismo nido con un macho incubando."
+    },
+    {
+      "id": "photo-076",
+      "animal": "Abejaruco europeo",
+      "recognition": "Mezcla brillante de amarillo, azul y marrón rojizo, con un pico ligeramente curvado.",
+      "didYouKnow": "Cava un túnel para anidar en una pared de tierra suelta, a menudo dentro de una colonia."
+    },
+    {
+      "id": "photo-077",
+      "animal": "Carraca europea",
+      "recognition": "Plumaje azul turquesa que contrasta con el dorso marrón.",
+      "didYouKnow": "Felizmente utiliza cavidades que ya están disponibles para anidar, en lugar de cavarlas él mismo."
+    },
+    {
+      "id": "photo-078",
+      "animal": "Abubilla",
+      "recognition": "Cresta naranja con puntas negras y alas rayadas de blanco y negro.",
+      "didYouKnow": "Las crías pueden defenderse en el nido arrojando excrementos hacia un intruso."
+    },
+    {
+      "id": "photo-079",
+      "animal": "Frailecillo atlántico",
+      "recognition": "Cuerpo blanco y negro, cara clara y pico grande y colorido en época de reproducción.",
+      "didYouKnow": "El color y la forma aparente del pico cambian fuera de la temporada de reproducción tras la pérdida de algunas estructuras externas."
+    },
+    {
+      "id": "photo-080",
+      "animal": "Cormorán moñudo",
+      "recognition": "Ave marina oscura y delgada con pico delgado, a veces una pequeña cresta.",
+      "didYouKnow": "Sus polluelos nacen casi desnudos y dependen durante mucho tiempo del calor y del aporte alimentario de los padres."
+    },
+    {
+      "id": "photo-081",
+      "animal": "Alca común",
+      "recognition": "Ave marina blanca y negra con un pico grueso y comprimido, barrado de blanco en los adultos.",
+      "didYouKnow": "La hembra generalmente pone sólo un huevo por temporada, directamente en una cornisa o en una grieta rocosa."
+    },
+    {
+      "id": "photo-082",
+      "animal": "Chotacabras europeo",
+      "recognition": "Plumaje de color marrón grisáceo finamente veteado y boca muy grande.",
+      "didYouKnow": "Los machos pueden producir chasquidos de alas durante ciertas exhibiciones."
+    },
+    {
+      "id": "photo-083",
+      "animal": "Falaropo picofino",
+      "recognition": "Pequeña ave playera nadadora de pico fino; en plumaje nupcial, el cuello es rojizo.",
+      "didYouKnow": "Puede girar sobre sí mismo en la superficie del agua para crear una corriente que acerca a su pico a las pequeñas presas."
+    },
+    {
+      "id": "photo-084",
+      "animal": "Aguja colipinta",
+      "recognition": "Pico largo y ligeramente elevado y patas largas de playero.",
+      "didYouKnow": "Su cuerpo puede modificar el tamaño de ciertos órganos antes de una larga migración, en particular sus reservas y su sistema digestivo."
+    },
+    {
+      "id": "photo-085",
+      "animal": "Periquito de vientre naranja",
+      "recognition": "Pequeño periquito verde con una mancha naranja en el vientre.",
+      "didYouKnow": "Se reproduce en Tasmania y cruza el estrecho de Bass para llegar a sus zonas de invernada en Australia."
+    },
+    {
+      "id": "photo-086",
+      "animal": "Galah",
+      "recognition": "Pecho rosado, dorso gris y cresta corta y clara.",
+      "didYouKnow": "Puede colgarse boca abajo y realizar juegos aéreos o deslizarse sobre soportes."
+    },
+    {
+      "id": "photo-087",
+      "animal": "Guacamayo de Spix",
+      "recognition": "Pequeño guacamayo azul con una cabeza de color gris azulado más pálido.",
+      "didYouKnow": "Los programas de conservación han retenido individuos en cautiverio luego de su desaparición de su área de distribución silvestre conocida."
+    },
+    {
+      "id": "photo-088",
+      "animal": "Somormujo lavanco",
+      "recognition": "Cuello largo, pico delgado y gorguera colorida en plumaje nupcial.",
+      "didYouKnow": "Las crías pueden ser llevadas en la espalda de uno de sus padres, entre las plumas de las alas."
+    },
+    {
+      "id": "photo-089",
+      "animal": "Fragata magnífica",
+      "recognition": "Ave marina oscura con alas largas y angulares y una cola profundamente bifurcada.",
+      "didYouKnow": "El crecimiento y dependencia de las crías puede ser muy largo para un ave marina de su tamaño."
+    },
+    {
+      "id": "photo-090",
+      "animal": "Aura gallipavo",
+      "recognition": "Gran buitre oscuro con cabeza de pavo desnuda en adulto.",
+      "didYouKnow": "Deja que sus patas se enfríen ensuciándolas con excrementos líquidos, un mecanismo llamado urohidrosis."
+    },
+    {
+      "id": "photo-091",
+      "animal": "Gavial del Ganges",
+      "recognition": "Hocico extremadamente largo y estrecho, provisto de numerosos dientes finos.",
+      "didYouKnow": "Las hembras ponen sus huevos en la arena de las orillas y vigilan la zona de anidación."
+    },
+    {
+      "id": "photo-092",
+      "animal": "Tortuga mata mata",
+      "recognition": "Cabeza ancha y aplanada bordeada de flecos, cuello largo y caparazón áspero.",
+      "didYouKnow": "Pasa mucho tiempo inmóvil en el fondo y levanta su nariz tubular hacia la superficie para respirar."
+    },
+    {
+      "id": "photo-093",
+      "animal": "Tortuga nariz de cerdo",
+      "recognition": "Nariz carnosa y respingona y extremidades transformadas en remos.",
+      "didYouKnow": "Aunque vive en agua dulce, sus hembras ponen sus huevos en bancos de arena sobre el agua."
+    },
+    {
+      "id": "photo-094",
+      "animal": "Tortuga panqueque",
+      "recognition": "Concha muy aplanada que le permite deslizarse por las grietas.",
+      "didYouKnow": "Puede moverse con una agilidad inusual para una tortuga terrestre y trepar superficies rocosas."
+    },
+    {
+      "id": "photo-095",
+      "animal": "Tuatara",
+      "recognition": "Cuerpo de reptil de color marrón grisáceo con una cresta de pequeñas espinas en el lomo.",
+      "didYouKnow": "Los dientes de la mandíbula inferior se cierran entre dos filas superiores, una disposición muy particular."
+    },
+    {
+      "id": "photo-096",
+      "animal": "Diablo espinoso",
+      "recognition": "Pequeño lagarto rechoncho completamente cubierto de espinas.",
+      "didYouKnow": "Una falsa cabeza espinosa ubicada detrás de su cuello puede presentarse a un depredador cuando baja su cabeza real."
+    },
+    {
+      "id": "photo-097",
+      "animal": "Lagarto de gorguera",
+      "recognition": "Una membrana grande puede expandirse alrededor del cuello.",
+      "didYouKnow": "Pasa gran parte de su tiempo en los árboles, aunque son famosas sus carreras defensivas en el suelo."
+    },
+    {
+      "id": "photo-098",
+      "animal": "Eslizón de lengua azul",
+      "recognition": "Lagarto enorme con patas pequeñas y una gran lengua azul.",
+      "didYouKnow": "Sus crías nacen vivas, en lugar de eclosionar fuera de un huevo puesto."
+    },
+    {
+      "id": "photo-099",
+      "animal": "Serpiente Rey de California",
+      "recognition": "Cuerpo liso a menudo con bandas negras y claras muy contrastantes.",
+      "didYouKnow": "Puede consumir otras serpientes y es resistente a ciertos venenos de sus presas, sin ser invulnerable a todos los venenos."
+    },
+    {
+      "id": "photo-100",
+      "animal": "El gecko volador de Kuhl",
+      "recognition": "Contornos del cuerpo con flecos y amplias expansiones alrededor de las extremidades y la cola.",
+      "didYouKnow": "Su color jaspeado y sus contornos irregulares suavizan su silueta contra la corteza."
+    },
+    {
+      "id": "photo-101",
+      "animal": "Serpiente de cascabel sidewinder",
+      "recognition": "Pequeñas escamas erectas sobre los ojos y cuerpo vipérido rechoncho.",
+      "didYouKnow": "Su movimiento lateral reduce el contacto prolongado de determinadas partes del cuerpo con la arena caliente."
+    },
+    {
+      "id": "photo-102",
+      "animal": "Chuckwalla",
+      "recognition": "Lagarto robusto de vientre ancho y piel arrugada.",
+      "didYouKnow": "Puede inflar su cuerpo cuando se encuentra en una fisura de roca, lo que dificulta su extracción."
+    },
+    {
+      "id": "photo-103",
+      "animal": "Iguana anillada de Fiji",
+      "recognition": "Cuerpo de color verde brillante; el macho tiene bandas claras anchas.",
+      "didYouKnow": "La hembra cava un nido en el suelo para enterrar sus huevos, que se incuban durante un tiempo relativamente largo."
+    },
+    {
+      "id": "photo-104",
+      "animal": "Lagarto cornudo de Texas",
+      "recognition": "Cuerpo aplanado y rechoncho con una corona de espinas en la cabeza.",
+      "didYouKnow": "Cuando se siente amenazado, puede aplanar su cuerpo y dirigir sus espinas hacia el atacante."
+    },
+    {
+      "id": "photo-105",
+      "animal": "Monstruo de Gila",
+      "recognition": "Piel con baches que forma un patrón negro y naranja-rosado.",
+      "didYouKnow": "Gran parte de sus reservas de energía se almacenan en forma de grasa en la cola."
+    },
+    {
+      "id": "photo-106",
+      "animal": "Iguana marina",
+      "recognition": "Iguana oscura con hocico corto, cresta fuerte y cola larga y comprimida.",
+      "didYouKnow": "Sus poderosas garras le permiten anclarse en rocas expuestas al oleaje."
+    },
+    {
+      "id": "photo-107",
+      "animal": "Tortuga gopher de Florida",
+      "recognition": "Tortuga terrestre moderadamente abovedada con extremidades anteriores amplias y excavadoras.",
+      "didYouKnow": "Sus madrigueras también sirven de refugio a muchas otras especies animales."
+    },
+    {
+      "id": "photo-108",
+      "animal": "Tortuga de cuello largo",
+      "recognition": "Cuello muy alargado que la tortuga pliega hacia un lado.",
+      "didYouKnow": "Puede viajar distancias terrestres entre diferentes fuentes de agua cuando las condiciones cambian."
+    },
+    {
+      "id": "photo-109",
+      "animal": "Serpiente come huevos",
+      "recognition": "Serpiente fina con escamas aquilladas y patrón marrón variable.",
+      "didYouKnow": "Puede frotar ciertas escamas entre sí para producir un ruido defensivo."
+    },
+    {
+      "id": "photo-110",
+      "animal": "Serpiente voladora del paraíso",
+      "recognition": "Serpiente arbórea delgada a menudo marcada con verde, negro y rojo.",
+      "didYouKnow": "Caza principalmente pequeños vertebrados arbóreos, en particular lagartos."
+    },
+    {
+      "id": "photo-111",
+      "animal": "Serpientes marinas bandeadas",
+      "recognition": "Anillos oscuros en un cuerpo claro y cola aplanada en forma de paleta.",
+      "didYouKnow": "Los machos son generalmente más pequeños que las hembras, lo que va acompañado de diferencias en las presas explotadas."
+    },
+    {
+      "id": "photo-112",
+      "animal": "Pitón verde",
+      "recognition": "La pitón verde a menudo se instala en bucles en una rama.",
+      "didYouKnow": "Sus crías pueden ser amarillas o rojizas antes de adquirir la coloración verde de los adultos."
+    },
+    {
+      "id": "photo-113",
+      "animal": "Eslizón de arena",
+      "recognition": "Cuerpo liso y ahusado, patas pequeñas y hocico en forma de cuña.",
+      "didYouKnow": "Sus párpados protegen los ojos de los granos de arena que se mueven bajo la superficie."
+    },
+    {
+      "id": "photo-114",
+      "animal": "Triónix espinoso",
+      "recognition": "Concha plana y flexible con nariz alargada.",
+      "didYouKnow": "Los machos adultos son generalmente mucho más pequeños que las hembras."
+    },
+    {
+      "id": "photo-115",
+      "animal": "Tortuga laúd",
+      "recognition": "Caparazón oscuro sin grandes escamas, cubierto de largas quillas.",
+      "didYouKnow": "Las estructuras dirigidas hacia atrás recubren su esófago y facilitan la retención de presas resbaladizas."
+    },
+    {
+      "id": "photo-116",
+      "animal": "Tortuga caimán",
+      "recognition": "Cabeza enorme, pico ganchudo y tres hileras de fuertes protuberancias en el caparazón.",
+      "didYouKnow": "Respira aire y debe salir regularmente a la superficie, a pesar de su vida tan acuática."
+    },
+    {
+      "id": "photo-117",
+      "animal": "Basilisco verde",
+      "recognition": "Lagarto verde con gran cresta en la cabeza y el dorso, especialmente en los machos.",
+      "didYouKnow": "Es un buen nadador y puede refugiarse en el agua cuando se ve amenazado."
+    },
+    {
+      "id": "photo-118",
+      "animal": "Caimán negro",
+      "recognition": "Cocodrilo grande y oscuro con un hocico más ancho que el del gavial.",
+      "didYouKnow": "Las hembras construyen un nido con plantas y pueden defender a las crías una vez que nacen."
+    },
+    {
+      "id": "photo-119",
+      "animal": "Anole verde",
+      "recognition": "Lagarto pequeño y delgado, a menudo verde, con una papada rosada debajo de la garganta.",
+      "didYouKnow": "Puede cambiar de verde a marrón dependiendo de varios factores, entre ellos la temperatura y su estado fisiológico."
+    },
+    {
+      "id": "photo-120",
+      "animal": "Lución",
+      "recognition": "Cuerpo alargado sin patas y cabeza indistinguible del tronco.",
+      "didYouKnow": "A diferencia de las serpientes, tiene párpados móviles que puede cerrar."
+    },
+    {
+      "id": "photo-121",
+      "animal": "Geco Tokay",
+      "recognition": "Gran gecko azul grisáceo cubierto de manchas anaranjadas.",
+      "didYouKnow": "La hembra pega sus huevos sobre un soporte; Luego, el caparazón se endurece y los mantiene adheridos durante la incubación."
+    },
+    {
+      "id": "photo-122",
+      "animal": "Geco crestado",
+      "recognition": "Flecos en forma de pestañas sobre los ojos y pequeñas crestas a lo largo de la cabeza.",
+      "didYouKnow": "La especie fue encontrada en Nueva Caledonia en la década de 1990 después de haber sido considerada extinta durante mucho tiempo."
+    },
+    {
+      "id": "photo-123",
+      "animal": "Lagarto de cola espinosa egipcio",
+      "recognition": "Lagarto enorme cuya cola tiene anillos de fuertes espinas.",
+      "didYouKnow": "Los adultos consumen principalmente plantas y obtienen una parte importante del agua de los alimentos."
+    },
+    {
+      "id": "photo-124",
+      "animal": "Lagarto cola de látigo del desierto",
+      "recognition": "Lagarto pequeño y esbelto con cola larga y líneas longitudinales claras.",
+      "didYouKnow": "Esta especie proviene de una historia evolutiva que involucra la hibridación de líneas ancestrales."
+    },
+    {
+      "id": "photo-125",
+      "animal": "Caimán chino",
+      "recognition": "Caimán pequeño con hocico corto y placas óseas marcadas.",
+      "didYouKnow": "Pasa la estación fría refugiada en una madriguera y luego reduce mucho su actividad."
+    },
+    {
+      "id": "photo-126",
+      "animal": "Quimera manchada",
+      "recognition": "Cabeza grande, ojos grandes y cuerpo que se extiende hasta formar una cola muy delgada.",
+      "didYouKnow": "Sus dientes están agrupados en placas que pueden aplastar las duras cubiertas de determinadas presas."
+    },
+    {
+      "id": "photo-127",
+      "animal": "Anguila electrica",
+      "recognition": "Cuerpo alargado sin aleta dorsal visible y aleta anal muy extensa.",
+      "didYouKnow": "Sus órganos eléctricos están formados por células especializadas cuyas descargas pueden combinarse."
+    },
+    {
+      "id": "photo-128",
+      "animal": "Pez globo",
+      "recognition": "Cuerpo redondeado salpicado de pequeños puntos claros y hocico corto.",
+      "didYouKnow": "Sus dientes fusionados forman placas capaces de aplastar presas de caparazón duro."
+    },
+    {
+      "id": "photo-129",
+      "animal": "Pez arquero de bandas",
+      "recognition": "Cuerpo plateado comprimido con grandes marcas oscuras en los lados superiores.",
+      "didYouKnow": "Compensa los efectos de la refracción cuando apunta a presas sobre la superficie del agua."
+    },
+    {
+      "id": "photo-130",
+      "animal": "Esturión",
+      "recognition": "Hocico puntiagudo, barbillas debajo de la cabeza e hileras de placas óseas.",
+      "didYouKnow": "Su esqueleto sigue siendo en gran parte cartilaginoso, aunque pertenece a un linaje de peces óseos."
+    },
+    {
+      "id": "photo-131",
+      "animal": "Pez de las cavernas",
+      "recognition": "En su forma de cueva, el cuerpo es pálido y los ojos son muy pequeños o están ausentes.",
+      "didYouKnow": "Su línea lateral detecta los movimientos del agua y puede ayudarle a detectar obstáculos y pequeñas presas en la oscuridad."
+    },
+    {
+      "id": "photo-132",
+      "animal": "Celacanto",
+      "recognition": "Escamas robustas y aletas pareadas sostenidas sobre lóbulos carnosos.",
+      "didYouKnow": "Tiene un órgano sensorial rostral que participa en la detección de señales eléctricas."
+    },
+    {
+      "id": "photo-133",
+      "animal": "Pez de cuatro ojos",
+      "recognition": "Ojos prominentes situados muy alto en la cabeza.",
+      "didYouKnow": "La hembra da a luz a crías ya formadas en lugar de liberar una nidada de huevos en el agua."
+    },
+    {
+      "id": "photo-134",
+      "animal": "Tembladera jaspeada",
+      "recognition": "Disco redondeado de color marrón jaspeado y cola corta y gruesa.",
+      "didYouKnow": "Sus dos órganos eléctricos derivan de tejido muscular especializado y están ubicados a ambos lados de la cabeza."
+    },
+    {
+      "id": "photo-135",
+      "animal": "Pez mariposa de cuatro ojos",
+      "recognition": "Cuerpo con rayas claras y una gran mancha negra bordeada de blanco cerca de la parte trasera.",
+      "didYouKnow": "Una pareja puede permanecer asociada durante mucho tiempo y defender una zona de alimentación en el arrecife."
+    },
+    {
+      "id": "photo-136",
+      "animal": "Pez mariposa auriga",
+      "recognition": "Cuerpo blanco con rayas diagonales, parte trasera amarilla y raya negra en el ojo.",
+      "didYouKnow": "Su pequeña boca le permite sacar alimento de grietas inaccesibles del arrecife."
+    },
+    {
+      "id": "photo-137",
+      "animal": "Pez cuchillo fantasma negro",
+      "recognition": "Cuerpo negro en forma de cuchilla, marcas claras en la cola y aleta anal larga y ondulada.",
+      "didYouKnow": "Emite débiles señales eléctricas que le ayudan a explorar su entorno en la oscuridad."
+    },
+    {
+      "id": "photo-138",
+      "animal": "Pez lobo",
+      "recognition": "Cabeza grande con dientes poderosos y cuerpo alargado con una aleta dorsal continua.",
+      "didYouKnow": "Sus dientes rechinantes se renuevan, lo que compensa el desgaste provocado por los caparazones de sus presas."
+    },
+    {
+      "id": "photo-139",
+      "animal": "Pez erizo",
+      "recognition": "Ojos grandes y espinas largas que pueden crecer alrededor del cuerpo.",
+      "didYouKnow": "Por la noche puede buscar moluscos y crustáceos que aplasta con sus robustas mandíbulas."
+    },
+    {
+      "id": "photo-140",
+      "animal": "Pez cofre",
+      "recognition": "Cuerpo angular encerrado en una armadura; las crías son amarillas con manchas negras.",
+      "didYouKnow": "Su natación se basa principalmente en pequeñas aletas que le permiten maniobrar con precisión a baja velocidad."
+    },
+    {
+      "id": "photo-141",
+      "animal": "Pez murciélago",
+      "recognition": "Cuerpo muy aplanado, aletas que parecen soportes y labios rojos.",
+      "didYouKnow": "Tiene un señuelo retráctil en la cabeza que ayuda a atraer presas pequeñas."
+    },
+    {
+      "id": "photo-142",
+      "animal": "Pez nariz de elefante",
+      "recognition": "Una extensión flexible del labio inferior forma un pequeño tronco.",
+      "didYouKnow": "Tiene un cerebro relativamente grande para un pez de su tamaño."
+    },
+    {
+      "id": "photo-143",
+      "animal": "Pez sapo",
+      "recognition": "Cabeza ancha y aplanada, boca grande y cuerpo marrón moteado.",
+      "didYouKnow": "El macho produce sonidos con su vejiga natatoria durante la época de reproducción."
+    },
+    {
+      "id": "photo-144",
+      "animal": "Pez soldado",
+      "recognition": "Pez dorado de ojos muy grandes y cuerpo bastante alto.",
+      "didYouKnow": "A menudo se refugia en la sombra durante el día y se vuelve más activo para alimentarse durante la noche."
+    },
+    {
+      "id": "photo-145",
+      "animal": "Pez napoleón",
+      "recognition": "Lábrio grande con labios gruesos y frente hinchada en individuos grandes.",
+      "didYouKnow": "Puede dormir en un refugio de arrecife y regresar regularmente a áreas de descanso familiares."
+    },
+    {
+      "id": "photo-146",
+      "animal": "Tiburón charretera",
+      "recognition": "Pequeño tiburón pardo con una gran mancha oscura rodeada de luz detrás de cada aleta pectoral.",
+      "didYouKnow": "Puede soportar temporalmente concentraciones muy bajas de oxígeno modificando su actividad y funcionamiento fisiológico."
+    },
+    {
+      "id": "photo-147",
+      "animal": "Pez unicornio",
+      "recognition": "Puede aparecer una protuberancia en la frente de individuos adultos.",
+      "didYouKnow": "Como otros peces cirujanos, tiene estructuras cortantes cerca de la base de la cola."
+    },
+    {
+      "id": "photo-148",
+      "animal": "Pez navaja",
+      "recognition": "Cuerpo muy comprimido y alargado, generalmente con la cabeza gacha.",
+      "didYouKnow": "Puede permanecer cerca de las espinas de grandes erizos de mar, que le ofrecen refugio de ciertos depredadores."
+    },
+    {
+      "id": "photo-149",
+      "animal": "Pez loro de cabeza jorobada",
+      "recognition": "Frente muy alta y dientes fusionados formando un pico enorme.",
+      "didYouKnow": "Sus picaduras contribuyen a la producción de arena al moler materiales calizos del arrecife."
+    },
+    {
+      "id": "photo-150",
+      "animal": "Pez ángel emperador",
+      "recognition": "Los adultos usan finas bandas amarillas y azules y una máscara oscura.",
+      "didYouKnow": "Los juveniles exhiben un patrón de círculos y curvas muy diferente al de las bandas de adultos."
+    },
+    {
+      "id": "photo-151",
+      "animal": "Bagre caminador",
+      "recognition": "Cuerpo largo y oscuro, barbillas anchas y aletas dorsal y anal extendidas.",
+      "didYouKnow": "Un órgano respiratorio accesorio le permite explotar el oxígeno del aire en condiciones acuáticas desfavorables."
+    },
+    {
+      "id": "photo-152",
+      "animal": "Pez ángel francés",
+      "recognition": "Cuerpo oscuro salpicado de escamas bordeadas de amarillo y contorno claro alrededor del ojo.",
+      "didYouKnow": "Los jóvenes pueden limpiar otros peces quitando pequeños organismos de su piel."
+    },
+    {
+      "id": "photo-153",
+      "animal": "Pez mariposa de bandas cobrizas",
+      "recognition": "Hocico largo y delgado y bandas verticales anaranjadas en un cuerpo liviano.",
+      "didYouKnow": "Su esbelta silueta le permite maniobrar entre formaciones de arrecifes donde busca pequeños invertebrados."
+    },
+    {
+      "id": "photo-154",
+      "animal": "Pez ardilla rojo",
+      "recognition": "Cuerpo rojo con líneas longitudinales claras y ojos grandes.",
+      "didYouKnow": "Puede emitir sonidos que involucran las estructuras asociadas con su vejiga natatoria."
+    },
+    {
+      "id": "photo-155",
+      "animal": "Pez saltarín del fango",
+      "recognition": "Ojos situados en la parte superior de la cabeza y aletas pectorales que sirven de soporte.",
+      "didYouKnow": "Puede mantener los ojos húmedos retrayéndolos dentro de las cuencas debajo de las cuencas de los ojos."
+    },
+    {
+      "id": "photo-156",
+      "animal": "Pez cocodrilo",
+      "recognition": "Cabeza muy achatada, ojos con flecos y pelaje jaspeado.",
+      "didYouKnow": "Caza desde un tallo, confiando en la inmovilidad y el camuflaje en lugar de largas persecuciones."
+    },
+    {
+      "id": "photo-157",
+      "animal": "Pez pipa fantasma arlequín",
+      "recognition": "Cuerpo estrellado con finas extensiones y hocico largo y tubular.",
+      "didYouKnow": "La hembra puede llevar los huevos en una bolsa formada por sus aletas pélvicas."
+    },
+    {
+      "id": "photo-158",
+      "animal": "Pez pulmonado africano",
+      "recognition": "Cuerpo alargado y aletas pareadas reducidas a filamentos.",
+      "didYouKnow": "Cuando se seca, puede formar un capullo de moco en el suelo y ralentizar enormemente su metabolismo."
+    },
+    {
+      "id": "photo-159",
+      "animal": "Pez loro azul",
+      "recognition": "Pez de gran tamaño con cuerpo azul y dientes unidos en un pico.",
+      "didYouKnow": "Tiene un aparato triturador en la faringe que continúa fragmentando los materiales ingeridos después de la picadura."
+    },
+    {
+      "id": "photo-160",
+      "animal": "Pescado mandarín",
+      "recognition": "Cuerpo decorado con sinuosas líneas azules, naranjas y verdes.",
+      "didYouKnow": "Su piel produce mocos que ayudan a protegerla y no tiene las escamas típicas de muchos peces."
+    },
+    {
+      "id": "photo-161",
+      "animal": "Tiburón cebra",
+      "recognition": "Cola muy larga; los adultos tienen manchas, a diferencia de los juveniles rayados.",
+      "didYouKnow": "Los adultos suelen pasar el día en el fondo y se vuelven más activos por la noche."
+    },
+    {
+      "id": "photo-162",
+      "animal": "Raya águila moteada",
+      "recognition": "Disco grande con alas triangulares, dorso manchado y cola larga y delgada.",
+      "didYouKnow": "Sus dientes forman placas capaces de aplastar las conchas de moluscos y otras presas del fondo."
+    },
+    {
+      "id": "photo-163",
+      "animal": "Pez cardenal de Banggai",
+      "recognition": "Aletas grandes, bandas verticales negras y puntuaciones blancas.",
+      "didYouKnow": "El macho mantiene los huevos y luego a las crías en su boca durante parte de su desarrollo."
+    },
+    {
+      "id": "photo-164",
+      "animal": "Tiburón ballena",
+      "recognition": "Tiburón muy grande con cabeza aplanada y dorso cuadriculado con líneas y puntos claros.",
+      "didYouKnow": "Cada individuo tiene un patrón de manchas lo suficientemente distintivo como para contribuir a su identificación fotográfica."
+    },
+    {
+      "id": "photo-165",
+      "animal": "Pez león",
+      "recognition": "Largas espinas y grandes aletas rayadas se extienden como un abanico.",
+      "didYouKnow": "Puede usar sus aletas pectorales para derribar presas pequeñas antes de succionarlas."
+    },
+    {
+      "id": "photo-166",
+      "animal": "Escarabajo joya de ocho puntos",
+      "recognition": "Pequeño escarabajo con reflejos metálicos azules y manchas amarillas.",
+      "didYouKnow": "Sus reflejos metálicos provienen en gran medida de la forma en que las estructuras de sus cutículas interactúan con la luz."
+    },
+    {
+      "id": "photo-167",
+      "animal": "Gorgojo de la bellota",
+      "recognition": "Escarabajo marrón con una tribuna muy larga y delgada.",
+      "didYouKnow": "La hembra perfora una bellota para depositar un huevo; luego la larva continúa su desarrollo en el interior."
+    },
+    {
+      "id": "photo-168",
+      "animal": "Rosalía alpina",
+      "recognition": "Escarabajo de cuernos largos de color azul grisáceo con manchas negras y antenas muy alargadas.",
+      "didYouKnow": "Su desarrollo larvario en la madera puede durar varios años antes de la aparición del adulto."
+    },
+    {
+      "id": "photo-169",
+      "animal": "Escarabajo buceador orlado",
+      "recognition": "Escarabajo grande, ovalado y oscuro, rodeado por un borde claro.",
+      "didYouKnow": "Sus patas traseras aplanadas y bordeadas de cerdas funcionan como remos."
+    },
+    {
+      "id": "photo-170",
+      "animal": "Insecto hoja de Filipinas",
+      "recognition": "Cuerpo muy aplanado cuyas expansiones se asemejan a una hoja.",
+      "didYouKnow": "Las crías recién nacidas pueden tener un color muy diferente al verde de los individuos mayores."
+    },
+    {
+      "id": "photo-171",
+      "animal": "Escorpión de agua",
+      "recognition": "Cuerpo aplanado de color marrón, deslumbrantes patas delanteras y un tubo largo en la parte trasera.",
+      "didYouKnow": "El tubo visible al final del abdomen se utiliza para respirar en contacto con el aire y no para picar."
+    },
+    {
+      "id": "photo-172",
+      "animal": "Grillo topo común",
+      "recognition": "Cuerpo de color marrón aterciopelado y patas delanteras agrandadas como palas.",
+      "didYouKnow": "El macho utiliza una galería subterránea como amplificador de su canción."
+    },
+    {
+      "id": "photo-173",
+      "animal": "Abeja de las orquídeas",
+      "recognition": "Cuerpo compacto con coloración metálica brillante.",
+      "didYouKnow": "Las moléculas olorosas recogidas por los machos forman una mezcla que interviene en sus señales reproductivas."
+    },
+    {
+      "id": "photo-174",
+      "animal": "Hormiga tejedora asiática",
+      "recognition": "Hormiga delgada con patas largas; su coloración puede variar dependiendo de la población.",
+      "didYouKnow": "Los trabajadores pueden conectar sus cuerpos para juntar los bordes de hojas distantes."
+    },
+    {
+      "id": "photo-175",
+      "animal": "Escarabajo bombardero",
+      "recognition": "Escarabajo pequeño con élitros oscuros y cabeza y tórax anaranjados.",
+      "didYouKnow": "Las sustancias de su defensa química se almacenan y luego se mezclan en un dispositivo especializado antes de su expulsión."
+    },
+    {
+      "id": "photo-176",
+      "animal": "Cucaracha silbadora de Madagascar",
+      "recognition": "Cucaracha grande y oscura sin alas funcionales y tórax redondeado.",
+      "didYouKnow": "La hembra mantiene los huevos en su cuerpo hasta que eclosionan y luego da a luz a cucarachas jóvenes vivas."
+    },
+    {
+      "id": "photo-177",
+      "animal": "Escarabajo girínido",
+      "recognition": "Escarabajo pequeño, ovalado y brillante que da vueltas rápidamente sobre la superficie del agua.",
+      "didYouKnow": "Sus cortas antenas detectan las perturbaciones superficiales que se producen a su alrededor."
+    },
+    {
+      "id": "photo-178",
+      "animal": "Efímera Ephemera danica",
+      "recognition": "Alas erectas en reposo y filamentos largos al final del abdomen.",
+      "didYouKnow": "Sus larvas pueden excavar en los sedimentos y así participar en la reordenación del fondo de los cursos de agua."
+    },
+    {
+      "id": "photo-179",
+      "animal": "Atalanta",
+      "recognition": "Alas oscuras barradas de rojo anaranjado y punteadas de blanco en las puntas.",
+      "didYouKnow": "Puede alimentarse de frutos muy maduros y savia, además de néctar de flores."
+    },
+    {
+      "id": "photo-180",
+      "animal": "Camarón Mantis Pavo Real",
+      "recognition": "Crustáceo muy colorido con ojos pedunculados y enormes apéndices frontales.",
+      "didYouKnow": "Su golpe puede crear una burbuja de cavitación; el colapso de esta burbuja añade una perturbación a la del shock inicial."
+    },
+    {
+      "id": "photo-181",
+      "animal": "Nautilo común",
+      "recognition": "Concha espiral clara con bandas marrones y numerosos tentáculos sin ventosas.",
+      "didYouKnow": "Expulsa agua a través de un sifón regulable, que le permite impulsarse y dirigir sus movimientos."
+    },
+    {
+      "id": "photo-182",
+      "animal": "Nudibranquio Chromodoris annae",
+      "recognition": "Babosa marina azul con líneas negras y borde amarillo anaranjado.",
+      "didYouKnow": "Se alimenta de esponjas marinas de las que extrae tejido mediante su aparato bucal."
+    },
+    {
+      "id": "photo-183",
+      "animal": "Cangrejo cebra",
+      "recognition": "Pequeño cangrejo claro cubierto de bandas oscuras muy contrastantes.",
+      "didYouKnow": "Sus patas tienen adaptaciones que le ayudan a agarrarse entre las espinas de los erizos de mar."
+    },
+    {
+      "id": "photo-184",
+      "animal": "Cangrejo boxer",
+      "recognition": "Cangrejo pequeño con patrones geométricos, que a veces lleva una anémona en cada garra.",
+      "didYouKnow": "Sus garras, muy especializadas, se vuelven menos adaptadas a ciertas manipulaciones dietéticas clásicas de otros cangrejos."
+    },
+    {
+      "id": "photo-185",
+      "animal": "Mano de muerto Alcyonium digitatum",
+      "recognition": "Colonia carnosa de color naranja o claro dividida en lóbulos en forma de dedos.",
+      "didYouKnow": "Cada pequeño pólipo de la colonia tiene ocho tentáculos plumosos que capturan partículas de alimento."
+    },
+    {
+      "id": "photo-186",
+      "animal": "Comátula mediterránea",
+      "recognition": "Numerosos brazos plumosos que irradian alrededor de un pequeño disco central.",
+      "didYouKnow": "Puede moverse arrastrándose con sus apéndices y, a veces, nadar utilizando los movimientos de sus brazos."
+    },
+    {
+      "id": "photo-187",
+      "animal": "Elysia esmeralda",
+      "recognition": "Babosa verde cuyas expansiones laterales le dan forma de hoja.",
+      "didYouKnow": "Las crías deben consumir un alga determinada para adquirir los cloroplastos responsables de parte de su color verde."
+    },
+    {
+      "id": "photo-188",
+      "animal": "Gusano árbol de Navidad",
+      "recognition": "Dos coronas en espiral de colores sobresalen de un tubo fijado al sustrato.",
+      "didYouKnow": "Puede retraer muy rápidamente sus coronas dentro de su tubo cuando una sombra o una perturbación anuncia peligro."
+    },
+    {
+      "id": "photo-189",
+      "animal": "Gusano de fuego barbudo",
+      "recognition": "Gusano segmentado con mechones blancos a los lados.",
+      "didYouKnow": "Sus cerdas pueden desprenderse de la piel de un animal que lo toque y provocar una irritación importante."
+    },
+    {
+      "id": "photo-190",
+      "animal": "Proteo",
+      "recognition": "Salamandra alargada y pálida con patas pequeñas y branquias externas.",
+      "didYouKnow": "Su ciclo de vida es lento y los individuos pueden vivir varias décadas en condiciones favorables."
+    },
+    {
+      "id": "photo-191",
+      "animal": "Pipa de Surinam",
+      "recognition": "Sapo muy aplanado con cabeza triangular y piel rugosa de color pardusco.",
+      "didYouKnow": "Los dedos de sus patas delanteras llevan pequeñas ramas sensoriales útiles para explorar el fondo."
+    },
+    {
+      "id": "photo-192",
+      "animal": "La rana de cristal de Fleischmann",
+      "recognition": "Pequeña rana verde con dedos provistos de discos y superficie ventral translúcida.",
+      "didYouKnow": "Sus dedos en forma de disco le ayudan a sujetar las hojas en la vegetación húmeda."
+    },
+    {
+      "id": "photo-193",
+      "animal": "Cecilia de Taita",
+      "recognition": "Anfibio sin patas y con un cuerpo anillado que recuerda a un gusano.",
+      "didYouKnow": "Vive principalmente enterrado en el suelo, donde busca pequeños invertebrados."
+    },
+    {
+      "id": "photo-194",
+      "animal": "Onicóforo Euperipatoides rowelli",
+      "recognition": "Cuerpo alargado y aterciopelado con muchos pares de pequeñas patas carnosas.",
+      "didYouKnow": "En esta especie australiana las crías nacen vivas, mientras que otros onicóforos ponen huevos."
+    },
+    {
+      "id": "photo-195",
+      "animal": "Cangrejo herradura americano",
+      "recognition": "Caparazón de herradura abovedado y punta caudal larga.",
+      "didYouKnow": "La cola sirve en particular como palanca para girarse hacia arriba cuando se gira."
+    },
+    {
+      "id": "photo-196",
+      "animal": "Araña tigre",
+      "recognition": "Abdomen de la hembra rayado de amarillo, negro y blanco.",
+      "didYouKnow": "La hembra envuelve sus huevos en un capullo de seda que puede pasar la mala estación entre la vegetación."
+    },
+    {
+      "id": "photo-197",
+      "animal": "Araña de agua",
+      "recognition": "Araña marrón cuyo cuerpo puede parecer plateado bajo el agua.",
+      "didYouKnow": "Sus pelos retienen una capa de aire alrededor del abdomen cuando se sumerge."
+    },
+    {
+      "id": "photo-198",
+      "animal": "La rana voladora de Wallace",
+      "recognition": "Rana verde con dedos muy largos y palmeados.",
+      "didYouKnow": "Sus nidadas se desarrollan en nidos de musgo asociados con la vegetación sobre el agua."
+    },
+    {
+      "id": "photo-199",
+      "animal": "Salamandra gigante japonesa",
+      "recognition": "Anfibio muy grande con cabeza aplanada y piel oscura muy arrugada.",
+      "didYouKnow": "Un macho puede proteger una cavidad de anidación y abanicar los huevos mediante los movimientos de su cola."
+    },
+    {
+      "id": "photo-200",
+      "animal": "Ciervo volante",
+      "recognition": "El macho tiene mandíbulas grandes y ramificadas que recuerdan a las astas.",
+      "didYouKnow": "Las hembras tienen mandíbulas más cortas que las de los machos grandes, pero capaces de pellizcar con eficacia."
+    }
+  ]
+}

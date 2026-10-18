@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
+import { disablePush, enablePush, getNotificationCapabilities, hasActivePushSubscription, notificationCalendar, supportsPush, testNotification, type NotificationCapabilities } from '@/lib/push-notifications';
 import { useTranslations } from 'next-intl';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
@@ -18,6 +19,7 @@ export type RecurrenceKind =
 
 /** Configuration horaire par type de notification */
 export type TypeSchedule = {
+  startDate?: string; // ancrage local de la récurrence
   time: string; // HH:mm
   recurrence: RecurrenceKind;
   date?: string; // YYYY-MM-DD si recurrence === 'once'
@@ -25,6 +27,16 @@ export type TypeSchedule = {
   dayOfMonth?: number; // 1-31 si recurrence === 'monthly'
   intervalHours?: number; // 1-24 si recurrence === 'hourly'
 };
+
+interface NotificationPreferences {
+  types: Record<string, boolean>;
+  typeSchedules: Record<string, TypeSchedule>;
+  schedule: { start: string; end: string };
+  snooze: number;
+  timeZone: string;
+  deliveryChannel: 'push' | 'email' | 'both';
+}
+const isRecord = (value: unknown): value is Record<string, unknown> => !!value && typeof value === 'object' && !Array.isArray(value);
 
 const DEFAULT_TYPE_SCHEDULE: TypeSchedule = {
   time: '08:00',
@@ -60,16 +72,79 @@ const getApiBase = () =>
     ? process.env.NEXT_PUBLIC_API_URL
     : 'http://localhost:3001';
 
+  const defaultSchedule = { start: '00:00', end: '23:59' };
+
+  /** Anciennes clés API → libellés affichés (évite doublons avec les suggestions) */
+  const LEGACY_TYPE_KEYS: Record<string, string> = {
+    nourrissage: 'Nourrissage',
+    nettoyage: 'Nettoyage',
+    entretien: 'Nettoyage',
+    controle: 'Santé',
+    uvb: 'UVB / éclairage',
+    sante: 'Santé',
+  };
+
+const normalizePreferences = (data: unknown): NotificationPreferences | null => {
+    if (!isRecord(data)) return null;
+    const types = isRecord(data.types) ? data.types : {};
+    const normalized: Record<string, boolean> = {};
+    for (const [key, value] of Object.entries(types)) {
+      const label = LEGACY_TYPE_KEYS[key] ?? key;
+      if (typeof value === 'boolean') normalized[label] = value;
+    }
+    const typeSchedules = isRecord(data.typeSchedules) ? data.typeSchedules : {};
+    const normalizedSchedules: Record<string, TypeSchedule> = {};
+    const validRecurrence = (r: unknown): RecurrenceKind => {
+      const allowed: RecurrenceKind[] = ['daily', 'every_2_days', 'every_3_days', 'weekly', 'monthly', 'once', 'hourly'];
+      return allowed.includes(r as RecurrenceKind) ? (r as RecurrenceKind) : 'daily';
+    };
+    for (const [key, val] of Object.entries(typeSchedules)) {
+      const v = val;
+      if (isRecord(v) && typeof v.time === 'string') {
+        const rec = validRecurrence(v.recurrence);
+        normalizedSchedules[LEGACY_TYPE_KEYS[key] ?? key] = {
+          startDate: typeof v.startDate === 'string' ? v.startDate : undefined,
+          time: v.time || '08:00',
+          recurrence: rec,
+          date: rec === 'once' && typeof v.date === 'string' ? v.date : undefined,
+          weekDay: rec === 'weekly' && typeof v.weekDay === 'number' ? v.weekDay : undefined,
+          dayOfMonth: rec === 'monthly' && typeof v.dayOfMonth === 'number' ? v.dayOfMonth : undefined,
+          intervalHours: rec === 'hourly' && typeof v.intervalHours === 'number' ? Math.max(1, Math.min(24, v.intervalHours)) : undefined,
+        };
+      }
+    }
+    for (const typeKey of Object.keys(normalized)) {
+      if (normalizedSchedules[typeKey] === undefined) {
+        normalizedSchedules[typeKey] = { ...DEFAULT_TYPE_SCHEDULE };
+      }
+    }
+    const deliveryChannel = data.deliveryChannel === 'email' || data.deliveryChannel === 'both' ? data.deliveryChannel : 'push';
+    return {
+      ...data,
+      types: normalized,
+      typeSchedules: normalizedSchedules,
+      schedule: isRecord(data.schedule) && typeof data.schedule.start === 'string' && typeof data.schedule.end === 'string' ? { start: data.schedule.start, end: data.schedule.end } : defaultSchedule,
+      snooze: typeof data.snooze === 'number' ? data.snooze : 15,
+      deliveryChannel,
+      timeZone: typeof data.timeZone === 'string' ? data.timeZone : 'Europe/Brussels',
+    };
+  };
+
+
 export default function NotificationsPreferencesPage() {
   const t = useTranslations();
   const router = useRouter();
-  const { user, token, logout, isLoading: authLoading } = useAuth();
-  const [preferences, setPreferences] = useState<any>(null);
+  const { user, token, isLoading: authLoading } = useAuth();
+  const [preferences, setPreferences] = useState<NotificationPreferences | null>(null);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [subscribed, setSubscribed] = useState(false);
   const [saveMessage, setSaveMessage] = useState<string | null>(null);
-  const [autoSaveTimeout, setAutoSaveTimeout] = useState<NodeJS.Timeout | null>(null);
+  const saveQueue = useRef<Promise<void>>(Promise.resolve());
+  const [capabilities, setCapabilities] = useState<NotificationCapabilities | null>(null);
+  const [pushSupported, setPushSupported] = useState(false);
+  const [pushBusy, setPushBusy] = useState(false);
+  const [saveError, setSaveError] = useState(false);
   /** Nouveau sujet en cours de saisie (personnalisation) */
   const [newTypeLabel, setNewTypeLabel] = useState('');
   /** Édition du libellé : type en cours d’édition => valeur du champ */
@@ -82,72 +157,9 @@ export default function NotificationsPreferencesPage() {
     }
   }, [user, authLoading, router]);
 
-  useEffect(() => {
-    if (user && token) {
-      fetchPreferences();
-      checkSubscription();
-    }
-  }, [user, token]);
 
-  const defaultSchedule = { start: '08:00', end: '22:00' };
 
-  /** Anciennes clés API → libellés affichés (évite doublons avec les suggestions) */
-  const LEGACY_TYPE_KEYS: Record<string, string> = {
-    nourrissage: 'Nourrissage',
-    nettoyage: 'Nettoyage',
-    uvb: 'UVB / éclairage',
-    sante: 'Santé',
-  };
-
-  const normalizePreferences = (data: any) => {
-    if (!data || typeof data !== 'object') return null;
-    let types = data.types && typeof data.types === 'object' ? data.types : {};
-    const normalized: Record<string, boolean> = {};
-    for (const [key, value] of Object.entries(types)) {
-      const label = LEGACY_TYPE_KEYS[key] ?? key;
-      normalized[label] = value as boolean;
-    }
-    let typeSchedules =
-      data.typeSchedules && typeof data.typeSchedules === 'object' ? data.typeSchedules : {};
-    const normalizedSchedules: Record<string, TypeSchedule> = {};
-    const validRecurrence = (r: string): RecurrenceKind => {
-      const allowed: RecurrenceKind[] = ['daily', 'every_2_days', 'every_3_days', 'weekly', 'monthly', 'once', 'hourly'];
-      return allowed.includes(r as RecurrenceKind) ? (r as RecurrenceKind) : 'daily';
-    };
-    for (const [key, val] of Object.entries(typeSchedules)) {
-      const v = val as any;
-      if (v && typeof v === 'object' && typeof v.time === 'string') {
-        const rec = validRecurrence(v.recurrence);
-        normalizedSchedules[key] = {
-          time: v.time || '08:00',
-          recurrence: rec,
-          date: rec === 'once' && v.date ? String(v.date) : undefined,
-          weekDay: rec === 'weekly' && typeof v.weekDay === 'number' ? v.weekDay : undefined,
-          dayOfMonth: rec === 'monthly' && typeof v.dayOfMonth === 'number' ? v.dayOfMonth : undefined,
-          intervalHours: rec === 'hourly' && typeof v.intervalHours === 'number' ? Math.max(1, Math.min(24, v.intervalHours)) : undefined,
-        };
-      }
-    }
-    for (const typeKey of Object.keys(normalized)) {
-      if (normalizedSchedules[typeKey] === undefined) {
-        normalizedSchedules[typeKey] = { ...DEFAULT_TYPE_SCHEDULE };
-      }
-    }
-    const deliveryChannel =
-      typeof data.deliveryChannel === 'string' && ['push', 'email', 'both'].includes(data.deliveryChannel)
-        ? data.deliveryChannel
-        : 'push';
-    return {
-      ...data,
-      types: normalized,
-      typeSchedules: normalizedSchedules,
-      schedule: data.schedule && typeof data.schedule === 'object' ? data.schedule : defaultSchedule,
-      snooze: typeof data.snooze === 'number' ? data.snooze : 15,
-      deliveryChannel,
-    };
-  };
-
-  const fetchPreferences = async () => {
+  const fetchPreferences = useCallback(async () => {
     const authToken = (token || (typeof window !== 'undefined' ? localStorage.getItem('token') : null))?.trim();
     if (!authToken) return;
 
@@ -159,96 +171,49 @@ export default function NotificationsPreferencesPage() {
         },
       );
       if (response.status === 401) {
+        setSaveError(true);
         setSaveMessage('Session expirée. Veuillez vous reconnecter.');
         return;
       }
+      if (!response.ok) throw new Error('Chargement impossible');
       const data = await response.json();
       setPreferences(normalizePreferences(data));
     } catch (error) {
+      setSaveError(true);
+      setSaveMessage('Impossible de charger les préférences. Réessayez dans un instant.');
       console.error('Error fetching preferences:', error);
     } finally {
       setLoading(false);
     }
-  };
+  }, [token]);
 
-  const checkSubscription = async () => {
-    if (!('Notification' in window)) {
-      return;
+  const checkSubscription = useCallback(async (publicKey?: string) => {
+    setPushSupported(supportsPush());
+    try { setSubscribed(token ? await hasActivePushSubscription(token, publicKey) : false); }
+    catch { setSubscribed(false); }
+  }, [token]);
+
+  useEffect(() => {
+    if (user && token) {
+      void fetchPreferences();
+      getNotificationCapabilities(token).then(async caps => { setCapabilities(caps); await checkSubscription(caps.publicKey || undefined); }).catch(async () => { setCapabilities(null); await checkSubscription(); });
     }
+  }, [user, token, fetchPreferences, checkSubscription]);
 
-    const permission = Notification.permission;
-    setSubscribed(permission === 'granted');
-  };
-
-  // Push web non implémenté côté backend : le bouton d'autorisation est désactivé
-  // (« bientôt disponible ») — la fonction requestPermission a été retirée pour
-  // ne pas promettre une fonctionnalité inexistante.
 
   const handleSave = async () => {
-    const authToken = (token || (typeof window !== 'undefined' ? localStorage.getItem('token') : null))?.trim();
-    if (!authToken || !preferences) {
-      if (!authToken) setSaveMessage('Session expirée. Veuillez vous reconnecter.');
-      return;
-    }
-
+    if (!preferences) return;
     setSaving(true);
-    setSaveMessage(null);
-
-    const payload = {
-      types: preferences.types ?? {},
-      typeSchedules: preferences.typeSchedules ?? {},
-      schedule: preferences.schedule ?? { start: '08:00', end: '22:00' },
-      snooze: typeof preferences.snooze === 'number' ? preferences.snooze : 15,
-    };
-
-    try {
-      const response = await fetch(
-        `${getApiBase()}/users/me/notification-preferences`,
-        {
-          method: 'PATCH',
-          headers: {
-            'Content-Type': 'application/json',
-            Authorization: `Bearer ${authToken}`,
-          },
-          body: JSON.stringify(payload),
-        },
-      );
-
-      const data = await response.json().catch(() => ({}));
-
-      if (response.ok) {
-        setSaveMessage('Préférences enregistrées ✓');
-        setTimeout(() => setSaveMessage(null), 3000);
-      } else if (response.status === 401) {
-        setSaveMessage('Session expirée. Veuillez vous reconnecter.');
-      } else {
-        setSaveMessage((data as { message?: string }).message || 'Erreur lors de la sauvegarde');
-      }
-    } catch (error) {
-      console.error('Error saving preferences:', error);
-      setSaveMessage('Erreur lors de la sauvegarde');
-    } finally {
-      setSaving(false);
-    }
+    await handleSavePreferencesBackend(preferences);
+    setSaving(false);
   };
 
-  const autoSavePreferences = (newPreferences: any) => {
+  const autoSavePreferences = (newPreferences: NotificationPreferences) => {
     setPreferences(newPreferences);
-    
-    // Clear previous timeout
-    if (autoSaveTimeout) {
-      clearTimeout(autoSaveTimeout);
-    }
-    
-    // Debounce save after 1 second of inactivity
-    const timeout = setTimeout(() => {
-      handleSavePreferencesBackend(newPreferences);
-    }, 1000);
-    
-    setAutoSaveTimeout(timeout);
+    void handleSavePreferencesBackend(newPreferences);
   };
 
-  const handleSavePreferencesBackend = async (prefsToSave: any) => {
+  const handleSavePreferencesBackend = async (prefsToSave: NotificationPreferences) => {
     const authToken = (token || (typeof window !== 'undefined' ? localStorage.getItem('token') : null))?.trim();
     if (!authToken) return;
 
@@ -258,8 +223,10 @@ export default function NotificationsPreferencesPage() {
       schedule: prefsToSave?.schedule ?? { start: '08:00', end: '22:00' },
       snooze: typeof prefsToSave?.snooze === 'number' ? prefsToSave.snooze : 15,
       deliveryChannel: prefsToSave?.deliveryChannel ?? 'push',
+      timeZone: prefsToSave?.timeZone || 'Europe/Brussels',
     };
 
+    saveQueue.current = saveQueue.current.catch(() => {}).then(async () => {
     try {
       const response = await fetch(
         `${getApiBase()}/users/me/notification-preferences`,
@@ -274,18 +241,17 @@ export default function NotificationsPreferencesPage() {
       );
 
       const data = await response.json().catch(() => ({}));
-      if (response.ok) {
-        setSaveMessage('Préférences enregistrées ✓');
-        setTimeout(() => setSaveMessage(null), 3000);
-      } else if (response.status === 401) {
-        setSaveMessage('Session expirée. Veuillez vous reconnecter.');
-      } else {
-        setSaveMessage((data as { message?: string }).message || 'Erreur lors de l’enregistrement');
-      }
+      if (!response.ok) throw new Error(response.status === 401 ? 'Session expirée. Reconnectez-vous.' : (typeof data.message === 'string' ? data.message : 'Erreur lors de l’enregistrement'));
+      setSaveError(false);
+      setSaveMessage('Préférences enregistrées ✓');
     } catch (error) {
-      console.error('Error saving preferences:', error);
-      setSaveMessage('Erreur lors de l’enregistrement');
+      setSaveError(true);
+      setSaveMessage(error instanceof Error ? error.message : 'Erreur lors de l’enregistrement');
+      throw error;
     }
+    });
+    // Les composants affichent l’erreur; la file brute reste rejetée pour empêcher un test sur des préférences non enregistrées.
+    return saveQueue.current.catch(() => {});
   };
 
   const updateType = (type: string, enabled: boolean) => {
@@ -298,14 +264,11 @@ export default function NotificationsPreferencesPage() {
       },
     };
     setPreferences(newPreferences);
-    if (autoSaveTimeout) {
-      clearTimeout(autoSaveTimeout);
-      setAutoSaveTimeout(null);
-    }
     handleSavePreferencesBackend(newPreferences);
   };
 
   const addType = (label: string) => {
+    if (!preferences) return;
     const trimmed = label.trim();
     if (!trimmed || (preferences?.types ?? {})[trimmed] !== undefined) return;
     const schedules = { ...(preferences?.typeSchedules ?? {}) };
@@ -320,6 +283,7 @@ export default function NotificationsPreferencesPage() {
   };
 
   const removeType = (type: string) => {
+    if (!preferences) return;
     const types = { ...(preferences?.types ?? {}) };
     const typeSchedules = { ...(preferences?.typeSchedules ?? {}) };
     delete types[type];
@@ -332,6 +296,7 @@ export default function NotificationsPreferencesPage() {
     type: string,
     patch: Partial<TypeSchedule> | ((prev: TypeSchedule) => TypeSchedule),
   ) => {
+    if (!preferences) return;
     const current = (preferences?.typeSchedules ?? {})[type] ?? DEFAULT_TYPE_SCHEDULE;
     const next =
       typeof patch === 'function' ? patch(current) : { ...current, ...patch };
@@ -347,7 +312,7 @@ export default function NotificationsPreferencesPage() {
   };
 
   const saveEditType = () => {
-    if (!editingType) return;
+    if (!editingType || !preferences) return;
     const newKey = editingType.value.trim();
     const types = preferences?.types ?? {};
     const typeSchedules = { ...(preferences?.typeSchedules ?? {}) };
@@ -403,6 +368,8 @@ export default function NotificationsPreferencesPage() {
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           {t('notifications.description')}
         </p>
+
+        {saveMessage && <p role={saveError ? 'alert' : 'status'} className={`mb-4 p-3 rounded-lg ${saveError ? 'bg-red-50 text-red-700' : 'bg-green-50 text-green-700'}`}>{saveMessage}</p>}
 
         {/* Tabs: Configurer | Mes notifications */}
         <div className="flex gap-2 mb-6 border-b border-gray-200 dark:border-gray-700">
@@ -460,9 +427,9 @@ export default function NotificationsPreferencesPage() {
                         <div>
                           <p className="font-medium text-gray-800 dark:text-white">{type}</p>
                           <p className="text-sm text-gray-500 dark:text-gray-400">
-                            {t('notifications.time')} {schedule.time} · {t(recurrenceLabel as any)}
+                            {t('notifications.time')} {schedule.time} · {t(recurrenceLabel)}
                             {schedule.recurrence === 'weekly' && schedule.weekDay != null && (
-                              <> · {t(`notifications.weekDay${schedule.weekDay}` as any)}</>
+                              <> · {t(`notifications.weekDay${schedule.weekDay}`)}</>
                             )}
                             {schedule.recurrence === 'once' && schedule.date && (
                               <> · {schedule.date}</>
@@ -513,37 +480,36 @@ export default function NotificationsPreferencesPage() {
             <h2 className="text-xl font-bold mb-4 text-gray-800 dark:text-white">
               {t('notifications.enable')}
             </h2>
-            {!subscribed ? (
-              <div>
-                <button
-                  disabled
-                  title={t('notifications.comingSoon')}
-                  className="px-6 py-3 bg-gray-300 text-gray-500 dark:bg-gray-600 dark:text-gray-400 rounded-lg cursor-not-allowed"
-                >
-                  Autoriser les notifications
-                </button>
-                <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  {t('notifications.comingSoon')}
-                </p>
-              </div>
-            ) : (
-              <div className="flex items-center gap-3 text-green-600">
-                <svg
-                  className="w-6 h-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                <span>Notifications activées</span>
-              </div>
-            )}
+            <p className="mb-3 text-sm text-gray-600 dark:text-gray-300">
+              {!pushSupported ? t('notifications.pushUnsupported') : !capabilities?.push ? t('notifications.pushUnavailable') : subscribed ? t('notifications.pushEnabled') : t('notifications.enableBrowser')}
+            </p>
+            <button type="button" disabled={pushBusy || !pushSupported || (!subscribed && !capabilities?.push)}
+              onClick={async () => {
+                if (!token || (!subscribed && !capabilities?.publicKey)) return;
+                setPushBusy(true); setSaveMessage(null);
+                try {
+                  if (subscribed) await disablePush(token); else await enablePush(token, capabilities!.publicKey!);
+                } catch (error) { setSaveError(true); setSaveMessage(error instanceof Error ? error.message : t('notifications.testFailed')); }
+                finally { await checkSubscription(capabilities?.publicKey || undefined); setPushBusy(false); }
+              }}
+              className="px-5 py-3 bg-emerald-600 text-white rounded-lg disabled:opacity-50">
+              {subscribed ? t('notifications.disablePush') : t('notifications.enablePush')}
+            </button>
+            <button type="button" disabled={pushBusy || !capabilities || (preferences?.deliveryChannel !== 'email' && !subscribed) || (preferences?.deliveryChannel === 'email' && !capabilities.email)}
+              onClick={async () => {
+                if (!token) return;
+                setPushBusy(true);
+                try {
+                  await saveQueue.current;
+                  const result = await testNotification(token);
+                  setSaveError(!result.sent || result.failed > 0);
+                  setSaveMessage(result.sent ? (result.failed ? t('notifications.testPartial') : t('notifications.testSent')) : (result.failed ? t('notifications.testFailed') : t('notifications.noRecipient')));
+                } catch { setSaveError(true); setSaveMessage(t('notifications.testFailed')); }
+                finally { setPushBusy(false); }
+              }}
+              className="ml-3 mt-3 px-4 py-3 border rounded-lg dark:text-white disabled:opacity-50">
+              {t('notifications.sendTest')}
+            </button>
           </div>
 
           {/* Canal de réception : téléphone (push) ou email — routines et notifications créent les rappels */}
@@ -560,15 +526,12 @@ export default function NotificationsPreferencesPage() {
                   <button
                     key={channel}
                     type="button"
+                    disabled={!capabilities || (channel !== 'email' && !capabilities.push) || (channel !== 'push' && !capabilities.email)}
                     onClick={() => {
-                      setPreferences((p: any) => (p ? { ...p, deliveryChannel: channel } : p));
-                      if (autoSaveTimeout) {
-                        clearTimeout(autoSaveTimeout);
-                        setAutoSaveTimeout(null);
-                      }
+                      setPreferences((p) => (p ? { ...p, deliveryChannel: channel } : p));
                       handleSavePreferencesBackend({ ...preferences, deliveryChannel: channel });
                     }}
-                    className={`px-4 py-2 rounded-lg border text-sm font-medium transition-colors ${
+                    className={`px-4 py-2 rounded-lg border text-sm font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${
                       (preferences.deliveryChannel ?? 'push') === channel
                         ? 'border-emerald-500 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300'
                         : 'border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700'
@@ -583,17 +546,27 @@ export default function NotificationsPreferencesPage() {
             </div>
           )}
 
+          {preferences && <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 space-y-4">
+            <label className="block text-gray-800 dark:text-white">{t('notifications.timeZone')}
+              <select value={preferences.timeZone} onChange={e => autoSavePreferences({ ...preferences, timeZone: e.target.value })} className="block mt-2 p-2 border rounded-lg dark:bg-gray-700">
+                {[...new Set([preferences.timeZone, Intl.DateTimeFormat().resolvedOptions().timeZone, 'Europe/Brussels', 'Europe/Paris', 'Europe/London', 'America/Toronto', 'America/New_York', 'UTC'])].map(zone => <option key={zone} value={zone}>{zone}</option>)}
+              </select>
+            </label>
+            <fieldset><legend className="text-gray-800 dark:text-white">{t('notifications.deliveryWindow')}</legend>
+              <input aria-label={t('notifications.windowStart')} type="time" value={preferences.schedule.start} onChange={e => autoSavePreferences({ ...preferences, schedule: { ...preferences.schedule, start: e.target.value } })} className="mt-2 p-2 border rounded-lg dark:bg-gray-700 dark:text-white" />
+              <span className="mx-2 dark:text-white">→</span>
+              <input aria-label={t('notifications.windowEnd')} type="time" value={preferences.schedule.end} onChange={e => autoSavePreferences({ ...preferences, schedule: { ...preferences.schedule, end: e.target.value } })} className="p-2 border rounded-lg dark:bg-gray-700 dark:text-white" />
+            </fieldset>
+            {(!capabilities?.push || !capabilities?.email) && <p className="text-sm text-gray-600 dark:text-gray-300">{t('notifications.channelsUnavailable')}</p>}
+          </div>}
+
           {/* Types de notifications : propositions + personnalisation */}
           {preferences && (
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
               <h2 className="text-xl font-bold mb-4 text-gray-800 dark:text-white">
                 {t('notifications.types')}
               </h2>
-              {saveMessage && (
-                <div className="mb-4 p-3 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg text-green-600 dark:text-green-400 text-sm">
-                  {saveMessage}
-                </div>
-              )}
+
 
               {/* Sujets suggérés */}
               <div className="mb-6">
@@ -737,9 +710,9 @@ export default function NotificationsPreferencesPage() {
                                   const rec = e.target.value as RecurrenceKind;
                                   updateTypeSchedule(type, {
                                     recurrence: rec,
-                                    date: rec === 'once' ? schedule.date ?? new Date().toISOString().slice(0, 10) : undefined,
-                                    weekDay: rec === 'weekly' ? (schedule.weekDay ?? new Date().getDay()) : undefined,
-                                    dayOfMonth: rec === 'monthly' ? (schedule.dayOfMonth ?? new Date().getDate()) : undefined,
+                                    date: rec === 'once' ? schedule.date ?? notificationCalendar(preferences.timeZone).date : undefined,
+                                    weekDay: rec === 'weekly' ? (schedule.weekDay ?? notificationCalendar(preferences.timeZone).weekDay) : undefined,
+                                    dayOfMonth: rec === 'monthly' ? (schedule.dayOfMonth ?? notificationCalendar(preferences.timeZone).dayOfMonth) : undefined,
                                     intervalHours: rec === 'hourly' ? (schedule.intervalHours ?? 2) : undefined,
                                   });
                                 }}
@@ -747,7 +720,7 @@ export default function NotificationsPreferencesPage() {
                               >
                                 {RECURRENCE_OPTIONS.map((opt) => (
                                   <option key={opt.value} value={opt.value}>
-                                    {t(opt.labelKey as any)}
+                                    {t(opt.labelKey)}
                                   </option>
                                 ))}
                               </select>
@@ -759,7 +732,7 @@ export default function NotificationsPreferencesPage() {
                                 </span>
                                 <input
                                   type="date"
-                                  value={schedule.date ?? new Date().toISOString().slice(0, 10)}
+                                  value={schedule.date ?? notificationCalendar(preferences.timeZone).date}
                                   onChange={(e) => updateTypeSchedule(type, { date: e.target.value })}
                                   className="px-2 py-1.5 border rounded-lg dark:bg-gray-700 dark:text-white text-sm"
                                 />
@@ -771,13 +744,13 @@ export default function NotificationsPreferencesPage() {
                                   {t('notifications.weekDay')}
                                 </span>
                                 <select
-                                  value={schedule.weekDay ?? new Date().getDay()}
+                                  value={schedule.weekDay ?? notificationCalendar(preferences.timeZone).weekDay}
                                   onChange={(e) => updateTypeSchedule(type, { weekDay: parseInt(e.target.value, 10) })}
                                   className="px-2 py-1.5 border rounded-lg dark:bg-gray-700 dark:text-white text-sm min-w-[140px]"
                                 >
                                   {[0, 1, 2, 3, 4, 5, 6].map((d) => (
                                     <option key={d} value={d}>
-                                      {t(`notifications.weekDay${d}` as any)}
+                                      {t(`notifications.weekDay${d}`)}
                                     </option>
                                   ))}
                                 </select>
@@ -792,7 +765,7 @@ export default function NotificationsPreferencesPage() {
                                   type="number"
                                   min={1}
                                   max={31}
-                                  value={schedule.dayOfMonth ?? new Date().getDate()}
+                                  value={schedule.dayOfMonth ?? notificationCalendar(preferences.timeZone).dayOfMonth}
                                   onChange={(e) =>
                                     updateTypeSchedule(type, {
                                       dayOfMonth: Math.min(31, Math.max(1, parseInt(e.target.value, 10) || 1)),
@@ -872,7 +845,7 @@ export default function NotificationsPreferencesPage() {
                 step="5"
                 value={preferences.snooze ?? 15}
                 onChange={(e) => {
-                  const snooze = parseInt(e.target.value);
+                  const snooze = Math.min(120, Math.max(5, parseInt(e.target.value, 10) || 5));
                   autoSavePreferences({ ...preferences, snooze });
                 }}
                 className="w-full px-4 py-2 border rounded-lg dark:bg-gray-700 dark:text-white"

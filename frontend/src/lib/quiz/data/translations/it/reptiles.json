@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "208a7dca817da6505c0117c85ffb87fb4acd510a63a3dd39e86c8fb01766b854",
+  "locale": "it",
+  "questions": [
+    {
+      "id": "reptiles-001",
+      "animal": "Rettili",
+      "prompt": "Quale caratteristica distingue i rettili dai mammiferi per quanto riguarda la loro pelle?",
+      "options": [
+        "È ricoperta di piume cheratinizzate",
+        "È ricoperta di peli e ghiandole sebacee",
+        "È nuda e permeabile",
+        "È ricoperta di squame o placche cornee"
+      ],
+      "explanation": "La pelle dei rettili è generalmente ricoperta da scaglie o placche ricche di cheratina, che limitano la perdita di acqua.",
+      "didYouKnow": "La maggior parte dei rettili ha un cuore a tre camere; i coccodrilli sono un'eccezione con un cuore a quattro camere.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-002",
+      "animal": "Rettili",
+      "prompt": "Come regola la temperatura corporea la maggior parte dei rettili?",
+      "options": [
+        "Utilizzo di fonti di calore esterne",
+        "Mantenendo una temperatura quasi costante grazie al metabolismo",
+        "Producendo calore costante attraverso il brivido",
+        "Raffreddando il corpo attraverso una profusa sudorazione"
+      ],
+      "explanation": "La maggior parte sono ectotermici: la loro temperatura dipende in gran parte dall'ambiente e da comportamenti come l'esposizione al sole o la ricerca dell'ombra.",
+      "didYouKnow": "La fecondazione nei rettili avviene all'interno del corpo della femmina.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-003",
+      "animal": "Rettili",
+      "prompt": "Che tipo di uovo ha aiutato i rettili a riprodursi lontano dall'acqua?",
+      "options": [
+        "Un uovo il cui embrione dipende direttamente da una placenta complessa",
+        "Un uovo senza amnios il cui embrione si sviluppa in acque libere",
+        "Un uovo dal guscio duro che impedisce qualsiasi scambio di gas",
+        "Un uovo amniotico protetto da membrane"
+      ],
+      "explanation": "Le membrane dell'uovo amniotico proteggono l'embrione e creano un ambiente liquido interno, consentendo lo sviluppo sulla terra.",
+      "didYouKnow": "La maggior parte dei rettili ha un cuore a tre camere; i coccodrilli sono un'eccezione.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-004",
+      "animal": "Rettili",
+      "prompt": "Perché i rettili fanno la muta?",
+      "options": [
+        "Per rinnovare gli artigli ad ogni ciclo di crescita",
+        "Per eliminare uno strato di pelle diventato troppo spesso",
+        "Per sostituire le ossa scheletriche diventate troppo piccole",
+        "Per rinnovare uno strato esterno che non cresce con loro"
+      ],
+      "explanation": "Lo strato corneo della pelle si consuma e non si allunga come i tessuti sottostanti; la muta ne consente il rinnovamento.",
+      "didYouKnow": "I rettili crescono in periodi e possono quindi fare la muta più volte durante la loro vita.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-005",
+      "animal": "Rettili",
+      "prompt": "Che ruolo gioca principalmente la lingua biforcuta in molti serpenti?",
+      "options": [
+        "Rileva le vibrazioni sonore dal suolo",
+        "Trasportano le particelle odorose all'organo vomeronasale",
+        "Assapora i cibi già in bocca",
+        "Misura direttamente l'umidità dell'aria"
+      ],
+      "explanation": "La lingua raccoglie le molecole dell'aria e le deposita nell'organo vomeronasale, che partecipa all'analisi degli odori.",
+      "didYouKnow": "Nei serpenti, l'organo vomeronasale si trova nel palato.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-006",
+      "animal": "Serpenti",
+      "prompt": "Come fanno i serpenti ad aprire la bocca per ingoiare grandi prede?",
+      "options": [
+        "Le ossa su entrambi i lati della mascella e diverse ossa del cranio sono collegate da articolazioni mobili",
+        "La mascella inferiore si lussa e poi ritorna al suo posto dopo un pasto",
+        "Le due metà della mascella inferiore si fondono e si allontanano nel loro insieme",
+        "Il cranio si separa dalla colonna vertebrale per consentire il passaggio della preda"
+      ],
+      "explanation": "I due lati della mascella inferiore non sono fusi anteriormente; legamenti flessibili e articolazioni mobili consentono alla bocca di espandersi attorno alla preda.",
+      "didYouKnow": "I serpenti non hanno padiglioni uditivi esterni.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-007",
+      "animal": "Serpenti",
+      "prompt": "Qual è lo scopo del disegno a zigzag visibile sul dorso di molte vipere europee?",
+      "options": [
+        "Per spezzare visivamente la loro silhouette e mimetizzarli",
+        "Per attirare la preda con un contrasto luminoso",
+        "Da notare la presenza di un veleno tuttora pericoloso per l'uomo",
+        "Per annunciare il periodo della muta alle altre vipere"
+      ],
+      "explanation": "Il disegno contrastante può aiutare la vipera a mimetizzarsi con la vegetazione o le foglie cadute; il suo aspetto varia a seconda della specie.",
+      "didYouKnow": "La Vipera delle Peliadi è presente anche nelle regioni settentrionali dell'Europa.",
+      "imageCaption": "Vipera Peliade"
+    },
+    {
+      "id": "reptiles-008",
+      "animal": "Camaleonti",
+      "prompt": "Qual è lo scopo del cambiamento di colore nei camaleonti?",
+      "options": [
+        "Per adattare il colore delle squame ad ogni tipo di luce",
+        "Solo per confondersi con lo sfondo per sfuggire ai predatori",
+        "Per esprimere interazioni sociali non correlate alla temperatura",
+        "Per comunicare e adattare la loro risposta all'ambiente, in particolare al calore"
+      ],
+      "explanation": "I cambiamenti di colore possono essere coinvolti nelle interazioni sociali e nella termoregolazione; non servono solo per mimetizzarsi.",
+      "didYouKnow": "I camaleonti hanno piedi le cui dita opposte formano una presa attorno ai rami.",
+      "imageCaption": "Camaleonte pantera"
+    },
+    {
+      "id": "reptiles-009",
+      "animal": "Gechi",
+      "prompt": "Come fanno alcuni gechi ad arrampicarsi su superfici lisce?",
+      "options": [
+        "Grazie alle ventose che creano un vuoto sotto ogni dito",
+        "Con milioni di strutture microscopiche sotto le dita",
+        "Grazie ad una secrezione appiccicosa depositata sulla superficie",
+        "Grazie ad artigli che si aggrappano ai pori del supporto"
+      ],
+      "explanation": "Le lamelle delle dita portano setole microscopiche che stabiliscono interazioni di prossimità con la superficie.",
+      "didYouKnow": "Alcuni gechi possono produrre urla o clic durante le interazioni sociali.",
+      "imageCaption": "Gecko tokay, rappresentante dei gechi"
+    },
+    {
+      "id": "reptiles-010",
+      "animal": "Gechi",
+      "prompt": "Cosa hanno di speciale gli occhi di molti gechi notturni?",
+      "options": [
+        "Una pupilla che alla luce si contrae in fessure verticali",
+        "Un'iride fissa che blocca la luce senza cambiare forma",
+        "Una pupilla rotonda che rimane della stessa dimensione tutto il giorno",
+        "Una pupilla orizzontale che si allarga in pieno sole"
+      ],
+      "explanation": "In molti gechi notturni, la pupilla diventa una stretta fessura in piena luce; molte specie non hanno palpebre mobili.",
+      "didYouKnow": "I gechi senza palpebre si puliscono gli occhi con la lingua.",
+      "imageCaption": "Gecko tokay, rappresentante dei gechi"
+    },
+    {
+      "id": "reptiles-011",
+      "animal": "Lucertole",
+      "prompt": "Quale meccanismo difensivo è chiamato autotomia caudale in alcune lucertole?",
+      "options": [
+        "La perdita involontaria di una gamba dopo un infortunio",
+        "Mutare la coda con la pelle esterna",
+        "La perdita volontaria di parte della coda",
+        "Rottura della coda durante la riproduzione"
+      ],
+      "explanation": "Alcune lucertole possono staccarsi parte della coda quando un predatore le afferra; il movimento residuo può distrarre la sua attenzione.",
+      "didYouKnow": "Alcune lucertole immagazzinano parte della loro riserva energetica nella coda.",
+      "imageCaption": "Lucertola di ceppo, esempio di lucertola"
+    },
+    {
+      "id": "reptiles-012",
+      "animal": "Lucertole",
+      "prompt": "Che ruolo svolgono spesso le lucertole negli ecosistemi?",
+      "options": [
+        "Consumano le stesse piante degli erbivori e non vengono mai cacciati",
+        "Disperdono sempre i semi senza consumare animali",
+        "Occupano esclusivamente la parte superiore della catena alimentare",
+        "Consumano invertebrati e fungono essi stessi da prede"
+      ],
+      "explanation": "Molte lucertole mangiano insetti o altri piccoli animali e vengono a loro volta consumate da uccelli, serpenti e mammiferi.",
+      "didYouKnow": "Alcune specie di lucertole consumano anche frutta o nettare.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-013",
+      "animal": "Tartarughe",
+      "prompt": "Cos'è il guscio di una tartaruga?",
+      "options": [
+        "Ad un guscio corneo posto sul dorso estraneo allo scheletro",
+        "Una struttura ossea integrata nello scheletro",
+        "Con involucro esterno formato da piastre staccabili",
+        "Ad uno strato di pelle ispessita che ricopre i muscoli"
+      ],
+      "explanation": "Il guscio della tartaruga è integrato nello scheletro e comprende elementi ossei; l’animale non può uscirne.",
+      "didYouKnow": "Le placche visibili su molti gusci di tartaruga sono scuti cornei.",
+      "imageCaption": "La tartaruga di Hermann, esempio di tartaruga"
+    },
+    {
+      "id": "reptiles-014",
+      "animal": "Tartarughe",
+      "prompt": "Come si chiama la parte ventrale del guscio di una tartaruga?",
+      "options": [
+        "Il carapace",
+        "Il piastrone",
+        "Il ponte del guscio",
+        "Uno scuto"
+      ],
+      "explanation": "Il carapace comprende una parte dorsale, il dorso, e una parte ventrale chiamata piastrone.",
+      "didYouKnow": "Nelle tartarughe scatola, una cerniera nel piastrone consente la chiusura del guscio.",
+      "imageCaption": "La tartaruga di Hermann, esempio di tartaruga"
+    },
+    {
+      "id": "reptiles-015",
+      "animal": "Tartarughe marine",
+      "prompt": "Quale fenomeno aiuta le tartarughe marine a ritornare nella loro regione natale per deporre le uova?",
+      "options": [
+        "Monitoraggio esclusivo delle correnti d'acqua dolce verso la spiaggia",
+        "L'uso di segnali ambientali, compreso il campo magnetico terrestre",
+        "Memorizzare il viaggio fatto con la madre",
+        "Orientarsi solo grazie all'odore del luogo di nascita"
+      ],
+      "explanation": "Le tartarughe marine utilizzano diversi segnali di navigazione; la ricerca mostra che percepiscono informazioni relative al campo magnetico terrestre.",
+      "didYouKnow": "Dopo la schiusa, le giovani tartarughe marine ritornano nell'oceano senza cure parentali dirette.",
+      "imageCaption": "Tartaruga verde (esempio di tartaruga marina)"
+    },
+    {
+      "id": "reptiles-016",
+      "animal": "Tartarughe marine",
+      "prompt": "Perché la luce artificiale costiera può mettere in pericolo le giovani tartarughe marine?",
+      "options": [
+        "Riduce la salinità dell'acqua in prossimità delle spiagge illuminate",
+        "Impedisce alle uova di ricevere abbastanza calore durante il giorno",
+        "Può disorientarli quando raggiungono il mare dopo la schiusa.",
+        "Rende la sabbia troppo compatta per la schiusa"
+      ],
+      "explanation": "I neonati si orientano verso l'orizzonte naturalmente luminoso; le luci artificiali possono attirarli nell'entroterra.",
+      "didYouKnow": "Le tartarughe marine adulte tornano sulle spiagge per scavare i nidi.",
+      "imageCaption": "Tartaruga verde (esempio di tartaruga marina)"
+    },
+    {
+      "id": "reptiles-017",
+      "animal": "Coccodrilli",
+      "prompt": "Dove si trovano gli occhi e le narici dei coccodrilli quando galleggiano quasi completamente sommersi?",
+      "options": [
+        "Sotto la mascella inferiore",
+        "Ai lati dello stomaco",
+        "Sulla parte superiore della testa",
+        "Alla fine della coda"
+      ],
+      "explanation": "Il posizionamento degli occhi e delle narici sulla parte superiore del cranio ci consente di vedere e respirare con poca esposizione al corpo.",
+      "didYouKnow": "Le valvole possono chiudere le narici e le orecchie dei coccodrilli sott'acqua.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-018",
+      "animal": "Coccodrilli",
+      "prompt": "Qual è lo scopo della comunicazione vocale nei coccodrilli?",
+      "options": [
+        "Interviene in particolare tra genitori e giovani",
+        "Aiuta i coccodrilli a localizzare le prede mediante l'ecolocalizzazione",
+        "Viene utilizzato solo dai maschi per attirare i compagni.",
+        "Sostituisce le chiamate visive tra individui"
+      ],
+      "explanation": "I coccodrilli producono vari suoni; i piccoli possono vocalizzare nell'uovo e chiamare la madre durante la schiusa.",
+      "didYouKnow": "I coccodrilli sono ectotermici e spesso prendono il sole per riscaldarsi.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-019",
+      "animal": "Alligatori",
+      "prompt": "In quale grande gruppo zoologico appartengono gli alligatori?",
+      "options": [
+        "Coccodrilli",
+        "Le tartarughe",
+        "Gli squamati",
+        "Rincocefali"
+      ],
+      "explanation": "Alligatori, caimani, coccodrilli e gaviali sono coccodrilli, un gruppo di rettili arcosauri.",
+      "didYouKnow": "Gli uccelli sono i parenti viventi più stretti dei coccodrilli tra i principali gruppi odierni.",
+      "imageCaption": "Alligatore americano"
+    },
+    {
+      "id": "reptiles-020",
+      "animal": "Gaviali",
+      "prompt": "Quale forma del muso caratterizza il gaviale del Gange?",
+      "options": [
+        "Muso corto e molto robusto",
+        "Muso molto lungo e stretto",
+        "Muso appiattito, a forma di pala",
+        "Muso ampio e arrotondato"
+      ],
+      "explanation": "Il gaviale ha un muso allungato e stretto adatto alla cattura dei pesci nei fiumi.",
+      "didYouKnow": "Il maschio adulto ha un'escrescenza all'estremità del muso chiamata ghara.",
+      "imageCaption": "Gaviale del Gange"
+    },
+    {
+      "id": "reptiles-021",
+      "animal": "Tartarughe terrestri",
+      "prompt": "Quale adattamento aiuta la tartaruga delle Galapagos a raggiungere la vegetazione più alta?",
+      "options": [
+        "Zampe posteriori allungate adatte al salto",
+        "Una coda appiattita che li spinge attraverso l'acqua",
+        "Un collo e una conchiglia la cui forma varia a seconda dell'habitat",
+        "Un becco stretto che filtra le piante acquatiche"
+      ],
+      "explanation": "In alcune tartarughe giganti, il guscio a forma di sella e il collo lungo facilitano l'accesso alle piante più alte.",
+      "didYouKnow": "Le tartarughe giganti delle Galapagos possono disperdere i semi dopo aver mangiato la frutta.",
+      "imageCaption": "Tartaruga gigante delle Galapagos"
+    },
+    {
+      "id": "reptiles-022",
+      "animal": "Tartaruga alligatore",
+      "prompt": "In che modo la tartaruga azzannatrice alligatore (Macrochelys temminckii) attira determinate prede acquatiche?",
+      "options": [
+        "Filtra le piccole prede tramite lamelle branchiali",
+        "Agita la coda per imitare un pesce ferito",
+        "Muove un'appendice simile a un verme nella parte posteriore della bocca",
+        "Proietta la lingua fuori dall'acqua per afferrare i pesci"
+      ],
+      "explanation": "La tartaruga azzannatrice alligatore può rimanere immobile con la bocca aperta e muovere un'appendice linguale simile a un verme per attirare la preda.",
+      "didYouKnow": "La tartaruga azzannatrice alligatore è endemica dei bacini fluviali degli Stati Uniti sudorientali.",
+      "imageCaption": "Tartaruga azzannatrice alligatore (Macrochelys temminckii)"
+    },
+    {
+      "id": "reptiles-023",
+      "animal": "Tartarughe marine",
+      "prompt": "Quale cibo costituisce una parte importante della dieta di una tartaruga liuto?",
+      "options": [
+        "Meduse e altri organismi gelatinosi",
+        "Alghe e fanerogame marine",
+        "Crostacei e molluschi di fondo",
+        "Spugne e coralli duri"
+      ],
+      "explanation": "La tartaruga liuto consuma principalmente meduse e altre prede gelatinose; i sacchetti di plastica possono essere confusi con loro.",
+      "didYouKnow": "La tartaruga liuto è l'unica tartaruga marina priva di guscio osseo rigido ricoperto di grandi squame.",
+      "imageCaption": "Tartaruga liuto (Dermochelys coriacea)"
+    },
+    {
+      "id": "reptiles-024",
+      "animal": "Tartarughe marine",
+      "prompt": "Qual è lo scopo delle ghiandole saline vicino agli occhi nelle tartarughe marine?",
+      "options": [
+        "Per produrre muco che protegge l'occhio dalla sabbia",
+        "Per rimuovere le scorie azotate dal sangue",
+        "Per eliminare i sali assorbiti in eccesso",
+        "Per mantenere gli occhi umidi sott'acqua"
+      ],
+      "explanation": "Queste ghiandole secernono una soluzione salina concentrata, che aiuta le tartarughe marine a mantenere l'equilibrio idrico in un ambiente salato.",
+      "didYouKnow": "Le tartarughe marine devono venire in superficie per respirare con i polmoni.",
+      "imageCaption": "Tartaruga verde (esempio di tartaruga marina)"
+    },
+    {
+      "id": "reptiles-025",
+      "animal": "Varani",
+      "prompt": "Che senso aiuta il drago di Komodo a riconoscere gli odori a distanza?",
+      "options": [
+        "La percezione delle vibrazioni da parte delle ossa delle zampe",
+        "Rilevazione degli odori tramite antenne sul muso",
+        "Rilevamento di molecole tramite la lingua e l'organo vomeronasale",
+        "Visione a infrarossi fornita solo dai suoi occhi"
+      ],
+      "explanation": "Come le altre lucertole, il drago di Komodo raccoglie le particelle di odore con la lingua e le analizza attraverso l'organo vomeronasale.",
+      "didYouKnow": "Il drago di Komodo è la più grande lucertola vivente conosciuta.",
+      "imageCaption": "Drago di Komodo"
+    },
+    {
+      "id": "reptiles-026",
+      "animal": "Iguane marine",
+      "prompt": "Quale risorsa alimentare sfrutta l’iguana marina delle Galapagos?",
+      "options": [
+        "Spugne raccolte dalle barriere coralline",
+        "Pesce che cattura in superficie",
+        "Alghe marine che sradica sulla spiaggia",
+        "Alghe che bruca nel mare"
+      ],
+      "explanation": "L'iguana marina si nutre di alghe, di cui pascola durante le immersioni nelle acque costiere delle Galapagos.",
+      "didYouKnow": "L'iguana marina spesso si scalda al sole dopo le immersioni in acque fredde.",
+      "imageCaption": "Iguana marina delle Galapagos"
+    },
+    {
+      "id": "reptiles-027",
+      "animal": "Basilischi verdi",
+      "prompt": "Perché il basilisco verde è chiamato la lucertola di Gesù Cristo?",
+      "options": [
+        "Si muove sull'acqua utilizzando i piedi palmati.",
+        "Cammina solo sul fondo dei ruscelli",
+        "Può correre brevemente sulla superficie dell'acqua",
+        "Si immerge in apnea per diversi minuti senza nuotare"
+      ],
+      "explanation": "Le sue lunghe zampe posteriori e le frange sulle dita gli permettono di correre sull'acqua per un breve periodo prima di nuotare.",
+      "didYouKnow": "Il basilico verde vive nelle zone dell’America Centrale, spesso in prossimità di corsi d’acqua.",
+      "imageCaption": "Basilico verde"
+    },
+    {
+      "id": "reptiles-028",
+      "animal": "Anole",
+      "prompt": "Qual è lo scopo della giogaia colorata mostrata dai maschi dell'anole?",
+      "options": [
+        "Intimidazione mediante espansione della gabbia toracica",
+        "Comunicazione visiva, in particolare territoriale",
+        "Termoregolazione tramite scambio termico con l'aria",
+        "Rilevamento tattile della preda nel terreno"
+      ],
+      "explanation": "La giogaia, un'estensione della pelle sotto la gola, viene visualizzata durante le esibizioni o le interazioni con altri individui.",
+      "didYouKnow": "Alcune anole possono staccare la coda quando un predatore le afferra.",
+      "imageCaption": "Anole verde"
+    },
+    {
+      "id": "reptiles-029",
+      "animal": "Lucertola dal collare",
+      "prompt": "Come può la lucertola dal collare fuggire rapidamente attraverso il terreno aperto?",
+      "options": [
+        "Corre brevemente sulle zampe posteriori",
+        "Librandosi grazie ad una membrana sostenuta dalle sue nervature",
+        "Quando si nuota si usa la coda appiattita",
+        "Scavando con le zampe anteriori senza staccarsi dal terreno"
+      ],
+      "explanation": "La lucertola dal collare può correre sulle zampe posteriori quando fugge in terreno aperto.",
+      "didYouKnow": "La lucertola dal collare vive nell'Australia settentrionale e nella Nuova Guinea meridionale.",
+      "imageCaption": "Lucertola con volant"
+    },
+    {
+      "id": "reptiles-030",
+      "animal": "Lucertole cornute",
+      "prompt": "Quale difesa è conosciuta in alcune specie di lucertole cornute?",
+      "options": [
+        "Mordono i predatori con zanne velenose",
+        "Spruzzi di sangue dai vasi vicino agli occhi",
+        "Estendi le costole affilate attorno alla testa",
+        "Espellono il muco irritante attraverso le ghiandole della pelle"
+      ],
+      "explanation": "Alcune specie possono espellere il sangue dalla regione degli occhi, un comportamento difensivo diretto contro alcuni predatori.",
+      "didYouKnow": "Le lucertole cornute si nutrono spesso di formiche.",
+      "imageCaption": "Lucertola cornuta del Texas"
+    },
+    {
+      "id": "reptiles-031",
+      "animal": "Scinchi",
+      "prompt": "Qual è un adattamento comune degli scinchi scavatori?",
+      "options": [
+        "Testa appiattita e piedi palmati",
+        "Un corpo corto e una lunga pinna dorsale",
+        "Un corpo allungato e talvolta arti ridotti",
+        "Corpo compatto e arti allargati per scavare"
+      ],
+      "explanation": "Gli scinchi che vivono sottoterra hanno spesso corpi allungati e arti ridotti, che rendono più facile muoversi nel terreno.",
+      "didYouKnow": "Alcune specie di scinchi hanno palpebre inferiori trasparenti.",
+      "imageCaption": "Scinco della sabbia, uno scinco scavatore"
+    },
+    {
+      "id": "reptiles-032",
+      "animal": "Lucertole senza gambe",
+      "prompt": "Quale indizio spesso distingue una lucertola senza gambe da un serpente?",
+      "options": [
+        "La presenza di grandi squame ventrali",
+        "La presenza di palpebre mobili o aperture per le orecchie",
+        "La forma allungata del corpo",
+        "La lingua biforcuta"
+      ],
+      "explanation": "Alcune lucertole senza gambe mantengono le palpebre mobili e le aperture per le orecchie esterne, mentre i serpenti no.",
+      "didYouKnow": "Il verme lento può perdere la coda quando viene attaccato.",
+      "imageCaption": "Fragile Orvet, una lucertola senza gambe"
+    },
+    {
+      "id": "reptiles-033",
+      "animal": "Orbettini",
+      "prompt": "Qual è la dieta comune del verme lento?",
+      "options": [
+        "Pesci e crostacei",
+        "Insetti volanti e ragni",
+        "Uova di uccelli e piccoli mammiferi",
+        "Lumache e vermi"
+      ],
+      "explanation": "Il verme lento, che è una lucertola senza gambe, consuma principalmente piccoli invertebrati come lumache e vermi.",
+      "didYouKnow": "Il verme lento ha scaglie lisce e lucenti.",
+      "imageCaption": "Orvet fragile"
+    },
+    {
+      "id": "reptiles-034",
+      "animal": "Rettili",
+      "prompt": "Come si chiama la forma di riproduzione in cui le uova si sviluppano al di fuori del corpo materno dopo la deposizione?",
+      "options": [
+        "Viviparità",
+        "Oviparità",
+        "Partenogenesi",
+        "Diapausa embrionale"
+      ],
+      "explanation": "L'oviparità è la modalità di riproduzione in cui la femmina depone le uova prima che lo sviluppo embrionale sia completato.",
+      "didYouKnow": "La pelle dei rettili comprende uno strato esterno ricco di cheratina.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-035",
+      "animal": "Serpenti",
+      "prompt": "In che modo i serpenti rilevano le vibrazioni del terreno?",
+      "options": [
+        "Percepiscono le vibrazioni solo con la lingua",
+        "Rilevano i suoni utilizzando i timpani esterni visibili",
+        "Percepiscono le vibrazioni grazie ai peli sensoriali sulla pelle",
+        "Le vibrazioni vengono trasmesse attraverso il corpo e le ossa della mascella all'orecchio interno"
+      ],
+      "explanation": "I serpenti non hanno orecchie esterne, ma le vibrazioni del substrato possono raggiungere il loro orecchio interno attraverso il cranio e la mascella.",
+      "didYouKnow": "I serpenti non hanno padiglioni uditivi esterni.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-036",
+      "animal": "Vipere di fossetta",
+      "prompt": "A cosa servono le fossette sensibili al calore di molte vipere?",
+      "options": [
+        "Per catturare suoni ad alta frequenza sott'acqua",
+        "Per misurare le vibrazioni del terreno trasmesse alla mascella",
+        "Per identificare le molecole odorose trasportate dall'aria",
+        "Per rilevare la radiazione infrarossa emessa da oggetti caldi"
+      ],
+      "explanation": "Gli organi fossette rilevano piccole differenze nella radiazione termica e possono aiutare a localizzare le prede calde.",
+      "didYouKnow": "Le vipere appartengono al gruppo di serpenti chiamati viperidi.",
+      "imageCaption": "Serpente a sonagli occidentale, una vipera con fossette"
+    },
+    {
+      "id": "reptiles-037",
+      "animal": "Boa",
+      "prompt": "Come uccide di solito un boa la preda che ha catturato?",
+      "options": [
+        "Stringe la preda tra le spire, compromettendone rapidamente la circolazione sanguigna",
+        "La soffoca lentamente bloccandole soltanto le vie respiratorie",
+        "Le inietta veleno con zanne specializzate",
+        "La tiene sott’acqua finché annega"
+      ],
+      "explanation": "La costrizione esercita una pressione che ostacola fortemente il ritorno venoso e la circolazione della preda; l’immobilizzazione è rapida.",
+      "didYouKnow": "I boa hanno una mascella molto mobile che consente loro di ingoiare la preda intera.",
+      "imageCaption": "Boa costrittore"
+    },
+    {
+      "id": "reptiles-038",
+      "animal": "Pitoni",
+      "prompt": "Quale caratteristica riproduttiva è comune nei pitoni?",
+      "options": [
+        "Deposizione delle uova",
+        "Riproduzione senza fecondazione da parte di un maschio",
+        "Custodire i bozzoli posti sottoterra",
+        "La nascita di piccoli vivi dopo lo sviluppo interno"
+      ],
+      "explanation": "I pitoni sono serpenti ovipari; diverse specie custodiscono o incubano le loro uova, alcune sono in grado di riscaldarle mediante contrazioni muscolari.",
+      "didYouKnow": "I pitoni hanno fossette sensibili al calore intorno alle labbra.",
+      "imageCaption": "Pitone birmano"
+    },
+    {
+      "id": "reptiles-039",
+      "animal": "Cobra",
+      "prompt": "Perché il cobra allunga il cappuccio?",
+      "options": [
+        "Apparire più grande quando si minaccia o si mostra",
+        "Per intimidire la preda prima di catturarla",
+        "Per catturare meglio gli odori trasportati dall'aria",
+        "Per aumentare la superficie della pelle esposta al sole"
+      ],
+      "explanation": "Il cappuccio è formato dal prolungamento delle costole del collo e contribuisce ad una postura di avvertimento o intimidatoria.",
+      "didYouKnow": "I Cobra hanno zanne fisse davanti alla bocca.",
+      "imageCaption": "Cobra indiano"
+    },
+    {
+      "id": "reptiles-040",
+      "animal": "Serpenti marini",
+      "prompt": "Come respirano i serpenti marini?",
+      "options": [
+        "Con una sacca d'aria permanente sotto la bilancia",
+        "Con i polmoni, che emergono in superficie",
+        "Per diffusione cutanea senza immissione di aria",
+        "Con branchie che estraggono l'ossigeno disciolto"
+      ],
+      "explanation": "Anche se adattati alla vita marina, i serpenti marini respirano aria con i polmoni e devono venire in superficie.",
+      "didYouKnow": "La coda appiattita dei serpenti marini funge da pagaia.",
+      "imageCaption": "Maglia rigata, serpente marino"
+    },
+    {
+      "id": "reptiles-041",
+      "animal": "Serpenti marini",
+      "prompt": "Quale forma della coda aiuta molti serpenti marini a nuotare?",
+      "options": [
+        "Una coda appiattita lateralmente come una pagaia",
+        "Una lunga coda cilindrica che funge da timone",
+        "Una coda appiattita verticalmente come una pinna",
+        "Una coda molto corta che riduce la resistenza"
+      ],
+      "explanation": "La coda compressa ai lati aiuta la propulsione in acqua, mentre il corpo ondulato guida il nuoto.",
+      "didYouKnow": "I serpenti marini respirano con i polmoni e devono venire in superficie.",
+      "imageCaption": "Maglia rigata, serpente marino"
+    },
+    {
+      "id": "reptiles-042",
+      "animal": "Serpenti",
+      "prompt": "Qual è lo scopo del comportamento di tanatosi osservato in alcuni serpenti?",
+      "options": [
+        "Fingere la morte per scoraggiare un predatore",
+        "Per renderti più difficile da individuare cambiando colore",
+        "Attirare la preda imitandone i movimenti",
+        "Per rinfrescarsi quando l'aria è troppo calda"
+      ],
+      "explanation": "La tanatosi consiste nel restare immobili e fingere la morte; può ridurre l'interesse di alcuni predatori.",
+      "didYouKnow": "La biscia spesso indossa un collare trasparente dietro la testa.",
+      "imageCaption": "Serpente d'erba"
+    },
+    {
+      "id": "reptiles-043",
+      "animal": "Biscia dal collare",
+      "prompt": "Che tipo di prede consumano spesso le bisce?",
+      "options": [
+        "Pesci e le loro uova",
+        "Insetti acquatici e larve",
+        "Piccoli mammiferi che vivono nelle tane",
+        "Anfibi, soprattutto rane"
+      ],
+      "explanation": "La biscia dal collare frequenta le zone umide e si nutre soprattutto di anfibi e talvolta di pesci.",
+      "didYouKnow": "Generalmente è innocuo per l'uomo.",
+      "imageCaption": "Serpente d'erba"
+    },
+    {
+      "id": "reptiles-044",
+      "animal": "Vipere",
+      "prompt": "Cosa fanno le zanne delle vipere?",
+      "options": [
+        "Iniettano la saliva digestiva senza veleno",
+        "Iniettano il veleno nella preda o in un animale morso",
+        "Sono abituati a trattenere le prede senza ferirle",
+        "Conducono gli odori all'organo vomeronasale"
+      ],
+      "explanation": "Le vipere hanno zanne specializzate collegate alle ghiandole velenifere; possono ripiegarli verso il palato quando sono a riposo.",
+      "didYouKnow": "Molte vipere partoriscono piccoli vivi anziché deporre uova.",
+      "imageCaption": "Vipera Peliade"
+    },
+    {
+      "id": "reptiles-045",
+      "animal": "Serpenti velenosi",
+      "prompt": "Quale ruolo ecologico gioca spesso il veleno nei serpenti che lo possiedono?",
+      "options": [
+        "Rende le uova più resistenti alla disidratazione",
+        "Immobilizza o digerisce la preda più facilmente",
+        "Permettiti di respirare sott'acqua",
+        "Regola direttamente la temperatura corporea"
+      ],
+      "explanation": "Il veleno può aiutare a immobilizzare la preda e contiene molecole che ne avviano la digestione; viene utilizzato anche per la difesa.",
+      "didYouKnow": "I serpenti raccolgono molecole odorose con la lingua biforcuta.",
+      "imageCaption": "Vipera Peliade, serpente velenoso"
+    },
+    {
+      "id": "reptiles-046",
+      "animal": "Serpenti",
+      "prompt": "Perché alcuni serpenti ingoiano la preda prima con la testa?",
+      "options": [
+        "I tessuti delle prede sono più morbidi intorno alla testa",
+        "I serpenti possono aprire maggiormente la bocca in questa direzione",
+        "Gli arti e le scaglie della preda si piegano più facilmente in questa direzione",
+        "Le ossa della preda si dissolvono più velocemente quando è orientata in questo modo"
+      ],
+      "explanation": "Ingoiare prima la testa della preda riduce l'impigliamento degli arti, delle piume o delle scaglie mentre avanza attraverso la gola.",
+      "didYouKnow": "In molti serpenti la lingua biforcuta raccoglie le molecole degli odori.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-047",
+      "animal": "Rettili",
+      "prompt": "Quale organo consente ai rettili di effettuare la respirazione aerea?",
+      "options": [
+        "Le sacche d'aria esterne",
+        "Le trachee",
+        "I polmoni",
+        "Le branchie"
+      ],
+      "explanation": "I rettili respirano l'aria con i polmoni; le specie acquatiche generalmente devono ritornare in superficie per respirare.",
+      "didYouKnow": "Nei rettili, la cloaca è un'apertura comune ai sistemi digestivo, urinario e riproduttivo.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-048",
+      "animal": "Rettili",
+      "prompt": "Quali rifiuti di azoto i rettili terrestri spesso espellono in forma pastosa o cristallina?",
+      "options": [
+        "Anidride carbonica disciolta",
+        "Ammoniaca in soluzione abbondante",
+        "Urea molto diluita",
+        "Acido urico"
+      ],
+      "explanation": "Molti rettili espellono l'azoto sotto forma di acido urico, che aiuta a limitare la perdita di acqua rispetto all'urina molto diluita.",
+      "didYouKnow": "I rettili hanno un'apertura comune chiamata cloaca.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-049",
+      "animal": "Rettili",
+      "prompt": "In che modo i rettili utilizzano spesso la luce solare per termoregolarsi?",
+      "options": [
+        "Alternano l'esposizione al sole e il ritiro all'ombra",
+        "Producono calore attraverso un brivido continuo",
+        "Sudano per dissipare il calore",
+        "Mantengono una temperatura costante grazie al loro metabolismo"
+      ],
+      "explanation": "I rettili possono regolare la propria temperatura corporea scegliendo microhabitat più caldi o più freddi.",
+      "didYouKnow": "I coccodrilli sono gli unici rettili viventi con un cuore a quattro camere.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-050",
+      "animal": "Rettili",
+      "prompt": "Che effetto può avere la temperatura di incubazione su alcune tartarughe?",
+      "options": [
+        "Può influenzare il sesso dei neonati",
+        "Determina direttamente il colore del guscio adulto",
+        "Determina la durata futura della vita dell'embrione",
+        "Regola sempre la taglia da adulto di ogni piccolo"
+      ],
+      "explanation": "In diverse specie di tartarughe e altri rettili, la temperatura durante un delicato periodo di incubazione influenza il sesso dei piccoli.",
+      "didYouKnow": "Le tartarughe marine possono percorrere lunghe distanze tra le aree di alimentazione e quelle di nidificazione.",
+      "imageCaption": "Tartaruga dipinta, esempio di tartaruga sessuale termodipendente"
+    },
+    {
+      "id": "reptiles-051",
+      "animal": "Tartarughe",
+      "prompt": "Come fanno alcune tartarughe d'acqua dolce a trascorrere l'inverno sotto il ghiaccio?",
+      "options": [
+        "Respirano con branchie che rimangono funzionali fino all'età adulta",
+        "Nuotano continuamente sotto il ghiaccio per produrre calore",
+        "Migrano lungo i fiumi verso le aree tropicali",
+        "Rimangono sul fondo e rallentano notevolmente il loro metabolismo"
+      ],
+      "explanation": "Alcune tartarughe acquatiche entrano in brumazione e possono scambiare parte dei gas attraverso superfici altamente vascolarizzate, in particolare nella cloaca.",
+      "didYouKnow": "Alcune tartarughe d'acqua dolce possono ridurre notevolmente la loro attività durante l'inverno.",
+      "imageCaption": "Tartaruga scorrevole della Florida, tartaruga d'acqua dolce"
+    },
+    {
+      "id": "reptiles-052",
+      "animal": "Tartarughe",
+      "prompt": "Qual è lo scopo del collo retrattile in molte tartarughe?",
+      "options": [
+        "Proteggere la testa portandola sotto il guscio",
+        "Spingere il corpo nel fango",
+        "Per filtrare i sedimenti con la museruola",
+        "Per allungare il collo per raggiungere piante lontane"
+      ],
+      "explanation": "La retrazione del collo consente a molte tartarughe di riparare la testa; il modo in cui il collo si piega differisce tra i lignaggi.",
+      "didYouKnow": "Alcune tartarughe scatola chiudono il piastrone con un cardine.",
+      "imageCaption": "La tartaruga di Hermann, esempio di tartaruga"
+    },
+    {
+      "id": "reptiles-053",
+      "animal": "Tartarughe dal collo laterale",
+      "prompt": "Come ritrae la testa una tartaruga dal collo laterale?",
+      "options": [
+        "Piega il collo a S in verticale e lo fa scivolare tra le spalle",
+        "Piega il collo all’indietro sotto il bordo del carapace",
+        "Ritrae la testa senza muovere il collo",
+        "Piega il collo orizzontalmente di lato sotto il bordo del carapace"
+      ],
+      "explanation": "I pleurodiri piegano il collo lateralmente sotto il bordo del carapace, a differenza delle tartarughe che lo piegano verticalmente.",
+      "didYouKnow": "Le tartarughe dal collo laterale sono rappresentate principalmente nelle regioni tropicali dell'emisfero australe.",
+      "imageCaption": "Tartaruga dal collo lungo (tartaruga dal collo laterale)"
+    },
+    {
+      "id": "reptiles-054",
+      "animal": "Tartarughe marine",
+      "prompt": "Quale struttura sostituisce le zampe delle tartarughe marine per nuotare?",
+      "options": [
+        "Artigli ricurvi per aggrapparsi al fondo",
+        "Arti trasformati in pinne",
+        "Dita allungate collegate da una fettuccia parziale",
+        "Zampe posteriori più lunghe di quelle anteriori"
+      ],
+      "explanation": "Gli arti anteriori delle tartarughe marine si trasformano in potenti pinne, mentre gli arti posteriori aiutano nella guida.",
+      "didYouKnow": "Le tartarughe marine depongono le uova sulle spiagge al di sopra della linea della marea.",
+      "imageCaption": "Tartaruga verde, esempio di tartaruga marina"
+    },
+    {
+      "id": "reptiles-055",
+      "animal": "Tartarughe marine",
+      "prompt": "Che comportamento mostrano i cuccioli di tartaruga marina dopo aver raggiunto l'oceano?",
+      "options": [
+        "Nuotano attivamente verso il mare",
+        "Rimangono raggruppati vicino al nido fino all'età adulta",
+        "Si lasciano andare alla deriva senza nuotare fino alla riva",
+        "Si tuffano nella sabbia sottomarina per ripararsi"
+      ],
+      "explanation": "Dopo aver raggiunto il mare, i piccoli nuotano attivamente verso il mare, un periodo spesso descritto come nuoto frenetico.",
+      "didYouKnow": "Le tartarughe marine appena nate si orientano utilizzando segnali luminosi provenienti dall'orizzonte.",
+      "imageCaption": "Tartaruga verde, esempio di tartaruga marina"
+    },
+    {
+      "id": "reptiles-056",
+      "animal": "Tartarughe embricate",
+      "prompt": "Di cosa si nutrono spesso le tartarughe marine embricate sulle barriere coralline?",
+      "options": [
+        "Spugne marine",
+        "Meduse e altri animali gelatinosi",
+        "Alghe marine",
+        "Alghe galleggianti"
+      ],
+      "explanation": "La tartaruga embricata consuma frequentemente spugne, rendendola un importante specialista del cibo della barriera corallina.",
+      "didYouKnow": "La tartaruga embricata è riconoscibile dai suoi scudi di conchiglia sovrapposti.",
+      "imageCaption": "Tartaruga embricata"
+    },
+    {
+      "id": "reptiles-057",
+      "animal": "Tartarughe verdi",
+      "prompt": "Quale cambiamento nella dieta si verifica spesso nelle tartarughe marine verdi mentre crescono?",
+      "options": [
+        "I giovani mangiano le meduse, poi gli adulti mangiano i crostacei.",
+        "La dieta rimane esclusivamente carnivora a tutte le età",
+        "I giovani sono più onnivori e gli adulti diventano prevalentemente erbivori",
+        "I giovani sono erbivori poi gli adulti diventano piscivori"
+      ],
+      "explanation": "I giovani possono consumare una varietà di prede animali e vegetali, mentre gli adulti si nutrono principalmente di alghe e alghe.",
+      "didYouKnow": "La tartaruga verde adulta pascola spesso sulle praterie di alghe.",
+      "imageCaption": "tartaruga verde"
+    },
+    {
+      "id": "reptiles-058",
+      "animal": "Tartarughe liuto",
+      "prompt": "Cosa distingue il guscio della tartaruga liuto da quello di molte altre tartarughe?",
+      "options": [
+        "È elastico e ricoperto di pelle coriacea.",
+        "È costituito solo da cartilagine senza elementi ossei",
+        "È costituito da piastre mobili che si aprono per nuotare",
+        "È ricoperto di grandi scudi cornee come quelli delle tartarughe verdi."
+      ],
+      "explanation": "La tartaruga liuto ha un guscio privo delle grandi scaglie cornee tipiche di molte tartarughe, con pelle coriacea sopra una struttura ossea.",
+      "didYouKnow": "La tartaruga liuto è l'unica specie vivente della sua famiglia, Dermochelyidae.",
+      "imageCaption": "Tartaruga liuto"
+    },
+    {
+      "id": "reptiles-059",
+      "animal": "Tartarughe terrestri",
+      "prompt": "Perché le tartarughe hanno spesso gambe forti?",
+      "options": [
+        "Terminano con ventose per arrampicarsi sugli alberi",
+        "Sopportano il peso del corpo e permettono di camminare a terra",
+        "Sono appiattiti in pinne per scavare nella sabbia",
+        "Si diffondono lateralmente per il nuoto veloce"
+      ],
+      "explanation": "Le tartarughe si muovono grazie ai loro arti spessi e robusti, adattati a sostenere il corpo e la locomozione terrestre.",
+      "didYouKnow": "Le tartarughe non hanno denti e usano un becco corneo per tagliare il cibo.",
+      "imageCaption": "La tartaruga di Hermann, esempio di tartaruga"
+    },
+    {
+      "id": "reptiles-060",
+      "animal": "Tartarughe",
+      "prompt": "Quali sono le scaglie cornee visibili sui gusci di molte tartarughe?",
+      "options": [
+        "Scuti che ricoprono gli elementi ossei",
+        "Placche ossee separate che sostituiscono le vertebre",
+        "Macchie di pelle pigmentata senza strato corneo",
+        "Morbide squame staccabili sotto la calotta"
+      ],
+      "explanation": "Gli scuti sono placche di cheratina che ricoprono il guscio osseo in molte specie, ma la loro presenza varia da gruppo a gruppo.",
+      "didYouKnow": "Le scaglie del carapace, o scudi, sono placche cornee che ricoprono l'osso.",
+      "imageCaption": "La tartaruga di Hermann, esempio di tartaruga"
+    },
+    {
+      "id": "reptiles-061",
+      "animal": "Coccodrilli",
+      "prompt": "Come puoi spesso distinguere un coccodrillo da un alligatore quando la bocca è chiusa?",
+      "options": [
+        "Gli alligatori chiudono la bocca tenendo le mascelle separate",
+        "Negli alligatori i denti inferiori sporgono sempre dal muso",
+        "I coccodrilli hanno i denti solo sulla mascella superiore",
+        "In molti coccodrilli rimane visibile un grande dente inferiore"
+      ],
+      "explanation": "In molti coccodrilli il quarto dente della mascella inferiore è visibile quando la bocca è chiusa; negli alligatori è generalmente nascosto.",
+      "didYouKnow": "I coccodrilli hanno un palato secondario osseo.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-062",
+      "animal": "Coccodrilli",
+      "prompt": "Cosa fa la valvola sul fondo della bocca dei coccodrilli?",
+      "options": [
+        "Per mantenere la lingua fissa nella parte posteriore della bocca",
+        "Per evitare che la preda fuoriesca dalla bocca sulla terraferma",
+        "Per isolare le vie respiratorie dall'acqua durante l'immersione",
+        "Per chiudere il passaggio esofageo durante la respirazione aerea"
+      ],
+      "explanation": "Il palato secondario e la valvola palatale consentono al coccodrillo di mantenere isolate le vie aeree quando tiene la preda in acqua.",
+      "didYouKnow": "I coccodrilli possono chiudere le narici quando sono immersi.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-063",
+      "animal": "Coccodrilli",
+      "prompt": "Quale organo sensoriale si trova nei piccoli recettori sulla superficie del muso dei coccodrilli?",
+      "options": [
+        "Organi che percepiscono il campo magnetico terrestre",
+        "Ghiandole che misurano la salinità del sangue",
+        "Recettori sensibili alla pressione e ai movimenti dell'acqua",
+        "Recettori che rilevano solo gli odori disciolti"
+      ],
+      "explanation": "Gli organi sensoriali tegumentari dei coccodrilli percepiscono i cambiamenti di pressione e i movimenti nell'acqua.",
+      "didYouKnow": "I coccodrilli hanno un cuore a quattro camere.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-064",
+      "animal": "Alligatori",
+      "prompt": "In che tipo di habitat si trovano maggiormente gli alligatori americani?",
+      "options": [
+        "I fiumi montuosi dell'Asia centrale",
+        "Zone umide d'acqua dolce degli Stati Uniti sudorientali",
+        "I grandi laghi freddi del Canada settentrionale",
+        "Estuari costieri salati delle isole del Pacifico"
+      ],
+      "explanation": "L'alligatore americano abita paludi, fiumi e altre zone umide, principalmente negli Stati Uniti sudorientali.",
+      "didYouKnow": "L'alligatore americano costruisce un nido di vegetazione per deporre le uova.",
+      "imageCaption": "Alligatore americano"
+    },
+    {
+      "id": "reptiles-065",
+      "animal": "Coccodrilli",
+      "prompt": "Quale comportamento genitoriale si osserva in molti coccodrilli?",
+      "options": [
+        "Gli adulti trasportano le uova sotto le squame del ventre",
+        "La femmina può portare i neonati in bocca fino all'acqua",
+        "Entrambi i genitori masticano il cibo per i più piccoli",
+        "Il maschio nutre i piccoli con una secrezione prodotta dalla pelle"
+      ],
+      "explanation": "In molti coccodrilli la femmina protegge il nido e può trasportare delicatamente i neonati nell'acqua che ha in bocca.",
+      "didYouKnow": "Le femmine di numerosi coccodrilli portano i loro neonati in acqua.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-066",
+      "animal": "Coccodrilli",
+      "prompt": "Cosa fanno i coccodrilli con la loro membrana nittitante quando sono immersi?",
+      "options": [
+        "Proteggono i loro occhi con questa palpebra extra",
+        "Con esso chiudono le narici",
+        "Lo utilizzano per catturare i pesci",
+        "Lo gonfiano per produrre suoni"
+      ],
+      "explanation": "La membrana nittitante può coprire l'occhio e proteggerlo sott'acqua. Si distingue dalle due palpebre esterne.",
+      "didYouKnow": "La membrana nittitante è una palpebra traslucida che protegge l'occhio.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-067",
+      "animal": "Coccodrilli",
+      "prompt": "Come si chiama il movimento con cui un coccodrillo trascina la preda girandosi su se stesso?",
+      "options": [
+        "Nuoto ondulato",
+        "Il tuffo tortuoso",
+        "Camminata laterale",
+        "Il rotolo della morte"
+      ],
+      "explanation": "Il tiro della morte è una rotazione rapida utilizzata per sbilanciare o smembrare la preda catturata.",
+      "didYouKnow": "Il cuore dei coccodrilli ha quattro camere.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-068",
+      "animal": "Coccodrilli",
+      "prompt": "Quale differenza aiuta a distinguere i coccodrilli dalle lucertole?",
+      "options": [
+        "I coccodrilli hanno due cuori separati nel torace.",
+        "I coccodrilli hanno cuori a quattro camere",
+        "Tutti i rettili hanno un cuore a quattro camere",
+        "Le lucertole hanno cuori a quattro camere e i coccodrilli hanno cuori a tre camere."
+      ],
+      "explanation": "I coccodrilli hanno un cuore a quattro camere, una caratteristica condivisa con uccelli e mammiferi.",
+      "didYouKnow": "I coccodrilli custodiscono le loro uova e possono portare i piccoli in bocca.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-069",
+      "animal": "Coccodrilli",
+      "prompt": "Quale ruolo ecologico possono svolgere i coccodrilli nelle zone umide?",
+      "options": [
+        "Decompositori che digeriscono le foglie morte",
+        "Impollinatori che fecondano le piante acquatiche",
+        "Erbivori che mantengono le praterie attraverso il pascolo",
+        "Predatori che influenzano le popolazioni delle prede e l'ecosistema"
+      ],
+      "explanation": "In quanto grandi predatori, possono modificare l'abbondanza e il comportamento delle loro prede e contribuire alla struttura dell'ecosistema.",
+      "didYouKnow": "I coccodrilli possono rilevare lievi movimenti dell'acqua utilizzando i recettori presenti nella loro pelle.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-070",
+      "animal": "Caimani",
+      "prompt": "A quale famiglia appartengono i caimani?",
+      "options": [
+        "Ai gavialidi, coi gaviali",
+        "Alla famiglia Alligatoridae, insieme agli alligatori",
+        "Con squamati, con varani",
+        "Ai Crocodylidae, con i coccodrilli veri"
+      ],
+      "explanation": "I caimani sono coccodrilli della famiglia degli Alligatoridae, originari dell'America centrale e meridionale.",
+      "didYouKnow": "Diverse specie di caimano vivono nei bacini dell'Amazzonia e dell'Orinoco.",
+      "imageCaption": "Caimano dagli occhiali"
+    },
+    {
+      "id": "reptiles-071",
+      "animal": "Gaviali",
+      "prompt": "Perché i gaviali dipendono particolarmente dai corsi d'acqua?",
+      "options": [
+        "Le sue potenti zampe gli permettono di inseguire prede terrestri",
+        "Il suo corpo e il suo muso sono adatti alla caccia acquatica ai pesci",
+        "Le sue narici sono adatte alle immersioni in acque profonde",
+        "Il suo muso corto viene utilizzato per schiacciare le piante acquatiche."
+      ],
+      "explanation": "Il gaviale è un coccodrillo molto acquatico, specializzato nella cattura di pesci nei grandi fiumi.",
+      "didYouKnow": "Il maschio del gaviale del Gange presenta un rigonfiamento chiamato ghara all'estremità del muso.",
+      "imageCaption": "Gaviale del Gange"
+    },
+    {
+      "id": "reptiles-072",
+      "animal": "Coccodrilli",
+      "prompt": "Cosa mangiano principalmente i giovani coccodrilli quando nascono?",
+      "options": [
+        "Alghe che pascolano sulla battigia",
+        "Piccoli invertebrati e animali accessibili",
+        "Prede grandi quanto gli adulti",
+        "Latte fornito dalla madre dopo la schiusa"
+      ],
+      "explanation": "I giovani coccodrilli catturano piccole prede, come insetti e altri piccoli animali, prima di poter affrontare prede più grandi.",
+      "didYouKnow": "I coccodrilli hanno un palato secondario osseo.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-073",
+      "animal": "Coccodrilli",
+      "prompt": "Quale struttura aiuta i coccodrilli a nuotare in modo efficiente?",
+      "options": [
+        "Zampe anteriori trasformate in pinne",
+        "Movimenti laterali del collo che tirano il corpo",
+        "Una coda muscolosa che fornisce gran parte della propulsione",
+        "Piedi palmati che producono da soli tutta la spinta"
+      ],
+      "explanation": "La potente coda compressa lateralmente spinge il coccodrillo attraverso l'acqua; i membri contribuiscono alla direzione e alla stabilità.",
+      "didYouKnow": "I coccodrilli hanno code potenti che aiutano nella propulsione acquatica.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-074",
+      "animal": "Coccodrilli",
+      "prompt": "Come sentono i coccodrilli sott'acqua?",
+      "options": [
+        "I loro denti fungono da antenne uditive esterne",
+        "Sentono solo i suoni trasmessi attraverso l'aria",
+        "Le strutture uditive protette possono trasmettere vibrazioni sonore",
+        "Le loro narici captano le onde sonore invece delle orecchie"
+      ],
+      "explanation": "Le aperture uditive possono essere chiuse da pieghe e le vibrazioni raggiungono l'apparecchio acustico attraverso i tessuti e il cranio.",
+      "didYouKnow": "I coccodrilli possono chiudere le orecchie durante le immersioni.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-075",
+      "animal": "Sfenodonte",
+      "prompt": "A quale gruppo vivente appartiene lo sfenodonte, detto anche tuatara?",
+      "options": [
+        "Nelle Testudine, come le tartarughe",
+        "Rhynchocephali, distinti dalle lucertole",
+        "Agli squamati, come serpenti e lucertole",
+        "Ai coccodrilli, come i gaviali"
+      ],
+      "explanation": "Il tuatara è l'unico rappresentante attuale dei Rhynchocephali, una stirpe distinta dagli squamati che comprende lucertole e serpenti.",
+      "didYouKnow": "Il tuatara può vivere a temperature più fresche rispetto a molti rettili.",
+      "imageCaption": "Tuatara (sfenodonte)"
+    },
+    {
+      "id": "reptiles-076",
+      "animal": "Sfenodonte",
+      "prompt": "Quale struttura particolare viene talvolta chiamata il terzo occhio nei giovani tuatara?",
+      "options": [
+        "L'occhio parietale, un organo sensoriale situato sulla sommità della testa",
+        "Un paio di occhi in movimento dietro le orecchie",
+        "Un organo olfattivo esposto nella parte superiore del cranio",
+        "Una terza palpebra trasparente che chiude entrambi gli occhi"
+      ],
+      "explanation": "Il tuatara possiede un occhio parietale mediano, particolarmente visibile nei giovani; è coperto durante lo sviluppo.",
+      "didYouKnow": "Il tuatara può vivere molto a lungo e raggiunge la maturità tardi.",
+      "imageCaption": "Tuatara (sfenodonte)"
+    },
+    {
+      "id": "reptiles-077",
+      "animal": "Sfenodonte",
+      "prompt": "A quale tipo di clima è particolarmente adatto il tuatara?",
+      "options": [
+        "Un clima temperato fresco, con attività possibili a basse temperature",
+        "Un clima tropicale umido dove le temperature sono costantemente elevate",
+        "Un deserto arido dove le temperature spesso superano quelle dei rettili tropicali",
+        "Un clima polare in cui gli adulti rimangono attivi sotto il ghiaccio"
+      ],
+      "explanation": "Il tuatara può rimanere attivo a temperature più fresche rispetto alla maggior parte dei rettili, in linea con il clima temperato della Nuova Zelanda.",
+      "didYouKnow": "La tuatara è endemica della Nuova Zelanda.",
+      "imageCaption": "Tuatara (sfenodonte)"
+    },
+    {
+      "id": "reptiles-078",
+      "animal": "Sfenodonte",
+      "prompt": "Qual è il tasso di sviluppo delle uova di tuatara?",
+      "options": [
+        "L'incubazione è eccezionalmente lunga in questo rettile",
+        "Lo sviluppo embrionale riprende solo dopo diversi anni",
+        "Le uova vengono incubate dalla femmina all'interno del suo corpo",
+        "Le uova si schiudono pochi giorni dopo la deposizione"
+      ],
+      "explanation": "Le uova di tuatara hanno un periodo di incubazione molto lungo, che dura molti mesi a seconda delle condizioni.",
+      "didYouKnow": "I tuatara spesso scavano tane che possono essere utilizzate anche dagli uccelli marini.",
+      "imageCaption": "Tuatara (sfenodonte)"
+    },
+    {
+      "id": "reptiles-079",
+      "animal": "Sfenodonte",
+      "prompt": "Che tipo di denti ha il tuatara?",
+      "options": [
+        "Denti cavi collegati alle ghiandole velenifere",
+        "Due file di denti superiori che si sovrappongono a una fila inferiore",
+        "Una singola fila di denti superiori che si inserisce tra due file inferiori",
+        "Un becco corneo senza denti sulle mascelle"
+      ],
+      "explanation": "I denti superiori del tuatara hanno due file funzionali contro le quali è posizionata una fila di denti inferiori.",
+      "didYouKnow": "Il tuatara è l'unico rappresentante vivente dell'ordine dei Rincocefali.",
+      "imageCaption": "Tuatara (sfenodonte)"
+    },
+    {
+      "id": "reptiles-080",
+      "animal": "Sfenodonte",
+      "prompt": "Con quali uccelli il tuatara a volte condivide la sua tana su alcune isole?",
+      "options": [
+        "Procellarie nidificanti",
+        "Albatros che costruiscono nidi nelle tane",
+        "Pinguini che si riproducono sulle isole",
+        "Kiwi che vivono sugli alberi"
+      ],
+      "explanation": "Su alcune isole della Nuova Zelanda, i tuatara possono vivere in tane vicino alle colonie di procellarie.",
+      "didYouKnow": "Il tuatara a volte condivide le tane dell'isola con le procellarie.",
+      "imageCaption": "Tuatara (sfenodonte)"
+    },
+    {
+      "id": "reptiles-081",
+      "animal": "Camaleonti",
+      "prompt": "In che modo i camaleonti spesso catturano gli insetti?",
+      "options": [
+        "Con linguetta proiettata rapidamente e rifinita con una superficie adesiva",
+        "Con dita appiccicose che catturano gli insetti a distanza",
+        "Proiettando una saliva viscosa sulla preda",
+        "Con mascelle con lunghi denti che afferrano gli insetti"
+      ],
+      "explanation": "La lingua del camaleonte può essere proiettata rapidamente; la sua estremità adesiva afferra la preda prima di riportarla in bocca.",
+      "didYouKnow": "I camaleonti possono orientare i loro due occhi indipendentemente l'uno dall'altro.",
+      "imageCaption": "Camaleonte pantera"
+    },
+    {
+      "id": "reptiles-082",
+      "animal": "Camaleonti",
+      "prompt": "Perché gli occhi dei camaleonti sono straordinari?",
+      "options": [
+        "Possono orientare ciascun occhio in modo indipendente",
+        "Sono fissi e l'intera testa ruota per scrutare il paesaggio",
+        "Sono posizionati frontalmente per la visione binoculare permanente",
+        "Guardano sempre nella stessa direzione e non convergono mai"
+      ],
+      "explanation": "Gli occhi dei camaleonti possono muoversi in modo indipendente, dando loro un ampio campo visivo; quindi coordinano lo sguardo per mirare.",
+      "didYouKnow": "Alcune specie di camaleonti indossano un elmo o creste di pelle sulla testa.",
+      "imageCaption": "Camaleonte pantera"
+    },
+    {
+      "id": "reptiles-083",
+      "animal": "Camaleonti",
+      "prompt": "Quale adattamento del piede aiuta i camaleonti ad aggrapparsi ai rami?",
+      "options": [
+        "Artigli che si ritraggono sotto la pelle",
+        "Cuscinetti adesivi simili a quelli dei gechi",
+        "Dita raggruppate in tenaglie opposte",
+        "Dita lunghe unite in un'ampia tessitura"
+      ],
+      "explanation": "Le dita sono raggruppate in fasci contrapposti che formano una forte presa attorno ai rami.",
+      "didYouKnow": "I camaleonti spesso catturano gli insetti con una lingua che sporge rapidamente.",
+      "imageCaption": "Camaleonte pantera"
+    },
+    {
+      "id": "reptiles-084",
+      "animal": "Camaleonti",
+      "prompt": "Come usano le loro code prensili i camaleonti?",
+      "options": [
+        "La coda spinge il camaleonte quando nuota",
+        "La coda serve a trasportare le uova durante la deposizione",
+        "La coda aiuta il camaleonte a mantenere l’equilibrio mentre corre a terra",
+        "La coda lo aiuta ad aggrapparsi ai rami"
+      ],
+      "explanation": "La coda prensile può avvolgersi attorno ad un ramo e fornire sostegno durante i movimenti arborei.",
+      "didYouKnow": "I camaleonti possono muovere gli occhi indipendentemente l'uno dall'altro.",
+      "imageCaption": "Camaleonte pantera"
+    },
+    {
+      "id": "reptiles-085",
+      "animal": "Camaleonti",
+      "prompt": "Dove si trova la più grande diversità di camaleonti?",
+      "options": [
+        "Nel Madagascar",
+        "Nell'Asia centrale",
+        "Nelle isole dei Caraibi",
+        "Solo nell'Africa meridionale"
+      ],
+      "explanation": "Il Madagascar ospita una grande varietà di camaleonti, tra cui molte specie endemiche.",
+      "didYouKnow": "La lingua del camaleonte può essere proiettata rapidamente per afferrare la preda.",
+      "imageCaption": "Camaleonte pantera"
+    },
+    {
+      "id": "reptiles-086",
+      "animal": "Gechi",
+      "prompt": "Che suono fanno alcuni gechi?",
+      "options": [
+        "Urla o clic utilizzati nella comunicazione",
+        "Le vocalizzazioni sono possibili solo sott'acqua",
+        "Suoni prodotti solo dallo sfregamento delle zampe",
+        "I richiami sonori utilizzati per ecolocalizzare la preda"
+      ],
+      "explanation": "Diversi gechi sono in grado di vocalizzare, con grida, clic o schiocchi legati in particolare alle interazioni sociali.",
+      "didYouKnow": "I gechi Tokay sono noti per le loro forti vocalizzazioni.",
+      "imageCaption": "Tokay Geco"
+    },
+    {
+      "id": "reptiles-087",
+      "animal": "Gechi",
+      "prompt": "Cosa fanno gli occhi del geco tokay quando pulisce la cornea?",
+      "options": [
+        "Si toglie gli occhi per pulirli nell’acqua",
+        "Li lecca con la lingua",
+        "Sbattere le palpebre mobili",
+        "Si strofina gli occhi contro i rami"
+      ],
+      "explanation": "I gechi senza palpebre mobili puliscono la superficie dell'occhio con la lingua.",
+      "didYouKnow": "Il geco tokay è originario del sud-est asiatico.",
+      "imageCaption": "Tokay Geco"
+    },
+    {
+      "id": "reptiles-088",
+      "animal": "Geco crestato",
+      "prompt": "Cosa succede alla coda di un geco crestato dopo l’autotomia?",
+      "options": [
+        "Non ricresce",
+        "Viene completamente ricostruito ad ogni muta",
+        "Si divide sempre in due nuove code",
+        "È sostituito da un'appendice ossea rigida"
+      ],
+      "explanation": "A differenza di molte lucertole, il geco crestato non rigenera la coda dopo averla persa. Un individuo senza coda può comunque continuare la sua vita.",
+      "didYouKnow": "Il geco crestato è originario della Nuova Caledonia.",
+      "imageCaption": "Geco crestato"
+    },
+    {
+      "id": "reptiles-089",
+      "animal": "Gechi",
+      "prompt": "Perché molti gechi notturni hanno gli occhi grandi?",
+      "options": [
+        "Rendono più facile vedere sotto l'acqua torbida",
+        "Rilevano i raggi infrarossi emessi dalle prede",
+        "Allargano il campo visivo sotto il sole di mezzogiorno",
+        "Raccolgono più luce nell'oscurità"
+      ],
+      "explanation": "Gli occhi grandi possono aiutare a catturare la scarsa luce disponibile di notte, sebbene le capacità visive varino tra le specie.",
+      "didYouKnow": "Alcuni gechi possono staccare la coda quando un predatore li afferra.",
+      "imageCaption": "Gecko tokay, rappresentante dei gechi"
+    },
+    {
+      "id": "reptiles-090",
+      "animal": "Gechi",
+      "prompt": "Qual è il nome comune geco crestato?",
+      "options": [
+        "Un geco scavatore la cui schiena porta una cresta ossea continua",
+        "Un geco acquatico con una pinna dorsale",
+        "Un geco del deserto con una gorgiera attorno al collo",
+        "Un geco arboricolo con rilievi sopra gli occhi e lungo il dorso"
+      ],
+      "explanation": "Il geco crestato è una lucertola arborea della Nuova Caledonia riconoscibile dalle creste cutanee che delimitano gli occhi e il dorso.",
+      "didYouKnow": "Il geco crestato ha piccole protuberanze sopra gli occhi e lungo la schiena.",
+      "imageCaption": "Geco crestato"
+    },
+    {
+      "id": "reptiles-091",
+      "animal": "Uromastice",
+      "prompt": "Di cosa si nutrono principalmente gli uromastici?",
+      "options": [
+        "Piante, come foglie, fiori e semi",
+        "Pesci e crostacei catturati negli stagni",
+        "Di mammiferi che uccidono per costrizione",
+        "Il nettare succhiato dalla parte inferiore dei fiori"
+      ],
+      "explanation": "Gli Uromastyx sono principalmente erbivori e consumano varie parti di piante.",
+      "didYouKnow": "Gli Uromastyx vivono nelle regioni aride dell'Africa e dell'Asia.",
+      "imageCaption": "Uromastice del deserto"
+    },
+    {
+      "id": "reptiles-092",
+      "animal": "Geco leopardo",
+      "prompt": "Qual è lo scopo della spessa coda del geco leopardo?",
+      "options": [
+        "Per immagazzinare riserve energetiche sotto forma di grasso",
+        "Per iniettare il veleno nella preda",
+        "Nuotare ondulando nei corsi d'acqua",
+        "Produrre suoni di avvertimento strofinandolo per terra"
+      ],
+      "explanation": "Il geco leopardo immagazzina parte delle sue riserve energetiche nella coda.",
+      "didYouKnow": "Il geco leopardo ha le palpebre mobili, a differenza di molti gechi.",
+      "imageCaption": "Geco leopardo"
+    },
+    {
+      "id": "reptiles-093",
+      "animal": "Lucertole",
+      "prompt": "Quale fenomeno si osserva nella partenogenesi in alcune specie di lucertole?",
+      "options": [
+        "Riproduzione in cui gli embrioni si sviluppano senza fecondazione da parte di un maschio",
+        "Nascita viva dopo l'incubazione nel corpo materno",
+        "Fecondazione interna seguita dalla deposizione delle uova",
+        "Divisione di un individuo in due animali adulti"
+      ],
+      "explanation": "La partenogenesi consente a una femmina di produrre prole senza fecondazione; esiste in alcuni lignaggi di lucertole.",
+      "didYouKnow": "Alcune lucertole possono staccare la coda per distrarre un predatore.",
+      "imageCaption": "Lucertola dalla coda a frusta del deserto, specie partenogenetica"
+    },
+    {
+      "id": "reptiles-094",
+      "animal": "Lucertole",
+      "prompt": "Che ruolo potrebbe svolgere la coda in una lucertola arborea?",
+      "options": [
+        "Scavare il terreno, sollevando la sabbia",
+        "Mantieni l'equilibrio quando ti muovi",
+        "Afferrare la preda tra le scaglie prensili",
+        "Regolare la temperatura dissipando il calore"
+      ],
+      "explanation": "Nelle lucertole che si muovono attraverso i rami, la coda può aiutare con l'equilibrio e il controllo del movimento.",
+      "didYouKnow": "Alcune lucertole arboree hanno dita allargate che migliorano la presa.",
+      "imageCaption": "Anole verde, lucertola arborea"
+    },
+    {
+      "id": "reptiles-095",
+      "animal": "Lucertole",
+      "prompt": "Qual è lo scopo della cloaca nei rettili?",
+      "options": [
+        "Per espellere l'aria dai polmoni durante un'immersione",
+        "Per separare permanentemente il tratto urinario dal tratto digestivo",
+        "Ricevere gli odori trasmessi dalla lingua",
+        "Evacuare i rifiuti e partecipare alla riproduzione"
+      ],
+      "explanation": "La cloaca è un'apertura comune ai sistemi digestivo, urinario e riproduttivo nei rettili.",
+      "didYouKnow": "Nelle femmine la cloaca partecipa al passaggio delle uova durante la deposizione.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-096",
+      "animal": "Lucertole",
+      "prompt": "Quale differenza negli arti distingue le lucertole da molti serpenti?",
+      "options": [
+        "Tutte le lucertole hanno quattro arti ben sviluppati",
+        "Le lucertole hanno pinne al posto degli arti",
+        "I serpenti hanno arti posteriori funzionali",
+        "Molte lucertole hanno quattro arti, ma alcune li hanno ridotti o persi"
+      ],
+      "explanation": "La maggior parte delle lucertole ha quattro arti, ma i lignaggi si sono evoluti verso arti ridotti o assenti.",
+      "didYouKnow": "Alcune lucertole senza gambe mantengono le palpebre mobili e le aperture per le orecchie.",
+      "imageCaption": "Lucertola di ceppo, esempio di lucertola"
+    },
+    {
+      "id": "reptiles-097",
+      "animal": "Lucertole",
+      "prompt": "Perché alcune lucertole del deserto hanno colori pallidi?",
+      "options": [
+        "Il colore della luce è sempre un segnale di tossicità",
+        "La colorazione scura impedisce il surriscaldamento al sole",
+        "Il colore chiaro garantisce mimetismo su qualsiasi tipo di sabbia",
+        "La colorazione chiara può riflettere più radiazione solare"
+      ],
+      "explanation": "Una colorazione più chiara può ridurre l'assorbimento del calore in determinati ambienti, sebbene il mimetismo e altre funzioni varino a seconda del contesto.",
+      "didYouKnow": "Le lucertole pallide possono mimetizzarsi con i substrati sabbiosi del loro habitat.",
+      "imageCaption": "Uromastyx del deserto, lucertola degli ambienti aridi"
+    },
+    {
+      "id": "reptiles-098",
+      "animal": "Lucertole",
+      "prompt": "In che modo le lucertole scavatrici spesso evitano di seccarsi?",
+      "options": [
+        "Trascorrono il tempo nelle tane o sotto il terreno umido",
+        "Si attivano solo a mezzogiorno quando l'umidità è minima",
+        "Sostituiscono le loro squame con una pelle permeabile",
+        "Producono urina molto diluita che raffredda il corpo"
+      ],
+      "explanation": "Il terreno e le tane forniscono un microclima più stabile e umido rispetto alla superficie, limitando la perdita d'acqua.",
+      "didYouKnow": "Le lucertole scavatrici hanno spesso corpi allungati adattati a muoversi nel terreno.",
+      "imageCaption": "Scinco della sabbia, lucertola scavatrice"
+    },
+    {
+      "id": "reptiles-099",
+      "animal": "Lucertole",
+      "prompt": "A quale gruppo principale appartengono le iguane e le anole?",
+      "options": [
+        "Agli Iguani",
+        "Alle Testudine",
+        "Ai coccodrilli",
+        "Ai Rincocefali"
+      ],
+      "explanation": "Iguane e anole fanno parte degli Iguani, un folto gruppo di lucertole; nelle classificazioni moderne vengono collocati in famiglie diverse.",
+      "didYouKnow": "Le anole comunicano in particolare mediante una giogaia colorata.",
+      "imageCaption": "Anole verde, che rappresenta iguane e anole"
+    },
+    {
+      "id": "reptiles-100",
+      "animal": "Lucertole",
+      "prompt": "Perché le lucertole delle isole potrebbero essere particolarmente vulnerabili alle specie introdotte?",
+      "options": [
+        "I rettili delle isole non sono in grado di riconoscere le prede",
+        "Le isole impediscono ai rettili di riprodursi in cattività",
+        "Le specie insulari non possono nascondersi nella vegetazione",
+        "Le loro popolazioni a volte si sono evolute senza alcuni predatori terrestri"
+      ],
+      "explanation": "L'introduzione di predatori come ratti o gatti può influenzare fortemente le popolazioni insulari che non si sono evolute insieme a loro.",
+      "didYouKnow": "Le lucertole insulari possono essere endemiche e occupare una piccola area geografica.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-101",
+      "animal": "Serpenti",
+      "prompt": "Quale movimento permette al serpente di avanzare su un terreno irregolare sostenendosi su superfici irregolari?",
+      "options": [
+        "Ondulazione laterale",
+        "Locomozione a fisarmonica",
+        "Rettilinearità",
+        "Locomozione ad anello"
+      ],
+      "explanation": "Nella locomozione a fisarmonica, il serpente fissa una parte del suo corpo, poi piega ed estende il resto per avanzare in uno spazio ristretto o su un supporto irregolare.",
+      "didYouKnow": "I serpenti possono anche avanzare mediante ondulazioni laterali su terreno aperto.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-102",
+      "animal": "Serpenti",
+      "prompt": "Come si muove un serpente ondulato lungo un corridoio aperto?",
+      "options": [
+        "Contrae i muscoli dello stomaco per avanzare in linea retta",
+        "Muove la pelle indipendentemente dal suo scheletro",
+        "Spinge lateralmente contro il terreno con le curve del suo corpo",
+        "È supportato da arti rudimentali"
+      ],
+      "explanation": "Durante l'ondulazione laterale, le curve del corpo si appoggiano sulle irregolarità e producono una spinta in avanti.",
+      "didYouKnow": "I serpenti possono utilizzare diverse modalità di locomozione a seconda del terreno.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-103",
+      "animal": "Serpenti degli alberi",
+      "prompt": "In che modo alcuni serpenti degli alberi stabilizzano il loro progresso su un ramo?",
+      "options": [
+        "Premono il ventre contro il ramo e procedono ondulando senza avvolgersi attorno ad esso.",
+        "Avvolgono la coda prensile attorno al supporto e muovono il resto del corpo",
+        "Formano degli anelli attorno al ramo per sostenere il loro peso e andare avanti",
+        "Sollevano il corpo appoggiandosi alle pieghe laterali della pelle"
+      ],
+      "explanation": "I serpenti degli alberi possono avvolgere parte del loro corpo attorno ai rami per ancorarsi mentre spostano il resto.",
+      "didYouKnow": "Alcuni serpenti degli alberi hanno una coda prensile che li aiuta ad ancorarsi.",
+      "imageCaption": "Pitone verde dell'albero"
+    },
+    {
+      "id": "reptiles-104",
+      "animal": "Serpenti",
+      "prompt": "Qual è lo scopo della benda trasparente che copre l'occhio di molti serpenti?",
+      "options": [
+        "Costituisce una palpebra mobile che chiude l'occhio",
+        "Filtra le particelle odorose verso il palato",
+        "Amplifica le vibrazioni sonore ricevute dal cranio",
+        "Protegge l'occhio e fa parte della scala chiamata occhialino."
+      ],
+      "explanation": "Lo spettacolo è una scaglia trasparente che copre l'occhio; si rinnova durante la muta.",
+      "didYouKnow": "Boa e pitoni generalmente immobilizzano la preda mediante costrizione.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-105",
+      "animal": "Serpenti",
+      "prompt": "Come si rinnovano i denti dei serpenti?",
+      "options": [
+        "Vengono sostituiti solo una volta durante il passaggio all'età adulta",
+        "Vengono continuamente sostituiti per tutta la vita, indipendentemente dalla muta della pelle",
+        "Vengono sostituite solo le zanne velenose, gli altri denti rimangono per tutta la vita",
+        "I denti persi non ricrescono nei serpenti adulti"
+      ],
+      "explanation": "I serpenti sostituiscono i denti continuamente per tutta la vita; questo rinnovamento non è innescato dalla muta della pelle.",
+      "didYouKnow": "I serpenti ingoiano la preda intera grazie alla bocca e alla gola espandibili.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-106",
+      "animal": "Serpenti",
+      "prompt": "Quale caratteristica polmonare è comune nei serpenti?",
+      "options": [
+        "Il polmone destro è solitamente espanso, mentre il sinistro è ridotto o assente",
+        "Entrambi i polmoni sono collegati a branchie funzionali",
+        "Il polmone sinistro è ancora l’unico polmone funzionante",
+        "I serpenti adulti respirano solo attraverso la pelle"
+      ],
+      "explanation": "In molti serpenti, il polmone destro è maggiormente sviluppato e il sinistro è ridotto o assente, in linea con il loro corpo allungato.",
+      "didYouKnow": "I serpenti non hanno padiglioni uditivi esterni.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-107",
+      "animal": "Serpenti a sonagli",
+      "prompt": "Quale elemento produce il suono caratteristico del campanello del serpente a sonagli?",
+      "options": [
+        "Scaglie vibranti sui lati",
+        "Segmenti di cheratina annidati all'estremità della coda",
+        "Piccole ossa mobili nella gola",
+        "Bolle d'aria espulse dalle narici"
+      ],
+      "explanation": "Il serpente a sonagli fa vibrare la coda; i segmenti cavi di cheratina sulla sua punta si scontrano e producono il rumore di avvertimento.",
+      "didYouKnow": "I serpenti a sonagli aggiungono nuovi segmenti alla loro campana mentre fanno la muta.",
+      "imageCaption": "Serpente a sonagli occidentale"
+    },
+    {
+      "id": "reptiles-108",
+      "animal": "Serpenti",
+      "prompt": "A cosa serve la muta completa in un serpente?",
+      "options": [
+        "Sostituzione della cartilagine scheletrica",
+        "Eliminare la muta precedente mediante digestione",
+        "Rinnova i denti e lo strato profondo della pelle",
+        "Rinnova lo strato esterno della pelle e la squama trasparente che ricopre l’occhio"
+      ],
+      "explanation": "La muta completa rinnova lo strato esterno della pelle, compresa la squama trasparente che ricopre l’occhio.",
+      "didYouKnow": "I serpenti rilevano le molecole odorose con la lingua biforcuta.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-109",
+      "animal": "Serpenti",
+      "prompt": "A quale gruppo appartengono i boa e i pitoni nella classificazione dei serpenti?",
+      "options": [
+        "Alle lucertole e agli anfisbeni negli squamati",
+        "Alle tartarughe e ai coccodrilli",
+        "Ai serpenti con le zanne anteriori, come le vipere",
+        "A lignaggi distinti di serpenti con le zanne anteriori"
+      ],
+      "explanation": "Boa e pitoni appartengono a lignaggi di serpenti costrittori, distinti dalle vipere e da molti elapidi.",
+      "didYouKnow": "Boa e pitoni sono serpenti non velenosi che uccidono la preda per costrizione.",
+      "imageCaption": "Boa constrictor, rappresentante dei boa"
+    },
+    {
+      "id": "reptiles-110",
+      "animal": "Serpenti",
+      "prompt": "Quale parte dello scheletro consente ai serpenti di compiere movimenti ondulatori?",
+      "options": [
+        "Un gran numero di vertebre e costole articolate",
+        "Pinne ossee ripetute lungo il corpo",
+        "Dischi cartilaginei senza ossa vertebrali",
+        "Un piccolo numero di vertebre fuse e costole immobili"
+      ],
+      "explanation": "I serpenti hanno numerose vertebre con associate costole mobili, che consentono una grande flessibilità del tronco.",
+      "didYouKnow": "I serpenti non hanno padiglioni uditivi esterni.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-111",
+      "animal": "Serpenti",
+      "prompt": "Perché il cuore di un serpente potrebbe muoversi leggermente all’interno del suo corpo?",
+      "options": [
+        "Non è fisso come nei mammiferi e si adatta all'allungamento del corpo",
+        "È libero nella cavità e si muove ad ogni respiro",
+        "Si muove verso il cranio durante ogni muta",
+        "Si trova vicino alla cloaca per facilitare la deposizione delle uova"
+      ],
+      "explanation": "Il cuore dei serpenti è mobile all'interno della cavità corporea, il che è utile per un corpo molto allungato e per l'ingestione di grandi prede.",
+      "didYouKnow": "In molti serpenti il ​​polmone sinistro è ridotto o assente.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-112",
+      "animal": "Serpenti",
+      "prompt": "Perché il sistema digestivo di un serpente può adattarsi dopo un pasto abbondante?",
+      "options": [
+        "La digestione viene spostata dall'intestino ai polmoni",
+        "Tutti gli organi digestivi cessano la loro attività per diversi giorni",
+        "L'intestino viene sostituito da uno stomaco temporaneo",
+        "Alcuni organi aumentano significativamente la loro attività e le loro dimensioni temporaneamente"
+      ],
+      "explanation": "Dopo un pasto abbondante, il metabolismo digestivo dei serpenti aumenta e alcuni organi sperimentano una maggiore attività prima di tornare al loro stato di riposo.",
+      "didYouKnow": "I serpenti non hanno palpebre mobili; una scala trasparente protegge ciascun occhio.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-113",
+      "animal": "Cobra sputatori",
+      "prompt": "A quale obiettivo mirano i cobra sputatori quando proiettano il loro veleno in difesa?",
+      "options": [
+        "Gli occhi dell'aggressore",
+        "Le gambe per immobilizzarli a distanza",
+        "Orecchie per disturbare l'udito",
+        "Il terreno per creare una barriera odorosa"
+      ],
+      "explanation": "La proiezione del veleno è diretta principalmente agli occhi e costituisce una difesa. Si distingue dal morso utilizzato in particolare per controllare la preda.",
+      "didYouKnow": "Il veleno dei cobra sputatori può causare forti dolori se raggiunge gli occhi.",
+      "imageCaption": "Cobra sputatore dell'Indocina"
+    },
+    {
+      "id": "reptiles-114",
+      "animal": "Serpenti",
+      "prompt": "Qual è il ruolo delle ghiandole velenifere nei serpenti velenosi?",
+      "options": [
+        "Producono saliva che lubrifica la preda",
+        "Realizza i ganci che crescono nella mascella",
+        "Produrre e immagazzinare una secrezione utilizzata durante il morso",
+        "Filtra il veleno dal sangue dopo ogni morso"
+      ],
+      "explanation": "Le ghiandole velenifere producono una secrezione che viene condotta alle zanne o ai denti specializzati attraverso i condotti.",
+      "didYouKnow": "I serpenti a volte usano il loro veleno per scopi difensivi.",
+      "imageCaption": "Cobra indiano, serpente velenoso"
+    },
+    {
+      "id": "reptiles-115",
+      "animal": "Serpenti",
+      "prompt": "Quali serpenti hanno spesso zanne fisse davanti alla bocca?",
+      "options": [
+        "Le vipere, che tendono le zanne verso il palazzo",
+        "Boa, i cui uncini si piegano sulla mascella",
+        "Molti elapidi come i cobra",
+        "Pitoni, le cui zanne iniettano veleno"
+      ],
+      "explanation": "Molti elapidi, in particolare i cobra, hanno zanne anteriori fisse; altri serpenti velenosi hanno configurazioni diverse.",
+      "didYouKnow": "Anche i mamba e i serpenti corallo sono elapidi.",
+      "imageCaption": "Cobra indiano, elapide con uncini anteriori fissi"
+    },
+    {
+      "id": "reptiles-116",
+      "animal": "Krait marini fasciati",
+      "prompt": "Dove depongono le uova le femmine del krait marino fasciato?",
+      "options": [
+        "Sulla terraferma, in luoghi riparati",
+        "Sott'acqua, nelle cavità della barriera corallina",
+        "In mare aperto, in nidi galleggianti di alghe",
+        "Nelle tane scavate sul fondo dei fiumi"
+      ],
+      "explanation": "Il pesce striato caccia in mare ma ritorna sulla terra per deporre le uova.",
+      "didYouKnow": "I krait marini vivono in ambienti marini e possono nuotare in modo efficiente grazie alla coda appiattita.",
+      "imageCaption": "Maglia a righe (krait marino)"
+    },
+    {
+      "id": "reptiles-117",
+      "animal": "Serpenti",
+      "prompt": "Quale comportamento può aiutare un serpente a risparmiare energia dopo un pasto?",
+      "options": [
+        "Aumentano la loro attività per accelerare il transito intestinale",
+        "Riscaldamento senza interruzione al sole, anche in caso di surriscaldamento",
+        "Muta per accelerare la decomposizione della preda",
+        "Rimani relativamente fermo durante la digestione"
+      ],
+      "explanation": "Dopo aver ingerito la preda, molti serpenti riducono i movimenti e dedicano le proprie energie alla digestione.",
+      "didYouKnow": "I serpenti non hanno padiglioni uditivi esterni.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-118",
+      "animal": "Serpenti mangiatori di uova",
+      "prompt": "Come fanno i serpenti africani del genere Dasypeltis ad aprire e ingoiare le uova?",
+      "options": [
+        "I rilievi delle loro vertebre premono sull'uovo nell'esofago",
+        "Lo schiacciano con i molari",
+        "Lo sciolgono con la saliva molto acida in bocca",
+        "Trafiggono il suo guscio con un uncino velenoso"
+      ],
+      "explanation": "Le proiezioni ossee delle vertebre aiutano a rompere il guscio dell'esofago. Il contenuto viene ingerito e il guscio compresso può essere rigurgitato.",
+      "didYouKnow": "I serpenti del genere Dasypeltis sono specializzati nel mangiare uova di uccelli.",
+      "imageCaption": "Serpente mangiatore di uova (Dasypeltis scabra)"
+    },
+    {
+      "id": "reptiles-119",
+      "animal": "Serpenti",
+      "prompt": "Come fanno spesso i serpenti nelle regioni temperate a superare l'inverno?",
+      "options": [
+        "Entrano in brumazione in un rifugio e rallentano la loro attività",
+        "Si sviluppano nelle uova fino alla primavera",
+        "Rimangono attivi tutto l'anno regolando la loro temperatura tremando",
+        "Migrano sistematicamente verso le regioni tropicali"
+      ],
+      "explanation": "La brumazione è un periodo di attività ridotta nei rettili, spesso trascorso in un rifugio protetto quando le temperature sono basse.",
+      "didYouKnow": "Alcuni serpenti si riuniscono in rifugi invernali comuni.",
+      "imageCaption": "Vipera Peliade, serpente delle regioni temperate"
+    },
+    {
+      "id": "reptiles-120",
+      "animal": "Serpenti",
+      "prompt": "Perché un serpente potrebbe avvolgersi in una spirale mentre riposa?",
+      "options": [
+        "La postura raddrizza il serpente per individuare meglio la preda",
+        "L'avvolgimento riduce la pressione del cibo nello stomaco",
+        "La postura compatta può aiutare a conservare il calore e proteggere il corpo",
+        "La postura permette di staccare la coda in caso di pericolo"
+      ],
+      "explanation": "Una postura rannicchiata riduce la superficie esposta e protegge parte del corpo; il suo interesse dipende dalle circostanze.",
+      "didYouKnow": "I serpenti raccolgono molecole odorose con la lingua biforcuta.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-121",
+      "animal": "Pitoni",
+      "prompt": "Come possono alcune femmine di pitone riscaldare la propria covata?",
+      "options": [
+        "Con ripetute contrazioni muscolari",
+        "Producendo veleno caldo",
+        "Smazzando le uova con le pinne",
+        "Trasformando la loro pelle in un tessuto isolante peloso"
+      ],
+      "explanation": "In alcune specie, le contrazioni muscolari producono calore durante la cova. Questo rimane un fenomeno particolare negli animali essenzialmente ectotermici.",
+      "didYouKnow": "I pitoni femmine possono avvolgere i loro corpi attorno alle uova durante l'incubazione.",
+      "imageCaption": "Pitone birmano"
+    },
+    {
+      "id": "reptiles-122",
+      "animal": "Rettili",
+      "prompt": "Qual è la differenza tra ectotermia e incapacità di regolare la temperatura?",
+      "options": [
+        "Significa che l'animale non può cambiare la sua temperatura attraverso alcun comportamento.",
+        "Ciò significa che il calore proviene principalmente da fonti esterne, ma l'animale può regolare la sua temperatura attraverso il suo comportamento",
+        "Vuol dire che la temperatura corporea rimane sempre uguale a quella dell'aria",
+        "Significa che l'animale produce abbastanza calore metabolico per mantenere una temperatura costante"
+      ],
+      "explanation": "Un rettile ectotermico può controllare in parte la propria temperatura attraverso il suo comportamento, anche se dipende da fonti di calore esterne.",
+      "didYouKnow": "I rettili ectotermici possono tuttavia regolare la loro temperatura attraverso il loro comportamento.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-123",
+      "animal": "Rettili",
+      "prompt": "Quale membrana circonda la cavità contenente l'embrione nell'uovo amniotico?",
+      "options": [
+        "Il sacco vitellino",
+        "L'amnio",
+        "L'Allantoide",
+        "Il corione"
+      ],
+      "explanation": "L'amnio è una membrana che circonda l'embrione in un ambiente liquido, caratteristica fondamentale della riproduzione dell'amniote.",
+      "didYouKnow": "La fecondazione nei rettili avviene all'interno del corpo della femmina.",
+      "imageCaption": "Drago barbuto, esempio di rettile"
+    },
+    {
+      "id": "reptiles-124",
+      "animal": "Rettili",
+      "prompt": "Qual è lo scopo del sacco vitellino dell'embrione rettile?",
+      "options": [
+        "Per proteggere l'embrione dagli shock meccanici",
+        "Fornire riserve di nutrienti per lo sviluppo",
+        "Per consentire lo scambio di gas con l'aria esterna",
+        "Per eliminare le scorie azotate dall'embrione"
+      ],
+      "explanation": "Il sacco vitellino contiene o è associato al tuorlo, una riserva nutritiva utilizzata dall'embrione durante il suo sviluppo.",
+      "didYouKnow": "I gusci d'uovo dei rettili consentono lo scambio di gas con l'ambiente.",
+      "imageCaption": "Drago barbuto, esempio di rettile"
+    },
+    {
+      "id": "reptiles-125",
+      "animal": "Rettili",
+      "prompt": "Che tipo di fertilizzazione utilizzano i rettili?",
+      "options": [
+        "Fecondazione delle uova dopo la deposizione",
+        "Partenogenesi in tutte le specie",
+        "Fecondazione interna",
+        "Concimazione esterna in acqua"
+      ],
+      "explanation": "I rettili hanno la fecondazione interna; l'accoppiamento consente ai gameti di incontrarsi prima della deposizione delle uova o dello sviluppo dell'embrione.",
+      "didYouKnow": "La fecondazione interna è comune ai rettili moderni.",
+      "imageCaption": "Drago barbuto, esempio di rettile"
+    },
+    {
+      "id": "reptiles-126",
+      "animal": "Uova di rettili",
+      "prompt": "Qual è la funzione dell’allantoide nell’uovo amniotico di un rettile?",
+      "options": [
+        "Circondare l'embrione con un liquido protettivo",
+        "Fornire all’embrione le sue principali riserve di nutrienti",
+        "Per formare il guscio calcareo esterno",
+        "Per immagazzinare i rifiuti embrionali e partecipare agli scambi gassosi"
+      ],
+      "explanation": "L'allantoide immagazzina i rifiuti embrionali e partecipa allo scambio di gas attraverso le membrane delle uova.",
+      "didYouKnow": "La pelle dei rettili è ricca di cheratina e limita la perdita d'acqua.",
+      "imageCaption": "Drago barbuto, esempio di rettile"
+    },
+    {
+      "id": "reptiles-127",
+      "animal": "Tartarughe dal guscio molle",
+      "prompt": "Quale struttura del naso consente a una tartaruga dal guscio molle di respirare rimanendo in gran parte sepolta?",
+      "options": [
+        "Un muso allungato in un piccolo tubo",
+        "Un becco ad uncino ricurvo",
+        "Una tasca gonfiabile sotto la gola",
+        "Una cresta ossea sopra gli occhi"
+      ],
+      "explanation": "Il muso tubolare può raggiungere la superficie mentre la tartaruga rimane nascosta sul fondo. Continua a respirare aria con i polmoni.",
+      "didYouKnow": "Le tartarughe dal guscio molle hanno un guscio appiattito e flessibile.",
+      "imageCaption": "Tartaruga dal guscio molle"
+    },
+    {
+      "id": "reptiles-128",
+      "animal": "Rettili",
+      "prompt": "Che effetto può avere l'umidità sullo sviluppo dell'uovo di un rettile?",
+      "options": [
+        "Solo lui determina il sesso di tutti i rettili",
+        "Controlla l'apporto di nutrienti contenuti nel tuorlo",
+        "Impedisce all'embrione di scambiare gas con l'ambiente",
+        "Influisce sullo scambio idrico e può compromettere la sopravvivenza dell'embrione"
+      ],
+      "explanation": "Le uova scambiano acqua con il loro ambiente; Un'umidità inadeguata può compromettere l'embrione.",
+      "didYouKnow": "La fecondazione nei rettili è interna.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-129",
+      "animal": "Rettili",
+      "prompt": "Perché alcune femmine di rettile conservano le uova dopo averle deposte?",
+      "options": [
+        "La protezione può ridurre il rischio di predazione o essiccamento",
+        "La protezione consente alle uova di lasciare il nido per nutrirsi",
+        "La presenza del genitore garantisce una temperatura identica per tutte le uova",
+        "La guardia porta il cibo agli embrioni attraverso il guscio"
+      ],
+      "explanation": "La protezione dei nidi, osservata in particolare in diversi coccodrilli e pitoni, può proteggere le uova dai predatori e da alcune condizioni sfavorevoli.",
+      "didYouKnow": "La pelle dei rettili è ricoperta di scaglie o placche cornee.",
+      "imageCaption": "Vipera Peliade, esempio di rettile che conserva i suoi embrioni"
+    },
+    {
+      "id": "reptiles-130",
+      "animal": "Rettili",
+      "prompt": "Quale termine si riferisce alla riproduzione in cui i piccoli nascono vivi dopo essersi sviluppati nel tratto riproduttivo materno?",
+      "options": [
+        "Oviparità",
+        "Partenogenesi",
+        "Diapausa embrionale",
+        "Viviparità"
+      ],
+      "explanation": "La viviparità si riferisce allo sviluppo degli embrioni nel corpo materno fino alla nascita; le forme di nutrizione embrionale variano tra i rettili.",
+      "didYouKnow": "I rettili sono ectotermici e possono sfruttare il sole per riscaldarsi.",
+      "imageCaption": "Vipera Peliade, serpente che partorisce piccoli vivi"
+    },
+    {
+      "id": "reptiles-131",
+      "animal": "Coccodrillo marino",
+      "prompt": "Quale coccodrillo è particolarmente noto per percorrere grandi distanze in mare?",
+      "options": [
+        "Il coccodrillo marino, Crocodylus porosus",
+        "L'alligatore cinese",
+        "Il caimano nano di Cuvier",
+        "Il gaviale del Gange"
+      ],
+      "explanation": "Il coccodrillo d'acqua salata tollera l'acqua salata e può compiere lunghi viaggi costieri o marini, a volte approfittando delle correnti.",
+      "didYouKnow": "Il coccodrillo d'acqua salata è la più grande specie di coccodrillo vivente.",
+      "imageCaption": "Coccodrillo marino"
+    },
+    {
+      "id": "reptiles-132",
+      "animal": "Rettili",
+      "prompt": "Qual è un potenziale effetto del riscaldamento globale sulle popolazioni di tartarughe dipendenti dalla temperatura?",
+      "options": [
+        "Può sbilanciare la proporzione dei sessi in alcuni nidi",
+        "Rende i piccoli incapaci di lasciare il nido",
+        "Impedisce qualsiasi fecondazione interna negli adulti",
+        "Trasforma gradualmente le femmine adulte in maschi"
+      ],
+      "explanation": "Temperature di incubazione più elevate possono alterare il rapporto tra i sessi nelle specie dipendenti dalla temperatura, con possibili conseguenze sulla riproduzione.",
+      "didYouKnow": "La pelle dei rettili comprende uno strato esterno ricco di cheratina.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-133",
+      "animal": "Rettili",
+      "prompt": "Qual è lo scopo della diapausa in alcuni embrioni di rettili?",
+      "options": [
+        "Per accelerare lo sviluppo fino alla schiusa",
+        "Per evitare che l'embrione consumi il suo tuorlo",
+        "Sospendere temporaneamente lo sviluppo prima che riprenda",
+        "Per aumentare la temperatura corporea della femmina"
+      ],
+      "explanation": "La diapausa è un arresto temporaneo o un rallentamento dello sviluppo embrionale, che può sincronizzare la nascita con condizioni favorevoli.",
+      "didYouKnow": "La cloaca è un'apertura comune ai sistemi digestivo, urinario e riproduttivo dei rettili.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-134",
+      "animal": "Coccodrillo americano",
+      "prompt": "Quale coccodrillo americano frequenta anche le acque salmastre e le zone costiere?",
+      "options": [
+        "Il coccodrillo americano",
+        "L'alligatore americano",
+        "Il caimano dagli occhiali",
+        "Il caimano nano di Cuvier"
+      ],
+      "explanation": "Il coccodrillo americano utilizza habitat costieri, di estuario e salmastri in tutta parte del suo areale.",
+      "didYouKnow": "Il coccodrillo americano può tollerare l'acqua salmastra e frequenta le zone costiere.",
+      "imageCaption": "Coccodrillo americano"
+    },
+    {
+      "id": "reptiles-135",
+      "animal": "Rettili",
+      "prompt": "Perché i piccoli di molti rettili sono in grado di badare a se stessi rapidamente?",
+      "options": [
+        "Nascono come larve che metamorfosano nell'acqua",
+        "Vengono nutriti con latte dopo la schiusa",
+        "Devono rimanere nel nido finché non possono volare",
+        "Si schiudono in una forma in miniatura già funzionale"
+      ],
+      "explanation": "La maggior parte dei rettili si schiudono come individui piccoli, simili agli adulti, senza metamorfosi larvale obbligatoria.",
+      "didYouKnow": "In molti rettili, i neonati non ricevono cure parentali prolungate.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-136",
+      "animal": "Rettili",
+      "prompt": "Cos'è la brumazione nei rettili?",
+      "options": [
+        "Un periodo di rallentamento stagionale dell’attività",
+        "Una fase di migrazione verso le aree di deposizione delle uova",
+        "Arresto dello sviluppo embrionale prima della deposizione",
+        "Una muta accelerata che rinnova tutte le squame"
+      ],
+      "explanation": "La brumazione è un periodo di ridotta attività nei rettili, spesso legato al freddo e accompagnato da un calo del metabolismo.",
+      "didYouKnow": "Le squame dei rettili proteggono la loro pelle dalle abrasioni.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-137",
+      "animal": "Rettili",
+      "prompt": "Perché i rettili hanno spesso bisogno di rimanere attivi a temperature moderate?",
+      "options": [
+        "La loro digestione e i movimenti dipendono dalla temperatura corporea",
+        "I loro muscoli sono inattivi fino a una specifica temperatura",
+        "Il loro cuore smette sempre di battere quando fa freddo",
+        "I loro polmoni funzionano solo durante la stagione calda"
+      ],
+      "explanation": "I processi fisiologici dei rettili, tra cui l'attività muscolare e la digestione, variano con la temperatura corporea.",
+      "didYouKnow": "La pelle squamosa dei rettili limita la perdita d'acqua.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-138",
+      "animal": "Rettili",
+      "prompt": "Quale strategia aiuta un rettile del deserto a evitare la disidratazione durante il giorno?",
+      "options": [
+        "Resta in un riparo caldo durante le ore fresche, quindi esponiti al sole a metà giornata",
+        "Esporsi al sole a mezzogiorno per accelerare la perdita d'acqua per evaporazione",
+        "Aumentare l'evaporazione respiratoria per raffreddare il sangue",
+        "Rifugiati in una tana durante i periodi caldi e sii attivo durante i periodi più freddi"
+      ],
+      "explanation": "L'uso di un riparo fresco e di attività crepuscolari o notturne aiuta molti rettili del deserto a limitare la perdita d'acqua e il surriscaldamento.",
+      "didYouKnow": "Molti rettili del deserto sono più attivi all'alba, al tramonto o di notte.",
+      "imageCaption": "Uromastice del deserto"
+    },
+    {
+      "id": "reptiles-139",
+      "animal": "Rettili",
+      "prompt": "Che beneficio offre la pelle cheratinizzata a molti rettili terrestri?",
+      "options": [
+        "Aumenta lo scambio d'aria attraverso la pelle",
+        "Previene qualsiasi perdita di acqua attraverso la respirazione",
+        "Permette l'assorbimento diretto dell'acqua da parte delle squame",
+        "Limita la perdita d'acqua attraverso la superficie del corpo"
+      ],
+      "explanation": "Lo strato esterno ricco di cheratina fornisce una barriera che riduce la disidratazione nell'aria.",
+      "didYouKnow": "La pelle cheratinizzata aiuta a proteggere i rettili terrestri dalle abrasioni.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-140",
+      "animal": "Rettili",
+      "prompt": "Qual è lo scopo delle grandi scaglie ventrali nei serpenti?",
+      "options": [
+        "Assorbono il calore dal terreno più rapidamente rispetto alla parte posteriore",
+        "Si sostengono a terra durante la locomozione",
+        "Proteggono la pancia dai morsi dei predatori",
+        "Servono per raccogliere le molecole odorose"
+      ],
+      "explanation": "Le grandi scaglie ventrali fanno presa sulle irregolarità del substrato e contribuiscono alla progressione del serpente.",
+      "didYouKnow": "I serpenti non hanno padiglioni uditivi esterni.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-141",
+      "animal": "Rettili",
+      "prompt": "Perché i rettili depongono spesso le uova in luoghi riparati?",
+      "options": [
+        "Per garantire che le uova rimangano immerse durante l'incubazione",
+        "Per proteggere gli embrioni da qualsiasi scambio di gas",
+        "Per limitare l'esposizione ai predatori e alle variazioni ambientali",
+        "Per consentire alla femmina di incubare le uova sotto il suo corpo"
+      ],
+      "explanation": "La scelta di un nido protetto può ridurre la predazione e aiutare a mantenere condizioni di umidità e temperatura adeguate.",
+      "didYouKnow": "Alcuni rettili scelgono siti di nidificazione dove il terreno facilita l'incubazione delle uova.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-142",
+      "animal": "Gaviale del Gange",
+      "prompt": "Cosa significa il ghara del gaviale maschio adulto?",
+      "options": [
+        "Una pinna all'estremità della coda",
+        "Una crescita arrotondata all'estremità del muso",
+        "Una placca ossea sulla gola",
+        "Una tasca espandibile sotto lo stomaco"
+      ],
+      "explanation": "Il ghara è un'escrescenza arrotondata indossata all'estremità del muso dei gaviali maschi adulti.",
+      "didYouKnow": "Il gaviale del gaviale maschio è un'escrescenza situata all'estremità del muso.",
+      "imageCaption": "Gaviale del Gange"
+    },
+    {
+      "id": "reptiles-143",
+      "animal": "Rettili",
+      "prompt": "Quale meccanismo consente ai polmoni di molti rettili di rinnovare l'aria?",
+      "options": [
+        "Battito degli arti che richiama aria nei polmoni",
+        "Variazioni di pressione prodotte dalla lingua",
+        "Contrazioni della pelle che comprimono i polmoni",
+        "Movimenti della gabbia toracica e dei muscoli respiratori"
+      ],
+      "explanation": "I rettili generalmente ventilano i loro polmoni attraverso i movimenti delle costole e dei muscoli associati, con variazioni tra i gruppi.",
+      "didYouKnow": "Gli squamati rinnovano periodicamente lo strato esterno della loro pelle.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-144",
+      "animal": "Rettili",
+      "prompt": "Perché le tartarughe non respirano gonfiando le costole come una lucertola?",
+      "options": [
+        "Non hanno un diaframma come i mammiferi",
+        "Hanno branchie interne che chiudono i polmoni",
+        "Il loro guscio impedisce qualsiasi movimento dei muscoli respiratori",
+        "Le loro nervature sono integrate nel guscio e non deviano liberamente"
+      ],
+      "explanation": "Le costole delle tartarughe sono fuse con il guscio, quindi utilizzano muscoli specializzati per ventilare i polmoni.",
+      "didYouKnow": "Le tartarughe attuali non hanno denti e hanno un becco corneo.",
+      "imageCaption": "La tartaruga di Hermann"
+    },
+    {
+      "id": "reptiles-145",
+      "animal": "Rettili",
+      "prompt": "Che effetto ha l'immersione sul movimento di alcune tartarughe acquatiche?",
+      "options": [
+        "Il sangue smette di circolare durante l'immersione",
+        "I polmoni si riempiono d'acqua per lo scambio di gas",
+        "La frequenza cardiaca può rallentare per risparmiare ossigeno",
+        "Il cuore accelera per consumare più rapidamente l’ossigeno immagazzinato"
+      ],
+      "explanation": "Come altri vertebrati subacquei, le tartarughe acquatiche possono rallentare la frequenza cardiaca e ridistribuire l'ossigeno durante un'immersione.",
+      "didYouKnow": "Il guscio delle tartarughe comprende elementi ossei integrati nello scheletro.",
+      "imageCaption": "Tartaruga scorrevole della Florida, tartaruga acquatica"
+    },
+    {
+      "id": "reptiles-146",
+      "animal": "Rettili",
+      "prompt": "Che ruolo svolgono le narici nei coccodrilli fluttuanti?",
+      "options": [
+        "Filtrano il sale dall'acqua assorbita",
+        "Tengono gli occhi aperti durante un'immersione",
+        "Rilevano i movimenti delle prede nell'acqua",
+        "Permettono loro di respirare restando quasi completamente immersi"
+      ],
+      "explanation": "Le narici sulla parte superiore del muso rimangono sopra l'acqua quando il coccodrillo galleggia, permettendogli di respirare discretamente.",
+      "didYouKnow": "Le narici poste sulla parte superiore del muso consentono ai coccodrilli di respirare mentre galleggiano bassi.",
+      "imageCaption": "Coccodrillo del Nilo"
+    },
+    {
+      "id": "reptiles-147",
+      "animal": "Coccodrilli",
+      "prompt": "Cosa sono gli osteodermi di coccodrillo?",
+      "options": [
+        "Ossa incastonate nella pelle, sotto le squame",
+        "Piastre di cheratina staccabili ad ogni muta",
+        "Denti sostitutivi alloggiati nel palato",
+        "Organi di senso situati attorno alle narici"
+      ],
+      "explanation": "Gli osteodermi sono elementi ossei integrati nel derma e presenti sotto le scaglie di molti coccodrilli.",
+      "didYouKnow": "I coccodrilli hanno cuori a quattro camere, come gli uccelli.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-148",
+      "animal": "Lucertola volante Draco",
+      "prompt": "Quale struttura permette alla lucertola volante Draco di planare tra gli alberi?",
+      "options": [
+        "Una coda appiattita che funge da ala",
+        "Una membrana sostenuta da dita molto lunghe",
+        "Membrana cutanea sostenuta da costole allungate",
+        "Piume situate sui lati"
+      ],
+      "explanation": "Il genere Draco utilizza un patagium, una membrana di pelle sostenuta da costole allungate, per scivolare da un albero all'altro.",
+      "didYouKnow": "Le lucertole del genere Draco vivono nelle foreste tropicali del sud e del sud-est asiatico.",
+      "imageCaption": "Lucertola volante Draco"
+    },
+    {
+      "id": "reptiles-149",
+      "animal": "Rettili",
+      "prompt": "Che ruolo potrebbe svolgere la colorazione di avvertimento in alcuni rettili?",
+      "options": [
+        "Attira le prede imitando il loro cibo",
+        "Indicare la temperatura corporea ai conspecifici",
+        "Mimetizzare l'animale in ambienti bui",
+        "Segnala difesa o tossicità ai predatori"
+      ],
+      "explanation": "Colori vivaci o contrastanti possono fungere da segnale di avvertimento, sebbene la loro funzione dipenda dalla specie e dal contesto.",
+      "didYouKnow": "In alcune specie di rettili si vedono colori di avvertimento luminosi.",
+      "imageCaption": "Gila Monster, esempio di colorazione di avvertimento"
+    },
+    {
+      "id": "reptiles-150",
+      "animal": "Rettili",
+      "prompt": "Perché i motivi mimetici dei rettili sono spesso irregolari?",
+      "options": [
+        "Rendono l'animale invisibile in tutti gli habitat",
+        "Possono rompere il contorno del corpo in un ambiente complesso",
+        "Riflettono la luce per avvisare i predatori",
+        "Producono modelli che attraggono partner a distanza"
+      ],
+      "explanation": "Modelli irregolari possono disturbare la percezione dei contorni di un animale e renderlo più difficile da individuare nel suo habitat.",
+      "didYouKnow": "I rettili terrestri hanno la pelle squamosa ricca di cheratina.",
+      "imageCaption": "Lucertola cornuta del Texas"
+    },
+    {
+      "id": "reptiles-151",
+      "animal": "Rettili",
+      "prompt": "Qual è la principale minaccia per i rettili che vivono nelle zone umide?",
+      "options": [
+        "Drenaggio e distruzione del loro habitat",
+        "Aumentare la copertura vegetale attorno agli stagni",
+        "La formazione di nuovi meandri nei corsi d'acqua",
+        "Il calo stagionale dei livelli degli stagni"
+      ],
+      "explanation": "Il drenaggio, l'inquinamento e la frammentazione delle zone umide rimuovono i siti di alimentazione, nidificazione e rifugio per molti rettili.",
+      "didYouKnow": "La scomparsa delle zone umide colpisce soprattutto i coccodrilli e le tartarughe d’acqua dolce.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-152",
+      "animal": "Rettili",
+      "prompt": "In che modo la frammentazione dell’habitat influisce sulle popolazioni di rettili?",
+      "options": [
+        "Crea siti di nidificazione senza frammentare i territori",
+        "Riunisce le popolazioni e aumenta sempre gli scambi genetici",
+        "Colpisce solo le specie che vivono sugli alberi",
+        "Isola le popolazioni e riduce i movimenti tra gli habitat"
+      ],
+      "explanation": "Le strade e le aree sviluppate possono separare le popolazioni, limitare l’accesso ai siti di riproduzione e ridurre lo scambio genetico.",
+      "didYouKnow": "Le lucertole insulari possono essere endemiche di un'area geografica ristretta.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-153",
+      "animal": "Tartarughe marine",
+      "prompt": "Perché le catture accidentali negli attrezzi da pesca rappresentano una minaccia per le tartarughe marine?",
+      "options": [
+        "Impediscono alle tartarughe di ritornare alla loro spiaggia natale",
+        "Possono rimuovere il sale dall'acqua di mare",
+        "Possono provocare lesioni o annegamento",
+        "Degradano il guscio dell'uovo prima della deposizione"
+      ],
+      "explanation": "Le tartarughe accidentalmente intrappolate nelle reti o negli ami possono ferirsi o annegare se non riescono a risalire per respirare.",
+      "didYouKnow": "La tartaruga liuto si nutre principalmente di meduse e altri organismi gelatinosi.",
+      "imageCaption": "Tartaruga verde, esempio di tartaruga marina"
+    },
+    {
+      "id": "reptiles-154",
+      "animal": "Tartarughe marine",
+      "prompt": "Che rischio comportano i rifiuti di plastica per le tartarughe marine?",
+      "options": [
+        "Forniscono materiali per la nidificazione delle tartarughe adulte",
+        "Riducono il rischio di lesioni causate dalle reti",
+        "Possono essere ingeriti o causare impigliamenti",
+        "Aumentano la quantità di meduse a disposizione delle tartarughe"
+      ],
+      "explanation": "Le tartarughe possono ingoiare rifiuti che scambiano per prede o rimanere impigliate in lenze e reti abbandonate.",
+      "didYouKnow": "Le tartarughe marine eliminano il sale in eccesso attraverso ghiandole specializzate vicino ai loro occhi.",
+      "imageCaption": "Tartaruga verde, esempio di tartaruga marina"
+    },
+    {
+      "id": "reptiles-155",
+      "animal": "Tartarughe terrestri",
+      "prompt": "Perché il commercio illegale di tartarughe può ridurre rapidamente alcune popolazioni?",
+      "options": [
+        "Le tartarughe adulte possono riprodursi solo una volta",
+        "Le tartarughe depongono un solo uovo alla fine della loro vita",
+        "Le popolazioni di tartarughe non possono essere monitorate dai ricercatori",
+        "Le tartarughe spesso crescono lentamente e maturano tardi"
+      ],
+      "explanation": "La crescita lenta, la maturità tardiva e talvolta la scarsa sopravvivenza dei giovani rendono molte tartarughe vulnerabili allo sfruttamento eccessivo.",
+      "didYouKnow": "Il guscio delle tartarughe è integrato nel loro scheletro.",
+      "imageCaption": "La tartaruga di Hermann, esempio di tartaruga terrestre"
+    },
+    {
+      "id": "reptiles-156",
+      "animal": "Rettili",
+      "prompt": "Che effetto può avere una strada su serpenti e lucertole?",
+      "options": [
+        "Può sopprimere la preda solo durante la notte",
+        "Disturba solo i rettili arboricoli",
+        "Può causare mortalità diretta e frammentare il loro habitat",
+        "Può rendere la pelle di serpente più permeabile"
+      ],
+      "explanation": "I rettili che attraversano una strada rischiano di essere colpiti e le infrastrutture possono separare gli habitat e limitare i movimenti.",
+      "didYouKnow": "I serpenti rilevano le molecole odorose con la lingua biforcuta.",
+      "imageCaption": "Drago barbuto, un esempio di rettile"
+    },
+    {
+      "id": "reptiles-157",
+      "animal": "Rettili",
+      "prompt": "Perché le specie aliene invasive potrebbero minacciare i rettili delle isole?",
+      "options": [
+        "Migliorano sempre la diversità genetica delle popolazioni locali",
+        "Non possono mangiare uova di rettili",
+        "Possono diventare nuovi predatori o concorrenti",
+        "Non sono in grado di sopravvivere sulle isole"
+      ],
+      "explanation": "I mammiferi introdotti possono predare le uova e i giovani rettili o competere con le specie locali per le risorse.",
+      "didYouKnow": "I rettili hanno la pelle squamosa ricca di cheratina.",
+      "imageCaption": "Iguana marina delle Galápagos, rettile dell'isola"
+    },
+    {
+      "id": "reptiles-158",
+      "animal": "Coccodrilli",
+      "prompt": "Quale pressione storica ha ridotto drasticamente alcune popolazioni di coccodrilli?",
+      "options": [
+        "Caccia per le loro pelli e perdita di habitat",
+        "Predazione da parte di uccelli adulti",
+        "Competizione naturale tra individui della stessa specie",
+        "Calo stagionale delle prede nei fiumi"
+      ],
+      "explanation": "La caccia commerciale e la trasformazione delle zone umide hanno causato un forte calo di diverse specie di coccodrilli.",
+      "didYouKnow": "I coccodrilli costruiscono nidi vegetali o scavano nidi a seconda della specie.",
+      "imageCaption": "Coccodrillo del Nilo"
+    },
+    {
+      "id": "reptiles-159",
+      "animal": "Diavolo spinoso (Moloch)",
+      "prompt": "Come fa il diavolo spinoso a convogliare verso la bocca l’acqua raccolta sulla pelle?",
+      "options": [
+        "Sottili solchi tra le squame guidano l’acqua",
+        "Dalle ghiandole che pompano l'acqua dalle zampe",
+        "Attraverso una tasca situata nella coda",
+        "Da peli cavi che succhiano l'acqua fino al muso"
+      ],
+      "explanation": "I solchi tra le scaglie del Moloch possono trasportare l'acqua dalla pelle alla bocca mediante azione capillare.",
+      "didYouKnow": "Il diavolo cornuto può mimetizzarsi rimanendo immobile nel suo arido habitat.",
+      "imageCaption": "Diavolo cornuto (Moloch horridus)"
+    },
+    {
+      "id": "reptiles-160",
+      "animal": "Rettili",
+      "prompt": "Perché preservare i siti di nidificazione è essenziale per le tartarughe?",
+      "options": [
+        "Le uova possono schiudersi solo se la madre rimane sulla spiaggia",
+        "Le uova dipendono dalle condizioni locali del terreno, dall'umidità e dalla temperatura",
+        "I siti di deposizione delle uova determinano la dieta degli adulti",
+        "Gli adulti possono deporre le uova solo nei pressi di una foresta"
+      ],
+      "explanation": "Il successo dell'incubazione dipende dalle caratteristiche del sito, mentre la distruzione delle spiagge o degli argini può impedire l'accesso ai nidi.",
+      "didYouKnow": "Le tartarughe marine respirano con i polmoni e devono venire in superficie.",
+      "imageCaption": "Tartaruga verde, tartaruga marina"
+    },
+    {
+      "id": "reptiles-161",
+      "animal": "Lucertola dal collare",
+      "prompt": "Cosa fa la lucertola dal collare quando allarga la sua grande piega di pelle?",
+      "options": [
+        "Apre un collare attorno alla testa per apparire più imponente",
+        "Dispiega una membrana tra le gambe per scivolare",
+        "Gonfia una tasca sotto la gola per immagazzinare aria",
+        "Raddrizza una fila di spine sulla coda"
+      ],
+      "explanation": "La lucertola con la balza apre la pelle rugosa attorno al collo quando si esibisce o minaccia, il che ingrandisce visivamente la sua silhouette.",
+      "didYouKnow": "La lucertola dal collare è originaria dell'Australia settentrionale e della Nuova Guinea meridionale.",
+      "imageCaption": "Lucertola con volant"
+    },
+    {
+      "id": "reptiles-162",
+      "animal": "Rettili",
+      "prompt": "Perché la raccolta di rettili selvatici per animali domestici può essere problematica?",
+      "options": [
+        "Riguarda solo le specie allevate in cattività",
+        "Può impoverire le popolazioni naturali e sconvolgere la loro struttura",
+        "Migliora sempre la diversità genetica delle popolazioni selvatiche",
+        "Rende gli individui raccolti più adatti agli ambienti naturali"
+      ],
+      "explanation": "I raccolti insostenibili possono eliminare troppi individui, in particolare gli adulti riproduttori o le specie con areali ristretti.",
+      "didYouKnow": "I rettili si riproducono mediante fecondazione interna.",
+      "imageCaption": "Tartaruga di Hermann, esempio di rettile raccolto per il commercio"
+    },
+    {
+      "id": "reptiles-163",
+      "animal": "Scinco dalla lingua blu",
+      "prompt": "Quale segnale visivo può mostrare lo scinco dalla lingua blu a un predatore?",
+      "options": [
+        "Una lingua blu brillante",
+        "Un collare rosso distribuito intorno al collo",
+        "Un paio di grandi ocelli sulle ali",
+        "Una giogaia gialla sotto la gola"
+      ],
+      "explanation": "Lo scinco dalla lingua blu può aprire la bocca ed esporre la lingua viva in una posizione difensiva.",
+      "didYouKnow": "Lo scinco dalla lingua blu è onnivoro e consuma piante e piccoli animali.",
+      "imageCaption": "Scinco dalla lingua blu"
+    },
+    {
+      "id": "reptiles-164",
+      "animal": "Rettili",
+      "prompt": "In che modo le tartarughe a volte aiutano nella dispersione dei semi?",
+      "options": [
+        "Possono mangiare la frutta e poi depositare i semi nei loro escrementi.",
+        "Portano i semi attaccati al guscio senza ingoiarli",
+        "Seppelliscono tutti i semi nei loro nidi",
+        "Impollinano i frutti prima di consumarli"
+      ],
+      "explanation": "Le tartarughe che mangiano la frutta possono ingoiare i semi e trasportarli prima di espellerli altrove.",
+      "didYouKnow": "Il guscio delle tartarughe comprende elementi ossei saldati allo scheletro.",
+      "imageCaption": "Tartaruga gigante delle Galapagos, esempio di tartaruga che disperde semi"
+    },
+    {
+      "id": "reptiles-165",
+      "animal": "Rettili",
+      "prompt": "Quale servizio ecologico forniscono alcuni serpenti nei paesaggi agricoli?",
+      "options": [
+        "Possono limitare le popolazioni di roditori",
+        "Fertilizzano direttamente il terreno digerendo le radici",
+        "Impollinano le colture di cereali",
+        "Eliminano tutte le specie di parassiti senza effetti collaterali"
+      ],
+      "explanation": "I serpenti che mangiano roditori possono aiutare a regolare le loro popolazioni, sebbene il loro impatto dipenda dalla specie e dall’ambiente.",
+      "didYouKnow": "I serpenti non hanno palpebre mobili; una scaglia trasparente protegge i loro occhi.",
+      "imageCaption": "Serpente del mais, esempio di serpente"
+    },
+    {
+      "id": "reptiles-166",
+      "animal": "Scinco della Sabbia (Scincus)",
+      "prompt": "Come si muovono gli scinchi della sabbia nella sabbia sciolta?",
+      "options": [
+        "Si nasconde sotto la sabbia e avanza ondulando il corpo, come se nuotasse nel substrato.",
+        "Scava spingendo indietro la sabbia con gli arti",
+        "Avanza sotto la sabbia, ondulando il corpo, come se nuotasse nel substrato.",
+        "Scava una galleria con movimenti alternati delle zampe anteriori"
+      ],
+      "explanation": "Lo scinco della sabbia può scavare e avanzare sotto la sabbia sciolta utilizzando movimenti ondulatori del corpo.",
+      "didYouKnow": "Lo scinco della sabbia vive nelle regioni aride del Nord Africa e del Medio Oriente.",
+      "imageCaption": "Scinco di sabbia"
+    },
+    {
+      "id": "reptiles-167",
+      "animal": "Tartaruga dal naso di maiale",
+      "prompt": "Quale tartaruga d’acqua dolce ha un muso carnoso simile a quello di un maiale?",
+      "options": [
+        "Carettochelys insculpta",
+        "La tartaruga di Hermann",
+        "La tartaruga liuto",
+        "La tartaruga embricata"
+      ],
+      "explanation": "La tartaruga dal naso di maiale vive nelle acque dolci dell’Australia settentrionale e della Nuova Guinea meridionale. Le narici si trovano sulla punta del suo caratteristico muso.",
+      "didYouKnow": "La tartaruga dal naso di maiale ha arti anteriori a forma di pagaia.",
+      "imageCaption": "Tartaruga dal naso di maiale"
+    },
+    {
+      "id": "reptiles-168",
+      "animal": "Rettili",
+      "prompt": "Che relazione evolutiva esiste tra coccodrilli e uccelli?",
+      "options": [
+        "Gli uccelli discendono dagli attuali coccodrilli",
+        "Entrambi appartengono agli arcosauri",
+        "Uccelli e coccodrilli non hanno antenati comuni",
+        "I coccodrilli appartengono agli squamati come i serpenti"
+      ],
+      "explanation": "I coccodrilli e gli uccelli sono i due principali lignaggi attuali degli arcosauri e condividono un antico antenato comune.",
+      "didYouKnow": "I coccodrilli costruiscono nidi e talvolta proteggono i piccoli intorno a loro quando si schiudono.",
+      "imageCaption": "Coccodrillo del Nilo, rappresentante dei coccodrilli"
+    },
+    {
+      "id": "reptiles-169",
+      "animal": "Mostro di Gila",
+      "prompt": "Dove immagazzina parte delle sue riserve energetiche il Mostro di Gila?",
+      "options": [
+        "In una tasca sotto la gola",
+        "Negli arti anteriori",
+        "Sotto le scaglie della schiena",
+        "Nella sua coda spessa"
+      ],
+      "explanation": "Il mostro di Gila accumula grasso nella coda, una riserva che lo aiuta a superare i periodi di scarsità di cibo.",
+      "didYouKnow": "Il mostro di Gila è una delle poche lucertole velenose.",
+      "imageCaption": "Mostro di Gila"
+    },
+    {
+      "id": "reptiles-170",
+      "animal": "Rettili",
+      "prompt": "Quale gruppo attuale include serpenti e lucertole?",
+      "options": [
+        "Le Testudine",
+        "I Rincocefali",
+        "I coccodrilli",
+        "Gli squamati"
+      ],
+      "explanation": "Gli squamati includono serpenti, lucertole e anfisbeni.",
+      "didYouKnow": "I serpenti raccolgono molecole odorose con la lingua biforcuta.",
+      "imageCaption": "Anole verde, uno squamato"
+    },
+    {
+      "id": "reptiles-171",
+      "animal": "caimano nero",
+      "prompt": "In quale vasta regione si trova naturalmente il caimano nero?",
+      "options": [
+        "Il bacino amazzonico",
+        "Il bacino del Nilo",
+        "Solo paludi della Florida",
+        "I fiumi dell'Australia settentrionale"
+      ],
+      "explanation": "Il caimano nero, Melanosuchus niger, è un grande coccodrillo originario del Sud America associato in particolare agli ambienti acquatici amazzonici.",
+      "didYouKnow": "Il caimano nero è il più grande caimano vivente.",
+      "imageCaption": "caimano nero"
+    },
+    {
+      "id": "reptiles-172",
+      "animal": "Rettili",
+      "prompt": "Quale gruppo di rettili include le tartarughe?",
+      "options": [
+        "I Rincocefali",
+        "I coccodrilli",
+        "Le Testudine",
+        "Gli squamati"
+      ],
+      "explanation": "Le Testudine sono l'ordine che riunisce le tartarughe terrestri, d'acqua dolce e marine.",
+      "didYouKnow": "Le tartarughe esistenti includono specie marine, d'acqua dolce e terrestri.",
+      "imageCaption": "La tartaruga di Hermann, esempio di tartaruga"
+    },
+    {
+      "id": "reptiles-173",
+      "animal": "Rettili",
+      "prompt": "Quale tratto dentale comunemente manca alle tartarughe moderne?",
+      "options": [
+        "Choanae che collegano le narici alla bocca",
+        "Un linguaggio mobile",
+        "Mascelle ossute",
+        "denti; hanno un becco cheratinizzato"
+      ],
+      "explanation": "Le tartarughe attuali non hanno denti; le loro mascelle sono ricoperte da un becco corneo che taglia o macina il cibo.",
+      "didYouKnow": "Le tartarughe marine usano le pinne per nuotare nel mare.",
+      "imageCaption": "La tartaruga di Hermann"
+    },
+    {
+      "id": "reptiles-174",
+      "animal": "Tartarughe",
+      "prompt": "A quale parte della tartaruga si riferisce il termine «carapace»?",
+      "options": [
+        "Alla parte ventrale del guscio",
+        "Al bordo laterale degli scuti",
+        "Alla parte dorsale del guscio",
+        "Alla base ossea del becco"
+      ],
+      "explanation": "Il carapace è la parte dorsale del guscio della tartaruga; il piastrone ne forma la parte ventrale.",
+      "didYouKnow": "Nelle tartarughe, il piastrone forma la parte ventrale del guscio.",
+      "imageCaption": "La tartaruga di Hermann"
+    },
+    {
+      "id": "reptiles-175",
+      "animal": "Tartarughe",
+      "prompt": "Come si muovono principalmente le tartarughe marine?",
+      "options": [
+        "Alternando i movimenti delle zampe posteriori",
+        "Con un movimento laterale della coda",
+        "Colpendo le pinne anteriori",
+        "Ondulando tutto il corpo come un serpente"
+      ],
+      "explanation": "Le pinne anteriori forniscono la maggior parte della propulsione; i quarti posteriori aiutano a dirigere e stabilizzare l'animale.",
+      "didYouKnow": "Le tartarughe marine eliminano il sale in eccesso attraverso ghiandole specializzate vicino ai loro occhi.",
+      "imageCaption": "tartaruga verde"
+    },
+    {
+      "id": "reptiles-176",
+      "animal": "Tartarughe marine",
+      "prompt": "Quale azione è essenziale per una tartaruga marina femmina dopo la deposizione delle uova?",
+      "options": [
+        "Sposta le uova in un'area più calda ad ogni marea",
+        "Copri le uova e rimani nel nido finché non si schiudono",
+        "Trasporta le uova sotto il guscio finché non si schiudono",
+        "Ritorna al mare lasciando incubare le uova nella sabbia"
+      ],
+      "explanation": "Dopo aver deposto le uova, la femmina spesso copre il nido e se ne va; gli embrioni si sviluppano senza cure dirette fino alla schiusa.",
+      "didYouKnow": "Le tartarughe marine utilizzano segnali magnetici e visivi per orientarsi.",
+      "imageCaption": "Tartaruga verde, esempio di tartaruga marina"
+    },
+    {
+      "id": "reptiles-177",
+      "animal": "Tartarughe marine",
+      "prompt": "Cosa fanno i piccoli quando emergono da un nido sulla spiaggia?",
+      "options": [
+        "Seguono gli adulti in un'area di alimentazione",
+        "Generalmente si dirigono verso il mare",
+        "Si rintanano nella spiaggia fino alla stagione successiva",
+        "Aspettano che la femmina li porti in bocca"
+      ],
+      "explanation": "I piccoli spesso emergono insieme e si dirigono verso l'oceano utilizzando la luce e segnali visivi dall'orizzonte.",
+      "didYouKnow": "Le tartarughe marine hanno ghiandole vicino agli occhi che rimuovono il sale in eccesso.",
+      "imageCaption": "Tartaruga verde, esempio di tartaruga marina"
+    },
+    {
+      "id": "reptiles-178",
+      "animal": "Tartarughe marine",
+      "prompt": "Quale habitat utilizzano spesso le tartarughe marine verdi adulte per nutrirsi?",
+      "options": [
+        "Erbe da spiaggia terrestri",
+        "Spugne del reef e coralli molli",
+        "Praterie di posidonia e zone ricche di alghe",
+        "Meduse del mare profondo"
+      ],
+      "explanation": "Molte tartarughe verdi adulte pascolano sulle alghe o sulle alghe nelle acque costiere poco profonde.",
+      "didYouKnow": "La tartaruga marina verde è la più grande delle tartarughe marine dal guscio duro.",
+      "imageCaption": "tartaruga verde"
+    },
+    {
+      "id": "reptiles-179",
+      "animal": "Tartarughe",
+      "prompt": "Quale caratteristica spesso distingue una tartaruga acquatica da una tartaruga terrestre?",
+      "options": [
+        "Branchie funzionali negli adulti",
+        "Piedi o pinne palmati adatti al nuoto",
+        "Conchiglia più piatta in tutte le specie acquatiche",
+        "Una corazza sempre ridotta ad un'unica piastra"
+      ],
+      "explanation": "Le tartarughe acquatiche hanno spesso piedi o pinne palmati, mentre le tartarughe terrestri hanno arti robusti per camminare.",
+      "didYouKnow": "Le tartarughe attuali non hanno denti e hanno il becco cheratinizzato.",
+      "imageCaption": "Tartaruga slider della Florida, esempio di tartaruga acquatica"
+    },
+    {
+      "id": "reptiles-180",
+      "animal": "Tartarughe",
+      "prompt": "Quali informazioni può fornire la forma del guscio di una tartaruga?",
+      "options": [
+        "Può essere collegato all'habitat e allo stile di vita della specie",
+        "Permette di determinare la temperatura del nido originale",
+        "Rivela il sesso senza variazioni tra le specie",
+        "Indica sempre l'età esatta in anni"
+      ],
+      "explanation": "La forma del carapace può riflettere adattamenti ecologici, ad esempio la forma idrodinamica nelle specie acquatiche.",
+      "didYouKnow": "Le tartarughe attuali non hanno denti e hanno il becco cheratinizzato.",
+      "imageCaption": "La tartaruga di Hermann, esempio di tartaruga"
+    },
+    {
+      "id": "reptiles-181",
+      "animal": "Tartaruga gopher della Florida",
+      "prompt": "Quale rifugio scava la tartaruga gopher nei terreni sabbiosi?",
+      "options": [
+        "Una tana profonda che può servire anche da rifugio per altri animali",
+        "Una cavità sottomarina nel fango",
+        "Un nido appeso tra i rami",
+        "Una galleria destinata esclusivamente all'archiviazione di fogli"
+      ],
+      "explanation": "La tartaruga gopher scava grandi tane nel terreno; questi rifugi servono anche altre specie.",
+      "didYouKnow": "La tartaruga gopher si nutre di piante, comprese foglie, fiori e frutti.",
+      "imageCaption": "tartaruga gopher"
+    },
+    {
+      "id": "reptiles-182",
+      "animal": "Rettili",
+      "prompt": "Perché il DNA ambientale può aiutare a rilevare i rettili acquatici?",
+      "options": [
+        "I rettili producono un segnale luminoso rilevabile nell'acqua",
+        "Tracce di DNA lasciate nell'acqua possono rivelarne la presenza",
+        "Il DNA disciolto consente di calcolare l'età media degli individui",
+        "Il metodo permette di osservare i movimenti di ciascun individuo"
+      ],
+      "explanation": "Gli animali lasciano cellule e frammenti di DNA nel loro ambiente; il loro rilevamento può indicare la presenza di una specie in uno specchio d'acqua.",
+      "didYouKnow": "Le tartarughe acquatiche devono venire in superficie per respirare aria.",
+      "imageCaption": "Tartaruga slider della Florida, rettile acquatico"
+    },
+    {
+      "id": "reptiles-183",
+      "animal": "Geco volante",
+      "prompt": "Quale adattamento permette ad alcuni gechi volanti di planare da un tronco all'altro?",
+      "options": [
+        "Le pieghe cutanee laterali e le membrane tra gli arti aumentano la superficie di appoggio",
+        "Le costole allungate distribuiscono un patagium su ciascun lato del tronco",
+        "Una membrana tesa tra gli arti posteriori e la coda funge da paracadute",
+        "Scaglie rigide si estendono lungo il dorso e formano le ali"
+      ],
+      "explanation": "Alcuni gechi volanti dispiegano pieghe di pelle sui lati e tra gli arti per rallentare e controllare la caduta.",
+      "didYouKnow": "Il geco volante di Kuhl è originario del sud-est asiatico.",
+      "imageCaption": "Il geco volante di Kuhl"
+    },
+    {
+      "id": "reptiles-184",
+      "animal": "Rettili",
+      "prompt": "Quanto può essere pericoloso il fuoco negli habitat dei rettili?",
+      "options": [
+        "Colpisce solo le uova e mai gli adulti",
+        "Può uccidere direttamente individui con scarsa mobilità e distruggere i rifugi.",
+        "Migliora sempre la germinazione delle piante di cui si nutrono i rettili",
+        "Fa scomparire i predatori anziché gli habitat"
+      ],
+      "explanation": "Incendi intensi o troppo frequenti possono distruggere la copertura vegetale, i rifugi e i siti di nidificazione e uccidere gli animali che non riescono a fuggire.",
+      "didYouKnow": "I rettili hanno la pelle squamosa che limita la perdita d'acqua.",
+      "imageCaption": "La tartaruga di Hermann, esempio di rettile terrestre"
+    },
+    {
+      "id": "reptiles-185",
+      "animal": "Tartaruga liuto",
+      "prompt": "Quale adattamento aiuta la tartaruga liuto a limitare la perdita di calore attraverso le pinne?",
+      "options": [
+        "Scambio termico controcorrente tra i vasi sanguigni",
+        "Piume isolanti sotto le squame",
+        "Una chiusura permanente di tutta la circolazione nelle alette",
+        "Ghiandole che secernono acqua calda"
+      ],
+      "explanation": "I vasi che trasportano il sangue in direzioni opposte aiutano a trasferire il calore prima che venga disperso nell'acqua. Le sue grandi dimensioni contribuiscono anche alla ritenzione del calore.",
+      "didYouKnow": "La tartaruga liuto si nutre principalmente di meduse e altri organismi gelatinosi.",
+      "imageCaption": "Tartaruga liuto"
+    },
+    {
+      "id": "reptiles-186",
+      "animal": "Rettili",
+      "prompt": "Quale misura riduce l'impatto delle reti abbandonate sui rettili acquatici?",
+      "options": [
+        "Illuminare l'attrezzatura solo durante gli orari delle maree",
+        "Aumentare la dimensione delle maglie delle reti nelle aree di deposizione delle uova",
+        "Spostare le reti nei letti di alimentazione",
+        "Rimuovi gli equipaggiamenti fantasma e limita la loro perdita in mare"
+      ],
+      "explanation": "Gli attrezzi da pesca perduti o abbandonati possono continuare a catturare animali; il loro recupero e una migliore gestione riducono questo rischio.",
+      "didYouKnow": "I rettili acquatici come le tartarughe devono venire in superficie per respirare.",
+      "imageCaption": "Tartaruga verde, esempio di rettile acquatico minacciato dalle reti abbandonate"
+    },
+    {
+      "id": "reptiles-187",
+      "animal": "Rettili",
+      "prompt": "Perché una specie di rettili in via di estinzione può trarre vantaggio dall’allevamento conservativo?",
+      "options": [
+        "Permette alle persone di essere rilasciate senza valutare il loro adattamento",
+        "Garantisce il mantenimento della diversità genetica senza gestione",
+        "Può sostenere la popolazione, purché sia collegato a un piano scientifico di conservazione",
+        "Sostituisce in modo sostenibile la protezione degli habitat naturali"
+      ],
+      "explanation": "L’allevamento conservativo può contribuire al raggiungimento degli obiettivi di conservazione, ma deve essere ben gestito e accompagnato dalla protezione dell’habitat e dal monitoraggio genetico.",
+      "didYouKnow": "I rettili sono ectotermici e dipendono in gran parte dalla temperatura dell'ambiente.",
+      "imageCaption": "Tuatara, specie protetta soggetta a programmi di conservazione"
+    },
+    {
+      "id": "reptiles-188",
+      "animal": "tartaruga del deserto",
+      "prompt": "Dove può immagazzinare l’acqua la tartaruga del deserto?",
+      "options": [
+        "Nella vescica urinaria",
+        "In sacchetti sotto il guscio",
+        "Nelle cavità delle ossa delle gambe",
+        "In una tasca di pelle dietro la testa"
+      ],
+      "explanation": "La tartaruga del deserto può immagazzinare acqua nella vescica e riassorbirla quando le condizioni sono secche.",
+      "didYouKnow": "La tartaruga del deserto è originaria del Nord America sudoccidentale.",
+      "imageCaption": "tartaruga del deserto"
+    },
+    {
+      "id": "reptiles-189",
+      "animal": "Serpente a sonagli sidewinder",
+      "prompt": "Quale modalità di movimento aiuta il sidewinder ad avanzare sulla sabbia?",
+      "options": [
+        "Locomozione a fisarmonica",
+        "Ondulazione laterale mentre ci si appoggia alle rocce",
+        "Locomozione laterale sollevando anelli successivi del corpo",
+        "Progressione per battiti di pinna"
+      ],
+      "explanation": "Il sidewinder si muove in avanti mediante locomozione laterale: diversi anelli del corpo toccano la sabbia mentre il resto si muove in avanti.",
+      "didYouKnow": "I serpenti a sonagli cornuti hanno fossette sensibili al calore tra l'occhio e la narice.",
+      "imageCaption": "Serpente a sonagli cornuto (sidewinder)"
+    },
+    {
+      "id": "reptiles-190",
+      "animal": "Chuckwalla",
+      "prompt": "Come può il Chuckwalla proteggersi in una fessura nella roccia?",
+      "options": [
+        "Si appiattisce e cambia colore per fondersi con la pietra",
+        "Gonfia il corpo per incastrarsi nella fessura",
+        "Spruzza sangue dagli occhi",
+        "Srotola un collare intorno al collo"
+      ],
+      "explanation": "Il chuckwalla può rifugiarsi in una fessura e gonfiare il corpo per rendere più difficile estrarlo.",
+      "didYouKnow": "Il Chuckwalla si nutre principalmente di foglie, fiori e altre piante.",
+      "imageCaption": "Chuckwalla"
+    },
+    {
+      "id": "reptiles-191",
+      "animal": "tartaruga mata mata",
+      "prompt": "Come fa spesso la tartaruga mata mata a catturare un pesce?",
+      "options": [
+        "Apre rapidamente la bocca e aumenta il volume della cavità orale, aspirando il pesce insieme all'acqua",
+        "Proietta una lingua appiccicosa che aderisce al pesce per poi riportarlo in bocca",
+        "Usa la punta della lingua per attirare il pesce, poi lo afferra con le mascelle.",
+        "Spinge il pesce verso la gola con una corrente creata dai movimenti delle pinne"
+      ],
+      "explanation": "La mata mata può improvvisamente aprire la sua grande bocca e succhiare le prede acquatiche vicine.",
+      "didYouKnow": "La tartaruga mata mata è originaria dei bacini dell'Amazzonia e dell'Orinoco.",
+      "imageCaption": "tartaruga mata mata"
+    },
+    {
+      "id": "reptiles-192",
+      "animal": "tartaruga dipinta",
+      "prompt": "In che modo il guscio aiuta la tartaruga dipinta a far fronte all'accumulo di acido lattico durante un inverno a basso contenuto di ossigeno?",
+      "options": [
+        "I suoi minerali aiutano a tamponare l'acidità",
+        "Filtra il sangue come un rene in più",
+        "Trasforma l'acido lattico in ossigeno",
+        "Espelle tutto l'acido lattico attraverso i suoi scudi."
+      ],
+      "explanation": "Il guscio e le ossa contribuiscono a tamponare gli acidi e possono immagazzinare parte del lattato. Questo adattamento accompagna un notevole rallentamento del metabolismo.",
+      "didYouKnow": "La tartaruga dipinta ha spesso segni rossi o gialli sulla testa e sugli arti.",
+      "imageCaption": "tartaruga dipinta"
+    },
+    {
+      "id": "reptiles-193",
+      "animal": "Tartaruga scatola",
+      "prompt": "Quale parte del guscio può chiudere la tartaruga scatola con una cerniera?",
+      "options": [
+        "Il piastrone",
+        "Il carapace",
+        "Il ponte del guscio",
+        "Uno scuto corneo"
+      ],
+      "explanation": "Nelle tartarughe scatola, una cerniera nel piastrone consente di sollevare le sue parti per proteggere il corpo.",
+      "didYouKnow": "Le tartarughe scatola sono tartarughe terrestri del Nord America.",
+      "imageCaption": "Tartaruga scatola della Carolina"
+    },
+    {
+      "id": "reptiles-194",
+      "animal": "Tartaruga frittella",
+      "prompt": "Quale caratteristica aiuta la tartaruga frittella a nascondersi nelle fessure delle rocce?",
+      "options": [
+        "Il guscio appiattito e flessibile può deformarsi leggermente per passare in fessure strette",
+        "Il guscio alto e bombato si incastra contro la roccia",
+        "Il piastrone articolato si apre per farla passare in una fessura",
+        "Un guscio rigido e idrodinamico le permette di nuotare in fessure sommerse"
+      ],
+      "explanation": "Il guscio appiattito, più flessibile di quello di molte altre tartarughe, le permette di infilarsi nelle fessure delle rocce.",
+      "didYouKnow": "La tartaruga frittella è originaria dell’Africa orientale.",
+      "imageCaption": "Tartaruga frittella"
+    },
+    {
+      "id": "reptiles-195",
+      "animal": "Lucertola cornuta del Texas",
+      "prompt": "Quali prede costituiscono una parte importante della dieta della lucertola cornuta del Texas?",
+      "options": [
+        "Formiche mietitrici",
+        "Meduse",
+        "Pesci di fiume",
+        "Uova di coccodrillo"
+      ],
+      "explanation": "La lucertola cornuta del Texas consuma spesso le formiche mietitrici, che cattura da terra.",
+      "didYouKnow": "La lucertola cornuta del Texas può spruzzare sangue dai vasi vicino ai suoi occhi.",
+      "imageCaption": "Lucertola cornuta del Texas"
+    },
+    {
+      "id": "reptiles-196",
+      "animal": "Serpente volante",
+      "prompt": "Come può il serpente volante del genere Chrysopelea librarsi tra gli alberi?",
+      "options": [
+        "Appiattisce il suo corpo e lo fa ondulare durante la sua traiettoria aerea",
+        "Batte le ali nascoste sotto le scaglie",
+        "Presenta un patagium sostenuto da costolature allungate",
+        "Si spinge facendo vibrare la coda come un'elica."
+      ],
+      "explanation": "I serpenti volanti del genere Chrysopelea appiattiscono i loro corpi e ondeggiano nell'aria, permettendo loro di planare tra gli alberi.",
+      "didYouKnow": "I serpenti del genere Chrysopelea sono originari dell'Asia meridionale e sud-orientale.",
+      "imageCaption": "Serpente volante del cielo"
+    },
+    {
+      "id": "reptiles-197",
+      "animal": "Iguana fasciata delle Fiji",
+      "prompt": "Dove vive naturalmente l'iguana fasciata delle Fiji?",
+      "options": [
+        "Nelle Isole Fiji",
+        "Nelle Isole Galapagos",
+        "Nelle foreste del Madagascar",
+        "Nelle zone umide del bacino del fiume Yangtze"
+      ],
+      "explanation": "L'iguana fasciata delle Fiji è una specie originaria dell'arcipelago delle Fiji.",
+      "didYouKnow": "L’iguana fasciata delle Fiji è fortemente minacciata dalla perdita del suo habitat.",
+      "imageCaption": "Iguana fasciata delle Fiji"
+    },
+    {
+      "id": "reptiles-198",
+      "animal": "Alligatore americano",
+      "prompt": "Che cosa indica il termine «alligator hole» nelle Everglades?",
+      "options": [
+        "Una depressione scavata e mantenuta da un alligatore che può trattenere l'acqua nella stagione secca",
+        "Una tana scavata da una tartaruga per deporre le uova",
+        "Una cavità naturale utilizzata solo dai coccodrilli d'acqua salata",
+        "Un nido sospeso costruito con rami e foglie"
+      ],
+      "explanation": "Gli alligatori possono scavare depressioni nelle zone umide; questi a volte trattengono l'acqua quando il livello scende.",
+      "didYouKnow": "Gli alligatori americani costruiscono nidi di vegetazione per deporre le uova.",
+      "imageCaption": "Alligatore americano"
+    },
+    {
+      "id": "reptiles-199",
+      "animal": "Serpente reale della California",
+      "prompt": "Di cosa si nutrono spesso i serpenti reali della California oltre ai piccoli mammiferi?",
+      "options": [
+        "Altri serpenti",
+        "Foglie grandi e frutti maturi",
+        "Nettare dei fiori",
+        "Meduse e piccoli crostacei"
+      ],
+      "explanation": "Il serpente reale della California è un predatore opportunista che può consumare altri serpenti.",
+      "didYouKnow": "Il serpente reale della California tollera il veleno di alcune vipere, in particolare i serpenti a sonagli.",
+      "imageCaption": "Serpente reale della California"
+    },
+    {
+      "id": "reptiles-200",
+      "animal": "Alligatore cinese",
+      "prompt": "In quale grande bacino fluviale vive naturalmente l'alligatore cinese?",
+      "options": [
+        "Nelle zone umide del bacino amazzonico",
+        "Nel bacino del Gange e del Brahmaputra",
+        "Negli estuari dell'Australia settentrionale",
+        "Nel bacino inferiore del fiume Yangtze"
+      ],
+      "explanation": "L'alligatore cinese è originario della Cina orientale, in particolare delle zone umide del bacino inferiore del fiume Yangtze.",
+      "didYouKnow": "L'alligatore cinese è più piccolo dell'alligatore americano.",
+      "imageCaption": "Alligatore cinese"
+    }
+  ]
+}

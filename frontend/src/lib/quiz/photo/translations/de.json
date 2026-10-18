@@ -1,0 +1,1206 @@
+{
+  "locale": "de",
+  "sourceSha256": "5ba58c0c2f0eaffc99878e312fec9bcf2419356ed02db5feefc1b9f287257069",
+  "animals": [
+    {
+      "id": "photo-001",
+      "animal": "Schnabeltier",
+      "recognition": "Breiter, flacher Schnabel, pelzbedeckter Körper und abgeflachter Schwanz.",
+      "didYouKnow": "Junge Schnabeltiere haben Zähne, die sie im Laufe ihres Wachstums verlieren; Erwachsene mahlen Essen mit Horntellern."
+    },
+    {
+      "id": "photo-002",
+      "animal": "Kurzschnabeligel",
+      "recognition": "Aus einem mit Federkielen bedeckten Rücken ragt eine schmale Schnauze heraus.",
+      "didYouKnow": "Seine Körpertemperatur ist im Allgemeinen niedriger als die vieler Plazenta-Säugetiere."
+    },
+    {
+      "id": "photo-003",
+      "animal": "Gemeiner Wombat",
+      "recognition": "Untersetzter Körper, kleine runde Ohren und kräftige Beine.",
+      "didYouKnow": "Seine Schneidezähne wachsen weiter, was den Verschleiß beim Schneiden harter Pflanzen ausgleicht."
+    },
+    {
+      "id": "photo-004",
+      "animal": "Tasmanischer Teufel",
+      "recognition": "Schwarzes Fell, großer Kopf und oft ein weißer Fleck auf der Brust.",
+      "didYouKnow": "Ein Teufel kann in seinem Schwanz Fettreserven speichern; Ein dicker Schwanz kann daher auf seinen Körperzustand hinweisen."
+    },
+    {
+      "id": "photo-005",
+      "animal": "Virginia-Opossum",
+      "recognition": "Klare, spitze Schnauze, fast nackte Ohren und ein langer, schuppiger Schwanz.",
+      "didYouKnow": "Der erste Finger seiner Hinterbeine ist gegenläufig und ohne Kralle, was das Greifen erleichtert."
+    },
+    {
+      "id": "photo-006",
+      "animal": "Saiga",
+      "recognition": "Seine geschwollene Nase bildet einen kurzen, gut erkennbaren Rüssel.",
+      "didYouKnow": "Im Winter wird sein Fell dichter und blasser, im Sommer dann kürzer und gelbbrauner."
+    },
+    {
+      "id": "photo-007",
+      "animal": "Narwal",
+      "recognition": "Kleiner gefleckter Wal, von dem einige Exemplare einen langen, gedrehten Stoßzahn tragen.",
+      "didYouKnow": "Die Verteidigung dreht sich nach links; seltene Individuen haben zwei Stoßzähne."
+    },
+    {
+      "id": "photo-008",
+      "animal": "Dugong",
+      "recognition": "Die Schnauze ist nach unten gerichtet und die Schwanzflosse eingekerbt.",
+      "didYouKnow": "Dugongs können mit kurzen Lauten kommunizieren, insbesondere zwischen einer Mutter und ihren Jungen."
+    },
+    {
+      "id": "photo-009",
+      "animal": "Temmincks Schuppentier",
+      "recognition": "Große überlappende Schuppen und ein langer, dicker Schwanz.",
+      "didYouKnow": "Sein Magen enthält Hornstrukturen, die an der Zerkleinerung der Nahrung beteiligt sind, die er verschluckt, ohne sie zu kauen."
+    },
+    {
+      "id": "photo-010",
+      "animal": "Gürteltier mit neun Bändern",
+      "recognition": "In Bändern gegliederter Panzer und verlängerte Schnauze.",
+      "didYouKnow": "Würfe dieser Art bestehen normalerweise aus vier genetisch identischen Jungen desselben Embryos."
+    },
+    {
+      "id": "photo-011",
+      "animal": "Großer Ameisenbär",
+      "recognition": "Sehr lange Schnauze, dunkler Streifen an der Flanke und buschiger Schwanz.",
+      "didYouKnow": "Seine Körpertemperatur ist für ein Säugetier dieser Größe relativ niedrig, was seinen Energiebedarf reduziert."
+    },
+    {
+      "id": "photo-012",
+      "animal": "Weißhandgibbon",
+      "recognition": "Sehr lange Arme und leichter Rand um das Gesicht.",
+      "didYouKnow": "Männchen und Weibchen können helles oder dunkles Fell haben; die Farbe allein kann daher nicht das Geschlecht bestimmen."
+    },
+    {
+      "id": "photo-013",
+      "animal": "Philippinischer Koboldmaki",
+      "recognition": "Sehr große, nach vorne gerichtete Augen und lange, dünne Gliedmaßen.",
+      "didYouKnow": "Es kommuniziert auch per Ultraschall mit Frequenzen, die das menschliche Ohr nicht wahrnehmen kann."
+    },
+    {
+      "id": "photo-014",
+      "animal": "Braunkehlfaultier",
+      "recognition": "Rundes Gesicht mit dunkler Maske und langen Gliedmaßen, die in Krallen enden.",
+      "didYouKnow": "Anders als bei vielen anderen Säugetieren kann seine Körpertemperatur im Laufe des Tages schwanken."
+    },
+    {
+      "id": "photo-015",
+      "animal": "Wasserschwein",
+      "recognition": "Großes Nagetier mit massiver Schnauze und hoch auf den Kopf gerichteten Augen.",
+      "didYouKnow": "Seine Schneidezähne wachsen wie bei anderen Nagetieren kontinuierlich und nutzen sich beim Grasen ab."
+    },
+    {
+      "id": "photo-016",
+      "animal": "Langschwanz-Chinchilla",
+      "recognition": "Große runde Ohren, sehr dichtes Fell und buschiger Schwanz.",
+      "didYouKnow": "Ein Weibchen hat zwei Gebärmutterhörner und kann bereits mit Haaren bedeckte Babys zur Welt bringen."
+    },
+    {
+      "id": "photo-017",
+      "animal": "Amerikanisches Stachelschwein",
+      "recognition": "Schwere Silhouette mit in den Mantel eingearbeiteten Federkielen.",
+      "didYouKnow": "Aufgrund der eisenhaltigen Pigmente im Zahnschmelz sind seine Zähne orange."
+    },
+    {
+      "id": "photo-018",
+      "animal": "Amerikanischer Pika",
+      "recognition": "Kleiner Hasenmorphe mit abgerundeten Ohren, ohne langen sichtbaren Schwanz.",
+      "didYouKnow": "Er erntet Pflanzen und trocknet sie in kleinen Haufen, um Reserven für den Verbrauch in der schlechten Jahreszeit aufzubauen."
+    },
+    {
+      "id": "photo-019",
+      "animal": "Mexikanische Langnasenfledermaus",
+      "recognition": "Fledermaus mit verlängerter Schnauze und kleinem Nasenblatt.",
+      "didYouKnow": "Seine Zunge kann bis zum Nektar am Boden der Blüten reichen und trägt so zu deren Bestäubung bei."
+    },
+    {
+      "id": "photo-020",
+      "animal": "Seeleopard",
+      "recognition": "Langer Kopf, breites Maul und oft gefleckter Hals.",
+      "didYouKnow": "Seine Backenzähne haben mehrere Spitzen, die kleine Beutetiere festhalten können, wenn Wasser aus dem Mund austritt."
+    },
+    {
+      "id": "photo-021",
+      "animal": "Südlicher Seeelefant",
+      "recognition": "Sehr großes Siegel; Der erwachsene Mann hat eine geschwollene Nase.",
+      "didYouKnow": "Mit der Erneuerung der Haut geht ein weitgehender Verlust alter Haare und Epidermis einher."
+    },
+    {
+      "id": "photo-022",
+      "animal": "Nördlicher Seebär",
+      "recognition": "Kleiner Kopf, Außenohren und dichtes dunkles Fell.",
+      "didYouKnow": "Während ihrer Fütterungsausflüge können die Weibchen weite Strecken zurücklegen, bevor sie zurückkehren, um ihre Jungen zu säugen."
+    },
+    {
+      "id": "photo-023",
+      "animal": "Fennek",
+      "recognition": "Kleiner heller Fuchs mit übergroßen Ohren.",
+      "didYouKnow": "Die Fußsohlen sind mit Haaren bedeckt, die den Halt auf dem Sand verbessern und ihn vom heißen Boden isolieren."
+    },
+    {
+      "id": "photo-024",
+      "animal": "Zwergmungo",
+      "recognition": "Kleiner Mungo mit kurzem Kopf und gesprenkeltem braunem Fell.",
+      "didYouKnow": "Mitglieder einer Gruppe pflegen möglicherweise ihre Mitmenschen, ein Verhalten, das soziale Bindungen aufrechterhält."
+    },
+    {
+      "id": "photo-025",
+      "animal": "Ginsterkatze",
+      "recognition": "Schlanker, gefleckter Körper und sehr langer, beringter Schwanz.",
+      "didYouKnow": "Die Gemeinschaftslatrinen können auf Felsen oder anderen hohen Stellen installiert werden."
+    },
+    {
+      "id": "photo-026",
+      "animal": "Afrikanische Zibetkatze",
+      "recognition": "Schwarze Maske um die Augen und große Flecken auf einem robusten Körper.",
+      "didYouKnow": "Es verbreitet die Samen bestimmter Früchte, die es verzehrt, und trägt so zur Erneuerung der Vegetation bei."
+    },
+    {
+      "id": "photo-027",
+      "animal": "Karakal",
+      "recognition": "Schlichtes rehbraunes Fell und lange schwarze Büschel an den Ohrenspitzen.",
+      "didYouKnow": "Es hat Polster und Plantarhaare, die eine lautlose Annäherung an seine Beute begünstigen."
+    },
+    {
+      "id": "photo-028",
+      "animal": "Fischerkatze",
+      "recognition": "Untersetzte Katze, kleine Ohren und graues Fell mit Flecken und Linien.",
+      "didYouKnow": "Die dichte Unterseite seines Fells trägt dazu bei, den direkten Kontakt von Wasser mit der Haut zu verhindern."
+    },
+    {
+      "id": "photo-029",
+      "animal": "Mähnenwolf",
+      "recognition": "Sehr lange schwarze Beine und rotes Fell mit dunkler Mähne.",
+      "didYouKnow": "Seine Jungen werden mit einem viel dunkleren Fell geboren als die erwachsenen Tiere."
+    },
+    {
+      "id": "photo-030",
+      "animal": "Marderhund",
+      "recognition": "Kurzbeiniger Canid mit dunkler Gesichtsmaske.",
+      "didYouKnow": "Paare können sich gemeinsam an der Aufzucht der Jungen beteiligen, wobei insbesondere das Männchen den Wurf bewacht."
+    },
+    {
+      "id": "photo-031",
+      "animal": "Okapi",
+      "recognition": "Dunkelbrauner Körper, giraffenartiger Kopf und weiße Streifen an den Gliedmaßen.",
+      "didYouKnow": "Die Jungen können lange Zeit an einem Rastplatz versteckt bleiben, während ihre Mutter woanders frisst."
+    },
+    {
+      "id": "photo-032",
+      "animal": "Malaysischer Tapir",
+      "recognition": "Kurzer Rumpf und breiter weißer Sattel im Kontrast zum schwarzen Vorder- und Hinterteil.",
+      "didYouKnow": "Seine Jungen haben helle Streifen und Flecken, die mit dem Wachstum allmählich verschwinden."
+    },
+    {
+      "id": "photo-033",
+      "animal": "Seidenameisenbär",
+      "recognition": "Winziger Baumameisenbär mit goldenem Fell und kurzer Schnauze.",
+      "didYouKnow": "Es ruht oft zusammengerollt, wobei Schnauze und Gliedmaßen unter dem Schwanz geschützt sind."
+    },
+    {
+      "id": "photo-034",
+      "animal": "Halsbandpekari",
+      "recognition": "Dunkler Körper, flacher Fang und helles Band um die Schultern.",
+      "didYouKnow": "Es verfügt über eine Rückendrüse, deren Geruchssekrete an der Erkennung zwischen Mitgliedern der Gruppe beteiligt sind."
+    },
+    {
+      "id": "photo-035",
+      "animal": "Guanako",
+      "recognition": "Kamelid mit gelbbraunem Rücken, hellem Bauch und grauem Gesicht.",
+      "didYouKnow": "Es kann in großen Höhen leben und seine Blutzellen sind wie die anderer Kameliden oval."
+    },
+    {
+      "id": "photo-036",
+      "animal": "Vicuna",
+      "recognition": "Kleines, schlankes Kamelid mit heller Brust und feinem gelbbraunem Fell.",
+      "didYouKnow": "Seine unteren Schneidezähne zeigen ein verlängertes Wachstum, das an die Beweidung von Schleifpflanzen angepasst ist."
+    },
+    {
+      "id": "photo-037",
+      "animal": "Moschusochse",
+      "recognition": "Langes Fell, das an den Seiten abfällt, und Hörner, die nach unten und dann nach oben gebogen sind.",
+      "didYouKnow": "Seine Unterwolle, Qiviut genannt, fällt während der Frühjahrsmauser auf natürliche Weise ab."
+    },
+    {
+      "id": "photo-038",
+      "animal": "Gaur",
+      "recognition": "Großes, dunkles Wildrind, starker Höcker auf den Schultern und helle Unterseite der Beine.",
+      "didYouKnow": "Weibchen können in Gruppen leben, während einige große erwachsene Männchen mehr Zeit alleine verbringen."
+    },
+    {
+      "id": "photo-039",
+      "animal": "Banteng",
+      "recognition": "Wildrinder mit weißen Unterschenkeln und einem hellen Bereich am Hinterteil.",
+      "didYouKnow": "Weibchen sind im Allgemeinen rotbraun, während viele erwachsene Männchen sehr dunkel werden."
+    },
+    {
+      "id": "photo-040",
+      "animal": "Addax",
+      "recognition": "Blasse Antilope mit langen gedrehten Hörnern und kontrastierender Gesichtsmaske.",
+      "didYouKnow": "Sein Fell wird in der warmen Jahreszeit heller und in der kalten Jahreszeit dunkler und voller."
+    },
+    {
+      "id": "photo-041",
+      "animal": "Säbelantilope",
+      "recognition": "Sehr leichter Körper, roter Hals und lange, nach hinten gebogene Hörner.",
+      "didYouKnow": "Wiederansiedlungsprogramme haben im Tschad Populationen aufgebaut, nachdem die Art dort in freier Wildbahn verschwunden war."
+    },
+    {
+      "id": "photo-042",
+      "animal": "Bongo",
+      "recognition": "Große rote Antilope, bedeckt mit dünnen vertikalen weißen Bändern.",
+      "didYouKnow": "Sowohl Männchen als auch Weibchen haben spiralförmige Hörner; die der Männchen sind im Allgemeinen massiver."
+    },
+    {
+      "id": "photo-043",
+      "animal": "Großer Kudu",
+      "recognition": "Graues oder braunes Fell mit weißen Streifen und sehr großen Ohren.",
+      "didYouKnow": "Männchen können bei Alarm laut bellen."
+    },
+    {
+      "id": "photo-044",
+      "animal": "Saola",
+      "recognition": "Braunes Rind mit hellen Gesichtszeichnungen und zwei langen, fast parallelen Hörnern.",
+      "didYouKnow": "Es wurde in den 1990er Jahren auf der Grundlage von Entdeckungen in der Annamite-Kette wissenschaftlich beschrieben."
+    },
+    {
+      "id": "photo-045",
+      "animal": "Nacktmulle",
+      "recognition": "Fast nackte Haut, kleine Augen und aus den Lippen hervorstehende Schneidezähne.",
+      "didYouKnow": "Arbeiter können sich in den engen Gängen ihrer Kolonie vorwärts oder rückwärts bewegen."
+    },
+    {
+      "id": "photo-046",
+      "animal": "Nashornvogel",
+      "recognition": "Großer gelb-orangefarbener Schnabel mit gebogenem Helm.",
+      "didYouKnow": "Männchen und Weibchen lassen sich bei Erwachsenen vor allem durch die Farbe der Iris unterscheiden."
+    },
+    {
+      "id": "photo-047",
+      "animal": "Graurücken-Leierschwanz",
+      "recognition": "Brauner Bodenvogel; Das Männchen hat einen langen Schwanz mit leierförmigen Federn.",
+      "didYouKnow": "Durch das Aufwirbeln von Streu zur Futtergewinnung verdrängt es große Mengen an Pflanzenmaterial und Erde."
+    },
+    {
+      "id": "photo-048",
+      "animal": "Helmkasuar",
+      "recognition": "Großer schwarzer Vogel mit blauem Hals, roten Kehllappen und Helm auf dem Kopf.",
+      "didYouKnow": "Seine Eier sind grünlich, eine ungewöhnliche Farbe bei großen Landvögeln."
+    },
+    {
+      "id": "photo-049",
+      "animal": "Hoazin",
+      "recognition": "Kopf mit blauer Haut und borstigem Kamm über einem braunen Körper.",
+      "didYouKnow": "Sein großes Verdauungssystem verringert den verfügbaren Platz für bestimmte Flugmuskeln, was zu seinen begrenzten Flugfähigkeiten beiträgt."
+    },
+    {
+      "id": "photo-050",
+      "animal": "Eclectus-Papagei",
+      "recognition": "Das Männchen ist grün mit einem orangefarbenen Schnabel; das Weibchen ist hauptsächlich rot und blauviolett.",
+      "didYouKnow": "Seine fleischige Zunge hilft ihm beim Umgang mit Nahrungsmitteln, insbesondere mit den Früchten, die es von Bäumen frisst."
+    },
+    {
+      "id": "photo-051",
+      "animal": "Schuhschnabel",
+      "recognition": "Großer grauer Watvogel mit einem massiven, hufförmigen Schnabel.",
+      "didYouKnow": "Bei bestimmten Interaktionen im Nest kann es zu einem hörbaren Schnabelklickgeräusch kommen."
+    },
+    {
+      "id": "photo-052",
+      "animal": "Scharlachroter Ibis",
+      "recognition": "Leuchtend rotes Gefieder und langer, dünner, nach unten gebogener Schnabel.",
+      "didYouKnow": "Seine Jungen haben zunächst ein graubraunes Gefieder; Die Rotfärbung entwickelt sich mit dem Alter und der Ernährung."
+    },
+    {
+      "id": "photo-053",
+      "animal": "Löffler",
+      "recognition": "Weißes Gefieder und schwarzer Schnabel, der an der Spitze verbreitert ist.",
+      "didYouKnow": "Jungtiere haben oft schwarze Spitzen an den großen Flügelfedern, die bei Erwachsenen weniger sichtbar sind."
+    },
+    {
+      "id": "photo-054",
+      "animal": "Langschwanz-Jacana",
+      "recognition": "Sehr lange Finger und im Brutkleid ein gestreckter Schwanz.",
+      "didYouKnow": "Seine sehr langen Finger verteilen sein Gewicht über schwimmende Vegetation und ermöglichen ihm so die Erkundung instabiler Oberflächen."
+    },
+    {
+      "id": "photo-055",
+      "animal": "Wasseramsel",
+      "recognition": "Kleiner dunkelbrauner Vogel mit einem großen weißen Plastron.",
+      "didYouKnow": "Eine Membran schützt seine Augen, wenn er das Wasser auf der Suche nach Nahrung erkundet."
+    },
+    {
+      "id": "photo-056",
+      "animal": "Roter Fichtenkreuzschnabel",
+      "recognition": "Die beiden Enden des Schnabels kreuzen sich, anstatt sich normal zu treffen.",
+      "didYouKnow": "Bei einigen Individuen ist der Schnabel nach links gekreuzt, bei anderen nach rechts."
+    },
+    {
+      "id": "photo-057",
+      "animal": "Kea",
+      "recognition": "Olivgrüner Bergpapagei mit schmalem, gebogenem Schnabel.",
+      "didYouKnow": "Junge Menschen haben gelbliche Bereiche um den Schnabel herum, die mit zunehmendem Alter verblassen."
+    },
+    {
+      "id": "photo-058",
+      "animal": "Dorfweber",
+      "recognition": "Kleiner gelber Vogel; Das Zuchtmännchen hat einen schwarzen Kopf.",
+      "didYouKnow": "Weibchen können mehrere Nester untersuchen, bevor sie einen Partner und dessen Arbeit annehmen."
+    },
+    {
+      "id": "photo-059",
+      "animal": "Siedelweber",
+      "recognition": "Kleiner brauner Sperlingsvogel mit schuppigem Rücken und schwarzem Latz.",
+      "didYouKnow": "Die Innenkammern eines großen Sammelnestes dämpfen Temperaturschwankungen stärker als die Randkammern."
+    },
+    {
+      "id": "photo-060",
+      "animal": "Prachtparadiesvogel",
+      "recognition": "Das Männchen ist überwiegend schwarz mit blaugrün schillernden Bereichen.",
+      "didYouKnow": "Der irisierende Farbton hängt vom Winkel ab, in dem das Licht auf die Federstrukturen trifft."
+    },
+    {
+      "id": "photo-061",
+      "animal": "Eichelspecht",
+      "recognition": "Kontrastierendes Gesicht, rote Kappe und helle Iris.",
+      "didYouKnow": "Er gräbt Lagerlöcher in Stämme, deren Ausmaße die Eicheln enthalten; Eine trockene Eichel kann in ein passenderes Loch verlagert werden."
+    },
+    {
+      "id": "photo-062",
+      "animal": "Braune Kiwi",
+      "recognition": "Vogel ohne sichtbaren Schwanz, fadenförmiges braunes Gefieder und sehr langer, dünner Schnabel.",
+      "didYouKnow": "Die Nasenlöcher der Kiwi befinden sich nahe der Schnabelspitze, eine für Vögel ungewöhnliche Position."
+    },
+    {
+      "id": "photo-063",
+      "animal": "Fächertaube",
+      "recognition": "Große blaugraue Taube mit zart gesäumtem, fächerförmigem Wappen.",
+      "didYouKnow": "Die Eltern füttern die Jungen wie andere Tauben mit einem nahrhaften Sekret aus dem Kropf."
+    },
+    {
+      "id": "photo-064",
+      "animal": "Violettturako",
+      "recognition": "Dunkelviolettes Gefieder, gelbe Stirn und roter Scheitel.",
+      "didYouKnow": "Es kann Früchte verschlucken und dann deren Samen abstoßen oder verteilen, was deren Verbreitung fördert."
+    },
+    {
+      "id": "photo-065",
+      "animal": "Kalifornischer Kondor",
+      "recognition": "Riesiger dunkler Geier mit großen weißen Flecken unter den Flügeln.",
+      "didYouKnow": "Ein Paar bringt in der Regel jeweils nur ein Ei hervor und investiert viel Zeit in die Betreuung der Jungen."
+    },
+    {
+      "id": "photo-066",
+      "animal": "Buschhuhn",
+      "recognition": "Schwarzer Vogel mit nacktem roten Kopf und gelbem Zweig.",
+      "didYouKnow": "Das Männchen passt die Materialschicht in seinem Bruthügel an, um die Temperatur zu verändern."
+    },
+    {
+      "id": "photo-067",
+      "animal": "Jungfernkranich",
+      "recognition": "Grauer Kranich mit schwarzem Hals und langen weißen Federn hinter den Augen.",
+      "didYouKnow": "Seine Wanderungen können dazu führen, dass er sehr hohe Reliefs durchquert und dabei günstige atmosphärische Bedingungen nutzt."
+    },
+    {
+      "id": "photo-068",
+      "animal": "Harpyienadler",
+      "recognition": "Massiver Adler mit grauem Kamm und sehr kräftigen Beinen.",
+      "didYouKnow": "Das Weibchen ist deutlich schwerer als das Männchen, was zu Unterschieden bei der Beute führt, die es tragen kann."
+    },
+    {
+      "id": "photo-069",
+      "animal": "Brauenmotmot",
+      "recognition": "Türkisblaue Augenbrauen und langer Schwanz, der in zwei Paddeln endet.",
+      "didYouKnow": "Die Schlägerform des Schwanzes entsteht, wenn sich einige der fragilen Federstacheln lösen."
+    },
+    {
+      "id": "photo-070",
+      "animal": "Kakapo",
+      "recognition": "Großer gesprenkelter grüner Papagei mit abgerundetem Gesicht, das an eine Eule erinnert.",
+      "didYouKnow": "Seine Aktivität ist hauptsächlich nachtaktiv und er kann einen charakteristischen moschusartigen oder fruchtigen Geruch verströmen."
+    },
+    {
+      "id": "photo-071",
+      "animal": "Schwarzer Palmkakadu",
+      "recognition": "Großer dunkler Kakadu mit kräftigem Kamm und nackter roter Wange.",
+      "didYouKnow": "Manche Männchen schlagen mit einem Stock auf eine hohle Unterlage und erzeugen so bei ihren Darbietungen einen Rhythmus."
+    },
+    {
+      "id": "photo-072",
+      "animal": "Behelmter Nashornvogel",
+      "recognition": "Nackter Hals und dicker Helm vor dem Schnabel.",
+      "didYouKnow": "Sein Ruf besteht aus einer Reihe von Tönen, die sich beschleunigen und mit einem an Lachen erinnernden Klang enden."
+    },
+    {
+      "id": "photo-073",
+      "animal": "Sekretärvogel",
+      "recognition": "Raubvogel mit sehr langen Beinen und schwarzen, hinter dem Kopf aufgerichteten Federn.",
+      "didYouKnow": "Seine langen Federn am Hinterkopf haben ihm Namen eingebracht, die an die alten Schreibfedern von Sekretärinnen erinnern."
+    },
+    {
+      "id": "photo-074",
+      "animal": "Eleganter Trogon",
+      "recognition": "Kurzer und breiter Schnabel, grüner Rücken und roter Bauch beim Männchen.",
+      "didYouKnow": "Seine Füße haben eine seltene Zehenanordnung: Die erste und zweite Zehe sind nach hinten gedreht."
+    },
+    {
+      "id": "photo-075",
+      "animal": "Elegantes Tinamou",
+      "recognition": "Gesprenkelter Landvogel mit feinem aufrechten Kamm.",
+      "didYouKnow": "Mehrere Weibchen können im selben Nest Eier legen, während ein Männchen brütet."
+    },
+    {
+      "id": "photo-076",
+      "animal": "Europäischer Bienenfresser",
+      "recognition": "Helle Mischung aus Gelb, Blau und Rotbraun, mit leicht gebogenem Schnabel.",
+      "didYouKnow": "Es gräbt einen Nisttunnel in einer Wand aus lockerer Erde, oft innerhalb einer Kolonie."
+    },
+    {
+      "id": "photo-077",
+      "animal": "Blauracke",
+      "recognition": "Türkisblaues Gefieder im Kontrast zu einem braunen Rücken.",
+      "didYouKnow": "Es nutzt gerne bereits vorhandene Höhlen zum Nisten, anstatt sie selbst zu graben."
+    },
+    {
+      "id": "photo-078",
+      "animal": "Wiedehopf",
+      "recognition": "Oranger Kamm mit schwarzen Spitzen und weiß-schwarz gestreiften Flügeln.",
+      "didYouKnow": "Die Jungen können sich am Nest verteidigen, indem sie einem Eindringling Exkremente entgegenwerfen."
+    },
+    {
+      "id": "photo-079",
+      "animal": "Papageitaucher",
+      "recognition": "Schwarz-weißer Körper, helles Gesicht und großer, bunter Schnabel in der Brutzeit.",
+      "didYouKnow": "Die Farbe und die scheinbare Form des Schnabels ändern sich außerhalb der Brutzeit nach dem Verlust einiger äußerer Strukturen."
+    },
+    {
+      "id": "photo-080",
+      "animal": "Krähenscharbe",
+      "recognition": "Dunkler, schlanker Seevogel mit dünnem Schnabel, manchmal einem kleinen Kamm.",
+      "didYouKnow": "Seine Küken kommen fast nackt zur Welt und sind lange Zeit auf die Wärme und Nahrungsaufnahme der Eltern angewiesen."
+    },
+    {
+      "id": "photo-081",
+      "animal": "Tordalk",
+      "recognition": "Schwarz-weißer Seevogel mit einem dicken, zusammengedrückten Schnabel, der bei Erwachsenen weiß gesäumt ist.",
+      "didYouKnow": "Das Weibchen legt in der Regel nur ein Ei pro Saison direkt auf einen Felsvorsprung oder in eine Felsspalte."
+    },
+    {
+      "id": "photo-082",
+      "animal": "Europäischer Ziegenmelker",
+      "recognition": "Fein marmoriertes graubraunes Gefieder und sehr große Maulöffnung.",
+      "didYouKnow": "Männchen können bei bestimmten Vorführungen Flügelklicks erzeugen."
+    },
+    {
+      "id": "photo-083",
+      "animal": "Thorshühnchen",
+      "recognition": "Kleiner schwimmender Küstenvogel mit feinem Schnabel; im Brutkleid ist der Hals rötlich.",
+      "didYouKnow": "Es kann sich auf der Wasseroberfläche umdrehen und eine Strömung erzeugen, die kleine Beutetiere näher an seinen Schnabel bringt."
+    },
+    {
+      "id": "photo-084",
+      "animal": "Pfuhlschnepfe",
+      "recognition": "Langer, leicht erhöhter Schnabel und lange Watvogelbeine.",
+      "didYouKnow": "Sein Körper kann vor einer langen Wanderung die Größe bestimmter Organe verändern, insbesondere seiner Reserven und seines Verdauungssystems."
+    },
+    {
+      "id": "photo-085",
+      "animal": "Orangebauchsittich",
+      "recognition": "Kleiner grüner Sittich mit einem orangefarbenen Fleck auf dem Bauch.",
+      "didYouKnow": "Es brütet in Tasmanien und überquert die Bassstraße, um seine australischen Überwinterungsgebiete zu erreichen."
+    },
+    {
+      "id": "photo-086",
+      "animal": "Rosakakadu",
+      "recognition": "Rosa Brust, grauer Rücken und kurzer heller Kamm.",
+      "didYouKnow": "Er kann kopfüber hängen und auf Stützen Luftspiele oder Rutschen ausführen."
+    },
+    {
+      "id": "photo-087",
+      "animal": "Spix-Ara",
+      "recognition": "Kleiner blauer Ara mit einem helleren blaugrauen Kopf.",
+      "didYouKnow": "Naturschutzprogramme hielten Individuen in Gefangenschaft, nachdem sie aus ihrem bekannten Wildgebiet verschwunden waren."
+    },
+    {
+      "id": "photo-088",
+      "animal": "Haubentaucher",
+      "recognition": "Langer Hals, dünner Schnabel und bunte Halskrause im Brutkleid.",
+      "didYouKnow": "Die Jungen können auf dem Rücken eines Elternteils zwischen den Flügelfedern getragen werden."
+    },
+    {
+      "id": "photo-089",
+      "animal": "Prachtfregattvogel",
+      "recognition": "Dunkler Seevogel mit langen, eckigen Flügeln und tief gegabeltem Schwanz.",
+      "didYouKnow": "Das Wachstum und die Abhängigkeit der Jungen können für einen Seevogel seiner Größe sehr lang sein."
+    },
+    {
+      "id": "photo-090",
+      "animal": "Truthahngeier",
+      "recognition": "Großer Dunkelgeier mit nacktem Truthahnkopf im Erwachsenenalter.",
+      "didYouKnow": "Es lässt seine Pfoten abkühlen, indem es sie mit flüssigem Kot verunreinigt, ein Mechanismus, der Urohidrose genannt wird."
+    },
+    {
+      "id": "photo-091",
+      "animal": "Gavial des Ganges",
+      "recognition": "Extrem lange und schmale Schnauze, gesäumt von zahlreichen feinen Zähnen.",
+      "didYouKnow": "Die Weibchen legen ihre Eier im Sand am Ufer ab und überwachen den Nistplatz."
+    },
+    {
+      "id": "photo-092",
+      "animal": "Mata-Mata-Schildkröte",
+      "recognition": "Breiter, abgeflachter Kopf mit Fransen, langer Hals und rauer Panzer.",
+      "didYouKnow": "Es verbringt viel Zeit regungslos am Meeresgrund und streckt zum Atmen seine röhrenförmige Nase zur Oberfläche."
+    },
+    {
+      "id": "photo-093",
+      "animal": "Schweinsnasenschildkröte",
+      "recognition": "Fleischige, nach oben gerichtete Nase und in Paddel verwandelte Gliedmaßen.",
+      "didYouKnow": "Obwohl es im Süßwasser lebt, legen seine Weibchen ihre Eier in sandigen Ufern über dem Wasser ab."
+    },
+    {
+      "id": "photo-094",
+      "animal": "Pfannkuchenschildkröte",
+      "recognition": "Sehr abgeflachte Schale, die ein Durchrutschen in Spalten ermöglicht.",
+      "didYouKnow": "Sie kann sich für eine Landschildkröte ungewöhnlich beweglich bewegen und felsige Oberflächen erklimmen."
+    },
+    {
+      "id": "photo-095",
+      "animal": "Brückenechse",
+      "recognition": "Graubrauner Reptilienkörper mit einem Kamm aus kleinen Stacheln auf dem Rücken.",
+      "didYouKnow": "Die Zähne des Unterkiefers schließen zwischen zwei oberen Reihen, eine ganz besondere Anordnung."
+    },
+    {
+      "id": "photo-096",
+      "animal": "Dornteufel",
+      "recognition": "Kleine, gedrungene Eidechse, die vollständig mit Stacheln bedeckt ist.",
+      "didYouKnow": "Ein falscher Stachelkopf hinter seinem Hals kann einem Raubtier präsentiert werden, wenn es seinen echten Kopf senkt."
+    },
+    {
+      "id": "photo-097",
+      "animal": "Kragenechse",
+      "recognition": "Um den Hals kann sich eine große Membran ausdehnen.",
+      "didYouKnow": "Er verbringt einen Großteil seiner Zeit in den Bäumen, obwohl seine defensiven Läufe am Boden berühmt sind."
+    },
+    {
+      "id": "photo-098",
+      "animal": "Blauzungenskink",
+      "recognition": "Massive Eidechse mit kleinen Beinen und einer großen blauen Zunge.",
+      "didYouKnow": "Seine Jungen werden lebend geboren und schlüpfen nicht außerhalb eines gelegten Eies."
+    },
+    {
+      "id": "photo-099",
+      "animal": "Kalifornische Königsschlange",
+      "recognition": "Glatter Körper, oft mit sehr kontrastierenden schwarzen und hellen Streifen.",
+      "didYouKnow": "Sie kann andere Schlangen fressen und ist gegen bestimmte Gifte ihrer Beute resistent, ohne gegen alle Gifte unverwundbar zu sein."
+    },
+    {
+      "id": "photo-100",
+      "animal": "Kuhls fliegender Gecko",
+      "recognition": "Gefranste Körperkonturen und breite Ausbuchtungen um die Gliedmaßen und den Schwanz.",
+      "didYouKnow": "Seine marmorierte Farbe und die unregelmäßigen Konturen verleihen seiner Silhouette einen sanfteren Kontrast zur Rinde."
+    },
+    {
+      "id": "photo-101",
+      "animal": "Sidewinder-Klapperschlange",
+      "recognition": "Über den Augen erheben sich kleine Schuppen und ein gedrungener Viperidenkörper.",
+      "didYouKnow": "Seine seitliche Bewegung reduziert den längeren Kontakt bestimmter Körperteile mit heißem Sand."
+    },
+    {
+      "id": "photo-102",
+      "animal": "Chuckwalla",
+      "recognition": "Robuste Eidechse mit breitem Bauch und faltiger Haut.",
+      "didYouKnow": "Wenn es sich in einem Felsspalt befindet, kann es seinen Körper aufblähen, wodurch es schwierig wird, es herauszuholen."
+    },
+    {
+      "id": "photo-103",
+      "animal": "Fidschi-Bänderleguan",
+      "recognition": "Hellgrüner Körper; das Männchen hat breite helle Bänder.",
+      "didYouKnow": "Das Weibchen gräbt ein Nest auf dem Boden, um seine Eier zu vergraben, die relativ lange brüten."
+    },
+    {
+      "id": "photo-104",
+      "animal": "Texas-gehörnte Eidechse",
+      "recognition": "Abgeflachter, gedrungener Körper mit einer Dornenkrone auf dem Kopf.",
+      "didYouKnow": "Wenn es sich bedroht fühlt, kann es seinen Körper abflachen und seine Stacheln auf den Angreifer richten."
+    },
+    {
+      "id": "photo-105",
+      "animal": "Gila-Krustenechse",
+      "recognition": "Holprige Haut, die ein schwarzes und orange-rosa Muster bildet.",
+      "didYouKnow": "Ein Großteil seiner Energiereserven ist als Fett im Schwanz gespeichert."
+    },
+    {
+      "id": "photo-106",
+      "animal": "Meeresleguan",
+      "recognition": "Dunkler Leguan mit kurzer Schnauze, kräftigem Kamm und langem, zusammengedrücktem Schwanz.",
+      "didYouKnow": "Seine kräftigen Krallen ermöglichen es ihm, sich auf Felsen zu verankern, die Wellen ausgesetzt sind."
+    },
+    {
+      "id": "photo-107",
+      "animal": "Gopherschildkröte",
+      "recognition": "Mäßig gewölbte Landschildkröte mit breiten, eingegrabenen Vorderbeinen.",
+      "didYouKnow": "Seine Höhlen dienen auch vielen anderen Tierarten als Zufluchtsort."
+    },
+    {
+      "id": "photo-108",
+      "animal": "Langhalsschildkröte",
+      "recognition": "Sehr verlängerter Hals, den die Schildkröte zur Seite faltet.",
+      "didYouKnow": "Wenn sich die Bedingungen ändern, kann es an Land Entfernungen zwischen verschiedenen Wasserquellen zurücklegen."
+    },
+    {
+      "id": "photo-109",
+      "animal": "Eierfressende Schlange",
+      "recognition": "Feine Schlange mit Kielschuppen und variablem braunen Muster.",
+      "didYouKnow": "Es kann bestimmte Schuppen aneinander reiben, um ein Abwehrgeräusch zu erzeugen."
+    },
+    {
+      "id": "photo-110",
+      "animal": "Paradies-Schmuckbaumnatter",
+      "recognition": "Schlanke Baumschlange, oft grün, schwarz und rot markiert.",
+      "didYouKnow": "Es jagt hauptsächlich kleine Baumwirbeltiere, insbesondere Eidechsen."
+    },
+    {
+      "id": "photo-111",
+      "animal": "Gebänderte Seeschlangen",
+      "recognition": "Dunkle Ringe am hellen Körper und abgeflachter, paddelförmiger Schwanz.",
+      "didYouKnow": "Männchen sind im Allgemeinen kleiner als Weibchen, was mit Unterschieden bei der Beute einhergeht."
+    },
+    {
+      "id": "photo-112",
+      "animal": "Grüne Python",
+      "recognition": "Grüne Pythons werden oft in Schleifen auf einem Zweig installiert.",
+      "didYouKnow": "Seine Jungen können gelb oder rötlich sein, bevor sie die grüne Farbe der Erwachsenen annehmen."
+    },
+    {
+      "id": "photo-113",
+      "animal": "Sandskink",
+      "recognition": "Glatter, spitz zulaufender Körper, kleine Beine und keilförmige Schnauze.",
+      "didYouKnow": "Seine Augenlider schützen die Augen vor Sandkörnern, wenn er sich unter der Oberfläche bewegt."
+    },
+    {
+      "id": "photo-114",
+      "animal": "Stacheliger Trionyx",
+      "recognition": "Flache, flexible Schale mit verlängerter Nase.",
+      "didYouKnow": "Erwachsene Männchen sind im Allgemeinen viel kleiner als Weibchen."
+    },
+    {
+      "id": "photo-115",
+      "animal": "Lederschildkröte",
+      "recognition": "Dunkler Panzer ohne große Schuppen, bedeckt mit langen Kielen.",
+      "didYouKnow": "Nach hinten gerichtete Strukturen säumen die Speiseröhre und erleichtern das Zurückhalten rutschiger Beute."
+    },
+    {
+      "id": "photo-116",
+      "animal": "Alligatorschildkröte",
+      "recognition": "Massiver Kopf, Hakenschnabel und drei Reihen kräftiger Höcker auf dem Panzer.",
+      "didYouKnow": "Es atmet Luft und muss trotz seines sehr aquatischen Lebens regelmäßig an die Oberfläche gelangen."
+    },
+    {
+      "id": "photo-117",
+      "animal": "Stirnlappenbasilisk",
+      "recognition": "Smaragdeidechse mit großem Kamm auf Kopf und Rücken, besonders bei Männchen.",
+      "didYouKnow": "Er ist ein guter Schwimmer und kann bei Gefahr ins Wasser flüchten."
+    },
+    {
+      "id": "photo-118",
+      "animal": "Schwarzer Kaiman",
+      "recognition": "Großes dunkles Krokodil mit einer Schnauze, die breiter ist als die des Gavials.",
+      "didYouKnow": "Weibchen bauen ein Nest aus Pflanzen und können die Jungen nach dem Schlüpfen verteidigen."
+    },
+    {
+      "id": "photo-119",
+      "animal": "Grüne Anolis",
+      "recognition": "Kleine, schlanke Eidechse, oft grün, mit einer rosafarbenen Wamme unter der Kehle.",
+      "didYouKnow": "Abhängig von mehreren Faktoren, einschließlich der Temperatur und seinem physiologischen Zustand, kann es von grün nach braun wechseln."
+    },
+    {
+      "id": "photo-120",
+      "animal": "Blindschleiche",
+      "recognition": "Langgestreckter Körper ohne Beine und Kopf, der nicht vom Rumpf zu unterscheiden ist.",
+      "didYouKnow": "Im Gegensatz zu Schlangen hat es bewegliche Augenlider, die es schließen kann."
+    },
+    {
+      "id": "photo-121",
+      "animal": "Tokay-Gecko",
+      "recognition": "Großer graublauer Gecko mit orangefarbenen Flecken.",
+      "didYouKnow": "Das Weibchen klebt seine Eier auf eine Unterlage; Die Schale härtet dann aus und hält sie während der Inkubation fest."
+    },
+    {
+      "id": "photo-122",
+      "animal": "Haubengecko",
+      "recognition": "Wimpernartige Fransen über den Augen und kleine Wülste entlang des Kopfes.",
+      "didYouKnow": "Die Art wurde in den 1990er Jahren in Neukaledonien gefunden, nachdem sie lange Zeit als ausgestorben galt."
+    },
+    {
+      "id": "photo-123",
+      "animal": "Ägyptische Dornschwanzagame",
+      "recognition": "Massive Eidechse, deren Schwanz Ringe aus starken Stacheln trägt.",
+      "didYouKnow": "Erwachsene ernähren sich hauptsächlich von Pflanzen und beziehen einen erheblichen Teil ihres Wassers aus der Nahrung."
+    },
+    {
+      "id": "photo-124",
+      "animal": "Wüstenpeitschenschwanzechse",
+      "recognition": "Kleine, schlanke Eidechse mit langem Schwanz und hellen Längslinien.",
+      "didYouKnow": "Diese Art stammt aus einer Evolutionsgeschichte, die die Hybridisierung von Ahnenlinien beinhaltet."
+    },
+    {
+      "id": "photo-125",
+      "animal": "Chinesischer Alligator",
+      "recognition": "Kleiner Alligator mit kurzer Schnauze und markierten Knochenplatten.",
+      "didYouKnow": "Die kalte Jahreszeit verbringt er geschützt in einem Bau und reduziert dann seine Aktivität stark."
+    },
+    {
+      "id": "photo-126",
+      "animal": "Gefleckte Seekatze",
+      "recognition": "Großer Kopf, große Augen und Körper, der in einen sehr dünnen Schwanz übergeht.",
+      "didYouKnow": "Seine Zähne sind in Platten gruppiert, die die harte Hülle bestimmter Beutetiere zerdrücken können."
+    },
+    {
+      "id": "photo-127",
+      "animal": "Zitteraal",
+      "recognition": "Langer Körper ohne sichtbare Rückenflosse und sehr ausgedehnte Afterflosse.",
+      "didYouKnow": "Seine elektrischen Organe bestehen aus spezialisierten Zellen, deren Entladungen sich vereinen können."
+    },
+    {
+      "id": "photo-128",
+      "animal": "Kugelfisch",
+      "recognition": "Runder Körper mit kleinen hellen Flecken und kurzer Schnauze.",
+      "didYouKnow": "Seine verschmolzenen Zähne bilden Platten, die hartschalige Beute zerkleinern können."
+    },
+    {
+      "id": "photo-129",
+      "animal": "Schützenfisch",
+      "recognition": "Komprimierter silberner Körper mit großen dunklen Markierungen auf den Oberseiten.",
+      "didYouKnow": "Es kompensiert die Auswirkungen der Brechung beim Zielen auf Beute über der Wasseroberfläche."
+    },
+    {
+      "id": "photo-130",
+      "animal": "Stör",
+      "recognition": "Spitze Schnauze, Barteln unter dem Kopf und Reihen von Knochenplatten.",
+      "didYouKnow": "Sein Skelett besteht größtenteils noch aus Knorpel, obwohl es zu einer Abstammungslinie von Knochenfischen gehört."
+    },
+    {
+      "id": "photo-131",
+      "animal": "Höhlenfisch",
+      "recognition": "In seiner Höhlenform ist der Körper blass und die Augen sind sehr klein oder fehlen.",
+      "didYouKnow": "Seine Seitenlinie erkennt Wasserbewegungen und kann ihm dabei helfen, Hindernisse und kleine Beutetiere im Dunkeln zu erkennen."
+    },
+    {
+      "id": "photo-132",
+      "animal": "Quastenflosser",
+      "recognition": "Robuste Schuppen und paarige Flossen auf fleischigen Lappen.",
+      "didYouKnow": "Es verfügt über ein rostrales Sinnesorgan, das an der Erkennung elektrischer Signale beteiligt ist."
+    },
+    {
+      "id": "photo-133",
+      "animal": "Vieräugiger Fisch",
+      "recognition": "Auffällige Augen sitzen sehr hoch am Kopf.",
+      "didYouKnow": "Das Weibchen bringt bereits gebildete Junge zur Welt, anstatt ein Gelege Eier ins Wasser zu entlassen."
+    },
+    {
+      "id": "photo-134",
+      "animal": "Marmor-Zitterrochen",
+      "recognition": "Abgerundete, marmorierte braune Scheibe und kurzer, dicker Schwanz.",
+      "didYouKnow": "Seine beiden elektrischen Organe stammen aus spezialisiertem Muskelgewebe und befinden sich auf beiden Seiten des Kopfes."
+    },
+    {
+      "id": "photo-135",
+      "animal": "Vieräugiger Falterfisch",
+      "recognition": "Hell gestreifter Körper und großer schwarzer Fleck mit weißem Rand im hinteren Bereich.",
+      "didYouKnow": "Ein Paar kann lange Zeit verbunden bleiben und einen Futterplatz am Riff verteidigen."
+    },
+    {
+      "id": "photo-136",
+      "animal": "Fähnchen-Falterfisch",
+      "recognition": "Weißer Körper, diagonal gestreift, gelber Rücken und schwarzer Streifen am Auge.",
+      "didYouKnow": "Sein kleines Maul ermöglicht es ihm, Nahrung aus unzugänglichen Ritzen des Riffs aufzunehmen."
+    },
+    {
+      "id": "photo-137",
+      "animal": "Schwarzer Geistermesserfisch",
+      "recognition": "Schwarzer, klingenartiger Körper, leichte Schwanzzeichnung und lange, gewellte Afterflosse.",
+      "didYouKnow": "Es sendet schwache elektrische Signale aus, die ihm helfen, seine Umgebung im Dunkeln zu erkunden."
+    },
+    {
+      "id": "photo-138",
+      "animal": "Seewolf",
+      "recognition": "Großer Kopf mit kräftigen Zähnen und langer Körper mit durchgehender Rückenflosse.",
+      "didYouKnow": "Seine Mahlzähne werden erneuert, was den Verschleiß durch die Panzer seiner Beute ausgleicht."
+    },
+    {
+      "id": "photo-139",
+      "animal": "Igelfisch",
+      "recognition": "Große Augen und lange Stacheln, die um den Körper wachsen können.",
+      "didYouKnow": "Nachts sucht er möglicherweise nach Weichtieren und Krebstieren, die er mit seinen kräftigen Kiefern zerquetscht."
+    },
+    {
+      "id": "photo-140",
+      "animal": "Kofferfisch",
+      "recognition": "Eckiger Körper, umgeben von einer Panzerung; Die Jungen sind gelb mit schwarzen Flecken.",
+      "didYouKnow": "Beim Schwimmen stützt er sich hauptsächlich auf kleine Flossen, die ihm ein präzises Manövrieren bei niedriger Geschwindigkeit ermöglichen."
+    },
+    {
+      "id": "photo-141",
+      "animal": "Fledermausfisch",
+      "recognition": "Sehr abgeflachter Körper, stützenähnliche Flossen und rote Lippen.",
+      "didYouKnow": "Auf seinem Kopf befindet sich ein einziehbarer Köder, der dabei hilft, kleine Beute anzulocken."
+    },
+    {
+      "id": "photo-142",
+      "animal": "Elefantenrüsselfisch",
+      "recognition": "Eine flexible Verlängerung der Unterlippe bildet einen kleinen Rüssel.",
+      "didYouKnow": "Für einen Fisch seiner Größe hat er ein relativ großes Gehirn."
+    },
+    {
+      "id": "photo-143",
+      "animal": "Krötenfisch",
+      "recognition": "Breiter, abgeflachter Kopf, großes Maul und braun gefleckter Körper.",
+      "didYouKnow": "Während der Brutzeit erzeugt das Männchen mit seiner Schwimmblase Geräusche."
+    },
+    {
+      "id": "photo-144",
+      "animal": "Soldatenfisch",
+      "recognition": "Goldfisch mit sehr großen Augen und einem ziemlich großen Körper.",
+      "didYouKnow": "Tagsüber hält es sich oft im Schatten auf und wird nachts aktiver bei der Nahrungsaufnahme."
+    },
+    {
+      "id": "photo-145",
+      "animal": "Napoleon-Lippfisch",
+      "recognition": "Großer Lippfisch mit dicken Lippen und einer geschwollenen Stirn bei großen Individuen.",
+      "didYouKnow": "Es schläft möglicherweise in einem Riffschutz und kehrt regelmäßig zu vertrauten Ruheplätzen zurück."
+    },
+    {
+      "id": "photo-146",
+      "animal": "Epaulettenhai",
+      "recognition": "Kleiner Braunhai mit einem großen dunklen Fleck, der hinter jeder Brustflosse von Licht umgeben ist.",
+      "didYouKnow": "Es kann vorübergehend sehr niedrigen Sauerstoffkonzentrationen standhalten, indem es seine Aktivität und physiologische Funktion verändert."
+    },
+    {
+      "id": "photo-147",
+      "animal": "Einhornfisch",
+      "recognition": "Auf der Stirn erwachsener Personen kann eine Ausstülpung auftreten.",
+      "didYouKnow": "Wie andere Doktorfische trägt er nahe der Schwanzbasis schneidende Strukturen."
+    },
+    {
+      "id": "photo-148",
+      "animal": "Rasiermesserfisch",
+      "recognition": "Sehr zusammengedrückter und langer Körper, normalerweise mit gesenktem Kopf gehalten.",
+      "didYouKnow": "Es kann sich in der Nähe der Stacheln großer Seeigel aufhalten, die ihm Schutz vor bestimmten Raubtieren bieten."
+    },
+    {
+      "id": "photo-149",
+      "animal": "Büffelkopf-Papageifisch",
+      "recognition": "Sehr hohe Stirn und zusammengewachsene Zähne, die einen massiven Schnabel bilden.",
+      "didYouKnow": "Seine Bisse tragen zur Sandproduktion bei, indem sie Kalksteinmaterialien aus dem Riff zermahlen."
+    },
+    {
+      "id": "photo-150",
+      "animal": "Kaiserfisch",
+      "recognition": "Erwachsene tragen dünne gelbe und blaue Bänder und eine dunkle Maske.",
+      "didYouKnow": "Jugendliche weisen ein Muster aus Kreisen und Kurven auf, das sich stark von den erwachsenen Banden unterscheidet."
+    },
+    {
+      "id": "photo-151",
+      "animal": "Laufwels",
+      "recognition": "Langer dunkler Körper, breite Barteln und ausgestreckte Rücken- und Afterflossen.",
+      "didYouKnow": "Ein zusätzliches Atmungsorgan ermöglicht es ihm, bei ungünstigen Wasserbedingungen Sauerstoff aus der Luft zu nutzen."
+    },
+    {
+      "id": "photo-152",
+      "animal": "Französischer Kaiserfisch",
+      "recognition": "Dunkler Körper mit gelb umrandeten Schuppen und hellem Umriss um das Auge.",
+      "didYouKnow": "Junge Menschen können andere Fische reinigen, indem sie ihnen kleine Organismen aus der Haut nehmen."
+    },
+    {
+      "id": "photo-153",
+      "animal": "Kupferstreifen-Pinzettfisch",
+      "recognition": "Lange, dünne Schnauze und vertikale orangefarbene Streifen auf einem hellen Körper.",
+      "didYouKnow": "Seine schlanke Silhouette ermöglicht es ihm, zwischen Riffformationen zu manövrieren und dort nach kleinen Wirbellosen zu suchen."
+    },
+    {
+      "id": "photo-154",
+      "animal": "Roter Husarenfisch",
+      "recognition": "Roter Körper mit hellen Längslinien und großen Augen.",
+      "didYouKnow": "Es kann Geräusche abgeben, die die mit seiner Schwimmblase verbundenen Strukturen betreffen."
+    },
+    {
+      "id": "photo-155",
+      "animal": "Schlammspringer",
+      "recognition": "Die Augen befinden sich oben am Kopf und die Brustflossen dienen als Stützen.",
+      "didYouKnow": "Es kann seine Augen feucht halten, indem es sie in Höhlen unter den Augenhöhlen zurückzieht."
+    },
+    {
+      "id": "photo-156",
+      "animal": "Krokodilfisch",
+      "recognition": "Sehr abgeflachter Kopf, gesäumte Augen und marmoriertes Fell.",
+      "didYouKnow": "Es jagt vom Pirsch aus und setzt dabei eher auf Unbeweglichkeit und Tarnung als auf lange Verfolgungsjagden."
+    },
+    {
+      "id": "photo-157",
+      "animal": "Harlekin-Geisterpfeifenfisch",
+      "recognition": "Sternenförmiger Körper mit feinen Fortsätzen und langer röhrenförmiger Schnauze.",
+      "didYouKnow": "Das Weibchen trägt die Eier möglicherweise in einer Tasche, die von seinen Bauchflossen gebildet wird."
+    },
+    {
+      "id": "photo-158",
+      "animal": "Afrikanischer Lungenfisch",
+      "recognition": "Langgestreckter Körper und paarweise zu Filamenten reduzierte Flossen.",
+      "didYouKnow": "Wenn es austrocknet, kann es einen Schleimkokon im Boden bilden und seinen Stoffwechsel stark verlangsamen."
+    },
+    {
+      "id": "photo-159",
+      "animal": "Blauer Papageienfisch",
+      "recognition": "Großer Fisch mit blauem Körper und in einem Schnabel vereinten Zähnen.",
+      "didYouKnow": "Es verfügt über einen Mahlapparat im Rachenraum, der die aufgenommenen Stoffe auch nach dem Biss weiter zerkleinert."
+    },
+    {
+      "id": "photo-160",
+      "animal": "Mandarinenfisch",
+      "recognition": "Der Körper ist mit geschwungenen Linien in Blau, Orange und Grün verziert.",
+      "didYouKnow": "Seine Haut produziert Schleim, der zum Schutz beiträgt, und er hat nicht die für viele Fische typischen Schuppen."
+    },
+    {
+      "id": "photo-161",
+      "animal": "Zebrahai",
+      "recognition": "Sehr langer Schwanz; Erwachsene sind im Gegensatz zu gestreiften Jungtieren gefleckt.",
+      "didYouKnow": "Erwachsene verbringen den Tag oft am Boden und werden nachts aktiver."
+    },
+    {
+      "id": "photo-162",
+      "animal": "Gefleckter Adlerrochen",
+      "recognition": "Große Scheibe mit dreieckigen Flügeln, geflecktem Rücken und langem, dünnem Schwanz.",
+      "didYouKnow": "Seine Zähne bilden Platten, die die Schalen von Weichtieren und anderen Beutetieren vom Boden aus zerdrücken können."
+    },
+    {
+      "id": "photo-163",
+      "animal": "Banggai-Kardinalfisch",
+      "recognition": "Große Flossen, vertikale schwarze Streifen und weiße Interpunktionen.",
+      "didYouKnow": "Das Männchen behält die Eier und dann die Jungen während eines Teils ihrer Entwicklung im Maul."
+    },
+    {
+      "id": "photo-164",
+      "animal": "Walhai",
+      "recognition": "Sehr großer Hai mit abgeflachtem Kopf und einem mit hellen Linien und Punkten gerasterten Rücken.",
+      "didYouKnow": "Jedes Individuum weist ein hinreichend ausgeprägtes Fleckenmuster auf, das zu seiner fotografischen Identifizierung beiträgt."
+    },
+    {
+      "id": "photo-165",
+      "animal": "Rotfeuerfisch",
+      "recognition": "Lange Stacheln und große gestreifte Flossen breiten sich fächerförmig aus.",
+      "didYouKnow": "Mit seinen Brustflossen kann er kleine Beutetiere erlegen, bevor er sie aufsaugt."
+    },
+    {
+      "id": "photo-166",
+      "animal": "Achtpunktiger Kiefernprachtkäfer",
+      "recognition": "Kleiner Käfer mit blauen metallischen Reflexen und gelben Flecken.",
+      "didYouKnow": "Seine metallischen Akzente entstehen größtenteils durch die Art und Weise, wie seine Nagelhautstrukturen mit Licht interagieren."
+    },
+    {
+      "id": "photo-167",
+      "animal": "Eichelbohrer",
+      "recognition": "Brauner Käfer mit sehr langem und dünnem Rostrum.",
+      "didYouKnow": "Das Weibchen durchbohrt eine Eichel, um ein Ei abzulegen; Die Larve setzt dann ihre Entwicklung im Inneren fort."
+    },
+    {
+      "id": "photo-168",
+      "animal": "Alpenbock",
+      "recognition": "Graublauer Bockkäfer mit schwarzen Flecken und sehr verlängerten Fühlern.",
+      "didYouKnow": "Die Larvenentwicklung im Holz kann mehrere Jahre dauern, bevor das erwachsene Tier schlüpft."
+    },
+    {
+      "id": "photo-169",
+      "animal": "Gelbrandkäfer",
+      "recognition": "Großer dunkler ovaler Käfer, umgeben von einem hellen Rand.",
+      "didYouKnow": "Seine abgeflachten, borstenbesetzten Hinterbeine funktionieren wie Ruder."
+    },
+    {
+      "id": "photo-170",
+      "animal": "Philippinisches Wandelndes Blatt",
+      "recognition": "Sehr abgeflachter Körper, dessen Ausdehnungen einem Blatt ähneln.",
+      "didYouKnow": "Frisch geschlüpfte Jungtiere können eine ganz andere Farbe haben als das Grün älterer Tiere."
+    },
+    {
+      "id": "photo-171",
+      "animal": "Wasserskorpion",
+      "recognition": "Abgeflachter brauner Körper, hinreißende Vorderbeine und lange Röhre hinten.",
+      "didYouKnow": "Der am Ende des Bauches sichtbare Schlauch dient zum Atmen bei Kontakt mit Luft und nicht zum Stechen."
+    },
+    {
+      "id": "photo-172",
+      "animal": "Gewöhnliche Maulwurfsgrille",
+      "recognition": "Samtig brauner Körper und schaufelartig vergrößerte Vorderbeine.",
+      "didYouKnow": "Der Mann nutzt eine unterirdische Galerie als Verstärker für sein Lied."
+    },
+    {
+      "id": "photo-173",
+      "animal": "Prachtbiene",
+      "recognition": "Kompakter Körper mit leuchtender Metallic-Farbe.",
+      "didYouKnow": "Die von den Männchen gesammelten Geruchsmoleküle bilden ein Gemisch, das in ihre Fortpflanzungssignale eingreift."
+    },
+    {
+      "id": "photo-174",
+      "animal": "Asiatische Weberameise",
+      "recognition": "Schlanke Ameise mit langen Beinen; seine Färbung kann je nach Population variieren.",
+      "didYouKnow": "Arbeiter können ihre Körper verbinden, um die Ränder entfernter Blätter zusammenzuziehen."
+    },
+    {
+      "id": "photo-175",
+      "animal": "Bombardierkäfer",
+      "recognition": "Kleiner Käfer mit dunklen Flügeldecken und orangefarbenem Kopf und Brustkorb.",
+      "didYouKnow": "Die Substanzen seiner chemischen Abwehr werden gelagert und vor dem Ausstoß in einem speziellen Gerät gemischt."
+    },
+    {
+      "id": "photo-176",
+      "animal": "Zischende Kakerlake aus Madagaskar",
+      "recognition": "Große dunkle Kakerlake ohne funktionierende Flügel und abgerundetem Brustkorb.",
+      "didYouKnow": "Das Weibchen behält die Eier in seinem Körper, bis sie schlüpfen, und bringt dann junge lebende Kakerlaken zur Welt."
+    },
+    {
+      "id": "photo-177",
+      "animal": "Taumelkäfer",
+      "recognition": "Kleiner, glänzend ovaler Käfer, der schnell auf der Wasseroberfläche kreist.",
+      "didYouKnow": "Seine kurzen Antennen erkennen Oberflächenstörungen, die um ihn herum entstehen."
+    },
+    {
+      "id": "photo-178",
+      "animal": "Große Eintagsfliege",
+      "recognition": "Im Ruhezustand sind die Flügel aufgerichtet und am Ende des Hinterleibs sind lange Fäden zu sehen.",
+      "didYouKnow": "Seine Larven können sich in die Sedimente eingraben und so an der Neuordnung des Gewässerbodens beteiligt sein."
+    },
+    {
+      "id": "photo-179",
+      "animal": "Admiral",
+      "recognition": "Dunkle Flügel mit rot-orangefarbenen Streifen und weißen Punkten an den Spitzen.",
+      "didYouKnow": "Es kann sich neben Blütennektar auch von sehr reifen Früchten und Saft ernähren."
+    },
+    {
+      "id": "photo-180",
+      "animal": "Pfauenfangschreckenkrebs",
+      "recognition": "Sehr farbenfrohes Krebstier mit gestielten Augen und massiven Vorderanhängseln.",
+      "didYouKnow": "Sein Schlag kann eine Kavitationsblase erzeugen; Der Zusammenbruch dieser Blase verstärkt zusätzlich den anfänglichen Schock."
+    },
+    {
+      "id": "photo-181",
+      "animal": "Gemeines Perlboot",
+      "recognition": "Helles Spiralgehäuse mit braunen Bändern und zahlreichen Tentakeln ohne Saugnäpfe.",
+      "didYouKnow": "Es stößt Wasser durch einen verstellbaren Siphon aus, der es ihm ermöglicht, sich selbst anzutreiben und seine Bewegungen zu lenken."
+    },
+    {
+      "id": "photo-182",
+      "animal": "Nacktschnecke Chromodoris annae",
+      "recognition": "Blaue Meeresschnecke mit schwarzen Linien und gelb-orangefarbenem Rand.",
+      "didYouKnow": "Er ernährt sich von Meeresschwämmen, denen er mit seinem Mundapparat Gewebe entnimmt."
+    },
+    {
+      "id": "photo-183",
+      "animal": "Zebrakrabbe",
+      "recognition": "Kleine helle Krabbe, bedeckt mit sehr kontrastierenden dunklen Bändern.",
+      "didYouKnow": "Seine Beine haben Anpassungen, die ihm helfen, sich zwischen den Stacheln von Seeigeln festzuhalten."
+    },
+    {
+      "id": "photo-184",
+      "animal": "Boxerkrabbe",
+      "recognition": "Kleine Krabbe mit geometrischen Mustern, manchmal trägt sie in jeder Klaue eine Anemone.",
+      "didYouKnow": "Seine sehr speziellen Krallen sind an bestimmte klassische Ernährungsmanipulationen anderer Krabben weniger angepasst."
+    },
+    {
+      "id": "photo-185",
+      "animal": "Tote Mannshand",
+      "recognition": "Orangefarbene oder hellfleischige Kolonie, die in fingerartige Lappen unterteilt ist.",
+      "didYouKnow": "Jeder kleine Polyp in der Kolonie trägt acht gefiederte Tentakel, die Nahrungspartikel einfangen."
+    },
+    {
+      "id": "photo-186",
+      "animal": "Mittelmeer-Haarstern",
+      "recognition": "Zahlreiche gefiederte Arme strahlenförmig um eine kleine zentrale Scheibe herum.",
+      "didYouKnow": "Sie kann sich durch Krabbeln mit ihren Gliedmaßen fortbewegen und manchmal auch mit ihren Armbewegungen schwimmen."
+    },
+    {
+      "id": "photo-187",
+      "animal": "Smaragd-Elysia",
+      "recognition": "Grüne Nacktschnecke, deren seitliche Ausdehnung eine Blattform ergibt.",
+      "didYouKnow": "Die Jungen müssen eine bestimmte Alge fressen, um die Chloroplasten zu erhalten, die für einen Teil ihrer grünen Farbe verantwortlich sind."
+    },
+    {
+      "id": "photo-188",
+      "animal": "Weihnachtsbaumwurm",
+      "recognition": "Aus einem am Substrat befestigten Rohr ragen zwei farbige Spiralkronen heraus.",
+      "didYouKnow": "Es kann seine Kronen sehr schnell in seine Röhre zurückziehen, wenn ein Schatten oder eine Störung Gefahr ankündigt."
+    },
+    {
+      "id": "photo-189",
+      "animal": "Bart-Feuerborstenwurm",
+      "recognition": "Segmentierter Wurm mit weißen Büscheln an den Seiten.",
+      "didYouKnow": "Seine Borsten können sich von der Haut eines Tieres, das sie berührt, lösen und erhebliche Reizungen verursachen."
+    },
+    {
+      "id": "photo-190",
+      "animal": "Grottenolm",
+      "recognition": "Blasser, länglicher Salamander mit kleinen Beinen und äußeren Kiemen.",
+      "didYouKnow": "Sein Lebenszyklus ist langsam und Individuen können mehrere Jahrzehnte unter günstigen Bedingungen leben."
+    },
+    {
+      "id": "photo-191",
+      "animal": "Pipa aus Surinam",
+      "recognition": "Sehr abgeflachte Kröte mit dreieckigem Kopf und rauer bräunlicher Haut.",
+      "didYouKnow": "Die Finger seiner Vorderpfoten tragen kleine Sinnesäste, die für die Erkundung des Bodens nützlich sind."
+    },
+    {
+      "id": "photo-192",
+      "animal": "Fleischmanns Glasfrosch",
+      "recognition": "Kleiner grüner Frosch mit Fingern, die mit Scheiben ausgestattet sind, und einer durchscheinenden Bauchfläche.",
+      "didYouKnow": "Seine scheibenförmigen Finger helfen ihm, sich an Blättern in feuchter Vegetation festzuhalten."
+    },
+    {
+      "id": "photo-193",
+      "animal": "Taita-Blindwühle",
+      "recognition": "Beinlose Amphibie mit einem beringten Körper, der an einen Wurm erinnert.",
+      "didYouKnow": "Er lebt überwiegend vergraben im Boden und sucht dort nach kleinen Wirbellosen."
+    },
+    {
+      "id": "photo-194",
+      "animal": "Stummelfüßer Euperipatoides rowelli",
+      "recognition": "Langer, samtiger Körper mit vielen Paaren kleiner, fleischiger Beine.",
+      "didYouKnow": "Bei dieser australischen Art werden die Jungen lebend geboren, während andere Onychophoren Eier legen."
+    },
+    {
+      "id": "photo-195",
+      "animal": "Amerikanischer Pfeilschwanzkrebs",
+      "recognition": "Gewölbter Hufeisenpanzer und lange Schwanzspitze.",
+      "didYouKnow": "Der Schwanz dient insbesondere als Hebel, um sich beim Umdrehen auf die richtige Seite zu drehen."
+    },
+    {
+      "id": "photo-196",
+      "animal": "Wespenspinne",
+      "recognition": "Der Hinterleib des Weibchens ist gelb, schwarz und weiß gestreift.",
+      "didYouKnow": "Das Weibchen hüllt seine Eier in einen Seidenkokon, der die schlechte Jahreszeit in der Vegetation verbringen kann."
+    },
+    {
+      "id": "photo-197",
+      "animal": "Wasserspinne",
+      "recognition": "Braune Spinne, deren Körper unter Wasser silbern aussehen kann.",
+      "didYouKnow": "Seine Haare halten beim Tauchen eine Luftschicht um den Bauch zurück."
+    },
+    {
+      "id": "photo-198",
+      "animal": "Wallaces fliegender Frosch",
+      "recognition": "Grüner Frosch mit sehr langen, weit vernetzten Fingern.",
+      "didYouKnow": "Seine Gelege entwickeln sich in Moosnestern, die mit der Vegetation über dem Wasser verbunden sind."
+    },
+    {
+      "id": "photo-199",
+      "animal": "Japanischer Riesensalamander",
+      "recognition": "Sehr große Amphibie mit abgeflachtem Kopf und stark faltiger dunkler Haut.",
+      "didYouKnow": "Ein Männchen kann durch die Bewegungen seines Schwanzes eine Nisthöhle bewachen und die Eier auffächern."
+    },
+    {
+      "id": "photo-200",
+      "animal": "Hirschkäfer",
+      "recognition": "Das Männchen hat große, verzweigte Mandibeln, die an ein Geweih erinnern.",
+      "didYouKnow": "Weibchen haben kürzere Mandibeln als große Männchen, können aber effektiv kneifen."
+    }
+  ]
+}

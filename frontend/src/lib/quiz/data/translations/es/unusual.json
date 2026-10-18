@@ -1,0 +1,2806 @@
+{
+  "sourceSha256": "475ce01b588597d021430c6b280c4a9eecbaecc62ebdcf7be4bc4515978b1f4d",
+  "locale": "es",
+  "questions": [
+    {
+      "id": "unusual-001",
+      "animal": "pulpo",
+      "prompt": "¿Cuantos corazones tiene un pulpo?",
+      "options": [
+        "solo uno",
+        "cuatro",
+        "dos",
+        "tres"
+      ],
+      "explanation": "Dos bombean sangre a las branquias y el tercero al resto del cuerpo.",
+      "didYouKnow": "Su sangre azul contiene hemocianina, una molécula de cobre que transporta oxígeno.",
+      "imageCaption": "Octopus vulgaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-002",
+      "animal": "pulpo",
+      "prompt": "¿Qué pigmento respiratorio le da a la sangre del pulpo su color azul?",
+      "options": [
+        "hemoglobina",
+        "mioglobina",
+        "hemocianina",
+        "clorocruorina"
+      ],
+      "explanation": "Esta proteína de cobre transporta oxígeno en la sangre de los pulpos.",
+      "didYouKnow": "En muchos pulpos, la hembra guarda y ventila los huevos hasta que eclosionan.",
+      "imageCaption": "Octopus vulgaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-003",
+      "animal": "pulpo",
+      "prompt": "¿Qué parte del sistema nervioso de un pulpo hay en cada uno de sus brazos?",
+      "options": [
+        "Tendones conectados al cerebro.",
+        "Ganglios sin neuronas",
+        "Grupos de neuronas",
+        "huesecillos articulados"
+      ],
+      "explanation": "Sus brazos pueden procesar localmente información sensorial y coordinar movimientos.",
+      "didYouKnow": "Mientras nada, el corazón que envía sangre al cuerpo deja de latir brevemente; Por lo tanto, el pulpo a menudo se mueve arrastrándose.",
+      "imageCaption": "Octopus vulgaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-004",
+      "animal": "pulpo",
+      "prompt": "¿Cómo puede un pulpo pasar por una abertura muy estrecha?",
+      "options": [
+        "Ella mete sus ocho brazos en una bolsa.",
+        "Se desata los brazos antes de pasar.",
+        "Su cuerpo carece de un esqueleto rígido.",
+        "Desinfla sus branquias para aplanarse."
+      ],
+      "explanation": "Su pico es la parte dura que más frecuentemente limita el paso.",
+      "didYouKnow": "Algunos pulpos pueden regenerar un brazo perdido, aunque volver a crecer lleva tiempo.",
+      "imageCaption": "Octopus vulgaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-005",
+      "animal": "pulpo",
+      "prompt": "¿Qué órgano duro suele ser el límite para que un pulpo pase por una grieta?",
+      "options": [
+        "su abrigo",
+        "su pico",
+        "su radula",
+        "sus ojos"
+      ],
+      "explanation": "El resto de su cuerpo es flexible y puede comprimirse en espacios reducidos.",
+      "didYouKnow": "El pulpo de los cocoteros a veces lleva conchas para hacer un refugio móvil.",
+      "imageCaption": "Octopus vulgaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-006",
+      "animal": "pulpo",
+      "prompt": "¿Qué cambio de piel ayuda a algunos pulpos a camuflarse?",
+      "options": [
+        "Modifican el color y la textura.",
+        "Ella solo cambia la forma de sus pupilas.",
+        "Solo cambia el brillo",
+        "Secreta una concha transparente."
+      ],
+      "explanation": "Las células pigmentarias y los músculos de la piel permiten cambios rápidos.",
+      "didYouKnow": "Los experimentos muestran que algunos pulpos perciben luz polarizada.",
+      "imageCaption": "Octopus vulgaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-007",
+      "animal": "onicófora",
+      "prompt": "¿Cómo suele capturar un onicóforo un pequeño artrópodo?",
+      "options": [
+        "Lo atrapa con una red de seda.",
+        "Lo encierra en una concha de piedra caliza.",
+        "La pica con un aguijón de cola.",
+        "Proyecta una secreción pegajosa de las papilas cercanas a la boca."
+      ],
+      "explanation": "Hilos de moco pegajoso enredan a la presa y la inmovilizan.",
+      "didYouKnow": "La cabeza de la onychophora tiene un par de antenas sensoriales y pequeñas mandíbulas quitinosas.",
+      "imageCaption": "Euperipatoides rowelli, un ejemplo de onicóforo."
+    },
+    {
+      "id": "unusual-008",
+      "animal": "pulpo",
+      "prompt": "¿Qué hacen las ventosas de un pulpo cuando explora un objeto?",
+      "options": [
+        "Para detectar señales químicas y tocar.",
+        "Masticar presa",
+        "Para filtrar plancton",
+        "Para impulsar al animal"
+      ],
+      "explanation": "Las ventosas son a la vez herramientas de agarre y órganos sensoriales.",
+      "didYouKnow": "El pulpo tiene tres corazones, dos de los cuales envían sangre a las branquias.",
+      "imageCaption": "Octopus vulgaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-009",
+      "animal": "pulpo",
+      "prompt": "¿Cómo expulsa un pulpo agua rápidamente para moverse?",
+      "options": [
+        "por los brazos",
+        "A través de un sifón",
+        "Por boca",
+        "A través de las branquias"
+      ],
+      "explanation": "Dirige este chorro de agua para avanzar o cambiar de dirección.",
+      "didYouKnow": "En muchos pulpos, la pupila se alarga horizontalmente.",
+      "imageCaption": "Octopus vulgaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-010",
+      "animal": "nautilo",
+      "prompt": "¿Qué ventaja le da al nautilo su capa exterior compartimentada?",
+      "options": [
+        "Un bolsillo que almacena tinta.",
+        "Un reservorio de veneno",
+        "Ofrece habitaciones que te permiten ajustar tu flotabilidad.",
+        "Un órgano nadador"
+      ],
+      "explanation": "El nautilo regula su flotabilidad cambiando la cantidad de líquido y gas en las cámaras desocupadas de su caparazón.",
+      "didYouKnow": "A diferencia de la mayoría de los otros cefalópodos, el nautilo no tiene saco de tinta.",
+      "imageCaption": "Nautilus pompilius: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-011",
+      "animal": "nautilo",
+      "prompt": "¿Qué estructura ayuda al nautilo a ajustar su flotabilidad en su caparazón?",
+      "options": [
+        "los tentáculos",
+        "un sifúnculo",
+        "cromatóforos",
+        "estatocistos"
+      ],
+      "explanation": "Este tejido atraviesa los tabiques y participa en el intercambio de líquido y gas.",
+      "didYouKnow": "El nautilo es un carroñero y a menudo localiza su alimento utilizando moléculas olorosas en el agua.",
+      "imageCaption": "Nautilus pompilius: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-012",
+      "animal": "sepia",
+      "prompt": "¿Qué estructura rígida interna ayuda a una sepia a controlar su flotabilidad?",
+      "options": [
+        "Sepia",
+        "el gladio",
+        "el sifón",
+        "la radula"
+      ],
+      "explanation": "Esta capa interna porosa permite ajustes de flotabilidad.",
+      "didYouKnow": "Las sepias pueden cambiar rápidamente los patrones y colores de su piel utilizando células pigmentarias.",
+      "imageCaption": "Sepia officinalis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-013",
+      "animal": "cefalópodo",
+      "prompt": "¿Cómo se llama el órgano que utilizan los cefalópodos para producir tinta?",
+      "options": [
+        "las branquias",
+        "el abrigo",
+        "El bolsillo de tinta",
+        "cromatóforos"
+      ],
+      "explanation": "La tinta puede nublar la visión o distraer a un depredador mientras huye.",
+      "didYouKnow": "El pico duro de los cefalópodos se encuentra en el centro del círculo formado por sus brazos.",
+      "imageCaption": "Sepia officinalis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-014",
+      "animal": "sepia",
+      "prompt": "¿Qué forma característica suele adoptar la pupila de una sepia?",
+      "options": [
+        "Un círculo siempre perfectamente redondo.",
+        "Una cruz de cuatro puntas",
+        "Una forma de W.",
+        "Una hendidura vertical recta"
+      ],
+      "explanation": "La pupila en forma de W es una característica visual común en las sepias.",
+      "didYouKnow": "Las sepias también pueden cambiar su apariencia para comunicarse o mezclarse con el fondo.",
+      "imageCaption": "Sepia officinalis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-015",
+      "animal": "sepia",
+      "prompt": "¿En qué dirección puede dirigir una sepia su chorro de agua?",
+      "options": [
+        "En varias direcciones gracias a su sifón",
+        "Sin cambiar su dirección",
+        "Sólo hacia atrás",
+        "solo adelante"
+      ],
+      "explanation": "La orientación del sifón le permite maniobrar con precisión.",
+      "didYouKnow": "Muchas sepias se entierran en la arena para esconderse de los depredadores.",
+      "imageCaption": "Sepia officinalis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-016",
+      "animal": "anfibio",
+      "prompt": "En las ranas del género Oophaga, ¿cómo reciben a veces los renacuajos el alimento producido por su madre?",
+      "options": [
+        "Se alimentan de huevos nutritivos puestos por la hembra.",
+        "Se alimentan de algas que la hembra cultiva en las hojas.",
+        "La madre les trae presas en una madriguera.",
+        "Absorben una secreción de nutrientes a través de sus branquias."
+      ],
+      "explanation": "La hembra pone huevos tróficos no fertilizados que consumen los renacuajos.",
+      "didYouKnow": "Algunos Oophaga acumulan alcaloides en su piel debido a su dieta.",
+      "imageCaption": "Oophaga pumilio — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-017",
+      "animal": "calamar",
+      "prompt": "¿En qué se diferencian los dos tentáculos de captura del calamar de sus ocho brazos?",
+      "options": [
+        "Son idénticos a los brazos y tienen branquias.",
+        "Son más largos y llevan palos terminales.",
+        "Son más cortos que los brazos y tienen branquias.",
+        "Están fusionados al pelaje."
+      ],
+      "explanation": "Los tentáculos se disparan para atrapar a la presa, mientras que los brazos la retienen.",
+      "didYouKnow": "El calamar tiene un pico robusto en el centro de sus brazos, que utiliza para desmenuzar a su presa.",
+      "imageCaption": "Doryteuthis pealeii: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-018",
+      "animal": "calamar",
+      "prompt": "¿Cómo se llama la luz que producen los órganos luminosos de algunos calamares?",
+      "options": [
+        "Bioluminiscencia",
+        "Fluorescencia",
+        "fosforescencia",
+        "Reflejo de la luz del sol"
+      ],
+      "explanation": "La luz puede ayudar a camuflarse, comunicarse o atraer presas.",
+      "didYouKnow": "El manto del calamar protege la mayoría de sus órganos internos.",
+      "imageCaption": "Doryteuthis pealeii: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-019",
+      "animal": "calamar",
+      "prompt": "¿Cómo pueden los calamares evitar ser vistos desde abajo en agua iluminada?",
+      "options": [
+        "Produciendo una luz dorsal dirigida hacia el cielo.",
+        "Expulsando una nube de tinta",
+        "Produciendo una luz ventral que corresponde al fondo brillante.",
+        "Enterrando en la arena"
+      ],
+      "explanation": "Este ligero camuflaje se llama contrailuminación.",
+      "didYouKnow": "Los calamares son moluscos cefalópodos, como los pulpos y las sepias.",
+      "imageCaption": "Doryteuthis pealeii: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-020",
+      "animal": "calamar",
+      "prompt": "¿Qué órgano extrae el oxígeno disuelto del agua en muchos calamares?",
+      "options": [
+        "cromatóforos",
+        "el sifón",
+        "la radula",
+        "las branquias"
+      ],
+      "explanation": "El agua circula en la cavidad del manto y pasa por las branquias.",
+      "didYouKnow": "El calamar tiene un gladius interno que sostiene su manto.",
+      "imageCaption": "Doryteuthis pealeii: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-021",
+      "animal": "medusa",
+      "prompt": "¿Qué células de las medusas desencadenan la captura de sus presas con un arpón microscópico?",
+      "options": [
+        "coloblastos",
+        "Coanocitos",
+        "Cnidocitos",
+        "los pedicelarios"
+      ],
+      "explanation": "Los cnidocitos son las células especializadas; cada uno puede contener un nematocisto, una cápsula que expulsa un filamento urticante.",
+      "didYouKnow": "Las medusas no tienen cerebro central; una red de células nerviosas coordina sus reacciones.",
+      "imageCaption": "Aurelia aurita: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-022",
+      "animal": "medusa casiopea",
+      "prompt": "¿Por qué la medusa Cassiopea suele estar boca abajo en el fondo?",
+      "options": [
+        "Para hacer circular agua en las branquias.",
+        "Para proteger un caparazón adherido a su paraguas.",
+        "Exponer sus algas simbióticas a la luz.",
+        "Para enterrar su boca en el sedimento"
+      ],
+      "explanation": "Esta postura coloca los tejidos que albergan las algas hacia la luz, que los simbiontes necesitan para la fotosíntesis.",
+      "didYouKnow": "Cassiopea también puede capturar presas pequeñas con sus tentáculos.",
+      "imageCaption": "Cassiopea xamachana — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-023",
+      "animal": "medusa",
+      "prompt": "¿Qué etapa adherida al sustrato suele preceder a la forma de medusa en su ciclo de vida?",
+      "options": [
+        "La larva veligera.",
+        "la ephyrule",
+        "el pólipo",
+        "La planula de natación"
+      ],
+      "explanation": "En muchas especies, el pólipo produce medusas jóvenes.",
+      "didYouKnow": "El cuerpo de las medusas está formado en gran parte por una sustancia gelatinosa rica en agua.",
+      "imageCaption": "Aurelia aurita: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-024",
+      "animal": "medusa",
+      "prompt": "¿Cómo se llama la medusa joven que se desprende del pólipo en muchas medusas?",
+      "options": [
+        "una plánula",
+        "un pólipo",
+        "un nematocisto",
+        "Una éfira"
+      ],
+      "explanation": "Esta medusa juvenil nada libremente y crece hasta convertirse en adulta.",
+      "didYouKnow": "Las medusas no tienen huesos ni caparazones duros; su cuerpo es principalmente gelatinoso.",
+      "imageCaption": "Aurelia aurita: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-025",
+      "animal": "medusa",
+      "prompt": "¿Cómo es que el pólipo de algunas medusas produce varias medusas jóvenes?",
+      "options": [
+        "Por estrobilación",
+        "Por brotación de tentáculos",
+        "Por división longitudinal de la medusa",
+        "Por fertilización interna de pólipos."
+      ],
+      "explanation": "El pólipo se segmenta en discos apilados que se desprenden como medusas juveniles llamadas éfiras.",
+      "didYouKnow": "Los cuerpos de muchas medusas están formados principalmente por agua y tejido gelatinoso.",
+      "imageCaption": "Aurelia aurita: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-026",
+      "animal": "medusa",
+      "prompt": "¿Qué tejido gelatinoso constituye la mayor parte de la campana de una medusa?",
+      "options": [
+        "el cenosarco",
+        "la cutícula",
+        "el endodermo",
+        "la mesoglea"
+      ],
+      "explanation": "Este material contiene mucha agua y se encuentra entre las capas celulares.",
+      "didYouKnow": "La campana se contrae para ayudar a nadar.",
+      "imageCaption": "Aurelia aurita: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-027",
+      "animal": "medusa",
+      "prompt": "¿Qué órgano sensorial ayuda a algunas medusas a percibir el equilibrio?",
+      "options": [
+        "estatocistos",
+        "Cnidocitos",
+        "Ropalios sin estatocistos",
+        "Manchas oculares"
+      ],
+      "explanation": "Estos órganos sensibles a la gravedad ayudan a orientar el cuerpo.",
+      "didYouKnow": "La campana de muchas medusas se contrae para ayudar a nadar.",
+      "imageCaption": "Aurelia aurita: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-028",
+      "animal": "medusa",
+      "prompt": "¿Qué estructura permite a las medusas caja tener una visión particularmente sofisticada?",
+      "options": [
+        "Un cerebro central complejo",
+        "Ojos compuestos en cada tentáculo.",
+        "Ropalios con varios tipos de ojos",
+        "Una sola lente por tentáculo"
+      ],
+      "explanation": "Los ropalios son estructuras sensoriales distribuidas alrededor de la campana; en las medusas caja contienen varios tipos de ojos.",
+      "didYouKnow": "Los cuerpos de las medusas son en su mayoría gelatinosos y contienen mucha agua.",
+      "imageCaption": "Chironex fleckeri: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-029",
+      "animal": "tardígrado",
+      "prompt": "¿Por qué los tardígrados siguen siendo vulnerables a pesar de su capacidad para entrar en criptobiosis?",
+      "options": [
+        "Siguen siendo susceptibles a condiciones y daños mientras están activos.",
+        "Toleran todas las temperaturas una vez secos.",
+        "Siguen alimentándose durante la criptobiosis",
+        "Resisten todas las formas de radiación."
+      ],
+      "explanation": "La resistencia depende de la especie, etapa y duración del estrés.",
+      "didYouKnow": "Los huevos de determinadas especies de tardígrados presentan patrones característicos útiles para su identificación.",
+      "imageCaption": "Hypsibius exemplaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-030",
+      "animal": "medusa",
+      "prompt": "¿Por qué una medusa no necesita un corazón como un pez?",
+      "options": [
+        "Los intercambios se producen por difusión en su delgado cuerpo.",
+        "Branquias que irrigan todo el cuerpo.",
+        "Una red de vasos cerrados",
+        "Un corazón dorsal que distribuye la sangre."
+      ],
+      "explanation": "El oxígeno y los nutrientes se difunden hacia los tejidos, sin un sistema circulatorio complejo.",
+      "didYouKnow": "Muchas medusas tienen una red nerviosa difusa en lugar de un cerebro centralizado.",
+      "imageCaption": "Aurelia aurita: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-031",
+      "animal": "corales",
+      "prompt": "¿Qué compañeros microscópicos viven a menudo en los tejidos de los corales formadores de arrecifes?",
+      "options": [
+        "Algas dinoflageladas simbióticas",
+        "bacterias del azufre",
+        "Diatomeas libres en agua",
+        "Hongos filamentosos"
+      ],
+      "explanation": "Aportan al coral compuestos resultantes de la fotosíntesis.",
+      "didYouKnow": "Después de la eclosión, las larvas de muchos corales flotan en el agua antes de posarse sobre un soporte.",
+      "imageCaption": "Acropora millepora: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-032",
+      "animal": "corales",
+      "prompt": "¿Qué proceso puede causar que el coral sometido a estrés por calor se blanquee?",
+      "options": [
+        "Crecimiento rápido del esqueleto.",
+        "La expulsión o pérdida de sus algas simbióticas.",
+        "Producción excesiva de moco.",
+        "La multiplicación de los pólipos."
+      ],
+      "explanation": "El coral pierde entonces parte de sus pigmentos y su suministro de energía.",
+      "didYouKnow": "Los arrecifes de coral proporcionan refugio y sitios de alimentación para muchas especies marinas.",
+      "imageCaption": "Acropora millepora: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-033",
+      "animal": "corales",
+      "prompt": "¿De qué está compuesto principalmente el esqueleto de los corales duros?",
+      "options": [
+        "fosfato de calcio",
+        "carbonato de calcio",
+        "quitina",
+        "sílice"
+      ],
+      "explanation": "Los pólipos depositan este material, que puede formar una estructura de arrecife.",
+      "didYouKnow": "Los arrecifes crecen lentamente y sustentan una gran diversidad de especies.",
+      "imageCaption": "Acropora millepora: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-034",
+      "animal": "corales",
+      "prompt": "¿Qué pequeñas unidades animales forman el esqueleto de los corales formadores de arrecifes?",
+      "options": [
+        "Medusas adultas",
+        "Pólipos",
+        "pez payaso",
+        "Larvas de plánula"
+      ],
+      "explanation": "Cada pólipo secreta una copa calcárea alrededor de su base.",
+      "didYouKnow": "Los corales formadores de arrecifes a menudo viven asociados con algas microscópicas en sus tejidos.",
+      "imageCaption": "Acropora millepora: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-035",
+      "animal": "corales",
+      "prompt": "¿Cómo pueden los corales reproducirse sin fertilización?",
+      "options": [
+        "Por fragmentación del caparazón",
+        "Por división de gametos",
+        "Por transformación de un pólipo en larva.",
+        "Por gemación de nuevos pólipos."
+      ],
+      "explanation": "Los pólipos resultantes de la gemación suelen permanecer conectados a la colonia.",
+      "didYouKnow": "Los pólipos de coral pueden retraerse hacia su esqueleto cuando se les molesta.",
+      "imageCaption": "Acropora millepora: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-036",
+      "animal": "corales",
+      "prompt": "¿Qué significa el desove sincronizado que se observa en algunas especies de coral?",
+      "options": [
+        "Poniendo un solo huevo por colonia",
+        "Liberación simultánea únicamente de larvas de plánula.",
+        "Liberación coordinada de gametos al agua.",
+        "La construcción colectiva de un nuevo esqueleto"
+      ],
+      "explanation": "Esto aumenta las posibilidades de que los óvulos y los espermatozoides se encuentren.",
+      "didYouKnow": "Los arrecifes de coral proporcionan alimento y refugio a muchas especies marinas.",
+      "imageCaption": "Acropora millepora: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-037",
+      "animal": "corales",
+      "prompt": "¿Qué tipo de coral forma estructuras profundas sin depender de la luz solar?",
+      "options": [
+        "Corales de agua fría",
+        "Corales de construcción tropicales",
+        "Corales de superficie asociados con algas.",
+        "Corales blandos de laguna"
+      ],
+      "explanation": "Se alimentan de partículas y plancton capturados en el agua.",
+      "didYouKnow": "Los corales de aguas frías no dependen de algas simbióticas fotosintéticas para alimentarse.",
+      "imageCaption": "Desmophyllum pertusum: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-038",
+      "animal": "corales",
+      "prompt": "¿Cuál es la función de los tentáculos de un pólipo de coral?",
+      "options": [
+        "Capturando pequeñas partículas y presas.",
+        "Moviéndose en el arrecife",
+        "Bombear agua a la colonia.",
+        "Producir el esqueleto de piedra caliza."
+      ],
+      "explanation": "Los tentáculos llevan células urticantes que ayudan a captar la comida.",
+      "didYouKnow": "Los pólipos de coral pueden retraerse hacia su esqueleto cuando se les molesta.",
+      "imageCaption": "Acropora millepora: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-039",
+      "animal": "corales",
+      "prompt": "¿Qué estructura interna conecta los pólipos en algunas colonias de coral?",
+      "options": [
+        "madreporita",
+        "el cenosarco",
+        "el celoma",
+        "el sifúnculo"
+      ],
+      "explanation": "Esta capa de tejido permite que los pólipos de una colonia permanezcan conectados.",
+      "didYouKnow": "Muchos corales tienen una única abertura que sirve como boca y para descargar los desechos.",
+      "imageCaption": "Acropora millepora: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-040",
+      "animal": "corales",
+      "prompt": "¿Cómo se suelen distinguir los corales blandos de los duros?",
+      "options": [
+        "Sólo viven en agua dulce.",
+        "Tienen una capa exterior con bisagras.",
+        "No construyen un gran esqueleto externo continuo.",
+        "No tienen estructura calcárea."
+      ],
+      "explanation": "En cambio, tienen pequeños elementos calcáreos llamados escleritos en sus tejidos.",
+      "didYouKnow": "Los arrecifes de coral albergan muchas especies de peces e invertebrados.",
+      "imageCaption": "Alcyonium digitatum — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-041",
+      "animal": "esponja",
+      "prompt": "¿Qué tipo de célula crea la corriente de agua que pasa a través de una esponja?",
+      "options": [
+        "El coloblasto",
+        "el amebocito",
+        "el pinacocito",
+        "el coanocito"
+      ],
+      "explanation": "Su flagelo pone en movimiento el agua y su collar captura partículas de alimento.",
+      "didYouKnow": "Las esponjas no tienen un sistema nervioso central ni órganos comparables a los de los vertebrados.",
+      "imageCaption": "Aplysina aerophoba: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-042",
+      "animal": "esponja",
+      "prompt": "¿De dónde sale normalmente el agua de una esponja después de filtrarla?",
+      "options": [
+        "A través de los poros de inhalación.",
+        "Por boca",
+        "Por los propios coanocitos",
+        "Por uno o más ósculos"
+      ],
+      "explanation": "El agua entra por muchos poros pequeños y luego sale por estas aberturas más grandes.",
+      "didYouKnow": "Las esponjas no tienen un sistema nervioso central ni órganos comparables a los de los vertebrados.",
+      "imageCaption": "Aplysina aerophoba: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-043",
+      "animal": "esponja",
+      "prompt": "¿Qué material forma el esqueleto de muchas esponjas?",
+      "options": [
+        "Solo carbonato de magnesio",
+        "fosfato de calcio",
+        "De quitina sola",
+        "Espículas o fibras de espongina"
+      ],
+      "explanation": "Las espículas pueden ser calcáreas o silíceas, según el grupo.",
+      "didYouKnow": "Las esponjas hacen circular agua a través de muchos poros pequeños de sus cuerpos.",
+      "imageCaption": "Aplysina aerophoba: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-044",
+      "animal": "esponja",
+      "prompt": "¿Cuál es el papel de los amebocitos en una esponja?",
+      "options": [
+        "Producir corrientes de agua.",
+        "Digerir en el estómago",
+        "Transportar nutrientes y participar en la formación del esqueleto.",
+        "abre la óscula"
+      ],
+      "explanation": "Estas células móviles se mueven dentro de la matriz interna del animal.",
+      "didYouKnow": "Las esponjas no tienen órganos reales; su cuerpo está organizado alrededor de células con funciones especializadas.",
+      "imageCaption": "Aplysina aerophoba: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-045",
+      "animal": "esponja",
+      "prompt": "¿Cómo puede recuperarse una esponja después de haber sido fragmentada?",
+      "options": [
+        "Desarrolla una boca y un intestino.",
+        "Forma una capa externa.",
+        "Las células pueden reorganizar y reformar los tejidos.",
+        "Se convierte en una larva nadadora."
+      ],
+      "explanation": "La regeneración depende de la especie y las condiciones.",
+      "didYouKnow": "Algunas esponjas ajustan el flujo de agua de sus canales en respuesta a partículas irritantes.",
+      "imageCaption": "Aplysina aerophoba: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-046",
+      "animal": "esponja",
+      "prompt": "¿Qué tipo de alimento filtra principalmente una esponja?",
+      "options": [
+        "Hojas marinas intactas",
+        "pez grande",
+        "Bacterias y partículas orgánicas muy pequeñas.",
+        "Sólo presas vivas grandes"
+      ],
+      "explanation": "La corriente de agua transporta estas partículas a las células filtrantes.",
+      "didYouKnow": "Algunas esponjas albergan comunidades microbianas muy ricas.",
+      "imageCaption": "Aplysina aerophoba: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-047",
+      "animal": "esponja",
+      "prompt": "¿Qué elemento esquelético distingue a las esponjas calcáreas?",
+      "options": [
+        "Placas de quitina",
+        "Placas de sílice",
+        "Fibras esponjosas",
+        "Espículas de carbonato de calcio"
+      ],
+      "explanation": "Su esqueleto está compuesto de espículas calcáreas en lugar de sílice.",
+      "didYouKnow": "Las esponjas calcáreas suelen tener un tamaño modesto.",
+      "imageCaption": "Clathrina clathrus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-048",
+      "animal": "nudibranquios doridianos",
+      "prompt": "¿Qué moluscos tienen especies especializadas en comer esponjas?",
+      "options": [
+        "Un cangrejo violinista",
+        "una sepia",
+        "un crinoideo",
+        "nudibranquios doridianos"
+      ],
+      "explanation": "Muchos nudibranquios consumen esponjas y pueden desviar sus toxinas.",
+      "didYouKnow": "Los nudibranquios son moluscos gasterópodos.",
+      "imageCaption": "Chromodoris annae: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-049",
+      "animal": "esponja",
+      "prompt": "¿Por qué algunas esponjas albergan bacterias simbióticas?",
+      "options": [
+        "Les proporcionan luz",
+        "Les proporcionan un hábitat y en ocasiones reciben compuestos útiles.",
+        "Aseguran su locomoción",
+        "Reemplazan sus coanocitos"
+      ],
+      "explanation": "Los microbios pueden contribuir a la defensa química o al metabolismo de la esponja.",
+      "didYouKnow": "Las esponjas no tienen sistema nervioso central; sus funciones dependen de células especializadas.",
+      "imageCaption": "Aplysina aerophoba: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-050",
+      "animal": "esponja",
+      "prompt": "¿Qué estructura forma el esqueleto de algunas esponjas de vidrio de aguas profundas?",
+      "options": [
+        "Una red de espículas de sílice.",
+        "Una capa de carbonato de calcio",
+        "Un conjunto de placas de quitina.",
+        "fibras de celulosa"
+      ],
+      "explanation": "Su esqueleto de espículas de sílice puede permanecer después de que muere la esponja.",
+      "didYouKnow": "Las esponjas de vidrio suelen vivir en hábitats profundos.",
+      "imageCaption": "Euplectella aspergillum: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-051",
+      "animal": "estrella de mar",
+      "prompt": "¿Qué sistema hidráulico opera los pies tubulares de una estrella de mar?",
+      "options": [
+        "El sistema digestivo ramificado.",
+        "El sistema nervioso central",
+        "El sistema acuífero",
+        "El sistema circulatorio cerrado."
+      ],
+      "explanation": "El agua circula por canales y pone en movimiento los podios.",
+      "didYouKnow": "Algunas estrellas de mar detectan la luz mediante pequeños puntos oculares en los extremos de sus brazos.",
+      "imageCaption": "Asterias rubens: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-052",
+      "animal": "estrella de mar",
+      "prompt": "¿Qué placa porosa deja entrar agua al sistema acuífero de una estrella de mar?",
+      "options": [
+        "el sifón",
+        "el ósculo",
+        "El tracto digestivo",
+        "madreporita"
+      ],
+      "explanation": "Esta placa filtra y regula la entrada de agua al sistema hidráulico.",
+      "didYouKnow": "Algunas estrellas de mar pueden evaginar sus estómagos para digerir a sus presas fuera del cuerpo.",
+      "imageCaption": "Asterias rubens: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-053",
+      "animal": "estrella de mar",
+      "prompt": "¿Cómo puede una estrella de mar abrir el caparazón de un bivalvo?",
+      "options": [
+        "Moliéndolo con dientes de piedra caliza",
+        "Tirando gradualmente con sus pies ambulacrales",
+        "Inyectando un ácido en la cáscara.",
+        "Atravesándolo con sus púas"
+      ],
+      "explanation": "A veces, una pequeña abertura es suficiente para evaginar su estómago hacia el interior del caparazón.",
+      "didYouKnow": "Las puntas de los brazos de algunas estrellas de mar tienen manchas sensibles a la luz.",
+      "imageCaption": "Asterias rubens: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-054",
+      "animal": "estrella de mar",
+      "prompt": "¿Qué comportamiento alimentario permite a algunas estrellas de mar digerir a sus presas externamente?",
+      "options": [
+        "Rallan la concha con pedicelarios",
+        "Evaginan su estomago",
+        "Se inyectan enzimas desde los pies",
+        "Se tragan la presa entera y luego la digieren en el intestino."
+      ],
+      "explanation": "El estómago sale por la boca y libera enzimas digestivas sobre la presa.",
+      "didYouKnow": "Los pies tubulares también ayudan a la estrella de mar a adherirse al sustrato y moverse.",
+      "imageCaption": "Asterias rubens: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-055",
+      "animal": "estrella de mar",
+      "prompt": "¿Dónde está la boca de una estrella de mar?",
+      "options": [
+        "Al final de un brazo",
+        "En el centro del disco dorsal.",
+        "En la parte superior",
+        "En su parte inferior"
+      ],
+      "explanation": "La cara bucal se gira hacia el sustrato al caminar.",
+      "didYouKnow": "Algunas estrellas de mar pueden regenerar un brazo perdido.",
+      "imageCaption": "Asterias rubens: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-056",
+      "animal": "estrella de mar",
+      "prompt": "¿Qué habilidad ayuda a una estrella de mar a recuperar un brazo perdido?",
+      "options": [
+        "muda",
+        "Fisión en dos animales iguales",
+        "El rebrote de una nueva concha",
+        "Regeneración"
+      ],
+      "explanation": "La velocidad y el alcance de la regeneración varían según la especie.",
+      "didYouKnow": "Algunas estrellas de mar tienen miles de patas tubulares debajo del brazo.",
+      "imageCaption": "Asterias rubens: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-057",
+      "animal": "equinodermos",
+      "prompt": "¿Cómo se llaman las pequeñas garras móviles que se encuentran en algunas estrellas de mar y erizos de mar?",
+      "options": [
+        "los pedicelarios",
+        "los podios",
+        "Pínulas",
+        "los pedicelos"
+      ],
+      "explanation": "Los pedicelarios son pequeñas pinzas cuyo papel depende de la especie; pueden contribuir a la defensa o limpieza de la superficie del cuerpo.",
+      "didYouKnow": "En los equinodermos adultos, el cuerpo suele presentar una simetría organizada en torno a cinco ejes.",
+      "imageCaption": "Asterias rubens: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-058",
+      "animal": "erizo de mar",
+      "prompt": "¿De qué mineral están hechas principalmente las espinas de un erizo de mar?",
+      "options": [
+        "carbonato de calcio",
+        "quitina",
+        "sílice",
+        "queratina"
+      ],
+      "explanation": "Están articulados sobre la base rígida y pueden usarse para defensa y movimiento.",
+      "didYouKnow": "Muchos erizos de mar se alimentan de algas utilizando su aparato masticador.",
+      "imageCaption": "Paracentrotus lividus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-059",
+      "animal": "erizo de mar",
+      "prompt": "¿Cómo se llama el esqueleto rígido que lleva las espinas del erizo de mar?",
+      "options": [
+        "La linterna de Aristóteles",
+        "la prueba",
+        "madreporita",
+        "el cenosarco"
+      ],
+      "explanation": "Está formado por placas de piedra caliza ensambladas.",
+      "didYouKnow": "Muchos erizos de mar pastan en algas adheridas a las rocas utilizando sus aparatos masticadores.",
+      "imageCaption": "Paracentrotus lividus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-060",
+      "animal": "erizo de mar",
+      "prompt": "¿Qué aparato masticatorio tiene cinco dientes en muchos erizos de mar?",
+      "options": [
+        "El sifón del acuífero",
+        "El molino gástrico",
+        "la radula",
+        "La linterna de Aristóteles"
+      ],
+      "explanation": "Este complejo dispositivo raspa algas y también puede excavar rocas.",
+      "didYouKnow": "Algunas especies de erizos de mar excavan cavidades en la roca, que les sirven de refugio.",
+      "imageCaption": "Paracentrotus lividus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-061",
+      "animal": "erizo de mar",
+      "prompt": "¿Cómo lleva un dólar de arena pequeñas partículas a su boca?",
+      "options": [
+        "Los atrapa con unas pinzas al final de sus púas.",
+        "Sus podios y cilios transportan partículas hacia la parte inferior.",
+        "Los succiona con un sifón al borde de la prueba.",
+        "Los captura en una red de moco proyectada en el agua."
+      ],
+      "explanation": "Los podios y los cilios mueven las partículas de comida hacia la boca ubicada en el centro de la parte inferior.",
+      "didYouKnow": "Los dólares de arena son erizos de mar aplanados adaptados a la vida enterrados en la arena.",
+      "imageCaption": "Echinarachnius parma: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-062",
+      "animal": "erizo de mar",
+      "prompt": "¿Cómo puede un erizo de mar aferrarse a una superficie lisa?",
+      "options": [
+        "Cementando su prueba a la roca",
+        "Con sus pies adhesivos ambulacrales",
+        "Con la mucosidad de su prueba.",
+        "Con ventosas musculosas en las púas"
+      ],
+      "explanation": "Los podios tienen extremos que secretan sustancias adhesivas.",
+      "didYouKnow": "Muchos erizos de mar pastan en algas adheridas a las rocas utilizando sus aparatos masticadores.",
+      "imageCaption": "Paracentrotus lividus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-063",
+      "animal": "pepino de mar",
+      "prompt": "¿Qué pueden hacer unos pepinos de mar tras expulsar algunas de sus vísceras para defenderse?",
+      "options": [
+        "Regenerar órganos perdidos",
+        "Formar una capa protectora permanente",
+        "Transforma sus brazos en órganos digestivos.",
+        "Reemplazar su intestino con un filtro externo."
+      ],
+      "explanation": "Esta evisceración a veces distrae o obstaculiza al depredador.",
+      "didYouKnow": "Muchos pepinos de mar se mueven lentamente utilizando sus pies y las contracciones del cuerpo.",
+      "imageCaption": "Holothuria tubulosa: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-064",
+      "animal": "pepino de mar",
+      "prompt": "¿Cómo contribuyen los pepinos de mar al reciclaje de sedimentos marinos?",
+      "options": [
+        "Filtran algas del plancton",
+        "Cavan conchas de piedra caliza",
+        "Tragan el sedimento y digieren la materia orgánica.",
+        "Ellos construyen los arrecifes"
+      ],
+      "explanation": "El sedimento vertido a menudo se reelabora y se enriquece con nutrientes.",
+      "didYouKnow": "A veces se les llama “gusanos de mar”, aunque son equinodermos.",
+      "imageCaption": "Holothuria tubulosa: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-065",
+      "animal": "pepino de mar",
+      "prompt": "¿Qué es el árbol respiratorio del pepino de mar?",
+      "options": [
+        "Un pulmón conectado a la boca.",
+        "Una branquia externa en forma de peine.",
+        "Un tubo de filtración debajo de los brazos.",
+        "Órgano interno conectado a la cloaca para el intercambio de gases."
+      ],
+      "explanation": "El agua entra y sale por la cloaca y circula en este órgano ramificado.",
+      "didYouKnow": "Los pepinos de mar son equinodermos, estrechamente relacionados con las estrellas de mar y los erizos de mar.",
+      "imageCaption": "Holothuria tubulosa: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-066",
+      "animal": "crinoideo",
+      "prompt": "¿Cómo captura un crinoideo las partículas de comida?",
+      "options": [
+        "Con dientes al final de sus brazos.",
+        "Persiguiendo a su presa con un sifón",
+        "Con sus brazos plumosos cubiertos de piececitos",
+        "Proyectando filamentos adhesivos."
+      ],
+      "explanation": "Los pies pegajosos dirigen partículas hacia la boca.",
+      "didYouKnow": "Los crinoideos incluyen lirios marinos fijos y lirios marinos móviles.",
+      "imageCaption": "Metacrinus rotundus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-067",
+      "animal": "crinoideo",
+      "prompt": "¿Qué grupo de equinodermos incluye a los lirios de mar?",
+      "options": [
+        "Las estrellas quebradizas",
+        "Asterias",
+        "pepinos de mar",
+        "crinoideos"
+      ],
+      "explanation": "Los lirios de mar están fijados por un tallo, mientras que muchas comatulas pueden moverse.",
+      "didYouKnow": "Los crinoideos se alimentan filtrando partículas en suspensión.",
+      "imageCaption": "Metacrinus rotundus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-068",
+      "animal": "estrella quebradiza",
+      "prompt": "¿Cómo se mueve principalmente una estrella frágil?",
+      "options": [
+        "Al nadar con la aleta caudal",
+        "Agitando sus brazos flexibles",
+        "Excavando con su disco central",
+        "Arrastrándose con sus podios"
+      ],
+      "explanation": "A diferencia de una estrella de mar, utiliza principalmente sus brazos para avanzar.",
+      "didYouKnow": "Las estrellas frágiles tienen un disco central claramente separado de sus brazos.",
+      "imageCaption": "Ophiothrix fragilis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-069",
+      "animal": "estrella quebradiza",
+      "prompt": "¿Qué carácter ayuda a distinguir una estrella frágil de una estrella de mar?",
+      "options": [
+        "Sus finos brazos articulados destacan claramente del disco central.",
+        "Un disco central sin brazos",
+        "Podios de ventosas muy visibles en cada brazo.",
+        "Una capa exterior alrededor del disco."
+      ],
+      "explanation": "Las estrellas frágiles suelen moverse remando con estos brazos.",
+      "didYouKnow": "En las estrellas frágiles, el tracto digestivo generalmente no tiene ano.",
+      "imageCaption": "Ophiothrix fragilis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-070",
+      "animal": "cangrejo",
+      "prompt": "¿Qué fenómeno permite que un cangrejo crezca más allá del tamaño de su caparazón?",
+      "options": [
+        "Reemplazo regular de su exoesqueleto",
+        "muda",
+        "La fusión de nuevas placas calizas",
+        "El continuo crecimiento de su caparazón"
+      ],
+      "explanation": "Se deshace de su exoesqueleto, que se ha vuelto demasiado estrecho, y forma uno nuevo.",
+      "didYouKnow": "Debajo de su caparazón, el cangrejo tiene branquias que captan el oxígeno disuelto en el agua.",
+      "imageCaption": "Carcinus maenas: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-071",
+      "animal": "cangrejo",
+      "prompt": "¿Por qué un cangrejo es particularmente vulnerable después de la muda?",
+      "options": [
+        "Sus ojos estan ciegos",
+        "No podrá comer por el resto de su vida.",
+        "Sus branquias se desprenden",
+        "Su nuevo caparazón aún es blando."
+      ],
+      "explanation": "Luego se endurece por deposición de minerales y otras sustancias.",
+      "didYouKnow": "Como otros decápodos, el cangrejo tiene cinco pares de patas, el primero de los cuales suele tener garras.",
+      "imageCaption": "Carcinus maenas: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-072",
+      "animal": "cangrejo",
+      "prompt": "¿Cómo se llama el caparazón vacío que deja un crustáceo durante la muda?",
+      "options": [
+        "la exuvia",
+        "el telsón",
+        "el biso",
+        "madreporita"
+      ],
+      "explanation": "Conserva la forma del animal pero ya no contiene su cuerpo.",
+      "didYouKnow": "Los ojos del cangrejo suelen estar sostenidos por pedúnculos móviles.",
+      "imageCaption": "Carcinus maenas: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-073",
+      "animal": "cangrejo",
+      "prompt": "¿Qué órgano permite a algunos cangrejos triturar su comida en el estómago?",
+      "options": [
+        "pectinas",
+        "El molino gástrico",
+        "La linterna de Aristóteles",
+        "el sifón"
+      ],
+      "explanation": "Los elementos calcificados del estómago ayudan a descomponer los alimentos.",
+      "didYouKnow": "El cangrejo respira gracias a las branquias protegidas bajo su caparazón.",
+      "imageCaption": "Carcinus maenas: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-074",
+      "animal": "cangrejo",
+      "prompt": "¿Cómo usa el cangrejo violinista su gran garra?",
+      "options": [
+        "Para triturar las conchas",
+        "cavar una madriguera",
+        "Para comunicar y atraer pareja.",
+        "Para bombear agua a sus branquias"
+      ],
+      "explanation": "El macho agita las pinzas durante exhibiciones visibles sobre su madriguera.",
+      "didYouKnow": "Los ojos del cangrejo violinista se colocan al final de largos pedúnculos.",
+      "imageCaption": "Afruca tangeri — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-075",
+      "animal": "cangrejo",
+      "prompt": "¿Qué cangrejo pequeño a veces lleva anémonas en sus pinzas como medio de defensa?",
+      "options": [
+        "El cangrejo violinista",
+        "El cangrejo ermitaño",
+        "El camarón pistola",
+        "El cangrejo boxer"
+      ],
+      "explanation": "El cangrejo boxer sostiene pequeñas anémonas en sus garras y las sacude cuando se enfrenta a una amenaza.",
+      "didYouKnow": "Los cangrejos boxer del género Lybia son pequeños cangrejos de arrecife tropicales.",
+      "imageCaption": "Lybia tessellata: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-076",
+      "animal": "cangrejo",
+      "prompt": "¿Cómo puede un cangrejo escapar de un depredador que lo agarra por la pata?",
+      "options": [
+        "Libera una sustancia olorosa para repeler al enemigo.",
+        "Puede soltar la pata agarrada en un punto de rotura esperado.",
+        "Abandona su caparazón y nada fuera de su alcance.",
+        "Se acurruca formando una bola debajo de su caparazón."
+      ],
+      "explanation": "Algunos cangrejos practican la autotomía: una pata agarrada se desprende en un punto de rotura natural, lo que puede permitirles escapar.",
+      "didYouKnow": "El cangrejo toma oxígeno del agua con branquias alojadas debajo del caparazón.",
+      "imageCaption": "Carcinus maenas: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-077",
+      "animal": "cangrejo ermitaño",
+      "prompt": "¿Por qué el cangrejo ermitaño a veces cambia de caparazón?",
+      "options": [
+        "Respirar fuera del agua",
+        "Para reemplazar tus alicates",
+        "Para encontrar un refugio adaptado a su crecimiento.",
+        "Para proteger sus huevos"
+      ],
+      "explanation": "A menudo ocupa conchas de gasterópodos vacías.",
+      "didYouKnow": "Los cangrejos ermitaños tienen dos pares de antenas sensoriales.",
+      "imageCaption": "Pagurus bernhardus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-078",
+      "animal": "cangrejo ermitaño",
+      "prompt": "¿Qué parte del cuerpo del cangrejo ermitaño suele ser blanda y curvada?",
+      "options": [
+        "Sus ojos acechados",
+        "sus branquias",
+        "Su capa dorsal",
+        "Su abdomen"
+      ],
+      "explanation": "El abdomen se desliza dentro de la capa protectora que lleva.",
+      "didYouKnow": "En el cangrejo ermitaño, las dos garras pueden tener diferentes tamaños según la especie.",
+      "imageCaption": "Pagurus bernhardus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-079",
+      "animal": "camarones limpiadores",
+      "prompt": "¿Qué suele indicar un camarón limpiador cuando mueve sus largas antenas blancas?",
+      "options": [
+        "Hacer un sonido de clic con unos alicates",
+        "Que ofrece sus servicios de limpieza para pescar.",
+        "Retrocede muy rápido",
+        "Emite luz brillante bajo el agua"
+      ],
+      "explanation": "Los movimientos de las antenas blancas hacen que el camarón limpiador sea visible para los peces que visitan su estación.",
+      "didYouKnow": "Los camarones más limpios son crustáceos decápodos.",
+      "imageCaption": "Lysmata amboinensis — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-080",
+      "animal": "camarones",
+      "prompt": "¿Qué apéndice produce el chasquido de un camarón pistola?",
+      "options": [
+        "Un músculo de aleta",
+        "Una válvula de manto",
+        "un músculo de la cola",
+        "Una abrazadera especializada que se cierra muy rápidamente."
+      ],
+      "explanation": "La abrazadera agrandada se cierra y provoca un chorro de agua y una burbuja de cavitación.",
+      "didYouKnow": "Algunos camarones pistola comparten su madriguera con un gobio que vigila los alrededores.",
+      "imageCaption": "Alpheus heterochaelis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-081",
+      "animal": "rotífero",
+      "prompt": "¿Qué aparato muscular muele el alimento en muchos rotíferos?",
+      "options": [
+        "el lofóforo",
+        "Mastax, que contiene piezas duras llamadas trophi.",
+        "La linterna de Aristóteles",
+        "El molino gástrico"
+      ],
+      "explanation": "El mastax es una faringe muscular que activa los trofos para moler o agarrar los alimentos.",
+      "didYouKnow": "Algunas especies de rotíferos tienen una cubierta exterior rígida llamada lorica.",
+      "imageCaption": "Philodina roseola: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-082",
+      "animal": "onicófora",
+      "prompt": "¿Cómo se mueven los onicóforos en el suelo?",
+      "options": [
+        "Ondulan con parapodios segmentados.",
+        "Se propulsan bombeando agua a través de un sifón.",
+        "Avanzan sobre pares de lobopodos musculosos.",
+        "Se deslizan sobre un solo pie musculoso."
+      ],
+      "explanation": "Sus numerosos lobopodos cortos llevan el cuerpo por encima del sustrato y permiten caminar lentamente.",
+      "didYouKnow": "Los onicóforos también se llaman gusanos de terciopelo debido a su piel finamente aterciopelada.",
+      "imageCaption": "Euperipatoides rowelli, un ejemplo de onicóforo."
+    },
+    {
+      "id": "unusual-083",
+      "animal": "camarones",
+      "prompt": "¿Cómo puede un camarón mantis atacar tan rápido bajo el agua?",
+      "options": [
+        "Libera la energía almacenada en un mecanismo elástico de su apéndice.",
+        "Contrae sus músculos sin mecanismo elástico.",
+        "Ella hace vibrar sus antenas",
+        "Produce un chorro de agua con su abdomen."
+      ],
+      "explanation": "El mecanismo amplifica la velocidad del golpe.",
+      "didYouKnow": "Muchos camarones mantis viven en madrigueras que cavan o mantienen.",
+      "imageCaption": "Odontodactylus scyllarus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-084",
+      "animal": "camarones",
+      "prompt": "¿Qué característica ocular del camarón mantis es particularmente notable?",
+      "options": [
+        "Tienen muchos tipos de fotorreceptores.",
+        "Una visión basada en antenas de luz",
+        "Una visión sólo en blanco y negro",
+        "Visión reducida a detección de movimiento."
+      ],
+      "explanation": "Percibe luz polarizada y varias gamas de colores.",
+      "didYouKnow": "El camarón mantis pertenece a los estomatópodos, un grupo distinto del camarón verdadero.",
+      "imageCaption": "Odontodactylus scyllarus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-085",
+      "animal": "percebe",
+      "prompt": "¿Por qué un percebe ya no se parece a un típico crustáceo adulto?",
+      "options": [
+        "Ella es un molusco adulto.",
+        "Vive fijo y filtra el agua con sus patas plumosas.",
+        "Ella es un equinodermo fijo.",
+        "Ella es un cnidario colonial."
+      ],
+      "explanation": "El percebe es un crustáceo cirrípedo a pesar de su apariencia de pequeño volcán.",
+      "didYouKnow": "Los percebes filtran partículas del agua con sus cirros plumosos.",
+      "imageCaption": "Semibalanus balanoides: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-086",
+      "animal": "percebe",
+      "prompt": "¿Qué larva nadadora precede a la fijación de un percebe?",
+      "options": [
+        "La larva pluteus",
+        "la larva ciprida",
+        "La larva plánula",
+        "La larva trocófora."
+      ],
+      "explanation": "Busca una superficie a la que adherirse antes de transformarse.",
+      "didYouKnow": "Los percebes adultos suelen ser hermafroditas y pueden fertilizar a sus vecinos.",
+      "imageCaption": "Semibalanus balanoides: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-087",
+      "animal": "percebe",
+      "prompt": "¿Qué sustancia ayuda a que algunos percebes se adhieran permanentemente a las rocas?",
+      "options": [
+        "Un cemento proteico",
+        "Moco rico en calcio.",
+        "Una proteína de seda endurecida al aire",
+        "una fibra de seda"
+      ],
+      "explanation": "Este cemento submarino resiste las olas y la inmersión.",
+      "didYouKnow": "Un percebe extiende sus patas plumosas, llamadas cirros, para filtrar las partículas en suspensión.",
+      "imageCaption": "Semibalanus balanoides: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-088",
+      "animal": "cochinillas",
+      "prompt": "¿A qué grupo pertenece la cochinilla a pesar de su hábitat terrestre?",
+      "options": [
+        "Con moluscos",
+        "Con mariscos",
+        "Con anélidos",
+        "a los insectos"
+      ],
+      "explanation": "Respira con estructuras derivadas de branquias y debe mantener sus superficies húmedas.",
+      "didYouKnow": "Algunas especies de cochinillas pueden enrollarse formando una bola cuando se las molesta.",
+      "imageCaption": "Oniscus asellus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-089",
+      "animal": "cochinillas",
+      "prompt": "¿Por qué las cochinillas suelen buscar lugares húmedos?",
+      "options": [
+        "Limita así la pérdida de agua y protege sus órganos respiratorios.",
+        "Para mantener una temperatura corporal estable.",
+        "Para evitar depredadores visuales",
+        "Para reducir el ruido al moverse"
+      ],
+      "explanation": "Sus estructuras respiratorias derivadas de branquias funcionan mejor en condiciones de humedad.",
+      "didYouKnow": "Algunas especies pueden convertirse en una bola cuando se las molesta.",
+      "imageCaption": "Oniscus asellus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-090",
+      "animal": "ajolote",
+      "prompt": "¿Qué parte del cuerpo puede regenerar el ajolote después de una lesión?",
+      "options": [
+        "solo la lente",
+        "Sólo células de la piel",
+        "Dientes y escamas",
+        "Extremidades, así como varios tejidos y órganos."
+      ],
+      "explanation": "La regeneración varía según el tejido y las condiciones.",
+      "didYouKnow": "El ajolote es originario de los lagos del Valle de México, en particular del sistema Xochimilco.",
+      "imageCaption": "Ambystoma mexicanum — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-091",
+      "animal": "ajolote",
+      "prompt": "¿Qué rasgo larvario suele conservar el ajolote hasta la edad adulta?",
+      "options": [
+        "Sus branquias externas",
+        "Sus aletas pectorales",
+        "Sus pulmones externos",
+        "Su caparazón larvario"
+      ],
+      "explanation": "Esta persistencia de características larvarias se llama neotenia.",
+      "didYouKnow": "El ajolote también puede respirar a través de la piel y los pulmones.",
+      "imageCaption": "Ambystoma mexicanum — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-092",
+      "animal": "ajolote",
+      "prompt": "¿Qué mecanismo hormonal puede desencadenar la metamorfosis de un ajolote?",
+      "options": [
+        "La acción de las hormonas tiroideas.",
+        "melatonina",
+        "Adrenalina",
+        "una hormona del crecimiento"
+      ],
+      "explanation": "La metamorfosis se puede inducir experimentalmente, aunque es rara de forma natural.",
+      "didYouKnow": "El ajolote es originario del sistema lacustre de Xochimilco, en el valle de México.",
+      "imageCaption": "Ambystoma mexicanum — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-093",
+      "animal": "salamandra",
+      "prompt": "¿Cómo respiran algunas salamandras sin pulmones?",
+      "options": [
+        "A través de la piel y mucosas de la boca.",
+        "Por pulmones funcionales",
+        "Por branquias internas del adulto",
+        "A través de un tubo respiratorio"
+      ],
+      "explanation": "Los intercambios de gases dependen entonces de la piel húmeda.",
+      "didYouKnow": "A diferencia de las ranas adultas, las salamandras generalmente conservan una cola.",
+      "imageCaption": "Plethodon cinereus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-094",
+      "animal": "salamandra",
+      "prompt": "¿Qué podría secretar la piel de algunas salamandras para disuadir a un depredador?",
+      "options": [
+        "moco dulce",
+        "fibras de seda",
+        "Luz bioluminiscente",
+        "Sustancias tóxicas o irritantes."
+      ],
+      "explanation": "La composición varía de una especie a otra.",
+      "didYouKnow": "Las larvas de muchas salamandras tienen branquias externas.",
+      "imageCaption": "Salamandra salamandra: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-095",
+      "animal": "salamandra",
+      "prompt": "¿Cómo protege la salamandra gigante japonesa macho la puesta de huevos?",
+      "options": [
+        "Cuida el nido y aviva los huevos hasta que eclosionan.",
+        "Lleva los huevos en una bolsa debajo de la garganta.",
+        "Lleva los huevos adheridos a sus patas.",
+        "Mueve el engendro a su boca."
+      ],
+      "explanation": "El macho permanece en la cavidad de puesta y protege los huevos, en particular abanicándolos con la cola.",
+      "didYouKnow": "La salamandra gigante japonesa puede superar el metro de longitud, lo que la convierte en uno de los anfibios más grandes.",
+      "imageCaption": "Andrias japonicus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-096",
+      "animal": "rana",
+      "prompt": "¿Cómo es que algunas ranas de cristal se vuelven más translúcidas cuando descansan?",
+      "options": [
+        "Al almacenar gran parte de sus glóbulos rojos en el hígado",
+        "Reemplazando sus glóbulos rojos con células transparentes.",
+        "Al concentrar su sangre en las patas.",
+        "Cubriendo su estómago con moco sin pigmento."
+      ],
+      "explanation": "En reposo, una gran parte de sus glóbulos rojos abandonan la circulación visible y se almacenan en el hígado, haciendo que el cuerpo sea más translúcido.",
+      "didYouKnow": "Algunas ranas de cristal ponen sus huevos en las hojas que dan a un arroyo.",
+      "imageCaption": "Hyalinobatrachium fleischmanni: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-097",
+      "animal": "rana",
+      "prompt": "¿Cuál es la función del saco vocal en muchas ranas macho?",
+      "options": [
+        "Almacenamiento de aire para respirar bajo el agua",
+        "Filtrar el agua alrededor de los huevos.",
+        "Mantener el equilibrio mientras saltas.",
+        "Amplifica la canción de llamada."
+      ],
+      "explanation": "El saco se infla y resuena durante la vocalización.",
+      "didYouKnow": "Algunas ranas llevan sus huevos o renacuajos en el cuerpo.",
+      "imageCaption": "Pelophylax ridibundus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-098",
+      "animal": "rana",
+      "prompt": "¿Cómo llevan algunas ranas sus huevos en una bolsa trasera?",
+      "options": [
+        "Los huevos permanecen en una cáscara dorsal dura.",
+        "Los huevos se transportan en un saco vocal.",
+        "Los huevos están adheridos a las patas traseras.",
+        "La piel de la espalda forma una bolsa incubadora."
+      ],
+      "explanation": "Este modo de cuidado parental existe en varios grupos de ranas.",
+      "didYouKnow": "Las ranas adultas generalmente tienen un corazón de tres cámaras: dos aurículas y un ventrículo.",
+      "imageCaption": "Gastrotheca marsupiata: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-099",
+      "animal": "rana",
+      "prompt": "¿Qué cuidados parentales inusuales practica el sapo partero macho?",
+      "options": [
+        "El macho mantiene los huevos bajo el agua en un nido.",
+        "La hembra lleva los huevos en la boca.",
+        "Lleva hilos de huevos alrededor de sus patas traseras.",
+        "El macho pega los huevos en una hoja."
+      ],
+      "explanation": "Mantiene los huevos húmedos hasta que eclosionan.",
+      "didYouKnow": "El sapo partero es originario de varias regiones de Europa occidental.",
+      "imageCaption": "Alytes obstetricans: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-100",
+      "animal": "rana",
+      "prompt": "¿Qué anfibio puede producir una espuma protectora alrededor de sus huevos?",
+      "options": [
+        "La protea de la anguila",
+        "la rana de musgo",
+        "el sapo partero",
+        "la rana de cristal"
+      ],
+      "explanation": "El musgo limita la desecación y puede proteger los huevos de los depredadores.",
+      "didYouKnow": "El corazón de muchas ranas tiene dos aurículas y un ventrículo.",
+      "imageCaption": "Rhacophorus nigropalmatus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-101",
+      "animal": "rana",
+      "prompt": "¿Cómo pueden beneficiarse las ranas al poner huevos en un nido de musgo húmedo sobre el agua?",
+      "options": [
+        "Protege los huevos de ciertos depredadores acuáticos mientras los mantiene húmedos.",
+        "Permite que los embriones respiren en un caparazón impermeable.",
+        "Exime a los renacuajos de ingresar a un ambiente acuático.",
+        "Expone los huevos a la luz solar directa para acelerar su eclosión."
+      ],
+      "explanation": "Un nido húmedo fuera del agua puede proteger los huevos de algunos depredadores acuáticos; Después de la eclosión, los renacuajos caen o son arrastrados al agua.",
+      "didYouKnow": "En muchas ranas, el corazón tiene dos aurículas y un ventrículo.",
+      "imageCaption": "Rhacophorus nigropalmatus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-102",
+      "animal": "cecile",
+      "prompt": "¿Qué sentido está particularmente desarrollado en las cecilias excavadoras?",
+      "options": [
+        "El gusto, gracias a una lengua bífida.",
+        "El olfato, ayudado por tentáculos sensoriales.",
+        "Audición gracias a los tímpanos externos",
+        "Vista, gracias a los ojos dirigidos hacia arriba."
+      ],
+      "explanation": "Estos pequeños tentáculos se encuentran entre los ojos y las fosas nasales.",
+      "didYouKnow": "Las cecilias son anfibios sin patas.",
+      "imageCaption": "Ichthyophis glutinosus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-103",
+      "animal": "braquiópodo",
+      "prompt": "¿Cómo se adhieren muchos braquiópodos adultos al fondo marino?",
+      "options": [
+        "Con hilos de biso secretados por las branquias.",
+        "Con pies de tubo hidráulico",
+        "Con ventosa formada por el lofóforo",
+        "Con un pedículo carnoso que sale entre sus dos valvas."
+      ],
+      "explanation": "El pedículo ancla al animal al sustrato sin ser una pata de locomoción.",
+      "didYouKnow": "El lofóforo de un braquiópodo tiene tentáculos ciliados que capturan partículas de alimento.",
+      "imageCaption": "Lingula anatina: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-104",
+      "animal": "cecile",
+      "prompt": "¿Cómo les proporciona alimento la piel de las crías de algunas cecilias?",
+      "options": [
+        "Filtran plancton en el agua",
+        "Comen huevos no fertilizados",
+        "Se alimentan de la nutritiva capa exterior de la piel materna.",
+        "Succionan de las glándulas mamarias."
+      ],
+      "explanation": "Esta estrategia se llama dermatotrofia.",
+      "didYouKnow": "En las cecilias la fecundación es interna, a diferencia de la de muchos otros anfibios.",
+      "imageCaption": "Boulengerula taitana: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-105",
+      "animal": "tritón",
+      "prompt": "¿Qué fenómeno permite que a algunos tritones les vuelvan a crecer partes de la cola?",
+      "options": [
+        "Regeneración de tejidos",
+        "Reemplazo de una vértebra por una aleta",
+        "Crecer una nueva pata delantera",
+        "Desprendimiento de la piel"
+      ],
+      "explanation": "La cola puede reformarse después de una lesión, según la especie.",
+      "didYouKnow": "Los tritones son salamandras que suelen pasar parte del año en la tierra y parte en el agua.",
+      "imageCaption": "Ichthyosaura alpestris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-106",
+      "animal": "tritón",
+      "prompt": "¿Cómo atrae el tritón alpino macho a su pareja durante el cortejo?",
+      "options": [
+        "Con cresta dorsal y movimientos de cola.",
+        "Cambiando de color como un camaleón",
+        "Golpeando el suelo con sus patas.",
+        "Inflando sus bolsas vocales"
+      ],
+      "explanation": "Los colores brillantes del vientre también sirven como señal visual.",
+      "didYouKnow": "El tritón alpino suele pasar el invierno en un refugio terrestre húmedo.",
+      "imageCaption": "Ichthyosaura alpestris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-107",
+      "animal": "protea",
+      "prompt": "¿Qué anfibio de las cavernas conserva branquias externas durante toda su vida?",
+      "options": [
+        "la rana de cristal",
+        "La protea manchada",
+        "La protea de la anguila",
+        "El tritón alpino"
+      ],
+      "explanation": "Este anfibio vive en aguas subterráneas de los Balcanes.",
+      "didYouKnow": "La anguila proteica pone sus huevos en el agua, a menudo debajo de piedras o en grietas.",
+      "imageCaption": "Proteus anguinus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-108",
+      "animal": "protea",
+      "prompt": "¿Cómo compensa la protea de la anguila su visión reducida?",
+      "options": [
+        "Utiliza visión infrarroja.",
+        "Utiliza en particular el sentido del olfato y la percepción de vibraciones.",
+        "Produce luz para iluminar cuevas",
+        "Detecta sonidos con tímpanos externos"
+      ],
+      "explanation": "Está adaptado a la vida en aguas subterráneas oscuras.",
+      "didYouKnow": "La protea puede sobrevivir durante mucho tiempo con poca comida.",
+      "imageCaption": "Proteus anguinus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-109",
+      "animal": "pipa",
+      "prompt": "¿En qué etapa emergen las crías de sapo de Surinam de los alvéolos del dorso materno?",
+      "options": [
+        "Como ranas jóvenes ya formadas",
+        "Como renacuajos con branquias externas.",
+        "En forma de óvulos no fertilizados.",
+        "Como pequeñas larvas nadadoras que salen de la espalda"
+      ],
+      "explanation": "Los embriones se desarrollan en las cavidades dorsales y emergen después de una metamorfosis casi completa.",
+      "didYouKnow": "El sapo de Surinam es un anfibio totalmente acuático de América del Sur.",
+      "imageCaption": "Pipa pipa — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-110",
+      "animal": "rana",
+      "prompt": "¿Qué comportamiento hizo famosas a las ranas ahora extintas del género Rheobatrachus?",
+      "options": [
+        "El macho llevaba los hilos de huevos alrededor de sus piernas.",
+        "La hembra puso huevos nutritivos para alimentar a los renacuajos.",
+        "La hembra incubaba a las crías en su estómago y luego las expulsaba por la boca.",
+        "La hembra llevaba los huevos en una bolsa dorsal."
+      ],
+      "explanation": "La hembra tragó los huevos fertilizados e incubó los embriones en su estómago antes de expulsar a las crías por la boca.",
+      "didYouKnow": "En Australia vivían ranas del género Rheobatrachus.",
+      "imageCaption": "Rheobatrachus silus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-111",
+      "animal": "araña",
+      "prompt": "¿Cómo detecta una araña a menudo que una presa toca su red?",
+      "options": [
+        "Por los olores que emite la presa.",
+        "Por señales luminosas en la web.",
+        "Por cambios de temperatura de los cables.",
+        "Por las vibraciones transmitidas por los cables."
+      ],
+      "explanation": "La web funciona como una red sensorial.",
+      "didYouKnow": "La mayoría de las arañas tienen ocho ojos simples, pero algunas especies tienen menos.",
+      "imageCaption": "Araneus diadematus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-112",
+      "animal": "araña",
+      "prompt": "¿Qué familia de proteínas constituye la mayor parte de la seda de araña?",
+      "options": [
+        "colágeno",
+        "espidroinas",
+        "queratina",
+        "quitina"
+      ],
+      "explanation": "Las espidroínas son las principales proteínas estructurales de la seda producida por las arañas.",
+      "didYouKnow": "La mayoría de las arañas tienen ocho ojos simples, aunque algunas especies tienen menos.",
+      "imageCaption": "Araneus diadematus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-113",
+      "animal": "araña",
+      "prompt": "¿Cuál es el propósito de la seda de seguridad que deja una araña?",
+      "options": [
+        "Para proteger solo la muda",
+        "para empacar presas",
+        "Para filtrar plancton",
+        "Para anclarse mientras se mueve o salta"
+      ],
+      "explanation": "Esta línea de pesca al curricán puede evitar una caída.",
+      "didYouKnow": "Las arañas renuevan su exoesqueleto mediante sucesivas mudas durante su crecimiento.",
+      "imageCaption": "Salticus Scenicus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-114",
+      "animal": "araña",
+      "prompt": "¿Cómo pueden las arañas jóvenes dispersarse por el aire después de nacer?",
+      "options": [
+        "Emitiendo hilos de seda que lleva el viento.",
+        "Al abrir alas membranosas",
+        "Inflando una bolsa de aire debajo del abdomen.",
+        "Dejándote llevar por una burbuja de moco"
+      ],
+      "explanation": "Las arañas jóvenes sueltan uno o más hilos de seda que son arrastrados por las corrientes de aire; este comportamiento se llama globo.",
+      "didYouKnow": "Las arañas crecen mudando periódicamente su exoesqueleto durante la muda.",
+      "imageCaption": "Linyphiidae: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-115",
+      "animal": "Argyronet",
+      "prompt": "¿Cómo puede el argyronete, una araña acuática, permanecer bajo el agua durante mucho tiempo?",
+      "options": [
+        "Mantiene campana de aire en lona sumergida",
+        "Utiliza branquias en lugar de pulmones.",
+        "Respira únicamente gracias a sus ocho patas.",
+        "Ella no necesita oxígeno cuando sea adulta."
+      ],
+      "explanation": "Argyroneta acuática transporta aire desde la superficie y lo atrapa en una campana de seda sumergida. Esta reserva también permite el intercambio de gases con agua.",
+      "didYouKnow": "La mayoría de las arañas tienen ocho ojos simples, aunque algunas especies tienen menos.",
+      "imageCaption": "Argyroneta acuática: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-116",
+      "animal": "araña",
+      "prompt": "¿Por qué algunas arañas decoran sus telas con un estabilizador?",
+      "options": [
+        "Para atrapar pájaros con alambre grueso.",
+        "Para guardar huevos en lona.",
+        "Esconder presas bajo un velo",
+        "Esta estructura puede ayudar con el camuflaje o la señalización."
+      ],
+      "explanation": "Se están estudiando varias funciones, incluido el camuflaje de las arañas y la señalización visual. Pueden variar según la especie y el contexto.",
+      "didYouKnow": "Algunas arañas hurgan y comen parte de su vieja red para reciclar sus proteínas.",
+      "imageCaption": "Argiope bruennichi: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-117",
+      "animal": "araña",
+      "prompt": "¿Cómo puede la araña cangrejo moverse de lado?",
+      "options": [
+        "Sus patas están hechas de ventosas.",
+        "Sus patas están adaptadas para caminar de lado.",
+        "Ella se mueve con su abdomen.",
+        "Camina sobre el agua gracias a cerdas hidrófobas."
+      ],
+      "explanation": "A menudo se posa sobre las flores para tender emboscadas a los insectos.",
+      "didYouKnow": "Algunas especies cambian lentamente de color para mezclarse con la flor.",
+      "imageCaption": "Misumena vatia: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-118",
+      "animal": "araña",
+      "prompt": "¿Cuál es el papel de los pedipalpos en una araña macho adulta?",
+      "options": [
+        "Detectar vibraciones del suelo",
+        "producir seda",
+        "Masticar la presa",
+        "Transferir esperma durante el apareamiento."
+      ],
+      "explanation": "Los pedipalpos llevan estructuras que recolectan y liberan espermatozoides.",
+      "didYouKnow": "Los quelíceros de muchas arañas inyectan veneno que ayuda a inmovilizar a sus presas.",
+      "imageCaption": "Araneus diadematus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-119",
+      "animal": "araña",
+      "prompt": "¿Por qué a veces una araña produce una seda diferente para cubrir los huevos?",
+      "options": [
+        "Para proteger al macho después del apareamiento.",
+        "Para proteger el saco de huevos",
+        "Para almacenar veneno",
+        "Para hacer una red de caza"
+      ],
+      "explanation": "Las sedas del capullo pueden proporcionar una cubierta fuerte y aislante.",
+      "didYouKnow": "Los quelíceros de muchas arañas inyectan veneno que ayuda a inmovilizar a sus presas.",
+      "imageCaption": "Araneus diadematus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-120",
+      "animal": "araña",
+      "prompt": "¿Qué hace una araña boleadora para atraer a ciertas mariposas macho?",
+      "options": [
+        "Emite un señuelo químico parecido a una feromona.",
+        "Produce luz para atraer a los machos.",
+        "Agita una red para imitar una mariposa.",
+        "Pone huevos que se parecen a las mariposas."
+      ],
+      "explanation": "Luego arroja una gota de seda pegajosa al final de un hilo.",
+      "didYouKnow": "Las arañas pueden volver a ingerir parte de su antigua red y reciclar las proteínas.",
+      "imageCaption": "Mastophora cornigera — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-121",
+      "animal": "escorpión",
+      "prompt": "¿Qué apéndice en forma de peine ayuda al escorpión a explorar químicamente el suelo?",
+      "options": [
+        "pectinas",
+        "Manchas oculares",
+        "el telsón",
+        "quelíceros"
+      ],
+      "explanation": "Estos apéndices sensoriales deambulan por el sustrato e informan al escorpión sobre su textura y señales químicas.",
+      "didYouKnow": "La cutícula de muchos escorpiones emite fluorescencia bajo la luz ultravioleta.",
+      "imageCaption": "Pandinus imperator: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-122",
+      "animal": "escorpión",
+      "prompt": "¿Por qué un escorpión no siempre inyecta la misma cantidad de veneno cuando pica?",
+      "options": [
+        "Puede retener su veneno o modular su cantidad.",
+        "Siempre inyecta una dosis idéntica.",
+        "Sólo produce veneno después de una muda.",
+        "Sólo puede picar una vez en la vida."
+      ],
+      "explanation": "Algunos escorpiones realizan picaduras secas o inyectan una cantidad variable según la amenaza y la presa.",
+      "didYouKnow": "Los escorpiones cortan a sus presas con su aparato bucal antes de absorber los tejidos licuados.",
+      "imageCaption": "Pandinus imperator: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-123",
+      "animal": "escorpión",
+      "prompt": "¿Qué comportamiento maternal es común en muchos escorpiones?",
+      "options": [
+        "La madre construye una red para los huevos.",
+        "Los jóvenes viajan a lomos de su madre.",
+        "Los jóvenes se entierran bajo la arena",
+        "El padre alimenta a los pequeños con insectos"
+      ],
+      "explanation": "De este modo permanecen protegidos hasta su primera muda.",
+      "didYouKnow": "Un escorpión puede pasar mucho tiempo sin comer, aunque el tiempo depende de la especie y las condiciones.",
+      "imageCaption": "Pandinus imperator: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-124",
+      "animal": "escorpión",
+      "prompt": "¿Qué luz suele hacer brillar la cutícula de muchos escorpiones?",
+      "options": [
+        "luz infrarroja",
+        "luz ultravioleta",
+        "la luz roja",
+        "luz polarizada"
+      ],
+      "explanation": "Los compuestos de su cutícula fluorescente emiten un brillo visible bajo la luz ultravioleta.",
+      "didYouKnow": "Los escorpiones capturan a sus presas con sus pedipalpos antes de llevárselas a la boca.",
+      "imageCaption": "Pandinus imperator: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-125",
+      "animal": "escorpión",
+      "prompt": "¿Qué parte del escorpión tiene el aguijón?",
+      "options": [
+        "El Telson, al final de la cola",
+        "El cefalotórax",
+        "La abrazadera izquierda",
+        "el pedipalpo"
+      ],
+      "explanation": "El Telson contiene las glándulas venenosas y el aguijón.",
+      "didYouKnow": "Los escorpiones realizan una exhibición compleja antes de aparearse.",
+      "imageCaption": "Pandinus imperator: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-126",
+      "animal": "pseudoescorpión",
+      "prompt": "¿Cómo se mueve a veces un pseudoescorpión sin caminar?",
+      "options": [
+        "Nada mientras agita sus garras.",
+        "Se aferra a un insecto en foresis.",
+        "Vuela con alas escondidas",
+        "Se deja llevar por el viento en una red."
+      ],
+      "explanation": "Se beneficia del transporte sin necesariamente parasitar a su huésped.",
+      "didYouKnow": "El pseudoescorpión es un pequeño arácnido sin cola.",
+      "imageCaption": "Chelifer cancroides: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-127",
+      "animal": "pseudoescorpión",
+      "prompt": "¿Qué estructura permite al pseudoescorpión capturar a su presa?",
+      "options": [
+        "Un aguijón al final del abdomen.",
+        "Garras con glándulas venenosas en determinadas especies.",
+        "Patas de ventosa",
+        "Quelíceros en forma de abrazadera"
+      ],
+      "explanation": "El veneno se libera mediante pinzas y no mediante un aguijón caudal.",
+      "didYouKnow": "El pseudoescorpión es un pequeño arácnido sin cola.",
+      "imageCaption": "Chelifer cancroides: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-128",
+      "animal": "opilión",
+      "prompt": "¿Por qué a un opilion se le puede desprender una pierna cuando lo atacan?",
+      "options": [
+        "La pata a veces continúa moviéndose y distrae la atención.",
+        "ella tira tinta",
+        "Ella muerde a su depredador",
+        "Ella deja caer su abdomen"
+      ],
+      "explanation": "Esta autotomía puede darle al animal la oportunidad de escapar.",
+      "didYouKnow": "A diferencia de las arañas, el cuerpo de los opilions aparece fusionado en un solo bloque.",
+      "imageCaption": "Phalangium opilio: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-129",
+      "animal": "ácaro",
+      "prompt": "¿Qué ácaro microscópico vive normalmente en los folículos del cabello humano?",
+      "options": [
+        "sarna sarcopto",
+        "Demodex",
+        "El ácaro del polvo",
+        "la garrapata de la oveja"
+      ],
+      "explanation": "Estos ácaros se alimentan de sebo y células de la piel.",
+      "didYouKnow": "Los ácaros Demodex tienen cuerpos alargados y patas cortas.",
+      "imageCaption": "Demodex folliculorum: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-130",
+      "animal": "ácaro",
+      "prompt": "¿Cómo suelen localizar las garrapatas a sus huéspedes en el medio ambiente?",
+      "options": [
+        "Escuchando sus gritos",
+        "Al detectar las vibraciones de los lienzos",
+        "Al detectar calor, olores y dióxido de carbono.",
+        "Ver los colores de sus anfitriones."
+      ],
+      "explanation": "A menudo esperan en la vegetación cerca de un pasaje.",
+      "didYouKnow": "Una garrapata no es un insecto, sino un arácnido.",
+      "imageCaption": "Ixodes ricinus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-131",
+      "animal": "ácaro",
+      "prompt": "¿Qué etapa del ciclo de vida de una garrapata tiene seis patas?",
+      "options": [
+        "el macho adulto",
+        "la larva",
+        "la ninfa",
+        "la hembra adulta"
+      ],
+      "explanation": "Las ninfas y los adultos tienen ocho patas.",
+      "didYouKnow": "Las garrapatas respiran a través de aberturas externas llamadas espiráculos.",
+      "imageCaption": "Ixodes ricinus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-132",
+      "animal": "tardígrado",
+      "prompt": "¿En qué estado de criptobiosis puede entrar un tardígrado al secarse?",
+      "options": [
+        "El estado de la planula",
+        "El estado de tonel (también llamado estado tun)",
+        "Anhidrobiosis larvaria",
+        "estrobilación"
+      ],
+      "explanation": "El tardígrado contrae su cuerpo y forma un tonel, una forma compacta asociada a la criptobiosis.",
+      "didYouKnow": "Un tardígrado tiene cuatro pares de patas cortas que terminan en garras o discos.",
+      "imageCaption": "Hypsibius exemplaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-133",
+      "animal": "tardígrado",
+      "prompt": "¿Cómo limitan algunos tardígrados el daño celular durante la deshidratación grave?",
+      "options": [
+        "Las moléculas protectoras estabilizan ciertas estructuras celulares.",
+        "Forman una capa mineral alrededor del cuerpo.",
+        "Reemplazan el agua de sus células con aceite",
+        "Interrumpen permanentemente toda actividad celular."
+      ],
+      "explanation": "Dependiendo de la especie, determinados azúcares o proteínas ayudan a proteger las células durante la desecación.",
+      "didYouKnow": "En determinadas especies, la hembra deposita sus huevos en la exuvia que acaba de abandonar.",
+      "imageCaption": "Hypsibius exemplaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-134",
+      "animal": "tardígrado",
+      "prompt": "¿Con qué estructuras perfora un tardígrado las células de las que succiona el contenido?",
+      "options": [
+        "estiletes orales",
+        "Mandíbulas rectificadoras",
+        "Una rádula cubierta de dientes.",
+        "Pedipalpos con pinzas"
+      ],
+      "explanation": "Los estiletes bucales perforan las paredes o los tejidos antes de que el contenido sea succionado a través de la faringe muscular.",
+      "didYouKnow": "Los tardígrados tienen cuatro pares de patas cortas que terminan en garras o discos.",
+      "imageCaption": "Hypsibius exemplaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-135",
+      "animal": "tardígrado",
+      "prompt": "¿Qué hábitat de humedal suele sustentar a los tardígrados?",
+      "options": [
+        "Musgos y líquenes",
+        "La superficie de las rocas en llamas.",
+        "Dunas secas",
+        "nidos de pájaros"
+      ],
+      "explanation": "Viven en la película de agua que recubre estos microhábitats.",
+      "didYouKnow": "Dependiendo de la especie, un tardígrado puede alimentarse de algas, bacterias, hongos o animales pequeños.",
+      "imageCaption": "Hypsibius exemplaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-136",
+      "animal": "tardígrado",
+      "prompt": "¿Qué hacen las piernas de un tardígrado?",
+      "options": [
+        "Para aferrarse al sustrato y moverse",
+        "Impulsar al animal golpeándolo en el agua.",
+        "Inyectar veneno a su presa.",
+        "Cavando una madriguera en la arena"
+      ],
+      "explanation": "Los tardígrados usan sus patas cortas con garras para agarrarse a las superficies y moverse a través de la película de agua de su hábitat.",
+      "didYouKnow": "Los tardígrados no tienen pulmones ni branquias; Los intercambios de gases tienen lugar a lo largo de la superficie de su cuerpo.",
+      "imageCaption": "Hypsibius exemplaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-137",
+      "animal": "rotífero",
+      "prompt": "¿Qué aparente órgano giratorio ayuda a un rotífero a atraer alimento?",
+      "options": [
+        "Rinóforos",
+        "La corona ciliada",
+        "el lofóforo",
+        "parapodios"
+      ],
+      "explanation": "El batido de los cilios crea corrientes y da la impresión de rotación.",
+      "didYouKnow": "Los rotíferos son animales microscópicos que se ven a menudo en agua dulce.",
+      "imageCaption": "Philodina roseola: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-138",
+      "animal": "rotífero",
+      "prompt": "¿Cómo puede el rotífero bdeloide sobrevivir a una desecación prolongada?",
+      "options": [
+        "Construyendo una cáscara de piedra caliza",
+        "Enterrando en el hielo",
+        "Al entrar en anhidrobiosis",
+        "Migrando a aguas termales"
+      ],
+      "explanation": "Se reactiva cuando el agua vuelve a estar disponible.",
+      "didYouKnow": "Los bdelloides pueden recolonizar hábitats pequeños después del transporte por el viento.",
+      "imageCaption": "Philodina roseola: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-139",
+      "animal": "briozoo",
+      "prompt": "¿Cómo suele ser una colonia de briozoos?",
+      "options": [
+        "A un tubo excavado en la arena",
+        "A una estera o corteza compuesta de numerosos zooides.",
+        "A un solo animal grande",
+        "A un solo caparazón dividido en habitaciones."
+      ],
+      "explanation": "Cada zooide es un pequeño animal que se alimenta por filtración alojado en una cámara.",
+      "didYouKnow": "Algunas colonias de briozoos viven en agua dulce, aunque la mayoría de las especies son marinas.",
+      "imageCaption": "Membranipora membranacea — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-140",
+      "animal": "briozoo",
+      "prompt": "¿Qué estructura de tentáculo captura el alimento en un briozoo?",
+      "options": [
+        "nematocistos",
+        "los cirros",
+        "el lofóforo",
+        "la radula"
+      ],
+      "explanation": "Lleva una corona de tentáculos ciliados que filtran partículas.",
+      "didYouKnow": "Los briozoos suelen vivir adheridos a algas, rocas o conchas.",
+      "imageCaption": "Membranipora membranacea — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-141",
+      "animal": "braquiópodo",
+      "prompt": "¿Qué detalle suele distinguir la concha de un braquiópodo de la de una almeja?",
+      "options": [
+        "Las válvulas izquierda y derecha son simétricas.",
+        "Sus dos válvulas son dorsal y ventral en lugar de izquierda y derecha.",
+        "Las válvulas están enrolladas en espiral.",
+        "El caparazón tiene una sola válvula."
+      ],
+      "explanation": "El plano de simetría cruza cada válvula.",
+      "didYouKnow": "Los braquiópodos son un antiguo grupo marino que aún está presente en la actualidad.",
+      "imageCaption": "Lingula anatina, un ejemplo de braquiópodo."
+    },
+    {
+      "id": "unusual-142",
+      "animal": "briozoo de agua dulce",
+      "prompt": "¿Cómo superan algunos briozoos de agua dulce un período desfavorable?",
+      "options": [
+        "Se encierran en un caparazón de adulto.",
+        "Ponen huevos amnióticos en el barro",
+        "Producen estatoblastos resistentes que pueden dispersarse.",
+        "Se convierten en larvas de medusa"
+      ],
+      "explanation": "Los estatoblastos son yemas latentes protegidas que restablecen una colonia cuando las condiciones vuelven a ser favorables.",
+      "didYouKnow": "Las colonias de briozoos de agua dulce suelen vivir adheridas a plantas o madera sumergidas.",
+      "imageCaption": "Cristatella mucedo — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-143",
+      "animal": "tunicados",
+      "prompt": "¿Qué órgano filtra el agua en las ascidias adultas?",
+      "options": [
+        "Un estómago con múltiples cámaras",
+        "Un sifón que contiene branquias externas.",
+        "Un bolsillo lleno de células urticantes",
+        "Una gran bolsa faríngea perforada."
+      ],
+      "explanation": "El agua pasa a través de las hendiduras branquiales y las partículas quedan retenidas en el moco.",
+      "didYouKnow": "Las ascidias adultas generalmente permanecen adheridas a un soporte, mientras que sus larvas son móviles.",
+      "imageCaption": "Ciona intestinalis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-144",
+      "animal": "tunicados",
+      "prompt": "¿Qué rasgo de las larvas de ascidia revela su relación con los vertebrados?",
+      "options": [
+        "Un esqueleto óseo",
+        "branquias externas",
+        "una cuerda dorsal",
+        "Un caparazón segmentado"
+      ],
+      "explanation": "Generalmente desaparece durante la metamorfosis hacia el adulto fijo.",
+      "didYouKnow": "En muchas ascidias coloniales, los individuos pequeños comparten una túnica común.",
+      "imageCaption": "Ciona intestinalis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-145",
+      "animal": "tunicados",
+      "prompt": "¿Por qué a veces se describe a la ascidia adulta como una criatura que “escupe”?",
+      "options": [
+        "Bombea agua a través de sus branquias.",
+        "Puede expulsar el agua filtrada cuando se le molesta.",
+        "Ella inyecta tinta en el agua.",
+        "Ella expulsa un filamento urticante."
+      ],
+      "explanation": "Dos sifones permiten la entrada y salida del agua.",
+      "didYouKnow": "La túnica de las ascidias contiene tunicina, una sustancia relacionada con la celulosa.",
+      "imageCaption": "Ciona intestinalis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-146",
+      "animal": "molde",
+      "prompt": "¿Cómo se adhieren los mejillones a las rocas?",
+      "options": [
+        "Con hilos de seda",
+        "Con hilos de biso",
+        "Con secreción mucosa",
+        "Con ventosas en sus válvulas."
+      ],
+      "explanation": "Estas fibras resistentes son secretadas por una glándula en el pie.",
+      "didYouKnow": "Los mejillones son moluscos bivalvos cuyas dos válvulas están conectadas por una bisagra.",
+      "imageCaption": "Mytilus edulis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-147",
+      "animal": "molde",
+      "prompt": "¿Qué órganos del mejillón clasifican las partículas capturadas y las dirigen a la boca?",
+      "options": [
+        "los sifones",
+        "Coanocitos",
+        "palpos labiales",
+        "los pedicelarios"
+      ],
+      "explanation": "Los palpos labiales participan en la clasificación y transporte de partículas recogidas por las branquias. No transforman estas partículas en nutrientes por sí mismos.",
+      "didYouKnow": "Los mejillones a menudo se adhieren a las rocas mediante hilos fuertes llamados bisos.",
+      "imageCaption": "Mytilus edulis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-148",
+      "animal": "ostra",
+      "prompt": "¿Qué cambio de sexo puede ocurrir en muchas ostras?",
+      "options": [
+        "Todos cambian de género cada temporada.",
+        "Siempre siguen siendo hombres",
+        "Se reproducen sin gametos",
+        "Pueden cambiar de sexo durante su vida"
+      ],
+      "explanation": "El sexo depende de la especie, la edad y, a veces, las condiciones.",
+      "didYouKnow": "Las ostras a veces forman lechos que proporcionan hábitat a otras especies costeras.",
+      "imageCaption": "Ostrea edulis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-149",
+      "animal": "caracol marino",
+      "prompt": "¿Cómo inmoviliza ciertas presas el caracol cono geógrafo?",
+      "options": [
+        "Paralizando a la presa con un chorro de tinta.",
+        "Persiguiendo a su presa con tentáculos",
+        "Atrapándola en una red pegajosa",
+        "Con un arpón radular que contiene veneno."
+      ],
+      "explanation": "Lanza el arpón desde una probóscide extensible.",
+      "didYouKnow": "Las conchas de muchos conos de mar tienen patrones y colores característicos de la especie.",
+      "imageCaption": "Conus geographus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-150",
+      "animal": "nudibranquio",
+      "prompt": "¿Qué almacenan algunos nudibranquios después de comer cnidarios?",
+      "options": [
+        "Las branquias de la presa para respirar.",
+        "Cromatóforos de la presa para cambiar de color.",
+        "Nematocistos, las cápsulas urticantes de sus presas.",
+        "Cnidocitos enteros, células vivas de la presa."
+      ],
+      "explanation": "Los nudibranquios en cuestión digieren las células de la presa pero desvían determinadas cápsulas urticantes que luego se alojan en cnidosacos.",
+      "didYouKnow": "Los nudibranquios suelen tener branquias plumosas o ramificadas en el lomo, cuya forma varía según el grupo.",
+      "imageCaption": "Aeolidia papillosa — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-151",
+      "animal": "babosa de mar sacogloso",
+      "prompt": "¿Qué puede hacer una babosa de mar sacoglosa con los cloroplastos de las algas que come?",
+      "options": [
+        "Guárdalos temporalmente en tus pañuelos",
+        "Transformarlos en células urticantes",
+        "Rechazarlos en forma de esporas.",
+        "Digerirlos inmediatamente en el estómago."
+      ],
+      "explanation": "Esta cleptoplastia le permite aprovechar la fotosíntesis durante un tiempo determinado.",
+      "didYouKnow": "En muchas babosas marinas, la fertilización se produce después de un intercambio recíproco de esperma entre parejas.",
+      "imageCaption": "Elysia chlorótica: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-152",
+      "animal": "gusano plano",
+      "prompt": "¿Cómo reconstruye una planaria gran parte de su cuerpo después de un corte?",
+      "options": [
+        "Gracias a las bacterias simbióticas",
+        "Gracias a sus células musculares",
+        "Gracias a unas células madre llamadas neoblastos",
+        "A través de la división de sus ojos"
+      ],
+      "explanation": "Estas células se diferencian para reemplazar los tejidos faltantes.",
+      "didYouKnow": "Las planarias tienen un sistema nervioso organizado en dos cordones longitudinales conectados en la parte frontal.",
+      "imageCaption": "Schmidtea mediterranea — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-153",
+      "animal": "gusano plano",
+      "prompt": "¿Qué órgano sensorial permite a muchas planarias detectar la luz?",
+      "options": [
+        "Rhopalías",
+        "los tentáculos",
+        "Manchas oculares",
+        "estatocistos"
+      ],
+      "explanation": "Estos ojos simples proporcionan información sobre la dirección de la luz sin formar una imagen detallada.",
+      "didYouKnow": "Algunas especies de planarias pueden reproducirse mediante división transversal del cuerpo.",
+      "imageCaption": "Schmidtea mediterranea — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-154",
+      "animal": "gusano de cinta",
+      "prompt": "¿Cómo evierte a veces su probóscide el gusano cinta para capturar una presa?",
+      "options": [
+        "Lo desenrolla de sus branquias",
+        "Se lo traga con la boca",
+        "Lo tira desde su pie",
+        "Evierta la probóscide fuera de su cuerpo"
+      ],
+      "explanation": "La probóscide puede ser pegajosa o estar equipada con estiletes según el grupo.",
+      "didYouKnow": "Los nemertes son gusanos no segmentados, a menudo alargados y aplanados.",
+      "imageCaption": "Lineus longissimus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-155",
+      "animal": "gusano poliqueto",
+      "prompt": "¿Para qué se utilizan los parapodios de los gusanos poliquetos?",
+      "options": [
+        "Defensa con veneno",
+        "Locomoción y a veces intercambio gaseoso.",
+        "Sólo para reproducción",
+        "Filtración de plancton"
+      ],
+      "explanation": "Estos apéndices laterales suelen tener cerdas.",
+      "didYouKnow": "Los poliquetos son un grupo diverso de anélidos marinos.",
+      "imageCaption": "Hediste diversicolor: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-156",
+      "animal": "gusano poliqueto",
+      "prompt": "¿Qué gusano marino forma plumas de colores que encoge hasta formar un tubo?",
+      "options": [
+        "el gusano plano",
+        "El gusano del árbol de Navidad",
+        "la lombriz",
+        "El gusano de cinta"
+      ],
+      "explanation": "Sus plumas branquiales se utilizan para respirar y capturar partículas.",
+      "didYouKnow": "Los gusanos poliquetos suelen llevar parapodios a lo largo de su cuerpo.",
+      "imageCaption": "Spirobranchus giganteus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-157",
+      "animal": "gusano de fuego",
+      "prompt": "¿Cómo disuade el gusano de fuego a ciertos depredadores de tocarlo?",
+      "options": [
+        "Golpea con el aguijón de la cola.",
+        "Sus cerdas quebradizas pueden penetrar la piel y causar irritación.",
+        "Inyecta veneno con colmillos fijos.",
+        "Libera tinta de un bolsillo."
+      ],
+      "explanation": "Las cerdas blancas del gusano de fuego son frágiles y pueden soltarse al contacto, provocando una sensación irritante.",
+      "didYouKnow": "El gusano de fuego es un poliqueto marino de la familia Amphinomidae.",
+      "imageCaption": "Hermodice carunculata: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-158",
+      "animal": "sanguijuela",
+      "prompt": "¿Cómo evita a veces una sanguijuela que la sangre de su presa se coagule?",
+      "options": [
+        "Secreta moléculas anticoagulantes.",
+        "Produce una toxina que destruye los glóbulos rojos.",
+        "Chupa sangre con branquias.",
+        "Secreta una sustancia que acelera la coagulación."
+      ],
+      "explanation": "La hirudina es un anticoagulante conocido en ciertas sanguijuelas.",
+      "didYouKnow": "Las sanguijuelas son anélidos cuyos cuerpos son aplanados y segmentados.",
+      "imageCaption": "Hirudo medicinalis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-159",
+      "animal": "sanguijuela",
+      "prompt": "¿Cuántas ventosas suele tener una sanguijuela?",
+      "options": [
+        "Ninguno",
+        "dos",
+        "seis",
+        "solo uno"
+      ],
+      "explanation": "Las ventosas anterior y posterior ayudan a que se adhiera y se mueva.",
+      "didYouKnow": "El cuerpo segmentado puede alargarse y acortarse durante el movimiento.",
+      "imageCaption": "Hirudo medicinalis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-160",
+      "animal": "lombriz de tierra",
+      "prompt": "¿Qué órgano de la lombriz muele las partículas ingeridas con el suelo?",
+      "options": [
+        "Filtra la sangre en su intestino.",
+        "Almacena tierra en sus branquias.",
+        "la molleja",
+        "Sólo absorbe hojas intactas."
+      ],
+      "explanation": "La molleja musculosa aplasta la tierra y traga fragmentos orgánicos.",
+      "didYouKnow": "Los excrementos liberados por las lombrices contribuyen a la mezcla y aireación del suelo.",
+      "imageCaption": "Lumbricus terrestris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-161",
+      "animal": "lombriz de tierra",
+      "prompt": "¿Cuál es el papel de las sedas de las lombrices de tierra?",
+      "options": [
+        "para atrapar presas",
+        "Cavar el suelo girando como un tornillo.",
+        "Respirar bajo el agua",
+        "Anclate en el suelo durante la progresión."
+      ],
+      "explanation": "Las cerdas se adhieren al sustrato mientras los músculos mueven el cuerpo.",
+      "didYouKnow": "La lombriz de tierra es hermafrodita, pero generalmente se aparea con otro individuo.",
+      "imageCaption": "Lumbricus terrestris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-162",
+      "animal": "babosa de mar sacogloso",
+      "prompt": "¿Qué babosa de mar puede regenerar un cuerpo a partir de su cabeza después de una autotomía?",
+      "options": [
+        "Aplysia californica",
+        "Glauco atlántico",
+        "Elysia marginada",
+        "Elysia clorótica"
+      ],
+      "explanation": "En esta especie, la cabeza puede desprenderse y regenerar un nuevo cuerpo; el cuerpo abandonado no regenera una nueva cabeza.",
+      "didYouKnow": "Elysia marginata es una babosa de mar sacoglosa que se alimenta de algas.",
+      "imageCaption": "Elysia marginata: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-163",
+      "animal": "babosa de mar",
+      "prompt": "¿Por qué algunos nudibranquios muestran colores muy brillantes?",
+      "options": [
+        "Para atraer algas a la boca.",
+        "Para señalar que son rápidos.",
+        "Para advertir que son venenosos o desagradables para comer",
+        "Para advertir que pueden resultar desagradables para comer"
+      ],
+      "explanation": "La coloración aposemática puede indicar defensas químicas.",
+      "didYouKnow": "Los rinóforos, tentáculos sensoriales colocados en las cabezas de muchos nudibranquios, detectan sustancias químicas en el agua.",
+      "imageCaption": "Chromodoris annae: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-164",
+      "animal": "babosa de mar",
+      "prompt": "¿Qué órgano sensorial ayuda a una babosa de mar a detectar moléculas en el agua?",
+      "options": [
+        "pectinas",
+        "Rinóforos",
+        "Pies ambulacrales",
+        "Manchas oculares"
+      ],
+      "explanation": "Estos tentáculos químicos suelen ser retráctiles.",
+      "didYouKnow": "Las babosas marinas son gasterópodos marinos; a pesar de su nombre común, no son gusanos.",
+      "imageCaption": "Chromodoris annae: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-165",
+      "animal": "erizo de mar",
+      "prompt": "¿Qué pequeño cangrejo vive a veces entre las espinas de un erizo de mar?",
+      "options": [
+        "El camarón mantis",
+        "El cangrejo ermitaño",
+        "El cangrejo violinista",
+        "El cangrejo cebra (Zebrida adamsii)"
+      ],
+      "explanation": "Se beneficia de la protección que le proporcionan las púas.",
+      "didYouKnow": "El cangrejo cebra tiene bandas oscuras y claras en su caparazón, lo que le da su nombre común.",
+      "imageCaption": "Zebrida adamsii: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-166",
+      "animal": "estrella frágil",
+      "prompt": "¿Cómo pueden algunas estrellas frágiles evitar un ataque?",
+      "options": [
+        "Al abandonar un brazo que sigue moviéndose",
+        "Al expulsar sus vísceras",
+        "Produciendo un chorro de tinta",
+        "Al romper su disco central en dos"
+      ],
+      "explanation": "Perder el brazo distrae al depredador y el animal puede entonces regenerarlo.",
+      "didYouKnow": "Las estrellas frágiles suelen ser más activas durante la noche.",
+      "imageCaption": "Ophiothrix fragilis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-167",
+      "animal": "cangrejo herradura",
+      "prompt": "¿Por qué los huevos de cangrejo herradura son un recurso importante para algunas aves migratorias?",
+      "options": [
+        "Se convierten en algas comestibles",
+        "Permanecen suspendidos en la columna de agua costa afuera.",
+        "Son transportados a los nidos por aves adultas.",
+        "Proporcionan abundante alimento en las playas de anidación."
+      ],
+      "explanation": "Los cangrejos herradura ponen huevos en la arena de las zonas intermareales; Sus huevos alimentan a las aves que se detienen allí durante su migración.",
+      "didYouKnow": "La sangre azul del cangrejo herradura se utiliza en pruebas biomédicas para detectar determinadas contaminaciones bacterianas.",
+      "imageCaption": "Limulus polyphemus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-168",
+      "animal": "cangrejo herradura",
+      "prompt": "¿Qué apéndice utiliza el cangrejo herradura para enderezarse si se le da vuelta?",
+      "options": [
+        "su madreporita",
+        "Su telson",
+        "sus quelíceros",
+        "sus branquias"
+      ],
+      "explanation": "Lo usa como palanca para girar hacia su lado ventral.",
+      "didYouKnow": "Debajo del abdomen, el cangrejo herradura tiene branquias en forma de láminas superpuestas.",
+      "imageCaption": "Limulus polyphemus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-169",
+      "animal": "cangrejo herradura",
+      "prompt": "¿A qué linaje principal pertenecen los cangrejos herradura?",
+      "options": [
+        "A los equinodermos",
+        "Con moluscos",
+        "Con quelicerados",
+        "Con mariscos"
+      ],
+      "explanation": "Están más cerca de las arañas que de los verdaderos cangrejos.",
+      "didYouKnow": "El cangrejo herradura muda varias veces antes de alcanzar su tamaño adulto.",
+      "imageCaption": "Limulus polyphemus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-170",
+      "animal": "nautilo",
+      "prompt": "¿Cómo protege el nautilo la abertura de su caparazón cuando se retrae?",
+      "options": [
+        "Cierra un par de válvulas articuladas.",
+        "Bloquea la apertura con una nube de tinta.",
+        "Lo cierra con su caperuza carnosa.",
+        "Se pega un parche de moco endurecido a la abertura."
+      ],
+      "explanation": "El nautilo dobla sus tentáculos y utiliza una capucha formada por tentáculos modificados para cubrir la abertura.",
+      "didYouKnow": "El nautilo tiene numerosos tentáculos sin ventosas.",
+      "imageCaption": "Nautilus pompilius: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-171",
+      "animal": "nautilo",
+      "prompt": "¿Qué sentido ayuda al nautilo a localizar sustancias disueltas en el agua?",
+      "options": [
+        "las vibrisas",
+        "ojos de lente",
+        "pectinas",
+        "El sentido del olfato, gracias a sus órganos olfativos"
+      ],
+      "explanation": "El nautilo se basa principalmente en el olfato para identificar sustancias disueltas y localizar alimentos.",
+      "didYouKnow": "Sus ojos detectan la luz, pero no tienen lentes comparables a las de los calamares.",
+      "imageCaption": "Nautilus pompilius: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-172",
+      "animal": "nautilo",
+      "prompt": "¿Cómo captura el alimento el nautilo con sus numerosos apéndices?",
+      "options": [
+        "Los junta alrededor de la boca.",
+        "Chupando la presa con el sifón",
+        "con radula",
+        "Con un pico que dispara veneno"
+      ],
+      "explanation": "Sus tentáculos sin succión manipulan la comida.",
+      "didYouKnow": "El nautilo pone huevos adheridos a un soporte, que pueden tardar mucho en eclosionar.",
+      "imageCaption": "Nautilus pompilius: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-173",
+      "animal": "sifonóforo",
+      "prompt": "¿Por qué un sifonóforo parece un solo animal pero sigue siendo una colonia?",
+      "options": [
+        "Sus células se agrupan después de cada división.",
+        "La colonia está formada por varias especies reunidas temporalmente",
+        "Es un solo animal con muchos brazos.",
+        "Sus individuos especializados, los zooides, cooperan"
+      ],
+      "explanation": "Algunos zooides capturan alimento, otros se reproducen o nadan.",
+      "didYouKnow": "Algunas especies de sifonóforos de aguas profundas producen luz.",
+      "imageCaption": "Physalia physalis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-174",
+      "animal": "sifonóforo",
+      "prompt": "¿Qué papel juegan los nectóforos en algunos sifonóforos?",
+      "options": [
+        "Llevan los órganos reproductivos.",
+        "Producen células urticantes.",
+        "Filtran presas",
+        "Aseguran la propulsión de la colonia"
+      ],
+      "explanation": "Estos zooides especializados se contraen para hacer avanzar todo el proceso.",
+      "didYouKnow": "Algunos sifonóforos tienen zooides especializados en la reproducción.",
+      "imageCaption": "Physophora hydrostatica: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-175",
+      "animal": "fisalia",
+      "prompt": "¿Qué estructura flotante mantiene a la fisalia cerca de la superficie?",
+      "options": [
+        "Un saco de huevos flotante",
+        "Un flotador lleno de gas.",
+        "Una concha de piedra caliza",
+        "una vejiga natatoria"
+      ],
+      "explanation": "El flotador es un zooide especializado de la colonia.",
+      "didYouKnow": "Los tentáculos urticantes pueden extenderse muy por debajo de la superficie.",
+      "imageCaption": "Physalia physalis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-176",
+      "animal": "sifonóforo",
+      "prompt": "¿Qué zooide de algunos sifonóforos se especializa en capturar y manipular presas?",
+      "options": [
+        "El dactilozoide.",
+        "el nectóforo",
+        "el neumatóforo",
+        "el gonóforo"
+      ],
+      "explanation": "Los dactilozoides tienen tentáculos de captura; otros zooides de la colonia proporcionan digestión o propulsión.",
+      "didYouKnow": "Algunas especies de sifonóforos de aguas profundas producen luz.",
+      "imageCaption": "Physalia physalis: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-177",
+      "animal": "ctenóforo",
+      "prompt": "¿Qué produce los reflejos iridiscentes a lo largo del cuerpo de un ctenóforo?",
+      "options": [
+        "La difracción de la luz por las filas de cilios, o peines",
+        "Células pigmentarias que cambian de tamaño.",
+        "Una capa de algas simbióticas",
+        "Reflexión de pigmentos en los tejidos."
+      ],
+      "explanation": "La luz externa se difracta en las filas de cilios y produce reflejos irisados. El batido de los cilios también impulsa al animal.",
+      "didYouKnow": "Muchas especies de ctenóforos son hermafroditas y liberan sus gametos en el agua.",
+      "imageCaption": "Mnemiopsis leidyi — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-178",
+      "animal": "ctenóforo",
+      "prompt": "¿Qué célula pegajosa ayuda a algunos ctenóforos a capturar a sus presas?",
+      "options": [
+        "El coloblasto",
+        "el nematocisto",
+        "el coanocito",
+        "el cromatóforo"
+      ],
+      "explanation": "Estas células adhesivas se diferencian de los cnidocitos urticantes.",
+      "didYouKnow": "Los ctenóforos no son medusas, a pesar de sus cuerpos gelatinosos.",
+      "imageCaption": "Pleurobrachia pileus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-179",
+      "animal": "ctenóforo",
+      "prompt": "¿Qué órgano sensorial coordina la orientación y el movimiento de las hileras de peines en un ctenóforo?",
+      "options": [
+        "el nematocisto",
+        "el lofóforo",
+        "madreporita",
+        "El estatocisto del órgano apical."
+      ],
+      "explanation": "El estatocisto contribuye al equilibrio y coordina las filas de cilios que impulsan al ctenóforo.",
+      "didYouKnow": "Algunos ctenóforos producen luz visible mediante bioluminiscencia.",
+      "imageCaption": "Mnemiopsis leidyi — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-180",
+      "animal": "esponja carnívora",
+      "prompt": "¿Cómo capturan algunos crustáceos pequeños algunas esponjas de aguas profundas?",
+      "options": [
+        "Con nematocistos urticantes",
+        "Filtrando plancton utilizando coanocitos.",
+        "Con filamentos o ganchos adhesivos",
+        "Secretando una nube de tinta."
+      ],
+      "explanation": "Estas esponjas carnívoras viven donde es difícil filtrar suficientes partículas.",
+      "didYouKnow": "Las esponjas no tienen sistema nervioso central y sus cuerpos están organizados alrededor de células especializadas.",
+      "imageCaption": "Chondrocladia lyra: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-181",
+      "animal": "esponja de vidrio",
+      "prompt": "¿Qué animal puede vivir prisionero de adulto en la esponja de vidrio “canasta de flores de Venus”?",
+      "options": [
+        "Un cangrejo violinista",
+        "Un par de gambas pequeñas.",
+        "Una estrella de mar adulta",
+        "Un banco de peces juveniles"
+      ],
+      "explanation": "En la esponja joven pueden entrar dos camarones y crecer allí hasta que ya no puedan salir por las aberturas.",
+      "didYouKnow": "El esqueleto de la canasta de flores de Venus está formado por espículas de sílice fusionadas en una red.",
+      "imageCaption": "Euplectella aspergillum: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-182",
+      "animal": "coral negro",
+      "prompt": "¿Por qué el coral negro podría tener una apariencia oscura?",
+      "options": [
+        "El color de su esqueleto contrasta con sus pólipos claros.",
+        "Está cubierto de cromatóforos negros.",
+        "No tiene pólipos vivos.",
+        "Acumula tinta en sus pañuelos."
+      ],
+      "explanation": "El nombre se refiere al esqueleto, no necesariamente al color del animal vivo.",
+      "didYouKnow": "Los pólipos de coral negro capturan partículas de alimento con sus tentáculos.",
+      "imageCaption": "Antipathes dichotoma, representante de los corales negros."
+    },
+    {
+      "id": "unusual-183",
+      "animal": "coral negro",
+      "prompt": "¿Qué longevidad excepcional se ha estimado para algunas colonias de coral negro?",
+      "options": [
+        "Varios siglos",
+        "unos meses",
+        "Unas cuantas décadas",
+        "unos años"
+      ],
+      "explanation": "El lento crecimiento y la edad de las colonias se estiman a partir de sus estructuras.",
+      "didYouKnow": "Los corales negros pertenecen al grupo de los antozoos.",
+      "imageCaption": "Antipathes dichotoma, representante de los corales negros."
+    },
+    {
+      "id": "unusual-184",
+      "animal": "coral hongo",
+      "prompt": "¿Cómo se mueve a veces un coral en forma de hongo solitario por el fondo?",
+      "options": [
+        "Usando un sifón de propulsor",
+        "Gateando usando su podio",
+        "Puede ponerse de pie o darse la vuelta con los tejidos hinchados.",
+        "Desprendiendo sus tentáculos y nadando"
+      ],
+      "explanation": "Estos movimientos le ayudan a emerger de un sedimento que lo está sepultando.",
+      "didYouKnow": "Algunos corales tipo hongo pueden reproducirse por división del pólipo.",
+      "imageCaption": "Fungia fungites: especies representativas del grupo mencionado."
+    },
+    {
+      "id": "unusual-185",
+      "animal": "anémona",
+      "prompt": "¿Cómo puede el pez payaso evitar ser picado por su anémona?",
+      "options": [
+        "Viviendo en un caparazón prestado",
+        "Secretando un veneno neutralizante.",
+        "Al comerse los tentáculos de su anémona.",
+        "Su moco limita la activación de las células urticantes."
+      ],
+      "explanation": "La protección depende de la aclimatación y de la especie.",
+      "didYouKnow": "Algunas anémonas de mar pueden reproducirse por división o gemación.",
+      "imageCaption": "Amphiprion ocellaris: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-186",
+      "animal": "anémona",
+      "prompt": "¿Qué hace una anémona de mar para digerir a su presa?",
+      "options": [
+        "Expulsa a su presa por el ano",
+        "Ella lo aplasta con los dientes.",
+        "Lo digiere con sus tentáculos sin tragarlo.",
+        "Lo conduce a una cavidad gastrovascular."
+      ],
+      "explanation": "Las enzimas descomponen los alimentos allí antes de distribuir los nutrientes.",
+      "didYouKnow": "Las anémonas son cnidarios del grupo de los antozoos y no tienen estadio de medusa.",
+      "imageCaption": "Actinia equina — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-187",
+      "animal": "anémona",
+      "prompt": "¿Cómo puede moverse una anémona si no permanece fija?",
+      "options": [
+        "Gatea lentamente con su disco pedal",
+        "Ella cava con una concha",
+        "Ella nada batiendo sus tentáculos.",
+        "Es propulsado por un sifón."
+      ],
+      "explanation": "Algunos se desprenden e incluso pueden caer al agua.",
+      "didYouKnow": "Las anémonas también pueden reproducirse por división o gemación.",
+      "imageCaption": "Actinia equina — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-188",
+      "animal": "cecile",
+      "prompt": "¿Cómo se llaman los pliegues transversales que dan al cuerpo de una cecilia su aspecto anillado?",
+      "options": [
+        "Anillos (annuli)",
+        "los élitros",
+        "los podios",
+        "los cirros"
+      ],
+      "explanation": "Los annuli son pliegues transversales de la piel que dan al cuerpo un aspecto anillado; no corresponden a una segmentación del esqueleto.",
+      "didYouKnow": "Algunas cecilias dan a luz a crías vivas, mientras que otras ponen huevos custodiados por uno de sus padres.",
+      "imageCaption": "Ichthyophis glutinosus — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-189",
+      "animal": "rotífero bdeloide",
+      "prompt": "¿Qué modo de reproducción se observa en los rotíferos bdelloides, en los que no se han observado machos?",
+      "options": [
+        "Reproducción por gemación de una colonia.",
+        "Reproducción sin fecundación, por partenogénesis.",
+        "Fertilización externa con gametos liberados al agua.",
+        "La división de un individuo adulto en dos mitades."
+      ],
+      "explanation": "Los bdelloides producen descendencia a partir de huevos no fertilizados.",
+      "didYouKnow": "Los rotíferos bdelloides incluyen numerosas especies microscópicas de agua dulce y humedales.",
+      "imageCaption": "Philodina roseola: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-190",
+      "animal": "pepino de mar",
+      "prompt": "¿Cómo repelen algunos pepinos de mar a un depredador con sus túbulos de Cuvier?",
+      "options": [
+        "Lanzan púas de piedra caliza desmontables",
+        "Cierran sus cinco brazos alrededor del depredador.",
+        "Expulsan filamentos pegajosos que se enredan alrededor del atacante.",
+        "Lanzan un chorro de tinta negra por la boca"
+      ],
+      "explanation": "Algunas especies proyectan estos túbulos desde su cloaca; pueden adherirse al depredador y desviar su ataque.",
+      "didYouKnow": "Los pepinos de mar son equinodermos, parientes de las estrellas de mar y los erizos de mar.",
+      "imageCaption": "Holothuria forskali: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-191",
+      "animal": "estrella de mar",
+      "prompt": "¿Cómo detectan el entorno las manchas oculares de una estrella?",
+      "options": [
+        "Detectan sonidos bajo el agua",
+        "Forman una imagen en color detallada.",
+        "Perciben luz y contrastes.",
+        "Miden salinidad con lentes"
+      ],
+      "explanation": "A menudo se encuentran al final de cada brazo.",
+      "didYouKnow": "Las estrellas de mar mueven sus patas tubulares a través de una red de canales llenos de agua.",
+      "imageCaption": "Asterias rubens: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-192",
+      "animal": "erizo de mar",
+      "prompt": "¿Cuál es el interés de los pedicelarios venenosos en determinados erizos de mar?",
+      "options": [
+        "Cuelga el erizo de mar sobre las algas.",
+        "Repeler pequeños depredadores o parásitos.",
+        "Filtrar el plancton alrededor de la prueba.",
+        "Ayuda a cavar la arena"
+      ],
+      "explanation": "Estas pequeñas pinzas se cierran al entrar en contacto con un organismo.",
+      "didYouKnow": "Los erizos de mar tienen un esqueleto interno de placas calcáreas llamado masa.",
+      "imageCaption": "Toxopneustes pileolus: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-193",
+      "animal": "crinoideo",
+      "prompt": "¿Cómo puede moverse una comatula a pesar de parecer una pluma?",
+      "options": [
+        "Haciendo ondular su disco central",
+        "Nada con movimientos de brazos o gatea con cirros.",
+        "Bombeando agua con la boca.",
+        "Caminando con alicates"
+      ],
+      "explanation": "Los cirros son apéndices pequeños que ayudan al animal a sujetarse al sustrato.",
+      "didYouKnow": "Las comatulas capturan partículas en suspensión con sus brazos cubiertos por pequeños pies ambulacrales.",
+      "imageCaption": "Antedon mediterranea — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-194",
+      "animal": "caracol",
+      "prompt": "¿Cómo puede la liebre marina confundir a un depredador cuando se la molesta?",
+      "options": [
+        "Libera tinta, a veces acompañada de una secreción opalina.",
+        "Libera células urticantes.",
+        "Proyecta una coraza de defensa.",
+        "Expulsa sangre azul"
+      ],
+      "explanation": "La tinta y las secreciones defensivas pueden formar una nube que distrae o perturba a un depredador.",
+      "didYouKnow": "Muchas liebres marinas no tienen una capa exterior visible cuando son adultas.",
+      "imageCaption": "Aplysia californica: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-195",
+      "animal": "liebre de mar",
+      "prompt": "¿Qué comportamiento reproductivo puede formar largas cadenas en algunas liebres marinas?",
+      "options": [
+        "Los adultos se dividen en cadenas de clones.",
+        "Los huevos están unidos en una cadena a los tentáculos.",
+        "Los machos llevan a las hembras en sus caparazones.",
+        "Varios individuos se aparean en una línea, cada uno de los cuales puede desempeñar ambos roles sexuales."
+      ],
+      "explanation": "Las liebres marinas son hermafroditas y pueden formar cadenas de apareamiento.",
+      "didYouKnow": "Las liebres marinas tienen rinóforos en la cabeza, a menudo comparados con pequeñas orejas de conejo.",
+      "imageCaption": "Aplysia californica: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-196",
+      "animal": "medusas peine",
+      "prompt": "¿Cómo produce a veces luz un ctenóforo bioluminiscente?",
+      "options": [
+        "Con sus hileras de pestañas",
+        "Por pigmentos absorbidos en su alimento.",
+        "Por reacciones bioquímicas en sus tejidos.",
+        "Reflejando los rayos del sol"
+      ],
+      "explanation": "La bioluminiscencia puede servir como defensa o señal.",
+      "didYouKnow": "Los reflejos arcoíris de las peinetas son un fenómeno óptico distinto.",
+      "imageCaption": "Mnemiopsis leidyi — especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-197",
+      "animal": "esponja",
+      "prompt": "¿Cómo eliminan las esponjas sus desechos nitrogenados?",
+      "options": [
+        "Usando un riñón",
+        "Almacenándolos en un caparazón",
+        "Por una vejiga natatoria",
+        "Por difusión en la corriente de agua que los atraviesa."
+      ],
+      "explanation": "El flujo continuo evacua los residuos y renueva los gases disueltos.",
+      "didYouKnow": "Algunas esponjas albergan comunidades microbianas muy ricas.",
+      "imageCaption": "Aplysina aerophoba: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-198",
+      "animal": "estrella de mar",
+      "prompt": "¿Qué simetría tiene la larva de una estrella de mar antes de la metamorfosis?",
+      "options": [
+        "simetría helicoidal",
+        "Sin simetría corporal",
+        "Simetría bilateral.",
+        "Simetría radial de cinco ejes"
+      ],
+      "explanation": "La larva nadadora tiene un lado izquierdo y otro derecho; la organización radial aparece durante la metamorfosis.",
+      "didYouKnow": "Las estrellas de mar operan sus pies tubulares a través de una red interna de canales llenos de agua.",
+      "imageCaption": "Asterias rubens: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-199",
+      "animal": "medusa Turritopsis dohrnii",
+      "prompt": "¿Qué puede hacer la medusa Turritopsis dohrnii después de un estrés o una lesión?",
+      "options": [
+        "Transfórmate en una colonia de coral.",
+        "Regenerar todas las especies de medusas de su entorno.",
+        "Dividido en dos medusas adultas idénticas",
+        "Regreso de la etapa de medusa a la etapa de pólipo."
+      ],
+      "explanation": "Bajo ciertas condiciones, puede reorganizar sus tejidos y revertir su ciclo de vida; esto no la hace invulnerable o literalmente inmortal.",
+      "didYouKnow": "La campana de Turritopsis dohrnii mide sólo unos pocos milímetros.",
+      "imageCaption": "Turritopsis dohrnii: especie representativa del grupo mencionado."
+    },
+    {
+      "id": "unusual-200",
+      "animal": "calamar",
+      "prompt": "¿Qué es el gladio del calamar?",
+      "options": [
+        "Una capa exterior en espiral rígida",
+        "Una carcasa interna delgada y flexible",
+        "Un hueso calcáreo externo.",
+        "una bolsa de tinta"
+      ],
+      "explanation": "Sostiene el manto y constituye un vestigio de concha.",
+      "didYouKnow": "En muchos calamares, el sifón permite la propulsión mediante chorro de agua.",
+      "imageCaption": "Doryteuthis pealeii: especie representativa del grupo mencionado."
+    }
+  ]
+}

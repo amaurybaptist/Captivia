@@ -14,6 +14,7 @@ import {
 import { ApiTags, ApiOperation, ApiBearerAuth } from '@nestjs/swagger';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import { GradeService } from './grade.service';
+import { SnoozeEventDto } from './snooze-event.dto';
 
 @ApiTags('grade')
 @Controller('users/me')
@@ -29,13 +30,20 @@ export class GradeController {
   }
 
   @Get('notification-events')
-  @ApiOperation({ summary: 'Get notification events for a day (default today), create from preferences if empty' })
+  @ApiOperation({
+    summary:
+      'Get reminders for a local day without resetting completed or dismissed occurrences',
+  })
   async getNotificationEvents(
     @Request() req: { user: { id: string } },
     @Query('date') date?: string,
     @Query('refresh') refresh?: string,
   ) {
-    return this.gradeService.getOrCreateTodayEvents(req.user.id, date, refresh === '1' || refresh === 'true');
+    return this.gradeService.getOrCreateTodayEvents(
+      req.user.id,
+      date,
+      refresh === '1' || refresh === 'true',
+    );
   }
 
   @Patch('notification-events/:id')
@@ -48,16 +56,38 @@ export class GradeController {
     if (!body?.status || !['done', 'skipped'].includes(body.status)) {
       throw new BadRequestException('status must be done or skipped');
     }
-    const result = await this.gradeService.setEventStatus(req.user.id, id, body.status);
+    const result = await this.gradeService.setEventStatus(
+      req.user.id,
+      id,
+      body.status,
+    );
     if (!result) {
       throw new NotFoundException('Notification event not found');
     }
     return result;
   }
 
+  @Patch('notification-events/:id/snooze')
+  async snoozeEvent(
+    @Request() req: { user: { id: string } },
+    @Param('id') id: string,
+    @Body() body: SnoozeEventDto,
+  ) {
+    const result = await this.gradeService.snoozeEvent(
+      req.user.id,
+      id,
+      body.minutes,
+    );
+    if (!result) throw new NotFoundException('Notification event not found');
+    return result;
+  }
+
   @Delete('notification-events/:id')
   @ApiOperation({ summary: 'Delete a reminder for the day' })
-  async deleteEvent(@Request() req: { user: { id: string } }, @Param('id') id: string) {
+  async deleteEvent(
+    @Request() req: { user: { id: string } },
+    @Param('id') id: string,
+  ) {
     const deleted = await this.gradeService.deleteEvent(req.user.id, id);
     if (!deleted) {
       throw new NotFoundException('Notification event not found');

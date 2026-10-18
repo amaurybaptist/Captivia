@@ -1,0 +1,107 @@
+[
+  {
+    "source": "https://polyhaven.com/a/rock_07",
+    "license": "CC0-1.0",
+    "files": {
+      "model.gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/rock_07/rock_07_1k.gltf",
+        "md5": "2bdb563c126a9d284e60e94951759e2f",
+        "bytes": 2979
+      },
+      "rock_07.bin": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/rock_07/rock_07.bin",
+        "md5": "817b2cfd1626cb06f18a825f87f58ec3",
+        "bytes": 468936
+      },
+      "textures/rock_07_arm_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_07/rock_07_arm_1k.jpg",
+        "md5": "530bfd2a510fe6f778bb1198a2395574",
+        "bytes": 309735
+      },
+      "textures/rock_07_diff_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_07/rock_07_diff_1k.jpg",
+        "md5": "b68ac1824bb3bd3867641b830ad02099",
+        "bytes": 635452
+      },
+      "textures/rock_07_nor_gl_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_07/rock_07_nor_gl_1k.jpg",
+        "md5": "d3a2a0df0db0177c4df8ef644b003652",
+        "bytes": 766986
+      }
+    },
+    "local": "rock-real.glb",
+    "bytes": 2183084,
+    "sha256": "f79ef39532d48b7e58f01bf0650eb4ca903bd23d22fe5c10ea4727c3eb56d9d6",
+    "changes": "Converted glTF to GLB by embedding unchanged buffers and 1K JPEG textures."
+  },
+  {
+    "source": "https://polyhaven.com/a/dead_quiver_branch_01",
+    "license": "CC0-1.0",
+    "files": {
+      "model.gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/dead_quiver_branch_01/dead_quiver_branch_01_1k.gltf",
+        "md5": "e8cf949bee8b828856a71d6486546504",
+        "bytes": 2866
+      },
+      "textures/dead_quiver_branch_01_nor_gl_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dead_quiver_branch_01/dead_quiver_branch_01_nor_gl_1k.jpg",
+        "md5": "32e39448a04678618c9de25fb39bc9ea",
+        "bytes": 1023490
+      },
+      "textures/dead_quiver_branch_01_diff_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dead_quiver_branch_01/dead_quiver_branch_01_diff_1k.jpg",
+        "md5": "c99cf6384238acd5655095dd9743a3aa",
+        "bytes": 720703
+      },
+      "dead_quiver_branch_01.bin": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/dead_quiver_branch_01/dead_quiver_branch_01.bin",
+        "md5": "a09e761f87363e1a453a1231d42e0cb1",
+        "bytes": 363116
+      },
+      "textures/dead_quiver_branch_01_arm_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dead_quiver_branch_01/dead_quiver_branch_01_arm_1k.jpg",
+        "md5": "54febac298d6fa8789ae6132bd969377",
+        "bytes": 595028
+      }
+    },
+    "local": "branch-real.glb",
+    "bytes": 2704256,
+    "sha256": "8e60622642d4dbbebf1cd1e80953166023f74736053fa034538cd665b3c0e58d",
+    "changes": "Converted glTF to GLB by embedding unchanged buffers and 1K JPEG textures."
+  },
+  {
+    "source": "https://polyhaven.com/a/fern_02",
+    "license": "CC0-1.0",
+    "files": {
+      "model.gltf": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/fern_02/fern_02_1k.gltf",
+        "md5": "cf276874d37bfb73c299504a6b355b77",
+        "bytes": 6899
+      },
+      "textures/fern_02_arm_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fern_02/fern_02_arm_1k.jpg",
+        "md5": "1bbb2b22951f450720d28e17d93a2987",
+        "bytes": 280359
+      },
+      "textures/fern_02_diff_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fern_02/fern_02_diff_1k.jpg",
+        "md5": "82c18a6cfd5ae91c37c0e078f591181c",
+        "bytes": 315705
+      },
+      "textures/fern_02_nor_gl_1k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fern_02/fern_02_nor_gl_1k.jpg",
+        "md5": "43aed63dff79554f6064627515afd9d7",
+        "bytes": 367222
+      },
+      "fern_02.bin": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/fern_02/fern_02.bin",
+        "md5": "c061e9255f7d36ae9ce0e92ef3e100b2",
+        "bytes": 176176
+      }
+    },
+    "local": "foliage-real.glb",
+    "bytes": 1143660,
+    "sha256": "62b022e1f05843233d16f3382aa134d8a7e9714188f6d8ef983f46db591ee697",
+    "changes": "Converted glTF to GLB by embedding unchanged buffers and 1K JPEG textures."
+  }
+]
