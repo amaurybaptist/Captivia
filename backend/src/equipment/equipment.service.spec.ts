@@ -1,12 +1,9 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { EquipmentService } from './equipment.service';
 import { PrismaService } from '../prisma/prisma.service';
-import { AmazonPAService } from './services/amazon-pa.service';
 
 describe('EquipmentService', () => {
   let service: EquipmentService;
-  let prismaService: PrismaService;
-  let amazonService: AmazonPAService;
 
   const mockEquipment = {
     id: 'equip-id-123',
@@ -20,26 +17,15 @@ describe('EquipmentService', () => {
     updatedAt: new Date(),
   };
 
-  const mockAmazonProducts = [
-    {
-      asin: 'B001',
-      title: 'Test Product',
-      price: 49.99,
-      link: 'https://amazon.com/product',
-    },
-  ];
-
   const mockPrismaService = {
+    speciesProfile: { findUnique: jest.fn(), findFirst: jest.fn() },
     recommendedEquipment: {
+      count: jest.fn(),
       findMany: jest.fn(),
       create: jest.fn(),
       update: jest.fn(),
       delete: jest.fn(),
     },
-  };
-
-  const mockAmazonService = {
-    searchProducts: jest.fn(),
   };
 
   beforeEach(async () => {
@@ -50,18 +36,19 @@ describe('EquipmentService', () => {
           provide: PrismaService,
           useValue: mockPrismaService,
         },
-        {
-          provide: AmazonPAService,
-          useValue: mockAmazonService,
-        },
       ],
     }).compile();
 
     service = module.get<EquipmentService>(EquipmentService);
-    prismaService = module.get<PrismaService>(PrismaService);
-    amazonService = module.get<AmazonPAService>(AmazonPAService);
 
     jest.clearAllMocks();
+    mockPrismaService.speciesProfile.findFirst.mockResolvedValue(null);
+    mockPrismaService.speciesProfile.findUnique.mockResolvedValue({
+      speciesId: 123,
+      scientificName: 'Eublepharis macularius',
+      category: 'reptile',
+      habitats: [],
+    });
   });
 
   it('should be defined', () => {
@@ -69,12 +56,10 @@ describe('EquipmentService', () => {
   });
 
   describe('getRecommendedEquipment', () => {
-    it('should return recommendations with Amazon products', async () => {
+    it('should return the editorial recommendations without any product list (no Amazon integration)', async () => {
       mockPrismaService.recommendedEquipment.findMany.mockResolvedValue([
         mockEquipment,
       ]);
-      mockAmazonService.searchProducts.mockResolvedValue(mockAmazonProducts);
-
       const result = await service.getRecommendedEquipment(123);
 
       expect(result).toEqual({
@@ -88,7 +73,6 @@ describe('EquipmentService', () => {
             category: mockEquipment.category,
             size: mockEquipment.size,
             speciesId: mockEquipment.speciesId,
-            products: mockAmazonProducts,
           },
         ],
         affiliate: {
@@ -100,7 +84,6 @@ describe('EquipmentService', () => {
 
     it('should filter by category', async () => {
       mockPrismaService.recommendedEquipment.findMany.mockResolvedValue([]);
-      mockAmazonService.searchProducts.mockResolvedValue([]);
 
       await service.getRecommendedEquipment(undefined, 'heating');
 
@@ -108,13 +91,14 @@ describe('EquipmentService', () => {
         mockPrismaService.recommendedEquipment.findMany,
       ).toHaveBeenCalledWith({
         where: { category: 'heating' },
-        orderBy: { order: 'asc' },
+        orderBy: [{ order: 'asc' }, { id: 'asc' }],
+        take: 100,
+        skip: 0,
       });
     });
 
     it('should filter by size', async () => {
       mockPrismaService.recommendedEquipment.findMany.mockResolvedValue([]);
-      mockAmazonService.searchProducts.mockResolvedValue([]);
 
       await service.getRecommendedEquipment(undefined, undefined, 'small');
 
@@ -122,13 +106,14 @@ describe('EquipmentService', () => {
         mockPrismaService.recommendedEquipment.findMany,
       ).toHaveBeenCalledWith({
         where: { size: 'small' },
-        orderBy: { order: 'asc' },
+        orderBy: [{ order: 'asc' }, { id: 'asc' }],
+        take: 100,
+        skip: 0,
       });
     });
 
-    it('should include speciesId OR null in query when speciesId provided', async () => {
+    it('should limit general terrarium items to reptiles and temperature control', async () => {
       mockPrismaService.recommendedEquipment.findMany.mockResolvedValue([]);
-      mockAmazonService.searchProducts.mockResolvedValue([]);
 
       await service.getRecommendedEquipment(123);
 
@@ -136,25 +121,198 @@ describe('EquipmentService', () => {
         mockPrismaService.recommendedEquipment.findMany,
       ).toHaveBeenCalledWith({
         where: {
-          OR: [{ speciesId: 123 }, { speciesId: null }],
+          OR: [
+            { speciesId: 123 },
+            {
+              speciesId: null,
+              category: { in: ['thermostat', 'thermometre'] },
+            },
+          ],
         },
-        orderBy: { order: 'asc' },
+        orderBy: [{ order: 'asc' }, { id: 'asc' }],
+        take: 100,
+        skip: 0,
       });
     });
 
-    it('should call Amazon API with search terms', async () => {
+    it.each(['Canis familiaris', 'Canis lupus familiaris'])(
+      'recommande couchage et gamelles pour %s, sans matériel de reptile',
+      async (scientificName) => {
+        mockPrismaService.speciesProfile.findUnique.mockResolvedValue({
+          speciesId: 123,
+          scientificName,
+          category: 'mammifère',
+          habitats: [],
+        });
+        mockPrismaService.recommendedEquipment.findMany.mockResolvedValue([]);
+        const result = (await service.getRecommendedEquipment(123)) as {
+          recommendations: { labelKey?: string }[];
+        };
+        expect(result.recommendations.map((rec) => rec.labelKey)).toEqual([
+          'bed',
+          'bowls',
+          'dogToys',
+        ]);
+        expect(
+          mockPrismaService.recommendedEquipment.findMany,
+        ).toHaveBeenCalledWith(
+          expect.objectContaining({
+            where: { OR: [{ speciesId: 123 }] },
+          }),
+        );
+      },
+    );
+
+    it('recommande litière et griffoir aux races de chat', async () => {
+      mockPrismaService.speciesProfile.findUnique.mockResolvedValue({
+        speciesId: 2000000100,
+        scientificName: 'Felis catus',
+        category: 'mammifère',
+        habitats: [],
+      });
+      mockPrismaService.recommendedEquipment.findMany.mockResolvedValue([]);
+      const result = (await service.getRecommendedEquipment(2000000100)) as {
+        recommendations: { labelKey?: string }[];
+      };
+      expect(result.recommendations.map((rec) => rec.labelKey)).toEqual([
+        'bed',
+        'bowls',
+        'litterTray',
+        'scratchingPost',
+      ]);
+    });
+
+    it.each([
+      ['reptile', 'terrarium', 'terrarium'],
+      ['poisson', 'aquarium', 'aquarium'],
+      ['amphibien', 'aquaterrarium', 'aquaterrarium'],
+      ['oiseau', 'volière', 'aviary'],
+      ['mammifère', 'enclos', 'enclosure'],
+      ['insecte', 'terrarium', 'terrarium'],
+      ['arachnide', 'terrarium', 'terrarium'],
+    ])('utilise l’habitat %s : %s', async (category, habitatType, labelKey) => {
+      mockPrismaService.speciesProfile.findUnique.mockResolvedValue({
+        speciesId: 123,
+        scientificName: 'Species test',
+        category,
+        habitats: [
+          { habitatType, activityEnrichment: '', lightNeeds: '', sources: [] },
+        ],
+      });
+      mockPrismaService.recommendedEquipment.findMany.mockResolvedValue([]);
+      const result = (await service.getRecommendedEquipment(123)) as {
+        recommendations: { labelKey?: string }[];
+      };
+      expect(result.recommendations.map((rec) => rec.labelKey)).toEqual([
+        labelKey,
+      ]);
+    });
+
+    it('ne remplace pas le matériel spécifique et conserve la pagination des suggestions', async () => {
+      mockPrismaService.speciesProfile.findUnique.mockResolvedValue({
+        speciesId: 123,
+        scientificName: 'Felis catus',
+        category: 'mammifère',
+        habitats: [],
+      });
+      mockPrismaService.recommendedEquipment.count.mockResolvedValue(1);
+      mockPrismaService.recommendedEquipment.findMany
+        .mockResolvedValueOnce([])
+        .mockResolvedValueOnce([{ category: 'couchage' }]);
+      const result = (await service.getRecommendedEquipment(
+        123,
+        undefined,
+        undefined,
+        { limit: 2, offset: 1 },
+      )) as { recommendations: { labelKey?: string }[] };
+      expect(result.recommendations.map((rec) => rec.labelKey)).toEqual([
+        'bowls',
+        'litterTray',
+      ]);
+    });
+
+    it('une espèce inconnue ne reçoit pas le matériel général des reptiles', async () => {
+      mockPrismaService.speciesProfile.findUnique.mockResolvedValue(null);
+      mockPrismaService.recommendedEquipment.findMany.mockResolvedValue([]);
+      await service.getRecommendedEquipment(999);
+      expect(
+        mockPrismaService.recommendedEquipment.findMany,
+      ).toHaveBeenCalledWith(
+        expect.objectContaining({
+          where: { OR: [{ speciesId: 999 }] },
+        }),
+      );
+    });
+
+    it('reprend l’habitat documenté du parent pour une race sans habitat propre', async () => {
+      mockPrismaService.speciesProfile.findUnique.mockResolvedValue({
+        speciesId: 2000000200,
+        scientificName: 'Equus caballus',
+        category: 'mammifère',
+        habitats: [],
+      });
+      mockPrismaService.speciesProfile.findFirst.mockResolvedValue({
+        habitats: [
+          {
+            habitatType: 'enclos',
+            activityEnrichment: '',
+            lightNeeds: '',
+            sources: [],
+          },
+        ],
+      });
+      mockPrismaService.recommendedEquipment.findMany.mockResolvedValue([]);
+      const result = (await service.getRecommendedEquipment(2000000200)) as {
+        recommendations: { labelKey?: string }[];
+      };
+      expect(result.recommendations.map((rec) => rec.labelKey)).toEqual([
+        'enclosure',
+      ]);
+      expect(mockPrismaService.speciesProfile.findFirst).toHaveBeenCalledWith(
+        expect.objectContaining({
+          where: {
+            scientificName: { equals: 'Equus caballus', mode: 'insensitive' },
+            habitats: { some: { locale: 'fr' } },
+          },
+        }),
+      );
+    });
+
+    it('respecte le filtre de catégorie et n’ajoute pas une taille inventée', async () => {
+      mockPrismaService.speciesProfile.findUnique.mockResolvedValue({
+        speciesId: 123,
+        scientificName: 'Canis familiaris',
+        category: 'mammifère',
+        habitats: [],
+      });
+      mockPrismaService.recommendedEquipment.findMany.mockResolvedValue([]);
+      const categoryResult = (await service.getRecommendedEquipment(
+        123,
+        'couchage',
+      )) as { recommendations: { labelKey?: string }[] };
+      expect(categoryResult.recommendations.map((rec) => rec.labelKey)).toEqual(
+        ['bed'],
+      );
+      const sizeResult = (await service.getRecommendedEquipment(
+        123,
+        undefined,
+        'small',
+      )) as { recommendations: unknown[] };
+      expect(sizeResult.recommendations).toEqual([]);
+    });
+
+    it('ne renvoie jamais de liste de produits (aucune donnée inventée)', async () => {
       mockPrismaService.recommendedEquipment.findMany.mockResolvedValue([
         mockEquipment,
       ]);
-      mockAmazonService.searchProducts.mockResolvedValue(mockAmazonProducts);
 
-      await service.getRecommendedEquipment(123);
+      const result = (await service.getRecommendedEquipment(123)) as {
+        recommendations: Array<Record<string, unknown>>;
+      };
 
-      expect(mockAmazonService.searchProducts).toHaveBeenCalledWith(
-        'terrarium glass reptile',
-        mockEquipment.category,
-        5,
-      );
+      expect(result.recommendations).toHaveLength(1);
+      expect(result.recommendations[0]).not.toHaveProperty('products');
+      expect(result.recommendations[0]).not.toHaveProperty('searchTerms');
     });
   });
 
@@ -176,11 +334,11 @@ describe('EquipmentService', () => {
       const result = await service.createRecommendation(createData);
 
       expect(result).toEqual(mockEquipment);
-      expect(mockPrismaService.recommendedEquipment.create).toHaveBeenCalledWith(
-        {
-          data: createData,
-        },
-      );
+      expect(
+        mockPrismaService.recommendedEquipment.create,
+      ).toHaveBeenCalledWith({
+        data: createData,
+      });
     });
 
     it('should default order to 0 if not provided', async () => {
@@ -196,13 +354,13 @@ describe('EquipmentService', () => {
 
       await service.createRecommendation(createData);
 
-      expect(mockPrismaService.recommendedEquipment.create).toHaveBeenCalledWith(
-        {
-          data: expect.objectContaining({
-            order: 0,
-          }),
-        },
-      );
+      expect(
+        mockPrismaService.recommendedEquipment.create,
+      ).toHaveBeenCalledWith({
+        data: expect.objectContaining({
+          order: 0,
+        }),
+      });
     });
   });
 
@@ -218,15 +376,18 @@ describe('EquipmentService', () => {
         ...updateData,
       });
 
-      const result = await service.updateRecommendation('equip-123', updateData);
+      const result = await service.updateRecommendation(
+        'equip-123',
+        updateData,
+      );
 
       expect(result.label).toEqual('Updated Label');
-      expect(mockPrismaService.recommendedEquipment.update).toHaveBeenCalledWith(
-        {
-          where: { id: 'equip-123' },
-          data: updateData,
-        },
-      );
+      expect(
+        mockPrismaService.recommendedEquipment.update,
+      ).toHaveBeenCalledWith({
+        where: { id: 'equip-123' },
+        data: updateData,
+      });
     });
   });
 
@@ -239,11 +400,11 @@ describe('EquipmentService', () => {
       const result = await service.deleteRecommendation('equip-123');
 
       expect(result).toEqual(mockEquipment);
-      expect(mockPrismaService.recommendedEquipment.delete).toHaveBeenCalledWith(
-        {
-          where: { id: 'equip-123' },
-        },
-      );
+      expect(
+        mockPrismaService.recommendedEquipment.delete,
+      ).toHaveBeenCalledWith({
+        where: { id: 'equip-123' },
+      });
     });
   });
 
@@ -264,33 +425,6 @@ describe('EquipmentService', () => {
         select: { category: true },
         distinct: ['category'],
       });
-    });
-  });
-
-  describe('searchAmazonProducts', () => {
-    it('should search Amazon with query', async () => {
-      mockAmazonService.searchProducts.mockResolvedValue(mockAmazonProducts);
-
-      const result = await service.searchAmazonProducts('reptile tank');
-
-      expect(result).toEqual(mockAmazonProducts);
-      expect(mockAmazonService.searchProducts).toHaveBeenCalledWith(
-        'reptile tank',
-        undefined,
-        10,
-      );
-    });
-
-    it('should respect category and limit parameters', async () => {
-      mockAmazonService.searchProducts.mockResolvedValue([]);
-
-      await service.searchAmazonProducts('test', 'heating', 20);
-
-      expect(mockAmazonService.searchProducts).toHaveBeenCalledWith(
-        'test',
-        'heating',
-        20,
-      );
     });
   });
 });

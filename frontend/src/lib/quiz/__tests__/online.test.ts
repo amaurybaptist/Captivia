@@ -1,3 +1,4 @@
+import { API_URL } from '@/lib/config';
 import { createRankedRun, loadLeaderboard, submitRankedAnswer, type QuizAccount } from '../online';
 import type { QuizSettings } from '../types';
 
@@ -36,7 +37,7 @@ it('creates a ranked run with the selected filters and validates the server’s 
 
   expect(fetchMock).toHaveBeenCalledTimes(1);
   const [url, init] = fetchMock.mock.calls[0];
-  expect(url).toBe('http://localhost:3001/quiz/runs');
+  expect(url).toBe(`${API_URL}/quiz/runs`);
   expect(init?.method).toBe('POST');
   expect(init?.headers).toEqual({
     'Content-Type': 'application/json',
@@ -95,7 +96,7 @@ it('loads a public leaderboard without authentication headers', async () => {
   });
 
   const [url, init] = fetchMock.mock.calls[0];
-  expect(url).toBe('http://localhost:3001/quiz/leaderboard?category=mammals&difficulty=hard');
+  expect(url).toBe(`${API_URL}/quiz/leaderboard?category=mammals&difficulty=hard`);
   expect(init?.method).toBe('GET');
   expect(init?.cache).toBe('no-store');
   expect(init?.headers).toEqual({});

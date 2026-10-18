@@ -1,7 +1,11 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { AnimalsService } from './animals.service';
-import { CreateHealthRecordDto, UpdateHealthRecordDto } from './dto/health-record.dto';
+import {
+  CreateHealthRecordDto,
+  UpdateHealthRecordDto,
+} from './dto/health-record.dto';
+import { PaginationQueryDto, toPage } from '../common/dto/pagination-query.dto';
 
 @Injectable()
 export class AnimalHealthService {
@@ -10,11 +14,12 @@ export class AnimalHealthService {
     private readonly animalsService: AnimalsService,
   ) {}
 
-  async findAll(animalId: string, userId: string) {
+  async findAll(animalId: string, userId: string, page?: PaginationQueryDto) {
     await this.animalsService.findOne(animalId, userId);
     return this.prisma.animalHealthRecord.findMany({
       where: { animalId },
-      orderBy: { date: 'desc' },
+      orderBy: [{ date: 'desc' }, { id: 'asc' }],
+      ...toPage(page),
     });
   }
 

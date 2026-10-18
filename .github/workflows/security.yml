@@ -4,23 +4,31 @@ on:
   push:
     branches: [main]
   pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
   workflow_dispatch:
   schedule:
     - cron: "0 6 * * 1"
 
+permissions:
+  contents: read
+
 jobs:
+  # `npm audit` BLOQUANT sur les dépendances de production (vulnérabilités high et critical).
+  # Inclut les outils de développement, comme la correction de sécurité de main.
   audit:
-    name: audit-${{ matrix.directory }}
+    # Rien sur une PR en brouillon (économie de minutes) : l'audit tourne au passage à « prête ».
+    if: github.event_name != 'pull_request' || github.event.pull_request.draft != true
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     strategy:
       fail-fast: false
       matrix:
-        directory: [backend, frontend]
+        project: [backend, frontend]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Audit dependencies (including development tools)
-        working-directory: ${{ matrix.directory }}
+      - name: Audit ${{ matrix.project }}
+        working-directory: ${{ matrix.project }}
         run: npm audit --audit-level=high

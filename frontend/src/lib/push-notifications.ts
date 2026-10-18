@@ -1,5 +1,6 @@
+import { API_URL } from './config';
 export interface NotificationCapabilities { push: boolean; email: boolean; publicKey: string | null }
-const apiBase = () => process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+const apiBase = () => API_URL;
 const headers = (token: string) => ({ Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' });
 export function supportsPush() {
   return typeof window !== 'undefined' && window.isSecureContext && 'Notification' in window && 'serviceWorker' in navigator && 'PushManager' in window;

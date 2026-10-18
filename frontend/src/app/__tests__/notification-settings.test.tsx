@@ -1,5 +1,5 @@
 import { fireEvent, render, screen, waitFor } from '@testing-library/react';
-import Page from '../[locale]/parametres/notifications/page';
+import Page from '../[locale]/(app)/parametres/notifications/avance/page';
 import { enablePush, getNotificationCapabilities, hasActivePushSubscription, supportsPush, testNotification, disablePush } from '@/lib/push-notifications';
 const mockAuth = { user: { id: 'user' }, token: 'token', isLoading: false };
 jest.mock('@/contexts/AuthContext', () => ({ useAuth: () => mockAuth }));

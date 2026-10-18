@@ -1,5 +1,5 @@
 import { fireEvent, render, screen, waitFor } from '@testing-library/react';
-import Page from '../[locale]/parametres/grade/page';
+import Page from '../[locale]/(app)/parametres/grade/rapports/page';
 import { api } from '@/lib/api';
 import { getNotificationTimeZone, snoozeReminder } from '@/lib/push-notifications';
 const mockAuth = { user: { id: 'user' }, token: 'token', isLoading: false };

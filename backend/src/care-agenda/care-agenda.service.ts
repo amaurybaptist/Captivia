@@ -23,11 +23,11 @@ export class CareAgendaService {
     to: string,
     animalId?: string,
   ) {
-    const prefs = await this.prisma.notificationPreference.findUnique({
-      where: { userId },
-      select: { timeZone: true },
+    const settings = await this.prisma.user.findUnique({
+      where: { id: userId },
+      select: { timezone: true },
     });
-    const timeZone = prefs?.timeZone || DEFAULT_TIME_ZONE;
+    const timeZone = settings?.timezone || DEFAULT_TIME_ZONE;
     const start = localDay(from, timeZone),
       end = localDay(to, timeZone);
     if (end < start || end.diff(start, 'days').days > 61)

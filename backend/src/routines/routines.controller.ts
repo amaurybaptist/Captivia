@@ -21,8 +21,13 @@ import {
   ApiBearerAuth,
 } from '@nestjs/swagger';
 import { RoutinesService } from './routines.service';
-import { CreateRoutineDto, UpdateRoutineDto, CreateActionLogDto } from './dto/routine.dto';
+import {
+  CreateRoutineDto,
+  UpdateRoutineDto,
+  CreateActionLogDto,
+} from './dto/routine.dto';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
+import { PaginationQueryDto } from '../common/dto/pagination-query.dto';
 
 @ApiTags('routines')
 @Controller('users/me/animals/:animalId/routines')
@@ -42,7 +47,7 @@ export class RoutinesController {
   @ApiResponse({ status: 403, description: 'Not your animal' })
   @ApiResponse({ status: 404, description: 'Animal not found' })
   async createRoutine(
-    @Request() req,
+    @Request() req: { user: { id: string } },
     @Param('animalId') animalId: string,
     @Body() createRoutineDto: CreateRoutineDto,
   ) {
@@ -63,8 +68,12 @@ export class RoutinesController {
   @ApiResponse({ status: 401, description: 'Unauthorized' })
   @ApiResponse({ status: 403, description: 'Not your animal' })
   @ApiResponse({ status: 404, description: 'Animal not found' })
-  async findAllRoutines(@Request() req, @Param('animalId') animalId: string) {
-    return this.routinesService.findAllRoutines(req.user.id, animalId);
+  async findAllRoutines(
+    @Request() req: { user: { id: string } },
+    @Param('animalId') animalId: string,
+    @Query() page: PaginationQueryDto,
+  ) {
+    return this.routinesService.findAllRoutines(req.user.id, animalId, page);
   }
 
   @Get(':routineId')
@@ -79,11 +88,15 @@ export class RoutinesController {
   @ApiResponse({ status: 403, description: 'Not your routine' })
   @ApiResponse({ status: 404, description: 'Routine not found' })
   async findOneRoutine(
-    @Request() req,
+    @Request() req: { user: { id: string } },
     @Param('animalId') animalId: string,
     @Param('routineId') routineId: string,
   ) {
-    return this.routinesService.findOneRoutine(req.user.id, animalId, routineId);
+    return this.routinesService.findOneRoutine(
+      req.user.id,
+      animalId,
+      routineId,
+    );
   }
 
   @Patch(':routineId')
@@ -98,7 +111,7 @@ export class RoutinesController {
   @ApiResponse({ status: 403, description: 'Not your routine' })
   @ApiResponse({ status: 404, description: 'Routine not found' })
   async updateRoutine(
-    @Request() req,
+    @Request() req: { user: { id: string } },
     @Param('animalId') animalId: string,
     @Param('routineId') routineId: string,
     @Body() updateRoutineDto: UpdateRoutineDto,
@@ -123,7 +136,7 @@ export class RoutinesController {
   @ApiResponse({ status: 403, description: 'Not your routine' })
   @ApiResponse({ status: 404, description: 'Routine not found' })
   async deleteRoutine(
-    @Request() req,
+    @Request() req: { user: { id: string } },
     @Param('animalId') animalId: string,
     @Param('routineId') routineId: string,
   ) {
@@ -149,11 +162,15 @@ export class HistoryController {
   @ApiResponse({ status: 403, description: 'Not your animal' })
   @ApiResponse({ status: 404, description: 'Animal not found' })
   async logAction(
-    @Request() req,
+    @Request() req: { user: { id: string } },
     @Param('animalId') animalId: string,
     @Body() createActionLogDto: CreateActionLogDto,
   ) {
-    return this.routinesService.logAction(req.user.id, animalId, createActionLogDto);
+    return this.routinesService.logAction(
+      req.user.id,
+      animalId,
+      createActionLogDto,
+    );
   }
 
   @Get()
@@ -162,20 +179,33 @@ export class HistoryController {
     description: 'Retrieve action history for an animal',
   })
   @ApiParam({ name: 'animalId', description: 'Animal ID' })
-  @ApiQuery({ name: 'limit', required: false, description: 'Max entries (default: 100)' })
+  @ApiQuery({
+    name: 'limit',
+    required: false,
+    description: 'Max entries (default: 100)',
+  })
   @ApiResponse({ status: 200, description: 'Action history' })
   @ApiResponse({ status: 401, description: 'Unauthorized' })
   @ApiResponse({ status: 403, description: 'Not your animal' })
   @ApiResponse({ status: 404, description: 'Animal not found' })
   async getHistory(
-    @Request() req,
+    @Request() req: { user: { id: string } },
     @Param('animalId') animalId: string,
     @Query('limit', new ParseIntPipe({ optional: true })) limit?: number,
+    @Query('offset', new ParseIntPipe({ optional: true })) offset?: number,
   ) {
     if (limit !== undefined && (limit < 1 || limit > 100)) {
       throw new BadRequestException('limit must be between 1 and 100');
     }
-    return this.routinesService.getHistory(req.user.id, animalId, limit ?? 100);
+    if (offset !== undefined && offset < 0) {
+      throw new BadRequestException('offset must be >= 0');
+    }
+    return this.routinesService.getHistory(
+      req.user.id,
+      animalId,
+      limit ?? 100,
+      offset ?? 0,
+    );
   }
 
   @Delete(':logId')
@@ -190,10 +220,14 @@ export class HistoryController {
   @ApiResponse({ status: 403, description: 'Not your history entry' })
   @ApiResponse({ status: 404, description: 'History entry not found' })
   async deleteHistoryEntry(
-    @Request() req,
+    @Request() req: { user: { id: string } },
     @Param('animalId') animalId: string,
     @Param('logId') logId: string,
   ) {
-    return this.routinesService.deleteHistoryEntry(req.user.id, animalId, logId);
+    return this.routinesService.deleteHistoryEntry(
+      req.user.id,
+      animalId,
+      logId,
+    );
   }
 }

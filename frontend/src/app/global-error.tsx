@@ -1,0 +1,71 @@
+'use client';
+
+import { useEffect } from 'react';
+import Script from 'next/script';
+
+/**
+ * Dernier filet de sécurité : erreur dans le layout racine lui-même. Remplace tout le document,
+ * donc <html>/<body> sont fournis ici, sans dépendre de next-intl ni de Tailwind (styles en ligne),
+ * et le texte est bilingue FR/EN puisque la locale n'est pas disponible.
+ */
+export default function GlobalError({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string };
+  reset: () => void;
+}) {
+  useEffect(() => {
+    import('@sentry/nextjs')
+      .then((Sentry) => Sentry.captureException(error))
+      .catch(() => {});
+  }, [error]);
+
+  return (
+    <html lang="fr">
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Captivia</title>
+        <Script src="/theme-init.js" strategy="beforeInteractive" />
+        <style>{`
+          :root { color-scheme: light dark; --bg:#f6f3ec; --ink:#1d2b24; --muted:#5b655e; --accent:#2f5d46; --accent-hover:#234836; --on-accent:#fffdf8; --border:#8c8576; }
+          :root[data-theme='dark'] { color-scheme: dark; --bg:#121714; --ink:#ece8de; --muted:#a9b0a8; --accent:#8cc5a2; --accent-hover:#a9d6ba; --on-accent:#10201a; --border:#6b776f; }
+          body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; padding:24px; box-sizing:border-box; background:var(--bg); color:var(--ink); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+          main { max-width:520px; text-align:center; }
+          h1 { margin:0 0 8px; font-family:Georgia,'Times New Roman',serif; font-weight:600; font-size:1.95rem; line-height:1.15; }
+          p { margin:0 0 8px; color:var(--muted); line-height:1.5; }
+          .ref { font-family:ui-monospace,monospace; font-size:.8rem; }
+          .actions { margin-top:24px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+          button, a.btn { font:inherit; font-weight:600; font-size:.9rem; min-height:44px; padding:10px 20px; border-radius:6px; box-sizing:border-box; cursor:pointer; text-decoration:none; }
+          button { border:0; background:var(--accent); color:var(--on-accent); }
+          button:hover { background:var(--accent-hover); }
+          a.btn { border:1px solid var(--border); color:var(--ink); }
+          button:focus-visible, a.btn:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+        `}</style>
+      </head>
+      <body>
+        <main role="alert">
+          <h1>
+            Une erreur est survenue <span lang="en">/ Something went wrong</span>
+          </h1>
+          <p>
+            Un problème inattendu s&apos;est produit. Réessayez dans un instant.
+          </p>
+          <p lang="en">An unexpected problem occurred. Please try again.</p>
+          {error.digest ? <p className="ref">Ref: {error.digest}</p> : null}
+          <div className="actions">
+            <button type="button" onClick={() => reset()}>
+              Réessayer / Try again
+            </button>
+            {/* Lien natif : le routeur Next peut lui-même être la cause de l'erreur. */}
+            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+            <a className="btn" href="/">
+              Accueil / Home
+            </a>
+          </div>
+        </main>
+      </body>
+    </html>
+  );
+}

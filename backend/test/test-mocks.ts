@@ -1,5 +1,6 @@
 export const mockCacheService = {
   get: jest.fn(),
+  getStale: jest.fn(),
   set: jest.fn(),
   has: jest.fn(),
   clear: jest.fn(),
@@ -11,6 +12,7 @@ export const mockCacheService = {
 export const mockGbifService = {
   searchSpecies: jest.fn(),
   getSpecies: jest.fn(),
+  matchSpecies: jest.fn(),
   getVernacularNames: jest.fn(),
   getIucn: jest.fn(),
   getDistributions: jest.fn(),
@@ -38,4 +40,5 @@ export const mockFilterService = {
 export const mockSpeciesProfileService = {
   searchFromProfile: jest.fn(),
   getBySpeciesId: jest.fn(),
+  getScientificName: jest.fn(),
 };

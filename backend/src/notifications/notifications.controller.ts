@@ -1,6 +1,5 @@
 import {
   Controller,
-  HttpCode,
   Get,
   Post,
   Patch,
@@ -74,10 +73,7 @@ export class NotificationsController {
   @ApiResponse({ status: 200, description: 'Subscriptions list' })
   @ApiResponse({ status: 401, description: 'Unauthorized' })
   async getSubscriptions(@Request() req: { user: { id: string } }) {
-    const subscriptions = await this.notificationsService.getUserSubscriptions(
-      req.user.id,
-    );
-    return subscriptions.map(({ id, endpoint }) => ({ id, endpoint }));
+    return this.notificationsService.getUserSubscriptions(req.user.id);
   }
 
   @Get('notification-preferences')
@@ -109,14 +105,17 @@ export class NotificationsController {
   }
 
   @Post('test-notification')
-  @HttpCode(200)
   @ApiOperation({
     summary: 'Send test notification',
-    description: 'Send a test reminder using the current delivery channels',
+    description:
+      'Send a test push notification to current user. Returns only { sent: boolean } (true if at least one device was reached).',
   })
-  @ApiResponse({ status: 200, description: 'Test notification sent' })
+  @ApiResponse({ status: 201, description: '{ sent: boolean }' })
   @ApiResponse({ status: 401, description: 'Unauthorized' })
   async sendTestNotification(@Request() req: { user: { id: string } }) {
-    return this.notificationsService.sendTestNotification(req.user.id);
+    const result = await this.notificationsService.sendTestNotification(
+      req.user.id,
+    );
+    return { sent: result.sent > 0 };
   }
 }

@@ -1,7 +1,15 @@
-import { Injectable, NotFoundException, BadRequestException } from '@nestjs/common';
+import {
+  Injectable,
+  NotFoundException,
+  BadRequestException,
+} from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { AnimalsService } from '../animals/animals.service';
-import { CreateVaccinationDto, UpdateVaccinationDto } from './dto/vaccination.dto';
+import {
+  CreateVaccinationDto,
+  UpdateVaccinationDto,
+} from './dto/vaccination.dto';
+import { PaginationQueryDto, toPage } from '../common/dto/pagination-query.dto';
 
 @Injectable()
 export class VaccinationsService {
@@ -10,11 +18,12 @@ export class VaccinationsService {
     private readonly animalsService: AnimalsService,
   ) {}
 
-  async findAll(animalId: string, userId: string) {
+  async findAll(animalId: string, userId: string, page?: PaginationQueryDto) {
     await this.animalsService.findOne(animalId, userId);
     return this.prisma.vaccination.findMany({
       where: { animalId },
-      orderBy: { date: 'desc' },
+      orderBy: [{ date: 'desc' }, { id: 'asc' }],
+      ...toPage(page),
     });
   }
 
@@ -63,12 +72,19 @@ export class VaccinationsService {
   ) {
     const existing = await this.findOne(animalId, vaccinationId, userId);
     const date = dto.date !== undefined ? new Date(dto.date) : existing.date;
-    this.assertNextDueDateValid(date, dto.nextDueDate ?? (dto.nextDueDate === undefined ? existing.nextDueDate?.toISOString() : undefined));
+    this.assertNextDueDateValid(
+      date,
+      dto.nextDueDate ??
+        (dto.nextDueDate === undefined
+          ? existing.nextDueDate?.toISOString()
+          : undefined),
+    );
 
     const data: Record<string, unknown> = {};
     if (dto.name !== undefined) data.name = dto.name;
     if (dto.date !== undefined) data.date = new Date(dto.date);
-    if (dto.nextDueDate !== undefined) data.nextDueDate = dto.nextDueDate ? new Date(dto.nextDueDate) : null;
+    if (dto.nextDueDate !== undefined)
+      data.nextDueDate = dto.nextDueDate ? new Date(dto.nextDueDate) : null;
     if (dto.batchNumber !== undefined) data.batchNumber = dto.batchNumber;
     if (dto.vetName !== undefined) data.vetName = dto.vetName;
     if (dto.notes !== undefined) data.notes = dto.notes;

@@ -1,47 +1,32 @@
+import { createECDH } from 'crypto';
+import * as nodemailer from 'nodemailer';
+import { validTimeZone } from './notification-schedule';
 import {
   BadRequestException,
+  ForbiddenException,
   Injectable,
   Logger,
   ServiceUnavailableException,
 } from '@nestjs/common';
-import { Prisma, PushSubscription } from '@prisma/client';
-import { createECDH } from 'crypto';
-import * as webPush from 'web-push';
-import * as nodemailer from 'nodemailer';
+import { Prisma } from '@prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
-import {
-  DEFAULT_TIME_ZONE,
-  insideDeliveryWindow,
-  isTypeEnabled,
-  localDay,
-  validateTypeSchedules,
-  validTimeZone,
-} from './notification-schedule';
+import { UpdateNotificationPreferencesDto } from './dto/notification-preferences.dto';
+import { PushReminderPayload } from './push-sender';
+import { PushDispatcher } from './push-dispatcher';
+import { isAllowedPushEndpoint } from './push-endpoint';
 
-export interface PushPayload {
-  title: string;
-  body: string;
-  icon?: string;
-  data?: {
-    animalId?: string;
-    eventId?: string;
-    routineId?: string;
-    type?: string;
-  };
-}
-interface PreferenceUpdate {
-  types?: Record<string, boolean>;
-  typeSchedules?: Record<string, unknown>;
-  schedule?: { start: string; end: string };
-  snooze?: number;
-  timeZone?: string;
-  deliveryChannel?: 'push' | 'email' | 'both';
-}
+/** Nombre maximal d'abonnements push par compte : au-delà, le plus ancien est remplacé. */
+export const MAX_PUSH_SUBSCRIPTIONS_PER_USER = 10;
 
 @Injectable()
 export class NotificationsService {
   private readonly logger = new Logger(NotificationsService.name);
-  constructor(private readonly prisma: PrismaService) {}
+
+  constructor(
+    private readonly prisma: PrismaService,
+    /** Web Push + push natif (W6-07). */
+    private readonly pushSender: PushDispatcher,
+  ) {}
 
   private vapidDetails() {
     const publicKey = process.env.VAPID_PUBLIC_KEY || '';
@@ -70,107 +55,7 @@ export class NotificationsService {
     };
   }
 
-  async subscribeToPush(
-    userId: string,
-    subscription: { endpoint: string; keys: { p256dh: string; auth: string } },
-  ) {
-    if (!this.getCapabilities().push)
-      throw new ServiceUnavailableException(
-        'Les notifications push ne sont pas configurées.',
-      );
-    let url: URL;
-    try {
-      url = new URL(subscription.endpoint);
-    } catch {
-      throw new BadRequestException('Abonnement push invalide.');
-    }
-    const host = url.hostname;
-    const trusted =
-      host === 'fcm.googleapis.com' ||
-      host === 'updates.push.services.mozilla.com' ||
-      host.endsWith('.push.services.mozilla.com') ||
-      host.endsWith('.push.apple.com') ||
-      host.endsWith('.notify.windows.com');
-    if (
-      !trusted ||
-      url.protocol !== 'https:' ||
-      url.username ||
-      url.password ||
-      (url.port && url.port !== '443') ||
-      Buffer.from(subscription.keys.p256dh, 'base64url').length !== 65 ||
-      Buffer.from(subscription.keys.auth, 'base64url').length !== 16
-    ) {
-      throw new BadRequestException('Abonnement push invalide.');
-    }
-    return this.prisma.pushSubscription.upsert({
-      where: { endpoint: subscription.endpoint },
-      create: { userId, ...subscription },
-      update: { userId, keys: subscription.keys },
-    });
-  }
-
-  async unsubscribeFromPush(userId: string, endpoint: string) {
-    await this.prisma.pushSubscription.deleteMany({
-      where: { userId, endpoint },
-    });
-    return { success: true };
-  }
-
-  getUserSubscriptions(userId: string) {
-    return this.prisma.pushSubscription.findMany({ where: { userId } });
-  }
-
-  async sendPushSubscription(
-    sub: PushSubscription,
-    payload: PushPayload,
-  ): Promise<boolean> {
-    const vapidDetails = this.vapidDetails();
-    if (!vapidDetails)
-      throw new ServiceUnavailableException(
-        'Les notifications push ne sont pas configurées.',
-      );
-    try {
-      await webPush.sendNotification(
-        {
-          endpoint: sub.endpoint,
-          keys: sub.keys as unknown as webPush.PushSubscription['keys'],
-        },
-        JSON.stringify(payload),
-        { vapidDetails, TTL: 3600, timeout: 10000 },
-      );
-      return true;
-    } catch (error) {
-      const status = (error as { statusCode?: number }).statusCode;
-      if (status === 404 || status === 410) {
-        await this.prisma.pushSubscription.deleteMany({
-          where: { id: sub.id },
-        });
-        return false;
-      }
-      // Ne pas journaliser le payload, les clés ou l'endpoint (identifiants privés).
-      this.logger.warn(
-        `Échec d'envoi push (HTTP ${status || 'indisponible'}).`,
-      );
-      throw error;
-    }
-  }
-
-  async sendNotification(userId: string, payload: PushPayload) {
-    if (!this.getCapabilities().push)
-      throw new ServiceUnavailableException(
-        'Les notifications push ne sont pas configurées.',
-      );
-    const subscriptions = await this.getUserSubscriptions(userId);
-    const results = await Promise.allSettled(
-      subscriptions.map((sub) => this.sendPushSubscription(sub, payload)),
-    );
-    return {
-      sent: results.filter((r) => r.status === 'fulfilled' && r.value).length,
-      failed: results.filter((r) => r.status === 'rejected' || !r.value).length,
-    };
-  }
-
-  async sendEmail(to: string, payload: PushPayload) {
+  async sendEmail(to: string, payload: PushReminderPayload) {
     if (!this.getCapabilities().email)
       throw new ServiceUnavailableException(
         'Les rappels par email ne sont pas configurés.',
@@ -201,14 +86,6 @@ export class NotificationsService {
 
   async sendTestNotification(userId: string) {
     const prefs = await this.getNotificationPreferences(userId);
-    const capabilities = this.getCapabilities();
-    if (
-      (prefs.deliveryChannel !== 'email' && !capabilities.push) ||
-      (prefs.deliveryChannel !== 'push' && !capabilities.email)
-    )
-      throw new ServiceUnavailableException(
-        'Un canal de réception est indisponible.',
-      );
     const payload = {
       title: 'Test Captivia',
       body: 'Vos notifications Captivia sont opérationnelles.',
@@ -218,8 +95,8 @@ export class NotificationsService {
     let failed = 0;
     if (prefs.deliveryChannel !== 'email') {
       const result = await this.sendNotification(userId, payload);
-      sent += result.sent;
-      failed += result.failed;
+      sent += result.sent ? 1 : 0;
+      failed += result.sent ? 0 : 1;
     }
     if (prefs.deliveryChannel !== 'push') {
       const user = await this.prisma.user.findUniqueOrThrow({
@@ -227,6 +104,8 @@ export class NotificationsService {
         select: { email: true },
       });
       try {
+        if (!user.email)
+          throw new BadRequestException('An email address is required');
         await this.sendEmail(user.email, payload);
         sent++;
       } catch {
@@ -237,115 +116,203 @@ export class NotificationsService {
     return { sent, failed };
   }
 
-  getNotificationPreferences(userId: string) {
-    return this.prisma.notificationPreference.upsert({
-      where: { userId },
-      update: {},
-      create: {
+  async subscribeToPush(
+    userId: string,
+    subscription: {
+      endpoint: string;
+      keys: { p256dh: string; auth: string };
+    },
+  ) {
+    const { endpoint, keys } = subscription;
+    const forbidden = () =>
+      new ForbiddenException(
+        'This push endpoint is registered to another account',
+      );
+    // Défense en profondeur : le DTO l'a déjà vérifié (liste blanche des services push).
+    if (!isAllowedPushEndpoint(endpoint)) {
+      throw new BadRequestException(
+        'endpoint must be an https URL of a supported Web Push service',
+      );
+    }
+
+    try {
+      return await this.prisma.$transaction(async (tx) => {
+        // Verrou User : le plafond d'abonnements tient même sous inscriptions concurrentes.
+        await tx.$queryRaw`SELECT 1 FROM "User" WHERE "id" = ${userId} FOR UPDATE`;
+        // L'endpoint est unique globalement : un abonnement appartenant à un autre compte
+        // ne doit jamais être écrasé ni « volé » (403).
+        const existing = await tx.pushSubscription.findUnique({
+          where: { endpoint },
+        });
+        if (existing) {
+          if (existing.userId !== userId) throw forbidden();
+          return tx.pushSubscription.update({
+            where: { id: existing.id },
+            data: { keys },
+          });
+        }
+        // Plafond par compte : les abonnements les plus anciens sont remplacés.
+        const current = await tx.pushSubscription.findMany({
+          where: { userId },
+          orderBy: [{ createdAt: 'asc' }, { id: 'asc' }],
+          select: { id: true },
+        });
+        const excess = current.length - (MAX_PUSH_SUBSCRIPTIONS_PER_USER - 1);
+        if (excess > 0) {
+          await tx.pushSubscription.deleteMany({
+            where: { id: { in: current.slice(0, excess).map((c) => c.id) } },
+          });
+        }
+        return tx.pushSubscription.create({
+          data: { userId, endpoint, keys },
+        });
+      });
+    } catch (e) {
+      // Création concurrente du même endpoint par un autre compte (P2002) : on relit pour décider.
+      if ((e as { code?: string })?.code !== 'P2002') throw e;
+      const again = await this.prisma.pushSubscription.findUnique({
+        where: { endpoint },
+      });
+      if (!again || again.userId !== userId) throw forbidden();
+      return this.prisma.pushSubscription.update({
+        where: { id: again.id },
+        data: { keys },
+      });
+    }
+  }
+
+  async unsubscribeFromPush(userId: string, endpoint: string) {
+    const subscription = await this.prisma.pushSubscription.findFirst({
+      where: {
         userId,
-        types: {},
-        schedule: { start: '00:00', end: '23:59' },
-        snooze: 15,
-        deliveryChannel: 'push',
-        timeZone: DEFAULT_TIME_ZONE,
+        endpoint,
       },
+    });
+
+    if (subscription) {
+      await this.prisma.pushSubscription.delete({
+        where: { id: subscription.id },
+      });
+    }
+
+    return { success: true };
+  }
+
+  async getUserSubscriptions(userId: string) {
+    return this.prisma.pushSubscription.findMany({
+      where: { userId },
     });
   }
 
-  async updateNotificationPreferences(userId: string, data: PreferenceUpdate) {
-    const record = (value: unknown): value is Record<string, unknown> =>
-      !!value && typeof value === 'object' && !Array.isArray(value);
-    if (
-      data.timeZone !== undefined &&
-      (typeof data.timeZone !== 'string' || !validTimeZone(data.timeZone))
-    )
-      throw new BadRequestException('Fuseau horaire invalide.');
-    if (
-      data.deliveryChannel !== undefined &&
-      !['push', 'email', 'both'].includes(data.deliveryChannel)
-    )
-      throw new BadRequestException('Canal de réception invalide.');
-    if (
-      data.snooze !== undefined &&
-      (!Number.isInteger(data.snooze) || data.snooze < 5 || data.snooze > 120)
-    )
-      throw new BadRequestException('Report invalide (5 à 120 minutes).');
-    if (
-      data.types !== undefined &&
-      (!record(data.types) ||
-        Object.entries(data.types).length > 100 ||
-        Object.entries(data.types).some(
-          ([key, value]) =>
-            typeof value !== 'boolean' ||
-            !key.trim() ||
-            key.length > 120 ||
-            ['__proto__', 'constructor', 'prototype'].includes(key),
-        ))
-    )
-      throw new BadRequestException('Types de rappel invalides.');
-    if (data.typeSchedules !== undefined) {
-      if (!record(data.typeSchedules))
-        throw new BadRequestException('Horaires invalides.');
-      validateTypeSchedules(data.typeSchedules);
+  /**
+   * Envoi immédiat vers tous les appareils de l'utilisateur (notification de test) : navigateurs
+   * abonnés et installations de l'app.
+   * Ne renvoie QUE « au moins un envoi a réussi » : le détail (échecs, purges) servait d'oracle
+   * pour sonder des adresses (revue de sécurité, constat 2).
+   */
+  async sendNotification(
+    userId: string,
+    payload: PushReminderPayload,
+  ): Promise<{ sent: boolean }> {
+    const { sent } = await this.pushSender.deliver(userId, payload);
+    return { sent: sent > 0 };
+  }
+
+  async getNotificationPreferences(userId: string) {
+    let prefs = await this.prisma.notificationPreference.findUnique({
+      where: { userId },
+    });
+
+    // Préférences par défaut à la première lecture : AUCUN rappel générique imposé (un « UVB »
+    // quotidien n'a pas de sens pour un chat). L'utilisateur choisit ses sujets ; les comptes
+    // existants gardent les leurs (libellés traduits à l'affichage, `reminder-labels`).
+    if (!prefs) {
+      prefs = await this.prisma.notificationPreference.create({
+        data: {
+          userId,
+          types: {},
+          schedule: {
+            start: '08:00',
+            end: '22:00',
+          },
+          snooze: 15,
+          deliveryChannel: 'push',
+        },
+      });
     }
-    if (
-      data.schedule !== undefined &&
-      (!record(data.schedule) ||
-        !/^([01]\d|2[0-3]):[0-5]\d$/.test(data.schedule.start) ||
-        !/^([01]\d|2[0-3]):[0-5]\d$/.test(data.schedule.end))
-    )
-      throw new BadRequestException('Plage horaire invalide.');
-    if (data.deliveryChannel === 'email' || data.deliveryChannel === 'both') {
-      if (!this.getCapabilities().email)
-        throw new ServiceUnavailableException(
-          'Les rappels par email ne sont pas configurés.',
-        );
+
+    return prefs;
+  }
+
+  async updateNotificationPreferences(
+    userId: string,
+    data: UpdateNotificationPreferencesDto,
+  ) {
+    if (data.timeZone !== undefined) {
+      if (!validTimeZone(data.timeZone))
+        throw new BadRequestException('Invalid time zone');
+      await this.prisma.user.update({
+        where: { id: userId },
+        data: { timezone: data.timeZone },
+      });
     }
     const existing = await this.getNotificationPreferences(userId);
-    const typeSchedules = data.typeSchedules
-      ? Object.fromEntries(
-          Object.entries(data.typeSchedules).map(([key, value]) => {
-            const s = value as Record<string, unknown>;
-            const prev = (
-              existing.typeSchedules as Record<
-                string,
-                Record<string, unknown>
-              > | null
-            )?.[key];
-            return [
-              key,
-              {
-                ...s,
-                startDate:
-                  s.startDate ||
-                  prev?.startDate ||
-                  localDay(
-                    undefined,
-                    data.timeZone || existing.timeZone,
-                  ).toISODate(),
-              },
-            ];
-          }),
-        )
-      : undefined;
+
+    const updateData: Prisma.NotificationPreferenceUpdateInput = {};
+    if (data.timeZone !== undefined) updateData.timeZone = data.timeZone;
+    if (data.types !== undefined) updateData.types = data.types;
+    // DTO validés (objets simples) : stockés tels quels dans les colonnes JSON.
+    if (data.typeSchedules !== undefined)
+      updateData.typeSchedules = data.typeSchedules as Prisma.InputJsonValue;
+    if (data.schedule !== undefined)
+      updateData.schedule = data.schedule as Prisma.InputJsonValue;
+    // Le DTO refuse null / NaN ; garde défensive : jamais d'entier invalide en base (500).
+    if (typeof data.snooze === 'number' && Number.isInteger(data.snooze))
+      updateData.snooze = data.snooze;
+    if (data.deliveryChannel !== undefined) {
+      const valid = ['push', 'email', 'both'].includes(data.deliveryChannel)
+        ? data.deliveryChannel
+        : 'push';
+      updateData.deliveryChannel = valid;
+    }
+
     return this.prisma.notificationPreference.update({
-      where: { userId },
-      data: {
-        ...data,
-        typeSchedules: typeSchedules as Prisma.InputJsonValue | undefined,
-      },
+      where: { id: existing.id },
+      data: updateData,
     });
   }
 
-  async checkIfShouldNotify(
-    userId: string,
-    type: string,
-    now = new Date(),
-  ): Promise<boolean> {
+  async checkIfShouldNotify(userId: string, type: string): Promise<boolean> {
     const prefs = await this.getNotificationPreferences(userId);
-    return (
-      isTypeEnabled(prefs.types, type) &&
-      insideDeliveryWindow(prefs.schedule, now, prefs.timeZone)
-    );
+
+    // Check if type is enabled (types / schedule peuvent être nuls ou mal formés en base)
+    const types =
+      prefs.types &&
+      typeof prefs.types === 'object' &&
+      !Array.isArray(prefs.types)
+        ? (prefs.types as Record<string, unknown>)
+        : {};
+    if (!types[type]) {
+      return false;
+    }
+
+    // Check time window : sans fenêtre valide, aucune restriction horaire
+    const schedule =
+      prefs.schedule &&
+      typeof prefs.schedule === 'object' &&
+      !Array.isArray(prefs.schedule)
+        ? (prefs.schedule as { start?: unknown; end?: unknown })
+        : {};
+    const start = typeof schedule.start === 'string' ? schedule.start : '00:00';
+    const end = typeof schedule.end === 'string' ? schedule.end : '23:59';
+
+    const now = new Date();
+    const currentTime = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
+
+    if (currentTime < start || currentTime > end) {
+      return false;
+    }
+
+    return true;
   }
 }

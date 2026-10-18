@@ -1,8 +1,8 @@
 .care-page {
   min-height: 100vh;
   padding: 40px 0 max(48px, env(safe-area-inset-bottom));
-  background: var(--captivia-bg);
-  color: var(--captivia-ink);
+  background: var(--paper);
+  color: var(--ink);
 }
 .care-container {
   max-width: 1440px;
@@ -24,8 +24,8 @@
   font-size: 10px;
   font-weight: 750;
   letter-spacing: 0.15em;
-  color: var(--captivia-accent-dark);
-  text-transform: uppercase;
+  color: var(--accent-strong);
+  text-transform: normal-case;
 }
 .care-intro h1 {
   font-size: clamp(32px, 4vw, 48px);
@@ -37,7 +37,7 @@
 .care-intro h1 span {
   display: block;
   font-size: 0.56em;
-  color: var(--captivia-accent-dark);
+  color: var(--accent-strong);
   letter-spacing: -0.025em;
   margin-top: 10px;
 }
@@ -45,12 +45,12 @@
   max-width: 650px;
   line-height: 1.8;
   font-size: 14px;
-  color: var(--captivia-muted);
+  color: var(--ink-2);
 }
 .care-panel {
   min-width: 0;
-  background: var(--captivia-surface-solid);
-  border: 1px solid var(--captivia-border);
+  background: var(--surface);
+  border: 1px solid var(--line);
   border-radius: 24px;
   box-shadow: 0 12px 40px rgb(13 50 35 / 3%);
 }
@@ -62,19 +62,19 @@
   gap: 8px;
   min-height: 42px;
   padding: 10px 16px;
-  border: 1px solid var(--captivia-border-strong);
+  border: 1px solid var(--line-strong);
   border-radius: 12px;
-  background: var(--captivia-surface-solid);
-  color: var(--captivia-ink);
+  background: var(--surface);
+  color: var(--ink);
   font-size: 12px;
   font-weight: 650;
   cursor: pointer;
   flex-shrink: 0;
 }
 .care-button.primary {
-  background: var(--captivia-accent-dark);
+  background: var(--accent-strong);
   border-color: transparent;
-  color: var(--captivia-bg);
+  color: var(--paper);
 }
 .care-icon-button {
   padding: 9px;
@@ -93,7 +93,7 @@
 .care-page input:focus-visible,
 .care-page select:focus-visible,
 .care-form :focus-visible {
-  outline: 3px solid var(--captivia-accent);
+  outline: 3px solid var(--accent);
   outline-offset: 3px;
 }
 .care-filters {
@@ -124,10 +124,10 @@
   min-width: 0;
   max-width: 100%;
   min-height: 40px;
-  border: 1px solid var(--captivia-border-strong);
+  border: 1px solid var(--line-strong);
   border-radius: 10px;
-  background: var(--captivia-bg);
-  color: var(--captivia-ink);
+  background: var(--paper);
+  color: var(--ink);
   padding: 9px 12px;
   font-size: 13px;
 }
@@ -139,7 +139,7 @@
   padding: 4px;
   gap: 4px;
   border-radius: 12px;
-  background: var(--captivia-bg);
+  background: var(--paper);
 }
 .care-view-switch button {
   min-height: 38px;
@@ -147,12 +147,12 @@
   padding: 8px 18px;
   border-radius: 9px;
   font-size: 12px;
-  color: var(--captivia-muted);
+  color: var(--ink-2);
   cursor: pointer;
 }
 .care-view-switch button[aria-pressed='true'] {
-  color: var(--captivia-accent-dark);
-  background: var(--captivia-surface-solid);
+  color: var(--accent-strong);
+  background: var(--surface);
   box-shadow: 0 2px 8px rgb(0 0 0 / 5%);
 }
 .care-feedback {
@@ -160,7 +160,7 @@
   display: flex;
   align-items: center;
   font-size: 12px;
-  color: var(--captivia-muted);
+  color: var(--ink-2);
   line-height: 1.6;
 }
 .care-layout {
@@ -207,15 +207,15 @@
 }
 .care-month th {
   font-size: 11px;
-  color: var(--captivia-muted);
+  color: var(--ink-2);
   padding: 12px 0;
-  background: var(--captivia-bg);
+  background: var(--paper);
   font-weight: 650;
 }
 .care-month td {
   vertical-align: top;
-  border-top: 1px solid var(--captivia-border);
-  border-right: 1px solid var(--captivia-border);
+  border-top: 1px solid var(--line);
+  border-right: 1px solid var(--line);
   padding: 3px;
 }
 .care-month td:last-child {
@@ -229,21 +229,21 @@
   border-radius: 11px;
   text-align: left;
   padding: 8px;
-  color: var(--captivia-ink);
+  color: var(--ink);
   cursor: pointer;
   border: 1px solid transparent;
   background: transparent;
 }
 .care-day:hover {
-  background: var(--captivia-bg);
+  background: var(--paper);
 }
 .care-day.selected {
-  border-color: var(--captivia-accent);
-  background: var(--captivia-soft);
+  border-color: var(--accent);
+  background: var(--accent-soft);
 }
 .care-day.outside {
-  color: var(--captivia-muted);
-  background: var(--captivia-bg);
+  color: var(--ink-2);
+  background: var(--paper);
 }
 .care-day-number {
   display: inline-flex;
@@ -255,8 +255,8 @@
   font-weight: 600;
 }
 .care-day.today .care-day-number {
-  background: var(--captivia-accent-dark);
-  color: var(--captivia-bg);
+  background: var(--accent-strong);
+  color: var(--paper);
   border-radius: 8px;
 }
 .care-day-count {
@@ -267,8 +267,8 @@
   min-width: 19px;
   height: 19px;
   border-radius: 50%;
-  background: var(--captivia-soft);
-  color: var(--captivia-accent-dark);
+  background: var(--accent-soft);
+  color: var(--accent-strong);
   font-size: 10px;
   font-weight: 700;
 }
@@ -308,22 +308,22 @@
 }
 .care-day-preview small {
   font-size: 9px;
-  color: var(--captivia-muted);
+  color: var(--ink-2);
 }
 .care-calendar-legend {
   padding: 18px 24px;
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
-  border-top: 1px solid var(--captivia-border);
+  border-top: 1px solid var(--line);
   font-size: 10px;
-  color: var(--captivia-muted);
+  color: var(--ink-2);
 }
 .care-day-details {
   padding: 26px;
 }
 .care-day-heading {
-  border-bottom: 1px solid var(--captivia-border);
+  border-bottom: 1px solid var(--line);
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
@@ -337,7 +337,7 @@
 }
 .care-day-heading p {
   font-size: 12px;
-  color: var(--captivia-muted);
+  color: var(--ink-2);
 }
 .care-timeline {
   padding: 0;
@@ -350,13 +350,13 @@
   display: grid;
   gap: 8px;
   text-align: left;
-  border: 1px solid var(--captivia-border);
+  border: 1px solid var(--line);
   border-left: 3px solid #22a67e;
   padding: 15px;
   border-radius: 12px;
-  background: var(--captivia-bg);
+  background: var(--paper);
   width: 100%;
-  color: var(--captivia-ink);
+  color: var(--ink);
   cursor: pointer;
   overflow-wrap: anywhere;
 }
@@ -378,11 +378,11 @@
   align-items: center;
   gap: 6px;
   font-size: 11px;
-  color: var(--captivia-muted);
+  color: var(--ink-2);
 }
 .care-event-meta {
   font-size: 11px;
-  color: var(--captivia-muted);
+  color: var(--ink-2);
   line-height: 1.6;
 }
 .care-event-edit {
@@ -390,7 +390,7 @@
   align-items: center;
   gap: 4px;
   font-size: 10px;
-  color: var(--captivia-accent-dark);
+  color: var(--accent-strong);
   font-weight: 650;
 }
 .care-day-add {
@@ -400,7 +400,7 @@
 .care-animal-link {
   display: block;
   font-size: 11px;
-  color: var(--captivia-accent-dark);
+  color: var(--accent-strong);
   margin-top: 18px;
   text-align: center;
   line-height: 1.8;
@@ -408,15 +408,15 @@
 .care-empty {
   text-align: center;
   padding: 26px 0;
-  color: var(--captivia-muted);
+  color: var(--ink-2);
 }
 .care-empty svg {
   margin: 0 auto 16px;
-  color: var(--captivia-accent-dark);
+  color: var(--accent-strong);
 }
 .care-empty h3 {
   font-size: 17px;
-  color: var(--captivia-ink);
+  color: var(--ink);
   margin: 10px 0;
 }
 .care-empty p {
@@ -424,7 +424,7 @@
   line-height: 1.8;
 }
 .care-muted {
-  color: var(--captivia-muted);
+  color: var(--ink-2);
   font-size: 12px;
   line-height: 1.8;
 }
@@ -433,11 +433,11 @@
 }
 .care-premium-note a,
 .care-callout a {
-  color: var(--captivia-accent-dark);
+  color: var(--accent-strong);
   text-decoration: underline;
 }
 .care-callout {
-  background: var(--captivia-soft);
+  background: var(--accent-soft);
   border-radius: 12px;
   padding: 16px;
   font-size: 12px;
@@ -475,7 +475,7 @@
   gap: 7px;
   font-size: 12px;
   font-weight: 600;
-  color: var(--captivia-ink);
+  color: var(--ink);
 }
 .care-form-row {
   display: grid;
@@ -494,14 +494,14 @@
 }
 .care-day-summary > svg {
   margin: 0 auto 20px;
-  color: var(--captivia-accent-dark);
+  color: var(--accent-strong);
 }
 .care-day-summary h3 {
   font-size: 26px;
   text-transform: capitalize;
 }
 .care-day-summary p {
-  color: var(--captivia-muted);
+  color: var(--ink-2);
   margin: 15px 0 28px;
 }
 .care-day-summary .care-navigation {

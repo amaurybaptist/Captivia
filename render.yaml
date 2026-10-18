@@ -1,0 +1,155 @@
+# Render Blueprint — API NestJS Captivia (offre gratuite, région Francfort).
+# Création : Render Dashboard → New → Blueprint → ce dépôt. Voir docs/DEPLOY.md.
+#
+# Pipeline à build automatique (DEP-01) : le service est relié à GitHub et se
+# redéploie tout seul après un push sur la branche principale.
+#   autoDeployTrigger: checksPass → Render attend que TOUS les checks GitHub du
+#   commit soient verts (tests, build, et le job « migrate-production » de
+#   .github/workflows/ci.yml qui applique les migrations Prisma sur Neon), puis
+#   déploie. (Valeurs possibles : off | commit | checksPass ; ce champ remplace
+#   l'ancien booléen autoDeploy, déprécié.)
+#   Les anciens Deploy Hooks ne sont plus utilisés.
+services:
+  - type: web
+    name: captivia-api
+    runtime: docker
+    plan: free
+    region: frankfurt
+    rootDir: backend
+    dockerContext: .
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    autoDeployTrigger: checksPass
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: HOST
+        value: 0.0.0.0
+      # URL « pooled » Neon (host « -pooler ») à saisir dans le Dashboard :
+      #   postgresql://USER:PASS@ep-xxx-pooler.eu-central-1.aws.neon.tech/captivia?sslmode=require&pgbouncer=true&connect_timeout=15
+      # (les migrations, elles, utilisent l'URL directe via le secret GitHub NEON_DATABASE_URL_DIRECT).
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      # Origines autorisées (CORS) et URL publique du site. À ajuster si le nom du site
+      # Netlify diffère de « captivia ». Obligatoires en production (voir docs/DEPLOY.md).
+      # Inclut les origines de la WebView des apps mobiles Capacitor (docs/MOBILE.md § 5) :
+      # capacitor://localhost = iOS, https://localhost = Android.
+      - key: CORS_ORIGIN
+        value: https://captivia-app.netlify.app,capacitor://localhost,https://localhost
+      - key: FRONTEND_URL
+        value: https://captivia-app.netlify.app
+      # URL publique du site web, utilisée pour les liens des e-mails et des pages publiques.
+      - key: PUBLIC_WEB_URL
+        value: https://captivia-app.netlify.app
+      - key: TRUST_PROXY
+        value: "true"
+      - key: CACHE_TYPE
+        value: memory
+      - key: REDIS_ENABLED
+        value: "false"
+      - key: LOG_LEVEL
+        value: info
+      # Facultatifs — à renseigner dans le Dashboard quand disponibles.
+      - key: SENTRY_DSN
+        sync: false
+      # Web Push (W3-03) : `npm run vapid:generate` (backend/) génère la paire de clés.
+      # Sans clés, le push est désactivé (no-op journalisé). La clé publique est servie au
+      # navigateur par GET /notifications/vapid-public-key (pas de variable côté Netlify).
+      - key: VAPID_PUBLIC_KEY
+        sync: false
+      - key: VAPID_PRIVATE_KEY
+        sync: false
+      - key: VAPID_SUBJECT
+        sync: false
+      # Push natif de l'app (W6-07, docs/MOBILE.md § 7.3) : clé JSON du compte de service Firebase,
+      # encodée en base64. Sans elle, le push natif est désactivé (journal info au démarrage).
+      - key: FCM_SERVICE_ACCOUNT_JSON
+        sync: false
+      - key: FCM_PROJECT_ID
+        sync: false
+      # Achats intégrés (W6-08, docs/PAYMENTS.md) : IAP_ENABLED=true rend
+      # REVENUECAT_WEBHOOK_SECRET obligatoire (≥ 32 caractères) au démarrage.
+      - key: IAP_ENABLED
+        sync: false
+      - key: REVENUECAT_WEBHOOK_SECRET
+        sync: false
+      - key: REVENUECAT_ENTITLEMENT_ID
+        sync: false
+      - key: GOOGLE_PLAY_PACKAGE_NAME
+        sync: false
+      # Mode invité : jours d'inactivité avant purge d'un invité non converti (défaut 90,
+      # docs/RUNBOOK.md). Laisser vide pour garder le défaut.
+      - key: GUEST_RETENTION_DAYS
+        sync: false
+      # Maintenance quotidienne (W2-08, 03:41 UTC) : purge des jetons expirés, des refresh
+      # tokens périmés et des événements de rappel de plus de 90 jours. « false » la suspend
+      # (incident, enquête) ; laisser vide pour la garder active (docs/RUNBOOK.md).
+      - key: MAINTENANCE_ENABLED
+        sync: false
+      - key: SENTRY_TRACES_SAMPLE_RATE
+        sync: false
+      # Intégrations externes (W3-05) — facultatives, à saisir dans le Dashboard.
+      # Species+ (CITES/UE) : sans jeton, /speciesplus/* répond 503 INTEGRATION_DISABLED.
+      - key: SPECIESPLUS_API_TOKEN
+        sync: false
+      # PubMed (NCBI) est public : la clé et l'e-mail relèvent seulement le quota.
+      - key: NCBI_API_KEY
+        sync: false
+      - key: NCBI_EMAIL
+        sync: false
+      - key: MAIL_HOST
+        sync: false
+      - key: MAIL_PORT
+        sync: false
+      - key: MAIL_SECURE
+        sync: false
+      - key: MAIL_USER
+        sync: false
+      - key: MAIL_PASS
+        sync: false
+      - key: MAIL_FROM
+        sync: false
+      - key: REMINDERS_ENABLED
+        sync: false
+      # Communauté (volet social) — désactivée par défaut : toutes les routes /community/*
+      # répondent 404. COMMUNITY_ENABLED=true en production EXIGE le pilote s3 (le disque du
+      # service gratuit est éphémère) : MEDIA_DRIVER=s3, MEDIA_BUCKET, MEDIA_PUBLIC_BASE_URL,
+      # S3_ENDPOINT, S3_ACCESS_KEY_ID, S3_SECRET_ACCESS_KEY (Cloudflare R2, docs/DEPLOY.md).
+      - key: COMMUNITY_ENABLED
+        sync: false
+      - key: COMMUNITY_CONTACT_EMAIL
+        sync: false
+      - key: COMMUNITY_HIDE_THRESHOLD
+        sync: false
+      - key: COMMUNITY_REPORT_MIN_ACCOUNT_AGE_DAYS
+        sync: false
+      - key: COMMUNITY_POSTS_PER_HOUR
+        sync: false
+      - key: COMMUNITY_COMMENTS_PER_MINUTE
+        sync: false
+      - key: COMMUNITY_UPLOADS_PER_HOUR
+        sync: false
+      - key: MEDIA_DRIVER
+        sync: false
+      - key: MEDIA_MAX_BYTES
+        sync: false
+      - key: MEDIA_BUCKET
+        sync: false
+      - key: MEDIA_PUBLIC_BASE_URL
+        sync: false
+      - key: S3_ENDPOINT
+        sync: false
+      - key: S3_REGION
+        sync: false
+      - key: S3_ACCESS_KEY_ID
+        sync: false
+      - key: S3_SECRET_ACCESS_KEY
+        sync: false
+      - key: S3_FORCE_PATH_STYLE
+        sync: false
+      # Les opérateurs ne sont plus définis par variable d'environnement (W0-01) :
+      # promouvoir un compte existant depuis un poste de dev :
+      #   cd backend && DATABASE_URL=<URL Neon directe> npm run operator:set -- <email>
+      # (l'image runtime ne contient ni ts-node ni scripts/, donc pas depuis Render Shell).

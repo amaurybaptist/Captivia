@@ -1,205 +1,485 @@
-import {
-  Injectable,
-  Logger,
-  OnModuleDestroy,
-  OnModuleInit,
-} from '@nestjs/common';
-import { DateTime } from 'luxon';
-import { NotificationEvent } from '@prisma/client';
+import { insideDeliveryWindow, isTypeEnabled } from './notification-schedule';
+import { Optional } from '@nestjs/common';
+import { NotificationDeliveryService } from './notification-delivery.service';
+import { Inject, Injectable, Logger } from '@nestjs/common';
+import { Cron } from '@nestjs/schedule';
+import { Prisma } from '@prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
 import { GradeService } from '../grade/grade.service';
-import { NotificationsService } from './notifications.service';
-import { insideDeliveryWindow, isTypeEnabled } from './notification-schedule';
+import { MailService } from '../mail/mail.service';
+import { PUSH_SENDER, PushSender } from './push-sender';
+import { isStillScheduled, localReminderFor } from './local-coverage';
+import { NATIVE_PUSH_RUN_BUDGET_MS } from './native-push-sender';
+import { localDay } from '../common/timezone';
+import { reminderTypeLabel } from './reminder-labels';
 
+/** Clé du verrou consultatif Postgres du job de rappels (constante arbitraire, propre au job). */
+export const REMINDERS_LOCK_KEY = 4_731_202_610;
+/** Un rappel est envoyé s'il est dû depuis moins de 10 min (rattrapage d'un tick manqué). */
+export const REMINDER_WINDOW_MS = 10 * 60 * 1000;
+/** Bornes par exécution (anti-emballement). */
+export const MAX_DISPATCH_PER_RUN = 1000;
+export const MAX_GENERATIONS_PER_RUN = 300;
+/**
+ * Rappels envoyés en parallèle (par lot) : un rappel = un e-mail et/ou les push d'un utilisateur
+ * (≤ 10 appareils, 5 s max chacun). Borne la charge réseau et la durée d'un lot.
+ */
+export const DISPATCH_CONCURRENCY = 10;
+const USER_PAGE_SIZE = 500;
+
+export type DeliveryChannel = 'email' | 'push' | 'both';
+
+export interface ReminderRunResult {
+  locked: boolean;
+  generated: number;
+  due: number;
+  emailed: number;
+  pushed: number;
+  failed: number;
+}
+
+/** Colonnes d'un rappel dû, lues dans la transaction puis utilisées pour l'envoi (hors transaction). */
+const DUE_REMINDER_SELECT = {
+  id: true,
+  type: true,
+  label: true,
+  scheduledAt: true,
+  sourceKey: true,
+  userId: true,
+  animalId: true,
+  deliveryVersion: true,
+  snoozedUntil: true,
+  animal: { select: { name: true } },
+  // État ACTUEL de la source : le rappel est-il aussi programmé en local par l'app (W6-07) ?
+  routine: {
+    select: {
+      id: true,
+      active: true,
+      schedule: true,
+      frequency: true,
+      createdAt: true,
+      updatedAt: true,
+    },
+  },
+  medication: {
+    select: {
+      id: true,
+      active: true,
+      startDate: true,
+      endDate: true,
+      frequency: true,
+      intervalHours: true,
+      updatedAt: true,
+    },
+  },
+  user: {
+    select: {
+      email: true,
+      locale: true,
+      timezone: true,
+      notificationPreferences: {
+        select: { deliveryChannel: true, types: true, schedule: true },
+        take: 1,
+      },
+    },
+  },
+} satisfies Prisma.NotificationEventSelect;
+
+type DueReminder = Prisma.NotificationEventGetPayload<{
+  select: typeof DUE_REMINDER_SELECT;
+}>;
+
+/** `YYYY-MM-DD` de `now` dans le fuseau IANA donné (repli Europe/Paris si invalide). */
+export { localDay };
+
+export function normalizeChannel(value: unknown): DeliveryChannel {
+  return value === 'email' || value === 'both' ? value : 'push';
+}
+
+/**
+ * Canal réellement utilisé : un compte sans adresse e-mail (invité) reçoit ses rappels en push
+ * (et en notifications locales côté app), jamais par e-mail — « email » / « both » → « push ».
+ */
+export function effectiveChannel(
+  value: unknown,
+  email: string | null | undefined,
+): DeliveryChannel {
+  const channel = normalizeChannel(value);
+  return email ? channel : 'push';
+}
+
+/**
+ * Scheduler unifié des rappels (W3-02) : routines, médicaments, vaccins, RDV vétérinaires.
+ *
+ * Toutes les 5 minutes :
+ *  1. verrou consultatif Postgres (une seule instance travaille) ;
+ *  2. génère les NotificationEvent de « la journée en cours » (fuseau `User.timezone`) via
+ *     `GradeService.getOrCreateTodayEvents` (idempotent : index unique userId+sourceKey+scheduledAt) ;
+ *  3. réserve les événements `pending` dus dans (now − 10 min ; now] et pas encore notifiés :
+ *     `notifiedAt` passe de NULL à `now` (UPDATE … RETURNING, atomique) — jamais de doublon ;
+ *  4. APRÈS la transaction (verrou et connexion libérés), envoie les rappels réservés par lots
+ *     de `DISPATCH_CONCURRENCY` (`Promise.allSettled`), selon `deliveryChannel` (« push » = tous
+ *     les canaux push actifs : Web Push et app native FCM / APNs, via `PushDispatcher`). Un service push
+ *     ou SMTP lent ne bloque plus le verrou ni la transaction (revue de sécurité, constat 2).
+ *     Un rappel dont aucun canal n'a abouti est libéré (`notifiedAt` remis à NULL) pour être
+ *     retenté au tick suivant.
+ */
 @Injectable()
-export class NotificationsSchedulerService
-  implements OnModuleInit, OnModuleDestroy
-{
+export class NotificationsSchedulerService {
   private readonly logger = new Logger(NotificationsSchedulerService.name);
-  private timer?: ReturnType<typeof setInterval>;
+  /** userId → jour local déjà généré par cette instance (évite de régénérer à chaque tick). */
+  private readonly generatedDay = new Map<string, string>();
+  /** Exécution en cours dans CETTE instance (les envois d'un tick peuvent déborder sur le suivant). */
   private running = false;
+
   constructor(
     private readonly prisma: PrismaService,
-    private readonly notifications: NotificationsService,
-    private readonly grade: GradeService,
+    private readonly gradeService: GradeService,
+    private readonly mailService: MailService,
+    @Inject(PUSH_SENDER) private readonly pushSender: PushSender,
+    @Optional() private readonly deliveries?: NotificationDeliveryService,
   ) {}
 
-  onModuleInit() {
-    if (
-      process.env.NODE_ENV === 'test' ||
-      process.env.NOTIFICATIONS_SCHEDULER_ENABLED === 'false'
-    )
-      return;
-    this.timer = setInterval(() => {
-      void this.checkRoutinesAndSendNotifications().catch(() =>
-        this.logger.error('Échec du traitement des rappels.'),
-      );
-    }, 60000);
-    this.timer.unref();
-  }
-  onModuleDestroy() {
-    if (this.timer) clearInterval(this.timer);
+  get enabled(): boolean {
+    return (
+      process.env.NODE_ENV !== 'test' &&
+      process.env.REMINDERS_ENABLED !== 'false' &&
+      process.env.NOTIFICATIONS_SCHEDULER_ENABLED !== 'false'
+    );
   }
 
-  async checkRoutinesAndSendNotifications(now = new Date()) {
-    if (this.running) return;
-    const capabilities = this.notifications.getCapabilities();
-    if (!capabilities.push && !capabilities.email) return;
+  @Cron('* * * * *', { name: 'reminders' })
+  async handleCron(): Promise<void> {
+    if (!this.enabled) return;
+    try {
+      const res = await this.runOnce();
+      if (res.locked && res.due > 0) {
+        this.logger.log(
+          `Rappels : ${res.due} dus, ${res.emailed} e-mails, ${res.pushed} push, ${res.failed} échecs.`,
+        );
+      }
+    } catch (error) {
+      this.logger.error(
+        `Job de rappels en échec : ${error instanceof Error ? error.message : 'erreur inconnue'}`,
+      );
+    }
+  }
+
+  /**
+   * Une exécution du job. Le verrou est `pg_try_advisory_xact_lock` pris dans une transaction
+   * interactive : avec PgBouncer en mode transaction (Neon pooled), un verrou de SESSION
+   * (`pg_try_advisory_lock`) pourrait être pris et relâché sur des connexions serveur
+   * différentes. Le verrou de transaction est libéré automatiquement en fin de transaction,
+   * y compris en cas de crash.
+   *
+   * La transaction ne contient que du travail en base (génération + réservation) ; les envois
+   * (réseau) ont lieu après sa validation.
+   */
+  async runOnce(now: Date = new Date()): Promise<ReminderRunResult> {
+    const empty: ReminderRunResult = {
+      locked: false,
+      generated: 0,
+      due: 0,
+      emailed: 0,
+      pushed: 0,
+      failed: 0,
+    };
+    if (this.running) {
+      this.logger.debug('Exécution précédente encore en cours : tick ignoré.');
+      return empty;
+    }
     this.running = true;
     try {
-      let cursor: string | undefined;
-      do {
-        const users = await this.prisma.user.findMany({
-          where: {
-            OR: [
-              { pushSubscriptions: { some: {} } },
-              {
-                notificationPreferences: {
-                  some: { deliveryChannel: { in: ['email', 'both'] } },
-                },
-              },
-            ],
-          },
-          select: { id: true, email: true },
-          orderBy: { id: 'asc' },
-          take: 100,
-          ...(cursor ? { cursor: { id: cursor }, skip: 1 } : {}),
-        });
-        for (const user of users) {
-          try {
-            await this.processUser(user, now);
-          } catch {
-            this.logger.warn('Un utilisateur n’a pas pu recevoir ses rappels.');
+      const collected = await this.prisma.$transaction(
+        async (tx) => {
+          const rows = await tx.$queryRaw<{ locked: boolean }[]>(
+            Prisma.sql`SELECT pg_try_advisory_xact_lock(${REMINDERS_LOCK_KEY}::bigint) AS locked`,
+          );
+          if (!rows[0]?.locked) {
+            this.logger.debug(
+              'Verrou de rappels détenu par une autre instance.',
+            );
+            return null;
           }
-        }
-        cursor = users.length === 100 ? users[users.length - 1].id : undefined;
-      } while (cursor);
+          const generated = await this.generateTodayEvents(now);
+          const { found, claimed } = await this.claimDue(tx, now);
+          return { generated, found, claimed };
+        },
+        { maxWait: 10_000, timeout: 4 * 60 * 1000 },
+      );
+      if (!collected) return empty;
+
+      const sent = await this.dispatchClaimed(collected.claimed, now);
+      return {
+        locked: true,
+        generated: collected.generated,
+        due: collected.found,
+        ...sent,
+      };
     } finally {
       this.running = false;
     }
   }
 
-  private async processUser(user: { id: string; email: string }, now: Date) {
-    const prefs = await this.notifications.getNotificationPreferences(user.id);
-    if (!insideDeliveryWindow(prefs.schedule, now, prefs.timeZone)) return;
-    const localNow = DateTime.fromJSDate(now, { zone: prefs.timeZone });
-    const since = new Date(now.getTime() - 60 * 60000); // rattrapage d'une heure après un arrêt bref
-    await this.grade.getOrCreateTodayEvents(user.id, localNow.toISODate()!);
-    const previousDate = DateTime.fromJSDate(since, {
-      zone: prefs.timeZone,
-    }).toISODate()!;
-    if (previousDate !== localNow.toISODate())
-      await this.grade.getOrCreateTodayEvents(user.id, previousDate);
-    const due = { gte: since, lte: now };
-    const events = await this.prisma.notificationEvent.findMany({
-      where: {
-        userId: user.id,
-        status: 'pending',
-        OR: [{ snoozedUntil: null, scheduledAt: due }, { snoozedUntil: due }],
-      },
-      include: { animal: { select: { name: true } } },
-    });
-    const capabilities = this.notifications.getCapabilities();
-    const subs =
-      capabilities.push && prefs.deliveryChannel !== 'email'
-        ? await this.notifications.getUserSubscriptions(user.id)
-        : [];
-    for (const event of events) {
-      if (!isTypeEnabled(prefs.types, event.type)) continue;
-      const payload = {
-        title: 'Rappel Captivia',
-        body: `${event.label || event.type}${event.animal ? ` pour ${event.animal.name}` : ''}`,
-        icon: '/icon.png',
-        data: {
-          eventId: event.id,
-          ...(event.animalId ? { animalId: event.animalId } : {}),
+  /** Génère (au plus une fois par jour local et par instance) les événements des utilisateurs actifs. */
+  private async generateTodayEvents(now: Date): Promise<number> {
+    let generated = 0;
+    let cursor: string | undefined;
+    for (;;) {
+      const users = await this.prisma.user.findMany({
+        where: {
+          OR: [
+            { notificationPreferences: { some: {} } },
+            {
+              animals: {
+                some: {
+                  OR: [
+                    { routines: { some: { active: true } } },
+                    { medications: { some: { active: true } } },
+                    { vetAppointments: { some: { status: 'scheduled' } } },
+                    { vaccinations: { some: { nextDueDate: { not: null } } } },
+                  ],
+                },
+              },
+            },
+          ],
         },
-      };
-      for (const sub of subs) {
-        await this.deliver(event, `push:${sub.id}`, now, () =>
-          this.notifications.sendPushSubscription(sub, payload),
-        );
+        select: { id: true, timezone: true },
+        orderBy: { id: 'asc' },
+        take: USER_PAGE_SIZE,
+        ...(cursor ? { cursor: { id: cursor }, skip: 1 } : {}),
+      });
+      for (const user of users) {
+        if (generated >= MAX_GENERATIONS_PER_RUN) return generated;
+        const day = localDay(now, user.timezone);
+        if (this.generatedDay.get(user.id) === day) continue;
+        try {
+          await this.gradeService.getOrCreateTodayEvents(user.id, day);
+          this.generatedDay.set(user.id, day);
+          generated++;
+        } catch (error) {
+          this.logger.warn(
+            `Génération des rappels impossible pour ${user.id} : ${error instanceof Error ? error.message : 'erreur inconnue'}`,
+          );
+        }
       }
-      if (capabilities.email && prefs.deliveryChannel !== 'push') {
-        await this.deliver(event, 'email', now, async () => {
-          await this.notifications.sendEmail(user.email, payload);
-          return true;
-        });
-      }
+      if (users.length < USER_PAGE_SIZE) return generated;
+      cursor = users[users.length - 1].id;
     }
   }
 
-  /** Bail persistant : deux workers ne peuvent pas traiter le même canal simultanément. */
-  private async deliver(
-    event: NotificationEvent,
-    channel: string,
+  /**
+   * Dans la transaction du verrou : lit les rappels dus et les RÉSERVE atomiquement
+   * (`notifiedAt` : NULL → `now`, UPDATE … RETURNING). Seuls les rappels effectivement réservés
+   * seront envoyés : un rappel passé à « fait » entre-temps, ou réservé par une exécution qui
+   * se chevauche, est exclu. Aucun appel réseau ici.
+   *
+   * Un rappel de médicament ou de routine qui ne correspond plus à une occurrence de sa source
+   * (état actuel, même calcul que l'Agenda : source désactivée, supprimée ou modifiée depuis la
+   * génération, ou rappel généré à tort) n'est pas envoyé : il est supprimé (`pending` et non
+   * notifié uniquement).
+   */
+  private async claimDue(
+    tx: Prisma.TransactionClient,
     now: Date,
-    send: () => Promise<boolean>,
-  ) {
-    const delivery = await this.prisma.notificationDelivery.upsert({
+  ): Promise<{ found: number; claimed: DueReminder[] }> {
+    const candidates = await tx.notificationEvent.findMany({
       where: {
-        eventId_channel_version: {
-          eventId: event.id,
-          channel,
-          version: event.deliveryVersion,
-        },
-      },
-      create: {
-        eventId: event.id,
-        channel,
-        version: event.deliveryVersion,
-        nextAttemptAt: now,
-      },
-      update: {},
-    });
-    const claim = await this.prisma.notificationDelivery.updateMany({
-      where: {
-        id: delivery.id,
-        sentAt: null,
-        attempts: { lt: 5 },
-        nextAttemptAt: { lte: now },
-        OR: [{ leaseUntil: null }, { leaseUntil: { lt: now } }],
-      },
-      data: {
-        leaseUntil: new Date(now.getTime() + 300000),
-        attempts: { increment: 1 },
-      },
-    });
-    if (!claim.count) return;
-    // Vérifier une dernière fois une réalisation, une suppression ou un report intervenu pendant la réconciliation.
-    const current = await this.prisma.notificationEvent.findFirst({
-      where: {
-        id: event.id,
         status: 'pending',
-        deliveryVersion: event.deliveryVersion,
+        notifiedAt: null,
+        OR: [
+          {
+            snoozedUntil: null,
+            scheduledAt: {
+              gt: new Date(now.getTime() - REMINDER_WINDOW_MS),
+              lte: now,
+            },
+          },
+          {
+            snoozedUntil: {
+              gt: new Date(now.getTime() - 60 * 60_000),
+              lte: now,
+            },
+          },
+          {
+            deliveries: {
+              some: {
+                sentAt: null,
+                attempts: { lt: 5 },
+                nextAttemptAt: { lte: now },
+              },
+            },
+            scheduledAt: {
+              gt: new Date(now.getTime() - 60 * 60_000),
+              lte: now,
+            },
+          },
+        ],
       },
+      orderBy: { scheduledAt: 'asc' },
+      take: MAX_DISPATCH_PER_RUN,
+      select: DUE_REMINDER_SELECT,
     });
-    if (!current) {
-      await this.prisma.notificationDelivery.update({
-        where: { id: delivery.id },
-        data: { leaseUntil: null },
-      });
-      return;
-    }
-    try {
-      const sent = await send();
-      await this.prisma.notificationDelivery.update({
-        where: { id: delivery.id },
-        data: sent
-          ? { sentAt: now, leaseUntil: null }
-          : { attempts: 5, leaseUntil: null },
-      });
-    } catch {
-      await this.prisma.notificationDelivery.update({
-        where: { id: delivery.id },
-        data: {
-          leaseUntil: null,
-          nextAttemptAt: new Date(
-            now.getTime() + Math.min(15, 2 ** delivery.attempts) * 60000,
-          ),
+    const scheduled = candidates.filter((ev) =>
+      isStillScheduled(ev, ev.user.timezone),
+    );
+    const stale = candidates.filter((ev) => !scheduled.includes(ev));
+    const due = scheduled.filter((event) => {
+      const preferences = event.user.notificationPreferences[0];
+      return (
+        isTypeEnabled(preferences?.types, event.type) &&
+        insideDeliveryWindow(preferences?.schedule, now, event.user.timezone)
+      );
+    });
+    if (stale.length > 0) {
+      await tx.notificationEvent.deleteMany({
+        where: {
+          id: { in: stale.map((e) => e.id) },
+          status: 'pending',
+          notifiedAt: null,
         },
       });
-      this.logger.warn('Livraison reportée après un échec temporaire.');
+      this.logger.debug(
+        `${stale.length} rappel(s) obsolète(s) (source modifiée ou désactivée) supprimé(s).`,
+      );
     }
+    if (due.length === 0) return { found: 0, claimed: [] };
+
+    const rows = await tx.$queryRaw<{ id: string }[]>(
+      Prisma.sql`UPDATE "NotificationEvent"
+                 SET "notifiedAt" = ${now.toISOString()}::timestamptz, "updatedAt" = CURRENT_TIMESTAMP
+                 WHERE "id" IN (${Prisma.join(due.map((e) => e.id))})
+                   AND "notifiedAt" IS NULL AND "status" = 'pending'
+                 RETURNING "id"`,
+    );
+    const claimedIds = new Set(rows.map((r) => r.id));
+    return {
+      found: due.length,
+      claimed: due.filter((e) => claimedIds.has(e.id)),
+    };
+  }
+
+  /**
+   * Envoie les rappels réservés, HORS transaction, par lots de `DISPATCH_CONCURRENCY` en
+   * `Promise.allSettled` : un envoi en échec (ou qui lève) n'interrompt pas les autres.
+   */
+  private async dispatchClaimed(
+    claimed: DueReminder[],
+    now: Date,
+  ): Promise<Pick<ReminderRunResult, 'emailed' | 'pushed' | 'failed'>> {
+    const result = { emailed: 0, pushed: 0, failed: 0 };
+    const appUrl = (process.env.FRONTEND_URL || '').replace(/\/+$/, '') || null;
+    // Budget du canal natif pour toute l'exécution (horloge réelle) : FCM / Google lents ne
+    // retiennent jamais le job ; e-mail et Web Push ne sont pas concernés.
+    const nativeDeadline = Date.now() + NATIVE_PUSH_RUN_BUDGET_MS;
+
+    for (let i = 0; i < claimed.length; i += DISPATCH_CONCURRENCY) {
+      const batch = claimed.slice(i, i + DISPATCH_CONCURRENCY);
+      const outcomes = await Promise.allSettled(
+        batch.map((ev) => this.deliverOne(ev, appUrl, nativeDeadline, now)),
+      );
+      for (const [k, outcome] of outcomes.entries()) {
+        const delivered =
+          outcome.status === 'fulfilled'
+            ? outcome.value
+            : { emailed: false, pushed: false };
+        if (delivered.emailed) result.emailed++;
+        if (delivered.pushed) result.pushed++;
+        if (
+          !('retry' in delivered && delivered.retry) &&
+          (delivered.emailed || delivered.pushed)
+        )
+          continue;
+
+        // Aucun canal n'a abouti : on libère la réservation (si elle est toujours la nôtre)
+        // pour retenter au prochain tick, tant que l'événement reste dans la fenêtre de 10 min.
+        result.failed++;
+        await this.prisma.notificationEvent
+          .updateMany({
+            where: { id: batch[k].id, notifiedAt: now },
+            data: { notifiedAt: null },
+          })
+          .catch((error: unknown) =>
+            this.logger.warn(
+              `Libération du rappel ${batch[k].id} impossible : ${error instanceof Error ? error.message : 'erreur inconnue'}`,
+            ),
+          );
+      }
+    }
+    return result;
+  }
+
+  /** Un rappel, selon le canal choisi : e-mail et/ou push. N'échoue jamais (false = non envoyé). */
+  private async deliverOne(
+    ev: DueReminder,
+    appUrl: string | null,
+    nativeDeadline: number,
+    now: Date,
+  ): Promise<{ emailed: boolean; pushed: boolean; retry?: boolean }> {
+    const recipient = ev.user.email;
+    const channel = effectiveChannel(
+      ev.user.notificationPreferences[0]?.deliveryChannel,
+      recipient,
+    );
+    // Anciens rappels enregistrés avec une clé brute (« uvb », « sante ») : libellé lisible,
+    // dans la langue du compte, avant l'envoi en push ou par e-mail.
+    const label = reminderTypeLabel(ev.label || ev.type, ev.user.locale);
+    let emailed = false;
+    let pushed = false;
+    let retry = false;
+
+    if (recipient && (channel === 'email' || channel === 'both')) {
+      const send = () =>
+        this.mailService
+          .sendCareReminder(recipient, ev.user.locale, {
+            label,
+            animalName: ev.animal?.name,
+            scheduledAt: ev.scheduledAt,
+            timezone: ev.user.timezone,
+            appUrl,
+          })
+          .then((res) => {
+            if (!res.sent || res.simulated)
+              throw new Error('Reminder email not accepted');
+          });
+      emailed = await (
+        this.deliveries
+          ? this.deliveries.send(ev.id, ev.deliveryVersion, 'email', send, now)
+          : send().then(() => true)
+      ).catch(() => false);
+      retry = !emailed;
+    }
+
+    if (channel === 'push' || channel === 'both') {
+      const localReminder = localReminderFor(ev, ev.user.timezone);
+      const payload = {
+        title: label,
+        body: ev.animal?.name ?? label,
+        data: {
+          eventId: ev.id,
+          type: ev.type,
+          animalId: ev.animalId,
+          // Préfixe de locale pour l'URL ouverte au clic (sw.js : notificationclick).
+          locale: ev.user.locale,
+        },
+        // Push natif : pas d'envoi à un téléphone qui a déjà programmé CE rappel, à CET
+        // instant, en local (W6-07) ; jamais pour un RDV (J-N, 08:00) ni un vaccin.
+        ...(localReminder ? { localReminder } : {}),
+        nativeDeadline,
+        delivery: { eventId: ev.id, version: ev.deliveryVersion, now },
+      };
+      if (this.pushSender.deliver) {
+        const result = await this.pushSender
+          .deliver(ev.userId, payload)
+          .catch(() => ({ sent: 0, failed: 1, covered: 0 }));
+        pushed = result.sent + (result.covered ?? 0) > 0;
+        retry = retry || result.failed > 0;
+      } else {
+        pushed = await this.pushSender
+          .sendToUser(ev.userId, payload)
+          .catch(() => false);
+      }
+    }
+    return { emailed, pushed, retry };
   }
 }

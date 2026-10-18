@@ -1,12 +1,17 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { ForbiddenException, NotFoundException } from '@nestjs/common';
+import {
+  BadRequestException,
+  ForbiddenException,
+  NotFoundException,
+} from '@nestjs/common';
 import { AnimalsService } from './animals.service';
 import { PrismaService } from '../prisma/prisma.service';
+import { EntitlementService } from '../entitlement/entitlement.service';
 import { CreateAnimalDto, UpdateAnimalDto } from './dto/animal.dto';
+import { SpeciesCatalogService } from '../species/species-catalog.service';
 
 describe('AnimalsService', () => {
   let service: AnimalsService;
-  let prismaService: PrismaService;
 
   const mockUserId = 'user-id-123';
   const mockAnimalId = 'animal-id-456';
@@ -37,8 +42,11 @@ describe('AnimalsService', () => {
 
   // Transaction context used by create() (prisma.$transaction(async (tx) => ...))
   const mockTx = {
+    $queryRaw: jest.fn().mockResolvedValue([{ id: 'user-id-123' }]),
     user: {
       findUnique: jest.fn(),
+      // EntitlementService.isPremium (W6-08) : aucun abonnement store dans ces tests.
+      findFirst: jest.fn().mockResolvedValue(null),
     },
     animal: {
       create: jest.fn(),
@@ -62,19 +70,24 @@ describe('AnimalsService', () => {
     },
   };
 
+  const mockSpeciesCatalog = {
+    ensureSpecies: jest.fn().mockResolvedValue(undefined),
+  };
+
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [
         AnimalsService,
+        EntitlementService,
         {
           provide: PrismaService,
           useValue: mockPrismaService,
         },
+        { provide: SpeciesCatalogService, useValue: mockSpeciesCatalog },
       ],
     }).compile();
 
     service = module.get<AnimalsService>(AnimalsService);
-    prismaService = module.get<PrismaService>(PrismaService);
 
     jest.clearAllMocks();
   });
@@ -142,12 +155,82 @@ describe('AnimalsService', () => {
       expect(mockTx.animal.create).toHaveBeenCalled();
     });
 
+    it('vérifie la fiche espèce avant la création (espèce issue du repli GBIF)', async () => {
+      mockTx.user.findUnique.mockResolvedValue({
+        ...mockUser,
+        _count: { animals: 0 },
+      });
+      mockTx.animal.create.mockResolvedValue(mockAnimal);
+
+      await service.create(mockUserId, createDto);
+
+      expect(mockSpeciesCatalog.ensureSpecies).toHaveBeenCalledWith(123);
+    });
+
+    it('transforme un échec de clé étrangère (P2003) en 400 avec un code, jamais en 500', async () => {
+      mockTx.user.findUnique.mockResolvedValue({
+        ...mockUser,
+        _count: { animals: 0 },
+      });
+      mockTx.animal.create.mockRejectedValue(
+        Object.assign(new Error('Foreign key constraint violated'), {
+          code: 'P2003',
+          meta: { field_name: 'Animal_speciesId_fkey (index)' },
+        }),
+      );
+
+      const error = await service
+        .create(mockUserId, createDto)
+        .catch((e: unknown) => e);
+      expect(error).toBeInstanceOf(BadRequestException);
+      expect((error as BadRequestException).getResponse()).toMatchObject({
+        code: 'SPECIES_NOT_FOUND',
+      });
+    });
+
+    it('propage le refus du catalogue (taxon non animal) sans créer l’animal', async () => {
+      mockSpeciesCatalog.ensureSpecies.mockRejectedValueOnce(
+        new BadRequestException({ code: 'SPECIES_NOT_ANIMAL' }),
+      );
+
+      await expect(service.create(mockUserId, createDto)).rejects.toThrow(
+        BadRequestException,
+      );
+      expect(mockTx.animal.create).not.toHaveBeenCalled();
+    });
+
     it('should throw NotFoundException if user not found', async () => {
       mockTx.user.findUnique.mockResolvedValue(null);
 
       await expect(service.create(mockUserId, createDto)).rejects.toThrow(
         NotFoundException,
       );
+    });
+
+    it('should lock the user row (FOR UPDATE) before counting animals', async () => {
+      mockTx.user.findUnique.mockResolvedValue({
+        ...mockUser,
+        _count: { animals: 0 },
+      });
+      mockTx.animal.create.mockResolvedValue(mockAnimal);
+
+      await service.create(mockUserId, createDto);
+
+      expect(mockTx.$queryRaw).toHaveBeenCalledTimes(1);
+      const [strings] = mockTx.$queryRaw.mock.calls[0] as [string[]];
+      expect(strings.join('?')).toContain('FOR UPDATE');
+      expect(mockTx.$queryRaw.mock.invocationCallOrder[0]).toBeLessThan(
+        mockTx.user.findUnique.mock.invocationCallOrder[0],
+      );
+    });
+
+    it('should throw NotFoundException if the user row cannot be locked', async () => {
+      mockTx.$queryRaw.mockResolvedValueOnce([]);
+
+      await expect(service.create(mockUserId, createDto)).rejects.toThrow(
+        NotFoundException,
+      );
+      expect(mockTx.animal.create).not.toHaveBeenCalled();
     });
 
     it('should handle null values correctly', async () => {
@@ -190,7 +273,9 @@ describe('AnimalsService', () => {
           routines: expect.any(Object),
           _count: expect.any(Object),
         }),
-        orderBy: { createdAt: 'desc' },
+        orderBy: [{ createdAt: 'desc' }, { id: 'asc' }],
+        take: 100,
+        skip: 0,
       });
     });
 
@@ -229,9 +314,9 @@ describe('AnimalsService', () => {
     it('should throw NotFoundException if animal not found', async () => {
       mockPrismaService.animal.findUnique.mockResolvedValue(null);
 
-      await expect(
-        service.findOne('invalid-id', mockUserId),
-      ).rejects.toThrow(NotFoundException);
+      await expect(service.findOne('invalid-id', mockUserId)).rejects.toThrow(
+        NotFoundException,
+      );
     });
 
     it('should throw ForbiddenException if user does not own animal', async () => {

@@ -1,5 +1,5 @@
+import { SnoozeEventDto } from './snooze-event.dto';
 import {
-  BadRequestException,
   Body,
   Controller,
   Delete,
@@ -14,7 +14,7 @@ import {
 import { ApiTags, ApiOperation, ApiBearerAuth } from '@nestjs/swagger';
 import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard';
 import { GradeService } from './grade.service';
-import { SnoozeEventDto } from './snooze-event.dto';
+import { NotificationEventsQueryDto, SetEventStatusDto } from './dto/grade.dto';
 
 @ApiTags('grade')
 @Controller('users/me')
@@ -32,17 +32,16 @@ export class GradeController {
   @Get('notification-events')
   @ApiOperation({
     summary:
-      'Get reminders for a local day without resetting completed or dismissed occurrences',
+      'Get notification events for a day (default today), create from preferences if empty',
   })
   async getNotificationEvents(
     @Request() req: { user: { id: string } },
-    @Query('date') date?: string,
-    @Query('refresh') refresh?: string,
+    @Query() query: NotificationEventsQueryDto,
   ) {
     return this.gradeService.getOrCreateTodayEvents(
       req.user.id,
-      date,
-      refresh === '1' || refresh === 'true',
+      query.date,
+      query.refresh === '1' || query.refresh === 'true',
     );
   }
 
@@ -51,11 +50,8 @@ export class GradeController {
   async setEventStatus(
     @Request() req: { user: { id: string } },
     @Param('id') id: string,
-    @Body() body: { status: 'done' | 'skipped' },
+    @Body() body: SetEventStatusDto,
   ) {
-    if (!body?.status || !['done', 'skipped'].includes(body.status)) {
-      throw new BadRequestException('status must be done or skipped');
-    }
     const result = await this.gradeService.setEventStatus(
       req.user.id,
       id,
@@ -73,13 +69,13 @@ export class GradeController {
     @Param('id') id: string,
     @Body() body: SnoozeEventDto,
   ) {
-    const result = await this.gradeService.snoozeEvent(
+    const event = await this.gradeService.snoozeEvent(
       req.user.id,
       id,
       body.minutes,
     );
-    if (!result) throw new NotFoundException('Notification event not found');
-    return result;
+    if (!event) throw new NotFoundException('Notification event not found');
+    return event;
   }
 
   @Delete('notification-events/:id')

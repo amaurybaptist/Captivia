@@ -1,5 +1,4 @@
 import { randomUUID } from 'crypto';
-import * as operators from '../src/common/operators';
 import { Server } from 'http';
 import { Test } from '@nestjs/testing';
 import { INestApplication, ValidationPipe } from '@nestjs/common';
@@ -67,8 +66,8 @@ const snapshot = () => ({
 
 describe('Habitats — HTTP/JWT/PostgreSQL réel isolé', () => {
   let app: INestApplication, prisma: PrismaService, jwt: JwtService;
-  let a: { id: string; email: string },
-    b: { id: string; email: string },
+  let a: { id: string; email: string | null },
+    b: { id: string; email: string | null },
     tokenA: string,
     tokenB: string;
   const api = '/users/me/habitats';
@@ -125,7 +124,9 @@ describe('Habitats — HTTP/JWT/PostgreSQL réel isolé', () => {
   afterEach(async () => {
     if (prisma) {
       await prisma.user.deleteMany({
-        where: { id: { in: [a?.id, b?.id].filter((id): id is string => !!id) } },
+        where: {
+          id: { in: [a?.id, b?.id].filter((id): id is string => !!id) },
+        },
       });
     }
   });
@@ -214,21 +215,14 @@ describe('Habitats — HTTP/JWT/PostgreSQL réel isolé', () => {
     expect(restored.body).toHaveLength(1);
   });
   it('conserve l’accès des opérateurs selon la règle Premium existante', async () => {
-    const operator = jest
-      .spyOn(operators, 'isOperatorEmail')
-      .mockImplementation((email) => email === b.email);
-    try {
-      await prisma.user.update({
-        where: { id: b.id },
-        data: { isPremium: false },
-      });
-      await request(app.getHttpServer() as Server)
-        .get(api)
-        .set('Authorization', auth(tokenB))
-        .expect(200);
-    } finally {
-      operator.mockRestore();
-    }
+    await prisma.user.update({
+      where: { id: b.id },
+      data: { isPremium: false, role: 'OPERATOR' },
+    });
+    await request(app.getHttpServer() as Server)
+      .get(api)
+      .set('Authorization', auth(tokenB))
+      .expect(200);
   });
   it('crée, relit, modifie et supprime un projet sans perte de notes', async () => {
     const first = await createProject();

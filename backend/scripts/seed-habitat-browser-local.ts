@@ -42,6 +42,7 @@ async function main() {
           isPremium: true,
         },
       });
+      if (!row.email) throw new Error('Expected a registered fixture user');
       users.push({
         user: { id: row.id, email: row.email, locale: 'fr', isPremium: true },
         token: jwt.sign({ sub: row.id }, { expiresIn: '1h' }),

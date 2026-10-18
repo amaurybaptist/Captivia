@@ -1,3 +1,4 @@
+import type { PushDispatcher } from './push-dispatcher';
 import { createServer, Socket } from 'net';
 import { NotificationsService } from './notifications.service';
 import { PrismaService } from '../prisma/prisma.service';
@@ -61,7 +62,10 @@ it('livre réellement un email à un serveur SMTP local, sans destinataire exter
     process.env.MAIL_REQUIRE_TLS = 'false';
     delete process.env.MAIL_USER;
     delete process.env.MAIL_PASS;
-    const service = new NotificationsService({} as PrismaService);
+    const service = new NotificationsService(
+      {} as PrismaService,
+      {} as PushDispatcher,
+    );
     await service.sendEmail('recipient@example.test', {
       title: 'Rappel local',
       body: 'Nettoyage pour Kiwi',
